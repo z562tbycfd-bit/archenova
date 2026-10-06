@@ -1,7 +1,124 @@
 {
   "ok": true,
-  "updated": "2026-10-06T14:51:37.188Z",
+  "updated": "2026-10-06T20:02:46.176Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Shionogi Grows Rare Disease Portfolio with $2B IntraBio Acquisition",
+      "url": "https://www.genengnews.com/topics/translational-medicine/shionogi-grows-rare-disease-portfolio-with-2b-intrabio-acquisition/",
+      "summary": "Shionogi signaled its intent to focus on rare disease drugs in April when it acquired Radicava (edaravone), an amyotrophic lateral sclerosis (ALS) treatment, from Tanabe Pharma for $2.5 billion and potential royalties. T…",
+      "ts": 1791316420000,
+      "publishedAt": "2026-10-06T19:53:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Deposition Sciences, Inc. Expands Sunshade® Tape Offering with New 12″ × 30″ Format",
+      "url": "https://spacenews.com/deposition-sciences-inc-expands-sunshade-tape-offering-with-new-12-x-30-format/",
+      "summary": "Santa Rosa, CA — October 2026 — Deposition Sciences, Inc. (DSI), a leader in advanced thin film coatings, proudly announces the introduction of a new 12″ × 30″ format for […] The post Deposition Sciences, Inc. Expands Su…",
+      "ts": 1791314420000,
+      "publishedAt": "2026-10-06T19:20:20.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+      "summary": "After delivering more than 11,000 pounds of supplies, science experiments, and other cargo to the International Space Station for NASA, Northrop Grumman’s Cygnus XL spacecraft is scheduled to depart Friday, Oct. 9, as pa…",
+      "ts": 1791311500000,
+      "publishedAt": "2026-10-06T18:31:40.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "October 2026 Satellite Puzzler",
+      "url": "https://science.nasa.gov/earth/earth-observatory/october-2026-satellite-puzzler/",
+      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
+      "ts": 1791311258000,
+      "publishedAt": "2026-10-06T18:27:38.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Lunar Grounding Challenge",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/",
+      "summary": "As an astronaut traverses the lunar South Pole, tribocharging from walking on the lunar surface and plasma charging from the ambient plasma generate electric charge on the spacesuit. This problem is severely compounded w…",
+      "ts": 1791310944000,
+      "publishedAt": "2026-10-06T18:22:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Glenn Invites Phase 1 Proposals for Aerospace Power Systems Laboratory",
+      "url": "https://www.nasa.gov/news-release/nasa-glenn-invites-phase-1-proposals-for-aerospace-power-systems-laboratory/",
+      "summary": "NASA’s Glenn Research Center in Cleveland is seeking Phase 1 proposals for the design and construction of the Aerospace Power Systems Laboratory. The principal purpose of this procurement is to deliver a laboratory facil…",
+      "ts": 1791309352000,
+      "publishedAt": "2026-10-06T17:55:52.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
+      "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
+      "summary": "Popular weight-loss drugs may do more than help people shed pounds. They might also melt away the years. Drug giants Eli Lilly and Novo Nordisk say patients taking their drugs age less quickly, according to readouts from…",
+      "ts": 1791304836000,
+      "publishedAt": "2026-10-06T16:40:36.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Astronomers Solve Cosmic Cold Case with NASA Hubble Data",
+      "url": "https://www.nasa.gov/image-article/astronomers-solve-cosmic-cold-case-with-nasa-hubble-data/",
+      "summary": "Diligent sleuthing by astronomers uncovered a surprising chemical clue that indicates the white dwarf star HS 0209+0832 may host a second-generation planet. This artist’s concept released on Oct. 5, 2026, depicts that po…",
+      "ts": 1791302953000,
+      "publishedAt": "2026-10-06T16:09:13.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "ts": 1791302400000,
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Epitranscriptome Heads Toward Clinical Necessity",
+      "url": "https://www.genengnews.com/topics/omics/the-epitranscriptome-heads-toward-clinical-necessity/",
+      "summary": "Short-read RNA sequencing reporting the modifications that alter protein output is starting to make epitranscriptomics indispensable for patient selection in precision medicines. The post The Epitranscriptome Heads Towar…",
+      "ts": 1791300829000,
+      "publishedAt": "2026-10-06T15:33:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+      "summary": "A newly released panorama captured by NASA’s Curiosity rover offers the most detailed view yet of distant, wind-carved Martian cliffs, highlighting features the mission’s scientists have long been waiting to see up close…",
+      "ts": 1791300607000,
+      "publishedAt": "2026-10-06T15:30:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Investigating Prions and Protein Aggregation at High Sensitivity and Throughput",
+      "url": "https://www.genengnews.com/sponsored/investigating-prions-and-protein-aggregation-at-high-sensitivity-and-throughput/",
+      "summary": "With no cure available for prion diseases, researchers are striving to improve assay sensitivity and exploit the benefits of real-time monitoring to support the development of better diagnostic and treatment approaches. …",
+      "ts": 1791298954000,
+      "publishedAt": "2026-10-06T15:02:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Inside All-ScaleFlow: Continuous End-to-End RNA-LNP Manufacturing",
+      "url": "https://www.genengnews.com/sponsored/inside-all-scaleflow-continuous-end-to-end-rna-lnp-manufacturing/",
+      "summary": "Dillico’s GMP-ready Continuous Manufacturing by Engineering, Not Hype The post Inside All-ScaleFlow: Continuous End-to-End RNA-LNP Manufacturing appeared first on GEN - Genetic Engineering and Biotechnology News.",
+      "ts": 1791298803000,
+      "publishedAt": "2026-10-06T15:00:03.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: AstraZeneca opens new Boston site ",
@@ -10,6 +127,15 @@
       "ts": 1791297660000,
       "publishedAt": "2026-10-06T14:41:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA at IAC 2026 – Day 2",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_IAC_2026_Day_2",
+      "summary": "International cooperation remained at the heart of ESA’s participation in the 77th International Astronautical Congress (IAC) in Antalya, Türkiye, as ESA Director General Josef Aschbacher held a series of high-level meet…",
+      "ts": 1791297420000,
+      "publishedAt": "2026-10-06T14:37:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -82,6 +208,60 @@
       "ts": 1791288600000,
       "publishedAt": "2026-10-06T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168537",
+      "summary": "Across Papua New Guinea, water sources are drying up, crops are failing and food prices are rising months before the worst agricultural impacts are expected. Behind those warning signs is an El Niño whose Pacific Ocean t…",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Djibouti faces ‘overlapping emergencies’ as Yemen’s refugee exodus continues",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168535",
+      "summary": "Djibouti is facing “overlapping emergencies” as refugees fleeing the conflict in Yemen arrive on its shores while migrants continue to travel in the opposite direction, the UN migration agency (IOM) warned on Tuesday.",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Testing and monitoring underway in suspected Russia plague death",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168533",
+      "summary": "The death of a lab worker in Russia’s Siberia region has sparked concerns over a possible plague case, the UN World Health Organization (WHO) said on Tuesday, adding that it was following the situation closely.",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "In Islamabad, Guterres calls for end to US-Iran conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168532",
+      "summary": "The UN Secretary-General appealed on Tuesday for an end to the United States-Iran war and the toll it has taken on global trade, as he began an official visit to Pakistan.",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Ebola takes the people children depend on’: UNICEF",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168531",
+      "summary": "The Ebola outbreak in the eastern Democratic Republic of the Congo (DRC) is robbing children of their loved ones – with some succumbing to the deadly disease themselves, the UN Children’s Fund (UNICEF) reported on Tuesda…",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "When streets become pharmacies: Booming illicit markets in Central Africa",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168527",
+      "summary": "Antibiotics, malaria treatments, painkillers, opioids. More than 250 tonnes of medical products were seized over six years in Central Africa. Behind those numbers is an illicit market that thrives not simply despite the …",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -183,6 +363,24 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "ts": 1791280800000,
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Watch Sophie Adenot return to Earth ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Watch_Sophie_Adenot_return_to_Earth",
+      "summary": "On 7 October 2026, ESA astronaut Sophie Adenot and her Crew-12 crewmates will undock from the International Space Station at around 12:05 GMT/14:05 CEST to begin their journey back to Earth.",
+      "ts": 1791275640000,
+      "publishedAt": "2026-10-06T08:34:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "In this hospital, pulse oximeters went from overestimating to underestimating blood oxygen. Why?",
       "url": "https://www.statnews.com/2026/10/06/pulse-oximeters-overestimate-and-underestimate-blood-oxygen-study/?utm_campaign=rss",
@@ -231,7 +429,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
-      "summary": "APOD Science APOD APOD: 2026 October 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "summary": "APODScienceAPODAPOD: 2026 October 6 – A…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fas…",
       "ts": 1791259500000,
       "publishedAt": "2026-10-06T04:05:00.000Z",
       "categoryId": "space"
@@ -610,204 +808,6 @@
       "title": "CoHyFuse: Condition-wise Hypergraph Fusion with Global Connectome in Task-fMRI",
       "url": "https://arxiv.org/abs/2610.05913",
       "summary": "arXiv:2610.05913v1 Announce Type: cross Abstract: Task-fMRI connectomes reveal state-dependent neural reconfigurations, yet conventional methods marginalize these signals by aggregating distinct conditions into static pa…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Unraveling phenotypic variation in multiscale behavioral dynamics",
-      "url": "https://arxiv.org/abs/2610.06027",
-      "summary": "arXiv:2610.06027v1 Announce Type: cross Abstract: Behavioral variability reflects differences in internal and external parameters and provides a substrate for natural selection. However, uncovering its structure is chall…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Random Genetic Variation Links Personality to Earnings and Wealth",
-      "url": "https://arxiv.org/abs/2610.06088",
-      "summary": "arXiv:2610.06088v1 Announce Type: cross Abstract: Personality is associated with economic outcomes, but whether these relationships are causal remains unclear. We exploit within-family variation in genetic propensity tow…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Classification of strongly non-hyperbolic critical points of planar second-order chemical reaction systems",
-      "url": "https://arxiv.org/abs/2610.06130",
-      "summary": "arXiv:2610.06130v1 Announce Type: cross Abstract: The dynamics of chemical reaction systems with two chemical species can be described (under mass-action kinetics) by planar autonomous systems of ordinary differential eq…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Self-assembly Monte Carlo reveals localized entanglement in giant polymer melts",
-      "url": "https://arxiv.org/abs/2610.06498",
-      "summary": "arXiv:2610.06498v1 Announce Type: cross Abstract: Topological entanglements are central to understanding and predicting the properties of polymer melts. Yet, they make equilibrium sampling computationally challenging, as…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "NeuroCBIR: A Fast and Accurate Image Retrieval System for Whole-Brain and Region-Specific MRI",
-      "url": "https://arxiv.org/abs/2610.06502",
-      "summary": "arXiv:2610.06502v1 Announce Type: cross Abstract: Content-based image retrieval (CBIR) in neuroimaging enables the identification of structurally similar brain scans, supporting diagnosis, prognosis, and treatment planni…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Drivers of periodicity in population dynamic models of long-lived, large mammals",
-      "url": "https://arxiv.org/abs/2508.09037",
-      "summary": "arXiv:2508.09037v3 Announce Type: replace Abstract: Population cycles are important components of many natural systems. Most studied in short-lived and small-bodied species, cycles frequently appear to be driven by densi…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Personalizable Models of Cardiac Elasticity with Physics-informed Symbolic Regression",
-      "url": "https://arxiv.org/abs/2508.09772",
-      "summary": "arXiv:2508.09772v4 Announce Type: replace Abstract: Cardiac digital twins hold great promise for personalized medicine, but they currently depend on complex constitutive models of tissue mechanics that are often over-par…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "easyplater: The easy way to generate microplate designs deconvolved from multivariate clinical data",
-      "url": "https://arxiv.org/abs/2512.17988",
-      "summary": "arXiv:2512.17988v3 Announce Type: replace Abstract: Microplate-based omic studies of large clinical cohorts can accelerate biomedical research, but experimental power and veracity are compromised when plate positional ef…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamical incompatibilities in paced finger tapping experiments",
-      "url": "https://arxiv.org/abs/2512.23661",
-      "summary": "arXiv:2512.23661v3 Announce Type: replace Abstract: Paced finger-tapping tasks are used to probe the error correction mechanism underlying sensorimotor synchronization. Despite their century-long history, fundamental con…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Constraints on the perfect phylogeny mixture model and their effect on reducing degeneracy",
-      "url": "https://arxiv.org/abs/2512.24930",
-      "summary": "arXiv:2512.24930v2 Announce Type: replace Abstract: The perfect phylogeny mixture (PPM) model is useful due to its simplicity and applicability in scenarios where mutations can be assumed to accumulate monotonically over…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Interplay between evolutionary and epidemic time scales challenges the outcome of control policies",
-      "url": "https://arxiv.org/abs/2603.18801",
-      "summary": "arXiv:2603.18801v2 Announce Type: replace Abstract: The classical SIR model, assuming constant viral traits, represents the cornerstone model for computing key indicators during epidemic outbreaks, such as the expected p…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sequential chaotic oscillations in excitatory-inhibitory threshold-linear networks",
-      "url": "https://arxiv.org/abs/2606.00373",
-      "summary": "arXiv:2606.00373v2 Announce Type: replace Abstract: Metastable states, a phenomenon observed in brain dynamics and many other systems, have been proposed as a key feature of healthy brain function, reflecting a balance b…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Topological Representations of Protein Structure and Dynamics",
-      "url": "https://arxiv.org/abs/2606.14737",
-      "summary": "arXiv:2606.14737v2 Announce Type: replace Abstract: Modern protein representation models support tasks such as enzyme design and drug discovery, but their reliance on static data such as sequence and native structure lim…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evaluation Resolution Confounds Learning-Rule Comparisons in Model-Brain RSA of Early Visual Cortex",
-      "url": "https://arxiv.org/abs/2608.12408",
-      "summary": "arXiv:2608.12408v3 Announce Type: replace Abstract: Studies of biologically plausible learning rules (feedback alignment, predictive coding, STDP) train small networks on $32\\times32$ images and compare them with brain r…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Surf_2_Volume: A Python Package for Converting CIFTI Cortical Parcellations to NIfTI Volumes",
-      "url": "https://arxiv.org/abs/2608.27012",
-      "summary": "arXiv:2608.27012v3 Announce Type: replace Abstract: Many volume-based neuroimaging workflows require NIfTI label volumes, whereas a growing number of cortical parcellations are distributed in CIFTI surface space. We pres…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A coupled geometric surface and surface reaction-diffusion framework for modelling nuclear mechanics during confined cell migration",
-      "url": "https://arxiv.org/abs/2610.02231",
-      "summary": "arXiv:2610.02231v2 Announce Type: replace Abstract: Confined cell migration is governed by nuclear and cellular deformation. In this work, we formulate a two-dimensional mathematical framework in which the cell and nucle…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A mathematical model of the vowel space",
-      "url": "https://arxiv.org/abs/2111.00868",
-      "summary": "arXiv:2111.00868v3 Announce Type: replace-cross Abstract: The articulatory-acoustic relationship is many-to-one and non linear and this is a great limitation for studying speech production. A simplification is proposed t…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Three tiers of computation in transformers and in brain architectures",
-      "url": "https://arxiv.org/abs/2503.04848",
-      "summary": "arXiv:2503.04848v3 Announce Type: replace-cross Abstract: Human language and logic abilities are computationally quantified within the well-studied grammar-automata hierarchy. We identify three hierarchical tiers and two…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Automating MD simulations for Proteins using Large language Models: NAMD-Agent",
-      "url": "https://arxiv.org/abs/2507.07887",
-      "summary": "arXiv:2507.07887v2 Announce Type: replace-cross Abstract: Molecular dynamics (MD) simulations are essential for understanding protein structure, dynamics, and function, but preparing, running, and analyzing simulations r…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Multimodal Sequence-to-Sequence Model for Cross-Subject Prediction of Brain Responses to Naturalistic Stimuli",
-      "url": "https://arxiv.org/abs/2507.18104",
-      "summary": "arXiv:2507.18104v3 Announce Type: replace-cross Abstract: Brain encoding models predict time-resolved neural activity from computational representations of ongoing experience, providing a principled framework for testing…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Untrained CNNs Exceed Backpropagation in V1 Alignment at High Evaluation Resolution: A Systematic RSA Comparison of Four Learning Rules Against Human fMRI",
-      "url": "https://arxiv.org/abs/2604.16875",
-      "summary": "arXiv:2604.16875v4 Announce Type: replace-cross Abstract: Revised version (v4): noise ceiling replaced, analyses restricted to stimulus pairs presented in different fMRI runs, repaired evaluation of all five conditions. …",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Word-Class and Construction-Like Structure Emerges in Neural Successor Representations Trained on Natural Language",
-      "url": "https://arxiv.org/abs/2605.24585",
-      "summary": "arXiv:2605.24585v2 Announce Type: replace-cross Abstract: Neural language models are typically trained on next-token prediction, although linguistic structure spans multiple temporal scales. Successor representations (SR…",
       "ts": 1791259200000,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "categoryId": "bio"
