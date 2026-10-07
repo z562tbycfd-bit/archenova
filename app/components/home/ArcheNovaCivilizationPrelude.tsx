@@ -154,9 +154,6 @@ export default function ArcheNovaCivilizationPrelude() {
 
   /* ========================================================
      KEYBOARD NAVIGATION
-
-     ← Previous
-     → Next
   ======================================================== */
 
   const handleKeyDown =
@@ -170,7 +167,6 @@ export default function ArcheNovaCivilizationPrelude() {
           "ArrowLeft"
         ) {
           event.preventDefault();
-
           goPrevious();
         }
 
@@ -179,7 +175,6 @@ export default function ArcheNovaCivilizationPrelude() {
           "ArrowRight"
         ) {
           event.preventDefault();
-
           goNext();
         }
       },
@@ -191,14 +186,6 @@ export default function ArcheNovaCivilizationPrelude() {
 
   /* ========================================================
      TOUCH / SWIPE
-
-     Horizontal:
-     chapter navigation.
-
-     Vertical:
-     normal page scrolling.
-
-     preventDefault is intentionally not used.
   ======================================================== */
 
   const handleTouchStart =
@@ -293,8 +280,8 @@ export default function ArcheNovaCivilizationPrelude() {
         endY - startY;
 
       /*
-       * A predominantly vertical gesture
-       * belongs to normal page scrolling.
+       * Vertical gesture:
+       * preserve normal HOME scrolling.
        */
       if (
         Math.abs(deltaY) >=
@@ -310,17 +297,11 @@ export default function ArcheNovaCivilizationPrelude() {
         return;
       }
 
-      /*
-       * Swipe left → next.
-       */
       if (deltaX < 0) {
         goNext();
         return;
       }
 
-      /*
-       * Swipe right → previous.
-       */
       goPrevious();
     },
     [
@@ -352,16 +333,9 @@ export default function ArcheNovaCivilizationPrelude() {
         handleTouchEnd
       }
     >
-      {/* ====================================================
-          ONE PERMANENT FRAME
-
-          No start / fixed / end states.
-          The frame remains exactly the same while
-          only the chapter content changes.
-      ==================================================== */}
-
       <div className="an-civilization-purpose__frame">
         <div className="an-civilization-purpose__glass">
+
           {/* ==================================================
               PREVIOUS
           ================================================== */}
@@ -389,10 +363,7 @@ export default function ArcheNovaCivilizationPrelude() {
           </button>
 
           {/* ==================================================
-              CHAPTER VIEWPORT
-
-              Only the article remounts.
-              Frame and glass remain permanent.
+              CHAPTER
           ================================================== */}
 
           <div className="an-civilization-purpose__chapter-viewport">
@@ -450,28 +421,14 @@ export default function ArcheNovaCivilizationPrelude() {
           </button>
 
           {/* ==================================================
-              POSITION / PROGRESS
+              BOTTOM NAVIGATION
+
+              UserPreludeと同じ視覚構成:
+              LEFT  = progress
+              RIGHT = 01 / 05
           ================================================== */}
 
           <div className="an-civilization-purpose__navigation">
-            <p
-              className="an-civilization-purpose__position"
-              aria-label={`Chapter ${
-                activeIndex + 1
-              } of ${CHAPTER_COUNT}`}
-            >
-              {
-                chapter.number
-              }
-              {" / "}
-              {String(
-                CHAPTER_COUNT,
-              ).padStart(
-                2,
-                "0",
-              )}
-            </p>
-
             <div
               className="an-civilization-purpose__progress"
               aria-label="Prelude chapters"
@@ -515,6 +472,24 @@ export default function ArcheNovaCivilizationPrelude() {
                 ),
               )}
             </div>
+
+            <p
+              className="an-civilization-purpose__position"
+              aria-label={`Chapter ${
+                activeIndex + 1
+              } of ${CHAPTER_COUNT}`}
+            >
+              {
+                chapter.number
+              }
+              {" / "}
+              {String(
+                CHAPTER_COUNT,
+              ).padStart(
+                2,
+                "0",
+              )}
+            </p>
           </div>
         </div>
       </div>
@@ -522,23 +497,7 @@ export default function ArcheNovaCivilizationPrelude() {
       <style jsx global>{`
         /* ==================================================
            CIVILIZATION PRELUDE
-           HORIZONTAL NAVIGATION
-
-           Removed:
-           - 500svh scroll territory
-           - requestAnimationFrame
-           - getBoundingClientRect
-           - fixed positioning
-           - start / fixed / end states
-
-           Architecture:
-           One section
-           → One frame
-           → One glass
-           → Five chapters
-
-           Display specification:
-           ArcheNovaIdealUserPrelude.tsx
+           USER PRELUDE DISPLAY MODEL
         ================================================== */
 
         #archenova-civilization-prelude.an-civilization-purpose--horizontal {
@@ -589,11 +548,6 @@ export default function ArcheNovaCivilizationPrelude() {
           outline:
             none;
 
-          /*
-           * Allow native vertical scrolling.
-           * Horizontal gestures are interpreted
-           * by the React handlers.
-           */
           touch-action:
             pan-y;
 
@@ -603,19 +557,10 @@ export default function ArcheNovaCivilizationPrelude() {
 
         /* ==================================================
            PERMANENT FRAME
-
-           Also neutralizes any previous global CSS
-           targeting the old state classes.
         ================================================== */
 
         #archenova-civilization-prelude.an-civilization-purpose--horizontal
-        > .an-civilization-purpose__frame,
-        #archenova-civilization-prelude.an-civilization-purpose--horizontal
-        > .an-civilization-purpose__frame--start,
-        #archenova-civilization-prelude.an-civilization-purpose--horizontal
-        > .an-civilization-purpose__frame--fixed,
-        #archenova-civilization-prelude.an-civilization-purpose--horizontal
-        > .an-civilization-purpose__frame--end {
+        > .an-civilization-purpose__frame {
           position:
             relative !important;
 
@@ -699,23 +644,10 @@ export default function ArcheNovaCivilizationPrelude() {
         }
 
         /* ==================================================
-           EXISTING GLASS
+           GLASS
 
-           Material properties are intentionally not
-           redefined here.
-
-           Existing:
-           - background
-           - border
-           - blur
-           - shadow
-           - optical glass styling
-
-           remain canonical.
-
-           Only geometry is controlled.
-
-           Values are identical to IdealUserPrelude.
+           Material itself remains inherited from
+           existing ArcheNova glass styling.
         ================================================== */
 
         #archenova-civilization-prelude
@@ -777,8 +709,6 @@ export default function ArcheNovaCivilizationPrelude() {
 
         /* ==================================================
            CHAPTER VIEWPORT
-
-           Identical geometry to IdealUserPrelude.
         ================================================== */
 
         #archenova-civilization-prelude
@@ -794,6 +724,9 @@ export default function ArcheNovaCivilizationPrelude() {
 
           justify-content:
             center;
+
+          box-sizing:
+            border-box;
 
           width:
             min(
@@ -830,6 +763,9 @@ export default function ArcheNovaCivilizationPrelude() {
 
           justify-content:
             center !important;
+
+          box-sizing:
+            border-box !important;
 
           width:
             100% !important;
@@ -868,13 +804,7 @@ export default function ArcheNovaCivilizationPrelude() {
         }
 
         /* ==================================================
-           EXISTING TYPOGRAPHY
-
-           Preserve current typography while neutralizing
-           positioning rules inherited from the old
-           vertical-scroll architecture.
-
-           Identical treatment to IdealUserPrelude.
+           TYPOGRAPHY POSITION RESET
         ================================================== */
 
         #archenova-civilization-prelude
@@ -935,14 +865,7 @@ export default function ArcheNovaCivilizationPrelude() {
         }
 
         /* ==================================================
-           NAVIGATION ARROWS
-
-           Identical visual specification to IdealUserPrelude:
-           - extremely thin
-           - no heavy button
-           - no opaque background
-           - no sci-fi glow
-           - no duplicated glass
+           ARROWS
         ================================================== */
 
         #archenova-civilization-prelude
@@ -1071,15 +994,6 @@ export default function ArcheNovaCivilizationPrelude() {
             non-scaling-stroke;
         }
 
-        /* ==================================================
-           EDGE STATE
-
-           Do not loop 05 → 01 or 01 → 05.
-
-           Disabled arrow remains faintly present so
-           composition does not shift.
-        ================================================== */
-
         #archenova-civilization-prelude
         .an-civilization-purpose__arrow:disabled {
           color:
@@ -1113,88 +1027,118 @@ export default function ArcheNovaCivilizationPrelude() {
         }
 
         /* ==================================================
-           POSITION / PROGRESS
+           BOTTOM NAVIGATION
 
-           Identical structure and geometry to
-           IdealUserPrelude.
+           IMPORTANT:
+           Do not rely on old .position absolute rules.
+
+           Entire navigation owns the bottom position.
+           progress = LEFT
+           position = RIGHT
         ================================================== */
 
         #archenova-civilization-prelude
         .an-civilization-purpose__navigation {
           position:
-            absolute;
+            absolute !important;
 
           z-index:
-            11;
+            20 !important;
+
+          top:
+            auto !important;
 
           right:
             clamp(
               30px,
               4vw,
               72px
-            );
+            )
+            !important;
 
           bottom:
             clamp(
               28px,
               4vw,
               58px
-            );
+            )
+            !important;
 
           left:
             clamp(
               30px,
               4vw,
               72px
-            );
+            )
+            !important;
 
           display:
-            flex;
+            grid !important;
+
+          grid-template-columns:
+            minmax(
+              0,
+              1fr
+            )
+            auto !important;
 
           align-items:
-            center;
+            center !important;
 
-          justify-content:
-            space-between;
+          column-gap:
+            32px !important;
 
-          gap:
-            28px;
+          width:
+            auto !important;
+
+          height:
+            auto !important;
+
+          margin:
+            0 !important;
+
+          padding:
+            0 !important;
+
+          transform:
+            none !important;
 
           pointer-events:
             none;
         }
 
-        #archenova-civilization-prelude
-        .an-civilization-purpose__position {
-          position:
-            static !important;
-
-          inset:
-            auto !important;
-
-          flex:
-            0 0 auto;
-
-          margin:
-            0 !important;
-
-          pointer-events:
-            auto;
-
-          transform:
-            none !important;
-        }
-
         /* ==================================================
-           FIVE FINE PROGRESS LINES
+           PROGRESS — LEFT
 
-           Same as IdealUserPrelude except count = 5.
+           Old inherited absolute positioning is
+           completely neutralized.
         ================================================== */
 
         #archenova-civilization-prelude
         .an-civilization-purpose__progress {
+          position:
+            relative !important;
+
+          inset:
+            auto !important;
+
+          top:
+            auto !important;
+
+          right:
+            auto !important;
+
+          bottom:
+            auto !important;
+
+          left:
+            auto !important;
+
+          justify-self:
+            start !important;
+
           display:
-            grid;
+            grid !important;
 
           grid-template-columns:
             repeat(
@@ -1203,13 +1147,32 @@ export default function ArcheNovaCivilizationPrelude() {
                 24px,
                 48px
               )
-            );
+            )
+            !important;
 
           align-items:
-            center;
+            center !important;
 
           gap:
-            7px;
+            7px !important;
+
+          width:
+            auto !important;
+
+          height:
+            auto !important;
+
+          max-width:
+            none !important;
+
+          margin:
+            0 !important;
+
+          padding:
+            0 !important;
+
+          transform:
+            none !important;
 
           pointer-events:
             auto;
@@ -1218,28 +1181,40 @@ export default function ArcheNovaCivilizationPrelude() {
         #archenova-civilization-prelude
         .an-civilization-purpose__progress-item {
           position:
-            relative;
+            relative !important;
+
+          inset:
+            auto !important;
 
           display:
-            block;
+            block !important;
+
+          box-sizing:
+            border-box;
 
           width:
-            100%;
+            100% !important;
 
           height:
-            18px;
+            18px !important;
+
+          min-width:
+            0 !important;
 
           margin:
-            0;
+            0 !important;
 
           padding:
-            0;
+            0 !important;
 
           border:
-            0;
+            0 !important;
 
           background:
-            transparent;
+            transparent !important;
+
+          transform:
+            none !important;
 
           cursor:
             pointer;
@@ -1304,6 +1279,75 @@ export default function ArcheNovaCivilizationPrelude() {
             );
         }
 
+        /* ==================================================
+           COUNTER — RIGHT
+
+           This is the key correction for the overlap.
+        ================================================== */
+
+        #archenova-civilization-prelude
+        .an-civilization-purpose__position {
+          position:
+            relative !important;
+
+          inset:
+            auto !important;
+
+          top:
+            auto !important;
+
+          right:
+            auto !important;
+
+          bottom:
+            auto !important;
+
+          left:
+            auto !important;
+
+          z-index:
+            auto !important;
+
+          justify-self:
+            end !important;
+
+          align-self:
+            center !important;
+
+          display:
+            block !important;
+
+          flex:
+            none !important;
+
+          width:
+            auto !important;
+
+          min-width:
+            max-content !important;
+
+          max-width:
+            none !important;
+
+          height:
+            auto !important;
+
+          margin:
+            0 !important;
+
+          padding:
+            0 !important;
+
+          transform:
+            none !important;
+
+          white-space:
+            nowrap !important;
+
+          pointer-events:
+            auto;
+        }
+
         #archenova-civilization-prelude
         .an-civilization-purpose__progress-item:focus-visible {
           outline:
@@ -1321,8 +1365,6 @@ export default function ArcheNovaCivilizationPrelude() {
 
         /* ==================================================
            DESKTOP INTERACTION
-
-           Identical to IdealUserPrelude.
         ================================================== */
 
         @media
@@ -1390,9 +1432,6 @@ export default function ArcheNovaCivilizationPrelude() {
 
         /* ==================================================
            TABLET
-
-           Values copied directly from
-           ArcheNovaIdealUserPrelude.
         ================================================== */
 
         @media (max-width: 900px) {
@@ -1440,12 +1479,9 @@ export default function ArcheNovaCivilizationPrelude() {
         /* ==================================================
            MOBILE
 
-           Values copied directly from
-           ArcheNovaIdealUserPrelude.
-
-           Arrow navigation remains primary.
-           Swipe remains secondary.
-           Vertical scrolling is not trapped.
+           Match UserPrelude:
+           progress left
+           counter right
         ================================================== */
 
         @media (max-width: 700px) {
@@ -1537,45 +1573,54 @@ export default function ArcheNovaCivilizationPrelude() {
           #archenova-civilization-prelude
           .an-civilization-purpose__navigation {
             right:
-              22px;
+              40px !important;
 
             bottom:
-              28px;
+              28px !important;
 
             left:
-              22px;
+              40px !important;
 
-            gap:
-              18px;
+            grid-template-columns:
+              minmax(
+                0,
+                1fr
+              )
+              auto !important;
+
+            column-gap:
+              24px !important;
           }
 
           #archenova-civilization-prelude
           .an-civilization-purpose__progress {
-            flex:
-              1 1 auto;
-
             grid-template-columns:
               repeat(
                 ${CHAPTER_COUNT},
                 minmax(
-                  12px,
+                  18px,
                   1fr
                 )
-              );
+              )
+              !important;
+
+            width:
+              min(
+                100%,
+                260px
+              )
+              !important;
 
             max-width:
-              210px;
+              260px !important;
 
             gap:
-              5px;
+              6px !important;
           }
         }
 
         /* ==================================================
            SMALL MOBILE
-
-           Values copied directly from
-           ArcheNovaIdealUserPrelude.
         ================================================== */
 
         @media (max-width: 430px) {
@@ -1619,23 +1664,47 @@ export default function ArcheNovaCivilizationPrelude() {
           #archenova-civilization-prelude
           .an-civilization-purpose__navigation {
             right:
-              16px;
+              32px !important;
 
             bottom:
-              23px;
+              23px !important;
 
             left:
-              16px;
+              32px !important;
+
+            column-gap:
+              18px !important;
+          }
+
+          #archenova-civilization-prelude
+          .an-civilization-purpose__progress {
+            width:
+              min(
+                100%,
+                220px
+              )
+              !important;
+
+            max-width:
+              220px !important;
+
+            grid-template-columns:
+              repeat(
+                ${CHAPTER_COUNT},
+                minmax(
+                  14px,
+                  1fr
+                )
+              )
+              !important;
 
             gap:
-              13px;
+              5px !important;
           }
         }
 
         /* ==================================================
            SHORT SCREENS
-
-           Identical to IdealUserPrelude.
         ================================================== */
 
         @media
@@ -1655,19 +1724,12 @@ export default function ArcheNovaCivilizationPrelude() {
           #archenova-civilization-prelude
           .an-civilization-purpose__navigation {
             bottom:
-              22px;
+              22px !important;
           }
         }
 
         /* ==================================================
            CHAPTER TRANSITION
-
-           Same animation parameters as
-           IdealUserPrelude.
-
-           Only article content changes.
-           Glass/frame never changes density or
-           stacking context between 01–05.
         ================================================== */
 
         @keyframes an-civilization-chapter-enter {
@@ -1698,8 +1760,6 @@ export default function ArcheNovaCivilizationPrelude() {
 
         /* ==================================================
            REDUCED MOTION
-
-           Identical to IdealUserPrelude.
         ================================================== */
 
         @media (
