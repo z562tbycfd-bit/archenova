@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-10-06T20:02:46.176Z",
+  "updated": "2026-10-07T00:26:58.482Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: Infectious disease expert: The mysterious pneumonia in Russia deserves attention, not panic",
+      "url": "https://www.statnews.com/2026/10/06/russia-plague-reports-pneuomonia-siberia-expert-calm/?utm_campaign=rss",
+      "summary": "Chill out about reports about plague in Siberia, writes infectious disease doctor Krutika Kuppalli.",
+      "ts": 1791330090000,
+      "publishedAt": "2026-10-06T23:41:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Calibration Framework Improves Confidence in AI Virtual Cell Models",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/new-calibration-framework-improves-confidence-in-ai-virtual-cell-models/",
+      "summary": "Across 14 genetic perturbation datasets and 18 evaluation metrics, commonly used measures such as mean squared error and control-referenced Pearson correlation were often poorly calibrated, particularly in datasets with …",
+      "ts": 1791327938000,
+      "publishedAt": "2026-10-06T23:05:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Lock Down the Critical Factors in Oligo and Oligo-Conjugate Characterization with Stunner and Honeybun",
+      "url": "https://www.genengnews.com/multimedia/webinars/lock-down-the-critical-factors-in-oligo-and-oligo-conjugate-characterization-with-stunner-and-honeybun/",
+      "summary": "This GEN webinar follows oligo quantification from method development through conjugate characterization. The post Lock Down the Critical Factors in Oligo and Oligo-Conjugate Characterization with Stunner and Honeybun ap…",
+      "ts": 1791324648000,
+      "publishedAt": "2026-10-06T22:10:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Biologics Standards for Innovation, Quality and Access",
+      "url": "https://www.genengnews.com/multimedia/biologics-standards-for-innovation-quality-and-access/",
+      "summary": "This GEN Spotlight on Biologics Standards for Innovation, Quality and Access brings together experts from across biopharma, standards development, and analytical science to examine the challenges of testing increasingly …",
+      "ts": 1791321061000,
+      "publishedAt": "2026-10-06T21:11:01.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Shionogi Grows Rare Disease Portfolio with $2B IntraBio Acquisition",
@@ -100,6 +136,15 @@
       "ts": 1791300607000,
       "publishedAt": "2026-10-06T15:30:07.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Expanding the Possibilities of Next-Generation Sequencing",
+      "url": "https://www.genengnews.com/sponsored/expanding-the-possibilities-of-next-generation-sequencing/",
+      "summary": "Sequencing by expansion (SBX) and Roche’s AXELIOS 1 platform introduce a new approach to single-molecule sequencing, designed to give researchers flexibility across sequencing workflows. The post Expanding the Possibilit…",
+      "ts": 1791299445000,
+      "publishedAt": "2026-10-06T15:10:45.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "Genetic Engineering News",
@@ -207,6 +252,24 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. 10 climate tech companies to watch Each year, MIT Technology Review puts together …",
       "ts": 1791288600000,
       "publishedAt": "2026-10-06T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "ts": 1791288000000,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -745,69 +808,6 @@
       "title": "Reproducibility and Leakage-Controlled Evaluation of Machine-Learning Models for Chronic Kidney Disease Classification",
       "url": "https://arxiv.org/abs/2610.04926",
       "summary": "arXiv:2610.04926v1 Announce Type: cross Abstract: Near-perfect classification of small clinical datasets can hinge on preprocessing, data leakage, missing-data handling, and the evaluation sample. We reproduced a publish…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TempoBridge: Source-Conditioned Flow Matching with Optimal Transport Couplings for Single-Cell Population Transitions",
-      "url": "https://arxiv.org/abs/2610.04945",
-      "summary": "arXiv:2610.04945v1 Announce Type: cross Abstract: Destructive single-cell measurements provide unpaired population snapshots rather than observations of the same cells across conditions. Local cell states and transition …",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Lightweight Semantic EEG Foundation Model for Frozen Cross-Disorder Transfer",
-      "url": "https://arxiv.org/abs/2610.05503",
-      "summary": "arXiv:2610.05503v1 Announce Type: cross Abstract: Large-scale EEG foundation models have demonstrated promising transferability across neurological disorders, but often require millions of parameters and substantial comp…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "LifeLong Digital Twin: A Unified Modeling Paradigm and Agent Harness for Event-Driven Lifelong Health State Trajectories",
-      "url": "https://arxiv.org/abs/2610.05566",
-      "summary": "arXiv:2610.05566v1 Announce Type: cross Abstract: Human health is a continuous, dynamic trajectory shaped by the cumulative interplay of biological processes, clinical events, behaviors and environmental exposures across…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An evolutionary origin of collective decision making in humans and machines",
-      "url": "https://arxiv.org/abs/2610.05676",
-      "summary": "arXiv:2610.05676v1 Announce Type: cross Abstract: Groups of individuals can solve collective problems more accurately than any single member, by aggregating their opinions. Recent theoretical work has identified individu…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multi-type branching diffusions with small mutation rates",
-      "url": "https://arxiv.org/abs/2610.05804",
-      "summary": "arXiv:2610.05804v1 Announce Type: cross Abstract: Approximate solutions are found for Feller-like neutral multi-type branching diffusions $\\big{(}\\mathbf{X}(t)\\big{)}_{t \\in \\mathbb{R}_{\\ge 0}}$ in the limit of small mut…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "End-to-End Autonomous Recursive Arborescence Deformable Flow and Non-Linear Hemodynamics for Patient-Specific Coronary Centerline Extraction",
-      "url": "https://arxiv.org/abs/2610.05900",
-      "summary": "arXiv:2610.05900v1 Announce Type: cross Abstract: Extracting patient-specific vascular trees from volumetric medical images is fundamental to computational angiography and non-invasive hemodynamic assessment. Conventiona…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CoHyFuse: Condition-wise Hypergraph Fusion with Global Connectome in Task-fMRI",
-      "url": "https://arxiv.org/abs/2610.05913",
-      "summary": "arXiv:2610.05913v1 Announce Type: cross Abstract: Task-fMRI connectomes reveal state-dependent neural reconfigurations, yet conventional methods marginalize these signals by aggregating distinct conditions into static pa…",
       "ts": 1791259200000,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "categoryId": "bio"
