@@ -60520,48 +60520,62 @@ body.an-home-header-active
 /* ==========================================================
    ARCHENOVA HOME — CIVILIZATION PRELUDE
 
-   ONE HOME GLASS / FIVE SCROLL-DRIVEN TEXT STATES
+   HORIZONTAL CHAPTER NAVIGATION / ONE VIEWPORT
 
-   Visual reference:
-   - Existing HOME glass cards
-   - Restrained optical edge
-   - Smoked translucent black
-   - Soft cosmic background
+   Architecture:
+   - One HOME section
+   - One permanent frame
+   - One optical glass surface
+   - Five horizontally controlled chapter states
+   - No scroll-driven chapter distance
+   - No START / FIXED / END behavior
 
-   Preserve:
-   - START / FIXED / END
-   - Five-stage scroll switching
-   - One visible card
-   - Existing HOME background
-   - Other HOME sections and pager
-
-   Scope:
-   - Civilization Prelude only
+   Visual system:
+   - Match ArcheNovaIdealUserPrelude interaction model
+   - Preserve CivilizationPrelude typography
+   - Preserve WORLD-matched optical glass
 ========================================================== */
 
 
 /* ==========================================================
-   01 / SCROLL DISTANCE — NOT A GLASS SURFACE
+   01 / SECTION — ONE VIEWPORT ONLY
+
+   IMPORTANT:
+   Old 500svh chapter-scroll territory has been removed.
+
+   Before:
+   5 chapters × 100svh = 500svh
+
+   Now:
+   All five chapters exist inside one 100svh section and
+   are selected horizontally.
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude.an-civilization-purpose {
   position: relative !important;
-  display: block !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
   box-sizing: border-box !important;
 
   width: 100% !important;
   min-width: 0 !important;
   max-width: none !important;
 
-  height: 500svh !important;
-  min-height: 500svh !important;
-  max-height: none !important;
+  height: 100svh !important;
+  min-height: 100svh !important;
+  max-height: 100svh !important;
 
   margin: 0 !important;
-  padding: 0 !important;
 
-  overflow: visible !important;
+  padding:
+    clamp(10px, 1.5vw, 22px)
+    !important;
+
+  overflow: hidden !important;
 
   background: transparent !important;
 
@@ -60573,7 +60587,9 @@ main.an-home-2026
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
 
-  scroll-snap-align: none !important;
+  touch-action: pan-y;
+
+  scroll-snap-align: start !important;
 }
 
 main.an-home-2026
@@ -60586,40 +60602,72 @@ main.an-home-2026
 
 
 /* ==========================================================
-   02 / VIEWPORT FRAME — WORLD-MATCHED GEOMETRY
+   02 / PERMANENT FRAME
 
-   The frame remains one viewport tall for the existing
-   START / FIXED / END scroll behavior.
+   Old:
+   START
+   → FIXED
+   → END
 
-   Its padding defines the visible glass dimensions.
+   New:
+   One permanent relative frame.
+
+   No viewport pinning.
+   No additional scroll territory.
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
-.an-civilization-purpose__frame {
-  box-sizing: border-box !important;
+.an-civilization-purpose__frame,
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--start,
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--fixed,
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--end {
+  position: relative !important;
+
+  inset: auto !important;
+
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+
+  z-index: 1 !important;
 
   display: flex !important;
   align-items: stretch !important;
   justify-content: center !important;
 
+  box-sizing: border-box !important;
+
   width: 100% !important;
+  max-width: 1800px !important;
 
-  height: 100svh !important;
-  min-height: 100svh !important;
-  max-height: 100svh !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
 
-  margin: 0 !important;
-
-  padding: clamp(12px, 2vw, 24px) !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
 
   overflow: visible !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  transform: none !important;
 
   background: transparent !important;
 
   border: 0 !important;
   border-radius: 0 !important;
   outline: 0 !important;
+
   box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
@@ -60628,161 +60676,153 @@ main.an-home-2026
 
 
 /* ==========================================================
-   03 / SCROLL POSITION — EXISTING WORKING BEHAVIOR
-========================================================== */
+   03 / SINGLE OPTICAL GLASS
 
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--start {
-  position: absolute !important;
+   Preserve existing Civilization / WORLD material.
 
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-}
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--fixed {
-  position: fixed !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-}
-
-
-/* ==========================================================
-  04 / SINGLE GLASS — WORLD-MATCHED SURFACE
-
-  Match WORLD:
-  - One glass surface
-  - Smoked black gradient
-  - 30px desktop radius
-  - 24px blur / 85% saturation
-  - Restrained optical border and inset edges
-
-  Preserve PURPOSES:
-  - One viewport-tall presentation
-  - Five scroll-driven chapters
-  - Existing content alignment
+   Geometry now follows the one-viewport horizontal model.
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
 .an-civilization-purpose__glass {
- position: relative !important;
- isolation: isolate !important;
+  position: relative !important;
 
- display: flex !important;
- flex-direction: column !important;
- align-items: center !important;
- justify-content: center !important;
+  isolation: isolate !important;
 
- box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 
- width: 100% !important;
- max-width: 1800px !important;
- min-width: 0 !important;
+  box-sizing: border-box !important;
 
- height: 100% !important;
- min-height: 0 !important;
+  width: 100% !important;
+  max-width: 1800px !important;
+  min-width: 0 !important;
 
- margin: 0 auto !important;
+  height: 100% !important;
+  min-height: 0 !important;
 
- padding:
-   clamp(44px, 6vw, 92px)
-   clamp(26px, 7vw, 120px)
-   !important;
+  margin: 0 auto !important;
 
- overflow: hidden !important;
+  padding:
+    clamp(64px, 7vw, 116px)
+    clamp(88px, 10vw, 180px)
+    clamp(78px, 8vw, 126px)
+    !important;
 
- /* WORLD's optical glass surface. */
- background:
-   linear-gradient(
-     155deg,
-     rgba(13, 14, 17, 0.36) 0%,
-     rgba(4, 5, 7, 0.44) 48%,
-     rgba(0, 0, 0, 0.53) 100%
-   ) !important;
+  overflow: hidden !important;
 
- border:
-   1px solid rgba(255, 255, 255, 0.07)
-   !important;
+  background:
+    linear-gradient(
+      155deg,
+      rgba(13, 14, 17, 0.36) 0%,
+      rgba(4, 5, 7, 0.44) 48%,
+      rgba(0, 0, 0, 0.53) 100%
+    )
+    !important;
 
- border-radius: 30px !important;
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07)
+    !important;
 
- -webkit-backdrop-filter:
-   blur(24px) saturate(85%) !important;
+  border-radius:
+    30px !important;
 
- backdrop-filter:
-   blur(24px) saturate(85%) !important;
+  -webkit-backdrop-filter:
+    blur(24px)
+    saturate(85%)
+    !important;
 
- box-shadow:
-   inset 0 1px 0 rgba(255, 255, 255, 0.045),
-   inset 0 -1px 0 rgba(255, 255, 255, 0.012)
-   !important;
+  backdrop-filter:
+    blur(24px)
+    saturate(85%)
+    !important;
 
- outline: 0 !important;
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.045),
+    inset 0 -1px 0
+      rgba(255, 255, 255, 0.012)
+    !important;
 
- opacity: 1 !important;
- filter: none !important;
+  outline: 0 !important;
 
- transition: none !important;
- animation: none !important;
+  opacity: 1 !important;
+
+  filter: none !important;
+
+  transition: none !important;
 }
 
 
 /* ==========================================================
-   05 / SUBTLE REFLECTION — NO SECOND GLASS
+   04 / SUBTLE REFLECTION
+
+   Decorative optical reflection only.
+   This is NOT a second glass surface.
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
 .an-civilization-purpose__glass::before {
   content: "" !important;
+
   display: block !important;
 
   position: absolute !important;
+
   inset: 0 !important;
 
   z-index: 0 !important;
 
-  border-radius: inherit !important;
-  pointer-events: none !important;
+  border-radius:
+    inherit !important;
+
+  pointer-events:
+    none !important;
 
   background:
     radial-gradient(
-      ellipse 85% 46% at 50% -12%,
-      rgba(255, 255, 255, 0.035) 0%,
-      rgba(255, 255, 255, 0.010) 48%,
+      ellipse 85% 46%
+      at 50% -12%,
+      rgba(
+        255,
+        255,
+        255,
+        0.035
+      ) 0%,
+      rgba(
+        255,
+        255,
+        255,
+        0.010
+      ) 48%,
       transparent 100%
-    ) !important;
+    )
+    !important;
 
   border: 0 !important;
-  box-shadow: none !important;
 
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
+  box-shadow:
+    none !important;
 
-  transform: none !important;
-  transition: none !important;
-  animation: none !important;
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  transform:
+    none !important;
+
+  transition:
+    none !important;
+
+  animation:
+    none !important;
 }
 
 main.an-home-2026
@@ -60794,54 +60834,135 @@ main.an-home-2026
 
 
 /* ==========================================================
-   06 / CONTENT
+   05 / CHAPTER VIEWPORT
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__chapter-viewport {
+  position: relative !important;
+
+  z-index: 1 !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  box-sizing: border-box !important;
+
+  width:
+    min(100%, 1040px)
+    !important;
+
+  min-width: 0 !important;
+
+  margin:
+    0 auto !important;
+
+  padding: 0 !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* ==========================================================
+   06 / CHAPTER CONTENT
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
 .an-civilization-purpose__chapter {
   position: relative !important;
+
+  inset: auto !important;
+
   z-index: 1 !important;
 
-  width: 100% !important;
-  max-width: 1100px !important;
-  min-width: 0 !important;
+  display: flex !important;
 
-  margin: 0 auto !important;
-  padding: 0 !important;
+  flex-direction:
+    column !important;
 
-  color: rgba(249, 249, 250, 0.92);
+  align-items:
+    center !important;
 
-  text-align: center;
+  justify-content:
+    center !important;
 
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  box-sizing:
+    border-box !important;
+
+  width:
+    100% !important;
+
+  max-width:
+    1040px !important;
+
+  min-width:
+    0 !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    0 !important;
+
+  color:
+    rgba(
+      249,
+      249,
+      250,
+      0.92
+    );
+
+  text-align:
+    center !important;
+
+  opacity:
+    1;
+
+  -webkit-font-smoothing:
+    antialiased;
+
+  text-rendering:
+    optimizeLegibility;
 }
 
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__eyebrow {
-  margin: 0 0 clamp(14px, 2.2vh, 26px);
 
-  color: rgba(233, 235, 239, 0.65);
-
-  font-family: inherit;
-  font-size: clamp(9px, 0.75vw, 11px);
-  font-weight: 500;
-
-  letter-spacing: 0.18em;
-  line-height: 1.6;
-}
+/* ==========================================================
+   07 / TITLE
+========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
 .an-civilization-purpose__title {
-  max-width: 1100px;
+  position:
+    relative !important;
 
-  margin: 0 auto;
-  padding: 0;
+  inset:
+    auto !important;
 
-  color: rgba(249, 249, 250, 0.96);
+  width:
+    auto !important;
+
+  max-width:
+    1100px !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    0 !important;
+
+  color:
+    rgba(
+      249,
+      249,
+      250,
+      0.96
+    );
 
   font-family:
     "Bodoni Moda",
@@ -60851,47 +60972,151 @@ main.an-home-2026
     Georgia,
     serif;
 
-  font-size: clamp(29px, 3.2vw, 50px);
-  font-weight: 300;
-  font-style: normal;
+  font-size:
+    clamp(
+      29px,
+      3.2vw,
+      50px
+    );
 
-  letter-spacing: 0.015em;
-  line-height: 1.3;
+  font-weight:
+    300;
 
-  text-wrap: balance;
+  font-style:
+    normal;
+
+  letter-spacing:
+    0.015em;
+
+  line-height:
+    1.3;
+
+  text-align:
+    center !important;
+
+  text-wrap:
+    balance;
 
   text-shadow:
-    0 0 26px rgba(231, 239, 249, 0.075);
+    0 0 26px
+    rgba(
+      231,
+      239,
+      249,
+      0.075
+    );
 }
+
+
+/* ==========================================================
+   08 / BODY
+========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
 .an-civilization-purpose__body {
-  max-width: 960px;
+  position:
+    relative !important;
 
-  margin: clamp(18px, 3vh, 34px) auto 0;
+  inset:
+    auto !important;
 
-  color: rgba(239, 240, 243, 0.86);
+  width:
+    auto !important;
 
-  font-family: inherit;
-  font-size: clamp(13px, 1.08vw, 17px);
-  font-weight: 400;
+  max-width:
+    960px !important;
 
-  letter-spacing: 0.005em;
-  line-height: 1.85;
+  margin:
+    clamp(
+      18px,
+      3vh,
+      34px
+    )
+    auto
+    0
+    !important;
 
-  overflow-wrap: break-word;
-  text-wrap: pretty;
+  padding:
+    0 !important;
+
+  color:
+    rgba(
+      239,
+      240,
+      243,
+      0.86
+    );
+
+  font-family:
+    inherit;
+
+  font-size:
+    clamp(
+      13px,
+      1.08vw,
+      17px
+    );
+
+  font-weight:
+    400;
+
+  letter-spacing:
+    0.005em;
+
+  line-height:
+    1.85;
+
+  text-align:
+    center !important;
+
+  overflow-wrap:
+    break-word;
+
+  text-wrap:
+    pretty;
 }
+
+
+/* ==========================================================
+   09 / CLOSING
+========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
 .an-civilization-purpose__closing {
-  max-width: 900px;
+  position:
+    relative !important;
 
-  margin: clamp(18px, 3vh, 34px) auto 0;
+  inset:
+    auto !important;
 
-  color: rgba(232, 235, 239, 0.72);
+  width:
+    auto !important;
+
+  max-width:
+    900px !important;
+
+  margin:
+    clamp(
+      18px,
+      3vh,
+      34px
+    )
+    auto
+    0
+    !important;
+
+  padding:
+    0 !important;
+
+  color:
+    rgba(
+      232,
+      235,
+      239,
+      0.72
+    );
 
   font-family:
     "Bodoni Moda",
@@ -60901,237 +61126,1136 @@ main.an-home-2026
     Georgia,
     serif;
 
-  font-size: clamp(14px, 1.25vw, 19px);
-  font-weight: 300;
+  font-size:
+    clamp(
+      14px,
+      1.25vw,
+      19px
+    );
 
-  letter-spacing: 0.025em;
-  line-height: 1.6;
+  font-weight:
+    300;
 
-  text-wrap: balance;
+  letter-spacing:
+    0.025em;
+
+  line-height:
+    1.6;
+
+  text-align:
+    center !important;
+
+  text-wrap:
+    balance;
+}
+
+
+/* ==========================================================
+   10 / BOTTOM NAVIGATION
+
+   Match UserPrelude composition:
+
+   LEFT
+   └ progress lines
+
+   RIGHT
+   └ 01 / 05
+
+   The counter no longer owns an absolute bottom position.
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__navigation {
+  position:
+    absolute !important;
+
+  z-index:
+    12 !important;
+
+  top:
+    auto !important;
+
+  right:
+    clamp(
+      30px,
+      4vw,
+      72px
+    )
+    !important;
+
+  bottom:
+    clamp(
+      28px,
+      4vw,
+      58px
+    )
+    !important;
+
+  left:
+    clamp(
+      30px,
+      4vw,
+      72px
+    )
+    !important;
+
+  display:
+    grid !important;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto
+    !important;
+
+  align-items:
+    center !important;
+
+  column-gap:
+    32px !important;
+
+  width:
+    auto !important;
+
+  height:
+    auto !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  transform:
+    none !important;
+
+  pointer-events:
+    none;
+}
+
+
+/* ==========================================================
+   11 / PROGRESS — LEFT
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__progress {
+  position:
+    relative !important;
+
+  inset:
+    auto !important;
+
+  justify-self:
+    start !important;
+
+  display:
+    grid !important;
+
+  grid-template-columns:
+    repeat(
+      5,
+      minmax(
+        24px,
+        48px
+      )
+    )
+    !important;
+
+  align-items:
+    center !important;
+
+  gap:
+    7px !important;
+
+  width:
+    auto !important;
+
+  max-width:
+    none !important;
+
+  height:
+    auto !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  transform:
+    none !important;
+
+  pointer-events:
+    auto;
 }
 
 main.an-home-2026
 #archenova-civilization-prelude
-.an-civilization-purpose__position {
-  position: absolute !important;
+.an-civilization-purpose__progress-item {
+  position:
+    relative !important;
 
-  right: clamp(20px, 3vw, 44px);
-  bottom: clamp(18px, 2.5vw, 36px);
+  display:
+    block !important;
 
-  z-index: 1 !important;
+  width:
+    100% !important;
 
-  margin: 0;
+  height:
+    18px !important;
 
-  color: rgba(239, 240, 243, 0.55);
+  margin:
+    0 !important;
 
-  font-family: inherit;
-  font-size: 10px;
-  font-weight: 400;
+  padding:
+    0 !important;
 
-  letter-spacing: 0.13em;
-  line-height: 1;
+  border:
+    0 !important;
+
+  background:
+    transparent !important;
+
+  cursor:
+    pointer;
+
+  -webkit-tap-highlight-color:
+    transparent;
+}
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__progress-item
+> span {
+  position:
+    absolute;
+
+  top:
+    50%;
+
+  right:
+    0;
+
+  left:
+    0;
+
+  display:
+    block;
+
+  height:
+    1px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.14
+    );
+
+  transform:
+    translateY(-50%);
+
+  transition:
+    background 320ms ease,
+    opacity 320ms ease,
+    transform 420ms
+      cubic-bezier(
+        0.22,
+        1,
+        0.36,
+        1
+      );
+}
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__progress-item.is-active
+> span {
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.72
+    );
 }
 
 
 /* ==========================================================
-   07 / TABLET
+   12 / POSITION — RIGHT
+
+   IMPORTANT:
+   Explicitly neutralizes the old absolute
+   CivilizationPrelude counter.
 ========================================================== */
 
-@media (min-width: 701px) and (max-width: 1100px) {
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__position {
+  position:
+    relative !important;
+
+  inset:
+    auto !important;
+
+  top:
+    auto !important;
+
+  right:
+    auto !important;
+
+  bottom:
+    auto !important;
+
+  left:
+    auto !important;
+
+  z-index:
+    1 !important;
+
+  justify-self:
+    end !important;
+
+  display:
+    block !important;
+
+  width:
+    auto !important;
+
+  min-width:
+    max-content !important;
+
+  max-width:
+    none !important;
+
+  height:
+    auto !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  transform:
+    none !important;
+
+  color:
+    rgba(
+      239,
+      240,
+      243,
+      0.55
+    );
+
+  font-family:
+    inherit;
+
+  font-size:
+    10px;
+
+  font-weight:
+    400;
+
+  letter-spacing:
+    0.13em;
+
+  line-height:
+    1;
+
+  white-space:
+    nowrap !important;
+
+  pointer-events:
+    auto;
+}
+
+
+/* ==========================================================
+   13 / ARROWS
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__arrow {
+  position:
+    absolute !important;
+
+  z-index:
+    12 !important;
+
+  top:
+    50% !important;
+
+  display:
+    grid !important;
+
+  place-items:
+    center !important;
+
+  width:
+    58px !important;
+
+  height:
+    88px !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    999px !important;
+
+  background:
+    transparent !important;
+
+  color:
+    rgba(
+      245,
+      249,
+      252,
+      0.52
+    );
+
+  cursor:
+    pointer;
+
+  transform:
+    translateY(-50%)
+    !important;
+
+  -webkit-tap-highlight-color:
+    transparent;
+
+  transition:
+    color 280ms ease,
+    opacity 280ms ease,
+    transform 420ms
+      cubic-bezier(
+        0.22,
+        1,
+        0.36,
+        1
+      ),
+    background 280ms ease;
+}
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__arrow--previous {
+  left:
+    clamp(
+      18px,
+      3.3vw,
+      62px
+    )
+    !important;
+}
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__arrow--next {
+  right:
+    clamp(
+      18px,
+      3.3vw,
+      62px
+    )
+    !important;
+}
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__arrow
+svg {
+  display:
+    block;
+
+  width:
+    42px;
+
+  height:
+    42px;
+
+  overflow:
+    visible;
+}
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__arrow
+path {
+  fill:
+    none;
+
+  stroke:
+    currentColor;
+
+  stroke-width:
+    0.82;
+
+  stroke-linecap:
+    round;
+
+  stroke-linejoin:
+    round;
+
+  vector-effect:
+    non-scaling-stroke;
+}
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__arrow:disabled {
+  color:
+    rgba(
+      245,
+      249,
+      252,
+      0.11
+    );
+
+  cursor:
+    default;
+
+  pointer-events:
+    none;
+}
+
+
+/* ==========================================================
+   14 / DESKTOP INTERACTION
+========================================================== */
+
+@media
+  (hover: hover)
+  and
+  (pointer: fine) {
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow:not(:disabled):hover {
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.94
+      );
+
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.018
+      )
+      !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--previous:not(:disabled):hover {
+    transform:
+      translateY(-50%)
+      translateX(-4px)
+      !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--next:not(:disabled):hover {
+    transform:
+      translateY(-50%)
+      translateX(4px)
+      !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__progress-item:hover
+  > span {
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.42
+      );
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__progress-item.is-active:hover
+  > span {
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.78
+      );
+  }
+}
+
+
+/* ==========================================================
+   15 / TABLET
+========================================================== */
+
+@media
+  (min-width: 701px)
+  and
+  (max-width: 1100px) {
+
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__glass {
     padding:
-      44px
-      clamp(30px, 5vw, 64px)
+      62px
+      76px
+      94px
       !important;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__title {
-    font-size: clamp(30px, 4vw, 43px);
+    font-size:
+      clamp(
+        30px,
+        4vw,
+        43px
+      );
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__body {
-    font-size: clamp(13px, 1.45vw, 16px);
-    line-height: 1.75;
+    font-size:
+      clamp(
+        13px,
+        1.45vw,
+        16px
+      );
+
+    line-height:
+      1.75;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow {
+    width:
+      46px !important;
+
+    height:
+      76px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow
+  svg {
+    width:
+      34px;
+
+    height:
+      34px;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--previous {
+    left:
+      13px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--next {
+    right:
+      13px !important;
   }
 }
 
 
 /* ==========================================================
-  08 / MOBILE — WORLD-MATCHED GLASS
+   16 / MOBILE — GLASS
 ========================================================== */
 
 @media (max-width: 768px) {
- main.an-home-2026
- #archenova-civilization-prelude
- .an-civilization-purpose__glass {
-   background:
-     linear-gradient(
-       155deg,
-       rgba(13, 14, 17, 0.36) 0%,
-       rgba(4, 5, 7, 0.44) 48%,
-       rgba(0, 0, 0, 0.53) 100%
-     ) !important;
 
-   border:
-     1px solid rgba(255, 255, 255, 0.07)
-     !important;
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__glass {
+    background:
+      linear-gradient(
+        155deg,
+        rgba(
+          13,
+          14,
+          17,
+          0.36
+        ) 0%,
+        rgba(
+          4,
+          5,
+          7,
+          0.44
+        ) 48%,
+        rgba(
+          0,
+          0,
+          0,
+          0.53
+        ) 100%
+      )
+      !important;
 
-   border-radius: 26px !important;
+    border:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.07
+      )
+      !important;
 
-   -webkit-backdrop-filter:
-     blur(18px) saturate(85%) !important;
+    border-radius:
+      26px !important;
 
-   backdrop-filter:
-     blur(18px) saturate(85%) !important;
+    -webkit-backdrop-filter:
+      blur(18px)
+      saturate(85%)
+      !important;
 
-   box-shadow:
-     inset 0 1px 0 rgba(255, 255, 255, 0.045),
-     inset 0 -1px 0 rgba(255, 255, 255, 0.012)
-     !important;
- }
+    backdrop-filter:
+      blur(18px)
+      saturate(85%)
+      !important;
+
+    box-shadow:
+      inset 0 1px 0
+        rgba(
+          255,
+          255,
+          255,
+          0.045
+        ),
+      inset 0 -1px 0
+        rgba(
+          255,
+          255,
+          255,
+          0.012
+        )
+      !important;
+  }
 }
 
 
 /* ==========================================================
-   09 / MOBILE — EXISTING CARD GEOMETRY
+   17 / MOBILE — GEOMETRY
 ========================================================== */
 
 @media (max-width: 700px) {
+
   main.an-home-2026
-  #archenova-civilization-prelude
-  .an-civilization-purpose__frame {
+  #archenova-civilization-prelude.an-civilization-purpose {
+    height:
+      100svh !important;
+
+    min-height:
+      100svh !important;
+
+    max-height:
+      100svh !important;
+
     padding:
-      max(8px, env(safe-area-inset-top))
-      max(8px, env(safe-area-inset-right))
-      max(8px, env(safe-area-inset-bottom))
-      max(8px, env(safe-area-inset-left))
+      max(
+        8px,
+        env(
+          safe-area-inset-top
+        )
+      )
+      max(
+        8px,
+        env(
+          safe-area-inset-right
+        )
+      )
+      max(
+        8px,
+        env(
+          safe-area-inset-bottom
+        )
+      )
+      max(
+        8px,
+        env(
+          safe-area-inset-left
+        )
+      )
       !important;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__glass {
-    padding: 38px 24px 68px !important;
+    padding:
+      56px
+      48px
+      88px
+      !important;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
-  .an-civilization-purpose__eyebrow {
-    margin-bottom: 14px;
-
-    font-size: 9px;
-    letter-spacing: 0.11em;
+  .an-civilization-purpose__chapter-viewport {
+    width:
+      100% !important;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__title {
-    font-size: clamp(25px, 6.1vw, 34px);
+    font-size:
+      clamp(
+        25px,
+        6.1vw,
+        34px
+      );
 
-    letter-spacing: 0.01em;
-    line-height: 1.3;
+    letter-spacing:
+      0.01em;
+
+    line-height:
+      1.3;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__body {
-    margin-top: 18px;
+    margin-top:
+      18px !important;
 
-    font-size: clamp(12px, 3vw, 14px);
-    line-height: 1.65;
+    font-size:
+      clamp(
+        12px,
+        3vw,
+        14px
+      );
+
+    line-height:
+      1.65;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__closing {
-    margin-top: 18px;
+    margin-top:
+      18px !important;
 
-    font-size: clamp(13px, 3.3vw, 16px);
-    line-height: 1.5;
+    font-size:
+      clamp(
+        13px,
+        3.3vw,
+        16px
+      );
+
+    line-height:
+      1.5;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
-  .an-civilization-purpose__position {
-    right: 22px;
-    bottom: 22px;
+  .an-civilization-purpose__arrow {
+    width:
+      38px !important;
+
+    height:
+      64px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow
+  svg {
+    width:
+      29px;
+
+    height:
+      29px;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow
+  path {
+    stroke-width:
+      0.78;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--previous {
+    left:
+      5px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--next {
+    right:
+      5px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__navigation {
+    right:
+      40px !important;
+
+    bottom:
+      28px !important;
+
+    left:
+      40px !important;
+
+    column-gap:
+      24px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__progress {
+    grid-template-columns:
+      repeat(
+        5,
+        minmax(
+          18px,
+          1fr
+        )
+      )
+      !important;
+
+    width:
+      min(
+        100%,
+        260px
+      )
+      !important;
+
+    max-width:
+      260px !important;
+
+    gap:
+      6px !important;
   }
 }
 
 
 /* ==========================================================
-   10 / SMALL MOBILE
+   18 / SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 430px) {
+
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__glass {
-    padding: 30px 19px 64px !important;
+    padding:
+      50px
+      39px
+      82px
+      !important;
 
-    border-radius: 22px !important;
+    border-radius:
+      22px !important;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__title {
-    font-size: clamp(23px, 6vw, 29px);
+    font-size:
+      clamp(
+        23px,
+        6vw,
+        29px
+      );
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__body {
-    font-size: 12px;
-    line-height: 1.58;
+    font-size:
+      12px;
+
+    line-height:
+      1.58;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow {
+    width:
+      32px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow
+  svg {
+    width:
+      26px;
+
+    height:
+      26px;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--previous {
+    left:
+      2px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow--next {
+    right:
+      2px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__navigation {
+    right:
+      32px !important;
+
+    bottom:
+      23px !important;
+
+    left:
+      32px !important;
+
+    column-gap:
+      18px !important;
+  }
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__progress {
+    width:
+      min(
+        100%,
+        220px
+      )
+      !important;
+
+    max-width:
+      220px !important;
+
+    grid-template-columns:
+      repeat(
+        5,
+        minmax(
+          14px,
+          1fr
+        )
+      )
+      !important;
+
+    gap:
+      5px !important;
   }
 }
 
 
 /* ==========================================================
-   11 / SHORT SCREENS
+   19 / SHORT SCREENS
 ========================================================== */
 
-@media (max-height: 700px) {
+@media
+  (max-height: 700px)
+  and
+  (min-width: 701px) {
+
   main.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__glass {
-    padding-top: 22px !important;
-    padding-bottom: 48px !important;
+    padding-top:
+      48px !important;
+
+    padding-bottom:
+      70px !important;
   }
 
   main.an-home-2026
   #archenova-civilization-prelude
-  .an-civilization-purpose__eyebrow {
-    margin-bottom: 9px;
-  }
-
-  main.an-home-2026
-  #archenova-civilization-prelude
-  .an-civilization-purpose__title {
-    font-size: clamp(22px, 4.2vw, 36px);
-  }
-
-  main.an-home-2026
-  #archenova-civilization-prelude
-  .an-civilization-purpose__body {
-    margin-top: 12px;
-
-    font-size: clamp(11px, 1vw, 14px);
-    line-height: 1.5;
-  }
-
-  main.an-home-2026
-  #archenova-civilization-prelude
-  .an-civilization-purpose__closing {
-    margin-top: 12px;
+  .an-civilization-purpose__navigation {
+    bottom:
+      22px !important;
   }
 }
+
+
+/* ==========================================================
+   20 / ACCESSIBILITY / REDUCED MOTION
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__arrow:focus-visible,
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__progress-item:focus-visible {
+  outline:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.30
+    );
+
+  outline-offset:
+    3px;
+}
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__arrow,
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__progress-item
+  > span {
+    transition:
+      none !important;
+  }
+}
+
+
+
+
+
+
 
 
 
