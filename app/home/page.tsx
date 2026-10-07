@@ -10,6 +10,7 @@ import ArcheNovaValleyPortal from "../components/ArcheNovaValleyPortal";
 import WorkModelsPortal from "../components/WorkModelsPortal";
 
 import ArcheNovaConceptPortal from "../components/home/ArcheNovaConceptPortal";
+import ContinuityHomePortal from "../components/home/ContinuityHomePortal";
 
 import {
   ArcheNovaHorizon,
@@ -27,12 +28,10 @@ export default function HomePage() {
       <HomeSectionPager />
 
       {/* ==================================================
-    00 — ARCHENOVA CONCEPT
-================================================== */}
+          00 — ARCHENOVA CONCEPT
+      ================================================== */}
 
-<ArcheNovaConceptPortal />
-
-      
+      <ArcheNovaConceptPortal />
 
       {/* ==================================================
           02 — THE HORIZON
@@ -84,7 +83,22 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          05 — TODAY'S INQUIRY
+          05 — CONTINUITY
+      ================================================== */}
+
+      <section
+        id="archenova-continuity"
+        data-home-section
+        className="home-page twin-page continuity-home-page an-home-2026__section"
+        aria-label="ArcheNova Continuity"
+      >
+        <div className="an-home-2026__glass">
+          <ContinuityHomePortal />
+        </div>
+      </section>
+
+      {/* ==================================================
+          06 — TODAY'S INQUIRY
       ================================================== */}
 
       <section
@@ -99,7 +113,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          06 — HUMANITY RESPONSIBILITY
+          07 — HUMANITY RESPONSIBILITY
       ================================================== */}
 
       <section
@@ -114,7 +128,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          07 — WORK MODELS
+          08 — WORK MODELS
       ================================================== */}
 
       <section
@@ -129,7 +143,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          08 — CIVILIZATION SPACE
+          09 — CIVILIZATION SPACE
       ================================================== */}
 
       <section
@@ -144,7 +158,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          09 — ARCHENOVA VALLEY
+          10 — ARCHENOVA VALLEY
       ================================================== */}
 
       <section

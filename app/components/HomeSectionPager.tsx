@@ -60,6 +60,12 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     subtitle: "Where are we?",
   },
   {
+    id: "archenova-continuity",
+    mark: "⌱",
+    title: "CONTINUITY",
+    subtitle: "How do we continue?",
+  },
+  {
     id: "todays-inquiry",
     mark: "☁︎",
     title: "INQUIRY",
