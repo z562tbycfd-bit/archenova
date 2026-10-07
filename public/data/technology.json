@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-07T20:13:43.704Z",
+  "updated": "2026-10-07T20:28:28.165Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -22,7 +22,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Trump administration proposes $70,000 fee for popular international student work program",
+      "title": "Trump administration proposes $70,000 fee for popular international student work program",
       "url": "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/?utm_campaign=rss",
       "summary": "The Trump administration has proposed a $70,000 fee for a popular work authorization program meant to give students professional experience",
       "ts": 1791402076000,
@@ -579,6 +579,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "Nature Energy",
+      "title": "All-organic mixed-matrix membranes with single-crystal covalent organic frameworks for carbon capture",
+      "url": "https://www.nature.com/articles/s41560-026-02149-9",
+      "summary": "",
+      "ts": 1791331200000,
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "Opinion: Infectious disease expert: The mysterious pneumonia in Russia deserves attention, not panic",
       "url": "https://www.statnews.com/2026/10/06/russia-plague-reports-pneuomonia-siberia-expert-calm/?utm_campaign=rss",
@@ -802,15 +811,6 @@
       "ts": 1791293802000,
       "publishedAt": "2026-10-06T13:36:42.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-      "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical work…",
-      "ts": 1791291619000,
-      "publishedAt": "2026-10-06T13:00:19.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
