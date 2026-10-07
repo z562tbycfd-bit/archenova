@@ -65277,361 +65277,388 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   05 / PURPOSE SCROLL TERRITORY
-   EXISTING WORKING GEOMETRY PRESERVED
+   05 / CIVILIZATION PRELUDE
+   HORIZONTAL / ONE VIEWPORT
+
+   Old:
+   500svh scroll territory
+
+   Current:
+   One permanent viewport
+   Five horizontally controlled chapters
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-civilization-prelude.an-civilization-purpose {
-  position:
-    relative !important;
+  position: relative !important;
 
-  display:
-    block !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 
-  width:
-    100% !important;
+  box-sizing: border-box !important;
 
-  height:
-    500svh !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
 
-  min-height:
-    500svh !important;
+  height: 100svh !important;
+  min-height: 100svh !important;
+  max-height: 100svh !important;
 
-  max-height:
-    none !important;
-
-  margin:
-    0 !important;
+  margin: 0 !important;
 
   padding:
-    0 !important;
+    clamp(10px, 1.5vw, 22px)
+    !important;
 
-  justify-content:
-    initial !important;
+  overflow: hidden !important;
 
-  overflow:
-    visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 
-  opacity:
-    1 !important;
+  background: transparent !important;
 
-  visibility:
-    visible !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
 
-  background:
-    transparent !important;
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+  contain: none !important;
 
-  border:
-    0 !important;
+  content-visibility: visible !important;
 
-  border-radius:
-    0 !important;
+  clip: auto !important;
+  clip-path: none !important;
 
-  box-shadow:
-    none !important;
+  isolation: auto !important;
 
-  transform:
-    none !important;
+  touch-action: pan-y;
 
-  filter:
-    none !important;
-
-  perspective:
-    none !important;
-
-  contain:
-    none !important;
-
-  content-visibility:
-    visible !important;
-
-  clip:
-    auto !important;
-
-  clip-path:
-    none !important;
-
-  isolation:
-    auto !important;
+  scroll-snap-align: start !important;
 }
 
 
 /* ==========================================================
-   06 / PURPOSE FRAME
-   TSX STILL OWNS POSITION
+   06 / CIVILIZATION PERMANENT FRAME
+
+   Neutralize all old START / FIXED / END behavior.
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-civilization-prelude
-> .an-civilization-purpose__frame {
-  display:
-    flex !important;
+> .an-civilization-purpose__frame,
 
-  align-items:
-    stretch !important;
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+> .an-civilization-purpose__frame--start,
 
-  justify-content:
-    center !important;
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+> .an-civilization-purpose__frame--fixed,
 
-  width:
-    100% !important;
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+> .an-civilization-purpose__frame--end {
+  position: relative !important;
 
-  height:
-    100svh !important;
+  inset: auto !important;
 
-  min-height:
-    100svh !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
 
-  max-height:
-    100svh !important;
+  z-index: 1 !important;
 
-  margin:
-    0 !important;
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: center !important;
 
-  padding:
-    clamp(12px, 2vw, 24px) !important;
+  box-sizing: border-box !important;
 
-  opacity:
-    1 !important;
+  width: 100% !important;
+  max-width: 1800px !important;
 
-  visibility:
-    visible !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
 
-  pointer-events:
-    auto !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
 
-  transform:
-    none !important;
+  overflow: visible !important;
 
-  filter:
-    none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 
-  perspective:
-    none !important;
+  pointer-events: auto !important;
 
-  contain:
-    none !important;
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+  contain: none !important;
 
-  content-visibility:
-    visible !important;
+  content-visibility: visible !important;
+
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   08 / PURPOSE GLASS
+   07 / CIVILIZATION GLASS
+
+   Keep the existing optical material.
+   Only enforce stable geometry.
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-civilization-prelude
 .an-civilization-purpose__glass {
-  position:
-    relative !important;
+  position: relative !important;
 
-  z-index:
-    1 !important;
+  isolation: isolate !important;
 
-  opacity:
-    1 !important;
+  z-index: 1 !important;
 
-  visibility:
-    visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 
-  content-visibility:
-    visible !important;
+  box-sizing: border-box !important;
 
-  transform:
-    none !important;
+  width: 100% !important;
+  max-width: 1800px !important;
+  min-width: 0 !important;
 
-  filter:
-    none !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
 
-  contain:
-    none !important;
+  margin: 0 auto !important;
+
+  overflow: hidden !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  content-visibility: visible !important;
+
+  transform: none !important;
+  filter: none !important;
+  contain: none !important;
 }
 
 
 /* ==========================================================
-   09 / IDEAL USER SCROLL TERRITORY
+   08 / IDEAL USER
+   HORIZONTAL / ONE VIEWPORT
+
+   Old:
+   PROFILE_COUNT × 100svh
+
+   Current:
+   One permanent viewport
+   Six horizontally controlled profiles
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-ideal-user.an-ideal-user {
-  position:
-    relative !important;
+  position: relative !important;
 
-  display:
-    block !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 
-  width:
-    100% !important;
+  box-sizing: border-box !important;
 
-  height:
-    calc(
-      var(--an-ideal-user-count, 1)
-      * 100svh
-    ) !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
 
-  min-height:
-    calc(
-      var(--an-ideal-user-count, 1)
-      * 100svh
-    ) !important;
+  height: 100svh !important;
+  min-height: 100svh !important;
+  max-height: 100svh !important;
 
-  max-height:
-    none !important;
-
-  margin:
-    0 !important;
+  margin: 0 !important;
 
   padding:
-    0 !important;
+    clamp(10px, 1.5vw, 22px)
+    !important;
 
-  justify-content:
-    initial !important;
+  overflow: hidden !important;
 
-  overflow:
-    visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 
-  opacity:
-    1 !important;
+  background: transparent !important;
 
-  visibility:
-    visible !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
 
-  background:
-    transparent !important;
+  box-shadow: none !important;
 
-  border:
-    0 !important;
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+  contain: none !important;
 
-  border-radius:
-    0 !important;
+  content-visibility: visible !important;
 
-  box-shadow:
-    none !important;
+  clip: auto !important;
+  clip-path: none !important;
 
-  transform:
-    none !important;
+  isolation: auto !important;
 
-  filter:
-    none !important;
+  touch-action: pan-y;
 
-  perspective:
-    none !important;
-
-  contain:
-    none !important;
-
-  content-visibility:
-    visible !important;
-
-  clip:
-    auto !important;
-
-  clip-path:
-    none !important;
-
-  isolation:
-    auto !important;
+  scroll-snap-align: start !important;
 }
 
 
 /* ==========================================================
-   10 / IDEAL USER FRAME
+   09 / IDEAL USER PERMANENT FRAME
+
+   Neutralize all old START / FIXED / END behavior.
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-ideal-user
-> .an-ideal-user__frame {
-  display:
-    flex !important;
+> .an-ideal-user__frame,
 
-  align-items:
-    stretch !important;
+main#home-top.an-home-2026
+> #archenova-ideal-user
+> .an-ideal-user__frame--start,
 
-  justify-content:
-    center !important;
+main#home-top.an-home-2026
+> #archenova-ideal-user
+> .an-ideal-user__frame--fixed,
 
-  width:
-    100% !important;
+main#home-top.an-home-2026
+> #archenova-ideal-user
+> .an-ideal-user__frame--end {
+  position: relative !important;
 
-  height:
-    100svh !important;
+  inset: auto !important;
 
-  min-height:
-    100svh !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
 
-  max-height:
-    100svh !important;
+  z-index: 1 !important;
 
-  margin:
-    0 !important;
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: center !important;
 
-  padding:
-    clamp(12px, 2vw, 24px) !important;
+  box-sizing: border-box !important;
 
-  opacity:
-    1 !important;
+  width: 100% !important;
+  max-width: 1800px !important;
 
-  visibility:
-    visible !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
 
-  pointer-events:
-    auto !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
 
-  transform:
-    none !important;
+  overflow: visible !important;
 
-  filter:
-    none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 
-  perspective:
-    none !important;
+  pointer-events: auto !important;
 
-  contain:
-    none !important;
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+  contain: none !important;
 
-  content-visibility:
-    visible !important;
+  content-visibility: visible !important;
+
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   12 / IDEAL USER GLASS
+   10 / IDEAL USER GLASS
+
+   Keep existing material.
+   Only enforce stable geometry.
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-ideal-user
 .an-ideal-user__glass {
-  position:
-    relative !important;
+  position: relative !important;
 
-  z-index:
-    1 !important;
+  isolation: isolate !important;
 
-  opacity:
-    1 !important;
+  z-index: 1 !important;
 
-  visibility:
-    visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 
-  content-visibility:
-    visible !important;
+  box-sizing: border-box !important;
 
-  transform:
-    none !important;
+  width: 100% !important;
+  max-width: 1800px !important;
+  min-width: 0 !important;
 
-  filter:
-    none !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
 
-  contain:
-    none !important;
+  margin: 0 auto !important;
+
+  overflow: hidden !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  content-visibility: visible !important;
+
+  transform: none !important;
+  filter: none !important;
+  contain: none !important;
 }
 
 
 /* ==========================================================
-   13 / FIXED POSITION PATH
+   11 / DIRECT CHILD OWNERSHIP
+
+   Both Prelude sections now participate in normal
+   document flow as exactly one viewport each.
+
+   No fixed positioning.
+   No hidden scroll territory.
 ========================================================== */
 
 main#home-top.an-home-2026
@@ -65639,24 +65666,72 @@ main#home-top.an-home-2026
   #archenova-civilization-prelude,
   #archenova-ideal-user
 ) {
-  transform:
-    none !important;
+  position: relative !important;
 
-  filter:
-    none !important;
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+  contain: none !important;
 
-  perspective:
-    none !important;
+  will-change: auto !important;
 
-  contain:
-    none !important;
-
-  will-change:
-    auto !important;
-
-  content-visibility:
-    visible !important;
+  content-visibility: visible !important;
 }
+
+
+/* ==========================================================
+   12 / MOBILE OWNERSHIP
+
+   Explicitly prevent older mobile rules from restoring
+   multi-viewport geometry.
+========================================================== */
+
+@media (max-width: 700px) {
+
+  main#home-top.an-home-2026
+  > #archenova-civilization-prelude.an-civilization-purpose,
+
+  main#home-top.an-home-2026
+  > #archenova-ideal-user.an-ideal-user {
+    height: 100svh !important;
+    min-height: 100svh !important;
+    max-height: 100svh !important;
+
+    padding:
+      max(
+        8px,
+        env(safe-area-inset-top)
+      )
+      max(
+        8px,
+        env(safe-area-inset-right)
+      )
+      max(
+        8px,
+        env(safe-area-inset-bottom)
+      )
+      max(
+        8px,
+        env(safe-area-inset-left)
+      )
+      !important;
+  }
+
+  main#home-top.an-home-2026
+  > #archenova-civilization-prelude
+  > .an-civilization-purpose__frame,
+
+  main#home-top.an-home-2026
+  > #archenova-ideal-user
+  > .an-ideal-user__frame {
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    padding: 0 !important;
+  }
+}
+
 
 
 
