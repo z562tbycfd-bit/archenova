@@ -1,7 +1,169 @@
 {
   "ok": true,
-  "updated": "2026-10-07T06:57:33.793Z",
+  "updated": "2026-10-07T14:23:25.581Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Merck suffers a setback in Europe over its new Keytruda formulation",
+      "url": "https://www.statnews.com/pharmalot/2026/10/07/merck-suffers-setback-in-europe-over-new-keytruda-formulation/?utm_campaign=rss",
+      "summary": "In a setback for Merck, a Dutch court ordered a halt to the manufacturing and marketing of a subcutaneous formulation of Keytruda in several European countries.",
+      "ts": 1791381989000,
+      "publishedAt": "2026-10-07T14:06:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Forbion raises $2.6 billion, its largest fundraise to date",
+      "url": "https://www.statnews.com/2026/10/07/biotech-news-forbion-raises-2-6-billion-largest-fundraise/?utm_campaign=rss",
+      "summary": "Forbion, a prominent European venture capital firm, said it has raised $2.6 billion, its largest fundraise to date and one of the largest in the region in recent years.",
+      "ts": 1791380542000,
+      "publishedAt": "2026-10-07T13:42:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why health AI pilots in Utah may be on a collision course with the FDA",
+      "url": "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AIP Prognosis: Unresolved regulatory questions around Utah's AI sandbox, and more health AI news.",
+      "ts": 1791380332000,
+      "publishedAt": "2026-10-07T13:38:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Kagan, Soai Win 2026 Nobel Prize in Chemistry for Discoveries Related to Asymmetric Organic Synthesis",
+      "url": "https://www.genengnews.com/topics/drug-discovery/kagan-soai-win-2026-nobel-prize-in-chemistry-for-discoveries-related-to-asymmetric-organic-synthesis/",
+      "summary": "Henri Kagan, PhD, and Kenso Soai, PhD, shared this year's award for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis respectively. The post Kagan, Soai Win 2026 Nobel Prize in Chemist…",
+      "ts": 1791377980000,
+      "publishedAt": "2026-10-07T12:59:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about WHO obesity guidelines for kids, DOJ targeting pharma, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/?utm_campaign=rss",
+      "summary": "The World Health Organization released its first guidelines addressing the sharp rise in obesity among children and adolescents",
+      "ts": 1791377809000,
+      "publishedAt": "2026-10-07T12:56:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
+      "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+      "summary": "Launched two years ago today, the European Space Agency’s Hera mission for planetary defence has been hurtling away from Earth ever since. The small-car-sized spacecraft is now preparing for its single most challenging a…",
+      "ts": 1791376380000,
+      "publishedAt": "2026-10-07T12:33:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Justice Department targets drugmakers in new directive on combating white-collar fraud",
+      "url": "https://www.statnews.com/pharmalot/2026/10/07/trump-administration-adds-pharma-to-list-priorities-combating-white-collar-fraud/?utm_campaign=rss",
+      "summary": "The Justice Department issued a new directive for combating fraud that noted the agency will pursue violations of a federal law that tightly regulates the pharmaceutical industry.",
+      "ts": 1791375042000,
+      "publishedAt": "2026-10-07T12:10:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
+      "url": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Weight-loss drugs show signs of slowing biological aging, say drugmakers Popular w…",
+      "ts": 1791375000000,
+      "publishedAt": "2026-10-07T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "The Incredible Adventures of the Hera mission – The space detectives arrive",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/The_Incredible_Adventures_of_the_Hera_mission_The_space_detectives_arrive",
+      "summary": "Video: 00:04:19 Meet Hera, our very own asteroid detective. Together with two CubeSats – Milani the rock decoder and Juventas the radar visionary – Hera is off on an adventure to explore Didymos, a double asteroid system…",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "ER visits from people born outside the U.S. dropped after ICE raids",
+      "url": "https://www.statnews.com/2026/10/07/health-news-er-visits-from-people-born-outside-the-u-s-dropped-after-ice-raids/?utm_campaign=rss",
+      "summary": "A new study found that visits by people born outside of the U.S. to three LA emergency rooms dropped precipitously after ICE raids increased last year.",
+      "ts": 1791373841000,
+      "publishedAt": "2026-10-07T11:50:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "2026 Nobel Prize in chemistry awarded for ‘mirror image’ molecule research, with impact on pharmacology",
+      "url": "https://www.statnews.com/2026/10/07/nobel-prize-chemistry-henri-kagan-kenso-soai-2026-winner/?utm_campaign=rss",
+      "summary": "Henri B. Kagan and Kenso Soai were awarded the 2026 Nobel Prize in chemistry on Wednesday for solving a mystery with research on \"mirror image\" molecules.",
+      "ts": 1791369748000,
+      "publishedAt": "2026-10-07T10:42:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Caribou Biosciences, biotech co-founded by Jennifer Doudna, is shutting down",
+      "url": "https://www.statnews.com/2026/10/07/caribou-biosciences-shutting-down-lymphoma-car-t-therapy/?utm_campaign=rss",
+      "summary": "Caribou Biosciences is shutting down after failing to raise the money necessary to fund a late-stage clinical trial of its off-the-shelf CAR-T therapy for lymphoma.",
+      "ts": 1791361800000,
+      "publishedAt": "2026-10-07T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: In Duchenne muscular dystrophy, a promising therapy is available to a fortunate few",
+      "url": "https://www.statnews.com/2026/10/07/muscular-dystrophy-exon-skipping-drugs-novartis-dyne/?utm_campaign=rss",
+      "summary": "Exon-skipping drugs present a critical test for the FDA’s goal of encouraging treatments for rare disease.",
+      "ts": 1791361800000,
+      "publishedAt": "2026-10-07T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Democrats plot a midterms push for MAHA voters",
+      "url": "https://www.statnews.com/2026/10/07/democrats-focus-on-food-toxins-win-maha-voters-midterm-elections/?utm_campaign=rss",
+      "summary": "Key Democrats are meeting with MAHA activists and rolling out food and environmental plans to entice them.",
+      "ts": 1791361800000,
+      "publishedAt": "2026-10-07T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: My oncologist recommended active surveillance for prostate cancer. Life insurers called it ‘untreated cancer’",
+      "url": "https://www.statnews.com/2026/10/07/active-surveillance-prostate-cancer-life-insurance-policy/?utm_campaign=rss",
+      "summary": "“I reject the idea that a man who keeps every prostate cancer surveillance appointment has ‘untreated cancer,’” writes Howard Wolinsky.",
+      "ts": 1791361800000,
+      "publishedAt": "2026-10-07T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA-led Team Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-team-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
+      "summary": "",
+      "ts": 1791352645000,
+      "publishedAt": "2026-10-07T05:57:25.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 7 – Supernova Remnant Pa 30",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
+      "summary": "APOD Science APOD APOD: 2026 October 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
+      "ts": 1791345900000,
+      "publishedAt": "2026-10-07T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Arctic Sea Ice Shrinks to Its 2026 Minimum",
+      "url": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/",
+      "summary": "Satellite records show Arctic sea ice covering less of the ocean in both winter and summer.",
+      "ts": 1791345600000,
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Identifiability of a linear dynamical reaction-diffusion system with directed interactions from the second-order statistics of a single snapshot",
@@ -453,19 +615,19 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "ESA",
-      "title": "Webb captures commotion from nebula’s stellar jets",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets",
-      "summary": "Image: Webb captures commotion from nebula’s stellar jets",
+      "source": "NASA",
+      "title": "NASA’s Webb Captures Commotion From Nebula’s Stellar Jets",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
+      "summary": "A cauldron of cosmic creation is being revealed in a new image from NASA’s James Webb Space Telescope. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, which resi…",
       "ts": 1791291600000,
       "publishedAt": "2026-10-06T13:00:00.000Z",
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "NASA’s Webb Captures Commotion From Nebula’s Stellar Jets",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
-      "summary": "A cauldron of cosmic creation is being revealed in a new image from NASA’s James Webb Space Telescope. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, which resi…",
+      "source": "ESA",
+      "title": "Webb captures commotion from nebula’s stellar jets",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets",
+      "summary": "Image: Webb captures commotion from nebula’s stellar jets",
       "ts": 1791291600000,
       "publishedAt": "2026-10-06T13:00:00.000Z",
       "categoryId": "space"
@@ -649,168 +811,6 @@
       "ts": 1791282900000,
       "publishedAt": "2026-10-06T10:35:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "ts": 1791280800000,
-      "publishedAt": "2026-10-06T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Watch Sophie Adenot return to Earth ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Watch_Sophie_Adenot_return_to_Earth",
-      "summary": "On 7 October 2026, ESA astronaut Sophie Adenot and her Crew-12 crewmates will undock from the International Space Station at around 12:05 GMT/14:05 CEST to begin their journey back to Earth.",
-      "ts": 1791275640000,
-      "publishedAt": "2026-10-06T08:34:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "In this hospital, pulse oximeters went from overestimating to underestimating blood oxygen. Why?",
-      "url": "https://www.statnews.com/2026/10/06/pulse-oximeters-overestimate-and-underestimate-blood-oxygen-study/?utm_campaign=rss",
-      "summary": "Researchers found pulse oximeters went from overestimating blood oxygen levels to underestimating them; inaccuracies were worse in patients of color.",
-      "ts": 1791275400000,
-      "publishedAt": "2026-10-06T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m a doctor. Here’s what I want the public to know about AI tools and health care costs",
-      "url": "https://www.statnews.com/2026/10/06/ai-tools-health-care-costs-bcbs-research/?utm_campaign=rss",
-      "summary": "“We can document honestly and still wind up inflating hospital bills,” writes a frustrated doctor.",
-      "ts": 1791275400000,
-      "publishedAt": "2026-10-06T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Why the FDA should not approve an ineffective multicancer screening test",
-      "url": "https://www.statnews.com/2026/10/06/grail-multi-cancer-screening-test-criticism/?utm_campaign=rss",
-      "summary": "“Telling more people they have cancer is not progress; progress is having fewer people die from cancer,” H. Gilbert Welch writes of Grail’s multicancer screening test.",
-      "ts": 1791275400000,
-      "publishedAt": "2026-10-06T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Can you live longer for $5,500? Longevity clinics are the buzzy new trend at nonprofit hospitals",
-      "url": "https://www.statnews.com/2026/10/06/hospitals-longevity-clinics-healthy-aging-wellness-trend/?utm_campaign=rss",
-      "summary": "Longevity clinics promise personalized health advice and cutting-edge tests. Now major hospitals are entering the business, at costs reaching $45,000 a year.",
-      "ts": 1791275400000,
-      "publishedAt": "2026-10-06T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "European rover trains for Mars in the desert",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_rover_trains_for_Mars_in_the_desert",
-      "summary": "For eight days, a Mars rover prototype travelled 220 metres across a barren landscape, following commands from a science team some 1200 kilometres away.",
-      "ts": 1791273600000,
-      "publishedAt": "2026-10-06T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
-      "summary": "APODScienceAPODAPOD: 2026 October 6 – A…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fas…",
-      "ts": 1791259500000,
-      "publishedAt": "2026-10-06T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "The Beaver Brown Waters of Rupert Bay ",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/",
-      "summary": "Dissolved organic matter and suspended sediment mingle in the southernmost extent of James Bay.",
-      "ts": 1791259260000,
-      "publishedAt": "2026-10-06T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rare Disease Classification in Video Capsule Endoscopy",
-      "url": "https://arxiv.org/abs/2610.03733",
-      "summary": "arXiv:2610.03733v1 Announce Type: new Abstract: Video capsule endoscopy offers a non-invasive way to examine the small bowel, however, the rare but clinically important findings that appear only in less than 1\\% of label…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Brain scaling and diversity in musteloids",
-      "url": "https://arxiv.org/abs/2610.03734",
-      "summary": "arXiv:2610.03734v1 Announce Type: new Abstract: The diversity of brain size and organization across mammals reflects how evolutionary and ecological pressures have shaped neural architecture through time. Yet, how these …",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Nonequivalence of expected free energy and revised system integrated information in noisy permutation networks",
-      "url": "https://arxiv.org/abs/2610.03735",
-      "summary": "arXiv:2610.03735v1 Announce Type: new Abstract: The free-energy principle (FEP) and active inference describe adaptive systems through probabilistic generative models and free-energy functionals, whereas integrated infor…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GCTAg: scalable mixed-model analysis for biobank-scale agricultural cohorts",
-      "url": "https://arxiv.org/abs/2610.03815",
-      "summary": "arXiv:2610.03815v1 Announce Type: new Abstract: Genome-wide association studies identify genomic variants associated with traits. Mixed linear model association (MLMA) methods using a whole-genome relationship matrix, su…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MathAgent: Multi-Agent Optimization of Mathematical Invariants for Molecular Property Prediction",
-      "url": "https://arxiv.org/abs/2610.03992",
-      "summary": "arXiv:2610.03992v1 Announce Type: new Abstract: Mathematical invariants provide complementary representations of molecular structure, but their predictive utility can vary across datasets and prediction tasks. For a new …",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stability of Phase-locked States of Weakly Coupled Izhikevich Neurons",
-      "url": "https://arxiv.org/abs/2610.04025",
-      "summary": "arXiv:2610.04025v1 Announce Type: new Abstract: The Izhikevich model is a computationally efficient neuron model that can exhibit a wide range of firing patterns observed in the brain. However, it is a discontinuous dyna…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On non-monotonic steady state response curves",
-      "url": "https://arxiv.org/abs/2610.04029",
-      "summary": "arXiv:2610.04029v1 Announce Type: new Abstract: Non-monotonic steady state response curves can readily arise from an incoherent feedforward loop (IFFL), which has also been conjectured to be a necessary mechanism. In a p…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MEM as an Extension of Recurrent Processing Theory: Toward a Motivational Account of Consciousness",
-      "url": "https://arxiv.org/abs/2610.04057",
-      "summary": "arXiv:2610.04057v1 Announce Type: new Abstract: Victor Lamme's Recurrent Processing Theory (RPT) proposes that the feedforward sweep (FFS) can extract and categorize visual features unconsciously, while conscious vision …",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fluctuation theorems and exact multi-allele fixation probabilities",
-      "url": "https://arxiv.org/abs/2610.04090",
-      "summary": "arXiv:2610.04090v1 Announce Type: new Abstract: A mutant gene that appears in a finite population will, in the long run, either disappear from it or become fixed, so that all members of the population will carry a copy o…",
-      "ts": 1791259200000,
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
