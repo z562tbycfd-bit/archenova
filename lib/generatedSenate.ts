@@ -123,6 +123,21 @@ export const senateAgenda =
   {
     "id": "agenda-9",
     "rank": 9,
+    "title": "Use of natural gas or propane in commercial kitchens exposes workers to air pollution and dangerous heat",
+    "slug": "ai-use-of-natural-gas-or-propane-in-commercial-kitchens-exposes-workers-to-air-poll",
+    "category": "AI",
+    "source": "Phys.org",
+    "score": 9.2,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-10",
+    "rank": 10,
     "title": "IAEA-led Team Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
     "slug": "ai-iaea-led-team-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-stat",
     "category": "AI",
@@ -136,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "STAT+: Merck suffers a setback in Europe over its new Keytruda formulation",
     "slug": "general-stat-merck-suffers-a-setback-in-europe-over-its-new-keytruda-formulation",
     "category": "General",
@@ -151,8 +166,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-12",
+    "rank": 12,
     "title": "The CosmicWatch Desktop Muon Detector (v3X): Prototype Design and Adaptation for Spaceflight",
     "slug": "space-the-cosmicwatch-desktop-muon-detector-v3x-prototype-design-and-adaptation-for-sp",
     "category": "Space",
@@ -163,21 +178,6 @@ export const senateAgenda =
     "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
     "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
     "architectureHandoff": "Orbital Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": "Radio galaxy from 12.5 billion years ago may be most powerful ever found",
-    "slug": "energy-radio-galaxy-from-12-5-billion-years-ago-may-be-most-powerful-ever-found",
-    "category": "Energy",
-    "source": "Phys.org",
-    "score": 9,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
     "status": "Open"
   }
 ];

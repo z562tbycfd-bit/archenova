@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-07T20:28:23.731Z",
+  "updated": "2026-10-07T20:27:05.290Z",
   "items": [
     {
       "source": "Phys.org",
@@ -515,14 +515,6 @@
       "publishedAt": "2026-10-07T10:00:00.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Hybrid Oscillator-Qubit Quantum Processors: Simulating Fermions, Bosons, and Gauge Fields",
-      "url": "http://link.aps.org/doi/10.1103/s5bn-z4jq",
-      "summary": "Author(s): Eleanor Crane, Kevin C. Smith, Teague Tomesh, Alec Eickbusch, John M. Martyn, Stefan Kühn, Lena Funcke, Michael Austin DeMarco, Isaac L. Chuang, Nathan Wiebe, Alexander Schuckert, and Steven M. Girvin Research…",
-      "ts": 1791367200000,
-      "publishedAt": "2026-10-07T10:00:00.000Z"
-    },
-    {
       "source": "Phys.org",
       "title": "Amazon wildfires are generating ozone that weakens surviving trees' carbon uptake",
       "url": "https://phys.org/news/2026-10-amazon-wildfires-generating-ozone-weakens.html",
@@ -799,6 +791,14 @@
       "title": "What Rate Theories Compute: Chemical kinetics from Arrhenius to machine-learned potentials",
       "url": "https://arxiv.org/abs/2610.07517",
       "summary": "arXiv:2610.07517v1 Announce Type: new Abstract: Major advances in chemical rate theory changed what was computed and what a barrier meant. I organize this conceptual history around those changes, while retaining the cont…",
+      "ts": 1791345600000,
+      "publishedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Satellite observations of nitrous oxide emissions from adipic acid production",
+      "url": "https://arxiv.org/abs/2610.07542",
+      "summary": "arXiv:2610.07542v1 Announce Type: new Abstract: The production of adipic acid generates nitrous oxide as a by-product, which, if emitted, very effectively warms the climate and depletes the stratospheric ozone layer. The…",
       "ts": 1791345600000,
       "publishedAt": "2026-10-07T04:00:00.000Z"
     }
