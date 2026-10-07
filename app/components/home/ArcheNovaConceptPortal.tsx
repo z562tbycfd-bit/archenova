@@ -22,6 +22,14 @@ import ArcheNovaWorldGallery from "./ArcheNovaWorldGallery";
    Purpose / Human Agency / World are mounted as direct
    siblings of the Concept entrance.
 
+   CONTROL
+   ----------------------------------------------------------
+   Desktop:
+   Header CLOSE remains available.
+
+   Mobile:
+   The footer control becomes CLOSE ↑ while Concept is open.
+
    IMPORTANT
    ----------------------------------------------------------
    - Existing Concept environments remain unchanged.
@@ -29,7 +37,7 @@ import ArcheNovaWorldGallery from "./ArcheNovaWorldGallery";
    - No wrapper surrounds the expanded environments.
    - No duplicate inner glass card.
    - Opening Concept does not change entrance material.
-   - Purpose / Ideal User keep viewport-based scrolling.
+   - Purpose / Ideal User use horizontal chapter navigation.
    - World keeps its original HOME relationship.
 ========================================================== */
 
@@ -75,12 +83,6 @@ export default function ArcheNovaConceptPortal() {
     <Fragment>
       {/* ====================================================
           01 / CONCEPT ENTRANCE
-
-          IMPORTANT:
-          The className never changes between OPEN/CLOSED.
-
-          This prevents opening Concept from changing the
-          HOME glass material through state-specific CSS.
       ==================================================== */}
 
       <section
@@ -120,6 +122,13 @@ export default function ArcheNovaConceptPortal() {
 
           {/* ================================================
               HEADER
+
+              Desktop:
+              Existing CLOSE control.
+
+              Mobile:
+              Hidden while the footer becomes the
+              primary CLOSE control.
           ================================================ */}
 
           <header className="an-concept-portal__header">
@@ -200,6 +209,16 @@ export default function ArcheNovaConceptPortal() {
 
           {/* ================================================
               CONTROL
+
+              CLOSED:
+              EXPLORE CONCEPT →
+
+              OPEN / DESKTOP:
+              Existing passive environment-open state.
+
+              OPEN / MOBILE:
+              CLOSE ↑
+              Real closeConcept() control.
           ================================================ */}
 
           <div className="an-concept-portal__footer">
@@ -229,19 +248,51 @@ export default function ArcheNovaConceptPortal() {
                 </svg>
               </button>
             ) : (
-              <div
-                className="an-concept-portal__opened"
-                role="status"
-                aria-live="polite"
-              >
-                <span>
-                  CONCEPT ENVIRONMENT OPEN
-                </span>
+              <>
+                {/* DESKTOP OPEN STATE */}
 
-                <span aria-hidden="true">
-                  ↓
-                </span>
-              </div>
+                <div
+                  className="an-concept-portal__opened an-concept-portal__opened--desktop"
+                  role="status"
+                  aria-live="polite"
+                >
+                  <span>
+                    CONCEPT ENVIRONMENT OPEN
+                  </span>
+
+                  <span aria-hidden="true">
+                    ↓
+                  </span>
+                </div>
+
+                {/* MOBILE CLOSE CONTROL */}
+
+                <button
+                  type="button"
+                  className="an-concept-portal__mobile-close"
+                  onClick={closeConcept}
+                  aria-label="Close ArcheNova Concept"
+                  aria-expanded="true"
+                >
+                  <span>
+                    CLOSE
+                  </span>
+
+                  <svg
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M9 15V3M4.5 7.5L9 3l4.5 4.5"
+                      stroke="currentColor"
+                      strokeWidth="1"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+              </>
             )}
           </div>
         </div>
@@ -250,20 +301,9 @@ export default function ArcheNovaConceptPortal() {
       {/* ====================================================
           02 / EXPANDED CONCEPT
 
-          CRITICAL:
           Fragment only.
-
-          No:
-          - div wrapper
-          - transform
-          - filter
-          - backdrop-filter
-          - contain
-          - overflow clipping
-
-          Therefore Purpose / Ideal User remain direct
-          children of HOME and their position: fixed frames
-          continue to use the viewport.
+          Purpose / Ideal User / World remain direct
+          siblings of the Concept entrance.
       ==================================================== */}
 
       {isOpen && (
@@ -273,7 +313,6 @@ export default function ArcheNovaConceptPortal() {
           <ArcheNovaIdealUserPrelude />
 
           <ArcheNovaWorldGallery />
-
         </Fragment>
       )}
 
@@ -281,12 +320,6 @@ export default function ArcheNovaConceptPortal() {
         /* ==================================================
            ARCHENOVA CONCEPT
            VISUAL SYSTEM
-
-           SCOPE:
-           Concept entrance + Concept ending only.
-
-           Purpose / Ideal User / World are intentionally
-           NOT targeted here.
         ================================================== */
 
 
@@ -334,13 +367,6 @@ export default function ArcheNovaConceptPortal() {
 
         /* ==================================================
            02 / SURFACE
-
-           Layout only.
-
-           The visible glass belongs to #archenova-concept
-           through globals.css.
-
-           No second glass is created here.
         ================================================== */
 
         #archenova-concept
@@ -387,9 +413,6 @@ export default function ArcheNovaConceptPortal() {
 
         /* ==================================================
            03 / AMBIENT
-
-           State-independent.
-           EXPLORE does not alter these values.
         ================================================== */
 
         #archenova-concept
@@ -618,7 +641,7 @@ export default function ArcheNovaConceptPortal() {
 
 
         /* ==================================================
-           06 / CLOSE
+           06 / DESKTOP CLOSE
         ================================================== */
 
         #archenova-concept
@@ -1056,6 +1079,10 @@ export default function ArcheNovaConceptPortal() {
         }
 
 
+        /* ==================================================
+           10 / DESKTOP OPEN STATUS
+        ================================================== */
+
         #archenova-concept
         .an-concept-portal__opened {
           display: flex;
@@ -1098,6 +1125,102 @@ export default function ArcheNovaConceptPortal() {
         }
 
 
+        /* ==================================================
+           11 / MOBILE CLOSE
+
+           Hidden on desktop.
+
+           On mobile it occupies exactly the same footer
+           control position as CONCEPT ENVIRONMENT OPEN.
+        ================================================== */
+
+        #archenova-concept
+        .an-concept-portal__mobile-close {
+          display: none;
+
+          align-items: center;
+
+          gap: 13px;
+
+          margin: 0;
+
+          padding:
+            10px 0;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.54
+            );
+
+          border: 0;
+          border-radius: 0;
+
+          background:
+            transparent;
+
+          box-shadow:
+            none;
+
+          font: inherit;
+
+          cursor: pointer;
+
+          -webkit-tap-highlight-color:
+            transparent;
+
+          animation:
+            an-concept-control-enter
+            500ms ease both;
+
+          transition:
+            color 240ms ease,
+            gap 320ms
+            cubic-bezier(
+              0.22,
+              1,
+              0.36,
+              1
+            );
+        }
+
+
+        #archenova-concept
+        .an-concept-portal__mobile-close
+        span {
+          font-size: 8px;
+
+          font-weight: 650;
+
+          letter-spacing:
+            0.18em;
+        }
+
+
+        #archenova-concept
+        .an-concept-portal__mobile-close
+        svg {
+          display: block;
+
+          width: 17px;
+          height: 17px;
+        }
+
+
+        #archenova-concept
+        .an-concept-portal__mobile-close:hover {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.94
+            );
+        }
+
+
         @keyframes an-concept-control-enter {
           from {
             opacity: 0;
@@ -1110,7 +1233,7 @@ export default function ArcheNovaConceptPortal() {
 
 
         /* ==================================================
-           10 / FOCUS
+           12 / FOCUS
         ================================================== */
 
         #archenova-concept
@@ -1118,6 +1241,9 @@ export default function ArcheNovaConceptPortal() {
 
         #archenova-concept
         .an-concept-portal__close:focus-visible,
+
+        #archenova-concept
+        .an-concept-portal__mobile-close:focus-visible,
 
         .an-concept-portal__return:focus-visible {
           outline:
@@ -1135,60 +1261,64 @@ export default function ArcheNovaConceptPortal() {
 
 
         /* ==================================================
-   11 / CLOSING
+           13 / CLOSING
+        ================================================== */
 
-   Geometry follows the Concept Cover.
-   Visible glass ownership remains in globals.css.
-================================================== */
+        .an-concept-portal__closing {
+          position: relative;
 
-.an-concept-portal__closing {
-  position: relative;
+          display: flex;
+          align-items: stretch;
+          justify-content: center;
 
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
+          width: 100%;
+          min-width: 0;
+          min-height: 100svh;
+        }
 
-  width: 100%;
-  min-width: 0;
-  min-height: 100svh;
-}
 
-.an-concept-portal__closing-surface {
-  position: relative;
-  isolation: isolate;
+        .an-concept-portal__closing-surface {
+          position: relative;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+          isolation: isolate;
 
-  width: 100%;
-  max-width: 1800px;
-  min-width: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
 
-  height: 100%;
-  min-height: 0;
+          width: 100%;
+          max-width: 1800px;
+          min-width: 0;
 
-  margin: 0 auto;
+          height: 100%;
+          min-height: 0;
 
-  padding:
-    clamp(44px, 6vw, 92px)
-    clamp(26px, 7vw, 120px);
+          margin: 0 auto;
 
-  overflow: hidden;
+          padding:
+            clamp(44px, 6vw, 92px)
+            clamp(26px, 7vw, 120px);
 
-  border: 0;
-  border-radius: 0;
+          overflow: hidden;
 
-  background: transparent;
+          border: 0;
+          border-radius: 0;
 
-  -webkit-backdrop-filter: none;
-  backdrop-filter: none;
+          background:
+            transparent;
 
-  box-shadow: none;
+          -webkit-backdrop-filter:
+            none;
 
-  text-align: center;
-}
+          backdrop-filter:
+            none;
+
+          box-shadow:
+            none;
+
+          text-align: center;
+        }
 
 
         .an-concept-portal__closing-eyebrow {
@@ -1317,7 +1447,7 @@ export default function ArcheNovaConceptPortal() {
 
 
         /* ==================================================
-           12 / MOBILE
+           14 / MOBILE
         ================================================== */
 
         @media (max-width: 768px) {
@@ -1342,6 +1472,18 @@ export default function ArcheNovaConceptPortal() {
 
             box-shadow:
               none;
+          }
+
+
+          /*
+           * Desktop header CLOSE disappears.
+           * The footer CLOSE becomes the single mobile
+           * close control.
+           */
+          #archenova-concept
+          .an-concept-portal__close {
+            display:
+              none !important;
           }
 
 
@@ -1443,6 +1585,27 @@ export default function ArcheNovaConceptPortal() {
           }
 
 
+          /*
+           * OPEN desktop status is removed on mobile.
+           */
+          #archenova-concept
+          .an-concept-portal__opened--desktop {
+            display:
+              none !important;
+          }
+
+
+          /*
+           * Mobile CLOSE occupies the same lower-right
+           * control area.
+           */
+          #archenova-concept
+          .an-concept-portal__mobile-close {
+            display:
+              flex;
+          }
+
+
           .an-concept-portal__closing-surface p {
             font-size:
               clamp(
@@ -1476,7 +1639,7 @@ export default function ArcheNovaConceptPortal() {
 
 
         /* ==================================================
-           13 / SMALL MOBILE
+           15 / SMALL MOBILE
         ================================================== */
 
         @media (max-width: 430px) {
@@ -1507,15 +1670,41 @@ export default function ArcheNovaConceptPortal() {
           }
 
 
+          /*
+           * Keep CLOSE text visible.
+           *
+           * The old implementation hid:
+           * .an-concept-portal__close span
+           *
+           * That behavior is intentionally removed.
+           */
           #archenova-concept
-          .an-concept-portal__close span {
-            display: none;
+          .an-concept-portal__mobile-close {
+            gap:
+              11px;
+          }
+
+          #archenova-concept
+          .an-concept-portal__mobile-close
+          span {
+            display:
+              inline;
+          }
+
+          #archenova-concept
+          .an-concept-portal__mobile-close
+          svg {
+            width:
+              16px;
+
+            height:
+              16px;
           }
         }
 
 
         /* ==================================================
-           14 / REDUCED MOTION
+           16 / REDUCED MOTION
         ================================================== */
 
         @media (
@@ -1527,6 +1716,9 @@ export default function ArcheNovaConceptPortal() {
 
           #archenova-concept
           .an-concept-portal__close,
+
+          #archenova-concept
+          .an-concept-portal__mobile-close,
 
           .an-concept-portal__return,
 
