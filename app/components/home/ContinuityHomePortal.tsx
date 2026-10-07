@@ -34,9 +34,6 @@ export default function ContinuityHomePortal() {
       </div>
 
       <div className="an-continuity-home__content">
-        <p className="an-continuity-home__eyebrow">
-          ARCHENOVA / CONTINUITY
-        </p>
 
         <h2 className="an-continuity-home__title">
           Continuity
@@ -102,7 +99,6 @@ export default function ContinuityHomePortal() {
       </div>
 
       <div className="an-continuity-home__status" aria-hidden="true">
-        <span>ACTIVE ENVIRONMENT</span>
 
         <span className="an-continuity-home__status-line" />
 
