@@ -1,7 +1,142 @@
 {
   "ok": true,
-  "updated": "2026-10-07T14:23:25.581Z",
+  "updated": "2026-10-07T20:13:43.704Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Secrets of Oldest Land Animal’s 194-Year Lifespan Revealed with Epigenetics",
+      "url": "https://www.genengnews.com/topics/omics/secrets-of-oldest-land-animals-194-year-lifespan-revealed-with-epigenetics/",
+      "summary": "Researchers studying a giant tortoise named Jonathan—who is the oldest known living land animal in the world today—say it’s not just good genes, but a lack of genetic wear and tear that may have kept him going for an est…",
+      "ts": 1791402572000,
+      "publishedAt": "2026-10-07T19:49:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Gut Microbes Trigger Calprotectin to Protect Newborns from Infection",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/gut-microbes-trigger-calprotectin-to-protect-newborns-from-infection/",
+      "summary": "Newborn gut microbes activate epithelial calprotectin production, strengthening early-life immunity and protecting against dangerous infections, potentially offering new strategies to prevent neonatal sepsis. The post Gu…",
+      "ts": 1791402368000,
+      "publishedAt": "2026-10-07T19:46:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump administration proposes $70,000 fee for popular international student work program",
+      "url": "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/?utm_campaign=rss",
+      "summary": "The Trump administration has proposed a $70,000 fee for a popular work authorization program meant to give students professional experience",
+      "ts": 1791402076000,
+      "publishedAt": "2026-10-07T19:41:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "summary": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded becaus…",
+      "ts": 1791398728000,
+      "publishedAt": "2026-10-07T18:45:28.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+      "summary": "Description NASA’s Curiosity Mars rover captured this view looking back at the floor of Gale Crater, with the crater’s rim visible in the distance, on Sept. 5, 2026, the 5,006th Martian day, or sol, of the mission. Just …",
+      "ts": 1791392447000,
+      "publishedAt": "2026-10-07T17:00:47.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: PhRMA sues over Trump policy mandating lower drug prices in Medicare",
+      "url": "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss",
+      "summary": "The brand drug industry’s main trade group is suing the Trump administration over a pilot program tying Medicare drug prices to those in peer countries.",
+      "ts": 1791392312000,
+      "publishedAt": "2026-10-07T16:58:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+      "summary": "Description NASA’s Curiosity Mars rover captured this panorama of sunrise illuminating distant, wind-carved features called yardangs on Aug. 11, 2026, the 4,982nd Martian day, or sol, of the mission. Scientists are eager…",
+      "ts": 1791391790000,
+      "publishedAt": "2026-10-07T16:49:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Electrical Signals Sharpen Bioprocess Control",
+      "url": "https://www.genengnews.com/topics/bioprocessing/electrical-signals-sharpen-bioprocess-control/",
+      "summary": "Electrical signatures could give bioprocess engineers an earlier view of cell health, detecting apoptosis, refining harvest timing, and moving monitoring from destructive offline assays toward rapid, label-free, potentia…",
+      "ts": 1791388832000,
+      "publishedAt": "2026-10-07T16:00:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Hybrid Digital Twins Developed for Future Autonomous Labs",
+      "url": "https://www.genengnews.com/topics/bioprocessing/hybrid-digital-twins-developed-for-future-autonomous-labs/",
+      "summary": "An academic laboratory is developing a hybrid digital twin that integrates a mechanistic model with artificial intelligence, with the long-term goal of driving the future of next-generation autonomous robotic laboratorie…",
+      "ts": 1791388829000,
+      "publishedAt": "2026-10-07T16:00:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Big Data Opportunities in Biomanufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/big-data-opportunities-in-biomanufacturing/",
+      "summary": "Industry-wide standardization and collaboration leverage big data in ways that help companies unleash optimizations enterprise-wide while simultaneously advancing industry knowledge, but succeeding also takes a lot of da…",
+      "ts": 1791388827000,
+      "publishedAt": "2026-10-07T16:00:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Adding Low-Fidelity Data to ML Training Sets Could Yield Better Process Models",
+      "url": "https://www.genengnews.com/topics/bioprocessing/adding-low-fidelity-data-to-ml-training-sets-could-yield-better-process-models/",
+      "summary": "Low-fidelity trend information should be incorporated into the data sets used to train machine learning-based biopharmaceutical process models, according to new analysis, which suggests the approach could also help ident…",
+      "ts": 1791388818000,
+      "publishedAt": "2026-10-07T16:00:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis II Crew Moon Photo Annotations",
+      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+      "summary": "A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member’s tablet. NASA astronauts Reid Wiseman (in blue) and Victor “Ike” Glover …",
+      "ts": 1791387899000,
+      "publishedAt": "2026-10-07T15:44:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Mars’s oddest cloud may be even odder than we thought",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
+      "summary": "Scientists using the European Space Agency's Mars Express, in combination with a state-of-the-art meteorological model of the Red Planet, have found that there may be some very exotic physics behind Mars’s most curious c…",
+      "ts": 1791385200000,
+      "publishedAt": "2026-10-07T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA at IAC 2026 – Day 3",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_IAC_2026_Day_3",
+      "summary": "The future of European exploration and the decisions ahead took centre stage during ESA’s third day at IAC 2026. ESA Director General Josef Aschbacher joined representatives of ESA Member States to discuss Europe's ambit…",
+      "ts": 1791384840000,
+      "publishedAt": "2026-10-07T14:54:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Announcing the finalists for the 2026 SpaceNews Icon Awards",
+      "url": "https://spacenews.com/announcing-the-finalists-for-the-2026-spacenews-icon-awards/",
+      "summary": "Meet the 43 leaders and accomplishments that exemplified excellence across the industry over the last 12 months The post Announcing the finalists for the 2026 SpaceNews Icon Awards appeared first on SpaceNews.",
+      "ts": 1791382698000,
+      "publishedAt": "2026-10-07T14:18:18.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Merck suffers a setback in Europe over its new Keytruda formulation",
@@ -75,6 +210,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "ESA",
       "title": "The Incredible Adventures of the Hera mission – The space detectives arrive",
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/The_Incredible_Adventures_of_the_Hera_mission_The_space_detectives_arrive",
@@ -82,6 +226,42 @@
       "ts": 1791374400000,
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Kenya races to trace all contacts after first Ebola death, WHO official says",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168542",
+      "summary": "Kenya’s first Ebola death has triggered a race to trace everyone the victim came into contact with, as the United Nations and partners provide full support, the World Health Organization’s (WHO) top official in the count…",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Critical funding gap threatens health response in Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168541",
+      "summary": "The World Health Organization (WHO) warned that significantly more resources are required to scale up its response in Yemen amid escalating conflict and rising needs.",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Reform, or lose trust: Governments press the UN to reflect the world as it is",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168540",
+      "summary": "Can the UN still remain relevant if it still looks and acts like the organization it was when it was formed in 1945? The debate over UN reform at the General Assembly in New York last month produced a striking common ref…",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "WHO releases first global guidelines on child obesity as cases surge",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168536",
+      "summary": "Child and adolescent obesity has quadrupled since 1990, rising from two per cent to around eight per cent of youngsters in the five-to-19 age group, according to the UN World Health Organization (WHO).",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -136,6 +316,15 @@
       "ts": 1791361800000,
       "publishedAt": "2026-10-07T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "ts": 1791356400000,
+      "publishedAt": "2026-10-07T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "IAEA News",
@@ -381,6 +570,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "ts": 1791331200000,
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "Opinion: Infectious disease expert: The mysterious pneumonia in Russia deserves attention, not panic",
       "url": "https://www.statnews.com/2026/10/06/russia-plague-reports-pneuomonia-siberia-expert-calm/?utm_campaign=rss",
@@ -612,204 +810,6 @@
       "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical work…",
       "ts": 1791291619000,
       "publishedAt": "2026-10-06T13:00:19.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Captures Commotion From Nebula’s Stellar Jets",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
-      "summary": "A cauldron of cosmic creation is being revealed in a new image from NASA’s James Webb Space Telescope. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, which resi…",
-      "ts": 1791291600000,
-      "publishedAt": "2026-10-06T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Webb captures commotion from nebula’s stellar jets",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets",
-      "summary": "Image: Webb captures commotion from nebula’s stellar jets",
-      "ts": 1791291600000,
-      "publishedAt": "2026-10-06T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: 10 climate tech companies to watch",
-      "url": "https://www.technologyreview.com/2026/10/06/1145796/the-download-10-climate-tech-companies-to-watch/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. 10 climate tech companies to watch Each year, MIT Technology Review puts together …",
-      "ts": 1791288600000,
-      "publishedAt": "2026-10-06T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168537",
-      "summary": "Across Papua New Guinea, water sources are drying up, crops are failing and food prices are rising months before the worst agricultural impacts are expected. Behind those warning signs is an El Niño whose Pacific Ocean t…",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Djibouti faces ‘overlapping emergencies’ as Yemen’s refugee exodus continues",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168535",
-      "summary": "Djibouti is facing “overlapping emergencies” as refugees fleeing the conflict in Yemen arrive on its shores while migrants continue to travel in the opposite direction, the UN migration agency (IOM) warned on Tuesday.",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Testing and monitoring underway in suspected Russia plague death",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168533",
-      "summary": "The death of a lab worker in Russia’s Siberia region has sparked concerns over a possible plague case, the UN World Health Organization (WHO) said on Tuesday, adding that it was following the situation closely.",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "In Islamabad, Guterres calls for end to US-Iran conflict",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168532",
-      "summary": "The UN Secretary-General appealed on Tuesday for an end to the United States-Iran war and the toll it has taken on global trade, as he began an official visit to Pakistan.",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Ebola takes the people children depend on’: UNICEF",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168531",
-      "summary": "The Ebola outbreak in the eastern Democratic Republic of the Congo (DRC) is robbing children of their loved ones – with some succumbing to the deadly disease themselves, the UN Children’s Fund (UNICEF) reported on Tuesda…",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "When streets become pharmacies: Booming illicit markets in Central Africa",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168527",
-      "summary": "Antibiotics, malaria treatments, painkillers, opioids. More than 250 tonnes of medical products were seized over six years in Central Africa. Behind those numbers is an illicit market that thrives not simply despite the …",
-      "ts": 1791288000000,
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Deciding when to get your flu shot? Consider these factors",
-      "url": "https://www.statnews.com/2026/10/06/health-news-consider-these-factors-to-decide-when-to-get-flu-shot/?utm_campaign=rss",
-      "summary": "When’s the best time to be vaccinated? Here are some thoughts that may help you make your decision.",
-      "ts": 1791286570000,
-      "publishedAt": "2026-10-06T11:36:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Sensible Biotechnologies Raises $47M to Expand Next-Generation Platform for mRNA Medicines",
-      "url": "https://www.genengnews.com/topics/drug-discovery/sensible-biotechnologies-raises-47m-to-expand-next-generation-platform-for-mrna-medicines/",
-      "summary": "Sensible Biotechnologies raised $47 million to scale VECTOR, its integrated platform pairing AI-enabled mRNA design with manufacturing of naturally modified mRNA in living cells, aiming to develop novel therapeutics beyo…",
-      "ts": 1791284740000,
-      "publishedAt": "2026-10-06T11:05:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "2026 Climate Tech Companies to Watch",
-      "url": "https://www.technologyreview.com/2026/10/06/1143800/2026-climate-tech-companies-to-watch/",
-      "summary": "",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Here’s how our climate team picked 10 promising companies to watch",
-      "url": "https://www.technologyreview.com/2026/10/06/1144978/2026-climate-tech-companies-to-watch-how-we-chose/",
-      "summary": "As the team at MIT Technology Review set out to choose companies for this year’s edition of our annual list of Climate Tech Companies to Watch, the challenge felt more daunting than any year since we started compiling th…",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "WeLion New Energy and its semi-solid-state batteries",
-      "url": "https://www.technologyreview.com/2026/10/06/1144987/2026-climate-tech-companies-to-watch-welion-semi-solid-state-batteries/",
-      "summary": "WeLion New Energy is on a quest to make safer, better batteries. The company’s semi-solid-state cells could improve safety and offer greater energy density than lithium-ion batteries to power electric cars, boats, and dr…",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Form Energy and its iron batteries",
-      "url": "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/",
-      "summary": "Form Energy is building iron-based batteries that can store energy for multiple days. The company is ramping up supply at its factory and signing deals for commercial projects. New solar and wind installations produce el…",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "X-energy and its helium-cooled nuclear reactors",
-      "url": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
-      "summary": "X-energy is developing small modular reactors to satisfy some of the planet’s most power-hungry users: industrial manufacturers that need high temperatures to produce billions of tons of concrete, plastics, fibers, and c…",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Energy Dome and its carbon dioxide batteries",
-      "url": "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/",
-      "summary": "There’s a growing need for long-duration storage to meet energy demand and balance out renewables on the grid. Energy Dome uses compressed carbon dioxide gas in its massive grid batteries, which can deliver power for up …",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Brimstone and its one-stop process for making cleaner cement and critical minerals",
-      "url": "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/",
-      "summary": "Brimstone is making strides on two industrial problems, reducing the emissions from cement and providing a way to produce more critical minerals within the US. If the company can do both, with the same rocks in the same …",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "WaveSave and its portable rubber dam",
-      "url": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
-      "summary": "As sea levels rise and flood risks worsen due to global warming, WaveSave’s easy-to-erect portable dam offers a quick-response tool. People can use the dam to protect themselves and their property, and it can also store …",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "BasiGo and its fleet of electric buses",
-      "url": "https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/",
-      "summary": "BasiGo aims to replace the tens of thousands of diesel-powered buses on sub-Saharan African roads with electric ones that generate far fewer emissions. The company’s pay-as-you-drive business model has helped make EVs mo…",
-      "ts": 1791282900000,
-      "publishedAt": "2026-10-06T10:35:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
