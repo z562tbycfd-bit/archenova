@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-10-08T07:05:11.046Z",
+  "updated": "2026-10-08T15:20:12.478Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Roche goes beyond licensing in deal with Chinese biotech",
+      "url": "https://www.statnews.com/2026/10/08/biotech-news-roche-goes-beyond-licensing-in-deal-with-chinese-biotech/?utm_campaign=rss",
+      "summary": "Roche is partnering with Chinese startup Defand Therapeutics to discover new medicines.",
+      "ts": 1791472685000,
+      "publishedAt": "2026-10-08T15:18:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "FDA says its safety review of abortion pill will continue into next year",
+      "url": "https://www.statnews.com/2026/10/08/fda-mifepristone-abortion-pill-safety-review-continue-into-2027/?utm_campaign=rss",
+      "summary": "The FDA says its ongoing safety review of the nation's main abortion pill will continue into next year, a timeline that was quickly condemned by abortion opponents.",
+      "ts": 1791471773000,
+      "publishedAt": "2026-10-08T15:02:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Argenx sees unusual setback with failure of late-stage study of drug for autoimmune disease",
+      "url": "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/?utm_campaign=rss",
+      "summary": "Argenx said its blockbuster drug Vyvgart didn’t outperform placebo in a Phase 3 trial of patients with Sjögren's disease, a chronic autoimmune disorder.",
+      "ts": 1791468149000,
+      "publishedAt": "2026-10-08T14:02:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "What will it take to build a moon base?",
+      "url": "https://spacenews.com/what-will-it-take-to-build-a-moon-base/",
+      "summary": "In this episode, a panel of industry experts discuss what’s needed to build a moon base. During a live event at the Johns Hopkins University Bloomberg Center, leaders Astrolab, Firefly […] The post What will it take to b…",
+      "ts": 1791467858000,
+      "publishedAt": "2026-10-08T13:57:38.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about PhRMA suing Trump, biotech frustration over tariffs, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/08/phrma-suing-trump-biotech-frustration-tariffs-pharmalittle-newsletter/?utm_campaign=rss",
+      "summary": "PhRMA is suing the Trump administration, smaller biotech firms are frustrated over tariffs, and more of the latest pharma news.",
+      "ts": 1791465333000,
+      "publishedAt": "2026-10-08T13:15:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action…",
+      "ts": 1791464446000,
+      "publishedAt": "2026-10-08T13:00:46.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Sentinel-3C returns its first views of Earth",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3C_returns_its_first_views_of_Earth",
+      "summary": "Just two weeks after it was launched, the Copernicus Sentinel-3C satellite returned its first images and measurements from two of its key instruments – a major milestone that confirms the satellite is working well and on…",
+      "ts": 1791462300000,
+      "publishedAt": "2026-10-08T12:25:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around …",
+      "ts": 1791461400000,
+      "publishedAt": "2026-10-08T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Roche inks drug discovery deal with Chinese biotech, focused on molecular glue medicines",
+      "url": "https://www.statnews.com/2026/10/08/roche-defand-therapeutics-drug-development-deal/?utm_campaign=rss",
+      "summary": "Roche has inked a drug discovery deal with Chinese biotech Defand Therapeutics, focused on molecular glue medicines.",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Myanmar: Poverty deepens as families face multiple shocks with limited resources",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168550",
+      "summary": "Years of conflict, displacement, economic disruption and climate shocks in Myanmar have led to the “simultaneous collapse” of shelter, healthcare, schooling and livelihoods affecting millions of people, the UN Developmen…",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "The Nobel boys club (again)",
+      "url": "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss",
+      "summary": "All six Nobel awardees in physiology or medicine, physics, and chemistry this year were men. Women make up 4% of laureates since the award’s inception.",
+      "ts": 1791460407000,
+      "publishedAt": "2026-10-08T11:53:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Why we’re watching these climate tech companies",
+      "url": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
+      "summary": "This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting a…",
+      "ts": 1791453600000,
+      "publishedAt": "2026-10-08T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI breakthroughs in robotics won’t change your life any time soon",
+      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped li…",
+      "ts": 1791450000000,
+      "publishedAt": "2026-10-08T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks",
+      "summary": "The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a ‘switchback’ in the solar wind’s magnetic field. By fingerprinting the elusive particles within the switchback, Solar O…",
+      "ts": 1791450000000,
+      "publishedAt": "2026-10-08T09:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Biotech companies are struggling to navigate Trump’s new tariffs",
+      "url": "https://www.statnews.com/2026/10/08/trump-tariffs-section-232-imported-prescription-drugs-challenge-biotech-companies/?utm_campaign=rss",
+      "summary": "Smaller biotech firms are trying to figure out how to win exemptions from Trump's import taxes.",
+      "ts": 1791448200000,
+      "publishedAt": "2026-10-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Dozens of Democrats vie for slots on key House health committees",
+      "url": "https://www.statnews.com/2026/10/08/midterm-election-democrats-vie-for-roles-house-health-care-committees/?utm_campaign=rss",
+      "summary": "Power House health committees could get a lot of new members after the midterms.",
+      "ts": 1791448200000,
+      "publishedAt": "2026-10-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How CMS plans to fix a major flaw in the 340B drug discount program",
+      "url": "https://www.statnews.com/2026/10/08/340b-drug-discount-program-cms-reform-proposal/?utm_campaign=rss",
+      "summary": "“A small, well-intended discount for safety net hospitals became a large institutional subsidy with expensive unintended consequences,” writes an HHS leader.",
+      "ts": 1791448200000,
+      "publishedAt": "2026-10-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: England and other nations are on the path toward eliminating hepatitis C. Why not the U.S.?",
+      "url": "https://www.statnews.com/2026/10/08/us-hepatitis-c-cure-medication-cost-elimination/?utm_campaign=rss",
+      "summary": "Eliminating hepatitis C is achievable — if the U.S. seriously invests in it, experts write.",
+      "ts": 1791448200000,
+      "publishedAt": "2026-10-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why this startup is taking its AI to predict breast cancer risk directly to patients",
+      "url": "https://www.statnews.com/2026/10/08/why-clairity-took-breast-cancer-risk-prediction-ai-directly-to-patients/?utm_campaign=rss",
+      "summary": "A startup didn't want to wait for doctors and insurers to get behind its breast-cancer risk prediction AI. So it's going directly to patients.",
+      "ts": 1791448200000,
+      "publishedAt": "2026-10-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Breast cancer can behave differently in older women. This physician is making more tailored treatments a reality",
+      "url": "https://www.statnews.com/2026/10/08/breast-cancer-research-older-women-neil-carleton-stat-wunderkind/?utm_campaign=rss",
+      "summary": "There’s increasing evidence that older women with breast cancer could benefit from more tailored treatments. STAT Wunderkind Neil Carleton is working to make that a reality.",
+      "ts": 1791448200000,
+      "publishedAt": "2026-10-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "A mother-daughter quest to find fellow members of an ultra-rare genetic community",
+      "url": "https://www.statnews.com/2026/10/08/rare-disease-nicolaides-baraitser-syndrome-history-ncbrs-researchers/?utm_campaign=rss",
+      "summary": "“Don’t google,” the pediatric geneticist warned. It took me five years to disobey.",
+      "ts": 1791448200000,
+      "publishedAt": "2026-10-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Building a safer path to autonomous industrial AI",
+      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+      "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex …",
+      "ts": 1791447452000,
+      "publishedAt": "2026-10-08T08:17:32.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Keeping the sky dark and quiet",
+      "url": "https://www.esa.int/Space_Safety/Clean_Space/Keeping_the_sky_dark_and_quiet",
+      "summary": "For thousands of years, the night sky has inspired humanity, guided explorers and helped scientists unlock the mysteries of the Universe. As the number of satellites in orbit grows, their reflected light and radio freque…",
+      "ts": 1791446400000,
+      "publishedAt": "2026-10-08T08:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 8 – The Saturn System Smörgåsbord",
@@ -526,6 +733,33 @@
     },
     {
       "source": "United Nations News",
+      "title": "Ukraine: UN condemns latest attacks and calls for civilian protection",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168548",
+      "summary": "The UN Humanitarian Coordinator for Ukraine on Wednesday called for an end to attacks against civilians following further overnight strikes by Russian forces that reportedly killed at least 19 in the Chernihiv Region.",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘No plague case’ in Siberia, Russia tells WHO as assessments continue",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168547",
+      "summary": "Health authorities in Russia say there is “no plague case” in Siberia following reports last week that a lab technician had died of pneumonia of an unknown origin in the region, World Health Organization (WHO) officials …",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Child migrants in Europe, Greenland forced contraception scandal, FAO hunger updates",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168546",
+      "summary": "New data on child migrants published on Wednesday highlighted the harrowing treatment many face while travelling to Europe in search of work and shelter.",
+      "ts": 1791374400000,
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Kenya races to trace all contacts after first Ebola death, WHO official says",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168542",
       "summary": "Kenya’s first Ebola death has triggered a race to trace everyone the victim came into contact with, as the United Nations and partners provide full support, the World Health Organization’s (WHO) top official in the count…",
@@ -576,240 +810,6 @@
       "summary": "Henri B. Kagan and Kenso Soai were awarded the 2026 Nobel Prize in chemistry on Wednesday for solving a mystery with research on \"mirror image\" molecules.",
       "ts": 1791369748000,
       "publishedAt": "2026-10-07T10:42:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Caribou Biosciences, biotech co-founded by Jennifer Doudna, is shutting down",
-      "url": "https://www.statnews.com/2026/10/07/caribou-biosciences-shutting-down-lymphoma-car-t-therapy/?utm_campaign=rss",
-      "summary": "Caribou Biosciences is shutting down after failing to raise the money necessary to fund a late-stage clinical trial of its off-the-shelf CAR-T therapy for lymphoma.",
-      "ts": 1791361800000,
-      "publishedAt": "2026-10-07T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In Duchenne muscular dystrophy, a promising therapy is available to a fortunate few",
-      "url": "https://www.statnews.com/2026/10/07/muscular-dystrophy-exon-skipping-drugs-novartis-dyne/?utm_campaign=rss",
-      "summary": "Exon-skipping drugs present a critical test for the FDA’s goal of encouraging treatments for rare disease.",
-      "ts": 1791361800000,
-      "publishedAt": "2026-10-07T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Democrats plot a midterms push for MAHA voters",
-      "url": "https://www.statnews.com/2026/10/07/democrats-focus-on-food-toxins-win-maha-voters-midterm-elections/?utm_campaign=rss",
-      "summary": "Key Democrats are meeting with MAHA activists and rolling out food and environmental plans to entice them.",
-      "ts": 1791361800000,
-      "publishedAt": "2026-10-07T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: My oncologist recommended active surveillance for prostate cancer. Life insurers called it ‘untreated cancer’",
-      "url": "https://www.statnews.com/2026/10/07/active-surveillance-prostate-cancer-life-insurance-policy/?utm_campaign=rss",
-      "summary": "“I reject the idea that a man who keeps every prostate cancer surveillance appointment has ‘untreated cancer,’” writes Howard Wolinsky.",
-      "ts": 1791361800000,
-      "publishedAt": "2026-10-07T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "ts": 1791356400000,
-      "publishedAt": "2026-10-07T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA-led Team Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-team-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
-      "summary": "",
-      "ts": 1791352645000,
-      "publishedAt": "2026-10-07T05:57:25.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 7 – Supernova Remnant Pa 30",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
-      "summary": "APOD Science APOD APOD: 2026 October 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
-      "ts": 1791345900000,
-      "publishedAt": "2026-10-07T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Arctic Sea Ice Shrinks to Its 2026 Minimum",
-      "url": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/",
-      "summary": "Satellite records show Arctic sea ice covering less of the ocean in both winter and summer.",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Identifiability of a linear dynamical reaction-diffusion system with directed interactions from the second-order statistics of a single snapshot",
-      "url": "https://arxiv.org/abs/2610.07341",
-      "summary": "arXiv:2610.07341v1 Announce Type: new Abstract: A single spatial snapshot of a system with multiple interacting populations captures positions but not the underlying dynamics that have led to the observation. This work a…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "IMPPAT 3.0: An updated FAIR database of phytochemicals and formulations of Indian Medicinal plants",
-      "url": "https://arxiv.org/abs/2610.07478",
-      "summary": "arXiv:2610.07478v1 Announce Type: new Abstract: Ayurvedic formulations represent a rich source of traditional knowledge, encompassing distinct therapeutic approaches, medicinal ingredients, and underlying principles of d…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Linear Fitness Subspace in Protein Language Models Enables Sample-Efficient Directed Evolution",
-      "url": "https://arxiv.org/abs/2610.07607",
-      "summary": "arXiv:2610.07607v1 Announce Type: new Abstract: Model-guided directed evolution seeks to identify high-fitness protein variants under limited oracle budgets. Protein language models (PLMs) provide rich representations fo…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mathematical Invariant-Enabled Topological Neural Networks for Molecular and Materials Property Prediction",
-      "url": "https://arxiv.org/abs/2610.07712",
-      "summary": "arXiv:2610.07712v1 Announce Type: new Abstract: Existing molecular and materials learning approaches often rely on a limited set of structural representations, which may capture only selected aspects of complex three-dim…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Encoding level-3 semi-directed phylogenetic networks by quarnets and quinnets",
-      "url": "https://arxiv.org/abs/2610.07855",
-      "summary": "arXiv:2610.07855v1 Announce Type: new Abstract: Phylogenetic networks generalize phylogenetic trees as models of evolutionary history, allowing lineages to merge as well as to diverge. For many types of genetic data the …",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Effects of Periodic Migration on Selection in Subdivided Populations",
-      "url": "https://arxiv.org/abs/2610.08160",
-      "summary": "arXiv:2610.08160v1 Announce Type: new Abstract: Migration and selection jointly shape evolutionary outcomes in spatially structured populations. Migration can vary over time as ecological shifts, such as changes in sea l…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural networks as decision trees: an analytical solution for learning and neural selectivity",
-      "url": "https://arxiv.org/abs/2610.08228",
-      "summary": "arXiv:2610.08228v1 Announce Type: new Abstract: Nonlinear neural networks develop structured internal representations, yet how their geometry is determined by the tasks being learned remains poorly understood. Here, we d…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HRPv2: an automated and enhanced method for full-length homology-based R-gene prediction",
-      "url": "https://arxiv.org/abs/2610.08376",
-      "summary": "arXiv:2610.08376v1 Announce Type: new Abstract: Motivation: Plant disease resistance genes, particularly those encoding NB-LRR proteins, are important targets for crop improvement. Proteome-based domain or motif searches…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Time-Resolved Framework for Quantifying Neuronal Network State Transitions",
-      "url": "https://arxiv.org/abs/2610.08392",
-      "summary": "arXiv:2610.08392v1 Announce Type: new Abstract: Electrophysiological recordings provide powerful tools for characterizing the dynamics of neuronal networks. In vitro neuronal cultures offer a controlled setting for inves…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "OncoNoteBERT: A Foundation Representation Model for Natural Language Processing of Real-World Outpatient Oncology Notes",
-      "url": "https://arxiv.org/abs/2610.03829",
-      "summary": "arXiv:2610.03829v1 Announce Type: cross Abstract: Real-world outpatient oncology notes contain specialised terminology, tumour staging expressions, treatment names, toxicity descriptions, and institution-specific de-iden…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CANDLE: Cortical Null-Space Decomposition for Noninvasive Brain Source Imaging",
-      "url": "https://arxiv.org/abs/2610.07824",
-      "summary": "arXiv:2610.07824v1 Announce Type: cross Abstract: Electrophysiological source imaging (ESI) aims to estimate cortical source activity from noninvasive electrophysiological measurements such as electroencephalogram (EEG).…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ReGraph: A Computational Account of Emergent Generalization in the \"what\" and \"where\" Dual Visual Streams",
-      "url": "https://arxiv.org/abs/2610.07962",
-      "summary": "arXiv:2610.07962v1 Announce Type: cross Abstract: Where generalization capacity--the ability to extract context-invariant relational structures--first emerges remains a central question in AI and neuroscience. The founda…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Confidence-Ordering Reversal under Contextual Priors in Neural Decoding",
-      "url": "https://arxiv.org/abs/2610.08229",
-      "summary": "arXiv:2610.08229v1 Announce Type: cross Abstract: Contextual priors improve neural-to-language decoding by reshaping candidate scores. However, confidence is read from the same reshaped scores, so the errors a prior leav…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From the Drosophila Visual Connectome to General-Purpose Computer Vision",
-      "url": "https://arxiv.org/abs/2610.08418",
-      "summary": "arXiv:2610.08418v1 Announce Type: cross Abstract: Biological connectomes encode structured solutions to visual computation that may provide reusable inductive biases for artificial vision. We develop ConnectomeX around F…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Information-Dense Synthesis for Molecular Discovery",
-      "url": "https://arxiv.org/abs/2610.08495",
-      "summary": "arXiv:2610.08495v1 Announce Type: cross Abstract: Machine learning can accelerate molecular discovery by designing molecules and planning experiments. However, many scientific challenges demand molecules with very rare p…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Language-model ratings of depression reflect the rater more than the patient",
-      "url": "https://arxiv.org/abs/2610.08501",
-      "summary": "arXiv:2610.08501v1 Announce Type: cross Abstract: Depression has no diagnostic blood test. Language models promise tireless, consistent assessment, but can accurate raters disagree about individuals? We pre-registered 88…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural Petri flows for chemical reactions",
-      "url": "https://arxiv.org/abs/2610.08750",
-      "summary": "arXiv:2610.08750v1 Announce Type: cross Abstract: Petri nets have been used to describe chemical processes such as reactions.They map well to chemistry: Places are the bonds between atoms and the free valence of each ato…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How causal analysis can reveal autonomy in models of biological systems",
-      "url": "https://arxiv.org/abs/1708.07880",
-      "summary": "arXiv:1708.07880v2 Announce Type: replace Abstract: Standard techniques for studying biological systems largely focus on their dynamical, or, more recently, their informational properties, usually taking either a reducti…",
-      "ts": 1791345600000,
-      "publishedAt": "2026-10-07T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
