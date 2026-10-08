@@ -1,7 +1,169 @@
 {
   "ok": true,
-  "updated": "2026-10-08T15:20:12.478Z",
+  "updated": "2026-10-08T21:07:17.750Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "How Preclinical Manufacturing Can De-Risk the Path to GMP-Ready Viral Vector Programs",
+      "url": "https://www.genengnews.com/multimedia/webinars/how-preclinical-manufacturing-can-de-risk-the-path-to-gmp-ready-viral-vector-programs/",
+      "summary": "In this GEN webinar, Chris Nieder, an expert in viral vector programs, will examine how strategically designed preclinical manufacturing campaigns provide a practical foundation for GMP production. The post How Preclinic…",
+      "ts": 1791492353000,
+      "publishedAt": "2026-10-08T20:45:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
+      "url": "https://www.nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission/",
+      "summary": "Media are invited to join NASA for a media teleconference at 4 p.m. EDT, Thursday, Oct. 15, to preview the agency’s contributions to JAXA’s (Japan Aerospace Exploration Agency) Martian Moons eXploration (MMX) mission. Th…",
+      "ts": 1791490932000,
+      "publishedAt": "2026-10-08T20:22:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+      "summary": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with t…",
+      "ts": 1791488400000,
+      "publishedAt": "2026-10-08T19:40:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
+      "summary": "A new NASA-supported spacecraft will get up close to satellites that are no longer in service, demonstrating technologies that could support future in-space repairs and reduce orbital debris. The Small Spacecraft Propuls…",
+      "ts": 1791485785000,
+      "publishedAt": "2026-10-08T18:56:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Crew-12 Returns to Earth",
+      "url": "https://www.nasa.gov/image-article/crew-12-returns-to-earth/",
+      "summary": "The SpaceX Crew Dragon Freedom spacecraft is seen moments before splashing down in the Pacific Ocean off the coast of California in this Oct. 8, 2026, photograph. Aboard were NASA’s SpaceX Crew-12 members NASA astronauts…",
+      "ts": 1791485547000,
+      "publishedAt": "2026-10-08T18:52:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "NIH funding uncertainty thwarts U.S. researchers",
+      "url": "https://www.statnews.com/2026/10/08/readout-loud-podcast-nih-funding-research-biotech-caribou-nobel-prize/?utm_campaign=rss",
+      "summary": "How has the NIH been spending its budget? And why are biotech investors feeling gloomy? Find out on this week's episode of \"The Readout LOUD\" podcast.",
+      "ts": 1791485454000,
+      "publishedAt": "2026-10-08T18:50:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ARPA-H’s BoSS Program Funds Three Teams Tackling Cold Chain Challenges for Cell Therapies",
+      "url": "https://www.genengnews.com/topics/bioprocessing/arpa-hs-boss-program-funds-three-teams-tackling-cold-chain-challenges-for-cell-therapies/",
+      "summary": "Cell therapies and other biologics depend on ultracold storage and tightly controlled shipping. ARPA-H has funded teams of companies, research agencies, and universities developing alternatives, aiming to widen patient a…",
+      "ts": 1791484672000,
+      "publishedAt": "2026-10-08T18:37:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
+      "url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+      "summary": "NASA’s SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) space telescope is shedding light on brown dwarfs, celestial objects that blur the line between stars and exop…",
+      "ts": 1791483768000,
+      "publishedAt": "2026-10-08T18:22:48.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Epigenetics Underlies Comparatively Accelerated Molecular Aging in Larger and Male Dogs",
+      "url": "https://www.genengnews.com/topics/omics/epigenetics-underlies-comparatively-accelerated-molecular-aging-in-larger-and-male-dogs/",
+      "summary": "Large dogs tend to be shorter lived than their smaller counterparts, and a new study found that male and larger dogs undergo accelerated molecular aging, with pronounced DNA methylation changes on the X chromosome and at…",
+      "ts": 1791482438000,
+      "publishedAt": "2026-10-08T18:00:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Webb Measures Distance to Farthest Fast Radio Burst, Suggesting Origin",
+      "url": "https://science.nasa.gov/missions/webb/webb-measures-distance-to-farthest-fast-radio-burst-suggesting-origin/",
+      "summary": "First discovered in 2007, fast radio bursts are enigmatic, millisecond-long flashes of radio emission from the distant universe. Their origin remains uncertain, particularly since most are seen once and never again. Astr…",
+      "ts": 1791482400000,
+      "publishedAt": "2026-10-08T18:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission",
+      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
+      "summary": "After more than seven months aboard the International Space Station, NASA’s SpaceX Crew-12 mission safely splashed down Thursday in the Pacific Ocean off the coast of Los Angeles. The crew members will discuss their scie…",
+      "ts": 1791478948000,
+      "publishedAt": "2026-10-08T17:02:28.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Splashdown confirmed for Sophie Adenot ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
+      "summary": "ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8 Oc…",
+      "ts": 1791478260000,
+      "publishedAt": "2026-10-08T16:51:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The State of AI in Drug Discovery",
+      "url": "https://www.genengnews.com/multimedia/summits/the-state-of-ai-in-drug-discovery/",
+      "summary": "GEN’s virtual summit returns on November 4 to examine how AI is reshaping R&D timelines and real-world patient translation. From big pharma to AI-natives, this year’s program features the leaders of many of today’s outst…",
+      "ts": 1791477061000,
+      "publishedAt": "2026-10-08T16:31:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "ts": 1791475200000,
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+      "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+      "summary": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supe…",
+      "ts": 1791474385000,
+      "publishedAt": "2026-10-08T15:46:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AI for breast cancer risk prediction goes DTC, regulatory cloud over Utah sandbox, and AI psychosis",
+      "url": "https://www.statnews.com/2026/10/08/breast-cancer-ai-goes-dtc-utah-sandbox-ai-psychosis-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT's Health Tech: The story of a startup taking its algorithm for breast cancer risk prediction directly to patients, and more.",
+      "ts": 1791474239000,
+      "publishedAt": "2026-10-08T15:43:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The fresh faces that may shake up key Senate committees ahead of midterms",
+      "url": "https://www.statnews.com/2026/10/08/health-policy-news-fresh-faces-shake-up-senate-committees-2026-midterms/?utm_campaign=rss",
+      "summary": "Dozens of Democrats are vying for seats on the House Energy and Commerce and Ways and Means committees, with several members from both parties either leaving or in close races.",
+      "ts": 1791473498000,
+      "publishedAt": "2026-10-08T15:31:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Advances LISA Mission Contributions With New Test Telescope",
+      "url": "https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/",
+      "summary": "NASA has taken the next step in the process of developing a new all-glass telescope for the LISA (Laser Interferometer Space Antenna) mission, a space observatory designed to detect ripples in space-time called gravitati…",
+      "ts": 1791473484000,
+      "publishedAt": "2026-10-08T15:31:24.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Roche goes beyond licensing in deal with Chinese biotech",
@@ -75,6 +237,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Roche inks drug discovery deal with Chinese biotech, focused on molecular glue medicines",
       "url": "https://www.statnews.com/2026/10/08/roche-defand-therapeutics-drug-development-deal/?utm_campaign=rss",
@@ -82,6 +253,42 @@
       "ts": 1791460800000,
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168555",
+      "summary": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN rights chief: Legacy of slavery and colonialism is still fuelling racism",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168554",
+      "summary": "The legacy of enslavement and colonialism continues to shape the lives of Africans and people of African descent, UN human rights chief Volker Türk said on Thursday, calling for urgent action to deliver reparatory justic…",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Age must never diminish rights,’ UN independent expert warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168553",
+      "summary": "Older women around the world face violence, exploitation and neglect, yet remain largely invisible in the laws, policies, data and services designed to protect women overall, a UN independent human rights expert said on …",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan: Women face fresh dress code arrests amid record refugee returns",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168551",
+      "summary": "Afghan women and girls are being arrested, detained and threatened with arrest by Taliban authorities, the UN warned on Thursday as record numbers of returnees struggle to rebuild their lives back home.",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -471,6 +678,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "ts": 1791417600000,
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NASA",
       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
@@ -594,222 +810,6 @@
       "summary": "Industry-wide standardization and collaboration leverage big data in ways that help companies unleash optimizations enterprise-wide while simultaneously advancing industry knowledge, but succeeding also takes a lot of da…",
       "ts": 1791388827000,
       "publishedAt": "2026-10-07T16:00:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Adding Low-Fidelity Data to ML Training Sets Could Yield Better Process Models",
-      "url": "https://www.genengnews.com/topics/bioprocessing/adding-low-fidelity-data-to-ml-training-sets-could-yield-better-process-models/",
-      "summary": "Low-fidelity trend information should be incorporated into the data sets used to train machine learning-based biopharmaceutical process models, according to new analysis, which suggests the approach could also help ident…",
-      "ts": 1791388818000,
-      "publishedAt": "2026-10-07T16:00:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Artemis II Crew Moon Photo Annotations",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
-      "summary": "A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member’s tablet. NASA astronauts Reid Wiseman (in blue) and Victor “Ike” Glover …",
-      "ts": 1791387899000,
-      "publishedAt": "2026-10-07T15:44:59.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Mars’s oddest cloud may be even odder than we thought",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
-      "summary": "Scientists using the European Space Agency's Mars Express, in combination with a state-of-the-art meteorological model of the Red Planet, have found that there may be some very exotic physics behind Mars’s most curious c…",
-      "ts": 1791385200000,
-      "publishedAt": "2026-10-07T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA at IAC 2026 – Day 3",
-      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_IAC_2026_Day_3",
-      "summary": "The future of European exploration and the decisions ahead took centre stage during ESA’s third day at IAC 2026. ESA Director General Josef Aschbacher joined representatives of ESA Member States to discuss Europe's ambit…",
-      "ts": 1791384840000,
-      "publishedAt": "2026-10-07T14:54:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Announcing the finalists for the 2026 SpaceNews Icon Awards",
-      "url": "https://spacenews.com/announcing-the-finalists-for-the-2026-spacenews-icon-awards/",
-      "summary": "Meet the 43 leaders and accomplishments that exemplified excellence across the industry over the last 12 months The post Announcing the finalists for the 2026 SpaceNews Icon Awards appeared first on SpaceNews.",
-      "ts": 1791382698000,
-      "publishedAt": "2026-10-07T14:18:18.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Merck suffers a setback in Europe over its new Keytruda formulation",
-      "url": "https://www.statnews.com/pharmalot/2026/10/07/merck-suffers-setback-in-europe-over-new-keytruda-formulation/?utm_campaign=rss",
-      "summary": "In a setback for Merck, a Dutch court ordered a halt to the manufacturing and marketing of a subcutaneous formulation of Keytruda in several European countries.",
-      "ts": 1791381989000,
-      "publishedAt": "2026-10-07T14:06:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Forbion raises $2.6 billion, its largest fundraise to date",
-      "url": "https://www.statnews.com/2026/10/07/biotech-news-forbion-raises-2-6-billion-largest-fundraise/?utm_campaign=rss",
-      "summary": "Forbion, a prominent European venture capital firm, said it has raised $2.6 billion, its largest fundraise to date and one of the largest in the region in recent years.",
-      "ts": 1791380542000,
-      "publishedAt": "2026-10-07T13:42:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why health AI pilots in Utah may be on a collision course with the FDA",
-      "url": "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AIP Prognosis: Unresolved regulatory questions around Utah's AI sandbox, and more health AI news.",
-      "ts": 1791380332000,
-      "publishedAt": "2026-10-07T13:38:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Kagan, Soai Win 2026 Nobel Prize in Chemistry for Discoveries Related to Asymmetric Organic Synthesis",
-      "url": "https://www.genengnews.com/topics/drug-discovery/kagan-soai-win-2026-nobel-prize-in-chemistry-for-discoveries-related-to-asymmetric-organic-synthesis/",
-      "summary": "Henri Kagan, PhD, and Kenso Soai, PhD, shared this year's award for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis respectively. The post Kagan, Soai Win 2026 Nobel Prize in Chemist…",
-      "ts": 1791377980000,
-      "publishedAt": "2026-10-07T12:59:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about WHO obesity guidelines for kids, DOJ targeting pharma, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/?utm_campaign=rss",
-      "summary": "The World Health Organization released its first guidelines addressing the sharp rise in obesity among children and adolescents",
-      "ts": 1791377809000,
-      "publishedAt": "2026-10-07T12:56:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
-      "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
-      "summary": "Launched two years ago today, the European Space Agency’s Hera mission for planetary defence has been hurtling away from Earth ever since. The small-car-sized spacecraft is now preparing for its single most challenging a…",
-      "ts": 1791376380000,
-      "publishedAt": "2026-10-07T12:33:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Justice Department targets drugmakers in new directive on combating white-collar fraud",
-      "url": "https://www.statnews.com/pharmalot/2026/10/07/trump-administration-adds-pharma-to-list-priorities-combating-white-collar-fraud/?utm_campaign=rss",
-      "summary": "The Justice Department issued a new directive for combating fraud that noted the agency will pursue violations of a federal law that tightly regulates the pharmaceutical industry.",
-      "ts": 1791375042000,
-      "publishedAt": "2026-10-07T12:10:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
-      "url": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Weight-loss drugs show signs of slowing biological aging, say drugmakers Popular w…",
-      "ts": 1791375000000,
-      "publishedAt": "2026-10-07T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "The Incredible Adventures of the Hera mission – The space detectives arrive",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/The_Incredible_Adventures_of_the_Hera_mission_The_space_detectives_arrive",
-      "summary": "Video: 00:04:19 Meet Hera, our very own asteroid detective. Together with two CubeSats – Milani the rock decoder and Juventas the radar visionary – Hera is off on an adventure to explore Didymos, a double asteroid system…",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ukraine: UN condemns latest attacks and calls for civilian protection",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168548",
-      "summary": "The UN Humanitarian Coordinator for Ukraine on Wednesday called for an end to attacks against civilians following further overnight strikes by Russian forces that reportedly killed at least 19 in the Chernihiv Region.",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘No plague case’ in Siberia, Russia tells WHO as assessments continue",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168547",
-      "summary": "Health authorities in Russia say there is “no plague case” in Siberia following reports last week that a lab technician had died of pneumonia of an unknown origin in the region, World Health Organization (WHO) officials …",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Child migrants in Europe, Greenland forced contraception scandal, FAO hunger updates",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168546",
-      "summary": "New data on child migrants published on Wednesday highlighted the harrowing treatment many face while travelling to Europe in search of work and shelter.",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Kenya races to trace all contacts after first Ebola death, WHO official says",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168542",
-      "summary": "Kenya’s first Ebola death has triggered a race to trace everyone the victim came into contact with, as the United Nations and partners provide full support, the World Health Organization’s (WHO) top official in the count…",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Critical funding gap threatens health response in Yemen",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168541",
-      "summary": "The World Health Organization (WHO) warned that significantly more resources are required to scale up its response in Yemen amid escalating conflict and rising needs.",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Reform, or lose trust: Governments press the UN to reflect the world as it is",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168540",
-      "summary": "Can the UN still remain relevant if it still looks and acts like the organization it was when it was formed in 1945? The debate over UN reform at the General Assembly in New York last month produced a striking common ref…",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "WHO releases first global guidelines on child obesity as cases surge",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168536",
-      "summary": "Child and adolescent obesity has quadrupled since 1990, rising from two per cent to around eight per cent of youngsters in the five-to-19 age group, according to the UN World Health Organization (WHO).",
-      "ts": 1791374400000,
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "ER visits from people born outside the U.S. dropped after ICE raids",
-      "url": "https://www.statnews.com/2026/10/07/health-news-er-visits-from-people-born-outside-the-u-s-dropped-after-ice-raids/?utm_campaign=rss",
-      "summary": "A new study found that visits by people born outside of the U.S. to three LA emergency rooms dropped precipitously after ICE raids increased last year.",
-      "ts": 1791373841000,
-      "publishedAt": "2026-10-07T11:50:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "2026 Nobel Prize in chemistry awarded for ‘mirror image’ molecule research, with impact on pharmacology",
-      "url": "https://www.statnews.com/2026/10/07/nobel-prize-chemistry-henri-kagan-kenso-soai-2026-winner/?utm_campaign=rss",
-      "summary": "Henri B. Kagan and Kenso Soai were awarded the 2026 Nobel Prize in chemistry on Wednesday for solving a mystery with research on \"mirror image\" molecules.",
-      "ts": 1791369748000,
-      "publishedAt": "2026-10-07T10:42:28.000Z",
       "categoryId": "bio"
     }
   ],
