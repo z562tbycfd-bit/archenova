@@ -1,7 +1,169 @@
 {
   "ok": true,
-  "updated": "2026-10-09T08:37:37.712Z",
+  "updated": "2026-10-09T15:54:30.105Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Multiomics in 2026 and Beyond",
+      "url": "https://www.genengnews.com/topics/omics/multiomics-in-2026-and-beyond/",
+      "summary": "Multiomics analysis combines data from two or more omics layers—such as genomics, transcriptomics, proteomics, and epigenomics. However, published criticisms of multiomics approaches have highlighted concerns about data …",
+      "ts": 1791561223000,
+      "publishedAt": "2026-10-09T15:53:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Life Biosciences share glaucoma study updates for its cellular reprogramming drug",
+      "url": "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/?utm_campaign=rss",
+      "summary": "Life Biosciences said yesterday that three glaucoma patients have now received a single injection of its experimental cellular reprogramming drug, with no serious adverse events.",
+      "ts": 1791560499000,
+      "publishedAt": "2026-10-09T15:41:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1791554375000,
+      "publishedAt": "2026-10-09T13:59:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Cosmic House of Mirrors",
+      "url": "https://www.nasa.gov/image-article/cosmic-house-of-mirrors/",
+      "summary": "Galaxies warp and multiply as if in a house of mirrors in this image from NASA’s James Webb Space Telescope released on Sept. 29, 2026. The brilliant golden galaxies seen here are part of a galaxy cluster called MACS J04…",
+      "ts": 1791554244000,
+      "publishedAt": "2026-10-09T13:57:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "How these census changes could threaten public health",
+      "url": "https://www.statnews.com/2026/10/09/health-news-census-changes-threaten-public-data-collection/?utm_campaign=rss",
+      "summary": "The Trump administration wants to make three big changes to the U.S. Census, including eliminating questions about race, ethnicity, and sexual orientation and excluding anyone who is not a citizen…",
+      "ts": 1791552209000,
+      "publishedAt": "2026-10-09T13:23:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a setback for Argenx, Lilly suits over copycat versions of an obesity drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/?utm_campaign=rss",
+      "summary": "The FDA flagged a potential safety signal after four patient deaths in a trial testing a schizophrenia drug, Argenx faces an unusual setback, and more pharma news.",
+      "ts": 1791551840000,
+      "publishedAt": "2026-10-09T13:17:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 05-09 October 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_05-09_October_2026",
+      "summary": "Week in images: 05-09 October 2026 Discover our week through the lens",
+      "ts": 1791551700000,
+      "publishedAt": "2026-10-09T13:15:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
+      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are train…",
+      "ts": 1791547800000,
+      "publishedAt": "2026-10-09T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Amid heartache of Nepal flooding disaster, fear remains",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168561",
+      "summary": "Six weeks after Nepal’s deadly flooding disaster, communities are still struggling to rebuild their lives, but they will need sustained help as global warming increases the risk of another Himalayan catastrophe, the UN C…",
+      "ts": 1791547200000,
+      "publishedAt": "2026-10-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Yemen in spotlight as Houthi attacks on Saudi Arabia escalate",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168559",
+      "summary": "The Security Council meets top of the hour to discuss Yemen, where a Houthi offensive launched in September has sharply escalated the 12-year-long war for control of the country and spillover from the US-Iran war has pro…",
+      "ts": 1791547200000,
+      "publishedAt": "2026-10-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Former UN human rights chief Navi Pillay awarded Nobel Peace Prize",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168558",
+      "summary": "South African jurist and former UN High Commissioner for Human Rights Navi Pillay was on Friday announced as the winner of the 2026 Nobel Peace Prize.",
+      "ts": 1791547200000,
+      "publishedAt": "2026-10-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "ARASIA Countries Harmonize Data to Combat Cultural Heritage Trafficking",
+      "url": "http://www.iaea.org/newscenter/news/arasia-countries-harmonize-data-to-combat-cultural-heritage-trafficking",
+      "summary": "",
+      "ts": 1791545068000,
+      "publishedAt": "2026-10-09T11:24:28.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Expands Cooperation to Support Nuclear Power Development",
+      "url": "http://www.iaea.org/newscenter/news/iaea-expands-cooperation-to-support-nuclear-power-development",
+      "summary": "",
+      "ts": 1791542947000,
+      "publishedAt": "2026-10-09T10:49:07.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Concludes Long Term Operation Safety Review at Sweden’s Oskarshamn Nuclear Power Plant",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-long-term-operation-safety-review-at-swedens-oskarshamn-nuclear-power-plant-0",
+      "summary": "",
+      "ts": 1791537216000,
+      "publishedAt": "2026-10-09T09:13:36.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-completes-international-physical-protection-advisory-service-mission-in-pakistan",
+      "summary": "",
+      "ts": 1791536408000,
+      "publishedAt": "2026-10-09T09:00:08.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of rob…",
+      "ts": 1791536400000,
+      "publishedAt": "2026-10-09T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Job titles of the future: Delivery drone air traffic controller",
+      "url": "https://www.technologyreview.com/2026/10/09/1145737/job-titles-delivery-drone-air-traffic-controller-trevor-wischnewsky/",
+      "summary": "The moment Trevor Wischnewsky heard that drones were delivering pizza and sushi around his Texas neighborhood, his mind was made up. “It was super fascinating,” he says. “I just immediately wanted to be a part of it.” Wi…",
+      "ts": 1791536400000,
+      "publishedAt": "2026-10-09T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "We’re still figuring out the side effects of GLP-1 weight-loss drugs",
+      "url": "https://www.technologyreview.com/2026/10/09/1146094/were-still-figuring-out-the-side-effects-of-glp-1-weight-loss-drugs/",
+      "summary": "This week my colleague Antonio Regalado had an interesting update on GLP-1 weight-loss drugs. According to research presented at an aging meeting in Boston, these drugs seem to affect at least some measures of biological…",
+      "ts": 1791536400000,
+      "publishedAt": "2026-10-09T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Will MAHA survive the midterms?",
@@ -46,6 +208,24 @@
       "ts": 1791532800000,
       "publishedAt": "2026-10-09T08:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "ts": 1791529200000,
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "From Classroom to Field: School of Radiation Emergency Management in Austria",
+      "url": "http://www.iaea.org/news/photoessay/school-of-radiation-emergency-management-austria",
+      "summary": "",
+      "ts": 1791525600000,
+      "publishedAt": "2026-10-09T06:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -631,186 +811,6 @@
       "ts": 1791460800000,
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roche inks drug discovery deal with Chinese biotech, focused on molecular glue medicines",
-      "url": "https://www.statnews.com/2026/10/08/roche-defand-therapeutics-drug-development-deal/?utm_campaign=rss",
-      "summary": "Roche has inked a drug discovery deal with Chinese biotech Defand Therapeutics, focused on molecular glue medicines.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Russian attacks continue in Ukraine, Gazans shelter in flood-prone areas, keeping sight of eye health",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168557",
-      "summary": "UN human rights chief Volker Türk said on Thursday he was appalled by a wave of attacks that have killed civilians across Ukraine over the past four days.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168556",
-      "summary": "More than 700,000 displaced people in Tawila, in Sudan’s war-ravaged Darfur region, face severe shortages of healthcare, food, water and protection, the UN World Health Organization (WHO) warned on Thursday as it called …",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168555",
-      "summary": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN rights chief: Legacy of slavery and colonialism is still fuelling racism",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168554",
-      "summary": "The legacy of enslavement and colonialism continues to shape the lives of Africans and people of African descent, UN human rights chief Volker Türk said on Thursday, calling for urgent action to deliver reparatory justic…",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Age must never diminish rights,’ UN independent expert warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168553",
-      "summary": "Older women around the world face violence, exploitation and neglect, yet remain largely invisible in the laws, policies, data and services designed to protect women overall, a UN independent human rights expert said on …",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Afghanistan: Women face fresh dress code arrests amid record refugee returns",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168551",
-      "summary": "Afghan women and girls are being arrested, detained and threatened with arrest by Taliban authorities, the UN warned on Thursday as record numbers of returnees struggle to rebuild their lives back home.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Myanmar: Poverty deepens as families face multiple shocks with limited resources",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168550",
-      "summary": "Years of conflict, displacement, economic disruption and climate shocks in Myanmar have led to the “simultaneous collapse” of shelter, healthcare, schooling and livelihoods affecting millions of people, the UN Developmen…",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "The Nobel boys club (again)",
-      "url": "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss",
-      "summary": "All six Nobel awardees in physiology or medicine, physics, and chemistry this year were men. Women make up 4% of laureates since the award’s inception.",
-      "ts": 1791460407000,
-      "publishedAt": "2026-10-08T11:53:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Why we’re watching these climate tech companies",
-      "url": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
-      "summary": "This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting a…",
-      "ts": 1791453600000,
-      "publishedAt": "2026-10-08T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI breakthroughs in robotics won’t change your life any time soon",
-      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped li…",
-      "ts": 1791450000000,
-      "publishedAt": "2026-10-08T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks",
-      "summary": "The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a ‘switchback’ in the solar wind’s magnetic field. By fingerprinting the elusive particles within the switchback, Solar O…",
-      "ts": 1791450000000,
-      "publishedAt": "2026-10-08T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Biotech companies are struggling to navigate Trump’s new tariffs",
-      "url": "https://www.statnews.com/2026/10/08/trump-tariffs-section-232-imported-prescription-drugs-challenge-biotech-companies/?utm_campaign=rss",
-      "summary": "Smaller biotech firms are trying to figure out how to win exemptions from Trump's import taxes.",
-      "ts": 1791448200000,
-      "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Dozens of Democrats vie for slots on key House health committees",
-      "url": "https://www.statnews.com/2026/10/08/midterm-election-democrats-vie-for-roles-house-health-care-committees/?utm_campaign=rss",
-      "summary": "Power House health committees could get a lot of new members after the midterms.",
-      "ts": 1791448200000,
-      "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How CMS plans to fix a major flaw in the 340B drug discount program",
-      "url": "https://www.statnews.com/2026/10/08/340b-drug-discount-program-cms-reform-proposal/?utm_campaign=rss",
-      "summary": "“A small, well-intended discount for safety net hospitals became a large institutional subsidy with expensive unintended consequences,” writes an HHS leader.",
-      "ts": 1791448200000,
-      "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: England and other nations are on the path toward eliminating hepatitis C. Why not the U.S.?",
-      "url": "https://www.statnews.com/2026/10/08/us-hepatitis-c-cure-medication-cost-elimination/?utm_campaign=rss",
-      "summary": "Eliminating hepatitis C is achievable — if the U.S. seriously invests in it, experts write.",
-      "ts": 1791448200000,
-      "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why this startup is taking its AI to predict breast cancer risk directly to patients",
-      "url": "https://www.statnews.com/2026/10/08/why-clairity-took-breast-cancer-risk-prediction-ai-directly-to-patients/?utm_campaign=rss",
-      "summary": "A startup didn't want to wait for doctors and insurers to get behind its breast-cancer risk prediction AI. So it's going directly to patients.",
-      "ts": 1791448200000,
-      "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Breast cancer can behave differently in older women. This physician is making more tailored treatments a reality",
-      "url": "https://www.statnews.com/2026/10/08/breast-cancer-research-older-women-neil-carleton-stat-wunderkind/?utm_campaign=rss",
-      "summary": "There’s increasing evidence that older women with breast cancer could benefit from more tailored treatments. STAT Wunderkind Neil Carleton is working to make that a reality.",
-      "ts": 1791448200000,
-      "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "A mother-daughter quest to find fellow members of an ultra-rare genetic community",
-      "url": "https://www.statnews.com/2026/10/08/rare-disease-nicolaides-baraitser-syndrome-history-ncbrs-researchers/?utm_campaign=rss",
-      "summary": "“Don’t google,” the pediatric geneticist warned. It took me five years to disobey.",
-      "ts": 1791448200000,
-      "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
