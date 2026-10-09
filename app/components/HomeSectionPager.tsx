@@ -65,18 +65,21 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     title: "INQUIRY",
     subtitle: "What should we ask?",
   },
-  {
-    id: "archenova-continuity",
-    mark: "⌱",
-    title: "CONTINUITY",
-    subtitle: "How do we continue?",
-  },
+
   {
     id: "humanity-responsibility",
     mark: "⑇",
     title: "PERMANENT INQUIRY",
     subtitle: "Can humanity handle its power?",
   },
+
+  {
+    id: "archenova-continuity",
+    mark: "⌱",
+    title: "CONTINUITY",
+    subtitle: "How do we continue?",
+  },
+  
   {
     id: "work-models",
     mark: "⎅",

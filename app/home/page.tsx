@@ -97,23 +97,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ==================================================
-          06 — CONTINUITY
-      ================================================== */}
-
-      <section
-        id="archenova-continuity"
-        data-home-section
-        className="home-page twin-page continuity-home-page an-home-2026__section"
-        aria-label="ArcheNova Continuity"
-      >
-        <div className="an-home-2026__glass">
-          <ContinuityHomePortal />
-        </div>
-      </section>
 
       {/* ==================================================
-          07 — HUMANITY RESPONSIBILITY
+          06 — HUMANITY RESPONSIBILITY
       ================================================== */}
 
       <section
@@ -124,6 +110,21 @@ export default function HomePage() {
       >
         <div className="an-home-2026__glass">
           <HumanityResponsibilityPortal />
+        </div>
+      </section>
+
+      {/* ==================================================
+          07 — CONTINUITY
+      ================================================== */}
+
+      <section
+        id="archenova-continuity"
+        data-home-section
+        className="home-page twin-page continuity-home-page an-home-2026__section"
+        aria-label="ArcheNova Continuity"
+      >
+        <div className="an-home-2026__glass">
+          <ContinuityHomePortal />
         </div>
       </section>
 
