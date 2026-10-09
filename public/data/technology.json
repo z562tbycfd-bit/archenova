@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-10-09T15:54:30.105Z",
+  "updated": "2026-10-09T20:38:28.588Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Hospitals sue – again – to halt Trump administration’s 340B rebate pilot",
+      "url": "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/?utm_campaign=rss",
+      "summary": "The AHA is once again suing the Trump administration over its plan to revamp a federal drug discount program into one that provides after-the-fact rebates instead of upfront discounts.",
+      "ts": 1791577647000,
+      "publishedAt": "2026-10-09T20:27:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Sickle Cell Trait Linked to Distinct Malaria Parasite Variants",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/sickle-cell-trait-linked-to-distinct-malaria-parasite-variants/",
+      "summary": "A study in Cameroon found that sickle cell trait is associated with distinct malaria parasite genotypes, potentially explaining reduced disease risk despite similar infection rates. The post Sickle Cell Trait Linked to D…",
+      "ts": 1791571392000,
+      "publishedAt": "2026-10-09T18:43:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+      "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+      "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals invit…",
+      "ts": 1791569504000,
+      "publishedAt": "2026-10-09T18:11:44.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+      "summary": "NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash. When Northrop Grumman 24th cargo resupply mission for NASA undocked…",
+      "ts": 1791565164000,
+      "publishedAt": "2026-10-09T16:59:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Immune Cell Atlas Charts How People’s Aging Paths Diverge",
+      "url": "https://www.genengnews.com/topics/translational-medicine/immune-cell-atlas-charts-how-peoples-aging-paths-diverge/",
+      "summary": "Two people born on the same day can have immune systems that age differently. An immune cell atlas shows that a ratio between two cell types can reveal who is on a healthy or unhealthy path. The post Immune Cell Atlas Ch…",
+      "ts": 1791564108000,
+      "publishedAt": "2026-10-09T16:41:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "‘Molecular Movie’ of Penicillin Synthesis Could Inform Future Antibiotic Development",
+      "url": "https://www.genengnews.com/topics/bioprocessing/molecular-movie-of-penicillin-synthesis-could-inform-future-antibiotic-development/",
+      "summary": "An international research team have revealed previously unseen rapid chemical stages in the formation of β-lactam antibiotics such as penicillin, offering insights that could help to support future antibiotic development…",
+      "ts": 1791563782000,
+      "publishedAt": "2026-10-09T16:36:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharma’s free lunches for doctors boost inappropriate prescribing, analysis finds",
+      "url": "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss",
+      "summary": "The gifts and payments that doctors receive from drugmakers increased inappropriate prescribing, likely leading to rising health care costs, according to a new review.",
+      "ts": 1791563635000,
+      "publishedAt": "2026-10-09T16:33:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare Advantage star ratings trigger new bonuses, and uncertainty",
+      "url": "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/?utm_campaign=rss",
+      "summary": "The federal government has released new quality ratings for Medicare Advantage insurers for 2027, with Humana emerging as the biggest winner.",
+      "ts": 1791561347000,
+      "publishedAt": "2026-10-09T15:55:47.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Multiomics in 2026 and Beyond",
@@ -19,6 +91,15 @@
       "ts": 1791560499000,
       "publishedAt": "2026-10-09T15:41:39.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-370-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1791558935000,
+      "publishedAt": "2026-10-09T15:15:35.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -214,6 +295,15 @@
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "ts": 1791529200000,
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "ts": 1791529200000,
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "categoryId": "ai-compute"
@@ -721,96 +811,6 @@
       "ts": 1791473498000,
       "publishedAt": "2026-10-08T15:31:38.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Advances LISA Mission Contributions With New Test Telescope",
-      "url": "https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/",
-      "summary": "NASA has taken the next step in the process of developing a new all-glass telescope for the LISA (Laser Interferometer Space Antenna) mission, a space observatory designed to detect ripples in space-time called gravitati…",
-      "ts": 1791473484000,
-      "publishedAt": "2026-10-08T15:31:24.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roche goes beyond licensing in deal with Chinese biotech",
-      "url": "https://www.statnews.com/2026/10/08/biotech-news-roche-goes-beyond-licensing-in-deal-with-chinese-biotech/?utm_campaign=rss",
-      "summary": "Roche is partnering with Chinese startup Defand Therapeutics to discover new medicines.",
-      "ts": 1791472685000,
-      "publishedAt": "2026-10-08T15:18:05.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA says its safety review of abortion pill will continue into next year",
-      "url": "https://www.statnews.com/2026/10/08/fda-mifepristone-abortion-pill-safety-review-continue-into-2027/?utm_campaign=rss",
-      "summary": "The FDA says its ongoing safety review of the nation's main abortion pill will continue into next year, a timeline that was quickly condemned by abortion opponents.",
-      "ts": 1791471773000,
-      "publishedAt": "2026-10-08T15:02:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Argenx sees unusual setback with failure of late-stage study of drug for autoimmune disease",
-      "url": "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/?utm_campaign=rss",
-      "summary": "Argenx said its blockbuster drug Vyvgart didn’t outperform placebo in a Phase 3 trial of patients with Sjögren's disease, a chronic autoimmune disorder.",
-      "ts": 1791468149000,
-      "publishedAt": "2026-10-08T14:02:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "What will it take to build a moon base?",
-      "url": "https://spacenews.com/what-will-it-take-to-build-a-moon-base/",
-      "summary": "In this episode, a panel of industry experts discuss what’s needed to build a moon base. During a live event at the Johns Hopkins University Bloomberg Center, leaders Astrolab, Firefly […] The post What will it take to b…",
-      "ts": 1791467858000,
-      "publishedAt": "2026-10-08T13:57:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about PhRMA suing Trump, biotech frustration over tariffs, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/08/phrma-suing-trump-biotech-frustration-tariffs-pharmalittle-newsletter/?utm_campaign=rss",
-      "summary": "PhRMA is suing the Trump administration, smaller biotech firms are frustrated over tariffs, and more of the latest pharma news.",
-      "ts": 1791465333000,
-      "publishedAt": "2026-10-08T13:15:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action…",
-      "ts": 1791464446000,
-      "publishedAt": "2026-10-08T13:00:46.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Sentinel-3C returns its first views of Earth",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3C_returns_its_first_views_of_Earth",
-      "summary": "Just two weeks after it was launched, the Copernicus Sentinel-3C satellite returned its first images and measurements from two of its key instruments – a major milestone that confirms the satellite is working well and on…",
-      "ts": 1791462300000,
-      "publishedAt": "2026-10-08T12:25:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
-      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around …",
-      "ts": 1791461400000,
-      "publishedAt": "2026-10-08T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "url": "https://openai.com/index/pollo-ai",
-      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
