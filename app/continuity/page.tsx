@@ -27,10 +27,10 @@ import ContinuityEnvironment from "./components/ContinuityEnvironment";
 ========================================================== */
 
 export const metadata: Metadata = {
- title: "Aevum — ArcheNova",
+ title: "Aevum",
 
  description:
-   "Where inquiry endures. Carry questions, evidence, and reasoning across ArcheNova.",
+  "Carry questions, evidence, and reasoning across ArcheNova.",
 };
 
 /* ==========================================================
