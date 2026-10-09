@@ -65982,52 +65982,67 @@ main#home-top.an-home-2026
    AEVUM — INTELLECTUAL CONTINUITY
 
    SINGLE GLASS OWNERSHIP
+   CSS / TSX RESPONSIBILITY SEPARATION
+
+   CSS OWNS:
+   - HOME section glass
+   - Glass border
+   - Glass radius
+   - Backdrop blur
+   - Glass shadow
+   - Internal surface transparency
+
+   TSX OWNS:
+   - Typography and Valley-matched sizing
+   - Aevum object scale
+   - Canvas geometry
+   - Spatial composition
+   - Orbital architecture
+   - Five intellectual domains
+   - Breathing animations
+   - Hover interactions
+   - Fullscreen transition
+   - /continuity navigation
+
+   ONLY GLASS OWNER:
+   #archenova-continuity
+
+   NO:
+   - Nested glass cards
+   - Secondary rectangular surfaces
+   - Forced object dimensions
+   - Forced canvas height
+   - Blue color cast
+
+   SCOPE:
    AEVUM ONLY
 
-   ONLY:
-   #archenova-continuity owns the glass.
-
-   TRANSPARENT:
-   .an-home-2026__glass
-   .an-aevum-portal
-   .an-aevum-portal__canvas
-   .an-aevum-portal__top
-   .an-aevum-portal__experience
-   .an-aevum-portal__footer
-
-   PRESERVE:
-   - Aevum spatial object
-   - Orbital geometry
-   - Breathing animations
-   - Five intellectual domains
-   - Interactive entrance
-   - Fullscreen transition
-   - Existing HOME layout
-   - Other HOME portals
-
-   No nested glass card.
-   No secondary rectangle.
-   No blue cast.
-
-   Replace only the existing Aevum CSS block.
+   Other HOME portals remain unchanged.
 ========================================================== */
 
 
 /* ==========================================================
-   01. AEVUM SECTION — ONLY GLASS OWNER
+   01. AEVUM HOME SECTION
+   SINGLE GLASS OWNER
 
-   Existing HOME section layout is inherited.
+   Preserve existing HOME layout properties.
 
    Do not override:
-   - section display
-   - section padding
-   - section height
-   - section scroll behavior
-   - section positioning
+   - display
+   - position
+   - width
+   - height
+   - min-height
+   - padding
+   - margin
+   - overflow
+   - scroll behavior
+   - snap behavior
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
 > #archenova-continuity {
+
   isolation: isolate !important;
 
   background:
@@ -66042,8 +66057,7 @@ main.an-home-2026.archenova-twin-home
       rgba(15, 16, 18, 0.20) 0%,
       rgba(7, 8, 10, 0.24) 48%,
       rgba(0, 0, 0, 0.30) 100%
-    )
-    !important;
+    ) !important;
 
   border:
     1px solid rgba(255, 255, 255, 0.065)
@@ -66069,11 +66083,14 @@ main.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   02. REMOVE SECTION PSEUDO GLASS
+   02. REMOVE SECTION-LEVEL EXTRA SURFACES
 
-   Only remove section-level overlays.
+   Remove only the section pseudo-elements.
 
-   Do not target Aevum object pseudo elements.
+   The HOME section itself remains the
+   single visible glass surface.
+
+   Aevum object pseudo-elements are untouched.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
@@ -66081,27 +66098,45 @@ main.an-home-2026.archenova-twin-home
 
 main.an-home-2026.archenova-twin-home
 > #archenova-continuity::after {
+
   content: none !important;
+
   display: none !important;
 }
 
 
 /* ==========================================================
-   03. HOME GLASS WRAPPER — TRANSPARENT
+   03. HOME GLASS WRAPPER
+   OPTICALLY TRANSPARENT
 
-   The historical class remains in the DOM,
-   but does not own an optical surface.
+   Keep the wrapper in the DOM.
 
-   Preserve its layout properties.
+   Preserve inherited HOME layout.
+
+   Do not impose:
+   - width
+   - max-width
+   - min-height
+   - padding
+   - display
+   - positioning
+
+   This prevents CSS from constraining
+   the TSX-managed Aevum experience.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-home-2026__glass {
+
   background: transparent !important;
+
+  background-color: transparent !important;
+
   background-image: none !important;
 
   border: 0 !important;
+
   border-radius: 0 !important;
 
   outline: 0 !important;
@@ -66109,12 +66144,15 @@ main.an-home-2026.archenova-twin-home
   box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
+
   backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
    04. REMOVE HOME WRAPPER PSEUDO GLASS
+
+   Avoid duplicate borders or inner cards.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
@@ -66124,35 +66162,58 @@ main.an-home-2026.archenova-twin-home
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-home-2026__glass::after {
+
   content: none !important;
+
   display: none !important;
 }
 
 
 /* ==========================================================
-   05. AEVUM PORTAL ROOT — TRANSPARENT
+   05. AEVUM PORTAL ROOT
+   TRANSPARENT CONTENT LAYER
 
-   Preserve TSX-owned layout and animation.
+   Geometry and visual composition
+   remain owned by TSX.
+
+   No forced width, height, padding,
+   layout, or overflow.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-aevum-portal {
+
   background: transparent !important;
+
+  background-color: transparent !important;
+
   background-image: none !important;
 
   border: 0 !important;
+
   border-radius: 0 !important;
+
+  outline: 0 !important;
 
   box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
+
   backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
    06. REMOVE PORTAL ROOT PSEUDO SURFACES
+
+   Only the root pseudo-elements are removed.
+
+   Do not affect:
+   - Object rings
+   - Continuum shells
+   - Orbital layers
+   - Light effects
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
@@ -66162,46 +66223,59 @@ main.an-home-2026.archenova-twin-home
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-aevum-portal::after {
+
   content: none !important;
+
   display: none !important;
 }
 
 
 /* ==========================================================
-   07. AEVUM CANVAS — TRANSPARENT
+   07. AEVUM CANVAS
+   TRANSPARENT SPATIAL STAGE
 
-   Preserve:
-   - grid layout
-   - central alignment
-   - min-height
-   - responsive padding
-   - perspective
-   - atmospheric elements
-   - animations
+   Preserve TSX-controlled:
+   - Grid structure
+   - Central alignment
+   - Responsive dimensions
+   - Canvas padding
+   - Atmospheric composition
+   - Animation
+   - Perspective
+   - Overflow behavior
 
-   No forced geometry.
+   Do not add a second rectangle.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-aevum-portal__canvas {
+
   background: transparent !important;
+
+  background-color: transparent !important;
+
   background-image: none !important;
 
   border: 0 !important;
+
   border-radius: 0 !important;
+
+  outline: 0 !important;
 
   box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
+
   backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   08. REMOVE CANVAS RECTANGULAR OVERLAY
+   08. REMOVE CANVAS PSEUDO RECTANGLES
 
-   Preserve actual atmospheric DOM elements.
+   Actual atmospheric DOM layers remain
+   untouched and operational.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
@@ -66211,22 +66285,27 @@ main.an-home-2026.archenova-twin-home
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-aevum-portal__canvas::after {
+
   content: none !important;
+
   display: none !important;
 }
 
 
 /* ==========================================================
-   09. INTERNAL CONTENT WRAPPERS
+   09. CONTENT WRAPPERS
+   NO SECONDARY GLASS
 
-   Remove only secondary glass treatments.
+   Includes:
+   - Header
+   - Central experience
+   - Statement
+   - Footer
 
-   Preserve:
-   - layout
-   - typography
-   - animations
-   - positioning
-   - interaction
+   Preserve typography, layout,
+   alignment, spacing and animations.
+
+   TSX controls their presentation.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
@@ -66239,50 +66318,79 @@ main.an-home-2026.archenova-twin-home
 
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
+.an-aevum-portal__statement,
+
+main.an-home-2026.archenova-twin-home
+#archenova-continuity
 .an-aevum-portal__footer {
+
   background: transparent !important;
+
+  background-color: transparent !important;
+
   background-image: none !important;
 
   box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
+
   backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   10. OPTIONAL STATEMENT WRAPPER
+   10. CONTENT CONTAINER BORDERS
 
-   Applies only if this class exists.
+   Remove accidental card borders
+   without altering the intentional
+   footer separator from TSX.
+
+   Footer border is deliberately excluded.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
+.an-aevum-portal__top,
+
+main.an-home-2026.archenova-twin-home
+#archenova-continuity
+.an-aevum-portal__experience,
+
+main.an-home-2026.archenova-twin-home
+#archenova-continuity
 .an-aevum-portal__statement {
-  background: transparent !important;
-  background-image: none !important;
 
   border: 0 !important;
 
-  box-shadow: none !important;
+  border-radius: 0 !important;
 
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
+  outline: 0 !important;
 }
 
 
 /* ==========================================================
-   11. OBJECT BUTTON
+   11. INTERACTIVE OBJECT BUTTON
+   INVISIBLE CLICK SURFACE
 
-   Invisible interactive surface.
+   Preserve:
+   - Click interaction
+   - Hover scaling
+   - Focus behavior
+   - Disabled state
+   - Object geometry
+   - Transition behavior
 
-   Preserve hover and focus animations.
+   Do not style the spatial object itself.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-aevum-portal__object-button {
+
   background: transparent !important;
+
+  background-color: transparent !important;
+
   background-image: none !important;
 
   border: 0 !important;
@@ -66290,6 +66398,7 @@ main.an-home-2026.archenova-twin-home
   box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
+
   backdrop-filter: none !important;
 }
 
@@ -66297,55 +66406,141 @@ main.an-home-2026.archenova-twin-home
 /* ==========================================================
    12. KEYBOARD ACCESSIBILITY
 
-   Preserve a visible focus indicator.
+   Keep the focus ring visible.
+
+   No permanently visible button border.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home
 #archenova-continuity
 .an-aevum-portal__object-button:focus-visible {
+
   outline:
-    2px solid rgba(255, 255, 255, 0.75)
+    1px solid rgba(255, 255, 255, 0.75)
     !important;
 
-  outline-offset: 5px !important;
+  outline-offset: 8px !important;
 }
 
 
 /* ==========================================================
-   13. AEVUM OBJECT — UNTOUCHED
+   13. ATMOSPHERIC DOM ELEMENTS
+   TSX OWNERSHIP
 
-   Do not globally override:
+   The following remain untouched:
+
+   .an-aevum-portal__ambient
+   .an-aevum-portal__stars
+   .an-aevum-portal__reflection
+
+   They may contain:
+   - Radial gradients
+   - Light fields
+   - Dust
+   - Soft reflections
+
+   These are atmospheric layers,
+   not rectangular glass cards.
+========================================================== */
+
+
+/* ==========================================================
+   14. OBJECT ARCHITECTURE
+   TSX OWNERSHIP
+
+   No global overrides are applied to:
+
    .an-aevum-portal__object
-   its orbital rings
-   its core
-   its spatial layers
-   its pseudo elements
+   .an-aevum-portal__void
+   .an-aevum-portal__aura
+   .an-aevum-portal__dust
 
-   Their visual structure remains TSX-owned.
+   .an-aevum-portal__time-field
+   .an-aevum-portal__time-ring
+
+   .an-aevum-portal__orbit
+   .an-aevum-portal__connection
+
+   .an-aevum-portal__domain
+
+   .an-aevum-portal__continuum
+   .an-aevum-portal__continuum-shell
+   .an-aevum-portal__continuum-core
+   .an-aevum-portal__continuum-pulse
+
+   .an-aevum-portal__axis
+   .an-aevum-portal__horizon
+   .an-aevum-portal__boundary
+   .an-aevum-portal__tap
+
+   Their:
+   - Sizes
+   - Positions
+   - Colors
+   - Borders
+   - Shadows
+   - Transforms
+   - Animations
+
+   remain entirely TSX-controlled.
 ========================================================== */
 
 
 /* ==========================================================
-   14. FULLSCREEN TRANSITION — UNTOUCHED
+   15. TYPOGRAPHY
+   TSX OWNERSHIP
 
-   Do not override the transition portal.
+   No global overrides are applied to:
 
-   Its full-screen background, animation
-   and navigation behavior remain TSX-owned.
+   .an-aevum-portal__identity
+   .an-aevum-portal__eyebrow
+   .an-aevum-portal__statement h2
+   .an-aevum-portal__statement p
+   .an-aevum-portal__tap
+
+   Valley-matched typography is defined
+   by ContinuityHomePortal.tsx.
+
+   No CSS-side font-size overrides.
 ========================================================== */
 
 
 /* ==========================================================
-   15. MOBILE GLASS
+   16. FULLSCREEN TRANSITION
+   TSX OWNERSHIP
 
-   Same monochrome material,
-   slightly more transparent.
+   The transition is rendered through
+   createPortal(..., document.body).
+
+   Do not apply HOME glass overrides to:
+
+   .an-aevum-transition
+   .an-aevum-transition__space
+   .an-aevum-transition__stars
+   .an-aevum-transition__field
+   .an-aevum-transition__axis
+   .an-aevum-transition__core
+   .an-aevum-transition__copy
+
+   Fullscreen background, animations
+   and route navigation remain intact.
+========================================================== */
+
+
+/* ==========================================================
+   17. MOBILE HOME GLASS
+
+   Preserve the original mobile glass
+   material and border treatment.
+
+   Do not override mobile TSX geometry.
 ========================================================== */
 
 @media (max-width: 768px) {
 
   main.an-home-2026.archenova-twin-home
   > #archenova-continuity {
+
     background:
       radial-gradient(
         circle at 50% 0%,
@@ -66358,8 +66553,7 @@ main.an-home-2026.archenova-twin-home
         rgba(13, 14, 16, 0.16) 0%,
         rgba(6, 7, 9, 0.20) 50%,
         rgba(0, 0, 0, 0.26) 100%
-      )
-      !important;
+      ) !important;
 
     border:
       1px solid rgba(255, 255, 255, 0.060)
@@ -66385,13 +66579,18 @@ main.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   16. SMALL MOBILE
+   18. SMALL MOBILE
+
+   Glass radius only.
+
+   Object and typography remain TSX-owned.
 ========================================================== */
 
 @media (max-width: 430px) {
 
   main.an-home-2026.archenova-twin-home
   > #archenova-continuity {
+
     border-radius: 22px !important;
   }
 
@@ -66399,13 +66598,16 @@ main.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   17. VERY SMALL MOBILE
+   19. VERY SMALL MOBILE
+
+   Glass radius only.
 ========================================================== */
 
 @media (max-width: 360px) {
 
   main.an-home-2026.archenova-twin-home
   > #archenova-continuity {
+
     border-radius: 20px !important;
   }
 
@@ -66413,17 +66615,55 @@ main.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   END — AEVUM INTELLECTUAL CONTINUITY
+   20. OWNERSHIP SUMMARY
 
-   ONLY #archenova-continuity OWNS GLASS.
+   HOME SECTION:
+   #archenova-continuity
+   → One glass surface
 
-   All exterior wrappers are transparent.
+   HOME WRAPPER:
+   .an-home-2026__glass
+   → Transparent
 
-   Other HOME sections remain unchanged.
+   PORTAL ROOT:
+   .an-aevum-portal
+   → Transparent
+
+   CANVAS:
+   .an-aevum-portal__canvas
+   → Transparent
+
+   CONTENT WRAPPERS:
+   .an-aevum-portal__top
+   .an-aevum-portal__experience
+   .an-aevum-portal__statement
+   .an-aevum-portal__footer
+   → Transparent
+
+   INTERACTIVE BUTTON:
+   .an-aevum-portal__object-button
+   → Transparent
+
+   OBJECT / TYPOGRAPHY / ANIMATIONS:
+   → TSX
+
+   FULLSCREEN TRANSITION:
+   → TSX
+
+   OTHER HOME PORTALS:
+   → Unchanged
 ========================================================== */
 
 
+/* ==========================================================
+   END
+   ARCHENOVA AEVUM
+   INTELLECTUAL CONTINUITY
 
+   SINGLE HOME GLASS.
+   TRANSPARENT INTERNAL ARCHITECTURE.
+   VALLEY-MATCHED TSX PRESENTATION.
+========================================================== */
 
 
 
