@@ -29,19 +29,23 @@ import { useRouter } from "next/navigation";
    Remember the inquiry,
    not the individual.
 
-   HOME PRINCIPLE
+   HOME ARCHITECTURE
 
-   One Portal = One Black Glass Surface.
+   ONE HOME SECTION = ONE GLASS SURFACE
 
-   The HOME section owns the glass frame.
-   This component creates NO additional card.
+   Glass ownership:
+   app/globals.css
+   #archenova-continuity
 
-   Its interior is a transparent visual canvas.
+   This component:
+   - Does not create a glass card
+   - Does not create an exterior frame
+   - Does not apply backdrop blur
+   - Does not modify HOME section geometry
+   - Preserves the Aevum intellectual object
 
-   Aevum represents the persistence
-   and evolution of intellectual inquiry.
-
-   Public route: /continuity
+   Public route:
+   /continuity
 ========================================================== */
 
 const AEVUM_ROUTE = "/continuity";
@@ -68,6 +72,7 @@ export default function ContinuityHomePortal() {
 
     transitionTimerRef.current = window.setTimeout(
       () => {
+        transitionTimerRef.current = null;
         router.push(AEVUM_ROUTE);
       },
       reducedMotion ? 120 : 1150,
@@ -84,6 +89,8 @@ export default function ContinuityHomePortal() {
         window.clearTimeout(
           transitionTimerRef.current,
         );
+
+        transitionTimerRef.current = null;
       }
     };
   }, []);
@@ -101,8 +108,11 @@ export default function ContinuityHomePortal() {
       {/* ==================================================
           TRANSPARENT INTERNAL CANVAS
 
-          Not a glass card.
-          HOME owns the exterior glass.
+          NO GLASS
+          NO FRAME
+          NO BACKDROP FILTER
+
+          The HOME section owns the glass.
       ================================================== */}
 
       <div className="an-aevum-portal__canvas">
@@ -127,7 +137,9 @@ export default function ContinuityHomePortal() {
 
         <header className="an-aevum-portal__top">
           <div className="an-aevum-portal__identity">
-            <span>ARCHENOVA AEVUM</span>
+            <span id="an-aevum-title">
+              ARCHENOVA AEVUM
+            </span>
 
             <small>INTELLECTUAL CONTINUITY</small>
           </div>
@@ -138,7 +150,6 @@ export default function ContinuityHomePortal() {
         ================================================== */}
 
         <div className="an-aevum-portal__experience">
-
           {/* ==================================================
               INTELLECTUAL CONTINUITY OBJECT
 
@@ -293,7 +304,7 @@ export default function ContinuityHomePortal() {
 
       {/* ==================================================
           FULLSCREEN TRANSITION
-      ================================================== */}
+        ================================================== */}
 
       <div
         className="an-aevum-portal__transition"
@@ -326,7 +337,11 @@ export default function ContinuityHomePortal() {
 
       <style jsx>{`
         /* ==================================================
-           ROOT — NO HOME FRAME MODIFICATION
+           ROOT — CONTENT ONLY
+
+           No HOME glass.
+           No secondary surface.
+           No external border.
         ================================================== */
 
         .an-aevum-portal,
@@ -338,13 +353,31 @@ export default function ContinuityHomePortal() {
 
         .an-aevum-portal {
           position: relative;
+
+          display: block;
+
           width: 100%;
           max-width: 100%;
           min-width: 0;
+
           margin: 0;
           padding: 0;
+
           overflow: hidden;
+
           color: rgba(248, 249, 250, 0.94);
+
+          background: transparent;
+          background-image: none;
+
+          border: 0;
+          border-radius: 0;
+
+          outline: 0;
+          box-shadow: none;
+
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
         }
 
         button {
@@ -353,6 +386,8 @@ export default function ContinuityHomePortal() {
 
         /* ==================================================
            TRANSPARENT CANVAS
+
+           The visual canvas has no glass ownership.
         ================================================== */
 
         .an-aevum-portal__canvas {
@@ -366,6 +401,7 @@ export default function ContinuityHomePortal() {
           min-height: clamp(560px, 58vw, 700px);
 
           display: grid;
+
           grid-template-rows:
             auto
             minmax(0, 1fr)
@@ -375,10 +411,13 @@ export default function ContinuityHomePortal() {
 
           overflow: hidden;
 
-          border: 0;
-          border-radius: inherit;
           background: transparent;
+          background-image: none;
 
+          border: 0;
+          border-radius: 0;
+
+          outline: 0;
           box-shadow: none;
 
           backdrop-filter: none;
@@ -552,36 +591,6 @@ export default function ContinuityHomePortal() {
             clamp(26px, 4vw, 44px)
             0
             clamp(18px, 3vw, 30px);
-        }
-
-        .an-aevum-portal__statement {
-          position: relative;
-          z-index: 30;
-
-          width: 100%;
-
-          text-align: center;
-
-          transition:
-            opacity 0.42s ease,
-            transform 0.62s ease;
-        }
-
-        .an-aevum-portal__statement h2 {
-          width: 100%;
-          max-width: 820px;
-
-          margin: 0;
-
-          color: rgba(250, 251, 252, 0.97);
-
-          font-size: clamp(42px, 5.5vw, 76px);
-          font-weight: 235;
-          line-height: 0.96;
-          letter-spacing: -0.058em;
-
-          text-align: center;
-          text-wrap: balance;
         }
 
         /* ==================================================
@@ -1739,12 +1748,6 @@ export default function ContinuityHomePortal() {
         ================================================== */
 
         .an-aevum-portal--entering
-        .an-aevum-portal__statement {
-          opacity: 0;
-          transform: translateY(-8px);
-        }
-
-        .an-aevum-portal--entering
         .an-aevum-portal__object {
           transform: scale(0.82);
           opacity: 0.12;
@@ -1959,10 +1962,6 @@ export default function ContinuityHomePortal() {
           .an-aevum-portal__canvas {
             min-height: 590px;
           }
-
-          .an-aevum-portal__statement h2 {
-            font-size: clamp(42px, 7vw, 66px);
-          }
         }
 
         /* ==================================================
@@ -1974,8 +1973,17 @@ export default function ContinuityHomePortal() {
             width: 100%;
             max-width: 100%;
             min-width: 0;
+
+            margin: 0;
             padding: 0;
+
             overflow: hidden;
+
+            background: transparent;
+            border: 0;
+            border-radius: 0;
+
+            box-shadow: none;
           }
 
           .an-aevum-portal__canvas {
@@ -1997,10 +2005,13 @@ export default function ContinuityHomePortal() {
               18px
               17px;
 
-            border: 0;
-            border-radius: inherit;
-
             background: transparent;
+            background-image: none;
+
+            border: 0;
+            border-radius: 0;
+
+            outline: 0;
             box-shadow: none;
 
             backdrop-filter: none;
@@ -2026,22 +2037,6 @@ export default function ContinuityHomePortal() {
               10px;
 
             overflow: hidden;
-          }
-
-          .an-aevum-portal__statement h2 {
-            width: 100%;
-            max-width: 100%;
-
-            padding: 0 4px;
-
-            font-size: clamp(
-              36px,
-              10.6vw,
-              49px
-            );
-
-            line-height: 0.97;
-            letter-spacing: -0.052em;
           }
 
           .an-aevum-portal__object-button {
@@ -2122,14 +2117,6 @@ export default function ContinuityHomePortal() {
             padding: 9px 0 6px;
           }
 
-          .an-aevum-portal__statement h2 {
-            font-size: clamp(
-              32px,
-              9.5vw,
-              43px
-            );
-          }
-
           .an-aevum-portal__object-button {
             margin-top: 0;
           }
@@ -2161,14 +2148,6 @@ export default function ContinuityHomePortal() {
 
           .an-aevum-portal__identity > small {
             font-size: 4px;
-          }
-
-          .an-aevum-portal__statement h2 {
-            font-size: clamp(
-              33px,
-              10.1vw,
-              44px
-            );
           }
 
           .an-aevum-portal__object {
@@ -2211,14 +2190,6 @@ export default function ContinuityHomePortal() {
 
           .an-aevum-portal__identity > small {
             display: none;
-          }
-
-          .an-aevum-portal__statement h2 {
-            font-size: clamp(
-              30px,
-              9.7vw,
-              39px
-            );
           }
 
           .an-aevum-portal__object {
