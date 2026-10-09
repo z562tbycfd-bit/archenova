@@ -138,13 +138,6 @@ export default function ContinuityHomePortal() {
         ================================================== */}
 
         <div className="an-aevum-portal__experience">
-          <div className="an-aevum-portal__statement">
-            <h2 id="an-aevum-title">
-              Where inquiry
-              <br />
-              endures.
-            </h2>
-          </div>
 
           {/* ==================================================
               INTELLECTUAL CONTINUITY OBJECT
