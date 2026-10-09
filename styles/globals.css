@@ -65978,542 +65978,685 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   ARCHENOVA HOME — AEVUM / CONTINUITY
-   ==========================================================
+   ARCHENOVA HOME 2026
+   AEVUM — INTELLECTUAL CONTINUITY
 
-   INTELLECTUAL CONTINUITY GATEWAY
+   SINGLE GLASS OWNERSHIP
 
-   DESIGN LANGUAGE
+   The HOME section owns the only glass surface.
 
-   Apple-like quiet luxury
-   Neutral black
-   Subtle optical glass
-   Spatial breathing room
-   Monochrome illumination
+   Every inner wrapper is transparent.
 
-   ARCHITECTURE
+   Preserve:
+   - Aevum spatial object
+   - Orbital geometry
+   - Breathing animations
+   - Interactive entrance
+   - Monochrome visual identity
 
-   ONE SECTION = ONE GLASS SURFACE
-
-   GLASS OWNER
-   #archenova-continuity
-
-   TRANSPARENT LAYOUT
-   .an-home-2026__glass
-
-   TRANSPARENT PORTAL
-   .an-aevum-portal
-
-   TRANSPARENT VISUAL CANVAS
-   .an-aevum-portal__canvas
-
-   IMPORTANT
-
-   No nested glass.
-   No secondary card.
-   No additional backdrop blur.
+   No nested card.
+   No secondary rectangle.
    No blue cast.
-
-   The Aevum object and its animations
-   are owned by ContinuityHomePortal.tsx.
-
 ========================================================== */
 
 
 /* ==========================================================
-   01. CONTINUITY SECTION
-
-   SINGLE OPTICAL GLASS OWNER
+   01. SECTION — ONLY GLASS OWNER
 ========================================================== */
 
 main.an-home-2026
-section#archenova-continuity {
-  position: relative;
+> #archenova-continuity {
+  position: relative !important;
 
-  box-sizing: border-box;
+  isolation: isolate !important;
 
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box !important;
 
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: center !important;
 
-  margin-inline: auto;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
 
-  overflow: hidden;
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
 
-  color: rgba(248, 248, 248, 0.94);
+  margin: 0 !important;
+
+  padding:
+    var(--an-h-top)
+    var(--an-h-gutter)
+    var(--an-h-bottom)
+    !important;
+
+  overflow: visible !important;
 
   background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
     linear-gradient(
       145deg,
-      rgba(30, 30, 30, 0.34) 0%,
-      rgba(17, 17, 17, 0.39) 43%,
-      rgba(10, 10, 10, 0.48) 100%
-    );
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    )
+    !important;
 
   border:
-    1px solid rgba(255, 255, 255, 0.075);
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
 
-  border-radius: 30px;
-
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.045),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.012),
-    0 22px 65px rgba(0, 0, 0, 0.14);
-
-  backdrop-filter:
-    blur(22px) saturate(105%);
+  border-radius:
+    30px !important;
 
   -webkit-backdrop-filter:
-    blur(22px) saturate(105%);
+    blur(22px) saturate(106%)
+    !important;
 
-  isolation: isolate;
+  backdrop-filter:
+    blur(22px) saturate(106%)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline: 0 !important;
+
+  transform: none !important;
+  animation: none !important;
+
+  scroll-snap-align: none !important;
+  scroll-snap-stop: normal !important;
 }
 
 
 /* ==========================================================
-   02. SUBTLE OPTICAL REFLECTION
+   02. REMOVE SECTION PSEUDO SURFACES
 
-   A surface highlight, not another card.
+   These must not create an additional
+   optical layer over the HOME glass.
 ========================================================== */
 
 main.an-home-2026
-section#archenova-continuity::before {
-  content: "";
+> #archenova-continuity::before,
 
-  position: absolute;
-  inset: 0;
+main.an-home-2026
+> #archenova-continuity::after {
+  content: none !important;
 
-  z-index: 0;
+  display: none !important;
 
-  border-radius: inherit;
+  background: none !important;
 
-  pointer-events: none;
+  border: 0 !important;
 
-  background:
-    linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.025) 0%,
-      rgba(255, 255, 255, 0.007) 24%,
-      transparent 49%,
-      rgba(255, 255, 255, 0.004) 100%
-    );
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   03. HOME GLASS LAYOUT
-
-   TRANSPARENT CONTENT CONTAINER
-
-   No glass ownership here.
+   03. INNER HOME GLASS — LAYOUT ONLY
 ========================================================== */
 
 main.an-home-2026
-section#archenova-continuity
+#archenova-continuity
 .an-home-2026__glass {
-  position: relative;
+  position: relative !important;
 
-  z-index: 1;
+  z-index: 1 !important;
 
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: center !important;
 
-  flex: 1 1 auto;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
 
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
 
-  min-height: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 
-  margin: 0;
-  padding: 0;
+  overflow: visible !important;
 
-  overflow: visible;
+  background: transparent !important;
+  background-image: none !important;
 
-  background: transparent;
-  background-image: none;
+  border: 0 !important;
+  border-radius: 0 !important;
 
-  border: 0;
-  border-radius: 0;
+  outline: 0 !important;
 
-  outline: 0;
+  box-shadow: none !important;
 
-  box-shadow: none;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  transform: none !important;
+  animation: none !important;
 }
 
 
 /* ==========================================================
-   04. AEVUM PORTAL
-
-   CONTENT ONLY
-
-   The TSX owns the internal composition.
+   04. REMOVE INNER GLASS PSEUDO SURFACES
 ========================================================== */
 
 main.an-home-2026
-section#archenova-continuity
+#archenova-continuity
+.an-home-2026__glass::before,
+
+main.an-home-2026
+#archenova-continuity
+.an-home-2026__glass::after {
+  content: none !important;
+
+  display: none !important;
+
+  background: none !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   05. AEVUM PORTAL — TRANSPARENT ROOT
+========================================================== */
+
+main.an-home-2026
+#archenova-continuity
 .an-aevum-portal {
-  position: relative;
+  position: relative !important;
 
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 
-  display: block;
+  display: block !important;
 
-  flex: 1 1 auto;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
 
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
 
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 
-  overflow: hidden;
+  overflow: visible !important;
 
-  color: rgba(248, 248, 248, 0.94);
+  color: rgba(248, 249, 250, 0.94);
 
-  background: transparent;
-  background-image: none;
+  background: transparent !important;
+  background-image: none !important;
 
-  border: 0;
-  border-radius: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
 
-  outline: 0;
+  outline: 0 !important;
 
-  box-shadow: none;
+  box-shadow: none !important;
 
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   05. AEVUM VISUAL CANVAS
+   06. REMOVE PORTAL ROOT PSEUDO SURFACES
 
-   Preserve the original spatial object.
-   Preserve internal animations.
-   Preserve existing typography.
-
-   No additional surface treatment.
+   Do not target the orbital object
+   or its internal pseudo elements.
 ========================================================== */
 
 main.an-home-2026
-section#archenova-continuity
+#archenova-continuity
+.an-aevum-portal::before,
+
+main.an-home-2026
+#archenova-continuity
+.an-aevum-portal::after {
+  content: none !important;
+
+  display: none !important;
+
+  background: none !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   07. AEVUM CANVAS — TRANSPARENT EXPERIENCE
+
+   Preserve the internal spatial effects
+   managed by the TSX.
+
+   Do not impose another rectangular surface.
+========================================================== */
+
+main.an-home-2026
+#archenova-continuity
 .an-aevum-portal__canvas {
-  position: relative;
+  position: relative !important;
 
-  box-sizing: border-box;
+  isolation: isolate !important;
 
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
+  box-sizing: border-box !important;
 
-  margin: 0;
+  display: grid !important;
 
-  overflow: hidden;
+  grid-template-rows:
+    auto minmax(0, 1fr) auto
+    !important;
 
-  background: transparent;
-  background-image: none;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
 
-  border: 0;
-  border-radius: 0;
+  min-height:
+    clamp(560px, 58vw, 700px)
+    !important;
 
-  outline: 0;
+  height: auto !important;
+  max-height: none !important;
 
-  box-shadow: none;
+  margin: 0 !important;
 
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  padding:
+    clamp(25px, 4vw, 50px)
+    !important;
+
+  overflow: visible !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   06. INTERNAL VISUAL CONTENT
+   08. REMOVE CANVAS RECTANGULAR OVERLAY
 
-   The Aevum experience should float
-   directly inside the section glass.
+   The previous TSX defines a subtle
+   full-canvas ::before gradient.
 
-   No secondary framing.
+   Disable that rectangular layer.
+
+   Preserve the atmospheric divs:
+   ambient, stars and reflection.
 ========================================================== */
 
 main.an-home-2026
-section#archenova-continuity
+#archenova-continuity
+.an-aevum-portal__canvas::before,
+
+main.an-home-2026
+#archenova-continuity
+.an-aevum-portal__canvas::after {
+  content: none !important;
+
+  display: none !important;
+
+  background: none !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   09. INTERNAL EXPERIENCE — NO CARD
+========================================================== */
+
+main.an-home-2026
+#archenova-continuity
 .an-aevum-portal__top,
 
 main.an-home-2026
-section#archenova-continuity
+#archenova-continuity
 .an-aevum-portal__experience,
 
 main.an-home-2026
-section#archenova-continuity
+#archenova-continuity
 .an-aevum-portal__footer {
-  background: transparent;
+  background: transparent !important;
+  background-image: none !important;
 
-  border-radius: 0;
+  border-radius: 0 !important;
 
-  box-shadow: none;
+  box-shadow: none !important;
 
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   07. INTERACTIVE OBJECT
+   10. OBJECT BUTTON — INVISIBLE HIT AREA
 
-   Preserve original object geometry.
-
-   The button itself must not become
-   a rectangular glass card.
+   Preserve:
+   - button interaction
+   - focus-visible
+   - hover scale
+   - object animation
 ========================================================== */
 
 main.an-home-2026
-section#archenova-continuity
+#archenova-continuity
 .an-aevum-portal__object-button {
-  background: transparent;
+  background: transparent !important;
+  background-image: none !important;
 
-  border: 0;
+  border: 0 !important;
 
-  box-shadow: none;
+  box-shadow: none !important;
 
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }
 
 
 /* ==========================================================
-   08. OBJECT ATMOSPHERE
+   11. AEVUM OBJECT
 
-   Do not override the gradients,
-   orbits, shells, pulses, or keyframes
-   defined inside ContinuityHomePortal.tsx.
-
-   Only the exterior glass is controlled
-   from globals.css.
+   Keep its own dimensional structure.
+   Do not force its scale or geometry.
 ========================================================== */
+
+main.an-home-2026
+#archenova-continuity
+.an-aevum-portal__object {
+  background: transparent !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
 
 
 /* ==========================================================
-   09. TABLET
-
-   Preserve comfortable spacing.
+   12. TABLET
 ========================================================== */
 
 @media (max-width: 900px) {
 
   main.an-home-2026
-  section#archenova-continuity {
-    border-radius: 26px;
+  > #archenova-continuity {
+    border-radius: 26px !important;
   }
 
   main.an-home-2026
-  section#archenova-continuity
-  .an-home-2026__glass {
-    width: 100%;
-    min-width: 0;
-  }
-
-  main.an-home-2026
-  section#archenova-continuity
-  .an-aevum-portal {
-    width: 100%;
-    min-width: 0;
+  #archenova-continuity
+  .an-aevum-portal__canvas {
+    min-height: 590px !important;
   }
 
 }
 
 
 /* ==========================================================
-   10. MOBILE
-
-   One uninterrupted glass surface.
-
-   The Aevum object remains centered.
-   No secondary black rectangle.
+   13. MOBILE
 ========================================================== */
 
 @media (max-width: 700px) {
 
   main.an-home-2026
-  section#archenova-continuity {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
+  > #archenova-continuity {
+    min-height: 100svh !important;
 
-    border-radius: 24px;
+    height: auto !important;
+    max-height: none !important;
+
+    padding:
+      var(--an-h-top)
+      var(--an-h-gutter)
+      var(--an-h-bottom)
+      !important;
+
+    overflow: visible !important;
 
     background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
+      ),
       linear-gradient(
-        155deg,
-        rgba(27, 27, 27, 0.36) 0%,
-        rgba(16, 16, 16, 0.42) 48%,
-        rgba(9, 9, 9, 0.50) 100%
-      );
+        145deg,
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      )
+      !important;
 
-    border-color:
-      rgba(255, 255, 255, 0.07);
+    border:
+      1px solid rgba(255, 255, 255, 0.060)
+      !important;
 
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.04),
-      0 14px 42px rgba(0, 0, 0, 0.12);
-
-    backdrop-filter:
-      blur(20px) saturate(105%);
+    border-radius: 26px !important;
 
     -webkit-backdrop-filter:
-      blur(20px) saturate(105%);
+      blur(18px) saturate(104%)
+      !important;
+
+    backdrop-filter:
+      blur(18px) saturate(104%)
+      !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.035),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.008)
+      !important;
   }
 
   main.an-home-2026
-  section#archenova-continuity
+  #archenova-continuity
   .an-home-2026__glass {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
 
-    margin: 0;
-    padding: 0;
+    padding: 0 !important;
 
-    overflow: visible;
+    background: transparent !important;
 
-    background: transparent;
-    border: 0;
-    border-radius: 0;
+    border: 0 !important;
+    border-radius: 0 !important;
 
-    box-shadow: none;
+    box-shadow: none !important;
 
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
   }
 
   main.an-home-2026
-  section#archenova-continuity
+  #archenova-continuity
   .an-aevum-portal {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
 
-    margin: 0;
-    padding: 0;
+    padding: 0 !important;
 
-    overflow: hidden;
+    overflow: visible !important;
 
-    background: transparent;
-    border: 0;
-    border-radius: 0;
+    background: transparent !important;
 
-    box-shadow: none;
+    border: 0 !important;
+    border-radius: 0 !important;
 
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
   }
 
   main.an-home-2026
-  section#archenova-continuity
+  #archenova-continuity
   .an-aevum-portal__canvas {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
 
-    background: transparent;
+    min-height: 0 !important;
 
-    border: 0;
-    border-radius: 0;
+    height: auto !important;
+    max-height: none !important;
 
-    box-shadow: none;
+    padding:
+      clamp(18px, 4vw, 26px)
+      clamp(8px, 2.5vw, 18px)
+      !important;
 
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
+    overflow: visible !important;
+
+    background: transparent !important;
+
+    border: 0 !important;
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  main.an-home-2026
+  #archenova-continuity
+  .an-aevum-portal__experience {
+    width: 100% !important;
+    min-width: 0 !important;
+
+    overflow: visible !important;
   }
 
 }
 
 
 /* ==========================================================
-   11. SMALL MOBILE
+   14. SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 430px) {
 
   main.an-home-2026
-  section#archenova-continuity {
-    border-radius: 22px;
+  > #archenova-continuity {
+    border-radius: 22px !important;
   }
 
   main.an-home-2026
-  section#archenova-continuity
-  .an-home-2026__glass {
-    min-width: 0;
-  }
-
-  main.an-home-2026
-  section#archenova-continuity
-  .an-aevum-portal {
-    min-width: 0;
+  #archenova-continuity
+  .an-aevum-portal__canvas {
+    padding:
+      18px
+      8px
+      15px
+      !important;
   }
 
 }
 
 
 /* ==========================================================
-   12. VERY SMALL MOBILE
+   15. VERY SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 360px) {
 
   main.an-home-2026
-  section#archenova-continuity {
-    border-radius: 20px;
+  > #archenova-continuity {
+    border-radius: 20px !important;
+  }
+
+  main.an-home-2026
+  #archenova-continuity
+  .an-aevum-portal__canvas {
+    padding:
+      16px
+      6px
+      14px
+      !important;
   }
 
 }
 
 
 /* ==========================================================
-   13. REDUCED MOTION
+   16. FINAL OWNERSHIP GUARANTEE
 
-   The portal's animation accessibility
-   remains managed by its TSX.
+   Only the section owns the glass.
 
-   This CSS adds no independent motion.
+   No secondary surface is permitted
+   on the HOME layout wrapper,
+   portal root or portal canvas.
 ========================================================== */
+
+.archenova-twin-home
+#archenova-continuity
+.an-home-2026__glass,
+
+.archenova-twin-home
+#archenova-continuity
+.an-aevum-portal,
+
+.archenova-twin-home
+#archenova-continuity
+.an-aevum-portal__canvas {
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
 
 
 /* ==========================================================
-   END — ARCHENOVA HOME / AEVUM CONTINUITY
-
-   SINGLE GLASS OWNER:
-   #archenova-continuity
-
-   TRANSPARENT:
-   .an-home-2026__glass
-   .an-aevum-portal
-   .an-aevum-portal__canvas
-
-   NO LEGACY .an-continuity-home RULES
-
+   END — AEVUM CONTINUITY
 ========================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
