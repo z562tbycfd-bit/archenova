@@ -33,6 +33,21 @@ export const senateAgenda =
   {
     "id": "agenda-3",
     "rank": 3,
+    "title": "Security Council LIVE: Yemen has fallen back into full-scale war, warns UN envoy",
+    "slug": "space-security-council-live-yemen-has-fallen-back-into-full-scale-war-warns-un-envoy",
+    "category": "Space",
+    "source": "United Nations News",
+    "score": 9.4,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-4",
+    "rank": 4,
     "title": "NASA advances LISA mission contributions with new test telescope",
     "slug": "space-nasa-advances-lisa-mission-contributions-with-new-test-telescope",
     "category": "Space",
@@ -46,8 +61,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
+    "id": "agenda-5",
+    "rank": 5,
     "title": "A Sign in Space part 2, a new simulated First Contact scenario engaging the global scientific SETI network, and integrating deep space technologies into SETI search",
     "slug": "ai-a-sign-in-space-part-2-a-new-simulated-first-contact-scenario-engaging-the-globa",
     "category": "AI",
@@ -61,8 +76,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-5",
-    "rank": 5,
+    "id": "agenda-6",
+    "rank": 6,
     "title": "Fault-conditioned Seismic Image Generation using Denoising Diffusion Probabilistic Modeling and Neural Style Transfer",
     "slug": "ai-fault-conditioned-seismic-image-generation-using-denoising-diffusion-probabilist",
     "category": "AI",
@@ -76,8 +91,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-6",
-    "rank": 6,
+    "id": "agenda-7",
+    "rank": 7,
     "title": "Optimal Diffractive Focusing of Vortex Beams",
     "slug": "space-optimal-diffractive-focusing-of-vortex-beams",
     "category": "Space",
@@ -91,25 +106,10 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-7",
-    "rank": 7,
-    "title": "Interpretable Memory Models for Spaced Repetition",
-    "slug": "ai-interpretable-memory-models-for-spaced-repetition",
-    "category": "AI",
-    "source": "arXiv q-bio",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
     "id": "agenda-8",
     "rank": 8,
-    "title": "Elucidating the Space of Enzymatic Reaction: A Unified Benchmark and Pretrained Model",
-    "slug": "ai-elucidating-the-space-of-enzymatic-reaction-a-unified-benchmark-and-pretrained-m",
+    "title": "Interpretable Memory Models for Spaced Repetition",
+    "slug": "ai-interpretable-memory-models-for-spaced-repetition",
     "category": "AI",
     "source": "arXiv q-bio",
     "score": 9.3,
