@@ -30,6 +30,8 @@ import type {
   ContinuityId,
 } from "@/lib/continuity/types";
 
+import ContinuityTransferReceiver from "./ContinuityTransferReceiver";
+
 
 /* ==========================================================
    ARCHENOVA CONTINUITY
@@ -336,6 +338,7 @@ export default function ContinuityEnvironment() {
   </p>
 </div>
 
+        <ContinuityTransferReceiver />
 
         {!state.inquiry ? (
           <section className="continuity__origin">
