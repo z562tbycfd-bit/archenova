@@ -12,37 +12,56 @@ import { useRouter } from "next/navigation";
 
 /* ==========================================================
    ARCHENOVA AEVUM
-   INTELLECTUAL CONTINUITY
+   THE CONTINUUM OF INQUIRY
 
-   HOME:
-   One glass surface only.
+   HOME PORTAL — COMPLETE REPLACEMENT
 
-   Glass owner:
-   #archenova-continuity
+   DESIGN:
+   - Monochrome kinetic armillary
+   - Asymmetric three-dimensional orbital sculpture
+   - Precision silver contours
+   - Persistent luminous inquiry core
+   - Five intellectual domains
+   - Subtle independent orbital motion
 
-   Component:
-   Transparent internal architecture.
-
-   Valley-matched:
-   - Typography
-   - Object scale
-   - Vertical composition
+   PRESERVE:
+   - HOME single-glass ownership by globals.css
+   - Existing typography and layout
+   - Valley-matched object footprint
    - Mobile proportions
-
-   PRESERVED:
-   - Intellectual continuum
-   - Temporal rings
-   - Orbital infrastructure
-   - Five domains
-   - Breathing animations
    - Fullscreen transition
    - /continuity navigation
+
+   NO:
+   - Secondary rectangular glass
+   - Blue tint
+   - Canvas or WebGL dependency
+   - External assets
 ========================================================== */
 
 const AEVUM_ROUTE = "/continuity";
 
 const TRANSITION_DURATION = 1150;
 const REDUCED_TRANSITION_DURATION = 120;
+
+const ORBIT_PATHS = [
+  {
+    id: "alpha",
+    className: "an-aevum-portal__sculpture-orbit--alpha",
+  },
+  {
+    id: "beta",
+    className: "an-aevum-portal__sculpture-orbit--beta",
+  },
+  {
+    id: "gamma",
+    className: "an-aevum-portal__sculpture-orbit--gamma",
+  },
+  {
+    id: "delta",
+    className: "an-aevum-portal__sculpture-orbit--delta",
+  },
+] as const;
 
 export default function ContinuityHomePortal() {
   const router = useRouter();
@@ -126,7 +145,7 @@ export default function ContinuityHomePortal() {
       >
         <div className="an-aevum-portal__canvas">
 
-          {/* ATMOSPHERE */}
+          {/* ATMOSPHERE — PRESERVED */}
 
           <div
             className="an-aevum-portal__ambient"
@@ -143,7 +162,7 @@ export default function ContinuityHomePortal() {
             aria-hidden="true"
           />
 
-          {/* IDENTITY */}
+          {/* IDENTITY — PRESERVED */}
 
           <header className="an-aevum-portal__top">
             <div className="an-aevum-portal__identity">
@@ -155,7 +174,7 @@ export default function ContinuityHomePortal() {
             </div>
           </header>
 
-          {/* CENTRAL EXPERIENCE */}
+          {/* CENTRAL EXPERIENCE — PRESERVED */}
 
           <div className="an-aevum-portal__experience">
 
@@ -173,7 +192,7 @@ export default function ContinuityHomePortal() {
               </p>
             </div>
 
-            {/* INTERACTIVE OBJECT */}
+            {/* REFINED AEVUM ENTRY OBJECT */}
 
             <button
               type="button"
@@ -186,11 +205,13 @@ export default function ContinuityHomePortal() {
                 className="an-aevum-portal__object"
                 aria-hidden="true"
               >
+                {/* AMBIENT DEPTH */}
+
                 <span className="an-aevum-portal__void" />
                 <span className="an-aevum-portal__aura" />
                 <span className="an-aevum-portal__dust" />
 
-                {/* TEMPORAL FIELD */}
+                {/* INQUIRY FIELD */}
 
                 <span className="an-aevum-portal__time-field">
                   <span className="an-aevum-portal__time-ring an-aevum-portal__time-ring--1" />
@@ -198,21 +219,87 @@ export default function ContinuityHomePortal() {
                   <span className="an-aevum-portal__time-ring an-aevum-portal__time-ring--3" />
                 </span>
 
-                {/* ORBITS */}
+                {/* PRECISION ARMILLARY SCULPTURE */}
 
-                <span className="an-aevum-portal__orbit an-aevum-portal__orbit--outer" />
-                <span className="an-aevum-portal__orbit an-aevum-portal__orbit--middle" />
-                <span className="an-aevum-portal__orbit an-aevum-portal__orbit--inner" />
+                <span className="an-aevum-portal__sculpture">
 
-                {/* CONNECTIONS */}
+                  <span className="an-aevum-portal__sculpture-shadow" />
 
-                <span className="an-aevum-portal__connection an-aevum-portal__connection--1" />
-                <span className="an-aevum-portal__connection an-aevum-portal__connection--2" />
-                <span className="an-aevum-portal__connection an-aevum-portal__connection--3" />
-                <span className="an-aevum-portal__connection an-aevum-portal__connection--4" />
-                <span className="an-aevum-portal__connection an-aevum-portal__connection--5" />
+                  <span className="an-aevum-portal__sculpture-corona" />
 
-                {/* INTELLECTUAL DOMAINS */}
+                  <span className="an-aevum-portal__sculpture-meridian an-aevum-portal__sculpture-meridian--outer" />
+
+                  <span className="an-aevum-portal__sculpture-meridian an-aevum-portal__sculpture-meridian--inner" />
+
+                  <span className="an-aevum-portal__sculpture-equator" />
+
+                  <span className="an-aevum-portal__sculpture-equator-glint" />
+
+                  {/* INDEPENDENT ORBITAL ASSEMBLIES */}
+
+                  {ORBIT_PATHS.map((orbit) => (
+                    <span
+                      key={orbit.id}
+                      className={[
+                        "an-aevum-portal__sculpture-orbit",
+                        orbit.className,
+                      ].join(" ")}
+                    >
+                      <span className="an-aevum-portal__sculpture-orbit-track" />
+                      <span className="an-aevum-portal__sculpture-orbit-highlight" />
+                      <span className="an-aevum-portal__sculpture-orbit-node" />
+                    </span>
+                  ))}
+
+                  {/* CROSS-AXIS PRECISION */}
+
+                  <span className="an-aevum-portal__sculpture-spine" />
+
+                  <span className="an-aevum-portal__sculpture-spine-node an-aevum-portal__sculpture-spine-node--top" />
+
+                  <span className="an-aevum-portal__sculpture-spine-node an-aevum-portal__sculpture-spine-node--bottom" />
+
+                  {/* INNER REASONING CHAMBER */}
+
+                  <span className="an-aevum-portal__sculpture-chamber">
+
+                    <span className="an-aevum-portal__sculpture-chamber-shell" />
+
+                    <span className="an-aevum-portal__sculpture-chamber-ring an-aevum-portal__sculpture-chamber-ring--one" />
+
+                    <span className="an-aevum-portal__sculpture-chamber-ring an-aevum-portal__sculpture-chamber-ring--two" />
+
+                    <span className="an-aevum-portal__sculpture-chamber-ring an-aevum-portal__sculpture-chamber-ring--three" />
+
+                    {/* PERSISTENT INQUIRY */}
+
+                    <span className="an-aevum-portal__sculpture-core">
+
+                      <span className="an-aevum-portal__sculpture-core-shell" />
+
+                      <span className="an-aevum-portal__sculpture-core-inner" />
+
+                      <span className="an-aevum-portal__sculpture-core-light" />
+
+                    </span>
+
+                    <span className="an-aevum-portal__sculpture-pulse an-aevum-portal__sculpture-pulse--one" />
+
+                    <span className="an-aevum-portal__sculpture-pulse an-aevum-portal__sculpture-pulse--two" />
+
+                  </span>
+
+                  {/* INTERDEPENDENT KNOWLEDGE SIGNALS */}
+
+                  <span className="an-aevum-portal__sculpture-signal an-aevum-portal__sculpture-signal--one" />
+
+                  <span className="an-aevum-portal__sculpture-signal an-aevum-portal__sculpture-signal--two" />
+
+                  <span className="an-aevum-portal__sculpture-signal an-aevum-portal__sculpture-signal--three" />
+
+                </span>
+
+                {/* FIVE INTELLECTUAL DOMAINS */}
 
                 <span className="an-aevum-portal__domain an-aevum-portal__domain--question">
                   <i />
@@ -237,26 +324,6 @@ export default function ContinuityHomePortal() {
                 <span className="an-aevum-portal__domain an-aevum-portal__domain--purpose">
                   <i />
                   <span>PURPOSE</span>
-                </span>
-
-                {/* CONTINUUM */}
-
-                <span className="an-aevum-portal__continuum">
-                  <span className="an-aevum-portal__continuum-shadow" />
-                  <span className="an-aevum-portal__continuum-halo" />
-
-                  <span className="an-aevum-portal__continuum-shell an-aevum-portal__continuum-shell--outer" />
-                  <span className="an-aevum-portal__continuum-shell an-aevum-portal__continuum-shell--middle" />
-                  <span className="an-aevum-portal__continuum-shell an-aevum-portal__continuum-shell--inner" />
-
-                  <span className="an-aevum-portal__continuum-axis" />
-
-                  <span className="an-aevum-portal__continuum-core">
-                    <span className="an-aevum-portal__continuum-core-light" />
-                  </span>
-
-                  <span className="an-aevum-portal__continuum-pulse an-aevum-portal__continuum-pulse--1" />
-                  <span className="an-aevum-portal__continuum-pulse an-aevum-portal__continuum-pulse--2" />
                 </span>
 
                 {/* PERSISTENCE AXIS */}
@@ -289,11 +356,13 @@ export default function ContinuityHomePortal() {
                 <span className="an-aevum-portal__tap">
                   Explore Aevum <span aria-hidden="true">↗</span>
                 </span>
+
               </span>
             </button>
+
           </div>
 
-          {/* FOOTER */}
+          {/* FOOTER — PRESERVED */}
 
           <footer className="an-aevum-portal__footer">
             <span>ARCHENOVA AEVUM</span>
@@ -302,14 +371,16 @@ export default function ContinuityHomePortal() {
               QUESTION · EVIDENCE · REASONING · CONTINUITY
             </small>
           </footer>
+
         </div>
       </section>
 
       {mounted && createPortal(transition, document.body)}
 
       <style jsx global>{`
+
         /* ==================================================
-           AEVUM — VALLEY-MATCHED HOME PORTAL
+           01. BOX MODEL
         ================================================== */
 
         .an-aevum-portal,
@@ -324,11 +395,11 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ONE HOME GLASS
+           02. SINGLE HOME GLASS
 
-           Do not remove the HOME section glass.
+           globals.css owns the section surface.
 
-           Only internal surfaces are transparent.
+           No new rectangular glass layers.
         ================================================== */
 
         #archenova-continuity .an-home-2026__glass,
@@ -341,9 +412,7 @@ export default function ContinuityHomePortal() {
         #archenova-continuity .an-aevum-portal__object-button {
           background-color: transparent !important;
           background-image: none !important;
-
           box-shadow: none !important;
-
           -webkit-backdrop-filter: none !important;
           backdrop-filter: none !important;
         }
@@ -369,12 +438,11 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ROOT
+           03. ROOT
         ================================================== */
 
         .an-aevum-portal {
           position: relative;
-
           display: block;
 
           width: 100%;
@@ -395,10 +463,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           TRANSPARENT CANVAS
-
-           Valley reference:
-           560px–700px desktop height.
+           04. CANVAS — EXISTING GEOMETRY
         ================================================== */
 
         .an-aevum-portal__canvas {
@@ -406,7 +471,6 @@ export default function ContinuityHomePortal() {
           isolation: isolate;
 
           display: grid;
-
           grid-template-rows:
             auto
             minmax(0, 1fr)
@@ -421,16 +485,13 @@ export default function ContinuityHomePortal() {
           min-height: clamp(560px, 58vw, 700px);
 
           margin: 0 auto;
-
           padding: clamp(25px, 4vw, 50px);
 
           overflow: hidden;
 
           background: transparent;
-
           border: 0;
           border-radius: 0;
-
           box-shadow: none;
 
           transition:
@@ -440,7 +501,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ATMOSPHERE
+           05. ATMOSPHERE — PRESERVED
         ================================================== */
 
         .an-aevum-portal__ambient {
@@ -532,7 +593,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           IDENTITY — VALLEY SIZE
+           06. IDENTITY — PRESERVED
         ================================================== */
 
         .an-aevum-portal__top {
@@ -553,7 +614,6 @@ export default function ContinuityHomePortal() {
           align-items: center;
 
           gap: 7px;
-
           text-align: center;
         }
 
@@ -562,7 +622,6 @@ export default function ContinuityHomePortal() {
 
           font-size: 9px;
           font-weight: 650;
-
           letter-spacing: 0.24em;
           white-space: nowrap;
         }
@@ -572,12 +631,11 @@ export default function ContinuityHomePortal() {
 
           font-size: 6px;
           letter-spacing: 0.14em;
-
           white-space: nowrap;
         }
 
         /* ==================================================
-           EXPERIENCE
+           07. EXPERIENCE — PRESERVED
         ================================================== */
 
         .an-aevum-portal__experience {
@@ -589,7 +647,6 @@ export default function ContinuityHomePortal() {
 
           align-items: center;
           justify-content: center;
-
           align-self: center;
 
           width: 100%;
@@ -604,7 +661,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           STATEMENT — VALLEY TYPOGRAPHY
+           08. STATEMENT — PRESERVED
         ================================================== */
 
         .an-aevum-portal__statement {
@@ -630,7 +687,6 @@ export default function ContinuityHomePortal() {
 
           font-size: 6px;
           font-weight: 600;
-
           letter-spacing: 0.21em;
         }
 
@@ -667,7 +723,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ENTRY BUTTON — VALLEY SCALE
+           09. ENTRY BUTTON — PRESERVED
         ================================================== */
 
         .an-aevum-portal__object-button {
@@ -718,12 +774,13 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           INTELLECTUAL OBJECT — VALLEY SIZE
+           10. OBJECT FOOTPRINT — PRESERVED
+
+           Only the internal sculpture changes.
         ================================================== */
 
         .an-aevum-portal__object {
           position: relative;
-
           display: block;
 
           width: min(100%, 500px);
@@ -749,7 +806,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           VOID / AURA / DUST
+           11. VOID / AURA / DUST
         ================================================== */
 
         .an-aevum-portal__void {
@@ -838,7 +895,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           TEMPORAL FIELD
+           12. TEMPORAL FIELD
         ================================================== */
 
         .an-aevum-portal__time-field {
@@ -892,127 +949,643 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           INTELLECTUAL ORBITS
+           13. SCULPTURE — CENTRAL ASSEMBLY
+
+           Centered within the existing object.
+           No new layout constraints.
         ================================================== */
 
-        .an-aevum-portal__orbit {
+        .an-aevum-portal__sculpture {
           position: absolute;
-          z-index: 5;
+          z-index: 10;
 
+          top: 45%;
           left: 50%;
 
-          border:
-            1px solid rgba(255, 255, 255, 0.17);
+          display: block;
+
+          width: 72%;
+          aspect-ratio: 1;
+
+          transform: translate(-50%, -50%);
+
+          transform-style: preserve-3d;
+          perspective: 900px;
+
+          pointer-events: none;
+        }
+
+        .an-aevum-portal__sculpture-shadow {
+          position: absolute;
+          inset: 4%;
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle at 50% 50%,
+              rgba(0, 0, 0, 0.98) 0%,
+              rgba(4, 5, 6, 0.94) 30%,
+              rgba(0, 0, 0, 0.52) 56%,
+              transparent 77%
+            );
+
+          filter: blur(17px);
+        }
+
+        .an-aevum-portal__sculpture-corona {
+          position: absolute;
+          inset: -16%;
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle,
+              rgba(255, 255, 255, 0.11) 0%,
+              rgba(255, 255, 255, 0.045) 22%,
+              rgba(255, 255, 255, 0.008) 46%,
+              transparent 69%
+            );
+
+          filter: blur(16px);
+
+          animation:
+            an-aevum-sculpture-corona 12s ease-in-out infinite;
+        }
+
+        /* ==================================================
+           14. PRECISION MERIDIANS
+        ================================================== */
+
+        .an-aevum-portal__sculpture-meridian {
+          position: absolute;
+
+          top: 50%;
+          left: 50%;
 
           border-radius: 50%;
 
           pointer-events: none;
         }
 
-        .an-aevum-portal__orbit--outer {
-          top: 23%;
-          width: 88%;
-          height: 49%;
+        .an-aevum-portal__sculpture-meridian--outer {
+          width: 89%;
+          height: 89%;
+
+          border:
+            1px solid rgba(244, 246, 248, 0.23);
 
           transform:
-            translateX(-50%)
-            rotate(-25deg);
+            translate(-50%, -50%)
+            rotate(-17deg);
 
-          opacity: 0.7;
+          box-shadow:
+            inset 0 0 20px rgba(255, 255, 255, 0.014),
+            0 0 20px rgba(255, 255, 255, 0.014);
         }
 
-        .an-aevum-portal__orbit--middle {
-          top: 24%;
-          width: 80%;
-          height: 48%;
+        .an-aevum-portal__sculpture-meridian--inner {
+          width: 72%;
+          height: 72%;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.14);
 
           transform:
-            translateX(-50%)
-            rotate(28deg);
-
-          opacity: 0.76;
+            translate(-50%, -50%)
+            rotate(24deg);
         }
 
-        .an-aevum-portal__orbit--inner {
-          top: 30%;
-          width: 59%;
-          height: 37%;
+        .an-aevum-portal__sculpture-equator {
+          position: absolute;
+
+          top: 50%;
+          left: 50%;
+
+          width: 110%;
+          height: 33%;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.25);
+
+          border-radius: 50%;
 
           transform:
-            translateX(-50%)
-            rotate(-12deg);
+            translate(-50%, -50%)
+            rotate(-18deg);
 
-          opacity: 0.78;
+          box-shadow:
+            0 0 14px rgba(255, 255, 255, 0.015);
+        }
+
+        .an-aevum-portal__sculpture-equator-glint {
+          position: absolute;
+
+          top: 50%;
+          left: 50%;
+
+          width: 109%;
+          height: 33%;
+
+          border-top:
+            1px solid rgba(255, 255, 255, 0.13);
+
+          border-radius: 50%;
+
+          transform:
+            translate(-50%, -50%)
+            rotate(-18deg);
+
+          -webkit-mask-image:
+            linear-gradient(
+              90deg,
+              transparent 12%,
+              black 38%,
+              transparent 75%
+            );
+
+          mask-image:
+            linear-gradient(
+              90deg,
+              transparent 12%,
+              black 38%,
+              transparent 75%
+            );
         }
 
         /* ==================================================
-           CONNECTION NETWORK
+           15. ASYMMETRIC KINETIC ORBITS
+
+           Four independent orbital planes.
+
+           CSS-only animation.
         ================================================== */
 
-        .an-aevum-portal__connection {
+        .an-aevum-portal__sculpture-orbit {
           position: absolute;
-          z-index: 6;
 
-          height: 1px;
+          top: 50%;
+          left: 50%;
 
-          transform-origin: left center;
+          display: block;
 
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(255, 255, 255, 0.19),
-              transparent
-            );
+          width: 100%;
+          height: 100%;
 
+          transform-style: preserve-3d;
           pointer-events: none;
         }
 
-        .an-aevum-portal__connection--1 {
-          top: 34%;
-          left: 17%;
-          width: 34%;
-          transform: rotate(17deg);
+        .an-aevum-portal__sculpture-orbit-track,
+        .an-aevum-portal__sculpture-orbit-highlight {
+          position: absolute;
+          inset: 0;
+
+          display: block;
+
+          border-radius: 50%;
         }
 
-        .an-aevum-portal__connection--2 {
-          top: 52%;
-          left: 19%;
-          width: 33%;
-          transform: rotate(-12deg);
+        .an-aevum-portal__sculpture-orbit-track {
+          border:
+            1px solid rgba(235, 238, 242, 0.32);
+
+          background:
+            radial-gradient(
+              ellipse at 24% 18%,
+              rgba(255, 255, 255, 0.035),
+              transparent 45%
+            );
+
+          box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.045),
+            0 0 11px rgba(255, 255, 255, 0.025);
         }
 
-        .an-aevum-portal__connection--3 {
-          top: 34%;
-          right: 17%;
-          width: 34%;
-          transform: rotate(-17deg);
+        .an-aevum-portal__sculpture-orbit-highlight {
+          border-top:
+            1px solid rgba(255, 255, 255, 0.45);
+
+          border-left:
+            1px solid rgba(255, 255, 255, 0.08);
+
+          -webkit-mask-image:
+            linear-gradient(
+              130deg,
+              transparent 12%,
+              black 43%,
+              transparent 80%
+            );
+
+          mask-image:
+            linear-gradient(
+              130deg,
+              transparent 12%,
+              black 43%,
+              transparent 80%
+            );
         }
 
-        .an-aevum-portal__connection--4 {
-          top: 52%;
-          right: 19%;
-          width: 33%;
-          transform: rotate(12deg);
+        .an-aevum-portal__sculpture-orbit-node {
+          position: absolute;
+
+          top: -2px;
+          left: 50%;
+
+          width: 4px;
+          height: 4px;
+
+          transform: translateX(-50%);
+
+          border-radius: 50%;
+
+          background:
+            rgba(247, 249, 251, 0.9);
+
+          box-shadow:
+            0 0 7px rgba(255, 255, 255, 0.45),
+            0 0 18px rgba(255, 255, 255, 0.1);
         }
 
-        .an-aevum-portal__connection--5 {
-          top: 69%;
+        .an-aevum-portal__sculpture-orbit--alpha {
+          width: 94%;
+          height: 94%;
+
+          transform:
+            translate(-50%, -50%)
+            rotate(-31deg)
+            rotateX(64deg);
+
+          animation:
+            an-aevum-orbit-alpha 34s linear infinite;
+        }
+
+        .an-aevum-portal__sculpture-orbit--beta {
+          width: 92%;
+          height: 92%;
+
+          transform:
+            translate(-50%, -50%)
+            rotate(38deg)
+            rotateY(67deg);
+
+          animation:
+            an-aevum-orbit-beta 41s linear infinite reverse;
+        }
+
+        .an-aevum-portal__sculpture-orbit--gamma {
+          width: 104%;
+          height: 104%;
+
+          transform:
+            translate(-50%, -50%)
+            rotate(47deg)
+            rotateX(75deg);
+
+          animation:
+            an-aevum-orbit-gamma 47s linear infinite;
+        }
+
+        .an-aevum-portal__sculpture-orbit--delta {
+          width: 81%;
+          height: 81%;
+
+          transform:
+            translate(-50%, -50%)
+            rotate(-54deg)
+            rotateY(56deg);
+
+          animation:
+            an-aevum-orbit-delta 39s linear infinite reverse;
+        }
+
+        .an-aevum-portal__sculpture-orbit--beta
+        .an-aevum-portal__sculpture-orbit-track {
+          border-color:
+            rgba(255, 255, 255, 0.23);
+        }
+
+        .an-aevum-portal__sculpture-orbit--gamma
+        .an-aevum-portal__sculpture-orbit-track {
+          border-color:
+            rgba(255, 255, 255, 0.17);
+        }
+
+        .an-aevum-portal__sculpture-orbit--delta
+        .an-aevum-portal__sculpture-orbit-track {
+          border-color:
+            rgba(255, 255, 255, 0.27);
+        }
+
+        /* ==================================================
+           16. AXIAL PRECISION
+        ================================================== */
+
+        .an-aevum-portal__sculpture-spine {
+          position: absolute;
+          z-index: 12;
+
+          top: 5%;
+          bottom: 5%;
           left: 50%;
 
           width: 1px;
-          height: 15%;
+
+          transform: translateX(-50%);
 
           background:
             linear-gradient(
               to bottom,
-              rgba(255, 255, 255, 0.19),
+              transparent,
+              rgba(255, 255, 255, 0.16) 18%,
+              rgba(255, 255, 255, 0.35) 50%,
+              rgba(255, 255, 255, 0.16) 82%,
               transparent
             );
         }
 
+        .an-aevum-portal__sculpture-spine-node {
+          position: absolute;
+          z-index: 14;
+
+          left: 50%;
+
+          width: 4px;
+          height: 4px;
+
+          transform: translateX(-50%);
+
+          border-radius: 50%;
+
+          background:
+            rgba(255, 255, 255, 0.62);
+
+          box-shadow:
+            0 0 8px rgba(255, 255, 255, 0.15);
+        }
+
+        .an-aevum-portal__sculpture-spine-node--top {
+          top: 6%;
+        }
+
+        .an-aevum-portal__sculpture-spine-node--bottom {
+          bottom: 6%;
+          opacity: 0.55;
+        }
+
         /* ==================================================
-           DOMAINS — VALLEY LABEL SCALE
+           17. INNER REASONING CHAMBER
+        ================================================== */
+
+        .an-aevum-portal__sculpture-chamber {
+          position: absolute;
+          z-index: 15;
+
+          top: 50%;
+          left: 50%;
+
+          display: block;
+
+          width: 46%;
+          aspect-ratio: 1;
+
+          transform: translate(-50%, -50%);
+
+          border-radius: 50%;
+
+          pointer-events: none;
+        }
+
+        .an-aevum-portal__sculpture-chamber-shell {
+          position: absolute;
+          inset: 0;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.31);
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle at 34% 24%,
+              rgba(255, 255, 255, 0.16),
+              rgba(255, 255, 255, 0.035) 24%,
+              rgba(12, 13, 16, 0.76) 53%,
+              rgba(1, 2, 3, 0.97) 82%
+            );
+
+          box-shadow:
+            inset 0 0 27px rgba(255, 255, 255, 0.045),
+            inset -14px -16px 28px rgba(0, 0, 0, 0.5),
+            0 0 30px rgba(255, 255, 255, 0.035);
+        }
+
+        .an-aevum-portal__sculpture-chamber-ring {
+          position: absolute;
+
+          top: 50%;
+          left: 50%;
+
+          border-radius: 50%;
+
+          pointer-events: none;
+        }
+
+        .an-aevum-portal__sculpture-chamber-ring--one {
+          width: 112%;
+          height: 33%;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.35);
+
+          transform:
+            translate(-50%, -50%)
+            rotate(-29deg);
+        }
+
+        .an-aevum-portal__sculpture-chamber-ring--two {
+          width: 110%;
+          height: 33%;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.22);
+
+          transform:
+            translate(-50%, -50%)
+            rotate(47deg);
+        }
+
+        .an-aevum-portal__sculpture-chamber-ring--three {
+          width: 82%;
+          height: 82%;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.22);
+
+          transform:
+            translate(-50%, -50%)
+            rotateX(63deg)
+            rotate(-13deg);
+        }
+
+        /* ==================================================
+           18. PERSISTENT INQUIRY CORE
+        ================================================== */
+
+        .an-aevum-portal__sculpture-core {
+          position: absolute;
+          z-index: 20;
+
+          top: 50%;
+          left: 50%;
+
+          display: grid;
+          place-items: center;
+
+          width: 41%;
+          aspect-ratio: 1;
+
+          transform: translate(-50%, -50%);
+
+          border-radius: 50%;
+
+          animation:
+            an-aevum-sculpture-core 10s ease-in-out infinite;
+        }
+
+        .an-aevum-portal__sculpture-core-shell {
+          position: absolute;
+          inset: 0;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.55);
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle at 31% 24%,
+              rgba(255, 255, 255, 0.37),
+              rgba(110, 115, 122, 0.34) 25%,
+              rgba(11, 13, 16, 0.97) 70%,
+              #010102 100%
+            );
+
+          box-shadow:
+            inset 0 0 14px rgba(255, 255, 255, 0.11),
+            inset -8px -10px 14px rgba(0, 0, 0, 0.6),
+            0 0 18px rgba(255, 255, 255, 0.12);
+        }
+
+        .an-aevum-portal__sculpture-core-inner {
+          position: absolute;
+
+          width: 62%;
+          aspect-ratio: 1;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.14);
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle,
+              rgba(255, 255, 255, 0.12),
+              transparent 74%
+            );
+        }
+
+        .an-aevum-portal__sculpture-core-light {
+          position: relative;
+          z-index: 3;
+
+          width: 6px;
+          height: 6px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(255, 255, 255, 0.98);
+
+          box-shadow:
+            0 0 8px rgba(255, 255, 255, 0.72),
+            0 0 22px rgba(255, 255, 255, 0.35),
+            0 0 48px rgba(255, 255, 255, 0.1);
+        }
+
+        .an-aevum-portal__sculpture-pulse {
+          position: absolute;
+          z-index: 18;
+
+          top: 50%;
+          left: 50%;
+
+          width: 41%;
+          aspect-ratio: 1;
+
+          border:
+            1px solid rgba(255, 255, 255, 0.24);
+
+          border-radius: 50%;
+
+          opacity: 0;
+
+          animation:
+            an-aevum-sculpture-pulse 12s ease-out infinite;
+        }
+
+        .an-aevum-portal__sculpture-pulse--two {
+          animation-delay: -6s;
+        }
+
+        /* ==================================================
+           19. KNOWLEDGE SIGNALS
+        ================================================== */
+
+        .an-aevum-portal__sculpture-signal {
+          position: absolute;
+          z-index: 19;
+
+          width: 3px;
+          height: 3px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(255, 255, 255, 0.78);
+
+          box-shadow:
+            0 0 9px rgba(255, 255, 255, 0.3);
+
+          animation:
+            an-aevum-sculpture-signal 9s ease-in-out infinite;
+        }
+
+        .an-aevum-portal__sculpture-signal--one {
+          top: 17%;
+          left: 33%;
+        }
+
+        .an-aevum-portal__sculpture-signal--two {
+          top: 40%;
+          right: 7%;
+
+          animation-delay: -3s;
+        }
+
+        .an-aevum-portal__sculpture-signal--three {
+          bottom: 17%;
+          left: 23%;
+
+          animation-delay: -6s;
+        }
+
+        /* ==================================================
+           20. FIVE INTELLECTUAL DOMAINS
+
+           Existing positions and sizing preserved.
         ================================================== */
 
         .an-aevum-portal__domain {
@@ -1099,306 +1672,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           CENTRAL CONTINUUM
-        ================================================== */
-
-        .an-aevum-portal__continuum {
-          position: absolute;
-          z-index: 12;
-
-          top: 46%;
-          left: 50%;
-
-          width: 48%;
-          aspect-ratio: 1;
-
-          transform: translate(-50%, -50%);
-
-          pointer-events: none;
-        }
-
-        .an-aevum-portal__continuum-shadow {
-          position: absolute;
-          inset: -2%;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(0, 0, 0, 0.98) 12%,
-              rgba(5, 6, 8, 0.91) 42%,
-              rgba(0, 0, 0, 0.24) 69%,
-              transparent 83%
-            );
-
-          filter: blur(22px);
-        }
-
-        .an-aevum-portal__continuum-halo {
-          position: absolute;
-          inset: -26%;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(255, 255, 255, 0.085),
-              rgba(255, 255, 255, 0.022) 35%,
-              transparent 71%
-            );
-
-          filter: blur(18px);
-
-          animation:
-            an-aevum-halo 11s ease-in-out infinite;
-        }
-
-        .an-aevum-portal__continuum-shell {
-          position: absolute;
-
-          top: 50%;
-          left: 50%;
-
-          display: block;
-
-          border-radius: 50%;
-
-          transform: translate(-50%, -50%);
-
-          pointer-events: none;
-        }
-
-        .an-aevum-portal__continuum-shell--outer {
-          width: 100%;
-          height: 100%;
-
-          border:
-            1px solid rgba(255, 255, 255, 0.27);
-
-          background:
-            radial-gradient(
-              circle at 31% 22%,
-              rgba(255, 255, 255, 0.18),
-              rgba(255, 255, 255, 0.035) 23%,
-              transparent 44%
-            ),
-            radial-gradient(
-              circle at 69% 78%,
-              rgba(0, 0, 0, 0.93),
-              transparent 62%
-            ),
-            linear-gradient(
-              145deg,
-              rgba(53, 57, 63, 0.18),
-              rgba(4, 5, 7, 0.87) 65%,
-              rgba(0, 0, 0, 0.98)
-            );
-
-          box-shadow:
-            inset 0 0 55px rgba(255, 255, 255, 0.045),
-            inset -20px -26px 46px rgba(0, 0, 0, 0.56),
-            0 0 48px rgba(255, 255, 255, 0.045);
-        }
-
-        .an-aevum-portal__continuum-shell--outer::before {
-          content: "";
-
-          position: absolute;
-          inset: 12%;
-
-          border:
-            1px solid rgba(255, 255, 255, 0.13);
-
-          border-radius: 50%;
-
-          transform:
-            rotateX(66deg)
-            rotate(-22deg);
-        }
-
-        .an-aevum-portal__continuum-shell--outer::after {
-          content: "";
-
-          position: absolute;
-
-          top: 50%;
-          left: -8%;
-
-          width: 116%;
-          height: 34%;
-
-          border:
-            1px solid rgba(255, 255, 255, 0.2);
-
-          border-radius: 50%;
-
-          transform:
-            translateY(-50%)
-            rotate(-28deg);
-
-          opacity: 0.8;
-        }
-
-        .an-aevum-portal__continuum-shell--middle {
-          width: 76%;
-          height: 76%;
-
-          border:
-            1px solid rgba(255, 255, 255, 0.25);
-
-          background:
-            radial-gradient(
-              circle at 37% 26%,
-              rgba(255, 255, 255, 0.14),
-              rgba(37, 40, 45, 0.36) 32%,
-              rgba(4, 5, 7, 0.95) 86%
-            );
-
-          box-shadow:
-            inset 0 0 32px rgba(255, 255, 255, 0.045),
-            inset -12px -16px 28px rgba(0, 0, 0, 0.44);
-        }
-
-        .an-aevum-portal__continuum-shell--middle::after {
-          content: "";
-
-          position: absolute;
-
-          top: 50%;
-          left: -15%;
-
-          width: 130%;
-          height: 38%;
-
-          border:
-            1px solid rgba(255, 255, 255, 0.22);
-
-          border-radius: 50%;
-
-          transform:
-            translateY(-50%)
-            rotate(35deg);
-        }
-
-        .an-aevum-portal__continuum-shell--inner {
-          width: 49%;
-          height: 49%;
-
-          border:
-            1px solid rgba(255, 255, 255, 0.37);
-
-          background:
-            radial-gradient(
-              circle at 32% 23%,
-              rgba(255, 255, 255, 0.28),
-              rgba(94, 99, 106, 0.32) 28%,
-              rgba(8, 9, 12, 0.96) 75%
-            );
-
-          box-shadow:
-            inset 0 0 25px rgba(255, 255, 255, 0.075),
-            inset -10px -13px 22px rgba(0, 0, 0, 0.5),
-            0 0 32px rgba(255, 255, 255, 0.055);
-        }
-
-        .an-aevum-portal__continuum-axis {
-          position: absolute;
-
-          top: 5%;
-          bottom: 5%;
-          left: 50%;
-
-          width: 1px;
-
-          transform: translateX(-50%);
-
-          background:
-            linear-gradient(
-              to bottom,
-              transparent,
-              rgba(255, 255, 255, 0.18) 24%,
-              rgba(255, 255, 255, 0.3) 50%,
-              rgba(255, 255, 255, 0.18) 76%,
-              transparent
-            );
-        }
-
-        .an-aevum-portal__continuum-core {
-          position: absolute;
-
-          top: 50%;
-          left: 50%;
-
-          display: grid;
-          place-items: center;
-
-          width: 22%;
-          height: 22%;
-
-          transform: translate(-50%, -50%);
-
-          border:
-            1px solid rgba(255, 255, 255, 0.58);
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle at 33% 26%,
-              rgba(255, 255, 255, 0.43),
-              rgba(105, 110, 116, 0.5) 30%,
-              rgba(3, 4, 6, 0.98) 81%
-            );
-
-          box-shadow:
-            0 0 27px rgba(255, 255, 255, 0.13),
-            inset 0 0 16px rgba(255, 255, 255, 0.11);
-
-          animation:
-            an-aevum-core 9s ease-in-out infinite;
-        }
-
-        .an-aevum-portal__continuum-core-light {
-          width: 5px;
-          height: 5px;
-
-          border-radius: 50%;
-
-          background: rgba(255, 255, 255, 0.95);
-
-          box-shadow:
-            0 0 12px rgba(255, 255, 255, 0.5),
-            0 0 30px rgba(255, 255, 255, 0.16);
-        }
-
-        .an-aevum-portal__continuum-pulse {
-          position: absolute;
-
-          top: 50%;
-          left: 50%;
-
-          width: 22%;
-          height: 22%;
-
-          border:
-            1px solid rgba(255, 255, 255, 0.27);
-
-          border-radius: 50%;
-
-          opacity: 0;
-
-          animation:
-            an-aevum-pulse 10s ease-out infinite;
-        }
-
-        .an-aevum-portal__continuum-pulse--2 {
-          animation-delay: -5s;
-        }
-
-        /* ==================================================
-           PERSISTENCE AXIS
+           21. PERSISTENCE AXIS — PRESERVED
         ================================================== */
 
         .an-aevum-portal__axis {
@@ -1464,7 +1738,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           HORIZON
+           22. HORIZON — PRESERVED
         ================================================== */
 
         .an-aevum-portal__horizon {
@@ -1520,7 +1794,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           BOUNDARIES — VALLEY SCALE
+           23. BOUNDARIES — PRESERVED
         ================================================== */
 
         .an-aevum-portal__boundary {
@@ -1548,7 +1822,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ENTRY LABEL — VALLEY SCALE
+           24. ENTRY LABEL — PRESERVED
         ================================================== */
 
         .an-aevum-portal__tap {
@@ -1576,7 +1850,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           FOOTER — VALLEY SCALE
+           25. FOOTER — PRESERVED
         ================================================== */
 
         .an-aevum-portal__footer {
@@ -1590,7 +1864,6 @@ export default function ContinuityHomePortal() {
           gap: clamp(9px, 1.4vw, 16px);
 
           width: 100%;
-
           padding-top: 18px;
 
           border-top:
@@ -1629,7 +1902,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ENTERING
+           26. ENTERING — PRESERVED
         ================================================== */
 
         .an-aevum-portal--entering
@@ -1652,7 +1925,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ANIMATIONS
+           27. ANIMATIONS — EXISTING
         ================================================== */
 
         @keyframes an-aevum-breathe {
@@ -1677,18 +1950,6 @@ export default function ContinuityHomePortal() {
           }
         }
 
-        @keyframes an-aevum-halo {
-          0%, 100% {
-            opacity: 0.42;
-            transform: scale(0.92);
-          }
-
-          50% {
-            opacity: 0.8;
-            transform: scale(1.08);
-          }
-        }
-
         @keyframes an-aevum-node {
           0%, 100% {
             opacity: 0.3;
@@ -1698,38 +1959,6 @@ export default function ContinuityHomePortal() {
           50% {
             opacity: 1;
             transform: scale(1.16);
-          }
-        }
-
-        @keyframes an-aevum-core {
-          0%, 100% {
-            box-shadow:
-              0 0 12px rgba(255, 255, 255, 0.05),
-              inset 0 0 10px rgba(255, 255, 255, 0.06);
-          }
-
-          50% {
-            box-shadow:
-              0 0 30px rgba(255, 255, 255, 0.17),
-              inset 0 0 18px rgba(255, 255, 255, 0.13);
-          }
-        }
-
-        @keyframes an-aevum-pulse {
-          0% {
-            opacity: 0.42;
-
-            transform:
-              translate(-50%, -50%)
-              scale(1);
-          }
-
-          70%, 100% {
-            opacity: 0;
-
-            transform:
-              translate(-50%, -50%)
-              scale(4.3);
           }
         }
 
@@ -1754,18 +1983,154 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           HOVER
+           28. ANIMATIONS — NEW SCULPTURE
+        ================================================== */
+
+        @keyframes an-aevum-sculpture-corona {
+          0%, 100% {
+            opacity: 0.38;
+            transform: scale(0.94);
+          }
+
+          50% {
+            opacity: 0.78;
+            transform: scale(1.07);
+          }
+        }
+
+        @keyframes an-aevum-orbit-alpha {
+          from {
+            transform:
+              translate(-50%, -50%)
+              rotate(-31deg)
+              rotateX(64deg)
+              rotateZ(0deg);
+          }
+
+          to {
+            transform:
+              translate(-50%, -50%)
+              rotate(-31deg)
+              rotateX(64deg)
+              rotateZ(360deg);
+          }
+        }
+
+        @keyframes an-aevum-orbit-beta {
+          from {
+            transform:
+              translate(-50%, -50%)
+              rotate(38deg)
+              rotateY(67deg)
+              rotateZ(0deg);
+          }
+
+          to {
+            transform:
+              translate(-50%, -50%)
+              rotate(38deg)
+              rotateY(67deg)
+              rotateZ(360deg);
+          }
+        }
+
+        @keyframes an-aevum-orbit-gamma {
+          from {
+            transform:
+              translate(-50%, -50%)
+              rotate(47deg)
+              rotateX(75deg)
+              rotateZ(0deg);
+          }
+
+          to {
+            transform:
+              translate(-50%, -50%)
+              rotate(47deg)
+              rotateX(75deg)
+              rotateZ(360deg);
+          }
+        }
+
+        @keyframes an-aevum-orbit-delta {
+          from {
+            transform:
+              translate(-50%, -50%)
+              rotate(-54deg)
+              rotateY(56deg)
+              rotateZ(0deg);
+          }
+
+          to {
+            transform:
+              translate(-50%, -50%)
+              rotate(-54deg)
+              rotateY(56deg)
+              rotateZ(360deg);
+          }
+        }
+
+        @keyframes an-aevum-sculpture-core {
+          0%, 100% {
+            filter: brightness(0.86);
+          }
+
+          50% {
+            filter: brightness(1.24);
+          }
+        }
+
+        @keyframes an-aevum-sculpture-pulse {
+          0% {
+            opacity: 0.45;
+
+            transform:
+              translate(-50%, -50%)
+              scale(1);
+          }
+
+          70%, 100% {
+            opacity: 0;
+
+            transform:
+              translate(-50%, -50%)
+              scale(4.1);
+          }
+        }
+
+        @keyframes an-aevum-sculpture-signal {
+          0%, 100% {
+            opacity: 0.22;
+            transform: scale(0.75);
+          }
+
+          50% {
+            opacity: 0.9;
+            transform: scale(1.3);
+          }
+        }
+
+        /* ==================================================
+           29. HOVER
         ================================================== */
 
         @media (hover: hover) and (pointer: fine) {
+
           .an-aevum-portal__object-button:hover
           .an-aevum-portal__object {
             transform: scale(1.02);
           }
 
           .an-aevum-portal__object-button:hover
-          .an-aevum-portal__continuum-core {
-            border-color: rgba(255, 255, 255, 0.72);
+          .an-aevum-portal__sculpture-core-shell {
+            border-color:
+              rgba(255, 255, 255, 0.78);
+          }
+
+          .an-aevum-portal__object-button:hover
+          .an-aevum-portal__sculpture-orbit-track {
+            border-color:
+              rgba(255, 255, 255, 0.42);
           }
 
           .an-aevum-portal__object-button:hover
@@ -1776,13 +2141,15 @@ export default function ContinuityHomePortal() {
               translateX(-50%)
               translateY(-2px);
           }
+
         }
 
         /* ==================================================
-           MOBILE — VALLEY SCALE
+           30. MOBILE — EXISTING PROPORTIONS
         ================================================== */
 
         @media (max-width: 700px) {
+
           .an-aevum-portal {
             width: 100%;
             max-width: 100%;
@@ -1808,7 +2175,6 @@ export default function ContinuityHomePortal() {
             max-height: 690px;
 
             padding: 20px 18px 17px;
-
             overflow: hidden;
           }
 
@@ -1826,9 +2192,7 @@ export default function ContinuityHomePortal() {
 
           .an-aevum-portal__experience {
             min-height: 0;
-
             padding: 16px 0 10px;
-
             overflow: visible;
           }
 
@@ -1860,14 +2224,12 @@ export default function ContinuityHomePortal() {
           .an-aevum-portal__object-button {
             width: min(100%, 390px);
             max-width: 100%;
-
             margin-top: 5px;
           }
 
           .an-aevum-portal__object {
             width: min(100%, 340px);
             max-width: 100%;
-
             aspect-ratio: 1.22;
           }
 
@@ -1909,13 +2271,31 @@ export default function ContinuityHomePortal() {
           .an-aevum-portal__footer > small {
             display: none;
           }
+
+          /* Only sculpture internals adapt. */
+
+          .an-aevum-portal__sculpture {
+            width: 76%;
+          }
+
+          .an-aevum-portal__sculpture-orbit-node {
+            width: 3px;
+            height: 3px;
+          }
+
+          .an-aevum-portal__sculpture-core-light {
+            width: 5px;
+            height: 5px;
+          }
+
         }
 
         /* ==================================================
-           SHORT MOBILE
+           31. SHORT MOBILE
         ================================================== */
 
         @media (max-width: 700px) and (max-height: 720px) {
+
           .an-aevum-portal__canvas {
             height: calc(100svh - 30px);
             padding: 17px 17px 14px;
@@ -1940,13 +2320,15 @@ export default function ContinuityHomePortal() {
           .an-aevum-portal__footer {
             padding-top: 10px;
           }
+
         }
 
         /* ==================================================
-           SMALL MOBILE
+           32. SMALL MOBILE
         ================================================== */
 
         @media (max-width: 430px) {
+
           .an-aevum-portal__canvas {
             padding: 18px 15px 15px;
           }
@@ -1987,13 +2369,15 @@ export default function ContinuityHomePortal() {
           .an-aevum-portal__footer > span {
             font-size: 4px;
           }
+
         }
 
         /* ==================================================
-           VERY SMALL MOBILE
+           33. VERY SMALL MOBILE
         ================================================== */
 
         @media (max-width: 360px) {
+
           .an-aevum-portal__canvas {
             padding: 16px 13px 14px;
           }
@@ -2017,10 +2401,11 @@ export default function ContinuityHomePortal() {
           .an-aevum-portal__footer > i {
             display: none;
           }
+
         }
 
         /* ==================================================
-           FULLSCREEN TRANSITION
+           34. FULLSCREEN TRANSITION — PRESERVED
         ================================================== */
 
         .an-aevum-transition {
@@ -2032,7 +2417,6 @@ export default function ContinuityHomePortal() {
           place-items: center;
 
           overflow: hidden;
-
           background: #000;
 
           opacity: 0;
@@ -2266,7 +2650,6 @@ export default function ContinuityHomePortal() {
           transform: translate(-50%, 8px);
 
           opacity: 0;
-
           text-align: center;
 
           transition:
@@ -2284,7 +2667,6 @@ export default function ContinuityHomePortal() {
 
           font-size: clamp(27px, 4vw, 46px);
           font-weight: 400;
-
           letter-spacing: 0.19em;
         }
 
@@ -2296,7 +2678,7 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           ACTIVE TRANSITION
+           35. ACTIVE TRANSITION — PRESERVED
         ================================================== */
 
         .an-aevum-transition--active
@@ -2338,10 +2720,11 @@ export default function ContinuityHomePortal() {
         }
 
         /* ==================================================
-           MOBILE TRANSITION
+           36. MOBILE TRANSITION — PRESERVED
         ================================================== */
 
         @media (max-width: 700px) {
+
           .an-aevum-transition__core {
             width: min(58vw, 290px);
           }
@@ -2357,20 +2740,24 @@ export default function ContinuityHomePortal() {
           .an-aevum-transition__field > span:nth-child(3) {
             width: 58vw;
           }
+
         }
 
         /* ==================================================
-           REDUCED MOTION
+           37. REDUCED MOTION
         ================================================== */
 
         @media (prefers-reduced-motion: reduce) {
+
           .an-aevum-portal__aura,
           .an-aevum-portal__time-ring,
           .an-aevum-portal__domain i,
-          .an-aevum-portal__continuum-halo,
-          .an-aevum-portal__continuum-core,
-          .an-aevum-portal__continuum-pulse,
-          .an-aevum-portal__axis-signal {
+          .an-aevum-portal__axis-signal,
+          .an-aevum-portal__sculpture-corona,
+          .an-aevum-portal__sculpture-orbit,
+          .an-aevum-portal__sculpture-core,
+          .an-aevum-portal__sculpture-pulse,
+          .an-aevum-portal__sculpture-signal {
             animation: none !important;
           }
 
@@ -2385,7 +2772,9 @@ export default function ContinuityHomePortal() {
             transition-duration: 0.12s !important;
             transition-delay: 0s !important;
           }
+
         }
+
       `}</style>
     </>
   );
