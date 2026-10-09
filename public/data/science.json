@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-09T04:06:43.156Z",
+  "updated": "2026-10-09T08:37:35.066Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Four astronauts return to Earth after eight months in space",
+      "url": "https://phys.org/news/2026-10-astronauts-earth-months-space.html",
+      "summary": "Four astronauts returned to Earth from the International Space Station on Thursday after hurrying there eight months ago to replace an ailing colleague and his crew.",
+      "ts": 1791533610000,
+      "publishedAt": "2026-10-09T08:13:30.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Omnisolver: An extensible interface to Ising spin-glass and QUBO solvers: adding a distributed GPU brute-force plugin",
@@ -791,14 +799,6 @@
       "title": "Coherence-assisted quantum state preparation and thermal control through repeated interactions",
       "url": "https://arxiv.org/abs/2610.10794",
       "summary": "arXiv:2610.10794v1 Announce Type: cross Abstract: We investigate the relaxation dynamics and steady state of a qubit interacting with a coherent environment through an energy-conserving flip-flop interaction within the M…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ceramic Materials: From Atomic Bonding and Processing to Microstructure, Functional Properties, and Biomedical Applications",
-      "url": "https://arxiv.org/abs/2610.10874",
-      "summary": "arXiv:2610.10874v1 Announce Type: cross Abstract: Ceramic materials are inorganic, predominantly nonmetallic solids whose performance is governed by the interplay among atomic bonding, crystal structure, processing, micr…",
       "ts": 1791518400000,
       "publishedAt": "2026-10-09T04:00:00.000Z"
     }

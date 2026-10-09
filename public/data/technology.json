@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-10-09T04:06:48.719Z",
+  "updated": "2026-10-09T08:37:37.712Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Will MAHA survive the midterms?",
+      "url": "https://www.statnews.com/2026/10/09/maha-movement-rfk-jr-campaign-trail-midterm-elections/?utm_campaign=rss",
+      "summary": "As the midterm elections draw near, the MAHA movement is nearly invisible on the campaign trail and struggling to find a financial or messaging foothold in key races.",
+      "ts": 1791534600000,
+      "publishedAt": "2026-10-09T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Proposed U.S. census changes could be catastrophic for public health",
+      "url": "https://www.statnews.com/2026/10/09/2030-census-public-health-data-equity-morbidity-mortality/?utm_campaign=rss",
+      "summary": "“Erasing data does not erase need or harm,” writes social epidemiologist Nancy Krieger.",
+      "ts": 1791534600000,
+      "publishedAt": "2026-10-09T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: 50 years ago, my colleagues and I pursued basic research science that became revolutionary",
+      "url": "https://www.statnews.com/2026/10/09/robert-gallo-interleukin-2-human-retroviruses-immunotherapy-basic-science/?utm_campaign=rss",
+      "summary": "“Basic studies led to clinical and translational advances that no one could have predicted,” Robert Gallo writes of his work with interleukin-2.",
+      "ts": 1791534600000,
+      "publishedAt": "2026-10-09T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The fall of Roe dramatically changed abortion access. This researcher used Reddit to capture how",
+      "url": "https://www.statnews.com/2026/10/09/betsy-pleasants-stat-wunderkind-abortion-access-reddit-nlp/?utm_campaign=rss",
+      "summary": "With research on abortion access barriers, STAT Wunderkind Betsy Pleasants is defining a framework for using AI tools without losing sight of the people behind the data.",
+      "ts": 1791534600000,
+      "publishedAt": "2026-10-09T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Namibia’s biggest salt pan",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Namibia_s_biggest_salt_pan",
+      "summary": "Image: This image from Copernicus Sentinel-2, acquired on 5 April 2026, shows the Etosha National Park in northern Namibia.",
+      "ts": 1791532800000,
+      "publishedAt": "2026-10-09T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 9 – Stickney Crater",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-9-stickney-crater/",
+      "summary": "APOD Science APOD APOD: 2026 October 9… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph o…",
+      "ts": 1791518700000,
+      "publishedAt": "2026-10-09T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Floodwaters Overwhelm Thailand",
+      "url": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+      "summary": "Heavy rains since mid-September have caused widespread flooding that has affected millions of people across the country.",
+      "ts": 1791518460000,
+      "publishedAt": "2026-10-09T04:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Interpretable Memory Models for Spaced Repetition",
@@ -588,6 +651,69 @@
       "categoryId": "bio"
     },
     {
+      "source": "United Nations News",
+      "title": "World News in Brief: Russian attacks continue in Ukraine, Gazans shelter in flood-prone areas, keeping sight of eye health",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168557",
+      "summary": "UN human rights chief Volker Türk said on Thursday he was appalled by a wave of attacks that have killed civilians across Ukraine over the past four days.",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168556",
+      "summary": "More than 700,000 displaced people in Tawila, in Sudan’s war-ravaged Darfur region, face severe shortages of healthcare, food, water and protection, the UN World Health Organization (WHO) warned on Thursday as it called …",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168555",
+      "summary": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN rights chief: Legacy of slavery and colonialism is still fuelling racism",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168554",
+      "summary": "The legacy of enslavement and colonialism continues to shape the lives of Africans and people of African descent, UN human rights chief Volker Türk said on Thursday, calling for urgent action to deliver reparatory justic…",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Age must never diminish rights,’ UN independent expert warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168553",
+      "summary": "Older women around the world face violence, exploitation and neglect, yet remain largely invisible in the laws, policies, data and services designed to protect women overall, a UN independent human rights expert said on …",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan: Women face fresh dress code arrests amid record refugee returns",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168551",
+      "summary": "Afghan women and girls are being arrested, detained and threatened with arrest by Taliban authorities, the UN warned on Thursday as record numbers of returnees struggle to rebuild their lives back home.",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Myanmar: Poverty deepens as families face multiple shocks with limited resources",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168550",
+      "summary": "Years of conflict, displacement, economic disruption and climate shocks in Myanmar have led to the “simultaneous collapse” of shelter, healthcare, schooling and livelihoods affecting millions of people, the UN Developmen…",
+      "ts": 1791460800000,
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "The Nobel boys club (again)",
       "url": "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss",
@@ -684,132 +810,6 @@
       "summary": "“Don’t google,” the pediatric geneticist warned. It took me five years to disobey.",
       "ts": 1791448200000,
       "publishedAt": "2026-10-08T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Building a safer path to autonomous industrial AI",
-      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-      "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex …",
-      "ts": 1791447452000,
-      "publishedAt": "2026-10-08T08:17:32.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Keeping the sky dark and quiet",
-      "url": "https://www.esa.int/Space_Safety/Clean_Space/Keeping_the_sky_dark_and_quiet",
-      "summary": "For thousands of years, the night sky has inspired humanity, guided explorers and helped scientists unlock the mysteries of the Universe. As the number of satellites in orbit grows, their reflected light and radio freque…",
-      "ts": 1791446400000,
-      "publishedAt": "2026-10-08T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 8 – The Saturn System Smörgåsbord",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/",
-      "summary": "APOD Science APOD APOD: 2026 October 8 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photog…",
-      "ts": 1791432300000,
-      "publishedAt": "2026-10-08T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Optimization of Deep Learning Model for Denoising Dose Profiles in Proton Therapy",
-      "url": "https://arxiv.org/abs/2610.08843",
-      "summary": "arXiv:2610.08843v1 Announce Type: new Abstract: Proton therapy offers a dosimetric advantage over conventional radiotherapy through the Bragg peak, enabling precise dose delivery to the tumour while sparing surrounding t…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamical Insights into the Current Control Strategies for Chikungunya",
-      "url": "https://arxiv.org/abs/2610.08856",
-      "summary": "arXiv:2610.08856v1 Announce Type: new Abstract: This paper addresses the challenge that, under China's current mosquito-control policy for chikungunya---\\textit{clearing stagnant water, killing adult mosquitoes, and prev…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Shortcut to Structure in AlphaFold 3",
-      "url": "https://arxiv.org/abs/2610.08937",
-      "summary": "arXiv:2610.08937v1 Announce Type: new Abstract: AlphaFold 3 predicts protein structures with remarkable accuracy, yet how structural information emerges within the model remains poorly understood. Here, through causal in…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beyond the Transcriptome: Chromatin-Informed Prediction of Cell-State-Dependent Perturbation Responses",
-      "url": "https://arxiv.org/abs/2610.09054",
-      "summary": "arXiv:2610.09054v1 Announce Type: new Abstract: Predicting transcriptional responses to genetic perturbations is central to understanding gene function. Existing predictors primarily rely on transcriptomic measurements, …",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scaling subjects in cross-modal alignment: video decoding with EEG foundation model",
-      "url": "https://arxiv.org/abs/2610.09287",
-      "summary": "arXiv:2610.09287v1 Announce Type: new Abstract: Naturalistic visual decoding from EEG has long been constrained by cohort size: existing scaling literature caps out at a few dozen subjects, leading prior work to conclude…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "FaceKit: a Toolkit for Interpretable Facial Phenotyping, Synthetic Image Generation and Privacy Analysis in Rare Diseases",
-      "url": "https://arxiv.org/abs/2610.09288",
-      "summary": "arXiv:2610.09288v1 Announce Type: new Abstract: Many rare genetic diseases are associated with recognizable craniofacial features. However, traditional approaches for describing facial morphology rely largely on qualitat…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "De novo design of monoclonal and bispecific antibodies with OFAntibody",
-      "url": "https://arxiv.org/abs/2610.09548",
-      "summary": "arXiv:2610.09548v1 Announce Type: new Abstract: Recent advances in generative protein design have enabled de novo antibody generation with explicit target and epitope conditioning. However, most existing approaches remai…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Connectome-Based Modeling of Mutation-Specific Amyloid-$\\beta$ Aggregation in Familial Alzheimer's Disease",
-      "url": "https://arxiv.org/abs/2610.09583",
-      "summary": "arXiv:2610.09583v1 Announce Type: new Abstract: Familial amyloid-$\\beta$ (A$\\beta$) variants alter aggregation kinetics, but their interaction with structural brain connectivity remains incompletely understood. We develo…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CircuitATLAS: Agentic reasoning over a systems neuroscience knowledge graph for target discovery in circuitopathies",
-      "url": "https://arxiv.org/abs/2610.09643",
-      "summary": "arXiv:2610.09643v1 Announce Type: new Abstract: Drug discovery for neurological disease has traditionally centered on the molecules altered by disease. But the molecules that cause pathology are not necessarily the best …",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mathematical statistics of wild mammal biomass",
-      "url": "https://arxiv.org/abs/2610.09744",
-      "summary": "arXiv:2610.09744v1 Announce Type: new Abstract: Using the recently published global census of the biomass of wild terrestrial mammals, we perform a detailed mathematical statistical analysis of its distribution over $N_s…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Feedback to the primary visual cortex is highly concentrated on the central visual field representation",
-      "url": "https://arxiv.org/abs/2610.09983",
-      "summary": "arXiv:2610.09983v1 Announce Type: new Abstract: Retrograde tracer injections in marmoset monkeys revealed a striking feature of neural circuitry in primate visual system: among neurons projecting to the primary visual co…",
-      "ts": 1791432000000,
-      "publishedAt": "2026-10-08T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
