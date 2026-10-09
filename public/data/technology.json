@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-09T01:48:30.600Z",
+  "updated": "2026-10-09T03:38:22.211Z",
   "items": [
     {
       "source": "MIT Technology Review",
@@ -186,7 +186,7 @@
       "source": "NASA",
       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
       "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
-      "summary": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supe…",
+      "summary": "Editor’s note: This release was updated Oct. 8, 2026 with the formal name of the summit. As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, r…",
       "ts": 1791474385000,
       "publishedAt": "2026-10-08T15:46:25.000Z",
       "categoryId": "space"
@@ -318,69 +318,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "United Nations News",
-      "title": "World News in Brief: Russian attacks continue in Ukraine, Gazans shelter in flood-prone areas, keeping sight of eye health",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168557",
-      "summary": "UN human rights chief Volker Türk said on Thursday he was appalled by a wave of attacks that have killed civilians across Ukraine over the past four days.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168556",
-      "summary": "More than 700,000 displaced people in Tawila, in Sudan’s war-ravaged Darfur region, face severe shortages of healthcare, food, water and protection, the UN World Health Organization (WHO) warned on Thursday as it called …",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168555",
-      "summary": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN rights chief: Legacy of slavery and colonialism is still fuelling racism",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168554",
-      "summary": "The legacy of enslavement and colonialism continues to shape the lives of Africans and people of African descent, UN human rights chief Volker Türk said on Thursday, calling for urgent action to deliver reparatory justic…",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Age must never diminish rights,’ UN independent expert warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168553",
-      "summary": "Older women around the world face violence, exploitation and neglect, yet remain largely invisible in the laws, policies, data and services designed to protect women overall, a UN independent human rights expert said on …",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Afghanistan: Women face fresh dress code arrests amid record refugee returns",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168551",
-      "summary": "Afghan women and girls are being arrested, detained and threatened with arrest by Taliban authorities, the UN warned on Thursday as record numbers of returnees struggle to rebuild their lives back home.",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Myanmar: Poverty deepens as families face multiple shocks with limited resources",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168550",
-      "summary": "Years of conflict, displacement, economic disruption and climate shocks in Myanmar have led to the “simultaneous collapse” of shelter, healthcare, schooling and livelihoods affecting millions of people, the UN Developmen…",
-      "ts": 1791460800000,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
       "source": "STAT",
       "title": "The Nobel boys club (again)",
       "url": "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss",
@@ -504,15 +441,6 @@
       "summary": "APOD Science APOD APOD: 2026 October 8 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photog…",
       "ts": 1791432300000,
       "publishedAt": "2026-10-08T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Fighting Drought in Texas Cotton Country",
-      "url": "https://science.nasa.gov/earth/earth-observatory/fighting-drought-in-texas-cotton-country/",
-      "summary": "Drought and an ailing aquifer were major topics of conversation when NASA scientists visited with farmers in the Texas High Plains.",
-      "ts": 1791432060000,
-      "publishedAt": "2026-10-08T04:01:00.000Z",
       "categoryId": "space"
     },
     {
@@ -768,15 +696,6 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "NASA",
-      "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-      "summary": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays,…",
-      "ts": 1791407802000,
-      "publishedAt": "2026-10-07T21:16:42.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: In small trial, optogenetics restores some vision lost to retinitis pigmentosa",
       "url": "https://www.statnews.com/2026/10/07/optogenetics-restores-some-vision-retinitis-pigmentosa/?utm_campaign=rss",
@@ -786,24 +705,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
-      "url": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
-      "summary": "NASA and SpaceX are targeting no earlier than Tuesday, Oct. 13 to launch scientific investigations, supplies, and equipment to the International Space Station.",
-      "ts": 1791404236000,
-      "publishedAt": "2026-10-07T20:17:16.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s PRIMA Spacecraft (Artist’s Concept)",
-      "url": "https://science.nasa.gov/photojournal/nasas-prima-spacecraft-artists-concept/",
-      "summary": "Description This artist’s concept depicts the proposed design for NASA’s PRobe far-Infrared Mission for Astrophysics (PRIMA), which was selected by the agency in September 2026. The PRIMA observatory is the first in a ne…",
-      "ts": 1791404149000,
-      "publishedAt": "2026-10-07T20:15:49.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "Genetic Engineering News",
       "title": "Secrets of Oldest Land Animal’s 194-Year Lifespan Revealed with Epigenetics",
       "url": "https://www.genengnews.com/topics/omics/secrets-of-oldest-land-animals-194-year-lifespan-revealed-with-epigenetics/",
@@ -811,6 +712,105 @@
       "ts": 1791402572000,
       "publishedAt": "2026-10-07T19:49:32.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Gut Microbes Trigger Calprotectin to Protect Newborns from Infection",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/gut-microbes-trigger-calprotectin-to-protect-newborns-from-infection/",
+      "summary": "Newborn gut microbes activate epithelial calprotectin production, strengthening early-life immunity and protecting against dangerous infections, potentially offering new strategies to prevent neonatal sepsis. The post Gu…",
+      "ts": 1791402368000,
+      "publishedAt": "2026-10-07T19:46:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Trump administration proposes $70,000 fee for popular international student work program",
+      "url": "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/?utm_campaign=rss",
+      "summary": "The Trump administration has proposed a $70,000 fee for a popular work authorization program meant to give students professional experience",
+      "ts": 1791402076000,
+      "publishedAt": "2026-10-07T19:41:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "summary": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on W…",
+      "ts": 1791398728000,
+      "publishedAt": "2026-10-07T18:45:28.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+      "summary": "Description NASA’s Curiosity Mars rover captured this view looking back at the floor of Gale Crater, with the crater’s rim visible in the distance, on Sept. 5, 2026, the 5,006th Martian day, or sol, of the mission. Just …",
+      "ts": 1791392447000,
+      "publishedAt": "2026-10-07T17:00:47.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: PhRMA sues over Trump policy mandating lower drug prices in Medicare",
+      "url": "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss",
+      "summary": "The brand drug industry’s main trade group is suing the Trump administration over a pilot program tying Medicare drug prices to those in peer countries.",
+      "ts": 1791392312000,
+      "publishedAt": "2026-10-07T16:58:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+      "summary": "Description NASA’s Curiosity Mars rover captured this panorama of sunrise illuminating distant, wind-carved features called yardangs on Aug. 11, 2026, the 4,982nd Martian day, or sol, of the mission. Scientists are eager…",
+      "ts": 1791391790000,
+      "publishedAt": "2026-10-07T16:49:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Electrical Signals Sharpen Bioprocess Control",
+      "url": "https://www.genengnews.com/topics/bioprocessing/electrical-signals-sharpen-bioprocess-control/",
+      "summary": "Electrical signatures could give bioprocess engineers an earlier view of cell health, detecting apoptosis, refining harvest timing, and moving monitoring from destructive offline assays toward rapid, label-free, potentia…",
+      "ts": 1791388832000,
+      "publishedAt": "2026-10-07T16:00:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Hybrid Digital Twins Developed for Future Autonomous Labs",
+      "url": "https://www.genengnews.com/topics/bioprocessing/hybrid-digital-twins-developed-for-future-autonomous-labs/",
+      "summary": "An academic laboratory is developing a hybrid digital twin that integrates a mechanistic model with artificial intelligence, with the long-term goal of driving the future of next-generation autonomous robotic laboratorie…",
+      "ts": 1791388829000,
+      "publishedAt": "2026-10-07T16:00:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Big Data Opportunities in Biomanufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/big-data-opportunities-in-biomanufacturing/",
+      "summary": "Industry-wide standardization and collaboration leverage big data in ways that help companies unleash optimizations enterprise-wide while simultaneously advancing industry knowledge, but succeeding also takes a lot of da…",
+      "ts": 1791388827000,
+      "publishedAt": "2026-10-07T16:00:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Adding Low-Fidelity Data to ML Training Sets Could Yield Better Process Models",
+      "url": "https://www.genengnews.com/topics/bioprocessing/adding-low-fidelity-data-to-ml-training-sets-could-yield-better-process-models/",
+      "summary": "Low-fidelity trend information should be incorporated into the data sets used to train machine learning-based biopharmaceutical process models, according to new analysis, which suggests the approach could also help ident…",
+      "ts": 1791388818000,
+      "publishedAt": "2026-10-07T16:00:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis II Crew Moon Photo Annotations",
+      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+      "summary": "A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member’s tablet. NASA astronauts Reid Wiseman (in blue) and Victor “Ike” Glover …",
+      "ts": 1791387899000,
+      "publishedAt": "2026-10-07T15:44:59.000Z",
+      "categoryId": "space"
     }
   ],
   "categories": [

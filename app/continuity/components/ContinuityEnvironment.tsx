@@ -293,14 +293,10 @@ export default function ContinuityEnvironment() {
         </Link>
 
         <div className="continuity__header-center">
-          <span className="continuity__header-line" />
-
-          <span>
-            CONTINUITY
-          </span>
-
-          <span className="continuity__header-line" />
-        </div>
+  <span className="continuity__header-line" />
+  <span>AEVUM</span>
+  <span className="continuity__header-line" />
+</div>
 
         <div className="continuity__status">
           <span
@@ -322,26 +318,23 @@ export default function ContinuityEnvironment() {
 
       <section className="continuity__environment">
         <div className="continuity__intro">
-          <p className="continuity__eyebrow">
-            ARCHENOVA / CONTINUITY ENVIRONMENT
-          </p>
+  <p className="continuity__eyebrow">
+    ARCHENOVA / INTELLECTUAL CONTINUITY
+  </p>
 
-          <h1 className="continuity__title">
-            Continuity
-          </h1>
+  <h1 className="continuity__title">
+    Aevum
+  </h1>
 
-          <p className="continuity__thesis">
-            Where inquiry becomes
-            <br />
-            cumulative capability.
-          </p>
+  <p className="continuity__thesis">
+    Where inquiry endures.
+  </p>
 
-          <p className="continuity__definition">
-            Preserve what matters. Reconnect evidence.
-            Continue reasoning. Convert understanding into
-            the next defensible action.
-          </p>
-        </div>
+  <p className="continuity__definition">
+    Carry questions, evidence, and reasoning
+    across ArcheNova.
+  </p>
+</div>
 
 
         {!state.inquiry ? (

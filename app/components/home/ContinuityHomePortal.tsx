@@ -2,10 +2,26 @@
 
 import Link from "next/link";
 
+/**
+ * ArcheNova Aevum
+ *
+ * Intellectual continuity across ArcheNova.
+ *
+ * The inquiry persists.
+ * Personal identity is not required.
+ *
+ * HOME entrance only.
+ * Visual styling remains in app/globals.css.
+ */
 export default function ContinuityHomePortal() {
   return (
     <div className="an-continuity-home">
-      <div className="an-continuity-home__field" aria-hidden="true">
+      {/* Intellectual continuity field */}
+
+      <div
+        className="an-continuity-home__field"
+        aria-hidden="true"
+      >
         <span className="an-continuity-home__axis an-continuity-home__axis--horizontal" />
         <span className="an-continuity-home__axis an-continuity-home__axis--vertical" />
 
@@ -33,72 +49,59 @@ export default function ContinuityHomePortal() {
         </span>
       </div>
 
+      {/* Aevum identity */}
+
       <div className="an-continuity-home__content">
 
         <h2 className="an-continuity-home__title">
-          Continuity
+          Aevum
         </h2>
 
         <p className="an-continuity-home__thesis">
-          Where inquiry becomes
-          <br />
-          cumulative capability.
+          Where inquiry endures.
         </p>
 
         <p className="an-continuity-home__description">
-          Preserve the question, reconnect evidence, continue reasoning,
-          and carry intellectual state across ArcheNova.
+          Carry questions, evidence, and reasoning
+          across ArcheNova.
         </p>
-
-        <div
-          className="an-continuity-home__principle"
-          aria-label="Continuity of inquiry is not continuity of identity"
-        >
-          <span>CONTINUITY OF INQUIRY</span>
-
-          <i aria-hidden="true" />
-
-          <span aria-hidden="true">≠</span>
-
-          <i aria-hidden="true" />
-
-          <span>CONTINUITY OF IDENTITY</span>
-        </div>
 
         <Link
           href="/continuity"
           className="an-continuity-home__enter"
-          aria-label="Enter ArcheNova Continuity"
+          aria-label="Enter ArcheNova Aevum"
         >
-          <span>ENTER CONTINUITY</span>
+          <span>ENTER AEVUM</span>
 
           <svg
-            width="34"
-            height="12"
-            viewBox="0 0 34 12"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
             fill="none"
             aria-hidden="true"
           >
             <path
-              d="M1 6H32"
+              d="M4 14L14 4M5 4H14V13"
               stroke="currentColor"
-              strokeWidth="0.8"
-            />
-
-            <path
-              d="M27 1L32 6L27 11"
-              stroke="currentColor"
-              strokeWidth="0.8"
+              strokeWidth="0.9"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </Link>
 
         <p className="an-continuity-home__quiet">
-          Remember the inquiry, not the individual.
+          Preserve thought, not identity.
         </p>
       </div>
 
-      <div className="an-continuity-home__status" aria-hidden="true">
+      {/* Continuity foundation */}
+
+      <div
+        className="an-continuity-home__status"
+        aria-hidden="true"
+      >
+        <span>INTELLECTUAL ENVIRONMENT</span>
 
         <span className="an-continuity-home__status-line" />
 
