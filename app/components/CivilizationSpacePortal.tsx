@@ -450,7 +450,7 @@ export default function CivilizationSpacePortal() {
         <header className="an-civilization-space-portal__header">
           <div className="an-civilization-space-portal__identity">
             <span className="an-civilization-space-portal__eyebrow">
-              CIVILIZATION SPACE
+             ARCHENOVA CIVILIZATION SPACE
             </span>
 
             <span className="an-civilization-space-portal__principle">
