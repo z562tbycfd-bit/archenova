@@ -17914,7 +17914,30 @@ useEffect(() => {
             </button>
           </header>
 
-          <div className="ep-signal-space__stage">
+          <div className="ep-signal-space__overview" aria-label="Signal Space overview">
+            <div>
+              <span>KNOWLEDGE OBJECTS</span>
+              <strong>{signalSpaceModel.nodes.length + (signalSpaceModel.primary ? 1 : 0)}</strong>
+              <small>Primary and contextual objects in the active model</small>
+            </div>
+            <div>
+              <span>SUPPORTING</span>
+              <strong>{signalSpaceModel.nodes.filter((node) => node.role === "SUPPORTING").length}</strong>
+              <small>Context assessed as supporting</small>
+            </div>
+            <div>
+              <span>COMPETING</span>
+              <strong>{signalSpaceModel.nodes.filter((node) => node.role === "COMPETING").length}</strong>
+              <small>Alternative or competing context</small>
+            </div>
+            <div>
+              <span>BACKGROUND</span>
+              <strong>{signalSpaceModel.nodes.filter((node) => node.role === "BACKGROUND").length}</strong>
+              <small>Contextual knowledge, not direct evidence</small>
+            </div>
+          </div>
+
+          <div className="ep-signal-space__stage" aria-label="Interactive knowledge neighborhood">
             <div className="ep-signal-space__rings" aria-hidden="true">
               <i />
               <i />
@@ -17960,7 +17983,48 @@ useEffect(() => {
             </div>
           </div>
 
+          <div className="ep-signal-space__mobile-index" aria-label="Related knowledge objects">
+            <div className="ep-signal-space__mobile-index-head">
+              <span>KNOWLEDGE NEIGHBORHOOD</span>
+              <p>Explore indexed objects by their assessed relationship to the primary claim. Relationships are contextual, not independently verified evidence.</p>
+            </div>
+            {signalSpaceModel.nodes.length === 0 ? (
+              <p className="ep-signal-space__mobile-empty">
+                No related object currently passes the relevance boundary.
+              </p>
+            ) : (
+              <div className="ep-signal-space__mobile-items">
+                {signalSpaceModel.nodes.map((node) => (
+                  <button
+                    key={node.id}
+                    type="button"
+                    className={`ep-signal-space__mobile-item is-${node.role.toLowerCase()}`}
+                    onClick={() => {
+                      setSignalSpaceMessageId(null);
+                      submitQuestion(
+                        `Explain the deepest defensible significance of: ${node.title}`,
+                        "ask",
+                      );
+                    }}
+                  >
+                    <span className="ep-signal-space__mobile-item-meta">
+                      {node.knowledgeKind} · {node.role} · RELEVANCE SCORE {node.score.toFixed(2)}
+                    </span>
+                    <strong>{node.title}</strong>
+                    <small>{node.category || node.source}</small>
+                    <span className="ep-signal-space__mobile-item-action">Examine with Episteme ↗</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
           <aside className="ep-signal-space__inspector">
+            <div className="ep-signal-space__inspector-heading">
+              <span>EPISTEMIC INSPECTOR</span>
+              <strong>What is known, inferred, and still testable</strong>
+              <p>These statements are drawn from the current Episteme intelligence object. They are not independent source verification.</p>
+            </div>
             <section>
               <span>SOURCE TRUTH</span>
               <p>{signalSpaceModel.sourceTruth}</p>
@@ -28274,6 +28338,285 @@ useEffect(() => {
             border-color: rgba(255,255,255,.19) !important;
             background: #171a1e !important;
           }
+        }
+
+        /* ==================================================
+           SIGNAL SPACE · RESEARCH WORKSPACE REFINEMENT
+           Existing intelligence, relationships, actions preserved.
+           Desktop: readable spatial map + evidence inspector.
+           Mobile: ordered knowledge cards instead of overlap.
+        ================================================== */
+        .ep-signal-space {
+          display: grid;
+          grid-template-columns: minmax(0,1fr) minmax(290px,340px);
+          grid-template-rows: auto auto minmax(0,1fr);
+          column-gap: 18px;
+          row-gap: 14px;
+          padding: 20px clamp(18px,2.4vw,38px) 24px;
+          overflow: hidden;
+          background:
+            radial-gradient(ellipse 50% 52% at 38% 48%,rgba(130,159,190,.065),transparent 82%),
+            linear-gradient(160deg,#080a0d,#020304 60%,#08090b);
+        }
+        .ep-signal-space__header {
+          position: relative;
+          inset: auto;
+          grid-column: 1 / -1;
+          min-width: 0;
+          align-items: center;
+          padding: 6px 0 16px;
+          border-bottom: 1px solid rgba(255,255,255,.10);
+        }
+        .ep-signal-space__header strong {
+          font-size: clamp(20px,2vw,29px);
+          letter-spacing: .12em;
+          color: rgba(252,252,252,.96);
+        }
+        .ep-signal-space__header small,
+        .ep-signal-space__header span { color: rgba(233,236,241,.62); }
+        .ep-signal-space__header button {
+          min-height: 44px;
+          min-width: 76px;
+          background: rgba(255,255,255,.045);
+          color: rgba(250,250,250,.91);
+        }
+        .ep-signal-space__overview {
+          position: relative;
+          z-index: 3;
+          grid-column: 1 / -1;
+          display: grid;
+          grid-template-columns: repeat(4,minmax(0,1fr));
+          gap: 1px;
+          overflow: hidden;
+          border: 1px solid rgba(255,255,255,.10);
+          border-radius: 17px;
+          background: rgba(255,255,255,.10);
+        }
+        .ep-signal-space__overview > div {
+          min-width: 0;
+          display: grid;
+          gap: 5px;
+          padding: 15px clamp(12px,1.8vw,24px);
+          background: #0b0d10;
+        }
+        .ep-signal-space__overview span,
+        .ep-signal-space__mobile-index-head span,
+        .ep-signal-space__inspector-heading span {
+          font-size: 9px;
+          letter-spacing: .17em;
+          color: rgba(226,233,240,.63);
+        }
+        .ep-signal-space__overview strong {
+          font-size: clamp(23px,2.3vw,34px);
+          font-weight: 450;
+          color: #f6f7f8;
+          font-variant-numeric: tabular-nums;
+        }
+        .ep-signal-space__overview small {
+          font-size: 10px;
+          line-height: 1.5;
+          color: rgba(227,232,239,.61);
+        }
+        .ep-signal-space__stage {
+          position: relative;
+          inset: auto;
+          min-height: 0;
+          height: 100%;
+          border: 1px solid rgba(255,255,255,.095);
+          border-radius: 24px;
+          overflow: hidden;
+          background: radial-gradient(ellipse at center,rgba(167,195,220,.035),transparent 68%),#080a0d;
+        }
+        .ep-signal-space__rings i { border-color: rgba(202,218,230,.09); }
+        .ep-signal-space__core {
+          z-index: 2;
+          width: min(280px,32%);
+          background: #11161b;
+          border-color: rgba(230,239,246,.27);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.09),0 12px 45px rgba(0,0,0,.30);
+          backdrop-filter: none;
+        }
+        .ep-signal-space__core strong { overflow-wrap: anywhere; color: #f4f6f8; }
+        .ep-signal-space__node {
+          z-index: 3;
+          width: clamp(128px,12vw,178px);
+          background: #111519;
+          border-color: rgba(255,255,255,.17);
+          backdrop-filter: none;
+          box-shadow: 0 9px 26px rgba(0,0,0,.26);
+        }
+        .ep-signal-space__node small { color: rgba(223,235,244,.74); }
+        .ep-signal-space__node strong {
+          font-size: 11px;
+          line-height: 1.45;
+          overflow-wrap: anywhere;
+        }
+        .ep-signal-space__node span { color: rgba(231,237,242,.66); }
+        .ep-signal-space__node.is-background { opacity: .88; }
+        .ep-signal-space__inspector {
+          position: relative;
+          inset: auto;
+          width: auto;
+          min-width: 0;
+          height: 100%;
+          overflow-y: auto;
+          overscroll-behavior: contain;
+          gap: 11px;
+          padding: 0 4px 2px 0;
+        }
+        .ep-signal-space__inspector-heading {
+          padding: 13px 5px 6px;
+          display: grid;
+          gap: 9px;
+        }
+        .ep-signal-space__inspector-heading strong {
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 1.35;
+          color: rgba(250,251,252,.93);
+        }
+        .ep-signal-space__inspector-heading p {
+          margin: 0;
+          font-size: 11px;
+          line-height: 1.6;
+          color: rgba(235,239,244,.62);
+        }
+        .ep-signal-space__inspector section,
+        .ep-signal-space__inspector footer {
+          background: #0e1115;
+          border-color: rgba(255,255,255,.12);
+          backdrop-filter: none;
+          padding: 18px;
+        }
+        .ep-signal-space__inspector section > span { color: rgba(225,235,245,.70); }
+        .ep-signal-space__inspector p {
+          font-size: 12px;
+          line-height: 1.75;
+          color: rgba(238,241,245,.79);
+          overflow-wrap: anywhere;
+        }
+        .ep-signal-space__inspector footer button {
+          min-height: 44px;
+          background: rgba(255,255,255,.065);
+          color: #f5f7f9;
+        }
+        .ep-signal-space__mobile-index { display: none; }
+        .ep-signal-space :is(button,a):focus-visible {
+          outline: 2px solid rgba(255,255,255,.9);
+          outline-offset: 3px;
+        }
+        @media (max-width: 1050px) {
+          .ep-signal-space { grid-template-columns: minmax(0,1fr) 290px; }
+          .ep-signal-space__node { width: 132px; }
+          .ep-signal-space__core { width: 210px; }
+        }
+        @media (max-width: 900px) {
+          .ep-signal-space {
+            display: block;
+            padding: 0 15px max(30px,env(safe-area-inset-bottom));
+            overflow-x: hidden;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
+          }
+          .ep-signal-space__header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            margin: 0 -15px;
+            padding: 18px 16px 15px;
+            background: #080a0d;
+          }
+          .ep-signal-space__overview {
+            grid-template-columns: repeat(2,minmax(0,1fr));
+            margin: 17px 0;
+          }
+          .ep-signal-space__overview > div { padding: 14px; }
+          .ep-signal-space__overview small { font-size: 10px; }
+          .ep-signal-space__stage {
+            position: relative;
+            inset: auto;
+            margin: 0;
+            width: 100%;
+            height: 270px;
+            min-height: 270px;
+          }
+          /* The spatial overview remains centered and legible.
+             Nodes are presented in full in the list below. */
+          .ep-signal-space__stage .ep-signal-space__node { display: none; }
+          .ep-signal-space__core {
+            width: min(310px,78%);
+            min-height: 125px;
+            padding: 17px;
+          }
+          .ep-signal-space__core strong { font-size: 15px; }
+          .ep-signal-space__mobile-index {
+            display: block;
+            margin: 16px 0;
+          }
+          .ep-signal-space__mobile-index-head {
+            padding: 8px 2px 15px;
+          }
+          .ep-signal-space__mobile-index-head p {
+            margin: 9px 0 0;
+            font-size: 12px;
+            line-height: 1.7;
+            color: rgba(235,239,244,.70);
+          }
+          .ep-signal-space__mobile-items { display: grid; gap: 9px; }
+          .ep-signal-space__mobile-item {
+            width: 100%;
+            display: grid;
+            gap: 8px;
+            padding: 17px;
+            text-align: left;
+            color: rgba(248,249,250,.94);
+            background: #101317;
+            border: 1px solid rgba(255,255,255,.14);
+            border-radius: 17px;
+            cursor: pointer;
+          }
+          .ep-signal-space__mobile-item.is-competing { border-style: dashed; }
+          .ep-signal-space__mobile-item-meta {
+            color: rgba(224,232,240,.70);
+            font-size: 9px;
+            letter-spacing: .10em;
+          }
+          .ep-signal-space__mobile-item strong {
+            font-size: 14px;
+            line-height: 1.55;
+            overflow-wrap: anywhere;
+          }
+          .ep-signal-space__mobile-item small {
+            color: rgba(227,233,239,.65);
+            font-size: 11px;
+          }
+          .ep-signal-space__mobile-item-action {
+            margin-top: 4px;
+            color: rgba(245,248,251,.83);
+            font-size: 11px;
+          }
+          .ep-signal-space__mobile-empty {
+            font-size: 12px;
+            color: rgba(235,239,244,.75);
+          }
+          .ep-signal-space__inspector {
+            position: relative;
+            inset: auto;
+            width: 100%;
+            height: auto;
+            margin: 16px 0 0;
+            overflow: visible;
+          }
+          .ep-signal-space__inspector section,
+          .ep-signal-space__inspector footer { padding: 17px; }
+        }
+        @media (max-width: 560px) {
+          .ep-signal-space__header { inset: auto; }
+          .ep-signal-space__header strong { font-size: 19px; }
+          .ep-signal-space__stage { margin: 0; height: 250px; min-height: 250px; }
+          .ep-signal-space__core { width: min(290px,78%); min-height: 125px; }
+          .ep-signal-space__core strong { font-size: 14px; }
         }
       `}
 
