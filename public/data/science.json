@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-10T18:17:13.829Z",
+  "updated": "2026-10-10T22:17:38.846Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
+      "url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html",
+      "summary": "When we think about a diamond, we often think about a material whose value comes from its perfection. In my research, however, I am interested in something almost opposite: the tiny imperfections inside diamonds. These a…",
+      "ts": 1791667201000,
+      "publishedAt": "2026-10-10T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to meal prep safely: A microbiologist's step‑by‑step guide",
+      "url": "https://phys.org/news/2026-10-meal-prep-safely-microbiologist-stepbystep.html",
+      "summary": "Meal prepping is a great way to save money, spend less time in the kitchen and stick to a meal plan. But while cooking meals for the week ahead may be convenient, there can be real risks associated with eating bulk-cooke…",
+      "ts": 1791666002000,
+      "publishedAt": "2026-10-10T21:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Adult acne is real, but there are ways to treat it. Here's what to know",
+      "url": "https://phys.org/news/2026-10-adult-acne-real-ways.html",
+      "summary": "As a teenager, Gillian Maegan Montalbo's pimples weren't too bad—just a few bumps on her forehead and nose.",
+      "ts": 1791660001000,
+      "publishedAt": "2026-10-10T19:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Nearly 300,000 at risk from Himalayan floods, as flood zone building accelerates",
@@ -775,30 +799,6 @@
       "title": "LEVER: Adaptive Cost-Aware Proof Search Over AND/OR Graphs",
       "url": "https://arxiv.org/abs/2610.11862",
       "summary": "arXiv:2610.11862v1 Announce Type: new Abstract: Mathematicians value proofs for more than correctness: among correct proofs, simplicity, purity and the computational cost of finding them vary widely. Yet LLM-powered theo…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "How Is Automated Research Evaluated? A Survey of Benchmarks and Evaluation Practices",
-      "url": "https://arxiv.org/abs/2610.11877",
-      "summary": "arXiv:2610.11877v1 Announce Type: new Abstract: Automated research systems support literature synthesis, ideation, experiments, writing, and peer review, but their evaluation is dispersed across tasks, benchmarks, and st…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MindFlow: Mind Supernet Powered Thinking Flows for Research Idea Innovation",
-      "url": "https://arxiv.org/abs/2610.11966",
-      "summary": "arXiv:2610.11966v1 Announce Type: new Abstract: Research idea innovation is a fundamental engine of scientific progress, yet it remains difficult to generate and evaluate in a scalable and controllable way. This challeng…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MetaOPD: Meta-Learned Token Weighting for On-Policy Distillation",
-      "url": "https://arxiv.org/abs/2610.11989",
-      "summary": "arXiv:2610.11989v1 Announce Type: new Abstract: On-policy distillation (OPD) trains a student on its own generated responses using token-level teacher supervision. However, uniform weighting overlooks differences in toke…",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-10T18:17:16.236Z",
+  "updated": "2026-10-10T22:17:43.254Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+      "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
+      "summary": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sund…",
+      "ts": 1791641939000,
+      "publishedAt": "2026-10-10T14:18:59.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "ESA astronaut Sophie Adenot returns from her first mission to the International Space Station ",
@@ -802,15 +811,6 @@
       "ts": 1791483768000,
       "publishedAt": "2026-10-08T18:22:48.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Epigenetics Underlies Comparatively Accelerated Molecular Aging in Larger and Male Dogs",
-      "url": "https://www.genengnews.com/topics/omics/epigenetics-underlies-comparatively-accelerated-molecular-aging-in-larger-and-male-dogs/",
-      "summary": "Large dogs tend to be shorter lived than their smaller counterparts, and a new study found that male and larger dogs undergo accelerated molecular aging, with pronounced DNA methylation changes on the X chromosome and at…",
-      "ts": 1791482438000,
-      "publishedAt": "2026-10-08T18:00:38.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
