@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-10T13:22:26.821Z",
+  "updated": "2026-10-10T18:17:13.829Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nearly 300,000 at risk from Himalayan floods, as flood zone building accelerates",
+      "url": "https://phys.org/news/2026-10-himalayan-zone.html",
+      "summary": "Nearly 300,000 people may live in areas at risk of flooding in the Nepalese, Indian and Chinese areas of the Himalayas. The results, from a study published in Scientific Reports, also indicate that the total area covered…",
+      "ts": 1791655206000,
+      "publishedAt": "2026-10-10T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New stability rules distinguish quantum phases of matter that an older method wrongly groups together",
+      "url": "https://phys.org/news/2026-10-stability-distinguish-quantum-phases-older.html",
+      "summary": "Most of us recognize basic phases of matter and their properties: solids maintain their shape, liquids flow freely with constant volume, and gases expand to fill their container. Quantum phases, on the other hand, are mu…",
+      "ts": 1791651602000,
+      "publishedAt": "2026-10-10T17:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Preschool boys favor bigger groups while adults' choices hint at political attitudes",
+      "url": "https://phys.org/news/2026-10-preschool-boys-favor-bigger-groups.html",
+      "summary": "Two cartoon characters appear on a screen. One belongs to a group of three, and the other to a group of two. Which character would you rather play with?",
+      "ts": 1791645601000,
+      "publishedAt": "2026-10-10T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Against the odds: Why some ecosystems thrive",
+      "url": "https://phys.org/news/2026-10-odds-ecosystems.html",
+      "summary": "From coral reefs in Papua New Guinea to chimpanzees in West Africa, grizzly bears in Canada and albatross colonies off Tasmania, some ecosystems are thriving despite climate change, habitat loss and other environmental p…",
+      "ts": 1791639610000,
+      "publishedAt": "2026-10-10T13:40:10.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Powerful waves lash California coast as storm threatens more damage",
@@ -767,38 +799,6 @@
       "title": "MetaOPD: Meta-Learned Token Weighting for On-Policy Distillation",
       "url": "https://arxiv.org/abs/2610.11989",
       "summary": "arXiv:2610.11989v1 Announce Type: new Abstract: On-policy distillation (OPD) trains a student on its own generated responses using token-level teacher supervision. However, uniform weighting overlooks differences in toke…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation",
-      "url": "https://arxiv.org/abs/2610.12003",
-      "summary": "arXiv:2610.12003v1 Announce Type: new Abstract: PDE solution discovery aims to identify explicit symbolic expressions for unknown physical fields from observations under known physical constraints. Existing methods, howe…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Complexity of Grounded Semantics and Preferred Semantics in Finitary Argumentation Frameworks",
-      "url": "https://arxiv.org/abs/2610.12008",
-      "summary": "arXiv:2610.12008v1 Announce Type: new Abstract: Abstract argumentation frameworks (AFs) introduced by Dung provide a formal foundation for non-monotonic reasoning in artificial intelligence. While decision problems for g…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "PulseBound: Future-Beat State Forecasting Under an Explicit Information Boundary",
-      "url": "https://arxiv.org/abs/2610.12010",
-      "summary": "arXiv:2610.12010v1 Announce Type: new Abstract: Predictive representation learning from photoplethysmography (PPG) can violate causal information access even with causal attention, as normalization, nonlocal transforms, …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "InterviewPlayground: A Simulation Environment for Evaluating AI Interviewers",
-      "url": "https://arxiv.org/abs/2610.12023",
-      "summary": "arXiv:2610.12023v1 Announce Type: new Abstract: Increasingly, AI interviewers are being developed to elicit open-ended responses in applications like market research, public polling, preference elicitation, and social sc…",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }
