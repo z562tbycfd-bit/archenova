@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-09T22:57:47.278Z",
+  "updated": "2026-10-10T00:04:52.689Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Food testing reveals how diet can add to exposure to 'forever chemicals'",
+      "url": "https://phys.org/news/2026-10-food-reveals-diet-exposure-chemicals.html",
+      "summary": "Per- and polyfluoroalkyl substances (PFAS)—a vast family of chemicals used largely for their nonstick, water-repellent and grease-resistant properties—are called \"forever chemicals\" because of their remarkable resistance…",
+      "ts": 1791586801000,
+      "publishedAt": "2026-10-09T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes",
@@ -351,6 +359,22 @@
       "title": "Interaction Potential between Anisotropic Particles: From Measurements to Tailored Design",
       "url": "http://link.aps.org/doi/10.1103/vcdr-33p2",
       "summary": "Author(s): Yiming Xia, Mingcheng Yang, and Ke Chen We extend the classical test particle insertion (TPI) method to anisotropic systems and develop an anisotropic test particle insertion (ATPI) framework that efficiently …",
+      "ts": 1791540000000,
+      "publishedAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Fluidic Hysterons and Memory in Flow Networks",
+      "url": "http://link.aps.org/doi/10.1103/hh4n-pw7w",
+      "summary": "Author(s): Abhineet Singh Rajput and Amir A. Pahlavan Soft elastic fibers in microfluidic channels can create a fluid system with memory of previous actions through a flow-structure feedback. [Phys. Rev. X 16, 041011] Pu…",
+      "ts": 1791540000000,
+      "publishedAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Breakdown of the Kerr-Cat Qubit Tunneling Time Induced by Auxiliary Circuit Modes",
+      "url": "http://link.aps.org/doi/10.1103/z8jm-q289",
+      "summary": "Author(s): Othmane Benhayoune-Khadraoui, Cristóbal Lledó, and Alexandre Blais Researchers show that auxiliary circuit modes trigger multiphoton resonances that break down Kerr-cat qubit coherence under strong driving. [P…",
       "ts": 1791540000000,
       "publishedAt": "2026-10-09T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Breaking Behavioral Uniformity in Traffic Flow: Analytical Derivation and Numerical Verification of Optimal Cooperative Buffering",
       "url": "https://arxiv.org/abs/2610.11557",
       "summary": "arXiv:2610.11557v1 Announce Type: new Abstract: Stop-and-go waves pose a persistent challenge in traffic flow theory, significantly compromising highway safety, operational efficiency, and environmental sustainability. T…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Undetected Photon Spectroscopy in the Long-wave and Far Infrared",
-      "url": "https://arxiv.org/abs/2610.11582",
-      "summary": "arXiv:2610.11582v1 Announce Type: new Abstract: Spectroscopy with undetected photons allows the spectral response of a sample at long wavelengths to be measured through interference of a shorter-wavelength signal field, …",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Imaging ablator-fuel mix of hot spot in inertial confinement fusion via resonant X-ray absorption using an X-ray free electron laser",
-      "url": "https://arxiv.org/abs/2610.11603",
-      "summary": "arXiv:2610.11603v1 Announce Type: new Abstract: A novel diagnostic is proposed for active probing of doped inertial confinement fusion (ICF) spherical shells, enabling direct measurements of mix and burn dynamics at next…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-Perturbative Vibrational Excitation by Arbitrary Electric Fields from Classical Phase-Space Dynamics",
-      "url": "https://arxiv.org/abs/2610.11686",
-      "summary": "arXiv:2610.11686v1 Announce Type: new Abstract: We present a non-perturbative framework for the quantum treatment of vibrational excitation in molecular systems driven by electric fields with arbitrary time dependence. F…",
       "ts": 1791518400000,
       "publishedAt": "2026-10-09T04:00:00.000Z"
     }

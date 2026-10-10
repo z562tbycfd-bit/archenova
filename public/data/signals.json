@@ -1,7 +1,62 @@
 {
   "ok": true,
-  "updated": "2026-10-09T22:57:52.582Z",
+  "updated": "2026-10-10T00:04:57.344Z",
   "items": [
+    {
+      "id": "adaptive-capacity-food-testing-reveals-how-diet-can-add-to-exposure-to-forever-chemicals",
+      "title": "Food testing reveals how diet can add to exposure to 'forever chemicals'",
+      "source": "Phys.org",
+      "sourceUrl": "https://phys.org/news/2026-10-food-reveals-diet-exposure-chemicals.html",
+      "originalUrl": "https://phys.org/news/2026-10-food-reveals-diet-exposure-chemicals.html",
+      "url": "https://phys.org/news/2026-10-food-reveals-diet-exposure-chemicals.html",
+      "category": "Adaptive Capacity",
+      "summary": "Per- and polyfluoroalkyl substances (PFAS)—a vast family of chemicals used largely for their nonstick, water-repellent and grease-resistant properties—are called \"forever chemicals\" because of their remarkable resistance…",
+      "observation": "Per- and polyfluoroalkyl substances (PFAS)—a vast family of chemicals used largely for their nonstick, water-repellent and grease-resistant properties—are called \"forever chemicals\" because of their remarkable resistance…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "implications": [
+        "May influence the transition from adaptive capacity knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Food testing reveals how diet can add to exposure to 'forever chemicals' should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 80,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Adaptive Capacity",
+      "relatedTopics": [
+        "Climate and Environment"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "publishedAt": "2026-10-09T23:00:01.000Z",
+      "updatedAt": "2026-10-10T00:04:57.308Z",
+      "ts": 1791586801000
+    },
     {
       "id": "reality-discovery-three-quantum-inspired-cores-leave-opposite-fingerprints-on-the-ringing-of-black",
       "title": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes",
@@ -54,7 +109,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T21:40:01.000Z",
-      "updatedAt": "2026-10-09T22:57:52.547Z",
+      "updatedAt": "2026-10-10T00:04:57.308Z",
       "ts": 1791582001000
     },
     {
@@ -109,7 +164,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T21:03:52.000Z",
-      "updatedAt": "2026-10-09T22:57:52.547Z",
+      "updatedAt": "2026-10-10T00:04:57.309Z",
       "ts": 1791579832000
     },
     {
@@ -167,7 +222,7 @@
         "overall": 6
       },
       "publishedAt": "2026-10-09T20:40:06.000Z",
-      "updatedAt": "2026-10-09T22:57:52.548Z",
+      "updatedAt": "2026-10-10T00:04:57.309Z",
       "ts": 1791578406000
     },
     {
@@ -225,7 +280,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T20:40:01.000Z",
-      "updatedAt": "2026-10-09T22:57:52.548Z",
+      "updatedAt": "2026-10-10T00:04:57.309Z",
       "ts": 1791578401000
     },
     {
@@ -281,7 +336,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T20:27:27.000Z",
-      "updatedAt": "2026-10-09T22:57:52.548Z",
+      "updatedAt": "2026-10-10T00:04:57.309Z",
       "ts": 1791577647000
     },
     {
@@ -341,7 +396,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T20:20:07.000Z",
-      "updatedAt": "2026-10-09T22:57:52.548Z",
+      "updatedAt": "2026-10-10T00:04:57.310Z",
       "ts": 1791577207000
     },
     {
@@ -396,7 +451,7 @@
         "overall": 6.8
       },
       "publishedAt": "2026-10-09T20:00:02.000Z",
-      "updatedAt": "2026-10-09T22:57:52.549Z",
+      "updatedAt": "2026-10-10T00:04:57.310Z",
       "ts": 1791576002000
     },
     {
@@ -454,7 +509,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T19:40:01.000Z",
-      "updatedAt": "2026-10-09T22:57:52.549Z",
+      "updatedAt": "2026-10-10T00:04:57.311Z",
       "ts": 1791574801000
     },
     {
@@ -509,7 +564,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T19:20:06.000Z",
-      "updatedAt": "2026-10-09T22:57:52.550Z",
+      "updatedAt": "2026-10-10T00:04:57.311Z",
       "ts": 1791573606000
     },
     {
@@ -565,7 +620,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T19:20:01.000Z",
-      "updatedAt": "2026-10-09T22:57:52.550Z",
+      "updatedAt": "2026-10-10T00:04:57.311Z",
       "ts": 1791573601000
     },
     {
@@ -623,7 +678,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T19:00:08.000Z",
-      "updatedAt": "2026-10-09T22:57:52.550Z",
+      "updatedAt": "2026-10-10T00:04:57.312Z",
       "ts": 1791572408000
     },
     {
@@ -678,7 +733,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T19:00:01.000Z",
-      "updatedAt": "2026-10-09T22:57:52.551Z",
+      "updatedAt": "2026-10-10T00:04:57.312Z",
       "ts": 1791572401000
     },
     {
@@ -734,7 +789,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T18:43:12.000Z",
-      "updatedAt": "2026-10-09T22:57:52.551Z",
+      "updatedAt": "2026-10-10T00:04:57.312Z",
       "ts": 1791571392000
     },
     {
@@ -789,7 +844,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T18:40:14.000Z",
-      "updatedAt": "2026-10-09T22:57:52.552Z",
+      "updatedAt": "2026-10-10T00:04:57.313Z",
       "ts": 1791571214000
     },
     {
@@ -849,7 +904,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T18:40:07.000Z",
-      "updatedAt": "2026-10-09T22:57:52.552Z",
+      "updatedAt": "2026-10-10T00:04:57.313Z",
       "ts": 1791571207000
     },
     {
@@ -907,7 +962,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T18:20:25.000Z",
-      "updatedAt": "2026-10-09T22:57:52.552Z",
+      "updatedAt": "2026-10-10T00:04:57.313Z",
       "ts": 1791570025000
     },
     {
@@ -966,7 +1021,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-10-09T18:20:12.000Z",
-      "updatedAt": "2026-10-09T22:57:52.553Z",
+      "updatedAt": "2026-10-10T00:04:57.314Z",
       "ts": 1791570012000
     },
     {
@@ -1024,7 +1079,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T18:11:44.000Z",
-      "updatedAt": "2026-10-09T22:57:52.553Z",
+      "updatedAt": "2026-10-10T00:04:57.314Z",
       "ts": 1791569504000
     },
     {
@@ -1079,7 +1134,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T18:00:09.000Z",
-      "updatedAt": "2026-10-09T22:57:52.553Z",
+      "updatedAt": "2026-10-10T00:04:57.314Z",
       "ts": 1791568809000
     },
     {
@@ -1134,7 +1189,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T18:00:01.000Z",
-      "updatedAt": "2026-10-09T22:57:52.554Z",
+      "updatedAt": "2026-10-10T00:04:57.315Z",
       "ts": 1791568801000
     },
     {
@@ -1189,7 +1244,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-10-09T17:40:06.000Z",
-      "updatedAt": "2026-10-09T22:57:52.554Z",
+      "updatedAt": "2026-10-10T00:04:57.315Z",
       "ts": 1791567606000
     },
     {
@@ -1245,7 +1300,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T17:40:01.000Z",
-      "updatedAt": "2026-10-09T22:57:52.555Z",
+      "updatedAt": "2026-10-10T00:04:57.315Z",
       "ts": 1791567601000
     },
     {
@@ -1300,63 +1355,8 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T17:20:19.000Z",
-      "updatedAt": "2026-10-09T22:57:52.555Z",
+      "updatedAt": "2026-10-10T00:04:57.316Z",
       "ts": 1791566419000
-    },
-    {
-      "id": "civilization-engineering-confidence-in-a-relationship-s-future-is-linked-to-feelings-of-romantic-security",
-      "title": "Confidence in a relationship's future is linked to feelings of romantic security",
-      "source": "Phys.org",
-      "sourceUrl": "https://phys.org/news/2026-10-confidence-relationship-future-linked-romantic.html",
-      "originalUrl": "https://phys.org/news/2026-10-confidence-relationship-future-linked-romantic.html",
-      "url": "https://phys.org/news/2026-10-confidence-relationship-future-linked-romantic.html",
-      "category": "Civilization Engineering",
-      "summary": "Feeling secure in a relationship is not only about how people connect with their partners today. It may also depend on how confident they are that the relationship will continue into the future. Feelings of closeness, tr…",
-      "observation": "Feeling secure in a relationship is not only about how people connect with their partners today. It may also depend on how confident they are that the relationship will continue into the future. Feelings of closeness, tr…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Confidence in a relationship's future is linked to feelings of romantic security should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 75,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "Security and Risk"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-10-09T17:20:13.000Z",
-      "updatedAt": "2026-10-09T22:57:52.556Z",
-      "ts": 1791566413000
     },
     {
       "id": "adaptive-capacity-nasa-demonstrates-next-generation-heat-shield-technologies",
@@ -1417,7 +1417,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T16:59:24.000Z",
-      "updatedAt": "2026-10-09T22:57:52.556Z",
+      "updatedAt": "2026-10-10T00:04:57.316Z",
       "ts": 1791565164000
     },
     {
@@ -1474,7 +1474,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T16:41:48.000Z",
-      "updatedAt": "2026-10-09T22:57:52.556Z",
+      "updatedAt": "2026-10-10T00:04:57.316Z",
       "ts": 1791564108000
     },
     {
@@ -1529,7 +1529,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T16:36:22.000Z",
-      "updatedAt": "2026-10-09T22:57:52.557Z",
+      "updatedAt": "2026-10-10T00:04:57.317Z",
       "ts": 1791563782000
     },
     {
@@ -1585,7 +1585,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T16:33:55.000Z",
-      "updatedAt": "2026-10-09T22:57:52.557Z",
+      "updatedAt": "2026-10-10T00:04:57.317Z",
       "ts": 1791563635000
     },
     {
@@ -1640,7 +1640,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T15:55:47.000Z",
-      "updatedAt": "2026-10-09T22:57:52.557Z",
+      "updatedAt": "2026-10-10T00:04:57.317Z",
       "ts": 1791561347000
     },
     {
@@ -1700,7 +1700,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T15:53:43.000Z",
-      "updatedAt": "2026-10-09T22:57:52.557Z",
+      "updatedAt": "2026-10-10T00:04:57.318Z",
       "ts": 1791561223000
     },
     {
@@ -1757,7 +1757,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T15:41:39.000Z",
-      "updatedAt": "2026-10-09T22:57:52.558Z",
+      "updatedAt": "2026-10-10T00:04:57.318Z",
       "ts": 1791560499000
     },
     {
@@ -1817,7 +1817,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T15:15:35.000Z",
-      "updatedAt": "2026-10-09T22:57:52.558Z",
+      "updatedAt": "2026-10-10T00:04:57.318Z",
       "ts": 1791558935000
     },
     {
@@ -1872,7 +1872,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T15:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.558Z",
+      "updatedAt": "2026-10-10T00:04:57.318Z",
       "ts": 1791558000000
     },
     {
@@ -1931,7 +1931,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T14:03:07.000Z",
-      "updatedAt": "2026-10-09T22:57:52.559Z",
+      "updatedAt": "2026-10-10T00:04:57.319Z",
       "ts": 1791554587000
     },
     {
@@ -1986,7 +1986,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T13:59:35.000Z",
-      "updatedAt": "2026-10-09T22:57:52.559Z",
+      "updatedAt": "2026-10-10T00:04:57.319Z",
       "ts": 1791554375000
     },
     {
@@ -2044,7 +2044,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T13:57:24.000Z",
-      "updatedAt": "2026-10-09T22:57:52.560Z",
+      "updatedAt": "2026-10-10T00:04:57.320Z",
       "ts": 1791554244000
     },
     {
@@ -2100,7 +2100,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T13:23:29.000Z",
-      "updatedAt": "2026-10-09T22:57:52.560Z",
+      "updatedAt": "2026-10-10T00:04:57.320Z",
       "ts": 1791552209000
     },
     {
@@ -2156,7 +2156,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T13:17:20.000Z",
-      "updatedAt": "2026-10-09T22:57:52.560Z",
+      "updatedAt": "2026-10-10T00:04:57.320Z",
       "ts": 1791551840000
     },
     {
@@ -2211,7 +2211,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T13:15:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.560Z",
+      "updatedAt": "2026-10-10T00:04:57.320Z",
       "ts": 1791551700000
     },
     {
@@ -2266,7 +2266,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T13:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.561Z",
+      "updatedAt": "2026-10-10T00:04:57.321Z",
       "ts": 1791550800000
     },
     {
@@ -2321,7 +2321,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T12:10:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.561Z",
+      "updatedAt": "2026-10-10T00:04:57.321Z",
       "ts": 1791547800000
     },
     {
@@ -2376,7 +2376,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.561Z",
+      "updatedAt": "2026-10-10T00:04:57.322Z",
       "ts": 1791547200000
     },
     {
@@ -2432,7 +2432,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.562Z",
+      "updatedAt": "2026-10-10T00:04:57.322Z",
       "ts": 1791547200000
     },
     {
@@ -2487,7 +2487,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.562Z",
+      "updatedAt": "2026-10-10T00:04:57.322Z",
       "ts": 1791547200000
     },
     {
@@ -2542,7 +2542,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.563Z",
+      "updatedAt": "2026-10-10T00:04:57.323Z",
       "ts": 1791547200000
     },
     {
@@ -2597,7 +2597,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.563Z",
+      "updatedAt": "2026-10-10T00:04:57.323Z",
       "ts": 1791547200000
     },
     {
@@ -2656,7 +2656,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.563Z",
+      "updatedAt": "2026-10-10T00:04:57.324Z",
       "ts": 1791547200000
     },
     {
@@ -2715,7 +2715,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.564Z",
+      "updatedAt": "2026-10-10T00:04:57.324Z",
       "ts": 1791547200000
     },
     {
@@ -2770,7 +2770,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T12:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.564Z",
+      "updatedAt": "2026-10-10T00:04:57.324Z",
       "ts": 1791547200000
     },
     {
@@ -2825,7 +2825,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T11:24:28.000Z",
-      "updatedAt": "2026-10-09T22:57:52.564Z",
+      "updatedAt": "2026-10-10T00:04:57.324Z",
       "ts": 1791545068000
     },
     {
@@ -2883,7 +2883,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T10:49:07.000Z",
-      "updatedAt": "2026-10-09T22:57:52.564Z",
+      "updatedAt": "2026-10-10T00:04:57.324Z",
       "ts": 1791542947000
     },
     {
@@ -2942,7 +2942,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.565Z",
+      "updatedAt": "2026-10-10T00:04:57.325Z",
       "ts": 1791540000000
     },
     {
@@ -2997,7 +2997,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.565Z",
+      "updatedAt": "2026-10-10T00:04:57.325Z",
       "ts": 1791540000000
     },
     {
@@ -3052,7 +3052,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.566Z",
+      "updatedAt": "2026-10-10T00:04:57.326Z",
       "ts": 1791540000000
     },
     {
@@ -3107,7 +3107,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.566Z",
+      "updatedAt": "2026-10-10T00:04:57.327Z",
       "ts": 1791540000000
     },
     {
@@ -3162,7 +3162,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.567Z",
+      "updatedAt": "2026-10-10T00:04:57.327Z",
       "ts": 1791540000000
     },
     {
@@ -3217,7 +3217,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.567Z",
+      "updatedAt": "2026-10-10T00:04:57.328Z",
       "ts": 1791540000000
     },
     {
@@ -3272,7 +3272,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.567Z",
+      "updatedAt": "2026-10-10T00:04:57.328Z",
       "ts": 1791540000000
     },
     {
@@ -3327,7 +3327,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.568Z",
+      "updatedAt": "2026-10-10T00:04:57.328Z",
       "ts": 1791540000000
     },
     {
@@ -3382,7 +3382,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.568Z",
+      "updatedAt": "2026-10-10T00:04:57.329Z",
       "ts": 1791540000000
     },
     {
@@ -3437,7 +3437,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.569Z",
+      "updatedAt": "2026-10-10T00:04:57.329Z",
       "ts": 1791540000000
     },
     {
@@ -3492,7 +3492,117 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T10:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.569Z",
+      "updatedAt": "2026-10-10T00:04:57.330Z",
+      "ts": 1791540000000
+    },
+    {
+      "id": "infrastructure-formation-fluidic-hysterons-and-memory-in-flow-networks",
+      "title": "Fluidic Hysterons and Memory in Flow Networks",
+      "source": "APS PRX",
+      "sourceUrl": "http://link.aps.org/doi/10.1103/hh4n-pw7w",
+      "originalUrl": "http://link.aps.org/doi/10.1103/hh4n-pw7w",
+      "url": "http://link.aps.org/doi/10.1103/hh4n-pw7w",
+      "category": "Infrastructure Formation",
+      "summary": "Author(s): Abhineet Singh Rajput and Amir A. Pahlavan Soft elastic fibers in microfluidic channels can create a fluid system with memory of previous actions through a flow-structure feedback. [Phys. Rev. X 16, 041011] Pu…",
+      "observation": "Author(s): Abhineet Singh Rajput and Amir A. Pahlavan Soft elastic fibers in microfluidic channels can create a fluid system with memory of previous actions through a flow-structure feedback. [Phys. Rev. X 16, 041011] Pu…",
+      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "implications": [
+        "May influence the transition from infrastructure formation knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Fluidic Hysterons and Memory in Flow Networks should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+      "confidence": 81,
+      "state": "PROCESSING",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Infrastructure Formation",
+      "relatedTopics": [
+        "General"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Applied Research",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 8.7,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.5,
+        "overall": 6.3
+      },
+      "publishedAt": "2026-10-09T10:00:00.000Z",
+      "updatedAt": "2026-10-10T00:04:57.330Z",
+      "ts": 1791540000000
+    },
+    {
+      "id": "civilization-engineering-breakdown-of-the-kerr-cat-qubit-tunneling-time-induced-by-auxiliary-circuit-mode",
+      "title": "Breakdown of the Kerr-Cat Qubit Tunneling Time Induced by Auxiliary Circuit Modes",
+      "source": "APS PRX",
+      "sourceUrl": "http://link.aps.org/doi/10.1103/z8jm-q289",
+      "originalUrl": "http://link.aps.org/doi/10.1103/z8jm-q289",
+      "url": "http://link.aps.org/doi/10.1103/z8jm-q289",
+      "category": "Civilization Engineering",
+      "summary": "Author(s): Othmane Benhayoune-Khadraoui, Cristóbal Lledó, and Alexandre Blais Researchers show that auxiliary circuit modes trigger multiphoton resonances that break down Kerr-cat qubit coherence under strong driving. [P…",
+      "observation": "Author(s): Othmane Benhayoune-Khadraoui, Cristóbal Lledó, and Alexandre Blais Researchers show that auxiliary circuit modes trigger multiphoton resonances that break down Kerr-cat qubit coherence under strong driving. [P…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Breakdown of the Kerr-Cat Qubit Tunneling Time Induced by Auxiliary Circuit Modes should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 88,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "Quantum Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-10-09T10:00:00.000Z",
+      "updatedAt": "2026-10-10T00:04:57.331Z",
       "ts": 1791540000000
     },
     {
@@ -3550,7 +3660,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T09:13:36.000Z",
-      "updatedAt": "2026-10-09T22:57:52.569Z",
+      "updatedAt": "2026-10-10T00:04:57.331Z",
       "ts": 1791537216000
     },
     {
@@ -3605,7 +3715,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T09:00:08.000Z",
-      "updatedAt": "2026-10-09T22:57:52.569Z",
+      "updatedAt": "2026-10-10T00:04:57.331Z",
       "ts": 1791536408000
     },
     {
@@ -3660,7 +3770,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T09:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.570Z",
+      "updatedAt": "2026-10-10T00:04:57.332Z",
       "ts": 1791536400000
     },
     {
@@ -3715,7 +3825,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T09:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.570Z",
+      "updatedAt": "2026-10-10T00:04:57.332Z",
       "ts": 1791536400000
     },
     {
@@ -3770,7 +3880,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T09:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.571Z",
+      "updatedAt": "2026-10-10T00:04:57.333Z",
       "ts": 1791536400000
     },
     {
@@ -3825,7 +3935,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T08:30:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.571Z",
+      "updatedAt": "2026-10-10T00:04:57.333Z",
       "ts": 1791534600000
     },
     {
@@ -3881,7 +3991,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T08:30:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.571Z",
+      "updatedAt": "2026-10-10T00:04:57.333Z",
       "ts": 1791534600000
     },
     {
@@ -3937,7 +4047,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T08:30:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.572Z",
+      "updatedAt": "2026-10-10T00:04:57.334Z",
       "ts": 1791534600000
     },
     {
@@ -3992,7 +4102,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T08:30:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.572Z",
+      "updatedAt": "2026-10-10T00:04:57.334Z",
       "ts": 1791534600000
     },
     {
@@ -4050,7 +4160,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-10-09T08:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.572Z",
+      "updatedAt": "2026-10-10T00:04:57.334Z",
       "ts": 1791532800000
     },
     {
@@ -4105,7 +4215,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T07:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.572Z",
+      "updatedAt": "2026-10-10T00:04:57.335Z",
       "ts": 1791529200000
     },
     {
@@ -4160,7 +4270,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T07:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.573Z",
+      "updatedAt": "2026-10-10T00:04:57.335Z",
       "ts": 1791529200000
     },
     {
@@ -4215,7 +4325,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T06:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.573Z",
+      "updatedAt": "2026-10-10T00:04:57.335Z",
       "ts": 1791525600000
     },
     {
@@ -4270,7 +4380,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-10-09T04:05:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.573Z",
+      "updatedAt": "2026-10-10T00:04:57.336Z",
       "ts": 1791518700000
     },
     {
@@ -4328,7 +4438,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T04:01:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.573Z",
+      "updatedAt": "2026-10-10T00:04:57.336Z",
       "ts": 1791518460000
     },
     {
@@ -4386,7 +4496,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.574Z",
+      "updatedAt": "2026-10-10T00:04:57.336Z",
       "ts": 1791518400000
     },
     {
@@ -4446,7 +4556,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.574Z",
+      "updatedAt": "2026-10-10T00:04:57.336Z",
       "ts": 1791518400000
     },
     {
@@ -4501,7 +4611,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.575Z",
+      "updatedAt": "2026-10-10T00:04:57.337Z",
       "ts": 1791518400000
     },
     {
@@ -4556,7 +4666,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.575Z",
+      "updatedAt": "2026-10-10T00:04:57.337Z",
       "ts": 1791518400000
     },
     {
@@ -4612,7 +4722,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.575Z",
+      "updatedAt": "2026-10-10T00:04:57.338Z",
       "ts": 1791518400000
     },
     {
@@ -4673,7 +4783,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.576Z",
+      "updatedAt": "2026-10-10T00:04:57.338Z",
       "ts": 1791518400000
     },
     {
@@ -4728,7 +4838,7 @@
         "overall": 6.7
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.576Z",
+      "updatedAt": "2026-10-10T00:04:57.338Z",
       "ts": 1791518400000
     },
     {
@@ -4786,7 +4896,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.576Z",
+      "updatedAt": "2026-10-10T00:04:57.339Z",
       "ts": 1791518400000
     },
     {
@@ -4842,7 +4952,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.577Z",
+      "updatedAt": "2026-10-10T00:04:57.339Z",
       "ts": 1791518400000
     },
     {
@@ -4897,7 +5007,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.577Z",
+      "updatedAt": "2026-10-10T00:04:57.339Z",
       "ts": 1791518400000
     },
     {
@@ -4952,7 +5062,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.578Z",
+      "updatedAt": "2026-10-10T00:04:57.340Z",
       "ts": 1791518400000
     },
     {
@@ -5007,7 +5117,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.578Z",
+      "updatedAt": "2026-10-10T00:04:57.340Z",
       "ts": 1791518400000
     },
     {
@@ -5069,7 +5179,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.578Z",
+      "updatedAt": "2026-10-10T00:04:57.340Z",
       "ts": 1791518400000
     },
     {
@@ -5124,7 +5234,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.579Z",
+      "updatedAt": "2026-10-10T00:04:57.341Z",
       "ts": 1791518400000
     },
     {
@@ -5181,7 +5291,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.579Z",
+      "updatedAt": "2026-10-10T00:04:57.341Z",
       "ts": 1791518400000
     },
     {
@@ -5236,7 +5346,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.580Z",
+      "updatedAt": "2026-10-10T00:04:57.342Z",
       "ts": 1791518400000
     },
     {
@@ -5294,7 +5404,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.580Z",
+      "updatedAt": "2026-10-10T00:04:57.342Z",
       "ts": 1791518400000
     },
     {
@@ -5349,7 +5459,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.580Z",
+      "updatedAt": "2026-10-10T00:04:57.343Z",
       "ts": 1791518400000
     },
     {
@@ -5404,7 +5514,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.581Z",
+      "updatedAt": "2026-10-10T00:04:57.343Z",
       "ts": 1791518400000
     },
     {
@@ -5464,7 +5574,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.581Z",
+      "updatedAt": "2026-10-10T00:04:57.344Z",
       "ts": 1791518400000
     },
     {
@@ -5523,124 +5633,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.582Z",
-      "ts": 1791518400000
-    },
-    {
-      "id": "adaptive-capacity-the-hill-numbers-synthesize-and-generalize-measures-of-trait-polygenicity",
-      "title": "The Hill numbers synthesize and generalize measures of trait polygenicity",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2610.10825",
-      "originalUrl": "https://arxiv.org/abs/2610.10825",
-      "url": "https://arxiv.org/abs/2610.10825",
-      "category": "Adaptive Capacity",
-      "summary": "arXiv:2610.10825v1 Announce Type: new Abstract: Characterizing the genetic architecture of phenotypic variation is central to human genetics, yet trait polygenicity---the diversity of genetic variants responsible for a h…",
-      "observation": "arXiv:2610.10825v1 Announce Type: new Abstract: Characterizing the genetic architecture of phenotypic variation is central to human genetics, yet trait polygenicity---the diversity of genetic variants responsible for a h…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "implications": [
-        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
-      ],
-      "commentary": "The Hill numbers synthesize and generalize measures of trait polygenicity should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 81,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-      "civilizationFunction": "Adaptive Capacity",
-      "relatedTopics": [
-        "Biotechnology"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "reasoning",
-        "design",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Law & Governance",
-        "Capital",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.582Z",
-      "ts": 1791518400000
-    },
-    {
-      "id": "civilization-engineering-md-llm-2-a-transferable-language-model-of-molecular-dynamics-with-physical-condi",
-      "title": "MD-LLM-2: A Transferable Language Model of Molecular Dynamics with Physical Conditioning and Explicit Path Probabilities",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2610.10879",
-      "originalUrl": "https://arxiv.org/abs/2610.10879",
-      "url": "https://arxiv.org/abs/2610.10879",
-      "category": "Civilization Engineering",
-      "summary": "arXiv:2610.10879v1 Announce Type: new Abstract: Molecular dynamics (MD) simulations model the motion of proteins between conformational states, but crossing free energy barriers and sampling multiple thermodynamic condit…",
-      "observation": "arXiv:2610.10879v1 Announce Type: new Abstract: Molecular dynamics (MD) simulations model the motion of proteins between conformational states, but crossing free energy barriers and sampling multiple thermodynamic condit…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "MD-LLM-2: A Transferable Language Model of Molecular Dynamics with Physical Conditioning and Explicit Path Probabilities should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "confidence": 81,
-      "state": "PROCESSING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "Artificial Intelligence",
-        "Energy Systems",
-        "Biotechnology"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Applied Research",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "updatedAt": "2026-10-09T22:57:52.582Z",
+      "updatedAt": "2026-10-10T00:04:57.344Z",
       "ts": 1791518400000
     }
   ]

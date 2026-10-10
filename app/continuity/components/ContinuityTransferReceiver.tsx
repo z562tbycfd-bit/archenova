@@ -13,26 +13,33 @@ import { useContinuity } from "../ContinuityProvider";
 import {
   peekEpistemeTransfer,
   discardEpistemeTransfer,
-  completeEpistemeTransfer,
   type EpistemeBridgeEnvelope,
 } from "@/lib/continuity/epistemeBridge";
-
-import {
-  commitEpistemeTransfer,
-  hasCommittedTransfer,
-} from "@/lib/continuity/transferTransaction";
 
 /* ==========================================================
    ARCHENOVA / AEVUM
    STAGE 1.7.3 — TRANSACTIONAL RECEIVER
 
    Explicit Review
-   → Validated Commit
+   → Provider Commit
    → Verified Storage
    → React State
    → Bridge Finalization
 
    No automatic Evidence promotion.
+
+   DESIGN
+   ----------------------------------------------------------
+   Existing Aevum glass design is preserved.
+
+   Persistence and Bridge finalization belong to
+   ContinuityProvider.
+
+   This component owns only:
+   - pending transfer display
+   - explicit review
+   - accept / discard interaction
+   - user-facing notices
 ========================================================== */
 
 type Notice = {
@@ -64,12 +71,14 @@ export default function ContinuityTransferReceiver() {
 
   const processingRef = useRef(false);
 
-  /*
-   * A verified transfer is finalized only after the
-   * Provider reflects the committed transfer marker.
-   */
-  const [awaitingFinalization, setAwaitingFinalization] =
-    useState<EpistemeBridgeEnvelope | null>(null);
+  /* ========================================================
+     01 / REFRESH BRIDGE
+
+     Read only.
+
+     No automatic acceptance.
+     No automatic evidence promotion.
+  ======================================================== */
 
   const refresh = useCallback(() => {
     const result = peekEpistemeTransfer();
@@ -93,82 +102,93 @@ export default function ContinuityTransferReceiver() {
     }
   }, []);
 
+  /* ========================================================
+     02 / INITIAL BRIDGE INSPECTION
+  ======================================================== */
+
   useEffect(() => {
     refresh();
   }, [refresh]);
 
-  /*
-   * Complete only when the committed transfer marker
-   * is visible in the active Continuity state.
-   */
-  useEffect(() => {
+  /* ========================================================
+     03 / DISCARD
+
+     Discard removes the pending Bridge envelope only.
+
+     It does not modify Continuity state.
+  ======================================================== */
+
+  function handleDiscard() {
     if (
-      !awaitingFinalization ||
-      status !== "ready"
+      processingRef.current ||
+      busy
     ) {
       return;
     }
 
-    const transferId =
-      awaitingFinalization.transfer.transferId;
+    processingRef.current = true;
+    setBusy(true);
+    setNotice(null);
 
-    if (!hasCommittedTransfer(state, transferId)) {
-      return;
-    }
+    try {
+      const result = discardEpistemeTransfer();
 
-    const completed = completeEpistemeTransfer(
-      awaitingFinalization,
-    );
+      if (!result.ok) {
+        setNotice({
+          kind: "error",
+          text:
+            "Unable to discard the pending transfer.",
+        });
 
-    if (completed.ok) {
+        return;
+      }
+
       setEnvelope(null);
       setReviewOpen(false);
       setPurpose("");
+
       setNotice({
         kind: "info",
         text:
-          "Transfer committed, verified, and finalized.",
+          "Pending transfer discarded. Continuity was not modified.",
       });
-    } else {
+    } catch {
       setNotice({
         kind: "error",
         text:
-          "Continuity was committed. Bridge cleanup is pending and can be retried safely.",
+          "The pending transfer could not be discarded.",
       });
+    } finally {
+      processingRef.current = false;
+      setBusy(false);
     }
-
-    setAwaitingFinalization(null);
-  }, [awaitingFinalization, state, status]);
-
-  function handleDiscard() {
-    if (processingRef.current) return;
-
-    const result = discardEpistemeTransfer();
-
-    if (!result.ok) {
-      setNotice({
-        kind: "error",
-        text: "Unable to discard the pending transfer.",
-      });
-      return;
-    }
-
-    setEnvelope(null);
-    setReviewOpen(false);
-    setPurpose("");
-    setNotice({
-      kind: "info",
-      text:
-        "Pending transfer discarded. Continuity was not modified.",
-    });
   }
 
-  function handleAccept(event: FormEvent<HTMLFormElement>) {
+  /* ========================================================
+     04 / ACCEPT
+
+     Provider is the single owner of persistence.
+
+     Review
+     → Validate
+     → Prepare
+     → Write
+     → Read-back
+     → React State
+     → Bridge finalization
+
+     No direct storage write occurs in Receiver.
+  ======================================================== */
+
+  function handleAccept(
+    event: FormEvent<HTMLFormElement>,
+  ) {
     event.preventDefault();
 
     if (
       !envelope ||
       processingRef.current ||
+      busy ||
       status !== "ready"
     ) {
       return;
@@ -179,13 +199,13 @@ export default function ContinuityTransferReceiver() {
     setNotice(null);
 
     try {
-      const result = commitEpistemeTransfer({
-        expectedEnvelope: envelope,
-        currentState: state,
-        purpose,
-      });
+      const result =
+        commands.commitEpistemeTransfer(
+          envelope,
+          purpose,
+        );
 
-      if (result.ok === false) {
+      if (!result.ok) {
         setNotice({
           kind: "error",
           text: result.message,
@@ -199,42 +219,49 @@ export default function ContinuityTransferReceiver() {
       }
 
       /*
-       * Synchronize React state using the existing
-       * validated Provider import.
+       * Provider has already:
+       *
+       * - validated the transfer
+       * - prepared the candidate
+       * - written Continuity state
+       * - verified the persisted state
+       * - dispatched React synchronization
+       * - attempted Bridge finalization
+       *
+       * Do not call commands.importState().
+       * Do not call completeEpistemeTransfer().
        */
-      const imported = commands.importState(result.state);
-
-      if (!imported) {
-        setNotice({
-          kind: "error",
-          text:
-            "Storage contains the verified commit, but React state synchronization failed. The Bridge remains available for recovery.",
-        });
-        return;
-      }
 
       if (result.bridgeCleared) {
         setEnvelope(null);
         setReviewOpen(false);
         setPurpose("");
+
         setNotice({
           kind: "info",
           text:
-            "Previously committed transfer recovered.",
+            result.status === "already-committed"
+              ? "Previously committed transfer recovered."
+              : "Transfer committed, verified, and finalized.",
         });
+
         return;
       }
 
       /*
-       * The effect above waits until the Provider
-       * exposes the committed transfer marker.
+       * The transfer has been durably verified,
+       * but Bridge cleanup did not complete.
+       *
+       * Keep the reviewed envelope visible so
+       * the user can retry safely.
+       *
+       * The Provider's transfer marker prevents
+       * duplicate insertion.
        */
-      setAwaitingFinalization(envelope);
-
       setNotice({
-        kind: "info",
+        kind: "error",
         text:
-          "Continuity commit verified. Finalizing the Bridge after state synchronization.",
+          "Continuity was committed and verified. Bridge cleanup is pending. You can retry acceptance safely.",
       });
     } catch {
       setNotice({
@@ -248,16 +275,30 @@ export default function ContinuityTransferReceiver() {
     }
   }
 
-  const transfer = envelope?.transfer ?? null;
+  /* ========================================================
+     05 / TRANSFER DISPLAY RULES
+  ======================================================== */
+
+  const transfer =
+    envelope?.transfer ?? null;
 
   const blockedReason =
     transfer?.kind === "evidence"
       ? "Evidence requires independent source review."
-      : transfer?.kind === "question" && state.inquiry
+      : transfer?.kind === "question" &&
+        state.inquiry
       ? "The existing inquiry cannot be overwritten."
-      : transfer && transfer.kind !== "question" && !state.inquiry
+      : transfer &&
+        transfer.kind !== "question" &&
+        !state.inquiry
       ? "Begin an inquiry before accepting this transfer."
       : null;
+
+  /* ========================================================
+     06 / RENDER
+
+     Existing Aevum UI structure and CSS are preserved.
+  ======================================================== */
 
   return (
     <section
@@ -280,7 +321,9 @@ export default function ContinuityTransferReceiver() {
         </div>
 
         <span className="aevum-transfer__status">
-          {transfer ? "TRANSFER PENDING" : "AWAITING TRANSFER"}
+          {transfer
+            ? "TRANSFER PENDING"
+            : "AWAITING TRANSFER"}
         </span>
       </div>
 
@@ -297,7 +340,9 @@ export default function ContinuityTransferReceiver() {
             <div className="aevum-transfer__actions">
               <button
                 type="button"
-                onClick={() => setReviewOpen(true)}
+                onClick={() =>
+                  setReviewOpen(true)
+                }
               >
                 REVIEW TRANSFER →
               </button>
@@ -321,15 +366,20 @@ export default function ContinuityTransferReceiver() {
                 automatically treated as verified evidence.
               </p>
 
-              {transfer.kind === "question" && !state.inquiry ? (
+              {transfer.kind === "question" &&
+              !state.inquiry ? (
                 <label className="aevum-transfer__field">
-                  <span>INQUIRY PURPOSE / REQUIRED</span>
+                  <span>
+                    INQUIRY PURPOSE / REQUIRED
+                  </span>
 
                   <textarea
                     required
                     value={purpose}
                     onChange={(event) =>
-                      setPurpose(event.target.value)
+                      setPurpose(
+                        event.target.value,
+                      )
                     }
                     placeholder="What must this inquiry make possible?"
                   />
@@ -369,7 +419,9 @@ export default function ContinuityTransferReceiver() {
 
                 <button
                   type="button"
-                  onClick={() => setReviewOpen(false)}
+                  onClick={() =>
+                    setReviewOpen(false)
+                  }
                 >
                   CLOSE REVIEW
                 </button>
@@ -386,9 +438,14 @@ export default function ContinuityTransferReceiver() {
         </div>
       ) : (
         <div className="aevum-transfer__empty">
-          <span>NO PENDING INTELLECTUAL TRANSFER</span>
+          <span>
+            NO PENDING INTELLECTUAL TRANSFER
+          </span>
 
-          <button type="button" onClick={refresh}>
+          <button
+            type="button"
+            onClick={refresh}
+          >
             CHECK BRIDGE →
           </button>
         </div>
