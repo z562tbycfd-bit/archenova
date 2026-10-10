@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-10T03:46:59.055Z",
+  "updated": "2026-10-10T04:48:12.365Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 10 – Lunar Farside",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
+      "summary": "APOD Science APOD APOD: 2026 October 10… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
+      "ts": 1791605100000,
+      "publishedAt": "2026-10-10T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Biotech leader, leading lab leak theorist no longer in consideration for top infectious disease role",
@@ -801,15 +810,6 @@
       "summary": "First discovered in 2007, fast radio bursts are enigmatic, millisecond-long flashes of radio emission from the distant universe. Their origin remains uncertain, particularly since most are seen once and never again. Astr…",
       "ts": 1791482400000,
       "publishedAt": "2026-10-08T18:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission",
-      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
-      "summary": "After more than seven months aboard the International Space Station, NASA’s SpaceX Crew-12 mission safely splashed down Thursday in the Pacific Ocean off the coast of Los Angeles. The crew members will discuss their scie…",
-      "ts": 1791478948000,
-      "publishedAt": "2026-10-08T17:02:28.000Z",
       "categoryId": "space"
     }
   ],

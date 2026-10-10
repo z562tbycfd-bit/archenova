@@ -32,7 +32,7 @@ function formatBytes(bytes: number): string {
 }
 
 export default function ContinuityPortablePanel() {
-  const { state, status, invariantIssues } = useContinuity();
+  const { state, status, invariantIssues, commands } = useContinuity();
   const [exportStatus, setExportStatus] = useState<ExportStatus>("idle");
   const [message, setMessage] = useState("");
   const [lastDigest, setLastDigest] = useState("");
@@ -41,6 +41,10 @@ export default function ContinuityPortablePanel() {
   const [preview, setPreview] = useState<Preview | null>(null);
   const [importMessage, setImportMessage] = useState("");
   const [importBusy, setImportBusy] = useState(false);
+  const [recoveryBusy, setRecoveryBusy] = useState(false);
+  const [recoveryAcknowledged, setRecoveryAcknowledged] = useState(false);
+  const [recoveryConfirmation, setRecoveryConfirmation] = useState("");
+  const [recoveryMessage, setRecoveryMessage] = useState("");
   const requestId = useRef(0);
   const fileInput = useRef<HTMLInputElement>(null);
   const lastStateRef = useRef(state);
@@ -50,6 +54,8 @@ export default function ContinuityPortablePanel() {
       if (preview) {
         requestId.current += 1;
         setPreview(null);
+        setRecoveryAcknowledged(false);
+        setRecoveryConfirmation("");
         setImportMessage("Current state changed. Select the file again for a fresh comparison.");
         if (fileInput.current) fileInput.current.value = "";
       }
@@ -59,6 +65,9 @@ export default function ContinuityPortablePanel() {
   function clearPreview(message = "") {
     requestId.current += 1;
     setPreview(null);
+    setRecoveryAcknowledged(false);
+    setRecoveryConfirmation("");
+    setRecoveryMessage("");
     setImportMessage(message);
     if (fileInput.current) fileInput.current.value = "";
   }
@@ -67,6 +76,9 @@ export default function ContinuityPortablePanel() {
     const file = event.target.files?.[0];
     const token = ++requestId.current;
     setPreview(null);
+    setRecoveryAcknowledged(false);
+    setRecoveryConfirmation("");
+    setRecoveryMessage("");
     setImportMessage("");
     if (!file) return;
     if (status !== "ready" || invariantIssues.length > 0) {
@@ -114,6 +126,38 @@ export default function ContinuityPortablePanel() {
     }
   }
 
+
+  async function handleRecovery() {
+    if (!preview || recoveryBusy || importBusy || status !== "ready" ||
+        invariantIssues.length > 0 || !recoveryAcknowledged ||
+        recoveryConfirmation !== "RESTORE") return;
+    const reviewed = preview;
+    const token = requestId.current;
+    setRecoveryBusy(true);
+    setRecoveryMessage("Re-verifying the portable state and active workspace…");
+    try {
+      // The Provider owns the authoritative validation, storage transaction,
+      // read-back verification, and React-state commit.
+      const result = await commands.commitPortableRecovery(
+        reviewed.envelope,
+        reviewed.current,
+      );
+      if (token !== requestId.current) return;
+      setRecoveryMessage(result.message);
+      if (result.ok) {
+        clearPreview();
+        setRecoveryMessage(result.message);
+      } else if (result.status === "stale" || result.status === "invalid") {
+        clearPreview(result.message);
+      }
+    } catch {
+      if (token === requestId.current) {
+        setRecoveryMessage("Recovery failed. Verify the current state before retrying.");
+      }
+    } finally {
+      setRecoveryBusy(false);
+    }
+  }
 
   const canExport =
     status === "ready" && invariantIssues.length === 0 && !busy;
@@ -300,15 +344,49 @@ export default function ContinuityPortablePanel() {
             ) : <p>{preview.sameSnapshot ? "The incoming snapshot matches the current state." : "Content differs; compare before any future recovery."}</p>}
           </div>
           <p className="aevum-portable__boundary">
-            Preview is read-only. No automatic merge, promotion, overwrite or recovery is available at this stage.
+            Preview does not change the workspace. Recovery requires explicit authorization below.
             File verification cannot establish who created the file.
           </p>
+          <div className="aevum-portable__recovery" aria-label="Explicit recovery authorization">
+            <p className="aevum-portable__eyebrow">03 / EXPLICIT RECOVERY</p>
+            <h3>Replace the current Continuity?</h3>
+            <p>
+              This operation replaces the entire current inquiry, evidence, reasoning,
+              decisions, outputs, journey and view with the verified snapshot.
+              It does not merge states. Export the current state first if you need to retain it.
+            </p>
+            {preview.conflicts.length > 0 && (
+              <p className="aevum-portable__recovery-warning">
+                {preview.conflicts.length} difference(s) require review. Recovery replaces rather than merges.
+              </p>
+            )}
+            <label className="aevum-portable__recovery-ack">
+              <input type="checkbox" checked={recoveryAcknowledged}
+                disabled={recoveryBusy}
+                onChange={(event) => setRecoveryAcknowledged(event.target.checked)} />
+              I understand this will replace my current Continuity state.
+            </label>
+            <label className="aevum-portable__recovery-label" htmlFor="aevum-recovery-confirmation">
+              Type RESTORE to authorize recovery
+            </label>
+            <input id="aevum-recovery-confirmation" className="aevum-portable__recovery-input"
+              value={recoveryConfirmation} disabled={recoveryBusy}
+              onChange={(event) => setRecoveryConfirmation(event.target.value)}
+              autoComplete="off" spellCheck={false} placeholder="RESTORE" />
+            <button type="button" className="aevum-portable__recovery-button"
+              disabled={!recoveryAcknowledged || recoveryConfirmation !== "RESTORE" ||
+                recoveryBusy || importBusy || status !== "ready" || invariantIssues.length > 0}
+              onClick={handleRecovery}>
+              {recoveryBusy ? "VERIFYING & RESTORING…" : "AUTHORIZE RECOVERY →"}
+            </button>
+          </div>
         </div>
       )}
+      {recoveryMessage && <p className="aevum-portable__notice" role="status">{recoveryMessage}</p>}
       <p className="aevum-portable__boundary">
         Integrity does not prove authorship. Keep the exported file private:
         it may contain the full inquiry, evidence, reasoning, and decisions.
-        Import and recovery require a separate explicit review.
+        Recovery requires explicit approval and verified local session persistence.
       </p>
 
       <style jsx>{`
@@ -361,6 +439,16 @@ export default function ContinuityPortablePanel() {
         .aevum-portable__conflicts { margin-top:24px; padding-top:18px; border-top:1px solid rgba(255,255,255,.08); color:rgba(255,255,255,.64); font-size:10px; line-height:1.8; }
         .aevum-portable__conflicts strong { font-size:8px; font-weight:500; letter-spacing:.13em; }
         .aevum-portable__conflicts ul { padding-left:19px; }
+        .aevum-portable__recovery { margin-top:26px; padding:22px; border:1px solid rgba(255,255,255,.10); border-radius:18px; background:rgba(255,255,255,.012); }
+        .aevum-portable__recovery h3 { margin:12px 0; font:400 24px Georgia,serif; color:rgba(255,255,255,.85); }
+        .aevum-portable__recovery p { color:rgba(255,255,255,.50); font-size:11px; line-height:1.8; }
+        .aevum-portable__recovery .aevum-portable__recovery-warning { color:rgba(255,205,195,.85); }
+        .aevum-portable__recovery-ack { display:flex; align-items:flex-start; gap:10px; margin:20px 0; color:rgba(255,255,255,.7); font-size:11px; line-height:1.7; cursor:pointer; }
+        .aevum-portable__recovery-ack input { margin-top:3px; accent-color:#aaa; }
+        .aevum-portable__recovery-label { display:block; margin-bottom:10px; color:rgba(255,255,255,.45); font-size:9px; letter-spacing:.08em; }
+        .aevum-portable__recovery-input { box-sizing:border-box; width:100%; padding:13px 16px; border:1px solid rgba(255,255,255,.16); border-radius:12px; background:rgba(0,0,0,.22); color:#eee; font:inherit; font-size:12px; outline-offset:3px; }
+        .aevum-portable__recovery-button { margin-top:16px; border:1px solid rgba(255,255,255,.2); border-radius:999px; padding:15px 22px; background:rgba(255,255,255,.08); color:#eee; font:inherit; font-size:9px; letter-spacing:.12em; cursor:pointer; }
+        .aevum-portable__recovery-button:disabled { opacity:.35; cursor:not-allowed; }
         @media(max-width:700px) { .aevum-portable__comparison { grid-template-columns:1fr; } }
         @media(max-width:700px) { .aevum-portable { padding:27px 21px; border-radius:22px; } .aevum-portable__heading, .aevum-portable__body { flex-direction:column; align-items:flex-start; } .aevum-portable__edition { order:-1; } .aevum-portable__action { width:100%; } }
         @media(prefers-reduced-motion:reduce) { .aevum-portable__action { transition:none; } }

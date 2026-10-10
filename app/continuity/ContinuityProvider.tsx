@@ -21,6 +21,7 @@ import {
   type ContinuityInquiry,
   type ContinuityMode,
   type ContinuityOutput,
+  type ContinuityPortableEnvelope,
   type ContinuityRealityCheck,
   type ContinuityReasoningNode,
   type ContinuityState,
@@ -75,42 +76,36 @@ import {
   validateTransactionState,
 } from "../../lib/continuity/transferTransaction";
 
-/* ==========================================================
-   ARCHENOVA CONTINUITY
-   REACT PROVIDER
+import {
+  verifyPortableState,
+} from "../../lib/continuity/portableState";
 
-   STAGE 1.7.3
-   TRANSACTIONAL TRANSFER INTEGRITY
+/* ==========================================================
+   ARCHENOVA AEVUM
+   CONTINUITY PROVIDER
+
+   STAGE 1.7.4.4
+   EXPLICIT RECOVERY COMMIT
+
+   PRINCIPLES
 
    Continuity of Inquiry
-   ≠
-   Continuity of Identity
+   != Continuity of Identity
 
-   SCOPE
-   ----------------------------------------------------------
-   This Provider exists only inside /continuity.
-
-   No:
-   - external database
-   - server persistence
-   - account identity
-   - user profile
-   - behavioral tracking
-
-   DESIGN
-   ----------------------------------------------------------
-   Continuity State persistence is owned by this Provider.
-
-   Episteme Transfer:
-   Review
-   → Validate
-   → Prepare
+   Portable State
+   → Verify
+   → Review
+   → Explicit Authorization
+   → Revalidate
    → Persist
-   → Read-back verification
+   → Read-back
    → React State
-   → Bridge finalization
-========================================================== */
 
+   No external database.
+   No account identity.
+   No automatic recovery.
+   No silent merge.
+========================================================== */
 
 /* ==========================================================
    01 / SESSION PERSISTENCE
@@ -118,7 +113,6 @@ import {
 
 const CONTINUITY_SESSION_KEY =
   "archenova.continuity.session.v1";
-
 
 /* ==========================================================
    02 / STATUS
@@ -128,7 +122,6 @@ export type ContinuityStoreStatus =
   | "initializing"
   | "ready"
   | "rejected";
-
 
 /* ==========================================================
    03 / TRANSFER RESULT
@@ -153,9 +146,27 @@ export type ContinuityTransferCommitResult = {
   bridgeCleared?: boolean;
 };
 
+/* ==========================================================
+   04 / RECOVERY RESULT
+========================================================== */
+
+export type ContinuityRecoveryCommitStatus =
+  | "committed"
+  | "unavailable"
+  | "invalid"
+  | "stale"
+  | "storage-error";
+
+export type ContinuityRecoveryResult = {
+  ok: boolean;
+
+  status: ContinuityRecoveryCommitStatus;
+
+  message: string;
+};
 
 /* ==========================================================
-   04 / COMMAND API
+   05 / COMMAND API
 ========================================================== */
 
 export type ContinuityCommands = {
@@ -233,6 +244,11 @@ export type ContinuityCommands = {
     purpose?: string,
   ) => ContinuityTransferCommitResult;
 
+  commitPortableRecovery: (
+    envelope: ContinuityPortableEnvelope,
+    expectedCurrent: ContinuityState,
+  ) => Promise<ContinuityRecoveryResult>;
+
   importState: (
     state: ContinuityState,
   ) => boolean;
@@ -240,9 +256,8 @@ export type ContinuityCommands = {
   resetContinuity: () => void;
 };
 
-
 /* ==========================================================
-   05 / CONTEXT VALUE
+   06 / CONTEXT VALUE
 ========================================================== */
 
 export type ContinuityContextValue = {
@@ -261,9 +276,8 @@ export type ContinuityContextValue = {
   commands: ContinuityCommands;
 };
 
-
 /* ==========================================================
-   06 / CONTEXT
+   07 / CONTEXT
 ========================================================== */
 
 const ContinuityContext =
@@ -271,9 +285,8 @@ const ContinuityContext =
     ContinuityContextValue | null
   >(null);
 
-
 /* ==========================================================
-   07 / VALIDATION
+   08 / STATE VALIDATION
 ========================================================== */
 
 function validateState(
@@ -282,9 +295,15 @@ function validateState(
   return validateTransactionState(value);
 }
 
+function stateEquals(
+  a: ContinuityState,
+  b: ContinuityState,
+): boolean {
+  return JSON.stringify(a) === JSON.stringify(b);
+}
 
 /* ==========================================================
-   08 / SESSION READ
+   09 / SESSION READ
 ========================================================== */
 
 type SessionReadResult =
@@ -323,7 +342,9 @@ function readSessionState(): SessionReadResult {
     }
 
     const parsed: unknown = JSON.parse(raw);
-    const validated = validateState(parsed);
+
+    const validated =
+      validateState(parsed);
 
     if (!validated) {
       return {
@@ -347,18 +368,8 @@ function readSessionState(): SessionReadResult {
   }
 }
 
-
 /* ==========================================================
-   09 / VERIFIED SESSION WRITE
-
-   Storage success is not assumed from setItem alone.
-
-   Write
-   → Read
-   → Parse
-   → Privacy validation
-   → Invariant validation
-   → Equality verification
+   10 / VERIFIED SESSION WRITE
 ========================================================== */
 
 function writeSessionState(
@@ -368,14 +379,16 @@ function writeSessionState(
     return false;
   }
 
-  const validated = validateState(incoming);
+  const validated =
+    validateState(incoming);
 
   if (!validated) {
     return false;
   }
 
   try {
-    const serialized = JSON.stringify(validated);
+    const serialized =
+      JSON.stringify(validated);
 
     window.sessionStorage.setItem(
       CONTINUITY_SESSION_KEY,
@@ -387,26 +400,24 @@ function writeSessionState(
         CONTINUITY_SESSION_KEY,
       );
 
-    if (!readBack) {
+    if (readBack !== serialized) {
       return false;
     }
 
-    const verified = validateState(
-      JSON.parse(readBack),
-    );
+    const verified =
+      validateState(JSON.parse(readBack));
 
     return (
       verified !== null &&
-      JSON.stringify(verified) === serialized
+      stateEquals(verified, validated)
     );
   } catch {
     return false;
   }
 }
 
-
 /* ==========================================================
-   10 / SESSION CLEAR
+   11 / SESSION CLEAR
 ========================================================== */
 
 function clearSessionState(): boolean {
@@ -429,9 +440,41 @@ function clearSessionState(): boolean {
   }
 }
 
+/* ==========================================================
+   12 / STORAGE ROLLBACK
+========================================================== */
+
+function restoreSessionRaw(
+  previousRaw: string | null,
+): boolean {
+  if (typeof window === "undefined") {
+    return false;
+  }
+
+  try {
+    if (previousRaw === null) {
+      window.sessionStorage.removeItem(
+        CONTINUITY_SESSION_KEY,
+      );
+    } else {
+      window.sessionStorage.setItem(
+        CONTINUITY_SESSION_KEY,
+        previousRaw,
+      );
+    }
+
+    return (
+      window.sessionStorage.getItem(
+        CONTINUITY_SESSION_KEY,
+      ) === previousRaw
+    );
+  } catch {
+    return false;
+  }
+}
 
 /* ==========================================================
-   11 / PROVIDER PROPS
+   13 / PROVIDER PROPS
 ========================================================== */
 
 export type ContinuityProviderProps = {
@@ -440,9 +483,8 @@ export type ContinuityProviderProps = {
   initialState?: ContinuityState;
 };
 
-
 /* ==========================================================
-   12 / PROVIDER
+   14 / PROVIDER
 ========================================================== */
 
 export function ContinuityProvider({
@@ -460,52 +502,59 @@ export function ContinuityProvider({
       "initializing",
     );
 
-  /*
-   * Hydration must complete before normal persistence.
-   */
   const hydratedRef = useRef(false);
 
-  /*
-   * Latest committed React state.
-   */
   const stateRef = useRef(state);
 
-  /*
-   * State awaiting hydration into React.
-   */
   const hydrationTargetRef =
     useRef<ContinuityState | null>(null);
 
-  /*
-   * A verified transfer must not be overwritten
-   * by a stale render.
-   */
   const verifiedCommitRef =
     useRef<ContinuityState | null>(null);
 
-  /*
-   * Prevent simultaneous transfer commits.
-   */
   const committingRef = useRef(false);
 
-  /*
-   * Used to prevent stale persistence effects.
-   */
-  const persistenceVersionRef = useRef(0);
+  const recoveringRef = useRef(false);
+
+  const persistenceVersionRef =
+    useRef(0);
 
   /*
-   * Update the latest state reference only when
-   * no verified transfer is waiting to be reflected.
+   * Tracks pending state changes initiated
+   * through this Provider.
+   *
+   * Recovery must not begin while those
+   * changes have not reached persistence.
    */
+  const pendingMutationRef = useRef(false);
+
+  /*
+   * Shared dispatch wrapper.
+   *
+   * Keeps the public Dispatch API intact
+   * while marking mutations that have not
+   * yet been persisted.
+   */
+  const dispatchContinuity =
+    useCallback<Dispatch<ContinuityAction>>(
+      (action) => {
+        pendingMutationRef.current = true;
+
+        dispatch(action);
+      },
+      [],
+    );
+
+  /* ========================================================
+     15 / REACT STATE SYNCHRONIZATION
+  ======================================================== */
+
   useEffect(() => {
-    if (verifiedCommitRef.current) {
-      const expected =
-        verifiedCommitRef.current;
+    const expected =
+      verifiedCommitRef.current;
 
-      if (
-        JSON.stringify(state) !==
-        JSON.stringify(expected)
-      ) {
+    if (expected) {
+      if (!stateEquals(state, expected)) {
         return;
       }
 
@@ -515,9 +564,8 @@ export function ContinuityProvider({
     stateRef.current = state;
   }, [state]);
 
-
   /* ========================================================
-     13 / HYDRATE SESSION
+     16 / HYDRATION
   ======================================================== */
 
   useEffect(() => {
@@ -528,12 +576,10 @@ export function ContinuityProvider({
     const restored = readSessionState();
 
     if (!restored.ok) {
-      /*
-       * Invalid stored data must not be overwritten
-       * by an empty state automatically.
-       */
       hydratedRef.current = true;
+
       setStatus("rejected");
+
       return;
     }
 
@@ -546,6 +592,8 @@ export function ContinuityProvider({
       stateRef.current =
         restored.state;
 
+      pendingMutationRef.current = true;
+
       dispatch({
         type: "state/import",
         payload: restored.state,
@@ -555,15 +603,16 @@ export function ContinuityProvider({
     setStatus("ready");
   }, []);
 
-
   /* ========================================================
-     14 / SESSION PERSISTENCE
+     17 / NORMAL SESSION PERSISTENCE
   ======================================================== */
 
   useEffect(() => {
     if (
       status !== "ready" ||
-      !hydratedRef.current
+      !hydratedRef.current ||
+      committingRef.current ||
+      recoveringRef.current
     ) {
       return;
     }
@@ -573,8 +622,10 @@ export function ContinuityProvider({
 
     if (hydrationTarget) {
       if (
-        JSON.stringify(state) !==
-        JSON.stringify(hydrationTarget)
+        !stateEquals(
+          state,
+          hydrationTarget,
+        )
       ) {
         return;
       }
@@ -587,8 +638,10 @@ export function ContinuityProvider({
 
     if (verifiedCommit) {
       if (
-        JSON.stringify(state) !==
-        JSON.stringify(verifiedCommit)
+        !stateEquals(
+          state,
+          verifiedCommit,
+        )
       ) {
         return;
       }
@@ -596,22 +649,23 @@ export function ContinuityProvider({
       verifiedCommitRef.current = null;
     }
 
-    /*
-     * Verify the active state before writing.
-     */
-    const validated = validateState(state);
+    const validated =
+      validateState(state);
 
     if (!validated) {
       setStatus("rejected");
       return;
     }
 
-    const version = ++persistenceVersionRef.current;
+    const version =
+      ++persistenceVersionRef.current;
 
-    const accepted = writeSessionState(validated);
+    const accepted =
+      writeSessionState(validated);
 
     if (
-      version !== persistenceVersionRef.current
+      version !==
+      persistenceVersionRef.current
     ) {
       return;
     }
@@ -622,25 +676,27 @@ export function ContinuityProvider({
     }
 
     stateRef.current = validated;
+
+    pendingMutationRef.current = false;
   }, [state, status]);
 
-
   /* ========================================================
-     15 / BEGIN INQUIRY
+     18 / BEGIN INQUIRY
   ======================================================== */
 
   const beginInquiry = useCallback(
     (
       input: CreateInquiryInput,
     ): ContinuityInquiry => {
-      const inquiry = createInquiry(input);
+      const inquiry =
+        createInquiry(input);
 
-      dispatch({
+      dispatchContinuity({
         type: "inquiry/set",
         payload: inquiry,
       });
 
-      dispatch({
+      dispatchContinuity({
         type: "journey/add",
         payload: createJourneyEvent({
           kind: "origin",
@@ -653,37 +709,35 @@ export function ContinuityProvider({
 
       return inquiry;
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     16 / INQUIRY STATUS
+     19 / INQUIRY STATUS
   ======================================================== */
 
   const setInquiryStatus = useCallback(
     (nextStatus: ContinuityStatus) => {
-      dispatch({
+      dispatchContinuity({
         type: "inquiry/status",
         payload: nextStatus,
       });
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     17 / EVIDENCE
+     20 / EVIDENCE
   ======================================================== */
 
   const addEvidence = useCallback(
     (evidence: ContinuityEvidence) => {
-      dispatch({
+      dispatchContinuity({
         type: "evidence/add",
         payload: evidence,
       });
 
-      dispatch({
+      dispatchContinuity({
         type: "journey/add",
         payload: createJourneyEvent({
           kind: "evidence-added",
@@ -693,22 +747,21 @@ export function ContinuityProvider({
         }),
       });
     },
-    [],
+    [dispatchContinuity],
   );
 
   const removeEvidence = useCallback(
     (evidenceId: ContinuityId) => {
-      dispatch({
+      dispatchContinuity({
         type: "evidence/remove",
         payload: evidenceId,
       });
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     18 / REASONING
+     21 / REASONING
   ======================================================== */
 
   const addReasoning = useCallback(
@@ -718,12 +771,12 @@ export function ContinuityProvider({
       const reasoning =
         createReasoningNode(input);
 
-      dispatch({
+      dispatchContinuity({
         type: "reasoning/add",
         payload: reasoning,
       });
 
-      dispatch({
+      dispatchContinuity({
         type: "journey/add",
         payload: createJourneyEvent({
           kind:
@@ -740,7 +793,8 @@ export function ContinuityProvider({
               ? "Hypothesis formed"
               : "Reasoning advanced",
 
-          description: reasoning.statement,
+          description:
+            reasoning.statement,
 
           relatedIds: [
             reasoning.id,
@@ -751,22 +805,21 @@ export function ContinuityProvider({
 
       return reasoning;
     },
-    [],
+    [dispatchContinuity],
   );
 
   const removeReasoning = useCallback(
     (reasoningId: ContinuityId) => {
-      dispatch({
+      dispatchContinuity({
         type: "reasoning/remove",
         payload: reasoningId,
       });
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     19 / UNCERTAINTY
+     22 / UNCERTAINTY
   ======================================================== */
 
   const addUncertainty = useCallback(
@@ -776,14 +829,14 @@ export function ContinuityProvider({
       const uncertainty =
         createUncertainty(input);
 
-      dispatch({
+      dispatchContinuity({
         type: "uncertainty/add",
         payload: uncertainty,
       });
 
       return uncertainty;
     },
-    [],
+    [dispatchContinuity],
   );
 
   const resolveUncertainty = useCallback(
@@ -792,7 +845,7 @@ export function ContinuityProvider({
       resolvedAt: ISODateTime =
         new Date().toISOString(),
     ) => {
-      dispatch({
+      dispatchContinuity({
         type: "uncertainty/resolve",
         payload: {
           id,
@@ -800,7 +853,7 @@ export function ContinuityProvider({
         },
       });
 
-      dispatch({
+      dispatchContinuity({
         type: "journey/add",
         payload: createJourneyEvent({
           kind: "resolution",
@@ -812,59 +865,69 @@ export function ContinuityProvider({
         }),
       });
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     20 / SYSTEM
+     23 / SYSTEM
   ======================================================== */
 
   const addSystemNode = useCallback(
     (
       input: CreateSystemNodeInput,
     ): ContinuitySystemNode => {
-      const node = createSystemNode(input);
+      const node =
+        createSystemNode(input);
 
-      dispatch({
+      dispatchContinuity({
         type: "system/node/add",
         payload: node,
       });
 
       return node;
     },
-    [],
+    [dispatchContinuity],
   );
 
   const addSystemRelation = useCallback(
     (
       input: CreateSystemRelationInput,
     ): ContinuitySystemRelation | null => {
-      const current = stateRef.current;
+      if (pendingMutationRef.current) {
+        return null;
+      }
+
+      const current =
+        stateRef.current;
 
       const sourceExists =
         current.system.nodes.some(
-          (node) => node.id === input.from,
+          (node) =>
+            node.id === input.from,
         );
 
       const targetExists =
         current.system.nodes.some(
-          (node) => node.id === input.to,
+          (node) =>
+            node.id === input.to,
         );
 
-      if (!sourceExists || !targetExists) {
+      if (
+        !sourceExists ||
+        !targetExists
+      ) {
         return null;
       }
 
       const relation =
         createSystemRelation(input);
 
-      dispatch({
+      dispatchContinuity({
         type: "system/relation/add",
         payload: relation,
       });
 
-      dispatch({
+      dispatchContinuity({
         type: "journey/add",
         payload: createJourneyEvent({
           kind: "system-link",
@@ -883,12 +946,11 @@ export function ContinuityProvider({
 
       return relation;
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     21 / DECISION
+     24 / DECISION
   ======================================================== */
 
   const upsertDecision = useCallback(
@@ -902,29 +964,29 @@ export function ContinuityProvider({
           ? value
           : createDecision(value);
 
-      dispatch({
+      dispatchContinuity({
         type: "decision/upsert",
         payload: decision,
       });
 
-      dispatch({
+      dispatchContinuity({
         type: "journey/add",
         payload: createJourneyEvent({
           kind: "decision",
           title: "Decision state updated",
-          description: decision.question,
+          description:
+            decision.question,
           relatedIds: [decision.id],
         }),
       });
 
       return decision;
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     22 / OUTPUT
+     25 / OUTPUT
   ======================================================== */
 
   const upsertOutput = useCallback(
@@ -938,17 +1000,18 @@ export function ContinuityProvider({
           ? value
           : createOutput(value);
 
-      dispatch({
+      dispatchContinuity({
         type: "output/upsert",
         payload: output,
       });
 
-      dispatch({
+      dispatchContinuity({
         type: "journey/add",
         payload: createJourneyEvent({
           kind: "output",
           title: "Output created",
-          description: output.title,
+          description:
+            output.title,
           relatedIds: [
             output.id,
             ...output.evidenceIds,
@@ -959,12 +1022,11 @@ export function ContinuityProvider({
 
       return output;
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     23 / REALITY CHECK
+     26 / REALITY CHECK
   ======================================================== */
 
   const setRealityCheck = useCallback(
@@ -980,45 +1042,44 @@ export function ContinuityProvider({
           ? value
           : createRealityCheck(value);
 
-      dispatch({
+      dispatchContinuity({
         type: "reality-check/set",
         payload: realityCheck,
       });
 
       return realityCheck;
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     24 / VIEW
+     27 / VIEW
   ======================================================== */
 
   const setMode = useCallback(
     (mode: ContinuityMode) => {
-      dispatch({
+      dispatchContinuity({
         type: "view/mode",
         payload: mode,
       });
     },
-    [],
+    [dispatchContinuity],
   );
 
   const setView = useCallback(
-    (view: Partial<ContinuityViewState>) => {
-      dispatch({
+    (
+      view: Partial<ContinuityViewState>,
+    ) => {
+      dispatchContinuity({
         type: "view/set",
         payload: view,
       });
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     25 / STAGE 1.7.3
-     VERIFIED EPISTEME TRANSFER COMMIT
+     28 / VERIFIED EPISTEME TRANSFER
   ======================================================== */
 
   const commitEpistemeTransfer = useCallback(
@@ -1029,7 +1090,9 @@ export function ContinuityProvider({
       if (
         status !== "ready" ||
         !hydratedRef.current ||
-        committingRef.current
+        committingRef.current ||
+        recoveringRef.current ||
+        pendingMutationRef.current
       ) {
         return {
           ok: false,
@@ -1042,7 +1105,8 @@ export function ContinuityProvider({
       committingRef.current = true;
 
       try {
-        const pending = peekEpistemeTransfer();
+        const pending =
+          peekEpistemeTransfer();
 
         if (!pending.ok) {
           return {
@@ -1053,7 +1117,8 @@ export function ContinuityProvider({
           };
         }
 
-        const envelope = pending.envelope;
+        const envelope =
+          pending.envelope;
 
         if (
           JSON.stringify(envelope) !==
@@ -1067,7 +1132,8 @@ export function ContinuityProvider({
           };
         }
 
-        const stored = readSessionState();
+        const stored =
+          readSessionState();
 
         if (!stored.ok) {
           return {
@@ -1078,15 +1144,15 @@ export function ContinuityProvider({
           };
         }
 
-        const current = stateRef.current;
+        const current =
+          stateRef.current;
+
         const transferId =
           envelope.transfer.transferId;
 
         /*
-         * Recovery path:
-         *
-         * State was committed earlier,
-         * but Bridge cleanup was interrupted.
+         * Previously committed transfer:
+         * recover without duplication.
          */
         if (
           stored.state &&
@@ -1117,19 +1183,17 @@ export function ContinuityProvider({
             message: cleared.ok
               ? "Previously committed transfer recovered."
               : "Transfer recovered; Bridge cleanup remains pending.",
-            bridgeCleared: cleared.ok,
+            bridgeCleared:
+              cleared.ok,
           };
         }
 
-        /*
-         * The current React state and persisted
-         * state must agree before creating a new
-         * candidate.
-         */
         if (
           stored.state &&
-          JSON.stringify(stored.state) !==
-          JSON.stringify(current)
+          !stateEquals(
+            stored.state,
+            current,
+          )
         ) {
           return {
             ok: false,
@@ -1139,11 +1203,6 @@ export function ContinuityProvider({
           };
         }
 
-        /*
-         * A state containing a transfer marker
-         * without verified persistence must not
-         * be accepted as a committed transaction.
-         */
         if (
           hasCommittedTransfer(
             current,
@@ -1166,12 +1225,12 @@ export function ContinuityProvider({
           );
 
         if (prepared.ok === false) {
-  return {
-    ok: false,
-    status: prepared.status,
-    message: prepared.message,
-  };
-}
+          return {
+            ok: false,
+            status: prepared.status,
+            message: prepared.message,
+          };
+        }
 
         if (
           prepared.status ===
@@ -1188,12 +1247,9 @@ export function ContinuityProvider({
         const candidate =
           prepared.state;
 
-        /*
-         * Storage is written synchronously.
-         * The function does not report success
-         * until read-back validation passes.
-         */
-        if (!writeSessionState(candidate)) {
+        if (
+          !writeSessionState(candidate)
+        ) {
           return {
             ok: false,
             status: "storage-error",
@@ -1202,7 +1258,8 @@ export function ContinuityProvider({
           };
         }
 
-        const verified = readSessionState();
+        const verified =
+          readSessionState();
 
         if (
           !verified.ok ||
@@ -1211,8 +1268,10 @@ export function ContinuityProvider({
             verified.state,
             transferId,
           ) ||
-          JSON.stringify(verified.state) !==
-          JSON.stringify(candidate)
+          !stateEquals(
+            verified.state,
+            candidate,
+          )
         ) {
           return {
             ok: false,
@@ -1222,10 +1281,6 @@ export function ContinuityProvider({
           };
         }
 
-        /*
-         * The verified persisted state becomes
-         * authoritative before React dispatch.
-         */
         verifiedCommitRef.current =
           verified.state;
 
@@ -1237,11 +1292,6 @@ export function ContinuityProvider({
           payload: verified.state,
         });
 
-        /*
-         * Clear only the reviewed Bridge envelope.
-         * If cleanup fails, the stored transfer marker
-         * allows recovery without duplicate insertion.
-         */
         const cleared =
           completeEpistemeTransfer(
             envelope,
@@ -1253,7 +1303,8 @@ export function ContinuityProvider({
           message: cleared.ok
             ? "Transfer committed and verified."
             : "Transfer committed; Bridge cleanup remains pending.",
-          bridgeCleared: cleared.ok,
+          bridgeCleared:
+            cleared.ok,
         };
       } catch {
         return {
@@ -1269,18 +1320,376 @@ export function ContinuityProvider({
     [status],
   );
 
+  /* ========================================================
+     29 / EXPLICIT PORTABLE RECOVERY
+
+     This method is called only after the
+     Portable Panel has completed its
+     user-facing review and authorization.
+
+     Provider independently verifies the
+     envelope and storage transaction.
+
+     No implicit authorization.
+  ======================================================== */
+
+  const commitPortableRecovery = useCallback(
+    async (
+      envelope: ContinuityPortableEnvelope,
+      expectedCurrent: ContinuityState,
+    ): Promise<ContinuityRecoveryResult> => {
+      /*
+       * 01 / Exclusive commit boundary.
+       */
+      if (
+        status !== "ready" ||
+        !hydratedRef.current ||
+        committingRef.current ||
+        recoveringRef.current ||
+        pendingMutationRef.current ||
+        hydrationTargetRef.current !== null ||
+        verifiedCommitRef.current !== null
+      ) {
+        return {
+          ok: false,
+          status: "unavailable",
+          message:
+            "Continuity is not ready for recovery. Wait for pending changes to finish.",
+        };
+      }
+
+      recoveringRef.current = true;
+
+      try {
+        /*
+         * 02 / Verify the portable envelope.
+         *
+         * This is independent of the UI's
+         * earlier preview verification.
+         */
+        const reviewed =
+          await verifyPortableState(
+            envelope,
+          );
+
+        if (reviewed.ok === false) {
+          return {
+            ok: false,
+            status: "invalid",
+            message:
+              reviewed.message,
+          };
+        }
+
+        /*
+         * 03 / Validate the reviewed current
+         * state and latest authoritative state.
+         */
+        const expected =
+          validateState(
+            expectedCurrent,
+          );
+
+        const current =
+          validateState(
+            stateRef.current,
+          );
+
+        if (
+          !expected ||
+          !current
+        ) {
+          return {
+            ok: false,
+            status: "invalid",
+            message:
+              "Current-state validation failed.",
+          };
+        }
+
+        if (
+          !stateEquals(
+            current,
+            expected,
+          )
+        ) {
+          return {
+            ok: false,
+            status: "stale",
+            message:
+              "Continuity changed after preview. Review the file again.",
+          };
+        }
+
+        /*
+         * 04 / No pending React mutation may
+         * cross the recovery boundary.
+         */
+        if (
+          pendingMutationRef.current ||
+          committingRef.current ||
+          hydrationTargetRef.current !== null ||
+          verifiedCommitRef.current !== null
+        ) {
+          return {
+            ok: false,
+            status: "stale",
+            message:
+              "Continuity changed during recovery verification.",
+          };
+        }
+
+        /*
+         * 05 / Read and validate persistence.
+         */
+        const stored =
+          readSessionState();
+
+        if (!stored.ok) {
+          return {
+            ok: false,
+            status: "storage-error",
+            message:
+              "Stored Continuity could not be validated.",
+          };
+        }
+
+        if (
+          stored.state &&
+          !stateEquals(
+            stored.state,
+            expected,
+          )
+        ) {
+          return {
+            ok: false,
+            status: "stale",
+            message:
+              "Stored Continuity differs from the reviewed state.",
+          };
+        }
+
+        /*
+         * 06 / Privacy and invariant boundary.
+         */
+        const boundary =
+          acceptContinuityState(
+            reviewed.state,
+            "continuity",
+          );
+
+        if (!boundary.accepted) {
+          return {
+            ok: false,
+            status: "invalid",
+            message:
+              "Recovery candidate failed the privacy boundary.",
+          };
+        }
+
+        if (
+          inspectContinuityInvariants(
+            boundary.data,
+          ).length > 0
+        ) {
+          return {
+            ok: false,
+            status: "invalid",
+            message:
+              "Recovery candidate failed Continuity invariants.",
+          };
+        }
+
+        const candidate =
+          validateState(
+            boundary.data,
+          );
+
+        if (!candidate) {
+          return {
+            ok: false,
+            status: "invalid",
+            message:
+              "Recovery candidate failed final state validation.",
+          };
+        }
+
+        /*
+         * 07 / Capture exact storage bytes
+         * before replacement.
+         */
+        let previousRaw:
+          | string
+          | null;
+
+        try {
+          previousRaw =
+            window.sessionStorage.getItem(
+              CONTINUITY_SESSION_KEY,
+            );
+        } catch {
+          return {
+            ok: false,
+            status: "storage-error",
+            message:
+              "Recovery storage is unavailable.",
+          };
+        }
+
+        /*
+         * 08 / Final conflict check.
+         *
+         * No asynchronous operation occurs
+         * between this check and the write.
+         */
+        const finalStored =
+          readSessionState();
+
+        if (
+          !finalStored.ok ||
+          finalStored.exists !==
+            stored.exists ||
+          (
+            finalStored.state !== null &&
+            !stateEquals(
+              finalStored.state,
+              expected,
+            )
+          ) ||
+          !stateEquals(
+            stateRef.current,
+            expected,
+          ) ||
+          pendingMutationRef.current
+        ) {
+          return {
+            ok: false,
+            status: "stale",
+            message:
+              "Continuity changed before the recovery commit.",
+          };
+        }
+
+        /*
+         * 09 / Write candidate.
+         */
+        if (
+          !writeSessionState(
+            candidate,
+          )
+        ) {
+          const rolledBack =
+            restoreSessionRaw(
+              previousRaw,
+            );
+
+          if (!rolledBack) {
+            setStatus("rejected");
+          }
+
+          return {
+            ok: false,
+            status: "storage-error",
+            message: rolledBack
+              ? "Recovery write failed. Previous stored state was restored."
+              : "Recovery write failed and rollback could not be verified. Preserve the exported JSON.",
+          };
+        }
+
+        /*
+         * 10 / Independent read-back.
+         */
+        const verified =
+          readSessionState();
+
+        if (
+          !verified.ok ||
+          !verified.state ||
+          !stateEquals(
+            verified.state,
+            candidate,
+          )
+        ) {
+          const rolledBack =
+            restoreSessionRaw(
+              previousRaw,
+            );
+
+          if (!rolledBack) {
+            setStatus("rejected");
+          }
+
+          return {
+            ok: false,
+            status: "storage-error",
+            message: rolledBack
+              ? "Recovery read-back failed. Previous stored state was restored."
+              : "Recovery read-back failed and rollback could not be verified.",
+          };
+        }
+
+        /*
+         * 11 / Commit verified state.
+         *
+         * Persistence becomes authoritative
+         * before the React import dispatch.
+         */
+        persistenceVersionRef.current += 1;
+
+        verifiedCommitRef.current =
+          verified.state;
+
+        stateRef.current =
+          verified.state;
+
+        pendingMutationRef.current =
+          false;
+
+        dispatch({
+          type: "state/import",
+          payload: verified.state,
+        });
+
+        return {
+          ok: true,
+          status: "committed",
+          message:
+            "Recovery committed, persisted, and read-back verified.",
+        };
+      } catch {
+        return {
+          ok: false,
+          status: "storage-error",
+          message:
+            "Recovery was interrupted. Verify the current workspace before retrying.",
+        };
+      } finally {
+        recoveringRef.current = false;
+      }
+    },
+    [status],
+  );
 
   /* ========================================================
-     26 / IMPORT
+     30 / LEGACY STATE IMPORT
 
-     Portable envelope verification belongs to
-     the later Portable State layer.
+     Preserved for compatibility with
+     existing Continuity integrations.
+
+     This is not the Portable Recovery API.
   ======================================================== */
 
   const importState = useCallback(
     (
       incoming: ContinuityState,
     ): boolean => {
+      if (
+        committingRef.current ||
+        recoveringRef.current
+      ) {
+        return false;
+      }
+
       const boundary =
         acceptContinuityState(
           incoming,
@@ -1300,37 +1709,52 @@ export function ContinuityProvider({
         return false;
       }
 
-      dispatch({
+      dispatchContinuity({
         type: "state/import",
         payload: boundary.data,
       });
 
       return true;
     },
-    [],
+    [dispatchContinuity],
   );
 
-
   /* ========================================================
-     27 / RESET
+     31 / RESET
   ======================================================== */
 
-  const resetContinuity = useCallback(() => {
-    clearSessionState();
+  const resetContinuity =
+    useCallback(() => {
+      if (
+        committingRef.current ||
+        recoveringRef.current
+      ) {
+        return;
+      }
 
-    hydrationTargetRef.current = null;
-    verifiedCommitRef.current = null;
+      if (!clearSessionState()) {
+        setStatus("rejected");
+        return;
+      }
 
-    dispatch({
-      type: "continuity/reset",
-    });
+      hydrationTargetRef.current =
+        null;
 
-    setStatus("ready");
-  }, []);
+      verifiedCommitRef.current =
+        null;
 
+      pendingMutationRef.current =
+        true;
+
+      dispatch({
+        type: "continuity/reset",
+      });
+
+      setStatus("ready");
+    }, []);
 
   /* ========================================================
-     28 / DERIVED STATE
+     32 / DERIVED STATE
   ======================================================== */
 
   const summary = useMemo(
@@ -1339,49 +1763,45 @@ export function ContinuityProvider({
   );
 
   const invariantIssues = useMemo(
-    () => inspectContinuityInvariants(state),
+    () => inspectContinuityInvariants(
+      state,
+    ),
     [state],
   );
 
-
   /* ========================================================
-     29 / COMMAND OBJECT
+     33 / COMMAND OBJECT
   ======================================================== */
 
   const commands =
     useMemo<ContinuityCommands>(
       () => ({
         beginInquiry,
-
         setInquiryStatus,
 
         addEvidence,
-
         removeEvidence,
 
         addReasoning,
-
         removeReasoning,
 
         addUncertainty,
-
         resolveUncertainty,
 
         addSystemNode,
-
         addSystemRelation,
 
         upsertDecision,
-
         upsertOutput,
 
         setRealityCheck,
 
         setMode,
-
         setView,
 
         commitEpistemeTransfer,
+
+        commitPortableRecovery,
 
         importState,
 
@@ -1390,43 +1810,50 @@ export function ContinuityProvider({
       [
         beginInquiry,
         setInquiryStatus,
+
         addEvidence,
         removeEvidence,
+
         addReasoning,
         removeReasoning,
+
         addUncertainty,
         resolveUncertainty,
+
         addSystemNode,
         addSystemRelation,
+
         upsertDecision,
         upsertOutput,
+
         setRealityCheck,
+
         setMode,
         setView,
+
         commitEpistemeTransfer,
+
+        commitPortableRecovery,
+
         importState,
+
         resetContinuity,
       ],
     );
 
-
   /* ========================================================
-     30 / CONTEXT VALUE
+     34 / CONTEXT VALUE
   ======================================================== */
 
   const contextValue =
     useMemo<ContinuityContextValue>(
       () => ({
         state,
-
         summary,
-
         status,
-
         invariantIssues,
-
-        dispatch,
-
+        dispatch:
+          dispatchContinuity,
         commands,
       }),
       [
@@ -1434,10 +1861,10 @@ export function ContinuityProvider({
         summary,
         status,
         invariantIssues,
+        dispatchContinuity,
         commands,
       ],
     );
-
 
   return (
     <ContinuityContext.Provider
@@ -1448,9 +1875,8 @@ export function ContinuityProvider({
   );
 }
 
-
 /* ==========================================================
-   31 / PRIMARY HOOK
+   35 / PRIMARY HOOK
 ========================================================== */
 
 export function useContinuity():
@@ -1468,9 +1894,8 @@ export function useContinuity():
   return context;
 }
 
-
 /* ==========================================================
-   32 / FOCUSED HOOKS
+   36 / FOCUSED HOOKS
 ========================================================== */
 
 export function useContinuityState():
@@ -1488,9 +1913,8 @@ export function useContinuitySummary():
   return useContinuity().summary;
 }
 
-
 /* ==========================================================
-   33 / PROVIDER MANIFEST
+   37 / PROVIDER MANIFEST
 ========================================================== */
 
 export const continuityProviderManifest = {
@@ -1511,6 +1935,22 @@ export const continuityProviderManifest = {
   transactionalTransferIntegrity: true,
 
   transferVersion: "1.7.3",
+
+  portableRecovery: true,
+
+  recoveryVersion: "1.7.4.4",
+
+  recoveryAuthorization:
+    "Explicit review and confirmation in Portable Panel",
+
+  recoveryIntegrity:
+    "SHA-256, schema, privacy and invariant validation",
+
+  recoveryPersistence:
+    "Validated sessionStorage write and read-back",
+
+  recoveryRollback:
+    "Best-effort restoration of previous session value",
 
   transferPersistence:
     "Validated sessionStorage write and read-back",
