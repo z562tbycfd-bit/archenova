@@ -28159,6 +28159,49 @@ useEffect(() => {
             scroll-behavior: auto;
           }
         }
+
+        /* ==================================================
+           MOBILE LIVE SIGNALS / COMPOSER COLLISION FIX
+           CSS ONLY — preserve all application logic
+        ================================================== */
+        @media (max-width: 768px) {
+          .ep-dialogue .ep-dialogue__signals {
+            /* Keep the drawer above Transfer to Aevum,
+               mode controls, composer and safe-area footer. */
+            top: 76px !important;
+            bottom: calc(240px + env(safe-area-inset-bottom, 0px)) !important;
+            height: auto !important;
+            max-height: none !important;
+            min-height: 0 !important;
+            z-index: 210 !important;
+            display: flex !important;
+            flex-direction: column !important;
+            overflow: hidden !important;
+            -webkit-backdrop-filter: none !important;
+            backdrop-filter: none !important;
+          }
+
+          .ep-dialogue .ep-dialogue__signals-head {
+            flex: 0 0 64px !important;
+            height: 64px !important;
+          }
+
+          .ep-dialogue .ep-dialogue__signal-feed {
+            flex: 1 1 auto !important;
+            height: auto !important;
+            min-height: 0 !important;
+            overflow-y: auto !important;
+            overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
+          }
+        }
+
+        @media (max-width: 768px) and (max-height: 650px) {
+          .ep-dialogue .ep-dialogue__signals {
+            top: 64px !important;
+            bottom: calc(205px + env(safe-area-inset-bottom, 0px)) !important;
+          }
+        }
       `}
 
       
