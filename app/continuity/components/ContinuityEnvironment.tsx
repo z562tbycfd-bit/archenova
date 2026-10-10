@@ -322,18 +322,11 @@ export default function ContinuityEnvironment() {
 
       <section className="continuity__environment">
         <div className="continuity__intro">
-  <p className="continuity__eyebrow">
-    ARCHENOVA / INTELLECTUAL CONTINUITY
-  </p>
 
   <h1 className="continuity__title">
     Aevum
   </h1>
-
-  <p className="continuity__thesis">
-    Where inquiry endures.
-  </p>
-
+  
   <p className="continuity__definition">
     Carry questions, evidence, and reasoning
     across ArcheNova.
