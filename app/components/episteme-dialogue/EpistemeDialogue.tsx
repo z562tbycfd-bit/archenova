@@ -29324,6 +29324,129 @@ useEffect(() => {
         .ep-verification__advance > strong { color:#fff; letter-spacing:.05em; }
         .ep-verification__advance li { color:#ddd; line-height:1.6; }
         @media(max-width:700px) { .ep-verification__review,.ep-verification__review-item,.ep-verification__advance { padding:13px; } }
+
+        /* STAGE 3.1 · ABSOLUTE BLACK / RESPONSIVE FINISH
+           Presentation-only: no JSX, state, gates, or review logic changed. */
+        .ep-verification {
+          isolation:isolate;
+          width:100%;
+          min-width:0;
+          max-width:100%;
+          overflow-wrap:anywhere;
+          background:#070707;
+          border:1px solid rgba(255,255,255,.14);
+          box-shadow:inset 0 1px 0 rgba(255,255,255,.045);
+          color-scheme:dark;
+        }
+        .ep-verification :is(button,summary,input,textarea,select) {
+          -webkit-tap-highlight-color:transparent;
+        }
+        .ep-verification :is(button,summary):focus-visible,
+        .ep-verification :is(input,textarea,select):focus-visible {
+          outline:2px solid rgba(255,255,255,.86);
+          outline-offset:3px;
+        }
+        .ep-verification__top,
+        .ep-verification__metrics,
+        .ep-verification__columns,
+        .ep-verification__panel,
+        .ep-verification__review,
+        .ep-verification__review-item,
+        .ep-verification__advance { min-width:0; max-width:100%; }
+        .ep-verification__panel,
+        .ep-verification__metrics > div,
+        .ep-verification__review-item,
+        .ep-verification__advance {
+          background:#101010;
+          border:1px solid rgba(255,255,255,.14);
+          box-shadow:inset 0 1px 0 rgba(255,255,255,.035);
+        }
+        .ep-verification__status {
+          background:#141414;
+          border-color:rgba(255,255,255,.20);
+          max-width:100%;
+        }
+        .ep-verification__artifact {
+          background:#151515;
+          border-color:rgba(255,255,255,.15);
+          overflow:hidden;
+        }
+        .ep-verification__artifact summary,
+        .ep-verification__checks summary {
+          min-height:44px;
+          display:list-item;
+          padding-block:14px;
+          color:#f6f6f6;
+          line-height:1.6;
+          transition:color .18s ease;
+        }
+        .ep-verification__artifact summary:hover,
+        .ep-verification__checks summary:hover { color:#fff; }
+        .ep-verification__artifact-gate {
+          border:1px solid rgba(255,255,255,.11);
+          background:#090909;
+        }
+        .ep-verification__checks { background:#101010; }
+        .ep-verification__review {
+          background:#090909;
+          border-color:rgba(255,255,255,.16);
+        }
+        .ep-verification__review-item :is(input,textarea,select) {
+          background:#070707;
+          border-color:rgba(255,255,255,.23);
+          color:#f5f5f5;
+          min-height:44px;
+          line-height:1.55;
+        }
+        .ep-verification__review-item textarea {
+          min-height:95px;
+          max-height:40vh;
+          overflow-y:auto;
+        }
+        .ep-verification__review :is(button) {
+          min-height:44px;
+          background:#191919;
+          color:#fff;
+          border-color:rgba(255,255,255,.28);
+          transition:background-color .18s ease,border-color .18s ease,transform .18s ease;
+        }
+        .ep-verification__review button:hover:not(:disabled) {
+          background:#262626;
+          border-color:rgba(255,255,255,.45);
+        }
+        .ep-verification__review button:active:not(:disabled) { transform:scale(.99); }
+        .ep-verification__recorded { white-space:pre-wrap; overflow-wrap:anywhere; }
+        .ep-verification :is(p,li,strong,small,span) { overflow-wrap:anywhere; }
+        @media (max-width:900px) {
+          .ep-verification__columns { grid-template-columns:minmax(0,1fr); }
+          .ep-verification__metrics { grid-template-columns:repeat(2,minmax(0,1fr)); }
+        }
+        @media (max-width:600px) {
+          .ep-verification {
+            padding:14px;
+            border-radius:17px;
+            margin-bottom:16px;
+          }
+          .ep-verification__top { flex-direction:column; align-items:stretch; gap:10px; }
+          .ep-verification__status { align-self:flex-start; }
+          .ep-verification__metrics {
+            grid-template-columns:repeat(2,minmax(0,1fr));
+            gap:8px;
+            margin:15px 0;
+          }
+          .ep-verification__metrics > div { padding:13px; }
+          .ep-verification__metrics > div:first-child { grid-column:1/-1; }
+          .ep-verification__panel { padding:14px; }
+          .ep-verification__review,
+          .ep-verification__review-item,
+          .ep-verification__advance { padding:13px; }
+          .ep-verification__review-item :is(input,textarea,select) { font-size:16px; }
+          .ep-verification__review button { width:100%; }
+          .ep-verification h3 { font-size:21px; }
+        }
+        @media (prefers-reduced-motion:reduce) {
+          .ep-verification :is(button,summary) { transition:none!important; transform:none!important; }
+        }
       `}
 
       
