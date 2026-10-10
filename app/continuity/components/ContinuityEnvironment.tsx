@@ -2419,6 +2419,341 @@ export default function ContinuityEnvironment() {
             animation-iteration-count: 1 !important;
           }
         }
+
+/* ==========================================================
+   23 / AEVUM — ULTRA-THIN OPTICAL GLASS UPGRADE
+
+   VISUAL ONLY
+   - Thin translucent glass
+   - Refined optical edge
+   - Subtle reflected illumination
+   - Improved text contrast
+   - No component or behavior changes
+========================================================== */
+
+/* ----------------------------------------------------------
+   01 / GLASS MATERIAL SYSTEM
+---------------------------------------------------------- */
+
+body .continuity {
+  --aevum-film:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.046) 0%,
+      rgba(255,255,255,.019) 32%,
+      rgba(255,255,255,.008) 68%,
+      rgba(255,255,255,.024) 100%
+    );
+
+  --aevum-film-edge:
+    rgba(255,255,255,.155);
+
+  --aevum-film-reflection:
+    rgba(255,255,255,.115);
+
+  --aevum-film-shadow:
+    0 30px 90px rgba(0,0,0,.20),
+    inset 0 1px 0 rgba(255,255,255,.105),
+    inset 0 -1px 0 rgba(255,255,255,.025);
+}
+
+/* ----------------------------------------------------------
+   02 / PRIMARY OPTICAL GLASS SURFACES
+---------------------------------------------------------- */
+
+body .continuity .continuity__origin-core,
+body .continuity .continuity__question,
+body .continuity .continuity__mode-environment,
+body .continuity .continuity__evidence-environment,
+body .continuity .continuity__reality {
+  border-color: var(--aevum-film-edge);
+
+  background:
+    radial-gradient(
+      ellipse 80% 70% at 24% -12%,
+      rgba(255,255,255,.062),
+      transparent 76%
+    ),
+    var(--aevum-film);
+
+  backdrop-filter:
+    blur(24px) saturate(118%);
+
+  -webkit-backdrop-filter:
+    blur(24px) saturate(118%);
+
+  box-shadow:
+    var(--aevum-film-shadow);
+
+  transition:
+    border-color .45s ease,
+    background .45s ease,
+    box-shadow .45s ease;
+}
+
+/* ----------------------------------------------------------
+   03 / MICRO-REFRACTION AND TOP EDGE
+---------------------------------------------------------- */
+
+body .continuity .continuity__origin-core::after,
+body .continuity .continuity__question::after,
+body .continuity .continuity__mode-environment::after,
+body .continuity .continuity__evidence-environment::after,
+body .continuity .continuity__reality::after {
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255,255,255,.11) 15%,
+      rgba(255,255,255,.37) 50%,
+      rgba(255,255,255,.11) 85%,
+      transparent 100%
+    );
+
+  opacity: .72;
+}
+
+/* ----------------------------------------------------------
+   04 / HOVER — SUBTLE REFLECTION
+---------------------------------------------------------- */
+
+@media (hover: hover) and (pointer: fine) {
+  body .continuity .continuity__origin-core:hover,
+  body .continuity .continuity__question:hover,
+  body .continuity .continuity__satellite:hover {
+    border-color: rgba(255,255,255,.24);
+
+    box-shadow:
+      0 38px 105px rgba(0,0,0,.23),
+      inset 0 1px 0 rgba(255,255,255,.17),
+      inset 0 -1px 0 rgba(255,255,255,.035),
+      0 0 65px rgba(205,222,245,.018);
+  }
+}
+
+/* ----------------------------------------------------------
+   05 / SECONDARY GLASS — SATELLITES
+---------------------------------------------------------- */
+
+body .continuity .continuity__satellite {
+  border-color: rgba(255,255,255,.125);
+
+  background:
+    radial-gradient(
+      ellipse 90% 75% at 20% -15%,
+      rgba(255,255,255,.048),
+      transparent 80%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.034),
+      rgba(255,255,255,.009) 75%
+    );
+
+  backdrop-filter:
+    blur(20px) saturate(115%);
+
+  -webkit-backdrop-filter:
+    blur(20px) saturate(115%);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.09),
+    0 18px 55px rgba(0,0,0,.13);
+}
+
+/* ----------------------------------------------------------
+   06 / MODE NAVIGATION — CONTINUOUS GLASS STRIP
+---------------------------------------------------------- */
+
+body .continuity .continuity__modes {
+  border-color: rgba(255,255,255,.125);
+
+  background:
+    linear-gradient(
+      160deg,
+      rgba(255,255,255,.035),
+      rgba(255,255,255,.009)
+    );
+
+  backdrop-filter:
+    blur(22px) saturate(115%);
+
+  -webkit-backdrop-filter:
+    blur(22px) saturate(115%);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.09),
+    0 16px 48px rgba(0,0,0,.12);
+}
+
+body .continuity .continuity__mode--active {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,.095),
+      rgba(255,255,255,.019)
+    );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.11);
+}
+
+/* ----------------------------------------------------------
+   07 / EVIDENCE CANDIDATES — THIN GLASS FILM
+---------------------------------------------------------- */
+
+body .continuity .continuity__candidate,
+body .continuity .continuity__evidence-item {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.024),
+      rgba(255,255,255,.006)
+    );
+
+  border-color:
+    rgba(255,255,255,.105);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body .continuity .continuity__candidate:hover,
+  body .continuity .continuity__evidence-item:hover {
+    background:
+      linear-gradient(
+        145deg,
+        rgba(255,255,255,.048),
+        rgba(255,255,255,.012)
+      );
+
+    border-color:
+      rgba(255,255,255,.18);
+  }
+}
+
+/* ----------------------------------------------------------
+   08 / INTERACTIVE CONTROLS
+---------------------------------------------------------- */
+
+body .continuity .continuity__review-option {
+  border-color: rgba(255,255,255,.14);
+
+  background:
+    rgba(255,255,255,.015);
+}
+
+body .continuity .continuity__review-option--active {
+  border-color: rgba(255,255,255,.38);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.085),
+      rgba(255,255,255,.025)
+    );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.12);
+}
+
+/* ----------------------------------------------------------
+   09 / TYPOGRAPHIC CONTRAST
+---------------------------------------------------------- */
+
+body .continuity .continuity__definition,
+body .continuity .continuity__origin-description,
+body .continuity .continuity__purpose {
+  color: rgba(242,243,245,.70);
+}
+
+body .continuity .continuity__satellite p {
+  color: rgba(237,239,243,.65);
+}
+
+body .continuity .continuity__eyebrow,
+body .continuity .continuity__origin-line {
+  color: rgba(238,240,243,.61);
+}
+
+body .continuity .continuity__mode {
+  color: rgba(238,240,243,.64);
+}
+
+body .continuity .continuity__mode--active {
+  color: rgba(255,255,255,.98);
+}
+
+body .continuity .continuity__footer p {
+  color: rgba(239,240,243,.65);
+}
+
+/* ----------------------------------------------------------
+   10 / INPUT SURFACE REFINEMENT
+---------------------------------------------------------- */
+
+body .continuity .continuity__composer textarea,
+body .continuity .continuity__composer input,
+body .continuity .continuity__knowledge-form input,
+body .continuity .continuity__review-field input,
+body .continuity .continuity__review-field textarea {
+  color: rgba(255,255,255,.94);
+
+  border-bottom-color:
+    rgba(255,255,255,.22);
+}
+
+body .continuity .continuity__composer textarea::placeholder,
+body .continuity .continuity__composer input::placeholder {
+  color: rgba(238,240,244,.44);
+}
+
+/* ----------------------------------------------------------
+   11 / MOBILE OPTICAL OPTIMIZATION
+---------------------------------------------------------- */
+
+@media (max-width: 700px) {
+  body .continuity .continuity__origin-core,
+  body .continuity .continuity__question,
+  body .continuity .continuity__mode-environment,
+  body .continuity .continuity__evidence-environment,
+  body .continuity .continuity__reality {
+    backdrop-filter:
+      blur(16px) saturate(110%);
+
+    -webkit-backdrop-filter:
+      blur(16px) saturate(110%);
+  }
+
+  body .continuity .continuity__satellite,
+  body .continuity .continuity__modes {
+    backdrop-filter:
+      blur(14px) saturate(110%);
+
+    -webkit-backdrop-filter:
+      blur(14px) saturate(110%);
+  }
+}
+
+/* ----------------------------------------------------------
+   12 / FALLBACK FOR UNSUPPORTED BACKDROP FILTER
+---------------------------------------------------------- */
+
+@supports not (
+  (backdrop-filter: blur(1px)) or
+  (-webkit-backdrop-filter: blur(1px))
+) {
+  body .continuity .continuity__origin-core,
+  body .continuity .continuity__question,
+  body .continuity .continuity__satellite,
+  body .continuity .continuity__modes,
+  body .continuity .continuity__mode-environment,
+  body .continuity .continuity__evidence-environment,
+  body .continuity .continuity__reality {
+    background-color: rgba(13,15,19,.94);
+  }
+}
+
       `}</style>
     </main>
   );
