@@ -15213,28 +15213,159 @@ useEffect(() => {
       [activeCaseId, caseSessions],
     );
 
-  /* CASE verification workspace: read-only projection of existing state. */
+  /* Stage 2: typed, read-only artifact projections. No evidence promotion. */
+  type VerificationArtifact = {
+    id: string;
+    title: string;
+    thesis: string;
+    criteria: string[];
+    evidenceReferences: { id: string; disposition: "ADMITTED" | "CONTEXT_ONLY" | "REJECTED" }[];
+    unresolved: string[];
+    nextTest: string;
+    gate: {
+      status: "PASS" | "CONDITIONAL" | "HOLD" | "REJECT";
+      basis: string;
+      checks: { id: string; label: string; result: string; note: string }[];
+    };
+  };
   const caseVerification = useMemo(() => {
     if (!activeCase) return null;
     const completed = activeCase.messages.filter(
       (item) => item.role === "episteme" && !item.streaming && item.intelligence,
     );
     const latest = completed[completed.length - 1] ?? null;
-    const intelligence = latest?.intelligence;
-    const gate = intelligence?.astraCore?.completionGate;
-    const closure = intelligence?.astraCore?.closureProtocol;
-    const artifacts = completed.slice(-8).reverse().map((item, index) => ({
-      id: item.id,
-      title: item.intelligence?.adaptiveResponse?.governingQuestion ||
-        `Episteme analysis ${completed.length - index}`,
-      thesis: item.intelligence?.adaptiveResponse?.thesis || item.text,
-      evidence: item.intelligence?.evidenceAudit?.uncertainty ||
-        item.intelligence?.uncertainty || "Uncertainty not specified",
-      test: item.intelligence?.epistemicContract?.correctionRule ||
-        "Decisive test not specified",
-    }));
+    const gate = latest?.intelligence?.astraCore?.completionGate;
+    const closure = latest?.intelligence?.astraCore?.closureProtocol;
+    const artifacts: VerificationArtifact[] = completed.slice(-8).reverse().map((item, index) => {
+      const intelligence = item.intelligence!;
+      const contract = intelligence.epistemicContract;
+      const audit = intelligence.evidenceAudit;
+      const ownGate = intelligence.astraCore?.completionGate;
+      const ownClosure = intelligence.astraCore?.closureProtocol;
+      const evidenceReferences: VerificationArtifact["evidenceReferences"] = [
+        ...audit.admittedSignalIds.map((id) => ({ id, disposition: "ADMITTED" as const })),
+        ...audit.contextOnlySignalIds.map((id) => ({ id, disposition: "CONTEXT_ONLY" as const })),
+        ...audit.rejectedSignalIds.map((id) => ({ id, disposition: "REJECTED" as const })),
+      ];
+      const unresolved = Array.from(new Set([
+        ...contract.uncertaintyBoundary,
+        ...contract.disconfirmationConditions,
+        ...(ownClosure?.unresolvedConditions ?? []),
+        ...(ownGate?.blockers ?? []),
+        ...(ownGate?.remainingWork ?? []),
+      ].map((value) => value.trim()).filter(Boolean)));
+      // A computed gate is an AI assessment, not independent verification.
+      // A lack of admitted evidence cannot be silently converted into PASS.
+      const status: VerificationArtifact["gate"]["status"] =
+        ownGate?.status === "BLOCKED" ? "REJECT" :
+        !evidenceReferences.some((ref) => ref.disposition === "ADMITTED") ? "HOLD" :
+        ownGate?.status === "READY" && unresolved.length === 0 ? "CONDITIONAL" :
+        ownGate?.status === "READY_WITH_LIMITS" ? "CONDITIONAL" : "HOLD";
+      return {
+        id: item.id,
+        title: intelligence.adaptiveResponse?.governingQuestion || `Episteme analysis ${completed.length - index}`,
+        thesis: intelligence.adaptiveResponse?.thesis || item.text,
+        criteria: Array.from(new Set([
+          ...contract.evidenceRequirements,
+          ...contract.demonstrationThreshold,
+          contract.realityTest,
+        ].map((value) => value.trim()).filter(Boolean))),
+        evidenceReferences,
+        unresolved,
+        nextTest: contract.correctionRule || contract.nextAction || "Decisive test not specified",
+        gate: {
+          status,
+          basis: ownGate?.releaseDecision || "No completion decision has been generated for this artifact.",
+          checks: (ownGate?.checks ?? []).map((check) => ({
+            id: check.id, label: check.label,
+            result: check.passed ? "ASSESSED PASS" : check.limited ? "LIMITED" : "BLOCKED",
+            note: check.note,
+          })),
+        },
+      };
+    });
     return { gate, closure, artifacts, total: completed.length };
   }, [activeCase]);
+
+  /* Stage 3: explicit human review records; session-scoped, never evidence promotion. */
+  type ReviewVerdict = "PASS" | "FAIL" | "INCONCLUSIVE";
+  type ReviewRecord = {
+    criterion: string;
+    verdict: ReviewVerdict;
+    rationale: string;
+    evidenceReference: string;
+    recordedAt: string;
+  };
+  const [artifactReviews, setArtifactReviews] = useState<
+    Record<string, Record<number, ReviewRecord>>
+  >({});
+  const [artifactReviewDrafts, setArtifactReviewDrafts] = useState<
+    Record<string, Record<number, { verdict: ReviewVerdict; rationale: string; evidenceReference: string }>>
+  >({});
+  const [artifactAdvanceRecords, setArtifactAdvanceRecords] = useState<
+    Record<string, { at: string; decision: "ADVANCED" }>
+  >({});
+  const updateArtifactDraft = (
+    artifactId: string,
+    index: number,
+    patch: Partial<{ verdict: ReviewVerdict; rationale: string; evidenceReference: string }>,
+  ) => {
+    setArtifactReviewDrafts((previous) => ({
+      ...previous,
+      [artifactId]: {
+        ...(previous[artifactId] ?? {}),
+        [index]: {
+          verdict: "INCONCLUSIVE",
+          rationale: "",
+          evidenceReference: "",
+          ...(previous[artifactId]?.[index] ?? {}),
+          ...patch,
+        },
+      },
+    }));
+  };
+  const recordArtifactReview = (artifactId: string, index: number, criterion: string) => {
+    const draft = artifactReviewDrafts[artifactId]?.[index];
+    if (!draft || !draft.rationale.trim() || !draft.evidenceReference.trim()) return;
+    const record: ReviewRecord = {
+      criterion,
+      verdict: draft.verdict,
+      rationale: draft.rationale.trim(),
+      evidenceReference: draft.evidenceReference.trim(),
+      recordedAt: new Date().toISOString(),
+    };
+    setArtifactReviews((previous) => ({
+      ...previous,
+      [artifactId]: { ...(previous[artifactId] ?? {}), [index]: record },
+    }));
+    setArtifactAdvanceRecords((previous) => {
+      const next = { ...previous };
+      delete next[artifactId];
+      return next;
+    });
+  };
+  const reviewGateForArtifact = (artifact: VerificationArtifact) => {
+    const records = artifactReviews[artifact.id] ?? {};
+    const reviewed = artifact.criteria.filter((criterion, i) => records[i]?.criterion === criterion);
+    const allPassed = artifact.criteria.length > 0 &&
+      reviewed.length === artifact.criteria.length &&
+      artifact.criteria.every((criterion, i) => records[i]?.criterion === criterion && records[i]?.verdict === "PASS");
+    const evidencePresent = artifact.evidenceReferences.some((reference) => reference.disposition === "ADMITTED");
+    const canAdvance = allPassed && evidencePresent && artifact.unresolved.length === 0 &&
+      artifact.gate.status !== "REJECT" && artifact.gate.status !== "HOLD";
+    const blockers = [
+      ...(artifact.criteria.length === 0 ? ["No verification criteria defined"] : []),
+      ...(reviewed.length < artifact.criteria.length ? [`${artifact.criteria.length - reviewed.length} criteria not recorded`] : []),
+      ...(reviewed.some((criterion) => {
+        const index = artifact.criteria.indexOf(criterion);
+        return records[index]?.verdict !== "PASS";
+      }) ? ["At least one recorded result is FAIL or INCONCLUSIVE"] : []),
+      ...(!evidencePresent ? ["No admitted source reference in existing audit"] : []),
+      ...(artifact.unresolved.length ? [`${artifact.unresolved.length} unresolved conditions`] : []),
+      ...(["HOLD", "REJECT"].includes(artifact.gate.status) ? [`AI assessment: ${artifact.gate.status}`] : []),
+    ];
+    return { reviewed: reviewed.length, total: artifact.criteria.length, canAdvance, blockers };
+  };
 
   const threadTitle =
     useMemo(
@@ -16041,10 +16172,96 @@ useEffect(() => {
                     ) : caseVerification.artifacts.map((artifact) => (
                       <details key={artifact.id} className="ep-verification__artifact">
                         <summary>{artifact.title}</summary>
+                        <div className="ep-verification__artifact-gate">
+                          <small>ARTIFACT ADVANCEMENT ASSESSMENT</small>
+                          <strong>{artifact.gate.status}</strong>
+                          <p>{artifact.gate.basis}</p>
+                        </div>
                         <div><small>ANALYTICAL THESIS</small><p>{artifact.thesis}</p></div>
-                        <div><small>UNCERTAINTY / EVIDENCE BOUNDARY</small><p>{artifact.evidence}</p></div>
-                        <div><small>CORRECTION / NEXT TEST</small><p>{artifact.test}</p></div>
-                        <small>Generated analysis · not automatically promoted to verified evidence</small>
+                        <div><small>VERIFICATION CRITERIA · {artifact.criteria.length}</small>
+                          {artifact.criteria.length ? <ul>{artifact.criteria.map((criterion, i) => <li key={i}>{criterion}</li>)}</ul> : <p>Not specified. Advancement remains on hold.</p>}
+                        </div>
+                        <div><small>EVIDENCE REFERENCES · {artifact.evidenceReferences.length}</small>
+                          {artifact.evidenceReferences.length ? <ul>{artifact.evidenceReferences.map((ref, i) => <li key={`${ref.id}-${i}`}><strong>{ref.disposition.replaceAll("_", " ")}</strong> · {ref.id}</li>)}</ul> : <p>No traceable signal references. This is not evidence of absence.</p>}
+                          <p>ADMITTED denotes the existing audit's classification, not independent source verification.</p>
+                        </div>
+                        <div><small>UNRESOLVED CONDITIONS · {artifact.unresolved.length}</small>
+                          {artifact.unresolved.length ? <ul>{artifact.unresolved.map((condition, i) => <li key={i}>{condition}</li>)}</ul> : <p>No unresolved conditions recorded; this does not prove completeness.</p>}
+                        </div>
+                        <div><small>CORRECTION / NEXT TEST</small><p>{artifact.nextTest}</p></div>
+                        <div className="ep-verification__review">
+                          <small>STAGE 3 · EXPLICIT VERIFICATION RECORD</small>
+                          <p>Human-entered review records. A recorded PASS is not independent proof, evidence promotion, or authorization to close the Case.</p>
+                          {artifact.criteria.map((criterion, index) => {
+                            const draft = artifactReviewDrafts[artifact.id]?.[index];
+                            const record = artifactReviews[artifact.id]?.[index];
+                            return (
+                              <div key={`${artifact.id}-review-${index}`} className="ep-verification__review-item">
+                                <strong>{index + 1}. {criterion}</strong>
+                                <label>Verification result
+                                  <select
+                                    value={draft?.verdict ?? "INCONCLUSIVE"}
+                                    onChange={(event) => updateArtifactDraft(artifact.id, index, { verdict: event.target.value as ReviewVerdict })}
+                                  >
+                                    <option value="INCONCLUSIVE">INCONCLUSIVE</option>
+                                    <option value="PASS">PASS</option>
+                                    <option value="FAIL">FAIL</option>
+                                  </select>
+                                </label>
+                                <label>Evidence reference / locator
+                                  <input
+                                    value={draft?.evidenceReference ?? ""}
+                                    placeholder="Source ID, document locator, or test record"
+                                    onChange={(event) => updateArtifactDraft(artifact.id, index, { evidenceReference: event.target.value })}
+                                  />
+                                </label>
+                                <label>Verification rationale
+                                  <textarea
+                                    rows={3}
+                                    value={draft?.rationale ?? ""}
+                                    placeholder="Method, observation, limits, and reason for the verdict"
+                                    onChange={(event) => updateArtifactDraft(artifact.id, index, { rationale: event.target.value })}
+                                  />
+                                </label>
+                                <button
+                                  type="button"
+                                  disabled={!draft?.evidenceReference.trim() || !draft?.rationale.trim()}
+                                  onClick={() => recordArtifactReview(artifact.id, index, criterion)}
+                                >Record verification result</button>
+                                {record?.criterion === criterion && (
+                                  <p className="ep-verification__recorded">
+                                    RECORDED · {record.verdict} · {record.recordedAt}
+                                    <span>{record.evidenceReference} — {record.rationale}</span>
+                                  </p>
+                                )}
+                              </div>
+                            );
+                          })}
+                          {(() => {
+                            const assessment = reviewGateForArtifact(artifact);
+                            const advanced = artifactAdvanceRecords[artifact.id];
+                            return (
+                              <div className="ep-verification__advance">
+                                <strong>ADVANCEMENT CONTROL · {advanced && assessment.canAdvance ? "ADVANCED (WORKSPACE)" : assessment.canAdvance ? "ELIGIBLE FOR REVIEWED ADVANCEMENT" : "HOLD"}</strong>
+                                <p>{assessment.reviewed} / {assessment.total} criteria explicitly recorded.</p>
+                                {assessment.blockers.length > 0 && <ul>{assessment.blockers.map((blocker, i) => <li key={i}>{blocker}</li>)}</ul>}
+                                <button
+                                  type="button"
+                                  disabled={!assessment.canAdvance || Boolean(advanced)}
+                                  onClick={() => setArtifactAdvanceRecords((previous) => ({
+                                    ...previous,
+                                    [artifact.id]: { at: new Date().toISOString(), decision: "ADVANCED" },
+                                  }))}
+                                >{advanced && assessment.canAdvance ? "Advancement recorded" : "Record workspace advancement"}</button>
+                                <p>Advancement applies only to this session's review workspace. It does not change the Case Closure Protocol or Aevum state.</p>
+                              </div>
+                            );
+                          })()}
+                        </div>
+                        <div><small>EXISTING COMPLETION CHECKS · {artifact.gate.checks.length}</small>
+                          {artifact.gate.checks.length ? <ul>{artifact.gate.checks.map((check) => <li key={check.id}><strong>{check.result} · {check.label}</strong> — {check.note}</li>)}</ul> : <p>No gate checks recorded.</p>}
+                        </div>
+                        <small>AI-generated assessment only · not independently verified · no automatic evidence promotion</small>
                       </details>
                     ))}
                   </div>
@@ -29083,6 +29300,30 @@ useEffect(() => {
           .ep-verification__columns { grid-template-columns:1fr; }
           .ep-verification__panel { padding:16px; }
         }
+
+        /* Stage 2 structured artifact inspection: black, readable, responsive */
+        .ep-verification__artifact-gate { background:#0b0b0b; border-radius:10px; padding:13px 12px; margin-top:10px; }
+        .ep-verification__artifact-gate strong { display:block; margin:7px 0; font-size:13px; letter-spacing:.12em; color:#fff; }
+        .ep-verification__artifact ul { margin:9px 0 15px; padding-left:19px; display:grid; gap:9px; }
+        .ep-verification__artifact li { font-size:12px; line-height:1.65; color:rgba(245,245,245,.83); overflow-wrap:anywhere; }
+        .ep-verification__artifact li strong { color:#fff; }
+        .ep-verification__artifact > div { min-width:0; }
+
+        /* Stage 3 review records: black research interface, no mobile overlays */
+        .ep-verification__review { display:grid; gap:14px; margin-top:16px; padding:18px; background:#090909; border:1px solid rgba(255,255,255,.16); border-radius:16px; }
+        .ep-verification__review > small { letter-spacing:.14em; color:#dedede; }
+        .ep-verification__review-item { display:grid; gap:11px; padding:17px; background:#101010; border:1px solid rgba(255,255,255,.13); border-radius:13px; min-width:0; }
+        .ep-verification__review-item > strong { color:#f3f3f3; line-height:1.6; overflow-wrap:anywhere; }
+        .ep-verification__review-item label { display:grid; gap:7px; font-size:11px; letter-spacing:.03em; color:#dedede; }
+        .ep-verification__review-item :is(input,textarea,select) { width:100%; min-width:0; box-sizing:border-box; border:1px solid rgba(255,255,255,.23); border-radius:10px; padding:12px; background:#050505; color:#f4f4f4; color-scheme:dark; font:inherit; font-size:13px; }
+        .ep-verification__review-item textarea { resize:vertical; }
+        .ep-verification__review :is(button) { min-height:44px; padding:11px 15px; border:1px solid rgba(255,255,255,.32); border-radius:10px; background:#1a1a1a; color:#fff; cursor:pointer; }
+        .ep-verification__review button:disabled { opacity:.4; cursor:not-allowed; }
+        .ep-verification__recorded { display:grid; gap:7px; overflow-wrap:anywhere; color:#e8e8e8!important; }
+        .ep-verification__advance { display:grid; gap:12px; padding:18px; background:#070707; border:1px solid rgba(255,255,255,.22); border-radius:14px; }
+        .ep-verification__advance > strong { color:#fff; letter-spacing:.05em; }
+        .ep-verification__advance li { color:#ddd; line-height:1.6; }
+        @media(max-width:700px) { .ep-verification__review,.ep-verification__review-item,.ep-verification__advance { padding:13px; } }
       `}
 
       
