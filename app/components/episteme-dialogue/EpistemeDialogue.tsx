@@ -17695,6 +17695,11 @@ useEffect(() => {
                 <small>Knowledge graph</small>
               </button>
             </div>
+            <div className="ep-universal-modebar__context" aria-live="polite">
+              <span>ACTIVE INTELLIGENCE MODE</span>
+              <strong>{activeUniversalMode.label}</strong>
+              <p>{UNIVERSAL_MODE_OPTIONS.find((item) => item.id === universalMode)?.description ?? "Episteme adapts the response to your inquiry."}</p>
+            </div>
             <form
               className="ep-dialogue__composer"
               onSubmit={
@@ -28894,6 +28899,68 @@ useEffect(() => {
             background-color: #1b1b1b !important;
             border-color: rgba(255,255,255,.35) !important;
           }
+        }
+
+        /* =========================================================
+           EPISTEME · MONOCHROME RESEARCH INTERFACE
+           Accessibility, hierarchy, motion and detailed mode context.
+           No changes to inquiry, transfer, evidence or state semantics.
+        ========================================================= */
+        .ep-dialogue { --ep-black:#030303; --ep-panel:#101010; --ep-panel-raised:#171717; --ep-line:rgba(255,255,255,.16); --ep-copy:rgba(249,249,249,.93); --ep-secondary:rgba(235,235,235,.70); color-scheme:dark; }
+        .ep-dialogue :is(button,textarea,input,select) { -webkit-tap-highlight-color:transparent; }
+        .ep-dialogue :is(button,a,textarea,input,select):focus-visible { outline:2px solid rgba(255,255,255,.87); outline-offset:3px; }
+        .ep-universal-modebar__context { display:grid; grid-template-columns:auto auto minmax(0,1fr); align-items:center; gap:8px 12px; margin:0 0 11px; padding:11px 16px; border:1px solid var(--ep-line); border-radius:13px; background:#0e0e0e; }
+        .ep-universal-modebar__context span { font-size:9px; font-weight:550; letter-spacing:.13em; color:rgba(255,255,255,.60); }
+        .ep-universal-modebar__context strong { font-size:12px; font-weight:600; color:#fff; }
+        .ep-universal-modebar__context p { margin:0; min-width:0; color:rgba(255,255,255,.72); font-size:11px; line-height:1.55; overflow-wrap:anywhere; }
+        .ep-universal-modebar__modes button, .ep-universal-modebar__signal { min-height:50px; padding:10px 13px; border:1px solid rgba(255,255,255,.16); border-radius:13px; background:#0d0d0d; color:#f0f0f0; transition:background-color .22s ease,border-color .22s ease,transform .22s ease; }
+        .ep-universal-modebar__modes button strong,.ep-universal-modebar__signal strong { font-size:10px; letter-spacing:.10em; color:#f6f6f6; }
+        .ep-universal-modebar__modes button small,.ep-universal-modebar__signal small { font-size:9px; line-height:1.4; color:rgba(245,245,245,.63); }
+        .ep-universal-modebar__modes button:hover:not(:disabled),.ep-universal-modebar__signal:hover:not(:disabled) { background:#1b1b1b; border-color:rgba(255,255,255,.38); transform:translateY(-1px); }
+        .ep-universal-modebar__modes button.is-active { background:#202020; border-color:rgba(255,255,255,.55); box-shadow:inset 0 1px 0 rgba(255,255,255,.11); }
+        .ep-universal-modebar__modes button:active:not(:disabled),.ep-universal-modebar__signal:active:not(:disabled) { transform:scale(.985); }
+        .ep-dialogue .ep-case-rail__case { background:#101010 !important; color:#f6f6f6 !important; border:1px solid rgba(255,255,255,.18) !important; box-shadow:none !important; }
+        .ep-dialogue .ep-case-rail__case.is-active { background:#202020 !important; border-color:rgba(255,255,255,.46) !important; }
+        .ep-dialogue .ep-case-rail__case :is(span,strong,small) { color:rgba(250,250,250,.91) !important; }
+        .ep-dialogue .ep-scholarly__sections { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); gap:14px; align-items:stretch; }
+        .ep-dialogue .ep-scholarly__section { min-width:0; padding:clamp(18px,2vw,25px); border:1px solid rgba(255,255,255,.17) !important; border-radius:18px; background:#111 !important; box-shadow:inset 0 1px 0 rgba(255,255,255,.04); }
+        .ep-dialogue .ep-scholarly__section.is-primary { background:#191919 !important; border-color:rgba(255,255,255,.34) !important; }
+        .ep-dialogue .ep-scholarly__section > header { gap:12px; flex-wrap:wrap; margin-bottom:14px; padding-bottom:11px; border-bottom:1px solid rgba(255,255,255,.12); }
+        .ep-dialogue .ep-scholarly__section > header span { font-size:11px; line-height:1.4; color:rgba(250,250,250,.93); }
+        .ep-dialogue .ep-scholarly__section > header small { font-size:10px; line-height:1.4; color:rgba(239,239,239,.60); }
+        .ep-dialogue .ep-scholarly__section h4 { font-size:clamp(14px,1.2vw,17px); line-height:1.45; color:#fafafa; }
+        .ep-dialogue .ep-scholarly__section p { font-size:clamp(12.5px,1vw,14px) !important; line-height:1.82 !important; color:rgba(244,244,244,.83) !important; white-space:pre-wrap !important; overflow-wrap:anywhere; }
+        .ep-dialogue .ep-adaptive-canvas,.ep-dialogue .ep-cosmic-answer,.ep-dialogue .ep-universal-nexus { background-color:#090909 !important; background-image:none !important; border-color:rgba(255,255,255,.15) !important; }
+        .ep-dialogue .ep-adaptive-canvas__modules article { background:#141414 !important; border:1px solid rgba(255,255,255,.14) !important; border-radius:14px; padding:16px; }
+        .ep-dialogue .ep-adaptive-canvas__modules article > b { font-size:11px; color:#eee; }
+        .ep-dialogue .ep-adaptive-canvas__modules article span { font-size:11px; color:#f1f1f1; }
+        .ep-dialogue .ep-adaptive-canvas__modules article p { font-size:12px; line-height:1.75; color:rgba(240,240,240,.76); }
+        .ep-dialogue .ep-adaptive-canvas > header strong { font-size:14px; color:#fafafa; }
+        .ep-dialogue .ep-adaptive-canvas > header small,.ep-dialogue .ep-adaptive-canvas > header > span { font-size:10px; color:rgba(240,240,240,.65); }
+        .ep-dialogue .ep-adaptive-canvas footer :is(span,p,small) { color:rgba(241,241,241,.7); font-size:11px; }
+        .ep-dialogue .ep-scholarly__flow { color:rgba(245,245,245,.84); }
+        .ep-dialogue .ep-dialogue__composer-shell { background:linear-gradient(to top,#000 72%,rgba(0,0,0,.93) 88%,transparent); }
+        @media (min-width:901px) {
+          .ep-universal-modebar__context { max-width:100%; }
+          .ep-dialogue .ep-scholarly__sections { grid-template-columns:repeat(2,minmax(0,1fr)); }
+          .ep-dialogue .ep-scholarly__section { min-height:130px; }
+        }
+        @media (max-width:900px) {
+          .ep-universal-modebar__context { grid-template-columns:auto 1fr; gap:5px 10px; padding:9px 12px; }
+          .ep-universal-modebar__context p { grid-column:1/-1; font-size:10px; }
+          .ep-universal-modebar__modes button,.ep-universal-modebar__signal { min-height:45px; padding:8px 10px; }
+          .ep-universal-modebar__modes button strong,.ep-universal-modebar__signal strong { font-size:9px; }
+          .ep-universal-modebar__modes button small,.ep-universal-modebar__signal small { font-size:8px; }
+          .ep-dialogue .ep-scholarly__sections { grid-template-columns:1fr; }
+          .ep-dialogue .ep-scholarly__section { padding:18px; }
+        }
+        @media (max-width:480px) {
+          .ep-universal-modebar__context { margin-bottom:7px; }
+          .ep-universal-modebar__context p { display:none; }
+          .ep-dialogue .ep-scholarly__section p { font-size:13px !important; }
+        }
+        @media (prefers-reduced-motion:reduce) {
+          .ep-universal-modebar__modes button,.ep-universal-modebar__signal { transition:none !important; transform:none !important; }
         }
       `}
 
