@@ -28618,6 +28618,169 @@ useEffect(() => {
           .ep-signal-space__core { width: min(290px,78%); min-height: 125px; }
           .ep-signal-space__core strong { font-size: 14px; }
         }
+
+        /* ==================================================
+           EPISTEME · SIX-POINT DISPLAY CORRECTION
+           No inquiry, transfer, retrieval, or case logic changed.
+        ================================================== */
+        /* 01 / Restore the fixed Signal Space overlay. The prior
+           upgrade accidentally overrode position:fixed with grid. */
+        .ep-dialogue .ep-signal-space {
+          position: fixed !important;
+          inset: 0 !important;
+          z-index: 2147483000 !important;
+          width: 100vw;
+          height: 100dvh;
+          max-width: none;
+          margin: 0;
+          display: grid;
+          grid-template-columns: minmax(0,1fr) minmax(290px,340px);
+          grid-template-rows: auto auto minmax(0,1fr);
+          gap: 14px 18px;
+          overflow: hidden;
+          isolation: isolate;
+          background: #030303 !important;
+          color: #f5f5f5;
+        }
+        .ep-dialogue .ep-signal-space__ambient {
+          opacity: .12;
+          background-image: linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);
+        }
+        .ep-dialogue .ep-signal-space__stage {
+          background: #070707 !important;
+        }
+        .ep-dialogue .ep-signal-space__core,
+        .ep-dialogue .ep-signal-space__node,
+        .ep-dialogue .ep-signal-space__overview > div,
+        .ep-dialogue .ep-signal-space__inspector section,
+        .ep-dialogue .ep-signal-space__inspector footer {
+          background: #101010 !important;
+          border-color: rgba(255,255,255,.14) !important;
+          color: #f1f1f1;
+        }
+        /* 03 / Transfer surface: scope to the transfer component
+           container without changing its buttons or interactions. */
+        @media (min-width: 901px) {
+          .ep-monochrome-interface .ep-dialogue__composer-shell > :first-child {
+            background-color: #080808 !important;
+            background-image: none !important;
+            border-color: rgba(255,255,255,.16) !important;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.07) !important;
+          }
+          .ep-monochrome-interface .ep-dialogue__composer-shell > :first-child :is(section,article,aside,header,footer) {
+            border-color: rgba(255,255,255,.12);
+          }
+        }
+        /* 04 / Case workspaces: black glass and white labels. */
+        .ep-monochrome-interface .ep-case-rail,
+        .ep-monochrome-interface .ep-case-rail__items { background: #070707 !important; }
+        .ep-monochrome-interface .ep-case-rail__case,
+        .ep-monochrome-interface .ep-case-rail__case.is-active,
+        .ep-monochrome-interface .ep-case-rail__case:hover:not(:disabled) {
+          background: #101010 !important;
+          background-image: none !important;
+          border: 1px solid rgba(255,255,255,.18) !important;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.05) !important;
+          color: #f1f1f1 !important;
+        }
+        .ep-monochrome-interface .ep-case-rail__case.is-active {
+          background: #1a1a1a !important;
+          border-color: rgba(255,255,255,.42) !important;
+        }
+        .ep-monochrome-interface .ep-case-rail__case :is(span,strong,small),
+        .ep-monochrome-interface .ep-case-rail__label :is(span,small) {
+          color: rgba(245,245,245,.86) !important;
+        }
+        /* 05 / Remove residual blue from principal PC panels. */
+        @media (min-width: 901px) {
+          .ep-monochrome-interface :is(
+            .ep-universal-nexus,.ep-adaptive-canvas,.ep-cognitive-orchestration,
+            .ep-reality-os,.ep-open-scholarly,.ep-reality-governance,
+            .ep-autonomous-reality,.ep-cosmic-answer,.ep-scholarly__hero,
+            .ep-scholarly__section,.ep-universal-modebar__modes button.is-active
+          ) {
+            background: #0b0b0b !important;
+            border-color: rgba(255,255,255,.13) !important;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.045) !important;
+          }
+          .ep-monochrome-interface .ep-universal-modebar__modes button:hover {
+            background: #151515 !important;
+            border-color: rgba(255,255,255,.25) !important;
+          }
+        }
+        /* 06 / Answer structure: one distinct dark panel per section. */
+        .ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+          display: grid !important;
+          grid-template-columns: repeat(2,minmax(0,1fr));
+          gap: 14px;
+          min-width: 0;
+          margin-block: 18px;
+        }
+        .ep-monochrome-interface .ep-message--episteme .ep-scholarly__section {
+          display: block;
+          min-width: 0;
+          margin: 0 !important;
+          padding: clamp(17px,2vw,25px) !important;
+          border: 1px solid rgba(255,255,255,.15) !important;
+          border-radius: 18px !important;
+          background: #101010 !important;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.055) !important;
+          overflow-wrap: anywhere;
+        }
+        .ep-monochrome-interface .ep-message--episteme .ep-scholarly__section :is(h4,p) {
+          max-width: 100%;
+          color: rgba(247,247,247,.88) !important;
+          overflow-wrap: anywhere;
+          line-height: 1.75;
+        }
+        .ep-monochrome-interface .ep-message--episteme .ep-scholarly__section header :is(span,small) {
+          color: rgba(238,238,238,.68) !important;
+        }
+        .ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
+          display: block;
+          margin: 0;
+          padding: clamp(17px,2vw,28px);
+          background: #101010;
+          border: 1px solid rgba(255,255,255,.15);
+          border-radius: 18px;
+          color: #f1f1f1;
+          white-space: pre-wrap;
+          overflow-wrap: anywhere;
+          line-height: 1.8;
+        }
+        @media (max-width: 900px) {
+          /* 02 / Entire Signal Space scrolls ABOVE the composer.
+             No translucent overlay, no overlapping footer. */
+          .ep-dialogue .ep-signal-space {
+            display: block;
+            inset: 0 !important;
+            width: 100vw;
+            height: 100dvh;
+            padding: 0 15px max(32px,env(safe-area-inset-bottom));
+            overflow-x: hidden;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
+            background: #030303 !important;
+          }
+          .ep-dialogue .ep-signal-space__header {
+            position: sticky;
+            top: 0;
+            z-index: 15;
+            margin: 0 -15px;
+            padding: max(18px,env(safe-area-inset-top)) 16px 15px;
+            background: #080808 !important;
+          }
+          .ep-dialogue .ep-signal-space__stage { height: 260px; min-height: 260px; }
+          .ep-dialogue .ep-signal-space__inspector {
+            height: auto;
+            overflow: visible;
+          }
+          .ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+            grid-template-columns: minmax(0,1fr);
+            gap: 10px;
+          }
+        }
       `}
 
       
