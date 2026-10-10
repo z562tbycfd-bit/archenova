@@ -636,9 +636,8 @@ export default function ContinuityEnvironment() {
                   </span>
                 </div>
               </div>
-             </section>
+            </section>
 
-            <ContinuityPortablePanel />
 
             <footer className="continuity__footer">
               <p>
