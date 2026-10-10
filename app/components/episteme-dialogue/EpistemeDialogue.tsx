@@ -29447,6 +29447,98 @@ useEffect(() => {
         @media (prefers-reduced-motion:reduce) {
           .ep-verification :is(button,summary) { transition:none!important; transform:none!important; }
         }
+
+        /* STAGE 3.1 — LAYER SAFETY + TYPOGRAPHIC REFINEMENT (CSS ONLY) */
+        .ep-dialogue {
+          font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+          -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
+          font-optical-sizing: auto;
+          color-scheme: dark;
+        }
+        .ep-dialogue :is(button, input, select, textarea) { font-family: inherit; }
+        .ep-dialogue :is(.ep-scholarly__section,.ep-verification,.ep-agent-work,.ep-case-rail__case,.ep-dialogue__signals,.ep-signal-space) {
+          box-sizing: border-box;
+        }
+        .ep-dialogue :is(.ep-scholarly__section,.ep-verification,.ep-agent-work) {
+          min-width: 0;
+          overflow-wrap: anywhere;
+        }
+        .ep-dialogue :is(.ep-autonomous-reality,.ep-reality-governance,.ep-reality-twin,.ep-verification) :is(p,li) {
+          font-size: clamp(11px, .9vw, 13px) !important;
+          line-height: 1.75 !important;
+          letter-spacing: .008em;
+        }
+        .ep-dialogue :is(.ep-autonomous-reality,.ep-reality-governance,.ep-reality-twin,.ep-verification) :is(h3,h4,article>strong,section>header strong) {
+          font-size: clamp(12px, 1vw, 15px) !important;
+          line-height: 1.5 !important;
+          letter-spacing: .015em;
+        }
+        .ep-dialogue :is(.ep-autonomous-reality,.ep-reality-governance,.ep-reality-twin,.ep-verification) :is(small,article>span,article>b) {
+          font-size: clamp(10px, .75vw, 11px) !important;
+          line-height: 1.55 !important;
+        }
+        .ep-dialogue :is(.ep-autonomous-reality,.ep-reality-governance,.ep-reality-twin) :is(article,section) {
+          min-width: 0;
+          overflow-wrap: anywhere;
+        }
+        .ep-dialogue .ep-dialogue__signals {
+          isolation: isolate;
+          background: #080808 !important;
+          background-color: #080808 !important;
+          -webkit-backdrop-filter: none !important;
+          backdrop-filter: none !important;
+          color: #f3f3f3;
+          box-shadow: 0 18px 54px rgba(0,0,0,.44);
+        }
+        .ep-dialogue .ep-dialogue__signals-head,
+        .ep-dialogue .ep-dialogue__signal-feed,
+        .ep-dialogue .ep-signal { background: #0b0b0b !important; }
+        .ep-dialogue .ep-dialogue__signals-head { position: relative; z-index: 1; }
+        .ep-dialogue .ep-dialogue__signal-feed { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+        .ep-dialogue .ep-signal { border-color: rgba(255,255,255,.1) !important; }
+        .ep-dialogue .ep-signal :is(h3,strong) { font-size: clamp(12px,1vw,15px) !important; line-height: 1.5 !important; color: #f4f4f4 !important; }
+        .ep-dialogue .ep-signal p { font-size: 12px !important; line-height: 1.65 !important; color: rgba(244,244,244,.76) !important; }
+        .ep-dialogue .ep-signal :is(small,span) { font-size: 10px !important; line-height: 1.45 !important; }
+        .ep-dialogue .ep-dialogue__signals :is(button,a):focus-visible { outline: 2px solid #eee; outline-offset: 2px; }
+        @media (min-width: 901px) {
+          .ep-dialogue .ep-dialogue__workspace.has-signals { grid-template-columns: minmax(0,1fr) minmax(300px,365px); }
+          .ep-dialogue .ep-dialogue__signals { position: relative !important; inset: auto !important; width: auto !important; height: 100% !important; max-height: none !important; min-width: 0; z-index: 3 !important; border-left: 1px solid rgba(255,255,255,.14) !important; border-radius: 0 !important; }
+          .ep-dialogue .ep-dialogue__conversation { min-width: 0; }
+          .ep-dialogue .ep-dialogue__composer-shell { z-index: 6; }
+        }
+        @media (max-width: 900px) {
+          .ep-dialogue .ep-dialogue__signals {
+            position: fixed !important;
+            top: calc(68px + env(safe-area-inset-top, 0px)) !important;
+            right: 12px !important;
+            bottom: calc(214px + env(safe-area-inset-bottom, 0px)) !important;
+            left: 12px !important;
+            width: auto !important;
+            height: auto !important;
+            max-height: none !important;
+            z-index: 210 !important;
+            display: flex !important;
+            flex-direction: column;
+            overflow: hidden !important;
+            border: 1px solid rgba(255,255,255,.22) !important;
+            border-radius: 17px !important;
+            box-shadow: 0 20px 70px rgba(0,0,0,.86) !important;
+          }
+          .ep-dialogue .ep-dialogue__signals-head { flex: 0 0 auto; min-height: 0; }
+          .ep-dialogue .ep-dialogue__signal-feed { flex: 1 1 auto; min-height: 0; overflow-y: auto !important; }
+          .ep-dialogue .ep-signal-space { position: fixed !important; inset: 0 !important; z-index: 300 !important; height: 100dvh !important; max-height: 100dvh !important; overflow-y: auto !important; background: #030303 !important; }
+          .ep-dialogue :is(.ep-autonomous-reality,.ep-reality-governance,.ep-reality-twin,.ep-verification) :is(p,li) { font-size: 12px !important; }
+        }
+        @media (max-width: 900px) and (max-height: 670px) {
+          .ep-dialogue .ep-dialogue__signals {
+            top: calc(58px + env(safe-area-inset-top, 0px)) !important;
+            bottom: calc(176px + env(safe-area-inset-bottom, 0px)) !important;
+          }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .ep-dialogue :is(.ep-dialogue__signals,.ep-signal-space) { scroll-behavior: auto !important; }
+        }
       `}
 
       
