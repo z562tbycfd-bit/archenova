@@ -9,6 +9,8 @@ import {
   type KeyboardEvent,
 } from "react";
 
+import EpistemeAevumTransfer from "./EpistemeAevumTransfer";
+
 import {
   UNIVERSAL_MODE_OPTIONS,
   getUniversalModeMeta,
@@ -17645,6 +17647,7 @@ useEffect(() => {
               COMPOSER
           ================================================= */}
           <div className="ep-dialogue__composer-shell">
+            <EpistemeAevumTransfer messages={messages} disabled={thinking} />
             <div className="ep-universal-modebar">
               <div className="ep-universal-modebar__modes" role="group" aria-label="Episteme mode">
                 {UNIVERSAL_MODE_OPTIONS.map((item) => (
