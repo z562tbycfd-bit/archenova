@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-10T01:11:17.072Z",
+  "updated": "2026-10-10T02:52:01.888Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mountaineer: 'Tenzing biopic made me wonder what he would think if he could return to the mountain today'",
+      "url": "https://phys.org/news/2026-10-mountaineer-tenzing-biopic-mountain-today.html",
+      "summary": "Seventy-three years ago, Tenzing Norgay stood on top of Everest, known as Chomolungma in Tibetan, which roughly translates as \"Goddess Mother of the World.\"",
+      "ts": 1791595201000,
+      "publishedAt": "2026-10-10T01:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Geologists uncover evidence of a missing Late Cretaceous magmatic arc in northwestern Iran",
@@ -791,14 +799,6 @@
       "title": "Response of the near-threshold resonances of the $\\bm{dt\\mu}$ molecular ion to an effective atomic $2s$--$2p$ splitting",
       "url": "https://arxiv.org/abs/2610.11499",
       "summary": "arXiv:2610.11499v1 Announce Type: new Abstract: For the nonrelativistic three-body Coulomb Hamiltonian, near-threshold resonances of the deuterium--tritium muonic molecular ion ($dt\\mu$) are supported by the long-range d…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning qBIC Resonances across Metasurface Families in Dielectric Fourier Space",
-      "url": "https://arxiv.org/abs/2610.11500",
-      "summary": "arXiv:2610.11500v1 Announce Type: new Abstract: Bound states in the continuum (BIC) metasurfaces are typically described by geometry-specific parameters, hindering cross-geometry comparison, while ultranarrow qBIC featur…",
       "ts": 1791518400000,
       "publishedAt": "2026-10-09T04:00:00.000Z"
     }
