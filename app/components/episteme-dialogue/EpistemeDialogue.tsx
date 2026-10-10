@@ -28202,6 +28202,79 @@ useEffect(() => {
             bottom: calc(205px + env(safe-area-inset-bottom, 0px)) !important;
           }
         }
+
+        /* ==================================================
+           MOBILE LIVE SIGNALS / OPAQUE READABILITY FIX
+           CSS ONLY — no dialogue, transfer or feed logic changes
+           Prevent background conversation showing through drawer.
+        ================================================== */
+        @media (max-width: 768px) {
+          .ep-dialogue .ep-dialogue__signals {
+            isolation: isolate !important;
+            background: #080a0d !important;
+            background-color: #080a0d !important;
+            opacity: 1 !important;
+            -webkit-backdrop-filter: none !important;
+            backdrop-filter: none !important;
+            box-shadow:
+              inset 0 1px 0 rgba(255,255,255,.11),
+              0 24px 72px rgba(0,0,0,.78) !important;
+          }
+
+          .ep-dialogue .ep-dialogue__signals-head {
+            position: relative;
+            z-index: 1;
+            background: #0b0d10 !important;
+            border-bottom: 1px solid rgba(255,255,255,.12) !important;
+          }
+
+          .ep-dialogue .ep-dialogue__signal-feed {
+            position: relative;
+            z-index: 1;
+            background: #080a0d !important;
+          }
+
+          .ep-dialogue .ep-signal {
+            background: #080a0d !important;
+            border-bottom-color: rgba(255,255,255,.10) !important;
+          }
+
+          .ep-dialogue .ep-signal h3 {
+            color: rgba(249,250,251,.94) !important;
+            font-size: clamp(14px, 3.5vw, 17px) !important;
+            line-height: 1.45 !important;
+          }
+
+          .ep-dialogue .ep-signal p {
+            color: rgba(231,235,239,.75) !important;
+            font-size: 12px !important;
+            line-height: 1.6 !important;
+          }
+
+          .ep-dialogue .ep-signal header > span,
+          .ep-dialogue .ep-signal header small,
+          .ep-dialogue .ep-signal footer > span {
+            color: rgba(225,230,235,.62) !important;
+            font-size: 10px !important;
+          }
+
+          .ep-dialogue .ep-dialogue__signals-head span,
+          .ep-dialogue .ep-dialogue__signals-head-actions small {
+            color: rgba(230,234,239,.65) !important;
+            font-size: 10px !important;
+          }
+
+          .ep-dialogue .ep-dialogue__signals-head strong {
+            color: rgba(250,250,251,.94) !important;
+            font-size: 15px !important;
+          }
+
+          .ep-dialogue .ep-dialogue__signals-head-actions button {
+            color: rgba(255,255,255,.88) !important;
+            border-color: rgba(255,255,255,.19) !important;
+            background: #171a1e !important;
+          }
+        }
       `}
 
       
