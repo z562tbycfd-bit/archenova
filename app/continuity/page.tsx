@@ -2008,6 +2008,72 @@ const aevumStyles = `
      scroll-behavior: auto !important;
    }
  }
+   /* ==========================================================
+   23 / AEVUM — SCROLL PERFORMANCE OPTIMIZATION
+
+   VISUAL ONLY
+   Preserve optical glass appearance
+   Reduce mobile rendering workload
+========================================================== */
+
+/* Avoid expensive background recompositing */
+
+body .continuity::before,
+body .continuity .continuity__intro::before,
+body .continuity .continuity__horizon,
+body .continuity .continuity__question::before,
+body .continuity .continuity__origin-core::before,
+body .continuity .continuity__mode-environment::before,
+body .continuity .continuity__evidence-environment::before,
+body .continuity .continuity__reality::before {
+  animation: none !important;
+}
+
+/* Keep the visual depth without moving large layers */
+
+body .continuity::before {
+  opacity: .62;
+}
+
+body .continuity .continuity__intro::before {
+  opacity: .68;
+}
+
+body .continuity .continuity__horizon {
+  opacity: .60;
+}
+
+/* Reduce repeated backdrop calculations */
+
+body .continuity .continuity__origin-core,
+body .continuity .continuity__question,
+body .continuity .continuity__satellite,
+body .continuity .continuity__modes,
+body .continuity .continuity__mode-environment,
+body .continuity .continuity__evidence-environment,
+body .continuity .continuity__reality {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Mobile: prioritize continuous scrolling */
+
+@media (max-width: 700px) {
+  body .continuity .continuity__origin-core,
+  body .continuity .continuity__question,
+  body .continuity .continuity__satellite,
+  body .continuity .continuity__modes,
+  body .continuity .continuity__mode-environment,
+  body .continuity .continuity__evidence-environment,
+  body .continuity .continuity__reality {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  body .continuity .continuity__stars {
+    animation: none !important;
+  }
+}
 `;
 
 /* ==========================================================
