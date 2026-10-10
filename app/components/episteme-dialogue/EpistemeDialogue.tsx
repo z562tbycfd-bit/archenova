@@ -28781,6 +28781,123 @@ useEffect(() => {
             gap: 10px;
           }
         }
+        /* =====================================================
+           EPISTEME / DESKTOP VISUAL PARITY
+           Style-only: align desktop with mobile's black cards.
+           No changes to overlays, scroll ownership, or logic.
+        ===================================================== */
+        @media (min-width: 901px) {
+          .ep-monochrome-interface {
+            --ep-desktop-black: #070707;
+            --ep-desktop-card: #101010;
+            --ep-desktop-border: rgba(255,255,255,.15);
+            --ep-desktop-copy: rgba(247,247,247,.89);
+          }
+          /* Full-size Signal Space remains an independent viewport. */
+          .ep-monochrome-interface .ep-signal-space {
+            background: #030303 !important;
+            color: #f5f5f5;
+          }
+          .ep-monochrome-interface .ep-signal-space__stage,
+          .ep-monochrome-interface .ep-signal-space__overview,
+          .ep-monochrome-interface .ep-signal-space__inspector,
+          .ep-monochrome-interface .ep-signal-space__mobile-index {
+            color: #f5f5f5;
+          }
+          /* Keep desktop's two-column spatial layout, but use
+             the same solid black surface material as mobile. */
+          .ep-monochrome-interface :is(
+            .ep-case-rail,.ep-case-header,.ep-universal-nexus,
+            .ep-adaptive-canvas,.ep-cognitive-orchestration,
+            .ep-reality-os,.ep-open-scholarly,.ep-reality-governance,
+            .ep-autonomous-reality,.ep-cosmic-answer,
+            .ep-scholarly__hero,.ep-scholarly__section
+          ) {
+            background-color: var(--ep-desktop-black) !important;
+            background-image: none !important;
+            border-color: var(--ep-desktop-border) !important;
+            color: var(--ep-desktop-copy);
+          }
+          .ep-monochrome-interface :is(
+            .ep-case-rail__case,.ep-case-rail__case.is-active,
+            .ep-answer-first article,.ep-cognitive-grid > section,
+            .ep-adaptive-canvas__modules article,
+            .ep-signal-space__overview > div,
+            .ep-signal-space__core,.ep-signal-space__node,
+            .ep-signal-space__inspector section,
+            .ep-signal-space__inspector footer
+          ) {
+            background: var(--ep-desktop-card) !important;
+            border: 1px solid var(--ep-desktop-border) !important;
+            color: var(--ep-desktop-copy) !important;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.045) !important;
+          }
+          /* Every existing scholarly section has its own frame.
+             Do not force grid columns: content length determines
+             reading flow and preserves the mobile hierarchy. */
+          .ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+            display: grid !important;
+            grid-template-columns: minmax(0,1fr) !important;
+            gap: 13px !important;
+            min-width: 0;
+          }
+          .ep-monochrome-interface .ep-message--episteme :is(
+            .ep-scholarly__section,.ep-scholarly__compact
+          ) {
+            display: block;
+            min-width: 0;
+            padding: clamp(18px,2vw,28px) !important;
+            border: 1px solid var(--ep-desktop-border) !important;
+            border-radius: 18px !important;
+            background: var(--ep-desktop-card) !important;
+            color: var(--ep-desktop-copy) !important;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.045) !important;
+            overflow-wrap: anywhere;
+            white-space: normal;
+          }
+          .ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
+            white-space: pre-wrap;
+          }
+          .ep-monochrome-interface .ep-message--episteme :is(
+            .ep-scholarly__section,.ep-scholarly__compact
+          ) :is(p,li,h3,h4,strong,span) {
+            max-width: 100%;
+            overflow-wrap: anywhere;
+            line-height: 1.75;
+          }
+          .ep-monochrome-interface .ep-answer-first {
+            grid-template-columns: repeat(2,minmax(0,1fr));
+            gap: 12px;
+          }
+          .ep-monochrome-interface .ep-answer-first article {
+            min-width: 0;
+            padding: 20px;
+            border-radius: 16px;
+            overflow-wrap: anywhere;
+          }
+          .ep-monochrome-interface .ep-answer-first :is(strong,p) {
+            color: var(--ep-desktop-copy);
+            line-height: 1.75;
+          }
+          .ep-monochrome-interface .ep-case-rail__case :is(span,strong,small) {
+            color: rgba(246,246,246,.9) !important;
+          }
+          .ep-monochrome-interface :is(
+            .ep-universal-modebar__modes button,
+            .ep-universal-modebar__signal
+          ) {
+            background-color: #101010 !important;
+            color: rgba(245,245,245,.88) !important;
+            border-color: rgba(255,255,255,.14) !important;
+          }
+          .ep-monochrome-interface :is(
+            .ep-universal-modebar__modes button.is-active,
+            .ep-universal-modebar__modes button:hover
+          ) {
+            background-color: #1b1b1b !important;
+            border-color: rgba(255,255,255,.32) !important;
+          }
+        }
       `}
 
       
