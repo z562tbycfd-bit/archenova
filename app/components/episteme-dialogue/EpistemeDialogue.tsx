@@ -28781,6 +28781,120 @@ useEffect(() => {
             gap: 10px;
           }
         }
+
+        /* =========================================================
+           DESKTOP · OPTICAL BLACK LEGIBILITY REFINEMENT
+           Visual-only overrides. Mobile behavior left unchanged.
+        ========================================================= */
+        @media (min-width: 901px) {
+          .ep-dialogue.ep-monochrome-interface {
+            color: #f0f0f0 !important;
+            background-color: #030303 !important;
+            color-scheme: dark;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__ambient {
+            opacity: .12 !important;
+            filter: grayscale(1) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface :is(
+            .ep-case-rail,.ep-case-rail__items,.ep-case-rail__case,
+            .ep-case-rail__case.is-active,.ep-case-rail__case:hover,
+            .ep-agent-work,.ep-agent-work__head,.ep-agent-work__planning-head,
+            .ep-case-completion,.ep-case-closure,.ep-unified-work-state,
+            .ep-scholarly__hero,.ep-scholarly__section,.ep-scholarly__compact,
+            .ep-universal-nexus,.ep-adaptive-canvas,.ep-cognitive-orchestration,
+            .ep-reality-os,.ep-open-scholarly,.ep-reality-governance,
+            .ep-autonomous-reality,.ep-cosmic-answer
+          ) {
+            background-color: #0d0d0d !important;
+            background-image: none !important;
+            border-color: rgba(255,255,255,.15) !important;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.045) !important;
+            color: #f2f2f2 !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case,
+          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case.is-active,
+          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case:hover {
+            background: #111 !important;
+            color: #f6f6f6 !important;
+            border: 1px solid rgba(255,255,255,.23) !important;
+            border-radius: 12px !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case.is-active {
+            background: #1b1b1b !important;
+            border-color: rgba(255,255,255,.45) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case :is(span,strong,small),
+          .ep-dialogue.ep-monochrome-interface .ep-case-rail__label :is(span,small) {
+            color: #efefef !important;
+            opacity: 1 !important;
+          }
+          .ep-dialogue.ep-monochrome-interface :is(
+            .ep-agent-work,.ep-case-completion,.ep-case-closure,
+            .ep-unified-work-state,.ep-scholarly__hero
+          ) :is(h2,h3,h4,strong) {
+            color: rgba(255,255,255,.94) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface :is(
+            .ep-agent-work,.ep-case-completion,.ep-case-closure,
+            .ep-unified-work-state,.ep-scholarly__hero
+          ) :is(p,li,small) {
+            color: rgba(238,238,238,.78) !important;
+            line-height: 1.7;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+            display: grid !important;
+            grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+            gap: 16px !important;
+            align-items: stretch;
+            width: 100%;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section {
+            display: block !important;
+            padding: 22px !important;
+            margin: 0 !important;
+            background: #111 !important;
+            border: 1px solid rgba(255,255,255,.18) !important;
+            border-radius: 18px !important;
+            min-width: 0;
+            height: auto;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section :is(h3,h4,strong,p,li) {
+            color: #eee !important;
+            overflow-wrap: anywhere;
+            line-height: 1.75;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
+            padding: 22px !important;
+            background: #101010 !important;
+            border: 1px solid rgba(255,255,255,.17) !important;
+            border-radius: 18px !important;
+            color: #f1f1f1 !important;
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+          }
+          .ep-dialogue.ep-monochrome-interface :is(
+            button,select,textarea,input
+          ) {
+            accent-color: #eee;
+          }
+          .ep-dialogue.ep-monochrome-interface :is(
+            .ep-universal-modebar__modes button,
+            .ep-dialogue__composer-shell button
+          ) {
+            background-color: #111 !important;
+            background-image: none !important;
+            border-color: rgba(255,255,255,.17) !important;
+            color: #f0f0f0 !important;
+          }
+          .ep-dialogue.ep-monochrome-interface :is(
+            .ep-universal-modebar__modes button.is-active,
+            .ep-universal-modebar__modes button:hover
+          ) {
+            background-color: #1b1b1b !important;
+            border-color: rgba(255,255,255,.35) !important;
+          }
+        }
       `}
 
       
