@@ -93,6 +93,7 @@ const aevumStyles = `
 
    box-sizing: border-box !important;
    overflow-x: clip;
+   overflow-y: visible;
 
    color: var(--continuity-text);
 
