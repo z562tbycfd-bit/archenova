@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-10T02:52:01.888Z",
+  "updated": "2026-10-10T03:46:53.134Z",
   "items": [
     {
       "source": "Phys.org",
@@ -395,6 +395,46 @@
       "publishedAt": "2026-10-09T10:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Enhancement of perpendicular magnetic anisotropy and Dzyaloshinskii-Moriya interaction in cobalt-based systems through interfacial engineering",
+      "url": "http://link.aps.org/doi/10.1103/pz1p-3rh1",
+      "summary": "Author(s): M. Belmeguenai, T. Al Maawali, A. Bendjaballah, W. Fotso, M. G. Hafiz, M. Ramu, S. M. Chérif, N. Tiercelin, M. S. Gabor, Y. Roussigné, S. N. Piramanayagam, and R. Sbiaa Interfacial engineering provides an effe…",
+      "ts": 1791540000000,
+      "publishedAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Dynamic cloaking in thin elastic plates: A metamaterial design methodology based on geometric transformation",
+      "url": "http://link.aps.org/doi/10.1103/v7yk-qtjp",
+      "summary": "Author(s): Léo Pradier, Kévin Billon, Baptiste Chomette, Manuel Collet, and Arnaud Hubert Since the first proofs of concept in electromagnetics concerning the possibility of invisibilizing the presence of an inclusion in…",
+      "ts": 1791540000000,
+      "publishedAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Adaptive variation-resilient random-number generator for embedded encryption",
+      "url": "http://link.aps.org/doi/10.1103/6yyk-321x",
+      "summary": "Author(s): Furqan Zahoor, Ibrahim A. Albulushi, Saleh Bunaiyan, Anupam Chattopadhyay, Hesham ElSawy, and Feras Al-Dirini With a growing interest in securing user data within the internet of things (IoT), embedded encrypt…",
+      "ts": 1791540000000,
+      "publishedAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Gain-momentum locking in chiral-gain media",
+      "url": "http://link.aps.org/doi/10.1103/8qmb-p6nk",
+      "summary": "Author(s): João C. Serra, Nader Engheta, and Mário G. Silveirinha Conventional optical materials are characterized by either a dissipative response, which results in polarization-independent absorption, or by a gain resp…",
+      "ts": 1791540000000,
+      "publishedAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Electron-mediated coupling schemes between nuclear-spin qudits in silicon",
+      "url": "http://link.aps.org/doi/10.1103/mr2x-jt6m",
+      "summary": "Author(s): Bowen Shao, Feng Xu, Yuquan Xiang, Shihang Zhang, Junda Song, Yue Zhai, Mingchao Duan, Tianluo Pan, Zhen Tian, Guanyong Wang, Guangchong Hu, Peihao Huang, Yu He, and Tao Xin Although high-spin nuclear qudits i…",
+      "ts": 1791540000000,
+      "publishedAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
       "source": "arXiv Physics",
       "title": "Omnisolver: An extensible interface to Ising spin-glass and QUBO solvers: adding a distributed GPU brute-force plugin",
       "url": "https://arxiv.org/abs/2610.10542",
@@ -759,46 +799,6 @@
       "title": "Engineering Photon Avalanche Thresholds in Single Nanocrystals with Plasmonic Nanostructures",
       "url": "https://arxiv.org/abs/2610.11420",
       "summary": "arXiv:2610.11420v1 Announce Type: new Abstract: Optical sub-diffraction imaging has become an essential tool in modern research. Recently, a new imaging strategy has been demonstrated that exploits the strongly nonlinear…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-Domain Analysis of Surface Acoustic Wave Magnetoelectric Sensors",
-      "url": "https://arxiv.org/abs/2610.11421",
-      "summary": "arXiv:2610.11421v1 Announce Type: new Abstract: The transient response of surface acoustic wave sensors is important for understanding their dynamic behavior, propagation delay, and response to time-varying signals. In t…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse Design of Integrated Photonic Components for Visible-Light Applications",
-      "url": "https://arxiv.org/abs/2610.11453",
-      "summary": "arXiv:2610.11453v1 Announce Type: new Abstract: Photonic integrated circuits (PICs) operating in the visible spectral range are crucial for quantum technologies, optical sensing, and nonlinear optics applications. Howeve…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulations of Fluorescence and Energy Transfer in Periodic Systems: Pitfalls and Considerations for Bound States in the Continuum",
-      "url": "https://arxiv.org/abs/2610.11457",
-      "summary": "arXiv:2610.11457v1 Announce Type: new Abstract: Bound states in the continuum (BICs) combine high quality factors with strong electromagnetic-field localization and are therefore widely explored for enhancing light--matt…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Net drag reduction in turbulent pipe flow by airfoil-section grids concentrated near the wall",
-      "url": "https://arxiv.org/abs/2610.11474",
-      "summary": "arXiv:2610.11474v1 Announce Type: new Abstract: The frictional drag of turbulent pipe flow is responsible for enormous energy consumption in water and natural gas distribution systems. Flow straighteners can reduce this …",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Response of the near-threshold resonances of the $\\bm{dt\\mu}$ molecular ion to an effective atomic $2s$--$2p$ splitting",
-      "url": "https://arxiv.org/abs/2610.11499",
-      "summary": "arXiv:2610.11499v1 Announce Type: new Abstract: For the nonrelativistic three-body Coulomb Hamiltonian, near-threshold resonances of the deuterium--tritium muonic molecular ion ($dt\\mu$) are supported by the long-range d…",
       "ts": 1791518400000,
       "publishedAt": "2026-10-09T04:00:00.000Z"
     }

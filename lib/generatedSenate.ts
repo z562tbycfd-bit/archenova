@@ -18,21 +18,6 @@ export const senateAgenda =
   {
     "id": "agenda-2",
     "rank": 2,
-    "title": "An ecology of participation for fusion energy development",
-    "slug": "energy-an-ecology-of-participation-for-fusion-energy-development",
-    "category": "Energy",
-    "source": "arXiv Physics",
-    "score": 9.5,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-3",
-    "rank": 3,
     "title": "Security Council LIVE: Yemen has fallen back into full-scale war, warns UN envoy",
     "slug": "space-security-council-live-yemen-has-fallen-back-into-full-scale-war-warns-un-envoy",
     "category": "Space",
@@ -46,8 +31,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
+    "id": "agenda-3",
+    "rank": 3,
     "title": "NASA advances LISA mission contributions with new test telescope",
     "slug": "space-nasa-advances-lisa-mission-contributions-with-new-test-telescope",
     "category": "Space",
@@ -61,8 +46,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-5",
-    "rank": 5,
+    "id": "agenda-4",
+    "rank": 4,
     "title": "A Sign in Space part 2, a new simulated First Contact scenario engaging the global scientific SETI network, and integrating deep space technologies into SETI search",
     "slug": "ai-a-sign-in-space-part-2-a-new-simulated-first-contact-scenario-engaging-the-globa",
     "category": "AI",
@@ -76,8 +61,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-6",
-    "rank": 6,
+    "id": "agenda-5",
+    "rank": 5,
     "title": "Fault-conditioned Seismic Image Generation using Denoising Diffusion Probabilistic Modeling and Neural Style Transfer",
     "slug": "ai-fault-conditioned-seismic-image-generation-using-denoising-diffusion-probabilist",
     "category": "AI",
@@ -91,38 +76,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-7",
-    "rank": 7,
-    "title": "Optimal Diffractive Focusing of Vortex Beams",
-    "slug": "space-optimal-diffractive-focusing-of-vortex-beams",
-    "category": "Space",
-    "source": "arXiv Physics",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Orbital Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-8",
-    "rank": 8,
-    "title": "Interpretable Memory Models for Spaced Repetition",
-    "slug": "ai-interpretable-memory-models-for-spaced-repetition",
-    "category": "AI",
-    "source": "arXiv q-bio",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-6",
+    "rank": 6,
     "title": "How Does Life Unfold? A Landscape Metaphor Comes Into Its Own.",
     "slug": "energy-how-does-life-unfold-a-landscape-metaphor-comes-into-its-own",
     "category": "Energy",
@@ -136,8 +91,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-7",
+    "rank": 7,
     "title": "IAEA Expands Cooperation to Support Nuclear Power Development",
     "slug": "energy-iaea-expands-cooperation-to-support-nuclear-power-development",
     "category": "Energy",
@@ -151,8 +106,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-8",
+    "rank": 8,
     "title": "IAEA Concludes Long Term Operation Safety Review at Sweden’s Oskarshamn Nuclear Power Plant",
     "slug": "energy-iaea-concludes-long-term-operation-safety-review-at-sweden-s-oskarshamn-nuclear-",
     "category": "Energy",
@@ -166,8 +121,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-12",
-    "rank": 12,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "Technical Preparations for the First Carbon-Ion Therapy Facility in the United States",
     "slug": "energy-technical-preparations-for-the-first-carbon-ion-therapy-facility-in-the-united-s",
     "category": "Energy",
@@ -178,6 +133,51 @@ export const senateAgenda =
     "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
     "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
     "architectureHandoff": "Civilization Energy Architecture",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-10",
+    "rank": 10,
+    "title": "Climate change drives new species combinations, prompting calls to rethink conservation goals",
+    "slug": "general-climate-change-drives-new-species-combinations-prompting-calls-to-rethink-conser",
+    "category": "General",
+    "source": "Phys.org",
+    "score": 9.1,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this signal influence civilization?",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "architectureHandoff": "Civilization Architecture",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-11",
+    "rank": 11,
+    "title": "Omnisolver: An extensible interface to Ising spin-glass and QUBO solvers: adding a distributed GPU brute-force plugin",
+    "slug": "general-omnisolver-an-extensible-interface-to-ising-spin-glass-and-qubo-solvers-adding-a",
+    "category": "General",
+    "source": "arXiv Physics",
+    "score": 9.1,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this signal influence civilization?",
+    "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
+    "architectureHandoff": "Civilization Architecture",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "STAT+: Hospitals sue – again – to halt Trump administration’s 340B rebate pilot",
+    "slug": "ai-stat-hospitals-sue-again-to-halt-trump-administration-s-340b-rebate-pilot",
+    "category": "AI",
+    "source": "STAT",
+    "score": 9,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   }
 ];
