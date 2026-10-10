@@ -15213,6 +15213,29 @@ useEffect(() => {
       [activeCaseId, caseSessions],
     );
 
+  /* CASE verification workspace: read-only projection of existing state. */
+  const caseVerification = useMemo(() => {
+    if (!activeCase) return null;
+    const completed = activeCase.messages.filter(
+      (item) => item.role === "episteme" && !item.streaming && item.intelligence,
+    );
+    const latest = completed[completed.length - 1] ?? null;
+    const intelligence = latest?.intelligence;
+    const gate = intelligence?.astraCore?.completionGate;
+    const closure = intelligence?.astraCore?.closureProtocol;
+    const artifacts = completed.slice(-8).reverse().map((item, index) => ({
+      id: item.id,
+      title: item.intelligence?.adaptiveResponse?.governingQuestion ||
+        `Episteme analysis ${completed.length - index}`,
+      thesis: item.intelligence?.adaptiveResponse?.thesis || item.text,
+      evidence: item.intelligence?.evidenceAudit?.uncertainty ||
+        item.intelligence?.uncertainty || "Uncertainty not specified",
+      test: item.intelligence?.epistemicContract?.correctionRule ||
+        "Decisive test not specified",
+    }));
+    return { gate, closure, artifacts, total: completed.length };
+  }, [activeCase]);
+
   const threadTitle =
     useMemo(
       () =>
@@ -15979,6 +16002,65 @@ useEffect(() => {
                   while epistemic progress is possible, escalates blocked work, and closes
                   the Case only through an explicit Closure Protocol.
                 </p>
+              </section>
+            )}
+
+            {activeCase && caseVerification && (
+              <section className="ep-verification" aria-label="Case verification and artifacts">
+                <div className="ep-verification__top">
+                  <div>
+                    <span>CASE INTELLIGENCE · VERIFICATION WORKSPACE</span>
+                    <h3>Evidence before advancement.</h3>
+                    <p>Inspect existing analyses, unresolved conditions, and the current release decision. Generated content is not independently verified evidence.</p>
+                  </div>
+                  <div className="ep-verification__status">
+                    <small>CASE STATUS</small>
+                    <strong>{activeCase.status.replaceAll("_", " ")}</strong>
+                  </div>
+                </div>
+                <div className="ep-verification__metrics">
+                  <div><span>ANALYSIS ARTIFACTS</span><strong>{caseVerification.total}</strong><small>Completed Episteme intelligence objects</small></div>
+                  <div><span>COMPLETION GATE</span><strong>{caseVerification.gate ? `${caseVerification.gate.score}%` : "NOT RUN"}</strong><small>{caseVerification.gate?.status.replaceAll("_", " ") || "No assessed gate available"}</small></div>
+                  <div><span>UNRESOLVED CONDITIONS</span><strong>{caseVerification.closure ? caseVerification.closure.unresolvedConditions.length : "—"}</strong><small>From the existing Closure Protocol</small></div>
+                </div>
+                <div className="ep-verification__columns">
+                  <div className="ep-verification__panel">
+                    <span>01 / VERIFICATION</span>
+                    <h4>What is being tested</h4>
+                    <p>{activeCase.rootQuestion}</p>
+                    <span>02 / RELEASE DECISION</span>
+                    <p>{caseVerification.gate?.releaseDecision || "No completion decision has been generated for this case."}</p>
+                    <span>03 / REQUIRED NEXT ACTION</span>
+                    <p>{caseVerification.gate?.nextRequiredAction || "Generate and assess a completed Episteme analysis before advancing."}</p>
+                  </div>
+                  <div className="ep-verification__panel">
+                    <span>ARTIFACT REGISTER</span>
+                    <h4>Traceable research outputs</h4>
+                    {caseVerification.artifacts.length === 0 ? (
+                      <p>No completed intelligence artifacts yet.</p>
+                    ) : caseVerification.artifacts.map((artifact) => (
+                      <details key={artifact.id} className="ep-verification__artifact">
+                        <summary>{artifact.title}</summary>
+                        <div><small>ANALYTICAL THESIS</small><p>{artifact.thesis}</p></div>
+                        <div><small>UNCERTAINTY / EVIDENCE BOUNDARY</small><p>{artifact.evidence}</p></div>
+                        <div><small>CORRECTION / NEXT TEST</small><p>{artifact.test}</p></div>
+                        <small>Generated analysis · not automatically promoted to verified evidence</small>
+                      </details>
+                    ))}
+                  </div>
+                </div>
+                {caseVerification.gate && (
+                  <details className="ep-verification__checks">
+                    <summary>Inspect advancement gate checks ({caseVerification.gate.checks.length})</summary>
+                    {caseVerification.gate.checks.map((check) => (
+                      <div key={check.id}>
+                        <strong>{check.passed ? "PASS" : check.limited ? "LIMITED" : "BLOCKED"} · {check.label}</strong>
+                        <p>{check.note}</p>
+                      </div>
+                    ))}
+                  </details>
+                )}
+                <p className="ep-verification__boundary">Continuity of Inquiry ≠ Continuity of Identity. Aevum transfer remains a separately reviewed candidate, not an automatic evidence promotion.</p>
               </section>
             )}
 
@@ -28961,6 +29043,45 @@ useEffect(() => {
         }
         @media (prefers-reduced-motion:reduce) {
           .ep-universal-modebar__modes button,.ep-universal-modebar__signal { transition:none !important; transform:none !important; }
+        }
+
+        /* CASE VERIFICATION WORKSPACE · BLACK, READABLE, LIGHTWEIGHT */
+        .ep-verification { margin: 0 0 20px; padding: clamp(16px,2vw,26px); border:1px solid rgba(255,255,255,.16); border-radius:22px; background:#090909; color:#f3f3f3; }
+        .ep-verification * { box-sizing:border-box; }
+        .ep-verification__top { display:flex; justify-content:space-between; gap:20px; align-items:flex-start; }
+        .ep-verification__top > div:first-child { min-width:0; }
+        .ep-verification__top span,.ep-verification__panel > span,.ep-verification__metrics span { display:block; color:rgba(245,245,245,.58); font-size:10px; letter-spacing:.13em; line-height:1.5; }
+        .ep-verification h3 { margin:9px 0; font-size:clamp(20px,2vw,28px); line-height:1.3; font-weight:500; color:#fff; }
+        .ep-verification h4 { margin:8px 0 14px; font-size:15px; font-weight:550; color:#fff; }
+        .ep-verification p { margin:7px 0 16px; font-size:12px; line-height:1.75; color:rgba(245,245,245,.76); overflow-wrap:anywhere; }
+        .ep-verification__status { flex:0 0 auto; padding:12px 15px; border:1px solid rgba(255,255,255,.17); border-radius:12px; background:#141414; }
+        .ep-verification__status small { display:block; color:#aaa; font-size:9px; letter-spacing:.1em; }
+        .ep-verification__status strong { display:block; margin-top:6px; color:#fff; font-size:12px; }
+        .ep-verification__metrics { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:20px 0; }
+        .ep-verification__metrics > div { min-width:0; padding:17px; border:1px solid rgba(255,255,255,.13); border-radius:15px; background:#111; }
+        .ep-verification__metrics strong { display:block; margin:8px 0; color:#fff; font-size:clamp(19px,2vw,27px); font-weight:500; }
+        .ep-verification__metrics small { color:#aaa; font-size:10px; line-height:1.5; }
+        .ep-verification__columns { display:grid; grid-template-columns:1fr 1fr; gap:12px; align-items:start; }
+        .ep-verification__panel { min-width:0; padding:20px; border:1px solid rgba(255,255,255,.13); border-radius:16px; background:#101010; }
+        .ep-verification__panel > span:not(:first-child) { margin-top:18px; }
+        .ep-verification__artifact { margin:9px 0; padding:0 12px; border:1px solid rgba(255,255,255,.14); border-radius:12px; background:#171717; }
+        .ep-verification__artifact summary,.ep-verification__checks summary { padding:14px 2px; color:#f5f5f5; font-size:12px; line-height:1.5; cursor:pointer; overflow-wrap:anywhere; }
+        .ep-verification__artifact[open] { padding-bottom:13px; }
+        .ep-verification__artifact > div { border-top:1px solid rgba(255,255,255,.10); padding-top:12px; }
+        .ep-verification__artifact small { color:#aaa; font-size:9px; letter-spacing:.06em; }
+        .ep-verification__artifact p { margin:6px 0 13px; }
+        .ep-verification__checks { margin-top:12px; padding:0 18px; border:1px solid rgba(255,255,255,.14); border-radius:14px; background:#111; }
+        .ep-verification__checks > div { border-top:1px solid rgba(255,255,255,.12); padding:12px 0; }
+        .ep-verification__checks strong { color:#eee; font-size:11px; }
+        .ep-verification__checks p { margin:6px 0; }
+        .ep-verification__boundary { margin:17px 0 0 !important; color:#aaa !important; font-size:10px !important; }
+        @media (max-width:768px) {
+          .ep-verification { padding:15px; border-radius:17px; }
+          .ep-verification__top { flex-direction:column; gap:10px; }
+          .ep-verification__metrics { grid-template-columns:repeat(2,minmax(0,1fr)); }
+          .ep-verification__metrics > div:first-child { grid-column:1/-1; }
+          .ep-verification__columns { grid-template-columns:1fr; }
+          .ep-verification__panel { padding:16px; }
         }
       `}
 
