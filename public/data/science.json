@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-10-10T07:21:22.692Z",
+  "updated": "2026-10-10T13:22:26.821Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Powerful waves lash California coast as storm threatens more damage",
+      "url": "https://phys.org/news/2026-10-powerful-lash-california-coast-storm.html",
+      "summary": "Powerful waves thrashed communities along California's southern coast Friday, damaging homes and sending water cascading through streets as residents braced for more potential damage wrought by Tropical Storm Rachel.",
+      "ts": 1791634802000,
+      "publishedAt": "2026-10-10T12:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tsunami alert after major earthquake rocks Panama",
+      "url": "https://phys.org/news/2026-10-tsunami-major-earthquake-panama.html",
+      "summary": "A magnitude 7.7 earthquake jolted Panama on Friday, setting off panic in the capital city and warnings of dangerous tsunami waves.",
+      "ts": 1791634793000,
+      "publishedAt": "2026-10-10T12:19:53.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Isaias downgraded to post-tropical cyclone after landfall in Florida",
+      "url": "https://phys.org/news/2026-10-isaias-downgraded-tropical-cyclone-landfall.html",
+      "summary": "Isaias weakened from a hurricane to a post-tropical cyclone early Saturday after it made landfall in northwestern Florida, where it lashed the U.S. Gulf Coast with heavy rain and strong winds, the National Hurricane Cent…",
+      "ts": 1791634201000,
+      "publishedAt": "2026-10-10T12:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some young ants start hunting and caring for others early",
+      "url": "https://phys.org/news/2026-10-young-ants-early.html",
+      "summary": "Some insects, including honeybees and ants, live in highly organized colonies where individuals take on specific roles. In many ant societies, young adult workers typically care for developing young inside the nest befor…",
+      "ts": 1791633606000,
+      "publishedAt": "2026-10-10T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New catalyst enables lower-temperature methane conversion with sustained performance",
+      "url": "https://phys.org/news/2026-10-catalyst-enables-temperature-methane-conversion.html",
+      "summary": "Oxidative coupling of methane (OCM) is a chemical reaction that directly converts methane and oxygen, the main components of natural gas, into higher-value hydrocarbons such as ethane and ethylene. However, the reaction …",
+      "ts": 1791633601000,
+      "publishedAt": "2026-10-10T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfire smoke shuts schools in Amazon's biggest city",
+      "url": "https://phys.org/news/2026-10-wildfire-schools-amazon-biggest-city.html",
+      "summary": "The largest city in the Brazilian Amazon, Manaus, closed public schools on Friday as smoke from hundreds of wildfires blanketed the metropolis amid an intensifying El Niño event.",
+      "ts": 1791633582000,
+      "publishedAt": "2026-10-10T11:59:42.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hybrid quantum computer observes foundational quantum effect in a new setting",
+      "url": "https://phys.org/news/2026-10-hybrid-quantum-foundational-effect.html",
+      "summary": "Physicists in the Department of Physics at the University of Oxford have used a hybrid quantum computer, made up of qubits and quantum oscillators, to observe the Aharonov–Bohm effect in a quantum simulation. The effect …",
+      "ts": 1791629827000,
+      "publishedAt": "2026-10-10T10:57:07.000Z"
+    },
     {
       "source": "arXiv AI",
       "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
@@ -743,62 +799,6 @@
       "title": "InterviewPlayground: A Simulation Environment for Evaluating AI Interviewers",
       "url": "https://arxiv.org/abs/2610.12023",
       "summary": "arXiv:2610.12023v1 Announce Type: new Abstract: Increasingly, AI interviewers are being developed to elicit open-ended responses in applications like market research, public polling, preference elicitation, and social sc…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Structure Tax: How Structured Output affects LLMs Performance",
-      "url": "https://arxiv.org/abs/2610.12056",
-      "summary": "arXiv:2610.12056v1 Announce Type: new Abstract: Deploying large language models in production often requires constraining outputs to structured formats such as JSON or XML, and prior work treats the resulting accuracy lo…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
-      "url": "https://arxiv.org/abs/2610.12061",
-      "summary": "arXiv:2610.12061v1 Announce Type: new Abstract: Large language model (LLM)-based agents have demonstrated strong capabilities on complex tasks. They typically perform reasoning before each action throughout an interactio…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Is Memorization Context-Sensitive? Prefix-Based Extraction Beyond Isolated Prefixes",
-      "url": "https://arxiv.org/abs/2610.12085",
-      "summary": "arXiv:2610.12085v1 Announce Type: new Abstract: Large language models (LLMs) can expose memorized training sequences under prefix-based extraction: given a prefix from a training example, the model may assign high probab…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "EvoAlloc: A Self-Evolving Resource Allocation Agent for Efficient Program Evolution",
-      "url": "https://arxiv.org/abs/2610.12086",
-      "summary": "arXiv:2610.12086v1 Announce Type: new Abstract: LLM-based program evolution relies on evaluation feedback to guide the iterative search for high-performing programs. However, evaluation is often computationally expensive…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models",
-      "url": "https://arxiv.org/abs/2610.12090",
-      "summary": "arXiv:2610.12090v1 Announce Type: new Abstract: Latent reasoning enables vision-language-action (VLA) models to transform multimodal observations into task-relevant internal states before generating continuous robot acti…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Universal Textual Teaching for LLMs",
-      "url": "https://arxiv.org/abs/2610.12114",
-      "summary": "arXiv:2610.12114v1 Announce Type: new Abstract: Knowledge distillation (KD) transfers knowledge from stronger Teacher models to weaker Student models, but most methods require training the Student parameters, thereby bin…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents",
-      "url": "https://arxiv.org/abs/2610.12124",
-      "summary": "arXiv:2610.12124v1 Announce Type: new Abstract: The evolution of Large Language Model agents from single-task execution to long-term autonomous operation highlights the critical challenge of transforming continuous exper…",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }

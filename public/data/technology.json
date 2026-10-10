@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-10T07:21:29.647Z",
+  "updated": "2026-10-10T13:22:29.058Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "ESA astronaut Sophie Adenot returns from her first mission to the International Space Station ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/ESA_astronaut_Sophie_Adenot_returns_from_her_first_mission_to_the_International_Space_Station",
+      "summary": "ESA astronaut Sophie Adenot has arrived back in Europe, landing in Cologne, Germany, following her return to Earth with Crew-12 after 237 days, nearly eight months, aboard the International Space Station for her εpsilon …",
+      "ts": 1791622860000,
+      "publishedAt": "2026-10-10T09:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 10 – Lunar Farside",
@@ -802,15 +811,6 @@
       "ts": 1791482438000,
       "publishedAt": "2026-10-08T18:00:38.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Webb Measures Distance to Farthest Fast Radio Burst, Suggesting Origin",
-      "url": "https://science.nasa.gov/missions/webb/webb-measures-distance-to-farthest-fast-radio-burst-suggesting-origin/",
-      "summary": "First discovered in 2007, fast radio bursts are enigmatic, millisecond-long flashes of radio emission from the distant universe. Their origin remains uncertain, particularly since most are seen once and never again. Astr…",
-      "ts": 1791482400000,
-      "publishedAt": "2026-10-08T18:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
