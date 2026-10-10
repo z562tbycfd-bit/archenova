@@ -27978,6 +27978,187 @@ useEffect(() => {
         .ep-open-scholarly__papers article>div{display:flex;justify-content:space-between;gap:8px;margin-bottom:5px}.ep-open-scholarly__papers article>div b{font-size:8px;font-weight:500;color:rgba(255,255,255,.38)}.ep-open-scholarly__papers article>strong{display:block;font-size:12px;line-height:1.45;font-weight:560}.ep-open-scholarly__papers a{color:inherit;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.16)}.ep-open-scholarly__papers a:hover{border-bottom-color:rgba(255,255,255,.5)}.ep-open-scholarly__empty{color:rgba(255,255,255,.45)!important}
         .ep-open-scholarly__explore>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:9px}.ep-open-scholarly__explore article{padding:10px;border:1px solid rgba(255,255,255,.07);border-radius:12px;background:rgba(255,255,255,.012)}.ep-open-scholarly>footer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08);font-size:10px;line-height:1.6;color:rgba(255,255,255,.45)}
         @media(max-width:900px){.ep-open-scholarly__grid{grid-template-columns:1fr}.ep-open-scholarly__explore>div{grid-template-columns:1fr 1fr}}@media(max-width:560px){.ep-open-scholarly{padding:14px;border-radius:18px}.ep-open-scholarly__head{flex-direction:column}.ep-open-scholarly__explore>div{grid-template-columns:1fr}}
+
+        /* ==================================================
+           EPISTEME VISUAL REFINEMENT
+           CSS ONLY · Desktop + Mobile
+           Preserve state, logic, markup, scroll ownership
+        ================================================== */
+
+        /* Keep text and controls inside their existing layout cells. */
+        .ep-dialogue,
+        .ep-dialogue * {
+          box-sizing: border-box;
+        }
+
+        .ep-dialogue :is(
+          .ep-universal-nexus,
+          .ep-adaptive-canvas,
+          .ep-cognitive-orchestration,
+          .ep-reality-os,
+          .ep-open-scholarly,
+          .ep-reality-governance,
+          .ep-autonomous-reality,
+          .ep-monochrome-reality
+        ) {
+          min-width: 0;
+          max-width: 100%;
+        }
+
+        .ep-dialogue :is(
+          .ep-adaptive-canvas__modules,
+          .ep-cognitive-grid,
+          .ep-reality-os__grid,
+          .ep-open-scholarly__grid,
+          .ep-answer-first
+        ) > * {
+          min-width: 0;
+        }
+
+        /* Quiet glass edge without adding expensive blur layers. */
+        .ep-monochrome-interface :is(
+          .ep-universal-nexus,
+          .ep-adaptive-canvas,
+          .ep-cognitive-orchestration,
+          .ep-reality-os,
+          .ep-open-scholarly,
+          .ep-reality-governance,
+          .ep-autonomous-reality
+        ) {
+          border-color: rgba(255,255,255,.105);
+          box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.075),
+            0 12px 36px rgba(0,0,0,.12);
+        }
+
+        /* Clearer headings and secondary copy; retain existing hierarchy. */
+        .ep-monochrome-interface :is(
+          .ep-universal-nexus__identity strong,
+          .ep-adaptive-canvas > header strong,
+          .ep-cognitive-orchestration__head strong,
+          .ep-reality-os__head strong,
+          .ep-open-scholarly__head strong
+        ) {
+          color: rgba(250,250,250,.91);
+        }
+
+        .ep-monochrome-interface :is(
+          .ep-universal-nexus > p,
+          .ep-adaptive-canvas__modules article p,
+          .ep-adaptive-canvas footer p
+        ) {
+          color: rgba(235,238,242,.63);
+          line-height: 1.65;
+          overflow-wrap: anywhere;
+        }
+
+        .ep-monochrome-interface :is(
+          .ep-universal-nexus__identity small,
+          .ep-universal-nexus__route span,
+          .ep-adaptive-canvas > header > span
+        ) {
+          color: rgba(235,238,242,.60);
+        }
+
+        /* Make keyboard navigation and tap interaction easier to perceive. */
+        .ep-dialogue :is(button, a, textarea, input, select):focus-visible {
+          outline: 2px solid rgba(242,245,249,.80);
+          outline-offset: 3px;
+        }
+
+        .ep-dialogue :is(button, a) {
+          -webkit-tap-highlight-color: transparent;
+        }
+
+        /* Prevent long technical identifiers from escaping narrow cards. */
+        .ep-dialogue :is(
+          .ep-adaptive-canvas__modules article,
+          .ep-cognitive-grid > section,
+          .ep-reality-os__grid > section,
+          .ep-open-scholarly__grid > section
+        ) {
+          overflow-wrap: anywhere;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+          .ep-monochrome-interface :is(
+            .ep-universal-modebar__modes button,
+            .ep-universal-modebar__signal
+          ):hover {
+            border-color: rgba(255,255,255,.20);
+          }
+        }
+
+        /* Mobile: fix cramped labels and content spill without
+           changing scroll containers, sticky regions or behavior. */
+        @media (max-width: 899px) {
+          .ep-dialogue :is(
+            .ep-universal-nexus,
+            .ep-adaptive-canvas,
+            .ep-cognitive-orchestration,
+            .ep-reality-os,
+            .ep-open-scholarly
+          ) {
+            min-width: 0;
+          }
+
+          .ep-dialogue .ep-universal-modebar__modes {
+            min-width: 0;
+            -webkit-overflow-scrolling: touch;
+          }
+
+          .ep-dialogue :is(
+            .ep-universal-modebar__modes button,
+            .ep-universal-modebar__signal
+          ) {
+            min-height: 44px;
+          }
+
+          .ep-dialogue :is(
+            .ep-universal-nexus > p,
+            .ep-adaptive-canvas__modules article p,
+            .ep-adaptive-canvas footer p
+          ) {
+            font-size: max(10px, .72rem);
+          }
+
+          .ep-dialogue .ep-adaptive-canvas__modules article {
+            grid-template-columns: 20px minmax(0,1fr) auto;
+          }
+        }
+
+        @media (max-width: 560px) {
+          .ep-dialogue .ep-universal-modebar__signal {
+            min-width: 84px;
+          }
+
+          .ep-dialogue .ep-universal-modebar__modes button {
+            min-width: 76px;
+          }
+
+          .ep-dialogue .ep-adaptive-canvas__modules article {
+            gap: 7px;
+          }
+
+          .ep-dialogue :is(
+            .ep-universal-nexus,
+            .ep-adaptive-canvas
+          ) {
+            border-radius: 16px;
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .ep-dialogue :is(
+            .ep-universal-nexus,
+            .ep-adaptive-canvas,
+            .ep-cognitive-orchestration,
+            .ep-reality-os,
+            .ep-open-scholarly
+          ) {
+            scroll-behavior: auto;
+          }
+        }
       `}
 
       
