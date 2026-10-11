@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-11T19:59:57.681Z",
+  "updated": "2026-10-11T23:36:29.186Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'DNA Typewriter' records cells' history in developing mouse embryo",
+      "url": "https://phys.org/news/2026-10-dna-typewriter-cells-history-mouse.html",
+      "summary": "Scientists have succeeded in reconstructing the family tree of cells in a developing mouse embryo. They recorded cells' relationships, starting when the fertilized egg first split in two and ending after the body and its…",
+      "ts": 1791757201000,
+      "publishedAt": "2026-10-11T22:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Quantum 'birthmarks' hold lasting traces of a system's past",
@@ -791,14 +799,6 @@
       "title": "Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems",
       "url": "https://arxiv.org/abs/2610.11600",
       "summary": "arXiv:2610.11600v1 Announce Type: new Abstract: LLM-based multi-agent systems (MASs) are increasingly used to solve complex tasks through coordinated reasoning, tool use, and interaction with external resources. However,…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AgentEvolver: System-Wide Self-Evolution Through Task Execution",
-      "url": "https://arxiv.org/abs/2610.11613",
-      "summary": "arXiv:2610.11613v1 Announce Type: new Abstract: An agent can complete a task without improving how it works. Turning task experience into reusable capability requires connecting the changed component to its evaluation an…",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }
