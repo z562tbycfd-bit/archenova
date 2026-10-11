@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-10T22:17:38.846Z",
+  "updated": "2026-10-11T01:38:05.041Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
+      "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+      "summary": "Africa boasts up to 25% of Earth's animal and plant species. This diversity is driven by varied habitats: harsh deserts, vast grasslands, dense forests, towering mountains, lush coastlines and teeming seas. It is also du…",
+      "ts": 1791678601000,
+      "publishedAt": "2026-10-11T00:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
@@ -791,14 +799,6 @@
       "title": "Probability-Signature Dynamics: Unpacking Modular Addition Learning Within Two-Layer Networks",
       "url": "https://arxiv.org/abs/2610.11833",
       "summary": "arXiv:2610.11833v1 Announce Type: new Abstract: Neural networks trained on modular addition tasks often develop Fourier-structured representations that support exact generalization. While prior work has identified these …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LEVER: Adaptive Cost-Aware Proof Search Over AND/OR Graphs",
-      "url": "https://arxiv.org/abs/2610.11862",
-      "summary": "arXiv:2610.11862v1 Announce Type: new Abstract: Mathematicians value proofs for more than correctness: among correct proofs, simplicity, purity and the computational cost of finding them vary widely. Yet LLM-powered theo…",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-10T22:17:43.254Z",
+  "updated": "2026-10-11T01:38:09.412Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Americans trust science more than peers around the world, survey shows",
+      "url": "https://www.statnews.com/2026/10/10/u-s-trust-science-higher-than-other-nations-wellcome-survey/?utm_campaign=rss",
+      "summary": "Just 40 percent of Americans reported a lot of confidence in U.S. hospitals and health clinics, the same proportion as in Portugal and Uruguay.",
+      "ts": 1791673260000,
+      "publishedAt": "2026-10-10T23:01:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
@@ -802,15 +811,6 @@
       "ts": 1791484672000,
       "publishedAt": "2026-10-08T18:37:52.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
-      "url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
-      "summary": "NASA’s SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) space telescope is shedding light on brown dwarfs, celestial objects that blur the line between stars and exop…",
-      "ts": 1791483768000,
-      "publishedAt": "2026-10-08T18:22:48.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
