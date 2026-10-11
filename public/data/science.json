@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-11T01:38:05.041Z",
+  "updated": "2026-10-11T08:26:38.454Z",
   "items": [
     {
       "source": "Phys.org",
@@ -9,6 +9,30 @@
       "summary": "Africa boasts up to 25% of Earth's animal and plant species. This diversity is driven by varied habitats: harsh deserts, vast grasslands, dense forests, towering mountains, lush coastlines and teeming seas. It is also du…",
       "ts": 1791678601000,
       "publishedAt": "2026-10-11T00:30:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A method quantifying soil melanin to understand fungal impacts on soil carbon stability",
+      "url": "https://www.nature.com/articles/s41467-026-78616-4",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "In situ reduction-driven formation of sub-nanometer alternating heterostructures",
+      "url": "https://www.nature.com/articles/s41467-026-78575-w",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Asymmetric bloom lengthening drives high-latitude ocean chlorophyll accumulation imbalance",
+      "url": "https://www.nature.com/articles/s41467-026-78603-9",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -775,30 +799,6 @@
       "title": "Safe Actions Alone Do Not Ensure Safe Agents: Identifying Unfulfilled Obligations with Guard Models",
       "url": "https://arxiv.org/abs/2610.11773",
       "summary": "arXiv:2610.11773v1 Announce Type: new Abstract: Guard models are increasingly used to safeguard LLM-based agents, primarily by identifying actions that agents are forbidden to perform. However, identifying forbidden acti…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "RouterInterp: Understanding Superposed Specialisation in Mixture of Experts Routing",
-      "url": "https://arxiv.org/abs/2610.11775",
-      "summary": "arXiv:2610.11775v1 Announce Type: new Abstract: Sparse Mixture of Experts (MoE) models scale more efficiently than dense models by routing tokens to modular expert networks that are only active for processing a fraction …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "url": "https://arxiv.org/abs/2610.11794",
-      "summary": "arXiv:2610.11794v1 Announce Type: new Abstract: Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Probability-Signature Dynamics: Unpacking Modular Addition Learning Within Two-Layer Networks",
-      "url": "https://arxiv.org/abs/2610.11833",
-      "summary": "arXiv:2610.11833v1 Announce Type: new Abstract: Neural networks trained on modular addition tasks often develop Fourier-structured representations that support exact generalization. While prior work has identified these …",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }
