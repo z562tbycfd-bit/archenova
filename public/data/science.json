@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-11T08:26:38.454Z",
+  "updated": "2026-10-11T15:24:43.105Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New algorithm could predict Arctic sea ice up to 9 months ahead, offering new climate insights",
+      "url": "https://phys.org/news/2026-10-algorithm-arctic-sea-ice-months.html",
+      "summary": "Researchers at the Mubadala Arabian Center for Climate and Environmental Sciences (ACCESS) at NYU Abu Dhabi have developed a new algorithm that can forecast Arctic sea ice extent up to nine months in advance, offering a …",
+      "ts": 1791723601000,
+      "publishedAt": "2026-10-11T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spinach nanoparticles help failing rat hearts via 'borrowed photosynthesis'",
+      "url": "https://phys.org/news/2026-10-spinach-nanoparticles-rat-hearts-photosynthesis.html",
+      "summary": "A spinach leaf can turn light into chemical energy. A struggling heart cannot. Researchers in China have brought part of the leaf's energy-making machinery into rat heart cells to test whether borrowed photosynthesis cou…",
+      "ts": 1791718801000,
+      "publishedAt": "2026-10-11T11:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
@@ -20,6 +36,30 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Intensification of near-inertial currents in the Atlantic Ocean over the past two decades",
+      "url": "https://www.nature.com/articles/s41467-026-78555-0",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "HCV incidence and prevalence trends among people who use drugs in France 2004 to 2023",
+      "url": "https://www.nature.com/articles/s41467-026-78598-3",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "An automated operon refactoring workflow for heterologous expression of non-ribosomal peptide biosynthetic gene clusters",
+      "url": "https://www.nature.com/articles/s41467-026-78648-w",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "In situ reduction-driven formation of sub-nanometer alternating heterostructures",
       "url": "https://www.nature.com/articles/s41467-026-78575-w",
       "summary": "",
@@ -30,6 +70,22 @@
       "source": "Nature Communications",
       "title": "Asymmetric bloom lengthening drives high-latitude ocean chlorophyll accumulation imbalance",
       "url": "https://www.nature.com/articles/s41467-026-78603-9",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A supergene and genomic mosaicism are associated with phenotypic evolution in Galápagos tree finches",
+      "url": "https://www.nature.com/articles/s41467-026-78507-8",
+      "summary": "",
+      "ts": 1791676800000,
+      "publishedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Time-lapse RESOLFT nanoscopy empowered by deep learning",
+      "url": "https://www.nature.com/articles/s41467-026-78580-z",
       "summary": "",
       "ts": 1791676800000,
       "publishedAt": "2026-10-11T00:00:00.000Z"
@@ -743,62 +799,6 @@
       "title": "Internalizer: Portable Context-to-Parameter Mapping for Very Large Language Models",
       "url": "https://arxiv.org/abs/2610.11715",
       "summary": "arXiv:2610.11715v1 Announce Type: new Abstract: Hypernetworks that map a context directly to a LoRA adapter let a large language model carry that context in its weights, but prior work has demonstrated them only on base …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MultiWorldBench: Do Independently Controlled Views Describe One Shared World?",
-      "url": "https://arxiv.org/abs/2610.11723",
-      "summary": "arXiv:2610.11723v1 Announce Type: new Abstract: Multiplayer world models must ensure that independently controlled views remain consistent with one shared and persistent world. We introduce MultiWorldBench, a diagnostic …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MemTrial: Learning When to Trust Memory in LLM Portfolio Agents",
-      "url": "https://arxiv.org/abs/2610.11732",
-      "summary": "arXiv:2610.11732v1 Announce Type: new Abstract: Large language model (LLM) agents for portfolio management learn from experience: they credit each experience in their memory with the outcome of the decisions that used it…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Onboard Marine Anomaly Detection on $\\Phi$sat-2: From Simulation-Based Development to In-Orbit Demonstration",
-      "url": "https://arxiv.org/abs/2610.11735",
-      "summary": "arXiv:2610.11735v1 Announce Type: new Abstract: Onboard Artificial Intelligence can improve responsiveness and bandwidth efficiency of Earth Observation systems by processing data directly on the satellite. This paper pr…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Scalable AI Uncertainty Quantification via Generalized Laplace Active Subspaces",
-      "url": "https://arxiv.org/abs/2610.11738",
-      "summary": "arXiv:2610.11738v1 Announce Type: new Abstract: Reliable uncertainty quantification (UQ) is essential for deploying neural networks in scientific and high-stakes applications, but full Bayesian inference over the network…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Where Draft Trees Lose Target Mass: Exit-Guided Speculative Decoding",
-      "url": "https://arxiv.org/abs/2610.11750",
-      "summary": "arXiv:2610.11750v1 Announce Type: new Abstract: Tree-based speculative decoding verifies multiple draft continuations in one target-model pass, but finite trees built from draft scores face a fundamental draft-target mis…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "What Output-Only Review Cannot Verify: Study Contracts for Research Agents",
-      "url": "https://arxiv.org/abs/2610.11754",
-      "summary": "arXiv:2610.11754v1 Announce Type: new Abstract: Some defects in an AI-generated study can be identified from its artifacts; others require knowledge of what was approved before execution. We propose study contracts that …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Safe Actions Alone Do Not Ensure Safe Agents: Identifying Unfulfilled Obligations with Guard Models",
-      "url": "https://arxiv.org/abs/2610.11773",
-      "summary": "arXiv:2610.11773v1 Announce Type: new Abstract: Guard models are increasingly used to safeguard LLM-based agents, primarily by identifying actions that agents are forbidden to perform. However, identifying forbidden acti…",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }
