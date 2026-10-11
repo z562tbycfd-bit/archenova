@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-10-11T15:24:43.105Z",
+  "updated": "2026-10-11T19:59:57.681Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Quantum 'birthmarks' hold lasting traces of a system's past",
+      "url": "https://phys.org/news/2026-10-quantum-birthmarks.html",
+      "summary": "Some classical physical systems can explore many configurations over time until their long-term behavior no longer reveals their starting conditions. The sampling of available configurations according to the appropriate …",
+      "ts": 1791742801000,
+      "publishedAt": "2026-10-11T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study shows effects of hypoxia in Florida's Banana River",
+      "url": "https://phys.org/news/2026-10-effects-hypoxia-florida-banana-river.html",
+      "summary": "A new study by Florida Tech assistant professor of marine sciences Austin Fox, Ph.D. '15, found that low oxygen levels are contributing to the rerelease of nutrients buried on the river floor that feed harmful algal bloo…",
+      "ts": 1791741607000,
+      "publishedAt": "2026-10-11T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Conservation groups alarmed at marine mammals' deaths in Spain",
+      "url": "https://phys.org/news/2026-10-groups-alarmed-marine-mammals-deaths.html",
+      "summary": "Conservation groups on Sunday condemned the death of a dolphin transferred from France to a Spanish marine park, saying it added to the deaths of other sea mammals recently moved to Spain from Canada.",
+      "ts": 1791739897000,
+      "publishedAt": "2026-10-11T17:31:37.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indonesia releases eight orangutans rescued from fires to protected forest",
+      "url": "https://phys.org/news/2026-10-indonesia-orangutans-forest.html",
+      "summary": "Eight orangutans rescued in recent weeks from blazes that tore through Borneo island have been released into a protected forest, Indonesian authorities and rescuers said on Sunday.",
+      "ts": 1791736801000,
+      "publishedAt": "2026-10-11T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "At least 4 dead as cyclone Isaias drenches southern U.S.",
+      "url": "https://phys.org/news/2026-10-dead-cyclone-isaias-drenches-southern.html",
+      "summary": "Four people died in the southeastern United States as post-tropical cyclone Isaias posed flooding and tornado risks Saturday as it moved northward after making landfall on Florida's Gulf Coast.",
+      "ts": 1791735604000,
+      "publishedAt": "2026-10-11T16:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Jurassic fossil reveals ancient origins of how mammals drink milk",
+      "url": "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html",
+      "summary": "An international team of researchers has uncovered new evidence illuminating the evolutionary origins of one of the defining features of mammals: the ability to suckle and consume milk during infancy. Their findings, pub…",
+      "ts": 1791734404000,
+      "publishedAt": "2026-10-11T16:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hurricane Simon strengthens as it nears western Mexico",
+      "url": "https://phys.org/news/2026-10-hurricane-simon-nears-western-mexico.html",
+      "summary": "Hurricane Simon strengthened into a powerful Category 4 storm and was expected to make landfall or skirt the coast of west-central Mexico on Sunday, according to the U.S. National Hurricane Center.",
+      "ts": 1791734401000,
+      "publishedAt": "2026-10-11T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "South Korea completes trial of Arctic shipping route",
+      "url": "https://phys.org/news/2026-10-south-korea-trial-arctic-shipping.html",
+      "summary": "A South Korean container ship returned on Sunday from a trial voyage through the Arctic, testing an alternative route opened by melting sea ice as conflict in the Middle East disrupts global shipping.",
+      "ts": 1791733202000,
+      "publishedAt": "2026-10-11T15:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Egypt's Fayoum mummy portraits to travel abroad for first time after restoration",
+      "url": "https://phys.org/news/2026-10-egypt-fayoum-mummy-portraits.html",
+      "summary": "Egypt unveiled Sunday a restored version of the \"Tondo of the Two Brothers,\" a prized second-century painting from the famed Fayoum portraits.",
+      "ts": 1791732395000,
+      "publishedAt": "2026-10-11T15:26:35.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New algorithm could predict Arctic sea ice up to 9 months ahead, offering new climate insights",
@@ -727,78 +799,6 @@
       "title": "AgentEvolver: System-Wide Self-Evolution Through Task Execution",
       "url": "https://arxiv.org/abs/2610.11613",
       "summary": "arXiv:2610.11613v1 Announce Type: new Abstract: An agent can complete a task without improving how it works. Turning task experience into reusable capability requires connecting the changed component to its evaluation an…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Where to Adapt Matters: Layer-Selective Fine-Tuning for Capability Retention",
-      "url": "https://arxiv.org/abs/2610.11620",
-      "summary": "arXiv:2610.11620v1 Announce Type: new Abstract: Parameter-efficient fine-tuning (PEFT) enables large language models (LLMs) to adapt to specialized tasks, but often at the cost of degrading general capabilities acquired …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Evidence-Traceable Dynamic Interviewer Architecture for Expertise-Adaptive Qualitative Interviews Using Local LLMs",
-      "url": "https://arxiv.org/abs/2610.11651",
-      "summary": "arXiv:2610.11651v1 Announce Type: new Abstract: Automated interviewers and conversational agents are increasingly used in research, recruitment, customer service, and education. However, many existing systems rely on fix…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Harness Evolution Hits a Ceiling: When Weight Training Should Begin",
-      "url": "https://arxiv.org/abs/2610.11655",
-      "summary": "arXiv:2610.11655v1 Announce Type: new Abstract: Improving a long-horizon LLM agent means evolving the harness around a frozen model or training its weights. We let a self-evolving harness make the system stronger first, …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Lamarck's Driving School: Discovering Autonomous Driving Training Strategies through Evolutionary Competition",
-      "url": "https://arxiv.org/abs/2610.11662",
-      "summary": "arXiv:2610.11662v1 Announce Type: new Abstract: Autonomous driving capabilities depend strongly on the distribution of scenarios encountered during training. Existing methods commonly construct or dynamically adapt train…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Constrained Command-Conditioned Reinforcement Learning with Bandit Strategy Selection in Real-Time Strategy Games",
-      "url": "https://arxiv.org/abs/2610.11663",
-      "summary": "arXiv:2610.11663v1 Announce Type: new Abstract: Deep reinforcement learning agents reach strong performance in real-time strategy games but can be brittle against opponents outside their training distribution. Separating…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A 3D Characterization Framework for Intelligent Sequential Decision Making",
-      "url": "https://arxiv.org/abs/2610.11696",
-      "summary": "arXiv:2610.11696v1 Announce Type: new Abstract: Puzzles are widely used to evaluate the reasoning capabilities of artificial intelligence (AI) systems for sequential decision making, yet approaches originating from diffe…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Intervention anchors and scientific verification in synthetic vascular predictive representations",
-      "url": "https://arxiv.org/abs/2610.11704",
-      "summary": "arXiv:2610.11704v1 Announce Type: new Abstract: Complete orthogonal predictive coordinates do not by themselves bind a latent direction to a named intervention. We present a mathematical and synthetic audit motivated by …",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DeltaReplay: Task-Relative Memory Reuse for Mobile GUI Agents",
-      "url": "https://arxiv.org/abs/2610.11707",
-      "summary": "arXiv:2610.11707v1 Announce Type: new Abstract: Memory-augmented mobile GUI agents store successful execution trajectories and reuse them in later tasks, but a stored trajectory rarely matches a new task exactly. The new…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Internalizer: Portable Context-to-Parameter Mapping for Very Large Language Models",
-      "url": "https://arxiv.org/abs/2610.11715",
-      "summary": "arXiv:2610.11715v1 Announce Type: new Abstract: Hypernetworks that map a context directly to a LoRA adapter let a large language model carry that context in its weights, but prior work has demonstrated them only on base …",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }
