@@ -66817,10 +66817,40 @@ main.episteme-dialogue-page .ep-message__body h3 {
 }
 
 
+/* PC: Episteme answer width / control width separation */
+@media (min-width: 901px) {
+  /* Episteme回答だけが広い表示領域を利用 */
+  main.episteme-dialogue-page
+  .ep-message--episteme {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+  }
 
+  /* 回答の中身は長い単語でも切れないようにする */
+  main.episteme-dialogue-page
+  .ep-message--episteme
+  .ep-message__body {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
 
+  /* ボタンは内容に応じた自然な幅にする */
+  main.episteme-dialogue-page
+  .ep-dialogue button {
+    width: auto;
+    max-width: 100%;
+    min-width: 0;
+    flex-grow: 0;
+    overflow-wrap: anywhere;
+  }
 
-
+  /* ボタンの文字は中央配置 */
+  main.episteme-dialogue-page
+  .ep-dialogue button {
+    text-align: center;
+  }
+}
 
 
 
