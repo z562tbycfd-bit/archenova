@@ -15149,10 +15149,41 @@ export default function EpistemeDialogue() {
   const streamTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const activeCaseIdRef = useRef<string | null>(null);
 
-  /* Live Signals are an explicit full-workspace view on every device. */
-  useEffect(() => {
-    activeCaseIdRef.current = activeCaseId;
-  }, [activeCaseId]);
+    /* ========================================================
+   RESPONSIVE SIGNAL PANEL DEFAULT
+   Desktop:
+   Bloomberg-style intelligence panel visible.
+   Mobile:
+   Conversation is primary.
+   Live Signals remain available on demand.
+======================================================== */
+useEffect(() => {
+  activeCaseIdRef.current = activeCaseId;
+}, [activeCaseId]);
+
+useEffect(() => {
+  const media =
+    window.matchMedia(
+      "(min-width: 769px)",
+    );
+  const syncSignalPanel =
+    () => {
+      setSignalPanelOpen(
+        media.matches,
+      );
+    };
+  syncSignalPanel();
+  media.addEventListener(
+    "change",
+    syncSignalPanel,
+  );
+  return () => {
+    media.removeEventListener(
+      "change",
+      syncSignalPanel,
+    );
+  };
+}, []);
 
   /* ========================================================
      LOAD LIVE SIGNALS
@@ -16033,19 +16064,10 @@ useEffect(() => {
         className={[
           "ep-dialogue__workspace",
           signalPanelOpen
-            ? "has-signals"
+            ? "has-signals is-signal-workspace"
             : "",
         ].join(" ")}
       >
-        <button
-          type="button"
-          className="ep-signals-view-trigger"
-          aria-expanded={signalPanelOpen}
-          aria-controls="ep-live-signals-view"
-          onClick={() => setSignalPanelOpen((open) => !open)}
-        >
-          {signalPanelOpen ? "← Back to conversation" : "Live Signals ↗"}
-        </button>
         {/* =================================================
             CONVERSATION
         ================================================= */}
@@ -17874,9 +17896,9 @@ useEffect(() => {
                 </span>
                 <button
                   type="button"
-                  className="ep-dialogue__signals-toggle"
                   aria-expanded={signalPanelOpen}
-                  aria-controls="ep-live-signals-view"
+                  aria-controls="episteme-live-signals"
+                  className="ep-dialogue__signals-toggle"
                   onClick={() => {
                     setSignalPanelOpen(
                       (current) =>
@@ -17896,7 +17918,7 @@ useEffect(() => {
             LIVE SIGNAL STREAM
         ================================================= */}
         {signalPanelOpen && (
-          <aside id="ep-live-signals-view" className="ep-dialogue__signals" aria-label="Live Signals">
+          <aside id="episteme-live-signals" className="ep-dialogue__signals" aria-label="Live Signals">
             <header className="ep-dialogue__signals-head">
               <div>
                 <span>
@@ -29370,300 +29392,122 @@ useEffect(() => {
         }
 
 
+
         /* ============================================================
-           STAGE 6.26 · RESPONSIVE CONVERSATION CANVAS
-           Layout safety, intrinsic sizing and readable typography.
-           Preserves all cognitive/epistemic and interaction components.
-           The case rail participates in layout rather than covering chat.
+           STAGE 6.27A · EXISTING LIVE SIGNALS CONTROL / FULL WORKSPACE
+           No new launcher. The original Show Live Signals control opens
+           the existing feed; its existing X closes it. One surface at a time.
         ============================================================ */
-        .ep-dialogue.ep-monochrome-interface {
-          --ep-626-gap: clamp(16px,2.6vw,40px);
-          --ep-626-prose: 72ch;
-          --ep-626-line: 1.72;
-          display:flex !important;
-          flex-direction:column !important;
-          width:100% !important;
-          min-width:0 !important;
-          height:100dvh !important;
-          min-height:0 !important;
-          overflow:hidden !important;
-          background:#050506 !important;
-        }
-        .ep-dialogue.ep-monochrome-interface,
-        .ep-dialogue.ep-monochrome-interface * {box-sizing:border-box;}
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__top,
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail {flex:0 0 auto;min-width:0;}
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail {
-          display:flex !important;
-          align-items:center;
-          gap:clamp(10px,1.8vw,24px);
-          padding:10px clamp(16px,2.5vw,38px) !important;
-          min-height:0;
-          max-width:100%;
-          overflow:hidden;
-          background:rgba(7,7,9,.82) !important;
-          border-bottom:1px solid rgba(255,255,255,.075);
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__label {
-          flex:0 0 auto;min-width:0;max-width:230px;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__label span {font-size:11px !important;letter-spacing:.09em;}
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__label small {font-size:10px !important;line-height:1.45;}
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__items {
-          display:flex;align-items:stretch;gap:8px;flex:1 1 auto;
-          min-width:0;overflow-x:auto;overflow-y:hidden;
-          scrollbar-width:thin;overscroll-behavior-x:contain;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case {
-          flex:0 0 clamp(190px,22vw,300px);min-width:0;
-          padding:11px 14px;border-radius:15px;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case span,
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case small {font-size:10px !important;line-height:1.45;}
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case strong {
-          display:block;max-width:100%;font-size:12px !important;
-          line-height:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
-        }
         .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace {
-          flex:1 1 0 !important;height:auto !important;min-height:0 !important;
-          min-width:0 !important;overflow:hidden !important;
+          grid-template-columns: minmax(0, 1fr) !important;
+          min-width: 0;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.has-signals {
-          grid-template-columns:minmax(0,1fr) clamp(290px,25vw,360px) !important;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace {
+          position: relative;
+          display: grid !important;
+          grid-template-columns: minmax(0, 1fr) !important;
+          grid-template-rows: minmax(0, 1fr) !important;
+          overflow: hidden !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__conversation {
-          min-height:0 !important;min-width:0 !important;
-          height:100% !important;overflow:hidden !important;
-          grid-template-rows:minmax(0,1fr) auto !important;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace > .ep-dialogue__conversation {
+          display: none !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__thread {
-          min-height:0 !important;min-width:0 !important;
-          overflow-y:auto !important;overflow-x:hidden !important;
-          padding:clamp(24px,3vw,52px) var(--ep-626-gap) clamp(36px,5vw,80px) !important;
-          scroll-padding-bottom:48px;
-          overflow-anchor:auto;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace > .ep-dialogue__signals {
+          position: relative !important;
+          inset: auto !important;
+          top: auto !important;
+          right: auto !important;
+          bottom: auto !important;
+          left: auto !important;
+          display: flex !important;
+          flex-direction: column !important;
+          width: 100% !important;
+          max-width: none !important;
+          height: 100% !important;
+          max-height: none !important;
+          min-height: 0 !important;
+          padding: 0 !important;
+          margin: 0 !important;
+          transform: none !important;
+          border: 0 !important;
+          border-radius: 0 !important;
+          box-shadow: none !important;
+          background: #08090b !important;
+          overflow: hidden !important;
+          opacity: 1 !important;
+          visibility: visible !important;
+          z-index: 5 !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__thread > * {min-width:0;max-width:100%;}
-        .ep-dialogue.ep-monochrome-interface .ep-message,
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__thread > .ep-message {
-          width:100% !important;max-width:100% !important;
-          margin-inline:0 !important;min-width:0 !important;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-dialogue__signals-head {
+          position: relative !important;
+          top: auto !important;
+          flex: 0 0 auto !important;
+          width: 100% !important;
+          min-height: 76px !important;
+          height: auto !important;
+          padding: 18px clamp(20px, 4vw, 72px) !important;
+          background: #0b0c0f !important;
+          border-bottom: 1px solid rgba(255,255,255,.09) !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-message__body {
-          width:100% !important;max-width:100% !important;
-          min-width:0 !important;overflow:visible !important;
-          padding:0 !important;background:transparent !important;
-          border:0 !important;box-shadow:none !important;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-dialogue__signal-feed {
+          flex: 1 1 auto !important;
+          display: grid !important;
+          grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)) !important;
+          align-content: start !important;
+          gap: clamp(14px, 1.8vw, 26px) !important;
+          min-height: 0 !important;
+          height: auto !important;
+          width: 100% !important;
+          padding: clamp(20px, 3vw, 52px) clamp(20px, 4vw, 72px) !important;
+          overflow-x: hidden !important;
+          overflow-y: auto !important;
+          overscroll-behavior: contain;
+          background: transparent !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-answer-shell,
-        .ep-dialogue.ep-monochrome-interface .ep-answer-shell__primary {
-          min-width:0 !important;width:100% !important;max-width:100% !important;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-signal {
+          width: 100% !important;
+          min-width: 0 !important;
+          height: auto !important;
+          margin: 0 !important;
+          padding: clamp(20px, 2vw, 30px) !important;
+          border: 1px solid rgba(255,255,255,.095) !important;
+          border-radius: 22px !important;
+          background: linear-gradient(150deg, rgba(255,255,255,.045), rgba(255,255,255,.012)) !important;
+          overflow-wrap: anywhere;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-answer-shell__primary {
-          padding:clamp(22px,3vw,48px) !important;
-          border:1px solid rgba(255,255,255,.105) !important;
-          border-radius:clamp(20px,2vw,30px) !important;
-          background:linear-gradient(140deg,rgba(255,255,255,.05),rgba(255,255,255,.012) 65%) !important;
-          box-shadow:inset 0 1px rgba(255,255,255,.035) !important;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-signal h3 {
+          font-size: clamp(15px, 1.2vw, 19px) !important;
+          line-height: 1.5 !important;
+          letter-spacing: -.015em !important;
+          overflow-wrap: anywhere !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-answer-shell__primary h3 {
-          font-size:clamp(19px,1.65vw,27px) !important;
-          line-height:1.48 !important;font-weight:550 !important;
-          letter-spacing:-.025em !important;max-width:var(--ep-626-prose) !important;
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-signal p {
+          font-size: clamp(12px, .95vw, 14px) !important;
+          line-height: 1.75 !important;
+          overflow-wrap: anywhere !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-answer-shell__primary p,
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-message__body > p {
-          font-size:clamp(14px,1.08vw,16px) !important;
-          line-height:var(--ep-626-line) !important;
-          max-width:var(--ep-626-prose) !important;
+        /* With the feed closed, the conversation alone owns the workspace. */
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace:not(.is-signal-workspace) > .ep-dialogue__conversation {
+          width: 100% !important;
+          min-width: 0 !important;
+          max-width: none !important;
         }
-        /* Never let badge rows, long titles or scientific tokens widen the canvas. */
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
-          p,h1,h2,h3,h4,h5,li,blockquote,summary,strong,small,span
-        ) {min-width:0;overflow-wrap:anywhere;word-break:normal;}
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
-          .ep-cognitive-capabilities,.ep-cognitive-grid,.ep-answer-first,
-          .ep-scholarly__sections,.ep-reality-twin,.ep-reality-governance,
-          .ep-reality-os,.ep-open-scholarly,.ep-cognitive-orchestration
-        ) {min-width:0;max-width:100%;}
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
-          .ep-cognitive-capabilities,.ep-answer-shell__assessment
-        ) {display:flex !important;flex-wrap:wrap !important;align-items:center;gap:8px !important;}
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
-          .ep-cognitive-capabilities,.ep-answer-shell__assessment
-        ) > * {flex:0 1 auto;min-width:0;white-space:normal;}
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
-          .ep-cognitive-grid,.ep-answer-first
-        ) {grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr)) !important;}
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
-          display:grid !important;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr)) !important;
-          gap:clamp(12px,1.5vw,22px) !important;align-items:start;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections > details {
-          min-width:0;max-width:100%;overflow:hidden;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(pre,code) {
-          max-width:100%;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(table,svg,canvas) {max-width:100%;}
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme table {display:block;overflow-x:auto;}
-        /* Composer is a real grid row, not an overlay on the scrollport. */
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer-shell {
-          position:relative !important;inset:auto !important;
-          z-index:30;min-width:0;max-width:100%;
-          padding:12px var(--ep-626-gap) max(14px,env(safe-area-inset-bottom)) !important;
-          background:linear-gradient(0deg,#050506 65%,rgba(5,5,6,.96)) !important;
-          border-top:1px solid rgba(255,255,255,.055);
-          contain:layout style;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer-shell > * {
-          max-width:min(100%,1100px);margin-inline:auto;min-width:0;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__modes {
-          width:100% !important;max-width:100% !important;
-          overflow-x:auto;overflow-y:hidden;scrollbar-width:none;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__modes::-webkit-scrollbar {display:none;}
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer {
-          width:100% !important;max-width:100% !important;min-width:0;
-        }
-        @media (min-width:901px) and (max-width:1180px) {
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.has-signals {
-            grid-template-columns:minmax(0,1fr) 290px !important;
+        @media (max-width: 760px) {
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-dialogue__signal-feed {
+            grid-template-columns: minmax(0, 1fr) !important;
+            padding: 16px !important;
+            gap: 12px !important;
           }
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__label small {display:none;}
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
-            grid-template-columns:minmax(0,1fr) !important;
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-dialogue__signals-head {
+            min-height: 66px !important;
+            padding: 14px 18px !important;
           }
-        }
-        @media (max-width:900px) {
-          .ep-dialogue.ep-monochrome-interface {height:100dvh !important;}
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail {
-            display:block !important;padding:10px 14px !important;
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.is-signal-workspace .ep-signal {
+            padding: 20px !important;
+            border-radius: 18px !important;
           }
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__label {display:none !important;}
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__items {width:100%;}
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case {
-            flex-basis:min(72vw,270px);padding:10px 12px;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace,
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.has-signals {
-            grid-template-columns:minmax(0,1fr) !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__thread {
-            padding:20px clamp(14px,4vw,24px) 34px !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-message__body {padding:0 !important;}
-          .ep-dialogue.ep-monochrome-interface .ep-answer-shell__primary {padding:clamp(20px,5vw,30px) !important;}
-          .ep-dialogue.ep-monochrome-interface .ep-answer-shell__primary h3 {
-            font-size:clamp(18px,4.7vw,24px) !important;line-height:1.5 !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections,
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(.ep-cognitive-grid,.ep-answer-first) {
-            grid-template-columns:minmax(0,1fr) !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer-shell {
-            padding:10px 14px max(12px,env(safe-area-inset-bottom)) !important;
-            background:#050506 !important;
-            transform:translateZ(0);
-          }
-        }
-        @media (prefers-reduced-motion:reduce) {
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer-shell {transform:none;}
         }
 
-
-
-        /* STAGE 6.27 · FULL-WORKSPACE LIVE SIGNALS */
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace,
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.has-signals {
-          position:relative !important;
-          display:block !important;
-          min-width:0 !important;
-          grid-template-columns:none !important;
-          isolation:isolate;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__conversation {
-          width:100% !important;
-          max-width:none !important;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.has-signals > .ep-dialogue__conversation {
-          visibility:hidden !important;
-          pointer-events:none !important;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signals {
-          position:absolute !important;
-          inset:0 !important;
-          width:100% !important;
-          height:100% !important;
-          max-width:none !important;
-          z-index:12 !important;
-          display:flex !important;
-          flex-direction:column !important;
-          overflow:hidden !important;
-          border:0 !important;
-          border-radius:0 !important;
-          background:linear-gradient(155deg,#0c0d10,#050506 75%) !important;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signals-head {
-          flex:0 0 auto;
-          padding-inline:clamp(22px,4vw,72px) !important;
-          border-bottom:1px solid rgba(255,255,255,.08);
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signal-feed {
-          flex:1 1 auto !important;
-          min-height:0 !important;
-          overflow-y:auto !important;
-          overflow-x:hidden !important;
-          display:grid !important;
-          grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr)) !important;
-          align-content:start !important;
-          gap:clamp(12px,1.8vw,24px) !important;
-          padding:clamp(20px,3vw,48px) clamp(20px,4vw,72px) !important;
-          overscroll-behavior:contain;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signal-feed > .ep-signal {
-          min-width:0 !important;
-          height:auto !important;
-          border:1px solid rgba(255,255,255,.10) !important;
-          border-radius:18px !important;
-          background:rgba(255,255,255,.025) !important;
-          overflow-wrap:anywhere;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-signals-view-trigger {
-          position:absolute;
-          top:clamp(12px,2vw,24px);
-          right:clamp(14px,2.8vw,44px);
-          z-index:15;
-          border:1px solid rgba(255,255,255,.15);
-          background:rgba(18,19,23,.9);
-          color:#e9ebf0;
-          border-radius:999px;
-          padding:11px 16px;
-          font:inherit;
-          font-size:12px;
-          letter-spacing:.015em;
-          cursor:pointer;
-          backdrop-filter:blur(18px);
-          -webkit-backdrop-filter:blur(18px);
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-signals-view-trigger:hover {
-          background:#26282e;
-          border-color:rgba(255,255,255,.35);
-        }
-        @media (max-width:900px) {
-          .ep-dialogue.ep-monochrome-interface .ep-signals-view-trigger {
-            top:12px;right:14px;padding:8px 12px;font-size:11px;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__signal-feed {
-            grid-template-columns:minmax(0,1fr) !important;
-            padding:18px 14px max(28px,env(safe-area-inset-bottom)) !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__signals-head {
-            padding-inline:16px !important;
-            padding-right:170px !important;
-          }
-        }
       `}
 
       
