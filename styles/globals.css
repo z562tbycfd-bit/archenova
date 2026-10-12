@@ -67558,9 +67558,8 @@ main.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   ARCHENOVA HOME FOOTER — CENTERED CONTENT
-   Based on Opacity_PagerFix. Only content alignment changed.
-   All frame sizing, opacity, gaps and mobile pager clearance retained.
+   ARCHENOVA HOME FOOTER — OPAQUE SOFT BLACK / CENTERED
+   Existing layout, sizing, vertical gap and pager clearance retained.
 ========================================================== */
 
 /* Outer element: transparent spacer ABOVE the full-bleed footer. */
@@ -67608,7 +67607,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   margin: 0 !important;
   padding: clamp(28px, 3.2vw, 48px) clamp(16px, 3.8vw, 76px) clamp(20px, 2.6vw, 36px) !important;
   overflow: hidden;
-  background: linear-gradient(145deg, rgba(15, 16, 18, .86) 0%, rgba(7, 8, 10, .90) 50%, rgba(2, 2, 3, .94) 100%) !important;
+  background: radial-gradient(ellipse at 50% 0%, rgba(255,255,255,.045) 0%, rgba(255,255,255,.012) 28%, transparent 65%), linear-gradient(145deg, rgb(15,16,18) 0%, rgb(8,9,11) 50%, rgb(3,3,5) 100%) !important;
   border: 1px solid rgba(255,255,255,.065) !important;
   border-radius: 24px 24px 0 0 !important;
   outline: 0 !important;
@@ -67627,7 +67626,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
 .an-home-footer__rule {
   height: 1px;
   width: 100%;
-  background: linear-gradient(90deg, rgba(255,255,255,.19), rgba(255,255,255,.055) 55%, transparent);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.16) 50%, transparent);
 }
 .an-home-footer__content {
   display: grid;
@@ -67760,6 +67759,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
 
 /* Footer is the final painted surface; no external bottom spacing. */
 main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !important; }
+
 
 
 
