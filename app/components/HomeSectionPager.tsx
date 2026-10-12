@@ -25,25 +25,34 @@ type ChapterTarget = {
       ├─ Foundational Purpose
       ├─ Ideal User / Human Agency
       └─ ArcheNova World
-         ↓
-      These remain internal to the Concept environment.
-      They are NOT separate HOME pager targets.
+
+   THE ARCHITECTURE OF CIVILIZATION
+      ├─ Civilization Discovery
+      ├─ Civilization Inquiry
+      ├─ Civilization Responsibility
+      ├─ Civilization Continuity
+      ├─ Civilization Engineering
+      ├─ Civilization Systems
+      └─ Civilization Implementation
 
    MAP
    → INQUIRY
    → PERMANENT INQUIRY
+   → CONTINUITY
    → MODELS
    → CIVILIZATION
    → VALLEY
 
    IMPORTANT
 
-   HomeSectionPager navigates only the major HOME
-   environments.
+   The Architecture of Civilization is an independent
+   HOME navigation destination.
 
-   ArcheNova Concept is therefore represented by ONE
-   navigation target regardless of whether its internal
-   content is expanded or collapsed.
+   Its seven internal navigation buttons lead to the
+   existing HOME environments.
+
+   All original portal destinations, labels, icons,
+   scroll behavior, and active detection are preserved.
 ========================================================== */
 
 const CHAPTER_TARGETS: readonly ChapterTarget[] = [
@@ -53,6 +62,23 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     title: "CONCEPT",
     subtitle: "What is ArcheNova?",
   },
+
+  /* ========================================================
+     THE ARCHITECTURE OF CIVILIZATION
+     NEW INDEPENDENT HOME DESTINATION
+  ======================================================== */
+
+  {
+    id: "archenova-architecture-of-civilization",
+    mark: "⧉",
+    title: "ARCHITECTURE",
+    subtitle: "What is the Architecture?",
+  },
+
+  /* ========================================================
+     EXISTING HOME ENVIRONMENTS
+  ======================================================== */
+
   {
     id: "archenova-search-section",
     mark: "⌭",
@@ -65,21 +91,18 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     title: "INQUIRY",
     subtitle: "What should we ask?",
   },
-
   {
     id: "humanity-responsibility",
     mark: "⑇",
     title: "PERMANENT INQUIRY",
     subtitle: "Can humanity handle its power?",
   },
-
   {
     id: "archenova-continuity",
     mark: "⌱",
     title: "CONTINUITY",
     subtitle: "How do we continue?",
   },
-  
   {
     id: "work-models",
     mark: "⎅",
@@ -154,11 +177,13 @@ export default function HomeSectionPager() {
   /* ========================================================
      ACTIVE SECTION DETECTION
 
-     Only IDs explicitly declared in CHAPTER_TARGETS are
-     observed.
+     Only IDs explicitly declared in CHAPTER_TARGETS
+     are observed.
 
-     Therefore internal Concept environments do not become
-     independent HOME navigation destinations.
+     The Architecture of Civilization is now included
+     as one independent HOME environment.
+
+     Existing Concept internals remain unchanged.
   ======================================================== */
 
   useEffect(() => {
