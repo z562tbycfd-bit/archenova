@@ -3951,72 +3951,85 @@ function inferObjectSemanticProfile(signal: SignalItem): ObjectSemanticProfile {
   };
 }
 
+// Stage 6.19: quantitative claims retain their measured scope and epistemic limits.
+// This is a source-text parser, not an independent verification engine.
+type QuantitativeClaim = {
+  proposition: string;
+  quantity: string;
+  metric: string | null;
+  direction: "INCREASE" | "DECREASE" | "LEVEL" | "COMPARISON";
+  period: string | null;
+  comparator: string | null;
+  limitation: string | null;
+  provenance: "TITLE" | "SUMMARY";
+};
+
+function recoverQuantitativeClaim(signal: SignalItem): QuantitativeClaim | null {
+  const title = stripTerminalPunctuation(signal.title);
+  const summary = sanitizeSignalSummary(signal.summary);
+  const candidates = [
+    { text: title, provenance: "TITLE" as const },
+    ...signalSentences(signal).map((text) => ({ text, provenance: "SUMMARY" as const })),
+  ];
+  const quantityPattern = /(?:\b\d[\d,.]*\s*(?:%|percent|percentage points?|million|billion|trillion|fold|times?|milliseconds?|microseconds?|nanoseconds?|ms|µs|ns|nm|km|kg|hz|khz|mhz|ghz|watts?|mw|gw|years?|months?|days?|patients?|participants?|species|populations?)\b|\b\d[\d,.]*\s*%)/i;
+  const changePattern = /\b(declin(?:e|ed|es|ing)|decreas(?:e|ed|es|ing)|increas(?:e|ed|es|ing)|ris(?:e|en|ing)|fell|fallen|drop(?:ped|s|ping)?|grew|grown|reduc(?:e|ed|es|ing)|shrank|doubled|halved|improv(?:e|ed|es|ing)|outperform(?:s|ed)?|surviv(?:al|ed)|achiev(?:e|ed)|reach(?:ed|es)?)\b/i;
+  const scored = candidates.map(({text,provenance}) => {
+    const quantity = text.match(quantityPattern)?.[0] ?? null;
+    const change = changePattern.test(text);
+    const question = /^(?:how|why|what|which|can|could|does|do|is|are)\b/i.test(text.trim()) && /\?/.test(text);
+    const hypothetical = /\b(?:might|could|would|may|projected to|expected to)\b/i.test(text);
+    const score = (quantity ? 5 : 0) + (change ? 4 : 0) + (provenance === "TITLE" ? 1 : 0) - (question ? 6 : 0) - (hypothetical ? 4 : 0);
+    return {text,provenance,quantity,score};
+  }).filter((c) => c.quantity && c.score >= 5).sort((a,b) => b.score-a.score);
+  const selected = scored[0];
+  if (!selected || !selected.quantity) return null;
+  const parts = selected.text.split(/\s+[—–]\s+|\s+but\s+|;\s*/i);
+  const resultPart = parts.find((part) => quantityPattern.test(part)) ?? selected.text;
+  const otherPart = parts.filter((part) => part !== resultPart).join("; ").trim();
+  const decline = /\b(declin|decreas|fell|fallen|drop|reduc|shrank|halved)/i.test(resultPart);
+  const increase = /\b(increas|ris|grew|grown|improv|doubled)/i.test(resultPart);
+  const comparison = /\b(compared|versus|relative to|outperform|higher than|lower than)/i.test(resultPart);
+  const period = resultPart.match(/\b(?:since|between|from|during|over|in)\s+(?:\d{4}(?:\s+(?:and|to|through|–|-)\s+\d{4})?|the past \d+\s+years?|\d+\s+years?)\b/i)?.[0] ?? null;
+  const comparator = resultPart.match(/\b(?:compared (?:with|to)|relative to|versus|against|from)\s+[^,.;]{2,90}/i)?.[0] ?? null;
+  const limitation = otherPart || null;
+  const metric = resultPart.replace(/\b(?:have|has|had|was|were|is|are|been)\b/gi," ").split(changePattern)[0]?.trim() || null;
+  return {
+    proposition: stripTerminalPunctuation(resultPart), quantity: selected.quantity,
+    metric, direction: decline ? "DECREASE" : increase ? "INCREASE" : comparison ? "COMPARISON" : "LEVEL",
+    period, comparator, limitation, provenance: selected.provenance,
+  };
+}
+
 function propositionFunctionFromSentence(
   sentence: string,
   objectProfile: ObjectSemanticProfile,
 ): PropositionFrame["function"] {
   const s = normalize(sentence);
-
-  if (
-    /\b(outperform|beats?|better than|worse than|trade off|trade offs|tradeoff|balance|relative to|compared with|versus)\b/.test(s)
-  ) {
-    return "COMPARISON";
-  }
-  if (
-    /\b(cause|causes|caused|drives?|activates?|inhibits?|mediates?|regulates?|triggers?|induces?|leads to)\b/.test(s)
-  ) {
-    return "MECHANISM";
-  }
-  if (
-    /\b(predict|forecast|expected|projected|will likely|likely to)\b/.test(s)
-  ) {
-    return "PREDICTION";
-  }
-  if (
-    /\b(enable|enables|allow|allows|can |achiev|perform|construct|build|solve|accelerat|improv|reduce|increase|preprocess|adapt|revise|recover|resilien)\b/.test(s) &&
-    (objectProfile.domain === "AI / SOFTWARE" ||
-      objectProfile.domain === "PHYSICAL / ENGINEERING")
-  ) {
-    return "CAPABILITY";
-  }
-  if (
-    /\b(found|finds|show|shows|showed|demonstrat|observed|measured|identified|revealed|reports?|results indicate|results show)\b/.test(s)
-  ) {
-    return "OBSERVATION";
-  }
+  const isQuestion = /^(?:how|why|what|which|whether|can|could|does|do|is|are)\b/.test(s) && /\?/.test(sentence);
+  const speculative = /\b(?:might|could|would|may|aims? to|plans? to)\b/.test(s);
+  const quantity = /\d[\d,.]*\s*(?:%|percent|million|billion|ms|nm|km|hz|years?|patients?|species)\b|\d[\d,.]*\s*%/.test(s);
+  const changed = /\b(?:declined?|decreased?|increased?|fallen|fell|dropped?|reduced?|grew|grown|rose|risen|improved?|shrank)\b/.test(s);
+  if (!isQuestion && !speculative && quantity && changed) return "OBSERVATION";
+  if (/\b(?:outperform|beats?|better than|worse than|trade[- ]?offs?|relative to|compared with|compared to|versus)\b/.test(s)) return "COMPARISON";
+  if (!isQuestion && /\b(?:causes?|caused|drives?|activates?|inhibits?|mediates?|regulates?|triggers?|induces?|leads? to)\b/.test(s)) return "MECHANISM";
+  if (/\b(?:predict|forecast|expected|projected|will likely|likely to)\b/.test(s)) return "PREDICTION";
+  if (!isQuestion && !speculative && /\b(?:enables?|allows?|achieves?|performs?|constructs?|builds?|solves?|accelerates?|improves?|reduces?|increases?)\b/.test(s) && (objectProfile.domain === "AI / SOFTWARE" || objectProfile.domain === "PHYSICAL / ENGINEERING")) return "CAPABILITY";
+  if (!isQuestion && /\b(?:found|finds|show|shows|showed|demonstrat|observed|measured|identified|revealed|reports?|estimated|recorded|documented)\b/.test(s)) return "OBSERVATION";
   return "UNKNOWN";
 }
-
 
 function propositionRoleFromSentence(
   sentence: string,
   objectProfile: ObjectSemanticProfile,
 ): PropositionRole {
-  if (
-    /\b(but what if|what if|when .* negative|if .* negative|unfavo[u]?rable|negative outcome)\b/i.test(sentence)
-  ) {
-    return "BACKGROUND";
-  }
-
   const s = normalize(sentence);
-
-  if (
-    /\b(limit(?:ation|ed)?|however|but |although|does not|do not|not establish|uncertain|remain(?:s)? unknown|future work|not yet|cannot|fails? to)\b/.test(s)
-  ) return "LIMITATION";
-
-  if (
-    /\b(therefore|thus|consequently|this suggests|this implies|could enable|may enable|opens?|points to|importance|significance)\b/.test(s)
-  ) return "IMPLICATION";
-
   const fn = propositionFunctionFromSentence(sentence, objectProfile);
+  // A contrast clause must not erase a measured outcome in the same sentence.
   if (fn === "MECHANISM") return "MECHANISM";
   if (fn === "COMPARISON") return "COMPARISON";
   if (fn === "CAPABILITY" || fn === "OBSERVATION" || fn === "PREDICTION") return "RESULT";
-
-  if (
-    /\b(challenge|problem|background|traditionally|typically|currently|existing|before|requires?|baseline|known|motivated by)\b/.test(s)
-  ) return "BACKGROUND";
-
+  if (/\b(?:limitation|however|although|does not|do not|not establish|uncertain|remains? unknown|future work|not yet|cannot|fails? to|not counted|underrepresented|under-sampled|missing data)\b/.test(s)) return "LIMITATION";
+  if (/\b(?:therefore|thus|consequently|this suggests|this implies|could enable|may enable|significance)\b/.test(s)) return "IMPLICATION";
   return "BACKGROUND";
 }
 
@@ -4051,23 +4064,14 @@ function propositionRoleScore(
 function resultBearingLanguageScore(sentence: string): number {
   const s = normalize(sentence);
   let score = 0;
-
-  if (
-    /\b(we find|we found|we show|we demonstrate|results? show|our results|we achieve|achieves?|reaches?|outperforms?|improves?|reduces?|increases?|yields?|enables?|successfully|obtains?|attains?)\b/.test(s)
-  ) score += 5;
-
-  if (
-    /\b(compared with|compared to|versus|relative to|from .* to|by \d|%\b|accuracy|score|latency|throughput|error|success rate|pass rate|benchmark|performance)\b/.test(s)
-  ) score += 3;
-
-  if (/\b(we study|we investigate|we present|we propose|we introduce)\b/.test(s)) {
-    score -= 1;
-  }
-
-  if (/\b(future work|we plan|we aim|we hope|may enable|could enable)\b/.test(s)) {
-    score -= 2;
-  }
-
+  if (/\b(?:we find|we found|we show|we demonstrate|results? show|our results|achieves?|reaches?|outperforms?|improves?|reduces?|increases?|yields?|enables?|obtains?|attains?|found|measured|estimated|reported|observed)\b/.test(s)) score += 5;
+  const quantity = /\d[\d,.]*\s*(?:%|percent|million|billion|ms|nm|km|hz|years?|patients?|species)\b|\d[\d,.]*\s*%/.test(s);
+  const change = /\b(?:declined?|decreased?|increased?|fallen|fell|dropped?|reduced?|grew|grown|rose|risen|improved?|shrank)\b/.test(s);
+  if (quantity && change) score += 7;
+  else if (quantity) score += 2;
+  if (/\b(?:compared with|compared to|versus|relative to|from .{1,50} to|accuracy|latency|throughput|error|success rate|pass rate|benchmark|performance)\b/.test(s)) score += 3;
+  if (/\b(?:we study|we investigate|we present|we propose|we introduce|future work|we plan|we aim|we hope|may enable|could enable)\b/.test(s)) score -= 4;
+  if (/^(?:how|why|what|which|can|could|does|do|is|are)\b/.test(s) && /\?/.test(sentence)) score -= 5;
   return score;
 }
 
@@ -4136,6 +4140,26 @@ function recoverResultStructure(signal: SignalItem): ResultStructureRecovery {
   const sentences = signalSentences(signal);
   const corpus = `${title} ${summary}`.trim();
   const normalized = normalize(corpus);
+
+  const quantified = recoverQuantitativeClaim(signal);
+  if (quantified) {
+    return {
+      status: "FOUND",
+      kind: "ASSOCIATION",
+      background: null,
+      priorBaseline: null,
+      subject: quantified.metric || title,
+      operation: "MEASURE / OBSERVE",
+      outcome: quantified.proposition,
+      condition: quantified.period,
+      comparator: quantified.comparator,
+      result: quantified.proposition,
+      delta: quantified.quantity,
+      artifact: "REPORTED QUANTITATIVE RESULT",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale: `Reported quantitative claim (${quantified.direction}; ${quantified.quantity}). Measurement scope and source verification remain distinct. ${quantified.limitation ? `Additional source limitation: ${quantified.limitation}` : ""}`,
+    };
+  }
 
   const numeric = recoverResultDelta(signal);
   if (numeric.status === "FOUND" && numeric.result) {
@@ -4812,7 +4836,7 @@ function recoverArtifactSpecificSourceTruth(
 function recoverResultProposition(
   signal: SignalItem,
 ): string | null {
-  const sentences = signalSentences(signal);
+  const sentences = [signal.title, ...signalSentences(signal)];
 
   const ranked = sentences
     .map((sentence) => ({
@@ -4974,36 +4998,66 @@ function essenceDecisiveTest(signal: SignalItem,p: PropositionSet,profile: Objec
   if(ct==="ENGINEERING / CONSTRUCTIVE") return "Prespecify the minimum required function, operating envelope, failure threshold, and recovery criterion; reproduce the function under stress and after forced failure without changing the tested architecture.";
   return "Identify the directly measured quantity, reproduce it independently under a prespecified protocol, and include the strongest credible boundary condition or alternative interpretation.";
 }
-function buildArticleEssence(signal: SignalItem,ct: ClaimType,audit: EvidenceAudit): ArticleEssence {
-  const p=extractPropositionSet(signal), profile=inferObjectSemanticProfile(signal);
-  const sourceTruth=essenceClause(
-    p.result?.text ||
-    p.comparison?.text ||
-    p.mechanism?.text ||
-    extractResultBearingProposition(signal)?.proposition ||
-    recoverResultProposition(signal) ||
-    sanitizeSignalSummary(signal.summary) ||
-    signal.title,
+function buildArticleEssence(signal: SignalItem, ct: ClaimType, audit: EvidenceAudit): ArticleEssence {
+  const p = extractPropositionSet(signal);
+  const profile = inferObjectSemanticProfile(signal);
+  const quantitative = recoverQuantitativeClaim(signal);
+  const recovered = recoverArtifactSpecificSourceTruth(signal);
+  const sourceTruth = essenceClause(
+    recovered.proposition || quantitative?.proposition || p.result?.text || p.comparison?.text || p.mechanism?.text || signal.title,
     signal.title,
   );
-  const background=essenceClause(p.background?.text||"","The available source does not cleanly state a distinct prior baseline.");
-  const result=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||sourceTruth,sourceTruth);
+  const limitation = quantitative?.limitation || p.limitation?.text || null;
+  const result = essenceClause(quantitative?.proposition || p.result?.text || p.comparison?.text || p.mechanism?.text || sourceTruth, sourceTruth);
+  const sourceSpecific = limitation
+    ? `The source also identifies a limitation: ${essenceClause(limitation, "")}.`
+    : "The importance of this finding depends on its measured scope, comparison basis, and whether independent evidence supports the interpretation.";
+  const centralThesis = quantitative
+    ? `The reported finding is that ${result}. ${sourceSpecific}`
+    : `The source reports that ${result}. ${sourceSpecific}`;
+  const whatChanged = quantitative
+    ? `Reported measure: ${quantitative.quantity}${quantitative.period ? `; period: ${quantitative.period}` : ""}${quantitative.comparator ? `; comparator: ${quantitative.comparator}` : ""}. This is a reported measurement, not a verified estimate of every unmeasured case.`
+    : `The source-supported proposition is: ${result}. A prior baseline is not assumed unless the source identifies one.`;
+  const consequence = quantitative && limitation
+    ? `The practical significance is that decisions based on the reported measure must also account for ${limitation.toLowerCase().replace(/[.!?]+$/, "")}. The size and direction of any resulting bias cannot be inferred without additional evidence.`
+    : essenceConsequence(signal, p, profile);
+  const boundary = `${limitation ? `Source-stated qualification: ${essenceClause(limitation, "")}. ` : ""}${essenceBoundary(p, audit, ct)}`;
   return {
     sourceTruth,
-    centralThesis: result===background?`The article matters because it makes this substantive proposition testable: ${result}.`:`The article's substantive contribution is the shift from this baseline — ${background} — to this reported proposition: ${result}.`,
-    whatChanged: result===background?"The available summary does not cleanly separate a prior baseline, so Episteme should not invent a before/after contrast.":`Before: ${background}. Reported change: ${result}. The significance depends on whether that change survives the claim-specific evidence contract.`,
-    deeperPrinciple:essenceDomainPrinciple(signal,p,profile),
-    consequence:essenceConsequence(signal,p,profile),
-    evidenceBoundary:essenceBoundary(p,audit,ct),
-    decisiveTest:essenceDecisiveTest(signal,p,profile,ct),
-    confidence:p.result||p.comparison||p.mechanism?"DIRECT":signal.summary?"SUPPORTED INFERENCE":"OPEN INTERPRETATION",
+    centralThesis,
+    whatChanged,
+    deeperPrinciple: quantitative && limitation
+      ? `A measured trend and the completeness of the observation system are different questions. ${sourceSpecific}`
+      : essenceDomainPrinciple(signal, p, profile),
+    consequence,
+    evidenceBoundary: boundary,
+    decisiveTest: essenceDecisiveTest(signal, p, profile, ct),
+    confidence: recovered.status === "FOUND" ? "DIRECT" : recovered.status === "LIMITED" ? "SUPPORTED INFERENCE" : "OPEN INTERPRETATION",
   };
 }
-function composeScholarlyAskAnswer(e: ArticleEssence,d: AskDepth) {
-  if(d==="DEEP") return {directAnswer:`${e.centralThesis}\n\n${e.deeperPrinciple}`,reasoning:`WHAT CHANGED\n${e.whatChanged}\n\nWHY IT MATTERS\n${e.consequence}\n\nSOURCE / INTERPRETATION SEPARATION\nSource-supported proposition: ${e.sourceTruth}\nEpisteme interpretation: ${e.deeperPrinciple}\nInterpretive confidence: ${e.confidence}.`,boundary:e.evidenceBoundary,conclusion:`The unresolved point should be decided by a discriminating test rather than stronger prose: ${e.decisiveTest}`};
-  if(d==="SCHOLARLY") return {directAnswer:`${e.centralThesis}\n\n${e.deeperPrinciple}`,reasoning:`${e.whatChanged}\n\nWhy this matters: ${e.consequence}`,boundary:e.evidenceBoundary,conclusion:`Decisive test: ${e.decisiveTest}`};
-  return {directAnswer:`${e.centralThesis} ${e.deeperPrinciple}`,reasoning:`${e.whatChanged} ${e.consequence}`,boundary:e.evidenceBoundary,conclusion:`Decisive test: ${e.decisiveTest}`};
+
+function composeScholarlyAskAnswer(e: ArticleEssence, d: AskDepth) {
+  // User-facing answer first. Internal epistemic machinery stays in optional detail.
+  if (d === "DEEP") return {
+    directAnswer: e.centralThesis,
+    reasoning: `Why it matters: ${e.consequence}\n\nWhat the source actually reports: ${e.sourceTruth}\n\nWhat remains to be established: ${e.whatChanged}\n\nInterpretation: ${e.deeperPrinciple}`,
+    boundary: e.evidenceBoundary,
+    conclusion: `How to verify or challenge it: ${e.decisiveTest}`,
+  };
+  if (d === "SCHOLARLY") return {
+    directAnswer: e.centralThesis,
+    reasoning: `Why it matters: ${e.consequence}\n\nWhat is known: ${e.whatChanged}`,
+    boundary: e.evidenceBoundary,
+    conclusion: `What would resolve the uncertainty: ${e.decisiveTest}`,
+  };
+  return {
+    directAnswer: e.centralThesis,
+    reasoning: e.consequence,
+    boundary: e.evidenceBoundary,
+    conclusion: `Verification: ${e.decisiveTest}`,
+  };
 }
+
 function extractResultBearingProposition(
   signal: SignalItem,
 ): PropositionFrame | null {
