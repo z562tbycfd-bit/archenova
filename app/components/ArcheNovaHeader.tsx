@@ -15,6 +15,7 @@ import { createPortal } from "react-dom";
    LEFT:
      Founder Vision → HOME上の全画面オーバーレイ
      Products       → HOME上の全画面オーバーレイ
+     Crossings      → /crossings
 
    CENTER:
      ArcheNova      → HOME先頭
@@ -119,6 +120,30 @@ function ProductsIcon() {
       <rect x="13.5" y="3.5" width="7" height="7" rx="1.3" />
       <rect x="3.5" y="13.5" width="7" height="7" rx="1.3" />
       <rect x="13.5" y="13.5" width="7" height="7" rx="1.3" />
+    </svg>
+  );
+}
+
+/* ==========================================================
+   CROSSINGS ICON
+   Two intersecting conversations.
+========================================================== */
+
+function CrossingsIcon() {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M13.5 5H7a4 4 0 0 0-4 4v3a4 4 0 0 0 4 4h1l3 2v-2" />
+      <path d="M11 8h6a4 4 0 0 1 4 4v3a4 4 0 0 1-4 4h-1l-3 2v-2" />
     </svg>
   );
 }
@@ -1170,9 +1195,25 @@ export default function ArcheNovaHeader() {
             >
               <ProductsIcon />
             </button>
+
+            {/* CROSSINGS */}
+
+            <button
+              type="button"
+              className="an-top-header__icon"
+              aria-label="Open ArcheNova Crossings"
+              title="Crossings"
+              onClick={() => {
+                setPanel(null);
+                setVisible(true);
+                router.push("/crossings");
+              }}
+            >
+              <CrossingsIcon />
+            </button>
           </nav>
 
-          {/* CENTER */}
+          {/* CENTER — UNCHANGED */}
 
           <button
             type="button"
@@ -1187,7 +1228,7 @@ export default function ArcheNovaHeader() {
             ArcheNova
           </button>
 
-          {/* RIGHT */}
+          {/* RIGHT — UNCHANGED */}
 
           <div className="an-top-header__side an-top-header__side--right">
             <button

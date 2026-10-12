@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-12T04:58:17.427Z",
+  "updated": "2026-10-12T09:17:24.009Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "World leaders urged to 'course correct' as UN nature goals fall short",
+      "url": "https://phys.org/news/2026-10-world-leaders-urged-nature-goals.html",
+      "summary": "Nations are steeling for a disappointing report card at this month's U.N. biodiversity summit, with governments falling short on their commitments to protect the plants, animals and ecosystems that sustain life on Earth.",
+      "ts": 1791796136000,
+      "publishedAt": "2026-10-12T09:08:56.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "El Niño sets temperature record in key Pacific zone: EU monitor",
+      "url": "https://phys.org/news/2026-10-el-nio-temperature-key-pacific.html",
+      "summary": "An intensifying El Niño broke a temperature record in a key zone of the Pacific in September, the EU's climate monitor said Monday, in another sign the weather pattern is gaining exceptional strength.",
+      "ts": 1791795885000,
+      "publishedAt": "2026-10-12T09:04:45.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Italian rice farmer beats heat with biodiversity haven",
+      "url": "https://phys.org/news/2026-10-italian-rice-farmer-biodiversity-haven.html",
+      "summary": "Four hundred years after monks transformed a patch of marshlands in northwest Italy into rice fields, farmer Alice Cerutti has restored a third to their natural state, prioritizing biodiversity over crop yield.",
+      "ts": 1791795816000,
+      "publishedAt": "2026-10-12T09:03:36.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rescued weather records reveal hot days became nearly twice as common in the Congo Basin over two decades",
+      "url": "https://phys.org/news/2026-10-weather-reveal-hot-days-common.html",
+      "summary": "New research led by Vrije Universiteit Brussel (VUB) and published in the journal Earth System Dynamics shows a clear warming signal across the Congo Basin since the 1960s, using historical weather records from the Democ…",
+      "ts": 1791792001000,
+      "publishedAt": "2026-10-12T08:00:01.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Quantum-like Architecture of the Social Atom: Mental Marker Coherence and the Triple-Resonance Mechanism of Cognitive Activation",
@@ -767,38 +799,6 @@
       "title": "A new device for live cell imaging of biological samples under in-plane shear",
       "url": "https://arxiv.org/abs/2610.13496",
       "summary": "arXiv:2610.13496v1 Announce Type: cross Abstract: The effect of mechanical stresses and deformations upon the behavior and properties of cells and tissues is a topic of paramount interest in the field of biophysics. Its …",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Hydrological Cycle and Circulation of Tidally-Locked Planets with a Finite Moisture Inventory",
-      "url": "https://arxiv.org/abs/2610.13517",
-      "summary": "arXiv:2610.13517v1 Announce Type: cross Abstract: Tidally-locked planets express a range of climate regimes distinct from those found in our solar system. Their atmospheres are often dominated by planetary-wide overturni…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Latin squares as a model of perfect mixing of high-entropy alloys",
-      "url": "https://arxiv.org/abs/2610.13519",
-      "summary": "arXiv:2610.13519v1 Announce Type: cross Abstract: The structure of high-entropy alloys, which include 5 or more components in equimolar proportions, is proposed to be described in the mathematical language of Latin squar…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First Experimental Results of Space Object Detection Using the InteRFeX Array",
-      "url": "https://arxiv.org/abs/2610.13537",
-      "summary": "arXiv:2610.13537v1 Announce Type: cross Abstract: This paper presents the first experimental validation of InteRFeX, a non-uniform receive only (passive) array located at the Nova Systems Space Precinct in Peterborough, …",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Warning of infrastructure deformation anomaly through probabilistic analysis of InSAR observations",
-      "url": "https://arxiv.org/abs/2610.13552",
-      "summary": "arXiv:2610.13552v1 Announce Type: cross Abstract: Interferometric Synthetic Aperture Radar (InSAR) offers a low-cost, wide-area solution for near continuous infrastructure monitoring. However, translating InSAR observati…",
       "ts": 1791777600000,
       "publishedAt": "2026-10-12T04:00:00.000Z"
     }
