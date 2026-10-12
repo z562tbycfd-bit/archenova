@@ -67607,7 +67607,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   margin: 0 !important;
   padding: clamp(28px, 3.2vw, 48px) clamp(16px, 3.8vw, 76px) clamp(20px, 2.6vw, 36px) !important;
   overflow: hidden;
-  background: radial-gradient(ellipse at 50% 0%, rgba(255,255,255,.045) 0%, rgba(255,255,255,.012) 28%, transparent 65%), linear-gradient(145deg, rgb(15,16,18) 0%, rgb(8,9,11) 50%, rgb(3,3,5) 100%) !important;
+  background: #000000 !important;
   border: 1px solid rgba(255,255,255,.065) !important;
   border-radius: 24px 24px 0 0 !important;
   outline: 0 !important;
@@ -67637,7 +67637,9 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   text-align: center;
   padding: clamp(18px,2vw,28px) 0 clamp(20px,2.4vw,32px);
 }
-.an-home-footer__identity { min-width: 0; width: 100%; text-align: center; }
+main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__identity { min-width: 0; width: 100%; text-align: center !important; }
+main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__name,
+main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__statement { text-align: center !important; margin-left: auto; margin-right: auto; }
 .an-home-footer__overline,
 .an-home-footer__utility-label {
   color: rgba(255,255,255,.42);
@@ -67759,8 +67761,6 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
 
 /* Footer is the final painted surface; no external bottom spacing. */
 main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !important; }
-
-
 
 
 
