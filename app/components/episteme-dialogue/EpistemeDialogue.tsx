@@ -27339,29 +27339,24 @@ useEffect(() => {
         }
 
         .ep-continue-inquiry__grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-  width: 100%;
-  max-width: 1120px;
-  margin: 0 auto;
-  align-items: stretch;
-}
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+        }
 
         .ep-continue-inquiry__card {
-  display: flex !important;
-  flex-direction: column;
-  align-items: stretch;
-  width: 100%;
-  min-width: 0;
-  min-height: 190px;
-  padding: 22px !important;
-  text-align: left !important;
-  border: 1px solid rgba(255,255,255,.09) !important;
-  border-radius: 16px !important;
-  background: rgba(12,12,12,.68) !important;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.03);
-}
+          display: block !important;
+          width: 100%;
+          min-width: 0;
+          padding: 13px !important;
+          text-align: left !important;
+          border: 1px solid rgba(255,255,255,.055) !important;
+          border-radius: 13px !important;
+          background:
+            radial-gradient(circle at 5% 0%, rgba(255,255,255,.028), transparent 28%),
+            rgba(4,4,4,.5) !important;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.02);
+        }
 
         .ep-continue-inquiry__card:hover {
           border-color: rgba(255,255,255,.12) !important;
@@ -29512,6 +29507,114 @@ useEffect(() => {
             border-radius: 18px !important;
           }
         }
+
+
+/* ==========================================================
+   ARCHENOVA / EPISTEME — RESPONSIVE OPTICAL GLASS
+   Presentation only. Preserve answer geometry and interaction.
+========================================================== */
+.ep-dialogue.ep-monochrome-interface {
+  --ep-optical-fill: linear-gradient(145deg,rgba(19,20,23,.44),rgba(7,8,10,.52) 52%,rgba(0,0,0,.60));
+  --ep-optical-edge: rgba(255,255,255,.095);
+  --ep-optical-inset: inset 0 1px 0 rgba(255,255,255,.055), inset 0 -1px 0 rgba(255,255,255,.012);
+}
+/* Only interactive surfaces: no blanket styling of answer text. */
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card {
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:stretch !important;
+  justify-content:flex-start !important;
+  min-width:0 !important;
+  width:100% !important;
+  padding:clamp(17px,1.5vw,24px) !important;
+  border:1px solid var(--ep-optical-edge) !important;
+  border-radius:20px !important;
+  background:var(--ep-optical-fill) !important;
+  -webkit-backdrop-filter:blur(18px) saturate(106%);
+  backdrop-filter:blur(18px) saturate(106%);
+  box-shadow:var(--ep-optical-inset) !important;
+  color:rgba(249,249,249,.94);
+  text-align:left !important;
+  white-space:normal !important;
+  transition:border-color .2s ease, background .2s ease, transform .2s ease;
+}
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card:hover:not(:disabled) {
+  border-color:rgba(255,255,255,.24) !important;
+  transform:translateY(-1px);
+}
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card:focus-visible,
+.ep-dialogue.ep-monochrome-interface .ep-universal-modebar button:focus-visible,
+.ep-dialogue.ep-monochrome-interface .ep-dialogue__composer button:focus-visible {
+  outline:2px solid rgba(255,255,255,.82);
+  outline-offset:3px;
+}
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__meta {
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:8px 12px;min-width:0;
+}
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__meta small,
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__meta span {
+  font-size:clamp(10px,.72vw,12px) !important;
+  line-height:1.5 !important;
+  letter-spacing:.07em !important;
+  overflow-wrap:anywhere;
+  color:rgba(235,235,235,.62) !important;
+}
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card > strong {
+  font-size:clamp(13px,.95vw,16px) !important;
+  line-height:1.6 !important;
+  overflow-wrap:anywhere;
+  color:rgba(250,250,250,.95) !important;
+}
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card > p {
+  font-size:clamp(12px,.85vw,14px) !important;
+  line-height:1.75 !important;
+  text-align:left !important;
+  overflow-wrap:anywhere;
+  color:rgba(240,240,240,.68) !important;
+}
+.ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card > i {
+  margin-top:auto !important;
+  padding-top:15px;
+  align-self:flex-end;
+  font-size:11px !important;
+  color:rgba(246,246,246,.76) !important;
+}
+.ep-dialogue.ep-monochrome-interface .ep-universal-modebar__modes button,
+.ep-dialogue.ep-monochrome-interface .ep-universal-modebar__signal,
+.ep-dialogue.ep-monochrome-interface .ep-dialogue__composer {
+  border:1px solid var(--ep-optical-edge) !important;
+  background:var(--ep-optical-fill) !important;
+  -webkit-backdrop-filter:blur(18px) saturate(106%);
+  backdrop-filter:blur(18px) saturate(106%);
+  box-shadow:var(--ep-optical-inset) !important;
+}
+.ep-dialogue.ep-monochrome-interface .ep-universal-modebar__modes button.is-active {
+  border-color:rgba(255,255,255,.28) !important;
+  background:linear-gradient(145deg,rgba(255,255,255,.09),rgba(15,16,18,.48)) !important;
+}
+/* Constrain control bar without narrowing the answer canvas. */
+@media (min-width:901px) {
+  .ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__grid {
+    display:grid !important;
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:16px !important;
+    max-width:1120px;
+    margin-inline:auto;
+  }
+  .ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card { min-height:185px; }
+  .ep-dialogue.ep-monochrome-interface .ep-universal-modebar,
+  .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer { max-width:980px; margin-inline:auto; }
+}
+@media (max-width:900px) {
+  .ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__grid {
+    grid-template-columns:minmax(0,1fr) !important;
+    gap:12px !important;
+  }
+  .ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card {border-radius:17px !important;}
+}
+@media (prefers-reduced-motion:reduce) {
+  .ep-dialogue.ep-monochrome-interface .ep-continue-inquiry__card {transition:none !important;transform:none !important;}
+}
 
       `}
 
