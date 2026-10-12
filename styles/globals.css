@@ -66747,3 +66747,93 @@ main.an-home-2026.archenova-twin-home
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================
+   EPISTEME — PAGE LAYOUT ISOLATION
+   Global main の860px制限から独立させる
+================================================ */
+
+main.episteme-dialogue-page {
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.site-content:has(> main.episteme-dialogue-page) {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+main.episteme-dialogue-page .ep-dialogue {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+main.episteme-dialogue-page .ep-dialogue__workspace,
+main.episteme-dialogue-page .ep-dialogue__conversation,
+main.episteme-dialogue-page .ep-dialogue__thread {
+  min-width: 0;
+  max-width: none;
+}
+
+/* 長い研究タイトル・URL・技術用語による横方向の文字切れを抑制 */
+main.episteme-dialogue-page .ep-message,
+main.episteme-dialogue-page .ep-message__body {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+main.episteme-dialogue-page .ep-message__body p,
+main.episteme-dialogue-page .ep-message__body h1,
+main.episteme-dialogue-page .ep-message__body h2,
+main.episteme-dialogue-page .ep-message__body h3 {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
