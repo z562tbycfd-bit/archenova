@@ -67567,8 +67567,8 @@ main.an-home-2026.archenova-twin-home
    OUTER .an-home-footer = transparent spacing
    INNER .an-home-footer__inner = only visible glass
    No data-home-section: footer does not join HOME pager.
-   Existing maximum width, outer gap, typography and controls
-   are retained. Only the inner frame receives protective inset.
+   Existing maximum width, horizontal padding, typography and controls
+   are retained. Additional separation is VERTICAL ONLY.
 ========================================================== */
 
 /* 01. OUTER SPACING — NEVER PAINT THE GAP */
@@ -67581,7 +67581,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer {
   max-width: none !important;
   min-height: 0 !important;
   height: auto !important;
-  margin: 0 !important;
+  margin: clamp(24px, 4svh, 56px) 0 0 !important;
   padding: clamp(76px, 11svh, 150px) clamp(16px, 3.8vw, 76px) clamp(24px, 4vw, 56px) !important;
   overflow: visible !important;
   background: transparent !important;
@@ -67610,8 +67610,8 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   min-width: 0;
   height: auto;
   margin: 0 auto;
-  /* Inset prevents content from touching the new visible frame. */
-  padding: clamp(24px, 3.3vw, 62px);
+  /* Original width and content geometry: no added horizontal inset. */
+  padding: 0;
   overflow: visible;
   background-color: #050506 !important;
   background-image: linear-gradient(145deg, #111113 0%, #080809 48%, #030304 100%) !important;
@@ -67761,9 +67761,6 @@ main.an-home-2026.archenova-twin-home .an-home-footer__bottom a {
   main.an-home-2026.archenova-twin-home > .an-home-footer {
     padding: 75px 21px max(34px,env(safe-area-inset-bottom)) !important;
   }
-  main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner {
-    padding: 26px 19px;
-  }
   main.an-home-2026.archenova-twin-home .an-home-footer__content {
     grid-template-columns: minmax(0,1fr);
     gap: 50px;
@@ -67790,6 +67787,9 @@ main.an-home-2026.archenova-twin-home .an-home-footer__bottom a {
     transition: none;
   }
 }
+
+
+
 
 
 
