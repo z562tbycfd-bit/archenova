@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-10-12T13:00:31.452Z",
+  "updated": "2026-10-12T21:42:21.648Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Caribou Plunges as It Pursues Strategic Alternatives",
+      "url": "https://www.genengnews.com/topics/genome-editing/stockwatch-caribou-plunges-as-it-pursues-strategic-alternatives/",
+      "summary": "Caribou has halted trials of vispacabtagene regedleucel (vispa-cel, formerly CB-010) a treatment for relapsed or refractory B cell non-Hodgkin lymphoma; and of CB-011, an allogeneic anti-BCMA CAR-T cell therapy for the t…",
+      "ts": 1791834508000,
+      "publishedAt": "2026-10-12T19:48:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open …",
+      "ts": 1791817225000,
+      "publishedAt": "2026-10-12T15:00:25.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Welcome home, Sophie Adenot",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Welcome_home_Sophie_Adenot",
+      "summary": "Video: 00:02:54 After 237 days and over 3,700 orbits around Earth aboard the International Space Station, Sophie Adenot is back on Earth! Following a handover to Crew-13, Sophie and her Crew-12 crewmates undocked on 7 Oc…",
+      "ts": 1791810000000,
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
+      "url": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
+      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO HP star sensor on a LEO mission. This milestone underscores […",
+      "ts": 1791810000000,
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: moon city problems and drone traffic controllers",
@@ -10,6 +46,60 @@
       "ts": 1791807000000,
       "publishedAt": "2026-10-12T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Colombia peace deal must endure as insecurity grows, Security Council hears",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168580",
+      "summary": "Nearly 10 years after Colombia signed a historic peace agreement to end a decades-long insurgency, the deal is under strain from growing insecurity – and the UN’s top official in the country says it cannot be allowed to …",
+      "ts": 1791806400000,
+      "publishedAt": "2026-10-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Syria’s fragile transition – economic strain, Israeli incursions and progress towards elections",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168578",
+      "summary": "The Security Council is meeting on Syria as the country’s transition faces pressure on several fronts. Economic hardship is fuelling unrest, Israeli incursions continue in the south and sectarian tensions persist in Swei…",
+      "ts": 1791806400000,
+      "publishedAt": "2026-10-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Drought and war push Darfur and Kordofan towards famine",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168577",
+      "summary": "The risk of famine is growing in parts of Sudan already torn apart by war, as a severe El Niño drought makes life even harder in Greater Darfur and Greater Kordofan, the UN-backed global hunger monitor warned on Monday.",
+      "ts": 1791806400000,
+      "publishedAt": "2026-10-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN aid operation underway in Nepal following fresh floods",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168576",
+      "summary": "The United Nations has rushed to assist Nepal following new flash floods in the central Gorkha district on Sunday that swept away homes and bridges just weeks after catastrophic flooding in the north.",
+      "ts": 1791806400000,
+      "publishedAt": "2026-10-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Efficiency has limits’: UNHCR chief warns refugee protection is buckling under cuts",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168575",
+      "summary": "The money is running out faster than needs are growing: with 117 million men, women and children now forced from their homes, the UN refugee agency (UNHCR) has received just $3 billion of the $8.5 billion it needs this y…",
+      "ts": 1791806400000,
+      "publishedAt": "2026-10-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Rise in poverty is ‘a wake-up call for the world’, UN development chief says",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168574",
+      "summary": "The number of people living in “multidimensional” poverty has risen for the first time in 15 years, reaching 1.2 billion, as families struggle to meet their basic needs.",
+      "ts": 1791806400000,
+      "publishedAt": "2026-10-12T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "MIT Technology Review",
@@ -39,21 +129,21 @@
       "categoryId": "energy-climate"
     },
     {
+      "source": "IAEA News",
+      "title": "Nuclear Technologies in Space: From Batteries to Future Rockets",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-technologies-in-space-from-batteries-to-future-rockets",
+      "summary": "",
+      "ts": 1791784800000,
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "APOD: 2026 October 12 – Jupiter and the Moons",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
       "summary": "APOD Science APOD APOD: 2026 October 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
       "ts": 1791777900000,
       "publishedAt": "2026-10-12T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
-      "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
-      "summary": "The ice reached its third-lowest maximum extent since satellite observations began.",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -271,6 +361,15 @@
       "ts": 1791777600000,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
+      "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
+      "summary": "The ice reached its third-lowest maximum extent since satellite observations began.",
+      "ts": 1791777600000,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "IAEA News",
@@ -711,105 +810,6 @@
       "summary": "“Basic studies led to clinical and translational advances that no one could have predicted,” Robert Gallo writes of his work with interleukin-2.",
       "ts": 1791534600000,
       "publishedAt": "2026-10-09T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "The fall of Roe dramatically changed abortion access. This researcher used Reddit to capture how",
-      "url": "https://www.statnews.com/2026/10/09/betsy-pleasants-stat-wunderkind-abortion-access-reddit-nlp/?utm_campaign=rss",
-      "summary": "With research on abortion access barriers, STAT Wunderkind Betsy Pleasants is defining a framework for using AI tools without losing sight of the people behind the data.",
-      "ts": 1791534600000,
-      "publishedAt": "2026-10-09T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Namibia’s biggest salt pan",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Namibia_s_biggest_salt_pan",
-      "summary": "Image: This image from Copernicus Sentinel-2, acquired on 5 April 2026, shows the Etosha National Park in northern Namibia.",
-      "ts": 1791532800000,
-      "publishedAt": "2026-10-09T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "ts": 1791529200000,
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "ts": 1791529200000,
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "From Classroom to Field: School of Radiation Emergency Management in Austria",
-      "url": "http://www.iaea.org/news/photoessay/school-of-radiation-emergency-management-austria",
-      "summary": "",
-      "ts": 1791525600000,
-      "publishedAt": "2026-10-09T06:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 9 – Stickney Crater",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-9-stickney-crater/",
-      "summary": "APOD Science APOD APOD: 2026 October 9… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph o…",
-      "ts": 1791518700000,
-      "publishedAt": "2026-10-09T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Floodwaters Overwhelm Thailand",
-      "url": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
-      "summary": "Heavy rains since mid-September have caused widespread flooding that has affected millions of people across the country.",
-      "ts": 1791518460000,
-      "publishedAt": "2026-10-09T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Interpretable Memory Models for Spaced Repetition",
-      "url": "https://arxiv.org/abs/2610.10548",
-      "summary": "arXiv:2610.10548v1 Announce Type: new Abstract: Spaced repetition software schedules reviews with a memory model fit to review logs. Accuracy on a test set is not sufficient evidence of quality since available data are p…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Hill numbers synthesize and generalize measures of trait polygenicity",
-      "url": "https://arxiv.org/abs/2610.10825",
-      "summary": "arXiv:2610.10825v1 Announce Type: new Abstract: Characterizing the genetic architecture of phenotypic variation is central to human genetics, yet trait polygenicity---the diversity of genetic variants responsible for a h…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MD-LLM-2: A Transferable Language Model of Molecular Dynamics with Physical Conditioning and Explicit Path Probabilities",
-      "url": "https://arxiv.org/abs/2610.10879",
-      "summary": "arXiv:2610.10879v1 Announce Type: new Abstract: Molecular dynamics (MD) simulations model the motion of proteins between conformational states, but crossing free energy barriers and sampling multiple thermodynamic condit…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Toward Reliable Patient-Specific Aortic Strain Mapping from 4D CTA: Validation, Spectral Structure, and Clinical Potential",
-      "url": "https://arxiv.org/abs/2610.10913",
-      "summary": "arXiv:2610.10913v1 Announce Type: new Abstract: Objective: To develop and validate a framework for spatially resolved ascending aortic strain estimation from 4D computed tomography angiography (CTA) and characterize reli…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
