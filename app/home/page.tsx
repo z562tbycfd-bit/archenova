@@ -17,6 +17,8 @@ import {
   ArcheNovaStillness,
 } from "../components/home/ArcheNovaCivilizationJourney";
 
+import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
+
 /* ==========================================================
    ARCHENOVA — THE ARCHITECTURE OF CIVILIZATION
 
@@ -343,6 +345,23 @@ export default function HomePage() {
           <ArcheNovaValleyPortal />
         </div>
       </section>
+
+  {/* 12 — ARCHENOVA VALLEY */}
+      <section
+        id="archenova-valley"
+        data-home-section
+        className="home-page twin-page archenova-valley-page an-home-2026__section"
+        aria-label="ArcheNova Valley"
+      >
+        <div className="an-home-2026__glass">
+          <ArcheNovaValleyPortal />
+        </div>
+      </section>
+
+      {/* HOME — FINAL CLOSING FOOTER */}
+      <ArcheNovaHomeFooter />
+
     </main>
+    
   );
 }
