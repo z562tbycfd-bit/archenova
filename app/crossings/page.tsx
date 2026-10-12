@@ -1,1881 +1,239 @@
 "use client";
 
-import {
-  useCallback,
-  useEffect,
-  useMemo,
-  useState,
-  type FormEvent,
-} from "react";
+import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import Link from "next/link";
 import { supabase } from "../../lib/supabaseClient";
 
-/* ==========================================================
-   ARCHENOVA CROSSINGS
-   The Global Forum for Civilization
-
-   Public dialogue + composition + live reading
-
-   Storage:
-     Existing Supabase table: gate_fragments
-
-   Preserves:
-     /crossing-gate
-     GateFragments.tsx
-     Existing ArcheNovaHeader
-     Existing HOME architecture
-
-   No additional packages required.
-========================================================== */
-
-const POST_TYPES = [
-  "Observation",
-  "Question",
-  "Perspective",
-  "Proposal",
-  "Discussion",
-  "Announcement",
-  "Civilization Question",
-] as const;
-
-const TOPICS = [
-  "Civilization",
-  "Science",
-  "Technology",
-  "Architecture",
-  "Space",
-  "Energy",
-  "AI",
-  "Governance",
-  "Education",
-  "Capital",
-] as const;
-
-const AUTHOR_TYPES = [
-  "Observer",
-  "Builder",
-  "Architect",
-  "Researcher",
-  "Founder",
-  "Citizen",
-] as const;
-
+const POST_TYPES = ["Observation", "Question", "Perspective", "Proposal", "Discussion", "Announcement", "Civilization Question"];
+const TOPICS = ["Civilization", "Science", "Technology", "Architecture", "Space", "Energy", "AI", "Governance", "Education", "Capital"];
+const AUTHOR_TYPES = ["Observer", "Builder", "Architect", "Researcher", "Founder", "Citizen"];
 const PRESETS = [
   "What future should civilization prepare for next?",
   "This discovery may change how we think about infrastructure.",
   "Should this capability become a Builder project?",
   "The long-term consequence matters more than the immediate headline.",
   "Civilization advances when knowledge becomes shared capability.",
-] as const;
+];
 
 type Crossing = {
   id: string;
   category: string | null;
   post_type: string | null;
   topic: string | null;
-  discussion_status: string | null;
-  source_type: string | null;
   url: string | null;
-  verification_status: string | null;
-  trust_score: number | null;
   text: string;
   author: string;
   likes: number | null;
-  reposts: number | null;
   replies: number | null;
   created_at: string;
 };
 
-type FeedState = "loading" | "ready" | "error";
+const LIMIT = 30;
+const MAX_LENGTH = 280;
 
-const MAX_CHARACTERS = 280;
-const PAGE_SIZE = 30;
-
-function randomId() {
-  return Math.floor(100 + Math.random() * 900);
-}
-
-function safeUrl(value: string | null | undefined) {
+function validUrl(value: string | null) {
   if (!value) return null;
-
   try {
-    const parsed = new URL(value);
-
-    if (
-      parsed.protocol !== "https:" &&
-      parsed.protocol !== "http:"
-    ) {
-      return null;
-    }
-
-    return parsed.href;
+    const url = new URL(value);
+    return url.protocol === "https:" || url.protocol === "http:" ? url.href : null;
   } catch {
     return null;
   }
 }
 
-function formatDate(value: string) {
+function dateLabel(value: string) {
   const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-    return "Unknown date";
-  }
-
-  return new Intl.DateTimeFormat("en", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(date);
+  if (Number.isNaN(date.getTime())) return "Date unavailable";
+  return new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric" }).format(date);
 }
 
-/* ==========================================================
-   ICONS
-========================================================== */
-
-function CrossingMark({
-  size = 24,
-}: {
-  size?: number;
-}) {
+function CrossingIcon({ size = 26 }: { size?: number }) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.25"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M13.5 5H7a4 4 0 0 0-4 4v3a4 4 0 0 0 4 4h1l3 2v-2" />
       <path d="M11 8h6a4 4 0 0 1 4 4v3a4 4 0 0 1-4 4h-1l-3 2v-2" />
     </svg>
   );
 }
 
-function ArrowIcon() {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <path d="M5 12h14M13 6l6 6-6 6" />
-    </svg>
-  );
-}
-
-function RefreshIcon() {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <path d="M20 7v5h-5" />
-      <path d="M4 17v-5h5" />
-      <path d="M5.6 9A7 7 0 0 1 18 7l2 5" />
-      <path d="M18.4 15A7 7 0 0 1 6 17l-2-5" />
-    </svg>
-  );
-}
-
-function SearchIcon() {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      aria-hidden="true"
-    >
-      <circle cx="10.8" cy="10.8" r="6.8" />
-      <path d="m16 16 4.5 4.5" />
-    </svg>
-  );
-}
-
-/* ==========================================================
-   POST CARD
-========================================================== */
-
-function CrossingCard({
-  crossing,
-}: {
-  crossing: Crossing;
-}) {
-  const reference = safeUrl(crossing.url);
-
-  const type =
-    crossing.post_type?.trim() || "Observation";
-
-  const topic =
-    crossing.topic?.trim() ||
-    crossing.category?.trim() ||
-    "Civilization";
-
-  const author =
-    crossing.author?.trim() || "Community member";
-
-  return (
-    <article className="ac-crossing-card">
-      <div className="ac-crossing-card__top">
-        <div className="ac-crossing-card__labels">
-          <span className="ac-crossing-card__type">
-            {type}
-          </span>
-
-          <span className="ac-crossing-card__separator">
-            /
-          </span>
-
-          <span className="ac-crossing-card__topic">
-            {topic}
-          </span>
-        </div>
-
-        <time
-          className="ac-crossing-card__time"
-          dateTime={crossing.created_at}
-        >
-          {formatDate(crossing.created_at)}
-        </time>
-      </div>
-
-      <p className="ac-crossing-card__text">
-        {crossing.text}
-      </p>
-
-      {reference && (
-        <a
-          className="ac-crossing-card__reference"
-          href={reference}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>Open reference</span>
-          <ArrowIcon />
-        </a>
-      )}
-
-      <div className="ac-crossing-card__footer">
-        <div className="ac-crossing-card__author">
-          <span className="ac-crossing-card__avatar">
-            {author.charAt(0).toUpperCase()}
-          </span>
-
-          <span>{author}</span>
-        </div>
-
-        <div className="ac-crossing-card__meta">
-          <span>
-            {Math.max(0, crossing.likes ?? 0)} likes
-          </span>
-
-          <span className="ac-crossing-card__meta-dot">
-            ·
-          </span>
-
-          <span>
-            {Math.max(0, crossing.replies ?? 0)} replies
-          </span>
-        </div>
-      </div>
-    </article>
-  );
-}
-
-/* ==========================================================
-   MAIN PAGE
-========================================================== */
-
 export default function CrossingsPage() {
-  const [postType, setPostType] =
-    useState<string>("Observation");
-
-  const [topic, setTopic] =
-    useState<string>("Civilization");
-
-  const [authorType, setAuthorType] =
-    useState<string>("Observer");
-
+  const [postType, setPostType] = useState("Observation");
+  const [topic, setTopic] = useState("Civilization");
+  const [authorType, setAuthorType] = useState("Observer");
   const [url, setUrl] = useState("");
   const [text, setText] = useState("");
-
   const [busy, setBusy] = useState(false);
-  const [message, setMessage] =
-    useState<string | null>(null);
-
-  const [crossings, setCrossings] =
-    useState<Crossing[]>([]);
-
-  const [feedState, setFeedState] =
-    useState<FeedState>("loading");
-
-  const [feedError, setFeedError] =
-    useState<string | null>(null);
-
-  const [refreshing, setRefreshing] =
-    useState(false);
-
+  const [message, setMessage] = useState("");
+  const [posts, setPosts] = useState<Crossing[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
+  const [feedError, setFeedError] = useState("");
   const [search, setSearch] = useState("");
-  const [filterTopic, setFilterTopic] =
-    useState("All");
+  const [filter, setFilter] = useState("All");
 
-  const [lastUpdated, setLastUpdated] =
-    useState<Date | null>(null);
+  const load = useCallback(async (initial = false) => {
+    if (initial) setLoading(true);
+    else setRefreshing(true);
+    setFeedError("");
+    try {
+      const { data, error } = await supabase.from("gate_fragments")
+        .select("id,category,post_type,topic,url,text,author,likes,replies,created_at")
+        .order("created_at", { ascending: false }).limit(LIMIT);
+      if (error) throw error;
+      setPosts((data ?? []) as Crossing[]);
+    } catch (error) {
+      setFeedError(error instanceof Error ? error.message : "Unable to load crossings.");
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  }, []);
 
-  const remaining = useMemo(
-    () => Math.max(0, MAX_CHARACTERS - text.length),
-    [text.length],
-  );
+  useEffect(() => { void load(true); }, [load]);
 
-  /* ========================================================
-     LOAD CROSSINGS
-  ======================================================== */
+  const visiblePosts = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    return posts.filter((post) => {
+      const postTopic = post.topic || post.category || "Civilization";
+      if (filter !== "All" && filter !== postTopic) return false;
+      return !q || [post.text, post.author, post.post_type, postTopic]
+        .some((value) => (value || "").toLowerCase().includes(q));
+    });
+  }, [posts, search, filter]);
 
-  const loadCrossings = useCallback(
-    async (initial = false) => {
-      if (initial) {
-        setFeedState("loading");
-      } else {
-        setRefreshing(true);
-      }
-
-      setFeedError(null);
-
-      try {
-        const { data, error } = await supabase
-          .from("gate_fragments")
-          .select(
-            [
-              "id",
-              "category",
-              "post_type",
-              "topic",
-              "discussion_status",
-              "source_type",
-              "url",
-              "verification_status",
-              "trust_score",
-              "text",
-              "author",
-              "likes",
-              "reposts",
-              "replies",
-              "created_at",
-            ].join(","),
-          )
-          .order("created_at", {
-            ascending: false,
-          })
-          .limit(PAGE_SIZE);
-
-        if (error) {
-          throw error;
-        }
-
-        const rows = (data ?? []) as unknown as Crossing[];
-
-        setCrossings(rows);
-        setFeedState("ready");
-        setLastUpdated(new Date());
-      } catch (error) {
-        const detail =
-          error instanceof Error
-            ? error.message
-            : "Unknown error";
-
-        setFeedError(
-          `Unable to load public crossings. ${detail}`,
-        );
-
-        setFeedState("error");
-      } finally {
-        setRefreshing(false);
-      }
-    },
-    [],
-  );
-
-  useEffect(() => {
-    void loadCrossings(true);
-  }, [loadCrossings]);
-
-  /* ========================================================
-     SUBMIT CROSSING
-  ======================================================== */
-
-  const submit = async (event: FormEvent) => {
+  async function publish(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-
     if (busy) return;
-
-    setMessage(null);
-
+    setMessage("");
     const content = text.trim();
     const reference = url.trim();
-
-    if (content.length < 6) {
-      setMessage(
-        "Write a crossing fragment of at least 6 characters.",
-      );
+    if (content.length < 6 || content.length > MAX_LENGTH) {
+      setMessage("Your contribution must contain 6–280 characters.");
       return;
     }
-
-    if (content.length > MAX_CHARACTERS) {
-      setMessage(
-        "Keep the crossing within 280 characters.",
-      );
+    if (reference && !validUrl(reference)) {
+      setMessage("Reference URL must begin with https:// or http://.");
       return;
     }
-
-    if (reference && !safeUrl(reference)) {
-      setMessage(
-        "Reference URL must begin with https:// or http://.",
-      );
-      return;
-    }
-
     setBusy(true);
-
     try {
-      const author = `${authorType} #${randomId()}`;
-
-      const { error } = await supabase
-        .from("gate_fragments")
-        .insert({
-          category: topic,
-          post_type: postType,
-          topic,
-          discussion_status: "open",
-          source_type: "Community",
-          url: reference || null,
-          verification_status: "community",
-          trust_score: 50,
-          text: content,
-          author,
-          likes: 0,
-          reposts: 0,
-          replies: 0,
-          support_count: 0,
-          challenge_count: 0,
-          expand_count: 0,
-          is_civilization_question:
-            postType === "Civilization Question",
-          builder_candidate: false,
-          senate_reference: false,
-          featured:
-            postType === "Civilization Question",
-          support_threshold: 100,
-        });
-
-      if (error) {
-        throw error;
-      }
-
+      const author = `${authorType} #${Math.floor(100 + Math.random() * 900)}`;
+      const { error } = await supabase.from("gate_fragments").insert({
+        category: topic,
+        post_type: postType,
+        topic,
+        discussion_status: "open",
+        source_type: "Community",
+        url: reference || null,
+        verification_status: "community",
+        trust_score: 50,
+        text: content,
+        author,
+        likes: 0,
+        reposts: 0,
+        replies: 0,
+        support_count: 0,
+        challenge_count: 0,
+        expand_count: 0,
+        is_civilization_question: postType === "Civilization Question",
+        builder_candidate: false,
+        senate_reference: false,
+        featured: postType === "Civilization Question",
+        support_threshold: 100,
+      });
+      if (error) throw error;
       setText("");
       setUrl("");
-
-      setMessage(
-        "Your Crossing has been published.",
-      );
-
-      await loadCrossings(false);
+      setMessage("Your Crossing has been published.");
+      await load();
     } catch (error) {
-      const detail =
-        error instanceof Error
-          ? error.message
-          : "Please try again.";
-
-      setMessage(`Failed to publish: ${detail}`);
+      setMessage(`Unable to publish: ${error instanceof Error ? error.message : "Please try again."}`);
     } finally {
       setBusy(false);
     }
-  };
-
-  /* ========================================================
-     FILTERED CROSSINGS
-  ======================================================== */
-
-  const filteredCrossings = useMemo(() => {
-    const query = search.trim().toLowerCase();
-
-    return crossings.filter((crossing) => {
-      const itemTopic =
-        crossing.topic ||
-        crossing.category ||
-        "Civilization";
-
-      const matchesTopic =
-        filterTopic === "All" ||
-        itemTopic === filterTopic;
-
-      if (!matchesTopic) return false;
-
-      if (!query) return true;
-
-      return [
-        crossing.text,
-        crossing.author,
-        crossing.post_type,
-        crossing.topic,
-        crossing.category,
-      ]
-        .filter(Boolean)
-        .some((value) =>
-          String(value).toLowerCase().includes(query),
-        );
-    });
-  }, [crossings, search, filterTopic]);
-
-  /* ========================================================
-     RENDER
-  ======================================================== */
+  }
 
   return (
-    <main className="ac-crossings">
-      <div className="ac-crossings__ambient" aria-hidden="true" />
-
-      <div className="ac-crossings__shell">
-        {/* HERO */}
-
-        <header className="ac-crossings__hero">
-          <div className="ac-crossings__eyebrow">
-            <span className="ac-crossings__eyebrow-line" />
-            ARCHENOVA / PUBLIC INTELLIGENCE
-          </div>
-
-          <div className="ac-crossings__hero-heading">
+    <main className="cx">
+      <section className="cx-hero" aria-labelledby="cx-title">
+        <div className="cx-wrap cx-hero-inner">
+          <div className="cx-kicker"><span className="cx-dot" /> ARCHENOVA / PUBLIC DIALOGUE</div>
+          <div className="cx-hero-heading">
             <div>
-              <h1>Crossings</h1>
-
-              <p className="ac-crossings__hero-subtitle">
-                The Global Forum for Civilization.
-              </p>
+              <h1 id="cx-title">Crossings<span className="cx-period">.</span></h1>
+              <p className="cx-tagline">Where ideas cross.</p>
             </div>
-
-            <div className="ac-crossings__hero-mark">
-              <CrossingMark size={46} />
-            </div>
+            <div className="cx-emblem"><CrossingIcon size={52} /></div>
           </div>
-
-          <p className="ac-crossings__introduction">
-            A public space where observations, questions,
-            perspectives and proposals intersect.
-            Explore ideas, share knowledge, and contribute
-            to an evolving conversation about the future
-            of civilization.
-          </p>
-
-          <div className="ac-crossings__hero-footer">
-            <span>
-              OPEN DIALOGUE
-            </span>
-
-            <span>
-              COMMUNITY PERSPECTIVES
-            </span>
-
-            <span>
-              INDEPENDENT INQUIRY
-            </span>
-          </div>
-        </header>
-
-        {/* CONTENT */}
-
-        <div className="ac-crossings__layout">
-          {/* COMPOSER */}
-
-          <section
-            className="ac-crossings__composer"
-            aria-labelledby="ac-composer-title"
-          >
-            <div className="ac-crossings__section-heading">
-              <div>
-                <span className="ac-crossings__section-index">
-                  01 / CONTRIBUTE
-                </span>
-
-                <h2 id="ac-composer-title">
-                  Create a Crossing
-                </h2>
-              </div>
-
-              <span className="ac-crossings__section-symbol">
-                +
-              </span>
-            </div>
-
-            <p className="ac-crossings__section-description">
-              Every meaningful question creates a new
-              point of connection.
-            </p>
-
-            <form
-              onSubmit={submit}
-              className="ac-crossings__form"
-            >
-              <label
-                className="ac-crossings__field-label"
-                htmlFor="ac-crossing-text"
-              >
-                YOUR CONTRIBUTION
-              </label>
-
-              <textarea
-                id="ac-crossing-text"
-                className="ac-crossings__textarea"
-                value={text}
-                onChange={(event) =>
-                  setText(event.target.value)
-                }
-                placeholder="What should civilization be thinking about?"
-                maxLength={MAX_CHARACTERS}
-                rows={6}
-                required
-                minLength={6}
-                disabled={busy}
-              />
-
-              <div className="ac-crossings__text-meta">
-                <span>
-                  Public dialogue. Thoughtful inquiry.
-                </span>
-
-                <span
-                  className={
-                    remaining < 30
-                      ? "ac-crossings__count ac-crossings__count--low"
-                      : "ac-crossings__count"
-                  }
-                >
-                  {remaining} / {MAX_CHARACTERS}
-                </span>
-              </div>
-
-              {/* POST TYPE */}
-
-              <fieldset className="ac-crossings__fieldset">
-                <legend className="ac-crossings__field-label">
-                  POST TYPE
-                </legend>
-
-                <div className="ac-crossings__chips">
-                  {POST_TYPES.map((item) => (
-                    <button
-                      key={item}
-                      type="button"
-                      disabled={busy}
-                      aria-pressed={postType === item}
-                      className={[
-                        "ac-crossings__chip",
-                        postType === item
-                          ? "ac-crossings__chip--active"
-                          : "",
-                      ].join(" ")}
-                      onClick={() => setPostType(item)}
-                    >
-                      {item}
-                    </button>
-                  ))}
-                </div>
-              </fieldset>
-
-              {/* TOPIC */}
-
-              <fieldset className="ac-crossings__fieldset">
-                <legend className="ac-crossings__field-label">
-                  TOPIC
-                </legend>
-
-                <div className="ac-crossings__chips">
-                  {TOPICS.map((item) => (
-                    <button
-                      key={item}
-                      type="button"
-                      disabled={busy}
-                      aria-pressed={topic === item}
-                      className={[
-                        "ac-crossings__chip",
-                        topic === item
-                          ? "ac-crossings__chip--active"
-                          : "",
-                      ].join(" ")}
-                      onClick={() => setTopic(item)}
-                    >
-                      {item}
-                    </button>
-                  ))}
-                </div>
-              </fieldset>
-
-              {/* IDENTITY */}
-
-              <fieldset className="ac-crossings__fieldset">
-                <legend className="ac-crossings__field-label">
-                  PARTICIPATION IDENTITY
-                </legend>
-
-                <div className="ac-crossings__chips">
-                  {AUTHOR_TYPES.map((item) => (
-                    <button
-                      key={item}
-                      type="button"
-                      disabled={busy}
-                      aria-pressed={authorType === item}
-                      className={[
-                        "ac-crossings__chip",
-                        authorType === item
-                          ? "ac-crossings__chip--active"
-                          : "",
-                      ].join(" ")}
-                      onClick={() =>
-                        setAuthorType(item)
-                      }
-                    >
-                      {item}
-                    </button>
-                  ))}
-                </div>
-              </fieldset>
-
-              {/* REFERENCE */}
-
-              <div className="ac-crossings__field">
-                <label
-                  className="ac-crossings__field-label"
-                  htmlFor="ac-crossing-url"
-                >
-                  REFERENCE URL / OPTIONAL
-                </label>
-
-                <input
-                  id="ac-crossing-url"
-                  type="url"
-                  className="ac-crossings__input"
-                  placeholder="https://..."
-                  value={url}
-                  onChange={(event) =>
-                    setUrl(event.target.value)
-                  }
-                  disabled={busy}
-                />
-              </div>
-
-              {/* PRESETS */}
-
-              <div className="ac-crossings__presets">
-                <span className="ac-crossings__field-label">
-                  START WITH A QUESTION
-                </span>
-
-                <div className="ac-crossings__preset-list">
-                  {PRESETS.map((preset) => (
-                    <button
-                      key={preset}
-                      type="button"
-                      className="ac-crossings__preset"
-                      onClick={() => setText(preset)}
-                      disabled={busy}
-                    >
-                      <span>{preset}</span>
-                      <span aria-hidden="true">↗</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              {/* SUBMIT */}
-
-              <div
-                className="ac-crossings__message"
-                aria-live="polite"
-              >
-                {message}
-              </div>
-
-              <div className="ac-crossings__submit-row">
-                <span className="ac-crossings__submit-note">
-                  Contributions are public and represent
-                  community perspectives, not verified
-                  ArcheNova research.
-                </span>
-
-                <button
-                  type="submit"
-                  className="ac-crossings__submit"
-                  disabled={busy}
-                >
-                  {busy
-                    ? "Publishing..."
-                    : "Publish Crossing"}
-
-                  {!busy && <ArrowIcon />}
-                </button>
-              </div>
-            </form>
-          </section>
-
-          {/* FEED */}
-
-          <section
-            className="ac-crossings__feed"
-            aria-labelledby="ac-feed-title"
-          >
-            <div className="ac-crossings__section-heading">
-              <div>
-                <span className="ac-crossings__section-index">
-                  02 / EXPLORE
-                </span>
-
-                <h2 id="ac-feed-title">
-                  Public Crossings
-                </h2>
-              </div>
-
-              <button
-                type="button"
-                className="ac-crossings__refresh"
-                onClick={() =>
-                  void loadCrossings(false)
-                }
-                disabled={refreshing}
-                aria-label="Refresh public crossings"
-                title="Refresh crossings"
-              >
-                <RefreshIcon />
-              </button>
-            </div>
-
-            <p className="ac-crossings__section-description">
-              Discover recent questions, observations
-              and proposals shared across the
-              ArcheNova community.
-            </p>
-
-            {/* SEARCH */}
-
-            <div className="ac-crossings__search">
-              <SearchIcon />
-
-              <input
-                type="search"
-                value={search}
-                onChange={(event) =>
-                  setSearch(event.target.value)
-                }
-                placeholder="Search public crossings..."
-                aria-label="Search public crossings"
-              />
-            </div>
-
-            {/* FILTERS */}
-
-            <div
-              className="ac-crossings__filter-list"
-              aria-label="Filter crossings by topic"
-            >
-              {["All", ...TOPICS].map((item) => (
-                <button
-                  key={item}
-                  type="button"
-                  className={[
-                    "ac-crossings__filter",
-                    filterTopic === item
-                      ? "ac-crossings__filter--active"
-                      : "",
-                  ].join(" ")}
-                  aria-pressed={filterTopic === item}
-                  onClick={() =>
-                    setFilterTopic(item)
-                  }
-                >
-                  {item}
-                </button>
-              ))}
-            </div>
-
-            {/* FEED META */}
-
-            <div className="ac-crossings__feed-meta">
-              <span>
-                {feedState === "loading"
-                  ? "LOADING CROSSINGS"
-                  : `${filteredCrossings.length} CROSSINGS`}
-              </span>
-
-              <span>
-                {lastUpdated
-                  ? `UPDATED ${formatDate(
-                      lastUpdated.toISOString(),
-                    )}`
-                  : "PUBLIC DIALOGUE"}
-              </span>
-            </div>
-
-            {/* FEED BODY */}
-
-            <div
-              className="ac-crossings__feed-list"
-              aria-live="polite"
-            >
-              {feedState === "loading" && (
-                <div className="ac-crossings__empty">
-                  <span className="ac-crossings__loading-mark">
-                    <CrossingMark size={30} />
-                  </span>
-
-                  <h3>Connecting to Crossings</h3>
-
-                  <p>
-                    Retrieving the latest public
-                    conversations.
-                  </p>
-                </div>
-              )}
-
-              {feedState === "error" && (
-                <div className="ac-crossings__empty">
-                  <h3>Crossings unavailable</h3>
-
-                  <p>
-                    {feedError ||
-                      "Unable to load public crossings."}
-                  </p>
-
-                  <button
-                    type="button"
-                    className="ac-crossings__retry"
-                    onClick={() =>
-                      void loadCrossings(true)
-                    }
-                  >
-                    Try again
-                    <ArrowIcon />
-                  </button>
-                </div>
-              )}
-
-              {feedState === "ready" &&
-                filteredCrossings.length === 0 && (
-                  <div className="ac-crossings__empty">
-                    <CrossingMark size={30} />
-
-                    <h3>
-                      {crossings.length === 0
-                        ? "The conversation begins here."
-                        : "No matching Crossings."}
-                    </h3>
-
-                    <p>
-                      {crossings.length === 0
-                        ? "Be the first to introduce a question or perspective."
-                        : "Try another topic or search term."}
-                    </p>
-                  </div>
-                )}
-
-              {feedState === "ready" &&
-                filteredCrossings.map((crossing) => (
-                  <CrossingCard
-                    key={crossing.id}
-                    crossing={crossing}
-                  />
-                ))}
-            </div>
-
-            <div className="ac-crossings__feed-footer">
-              <span>
-                Displaying the latest {PAGE_SIZE} public
-                contributions at most.
-              </span>
-
-              <button
-                type="button"
-                onClick={() =>
-                  void loadCrossings(false)
-                }
-                disabled={refreshing}
-              >
-                {refreshing
-                  ? "Updating..."
-                  : "Refresh feed"}
-                <ArrowIcon />
-              </button>
-            </div>
-          </section>
+          <p className="cx-intro">A place for independent thought, open questions and perspectives on the future of civilization. Not every idea needs to be an answer. Some begin a conversation.</p>
+          <a className="cx-scroll-link" href="#create-crossing">ENTER THE CONVERSATION <span>↓</span></a>
         </div>
+      </section>
 
-        {/* FOOTER */}
-
-        <footer className="ac-crossings__footer">
-          <div>
-            <span>ARCHENOVA CROSSINGS</span>
-
-            <p>
-              Independent thought. Shared inquiry.
-              Responsible progress.
-            </p>
+      <section className="cx-create" id="create-crossing" aria-labelledby="cx-create-title">
+        <div className="cx-wrap">
+          <div className="cx-section-head">
+            <span className="cx-index">01 / EXPRESSION</span>
+            <h2 id="cx-create-title">Create a Crossing<span className="cx-period">.</span></h2>
+            <p>Give a thought room to become a conversation.</p>
           </div>
+          <form onSubmit={publish} className="cx-form">
+            <div className="cx-writing-glass">
+              <div className="cx-glass-top"><span>YOUR THOUGHT</span><CrossingIcon size={22} /></div>
+              <label className="cx-sr" htmlFor="cx-thought">Your Crossing</label>
+              <textarea id="cx-thought" value={text} onChange={(event) => setText(event.target.value)} maxLength={MAX_LENGTH} minLength={6} required disabled={busy} placeholder="What should civilization be thinking about?" rows={5} />
+              <div className="cx-writing-bottom"><span>Open dialogue · Public contribution</span><span>{MAX_LENGTH - text.length} / {MAX_LENGTH}</span></div>
+            </div>
 
-          <Link href="/home">
-            Return to ArcheNova
-            <ArrowIcon />
-          </Link>
-        </footer>
-      </div>
+            <div className="cx-options">
+              <fieldset><legend>01 — POST TYPE</legend><div className="cx-chips">{POST_TYPES.map((item) => <button key={item} type="button" disabled={busy} aria-pressed={postType === item} className={postType === item ? "cx-chip active" : "cx-chip"} onClick={() => setPostType(item)}>{item}</button>)}</div></fieldset>
+              <fieldset><legend>02 — TOPIC</legend><div className="cx-chips">{TOPICS.map((item) => <button key={item} type="button" disabled={busy} aria-pressed={topic === item} className={topic === item ? "cx-chip active" : "cx-chip"} onClick={() => setTopic(item)}>{item}</button>)}</div></fieldset>
+              <fieldset><legend>03 — IDENTITY</legend><div className="cx-chips">{AUTHOR_TYPES.map((item) => <button key={item} type="button" disabled={busy} aria-pressed={authorType === item} className={authorType === item ? "cx-chip active" : "cx-chip"} onClick={() => setAuthorType(item)}>{item}</button>)}</div></fieldset>
+              <div className="cx-reference"><label htmlFor="cx-url">04 — REFERENCE URL <span>OPTIONAL</span></label><input id="cx-url" type="url" value={url} onChange={(event) => setUrl(event.target.value)} placeholder="https://" disabled={busy} /></div>
+            </div>
+
+            <div className="cx-prompts"><div className="cx-small-title">A PLACE TO BEGIN</div><div className="cx-prompt-list">{PRESETS.map((item) => <button type="button" key={item} disabled={busy} onClick={() => setText(item)}>{item}<span aria-hidden="true">↗</span></button>)}</div></div>
+            <div className="cx-publish"><div><p>Shared publicly as a community perspective.</p><p>Not an official or independently verified ArcheNova research signal.</p><div className="cx-message" role="status" aria-live="polite">{message}</div></div><button type="submit" disabled={busy}>{busy ? "Publishing…" : "Publish Crossing"}<span aria-hidden="true">↗</span></button></div>
+          </form>
+        </div>
+      </section>
+
+      <section className="cx-feed" id="public-crossings" aria-labelledby="cx-feed-title">
+        <div className="cx-wrap">
+          <div className="cx-section-head"><span className="cx-index">02 / COLLECTIVE THOUGHT</span><h2 id="cx-feed-title">Public Crossings<span className="cx-period">.</span></h2><p>Distinct voices. Shared questions. An open record of thought.</p></div>
+          <div className="cx-feed-tools"><label className="cx-search"><span className="cx-sr">Search public Crossings</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input type="search" placeholder="Search the conversation" value={search} onChange={(event) => setSearch(event.target.value)} /></label><button className="cx-refresh" type="button" onClick={() => void load()} disabled={refreshing}>{refreshing ? "Refreshing…" : "Refresh ↻"}</button></div>
+          <div className="cx-filter" aria-label="Filter by topic">{["All", ...TOPICS].map((item) => <button key={item} type="button" aria-pressed={filter === item} className={filter === item ? "active" : ""} onClick={() => setFilter(item)}>{item}</button>)}</div>
+          <div className="cx-feed-count"><span>{loading ? "CONNECTING" : `${visiblePosts.length} CONTRIBUTIONS`}</span><span>LATEST FIRST · UP TO {LIMIT}</span></div>
+          <div className="cx-posts" aria-live="polite">
+            {loading ? <div className="cx-empty">Connecting to the conversation…</div> : feedError ? <div className="cx-empty"><p>Unable to load public Crossings.</p><p>{feedError}</p><button type="button" onClick={() => void load(true)}>Try again ↗</button></div> : visiblePosts.length === 0 ? <div className="cx-empty">{posts.length === 0 ? "The conversation begins here. Be the first to contribute." : "No matching Crossings. Try another search or topic."}</div> : visiblePosts.map((post, index) => {
+              const reference = validUrl(post.url);
+              return <article className="cx-post" key={post.id}>
+                <div className="cx-post-number">{String(index + 1).padStart(2, "0")}</div>
+                <div className="cx-post-content"><div className="cx-post-top"><div><span>{post.post_type || "Observation"}</span><span className="cx-post-divider">/</span><span>{post.topic || post.category || "Civilization"}</span></div><time dateTime={post.created_at}>{dateLabel(post.created_at)}</time></div><p className="cx-post-text">{post.text}</p>{reference && <a className="cx-post-link" href={reference} target="_blank" rel="noopener noreferrer">VIEW REFERENCE ↗</a>}<div className="cx-post-foot"><span>{post.author || "Community member"}</span><span>{Math.max(0, post.likes ?? 0)} likes · {Math.max(0, post.replies ?? 0)} replies</span></div></div>
+              </article>;
+            })}
+          </div>
+          <div className="cx-feed-end"><span>Ideas remain open to questioning.</span><button type="button" disabled={refreshing} onClick={() => void load()}>{refreshing ? "Updating…" : "Refresh contributions ↗"}</button></div>
+        </div>
+      </section>
+
+      <footer className="cx-footer"><div className="cx-wrap"><div><span>ARCHENOVA / CROSSINGS</span><p>Independent thought. Shared inquiry. Responsible progress.</p></div><Link href="/home">Return to ArcheNova ↗</Link></div></footer>
 
       <style jsx>{`
-        .ac-crossings {
-          position: relative;
-          min-height: 100vh;
-          min-height: 100dvh;
-          isolation: isolate;
-          overflow: hidden;
-          color: rgba(246, 247, 251, 0.92);
-          background: #07090d;
-          padding: 118px 24px 72px;
-        }
-
-        .ac-crossings__ambient {
-          position: absolute;
-          inset: 0;
-          z-index: -1;
-          pointer-events: none;
-          background:
-            radial-gradient(
-              ellipse 56% 34% at 18% 10%,
-              rgba(89, 114, 149, 0.095),
-              transparent 72%
-            ),
-            radial-gradient(
-              ellipse 48% 30% at 88% 26%,
-              rgba(92, 111, 146, 0.065),
-              transparent 75%
-            ),
-            linear-gradient(
-              180deg,
-              #080a0e 0%,
-              #050609 55%,
-              #080a0d 100%
-            );
-        }
-
-        .ac-crossings__shell {
-          width: min(100%, 1440px);
-          margin: 0 auto;
-        }
-
-        .ac-crossings__hero {
-          position: relative;
-          padding: 20px 8px 54px;
-          border-bottom: 1px solid
-            rgba(255, 255, 255, 0.09);
-        }
-
-        .ac-crossings__eyebrow,
-        .ac-crossings__section-index,
-        .ac-crossings__field-label {
-          color: rgba(210, 220, 236, 0.52);
-          font-size: 10px;
-          font-weight: 500;
-          letter-spacing: 0.19em;
-          line-height: 1.8;
-        }
-
-        .ac-crossings__eyebrow {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-        }
-
-        .ac-crossings__eyebrow-line {
-          width: 22px;
-          height: 1px;
-          background: rgba(220, 231, 249, 0.58);
-        }
-
-        .ac-crossings__hero-heading {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 30px;
-          margin-top: 24px;
-        }
-
-        .ac-crossings__hero h1 {
-          margin: 0;
-          font-size: clamp(48px, 7.5vw, 104px);
-          font-weight: 350;
-          letter-spacing: -0.075em;
-          line-height: 1.04;
-        }
-
-        .ac-crossings__hero-subtitle {
-          margin: 16px 0 0;
-          color: rgba(227, 234, 244, 0.74);
-          font-size: clamp(15px, 2vw, 20px);
-          font-weight: 350;
-          letter-spacing: -0.015em;
-        }
-
-        .ac-crossings__hero-mark {
-          display: grid;
-          place-items: center;
-          width: 112px;
-          height: 112px;
-          flex: 0 0 auto;
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          border-radius: 50%;
-          color: rgba(230, 237, 249, 0.68);
-          background: rgba(255, 255, 255, 0.018);
-          box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.04),
-            0 24px 80px rgba(0, 0, 0, 0.14);
-        }
-
-        .ac-crossings__introduction {
-          max-width: 730px;
-          margin: 32px 0 0;
-          color: rgba(210, 220, 235, 0.58);
-          font-size: 15px;
-          font-weight: 350;
-          line-height: 1.95;
-        }
-
-        .ac-crossings__hero-footer {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 12px 28px;
-          margin-top: 36px;
-          color: rgba(210, 220, 235, 0.4);
-          font-size: 9px;
-          letter-spacing: 0.16em;
-        }
-
-        .ac-crossings__layout {
-          display: grid;
-          grid-template-columns:
-            minmax(0, 0.88fr)
-            minmax(0, 1.12fr);
-          align-items: start;
-          gap: 26px;
-          padding-top: 38px;
-        }
-
-        .ac-crossings__composer,
-        .ac-crossings__feed {
-          min-width: 0;
-          border: 1px solid
-            rgba(255, 255, 255, 0.095);
-          border-radius: 24px;
-          background:
-            linear-gradient(
-              145deg,
-              rgba(255, 255, 255, 0.048),
-              rgba(255, 255, 255, 0.015) 45%,
-              rgba(255, 255, 255, 0.026)
-            );
-          box-shadow:
-            inset 0 1px 0
-              rgba(255, 255, 255, 0.055),
-            0 24px 70px rgba(0, 0, 0, 0.15);
-          backdrop-filter: blur(18px);
-          -webkit-backdrop-filter: blur(18px);
-          padding: clamp(22px, 3vw, 38px);
-        }
-
-        .ac-crossings__section-heading {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 20px;
-        }
-
-        .ac-crossings__section-heading h2 {
-          margin: 9px 0 0;
-          font-size: clamp(23px, 2.4vw, 32px);
-          font-weight: 400;
-          letter-spacing: -0.045em;
-        }
-
-        .ac-crossings__section-symbol {
-          color: rgba(220, 231, 246, 0.38);
-          font-size: 34px;
-          font-weight: 200;
-        }
-
-        .ac-crossings__section-description {
-          margin: 14px 0 30px;
-          color: rgba(215, 225, 238, 0.51);
-          font-size: 13px;
-          line-height: 1.8;
-        }
-
-        .ac-crossings__form {
-          display: flex;
-          flex-direction: column;
-          gap: 0;
-        }
-
-        .ac-crossings__textarea,
-        .ac-crossings__input,
-        .ac-crossings__search input {
-          width: 100%;
-          min-width: 0;
-          color: rgba(248, 249, 252, 0.91);
-          font: inherit;
-          outline: none;
-        }
-
-        .ac-crossings__textarea {
-          display: block;
-          min-height: 152px;
-          margin-top: 12px;
-          padding: 18px 19px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.105);
-          border-radius: 15px;
-          background: rgba(0, 0, 0, 0.19);
-          resize: vertical;
-          font-size: 14px;
-          line-height: 1.85;
-          transition:
-            border-color 200ms ease,
-            background 200ms ease;
-        }
-
-        .ac-crossings__textarea:focus,
-        .ac-crossings__input:focus {
-          border-color: rgba(196, 215, 245, 0.36);
-          background: rgba(0, 0, 0, 0.26);
-        }
-
-        .ac-crossings__textarea::placeholder,
-        .ac-crossings__input::placeholder,
-        .ac-crossings__search input::placeholder {
-          color: rgba(215, 224, 238, 0.32);
-        }
-
-        .ac-crossings__text-meta {
-          display: flex;
-          justify-content: space-between;
-          gap: 16px;
-          margin: 12px 0 30px;
-          color: rgba(208, 220, 236, 0.4);
-          font-size: 11px;
-          line-height: 1.6;
-        }
-
-        .ac-crossings__count {
-          flex: 0 0 auto;
-          font-variant-numeric: tabular-nums;
-        }
-
-        .ac-crossings__count--low {
-          color: rgba(255, 195, 166, 0.9);
-        }
-
-        .ac-crossings__fieldset {
-          min-width: 0;
-          margin: 0 0 27px;
-          padding: 0;
-          border: 0;
-        }
-
-        .ac-crossings__fieldset legend {
-          margin-bottom: 12px;
-          padding: 0;
-        }
-
-        .ac-crossings__chips,
-        .ac-crossings__filter-list {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 7px;
-        }
-
-        .ac-crossings__chip,
-        .ac-crossings__filter {
-          appearance: none;
-          border: 1px solid
-            rgba(255, 255, 255, 0.09);
-          border-radius: 999px;
-          padding: 9px 12px;
-          background: rgba(255, 255, 255, 0.022);
-          color: rgba(222, 231, 243, 0.56);
-          font: inherit;
-          font-size: 11px;
-          line-height: 1.3;
-          cursor: pointer;
-          transition:
-            border-color 180ms ease,
-            background 180ms ease,
-            color 180ms ease;
-        }
-
-        .ac-crossings__chip:hover,
-        .ac-crossings__filter:hover {
-          border-color: rgba(255, 255, 255, 0.2);
-          color: rgba(248, 249, 252, 0.9);
-        }
-
-        .ac-crossings__chip--active,
-        .ac-crossings__filter--active {
-          border-color: rgba(201, 219, 246, 0.32);
-          background: rgba(191, 211, 241, 0.11);
-          color: rgba(246, 249, 255, 0.95);
-        }
-
-        .ac-crossings__field {
-          margin: 0 0 27px;
-        }
-
-        .ac-crossings__input {
-          display: block;
-          height: 48px;
-          margin-top: 12px;
-          padding: 0 15px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.105);
-          border-radius: 12px;
-          background: rgba(0, 0, 0, 0.19);
-          font-size: 13px;
-        }
-
-        .ac-crossings__presets {
-          padding-top: 23px;
-          border-top: 1px solid
-            rgba(255, 255, 255, 0.075);
-        }
-
-        .ac-crossings__preset-list {
-          display: flex;
-          flex-direction: column;
-          gap: 7px;
-          margin-top: 13px;
-        }
-
-        .ac-crossings__preset {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 12px;
-          width: 100%;
-          padding: 12px 14px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.075);
-          border-radius: 10px;
-          background: rgba(255, 255, 255, 0.018);
-          color: rgba(218, 229, 243, 0.57);
-          font: inherit;
-          font-size: 11px;
-          line-height: 1.6;
-          text-align: left;
-          cursor: pointer;
-          transition:
-            background 180ms ease,
-            color 180ms ease;
-        }
-
-        .ac-crossings__preset:hover {
-          background: rgba(255, 255, 255, 0.055);
-          color: rgba(246, 249, 255, 0.92);
-        }
-
-        .ac-crossings__message {
-          min-height: 23px;
-          margin-top: 20px;
-          color: rgba(208, 226, 247, 0.84);
-          font-size: 12px;
-          line-height: 1.7;
-        }
-
-        .ac-crossings__submit-row {
-          display: flex;
-          align-items: flex-end;
-          justify-content: space-between;
-          flex-wrap: wrap;
-          gap: 20px;
-          padding-top: 19px;
-          border-top: 1px solid
-            rgba(255, 255, 255, 0.08);
-        }
-
-        .ac-crossings__submit-note {
-          max-width: 270px;
-          color: rgba(207, 219, 235, 0.4);
-          font-size: 10px;
-          line-height: 1.75;
-        }
-
-        .ac-crossings__submit,
-        .ac-crossings__retry {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          gap: 12px;
-          min-height: 43px;
-          padding: 11px 18px;
-          border: 1px solid
-            rgba(215, 229, 248, 0.25);
-          border-radius: 999px;
-          background: rgba(211, 226, 247, 0.11);
-          color: rgba(247, 249, 253, 0.96);
-          font: inherit;
-          font-size: 12px;
-          cursor: pointer;
-          transition:
-            background 180ms ease,
-            border-color 180ms ease;
-        }
-
-        .ac-crossings__submit:hover,
-        .ac-crossings__retry:hover {
-          background: rgba(211, 226, 247, 0.19);
-          border-color: rgba(215, 229, 248, 0.42);
-        }
-
-        .ac-crossings__submit:disabled,
-        .ac-crossings__refresh:disabled,
-        .ac-crossings__feed-footer button:disabled {
-          opacity: 0.5;
-          cursor: wait;
-        }
-
-        .ac-crossings__refresh {
-          display: grid;
-          place-items: center;
-          width: 37px;
-          height: 37px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.1);
-          border-radius: 50%;
-          background: rgba(255, 255, 255, 0.02);
-          color: rgba(231, 238, 248, 0.72);
-          cursor: pointer;
-        }
-
-        .ac-crossings__search {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-          height: 48px;
-          padding: 0 15px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.1);
-          border-radius: 12px;
-          background: rgba(0, 0, 0, 0.16);
-          color: rgba(210, 222, 240, 0.5);
-        }
-
-        .ac-crossings__search:focus-within {
-          border-color: rgba(196, 215, 245, 0.36);
-        }
-
-        .ac-crossings__search input {
-          flex: 1;
-          height: 100%;
-          border: 0;
-          background: transparent;
-          font-size: 12px;
-        }
-
-        .ac-crossings__filter-list {
-          margin: 17px 0 28px;
-        }
-
-        .ac-crossings__filter {
-          padding: 7px 11px;
-          font-size: 10px;
-        }
-
-        .ac-crossings__feed-meta {
-          display: flex;
-          justify-content: space-between;
-          flex-wrap: wrap;
-          gap: 8px 16px;
-          padding: 0 0 16px;
-          border-bottom: 1px solid
-            rgba(255, 255, 255, 0.09);
-          color: rgba(210, 223, 240, 0.43);
-          font-size: 9px;
-          letter-spacing: 0.12em;
-        }
-
-        .ac-crossings__feed-list {
-          display: flex;
-          flex-direction: column;
-          gap: 12px;
-          padding-top: 18px;
-        }
-
-        .ac-crossing-card {
-          padding: 22px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.085);
-          border-radius: 16px;
-          background: rgba(255, 255, 255, 0.022);
-          transition:
-            border-color 180ms ease,
-            background 180ms ease;
-        }
-
-        .ac-crossing-card:hover {
-          border-color: rgba(255, 255, 255, 0.16);
-          background: rgba(255, 255, 255, 0.035);
-        }
-
-        .ac-crossing-card__top {
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-start;
-          flex-wrap: wrap;
-          gap: 9px 18px;
-        }
-
-        .ac-crossing-card__labels {
-          display: flex;
-          align-items: center;
-          flex-wrap: wrap;
-          gap: 8px;
-          color: rgba(216, 228, 245, 0.7);
-          font-size: 10px;
-          letter-spacing: 0.055em;
-        }
-
-        .ac-crossing-card__type {
-          color: rgba(236, 242, 252, 0.87);
-        }
-
-        .ac-crossing-card__separator {
-          color: rgba(218, 228, 243, 0.28);
-        }
-
-        .ac-crossing-card__topic {
-          color: rgba(218, 228, 243, 0.48);
-        }
-
-        .ac-crossing-card__time {
-          color: rgba(211, 221, 237, 0.36);
-          font-size: 10px;
-          white-space: nowrap;
-        }
-
-        .ac-crossing-card__text {
-          margin: 18px 0 22px;
-          color: rgba(244, 247, 253, 0.86);
-          font-size: 14px;
-          line-height: 1.9;
-          overflow-wrap: anywhere;
-          white-space: pre-wrap;
-        }
-
-        .ac-crossing-card__reference {
-          display: inline-flex;
-          align-items: center;
-          gap: 9px;
-          margin-bottom: 20px;
-          color: rgba(202, 223, 250, 0.77);
-          font-size: 11px;
-          text-decoration: none;
-        }
-
-        .ac-crossing-card__reference:hover {
-          color: #fff;
-        }
-
-        .ac-crossing-card__footer {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-wrap: wrap;
-          gap: 12px;
-          padding-top: 16px;
-          border-top: 1px solid
-            rgba(255, 255, 255, 0.065);
-        }
-
-        .ac-crossing-card__author {
-          display: flex;
-          align-items: center;
-          gap: 9px;
-          color: rgba(220, 231, 246, 0.6);
-          font-size: 11px;
-        }
-
-        .ac-crossing-card__avatar {
-          display: grid;
-          place-items: center;
-          width: 26px;
-          height: 26px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.12);
-          border-radius: 50%;
-          background: rgba(255, 255, 255, 0.045);
-          color: rgba(232, 239, 250, 0.75);
-          font-size: 11px;
-        }
-
-        .ac-crossing-card__meta {
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          color: rgba(211, 223, 241, 0.37);
-          font-size: 10px;
-        }
-
-        .ac-crossing-card__meta-dot {
-          color: rgba(211, 223, 241, 0.22);
-        }
-
-        .ac-crossings__empty {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          min-height: 230px;
-          padding: 35px 20px;
-          border: 1px solid
-            rgba(255, 255, 255, 0.07);
-          border-radius: 16px;
-          color: rgba(216, 228, 246, 0.58);
-          text-align: center;
-        }
-
-        .ac-crossings__empty h3 {
-          margin: 17px 0 9px;
-          color: rgba(243, 247, 253, 0.83);
-          font-size: 17px;
-          font-weight: 400;
-        }
-
-        .ac-crossings__empty p {
-          max-width: 330px;
-          margin: 0;
-          font-size: 12px;
-          line-height: 1.8;
-          overflow-wrap: anywhere;
-        }
-
-        .ac-crossings__loading-mark {
-          animation: ac-breathe 3s ease-in-out infinite;
-        }
-
-        .ac-crossings__retry {
-          margin-top: 20px;
-        }
-
-        .ac-crossings__feed-footer {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          flex-wrap: wrap;
-          gap: 15px;
-          margin-top: 22px;
-          padding-top: 19px;
-          border-top: 1px solid
-            rgba(255, 255, 255, 0.075);
-          color: rgba(210, 222, 240, 0.38);
-          font-size: 10px;
-          line-height: 1.7;
-        }
-
-        .ac-crossings__feed-footer button {
-          display: inline-flex;
-          align-items: center;
-          gap: 9px;
-          border: 0;
-          background: transparent;
-          color: rgba(219, 233, 251, 0.76);
-          font: inherit;
-          font-size: 11px;
-          cursor: pointer;
-        }
-
-        .ac-crossings__footer {
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-end;
-          flex-wrap: wrap;
-          gap: 24px;
-          margin-top: 66px;
-          padding: 28px 8px 0;
-          border-top: 1px solid
-            rgba(255, 255, 255, 0.08);
-        }
-
-        .ac-crossings__footer > div > span {
-          color: rgba(216, 229, 247, 0.53);
-          font-size: 10px;
-          letter-spacing: 0.15em;
-        }
-
-        .ac-crossings__footer p {
-          margin: 10px 0 0;
-          color: rgba(216, 228, 244, 0.38);
-          font-size: 12px;
-        }
-
-        .ac-crossings__footer a {
-          display: inline-flex;
-          align-items: center;
-          gap: 10px;
-          color: rgba(227, 237, 251, 0.77);
-          font-size: 12px;
-          text-decoration: none;
-        }
-
-        @keyframes ac-breathe {
-          0%, 100% {
-            opacity: 0.45;
-            transform: scale(0.97);
-          }
-          50% {
-            opacity: 1;
-            transform: scale(1.04);
-          }
-        }
-
-        @media (max-width: 1050px) {
-          .ac-crossings__layout {
-            grid-template-columns: minmax(0, 1fr);
-            gap: 22px;
-          }
-
-          .ac-crossings__composer,
-          .ac-crossings__feed {
-            padding: clamp(22px, 4vw, 34px);
-          }
-        }
-
-        @media (max-width: 640px) {
-          .ac-crossings {
-            padding: 98px 15px 46px;
-          }
-
-          .ac-crossings__hero {
-            padding: 10px 4px 35px;
-          }
-
-          .ac-crossings__hero-heading {
-            gap: 15px;
-            margin-top: 20px;
-          }
-
-          .ac-crossings__hero h1 {
-            font-size: clamp(45px, 12vw, 68px);
-          }
-
-          .ac-crossings__hero-subtitle {
-            margin-top: 12px;
-            font-size: 14px;
-            line-height: 1.7;
-          }
-
-          .ac-crossings__hero-mark {
-            width: 68px;
-            height: 68px;
-          }
-
-          .ac-crossings__hero-mark :global(svg) {
-            width: 29px;
-            height: 29px;
-          }
-
-          .ac-crossings__introduction {
-            margin-top: 24px;
-            font-size: 13px;
-            line-height: 1.85;
-          }
-
-          .ac-crossings__hero-footer {
-            gap: 10px 15px;
-            margin-top: 26px;
-            font-size: 8px;
-          }
-
-          .ac-crossings__layout {
-            padding-top: 19px;
-            gap: 17px;
-          }
-
-          .ac-crossings__composer,
-          .ac-crossings__feed {
-            padding: 22px 17px;
-            border-radius: 19px;
-          }
-
-          .ac-crossings__section-heading h2 {
-            font-size: 25px;
-          }
-
-          .ac-crossings__section-description {
-            margin-bottom: 24px;
-          }
-
-          .ac-crossings__textarea {
-            min-height: 145px;
-            padding: 15px;
-          }
-
-          .ac-crossings__chip {
-            padding: 8px 10px;
-            font-size: 10px;
-          }
-
-          .ac-crossings__submit {
-            width: 100%;
-          }
-
-          .ac-crossing-card {
-            padding: 17px;
-            border-radius: 13px;
-          }
-
-          .ac-crossing-card__text {
-            font-size: 13px;
-          }
-
-          .ac-crossings__footer {
-            margin-top: 44px;
-          }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .ac-crossings__loading-mark {
-            animation: none;
-          }
-
-          .ac-crossings__chip,
-          .ac-crossings__filter,
-          .ac-crossings__preset,
-          .ac-crossing-card,
-          .ac-crossings__submit {
-            transition: none;
-          }
-        }
+        .cx{--white:rgba(255,255,255,.94);--muted:rgba(255,255,255,.52);--subtle:rgba(255,255,255,.34);--line:rgba(255,255,255,.105);color:var(--white);background:#000;min-height:100vh;overflow-x:clip;font-family:inherit}
+        .cx *{box-sizing:border-box}.cx-wrap{width:100%;max-width:1760px;margin:0 auto;padding-left:clamp(22px,5.5vw,112px);padding-right:clamp(22px,5.5vw,112px)}
+        .cx-hero,.cx-create,.cx-feed{position:relative;background:#000}.cx-hero{min-height:100svh;display:flex;align-items:center;border-bottom:1px solid var(--line);padding:130px 0 85px}.cx-hero-inner{width:100%}
+        .cx-kicker,.cx-index,.cx-small-title{font-size:10px;letter-spacing:.23em;color:var(--muted);font-weight:500}.cx-kicker{display:flex;align-items:center;gap:13px}.cx-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.8)}
+        .cx-hero-heading{display:flex;justify-content:space-between;align-items:center;gap:28px;margin-top:clamp(46px,9vh,110px)}.cx-hero h1{font-size:clamp(70px,12vw,190px);font-weight:300;line-height:.94;letter-spacing:-.085em;margin:0}.cx-period{color:rgba(255,255,255,.32)}.cx-tagline{font-size:clamp(23px,3.4vw,52px);font-weight:300;letter-spacing:-.05em;margin:24px 0 0;color:rgba(255,255,255,.8)}.cx-emblem{flex-shrink:0;width:clamp(76px,11vw,156px);height:clamp(76px,11vw,156px);display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;color:rgba(255,255,255,.6);background:rgba(255,255,255,.018)}.cx-intro{max-width:740px;font-size:clamp(15px,1.5vw,20px);line-height:1.95;color:var(--muted);margin:clamp(48px,9vh,100px) 0 0;font-weight:350}.cx-scroll-link{display:inline-flex;align-items:center;gap:35px;margin-top:65px;font-size:10px;letter-spacing:.18em;color:var(--white);text-decoration:none}.cx-scroll-link span{font-size:20px;font-weight:200}
+        .cx-create{padding:clamp(100px,13vw,200px) 0 clamp(110px,14vw,210px);border-bottom:1px solid var(--line);scroll-margin-top:60px}.cx-feed{padding:clamp(100px,12vw,180px) 0 clamp(110px,13vw,180px)}.cx-section-head{margin-bottom:clamp(55px,7vw,110px)}.cx-section-head h2{font-size:clamp(46px,7.2vw,112px);font-weight:300;letter-spacing:-.07em;line-height:1.07;margin:24px 0 20px}.cx-section-head p{font-size:clamp(14px,1.5vw,19px);line-height:1.8;color:var(--muted);margin:0}
+        .cx-form{width:100%}.cx-writing-glass{width:100%;min-height:clamp(330px,42vw,570px);display:flex;flex-direction:column;padding:clamp(25px,4.5vw,72px);border:1px solid rgba(255,255,255,.16);border-radius:clamp(18px,2.2vw,32px);background:linear-gradient(135deg,rgba(255,255,255,.065),rgba(255,255,255,.018) 55%,rgba(255,255,255,.038));box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 28px 90px rgba(0,0,0,.2);backdrop-filter:blur(28px);-webkit-backdrop-filter:blur(28px)}.cx-glass-top,.cx-writing-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;color:var(--muted);font-size:10px;letter-spacing:.13em}.cx-glass-top svg{color:rgba(255,255,255,.65)}.cx-writing-glass textarea{width:100%;flex:1;min-height:180px;resize:vertical;border:0;background:transparent;color:var(--white);font:inherit;font-weight:350;font-size:clamp(21px,3vw,43px);letter-spacing:-.035em;line-height:1.5;outline:none;padding:clamp(36px,5vw,75px) 0}.cx-writing-glass textarea::placeholder{color:rgba(255,255,255,.34)}.cx-writing-bottom{border-top:1px solid var(--line);padding-top:22px;letter-spacing:.03em}
+        .cx-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(38px,5vw,80px) clamp(36px,6vw,100px);padding:clamp(70px,8vw,125px) 0}.cx-options fieldset{border:0;margin:0;padding:0;min-width:0}.cx-options legend,.cx-reference label{display:block;color:var(--muted);font-size:11px;letter-spacing:.16em;margin-bottom:23px}.cx-chips{display:flex;flex-wrap:wrap;gap:10px}.cx-chip,.cx-filter button{appearance:none;border:1px solid var(--line);border-radius:100px;background:rgba(255,255,255,.025);color:rgba(255,255,255,.57);padding:12px 17px;font:inherit;font-size:12px;cursor:pointer;transition:background .2s,color .2s,border-color .2s}.cx-chip:hover,.cx-filter button:hover{color:#fff;border-color:rgba(255,255,255,.32)}.cx-chip.active,.cx-filter button.active{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.42);color:#fff}.cx-reference label span{font-size:9px;color:var(--subtle);margin-left:8px}.cx-reference input{width:100%;height:52px;padding:0 18px;border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.035);color:#fff;font:inherit;font-size:14px;outline:none}.cx-reference input:focus{border-color:rgba(255,255,255,.45)}.cx-reference input::placeholder{color:var(--subtle)}
+        .cx-prompts{padding:50px 0 70px;border-top:1px solid var(--line)}.cx-prompt-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:25px}.cx-prompt-list button{display:flex;justify-content:space-between;align-items:center;gap:24px;text-align:left;padding:23px 25px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.026);color:rgba(255,255,255,.67);font:inherit;font-size:13px;line-height:1.6;cursor:pointer;transition:background .2s,color .2s}.cx-prompt-list button:hover{background:rgba(255,255,255,.075);color:#fff}.cx-prompt-list button span{font-size:19px;color:var(--muted)}.cx-publish{display:flex;align-items:center;justify-content:space-between;gap:40px;border-top:1px solid var(--line);padding-top:35px}.cx-publish p{margin:0 0 7px;font-size:12px;color:var(--muted);line-height:1.6}.cx-publish>button{flex-shrink:0;display:flex;gap:35px;align-items:center;justify-content:space-between;padding:20px 28px;border:1px solid rgba(255,255,255,.45);border-radius:100px;background:rgba(255,255,255,.11);color:#fff;font:inherit;font-size:13px;cursor:pointer;transition:background .2s}.cx-publish>button:hover{background:rgba(255,255,255,.2)}.cx-publish button:disabled,.cx-chip:disabled,.cx-prompt-list button:disabled{opacity:.5;cursor:wait}.cx-message{color:#fff;font-size:12px;margin-top:16px;line-height:1.7}
+        .cx-feed-tools{display:flex;align-items:center;justify-content:space-between;gap:20px}.cx-search{display:flex;align-items:center;gap:15px;flex:1;min-height:62px;padding:0 22px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.035);color:var(--muted)}.cx-search:focus-within{border-color:rgba(255,255,255,.4)}.cx-search input{flex:1;width:100%;border:0;background:transparent;color:#fff;font:inherit;font-size:15px;outline:none}.cx-search input::placeholder{color:var(--subtle)}.cx-refresh,.cx-feed-end button,.cx-empty button{border:1px solid var(--line);border-radius:100px;background:rgba(255,255,255,.035);color:var(--white);padding:18px 24px;font:inherit;font-size:12px;cursor:pointer}.cx-refresh:disabled,.cx-feed-end button:disabled{opacity:.5;cursor:wait}.cx-filter{display:flex;flex-wrap:wrap;gap:9px;margin:28px 0 75px}.cx-feed-count{display:flex;justify-content:space-between;gap:18px;padding-bottom:22px;border-bottom:1px solid var(--line);color:var(--muted);font-size:10px;letter-spacing:.15em}
+        .cx-posts{display:flex;flex-direction:column;gap:clamp(22px,3vw,42px);padding:clamp(30px,4vw,64px) 0}.cx-post{display:grid;grid-template-columns:75px minmax(0,1fr);gap:clamp(16px,3vw,45px);align-items:start}.cx-post-number{padding-top:28px;font-size:11px;letter-spacing:.13em;color:var(--subtle)}.cx-post-content{min-width:0;padding:clamp(28px,4.5vw,70px);border:1px solid rgba(255,255,255,.13);border-radius:clamp(18px,2vw,30px);background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.018) 65%,rgba(255,255,255,.035));backdrop-filter:blur(26px);-webkit-backdrop-filter:blur(26px);box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}.cx-post-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;color:var(--muted);font-size:11px;letter-spacing:.09em}.cx-post-top>div{display:flex;gap:12px;flex-wrap:wrap}.cx-post-divider{color:var(--subtle)}.cx-post-top time{color:var(--subtle)}.cx-post-text{margin:clamp(35px,4vw,68px) 0;max-width:1100px;color:var(--white);font-size:clamp(20px,2.7vw,37px);font-weight:350;letter-spacing:-.035em;line-height:1.65;white-space:pre-wrap;overflow-wrap:anywhere}.cx-post-link{display:inline-block;color:rgba(255,255,255,.7);font-size:11px;letter-spacing:.12em;text-decoration:none;margin-bottom:28px}.cx-post-link:hover{color:#fff}.cx-post-foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;padding-top:25px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.cx-empty{padding:95px 25px;text-align:center;color:var(--muted);border:1px solid var(--line);border-radius:25px;background:rgba(255,255,255,.025);line-height:1.8;overflow-wrap:anywhere}.cx-empty p{margin:8px 0}.cx-empty button{margin-top:20px}.cx-feed-end{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:25px;color:var(--muted);font-size:12px}.cx-footer{background:#000;border-top:1px solid var(--line);padding:55px 0 70px}.cx-footer .cx-wrap{display:flex;align-items:end;justify-content:space-between;gap:20px;flex-wrap:wrap}.cx-footer span{color:var(--muted);font-size:10px;letter-spacing:.18em}.cx-footer p{color:var(--subtle);font-size:12px;margin:14px 0 0}.cx-footer a{color:var(--white);font-size:12px;text-decoration:none}.cx-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+        @media(max-width:800px){.cx-hero{min-height:88svh}.cx-options,.cx-prompt-list{grid-template-columns:1fr}.cx-post{grid-template-columns:1fr;gap:10px}.cx-post-number{padding:0 0 0 4px}.cx-filter{margin-bottom:45px}.cx-publish{align-items:stretch;flex-direction:column}.cx-publish>button{justify-content:center}.cx-emblem{width:75px;height:75px}.cx-emblem svg{width:32px;height:32px}}
+        @media(max-width:520px){.cx-hero{padding:115px 0 75px;min-height:80svh}.cx-hero h1{font-size:clamp(58px,14vw,82px)}.cx-hero-heading{gap:12px}.cx-emblem{width:58px;height:58px}.cx-emblem svg{width:26px;height:26px}.cx-intro{margin-top:55px}.cx-scroll-link{margin-top:42px}.cx-create,.cx-feed{padding-top:90px;padding-bottom:100px}.cx-section-head{margin-bottom:45px}.cx-section-head h2{font-size:clamp(42px,10vw,62px)}.cx-writing-glass{padding:24px 22px;min-height:360px}.cx-writing-glass textarea{font-size:24px}.cx-writing-bottom{font-size:9px;gap:10px}.cx-options{padding:60px 0;gap:42px}.cx-prompts{padding:42px 0}.cx-feed-tools{align-items:stretch;flex-direction:column}.cx-refresh{align-self:flex-end}.cx-post-content{padding:28px 23px}.cx-post-text{font-size:22px;margin:35px 0}.cx-feed-count{font-size:9px}.cx-post-foot{font-size:11px}}
+        @media(prefers-reduced-motion:reduce){.cx *{scroll-behavior:auto!important;transition:none!important}}
       `}</style>
     </main>
   );
