@@ -1196,21 +1196,38 @@ export default function ArcheNovaHeader() {
               <ProductsIcon />
             </button>
 
-            {/* CROSSINGS */}
+            {/* RIGHT */}
 
-            <button
-              type="button"
-              className="an-top-header__icon"
-              aria-label="Open ArcheNova Crossings"
-              title="Crossings"
-              onClick={() => {
-                setPanel(null);
-                setVisible(true);
-                router.push("/crossings");
-              }}
-            >
-              <CrossingsIcon />
-            </button>
+<div className="an-top-header__side an-top-header__side--right">
+  {/* CROSSINGS */}
+
+  <button
+    type="button"
+    className="an-top-header__icon"
+    aria-label="Open ArcheNova Crossings"
+    title="Crossings"
+    onClick={() => {
+      setPanel(null);
+      setVisible(true);
+      router.push("/crossings");
+    }}
+  >
+    <CrossingsIcon />
+  </button>
+
+  {/* EXISTING MENU */}
+
+  <button
+    type="button"
+    className="an-top-header__icon"
+    aria-label="Open ArcheNova navigation"
+    aria-expanded={menuOpen}
+    aria-haspopup="dialog"
+    onClick={openExistingMenu}
+  >
+    <MenuIcon />
+  </button>
+</div>
           </nav>
 
           {/* CENTER — UNCHANGED */}
