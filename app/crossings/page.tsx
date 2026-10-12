@@ -219,9 +219,39 @@ export default function CrossingsPage() {
 
       <footer className="cx-footer"><div className="cx-wrap"><div><span>ARCHENOVA / CROSSINGS</span><p>Independent thought. Shared inquiry. Responsible progress.</p></div><Link href="/home">Return to ArcheNova ↗</Link></div></footer>
 
+      <style jsx global>{`
+        /* Crossings only: remove the inherited narrow glass wrapper. */
+        body:has(main.cx) { background: #000; }
+        body:has(main.cx) .site-content {
+          width: 100% !important;
+          max-width: none !important;
+          min-width: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          border: 0 !important;
+          border-radius: 0 !important;
+          box-shadow: none !important;
+          background: transparent !important;
+          backdrop-filter: none !important;
+          -webkit-backdrop-filter: none !important;
+          overflow: visible !important;
+          transform: none !important;
+        }
+        body:has(main.cx) .site-content::before,
+        body:has(main.cx) .site-content::after { content: none !important; display: none !important; }
+        body:has(main.cx) main.cx {
+          left: auto;
+          transform: none;
+          width: 100%;
+          max-width: none;
+          min-height: 100dvh;
+          margin: 0;
+          background: #000;
+        }
+      `}</style>
       <style jsx>{`
-        .cx{--white:rgba(255,255,255,.94);--muted:rgba(255,255,255,.52);--subtle:rgba(255,255,255,.34);--line:rgba(255,255,255,.105);color:var(--white);background:#000;min-height:100vh;overflow-x:clip;font-family:inherit}
-        .cx *{box-sizing:border-box}.cx-wrap{width:100%;max-width:1760px;margin:0 auto;padding-left:clamp(22px,5.5vw,112px);padding-right:clamp(22px,5.5vw,112px)}
+        .cx{position:relative;left:50%;transform:translateX(-50%);width:100vw;max-width:none;margin:0;padding:0;--white:rgba(255,255,255,.94);--muted:rgba(255,255,255,.52);--subtle:rgba(255,255,255,.34);--line:rgba(255,255,255,.105);color:var(--white);background:#000;min-height:100vh;overflow-x:clip;font-family:inherit}
+        .cx *{box-sizing:border-box}.cx-wrap{width:100%;max-width:none;margin:0;padding-left:clamp(20px,5vw,110px);padding-right:clamp(20px,5vw,110px)}
         .cx-hero,.cx-create,.cx-feed{position:relative;background:#000}.cx-hero{min-height:100svh;display:flex;align-items:center;border-bottom:1px solid var(--line);padding:130px 0 85px}.cx-hero-inner{width:100%}
         .cx-kicker,.cx-index,.cx-small-title{font-size:10px;letter-spacing:.23em;color:var(--muted);font-weight:500}.cx-kicker{display:flex;align-items:center;gap:13px}.cx-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.8)}
         .cx-hero-heading{display:flex;justify-content:space-between;align-items:center;gap:28px;margin-top:clamp(46px,9vh,110px)}.cx-hero h1{font-size:clamp(70px,12vw,190px);font-weight:300;line-height:.94;letter-spacing:-.085em;margin:0}.cx-period{color:rgba(255,255,255,.32)}.cx-tagline{font-size:clamp(23px,3.4vw,52px);font-weight:300;letter-spacing:-.05em;margin:24px 0 0;color:rgba(255,255,255,.8)}.cx-emblem{flex-shrink:0;width:clamp(76px,11vw,156px);height:clamp(76px,11vw,156px);display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;color:rgba(255,255,255,.6);background:rgba(255,255,255,.018)}.cx-intro{max-width:740px;font-size:clamp(15px,1.5vw,20px);line-height:1.95;color:var(--muted);margin:clamp(48px,9vh,100px) 0 0;font-weight:350}.cx-scroll-link{display:inline-flex;align-items:center;gap:35px;margin-top:65px;font-size:10px;letter-spacing:.18em;color:var(--white);text-decoration:none}.cx-scroll-link span{font-size:20px;font-weight:200}
