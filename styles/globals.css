@@ -67558,41 +67558,41 @@ main.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   ARCHENOVA HOME — FINAL OPAQUE BLACK FOOTER
+   ARCHENOVA HOME — AEVUM-INSPIRED DEEP BLACK FOOTER
    Replace the previous ArcheNovaHomeFooter CSS block in full.
    TSX unchanged. HOME sections and pager unchanged.
 ========================================================== */
 
-/* The footer itself is the opaque black surface. */
+/* The footer itself owns one darker-than-Aevum optical surface. */
 main.an-home-2026.archenova-twin-home > footer.an-home-footer {
   position: relative !important;
   isolation: isolate !important;
   z-index: 5 !important;
   box-sizing: border-box !important;
   display: block !important;
-  width: 100% !important;
-  max-width: none !important;
+  width: calc(100% - 2 * var(--an-h-gutter, clamp(16px, 3.8vw, 76px))) !important;
+  max-width: 1800px !important;
   min-width: 0 !important;
   min-height: 0 !important;
   height: auto !important;
   max-height: none !important;
-  margin: 0 !important;
-  padding: clamp(52px, 6vw, 88px) clamp(20px, 4vw, 76px) clamp(26px, 3vw, 46px) !important;
+  margin: clamp(52px, 7svh, 112px) auto clamp(24px, 4svh, 60px) !important;
+  padding: clamp(40px, 5vw, 72px) clamp(24px, 4vw, 72px) clamp(24px, 3vw, 40px) !important;
   overflow: hidden !important;
   color: #f4f4f4 !important;
-  background-color: #030303 !important;
-  background-image: linear-gradient(180deg, #090909 0%, #030303 38%, #000 100%) !important;
-  border: 0 !important;
-  border-radius: 0 !important;
+  background-color: rgba(3, 3, 4, .96) !important;
+  background-image: linear-gradient(145deg, rgba(11, 11, 13, .96), rgba(3, 3, 4, .97) 52%, rgba(0, 0, 0, .98)) !important;
+  border: 1px solid rgba(255,255,255,.065) !important;
+  border-radius: 30px !important;
   outline: 0 !important;
-  box-shadow: none !important;
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.035), inset 0 -1px 0 rgba(255,255,255,.008) !important;
+  -webkit-backdrop-filter: blur(22px) saturate(100%) !important;
+  backdrop-filter: blur(22px) saturate(100%) !important;
   scroll-snap-align: none !important;
   scroll-snap-stop: normal !important;
 }
 
-/* Never let HOME's cosmic backdrop show through the footer. */
+/* Remove pseudo-surfaces: the footer is the only glass owner. */
 main.an-home-2026.archenova-twin-home > footer.an-home-footer::before,
 main.an-home-2026.archenova-twin-home > footer.an-home-footer::after {
   content: none !important;
@@ -67603,7 +67603,7 @@ main.an-home-2026.archenova-twin-home .an-home-footer__inner {
   position: relative;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1240px;
+  max-width: 1320px;
   min-width: 0;
   margin: 0 auto;
   padding: 0;
@@ -67758,7 +67758,15 @@ main.an-home-2026.archenova-twin-home .an-home-footer a:focus-visible {
 
 @media (max-width: 700px) {
   main.an-home-2026.archenova-twin-home > footer.an-home-footer {
-    padding: 40px 24px max(32px, env(safe-area-inset-bottom)) !important;
+    width: calc(100% - 24px) !important;
+    max-width: none !important;
+    margin: 44px auto 24px !important;
+    padding: 36px 23px max(30px, env(safe-area-inset-bottom)) !important;
+    border-radius: 26px !important;
+    background-color: rgba(3,3,4,.97) !important;
+    background-image: linear-gradient(145deg,rgba(10,10,12,.97),rgba(0,0,0,.985)) !important;
+    -webkit-backdrop-filter: blur(18px) saturate(100%) !important;
+    backdrop-filter: blur(18px) saturate(100%) !important;
   }
   main.an-home-2026.archenova-twin-home .an-home-footer__content {
     grid-template-columns: minmax(0, 1fr);
@@ -67792,8 +67800,10 @@ main.an-home-2026.archenova-twin-home .an-home-footer a:focus-visible {
 
 @media (max-width: 390px) {
   main.an-home-2026.archenova-twin-home > footer.an-home-footer {
+    width: calc(100% - 18px) !important;
     padding-left: 19px !important;
     padding-right: 19px !important;
+    border-radius: 22px !important;
   }
 }
 
@@ -67803,6 +67813,16 @@ main.an-home-2026.archenova-twin-home .an-home-footer a:focus-visible {
     transition: none;
   }
 }
+
+/* Keep a visible separation even when the previous HOME section has no bottom margin. */
+main.an-home-2026.archenova-twin-home > section[data-home-section] + footer.an-home-footer {
+  margin-top: clamp(52px, 7svh, 112px) !important;
+}
+@media (max-width:700px) {
+  main.an-home-2026.archenova-twin-home > section[data-home-section] + footer.an-home-footer { margin-top: 44px !important; }
+}
+
+
 
 
 
