@@ -6,18 +6,23 @@ export default function EpistemeDialoguePage() {
       <EpistemeDialogue />
       <style>{`
         .episteme-dialogue-page {
+          position: relative;
+          isolation: isolate;
           width: 100%;
-          min-width: 0;
           max-width: none;
-          min-height: 100dvh;
+          min-width: 0;
+          height: 100dvh;
+          min-height: 0;
           margin: 0;
           padding: 0;
-          overflow: clip;
-          background: #000;
+          overflow: hidden;
+          background: #050506;
         }
         .episteme-dialogue-page > .ep-dialogue {
           width: 100%;
+          min-width: 0;
           max-width: none;
+          height: 100%;
           margin: 0;
         }
       `}</style>
