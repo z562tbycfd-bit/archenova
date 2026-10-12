@@ -67558,271 +67558,111 @@ main.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   ARCHENOVA HOME — AEVUM-INSPIRED DEEP BLACK FOOTER
-   Replace the previous ArcheNovaHomeFooter CSS block in full.
-   TSX unchanged. HOME sections and pager unchanged.
+   ARCHENOVA / HOME — CLOSING FOOTER
+   Append to the VERY END of styles/globals.css.
+   Footer is NOT a HOME section and does NOT join the pager.
 ========================================================== */
-
-/* The footer itself owns one darker-than-Aevum optical surface. */
-main.an-home-2026.archenova-twin-home > footer.an-home-footer {
+main.an-home-2026.archenova-twin-home > .an-home-footer {
   position: relative !important;
-  isolation: isolate !important;
-  z-index: 5 !important;
-  box-sizing: border-box !important;
+  isolation: isolate;
   display: block !important;
-  width: calc(100% - 2 * var(--an-h-gutter, clamp(16px, 3.8vw, 76px))) !important;
-  max-width: 1800px !important;
-  min-width: 0 !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: none !important;
   min-height: 0 !important;
   height: auto !important;
-  max-height: none !important;
-  margin: clamp(52px, 7svh, 112px) auto clamp(24px, 4svh, 60px) !important;
-  padding: clamp(40px, 5vw, 72px) clamp(24px, 4vw, 72px) clamp(24px, 3vw, 40px) !important;
-  overflow: hidden !important;
-  color: #f4f4f4 !important;
-  background-color: rgba(3, 3, 4, .96) !important;
-  background-image: linear-gradient(145deg, rgba(11, 11, 13, .96), rgba(3, 3, 4, .97) 52%, rgba(0, 0, 0, .98)) !important;
-  border: 1px solid rgba(255,255,255,.065) !important;
-  border-radius: 30px !important;
-  outline: 0 !important;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.035), inset 0 -1px 0 rgba(255,255,255,.008) !important;
-  -webkit-backdrop-filter: blur(22px) saturate(100%) !important;
-  backdrop-filter: blur(22px) saturate(100%) !important;
+  margin: 0 !important;
+  padding: clamp(76px, 11svh, 150px) clamp(16px, 3.8vw, 76px) clamp(24px, 4vw, 56px) !important;
+  overflow: visible !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
   scroll-snap-align: none !important;
-  scroll-snap-stop: normal !important;
 }
-
-/* Remove pseudo-surfaces: the footer is the only glass owner. */
-main.an-home-2026.archenova-twin-home > footer.an-home-footer::before,
-main.an-home-2026.archenova-twin-home > footer.an-home-footer::after {
-  content: none !important;
-  display: none !important;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__inner {
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 1320px;
-  min-width: 0;
-  margin: 0 auto;
-  padding: 0;
-  background: transparent;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__rule {
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(255,255,255,.25), rgba(255,255,255,.085) 60%, transparent);
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__content {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(190px, 250px);
-  align-items: end;
-  column-gap: clamp(40px, 7vw, 110px);
-  row-gap: 36px;
-  padding: clamp(35px, 4.5vw, 64px) 0 clamp(40px, 5vw, 72px);
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__identity {
-  min-width: 0;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__overline,
-main.an-home-2026.archenova-twin-home .an-home-footer__utility-label {
-  display: block;
-  color: rgba(255,255,255,.42);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: .16em;
-  line-height: 1.7;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__name {
-  margin: clamp(18px, 2.4vw, 30px) 0 20px;
-  color: rgba(255,255,255,.96);
-  font-size: clamp(42px, 5vw, 76px);
-  font-weight: 450;
-  line-height: 1.06;
-  letter-spacing: -.065em;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__period {
-  color: rgba(255,255,255,.42);
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__statement {
-  margin: 0;
-  max-width: 660px;
-  color: rgba(255,255,255,.64);
-  font-size: clamp(14px, 1.15vw, 17px);
-  font-weight: 400;
-  line-height: 1.75;
-  letter-spacing: -.015em;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__utility {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 15px;
-  min-width: 0;
-  padding-bottom: 3px;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__top,
-main.an-home-2026.archenova-twin-home .an-home-footer__copy {
-  appearance: none;
-  -webkit-appearance: none;
-  font-family: inherit;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__top {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  width: 100%;
-  min-width: 0;
-  padding: 13px 0;
-  color: rgba(255,255,255,.91);
-  font-size: 14px;
-  text-align: left;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid rgba(255,255,255,.19);
-  border-radius: 0;
-  box-shadow: none;
-  transition: color .2s ease, border-color .2s ease;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__top-icon {
-  font-size: 23px;
-  font-weight: 300;
-  line-height: 1;
-  transition: transform .2s ease;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__copy {
-  align-self: flex-start;
-  padding: 3px 0;
-  color: rgba(255,255,255,.48);
-  font-size: 12px;
-  text-align: left;
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__bottom {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px 24px;
-  padding-top: 21px;
-  border-top: 1px solid rgba(255,255,255,.095);
-  color: rgba(255,255,255,.38);
-  font-size: 11px;
-  line-height: 1.6;
-  letter-spacing: .02em;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer__bottom a {
-  color: rgba(255,255,255,.58);
-  text-decoration: none;
-}
-
-main.an-home-2026.archenova-twin-home .an-home-footer button:focus-visible,
-main.an-home-2026.archenova-twin-home .an-home-footer a:focus-visible {
-  outline: 2px solid rgba(255,255,255,.8);
-  outline-offset: 5px;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  main.an-home-2026.archenova-twin-home .an-home-footer__top:hover {
-    color: #fff;
-    border-bottom-color: rgba(255,255,255,.65);
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__top:hover .an-home-footer__top-icon {
-    transform: translateY(-4px);
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__copy:hover,
-  main.an-home-2026.archenova-twin-home .an-home-footer__bottom a:hover {
-    color: #fff;
-  }
-}
-
+main.an-home-2026 .an-home-footer::before,
+main.an-home-2026 .an-home-footer::after { content: none !important; display: none !important; }
+.an-home-footer__inner { box-sizing: border-box; width: 100%; max-width: 1800px; margin: 0 auto; }
+.an-home-footer__rule { height: 1px; width: 100%; background: linear-gradient(90deg,rgba(255,255,255,.23),rgba(255,255,255,.065) 55%,transparent); }
+.an-home-footer__content { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: clamp(40px,7vw,140px); align-items: end; padding: clamp(44px,6vw,96px) 0 clamp(70px,9vw,140px); }
+.an-home-footer__identity { min-width: 0; }
+.an-home-footer__overline, .an-home-footer__utility-label { color: rgba(255,255,255,.42); font-size: 10px; font-weight: 600; letter-spacing: .19em; line-height: 1.8; }
+.an-home-footer__name { margin: clamp(18px,2.5vw,35px) 0 clamp(18px,2vw,30px); color: rgba(255,255,255,.95); font-size: clamp(48px,7vw,112px); font-weight: 450; line-height: 1; letter-spacing: -.075em; }
+.an-home-footer__period { color: rgba(255,255,255,.40); }
+.an-home-footer__statement { margin: 0; color: rgba(245,245,245,.63); font-size: clamp(15px,1.35vw,20px); font-weight: 400; line-height: 1.75; letter-spacing: -.02em; }
+.an-home-footer__utility { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; min-width: 210px; padding-bottom: 5px; }
+.an-home-footer__top, .an-home-footer__copy { font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.an-home-footer__top { display: inline-flex; align-items: center; justify-content: space-between; gap: 40px; min-width: 210px; padding: 15px 0; color: rgba(255,255,255,.89); font-size: 14px; border: 0; border-bottom: 1px solid rgba(255,255,255,.21); border-radius: 0; background: transparent; transition: border-color .2s ease,color .2s ease; }
+.an-home-footer__top-icon { font-size: 23px; font-weight: 300; line-height: 1; transition: transform .2s ease; }
+.an-home-footer__top:hover { color: #fff; border-bottom-color: rgba(255,255,255,.75); }
+.an-home-footer__top:hover .an-home-footer__top-icon { transform: translateY(-4px); }
+.an-home-footer__copy { padding: 0; color: rgba(255,255,255,.50); font-size: 12px; border: 0; background: transparent; }
+.an-home-footer__copy:hover { color: rgba(255,255,255,.92); }
+.an-home-footer button:focus-visible, .an-home-footer a:focus-visible { outline: 2px solid rgba(255,255,255,.85); outline-offset: 5px; }
+.an-home-footer__bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 36px; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.085); color: rgba(255,255,255,.37); font-size: 11px; line-height: 1.6; letter-spacing: .025em; }
+.an-home-footer__bottom a { color: rgba(255,255,255,.55); text-decoration: none; }
+.an-home-footer__bottom a:hover { color: #fff; }
 @media (max-width: 700px) {
-  main.an-home-2026.archenova-twin-home > footer.an-home-footer {
-    width: calc(100% - 24px) !important;
-    max-width: none !important;
-    margin: 44px auto 24px !important;
-    padding: 36px 23px max(30px, env(safe-area-inset-bottom)) !important;
-    border-radius: 26px !important;
-    background-color: rgba(3,3,4,.97) !important;
-    background-image: linear-gradient(145deg,rgba(10,10,12,.97),rgba(0,0,0,.985)) !important;
-    -webkit-backdrop-filter: blur(18px) saturate(100%) !important;
-    backdrop-filter: blur(18px) saturate(100%) !important;
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__content {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 36px;
-    padding: 32px 0 42px;
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__overline,
-  main.an-home-2026.archenova-twin-home .an-home-footer__utility-label {
-    font-size: 9px;
-    letter-spacing: .12em;
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__name {
-    margin: 18px 0 16px;
-    font-size: clamp(43px, 10.5vw, 60px);
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__statement {
-    font-size: 14px;
-    line-height: 1.7;
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__utility {
-    width: 100%;
-    gap: 14px;
-  }
-  main.an-home-2026.archenova-twin-home .an-home-footer__bottom {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    padding-top: 19px;
-  }
+  main.an-home-2026.archenova-twin-home > .an-home-footer { padding: 75px 21px max(34px,env(safe-area-inset-bottom)) !important; }
+  .an-home-footer__content { grid-template-columns: minmax(0,1fr); gap: 50px; padding: 47px 0 76px; }
+  .an-home-footer__name { font-size: clamp(52px,12vw,78px); }
+  .an-home-footer__statement { font-size: 15px; }
+  .an-home-footer__utility { min-width: 0; width: 100%; }
+  .an-home-footer__top { width: 100%; }
+  .an-home-footer__bottom { flex-direction: column; align-items: flex-start; gap: 9px; }
 }
-
-@media (max-width: 390px) {
-  main.an-home-2026.archenova-twin-home > footer.an-home-footer {
-    width: calc(100% - 18px) !important;
-    padding-left: 19px !important;
-    padding-right: 19px !important;
-    border-radius: 22px !important;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  main.an-home-2026.archenova-twin-home .an-home-footer__top,
-  main.an-home-2026.archenova-twin-home .an-home-footer__top-icon {
-    transition: none;
-  }
-}
-
-/* Keep a visible separation even when the previous HOME section has no bottom margin. */
-main.an-home-2026.archenova-twin-home > section[data-home-section] + footer.an-home-footer {
-  margin-top: clamp(52px, 7svh, 112px) !important;
-}
-@media (max-width:700px) {
-  main.an-home-2026.archenova-twin-home > section[data-home-section] + footer.an-home-footer { margin-top: 44px !important; }
+  .an-home-footer__top, .an-home-footer__top-icon { transition: none; }
 }
 
 
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME FOOTER
+   APPLE-LIKE DEEP BLACK SURFACE
+
+   Optical material only.
+   Preserve all existing dimensions and spacing.
+========================================================== */
+
+main.an-home-2026.archenova-twin-home
+> .an-home-footer {
+
+  background-color: rgb(3, 3, 4) !important;
+
+  background-image:
+    linear-gradient(
+      145deg,
+      rgba(15, 15, 17, .985) 0%,
+      rgba(7, 7, 9, .99) 46%,
+      rgba(1, 1, 2, .995) 100%
+    ) !important;
+
+  border-color:
+    rgba(255, 255, 255, .065) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, .035)
+    !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Keep internal content transparent. */
+
+main.an-home-2026.archenova-twin-home
+> .an-home-footer
+.an-home-footer__inner {
+
+  background: transparent !important;
+  background-image: none !important;
+}
 
 
 
