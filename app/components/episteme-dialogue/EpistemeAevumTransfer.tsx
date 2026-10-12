@@ -1,12 +1,9 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
-import {
-  stageEpistemeTransfer,
-} from "../../../lib/continuity/epistemeBridge";
-import type {
-  EpistemeContinuityTransfer,
-} from "../../../lib/continuity/types";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
+import { stageEpistemeTransfer } from "../../../lib/continuity/epistemeBridge";
+import type { EpistemeContinuityTransfer } from "../../../lib/continuity/types";
 
 type TransferKind = "question" | "reasoning" | "uncertainty" | "next-test";
 type TransferMessage = {
@@ -15,11 +12,7 @@ type TransferMessage = {
   text: string;
   streaming?: boolean;
 };
-
-type Props = {
-  messages: TransferMessage[];
-  disabled?: boolean;
-};
+type Props = { messages: TransferMessage[]; disabled?: boolean };
 
 const MAX_CONTENT_LENGTH = 12000;
 
@@ -32,11 +25,16 @@ function makeTransferId(): string {
 
 export default function EpistemeAevumTransfer({ messages, disabled = false }: Props) {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const [messageId, setMessageId] = useState("");
   const [kind, setKind] = useState<TransferKind>("reasoning");
   const [error, setError] = useState("");
   const [sending, setSending] = useState(false);
   const sendingRef = useRef(false);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => setMounted(true), []);
 
   const available = useMemo(
     () => messages.filter((m) => !m.streaming && m.text.trim()).slice(-30).reverse(),
@@ -47,15 +45,59 @@ export default function EpistemeAevumTransfer({ messages, disabled = false }: Pr
   const content = selected?.text.trim() ?? "";
   const tooLong = content.length > MAX_CONTENT_LENGTH;
 
-  function toggle() {
+  function close() {
+    if (sendingRef.current) return;
+    setOpen(false);
     setError("");
-    if (!open && !messageId && available.length) {
+    requestAnimationFrame(() => triggerRef.current?.focus());
+  }
+
+  function toggle() {
+    if (open) { close(); return; }
+    if (disabled || sending || !available.length) return;
+    setError("");
+    if (!messageId || !available.some((m) => m.id === messageId)) {
       const initial = available[0];
       setMessageId(initial.id);
       setKind(initial.role === "user" ? "question" : "reasoning");
     }
-    setOpen((current) => !current);
+    setOpen(true);
   }
+
+  useEffect(() => {
+    if (!open) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape" && !sendingRef.current) {
+        event.preventDefault();
+        setOpen(false);
+        requestAnimationFrame(() => triggerRef.current?.focus());
+      }
+      if (event.key === "Tab") {
+        const dialog = document.getElementById("ep-aevum-dialog");
+        if (!dialog) return;
+        const focusables = Array.from(dialog.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+        ));
+        if (!focusables.length) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault(); last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault(); first.focus();
+        }
+      }
+    };
+    document.addEventListener("keydown", onKeyDown);
+    const frame = requestAnimationFrame(() => closeRef.current?.focus());
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", onKeyDown);
+      cancelAnimationFrame(frame);
+    };
+  }, [open]);
 
   function send() {
     if (sendingRef.current || disabled) return;
@@ -63,7 +105,6 @@ export default function EpistemeAevumTransfer({ messages, disabled = false }: Pr
       setError(tooLong ? "Content exceeds the 12,000-character transfer limit." : "Select a completed message.");
       return;
     }
-
     sendingRef.current = true;
     setSending(true);
     setError("");
@@ -93,584 +134,235 @@ export default function EpistemeAevumTransfer({ messages, disabled = false }: Pr
   return (
     <section className="ep-aevum-transfer" aria-label="Transfer to Aevum">
       <button
+        ref={triggerRef}
         className="ep-aevum-transfer__toggle"
         type="button"
         onClick={toggle}
         disabled={disabled || !available.length || sending}
         aria-expanded={open}
+        aria-haspopup="dialog"
+        aria-controls="ep-aevum-dialog"
       >
         <span>TRANSFER TO AEVUM</span>
-        <span aria-hidden="true">{open ? "−" : "↗"}</span>
+        <span className="ep-aevum-transfer__arrow" aria-hidden="true">↗</span>
       </button>
-      {open && (
-        <div className="ep-aevum-transfer__panel">
-          <p>Choose the exact dialogue item to transfer. Aevum will require Review and Accept before committing it.</p>
-          <label htmlFor="ep-aevum-transfer-message">SOURCE MESSAGE</label>
-          <select
-            id="ep-aevum-transfer-message"
-            value={messageId}
-            disabled={sending}
-            onChange={(event) => {
-              const next = available.find((m) => m.id === event.target.value);
-              setMessageId(event.target.value);
-              setKind(next?.role === "user" ? "question" : "reasoning");
-              setError("");
-            }}
+
+      {mounted && open && createPortal(
+        <div className="ep-aevum-overlay" role="presentation" onMouseDown={(event) => {
+          if (event.target === event.currentTarget) close();
+        }}>
+          <div
+            className="ep-aevum-dialog"
+            id="ep-aevum-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="ep-aevum-title"
+            aria-describedby="ep-aevum-description"
           >
-            <option value="">Select a message</option>
-            {available.map((message) => (
-              <option key={message.id} value={message.id}>
-                {message.role === "user" ? "YOU" : "EPISTEME"} · {message.text.trim().replace(/\s+/g, " ").slice(0, 110)}
-              </option>
-            ))}
-          </select>
-          <label htmlFor="ep-aevum-transfer-kind">TRANSFER CLASSIFICATION</label>
-          <select
-            id="ep-aevum-transfer-kind"
-            value={effectiveKind}
-            disabled={sending || !selected || selected.role === "user"}
-            onChange={(event) => setKind(event.target.value as TransferKind)}
-          >
-            {selected?.role === "user" ? (
-              <option value="question">Question</option>
-            ) : (
-              <>
-                <option value="reasoning">Reasoning (unverified inference)</option>
-                <option value="uncertainty">Uncertainty</option>
-                <option value="next-test">Next test</option>
-                <option value="question">Question</option>
-              </>
-            )}
-          </select>
-          <label htmlFor="ep-aevum-transfer-preview">EXACT CONTENT PREVIEW</label>
-          <textarea id="ep-aevum-transfer-preview" readOnly value={content} rows={5} />
-          <div className="ep-aevum-transfer__footer">
-            <small>{content.length.toLocaleString()} / {MAX_CONTENT_LENGTH.toLocaleString()} characters · No automatic Evidence promotion</small>
-            <button type="button" onClick={send} disabled={!selected || !content || tooLong || sending || disabled}>
-              {sending ? "STAGING…" : "STAGE & OPEN AEVUM ↗"}
-            </button>
+            <header className="ep-aevum-dialog__header">
+              <div className="ep-aevum-dialog__identity">
+                <span className="ep-aevum-dialog__eyebrow">EPISTEME / CONTINUITY</span>
+                <h2 id="ep-aevum-title">Transfer to Aevum</h2>
+                <p id="ep-aevum-description">Stage a precise dialogue record for review.</p>
+              </div>
+              <button
+                ref={closeRef}
+                className="ep-aevum-dialog__close"
+                type="button"
+                onClick={close}
+                disabled={sending}
+                aria-label="Close transfer panel"
+              >
+                <span aria-hidden="true">×</span>
+                <span className="ep-aevum-dialog__close-label">Close</span>
+              </button>
+            </header>
+
+            <div className="ep-aevum-dialog__scroll">
+              <div className="ep-aevum-dialog__content">
+                <p className="ep-aevum-dialog__intro">
+                  Choose the exact dialogue item to transfer. Aevum requires Review and Accept before committing it.
+                </p>
+
+                <div className="ep-aevum-dialog__fields">
+                  <div className="ep-aevum-dialog__field">
+                    <label htmlFor="ep-aevum-transfer-message">SOURCE MESSAGE</label>
+                    <select
+                      id="ep-aevum-transfer-message"
+                      value={messageId}
+                      disabled={sending}
+                      onChange={(event) => {
+                        const next = available.find((m) => m.id === event.target.value);
+                        setMessageId(event.target.value);
+                        setKind(next?.role === "user" ? "question" : "reasoning");
+                        setError("");
+                      }}
+                    >
+                      <option value="">Select a message</option>
+                      {available.map((message) => (
+                        <option key={message.id} value={message.id}>
+                          {message.role === "user" ? "YOU" : "EPISTEME"} · {message.text.trim().replace(/\s+/g, " ").slice(0, 110)}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                  <div className="ep-aevum-dialog__field">
+                    <label htmlFor="ep-aevum-transfer-kind">TRANSFER CLASSIFICATION</label>
+                    <select
+                      id="ep-aevum-transfer-kind"
+                      value={effectiveKind}
+                      disabled={sending || !selected || selected.role === "user"}
+                      onChange={(event) => setKind(event.target.value as TransferKind)}
+                    >
+                      {selected?.role === "user" ? (
+                        <option value="question">Question</option>
+                      ) : (
+                        <>
+                          <option value="reasoning">Reasoning (unverified inference)</option>
+                          <option value="uncertainty">Uncertainty</option>
+                          <option value="next-test">Next test</option>
+                          <option value="question">Question</option>
+                        </>
+                      )}
+                    </select>
+                  </div>
+                </div>
+
+                <div className="ep-aevum-dialog__field ep-aevum-dialog__preview">
+                  <label htmlFor="ep-aevum-transfer-preview">EXACT CONTENT PREVIEW</label>
+                  <textarea id="ep-aevum-transfer-preview" readOnly value={content} rows={8} />
+                </div>
+                {error && <p className="ep-aevum-dialog__error" role="alert">{error}</p>}
+              </div>
+            </div>
+
+            <footer className="ep-aevum-dialog__footer">
+              <small>
+                {content.length.toLocaleString()} / {MAX_CONTENT_LENGTH.toLocaleString()} characters
+                <span className="ep-aevum-dialog__dot">·</span>
+                No automatic Evidence promotion
+              </small>
+              <button
+                className="ep-aevum-dialog__submit"
+                type="button"
+                onClick={send}
+                disabled={!selected || !content || tooLong || sending || disabled}
+              >
+                {sending ? "STAGING…" : "STAGE & OPEN AEVUM ↗"}
+              </button>
+            </footer>
           </div>
-          {error && <p className="ep-aevum-transfer__error" role="alert">{error}</p>}
-        </div>
+        </div>,
+        document.body,
       )}
+
       <style jsx>{`
-        /* ==================================================
-           EPISTEME → AEVUM
-           ABSOLUTE BLACK OPTICAL GLASS
-
-           VISUAL ONLY
-           No logic or behavior modifications
-        ================================================== */
-
-        .ep-aevum-transfer {
-          --transfer-text: rgba(248,248,247,.94);
-          --transfer-muted: rgba(235,235,235,.68);
-          --transfer-faint: rgba(228,228,228,.49);
-          --transfer-edge: rgba(255,255,255,.15);
-          --transfer-edge-strong: rgba(255,255,255,.28);
-          --transfer-black: #050505;
-
-          position: relative;
-          isolation: isolate;
-
-          box-sizing: border-box;
-          width: 100%;
-          min-width: 0;
-          margin: 8px 0 4px;
-
-          color: var(--transfer-text);
-          font-family: inherit;
-          font-size: 12px;
-          -webkit-font-smoothing: antialiased;
-        }
-
-        .ep-aevum-transfer,
-        .ep-aevum-transfer * {
-          box-sizing: border-box;
-        }
-
-        /* -----------------------------------------------
-           PRIMARY TRANSFER BAR
-        ----------------------------------------------- */
-
+        .ep-aevum-transfer { width:100%; min-width:0; margin:10px 0; box-sizing:border-box; }
         .ep-aevum-transfer__toggle {
-          position: relative;
-
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          gap: 18px;
-          width: 100%;
-          min-width: 0;
-          min-height: 58px;
-
-          padding: 17px 22px;
-
-          border: 1px solid var(--transfer-edge);
-          border-radius: 18px;
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(255,255,255,.038),
-              rgba(255,255,255,.009) 65%
-            ),
-            #050505;
-
-          color: rgba(248,248,248,.88);
-
-          font: inherit;
-          font-size: 11px;
-          font-weight: 550;
-          letter-spacing: .17em;
-          text-align: left;
-
-          cursor: pointer;
-
-          box-shadow:
-            inset 0 1px 0 rgba(255,255,255,.085),
-            0 12px 38px rgba(0,0,0,.15);
-
-          transition:
-            border-color .25s ease,
-            background .25s ease,
-            color .25s ease,
-            box-shadow .25s ease;
+          display:inline-flex; align-items:center; justify-content:space-between; gap:24px;
+          width:auto; max-width:100%; min-width:0; min-height:54px;
+          padding:11px 15px 11px 20px; border:1px solid rgba(255,255,255,.18);
+          border-radius:16px; background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(255,255,255,.012)),#070707;
+          color:#f4f4f4; font:inherit; font-size:11px; font-weight:600; letter-spacing:.15em;
+          text-align:left; cursor:pointer; box-shadow:inset 0 1px rgba(255,255,255,.08);
         }
-
-        .ep-aevum-transfer__toggle > span:first-child {
-          min-width: 0;
-          overflow-wrap: anywhere;
+        .ep-aevum-transfer__toggle:hover:not(:disabled) { border-color:rgba(255,255,255,.42); }
+        .ep-aevum-transfer__toggle:focus-visible { outline:2px solid white; outline-offset:3px; }
+        .ep-aevum-transfer__toggle:disabled { opacity:.42; cursor:not-allowed; }
+        .ep-aevum-transfer__arrow {
+          display:grid; place-items:center; flex:0 0 30px; height:30px;
+          border:1px solid rgba(255,255,255,.18); border-radius:50%; font-size:18px;
+          font-weight:400; letter-spacing:0;
         }
-
-        .ep-aevum-transfer__toggle > span:last-child {
-          flex: 0 0 auto;
-
-          display: grid;
-          place-items: center;
-
-          width: 30px;
-          height: 30px;
-
-          border: 1px solid rgba(255,255,255,.13);
-          border-radius: 50%;
-
-          background: rgba(255,255,255,.025);
-
-          color: rgba(255,255,255,.84);
-
-          font-size: 18px;
-          font-weight: 400;
-          letter-spacing: 0;
-          line-height: 1;
+        @media(max-width:600px) {
+          .ep-aevum-transfer__toggle { min-height:52px; padding:10px 12px 10px 16px; font-size:10px; }
         }
+      `}</style>
 
-        .ep-aevum-transfer__toggle:hover:not(:disabled) {
-          border-color: rgba(255,255,255,.32);
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(255,255,255,.065),
-              rgba(255,255,255,.015)
-            ),
-            #050505;
-
-          color: #fff;
-
-          box-shadow:
-            inset 0 1px 0 rgba(255,255,255,.13),
-            0 17px 48px rgba(0,0,0,.19);
+      {/* Global CSS is intentional: the dialog is portaled directly into document.body. */}
+      <style>{`
+        .ep-aevum-overlay, .ep-aevum-overlay * { box-sizing:border-box; }
+        .ep-aevum-overlay {
+          position:fixed; inset:0; z-index:2147483000;
+          display:flex; align-items:center; justify-content:center;
+          padding:clamp(12px,2.5vw,36px);
+          padding-top:max(12px,env(safe-area-inset-top));
+          padding-bottom:max(12px,env(safe-area-inset-bottom));
+          background:rgba(0,0,0,.82); backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px);
+          color:#f5f5f5; font-family:inherit; -webkit-font-smoothing:antialiased;
         }
-
-        .ep-aevum-transfer__toggle:disabled {
-          opacity: .42;
-          cursor: not-allowed;
+        .ep-aevum-dialog {
+          display:flex; flex-direction:column; width:min(100%,860px);
+          max-height:100%; max-height:calc(100dvh - 24px);
+          min-height:0; overflow:hidden; border:1px solid rgba(255,255,255,.18);
+          border-radius:24px; background:linear-gradient(155deg,#131313,#070707 48%,#050505);
+          box-shadow:0 36px 110px rgba(0,0,0,.75),inset 0 1px rgba(255,255,255,.10);
         }
-
-        .ep-aevum-transfer__toggle:focus-visible,
-        .ep-aevum-transfer__panel select:focus-visible,
-        .ep-aevum-transfer__panel textarea:focus-visible,
-        .ep-aevum-transfer__footer button:focus-visible {
-          outline: 2px solid rgba(255,255,255,.86);
-          outline-offset: 3px;
+        .ep-aevum-dialog__header {
+          flex:0 0 auto; display:flex; align-items:flex-start; justify-content:space-between;
+          gap:18px; padding:24px clamp(20px,4vw,38px) 20px;
+          border-bottom:1px solid rgba(255,255,255,.10);
         }
-
-        /* -----------------------------------------------
-           EXPANDED GLASS PANEL
-        ----------------------------------------------- */
-
-        .ep-aevum-transfer__panel {
-          position: relative;
-
-          display: grid;
-          grid-template-columns: minmax(0,1fr);
-
-          gap: 13px;
-
-          width: 100%;
-          min-width: 0;
-
-          margin-top: 10px;
-          padding: clamp(20px,2.5vw,34px);
-
-          border: 1px solid rgba(255,255,255,.16);
-          border-radius: 22px;
-
-          background:
-            linear-gradient(
-              155deg,
-              rgba(255,255,255,.035) 0%,
-              rgba(255,255,255,.012) 42%,
-              rgba(255,255,255,.004) 100%
-            ),
-            #060606;
-
-          box-shadow:
-            inset 0 1px 0 rgba(255,255,255,.09),
-            0 25px 65px rgba(0,0,0,.22);
-
-          color: var(--transfer-text);
+        .ep-aevum-dialog__identity { min-width:0; }
+        .ep-aevum-dialog__eyebrow { color:rgba(255,255,255,.50); font-size:10px; letter-spacing:.19em; font-weight:600; }
+        .ep-aevum-dialog__header h2 { margin:9px 0 5px; color:#fff; font-size:clamp(21px,2.5vw,29px); font-weight:500; letter-spacing:-.025em; line-height:1.25; }
+        .ep-aevum-dialog__header p { margin:0; color:rgba(255,255,255,.58); font-size:12px; line-height:1.6; }
+        .ep-aevum-dialog__close {
+          flex:0 0 auto; display:inline-flex; align-items:center; justify-content:center; gap:9px;
+          min-width:84px; min-height:42px; padding:8px 12px; border:1px solid rgba(255,255,255,.19);
+          border-radius:12px; background:rgba(255,255,255,.045); color:#f5f5f5;
+          font:inherit; font-size:12px; cursor:pointer;
         }
-
-        .ep-aevum-transfer__panel::before {
-          content: "";
-
-          position: absolute;
-          top: 0;
-          left: 12%;
-          right: 12%;
-
-          height: 1px;
-
-          pointer-events: none;
-
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(255,255,255,.35),
-              transparent
-            );
+        .ep-aevum-dialog__close span:first-child { font-size:23px; line-height:1; }
+        .ep-aevum-dialog__close:disabled { opacity:.4; cursor:not-allowed; }
+        .ep-aevum-dialog__scroll { flex:1 1 auto; min-height:0; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin; scrollbar-color:#444 transparent; }
+        .ep-aevum-dialog__content { display:grid; gap:22px; padding:26px clamp(20px,4vw,38px) 30px; min-width:0; }
+        .ep-aevum-dialog__intro { margin:0; max-width:66ch; color:rgba(255,255,255,.7); font-size:13px; line-height:1.8; }
+        .ep-aevum-dialog__fields { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:20px; min-width:0; }
+        .ep-aevum-dialog__field { display:flex; flex-direction:column; gap:10px; min-width:0; }
+        .ep-aevum-dialog__field label { color:rgba(255,255,255,.68); font-size:10px; font-weight:600; letter-spacing:.16em; line-height:1.5; }
+        .ep-aevum-dialog__field select, .ep-aevum-dialog__field textarea {
+          display:block; width:100%; min-width:0; border:1px solid rgba(255,255,255,.18);
+          border-radius:13px; background:#101010; color:#f5f5f5; font-family:inherit;
+          font-size:14px; line-height:1.65; padding:14px 16px; color-scheme:dark;
         }
-
-        .ep-aevum-transfer__panel p {
-          margin: 0 0 9px;
-
-          color: var(--transfer-muted);
-
-          font-size: 12px;
-          line-height: 1.85;
-          letter-spacing: .012em;
-          overflow-wrap: anywhere;
+        .ep-aevum-dialog__field select { min-height:52px; cursor:pointer; }
+        .ep-aevum-dialog__field select option { background:#101010; color:#fff; }
+        .ep-aevum-dialog__field select:disabled { opacity:.55; cursor:not-allowed; }
+        .ep-aevum-dialog__field textarea { min-height:200px; max-height:42vh; resize:vertical; white-space:pre-wrap; overflow-wrap:anywhere; overflow-y:auto; }
+        .ep-aevum-dialog__footer {
+          flex:0 0 auto; display:flex; align-items:center; justify-content:space-between; gap:18px;
+          padding:18px clamp(20px,4vw,38px) max(18px,env(safe-area-inset-bottom));
+          border-top:1px solid rgba(255,255,255,.11); background:rgba(255,255,255,.018);
         }
-
-        /* -----------------------------------------------
-           FIELD LABELS
-        ----------------------------------------------- */
-
-        .ep-aevum-transfer__panel label {
-          display: block;
-
-          margin-top: 10px;
-
-          color: rgba(244,244,244,.71);
-
-          font-size: 10px;
-          font-weight: 550;
-          letter-spacing: .17em;
-          line-height: 1.5;
+        .ep-aevum-dialog__footer small { min-width:0; color:rgba(255,255,255,.6); font-size:11px; line-height:1.6; overflow-wrap:anywhere; }
+        .ep-aevum-dialog__dot { padding:0 8px; }
+        .ep-aevum-dialog__submit {
+          flex:0 0 auto; min-height:48px; padding:13px 20px; border:1px solid rgba(255,255,255,.35);
+          border-radius:12px; background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.035));
+          color:#fff; font:inherit; font-size:11px; font-weight:600; letter-spacing:.10em; cursor:pointer;
         }
-
-        /* -----------------------------------------------
-           SELECT AND CONTENT PREVIEW
-        ----------------------------------------------- */
-
-        .ep-aevum-transfer__panel select,
-        .ep-aevum-transfer__panel textarea {
-          display: block;
-
-          width: 100%;
-          min-width: 0;
-
-          padding: 15px 17px;
-
-          border: 1px solid rgba(255,255,255,.14);
-          border-radius: 13px;
-
-          background: #0d0d0d;
-
-          color: rgba(249,249,249,.93);
-
-          font-family: inherit;
-          font-size: 13px;
-          font-weight: 400;
-          line-height: 1.65;
-          letter-spacing: .005em;
-
-          box-shadow:
-            inset 0 1px 0 rgba(255,255,255,.035);
-
-          transition:
-            border-color .25s ease,
-            background .25s ease;
-        }
-
-        .ep-aevum-transfer__panel select {
-          min-height: 50px;
-
-          cursor: pointer;
-
-          color-scheme: dark;
-        }
-
-        .ep-aevum-transfer__panel select option {
-          background: #0d0d0d;
-          color: #f5f5f5;
-        }
-
-        .ep-aevum-transfer__panel select:hover:not(:disabled),
-        .ep-aevum-transfer__panel textarea:hover {
-          border-color: rgba(255,255,255,.25);
-        }
-
-        .ep-aevum-transfer__panel select:disabled {
-          opacity: .48;
-          cursor: not-allowed;
-        }
-
-        .ep-aevum-transfer__panel textarea {
-          min-height: 150px;
-          max-height: min(42vh,420px);
-
-          resize: vertical;
-
-          overflow-y: auto;
-          overflow-wrap: anywhere;
-
-          white-space: pre-wrap;
-
-          scrollbar-width: thin;
-          scrollbar-color:
-            rgba(255,255,255,.23)
-            transparent;
-        }
-
-        .ep-aevum-transfer__panel textarea::-webkit-scrollbar {
-          width: 6px;
-        }
-
-        .ep-aevum-transfer__panel textarea::-webkit-scrollbar-thumb {
-          background: rgba(255,255,255,.24);
-          border-radius: 99px;
-        }
-
-        /* -----------------------------------------------
-           TRANSFER FOOTER
-        ----------------------------------------------- */
-
-        .ep-aevum-transfer__footer {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          gap: 18px;
-
-          flex-wrap: wrap;
-
-          margin-top: 10px;
-          padding-top: 20px;
-
-          border-top: 1px solid rgba(255,255,255,.095);
-        }
-
-        .ep-aevum-transfer__footer small {
-          flex: 1 1 220px;
-
-          min-width: 0;
-
-          color: var(--transfer-muted);
-
-          font-size: 11px;
-          line-height: 1.75;
-          overflow-wrap: anywhere;
-        }
-
-        .ep-aevum-transfer__footer button {
-          flex: 0 0 auto;
-
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-
-          gap: 10px;
-
-          min-height: 48px;
-
-          padding: 14px 21px;
-
-          border: 1px solid rgba(255,255,255,.32);
-          border-radius: 12px;
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(255,255,255,.085),
-              rgba(255,255,255,.023)
-            ),
-            #0a0a0a;
-
-          color: rgba(255,255,255,.96);
-
-          font-family: inherit;
-          font-size: 10px;
-          font-weight: 600;
-          letter-spacing: .13em;
-
-          cursor: pointer;
-
-          box-shadow:
-            inset 0 1px 0 rgba(255,255,255,.12);
-
-          transition:
-            border-color .25s ease,
-            background .25s ease,
-            box-shadow .25s ease;
-        }
-
-        .ep-aevum-transfer__footer button:hover:not(:disabled) {
-          border-color: rgba(255,255,255,.56);
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(255,255,255,.13),
-              rgba(255,255,255,.035)
-            ),
-            #0a0a0a;
-
-          box-shadow:
-            inset 0 1px 0 rgba(255,255,255,.16),
-            0 10px 30px rgba(0,0,0,.20);
-        }
-
-        .ep-aevum-transfer__footer button:disabled {
-          opacity: .40;
-          cursor: not-allowed;
-        }
-
-        /* -----------------------------------------------
-           ERROR STATE
-        ----------------------------------------------- */
-
-        .ep-aevum-transfer__error {
-          margin: 5px 0 0 !important;
-
-          padding: 13px 15px;
-
-          border: 1px solid rgba(255,160,160,.24);
-          border-radius: 11px;
-
-          background: rgba(95,20,20,.12);
-
-          color: rgba(255,190,190,.94) !important;
-
-          font-size: 12px;
-          line-height: 1.7;
-        }
-
-        /* -----------------------------------------------
-           TABLET
-        ----------------------------------------------- */
-
-        @media (max-width: 900px) {
-          .ep-aevum-transfer__panel {
-            padding: 24px;
+        .ep-aevum-dialog__submit:disabled { opacity:.35; cursor:not-allowed; }
+        .ep-aevum-dialog__close:hover:not(:disabled), .ep-aevum-dialog__submit:hover:not(:disabled) { border-color:rgba(255,255,255,.65); }
+        .ep-aevum-dialog button:focus-visible, .ep-aevum-dialog select:focus-visible, .ep-aevum-dialog textarea:focus-visible { outline:2px solid #fff; outline-offset:3px; }
+        .ep-aevum-dialog__error { margin:0; padding:12px 15px; border:1px solid rgba(255,160,160,.28); border-radius:12px; background:rgba(110,30,30,.18); color:#ffd3d3; font-size:12px; line-height:1.7; }
+        @media(max-width:700px) {
+          .ep-aevum-overlay { padding:0; align-items:stretch; }
+          .ep-aevum-dialog {
+            width:100%; max-height:none; height:100%; height:100dvh;
+            border:0; border-radius:0;
           }
-
-          .ep-aevum-transfer__footer {
-            align-items: stretch;
-          }
+          .ep-aevum-dialog__header { padding:max(22px,env(safe-area-inset-top)) 20px 18px; }
+          .ep-aevum-dialog__close { min-width:44px; min-height:44px; padding:7px; }
+          .ep-aevum-dialog__close-label { display:none; }
+          .ep-aevum-dialog__content { gap:20px; padding:22px 20px 28px; }
+          .ep-aevum-dialog__fields { grid-template-columns:minmax(0,1fr); gap:20px; }
+          .ep-aevum-dialog__field select, .ep-aevum-dialog__field textarea { font-size:16px; }
+          .ep-aevum-dialog__field textarea { min-height:180px; max-height:40vh; }
+          .ep-aevum-dialog__footer { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; padding:16px 20px max(18px,env(safe-area-inset-bottom)); }
+          .ep-aevum-dialog__submit { width:100%; min-height:52px; }
         }
-
-        /* -----------------------------------------------
-           MOBILE
-        ----------------------------------------------- */
-
-        @media (max-width: 600px) {
-          .ep-aevum-transfer {
-            width: 100%;
-            margin: 6px 0 4px;
-          }
-
-          .ep-aevum-transfer__toggle {
-            min-height: 56px;
-            padding: 13px 17px;
-            border-radius: 16px;
-
-            font-size: 10px;
-            letter-spacing: .14em;
-          }
-
-          .ep-aevum-transfer__panel {
-            gap: 12px;
-
-            margin-top: 9px;
-            padding: 20px 16px;
-
-            border-radius: 18px;
-          }
-
-          .ep-aevum-transfer__panel p {
-            font-size: 12px;
-            line-height: 1.75;
-          }
-
-          .ep-aevum-transfer__panel select,
-          .ep-aevum-transfer__panel textarea {
-            font-size: 16px;
-            padding: 13px 14px;
-          }
-
-          .ep-aevum-transfer__panel textarea {
-            min-height: 135px;
-            max-height: 32vh;
-          }
-
-          .ep-aevum-transfer__footer {
-            display: grid;
-            grid-template-columns: minmax(0,1fr);
-
-            gap: 16px;
-            padding-top: 17px;
-          }
-
-          .ep-aevum-transfer__footer small {
-            font-size: 11px;
-          }
-
-          .ep-aevum-transfer__footer button {
-            width: 100%;
-            min-height: 50px;
-            padding: 15px 14px;
-
-            font-size: 10px;
-          }
-        }
-
-        /* -----------------------------------------------
-           REDUCED MOTION
-        ----------------------------------------------- */
-
-        @media (prefers-reduced-motion: reduce) {
-          .ep-aevum-transfer__toggle,
-          .ep-aevum-transfer__panel select,
-          .ep-aevum-transfer__panel textarea,
-          .ep-aevum-transfer__footer button {
-            transition: none;
-          }
-        }
+        @media(prefers-reduced-motion:reduce) { .ep-aevum-overlay * { scroll-behavior:auto; transition:none!important; } }
       `}</style>
     </section>
   );

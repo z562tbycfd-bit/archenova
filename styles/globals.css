@@ -66769,8 +66769,19 @@ main.an-home-2026.archenova-twin-home
 
 /* ================================================
    EPISTEME — PAGE LAYOUT ISOLATION
-   Global main の860px制限から独立させる
+   PC / TABLET / MOBILE
+
+   目的:
+   1. グローバル main の860px制限を解除
+   2. Epistemeの回答文章の横幅を確保
+   3. 操作ボタンを一括で引き伸ばさない
+   4. NEXT MOVESのカード配置を整える
+   5. 他のArcheNovaページに影響させない
 ================================================ */
+
+/* -----------------------------------------------
+   1. Epistemeページの幅制限解除
+------------------------------------------------ */
 
 main.episteme-dialogue-page {
   display: block;
@@ -66794,14 +66805,26 @@ main.episteme-dialogue-page .ep-dialogue {
   min-width: 0;
 }
 
-main.episteme-dialogue-page .ep-dialogue__workspace,
-main.episteme-dialogue-page .ep-dialogue__conversation,
-main.episteme-dialogue-page .ep-dialogue__thread {
+/* -----------------------------------------------
+   2. 会話領域の横幅を確保
+------------------------------------------------ */
+
+main.episteme-dialogue-page
+.ep-dialogue__workspace,
+
+main.episteme-dialogue-page
+.ep-dialogue__conversation,
+
+main.episteme-dialogue-page
+.ep-dialogue__thread {
   min-width: 0;
   max-width: none;
 }
 
-/* 長い研究タイトル・URL・技術用語による横方向の文字切れを抑制 */
+/* -----------------------------------------------
+   3. 回答文章の文字切れ対策
+------------------------------------------------ */
+
 main.episteme-dialogue-page .ep-message,
 main.episteme-dialogue-page .ep-message__body {
   min-width: 0;
@@ -66816,10 +66839,11 @@ main.episteme-dialogue-page .ep-message__body h3 {
   overflow-wrap: anywhere;
 }
 
+/* -----------------------------------------------
+   4. PC版：回答文章のみ横幅を拡張
+------------------------------------------------ */
 
-/* PC: Episteme answer width / control width separation */
 @media (min-width: 901px) {
-  /* Episteme回答だけが広い表示領域を利用 */
   main.episteme-dialogue-page
   .ep-message--episteme {
     width: 100%;
@@ -66827,7 +66851,6 @@ main.episteme-dialogue-page .ep-message__body h3 {
     min-width: 0;
   }
 
-  /* 回答の中身は長い単語でも切れないようにする */
   main.episteme-dialogue-page
   .ep-message--episteme
   .ep-message__body {
@@ -66835,24 +66858,101 @@ main.episteme-dialogue-page .ep-message__body h3 {
     overflow-wrap: anywhere;
   }
 
-  /* ボタンは内容に応じた自然な幅にする */
+  /* ---------------------------------------------
+     5. NEXT MOVESのカードを2列に整列
+     回答本文の横幅は変更しない
+  ---------------------------------------------- */
+
   main.episteme-dialogue-page
-  .ep-dialogue button {
-    width: auto;
+  .ep-continue-inquiry {
+    width: min(100%, 1120px);
+    max-width: 1120px;
+    min-width: 0;
+    margin: 24px auto;
+  }
+
+  main.episteme-dialogue-page
+  .ep-continue-inquiry__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  main.episteme-dialogue-page
+  .ep-continue-inquiry__card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
     max-width: 100%;
     min-width: 0;
-    flex-grow: 0;
+    min-height: 190px;
+    padding: 22px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    background: rgba(12, 12, 12, 0.68);
+  }
+
+  main.episteme-dialogue-page
+  .ep-continue-inquiry__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  main.episteme-dialogue-page
+  .ep-continue-inquiry__card > strong {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    white-space: normal;
     overflow-wrap: anywhere;
   }
 
-  /* ボタンの文字は中央配置 */
   main.episteme-dialogue-page
-  .ep-dialogue button {
-    text-align: center;
+  .ep-continue-inquiry__card > p {
+    width: 100%;
+    min-width: 0;
+    margin: 12px 0;
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  main.episteme-dialogue-page
+  .ep-continue-inquiry__card > i {
+    display: block;
+    align-self: flex-end;
+    margin-top: auto;
+    padding-top: 16px;
+    font-size: 11px;
+    line-height: 1.5;
   }
 }
 
+/* -----------------------------------------------
+   6. PCの狭い画面ではカードを1列にする
+------------------------------------------------ */
 
+@media (min-width: 901px) and (max-width: 1100px) {
+  main.episteme-dialogue-page
+  .ep-continue-inquiry__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
 
 
 

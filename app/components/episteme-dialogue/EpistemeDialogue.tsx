@@ -27339,24 +27339,29 @@ useEffect(() => {
         }
 
         .ep-continue-inquiry__grid {
-          display: grid;
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-          gap: 8px;
-        }
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  align-items: stretch;
+}
 
         .ep-continue-inquiry__card {
-          display: block !important;
-          width: 100%;
-          min-width: 0;
-          padding: 13px !important;
-          text-align: left !important;
-          border: 1px solid rgba(255,255,255,.055) !important;
-          border-radius: 13px !important;
-          background:
-            radial-gradient(circle at 5% 0%, rgba(255,255,255,.028), transparent 28%),
-            rgba(4,4,4,.5) !important;
-          box-shadow: inset 0 1px 0 rgba(255,255,255,.02);
-        }
+  display: flex !important;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  min-width: 0;
+  min-height: 190px;
+  padding: 22px !important;
+  text-align: left !important;
+  border: 1px solid rgba(255,255,255,.09) !important;
+  border-radius: 16px !important;
+  background: rgba(12,12,12,.68) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.03);
+}
 
         .ep-continue-inquiry__card:hover {
           border-color: rgba(255,255,255,.12) !important;
