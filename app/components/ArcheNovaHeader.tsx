@@ -807,6 +807,223 @@ export default function ArcheNovaHeader() {
   }, [menuOpen, panel, pathname]);
 
   /* ========================================================
+     SCREEN TAP — HEADER VISIBILITY TOGGLE
+
+     Preserves existing scroll behavior.
+     Ignores interactive elements, overlays, drags,
+     scrolling and text selection.
+  ======================================================== */
+
+  useEffect(() => {
+    type TapStart = {
+      pointerId: number;
+      x: number;
+      y: number;
+      time: number;
+      scrollY: number;
+      cancelled: boolean;
+    };
+
+    let tapStart: TapStart | null = null;
+
+    const isExcludedTarget = (
+      target: EventTarget | null,
+    ): boolean => {
+      if (!(target instanceof Element)) {
+        return true;
+      }
+
+      return Boolean(
+        target.closest(
+          [
+            "button",
+            "a",
+            "input",
+            "textarea",
+            "select",
+            "option",
+            "label",
+            "summary",
+            "iframe",
+            "video",
+            "audio",
+            "[contenteditable]",
+            '[role="button"]',
+            '[role="link"]',
+            '[role="menu"]',
+            '[role="menuitem"]',
+            '[role="dialog"]',
+            '[role="slider"]',
+            '[role="textbox"]',
+            '[role="tab"]',
+            '[role="switch"]',
+            '[role="checkbox"]',
+            '[role="radio"]',
+            "[data-header-tap-ignore]",
+            ".an-top-header",
+            ".an-header-panel",
+            ".site-header",
+          ].join(","),
+        ),
+      );
+    };
+
+    const onPointerDown = (event: PointerEvent) => {
+      tapStart = null;
+
+      if (
+        !event.isPrimary ||
+        event.button !== 0 ||
+        menuOpen ||
+        panel !== null ||
+        isExcludedTarget(event.target)
+      ) {
+        return;
+      }
+
+      tapStart = {
+        pointerId: event.pointerId,
+        x: event.clientX,
+        y: event.clientY,
+        time: performance.now(),
+        scrollY: window.scrollY,
+        cancelled: false,
+      };
+    };
+
+    const onPointerMove = (event: PointerEvent) => {
+      if (
+        !tapStart ||
+        event.pointerId !== tapStart.pointerId
+      ) {
+        return;
+      }
+
+      const distance = Math.hypot(
+        event.clientX - tapStart.x,
+        event.clientY - tapStart.y,
+      );
+
+      if (distance > 10) {
+        tapStart.cancelled = true;
+      }
+    };
+
+    const onScroll = () => {
+      if (tapStart) {
+        tapStart.cancelled = true;
+      }
+    };
+
+    const onPointerUp = (event: PointerEvent) => {
+      const start = tapStart;
+      tapStart = null;
+
+      if (
+        !start ||
+        start.cancelled ||
+        event.pointerId !== start.pointerId ||
+        isExcludedTarget(event.target)
+      ) {
+        return;
+      }
+
+      const distance = Math.hypot(
+        event.clientX - start.x,
+        event.clientY - start.y,
+      );
+
+      const elapsed = performance.now() - start.time;
+
+      const scrollDistance = Math.abs(
+        window.scrollY - start.scrollY,
+      );
+
+      const selectedText =
+        window.getSelection()?.toString().trim() ?? "";
+
+      if (
+        distance > 10 ||
+        elapsed > 500 ||
+        scrollDistance > 2 ||
+        selectedText.length > 0
+      ) {
+        return;
+      }
+
+      directionDistance.current = 0;
+      lastScrollY.current = window.scrollY;
+
+      setVisible((previous) => !previous);
+    };
+
+    const onPointerCancel = () => {
+      tapStart = null;
+    };
+
+    document.addEventListener(
+      "pointerdown",
+      onPointerDown,
+      true,
+    );
+
+    document.addEventListener(
+      "pointermove",
+      onPointerMove,
+      true,
+    );
+
+    document.addEventListener(
+      "pointerup",
+      onPointerUp,
+      true,
+    );
+
+    document.addEventListener(
+      "pointercancel",
+      onPointerCancel,
+      true,
+    );
+
+    window.addEventListener(
+      "scroll",
+      onScroll,
+      { passive: true },
+    );
+
+    return () => {
+      document.removeEventListener(
+        "pointerdown",
+        onPointerDown,
+        true,
+      );
+
+      document.removeEventListener(
+        "pointermove",
+        onPointerMove,
+        true,
+      );
+
+      document.removeEventListener(
+        "pointerup",
+        onPointerUp,
+        true,
+      );
+
+      document.removeEventListener(
+        "pointercancel",
+        onPointerCancel,
+        true,
+      );
+
+      window.removeEventListener(
+        "scroll",
+        onScroll,
+      );
+    };
+  }, [menuOpen, panel]);
+
+  /* ========================================================
      ROUTE CHANGE
   ======================================================== */
 
