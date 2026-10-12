@@ -29212,6 +29212,78 @@ useEffect(() => {
         @media(max-width:600px){.ep-dialogue.ep-monochrome-interface .ep-technical-disclosure>summary{min-height:86px;padding:17px 16px;gap:10px}.ep-dialogue.ep-monochrome-interface .ep-disclosure-control__label,.ep-dialogue.ep-monochrome-interface .ep-scholarly__section .ep-section-end>small{display:none}.ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>summary{min-height:56px;padding:13px 14px}.ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>h4,.ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>p{margin-left:14px;margin-right:14px}}
         @media(prefers-reduced-motion:reduce){.ep-dialogue.ep-monochrome-interface .ep-technical-disclosure,.ep-dialogue.ep-monochrome-interface .ep-scholarly__section,.ep-dialogue.ep-monochrome-interface .ep-disclosure-chevron,.ep-dialogue.ep-monochrome-interface .ep-section-chevron{transition:none!important}}
 
+        /* Stage 6.24 — Desktop Reading Architecture: resolve conflicting legacy two-column rules.
+           A single, comfortably measured reading column is intentional, not a breakpoint fallback. */
+        @media (min-width: 901px) {
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-message__body {
+            width: 100%; min-width: 0; line-height: 1.75;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell {
+            display: flex !important; flex-direction: column !important;
+            align-items: stretch; gap: 18px !important;
+            width: min(100%, 940px); max-width: 940px; margin-inline: auto;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell__primary {
+            display: block !important; width: 100%; min-width: 0;
+            padding: clamp(28px,3.2vw,46px) !important;
+            border-radius: 26px !important;
+            background: linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018) 46%,rgba(0,0,0,.28)) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell__primary h3 {
+            max-width: 72ch; margin: 20px 0 0 !important;
+            font-size: clamp(17px,1.3vw,20px) !important;
+            font-weight: 460 !important; letter-spacing: -.012em !important;
+            line-height: 1.95 !important; overflow-wrap: break-word !important;
+            word-break: normal !important; text-wrap: pretty;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell__primary p {
+            max-width: 76ch; margin-top: 20px !important;
+            font-size: 15px !important; line-height: 1.95 !important;
+            letter-spacing: .005em; overflow-wrap: break-word !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell__assessment {
+            margin-top: 24px !important; padding-top: 18px;
+            border-top: 1px solid rgba(255,255,255,.09);
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-technical-disclosure {
+            width: 100%; min-width: 0; border-radius: 22px;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-technical-disclosure[open] > .ep-scholarly {
+            padding: 20px !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+            display: grid !important;
+            grid-template-columns: minmax(0,1fr) !important;
+            align-items: start !important; gap: 12px !important;
+            margin-block: 18px !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections > details.ep-scholarly__section {
+            width: 100%; min-width: 0; padding: 0 !important;
+            margin: 0 !important; border-radius: 16px !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections > details.ep-scholarly__section > summary {
+            min-height: 66px; padding: 18px 22px !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections > details.ep-scholarly__section > :is(p,h4) {
+            max-width: 76ch; margin-left: 22px !important; margin-right: 22px !important;
+            overflow-wrap: break-word !important; word-break: normal !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections > details.ep-scholarly__section > p {
+            font-size: 14px; line-height: 1.9 !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
+            max-width: 940px; margin-inline: auto;
+            padding: clamp(26px,3vw,42px) !important;
+            line-height: 1.95 !important; font-size: 15px;
+          }
+        }
+        /* Preserve legible line breaks on all screens, including long research titles. */
+        .ep-dialogue.ep-monochrome-interface .ep-answer-shell__primary :is(h3,p),
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections > details.ep-scholarly__section > p {
+          white-space: normal; hyphens: auto;
+        }
+
+
       `}
 
       
