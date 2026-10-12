@@ -5005,43 +5005,79 @@ function essenceDecisiveTest(signal: SignalItem,p: PropositionSet,profile: Objec
   if(ct==="ENGINEERING / CONSTRUCTIVE") return "Prespecify the minimum required function, operating envelope, failure threshold, and recovery criterion; reproduce the function under stress and after forced failure without changing the tested architecture.";
   return "Identify the directly measured quantity, reproduce it independently under a prespecified protocol, and include the strongest credible boundary condition or alternative interpretation.";
 }
+/* Stage 6.22 — preserve reported claims even when scientific-result verification is unavailable. */
+type EpistemeReportedClaim = {
+  text: string;
+  origin: "TITLE" | "SUMMARY";
+  kind: "QUANTITATIVE" | "QUALITATIVE" | "TOPIC";
+  independentlyVerified: false;
+};
+function recoverBoundedReportedClaim(signal: SignalItem): EpistemeReportedClaim {
+  const title = stripTerminalPunctuation(signal.title).trim();
+  const summary = signalSentences(signal);
+  const quantitative = /\d[\d,.]*\s*(?:%|percent|percentage points?|million|billion|fold|times?|years?|months?|days?|ms|ns|nm|hz)\b|\d[\d,.]*\s*%/i;
+  const resultLanguage = /\b(declin(?:e|ed|ing)|decreas(?:e|ed)|increas(?:e|ed)|fell|rose|dropped|grew|lost|gained|measured|observed|found|showed|revealed|outperformed|reached|persist|retain|preserv|trace|associated with)\b/i;
+  const summaryClaim = summary.find(t => quantitative.test(t) && resultLanguage.test(t)) ||
+    summary.find(t => epistemicSentenceRole(t) === "RESULT") || null;
+  const selected = summaryClaim || title;
+  return {
+    text: stripTerminalPunctuation(selected),
+    origin: summaryClaim ? "SUMMARY" : "TITLE",
+    kind: quantitative.test(selected) && resultLanguage.test(selected) ? "QUANTITATIVE" : resultLanguage.test(selected) ? "QUALITATIVE" : "TOPIC",
+    independentlyVerified: false,
+  };
+}
+function boundedSignalSignificance(signal: SignalItem, claim: EpistemeReportedClaim): string {
+  const corpus = normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)}`);
+  if (/\b(wildlife|biodiversity|species|animal populations?)\b/.test(corpus) && /\b(declin|population|counted|monitor)\b/.test(corpus)) {
+    return "The reported population decline is a warning about biodiversity change, while the uncounted or poorly monitored wildlife signals an additional knowledge gap. A trend in monitored populations must not be restated as the fraction of all individual wild animals lost. Conservation decisions need both reliable trend estimates and more representative monitoring; the metric, taxa, geographic coverage, and sampling biases still require source-level confirmation.";
+  }
+  if (/\b(quantum|many.body|thermaliz|scrambl)\b/.test(corpus) && /\b(birthmark|initial condition|past|memory|trace|retain)\b/.test(corpus)) {
+    return "The reported persistence of signatures of a quantum system's past raises a concrete question: can later observations retain information about initial conditions even when the system appears to equilibrate? This matters for quantum thermalization and information scrambling. The observable, physical regime, persistence time, and robustness to perturbations must be checked before claiming a general memory effect.";
+  }
+  if (/\b(clinical|patients?|survival|treatment|therapy|trial)\b/.test(corpus)) {
+    return "The potential importance is whether the reported patient outcome changes clinical understanding or decisions. The population, endpoint, comparator, absolute effect, uncertainty, and study design must be established before inferring treatment benefit or causality.";
+  }
+  if (/\b(model|benchmark|language model|algorithm|software|accuracy|latency)\b/.test(corpus)) {
+    return "The significance is whether the reported result changes what a system can reliably do or how efficiently it does it. The baseline, evaluation dataset, resource budget, error bars, and performance under distribution shift determine how far that claim can travel.";
+  }
+  if (claim.kind === "QUANTITATIVE") {
+    return "The reported magnitude makes the claim potentially consequential, but its meaning depends on what was measured, the denominator or reference group, the time window, and the uncertainty. Those details determine whether the number supports a change in explanation or decision; the headline alone does not settle them.";
+  }
+  if (claim.kind === "QUALITATIVE") {
+    return "The claim is worth examining because, if supported, it would change the description of how the named system behaves. Its significance depends on the specific observable, comparison with the established baseline, and the conditions under which the reported behavior persists.";
+  }
+  return "The source identifies a research question worth examining, but does not yet provide enough result detail to state what has changed. The next useful distinction is between the motivating question, an actual observation, and the interpretation of that observation.";
+}
 function buildArticleEssence(signal: SignalItem, ct: ClaimType, audit: EvidenceAudit): ArticleEssence {
   const p = extractPropositionSet(signal);
   const profile = inferObjectSemanticProfile(signal);
+  const reported = recoverBoundedReportedClaim(signal);
   const candidates = [p.result?.text, p.comparison?.text, p.mechanism?.text,
     extractResultBearingProposition(signal)?.proposition, recoverResultProposition(signal)];
-  const verifiedAsReported = candidates.find((text): text is string =>
-    Boolean(text && epistemicHasResult(signal, text)));
-  const sourceTruth = essenceClause(
-    verifiedAsReported || stripTerminalPunctuation(signal.title),
-    "The indexed source does not identify a distinct result."
-  );
+  const result = candidates.find((text): text is string =>
+    Boolean(text && epistemicHasResult(signal, text) && epistemicSentenceRole(text) === "RESULT"));
+  const hasResult = Boolean(result);
+  const sourceTruth = essenceClause(result || reported.text, "The indexed source does not identify a specific claim.");
+  const sourceLabel = hasResult ? "reported result" : reported.kind === "TOPIC" ? "research topic" : "reported claim";
+  const centralThesis = `The indexed ${reported.origin.toLowerCase()} presents this ${sourceLabel}: ${sourceTruth}. ${hasResult ? "This has not been independently verified here." : "A distinct, independently established scientific result has not been recovered from the indexed material."}`;
   const background = p.background?.text || null;
-  const hasResult = Boolean(verifiedAsReported);
-  const title = stripTerminalPunctuation(signal.title);
-  const centralThesis = hasResult
-    ? `The indexed source reports: ${sourceTruth}. This is a source-reported result, not independently verified here.`
-    : `The signal concerns ${title}. The indexed material does not yet establish a distinct measured or demonstrated result.`;
   const whatChanged = hasResult
-    ? (background && background !== sourceTruth
-      ? `Context: ${essenceClause(background, "")}. Reported finding: ${sourceTruth}. The contextual statement is not itself the finding.`
-      : `Reported finding: ${sourceTruth}. No unsupported prior baseline is assumed.`)
-    : `The available source does not separate a demonstrated new result from background or research motivation. Do not promote contextual knowledge into an empirical finding.`;
-  const consequence = hasResult
-    ? essenceConsequence(signal, p, profile)
-    : `Why this is worth attention: ${title} raises a question about how the relevant system behaves and what its observations can reveal. Its scientific importance depends on identifying a concrete observable and how that observable distinguishes the proposed interpretation from alternatives.`;
+    ? (background && background !== sourceTruth ? `Context: ${essenceClause(background, "")}. Reported finding: ${sourceTruth}.` : `Reported finding: ${sourceTruth}.`)
+    : `What is available: ${reported.text}. This is attributed to the indexed ${reported.origin.toLowerCase()}, not certified as an independently established scientific result.`;
+  const consequence = boundedSignalSignificance(signal, reported);
   return {
     sourceTruth,
     centralThesis,
     whatChanged,
-    deeperPrinciple: hasResult ? essenceDomainPrinciple(signal, p, profile) :
-      "A research topic, prior knowledge, and a newly demonstrated result are different epistemic objects.",
+    deeperPrinciple: hasResult ? essenceDomainPrinciple(signal, p, profile) : "A reported claim is informative without being equivalent to an independently verified result; background, measurement, and interpretation must remain distinct.",
     consequence,
-    evidenceBoundary: `${essenceBoundary(p, audit, ct)} ${hasResult ? "The reported finding has not been independently validated here." : "The source representation does not provide an identifiable new result; its background cannot substitute for one."}`,
+    evidenceBoundary: `${essenceBoundary(p, audit, ct)} The headline or summary is evidence of what was reported, not independent confirmation of the underlying study.`,
     decisiveTest: essenceDecisiveTest(signal, p, profile, ct),
     confidence: hasResult ? "SUPPORTED INFERENCE" : "OPEN INTERPRETATION",
   };
 }
+
 function composeScholarlyAskAnswer(e: ArticleEssence, d: AskDepth) {
   const answer = `${e.centralThesis}\n\nWhy it matters: ${e.consequence}`;
   const detail = d === "DEEP"
@@ -15077,7 +15113,7 @@ function epistemeAnswerIntent(query: string): EpistemeAnswerIntent {
 function epistemeAnswerAssessment(query: string, answer: string, why: string, sourceTitle: string | null) {
   const intent = epistemeAnswerIntent(query);
   const combined = `${answer} ${why}`.trim();
-  const generic = /the importance of this finding depends|if the substantive result survives|changes the empirical baseline|which traceable, claim-specific observation/i.test(combined);
+  const generic = /the importance of this finding depends|if the substantive result survives|changes the empirical baseline|which traceable, claim-specific observation|raises a question about how the relevant system behaves|the indexed material does not yet establish a distinct measured or demonstrated result\. why it matters: why this is worth attention/i.test(combined);
   const hasExplanation = why.trim().length >= 45 && !generic && why.trim() !== sourceTitle?.trim();
   const titleOnly = Boolean(sourceTitle && answer.replace(/[^a-z0-9]/gi, '').toLowerCase() === sourceTitle.replace(/[^a-z0-9]/gi, '').toLowerCase());
   const meaningfulAnswer = answer.trim().length >= 35 && !titleOnly && !/^(the source reports that|source proposition recovered:)/i.test(answer.trim());
@@ -16231,7 +16267,7 @@ useEffect(() => {
                             );
                           })()}
                           <details className="ep-technical-disclosure">
-                            <summary>Scientific analysis and evidence details <span>Expand / collapse</span></summary>
+                            <summary><span className="ep-disclosure-heading"><span className="ep-disclosure-kicker">DEEP INTELLIGENCE</span><strong>Scientific analysis</strong><span className="ep-disclosure-subtitle">Reasoning, models and source interpretation</span></span><span className="ep-disclosure-control" aria-hidden="true"><span className="ep-disclosure-control__label">Explore</span><span className="ep-disclosure-chevron" /></span></summary>
                         <div
                           className={[
                             "ep-scholarly",
@@ -16835,7 +16871,7 @@ useEffect(() => {
                                     `is-${(section.emphasis ?? "SECONDARY").toLowerCase()}`,
                                   ].join(" ")}
                                 >
-                                  <summary><span>{section.label}</span><small>{section.kind}</small></summary>
+                                  <summary><span className="ep-section-title">{section.label}</span><span className="ep-section-end"><small>{section.kind}</small><span className="ep-section-chevron" aria-hidden="true" /></span></summary>
                                   {section.title && <h4>{section.title}</h4>}
                                   <p>{section.body}</p>
                                 </details>
@@ -17453,7 +17489,7 @@ useEffect(() => {
                         ].join(" ")}
                       >
                         <details className="ep-technical-disclosure ep-technical-disclosure--secondary">
-                          <summary>Evidence, uncertainty and inquiry protocol <span>Expand / collapse</span></summary>
+                          <summary><span className="ep-disclosure-heading"><span className="ep-disclosure-kicker">EVIDENCE & METHODS</span><strong>Verification and inquiry</strong><span className="ep-disclosure-subtitle">Evidence, uncertainty and next tests</span></span><span className="ep-disclosure-control" aria-hidden="true"><span className="ep-disclosure-control__label">Explore</span><span className="ep-disclosure-chevron" /></span></summary>
                         <div className="ep-intelligence__grid">
                           <section>
                             <span>
@@ -29136,6 +29172,45 @@ useEffect(() => {
         .ep-scholarly__sections>details.ep-scholarly__section>summary:after{content:'+';opacity:.65}
         .ep-scholarly__sections>details.ep-scholarly__section[open]>summary:after{content:'−'}
         .ep-scholarly__sections>details.ep-scholarly__section:not([open])>p,.ep-scholarly__sections>details.ep-scholarly__section:not([open])>h4{display:none}
+
+
+        /* Stage 6.23 — quiet, accessible progressive disclosure */
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure{position:relative;isolation:isolate;border:1px solid rgba(255,255,255,.095);border-radius:24px;background:linear-gradient(155deg,rgba(255,255,255,.047),rgba(255,255,255,.012) 42%,rgba(0,0,0,.16));box-shadow:0 12px 36px rgba(0,0,0,.13),inset 0 1px 0 rgba(255,255,255,.055);transition:border-color .24s ease,background .24s ease,box-shadow .24s ease;overflow:hidden}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure:hover{border-color:rgba(255,255,255,.18)}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure[open]{border-color:rgba(255,255,255,.19);box-shadow:0 20px 50px rgba(0,0,0,.19),inset 0 1px 0 rgba(255,255,255,.065)}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:96px;padding:21px clamp(19px,3vw,30px);list-style:none;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent;outline-offset:-4px}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure>summary:before{display:none!important;content:none!important}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure>summary::-webkit-details-marker{display:none}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure>summary:focus-visible,.ep-dialogue.ep-monochrome-interface .ep-scholarly__section>summary:focus-visible{outline:2px solid rgba(190,213,255,.85);outline-offset:-4px;border-radius:17px}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-heading{display:flex;flex:1;min-width:0;flex-direction:column;align-items:flex-start;gap:5px;text-align:left}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-kicker{font-size:9px!important;line-height:1.5;font-weight:550!important;letter-spacing:.19em;color:rgba(255,255,255,.42)!important}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-heading>strong{font-size:clamp(15px,1.5vw,18px);line-height:1.3;font-weight:560;letter-spacing:-.025em;color:rgba(255,255,255,.94)}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-subtitle{font-size:11px!important;font-weight:400!important;line-height:1.5;color:rgba(255,255,255,.48)!important;letter-spacing:0}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-control{display:flex;flex:0 0 auto;align-items:center;gap:13px;color:rgba(255,255,255,.54)}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-control__label{font-size:11px!important;letter-spacing:.02em;font-weight:450!important;color:inherit!important}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-chevron,.ep-dialogue.ep-monochrome-interface .ep-section-chevron{display:grid;place-items:center;flex:0 0 auto;width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);transition:transform .28s cubic-bezier(.2,.8,.2,1),background .2s ease,border-color .2s ease}
+        .ep-dialogue.ep-monochrome-interface .ep-disclosure-chevron:after,.ep-dialogue.ep-monochrome-interface .ep-section-chevron:after{content:'';display:block;width:7px;height:7px;border-right:1.5px solid rgba(255,255,255,.8);border-bottom:1.5px solid rgba(255,255,255,.8);transform:translateY(-2px) rotate(45deg)}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure[open]>.ep-technical-disclosure-summary .ep-disclosure-chevron,.ep-dialogue.ep-monochrome-interface .ep-technical-disclosure[open]>summary .ep-disclosure-chevron{transform:rotate(180deg);background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.2)}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure[open]>summary{border-bottom:1px solid rgba(255,255,255,.075)}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure[open]>.ep-scholarly{padding:clamp(12px,2vw,22px)}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure--secondary{margin-bottom:18px}
+        .ep-dialogue.ep-monochrome-interface .ep-technical-disclosure--secondary>.ep-intelligence__grid,.ep-dialogue.ep-monochrome-interface .ep-technical-disclosure--secondary>.ep-inquiry{margin:clamp(12px,2vw,22px)}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections{gap:10px}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section{min-width:0;overflow:hidden;border:1px solid rgba(255,255,255,.095);border-radius:17px;background:rgba(255,255,255,.022);transition:background .2s ease,border-color .2s ease,box-shadow .2s ease}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section:hover{border-color:rgba(255,255,255,.16);background:rgba(255,255,255,.035)}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section[open]{background:rgba(255,255,255,.042);border-color:rgba(255,255,255,.17)}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:62px;padding:15px 17px;list-style:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>summary:after{display:none!important;content:none!important}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__section .ep-section-title{font-size:13px;font-weight:550;line-height:1.5;color:rgba(255,255,255,.88);overflow-wrap:anywhere}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__section .ep-section-end{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__section .ep-section-end>small{font-size:9px;letter-spacing:.06em;color:rgba(255,255,255,.43)}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__section .ep-section-chevron{width:27px;height:27px}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__section[open] .ep-section-chevron{transform:rotate(180deg);background:rgba(255,255,255,.09)}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section[open]>summary{border-bottom:1px solid rgba(255,255,255,.075)}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>h4,.ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>p{margin-left:17px;margin-right:17px}
+        .ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>p{margin-bottom:18px;line-height:1.85}
+        @media(max-width:600px){.ep-dialogue.ep-monochrome-interface .ep-technical-disclosure>summary{min-height:86px;padding:17px 16px;gap:10px}.ep-dialogue.ep-monochrome-interface .ep-disclosure-control__label,.ep-dialogue.ep-monochrome-interface .ep-scholarly__section .ep-section-end>small{display:none}.ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>summary{min-height:56px;padding:13px 14px}.ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>h4,.ep-dialogue.ep-monochrome-interface .ep-scholarly__sections>details.ep-scholarly__section>p{margin-left:14px;margin-right:14px}}
+        @media(prefers-reduced-motion:reduce){.ep-dialogue.ep-monochrome-interface .ep-technical-disclosure,.ep-dialogue.ep-monochrome-interface .ep-scholarly__section,.ep-dialogue.ep-monochrome-interface .ep-disclosure-chevron,.ep-dialogue.ep-monochrome-interface .ep-section-chevron{transition:none!important}}
 
       `}
 
