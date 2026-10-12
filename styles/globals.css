@@ -66978,126 +66978,51 @@ main.episteme-dialogue-page .ep-message__body h3 {
 
 
 /* ==========================================================
-   ARCHENOVA HOME — THE ARCHITECTURE OF CIVILIZATION
-   FINAL UNIFIED HOME FRAME
+   ARCHENOVA HOME 2026
+   THE ARCHITECTURE OF CIVILIZATION
 
-   Replace the entire previous Architecture CSS block.
+   AEVUM-MATCHED SINGLE GLASS ARCHITECTURE
 
-   Architecture uses the same spatial dimensions as HOME:
-   - Full-width section canvas
-   - Maximum 1800px glass width
-   - HOME-standard viewport gutters
-   - HOME-standard internal padding
-   - Natural content height
-   - One optical glass surface
+   GLASS OWNER:
+   #archenova-architecture-of-civilization
 
-   Preserves:
-   - Architecture navigation
-   - Existing content and typography
-   - Apple-like neutral smoked glass
-   - HOME section pager
-   - All other HOME sections
+   TRANSPARENT CONTENT WRAPPER:
+   .an-architecture-home__glass
+
+   HOME OWNS:
+   - Section width
+   - Section height
+   - Section padding
+   - Section positioning
+   - Responsive viewport geometry
+
+   ARCHITECTURE OWNS:
+   - Two-column composition
+   - Typography
+   - Navigation items
+   - Internal spacing
+   - Hover and focus interactions
+
+   Replace the previous Architecture CSS in full.
+   Keep this block at the end of styles/globals.css.
 ========================================================== */
 
 
 /* ==========================================================
-   1. ARCHITECTURE SECTION — HOME SPATIAL STANDARD
+   01. ARCHITECTURE SECTION
+   SINGLE GLASS OWNER
+
+   IMPORTANT:
+   Do not override width, height, padding,
+   margin, display or positioning.
+
+   HOME's existing layout remains authoritative.
 ========================================================== */
 
-main.an-home-2026.home-snap.archenova-twin-home
-> section#archenova-architecture-of-civilization.an-architecture-home {
-  position: relative !important;
-  box-sizing: border-box !important;
+main.an-home-2026.archenova-twin-home
+> #archenova-architecture-of-civilization {
 
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: stretch !important;
-  justify-content: center !important;
-
-  width: 100% !important;
-  max-width: none !important;
-  min-width: 0 !important;
-
-  min-height: 100svh !important;
-  height: auto !important;
-  max-height: none !important;
-
-  margin: 0 !important;
-
-  padding:
-    var(--an-h-top, clamp(92px, 11svh, 148px))
-    var(--an-h-gutter, clamp(16px, 3.8vw, 76px))
-    var(--an-h-bottom, clamp(104px, 12svh, 160px))
-    !important;
-
-  overflow: visible !important;
-
-  background: transparent !important;
-  background-image: none !important;
-
-  border: 0 !important;
-  border-radius: 0 !important;
-  outline: 0 !important;
-
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-
-  box-shadow: none !important;
-
-  transform: none !important;
-  animation: none !important;
-
-  scroll-margin-top: 0;
-}
-
-
-/* ==========================================================
-   2. REMOVE OUTER SECTION PSEUDO GLASS
-========================================================== */
-
-main.an-home-2026
-> section#archenova-architecture-of-civilization::before,
-
-main.an-home-2026
-> section#archenova-architecture-of-civilization::after {
-  content: none !important;
-  display: none !important;
-}
-
-
-/* ==========================================================
-   3. SINGLE ARCHITECTURE GLASS
-   EXACT HOME FRAME DIMENSIONS
-========================================================== */
-
-main.an-home-2026.home-snap.archenova-twin-home
-> section#archenova-architecture-of-civilization
-> .an-architecture-home__glass {
-  position: relative !important;
-  box-sizing: border-box !important;
-
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-
-  align-self: center !important;
-
-  width: 100% !important;
-  max-width: 1800px !important;
-  min-width: 0 !important;
-
-  min-height: min(690px, 76svh) !important;
-  height: auto !important;
-  max-height: none !important;
-
-  margin: 0 auto !important;
-
-  padding: clamp(24px, 3.3vw, 62px) !important;
-
-  overflow: visible !important;
-
-  border: 1px solid rgba(255,255,255,.065) !important;
-  border-radius: 30px !important;
+  isolation: isolate !important;
 
   background:
     radial-gradient(
@@ -67113,6 +67038,10 @@ main.an-home-2026.home-snap.archenova-twin-home
       rgba(0,0,0,.30) 100%
     ) !important;
 
+  border: 1px solid rgba(255,255,255,.065) !important;
+
+  border-radius: 30px !important;
+
   -webkit-backdrop-filter:
     blur(22px) saturate(106%) !important;
 
@@ -67125,32 +67054,70 @@ main.an-home-2026.home-snap.archenova-twin-home
     !important;
 
   outline: 0 !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  transform: none !important;
-  animation: none !important;
 }
 
 
-/* No additional optical surfaces on the glass wrapper. */
+/* ==========================================================
+   02. REMOVE SECTION PSEUDO GLASS
+========================================================== */
 
-main.an-home-2026
-#archenova-architecture-of-civilization
-.an-architecture-home__glass::before,
+main.an-home-2026.archenova-twin-home
+> #archenova-architecture-of-civilization::before,
 
-main.an-home-2026
-#archenova-architecture-of-civilization
-.an-architecture-home__glass::after {
+main.an-home-2026.archenova-twin-home
+> #archenova-architecture-of-civilization::after {
+
   content: none !important;
   display: none !important;
 }
 
 
 /* ==========================================================
-   4. INTERNAL LAYOUT
-   PRESERVE TWO-COLUMN ARCHITECTURE
+   03. TRANSPARENT INTERNAL GLASS WRAPPER
+
+   Keep HOME-defined wrapper geometry.
+
+   No second glass surface.
+========================================================== */
+
+main.an-home-2026.archenova-twin-home
+#archenova-architecture-of-civilization
+.an-architecture-home__glass {
+
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   04. REMOVE WRAPPER PSEUDO SURFACES
+========================================================== */
+
+main.an-home-2026.archenova-twin-home
+#archenova-architecture-of-civilization
+.an-architecture-home__glass::before,
+
+main.an-home-2026.archenova-twin-home
+#archenova-architecture-of-civilization
+.an-architecture-home__glass::after {
+
+  content: none !important;
+  display: none !important;
+}
+
+
+/* ==========================================================
+   05. ARCHITECTURE INTERNAL LAYOUT
 ========================================================== */
 
 .an-architecture-home__layout {
@@ -67160,21 +67127,18 @@ main.an-home-2026
     minmax(0, .82fr)
     minmax(0, 1.18fr);
 
-  align-items: center;
-
   gap: clamp(42px, 7vw, 118px);
+
+  align-items: center;
 
   width: 100%;
   min-width: 0;
   max-width: 100%;
-
-  margin: 0;
-  padding: 0;
 }
 
 
 /* ==========================================================
-   5. INTRODUCTION
+   06. INTRODUCTION
 ========================================================== */
 
 .an-architecture-home__intro {
@@ -67183,7 +67147,6 @@ main.an-home-2026
   align-items: flex-start;
 
   min-width: 0;
-  max-width: 100%;
 }
 
 .an-architecture-home__eyebrow {
@@ -67257,7 +67220,7 @@ main.an-home-2026
 
 
 /* ==========================================================
-   6. ARCHITECTURE NAVIGATION
+   07. ARCHITECTURE NAVIGATION
 ========================================================== */
 
 .an-architecture-home__nav {
@@ -67266,7 +67229,6 @@ main.an-home-2026
   gap: 7px;
 
   min-width: 0;
-  max-width: 100%;
 }
 
 .an-architecture-home__item {
@@ -67315,11 +67277,19 @@ main.an-home-2026
   -webkit-tap-highlight-color: transparent;
 }
 
-.an-architecture-home__item:hover {
-  background: rgba(255,255,255,.055);
-  border-color: rgba(255,255,255,.10);
+@media (hover: hover) and (pointer: fine) {
+  .an-architecture-home__item:hover {
+    background: rgba(255,255,255,.055);
+    border-color: rgba(255,255,255,.10);
 
-  transform: translateX(3px);
+    transform: translateX(3px);
+  }
+
+  .an-architecture-home__item:hover
+  .an-architecture-home__item-arrow {
+    transform: translate(2px, -2px);
+    color: #fff;
+  }
 }
 
 .an-architecture-home__item:focus-visible {
@@ -67390,37 +67360,14 @@ main.an-home-2026
     color .25s ease;
 }
 
-.an-architecture-home__item:hover
-.an-architecture-home__item-arrow {
-  transform: translate(2px, -2px);
-  color: #fff;
-}
-
 
 /* ==========================================================
-   7. TABLET
-========================================================== */
-
-@media (min-width: 701px) and (max-width: 1100px) {
-  main.an-home-2026.home-snap.archenova-twin-home
-  > section#archenova-architecture-of-civilization {
-    padding-left: clamp(20px, 3vw, 38px) !important;
-    padding-right: clamp(20px, 3vw, 38px) !important;
-  }
-
-  main.an-home-2026.home-snap.archenova-twin-home
-  > section#archenova-architecture-of-civilization
-  > .an-architecture-home__glass {
-    padding: clamp(25px, 3vw, 42px) !important;
-  }
-}
-
-
-/* ==========================================================
-   8. RESPONSIVE SINGLE-COLUMN LAYOUT
+   08. TABLET
+   Preserve HOME section geometry.
 ========================================================== */
 
 @media (max-width: 900px) {
+
   .an-architecture-home__layout {
     grid-template-columns: minmax(0, 1fr);
     gap: 35px;
@@ -67441,28 +67388,14 @@ main.an-home-2026
 
 
 /* ==========================================================
-   9. MOBILE — HOME STANDARD
+   09. MOBILE GLASS
+   Same material as Aevum.
 ========================================================== */
 
-@media (max-width: 700px) {
-  main.an-home-2026.home-snap.archenova-twin-home
-  > section#archenova-architecture-of-civilization {
-    padding: 76px 12px 104px !important;
-  }
+@media (max-width: 768px) {
 
-  main.an-home-2026.home-snap.archenova-twin-home
-  > section#archenova-architecture-of-civilization
-  > .an-architecture-home__glass {
-    width: 100% !important;
-    max-width: 1800px !important;
-
-    min-height: min(610px, 72svh) !important;
-    height: auto !important;
-    max-height: none !important;
-
-    padding: 26px 19px !important;
-
-    border-radius: 24px !important;
+  main.an-home-2026.archenova-twin-home
+  > #archenova-architecture-of-civilization {
 
     background:
       radial-gradient(
@@ -67478,7 +67411,9 @@ main.an-home-2026
         rgba(0,0,0,.26) 100%
       ) !important;
 
-    border-color: rgba(255,255,255,.060) !important;
+    border: 1px solid rgba(255,255,255,.060) !important;
+
+    border-radius: 26px !important;
 
     -webkit-backdrop-filter:
       blur(18px) saturate(104%) !important;
@@ -67495,10 +67430,11 @@ main.an-home-2026
 
 
 /* ==========================================================
-   10. SMALL MOBILE
+   10. SMALL MOBILE TYPOGRAPHY AND NAVIGATION
 ========================================================== */
 
 @media (max-width: 480px) {
+
   .an-architecture-home__eyebrow {
     font-size: 9px;
     letter-spacing: .13em;
@@ -67550,21 +67486,22 @@ main.an-home-2026
 
 
 /* ==========================================================
-   11. VERY SMALL MOBILE — HOME GUTTER
+   11. SMALL MOBILE GLASS RADIUS
 ========================================================== */
 
-@media (max-width: 390px) {
-  main.an-home-2026.home-snap.archenova-twin-home
-  > section#archenova-architecture-of-civilization {
-    padding-left: 9px !important;
-    padding-right: 9px !important;
-  }
+@media (max-width: 430px) {
 
-  main.an-home-2026.home-snap.archenova-twin-home
-  > section#archenova-architecture-of-civilization
-  > .an-architecture-home__glass {
-    padding: 23px 15px !important;
+  main.an-home-2026.archenova-twin-home
+  > #archenova-architecture-of-civilization {
     border-radius: 22px !important;
+  }
+}
+
+@media (max-width: 360px) {
+
+  main.an-home-2026.archenova-twin-home
+  > #archenova-architecture-of-civilization {
+    border-radius: 20px !important;
   }
 }
 
@@ -67574,6 +67511,7 @@ main.an-home-2026
 ========================================================== */
 
 @media (prefers-reduced-motion: reduce) {
+
   .an-architecture-home__item,
   .an-architecture-home__item-arrow {
     transition: none;
@@ -67581,19 +67519,21 @@ main.an-home-2026
 }
 
 
+/* ==========================================================
+   END — ARCHITECTURE OF CIVILIZATION
 
+   SINGLE GLASS OWNER:
+   #archenova-architecture-of-civilization
 
+   TRANSPARENT:
+   .an-architecture-home__glass
 
+   INTERNAL LAYOUT:
+   Preserved
 
+   HOME GEOMETRY:
+   Preserved
 
-
-
-
-
-
-
-
-
-
-
-
+   AEVUM:
+   Unchanged
+========================================================== */
