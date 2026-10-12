@@ -15149,41 +15149,10 @@ export default function EpistemeDialogue() {
   const streamTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const activeCaseIdRef = useRef<string | null>(null);
 
-    /* ========================================================
-   RESPONSIVE SIGNAL PANEL DEFAULT
-   Desktop:
-   Bloomberg-style intelligence panel visible.
-   Mobile:
-   Conversation is primary.
-   Live Signals remain available on demand.
-======================================================== */
-useEffect(() => {
-  activeCaseIdRef.current = activeCaseId;
-}, [activeCaseId]);
-
-useEffect(() => {
-  const media =
-    window.matchMedia(
-      "(min-width: 769px)",
-    );
-  const syncSignalPanel =
-    () => {
-      setSignalPanelOpen(
-        media.matches,
-      );
-    };
-  syncSignalPanel();
-  media.addEventListener(
-    "change",
-    syncSignalPanel,
-  );
-  return () => {
-    media.removeEventListener(
-      "change",
-      syncSignalPanel,
-    );
-  };
-}, []);
+  /* Live Signals are an explicit full-workspace view on every device. */
+  useEffect(() => {
+    activeCaseIdRef.current = activeCaseId;
+  }, [activeCaseId]);
 
   /* ========================================================
      LOAD LIVE SIGNALS
@@ -16068,6 +16037,15 @@ useEffect(() => {
             : "",
         ].join(" ")}
       >
+        <button
+          type="button"
+          className="ep-signals-view-trigger"
+          aria-expanded={signalPanelOpen}
+          aria-controls="ep-live-signals-view"
+          onClick={() => setSignalPanelOpen((open) => !open)}
+        >
+          {signalPanelOpen ? "← Back to conversation" : "Live Signals ↗"}
+        </button>
         {/* =================================================
             CONVERSATION
         ================================================= */}
@@ -17897,6 +17875,8 @@ useEffect(() => {
                 <button
                   type="button"
                   className="ep-dialogue__signals-toggle"
+                  aria-expanded={signalPanelOpen}
+                  aria-controls="ep-live-signals-view"
                   onClick={() => {
                     setSignalPanelOpen(
                       (current) =>
@@ -17916,7 +17896,7 @@ useEffect(() => {
             LIVE SIGNAL STREAM
         ================================================= */}
         {signalPanelOpen && (
-          <aside className="ep-dialogue__signals">
+          <aside id="ep-live-signals-view" className="ep-dialogue__signals" aria-label="Live Signals">
             <header className="ep-dialogue__signals-head">
               <div>
                 <span>
@@ -29593,6 +29573,97 @@ useEffect(() => {
         }
 
 
+
+        /* STAGE 6.27 · FULL-WORKSPACE LIVE SIGNALS */
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace,
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.has-signals {
+          position:relative !important;
+          display:block !important;
+          min-width:0 !important;
+          grid-template-columns:none !important;
+          isolation:isolate;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__conversation {
+          width:100% !important;
+          max-width:none !important;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace.has-signals > .ep-dialogue__conversation {
+          visibility:hidden !important;
+          pointer-events:none !important;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signals {
+          position:absolute !important;
+          inset:0 !important;
+          width:100% !important;
+          height:100% !important;
+          max-width:none !important;
+          z-index:12 !important;
+          display:flex !important;
+          flex-direction:column !important;
+          overflow:hidden !important;
+          border:0 !important;
+          border-radius:0 !important;
+          background:linear-gradient(155deg,#0c0d10,#050506 75%) !important;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signals-head {
+          flex:0 0 auto;
+          padding-inline:clamp(22px,4vw,72px) !important;
+          border-bottom:1px solid rgba(255,255,255,.08);
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signal-feed {
+          flex:1 1 auto !important;
+          min-height:0 !important;
+          overflow-y:auto !important;
+          overflow-x:hidden !important;
+          display:grid !important;
+          grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr)) !important;
+          align-content:start !important;
+          gap:clamp(12px,1.8vw,24px) !important;
+          padding:clamp(20px,3vw,48px) clamp(20px,4vw,72px) !important;
+          overscroll-behavior:contain;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__signal-feed > .ep-signal {
+          min-width:0 !important;
+          height:auto !important;
+          border:1px solid rgba(255,255,255,.10) !important;
+          border-radius:18px !important;
+          background:rgba(255,255,255,.025) !important;
+          overflow-wrap:anywhere;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-signals-view-trigger {
+          position:absolute;
+          top:clamp(12px,2vw,24px);
+          right:clamp(14px,2.8vw,44px);
+          z-index:15;
+          border:1px solid rgba(255,255,255,.15);
+          background:rgba(18,19,23,.9);
+          color:#e9ebf0;
+          border-radius:999px;
+          padding:11px 16px;
+          font:inherit;
+          font-size:12px;
+          letter-spacing:.015em;
+          cursor:pointer;
+          backdrop-filter:blur(18px);
+          -webkit-backdrop-filter:blur(18px);
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-signals-view-trigger:hover {
+          background:#26282e;
+          border-color:rgba(255,255,255,.35);
+        }
+        @media (max-width:900px) {
+          .ep-dialogue.ep-monochrome-interface .ep-signals-view-trigger {
+            top:12px;right:14px;padding:8px 12px;font-size:11px;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__signal-feed {
+            grid-template-columns:minmax(0,1fr) !important;
+            padding:18px 14px max(28px,env(safe-area-inset-bottom)) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__signals-head {
+            padding-inline:16px !important;
+            padding-right:170px !important;
+          }
+        }
       `}
 
       
