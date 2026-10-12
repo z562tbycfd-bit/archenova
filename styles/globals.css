@@ -67571,8 +67571,8 @@ main.an-home-2026.archenova-twin-home > .an-home-footer {
   max-width: none !important;
   min-height: 0 !important;
   height: auto !important;
-  margin: 18px 0 0 !important; /* Only added vertical separation; no width changes. */
-  padding: clamp(76px, 11svh, 150px) clamp(16px, 3.8vw, 76px) clamp(24px, 4vw, 56px) !important;
+  margin: 28px 0 0 !important; /* Vertical separation from the preceding HOME section. */
+  padding: 28px var(--an-h-gutter, clamp(16px, 3.8vw, 76px)) clamp(24px, 4vw, 56px) !important;
   overflow: visible !important;
   background: transparent !important;
   background-image: none !important;
@@ -67590,7 +67590,12 @@ main.an-home-2026 .an-home-footer::after { content: none !important; display: no
   box-sizing: border-box;
   width: 100%;
   max-width: 1800px;
+  min-height: min(690px, 76svh);
   margin: 0 auto;
+  padding: clamp(24px, 3.3vw, 62px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: linear-gradient(145deg, #101012 0%, #080809 48%, #020203 100%) !important;
   border: 1px solid rgba(255,255,255,.065);
   border-radius: 30px;
@@ -67624,7 +67629,8 @@ main.an-home-2026 .an-home-footer::after { content: none !important; display: no
 .an-home-footer__bottom a { color: rgba(255,255,255,.55); text-decoration: none; }
 .an-home-footer__bottom a:hover { color: #fff; }
 @media (max-width: 700px) {
-  main.an-home-2026.archenova-twin-home > .an-home-footer { padding: 75px 21px max(34px,env(safe-area-inset-bottom)) !important; }
+  main.an-home-2026.archenova-twin-home > .an-home-footer { margin-top: 20px !important; padding: 24px var(--an-h-gutter, 12px) max(34px,env(safe-area-inset-bottom)) !important; }
+  .an-home-footer__inner { min-height: min(610px,72svh); padding: 26px 19px; }
   .an-home-footer__content { grid-template-columns: minmax(0,1fr); gap: 50px; padding: 47px 0 76px; }
   .an-home-footer__name { font-size: clamp(52px,12vw,78px); }
   .an-home-footer__statement { font-size: 15px; }
@@ -67634,6 +67640,10 @@ main.an-home-2026 .an-home-footer::after { content: none !important; display: no
 }
 @media (prefers-reduced-motion: reduce) {
   .an-home-footer__top, .an-home-footer__top-icon { transition: none; }
+}
+
+@media (max-width: 390px) {
+  .an-home-footer__inner { padding: 23px 15px; }
 }
 
 
