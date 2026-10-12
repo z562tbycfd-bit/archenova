@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-10-12T09:17:30.115Z",
+  "updated": "2026-10-12T13:00:31.452Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: moon city problems and drone traffic controllers",
+      "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Mars may be a hellhole, but the moon is not far behind The US and China are racing…",
+      "ts": 1791807000000,
+      "publishedAt": "2026-10-12T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Mars may be a hellhole, but the moon is not far behind",
+      "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
+      "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface b…",
+      "ts": 1791797822000,
+      "publishedAt": "2026-10-12T09:37:02.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The ecologist revealing the invisible networks that revive rainforests",
+      "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
+      "summary": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a sen…",
+      "ts": 1791795600000,
+      "publishedAt": "2026-10-12T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Viet Nam Studies Water Resources Using Nuclear Techniques",
+      "url": "http://www.iaea.org/newscenter/news/viet-nam-studies-water-resources-using-nuclear-techniques",
+      "summary": "",
+      "ts": 1791791518000,
+      "publishedAt": "2026-10-12T07:51:58.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 12 – Jupiter and the Moons",
@@ -235,6 +271,15 @@
       "ts": 1791777600000,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA and OECD/NEA Release New Guide for Rating and Communicating Nuclear and Radiological Events",
+      "url": "http://www.iaea.org/newscenter/news/iaea-and-oecdnea-release-new-guide-for-rating-and-communicating-nuclear-and-radiological-events",
+      "summary": "The IAEA and the OECD Nuclear Energy Agency (OECD/NEA) have published updated guidance for rating the safety significance of nuclear and radiological events and communicating them clearly to the public.",
+      "ts": 1791774840000,
+      "publishedAt": "2026-10-12T03:14:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "United Nations News",
@@ -763,51 +808,6 @@
       "title": "Toward Reliable Patient-Specific Aortic Strain Mapping from 4D CTA: Validation, Spectral Structure, and Clinical Potential",
       "url": "https://arxiv.org/abs/2610.10913",
       "summary": "arXiv:2610.10913v1 Announce Type: new Abstract: Objective: To develop and validate a framework for spatially resolved ascending aortic strain estimation from 4D computed tomography angiography (CTA) and characterize reli…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mean Field Theory Based on the Spike Time Response Curve for Synchronization Within and Between Two Alternating Populations of Neural Oscillators with Delays",
-      "url": "https://arxiv.org/abs/2610.10977",
-      "summary": "arXiv:2610.10977v1 Announce Type: new Abstract: In order to study oscillators coupled by pulses emitted at discrete times, it is generally assumed that the effect of each pulse is an instantaneous phase shift, with a pos…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "If the brain were so simple: Information-based drivers of intelligence and their interaction through an n-body-inspired framework",
-      "url": "https://arxiv.org/abs/2610.11142",
-      "summary": "arXiv:2610.11142v1 Announce Type: new Abstract: Theories of how the brain processes information and returns intelligent outputs are numerous and often difficult to conclusively test. Here, we consider an approach grounde…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cross-species representation learning aligns mouse and human neural dynamics and tracks clinical drug efficacy",
-      "url": "https://arxiv.org/abs/2610.11222",
-      "summary": "arXiv:2610.11222v1 Announce Type: new Abstract: Preclinical models poorly predict human drug efficacy, particularly in neurological disorders. Neural activity offers a uniquely rich source of translational information be…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Elucidating the Space of Enzymatic Reaction: A Unified Benchmark and Pretrained Model",
-      "url": "https://arxiv.org/abs/2610.11694",
-      "summary": "arXiv:2610.11694v1 Announce Type: new Abstract: Existing reaction models primarily learn molecular transformations, whereas enzy- matic reactions depend jointly on molecular structure and catalytic function. We formulate…",
-      "ts": 1791518400000,
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural Decoding as Cognitive Inference",
-      "url": "https://arxiv.org/abs/2610.11923",
-      "summary": "arXiv:2610.11923v1 Announce Type: new Abstract: The brain maintains stable cognition despite continuously changing neural activity. How to extract stable cognitive states from variable neural observations remains a centr…",
       "ts": 1791518400000,
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "categoryId": "bio"

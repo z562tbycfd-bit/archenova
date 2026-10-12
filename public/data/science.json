@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-10-12T09:17:24.009Z",
+  "updated": "2026-10-12T13:00:29.639Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate fingerprints reveal stronger evidence of human-caused warming after more than 30 years",
+      "url": "https://phys.org/news/2026-10-climate-fingerprints-reveal-stronger-evidence.html",
+      "summary": "The scientific evidence for human-caused global warming is stronger than ever, according to a major new review—despite a U.S. government report questioning the science.",
+      "ts": 1791810012000,
+      "publishedAt": "2026-10-12T13:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA reveals genetic divide in Australian brolgas, with southern birds facing greater diversity risks",
+      "url": "https://phys.org/news/2026-10-dna-reveals-genetic-australian-brolgas.html",
+      "summary": "New research on the brolga, an iconic Australian crane species, has shown important genetic differences between northern and southeastern populations, with evidence that those in western Victoria are at increased risk, l…",
+      "ts": 1791808804000,
+      "publishedAt": "2026-10-12T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some anglers always follow the rules",
+      "url": "https://phys.org/news/2026-10-anglers.html",
+      "summary": "New research sheds light on why a surprising number of fishers always follow fishing rules, even when enforcement is unlikely and breaking the rules offers a financial reward.",
+      "ts": 1791807608000,
+      "publishedAt": "2026-10-12T12:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New sensor uses slowed light to detect gravitational pull of tiny objects",
+      "url": "https://phys.org/news/2026-10-sensor-gravitational-tiny.html",
+      "summary": "Gravity, the attraction between objects with mass, is the weakest of the four fundamental forces governing physical processes. Detecting the tiny gravitational pull of objects that are just a few millimeters in size and …",
+      "ts": 1791806414000,
+      "publishedAt": "2026-10-12T12:00:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI system could transform rabies testing around the world",
+      "url": "https://phys.org/news/2026-10-ai-rabies-world.html",
+      "summary": "Rabies virus detection in cell cultures could soon become faster and more accessible, thanks to the world's first AI system for this purpose, developed by researchers at the University of Surrey's Institute for People-Ce…",
+      "ts": 1791806408000,
+      "publishedAt": "2026-10-12T12:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study explores why Indigenous communities may accept oil extraction despite its harms",
+      "url": "https://phys.org/news/2026-10-explores-indigenous-communities-oil.html",
+      "summary": "The uneven distribution of oil extraction's impacts and benefits helps explain why some Indigenous communities accept it, newly published research shows.",
+      "ts": 1791805213000,
+      "publishedAt": "2026-10-12T11:40:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Model links course design, psychological safety and guided AI use",
+      "url": "https://phys.org/news/2026-10-links-psychological-safety-ai.html",
+      "summary": "University of Phoenix researchers have published a new peer-reviewed study examining how stress, self-regulation, resilience, belonging, psychological safety and generative artificial intelligence (GenAI) interact in the…",
+      "ts": 1791804001000,
+      "publishedAt": "2026-10-12T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Americans Hall and Woodford win economics Nobel for stabilization models",
+      "url": "https://phys.org/news/2026-10-americans-hall-woodford-economics-nobel.html",
+      "summary": "Americans Robert Hall and Michael Woodford were awarded the Nobel economics prize Monday for their work on how monetary and fiscal policy can better stabilize disruptive economic fluctuations.",
+      "ts": 1791802929000,
+      "publishedAt": "2026-10-12T11:02:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI platforms offer promise in limiting the illegal wildlife trade",
+      "url": "https://phys.org/news/2026-10-ai-platforms-limiting-illegal-wildlife.html",
+      "summary": "New University of Kent research has found promising signs that AI platforms have the potential to limit the illegal wildlife trade. The research paper titled \"Assessing safeguards against the illegal wildlife trade on AI…",
+      "ts": 1791802809000,
+      "publishedAt": "2026-10-12T11:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hybrid quantum computers could finally get to grips with light and matter",
+      "url": "https://phys.org/news/2026-10-hybrid-quantum.html",
+      "summary": "Many of nature's most important processes depend on how particles of matter interact with light and other force-carrying particles. So far, however, it has proven difficult for conventional computers to determine how ind…",
+      "ts": 1791801601000,
+      "publishedAt": "2026-10-12T10:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hurricane Simon churns off Mexican coast after shift in course",
+      "url": "https://phys.org/news/2026-10-hurricane-simon-churns-mexican-coast.html",
+      "summary": "Hurricane Simon shifted track slightly on Sunday and was forecast to skirt Mexico's west coast without making landfall, while packing heavy rain and severe winds.",
+      "ts": 1791796801000,
+      "publishedAt": "2026-10-12T09:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "World leaders urged to 'course correct' as UN nature goals fall short",
@@ -711,94 +799,6 @@
       "title": "All-optical deconvolution via quantum cross-correlation spectroscopy with bright twin beams",
       "url": "https://arxiv.org/abs/2610.13074",
       "summary": "arXiv:2610.13074v1 Announce Type: cross Abstract: The resolution of spectroscopic measurements is fundamentally limited by the convolution between a system's intrinsic response and the instrument response function, creat…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution and breakdown of chiral anomaly in Weyl semiconductor tellurium",
-      "url": "https://arxiv.org/abs/2610.13084",
-      "summary": "arXiv:2610.13084v1 Announce Type: cross Abstract: Chiral anomaly in topological materials manifests as negative longitudinal magnetoresistance, yet the tunability and evolution of this effect remain elusive. Here we show…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast laser-stimulated field emission from a metal: a non-equilibrium Green's functions approach",
-      "url": "https://arxiv.org/abs/2610.13251",
-      "summary": "arXiv:2610.13251v1 Announce Type: cross Abstract: Ultrafast laser-assisted field emission from metallic nanotips is a promising route for generating coherent electron pulses. However, existing theoretical models often ne…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solitons in the nonlinear Schr\\\"odinger equation with the pseudo-Raman term, anti-diffusion gain and nonlinear loss",
-      "url": "https://arxiv.org/abs/2610.13255",
-      "summary": "arXiv:2610.13255v1 Announce Type: cross Abstract: We introduce a nonconservative nonlinear Schr\\\"odinger equation (NLSE) which includes additional nonlinear terms accounting for the pseudo-stimulated-Raman-scattering (ps…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resistive alignment of a black-hole magnetosphere",
-      "url": "https://arxiv.org/abs/2610.13288",
-      "summary": "arXiv:2610.13288v1 Announce Type: cross Abstract: Recent numerical simulations have shown that black-hole magnetospheres evolve rapidly toward alignment between the magnetic axis and spin axis but the physical origin of …",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Recovering Irreducible Three-Body Interactions with Lagrangian Neural Networks",
-      "url": "https://arxiv.org/abs/2610.13292",
-      "summary": "arXiv:2610.13292v1 Announce Type: cross Abstract: Lagrangian Neural Networks (LNNs) learn mechanical systems from trajectory data by parameterizing a scalar Lagrangian and deriving the dynamics through the Euler-Lagrange…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global Optimization of Beam Profiles for Suppressing the Bump-On-Tail Instability",
-      "url": "https://arxiv.org/abs/2610.13391",
-      "summary": "arXiv:2610.13391v1 Announce Type: cross Abstract: A particle beam with constant intensity that propagates into a plasma triggers a bump-on-tail instability. It has been demonstrated that beam modulation can be used to si…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative Eshelby stability: local and finite-shape theory through AI-assisted mechanics",
-      "url": "https://arxiv.org/abs/2610.13400",
-      "summary": "arXiv:2610.13400v1 Announce Type: cross Abstract: How can human researchers use artificial intelligence (AI) to make progress on difficult mechanics problems while retaining control of physical significance, mathematical…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VN-GraphGG: von Neumann--Mullins--based graph grain growth simulation",
-      "url": "https://arxiv.org/abs/2610.13418",
-      "summary": "arXiv:2610.13418v1 Announce Type: cross Abstract: Efficient simulations of grain growth are essential for investigating the process-structure-property relationships in polycrystalline materials. We introduce a two-dimens…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Predicting Nanofabrication Variance: A Conditional Diffusion Model",
-      "url": "https://arxiv.org/abs/2610.13420",
-      "summary": "arXiv:2610.13420v1 Announce Type: cross Abstract: Micro- and nanostructures fabricated by focused ion beam (FIB) milling invariably deviate from input designs due to systematic and stochastic effects such as ablation-rat…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Local Diagnostics of Learned Event Representations for Anomaly Detection at the HL-LHC",
-      "url": "https://arxiv.org/abs/2610.13437",
-      "summary": "arXiv:2610.13437v1 Announce Type: cross Abstract: Anomaly detection, the identification of collision events that deviate from Standard Model expectations, is one of the most promising model-agnostic strategies for new-ph…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A new device for live cell imaging of biological samples under in-plane shear",
-      "url": "https://arxiv.org/abs/2610.13496",
-      "summary": "arXiv:2610.13496v1 Announce Type: cross Abstract: The effect of mechanical stresses and deformations upon the behavior and properties of cells and tissues is a topic of paramount interest in the field of biophysics. Its …",
       "ts": 1791777600000,
       "publishedAt": "2026-10-12T04:00:00.000Z"
     }
