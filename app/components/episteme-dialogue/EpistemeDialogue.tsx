@@ -28783,225 +28783,232 @@ useEffect(() => {
         }
 
         /* =========================================================
-           DESKTOP · OPTICAL BLACK LEGIBILITY REFINEMENT
-           Visual-only overrides. Mobile behavior left unchanged.
-        ========================================================= */
-        @media (min-width: 901px) {
-          .ep-dialogue.ep-monochrome-interface {
-            color: #f0f0f0 !important;
-            background-color: #030303 !important;
-            color-scheme: dark;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-dialogue__ambient {
-            opacity: .12 !important;
-            filter: grayscale(1) !important;
-          }
-          .ep-dialogue.ep-monochrome-interface :is(
-            .ep-case-rail,.ep-case-rail__items,.ep-case-rail__case,
-            .ep-case-rail__case.is-active,.ep-case-rail__case:hover,
-            .ep-agent-work,.ep-agent-work__head,.ep-agent-work__planning-head,
-            .ep-case-completion,.ep-case-closure,.ep-unified-work-state,
-            .ep-scholarly__hero,.ep-scholarly__section,.ep-scholarly__compact,
-            .ep-universal-nexus,.ep-adaptive-canvas,.ep-cognitive-orchestration,
-            .ep-reality-os,.ep-open-scholarly,.ep-reality-governance,
-            .ep-autonomous-reality,.ep-cosmic-answer
-          ) {
-            background-color: #0d0d0d !important;
-            background-image: none !important;
-            border-color: rgba(255,255,255,.15) !important;
-            box-shadow: inset 0 1px 0 rgba(255,255,255,.045) !important;
-            color: #f2f2f2 !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case,
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case.is-active,
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case:hover {
-            background: #111 !important;
-            color: #f6f6f6 !important;
-            border: 1px solid rgba(255,255,255,.23) !important;
-            border-radius: 12px !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case.is-active {
-            background: #1b1b1b !important;
-            border-color: rgba(255,255,255,.45) !important;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case :is(span,strong,small),
-          .ep-dialogue.ep-monochrome-interface .ep-case-rail__label :is(span,small) {
-            color: #efefef !important;
-            opacity: 1 !important;
-          }
-          .ep-dialogue.ep-monochrome-interface :is(
-            .ep-agent-work,.ep-case-completion,.ep-case-closure,
-            .ep-unified-work-state,.ep-scholarly__hero
-          ) :is(h2,h3,h4,strong) {
-            color: rgba(255,255,255,.94) !important;
-          }
-          .ep-dialogue.ep-monochrome-interface :is(
-            .ep-agent-work,.ep-case-completion,.ep-case-closure,
-            .ep-unified-work-state,.ep-scholarly__hero
-          ) :is(p,li,small) {
-            color: rgba(238,238,238,.78) !important;
-            line-height: 1.7;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
-            display: grid !important;
-            grid-template-columns: repeat(2,minmax(0,1fr)) !important;
-            gap: 16px !important;
-            align-items: stretch;
-            width: 100%;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section {
-            display: block !important;
-            padding: 22px !important;
-            margin: 0 !important;
-            background: #111 !important;
-            border: 1px solid rgba(255,255,255,.18) !important;
-            border-radius: 18px !important;
-            min-width: 0;
-            height: auto;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section :is(h3,h4,strong,p,li) {
-            color: #eee !important;
-            overflow-wrap: anywhere;
-            line-height: 1.75;
-          }
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
-            padding: 22px !important;
-            background: #101010 !important;
-            border: 1px solid rgba(255,255,255,.17) !important;
-            border-radius: 18px !important;
-            color: #f1f1f1 !important;
-            white-space: pre-wrap;
-            overflow-wrap: anywhere;
-          }
-          .ep-dialogue.ep-monochrome-interface :is(
-            button,select,textarea,input
-          ) {
-            accent-color: #eee;
-          }
-          .ep-dialogue.ep-monochrome-interface :is(
-            .ep-universal-modebar__modes button,
-            .ep-dialogue__composer-shell button
-          ) {
-            background-color: #111 !important;
-            background-image: none !important;
-            border-color: rgba(255,255,255,.17) !important;
-            color: #f0f0f0 !important;
-          }
-          .ep-dialogue.ep-monochrome-interface :is(
-            .ep-universal-modebar__modes button.is-active,
-            .ep-universal-modebar__modes button:hover
-          ) {
-            background-color: #1b1b1b !important;
-            border-color: rgba(255,255,255,.35) !important;
-          }
-        }
-
-        /* =========================================================
-           STAGE · COHERENT OPTICAL BLACK (VISUAL-ONLY)
-           One terminal cascade for CASE, answer and research cards.
-           No JSX, state, event handler or transfer behavior changes.
+           EPISTEME · OPTICAL BLACK / REFINED PRESENTATION SYSTEM
+           Visual-only. Kept in the existing style block to preserve
+           dialogue state, case workflows, and inference integrations.
         ========================================================= */
         .ep-dialogue.ep-monochrome-interface {
-          --ep-ui-black: #050505;
-          --ep-ui-panel: #0c0c0d;
-          --ep-ui-raised: #121213;
-          --ep-ui-edge: rgba(255,255,255,.15);
-          --ep-ui-edge-active: rgba(255,255,255,.38);
-          --ep-ui-ink: #f3f3f4;
-          --ep-ui-secondary: rgba(244,244,245,.73);
+          --ep-obsidian: #08090b;
+          --ep-surface: #101216;
+          --ep-elevated: #171a1f;
+          --ep-hover: #1d2127;
+          --ep-line: rgba(224,232,243,.115);
+          --ep-line-focus: rgba(231,237,247,.34);
+          --ep-ink: #f2f4f7;
+          --ep-secondary: #c2c9d2;
+          --ep-tertiary: #99a3af;
+          --ep-radius: 18px;
           color-scheme: dark;
-          color: var(--ep-ui-ink);
-          background-color: var(--ep-ui-black);
+          color: var(--ep-ink);
+          -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
         }
+        /* Work surfaces share the same optical-black depth hierarchy. */
         .ep-dialogue.ep-monochrome-interface :is(
-          .ep-case-rail,.ep-case-rail__items,
-          .ep-dialogue__conversation,.ep-message--episteme,
-          .ep-message__body,.ep-scholarly__sections
-        ) { min-width: 0; max-width: 100%; }
-        .ep-dialogue.ep-monochrome-interface :is(
-          .ep-case-rail__case,.ep-scholarly__hero,.ep-scholarly__section,
-          .ep-scholarly__compact,.ep-agent-work,.ep-case-completion,
-          .ep-case-closure,.ep-unified-work-state
+          .ep-case-header,.ep-case-state-machine,.ep-unified-work-state,
+          .ep-case-goal-tree,.ep-case-subtasks,.ep-case-completion,
+          .ep-case-loop,.ep-case-closure,.ep-agent-work,
+          .ep-agent-work__head,.ep-agent-work__planning-head,
+          .ep-scholarly__hero,.ep-scholarly__section,.ep-scholarly__compact,
+          .ep-universal-nexus,.ep-adaptive-canvas,.ep-cognitive-orchestration,
+          .ep-reality-os,.ep-open-scholarly,.ep-reality-governance,
+          .ep-autonomous-reality,.ep-cosmic-answer
         ) {
-          box-sizing: border-box;
-          min-width: 0;
-          background: var(--ep-ui-panel) !important;
+          background-color: var(--ep-surface) !important;
           background-image: none !important;
-          border: 1px solid var(--ep-ui-edge) !important;
-          color: var(--ep-ui-ink) !important;
+          border-color: var(--ep-line) !important;
+          color: var(--ep-ink);
           box-shadow: inset 0 1px 0 rgba(255,255,255,.035) !important;
-          overflow-wrap: anywhere;
         }
+        /* CASE navigation: calm by default, unmistakable when selected. */
         .ep-dialogue.ep-monochrome-interface .ep-case-rail__case {
-          border-radius: 13px !important;
-          min-height: 44px;
-          transition: background-color .2s ease,border-color .2s ease,transform .2s ease;
+          background: var(--ep-surface) !important;
+          background-image: none !important;
+          color: var(--ep-ink) !important;
+          border: 1px solid var(--ep-line) !important;
+          border-radius: 14px !important;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.035) !important;
+          transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case:is(:hover,.is-active) {
-          background: var(--ep-ui-raised) !important;
-          border-color: var(--ep-ui-edge-active) !important;
+        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case:hover:not(:disabled) {
+          background: var(--ep-hover) !important;
+          border-color: rgba(231,237,247,.23) !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case :is(span,strong,small) {
-          color: var(--ep-ui-ink) !important;
-          text-shadow: none !important;
+        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case.is-active {
+          background: var(--ep-elevated) !important;
+          border-color: var(--ep-line-focus) !important;
+          box-shadow: inset 2px 0 0 rgba(237,241,248,.72), inset 0 1px 0 rgba(255,255,255,.045) !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-message__body {
-          color: var(--ep-ui-ink) !important;
-          overflow-wrap: anywhere;
-          word-break: normal;
+        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case :is(span,strong,small),
+        .ep-dialogue.ep-monochrome-interface .ep-case-rail__label :is(span,small) {
+          color: var(--ep-secondary) !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
-          display: grid;
-          grid-template-columns: repeat(2,minmax(0,1fr));
-          gap: 14px;
-          align-items: start;
-          width: 100%;
+        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case strong {
+          color: var(--ep-ink) !important;
         }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section {
-          display: block !important;
-          width: 100%;
-          height: auto;
-          margin: 0 !important;
-          padding: clamp(17px,1.8vw,24px) !important;
-          border-radius: 18px !important;
-          line-height: 1.75;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
-          padding: clamp(17px,1.8vw,24px) !important;
-          border-radius: 18px !important;
-          line-height: 1.75;
-          white-space: pre-wrap;
-        }
+        /* Reading comfort: responsive measure, stable spacing and contrast. */
         .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
-          .ep-scholarly__section,.ep-scholarly__compact,.ep-scholarly__hero
-        ) :is(h2,h3,h4,strong) {
-          color: var(--ep-ui-ink) !important;
-          line-height: 1.45;
-          overflow-wrap: anywhere;
-        }
-        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
-          .ep-scholarly__section,.ep-scholarly__compact,.ep-scholarly__hero
-        ) :is(p,li,small) {
-          color: var(--ep-ui-secondary) !important;
+          .ep-scholarly__hero,.ep-scholarly__compact
+        ) {
+          border-radius: var(--ep-radius) !important;
+          padding: clamp(18px,2.5vw,30px) !important;
           line-height: 1.8;
           overflow-wrap: anywhere;
         }
-        .ep-dialogue.ep-monochrome-interface :is(button,select,textarea,input):focus-visible {
-          outline: 2px solid rgba(255,255,255,.88);
-          outline-offset: 2px;
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+          display: grid !important;
+          grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+          align-items: stretch;
+          gap: clamp(12px,1.5vw,20px) !important;
+          margin-block: clamp(16px,2vw,26px);
+          min-width: 0;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section {
+          min-width: 0;
+          margin: 0 !important;
+          padding: clamp(18px,2vw,28px) !important;
+          background: var(--ep-surface) !important;
+          border: 1px solid var(--ep-line) !important;
+          border-radius: var(--ep-radius) !important;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.04) !important;
+          overflow-wrap: anywhere;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section :is(h2,h3,h4,strong) {
+          color: var(--ep-ink) !important;
+          letter-spacing: -.012em;
+          line-height: 1.45;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section :is(p,li) {
+          color: var(--ep-secondary) !important;
+          line-height: 1.8;
+          overflow-wrap: anywhere;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section header :is(span,small),
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section small {
+          color: var(--ep-tertiary) !important;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
+          white-space: pre-wrap;
+          color: var(--ep-secondary) !important;
+        }
+        /* Nested analytical cards remain distinguishable without color noise. */
+        .ep-dialogue.ep-monochrome-interface :is(
+          .ep-answer-first article,.ep-cognitive-grid > section,
+          .ep-reality-os__grid > section,.ep-open-scholarly__grid > section
+        ) {
+          background: var(--ep-elevated) !important;
+          border-color: var(--ep-line) !important;
+          color: var(--ep-secondary);
+          border-radius: 14px;
+        }
+        /* Keyboard access: avoid hiding focus behind glass treatments. */
+        .ep-dialogue.ep-monochrome-interface :is(button,a,input,textarea,select):focus-visible {
+          outline: 2px solid rgba(232,238,247,.8);
+          outline-offset: 3px;
         }
         @media (max-width: 900px) {
           .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
             grid-template-columns: minmax(0,1fr) !important;
             gap: 12px !important;
           }
-          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section {
-            padding: 17px !important;
-          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
+            .ep-scholarly__hero,.ep-scholarly__compact,.ep-scholarly__section
+          ) { padding: 18px !important; }
         }
         @media (prefers-reduced-motion: reduce) {
           .ep-dialogue.ep-monochrome-interface .ep-case-rail__case { transition: none; }
         }
+
+
+        /* =========================================================
+           EPISTEME · OPTICAL BLACK / HUMAN INTERFACE FINISH
+           Presentation-only; all TS/JSX and existing behaviors intact.
+           Scoped to the Episteme root to avoid global CSS leakage.
+        ========================================================= */
+        .ep-dialogue.ep-monochrome-interface {
+          --ep-surface: #101114;
+          --ep-elevated: #181a1e;
+          --ep-hover: #202329;
+          --ep-line: rgba(238,242,250,.12);
+          --ep-line-focus: rgba(235,241,250,.4);
+          --ep-ink: #f5f6f8;
+          --ep-secondary: #cbd0d8;
+          --ep-tertiary: #a6afba;
+          --ep-radius: 20px;
+          font-synthesis: none;
+        }
+        /* Stable sizing across embedded components, without changing layout modes. */
+        .ep-dialogue.ep-monochrome-interface,
+        .ep-dialogue.ep-monochrome-interface * { box-sizing: border-box; }
+        .ep-dialogue.ep-monochrome-interface :is(.ep-message,.ep-message__body,.ep-scholarly,.ep-scholarly__sections,.ep-dialogue__composer-shell) {
+          min-width: 0;
+          overflow-wrap: anywhere;
+        }
+        /* Quiet, consistent reading surfaces. */
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-message__body {
+          color: var(--ep-ink);
+          line-height: 1.78;
+          letter-spacing: .002em;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(.ep-scholarly__hero,.ep-scholarly__compact,.ep-scholarly__section) {
+          background-color: var(--ep-surface) !important;
+          border: 1px solid var(--ep-line) !important;
+          box-shadow: 0 10px 32px rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.035) !important;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section {
+          transition: border-color .2s ease, background-color .2s ease;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__section:hover {
+          border-color: rgba(235,241,250,.22) !important;
+          background-color: var(--ep-elevated) !important;
+        }
+        /* CASE navigation: crisp active state, restrained interaction feedback. */
+        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case {
+          min-width: 0;
+          transition: background-color .18s ease, border-color .18s ease, box-shadow .18s ease;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-case-rail__case.is-active {
+          border-color: rgba(235,241,250,.42) !important;
+          box-shadow: inset 3px 0 0 rgba(245,247,251,.88), inset 0 1px 0 rgba(255,255,255,.045) !important;
+        }
+        /* Composer: readable text, clear focus, preserve existing sticky behavior. */
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer-shell {
+          border-color: var(--ep-line);
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer :is(textarea,input) {
+          color: var(--ep-ink);
+          caret-color: #f5f6f8;
+          min-width: 0;
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__composer :is(textarea,input)::placeholder {
+          color: var(--ep-tertiary);
+          opacity: 1;
+        }
+        .ep-dialogue.ep-monochrome-interface :is(button,a,[role="button"],textarea,input,select):focus-visible {
+          outline: 2px solid rgba(241,246,255,.86) !important;
+          outline-offset: 3px;
+        }
+        .ep-dialogue.ep-monochrome-interface :is(button,a,[role="button"]) {
+          -webkit-tap-highlight-color: transparent;
+        }
+        @media (max-width: 900px) {
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+            grid-template-columns: minmax(0,1fr) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(.ep-scholarly__hero,.ep-scholarly__compact,.ep-scholarly__section) {
+            padding: clamp(16px,4.4vw,22px) !important;
+            border-radius: 16px !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-case-rail__case { border-radius: 12px !important; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .ep-dialogue.ep-monochrome-interface :is(.ep-case-rail__case,.ep-scholarly__section) {
+            transition: none !important;
+          }
+        }
+
       `}
 
       

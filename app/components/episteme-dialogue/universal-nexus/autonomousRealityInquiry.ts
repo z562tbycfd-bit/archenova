@@ -1,5 +1,19 @@
 import type { UniversalRouteDecision } from "./mode";
-import type { RealityTwinIntelligence, CausalEdgeState } from "./realityTwin";
+import type {
+  RealityTwinIntelligence,
+  CausalEdgeState,
+} from "./realityTwin";
+
+/**
+ * ArcheNova — Autonomous Reality Inquiry
+ * Evidence qualification, falsifiability and bounded model revision.
+ *
+ * This is a planning and governance module,
+ * not an experiment executor.
+ *
+ * A selected inquiry does not imply
+ * new evidence or epistemic gain.
+ */
 
 export type InquiryGapKind =
   | "OBJECT_IDENTITY"
@@ -20,8 +34,19 @@ export type InquiryGap = {
   state: "OPEN" | "BOUNDED" | "BLOCKED";
 };
 
-export type RevisionAction = "RETAIN" | "REFINE" | "WEAKEN" | "REPLACE" | "SPLIT" | "SUSPEND";
-export type InquiryCycleState = "ADVANCED" | "NO_GAIN" | "ESCALATED" | "STOPPED";
+export type RevisionAction =
+  | "RETAIN"
+  | "REFINE"
+  | "WEAKEN"
+  | "REPLACE"
+  | "SPLIT"
+  | "SUSPEND";
+
+export type InquiryCycleState =
+  | "ADVANCED"
+  | "NO_GAIN"
+  | "ESCALATED"
+  | "STOPPED";
 
 export type ModelRevisionProposal = {
   action: RevisionAction;
@@ -51,7 +76,11 @@ export type AutonomousRealityInquiry = {
     rule: string;
   };
   revision: ModelRevisionProposal;
-  impact: Array<{ layer: string; state: "RETAIN" | "RECHECK" | "BLOCK"; reason: string }>;
+  impact: Array<{
+    layer: string;
+    state: "RETAIN" | "RECHECK" | "BLOCK";
+    reason: string;
+  }>;
   cycle: {
     state: InquiryCycleState;
     epistemicGain: string;
@@ -71,107 +100,548 @@ export type AutonomousRealityInquiryInput = {
   correctionRule: string;
 };
 
-function unresolvedCausalCount(twin: RealityTwinIntelligence): number {
-  const weak: CausalEdgeState[] = ["INFERRED", "HYPOTHETICAL", "CONTESTED", "UNKNOWN"];
-  return twin.causalModel.nodes.filter((node) => weak.includes(node.state)).length +
-    twin.causalModel.links.filter((link) => weak.includes(link.state)).length;
+type EvidenceBand =
+  | "STRONG"
+  | "MODERATE"
+  | "LIMITED"
+  | "INSUFFICIENT"
+  | "UNKNOWN";
+
+function clean(
+  value: string | null | undefined,
+): string {
+  return (value ?? "")
+    .replace(/\r/g, "")
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
-function buildGaps(input: AutonomousRealityInquiryInput): InquiryGap[] {
-  const gaps: InquiryGap[] = [];
-  const weakCausality = unresolvedCausalCount(input.twin);
-  const evidenceWeak = input.evidenceStrength === "INSUFFICIENT" || input.evidenceStrength === "LIMITED";
+function band(value: string): EvidenceBand {
+  const text = clean(value).toUpperCase();
 
-  if (!input.claim.trim()) {
-    gaps.push({ id: "object", kind: "OBJECT_IDENTITY", priority: "CRITICAL", question: "What exact proposition or object is being tested?", reason: "Model revision is unsafe without a stable object identity.", state: "BLOCKED" });
+  if (
+    /\b(INSUFFICIENT|UNVERIFIED|UNSUPPORTED|NO EVIDENCE|NONE)\b/.test(
+      text,
+    )
+  ) {
+    return "INSUFFICIENT";
   }
-  if (evidenceWeak) {
-    gaps.push({ id: "evidence", kind: "EVIDENCE", priority: "CRITICAL", question: "What claim-specific evidence would materially strengthen or weaken the current model?", reason: "The present evidence state cannot safely support stronger downstream inference.", state: "OPEN" });
-  }
-  if (weakCausality > 0) {
-    gaps.push({ id: "causality", kind: "CAUSALITY", priority: evidenceWeak ? "HIGH" : "CRITICAL", question: input.twin.causalModel.frontier, reason: `${weakCausality} causal node/link states remain inferential, hypothetical, contested, or unknown.`, state: "OPEN" });
-  }
-  gaps.push({ id: "constraint", kind: "CONSTRAINT", priority: input.twin.constraints.dominant === "INFORMATIONAL" ? "HIGH" : "MEDIUM", question: `What observation would show that ${input.twin.constraints.dominant} is not the dominant constraint?`, reason: "Dominant-constraint selection is a working hypothesis and must remain falsifiable.", state: "OPEN" });
 
-  if (input.route.resolvedMode === "DEPLOY" || input.route.resolvedMode === "ENGINEER") {
-    gaps.push({ id: "implementation", kind: "IMPLEMENTATION", priority: "HIGH", question: "Which minimum real-world intervention can test capability without creating unnecessary irreversible dependency?", reason: "Implementation should advance only through a bounded, correctable test.", state: "OPEN" });
+  if (
+    /\b(LIMITED|WEAK|PRELIMINARY|LOW CONFIDENCE)\b/.test(text)
+  ) {
+    return "LIMITED";
   }
-  if (input.twin.divergence.status !== "ALIGNED") {
-    gaps.push({ id: "divergence", kind: "DIVERGENCE", priority: "CRITICAL", question: "Which observation discriminates model failure from measurement failure, implementation failure, external shock, or a new phenomenon?", reason: "Reality-model divergence is a direct correction signal.", state: "OPEN" });
+
+  if (/\b(MODERATE|PARTIAL|MIXED)\b/.test(text)) {
+    return "MODERATE";
   }
-  if (input.twin.dependencyAccumulation.stage !== "USEFUL" && input.twin.dependencyAccumulation.stage !== "OPEN") {
-    gaps.push({ id: "dependency", kind: "DEPENDENCY", priority: "HIGH", question: "Can the capability still be replaced, paused, recovered, and exited without unacceptable systemic loss?", reason: "Accumulating dependency changes the cost of model error and intervention failure.", state: "OPEN" });
+
+  if (
+    /\b(STRONG|ROBUST|HIGH CONFIDENCE)\b/.test(text)
+  ) {
+    return "STRONG";
   }
-  return gaps;
+
+  return "UNKNOWN";
 }
 
-const priorityRank: Record<InquiryGap["priority"], number> = { CRITICAL: 4, HIGH: 3, MEDIUM: 2, LOW: 1 };
+function weakCausalCount(
+  twin: RealityTwinIntelligence,
+): number {
+  const weak: CausalEdgeState[] = [
+    "INFERRED",
+    "HYPOTHETICAL",
+    "CONTESTED",
+    "UNKNOWN",
+  ];
 
-function selectActiveInquiry(gaps: InquiryGap[]): InquiryGap | null {
-  return [...gaps]
-    .filter((gap) => gap.state === "OPEN")
-    .sort((a, b) => priorityRank[b.priority] - priorityRank[a.priority])[0] ?? null;
+  return (
+    twin.causalModel.nodes.filter(
+      (node) => weak.includes(node.state),
+    ).length +
+    twin.causalModel.links.filter(
+      (link) => weak.includes(link.state),
+    ).length
+  );
 }
 
-function revisionAction(input: AutonomousRealityInquiryInput, gaps: InquiryGap[]): RevisionAction {
-  if (!input.claim.trim()) return "SUSPEND";
-  if (input.twin.divergence.status === "OPEN") return "WEAKEN";
-  if (input.evidenceStrength === "INSUFFICIENT") return "SUSPEND";
-  if (gaps.some((gap) => gap.kind === "CAUSALITY" && gap.priority === "CRITICAL")) return "REFINE";
+function gap(
+  id: string,
+  kind: InquiryGapKind,
+  priority: InquiryGap["priority"],
+  question: string,
+  reason: string,
+  state: InquiryGap["state"] = "OPEN",
+): InquiryGap {
+  return {
+    id,
+    kind,
+    priority,
+    question,
+    reason,
+    state,
+  };
+}
+
+function buildGaps(
+  input: AutonomousRealityInquiryInput,
+): InquiryGap[] {
+  const result: InquiryGap[] = [];
+
+  const claim = clean(input.claim);
+  const evidence = band(input.evidenceStrength);
+
+  const weak =
+    evidence === "INSUFFICIENT" ||
+    evidence === "LIMITED" ||
+    evidence === "UNKNOWN";
+
+  const causalCount = weakCausalCount(input.twin);
+
+  const engineering =
+    input.route.resolvedMode === "ENGINEER" ||
+    input.route.resolvedMode === "DEPLOY";
+
+  const dependency =
+    input.twin.dependencyAccumulation.stage;
+
+  if (!claim) {
+    result.push(
+      gap(
+        "object",
+        "OBJECT_IDENTITY",
+        "CRITICAL",
+        "What exact object, proposition, scope, and measurement conditions are under investigation?",
+        "A model cannot be qualified or revised without a stable claim identity.",
+        "BLOCKED",
+      ),
+    );
+  }
+
+  if (weak) {
+    result.push(
+      gap(
+        "evidence",
+        "EVIDENCE",
+        "CRITICAL",
+        "Which traceable, claim-specific observation could independently support or weaken the proposition?",
+        `The upstream evidence classification is ${evidence}; neither source identity nor replication is verified by this module.`,
+      ),
+    );
+  } else {
+    result.push(
+      gap(
+        "evidence",
+        "EVIDENCE",
+        "MEDIUM",
+        "Are the underlying sources, measurement methods, uncertainty bounds, and independent replications auditable?",
+        `Reported evidence is ${evidence}, but the label does not establish provenance or reproducibility.`,
+        "BOUNDED",
+      ),
+    );
+  }
+
+  if (causalCount > 0) {
+    result.push(
+      gap(
+        "causality",
+        "CAUSALITY",
+        weak ? "HIGH" : "CRITICAL",
+        clean(input.twin.causalModel.frontier) ||
+          "Which intervention or controlled observation distinguishes the competing causal mechanisms?",
+        `${causalCount} graph elements remain inferred, hypothetical, contested, or unknown. Their presence is not itself evidence of a causal failure.`,
+      ),
+    );
+  }
+
+  result.push(
+    gap(
+      "constraint",
+      "CONSTRAINT",
+      engineering ? "HIGH" : "MEDIUM",
+      `What result would falsify the claim that ${input.twin.constraints.dominant.toLowerCase()} is the binding constraint?`,
+      "The selected bottleneck is a working prioritization, not an empirically identified constraint.",
+    ),
+  );
+
+  const counterfactualUnknown =
+    input.twin.counterfactuals.some(
+      (branch) => branch.evidenceState === "UNKNOWN",
+    );
+
+  if (
+    counterfactualUnknown &&
+    (
+      input.route.resolvedMode === "SIMULATE" ||
+      engineering
+    )
+  ) {
+    result.push(
+      gap(
+        "counterfactual",
+        "COUNTERFACTUAL",
+        "MEDIUM",
+        "Which assumptions and observed baseline would allow competing intervention scenarios to be compared fairly?",
+        "A simulated or unobserved alternative world is not an observed causal effect.",
+      ),
+    );
+  }
+
+  if (engineering) {
+    result.push(
+      gap(
+        "implementation",
+        "IMPLEMENTATION",
+        "HIGH",
+        "What minimum bounded prototype could measure performance, safety, failure behavior, and recovery against predefined acceptance criteria?",
+        "Engineering readiness requires measurements and operational controls beyond a scientific explanation.",
+      ),
+    );
+  }
+
+  // OPEN means a missing or unresolved comparison,
+  // not a demonstrated contradiction.
+  if (input.twin.divergence.status === "OPEN") {
+    result.push(
+      gap(
+        "divergence",
+        "DIVERGENCE",
+        "HIGH",
+        "What matched prediction and observation, with common units, conditions, and tolerances, are needed to test model agreement?",
+        "A model–reality comparison is missing or unresolved; divergence has not been demonstrated.",
+      ),
+    );
+  } else if (
+    input.twin.divergence.status === "WATCH"
+  ) {
+    result.push(
+      gap(
+        "divergence",
+        "DIVERGENCE",
+        "MEDIUM",
+        "Can the represented predictions and observations be paired and compared under prespecified tolerances?",
+        "The presence of predicted and observed states does not prove agreement or contradiction.",
+      ),
+    );
+  }
+
+  if (
+    dependency !== "OPEN" &&
+    dependency !== "USEFUL"
+  ) {
+    result.push(
+      gap(
+        "dependency",
+        "DEPENDENCY",
+        "HIGH",
+        "Can affected operators and communities independently stop, replace, recover, and exit the capability?",
+        `The upstream dependency stage is ${dependency}; verify it and test substitution and recovery capacity.`,
+      ),
+    );
+  }
+
+  return result;
+}
+
+const priorityScore: Record<
+  InquiryGap["priority"],
+  number
+> = {
+  CRITICAL: 4,
+  HIGH: 3,
+  MEDIUM: 2,
+  LOW: 1,
+};
+
+const inquiryOrder: Record<
+  InquiryGapKind,
+  number
+> = {
+  OBJECT_IDENTITY: 0,
+  EVIDENCE: 1,
+  CAUSALITY: 2,
+  DIVERGENCE: 3,
+  CONSTRAINT: 4,
+  COUNTERFACTUAL: 5,
+  IMPLEMENTATION: 6,
+  DEPENDENCY: 7,
+};
+
+function selectActiveInquiry(
+  gaps: InquiryGap[],
+): InquiryGap | null {
+  return (
+    [...gaps]
+      .filter((item) => item.state === "OPEN")
+      .sort(
+        (a, b) =>
+          priorityScore[b.priority] -
+            priorityScore[a.priority] ||
+          inquiryOrder[a.kind] -
+            inquiryOrder[b.kind],
+      )[0] ?? null
+  );
+}
+
+function contradictionState(
+  input: AutonomousRealityInquiryInput,
+): "OPEN" | "WATCH" | "CLEAR" {
+  const contested =
+    input.twin.causalModel.nodes.some(
+      (node) => node.state === "CONTESTED",
+    ) ||
+    input.twin.causalModel.links.some(
+      (link) => link.state === "CONTESTED",
+    );
+
+  if (contested) {
+    return "OPEN";
+  }
+
+  // Divergence OPEN indicates missing comparison,
+  // not a verified contradiction.
+  if (
+    input.twin.divergence.status !== "ALIGNED"
+  ) {
+    return "WATCH";
+  }
+
+  return "CLEAR";
+}
+
+function revisionAction(
+  input: AutonomousRealityInquiryInput,
+  gaps: InquiryGap[],
+): RevisionAction {
+  if (!clean(input.claim)) {
+    return "SUSPEND";
+  }
+
+  const evidence = band(input.evidenceStrength);
+
+  const contested =
+    contradictionState(input) === "OPEN";
+
+  if (contested) {
+    return "WEAKEN";
+  }
+
+  if (
+    evidence === "INSUFFICIENT" ||
+    evidence === "UNKNOWN"
+  ) {
+    return "REFINE";
+  }
+
+  if (
+    gaps.some(
+      (item) =>
+        item.kind === "CAUSALITY" &&
+        item.priority === "CRITICAL",
+    )
+  ) {
+    return "REFINE";
+  }
+
+  if (evidence === "LIMITED") {
+    return "REFINE";
+  }
+
   return "RETAIN";
 }
 
-export function buildAutonomousRealityInquiry(input: AutonomousRealityInquiryInput): AutonomousRealityInquiry {
+function proposedModelFor(
+  action: RevisionAction,
+  claim: string,
+): string {
+  switch (action) {
+    case "SUSPEND":
+      return "Suspend substantive inference until the exact claim and object are identified.";
+
+    case "WEAKEN":
+      return `Treat the claim as contested rather than established: ${claim}`;
+
+    case "REFINE":
+      return `Retain as a bounded, testable proposition, not an established causal conclusion: ${claim}`;
+
+    case "REPLACE":
+      return "Replace only after a better-supported alternative survives independent discrimination.";
+
+    case "SPLIT":
+      return "Separate the proposition into independently testable subclaims.";
+
+    default:
+      return `Retain the provisional working proposition subject to new evidence: ${claim}`;
+  }
+}
+
+export function buildAutonomousRealityInquiry(
+  input: AutonomousRealityInquiryInput,
+): AutonomousRealityInquiry {
   const gaps = buildGaps(input);
-  const activeInquiry = selectActiveInquiry(gaps);
+
+  const blocked = gaps.some(
+    (item) => item.state === "BLOCKED",
+  );
+
+  const activeInquiry = blocked
+    ? null
+    : selectActiveInquiry(gaps);
+
   const action = revisionAction(input, gaps);
-  const blocked = gaps.some((gap) => gap.state === "BLOCKED");
-  const externalBoundary = input.evidenceStrength === "INSUFFICIENT" && Boolean(activeInquiry);
-  const cycleState: InquiryCycleState = blocked ? "STOPPED" : externalBoundary ? "ESCALATED" : activeInquiry ? "ADVANCED" : "STOPPED";
+
+  const contradiction = contradictionState(input);
+
+  const evidence = band(input.evidenceStrength);
+
+  const externalEvidenceNeeded =
+    evidence === "INSUFFICIENT" ||
+    evidence === "UNKNOWN";
+
+  /*
+   * No observation history or previous-cycle state
+   * is supplied.
+   *
+   * Therefore ADVANCED and measured epistemic gain
+   * cannot be asserted.
+   */
+  const cycleState: InquiryCycleState = blocked
+    ? "STOPPED"
+    : activeInquiry && externalEvidenceNeeded
+      ? "ESCALATED"
+      : activeInquiry
+        ? "NO_GAIN"
+        : "STOPPED";
+
+  const nextRealityTest =
+    activeInquiry?.question ||
+    clean(input.twin.nextRealityTest.question) ||
+    "Specify a falsifiable claim and the observation that would change its assessment.";
+
+  const impact: AutonomousRealityInquiry["impact"] = [
+    {
+      layer: "CAUSAL MODEL",
+      state:
+        action === "SUSPEND"
+          ? "BLOCK"
+          : action === "RETAIN"
+            ? "RETAIN"
+            : "RECHECK",
+      reason:
+        "Causal conclusions must be revisited when their supporting proposition changes.",
+    },
+    {
+      layer: "CONSTRAINT MODEL",
+      state:
+        action === "SUSPEND"
+          ? "BLOCK"
+          : "RECHECK",
+      reason:
+        "A proposed dominant bottleneck remains conditional until independently tested.",
+    },
+    {
+      layer: "INTERVENTION",
+      state:
+        action === "SUSPEND" ||
+        (
+          externalEvidenceNeeded &&
+          input.route.highStakes
+        )
+          ? "BLOCK"
+          : "RECHECK",
+      reason:
+        "Implementation requires evidence, measurable acceptance criteria, and operational authority.",
+    },
+    {
+      layer: "DEPENDENCY",
+      state:
+        action === "SUSPEND"
+          ? "BLOCK"
+          : "RECHECK",
+      reason:
+        "Scaling decisions must preserve correction, replacement, recovery, and exit.",
+    },
+  ];
 
   return {
-    identity: "AUTONOMOUS REALITY INQUIRY & MODEL REVISION",
-    modelVersion: "WORKING MODEL · CURRENT TURN",
-    currentModel: input.claim || "No stable model proposition is currently available.",
+    identity:
+      "AUTONOMOUS REALITY INQUIRY & MODEL REVISION",
+
+    modelVersion:
+      "WORKING MODEL · CURRENT TURN · UNVERIFIED REVISION",
+
+    currentModel:
+      clean(input.claim) ||
+      "No stable model proposition is available.",
+
     gaps,
+
     activeInquiry,
+
     evidenceFirewall: {
       status: "ACTIVE",
-      objectBinding: input.claim || "OBJECT IDENTITY REQUIRED",
-      admissionRule: "Only evidence bound to the same object or phenomenon and relevant to the governed claim may alter the Reality Model.",
-      rejectionRule: "Shared vocabulary, domain similarity, methodological analogy, or unrelated validation cannot satisfy a model-revision requirement.",
+      objectBinding:
+        clean(input.claim) ||
+        "OBJECT IDENTITY REQUIRED",
+      admissionRule:
+        "Admit evidence only when the same object, claim scope, measurement conditions, source identity, and relevant uncertainty are established. Separate observations, inferences, and proposed interventions; require independent replication for stronger claims.",
+      rejectionRule:
+        "Reject unrelated sources, vocabulary matches without claim identity, circular model confirmation, unsupported causal extrapolation, and simulation presented as observation. Unavailable provenance remains unverified, not automatically false.",
     },
+
     contradictionGate: {
-      state: input.twin.divergence.status === "OPEN" ? "OPEN" : input.twin.divergence.status === "WATCH" ? "WATCH" : "CLEAR",
+      state: contradiction,
       tests: [
-        "Search for direct observations incompatible with the current proposition.",
-        "Separate measurement failure from model failure before revising ontology.",
-        "Test whether an alternative causal structure explains the same observations with fewer unsupported assumptions.",
+        "Define a prospective observation that would be inconsistent with the leading hypothesis under stated conditions.",
+        "Compare competing hypotheses against the same outcome, measurement process, and confounders.",
+        "Distinguish verified conflicting evidence from a missing or unpaired model–observation comparison.",
+        "Investigate measurement, implementation, sampling, and model misspecification before attributing disagreement to new physics.",
       ],
-      rule: "Contradiction changes the model only after object identity and evidence identity survive qualification.",
+      rule:
+        "OPEN means an explicit contested graph element exists, not that contradiction has been independently confirmed. A WATCH state requests comparison, not automatic model rejection. Change model authority only after qualified evidence is admitted.",
     },
+
     revision: {
       action,
       target: "CURRENT REALITY MODEL",
-      currentModel: input.claim || "UNRESOLVED",
-      proposedModel: action === "RETAIN" ? "Retain the present bounded model until discriminating evidence changes it." : action === "REFINE" ? "Narrow the model to what the current evidence and causal structure actually support." : action === "WEAKEN" ? "Reduce claim strength until the observed divergence is explained or resolved." : "Suspend downstream model authority until the missing evidence or object identity is recovered.",
-      trigger: activeInquiry?.reason || "No higher-value unresolved inquiry is currently identified.",
-      evidenceRequirement: activeInquiry?.question || input.twin.nextRealityTest.question,
+      currentModel:
+        clean(input.claim) || "UNRESOLVED",
+      proposedModel: proposedModelFor(
+        action,
+        clean(input.claim),
+      ),
+      trigger:
+        activeInquiry?.reason ||
+        (
+          blocked
+            ? "The claim or object is insufficiently identified."
+            : "No open inquiry outranks the current evidence boundary."
+        ),
+      evidenceRequirement: nextRealityTest,
       authority: "PROPOSED_ONLY",
     },
-    impact: [
-      { layer: "CAUSAL MODEL", state: action === "RETAIN" ? "RETAIN" : "RECHECK", reason: "Causal links inherit any change in the governing proposition." },
-      { layer: "CONSTRAINT MODEL", state: action === "SUSPEND" ? "BLOCK" : "RECHECK", reason: "The dominant constraint may move when evidence or causal structure changes." },
-      { layer: "INTERVENTION", state: action === "RETAIN" ? "RETAIN" : "RECHECK", reason: "Intervention authority must not outrun the revised evidence boundary." },
-      { layer: "DEPENDENCY", state: action === "SUSPEND" ? "BLOCK" : "RECHECK", reason: "Dependency decisions require a model whose failure modes remain observable and correctable." },
-    ],
+
+    impact,
+
     cycle: {
       state: cycleState,
-      epistemicGain: activeInquiry ? `Highest-value unresolved gap selected: ${activeInquiry.kind}.` : "No currently useful unresolved inquiry was identified under the present model state.",
+      epistemicGain: activeInquiry
+        ? `Inquiry selected (${activeInquiry.kind}); no new evidence or verified epistemic gain has been recorded.`
+        : "No verified epistemic gain is recorded; either inquiry is blocked or no open test was selected.",
       noGainCount: 0,
-      stopCondition: "Stop after two consecutive no-gain cycles, when external evidence is required, when object identity is uncertain, or when no useful unresolved work remains.",
+      stopCondition:
+        "Stop if object identity is unresolved, the test cannot distinguish hypotheses, measurement is unsafe, or external evidence is required. The current input contains no cycle history; repeated no-gain counts cannot be inferred.",
     },
-    nextRealityTest: activeInquiry?.question || input.twin.nextRealityTest.question,
-    principle: "Autonomy ≠ Authority. Episteme may identify gaps, prioritize inquiry, test contradictions, and propose revisions; Reality alone can supply the observations that justify changing the working model.",
+
+    nextRealityTest,
+
+    principle:
+      "Autonomy is not authority. " +
+      "Selecting a research question is not conducting an experiment. " +
+      "Missing evidence is not a contradiction. " +
+      "A revised model is a proposal until independent observations justify it. " +
+      "Reality retains veto; action remains bounded by correctability and legitimate governance.",
   };
 }

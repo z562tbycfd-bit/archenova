@@ -2,18 +2,24 @@ import type { UniversalRouteDecision } from "./mode";
 import type { RealityTwinIntelligence } from "./realityTwin";
 import type { AutonomousRealityInquiry } from "./autonomousRealityInquiry";
 
+/**
+ * ArcheNova — Multi-Hypothesis Reality Governance
+ * Scientific Intelligence Edition
+ *
+ * Editorial language: American English.
+ * No external storage or additional dependencies.
+ *
+ * Hypotheses are candidates, not established truths.
+ * Test rankings are heuristic priorities, not measured
+ * information-theoretic information gain.
+ */
+
 export type HypothesisState =
-  | "LEADING"
-  | "VIABLE"
-  | "WEAKENED"
-  | "UNRESOLVED"
-  | "SUSPENDED";
+  | "LEADING" | "VIABLE" | "WEAKENED"
+  | "UNRESOLVED" | "SUSPENDED";
 
 export type HypothesisEvidenceState =
-  | "SUPPORTED"
-  | "PARTIAL"
-  | "CONTESTED"
-  | "UNKNOWN";
+  | "SUPPORTED" | "PARTIAL" | "CONTESTED" | "UNKNOWN";
 
 export type RealityHypothesis = {
   id: string;
@@ -68,13 +74,20 @@ export type AssumptionLedgerEntry = {
   status: "EXPLICIT" | "IMPLICIT" | "UNRESOLVED";
   dependency: string;
   failureEffect: string;
-  testability: "TESTABLE" | "PARTIALLY_TESTABLE" | "EXTERNAL_EVIDENCE_REQUIRED";
+  testability:
+    | "TESTABLE"
+    | "PARTIALLY_TESTABLE"
+    | "EXTERNAL_EVIDENCE_REQUIRED";
   test: string;
 };
 
 export type FailurePropagationNode = {
-  stage: "LOCAL" | "SUBSYSTEM" | "OPERATION" | "INFRASTRUCTURE" | "INSTITUTION" | "SOCIETY";
-  state: "ISOLATED" | "RECOVERABLE" | "CASCADING" | "SYSTEMIC" | "UNRESOLVED";
+  stage:
+    | "LOCAL" | "SUBSYSTEM" | "OPERATION"
+    | "INFRASTRUCTURE" | "INSTITUTION" | "SOCIETY";
+  state:
+    | "ISOLATED" | "RECOVERABLE" | "CASCADING"
+    | "SYSTEMIC" | "UNRESOLVED";
   condition: string;
   correction: string;
 };
@@ -123,198 +136,630 @@ export type MultiHypothesisRealityGovernanceInput = {
   correctionRule: string;
 };
 
-function normalizedEvidence(value: string): RealityConfidenceArchitecture["evidenceStrength"] {
-  if (value === "STRONG") return "STRONG";
-  if (value === "MODERATE") return "PARTIAL";
-  if (value === "LIMITED") return "LIMITED";
+type EvidenceLevel =
+  RealityConfidenceArchitecture["evidenceStrength"];
+
+function clean(value: string | null | undefined): string {
+  return (value ?? "")
+    .replace(/\r/g, "")
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+function distinct(values: string[]): string[] {
+  const seen = new Set<string>();
+  return values.map(clean).filter((value) => {
+    if (!value) return false;
+    const key = value.toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function evidenceLevel(value: string): EvidenceLevel {
+  const text = clean(value).toUpperCase();
+
+  if (
+    /\b(INSUFFICIENT|UNVERIFIED|UNKNOWN|NONE|UNSUPPORTED)\b/.test(text)
+  ) return "INSUFFICIENT";
+
+  if (
+    /\b(LIMITED|WEAK|PRELIMINARY|LOW CONFIDENCE)\b/.test(text)
+  ) return "LIMITED";
+
+  if (
+    /\b(MODERATE|PARTIAL|MIXED)\b/.test(text)
+  ) return "PARTIAL";
+
+  if (
+    /\b(STRONG|ROBUST|HIGH CONFIDENCE)\b/.test(text)
+  ) return "STRONG";
+
   return "INSUFFICIENT";
 }
 
-function buildHypotheses(input: MultiHypothesisRealityGovernanceInput): RealityHypothesis[] {
-  const current = input.claim.trim() || "No stable proposition is currently available.";
-  const alternativeBranch = input.twin.counterfactuals.find((branch) => branch.id === "alternative");
-  const alternative = alternativeBranch
-    ? `${alternativeBranch.premise} ${alternativeBranch.implication}`
-    : "An alternative causal structure may explain the same observations without requiring the current model to be fully correct.";
-  const evidenceInsufficiency = input.uncertainty.trim() ||
-    "The apparent result may remain unresolved because the present evidence cannot yet discriminate among competing explanations.";
+function hasEvidence(level: EvidenceLevel): boolean {
+  return level === "STRONG" || level === "PARTIAL";
+}
 
-  const evidence = normalizedEvidence(input.evidenceStrength);
-  const currentState: HypothesisState = evidence === "STRONG" ? "LEADING" : evidence === "INSUFFICIENT" ? "SUSPENDED" : "VIABLE";
-  const currentEvidence: HypothesisEvidenceState = evidence === "STRONG" ? "SUPPORTED" : evidence === "PARTIAL" ? "PARTIAL" : evidence === "LIMITED" ? "CONTESTED" : "UNKNOWN";
+function isObserved(state: string): boolean {
+  return state === "OBSERVED";
+}
+
+function contradictionState(
+  input: MultiHypothesisRealityGovernanceInput,
+): RealityConfidenceArchitecture["contradiction"] {
+  const state = input.inquiry.contradictionGate.state;
+  return state === "OPEN" || state === "WATCH"
+    ? state
+    : "CLEAR";
+}
+
+function buildHypotheses(
+  input: MultiHypothesisRealityGovernanceInput,
+  level: EvidenceLevel,
+): RealityHypothesis[] {
+  const primary = clean(input.claim);
+  const alternativeBranch = input.twin.counterfactuals.find(
+    (branch) => branch.id === "alternative",
+  );
+
+  const alternative = alternativeBranch
+    ? clean(
+        `${alternativeBranch.premise} ${alternativeBranch.implication}`,
+      )
+    : "";
+
+  const divergence = input.twin.divergence;
+  const contradiction = contradictionState(input);
+
+  const primaryState: HypothesisState =
+    contradiction === "OPEN"
+      ? "WEAKENED"
+      : level === "STRONG"
+        ? "LEADING"
+        : level === "INSUFFICIENT"
+          ? "UNRESOLVED"
+          : "VIABLE";
+
+  const primaryEvidence: HypothesisEvidenceState =
+    contradiction === "OPEN"
+      ? "CONTESTED"
+      : level === "STRONG"
+        ? "SUPPORTED"
+        : level === "PARTIAL"
+          ? "PARTIAL"
+          : "UNKNOWN";
+
+  const observedNodes = input.twin.causalModel.nodes
+    .filter((node) => isObserved(node.state))
+    .map((node) => node.statement);
+
+  const sourceBasis = distinct([
+    `Reported evidence classification: ${level}.`,
+    ...observedNodes.slice(0, 3),
+  ]);
+
+  const alternativeProposition = alternative ||
+    "A different causal mechanism, confounder, or model structure may explain the available observations.";
+
+  const uncertainty = clean(input.uncertainty) ||
+    "The present evidence may not distinguish the candidate explanations.";
 
   return [
     {
       id: "H1",
-      label: "CURRENT BOUNDED MODEL",
-      proposition: current,
-      state: currentState,
-      evidenceState: currentEvidence,
-      supportingBasis: [
-        `Current evidence state: ${input.evidenceStrength}.`,
-        input.twin.causalModel.nodes[0]?.statement || "The current Reality Twin contains a bounded causal representation.",
-      ],
-      contradictingBasis: input.twin.divergence.status === "ALIGNED"
-        ? ["No direct model-reality divergence is presently encoded in this turn."]
-        : input.twin.divergence.diagnostic,
+      label: "PRIMARY SCIENTIFIC MODEL",
+      proposition: primary ||
+        "The primary proposition has not been specified.",
+      state: primary ? primaryState : "UNRESOLVED",
+      evidenceState: primary ? primaryEvidence : "UNKNOWN",
+      supportingBasis: sourceBasis,
+      contradictingBasis:
+        divergence.status === "OPEN"
+          ? distinct(divergence.diagnostic)
+          : contradiction === "OPEN"
+            ? ["An unresolved contradiction is encoded."]
+            : [],
       assumptions: [
-        "The canonical object and proposition remain stable across the inquiry.",
-        "Observed evidence is sufficiently specific to the governed claim.",
+        "The claim and the evidence refer to the same phenomenon.",
+        "The proposed causal relationships are not established solely by correlation.",
       ],
-      discriminatingObservation: input.twin.causalModel.frontier,
-      rule: "Leading does not mean true. The current model remains provisional until a discriminating observation survives evidence qualification.",
+      discriminatingObservation:
+        clean(input.twin.causalModel.frontier) ||
+        clean(input.inquiry.nextRealityTest),
+      rule:
+        "A leading model is provisional. Require independently discriminating evidence before increasing confidence.",
     },
     {
       id: "H2",
-      label: "ALTERNATIVE CAUSAL MODEL",
-      proposition: alternative,
-      state: "VIABLE",
+      label: "COMPETING CAUSAL EXPLANATION",
+      proposition: alternativeProposition,
+      state: "UNRESOLVED",
       evidenceState: "UNKNOWN",
-      supportingBasis: ["Alternative explanations must remain available whenever the same observation can arise through a different causal path."],
-      contradictingBasis: ["No alternative may be promoted without object-specific evidence that distinguishes it from the current model."],
-      assumptions: ["A materially different causal structure can generate the observed state."],
-      discriminatingObservation: `Which observation would be expected under H2 but not under H1? ${input.twin.nextRealityTest.question}`,
-      rule: "Alternative models are preserved to prevent premature convergence, not to manufacture false balance.",
+      supportingBasis: alternative
+        ? ["A candidate alternative is represented in the Reality Twin."]
+        : [],
+      contradictingBasis: [],
+      assumptions: [
+        "A materially different mechanism could explain the same outcome.",
+        "The alternative has not yet been independently verified.",
+      ],
+      discriminatingObservation:
+        "Identify a measurable result predicted differently by H1 and H2 under matched conditions.",
+      rule:
+        "Preserve plausible alternatives without assigning equal evidentiary weight to unsupported claims.",
     },
     {
       id: "H3",
-      label: "EVIDENCE-LIMITED / NULL MODEL",
-      proposition: evidenceInsufficiency,
-      state: evidence === "INSUFFICIENT" || evidence === "LIMITED" ? "VIABLE" : "UNRESOLVED",
-      evidenceState: evidence === "INSUFFICIENT" ? "SUPPORTED" : "PARTIAL",
-      supportingBasis: ["Absence of discriminating evidence can itself bound claim strength."],
-      contradictingBasis: ["A replicated, object-specific discriminator would weaken this explanation."],
-      assumptions: ["Current uncertainty may reflect measurement, sampling, model, or external-validity limits rather than a new causal effect."],
-      discriminatingObservation: input.inquiry.nextRealityTest,
-      rule: "Insufficient evidence is not evidence of no effect; it is a boundary on what may currently be claimed.",
+      label: "MEASUREMENT OR IDENTIFICATION LIMITATION",
+      proposition:
+        `The apparent result may remain unresolved because of measurement, sampling, confounding, or model-identification limits. ${uncertainty}`,
+      state: level === "INSUFFICIENT" || level === "LIMITED"
+        ? "VIABLE"
+        : "UNRESOLVED",
+      evidenceState: "UNKNOWN",
+      supportingBasis: distinct([
+        clean(input.uncertainty),
+        level === "INSUFFICIENT"
+          ? "The reported evidence does not establish the primary proposition."
+          : "",
+      ]),
+      contradictingBasis: [],
+      assumptions: [
+        "The observed pattern may not uniquely identify its cause.",
+      ],
+      discriminatingObservation:
+        "Repeat the measurement with independent controls, calibrated instruments, and a prespecified analysis.",
+      rule:
+        "Insufficient evidence is not evidence of no effect. A methodological concern is not itself a verified causal explanation.",
     },
   ];
 }
 
-function buildDiscriminatingTests(input: MultiHypothesisRealityGovernanceInput): DiscriminatingTest[] {
-  const external = input.inquiry.cycle.state === "ESCALATED";
-  return [
-    {
+function testCandidates(
+  input: MultiHypothesisRealityGovernanceInput,
+): DiscriminatingTest[] {
+  const inquiryTest = clean(input.inquiry.nextRealityTest);
+  const frontier = clean(input.twin.causalModel.frontier);
+  const dominant = input.twin.constraints.dominant;
+  const escalated = input.inquiry.cycle.state === "ESCALATED";
+
+  const tests: DiscriminatingTest[] = [];
+
+  if (inquiryTest) {
+    tests.push({
       id: "D1",
-      question: input.inquiry.nextRealityTest,
+      question: inquiryTest,
       distinguishes: ["H1", "H2", "H3"],
       expectedInformationGain: "HIGH",
-      feasibility: external ? "EXTERNAL_EVIDENCE_REQUIRED" : "READY",
-      reason: "The autonomous inquiry already identified this as the highest-value unresolved Reality test.",
-      stopCondition: "Stop if the test cannot bind to the same object/phenomenon or cannot discriminate at least two viable hypotheses.",
-    },
-    {
+      feasibility: escalated
+        ? "EXTERNAL_EVIDENCE_REQUIRED"
+        : "BOUNDED",
+      reason:
+        "Candidate priority: directly addresses the unresolved inquiry. Actual information gain depends on distinct predictions and measurement quality.",
+      stopCondition:
+        "Stop or redesign if the test cannot distinguish at least two hypotheses or lacks a valid measurement plan.",
+    });
+  }
+
+  if (frontier && frontier !== inquiryTest) {
+    tests.push({
       id: "D2",
-      question: input.twin.causalModel.frontier,
+      question: frontier,
       distinguishes: ["H1", "H2"],
       expectedInformationGain: "HIGH",
       feasibility: "BOUNDED",
-      reason: "Directly targets the weakest causal edge rather than accumulating more background information.",
-      stopCondition: "Stop when the observation would be compatible with both hypotheses under the same assumptions.",
-    },
-    {
-      id: "D3",
-      question: `What observation would falsify the assumption that ${input.twin.constraints.dominant} is the dominant constraint?`,
-      distinguishes: ["H1", "CONSTRAINT MODEL"],
-      expectedInformationGain: "MEDIUM",
-      feasibility: "BOUNDED",
-      reason: "A wrong dominant-constraint model can misdirect otherwise valid intervention planning.",
-      stopCondition: "Stop if the proposed observation only restates the current constraint assumption.",
-    },
-  ];
+      reason:
+        "Targets a causal uncertainty represented by the Reality Twin. Discrimination remains to be demonstrated.",
+      stopCondition:
+        "Stop if the competing models predict indistinguishable outcomes under the tested conditions.",
+    });
+  }
+
+  tests.push({
+    id: "D3",
+    question:
+      `Which controlled observation would show that ${dominant.toLowerCase()} is not the limiting constraint?`,
+    distinguishes: ["H1", "H3"],
+    expectedInformationGain: "MEDIUM",
+    feasibility: "BOUNDED",
+    reason:
+      "Tests whether the proposed bottleneck is causal rather than merely assumed.",
+    stopCondition:
+      "Reject a test that only restates the bottleneck assumption.",
+  });
+
+  tests.push({
+    id: "D4",
+    question:
+      "Can an independent measurement or replication reproduce the decisive result while controlling plausible confounders?",
+    distinguishes: ["H1", "H3"],
+    expectedInformationGain: "MEDIUM",
+    feasibility: "EXTERNAL_EVIDENCE_REQUIRED",
+    reason:
+      "Independent replication helps separate robust effects from measurement and selection artifacts.",
+    stopCondition:
+      "Do not claim replication without an independently executed and documented procedure.",
+  });
+
+  return tests;
 }
 
-function buildTemporalModel(input: MultiHypothesisRealityGovernanceInput): TemporalRealityLayer[] {
-  return [
-    { horizon: "PAST", state: "OBSERVED", statement: "Historical observations and prior evidence define the inherited evidence boundary; they do not automatically describe the current state.", authority: "SOURCE / OBSERVATION BOUND" },
-    { horizon: "CURRENT", state: "WORKING_MODEL", statement: input.claim || "Current proposition unresolved.", authority: "PROVISIONAL WORKING MODEL" },
-    { horizon: "NEAR_FUTURE", state: "SCENARIO", statement: input.twin.intervention.minimumSufficientIntervention, authority: "CONDITIONAL · NOT PREDICTION" },
-    { horizon: "LONG_HORIZON", state: "TARGET", statement: "Long-horizon outcomes remain scenario-dependent and must not inherit the evidentiary authority of present observations.", authority: "TARGET / SCENARIO ONLY" },
-  ];
+function selectPreferredTest(
+  tests: DiscriminatingTest[],
+  input: MultiHypothesisRealityGovernanceInput,
+): DiscriminatingTest | null {
+  const gain = { HIGH: 3, MEDIUM: 2, LOW: 1 };
+  const feasible = {
+    READY: 3,
+    BOUNDED: 2,
+    EXTERNAL_EVIDENCE_REQUIRED: 1,
+  };
+
+  const contradiction = contradictionState(input);
+
+  return [...tests].sort((a, b) => {
+    const score = (test: DiscriminatingTest) =>
+      gain[test.expectedInformationGain] * 4 +
+      feasible[test.feasibility] +
+      (
+        contradiction === "OPEN" &&
+        test.distinguishes.includes("H2")
+          ? 2
+          : 0
+      );
+
+    return score(b) - score(a);
+  })[0] ?? null;
 }
 
-function buildActors(input: MultiHypothesisRealityGovernanceInput): RealityActor[] {
-  const dominant = input.twin.constraints.dominant;
-  return [
-    { actor: "SCIENTIST / EVIDENCE PRODUCER", objective: "Discriminate reality among competing explanations.", incentive: "Reproducible explanatory power.", constraint: "Measurement, access, sample, and causal identification.", authority: "Evidence generation; not unilateral deployment authority.", risk: "Premature theory closure.", exitOption: "Revise or abandon the model when discriminating evidence fails." },
-    { actor: "ENGINEER / OPERATOR", objective: "Translate validated structure into reliable capability.", incentive: "Performance, reliability, maintainability.", constraint: `${dominant} and other real-world system limits.`, authority: "Prototype and operate within bounded technical authority.", risk: "Capability outruns evidence or recoverability.", exitOption: "Pause, rollback, replace, isolate, or decommission where designed." },
-    { actor: "INSTITUTION / REGULATOR", objective: "Bound externalities, liability, legitimacy, and systemic risk.", incentive: "Public safety and accountable deployment.", constraint: "Jurisdiction, enforcement, information asymmetry, institutional capacity.", authority: "Authorize, constrain, audit, or halt regulated deployment.", risk: "Lock-in before governance catches up.", exitOption: "Suspend authorization, impose conditions, mandate recovery, or require substitution." },
-    { actor: "CAPITAL / SPONSOR", objective: "Allocate resources toward durable value.", incentive: "Return, strategic option value, mission outcomes.", constraint: "Uncertainty, capital intensity, time horizon, financing structure.", authority: "Fund or withhold capital; not scientific truth authority.", risk: "Scaling incentives amplify epistemic debt.", exitOption: "Stage-gated financing and explicit loss containment." },
-    { actor: "PUBLIC / AFFECTED COMMUNITY", objective: "Receive benefits without bearing opaque or involuntary downside.", incentive: "Safety, access, fairness, continuity, autonomy.", constraint: "Information asymmetry and limited direct control over infrastructure.", authority: "Legitimacy, consent where applicable, political and social challenge.", risk: "Dependency without meaningful exit or recourse.", exitOption: "Substitution, opt-out where feasible, remedy, representation, or institutional challenge." },
-  ];
-}
+function buildConfidence(
+  input: MultiHypothesisRealityGovernanceInput,
+  level: EvidenceLevel,
+): RealityConfidenceArchitecture {
+  const nodes = input.twin.causalModel.nodes;
+  const links = input.twin.causalModel.links;
+  const gaps = input.inquiry.gaps;
 
-function buildGovernance(input: MultiHypothesisRealityGovernanceInput): GovernanceQuestion[] {
-  const deploymentOriented = input.route.resolvedMode === "DEPLOY" || input.route.resolvedMode === "ENGINEER";
-  return [
-    { dimension: "AUTHORITY", status: deploymentOriented ? "OPEN" : "CLEAR", question: "Who has legitimate authority to initiate, scale, pause, or terminate the intervention?", reason: "Technical feasibility does not create institutional authority." },
-    { dimension: "RISK BEARING", status: "OPEN", question: "Who absorbs first loss, operational harm, and tail-risk consequences if the model is wrong?", reason: "Risk allocation must remain explicit before irreversibility increases." },
-    { dimension: "BENEFIT", status: "OPEN", question: "Who receives the benefit, and are affected actors exposed to costs they did not choose?", reason: "Aggregate benefit can hide asymmetric burden." },
-    { dimension: "STOP POWER", status: "OPEN", question: "Who can stop the system, under what trigger, and with what recovery path?", reason: "Correctability requires executable stop authority, not only theoretical reversibility." },
-    { dimension: "ACCOUNTABILITY", status: "OPEN", question: "Which actor remains accountable when causal responsibility crosses technical, institutional, and operational boundaries?", reason: "Distributed systems can diffuse responsibility faster than risk." },
-  ];
-}
+  const unresolvedCausality =
+    links.some((link) =>
+      ["UNKNOWN", "CONTESTED", "HYPOTHETICAL"].includes(link.state),
+    ) ||
+    nodes.some((node) =>
+      ["UNKNOWN", "CONTESTED", "HYPOTHETICAL"].includes(node.state),
+    );
 
-function buildAssumptions(input: MultiHypothesisRealityGovernanceInput): AssumptionLedgerEntry[] {
-  return [
-    { id: "A1", assumption: "The canonical claim refers to a stable object and proposition across the current inquiry.", status: input.claim.trim() ? "EXPLICIT" : "UNRESOLVED", dependency: "All hypothesis comparison and evidence admission.", failureEffect: "The competing-model comparison becomes invalid because hypotheses are no longer about the same object.", testability: "TESTABLE", test: "Re-check object identity and canonical proposition before admitting new evidence." },
-    { id: "A2", assumption: `${input.twin.constraints.dominant} is presently the dominant constraint.`, status: "EXPLICIT", dependency: "Intervention priority and deployment sequence.", failureEffect: "Resources may be directed toward the wrong bottleneck.", testability: "PARTIALLY_TESTABLE", test: `Seek an observation showing that relieving ${input.twin.constraints.dominant} does not materially change reachability.` },
-    { id: "A3", assumption: "The minimum intervention remains bounded, observable, and recoverable before dependency accumulates.", status: "IMPLICIT", dependency: "Safe progression from capability to deployment.", failureEffect: "A pilot can create structural lock-in before correction mechanisms mature.", testability: "PARTIALLY_TESTABLE", test: "Define explicit pause, rollback, replacement, and recovery criteria before scale-up." },
-    { id: "A4", assumption: "Scenario outputs are not being treated as observations or predictions.", status: "EXPLICIT", dependency: "Counterfactual and long-horizon reasoning.", failureEffect: "Model-generated futures can acquire unjustified factual authority.", testability: "TESTABLE", test: "Audit every scenario statement for clear conditional language and evidence boundary." },
-  ];
-}
+  const hasCausalEvidence =
+    links.some((link) => link.state === "SUPPORTED");
 
-function buildFailurePropagation(input: MultiHypothesisRealityGovernanceInput): FailurePropagationNode[] {
-  const dep = input.twin.dependencyAccumulation.stage;
-  return [
-    { stage: "LOCAL", state: "ISOLATED", condition: "A bounded component, test, or assumption fails.", correction: "Detect, isolate, and preserve evidence before changing downstream architecture." },
-    { stage: "SUBSYSTEM", state: "RECOVERABLE", condition: "Failure affects a coupled capability or causal dependency.", correction: "Rollback the affected subsystem and re-test the causal/constraint model." },
-    { stage: "OPERATION", state: dep === "USEFUL" || dep === "OPEN" ? "RECOVERABLE" : "CASCADING", condition: "Operational continuity depends on the failed capability.", correction: "Switch to redundancy, degraded mode, replacement path, or controlled shutdown." },
-    { stage: "INFRASTRUCTURE", state: dep === "CRITICAL_DEPENDENCY" ? "SYSTEMIC" : "UNRESOLVED", condition: "Multiple dependent services inherit the same failure path.", correction: "Break common-mode dependencies and restore independent alternatives." },
-    { stage: "INSTITUTION", state: "UNRESOLVED", condition: "Authority, liability, or recovery coordination fails across organizations.", correction: "Pre-assign stop power, loss allocation, escalation, and recovery responsibility." },
-    { stage: "SOCIETY", state: dep === "CRITICAL_DEPENDENCY" ? "SYSTEMIC" : "UNRESOLVED", condition: "Loss of capability becomes difficult to substitute without broad social disruption.", correction: "Prevent irreversible dependency from exceeding independent recovery and substitution capacity." },
-  ];
-}
+  const openGaps = gaps.some((gap) => gap.state === "OPEN");
 
-function buildReversibility(input: MultiHypothesisRealityGovernanceInput): ReversibilityWindow[] {
-  const dep = input.twin.dependencyAccumulation.stage;
-  return [
-    { phase: "MODEL / LAB", state: "HIGH", exitCondition: "Abandon or revise the hypothesis before capability commitment.", warning: "Low deployment cost does not eliminate epistemic error." },
-    { phase: "PROTOTYPE", state: "HIGH", exitCondition: "Stop after bounded validation failure; preserve alternative architecture.", warning: "Prototype scope must remain smaller than recovery capacity." },
-    { phase: "PILOT", state: "MODERATE", exitCondition: "Rollback while affected actors and infrastructure remain substitutable.", warning: "Operational coupling begins to create real switching costs." },
-    { phase: "SCALE-UP", state: dep === "USEFUL" || dep === "OPEN" ? "MODERATE" : "LOW", exitCondition: "Maintain independent substitutes, contractual exit rights, and recovery capacity.", warning: "Scale can convert technical success into institutional and capital lock-in." },
-    { phase: "EMBEDDED DEPENDENCY", state: dep === "CRITICAL_DEPENDENCY" ? "STRUCTURAL_LOCK_IN" : "LOW", exitCondition: "Exit requires system-level substitution rather than component rollback.", warning: "Do not cross this boundary unless recovery and replacement capacity remain independently demonstrable." },
-  ];
-}
-
-function buildConfidence(input: MultiHypothesisRealityGovernanceInput): RealityConfidenceArchitecture {
-  const evidence = normalizedEvidence(input.evidenceStrength);
-  const contradiction = input.inquiry.contradictionGate.state;
-  const boundaryOpen = input.inquiry.gaps.some((gap) => gap.state === "OPEN");
-  const weakCausality = input.twin.causalModel.nodes.some((node) => ["INFERRED", "HYPOTHETICAL", "CONTESTED", "UNKNOWN"].includes(node.state));
   return {
-    evidenceStrength: evidence,
-    replication: evidence === "STRONG" ? "PARTIAL" : "UNKNOWN",
-    mechanism: weakCausality ? "PARTIAL" : "SUPPORTED",
-    boundary: boundaryOpen ? "PARTIAL" : "CLEAR",
-    contradiction,
+    evidenceStrength: level,
+    replication: "UNKNOWN",
+    mechanism: unresolvedCausality
+      ? "PARTIAL"
+      : hasCausalEvidence
+        ? "PARTIAL"
+        : "UNKNOWN",
+    boundary: openGaps ? "OPEN" : "PARTIAL",
+    contradiction: contradictionState(input),
     externalValidity: "UNKNOWN",
     temporalStability: "UNKNOWN",
-    rule: "Do not collapse multidimensional confidence into a single percentage. Evidence, mechanism, replication, boundary, transfer, contradiction, and temporal stability may diverge.",
+    rule:
+      "Reported evidence strength does not establish replication, causal identification, transferability, or temporal stability. Each requires separate validation.",
   };
+}
+
+function buildTemporalModel(
+  input: MultiHypothesisRealityGovernanceInput,
+): TemporalRealityLayer[] {
+  const observed = input.twin.causalModel.nodes
+    .filter((node) => node.state === "OBSERVED")
+    .map((node) => node.statement);
+
+  return [
+    {
+      horizon: "PAST",
+      state: "WORKING_MODEL",
+      statement:
+        "Historical validity has not been independently established by this module.",
+      authority: "HISTORICAL EVIDENCE NOT VERIFIED",
+    },
+    {
+      horizon: "CURRENT",
+      state: observed.length > 0
+        ? "OBSERVED"
+        : "WORKING_MODEL",
+      statement: observed.length > 0
+        ? observed.slice(0, 3).join(" ")
+        : clean(input.claim) || "Current state unresolved.",
+      authority: observed.length > 0
+        ? "UPSTREAM OBSERVATION LABELS; PROVENANCE NOT VERIFIED HERE"
+        : "PROVISIONAL MODEL",
+    },
+    {
+      horizon: "NEAR_FUTURE",
+      state: "SCENARIO",
+      statement:
+        input.twin.intervention.minimumSufficientIntervention,
+      authority: "CONDITIONAL SCENARIO",
+    },
+    {
+      horizon: "LONG_HORIZON",
+      state: "TARGET",
+      statement:
+        "Long-term value requires demonstrated performance, independent correction, recoverability, and legitimate governance.",
+      authority: "NORMATIVE TARGET; NOT A FORECAST",
+    },
+  ];
+}
+
+function buildActors(
+  input: MultiHypothesisRealityGovernanceInput,
+): RealityActor[] {
+  const constraint = input.twin.constraints.dominant;
+
+  return [
+    {
+      actor: "RESEARCHER / EVIDENCE PRODUCER",
+      objective: "Discriminate competing explanations.",
+      incentive: "Reproducible explanatory and predictive power.",
+      constraint: "Measurement, identification, replication, and access.",
+      authority: "Generate and interpret evidence, subject to review.",
+      risk: "Premature convergence or selective reporting.",
+      exitOption: "Revise, reject, or replace the model.",
+    },
+    {
+      actor: "ENGINEER / OPERATOR",
+      objective: "Build measurable and reliable capability.",
+      incentive: "Performance, safety, and maintainability.",
+      constraint: `Candidate limiting factor: ${constraint}.`,
+      authority: "Operate within defined technical authorization.",
+      risk: "Deployment outruns validation or recovery capacity.",
+      exitOption: "Pause, isolate, roll back, or replace.",
+    },
+    {
+      actor: "INSTITUTION / REGULATOR",
+      objective: "Protect legitimacy, safety, and accountability.",
+      incentive: "Public value and manageable externalities.",
+      constraint: "Jurisdiction, oversight, and enforcement capacity.",
+      authority: "Authorize, audit, restrict, or halt as applicable.",
+      risk: "Institutional lock-in and responsibility gaps.",
+      exitOption: "Suspend approval or require remediation.",
+    },
+    {
+      actor: "CAPITAL / SPONSOR",
+      objective: "Allocate resources to durable value.",
+      incentive: "Returns, mission outcomes, and strategic options.",
+      constraint: "Capital intensity, uncertainty, and time.",
+      authority: "Finance or withhold resources.",
+      risk: "Premature scale and sunk-cost escalation.",
+      exitOption: "Stage-gated funding and loss containment.",
+    },
+    {
+      actor: "PUBLIC / AFFECTED COMMUNITY",
+      objective: "Receive benefits without involuntary harm.",
+      incentive: "Safety, access, autonomy, and continuity.",
+      constraint: "Information asymmetry and limited control.",
+      authority: "Participation, challenge, and rights as applicable.",
+      risk: "Dependency without meaningful recourse.",
+      exitOption: "Remedy, substitution, representation, or opt-out where feasible.",
+    },
+  ];
+}
+
+function buildGovernance(
+  input: MultiHypothesisRealityGovernanceInput,
+): GovernanceQuestion[] {
+  const deployment =
+    input.route.resolvedMode === "DEPLOY" ||
+    input.route.resolvedMode === "ENGINEER";
+
+  const items: GovernanceQuestion[] = [
+    {
+      dimension: "SCIENTIFIC VALIDITY",
+      status: "OPEN",
+      question:
+        "Which independent evidence would establish or falsify the central causal claim?",
+      reason: "A working model cannot certify its own truth.",
+    },
+    {
+      dimension: "AUTHORITY",
+      status: deployment ? "OPEN" : "OPEN",
+      question:
+        "Who may authorize, pause, audit, and terminate the intervention?",
+      reason: "Technical feasibility does not establish legal authority.",
+    },
+    {
+      dimension: "SAFETY",
+      status: "OPEN",
+      question:
+        "What measurable failure limits and stop conditions are required?",
+      reason: "Unverified safety cannot be inferred from model confidence.",
+    },
+    {
+      dimension: "RECOVERABILITY",
+      status: "OPEN",
+      question:
+        "Can the system recover, be replaced, or exit without disproportionate harm?",
+      reason: "Rollback must remain operationally feasible.",
+    },
+    {
+      dimension: "ACCOUNTABILITY",
+      status: "OPEN",
+      question:
+        "Who bears responsibility and losses across technical and institutional boundaries?",
+      reason: "Distributed operation must not erase accountability.",
+    },
+    {
+      dimension: "PUBLIC VALUE",
+      status: "OPEN",
+      question:
+        "Who benefits, who bears externalities, and how are adverse effects remedied?",
+      reason: "Aggregate benefit can conceal asymmetric harm.",
+    },
+  ];
+
+  return items;
+}
+
+function buildAssumptions(
+  input: MultiHypothesisRealityGovernanceInput,
+): AssumptionLedgerEntry[] {
+  const constraint = input.twin.constraints.dominant;
+
+  return [
+    {
+      id: "A1",
+      assumption:
+        "The central claim and admitted evidence describe the same object and conditions.",
+      status: clean(input.claim) ? "EXPLICIT" : "UNRESOLVED",
+      dependency: "Hypothesis comparison.",
+      failureEffect: "Evidence becomes irrelevant or misleading.",
+      testability: "TESTABLE",
+      test: "Check object identity, measurement conditions, and claim scope.",
+    },
+    {
+      id: "A2",
+      assumption:
+        `${constraint} is the dominant limiting constraint.`,
+      status: "IMPLICIT",
+      dependency: "Intervention selection.",
+      failureEffect: "Resources target the wrong bottleneck.",
+      testability: "PARTIALLY_TESTABLE",
+      test:
+        "Compare expected outcomes after relaxing competing constraints.",
+    },
+    {
+      id: "A3",
+      assumption:
+        "The candidate causal model is identifiable from available observations.",
+      status: "UNRESOLVED",
+      dependency: "Causal inference.",
+      failureEffect: "Competing mechanisms remain observationally equivalent.",
+      testability: "EXTERNAL_EVIDENCE_REQUIRED",
+      test:
+        "Design a controlled intervention or independent discriminator.",
+    },
+    {
+      id: "A4",
+      assumption:
+        "The intervention remains observable, reversible, and recoverable.",
+      status: "UNRESOLVED",
+      dependency: "Pilot and deployment decisions.",
+      failureEffect: "An experimental capability creates irreversible harm.",
+      testability: "PARTIALLY_TESTABLE",
+      test:
+        "Define and exercise stop, rollback, and recovery procedures.",
+    },
+  ];
+}
+
+function buildFailurePropagation(
+  input: MultiHypothesisRealityGovernanceInput,
+): FailurePropagationNode[] {
+  const critical =
+    input.twin.dependencyAccumulation.stage ===
+    "CRITICAL_DEPENDENCY";
+
+  return [
+    {
+      stage: "LOCAL",
+      state: "UNRESOLVED",
+      condition: "A component, measurement, or assumption fails.",
+      correction: "Detect, isolate, and retain diagnostic evidence.",
+    },
+    {
+      stage: "SUBSYSTEM",
+      state: "UNRESOLVED",
+      condition: "A local failure affects connected functions.",
+      correction: "Validate isolation and rollback capacity.",
+    },
+    {
+      stage: "OPERATION",
+      state: "UNRESOLVED",
+      condition: "Operational continuity depends on the failed subsystem.",
+      correction: "Test degraded modes and independent substitutes.",
+    },
+    {
+      stage: "INFRASTRUCTURE",
+      state: critical ? "SYSTEMIC" : "UNRESOLVED",
+      condition: "Common-mode failure reaches dependent infrastructure.",
+      correction: "Reduce shared dependencies and verify recovery.",
+    },
+    {
+      stage: "INSTITUTION",
+      state: "UNRESOLVED",
+      condition: "Coordination, authority, or liability mechanisms fail.",
+      correction: "Assign executable stop authority and accountability.",
+    },
+    {
+      stage: "SOCIETY",
+      state: critical ? "SYSTEMIC" : "UNRESOLVED",
+      condition: "Substitution becomes difficult across essential services.",
+      correction: "Maintain independent alternatives and public safeguards.",
+    },
+  ];
+}
+
+function buildReversibility(
+  input: MultiHypothesisRealityGovernanceInput,
+): ReversibilityWindow[] {
+  const critical =
+    input.twin.dependencyAccumulation.stage ===
+    "CRITICAL_DEPENDENCY";
+
+  return [
+    {
+      phase: "MODEL / LAB",
+      state: "HIGH",
+      exitCondition: "Reject or revise the hypothesis.",
+      warning: "This is a planning assumption, not verified reversibility.",
+    },
+    {
+      phase: "PROTOTYPE",
+      state: "MODERATE",
+      exitCondition: "Stop the prototype and preserve alternatives.",
+      warning: "Recovery must be demonstrated.",
+    },
+    {
+      phase: "PILOT",
+      state: "MODERATE",
+      exitCondition: "Exercise bounded rollback and recovery.",
+      warning: "Operational coupling increases switching costs.",
+    },
+    {
+      phase: "SCALE-UP",
+      state: "LOW",
+      exitCondition: "Maintain independent substitutes and exit rights.",
+      warning: "Scale can accumulate irreversible dependencies.",
+    },
+    {
+      phase: "EMBEDDED DEPENDENCY",
+      state: critical ? "STRUCTURAL_LOCK_IN" : "LOW",
+      exitCondition: "Provide system-level substitution and recovery.",
+      warning: "Dependency may outgrow correction capacity.",
+    },
+  ];
 }
 
 export function buildMultiHypothesisRealityGovernance(
   input: MultiHypothesisRealityGovernanceInput,
 ): MultiHypothesisRealityGovernance {
-  const hypotheses = buildHypotheses(input);
-  const discriminatingTests = buildDiscriminatingTests(input);
-  const preferredTest = [...discriminatingTests].sort((a, b) => {
-    const gain = { HIGH: 3, MEDIUM: 2, LOW: 1 } as const;
-    const feasibility = { READY: 3, BOUNDED: 2, EXTERNAL_EVIDENCE_REQUIRED: 1 } as const;
-    return (gain[b.expectedInformationGain] * 10 + feasibility[b.feasibility]) -
-      (gain[a.expectedInformationGain] * 10 + feasibility[a.feasibility]);
-  })[0] ?? null;
+  const level = evidenceLevel(input.evidenceStrength);
+  const hypotheses = buildHypotheses(input, level);
+  const discriminatingTests = testCandidates(input);
+  const preferredTest = selectPreferredTest(
+    discriminatingTests,
+    input,
+  );
+
+  const confidence = buildConfidence(input, level);
+  const governance = buildGovernance(input);
 
   return {
     identity: "MULTI-HYPOTHESIS REALITY GOVERNANCE",
@@ -323,12 +768,19 @@ export function buildMultiHypothesisRealityGovernance(
     preferredTest,
     temporalModel: buildTemporalModel(input),
     actors: buildActors(input),
-    governance: buildGovernance(input),
+    governance,
     assumptions: buildAssumptions(input),
     failurePropagation: buildFailurePropagation(input),
     reversibilityWindow: buildReversibility(input),
-    confidence: buildConfidence(input),
-    nextGovernanceQuestion: preferredTest?.question || input.inquiry.nextRealityTest,
-    principle: "Best current hypothesis ≠ True hypothesis. Information gain outranks information volume. Intervention authority must remain bounded by evidence, accountability, reversibility, and Reality's continuing veto.",
+    confidence,
+    nextGovernanceQuestion:
+      preferredTest?.question ||
+      "What independent observation would distinguish the competing explanations?",
+    principle:
+      "The leading hypothesis is not necessarily true. " +
+      "Evidence quality outranks evidence volume. " +
+      "Causal identification requires discriminating observations. " +
+      "Replication, external validity, and safety must be independently established. " +
+      "Deployment authority remains bounded by evidence, accountability, and recoverability.",
   };
 }

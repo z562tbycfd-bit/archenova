@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-11T23:36:29.186Z",
+  "updated": "2026-10-12T01:54:19.670Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Wildlife populations have declined 73% since 1970—but many of the world's animals still aren't being counted",
+      "url": "https://phys.org/news/2026-10-wildlife-populations-declined-world-animals.html",
+      "summary": "Wildlife populations around the world have declined by an average of 73% since 1970. That's according to the WWF's new 2026 Living Planet Index—a major estimate, updated every two years, of the changing state of nature. …",
+      "ts": 1791765001000,
+      "publishedAt": "2026-10-12T00:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'DNA Typewriter' records cells' history in developing mouse embryo",
@@ -791,14 +799,6 @@
       "title": "Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies",
       "url": "https://arxiv.org/abs/2610.11573",
       "summary": "arXiv:2610.11573v1 Announce Type: new Abstract: The memory capabilities of Large Language Models (LLMs) have garnered increasing attention recently. Despite great success achieved, existing retrieval-based memory approac…",
-      "ts": 1791604800000,
-      "publishedAt": "2026-10-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2610.11600",
-      "summary": "arXiv:2610.11600v1 Announce Type: new Abstract: LLM-based multi-agent systems (MASs) are increasingly used to solve complex tasks through coordinated reasoning, tool use, and interaction with external resources. However,…",
       "ts": 1791604800000,
       "publishedAt": "2026-10-10T04:00:00.000Z"
     }

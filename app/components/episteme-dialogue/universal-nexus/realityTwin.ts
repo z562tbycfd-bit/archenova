@@ -1,6 +1,22 @@
 import type { UniversalRouteDecision } from "./mode";
 import type { RealityGraphModel } from "./realityGraph";
-import type { MonochromeRealityIntelligence } from "./realityIntelligence";
+import type {
+  MonochromeRealityIntelligence,
+} from "./realityIntelligence";
+
+/**
+ * ArcheNova — Reality Twin Intelligence
+ * Scientific, Engineering & Civilization Edition
+ *
+ * Editorial language: American English.
+ * No external storage or additional dependencies.
+ *
+ * A Reality Twin is a correctable representation,
+ * not a substitute for observed physical reality.
+ *
+ * This module does not execute experiments,
+ * retrieve evidence, or validate predictions.
+ */
 
 export type CausalEdgeState =
   | "OBSERVED"
@@ -74,7 +90,14 @@ export type EpistemicDebtAssessment = {
 };
 
 export type DependencyAccumulation = {
-  stage: "USEFUL" | "ADOPTED" | "SCALED" | "EMBEDDED" | "DIFFICULT_TO_REPLACE" | "CRITICAL_DEPENDENCY" | "OPEN";
+  stage:
+    | "USEFUL"
+    | "ADOPTED"
+    | "SCALED"
+    | "EMBEDDED"
+    | "DIFFICULT_TO_REPLACE"
+    | "CRITICAL_DEPENDENCY"
+    | "OPEN";
   path: Array<{
     label: string;
     state: "PRESENT" | "CONDITIONAL" | "OPEN";
@@ -123,247 +146,704 @@ export type RealityTwinInput = {
   consequence: string;
 };
 
-function causalStateFromGraphStatus(
-  status: RealityGraphModel["edges"][number]["status"],
-): CausalEdgeState {
-  if (status === "SUPPORTED") return "SUPPORTED";
-  if (status === "CONDITIONAL") return "INFERRED";
-  return "UNKNOWN";
+type EvidenceLevel =
+  "STRONG" | "MODERATE" | "LIMITED" | "INSUFFICIENT";
+
+const CONSTRAINT_DESCRIPTIONS: Record<
+  ConstraintKind,
+  string
+> = {
+  PHYSICAL:
+    "Physical laws, invariants, boundary conditions, and operating limits.",
+  MATERIAL:
+    "Material availability, degradation, purity, compatibility, and lifetime.",
+  ENERGY:
+    "Energy supply, efficiency, conversion loss, thermal load, and continuity.",
+  TIME:
+    "Validation, construction, learning, maintenance, and recovery timescales.",
+  MANUFACTURING:
+    "Yield, reproducibility, tolerances, quality control, and supply chains.",
+  CAPITAL:
+    "Financing, capital intensity, cash flow, and loss absorption.",
+  LEGAL:
+    "Authorization, liability, standards, rights, and jurisdiction.",
+  INSTITUTIONAL:
+    "Governance, coordination, accountability, legitimacy, and oversight.",
+  HUMAN:
+    "Skills, incentives, adoption, trust, behavior, and misuse.",
+  GEOPOLITICAL:
+    "Strategic dependencies, trade restrictions, supply concentration, and conflict.",
+  INFORMATIONAL:
+    "Measurement uncertainty, missing evidence, confounding, and model error.",
+  ECOLOGICAL:
+    "Environmental limits, externalities, resource use, and recovery time.",
+};
+
+const CONSTRAINT_KINDS = Object.keys(
+  CONSTRAINT_DESCRIPTIONS,
+) as ConstraintKind[];
+
+function clean(
+  value: string | null | undefined,
+): string {
+  return (value ?? "")
+    .replace(/\r/g, "")
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
-function buildCausalModel(input: RealityTwinInput): RealityTwinIntelligence["causalModel"] {
-  const nodes: CausalRealityNode[] = input.graph.nodes.map((node) => ({
-    id: node.id,
-    label: node.label,
-    statement: node.statement,
-    state:
-      node.state === "OBSERVED" || node.state === "ESTABLISHED"
-        ? "OBSERVED"
-        : node.state === "CONTESTED"
-          ? "CONTESTED"
-          : node.state === "UNKNOWN"
-            ? "UNKNOWN"
-            : node.state === "PREDICTED" || node.state === "DESIGNED"
-              ? "HYPOTHETICAL"
-              : "INFERRED",
-  }));
+function evidenceLevel(value: string): EvidenceLevel {
+  const text = clean(value).toUpperCase();
 
-  const links: CausalRealityLink[] = input.graph.edges.map((edge) => ({
-    from: edge.from,
-    to: edge.to,
-    relation: edge.relation,
-    state: causalStateFromGraphStatus(edge.status),
-  }));
+  if (
+    /\b(INSUFFICIENT|UNKNOWN|UNVERIFIED|UNSUPPORTED|NONE)\b/.test(text)
+  ) return "INSUFFICIENT";
+
+  if (
+    /\b(LIMITED|WEAK|PRELIMINARY)\b/.test(text)
+  ) return "LIMITED";
+
+  if (
+    /\b(MODERATE|PARTIAL|MIXED)\b/.test(text)
+  ) return "MODERATE";
+
+  if (
+    /\b(STRONG|ROBUST|HIGH CONFIDENCE)\b/.test(text)
+  ) return "STRONG";
+
+  return "INSUFFICIENT";
+}
+
+function causalNodeState(
+  state: string,
+): CausalEdgeState {
+  switch (state) {
+    case "OBSERVED":
+      return "OBSERVED";
+    case "ESTABLISHED":
+      return "SUPPORTED";
+    case "CONTESTED":
+      return "CONTESTED";
+    case "PREDICTED":
+    case "DESIGNED":
+      return "HYPOTHETICAL";
+    case "UNKNOWN":
+      return "UNKNOWN";
+    default:
+      return "INFERRED";
+  }
+}
+
+function causalLinkState(
+  status: string,
+): CausalEdgeState {
+  switch (status) {
+    case "SUPPORTED":
+      return "SUPPORTED";
+    case "CONDITIONAL":
+      return "INFERRED";
+    case "CONTESTED":
+      return "CONTESTED";
+    default:
+      return "UNKNOWN";
+  }
+}
+
+function buildCausalModel(
+  input: RealityTwinInput,
+): RealityTwinIntelligence["causalModel"] {
+  const nodes: CausalRealityNode[] =
+    input.graph.nodes.map((node) => ({
+      id: node.id,
+      label: node.label,
+      statement: node.statement,
+      state: causalNodeState(node.state),
+    }));
+
+  const links: CausalRealityLink[] =
+    input.graph.edges.map((edge) => ({
+      from: edge.from,
+      to: edge.to,
+      relation: edge.relation,
+      state: causalLinkState(edge.status),
+    }));
 
   if (!nodes.some((node) => node.id === "outcome")) {
     nodes.push({
       id: "outcome",
-      label: "Real-world Outcome",
-      statement: input.consequence || "The downstream outcome remains an open proposition until observed under real operating conditions.",
-      state: input.route.resolvedMode === "DEPLOY" ? "HYPOTHETICAL" : "UNKNOWN",
+      label: "Real-World Outcome",
+      statement:
+        clean(input.consequence) ||
+        "The downstream outcome remains unverified.",
+      state: "UNKNOWN",
     });
-    const source = nodes.some((node) => node.id === "deployment")
-      ? "deployment"
-      : nodes.some((node) => node.id === "capability")
-        ? "capability"
-        : "model";
-    links.push({
-      from: source,
-      to: "outcome",
-      relation: "may produce under bounded conditions",
-      state: "HYPOTHETICAL",
-    });
+
+    const source =
+      nodes.find((node) => node.id === "deployment")?.id ||
+      nodes.find((node) => node.id === "capability")?.id ||
+      nodes.find((node) => node.id === "model")?.id;
+
+    if (source) {
+      links.push({
+        from: source,
+        to: "outcome",
+        relation:
+          "may influence the outcome under specified conditions",
+        state: "HYPOTHETICAL",
+      });
+    }
   }
 
   return {
     nodes,
     links,
-    frontier: input.decisiveTest || input.graph.frontier,
+    frontier:
+      clean(input.decisiveTest) ||
+      clean(input.graph.frontier) ||
+      "Which observation would distinguish the leading causal models?",
   };
 }
 
-function dominantConstraint(input: RealityTwinInput): ConstraintKind {
-  if (input.evidenceStrength === "INSUFFICIENT" || input.evidenceStrength === "LIMITED") {
-    return "INFORMATIONAL";
+/* ==========================================================
+   CONSTRAINT ASSESSMENT
+========================================================== */
+
+function constraintSignals(
+  input: RealityTwinInput,
+): Record<ConstraintKind, number> {
+  const scores = Object.fromEntries(
+    CONSTRAINT_KINDS.map((kind) => [kind, 0]),
+  ) as Record<ConstraintKind, number>;
+
+  const level = evidenceLevel(input.evidenceStrength);
+
+  if (
+    level === "INSUFFICIENT" ||
+    level === "LIMITED"
+  ) {
+    scores.INFORMATIONAL += 5;
   }
-  if (input.route.resolvedMode === "ENGINEER") return "MANUFACTURING";
-  if (input.route.resolvedMode === "DEPLOY") return "INSTITUTIONAL";
-  if (input.route.resolvedMode === "SIMULATE") return "INFORMATIONAL";
-  if (input.route.resolvedMode === "CHALLENGE") return "INFORMATIONAL";
-  return "PHYSICAL";
+
+  const text = [
+    input.claim,
+    input.uncertainty,
+    input.consequence,
+    input.graph.frontier,
+  ]
+    .map(clean)
+    .join(" ")
+    .toLowerCase();
+
+  const signals: Partial<
+    Record<ConstraintKind, string[]>
+  > = {
+    PHYSICAL: [
+      "physical limit", "thermodynamic", "quantum",
+      "gravity", "物理法則",
+    ],
+    MATERIAL: [
+      "material", "degradation", "corrosion",
+      "材料", "劣化",
+    ],
+    ENERGY: [
+      "energy", "power", "thermal", "電力", "エネルギー",
+    ],
+    TIME: [
+      "latency", "deadline", "duration", "時間制約",
+    ],
+    MANUFACTURING: [
+      "manufacturing", "yield", "fabrication",
+      "製造", "歩留まり",
+    ],
+    CAPITAL: [
+      "capital", "financing", "cost", "資本", "費用",
+    ],
+    LEGAL: [
+      "legal", "liability", "regulation", "法規", "規制",
+    ],
+    INSTITUTIONAL: [
+      "governance", "institution", "authority",
+      "制度", "統治",
+    ],
+    HUMAN: [
+      "human", "adoption", "trust", "training",
+      "人間", "教育",
+    ],
+    GEOPOLITICAL: [
+      "geopolitical", "sanction", "supply security",
+      "地政学",
+    ],
+    INFORMATIONAL: [
+      "uncertainty", "measurement", "evidence",
+      "unknown", "検証", "不確実",
+    ],
+    ECOLOGICAL: [
+      "ecological", "environmental", "emissions",
+      "環境", "生態",
+    ],
+  };
+
+  for (const kind of CONSTRAINT_KINDS) {
+    for (const term of signals[kind] ?? []) {
+      if (text.includes(term.toLowerCase())) {
+        scores[kind] += 1;
+      }
+    }
+  }
+
+  /*
+   * Route mode is only a weak prior.
+   * It must not automatically determine the bottleneck.
+   */
+  if (input.route.resolvedMode === "ENGINEER") {
+    scores.MANUFACTURING += 1;
+  }
+
+  if (input.route.resolvedMode === "DEPLOY") {
+    scores.INSTITUTIONAL += 1;
+  }
+
+  if (input.route.resolvedMode === "SIMULATE") {
+    scores.INFORMATIONAL += 1;
+  }
+
+  return scores;
 }
 
-function buildConstraints(input: RealityTwinInput): RealityTwinIntelligence["constraints"] {
-  const dominant = dominantConstraint(input);
-  const base: Array<[ConstraintKind, string]> = [
-    ["PHYSICAL", "Fundamental physical limits, invariants, operating envelopes, and boundary conditions cannot be negotiated away by design."],
-    ["MATERIAL", "Material availability, degradation, compatibility, purity, and lifetime can prevent a laboratory effect from becoming durable capability."],
-    ["ENERGY", "Energy source, density, conversion loss, thermal burden, and continuity can dominate feasible scale."],
-    ["TIME", "Validation, construction, maintenance, learning, and institutional adaptation occur on different clocks."],
-    ["MANUFACTURING", "Yield, reproducibility, tolerances, supply chains, maintenance, and quality assurance bound industrialization."],
-    ["CAPITAL", "Capital intensity, cost of failure, cash timing, incentives, and first-loss allocation can prevent technically valid deployment."],
-    ["LEGAL", "Liability, authorization, standards, rights, and jurisdiction determine which interventions are legally executable."],
-    ["INSTITUTIONAL", "Authority, accountability, coordination, legitimacy, and correction rights determine whether deployment remains governable."],
-    ["HUMAN", "Adoption, skill, trust, incentives, misuse, and behavioural adaptation can dominate operational outcomes."],
-    ["GEOPOLITICAL", "Concentrated supply, strategic dependence, sanctions, conflict, and cross-border control can change system viability."],
-    ["INFORMATIONAL", "Insufficient evidence, uncertain causality, measurement limits, and model error can make further optimization premature."],
-    ["ECOLOGICAL", "Resource extraction, externalities, environmental thresholds, and recovery time can impose non-negotiable limits."],
-  ];
+function buildConstraints(
+  input: RealityTwinInput,
+): RealityTwinIntelligence["constraints"] {
+  const scores = constraintSignals(input);
+
+  const ranked = [...CONSTRAINT_KINDS].sort(
+    (a, b) => scores[b] - scores[a],
+  );
+
+  const dominant =
+    scores[ranked[0]] > 0
+      ? ranked[0]
+      : "INFORMATIONAL";
 
   return {
     dominant,
-    assessments: base.map(([kind, rationale]) => ({
+    assessments: CONSTRAINT_KINDS.map((kind) => ({
       kind,
-      state: kind === dominant ? "DOMINANT" : "OPEN",
-      rationale,
+      state:
+        kind === dominant
+          ? "DOMINANT"
+          : scores[kind] > 0
+            ? "ACTIVE"
+            : "OPEN",
+      rationale:
+        `${CONSTRAINT_DESCRIPTIONS[kind]} ` +
+        (
+          kind === dominant
+            ? "This is the highest-priority candidate under the current heuristic assessment; dominance is not empirically established."
+            : scores[kind] > 0
+              ? "Relevant signals appear in the supplied inquiry."
+              : "No object-specific assessment is available."
+        ),
     })),
-    principle: "The dominant bottleneck is not assumed to be technical. Episteme searches for the constraint that currently limits reality transition most strongly.",
+    principle:
+      "Constraint priority is a hypothesis. Test the proposed bottleneck before treating it as the causal limit of the system.",
   };
 }
 
-function buildCounterfactuals(input: RealityTwinInput): CounterfactualBranch[] {
+/* ==========================================================
+   COUNTERFACTUAL INTELLIGENCE
+========================================================== */
+
+function buildCounterfactuals(
+  input: RealityTwinInput,
+): CounterfactualBranch[] {
+  const level = evidenceLevel(input.evidenceStrength);
+
   return [
     {
       id: "actual",
-      label: "CURRENT WORLD",
-      premise: "No additional intervention beyond the currently represented state.",
-      implication: "Use observed and established states as the baseline; do not promote modeled outcomes to facts.",
-      evidenceState: input.evidenceStrength === "STRONG" ? "BOUNDED" : "CONDITIONAL",
+      label: "CURRENT REPRESENTED WORLD",
+      premise:
+        "Use only the currently supplied observations and model states.",
+      implication:
+        "The represented baseline may be incomplete; do not treat unobserved outcomes as established.",
+      evidenceState:
+        level === "STRONG" ? "BOUNDED" : "CONDITIONAL",
     },
     {
       id: "intervention",
       label: "INTERVENTION WORLD",
-      premise: "Apply the minimum intervention necessary to cross the current dominant constraint.",
-      implication: "Any expected effect remains conditional until measured after intervention.",
+      premise:
+        "Apply a bounded intervention targeting the candidate limiting constraint.",
+      implication:
+        "The expected change is a causal hypothesis requiring prospective validation.",
       evidenceState: "CONDITIONAL",
     },
     {
       id: "no-intervention",
       label: "NO-INTERVENTION WORLD",
-      premise: "Allow the current trajectory to continue without deliberate implementation change.",
-      implication: "The difference from the intervention branch is a causal hypothesis, not an observation of an alternate history.",
+      premise:
+        "Continue without the proposed intervention.",
+      implication:
+        "The resulting trajectory is unknown unless independently modeled and tested.",
       evidenceState: "UNKNOWN",
     },
     {
       id: "alternative",
       label: "ALTERNATIVE ARCHITECTURE",
-      premise: "Reach the same target through a materially different technical or institutional path.",
-      implication: "Prefer the alternative if it achieves comparable value with lower dependency, irreversibility, tail risk, or epistemic debt.",
+      premise:
+        "Pursue the same objective through a different technical or institutional mechanism.",
+      implication:
+        "Compare performance, safety, recoverability, cost, and dependency without assuming either route succeeds.",
       evidenceState: "UNKNOWN",
     },
   ];
 }
 
-function buildIntervention(input: RealityTwinInput): RealityTwinIntelligence["intervention"] {
-  const dominant = dominantConstraint(input);
-  const evidenceReady = input.evidenceStrength === "STRONG" || input.evidenceStrength === "MODERATE";
-  const targetReality =
-    input.route.resolvedMode === "DEPLOY"
-      ? "A real-world state in which validated capability creates durable value without outrunning observability, correction, recovery, or legitimate governance."
-      : input.route.resolvedMode === "ENGINEER"
-        ? "A bounded capability whose performance, failure modes, reliability, and operating envelope are experimentally demonstrated."
-        : "A better-discriminated working model with less uncertainty and fewer unsupported causal assumptions.";
+/* ==========================================================
+   MODEL–REALITY DIVERGENCE
+========================================================== */
+
+function buildDivergence(
+  input: RealityTwinInput,
+): RealityDivergence {
+  const observed = input.graph.nodes.filter(
+    (node) =>
+      node.state === "OBSERVED" ||
+      node.state === "ESTABLISHED",
+  );
+
+  const predicted = input.graph.nodes.filter(
+    (node) =>
+      node.state === "PREDICTED" ||
+      node.state === "DESIGNED",
+  );
+
+  /*
+   * Merely having both observed and predicted nodes
+   * does not establish agreement or disagreement.
+   *
+   * A valid comparison needs matched variables,
+   * conditions, timestamps, units, and tolerances.
+   */
+  const hasComparison =
+    observed.length > 0 && predicted.length > 0;
+
+  return {
+    status: hasComparison ? "WATCH" : "OPEN",
+    expected: predicted.length
+      ? predicted
+          .slice(0, 3)
+          .map((node) => node.statement)
+          .join(" ")
+      : "No explicit predicted outcome is available.",
+    observed: observed.length
+      ? observed
+          .slice(0, 3)
+          .map((node) => node.statement)
+          .join(" ")
+      : "No observed outcome is available for comparison.",
+    diagnostic: [
+      "CAUSAL MODEL — The assumed mechanism may be incomplete or incorrect.",
+      "MEASUREMENT — Instruments, sampling, calibration, or timing may bias the observation.",
+      "IDENTIFICATION — Multiple causal models may explain the same measured result.",
+      "IMPLEMENTATION — Actual operating conditions may differ from the assumed conditions.",
+      "EXTERNAL CONDITIONS — Environmental, institutional, or human factors may affect the outcome.",
+      "NOVEL PHENOMENON — Unexpected results may indicate previously unmodeled structure.",
+      "COMPARABILITY — Confirm matched variables, units, conditions, and measurement uncertainty before claiming agreement or divergence.",
+    ],
+    rule:
+      clean(input.correctionRule) ||
+      "When a matched prospective observation contradicts a prediction, investigate measurement and implementation before revising the causal model. Never declare alignment from node presence alone.",
+  };
+}
+
+/* ==========================================================
+   MINIMUM SUFFICIENT INTERVENTION
+========================================================== */
+
+function buildIntervention(
+  input: RealityTwinInput,
+  dominant: ConstraintKind,
+): RealityTwinIntelligence["intervention"] {
+  const level = evidenceLevel(input.evidenceStrength);
+
+  const weak =
+    level === "INSUFFICIENT" ||
+    level === "LIMITED";
+
+  const engineering =
+    input.route.resolvedMode === "ENGINEER";
+
+  const deployment =
+    input.route.resolvedMode === "DEPLOY";
+
+  const targetReality = deployment
+    ? "A validated and governable real-world capability with measurable public value, independent oversight, and recovery capacity."
+    : engineering
+      ? "A bounded technical capability with demonstrated performance, reliability, and safe failure behavior."
+      : "A scientifically better-identified model supported by independent and discriminating evidence.";
+
+  const minimumSufficientIntervention = weak
+    ? clean(input.decisiveTest) ||
+      "Acquire independent evidence capable of distinguishing the competing explanations before implementing or scaling."
+    : (
+      `Design the smallest observable and reversible test of the candidate ${dominant.toLowerCase()} constraint.`
+    );
+
+  const steps: InterventionStep[] = [
+    {
+      id: "current",
+      label: "CURRENT REALITY",
+      state: "READY",
+      action:
+        "Record supplied observations, assumptions, and uncertainties without promoting predictions into facts.",
+    },
+    {
+      id: "target",
+      label: "TARGET REALITY",
+      state: "CONDITIONAL",
+      action: targetReality,
+    },
+    {
+      id: "gap",
+      label: "EVIDENCE AND CAPABILITY GAP",
+      state: weak ? "OPEN" : "CONDITIONAL",
+      action:
+        "Separate missing scientific evidence from engineering, manufacturing, economic, and institutional constraints.",
+    },
+    {
+      id: "constraint",
+      label: "CANDIDATE BOTTLENECK",
+      state: "CONDITIONAL",
+      action:
+        `Test whether ${dominant.toLowerCase()} is genuinely the limiting constraint.`,
+    },
+    {
+      id: "minimum",
+      label: "MINIMUM INTERVENTION",
+      state: "CONDITIONAL",
+      action: minimumSufficientIntervention,
+    },
+    {
+      id: "validation",
+      label: "VALIDATION GATE",
+      state: "OPEN",
+      action:
+        "Predefine measurable success, failure, uncertainty, and independent replication criteria.",
+    },
+    {
+      id: "monitor",
+      label: "MONITOR AND CORRECT",
+      state: "OPEN",
+      action:
+        "Compare prospective predictions against matched observations and investigate discrepancies.",
+    },
+    {
+      id: "exit",
+      label: "EXIT AND RECOVERY",
+      state: "OPEN",
+      action:
+        "Demonstrate stop authority, isolation, rollback, replacement, and recovery before irreversible dependency.",
+    },
+  ];
 
   return {
     targetReality,
-    minimumSufficientIntervention:
-      dominant === "INFORMATIONAL"
-        ? input.decisiveTest || "Acquire the minimum discriminating evidence needed to change the model before scaling action."
-        : `Act first on the ${dominant.toLowerCase()} constraint with the smallest observable and reversible intervention capable of producing a discriminating result.`,
-    steps: [
-      { id: "current", label: "CURRENT REALITY", state: "READY", action: "Lock what is observed, what is inferred, and what remains unknown before changing the system." },
-      { id: "target", label: "TARGET REALITY", state: "READY", action: targetReality },
-      { id: "gap", label: "GAP", state: evidenceReady ? "READY" : "CONDITIONAL", action: "Separate evidence gaps from engineering, institutional, capital, and adoption gaps." },
-      { id: "constraint", label: "DOMINANT CONSTRAINT", state: "READY", action: `${dominant} is the current priority constraint under the present model.` },
-      { id: "minimum", label: "MINIMUM INTERVENTION", state: "CONDITIONAL", action: "Choose the smallest action that can create useful information or capability while preserving rollback." },
-      { id: "validation", label: "VALIDATION GATE", state: evidenceReady ? "CONDITIONAL" : "OPEN", action: "Advance only when the intervention produces independently observable evidence against a predeclared criterion." },
-      { id: "monitor", label: "MONITOR / CORRECT", state: "OPEN", action: "Compare measured state with model expectation and update the working representation when they diverge." },
-      { id: "exit", label: "EXIT / RECOVERY", state: "OPEN", action: "Preserve interruption, rollback, substitution, recovery, and institutional exit before dependency becomes critical." },
-    ],
-    rule: "Minimum Sufficient Intervention > Maximum Capability Deployment. Intervention is justified by learnability, correctability, and value—not by capability alone.",
+    minimumSufficientIntervention,
+    steps,
+    rule:
+      "Intervene only at a scale justified by evidence, measurable learning, safety, reversibility, and legitimate authority.",
   };
 }
 
-function buildDivergence(input: RealityTwinInput): RealityDivergence {
-  const hasObserved = input.graph.nodes.some((node) => node.state === "OBSERVED" || node.state === "ESTABLISHED");
-  const hasPredicted = input.graph.nodes.some((node) => node.state === "PREDICTED" || node.state === "DESIGNED");
-  return {
-    status: hasObserved && hasPredicted ? "WATCH" : "OPEN",
-    expected: hasPredicted
-      ? "The current working model contains designed or predicted downstream states that require prospective comparison with reality."
-      : "No sufficiently explicit prospective state is yet represented to claim model alignment.",
-    observed: hasObserved
-      ? "At least one reality-contact node is present, but it does not validate every downstream transformation."
-      : "Observed outcome evidence is not yet represented strongly enough to test the downstream model.",
-    diagnostic: [
-      "MODEL FAILURE — the causal representation may be wrong or incomplete.",
-      "MEASUREMENT FAILURE — the observation may be biased, noisy, delayed, or mis-specified.",
-      "IMPLEMENTATION FAILURE — the intervention may not reproduce the assumed operating conditions.",
-      "EXTERNAL SHOCK — an unmodeled actor, environment, market, policy, or system event may dominate the result.",
-      "NEW PHENOMENON — divergence may reveal structure the current model does not contain.",
-    ],
-    rule: input.correctionRule || "When observed reality diverges from the working model, revise the model before defending the prediction.",
-  };
-}
+/* ==========================================================
+   EPISTEMIC DEBT
+========================================================== */
 
-function buildEpistemicDebt(input: RealityTwinInput): EpistemicDebtAssessment {
-  const deploymentOpen = input.monochrome.deploymentChain.filter((step) => step.state !== "PRESENT").length;
-  const weakEvidence = input.evidenceStrength === "LIMITED" || input.evidenceStrength === "INSUFFICIENT";
-  const highActionMode = input.route.resolvedMode === "DEPLOY" || input.route.resolvedMode === "ENGINEER";
+function buildEpistemicDebt(
+  input: RealityTwinInput,
+): EpistemicDebtAssessment {
+  const level = evidenceLevel(input.evidenceStrength);
+
+  const openGates =
+    input.monochrome.deploymentChain.filter(
+      (step) => step.state !== "PRESENT",
+    ).length;
+
+  const actionMode =
+    input.route.resolvedMode === "ENGINEER" ||
+    input.route.resolvedMode === "DEPLOY";
+
+  const weak =
+    level === "INSUFFICIENT" ||
+    level === "LIMITED";
+
+  const uncertain = Boolean(
+    clean(input.uncertainty),
+  );
+
   const status: EpistemicDebtAssessment["status"] =
-    weakEvidence && highActionMode ? "HIGH" : deploymentOpen >= 6 ? "ACCUMULATING" : "LOW";
+    weak && actionMode
+      ? "HIGH"
+      : weak || openGates >= 4
+        ? "ACCUMULATING"
+        : uncertain
+          ? "ACCUMULATING"
+          : "LOW";
+
   return {
     status,
     drivers: [
-      weakEvidence ? "Capability or implementation reasoning is approaching faster than the underlying evidence base." : "Evidence strength is not the primary debt driver at this stage.",
-      deploymentOpen >= 6 ? "Multiple downstream transformation gates remain open." : "Downstream gates are comparatively bounded under the present model.",
-      input.uncertainty?.trim() ? `Unresolved uncertainty remains explicit: ${input.uncertainty}` : "The uncertainty boundary requires sharper specification.",
+      `Reported evidence level: ${level}.`,
+      `Unconfirmed downstream transformation gates: ${openGates}.`,
+      uncertain
+        ? `Explicit uncertainty: ${clean(input.uncertainty)}`
+        : "Uncertainty may be incompletely specified.",
+      actionMode
+        ? "The inquiry concerns engineering or deployment, increasing the consequences of unsupported assumptions."
+        : "The current inquiry is not explicitly deployment-oriented.",
     ],
-    repayment: input.decisiveTest || "Repay epistemic debt with the smallest independent test that can invalidate, narrow, or strengthen the current model before additional scale.",
+    repayment:
+      clean(input.decisiveTest) ||
+      "Conduct the smallest independent test that could materially revise the current conclusion.",
   };
 }
 
-function buildDependencyAccumulation(input: RealityTwinInput): DependencyAccumulation {
-  const deployed = input.graph.nodes.some((node) => node.state === "DEPLOYED");
-  const dependent = input.graph.nodes.some((node) => node.state === "DEPENDENT");
-  const stage: DependencyAccumulation["stage"] = dependent
-    ? "CRITICAL_DEPENDENCY"
-    : deployed
-      ? "ADOPTED"
-      : input.route.resolvedMode === "DEPLOY"
-        ? "OPEN"
-        : "USEFUL";
-  const ordered = ["USEFUL", "ADOPTED", "SCALED", "EMBEDDED", "DIFFICULT TO REPLACE", "CRITICAL DEPENDENCY"];
-  const presentIndex = stage === "CRITICAL_DEPENDENCY" ? 5 : stage === "ADOPTED" ? 1 : stage === "USEFUL" ? 0 : -1;
+/* ==========================================================
+   DEPENDENCY AND RECOVERABILITY
+========================================================== */
+
+function buildDependencyAccumulation(
+  input: RealityTwinInput,
+): DependencyAccumulation {
+  const nodes = input.graph.nodes;
+
+  const dependent = nodes.some(
+    (node) => node.state === "DEPENDENT",
+  );
+
+  const deployed = nodes.some(
+    (node) => node.state === "DEPLOYED",
+  );
+
+  const stage: DependencyAccumulation["stage"] =
+    dependent
+      ? "CRITICAL_DEPENDENCY"
+      : deployed
+        ? "ADOPTED"
+        : "OPEN";
+
+  const stages = [
+    "USEFUL",
+    "ADOPTED",
+    "SCALED",
+    "EMBEDDED",
+    "DIFFICULT TO REPLACE",
+    "CRITICAL DEPENDENCY",
+  ];
+
+  const presentIndex =
+    stage === "CRITICAL_DEPENDENCY"
+      ? 5
+      : stage === "ADOPTED"
+        ? 1
+        : -1;
+
   return {
     stage,
-    path: ordered.map((label, index) => ({
+    path: stages.map((label, index) => ({
       label,
-      state: index <= presentIndex && presentIndex >= 0 ? "PRESENT" : index === presentIndex + 1 ? "CONDITIONAL" : "OPEN",
+      state:
+        presentIndex >= 0 && index <= presentIndex
+          ? "PRESENT"
+          : index === presentIndex + 1
+            ? "CONDITIONAL"
+            : "OPEN",
     })),
-    warning: "A useful capability becomes a civilization risk when replacement, correction, recovery, or exit become materially harder than continued dependence.",
+    warning:
+      "Dependency stage reflects upstream labels, not independently verified infrastructure adoption. Before scale, verify substitutability, recovery capacity, and institutional exit.",
   };
 }
 
-export function buildRealityTwinIntelligence(input: RealityTwinInput): RealityTwinIntelligence {
-  const constraints = buildConstraints(input);
-  const intervention = buildIntervention(input);
-  const divergence = buildDivergence(input);
-  const epistemicDebt = buildEpistemicDebt(input);
+/* ==========================================================
+   NEXT REALITY TEST
+========================================================== */
+
+function nextRealityTestFor(
+  input: RealityTwinInput,
+  causalModel: RealityTwinIntelligence["causalModel"],
+): RealityTwinIntelligence["nextRealityTest"] {
+  const question =
+    clean(input.decisiveTest) ||
+    clean(input.monochrome.nextBestInquiry.question) ||
+    clean(causalModel.frontier) ||
+    "Which independent observation would distinguish the leading causal explanations?";
 
   return {
-    identity: "REALITY TWIN INTELLIGENCE ARCHITECTURE",
-    causalModel: buildCausalModel(input),
+    question,
+    reason:
+      "Prioritize an independently observable, feasible, and discriminating test. Define the expected result under each competing hypothesis and the conditions that would change the conclusion.",
+  };
+}
+
+/* ==========================================================
+   MAIN REALITY TWIN
+========================================================== */
+
+export function buildRealityTwinIntelligence(
+  input: RealityTwinInput,
+): RealityTwinIntelligence {
+  const causalModel = buildCausalModel(input);
+
+  const constraints = buildConstraints(input);
+
+  const counterfactuals = buildCounterfactuals(input);
+
+  const intervention = buildIntervention(
+    input,
+    constraints.dominant,
+  );
+
+  const divergence = buildDivergence(input);
+
+  const epistemicDebt = buildEpistemicDebt(input);
+
+  const dependencyAccumulation =
+    buildDependencyAccumulation(input);
+
+  const nextRealityTest = nextRealityTestFor(
+    input,
+    causalModel,
+  );
+
+  return {
+    identity:
+      "REALITY TWIN INTELLIGENCE ARCHITECTURE",
+
+    causalModel,
+
     constraints,
-    counterfactuals: buildCounterfactuals(input),
+
+    counterfactuals,
+
     intervention,
+
     divergence,
+
     epistemicDebt,
-    dependencyAccumulation: buildDependencyAccumulation(input),
-    nextRealityTest: {
-      question: input.monochrome.nextBestInquiry.question || input.decisiveTest,
-      reason: "The next reality test should reduce the highest-value uncertainty or dominant constraint before capability, deployment, or dependency advances further.",
-    },
-    principle: "Digital Twin ≠ Reality. A useful twin is a continuously correctable working representation that exposes causality, constraints, counterfactuals, intervention assumptions, dependency, divergence, and the next test Reality can veto.",
+
+    dependencyAccumulation,
+
+    nextRealityTest,
+
+    principle:
+      "Reality is not its representation. " +
+      "Observation is not causal identification. " +
+      "Prediction is not validation. " +
+      "Simulation is not an observed counterfactual. " +
+      "Scientific feasibility is not engineering readiness. " +
+      "Engineering readiness is not deployment authority. " +
+      "Every model, intervention, and infrastructure dependency must remain independently testable, correctable, recoverable, and replaceable.",
   };
 }

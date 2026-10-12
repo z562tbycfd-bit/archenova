@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-10T00:02:15.755Z",
+  "generatedAt": "2026-10-12T01:55:22.954Z",
   "current": {
-    "date": "2026-10-10",
-    "id": "three-quantum-inspired-cores-leave-opposite-fingerprints-on-the-ringing-of-black-holes",
+    "date": "2026-10-12",
+    "id": "quantum-birthmarks-hold-lasting-traces-of-a-system-s-past",
     "experienceVersion": "4D-1",
-    "title": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes",
-    "experienceTitle": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes",
+    "title": "Quantum 'birthmarks' hold lasting traces of a system's past",
+    "experienceTitle": "Quantum 'birthmarks' hold lasting traces of a system's past",
     "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
     "source": {
-      "title": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes",
+      "title": "Quantum 'birthmarks' hold lasting traces of a system's past",
       "organization": "Phys.org",
-      "url": "https://phys.org/news/2026-10-quantum-cores-fingerprints-black-holes.html",
-      "publishedAt": "2026-10-09T21:40:01.000Z",
-      "updatedAt": "2026-10-10T00:02:15.739Z"
+      "url": "https://phys.org/news/2026-10-quantum-birthmarks.html",
+      "publishedAt": "2026-10-11T18:20:01.000Z",
+      "updatedAt": "2026-10-12T01:55:22.939Z"
     },
     "classification": {
       "category": "SCIENCE",
       "signalCategory": "Reality Discovery",
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "10–30 Years"
+      "currentStage": "Scaling / Infrastructure",
+      "expectedHorizon": "0–3 Years"
     },
     "reality": {
-      "statement": "Every black hole hides a question at its center. Einstein's theory predicts that whatever falls in is crushed into a singularity, a point of infinite density where the theory itself breaks down. Most physicists expect qu…"
+      "statement": "Some classical physical systems can explore many configurations over time until their long-term behavior no longer reveals their starting conditions. The sampling of available configurations according to the appropriate …"
     },
     "theory": {
       "statement": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
@@ -74,7 +74,7 @@
       "statement": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
     },
     "evidence": {
-      "statement": "Every black hole hides a question at its center. Einstein's theory predicts that whatever falls in is crushed into a singularity, a point of infinite density where the theory itself breaks down. Most physicists expect qu…",
+      "statement": "Some classical physical systems can explore many configurations over time until their long-term behavior no longer reveals their starting conditions. The sampling of available configurations according to the appropriate …",
       "strength": "Strong",
       "confidence": 81
     },
@@ -95,9 +95,9 @@
     "civilizationMeaning": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
     "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
     "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-10-10.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-10-12.",
     "selection": {
-      "finalScore": 52.7,
+      "finalScore": 51.2,
       "repetitionPenalty": 25,
       "criteria": {
         "scientificSignificance": 75,
@@ -106,7 +106,7 @@
         "engineeringReach": 55,
         "civilizationImpact": 63,
         "explanatoryValue": 80,
-        "theoryEvidenceCoupling": 95,
+        "theoryEvidenceCoupling": 80,
         "fundamentalPrincipleValue": 95,
         "crossDomainReach": 68,
         "experienceSuitability": 95
@@ -121,19 +121,6 @@
     ]
   },
   "history": [
-    {
-      "date": "2026-09-08",
-      "id": "ai-governance-model-inspired-by-pope-leo-xiv-aims-to-put-ethics-first",
-      "title": "AI governance model inspired by Pope Leo XIV aims to put ethics first",
-      "topicFingerprint": [
-        "science",
-        "civilization engineering",
-        "artificial intelligence",
-        "governance and law",
-        "technology",
-        "education & knowledge"
-      ]
-    },
     {
       "date": "2026-09-09",
       "id": "curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
@@ -307,6 +294,18 @@
         "reality discovery",
         "artificial intelligence",
         "science",
+        "technology",
+        "education & knowledge"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "id": "three-quantum-inspired-cores-leave-opposite-fingerprints-on-the-ringing-of-black-holes",
+      "title": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes",
+      "topicFingerprint": [
+        "science",
+        "reality discovery",
+        "quantum systems",
         "technology",
         "education & knowledge"
       ]
