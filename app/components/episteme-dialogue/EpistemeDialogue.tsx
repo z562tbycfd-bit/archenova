@@ -29284,6 +29284,112 @@ useEffect(() => {
         }
 
 
+        /* ============================================================
+           STAGE 6.25 · SPATIAL READING SYSTEM
+           Root-cause desktop width correction. No inference changes.
+           The content canvas is fluid; prose retains a readable measure.
+        ============================================================ */
+        .ep-dialogue.ep-monochrome-interface {
+          --ep-reading-measure: 76ch;
+          --ep-space-inline: clamp(20px, 3.2vw, 72px);
+        }
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__workspace,
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__conversation,
+        .ep-dialogue.ep-monochrome-interface .ep-dialogue__thread {
+          min-width: 0;
+        }
+        @media (min-width: 901px) {
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__thread {
+            padding: clamp(28px, 3.5vw, 58px) var(--ep-space-inline) 64px !important;
+          }
+          /* Previous 800px message cap was the primary narrow-column bottleneck. */
+          .ep-dialogue.ep-monochrome-interface .ep-dialogue__thread > .ep-message,
+          .ep-dialogue.ep-monochrome-interface .ep-message {
+            width: 100% !important;
+            max-width: 100% !important;
+            margin-inline: 0 !important;
+            min-width: 0 !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-message__body {
+            width: 100% !important;
+            max-width: none !important;
+            overflow: visible !important;
+            padding: clamp(18px, 2vw, 34px) !important;
+            background: rgba(10, 11, 14, .32) !important;
+            border-color: rgba(255,255,255,.065) !important;
+            box-shadow: 0 18px 52px rgba(0,0,0,.12) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell {
+            width: 100% !important;
+            max-width: none !important;
+            margin-inline: 0 !important;
+            align-items: stretch !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell__primary {
+            width: 100% !important;
+            max-width: none !important;
+            padding: clamp(26px, 3.1vw, 54px) !important;
+            border-radius: 26px !important;
+            background: linear-gradient(145deg,rgba(255,255,255,.042),rgba(255,255,255,.014) 52%,rgba(0,0,0,.14)) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell__primary :is(h3,p) {
+            max-width: var(--ep-reading-measure) !important;
+            line-height: 1.85 !important;
+            text-wrap: pretty;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-technical-disclosure,
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly,
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__compact {
+            width: 100% !important;
+            max-width: none !important;
+            margin-inline: 0 !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)) !important;
+            align-items: start !important;
+            gap: clamp(12px, 1.4vw, 22px) !important;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections > details.ep-scholarly__section {
+            min-width: 0 !important;
+            max-width: none !important;
+            align-self: start;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections > details.ep-scholarly__section > :is(h4,p) {
+            max-width: var(--ep-reading-measure) !important;
+          }
+          /* Legacy tiny internal typography: readable on desktop when expanded. */
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
+            .ep-reality-twin,.ep-autonomous-reality,.ep-reality-governance,
+            .ep-reality-os,.ep-open-scholarly,.ep-cognitive-orchestration
+          ) :is(p,li,article>strong,article>small) {
+            font-size: clamp(12px, .9vw, 14px) !important;
+            line-height: 1.7 !important;
+            overflow-wrap: anywhere;
+          }
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme :is(
+            .ep-reality-twin,.ep-autonomous-reality,.ep-reality-governance,
+            .ep-reality-os,.ep-open-scholarly,.ep-cognitive-orchestration
+          ) :is(small,span,b) {
+            font-size: max(10px, .72vw);
+          }
+        }
+        /* Medium screens keep the fluid canvas without cramped twin columns. */
+        @media (min-width: 901px) and (max-width: 1250px) {
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-scholarly__sections {
+            grid-template-columns: minmax(0, 1fr) !important;
+          }
+        }
+        /* Preserve mobile cards and their existing disclosure behavior. */
+        @media (max-width: 900px) {
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell,
+          .ep-dialogue.ep-monochrome-interface .ep-message--episteme .ep-answer-shell__primary {
+            max-width: 100%;
+            min-width: 0;
+          }
+        }
+
+
       `}
 
       
