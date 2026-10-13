@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-10-13T18:01:52.817Z",
+  "updated": "2026-10-13T23:13:04.755Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Names Astronaut Christina Koch Acting Deputy Chief Engineer",
+      "url": "https://www.nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer/",
+      "summary": "NASA engineer and astronaut Christina Koch will serve as the agency’s acting deputy chief engineer beginning on Sunday, Nov. 1, following the retirement of Katherine Van Hooser, who will conclude more than 35 years of di…",
+      "ts": 1791924071000,
+      "publishedAt": "2026-10-13T20:41:11.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: BlackRock to buy majority stake in Humana’s CenterWell clinics for $2.8 billion",
+      "url": "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/?utm_campaign=rss",
+      "summary": "Humana is swapping out private equity sponsors for its CenterWell Senior Primary Care clinics. Good bye, Welsh, Carson, Anderson & Stowe. Hello, BlackRock.",
+      "ts": 1791923140000,
+      "publishedAt": "2026-10-13T20:25:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Helen Branswell, whose reporting on infectious diseases and public health drew acclaim, dies at 69",
+      "url": "https://www.statnews.com/2026/10/13/helen-branswell-stat-reporter-obituary/?utm_campaign=rss",
+      "summary": "Helen Branswell, STAT's infectious disease reporter who earned the respect of experts and public health officials with her accessible, prescient dispatches, has died at age 69.",
+      "ts": 1791915096000,
+      "publishedAt": "2026-10-13T18:11:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "X-Chromosome Gene Linked to Increased Autism Diagnosis in Males",
+      "url": "https://www.genengnews.com/topics/translational-medicine/x-chromosome-gene-linked-to-increased-autism-diagnosis-in-males/",
+      "summary": "New research suggests that variants in the MECP2 gene on the X chromosome might help partly explain why autism is diagnosed about four times more often in males than it is in females. The post X-Chromosome Gene Linked to…",
+      "ts": 1791914486000,
+      "publishedAt": "2026-10-13T18:01:26.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Many patient, consumer reps on FDA advisory panels have ties to groups funded by pharma, analysis finds",
@@ -12,6 +48,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Comparing Off-World Rover Driving Distances",
+      "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+      "summary": "Description This infographic illustrates the distances driven by various rovers on the surface of Earth’s Moon and Mars. Of the vehicles shown, the NASA Mars rovers Perseverance and Curiosity are still operational and mo…",
+      "ts": 1791914168000,
+      "publishedAt": "2026-10-13T17:56:08.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Enodia Therapeutics Inks Pfizer Deal to Develop Sec61-Targeting Small Molecules",
       "url": "https://www.genengnews.com/topics/drug-discovery/enodia-therapeutics-inks-pfizer-deal-to-develop-sec61-targeting-small-molecules/",
@@ -19,6 +64,24 @@
       "ts": 1791913787000,
       "publishedAt": "2026-10-13T17:49:47.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Record-Setting Perseverance Rover Team",
+      "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
+      "summary": "Description Members of NASA’s Perseverance Mars mission team gather in the Mars Yard at the agency’s Jet Propulsion Laboratory in Southern California with a certificate from Guinness World Records marking the rover dista…",
+      "ts": 1791913726000,
+      "publishedAt": "2026-10-13T17:48:46.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Perseverance Navcam Image Marks Record Drive",
+      "url": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
+      "summary": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct. 11, 2026, the 2,006th Martian day, or sol, …",
+      "ts": 1791913371000,
+      "publishedAt": "2026-10-13T17:42:51.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -135,6 +198,15 @@
       "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and …",
       "ts": 1791892849000,
       "publishedAt": "2026-10-13T12:00:49.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "ts": 1791892800000,
+      "publishedAt": "2026-10-13T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -739,78 +811,6 @@
       "ts": 1791633600000,
       "publishedAt": "2026-10-10T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA astronaut Sophie Adenot returns from her first mission to the International Space Station ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/ESA_astronaut_Sophie_Adenot_returns_from_her_first_mission_to_the_International_Space_Station",
-      "summary": "ESA astronaut Sophie Adenot has arrived back in Europe, landing in Cologne, Germany, following her return to Earth with Crew-12 after 237 days, nearly eight months, aboard the International Space Station for her εpsilon …",
-      "ts": 1791622860000,
-      "publishedAt": "2026-10-10T09:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 10 – Lunar Farside",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
-      "summary": "APOD Science APOD APOD: 2026 October 10… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
-      "ts": 1791605100000,
-      "publishedAt": "2026-10-10T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Biotech leader, leading lab leak theorist no longer in consideration for top infectious disease role",
-      "url": "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/?utm_campaign=rss",
-      "summary": "Steven Quay, a biopharmaceutical executive with no background in infectious diseases, is no longer being considered for director of the National Institute for Allergy and Infectious Diseases.",
-      "ts": 1791579832000,
-      "publishedAt": "2026-10-09T21:03:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Hospitals sue – again – to halt Trump administration’s 340B rebate pilot",
-      "url": "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/?utm_campaign=rss",
-      "summary": "The AHA is once again suing the Trump administration over its plan to revamp a federal drug discount program into one that provides after-the-fact rebates instead of upfront discounts.",
-      "ts": 1791577647000,
-      "publishedAt": "2026-10-09T20:27:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Sickle Cell Trait Linked to Distinct Malaria Parasite Variants",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/sickle-cell-trait-linked-to-distinct-malaria-parasite-variants/",
-      "summary": "A study in Cameroon found that sickle cell trait is associated with distinct malaria parasite genotypes, potentially explaining reduced disease risk despite similar infection rates. The post Sickle Cell Trait Linked to D…",
-      "ts": 1791571392000,
-      "publishedAt": "2026-10-09T18:43:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
-      "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
-      "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals invit…",
-      "ts": 1791569504000,
-      "publishedAt": "2026-10-09T18:11:44.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
-      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
-      "summary": "NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash. When Northrop Grumman 24th cargo resupply mission for NASA undocked…",
-      "ts": 1791565164000,
-      "publishedAt": "2026-10-09T16:59:24.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Immune Cell Atlas Charts How People’s Aging Paths Diverge",
-      "url": "https://www.genengnews.com/topics/translational-medicine/immune-cell-atlas-charts-how-peoples-aging-paths-diverge/",
-      "summary": "Two people born on the same day can have immune systems that age differently. An immune cell atlas shows that a ratio between two cell types can reveal who is on a healthy or unhealthy path. The post Immune Cell Atlas Ch…",
-      "ts": 1791564108000,
-      "publishedAt": "2026-10-09T16:41:48.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

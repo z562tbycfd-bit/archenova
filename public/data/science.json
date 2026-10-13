@@ -1,7 +1,247 @@
 {
   "ok": true,
-  "updated": "2026-10-13T18:01:48.637Z",
+  "updated": "2026-10-13T23:13:00.930Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Isle of Wight fossil Europe's first known long-clawed megaraptoran dinosaur",
+      "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
+      "summary": "A new species of dinosaur—a long-clawed predator the size of a large tiger—has been discovered by a UCL-led team from a fossil found on the Isle of Wight. The dinosaur, described in a new paper in the journal Royal Socie…",
+      "ts": 1791933014000,
+      "publishedAt": "2026-10-13T23:10:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "People with a 'good ear' for sounds make better language learners, study suggests",
+      "url": "https://phys.org/news/2026-10-people-good-ear-language-learners.html",
+      "summary": "People who are better at noticing fine details in sound—an ability known as auditory precision—can master the pronunciation of new languages faster and more accurately than other learners, a new study published in the Jo…",
+      "ts": 1791933002000,
+      "publishedAt": "2026-10-13T23:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Optical skyrmions can control the motion of magnetic skyrmions",
+      "url": "https://phys.org/news/2026-10-optical-skyrmions-motion-magnetic.html",
+      "summary": "Magnetic skyrmions (MSks) are swirling patterns of magnetization that form inside certain magnetic materials. They can behave like actual particles in many ways, exhibiting a stable internal structure and distinct bounda…",
+      "ts": 1791931211000,
+      "publishedAt": "2026-10-13T22:40:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Patterned X-rays map 3D chemical structures faster with fewer measurements",
+      "url": "https://phys.org/news/2026-10-patterned-rays-3d-chemical-faster.html",
+      "summary": "Seeing inside an object is one thing; seeing exactly what it is made of, in three dimensions, is far more difficult. Now, researchers at Bar-Ilan University and collaborating institutions have developed a new X-ray imagi…",
+      "ts": 1791931207000,
+      "publishedAt": "2026-10-13T22:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Computational model guides lighting design to improve color discrimination in aging eyes",
+      "url": "https://phys.org/news/2026-10-discrimination-aging-eyes.html",
+      "summary": "Researchers have developed a new computational model that accounts for the effects of aging on our eyes' ability to discriminate color. It could help guide lighting designs that make it easier for older adults to perceiv…",
+      "ts": 1791930013000,
+      "publishedAt": "2026-10-13T22:20:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How eye-catching social media feeds steer attention toward misinformation",
+      "url": "https://phys.org/news/2026-10-eye-social-media-attention-misinformation.html",
+      "summary": "A research team led by Jiyoung Lee, a professor in the Department of Media and Communication, has worked with international researchers to uncover how visual contrast across social media feeds influences how quickly user…",
+      "ts": 1791930009000,
+      "publishedAt": "2026-10-13T22:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hawaiian coral tests reveal heat tolerance varies by species and location",
+      "url": "https://phys.org/news/2026-10-hawaiian-coral-reveal-tolerance-varies.html",
+      "summary": "As ocean temperatures rise, corals' ability to withstand and adapt to heat stress is critical for the future of coral reefs. Many reef-building corals already live near their upper thermal limits, making them vulnerable …",
+      "ts": 1791928812000,
+      "publishedAt": "2026-10-13T22:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The politics of city rats: What urban rodents tell us about housing and sanitation",
+      "url": "https://phys.org/news/2026-10-politics-city-rats-urban-rodents.html",
+      "summary": "Rats are on the ballot in Canadian municipal elections this fall, with several political parties promising to tackle city rat problems. While rats may seem like a niche election issue, they can point to broader societal …",
+      "ts": 1791928801000,
+      "publishedAt": "2026-10-13T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thwaites Glacier could contribute twice as much sea-level rise as previously projected",
+      "url": "https://phys.org/news/2026-10-thwaites-glacier-contribute-sea-previously.html",
+      "summary": "A new ice sheet model developed by glaciologists at the University of California, Irvine and NASA's Jet Propulsion Laboratory projects that the melting of Thwaites Glacier in West Antarctica will contribute up to 30 mill…",
+      "ts": 1791928201000,
+      "publishedAt": "2026-10-13T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Could meditation reveal an SU(3) symmetry shared by the observer and the universe?",
+      "url": "https://phys.org/news/2026-10-meditation-reveal-su3-symmetry-universe.html",
+      "summary": "You sit down to meditate. A conversation returns, then thoughts. You bring your attention back to the breath. Sometimes, after many such returns, the effort eases. Thoughts lose their urgency, while awareness remains cle…",
+      "ts": 1791927608000,
+      "publishedAt": "2026-10-13T21:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drier Texas rivers support simpler food webs and higher animal productivity, study finds",
+      "url": "https://phys.org/news/2026-10-drier-texas-rivers-simpler-food.html",
+      "summary": "Global warming is often treated as synonymous with climate change, but rising temperatures are only one consequence of the human-driven phenomenon. Changes in rainfall patterns are another, but their effects on ecosystem…",
+      "ts": 1791927602000,
+      "publishedAt": "2026-10-13T21:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Carpet' growth method yields long-sought 2D quantum material",
+      "url": "https://phys.org/news/2026-10-carpet-growth-method-yields-sought.html",
+      "summary": "For decades, physicists have sought a practical two-dimensional topological insulator: an ultrathin material whose interior blocks electricity but whose edges conduct it. In ordinary wires, electrons constantly bounce of…",
+      "ts": 1791927002000,
+      "publishedAt": "2026-10-13T21:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Liquid metal dealloying creates nanoporous silicon carbide at just 800°C",
+      "url": "https://phys.org/news/2026-10-liquid-metal-dealloying-nanoporous-silicon.html",
+      "summary": "Silicon carbide (SiC) is a ceramic known for its excellent heat resistance and chemical stability, which makes it attractive for a wide range of applications like electronics, catalysts and energy-related materials. Howe…",
+      "ts": 1791926407000,
+      "publishedAt": "2026-10-13T21:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Faster molecular simulations identify promising diamond defects for quantum computers and sensors",
+      "url": "https://phys.org/news/2026-10-faster-molecular-simulations-diamond-defects.html",
+      "summary": "A faster way of finding the best diamond-based materials for quantum computers has been developed by a researcher at the U.S. Department of Energy's (DOE) Princeton Plasma Physics Laboratory (PPPL). The new approach has …",
+      "ts": 1791926401000,
+      "publishedAt": "2026-10-13T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New topological microscope tip reveals evidence of 2D altermagnetism",
+      "url": "https://phys.org/news/2026-10-topological-microscope-reveals-evidence-2d.html",
+      "summary": "Researchers have fashioned a layered topological material into a scanning tunneling microscope (STM) tip that senses spin-related electronic states at atomic resolution.",
+      "ts": 1791925801000,
+      "publishedAt": "2026-10-13T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA 'flight recorder' traces embryonic development cell by cell",
+      "url": "https://phys.org/news/2026-10-dna-flight-embryonic-cell.html",
+      "summary": "For decades, scientists have been able to look at individual moments in the development of an embryo: a snapshot of a developing brain, a picture of how the heart takes shape or a glimpse of cells beginning to form the n…",
+      "ts": 1791925206000,
+      "publishedAt": "2026-10-13T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New method helps researchers study proteins involved in plant health, disease",
+      "url": "https://phys.org/news/2026-10-method-proteins-involved-health-disease.html",
+      "summary": "Plants—like people—come in all shapes and sizes. And just like scientists want to understand the components of the human body to treat disease and improve our lives, they also want to understand how plants thrive, develo…",
+      "ts": 1791925201000,
+      "publishedAt": "2026-10-13T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Humans and songbirds hear the same sounds, but organize them differently",
+      "url": "https://phys.org/news/2026-10-humans-songbirds-differently.html",
+      "summary": "Researchers from the University of Amsterdam and Leiden University have discovered that humans and songbirds use markedly different strategies to recognize sequences of complex sounds. The findings shed new light on how …",
+      "ts": 1791924602000,
+      "publishedAt": "2026-10-13T20:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sequence changes help modified mRNA avoid protein-making errors to improve vaccine design",
+      "url": "https://phys.org/news/2026-10-sequence-mrna-protein-errors-vaccine.html",
+      "summary": "When the coronavirus SARS-CoV-2 turned our world upside down, mRNA vaccines against COVID-19 brought a breakthrough. Their success established modified mRNA as a powerful foundation for vaccines and opened the way for ne…",
+      "ts": 1791924007000,
+      "publishedAt": "2026-10-13T20:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers uncover multiple genetic paths that lead to mottled feathers in chickens",
+      "url": "https://phys.org/news/2026-10-uncover-multiple-genetic-paths-mottled.html",
+      "summary": "The white-tipped feathers found in many chicken breeds may look like variations of the same decorative pattern, but new research shows that they do not all share the same genetic origin.",
+      "ts": 1791924001000,
+      "publishedAt": "2026-10-13T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum physicists trace a century of controlling spin",
+      "url": "https://phys.org/news/2026-10-quantum-physicists-century.html",
+      "summary": "A concept from the field of quantum mechanics, spin is a property of particles that has no direct counterpart in everyday experience. Since the early 20th century, researchers have learned to manipulate it deliberately b…",
+      "ts": 1791923401000,
+      "publishedAt": "2026-10-13T20:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New electrochemical sensor could make food quality testing faster and less expensive",
+      "url": "https://phys.org/news/2026-10-electrochemical-sensor-food-quality-faster.html",
+      "summary": "Researchers at the Oregon State University College of Science have developed a new electrochemical sensor for rapidly and accurately detecting a naturally occurring compound widely used in the food, beverage and fragranc…",
+      "ts": 1791922805000,
+      "publishedAt": "2026-10-13T20:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Want more women CEOs? Start with company structure, research finds",
+      "url": "https://phys.org/news/2026-10-women-ceos-company.html",
+      "summary": "Women managers are significantly more likely to be promoted to CEO at companies organized into separate business units—each with its own revenues, costs and bottom line—than at companies that operate as a single, stand-a…",
+      "ts": 1791922801000,
+      "publishedAt": "2026-10-13T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New carbon calculator helps research labs pinpoint emissions and target reductions",
+      "url": "https://phys.org/news/2026-10-carbon-labs-emissions-reductions.html",
+      "summary": "Research labs are among the most energy-hungry facilities at universities worldwide. According to both University College London and a Swiss initiative called Green Lab, these labs require anywhere from three to 10 times…",
+      "ts": 1791921607000,
+      "publishedAt": "2026-10-13T20:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "3D map of rice development charts gene activity across plant's entire life cycle",
+      "url": "https://phys.org/news/2026-10-3d-rice-gene-entire-life.html",
+      "summary": "Rice is one of the world's most familiar staple foods, but how does a single cell develop into a rice plant with specialized tissues and organs? A new study offers a detailed look at this process through a three-dimensio…",
+      "ts": 1791921601000,
+      "publishedAt": "2026-10-13T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new way to replace carbon with nitrogen atoms could lead to better medicines",
+      "url": "https://phys.org/news/2026-10-carbon-nitrogen-atoms-medicines.html",
+      "summary": "When drugmakers want to improve on compounds they have already created, they can replace a carbon atom with a nitrogen atom. While effective, the techniques they use to perform this chemical swap, known as skeletal editi…",
+      "ts": 1791921007000,
+      "publishedAt": "2026-10-13T19:50:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Candida auris copies its entire genome to survive antifungal treatment, research reveals",
+      "url": "https://phys.org/news/2026-10-candida-auris-entire-genome-survive.html",
+      "summary": "New research has revealed an unexpected new mechanism through which the killer fungus Candida auris is resisting antifungal drug treatment. A team led by the University of Exeter and City St George's, University of Londo…",
+      "ts": 1791921001000,
+      "publishedAt": "2026-10-13T19:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The ocean circulation that persists even after a key AMOC component fails",
+      "url": "https://phys.org/news/2026-10-ocean-circulation-persists-key-amoc.html",
+      "summary": "The Atlantic meridional overturning circulation (AMOC) is thought to face a potentially existential threat from climate change. But attempts to model what happens to AMOC as the oceans warm show divergent outcomes, leavi…",
+      "ts": 1791920413000,
+      "publishedAt": "2026-10-13T19:40:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellite model finds Alpine peatlands may be smaller than official maps show",
+      "url": "https://phys.org/news/2026-10-satellite-alpine-peatlands-smaller.html",
+      "summary": "Peatlands in the Alps are mostly small, scattered and difficult to access. As a result, up-to-date information on their extent and condition is often lacking. An international research team, including researchers from th…",
+      "ts": 1791920410000,
+      "publishedAt": "2026-10-13T19:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly discovered antiviral system in bacteria is 'strangest of its kind'",
+      "url": "https://phys.org/news/2026-10-newly-antiviral-bacteria-strangest-kind.html",
+      "summary": "Researchers at Gladstone Institutes have uncovered an unusual bacterial immune system that operates in reverse of known defenses. The discovery, published in Molecular Cell, details the mechanics of \"type VI retrons\"—a c…",
+      "ts": 1791919212000,
+      "publishedAt": "2026-10-13T19:20:12.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Variations in the human vocal tract could have influenced language diversity",
@@ -284,8 +524,64 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Author Correction: Engineered CRISPR-OsCas12f1 and RhCas12f1 with robust activities and expanded target range for genome editing",
+      "url": "https://www.nature.com/articles/s41467-026-78550-5",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Population-resolved single-emitter spectroscopy",
+      "url": "https://www.nature.com/articles/s41467-026-78155-y",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Reinforcement learning guided robotic platform that investigates and discovers asymmetric reactions",
+      "url": "https://www.nature.com/articles/s41467-026-78271-9",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Gamma-alumina as a highly active hydrogenation catalyst deciphered by molecular nitrogen",
+      "url": "https://www.nature.com/articles/s41467-026-78512-x",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Unmet care needs at the end-of-life among older adults with activity limitations",
       "url": "https://www.nature.com/articles/s41467-026-74719-0",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Securing critical rare-earth supply through end-of-life NdFeB magnets recycling via molten salt electrolysis with consumable Mg-cathode",
+      "url": "https://www.nature.com/articles/s41467-026-78305-2",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Disrupting the NAD<sup>+</sup>/NAM metabolic ratio driven by IL-1β inflammatory response potentiates chemotherapy and chemoimmunotherapy in mice",
+      "url": "https://www.nature.com/articles/s41467-026-78491-z",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Colossal visible birefringence and ultraviolet hyperbolicity in wide bandgap semiconductor CuAlO<sub>2</sub>",
+      "url": "https://www.nature.com/articles/s41467-026-78383-2",
       "summary": "",
       "ts": 1791849600000,
       "publishedAt": "2026-10-13T00:00:00.000Z"
@@ -505,302 +801,6 @@
       "summary": "Audit firms rely on partners to oversee audits and client relationships; managers to supervise teams and projects; and staff to perform much of the day-to-day work. The more audit partners and managers are involved in su…",
       "ts": 1791834006000,
       "publishedAt": "2026-10-12T19:40:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "What 2024's record-breaking rainfall says about the next El Niño",
-      "url": "https://phys.org/news/2026-10-rainfall-el-nio.html",
-      "summary": "Though strong El Niños have occurred only four times in as many decades, 2024's intense El Niño is already getting a sequel. New UCLA research shows that 2024 broke the record for extreme rainfall, with 40% of that incre…",
-      "ts": 1791832817000,
-      "publishedAt": "2026-10-12T19:20:17.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Primordial helium further confirms our understanding of the Big Bang",
-      "url": "https://phys.org/news/2026-10-primordial-helium-big.html",
-      "summary": "In the early moments of the big bang, two elements were forged: hydrogen and helium. Technically, the tiniest traces of light elements such as lithium were produced as well, but nothing of consequence. The early universe…",
-      "ts": 1791832807000,
-      "publishedAt": "2026-10-12T19:20:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Escape rooms give health care students a safe place to get things wrong",
-      "url": "https://phys.org/news/2026-10-rooms-health-students-safe-wrong.html",
-      "summary": "The buzzer goes off. Three occupational therapy students are convinced they have worked out what should happen to their patient next. They are wrong.",
-      "ts": 1791831617000,
-      "publishedAt": "2026-10-12T19:00:17.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Elephants continue to shape the savanna even after death",
-      "url": "https://phys.org/news/2026-10-elephants-savanna-death.html",
-      "summary": "Elephants shape the African savanna. They consume huge amounts of forage, dig for water, topple trees and affect all the animals around them. So, what happens to their outsized presence after these iconic animals pass aw…",
-      "ts": 1791831611000,
-      "publishedAt": "2026-10-12T19:00:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "High-speed video reveals how honey bee stingers keep pumping venom after detachment",
-      "url": "https://phys.org/news/2026-10-high-video-reveals-honey-bee.html",
-      "summary": "Australian scientists have used high-speed video to uncover the unique mechanism that allows a honey bee's stinger to continue to pump venom into its target even after it has separated from the bee's body.",
-      "ts": 1791831601000,
-      "publishedAt": "2026-10-12T19:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "NASA demonstrates next-generation heat shield technologies",
-      "url": "https://phys.org/news/2026-10-nasa-generation-shield-technologies.html",
-      "summary": "NASA is taking an unusual approach to testing heat shields that can keep astronauts safe as they return from missions to the moon and Mars: taking out the trash.",
-      "ts": 1791830407000,
-      "publishedAt": "2026-10-12T18:40:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Fijian bee genomics suggest 99% effective population decline since European colonization",
-      "url": "https://phys.org/news/2026-10-fijian-bee-genomics-effective-population.html",
-      "summary": "The decline of pollinator species due to habitat loss and pesticide use over recent decades has been a global concern. Pollinators like bees and butterflies support both wild plants and agricultural food production, but …",
-      "ts": 1791829205000,
-      "publishedAt": "2026-10-12T18:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Love in the ruins: The paradox of modern romance",
-      "url": "https://phys.org/news/2026-10-paradox-modern-romance.html",
-      "summary": "Ask young adults about love in this day and age, and their diagnosis is bleak: They live in an individualistic society, dating has been reduced to an algorithm, and a generation is afraid to commit.",
-      "ts": 1791829201000,
-      "publishedAt": "2026-10-12T18:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study links environment and youth mental health",
-      "url": "https://phys.org/news/2026-10-links-environment-youth-mental-health.html",
-      "summary": "A new University of Canterbury-led study of almost 1 million young people in New Zealand shows the environments they live in may be linked to their mental health over time. Te Whare Wānanga o Waitaha | University of Cant…",
-      "ts": 1791828011000,
-      "publishedAt": "2026-10-12T18:00:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New Jurassic crocodile species had unusually slender teeth, suggesting it fed on shrimp and tiny fish",
-      "url": "https://phys.org/news/2026-10-jurassic-crocodile-species-unusually-slender.html",
-      "summary": "A new species of ancient crocodile relative that lived around 170 million years ago has been discovered by scientists at the University of Portsmouth and Hassan II University of Casablanca, Morocco.",
-      "ts": 1791828006000,
-      "publishedAt": "2026-10-12T18:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Alternative gravity theory offers possible explanation for dark energy changing over time",
-      "url": "https://phys.org/news/2026-10-alternative-gravity-theory-explanation-dark.html",
-      "summary": "For many years, the simplest view of dark energy has been that it remains unchanged. Throughout cosmic history, the mysterious ingredient believed to drive the universe's accelerated expansion is thought to have behaved …",
-      "ts": 1791826814000,
-      "publishedAt": "2026-10-12T17:40:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How much rain can a hurricane make, and does the storm size matter?",
-      "url": "https://phys.org/news/2026-10-hurricane-storm-size.html",
-      "summary": "Hurricanes can produce enormous amounts of rain, adding up to trillions of gallons of water. But the big risk isn't the total amount—it's how much rain falls on each location.",
-      "ts": 1791826801000,
-      "publishedAt": "2026-10-12T17:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The dying sun could tear the solar system apart sooner than thought",
-      "url": "https://phys.org/news/2026-10-dying-sun-solar-sooner-thought.html",
-      "summary": "The fate of our solar system is written in the stars—well, one star to be precise: the sun. Estimates of what the end will look like once the sun sheds much of its mass and ultimately dies vary widely. New research publi…",
-      "ts": 1791825606000,
-      "publishedAt": "2026-10-12T17:20:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Physics Nobel highlights Antarctica's role in exploring the cosmos",
-      "url": "https://phys.org/news/2026-10-physics-nobel-highlights-antarctica-role.html",
-      "summary": "When Belgian American particle physicist Francis Halzen was awarded the 2026 Nobel Prize in physics \"for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysi…",
-      "ts": 1791825601000,
-      "publishedAt": "2026-10-12T17:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Ancient people relied on genetic variation already present in wild plants to domesticate crops like rice and corn",
-      "url": "https://phys.org/news/2026-10-ancient-people-genetic-variation-wild.html",
-      "summary": "Oryza rufipogon is an ordinary-looking wild grass found today in parts of China, India and Southeast Asia. More than 8,000 years ago, people living in the Lower Yangtze Valley began cultivating it.",
-      "ts": 1791824407000,
-      "publishedAt": "2026-10-12T17:00:07.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "Scarred blood vessels may be one clue to APOE4’s Alzheimer’s risk",
-      "url": "https://www.sciencenews.org/article/scar-tissue-blood-vessels-alzheimers",
-      "summary": "Scientists know APOE4 raises Alzheimer’s risk. A surprising change in blood vessel cells may help explain how.",
-      "ts": 1791820800000,
-      "publishedAt": "2026-10-12T16:00:00.000Z"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "Is ‘Attention’ the Essence of Intelligence?",
-      "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
-      "summary": "A mathematical mechanism enables AI models to process language at scale, undergirding the current AI revolution. Our columnist asks: Why is attention the key? The post Is ‘Attention’ the Essence of Intelligence? first ap…",
-      "ts": 1791814830000,
-      "publishedAt": "2026-10-12T14:20:30.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "When climate change brings the heat, what happens to a mighty redwood?",
-      "url": "https://www.sciencenews.org/article/climate-change-heat-redwood-temperature",
-      "summary": "In heat wave-like temperatures, coast redwoods' photosynthesis slows down, which may put one of Earth's most efficient carbon storers in jeopardy.",
-      "ts": 1791813600000,
-      "publishedAt": "2026-10-12T14:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Climate fingerprints reveal stronger evidence of human-caused warming after more than 30 years",
-      "url": "https://phys.org/news/2026-10-climate-fingerprints-reveal-stronger-evidence.html",
-      "summary": "The scientific evidence for human-caused global warming is stronger than ever, according to a major new review—despite a U.S. government report questioning the science.",
-      "ts": 1791810012000,
-      "publishedAt": "2026-10-12T13:00:12.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "DNA reveals genetic divide in Australian brolgas, with southern birds facing greater diversity risks",
-      "url": "https://phys.org/news/2026-10-dna-reveals-genetic-australian-brolgas.html",
-      "summary": "New research on the brolga, an iconic Australian crane species, has shown important genetic differences between northern and southeastern populations, with evidence that those in western Victoria are at increased risk, l…",
-      "ts": 1791808804000,
-      "publishedAt": "2026-10-12T12:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Why some anglers always follow the rules",
-      "url": "https://phys.org/news/2026-10-anglers.html",
-      "summary": "New research sheds light on why a surprising number of fishers always follow fishing rules, even when enforcement is unlikely and breaking the rules offers a financial reward.",
-      "ts": 1791807608000,
-      "publishedAt": "2026-10-12T12:20:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New sensor uses slowed light to detect gravitational pull of tiny objects",
-      "url": "https://phys.org/news/2026-10-sensor-gravitational-tiny.html",
-      "summary": "Gravity, the attraction between objects with mass, is the weakest of the four fundamental forces governing physical processes. Detecting the tiny gravitational pull of objects that are just a few millimeters in size and …",
-      "ts": 1791806414000,
-      "publishedAt": "2026-10-12T12:00:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI system could transform rabies testing around the world",
-      "url": "https://phys.org/news/2026-10-ai-rabies-world.html",
-      "summary": "Rabies virus detection in cell cultures could soon become faster and more accessible, thanks to the world's first AI system for this purpose, developed by researchers at the University of Surrey's Institute for People-Ce…",
-      "ts": 1791806408000,
-      "publishedAt": "2026-10-12T12:00:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study explores why Indigenous communities may accept oil extraction despite its harms",
-      "url": "https://phys.org/news/2026-10-explores-indigenous-communities-oil.html",
-      "summary": "The uneven distribution of oil extraction's impacts and benefits helps explain why some Indigenous communities accept it, newly published research shows.",
-      "ts": 1791805213000,
-      "publishedAt": "2026-10-12T11:40:13.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Model links course design, psychological safety and guided AI use",
-      "url": "https://phys.org/news/2026-10-links-psychological-safety-ai.html",
-      "summary": "University of Phoenix researchers have published a new peer-reviewed study examining how stress, self-regulation, resilience, belonging, psychological safety and generative artificial intelligence (GenAI) interact in the…",
-      "ts": 1791804001000,
-      "publishedAt": "2026-10-12T11:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Americans Hall and Woodford win economics Nobel for stabilization models",
-      "url": "https://phys.org/news/2026-10-americans-hall-woodford-economics-nobel.html",
-      "summary": "Americans Robert Hall and Michael Woodford were awarded the Nobel economics prize Monday for their work on how monetary and fiscal policy can better stabilize disruptive economic fluctuations.",
-      "ts": 1791802929000,
-      "publishedAt": "2026-10-12T11:02:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI platforms offer promise in limiting the illegal wildlife trade",
-      "url": "https://phys.org/news/2026-10-ai-platforms-limiting-illegal-wildlife.html",
-      "summary": "New University of Kent research has found promising signs that AI platforms have the potential to limit the illegal wildlife trade. The research paper titled \"Assessing safeguards against the illegal wildlife trade on AI…",
-      "ts": 1791802809000,
-      "publishedAt": "2026-10-12T11:00:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hybrid quantum computers could finally get to grips with light and matter",
-      "url": "https://phys.org/news/2026-10-hybrid-quantum.html",
-      "summary": "Many of nature's most important processes depend on how particles of matter interact with light and other force-carrying particles. So far, however, it has proven difficult for conventional computers to determine how ind…",
-      "ts": 1791801601000,
-      "publishedAt": "2026-10-12T10:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hurricane Simon churns off Mexican coast after shift in course",
-      "url": "https://phys.org/news/2026-10-hurricane-simon-churns-mexican-coast.html",
-      "summary": "Hurricane Simon shifted track slightly on Sunday and was forecast to skirt Mexico's west coast without making landfall, while packing heavy rain and severe winds.",
-      "ts": 1791796801000,
-      "publishedAt": "2026-10-12T09:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "World leaders urged to 'course correct' as UN nature goals fall short",
-      "url": "https://phys.org/news/2026-10-world-leaders-urged-nature-goals.html",
-      "summary": "Nations are steeling for a disappointing report card at this month's U.N. biodiversity summit, with governments falling short on their commitments to protect the plants, animals and ecosystems that sustain life on Earth.",
-      "ts": 1791796136000,
-      "publishedAt": "2026-10-12T09:08:56.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "El Niño sets temperature record in key Pacific zone: EU monitor",
-      "url": "https://phys.org/news/2026-10-el-nio-temperature-key-pacific.html",
-      "summary": "An intensifying El Niño broke a temperature record in a key zone of the Pacific in September, the EU's climate monitor said Monday, in another sign the weather pattern is gaining exceptional strength.",
-      "ts": 1791795885000,
-      "publishedAt": "2026-10-12T09:04:45.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Italian rice farmer beats heat with biodiversity haven",
-      "url": "https://phys.org/news/2026-10-italian-rice-farmer-biodiversity-haven.html",
-      "summary": "Four hundred years after monks transformed a patch of marshlands in northwest Italy into rice fields, farmer Alice Cerutti has restored a third to their natural state, prioritizing biodiversity over crop yield.",
-      "ts": 1791795816000,
-      "publishedAt": "2026-10-12T09:03:36.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rescued weather records reveal hot days became nearly twice as common in the Congo Basin over two decades",
-      "url": "https://phys.org/news/2026-10-weather-reveal-hot-days-common.html",
-      "summary": "New research led by Vrije Universiteit Brussel (VUB) and published in the journal Earth System Dynamics shows a clear warming signal across the Congo Basin since the 1960s, using historical weather records from the Democ…",
-      "ts": 1791792001000,
-      "publishedAt": "2026-10-12T08:00:01.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-like Architecture of the Social Atom: Mental Marker Coherence and the Triple-Resonance Mechanism of Cognitive Activation",
-      "url": "https://arxiv.org/abs/2610.12472",
-      "summary": "arXiv:2610.12472v1 Announce Type: new Abstract: Social Laser Theory (SLT) provides a rigorous quantum-like mathematical formalism for modeling collective social activation. While its macroscopic effects mimic laser physi…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Insurance perspectives on climate-related risks",
-      "url": "https://arxiv.org/abs/2610.12473",
-      "summary": "arXiv:2610.12473v1 Announce Type: new Abstract: Emerging climate risks are bringing pressing challenges for insurers globally, as they face growing uncertainty in quantifying climate impacts from physical and transition …",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Why has PET glycolysis remained difficult to industrialize despite decades of optimization?",
-      "url": "https://arxiv.org/abs/2610.12475",
-      "summary": "arXiv:2610.12475v1 Announce Type: new Abstract: Classical PET glycolysis struggles with industrial scale-up due to a research paradigm defect: uncoupled reaction optimization that ignores system-level engineering entropy…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Meaning and Facets of `Symmetry' in Physics",
-      "url": "https://arxiv.org/abs/2610.12488",
-      "summary": "arXiv:2610.12488v1 Announce Type: new Abstract: This paper is an English translation of a contribution to the latest German edition (2017) of Hermann Weyl's classic text \"Symmetry\", edited and annotated by Erhard Scholz,…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
     }
   ],
   "sources": [
