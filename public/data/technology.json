@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-10-13T02:54:17.450Z",
+  "updated": "2026-10-13T10:16:16.246Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "AI labs are buying data from dead startups to train their models",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives …",
+      "ts": 1791882000000,
+      "publishedAt": "2026-10-13T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Lethal injection will never be the same after Christa Pike’s botched execution",
+      "url": "https://www.statnews.com/2026/10/13/christa-pike-botched-execution-bioethics-end-of-lethal-injection/?utm_campaign=rss",
+      "summary": "“The legal and medical issues in the Christa Pike case are on a collision course,” writes bioethicist M. Sara Rosenthal.",
+      "ts": 1791880200000,
+      "publishedAt": "2026-10-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Concerns grow on safety issues tied to Neurocrine Biosciences rare disease drug",
+      "url": "https://www.statnews.com/2026/10/13/neurocrine-biosciences-prader-willi-vykat-xr/?utm_campaign=rss",
+      "summary": "Patient advocates and some experts are expressing growing alarm over the perceived risks of a rare disease drug sold by Neurocrine Biosciences.",
+      "ts": 1791880200000,
+      "publishedAt": "2026-10-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: The epidemic of learned helplessness in physicians",
+      "url": "https://www.statnews.com/2026/10/13/doctors-learned-helplessness-chief-complaint-frances-mei-hardin/?utm_campaign=rss",
+      "summary": "“Hordes of brilliant, graduate-degree-holding professionals in their 40s, 50s, and beyond act helpless at work,” writes STAT columnist Frances Mei Hardin.",
+      "ts": 1791880200000,
+      "publishedAt": "2026-10-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to ap…",
+      "ts": 1791867631000,
+      "publishedAt": "2026-10-13T05:00:31.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 13 – Desert Stairway to Heaven",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-13-desert-stairway-to-heaven/",
+      "summary": "APOD Science APOD APOD: 2026 October 13 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1791864300000,
+      "publishedAt": "2026-10-13T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "An Impact Structure With Legs",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-impact-structure-with-legs/",
+      "summary": "If the thought of extraterrestrial objects crashing into Earth weren’t creepy enough, behold Australia’s Spider Crater.",
+      "ts": 1791864060000,
+      "publishedAt": "2026-10-13T04:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "StockWatch: Caribou Plunges as It Pursues Strategic Alternatives",
@@ -10,6 +73,15 @@
       "ts": 1791834508000,
       "publishedAt": "2026-10-12T19:48:28.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
+      "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+      "summary": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral …",
+      "ts": 1791827127000,
+      "publishedAt": "2026-10-12T17:45:27.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NVIDIA",
@@ -153,6 +225,15 @@
       "summary": "APOD Science APOD APOD: 2026 October 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
       "ts": 1791777900000,
       "publishedAt": "2026-10-12T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
+      "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
+      "summary": "The ice reached its third-lowest maximum extent since satellite observations began.",
+      "ts": 1791777600000,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -370,15 +451,6 @@
       "ts": 1791777600000,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
-      "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
-      "summary": "The ice reached its third-lowest maximum extent since satellite observations began.",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "IAEA News",
@@ -739,78 +811,6 @@
       "ts": 1791545068000,
       "publishedAt": "2026-10-09T11:24:28.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Expands Cooperation to Support Nuclear Power Development",
-      "url": "http://www.iaea.org/newscenter/news/iaea-expands-cooperation-to-support-nuclear-power-development",
-      "summary": "",
-      "ts": 1791542947000,
-      "publishedAt": "2026-10-09T10:49:07.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Concludes Long Term Operation Safety Review at Sweden’s Oskarshamn Nuclear Power Plant",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-long-term-operation-safety-review-at-swedens-oskarshamn-nuclear-power-plant-0",
-      "summary": "",
-      "ts": 1791537216000,
-      "publishedAt": "2026-10-09T09:13:36.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-completes-international-physical-protection-advisory-service-mission-in-pakistan",
-      "summary": "",
-      "ts": 1791536408000,
-      "publishedAt": "2026-10-09T09:00:08.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "We’re putting too much faith in AI’s ability to say no",
-      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of rob…",
-      "ts": 1791536400000,
-      "publishedAt": "2026-10-09T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Job titles of the future: Delivery drone air traffic controller",
-      "url": "https://www.technologyreview.com/2026/10/09/1145737/job-titles-delivery-drone-air-traffic-controller-trevor-wischnewsky/",
-      "summary": "The moment Trevor Wischnewsky heard that drones were delivering pizza and sushi around his Texas neighborhood, his mind was made up. “It was super fascinating,” he says. “I just immediately wanted to be a part of it.” Wi…",
-      "ts": 1791536400000,
-      "publishedAt": "2026-10-09T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "We’re still figuring out the side effects of GLP-1 weight-loss drugs",
-      "url": "https://www.technologyreview.com/2026/10/09/1146094/were-still-figuring-out-the-side-effects-of-glp-1-weight-loss-drugs/",
-      "summary": "This week my colleague Antonio Regalado had an interesting update on GLP-1 weight-loss drugs. According to research presented at an aging meeting in Boston, these drugs seem to affect at least some measures of biological…",
-      "ts": 1791536400000,
-      "publishedAt": "2026-10-09T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Will MAHA survive the midterms?",
-      "url": "https://www.statnews.com/2026/10/09/maha-movement-rfk-jr-campaign-trail-midterm-elections/?utm_campaign=rss",
-      "summary": "As the midterm elections draw near, the MAHA movement is nearly invisible on the campaign trail and struggling to find a financial or messaging foothold in key races.",
-      "ts": 1791534600000,
-      "publishedAt": "2026-10-09T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Proposed U.S. census changes could be catastrophic for public health",
-      "url": "https://www.statnews.com/2026/10/09/2030-census-public-health-data-equity-morbidity-mortality/?utm_campaign=rss",
-      "summary": "“Erasing data does not erase need or harm,” writes social epidemiologist Nancy Krieger.",
-      "ts": 1791534600000,
-      "publishedAt": "2026-10-09T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

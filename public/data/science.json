@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-13T02:54:14.500Z",
+  "updated": "2026-10-13T10:16:13.416Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "100-year magazine study reveals 'narrowing' of U.K. seafood recipes",
+      "url": "https://phys.org/news/2026-10-year-magazine-reveals-narrowing-uk.html",
+      "summary": "A century of recipes published in the magazine Good Housekeeping reveals how the variety of seafood presented to U.K. readers has \"narrowed,\" new research shows.",
+      "ts": 1791864007000,
+      "publishedAt": "2026-10-13T04:00:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Snakebites are a far bigger problem than we knew: new study maps the hidden dangers",
@@ -9,6 +17,46 @@
       "summary": "Not every snakebite injects venom. When venom enters the body, however, it can cause snake envenoming. This is a potentially fatal condition that mostly affects poor rural communities across tropical and subtropical regi…",
       "ts": 1791855602000,
       "publishedAt": "2026-10-13T01:40:02.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Unmet care needs at the end-of-life among older adults with activity limitations",
+      "url": "https://www.nature.com/articles/s41467-026-74719-0",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "NiCLIP: neuroimaging contrastive language-image pretraining model for predicting text from brain activation images",
+      "url": "https://www.nature.com/articles/s41467-026-78451-7",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Scellmate enables contamination aware curation and host mobilome linkage analysis of large SAG datasets",
+      "url": "https://www.nature.com/articles/s41467-026-78527-4",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Mitochondria-localized circRNA BRAKE restrains adipogenesis under nutrient overload by disrupting ATP synthase assembly in mice",
+      "url": "https://www.nature.com/articles/s41467-026-78378-z",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Current aviation roadmaps are not within planetary boundaries",
+      "url": "https://www.nature.com/articles/s41467-026-77472-6",
+      "summary": "",
+      "ts": 1791849600000,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -751,54 +799,6 @@
       "title": "Beam Spill Structure Measurements at CEE Using the T0 Detector",
       "url": "https://arxiv.org/abs/2610.13004",
       "summary": "arXiv:2610.13004v1 Announce Type: new Abstract: The Cooling Storage Ring External-target Experiment (CEE) at the Heavy Ion Research Facility in Lanzhou uses a slow-extracted heavy-ion beam whose temporal profile directly…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Is the Number of Foreshocks Underestimated? The Role of Declustering Symmetry",
-      "url": "https://arxiv.org/abs/2610.13147",
-      "summary": "arXiv:2610.13147v1 Announce Type: new Abstract: The physical origin of foreshocks remains one of the major unresolved problems in statistical seismology. In bottom-up (BU) triggering models, foreshocks are interpreted as…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Morphology-based retrieval of local wave parameters and phase shifts in satellite-observed atmospheric disturbances",
-      "url": "https://arxiv.org/abs/2610.13159",
-      "summary": "arXiv:2610.13159v1 Announce Type: new Abstract: Currently available methods for processing atmospheric wave disturbances are often based on integral wavelet transform techniques, which efficiently estimate spectral data …",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative modeling of acid-base equilibria",
-      "url": "https://arxiv.org/abs/2610.13265",
-      "summary": "arXiv:2610.13265v1 Announce Type: new Abstract: Simulating acid-base equilibria from first principles is a tremendous challenge, as it requires modeling bond-breaking events in a complex hydrogen-bonding environment. The…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum dynamics of an ion in an RF quadrupole trap with weak octupolar anharmonicity",
-      "url": "https://arxiv.org/abs/2610.13293",
-      "summary": "arXiv:2610.13293v1 Announce Type: new Abstract: We investigate the quantum dynamics of a single ion confined in a radio-frequency (RF) Paul trap in the presence of weak octupole-induced anharmonicity, as can occur in rea…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Is Earthquake Replenishment Sufficient for Unbiased b-Value Estimation?",
-      "url": "https://arxiv.org/abs/2610.13380",
-      "summary": "arXiv:2610.13380v1 Announce Type: new Abstract: Short-term aftershock incompleteness biases Gutenberg-Richter b-value estimates because many small earthquakes remain undetected immediately after large events. Two strateg…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bottom-Up Surface-Enhanced Raman Scattering for the Detection of Micro-Objects and Globular Analytes",
-      "url": "https://arxiv.org/abs/2610.13381",
-      "summary": "arXiv:2610.13381v1 Announce Type: new Abstract: Surface-enhanced Raman scattering (SERS) is typically achieved by depositing the analyte on a metal or semiconductor substrate. We propose a bottom-up approach, enabling SE…",
       "ts": 1791777600000,
       "publishedAt": "2026-10-12T04:00:00.000Z"
     }
