@@ -67700,9 +67700,9 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   overflow: hidden;
   background: linear-gradient(
     155deg,
-    rgba(8, 9, 12, 0.88) 0%,
-    rgba(3, 4, 6, 0.92) 48%,
-    rgba(0, 1, 2, 0.95) 100%
+    rgba(7, 8, 10, 0.945) 0%,
+    rgba(3, 4, 5, 0.958) 48%,
+    rgba(1, 1, 2, 0.972) 100%
   ) !important;
   border: 1px solid rgba(255,255,255,.065) !important;
   border-radius: 24px 24px 0 0 !important;
@@ -67857,16 +67857,6 @@ main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__stateme
 
 /* Footer is the final painted surface; no external bottom spacing. */
 main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !important; }
-
-
-
-
-
-
-
-
-
-
 
 
 
