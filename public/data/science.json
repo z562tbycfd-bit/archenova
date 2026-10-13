@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-10-12T21:42:16.554Z",
+  "updated": "2026-10-13T02:54:14.500Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Snakebites are a far bigger problem than we knew: new study maps the hidden dangers",
+      "url": "https://phys.org/news/2026-10-snakebites-bigger-problem-knew-hidden.html",
+      "summary": "Not every snakebite injects venom. When venom enters the body, however, it can cause snake envenoming. This is a potentially fatal condition that mostly affects poor rural communities across tropical and subtropical regi…",
+      "ts": 1791855602000,
+      "publishedAt": "2026-10-13T01:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stabilizing a simple amino acid opens a path to biodegradable sensors",
+      "url": "https://phys.org/news/2026-10-stabilizing-simple-amino-acid-path.html",
+      "summary": "The humble amino acid glycine—the simplest of all amino acids—is everywhere. The human body produces it, and it helps make up our skin, bones and ligaments. It's found in meats like beef and has even been discovered in c…",
+      "ts": 1791848401000,
+      "publishedAt": "2026-10-12T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gravity and quantum information linked through a derivation of Einstein's equations",
+      "url": "https://phys.org/news/2026-10-gravity-quantum-linked-derivation-einstein.html",
+      "summary": "Recent research shows that gravity and quantum information are deeply connected and that the shape of spacetime can be traced back to the way information is stored in quantum fields.",
+      "ts": 1791847201000,
+      "publishedAt": "2026-10-12T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research traces the origins and human impact of Britain's largest medieval lead industry through ancient teeth",
+      "url": "https://phys.org/news/2026-10-human-impact-britain-largest-medieval.html",
+      "summary": "The first definitive evidence of when post-Roman lead production began in one of Europe's largest medieval lead-producing regions, the Derbyshire Peak District in central England, has been uncovered by archaeologists aft…",
+      "ts": 1791846008000,
+      "publishedAt": "2026-10-12T23:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnetic sculpting transforms single-source fields into predetermined shapes with mathematical precision",
+      "url": "https://phys.org/news/2026-10-magnetic-sculpting-source-fields-predetermined.html",
+      "summary": "Magnetic fields are invisible yet essential components in technologies ranging from MRI scanners and particle accelerators to atomic clocks and future quantum computers. Each of these applications requires magnetic field…",
+      "ts": 1791844801000,
+      "publishedAt": "2026-10-12T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacterial antiviral defense suggests ancient link to human chromosome protection",
+      "url": "https://phys.org/news/2026-10-bacterial-antiviral-defense-ancient-link.html",
+      "summary": "A new antiviral defense system discovered by Columbia scientists could be adapted in the future into a gene editor that slows down aging in our cells and improves cancer therapies. At the same time, the discovery also sh…",
+      "ts": 1791843602000,
+      "publishedAt": "2026-10-12T22:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electoral integrity under pressure as elections faced persistent threats in 2025",
+      "url": "https://phys.org/news/2026-10-electoral-pressure-elections-persistent-threats.html",
+      "summary": "Elections across the world faced a wide range of pressures on electoral integrity in 2025, from violence and misinformation and disinformation to electoral management malfunctions, cyberattacks and natural hazards, accor…",
+      "ts": 1791843002000,
+      "publishedAt": "2026-10-12T22:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanostructure-assisted ultrasound shows potential for Parkinson's treatment",
+      "url": "https://phys.org/news/2026-10-nanostructure-ultrasound-potential-parkinson-treatment.html",
+      "summary": "Parkinson's disease (PD) is one of the most common neurological disorders associated with later life, and its prevalence rises sharply with age. It affects the brain systems that control movement, often causing tremor, s…",
+      "ts": 1791842408000,
+      "publishedAt": "2026-10-12T22:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemical disorder gives new ceramic film magnetic properties for potential low-power electronics",
+      "url": "https://phys.org/news/2026-10-chemical-disorder-ceramic-magnetic-properties.html",
+      "summary": "A material thinner than a human hair may foster faster computing devices that demand less energy and store more data, according to a multi-institutional team led by researchers in the Penn State College of Earth and Mine…",
+      "ts": 1791841801000,
+      "publishedAt": "2026-10-12T21:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "From nonmagnetic to magnetic: A 2D semiconductor with electrically tunable magnetism",
@@ -727,78 +799,6 @@
       "title": "Bottom-Up Surface-Enhanced Raman Scattering for the Detection of Micro-Objects and Globular Analytes",
       "url": "https://arxiv.org/abs/2610.13381",
       "summary": "arXiv:2610.13381v1 Announce Type: new Abstract: Surface-enhanced Raman scattering (SERS) is typically achieved by depositing the analyte on a metal or semiconductor substrate. We propose a bottom-up approach, enabling SE…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Localization Landscapes based on the Green's Matrix of Non-Hermitian Optical Scattering Systems",
-      "url": "https://arxiv.org/abs/2610.13413",
-      "summary": "arXiv:2610.13413v1 Announce Type: new Abstract: The Filoche--Mayboroda (FM) localization landscape predicts where the spatially localized modes of a self-adjoint elliptic operator reside without diagonalizing it, but the…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non intrusive parametric Reduced Order Models based on physics for incompressible flow",
-      "url": "https://arxiv.org/abs/2610.13425",
-      "summary": "arXiv:2610.13425v1 Announce Type: new Abstract: Reduced order modeling provides an efficient alternative to high fidelity simulations for the rapid prediction of fluid flows in many query settings. Among non intrusive ap…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral-control-assisted Kerr-lens mode-locking in a Tm:Y2O3 ceramic laser",
-      "url": "https://arxiv.org/abs/2610.13427",
-      "summary": "arXiv:2610.13427v1 Announce Type: new Abstract: We report a soft-aperture Kerr-lens mode-locked Tm:Y2O3 ceramic laser stabilized by suppressing wavelength competition under high population-inversion conditions. The laser…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Implementation and verification of a new free boundary module for Resistive Wall Modes simulations with the nonlinear 3D full MHD code SpeCyl",
-      "url": "https://arxiv.org/abs/2610.13428",
-      "summary": "arXiv:2610.13428v1 Announce Type: new Abstract: Self-consistent numerical simulations of free boundary instabilities, such as resistive wall modes (RWMs) and external kink modes, require special attention given their rel…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The binormal flow: a toy model for turbulence",
-      "url": "https://arxiv.org/abs/2610.13457",
-      "summary": "arXiv:2610.13457v1 Announce Type: new Abstract: These notes summarize the content of a one-week course given by Luis Vega on the binormal flow model applied to describe the dynamics of three-dimensional vortex filaments …",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unveiling the Influence of Graphitic Nanocarbon Structures, Defects, and Surface Functional Groups on Supercapacitive Performance in LiTFSI Electrolyte",
-      "url": "https://arxiv.org/abs/2610.13482",
-      "summary": "arXiv:2610.13482v1 Announce Type: new Abstract: When investigating the performance of supercapacitors (SCs), it was found that they offer high-power density and long life but are limited in capacity and energy density. W…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy-dependent trapping of backscattered helium during magnetron sputtering growth: A molecular dynamics study",
-      "url": "https://arxiv.org/abs/2610.13509",
-      "summary": "arXiv:2610.13509v1 Announce Type: new Abstract: Helium incorporation during magnetron sputtering can strongly affect thin film growth and lead to the formation of gas/solid nanocomposites and nanoporous structures. Here,…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "UV Fluorescence Sensing of Medical-Chemical-and- Biological Analytes by an AlGaN/Si-on-Sapphire Optoelectronic Chip",
-      "url": "https://arxiv.org/abs/2610.13525",
-      "summary": "arXiv:2610.13525v1 Announce Type: new Abstract: This paper proposes and analyzes a compact fluorescence-photometer lab-on-a-chip that is simpler than a fluorescence spectrometer, and that does not require spectrum recons…",
-      "ts": 1791777600000,
-      "publishedAt": "2026-10-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Re-emergence of fingering in solidifying liquid-metal drops",
-      "url": "https://arxiv.org/abs/2610.13533",
-      "summary": "arXiv:2610.13533v1 Announce Type: new Abstract: Solidification is expected to suppress fingering by removing mobile liquid. Here we report an unexpected re-emergence of fingering in impacting molten-tin drops: cooling fi…",
       "ts": 1791777600000,
       "publishedAt": "2026-10-12T04:00:00.000Z"
     }
