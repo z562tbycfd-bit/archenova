@@ -1,7 +1,178 @@
 {
   "ok": true,
-  "updated": "2026-10-13T10:16:16.246Z",
+  "updated": "2026-10-13T18:01:52.817Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Many patient, consumer reps on FDA advisory panels have ties to groups funded by pharma, analysis finds",
+      "url": "https://www.statnews.com/pharmalot/2026/10/13/many-patient-and-consumer-reps-on-fda-advisory-committees-ties-to-groups-funded-by-pharma/?utm_campaign=rss",
+      "summary": "Nearly 40% of FDA advisory committee meetings over a 20-year period included either a patient or consumer rep with active ties to an advocacy group funded by pharma companies.",
+      "ts": 1791914413000,
+      "publishedAt": "2026-10-13T18:00:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Enodia Therapeutics Inks Pfizer Deal to Develop Sec61-Targeting Small Molecules",
+      "url": "https://www.genengnews.com/topics/drug-discovery/enodia-therapeutics-inks-pfizer-deal-to-develop-sec61-targeting-small-molecules/",
+      "summary": "Backed by multiple Sec61 inhibitor families, proteomics and cryo-EM datasets, and machine learning-driven design, Enodia Therapeutics’ platform is the foundation of a new research collaboration and license agreement with…",
+      "ts": 1791913787000,
+      "publishedAt": "2026-10-13T17:49:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Transporter-18 SmallSats Encapsulation",
+      "url": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
+      "summary": "Three NASA-supported small spacecraft, along with many commercial payloads, are shown before being encapsulated in a SpaceX Falcon 9 ahead of launch on Oct. 1, 2026. The ASCENT Propulsion Dual Mode CubeSat, the Supernova…",
+      "ts": 1791913117000,
+      "publishedAt": "2026-10-13T17:38:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "JOB OPPORTUNITIES: NASA OFFICE OF THE GENERAL COUNSEL",
+      "url": "https://www.nasa.gov/organizations/ogc/job-opportunities-nasa-office-of-the-general-counsel/",
+      "summary": "",
+      "ts": 1791911760000,
+      "publishedAt": "2026-10-13T17:16:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
+      "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+      "summary": "Description A lunar lander from Voyager Technologies completed nearly three months of environmental testing at NASA’s Jet Propulsion Laboratory in Southern California in late September 2026. The tests demonstrate that th…",
+      "ts": 1791911471000,
+      "publishedAt": "2026-10-13T17:11:11.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Top 10 Questions Shaping the Future of Optogenetic Biomanufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/the-top-10-questions-shaping-the-future-of-optogenetic-biomanufacturing/",
+      "summary": "This article explores the ten most important questions facing optogenetic biomanufacturing as it moves from proof‑of‑concept demonstrations toward mainstream adoption in modern bioprocessing. The post The Top 10 Question…",
+      "ts": 1791910737000,
+      "publishedAt": "2026-10-13T16:58:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Animosity in North Carolina, and MA shooting stars",
+      "url": "https://www.statnews.com/2026/10/13/animosity-in-north-carolina-and-ma-shooting-stars-health-care-inc/?utm_campaign=rss",
+      "summary": "In this edition of Health Care Inc., we examine the controversy around the health plan covering North Carolina's public workers and retirees, and more.",
+      "ts": 1791907626000,
+      "publishedAt": "2026-10-13T16:07:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Doctors are giving generously to doctors running for office",
+      "url": "https://www.statnews.com/2026/10/13/health-policy-news-doctor-donations-maha-midterms/?utm_campaign=rss",
+      "summary": "Doctors have a lot on the line in the next couple years, and they are donating big to doctors running for political office.",
+      "ts": 1791906236000,
+      "publishedAt": "2026-10-13T15:43:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "TB 26-08 Complex Modes in Lightly Damped Structural Systems: A Two-Mode Interaction Perspective",
+      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-08-complex-modes-in-lightly-damped-structural-systemsa-two-mode-interaction-perspective/",
+      "summary": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov Download the PDF version Complex mode shapes can emerge in a linear structure even when overall damping is low. This behavior ca…",
+      "ts": 1791903741000,
+      "publishedAt": "2026-10-13T15:02:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FTC demands Martin Shkreli divest his pharma stocks",
+      "url": "https://www.statnews.com/2026/10/13/martin-shkreli-pharma-bro-ftc-contempt-stock-trades/?utm_campaign=rss",
+      "summary": "The FTC asked a federal court to hold Martin Shkreli in contempt for violating a court order banning him from working in the pharmaceutical industry",
+      "ts": 1791901868000,
+      "publishedAt": "2026-10-13T14:31:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "UCB Dedicates Future U.S. Biologics Manufacturing Campus in Georgia",
+      "url": "https://www.genengnews.com/topics/bioprocessing/ucb-dedicates-future-u-s-biologics-manufacturing-campus-in-georgia/",
+      "summary": "Some 330 permanent jobs are expected to be based at the approximately 460,000-square-foot campus, which will occupy 79 acres within the Rowen innovation district in Georgia’s Gwinnett County. The post UCB Dedicates Futur…",
+      "ts": 1791901828000,
+      "publishedAt": "2026-10-13T14:30:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about concerns over a rare disease drug, pharma payments to docs, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/13/neurocrine-rare-disease-drug-concerns-pharma-payments-to-doctors/?utm_campaign=rss",
+      "summary": "Patient advocates and some experts are expressing growing alarm over the perceived risks of a Neurocrine Biosciences rare disease drug",
+      "ts": 1791898162000,
+      "publishedAt": "2026-10-13T13:29:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Takeaways from an evaluation of Google’s diagnostic chatbot, AMIE",
+      "url": "https://www.statnews.com/2026/10/13/google-amie-diagnostic-chatbot-study-lancet-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: A look at a study recently published in The Lancet about Google's diagnostic chatbot, AMIE.",
+      "ts": 1791897205000,
+      "publishedAt": "2026-10-13T13:13:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+      "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+      "summary": "A commercial lander that will be at the forefront of NASA’s efforts to establish a Moon Base, humanity’s first lunar outpost, has passed a series of critical tests at the agency’s Jet Propulsion Laboratory in Southern Ca…",
+      "ts": 1791896400000,
+      "publishedAt": "2026-10-13T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and …",
+      "ts": 1791892849000,
+      "publishedAt": "2026-10-13T12:00:49.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently rel…",
+      "ts": 1791892800000,
+      "publishedAt": "2026-10-13T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "How many ways can the Trump administration clamp down on international researchers?",
+      "url": "https://www.statnews.com/2026/10/13/health-news-trump-admin-clamps-down-on-international-researchers/?utm_campaign=rss",
+      "summary": "In the span of two days last week, the Trump administration issued two sweeping announcements meant to crack down on international students and scholars, who make up a sizable portion…",
+      "ts": 1791892014000,
+      "publishedAt": "2026-10-13T11:46:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
+      "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
+      "summary": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds o…",
+      "ts": 1791889938000,
+      "publishedAt": "2026-10-13T11:12:18.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic re…",
+      "ts": 1791885600000,
+      "publishedAt": "2026-10-13T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "MIT Technology Review",
       "title": "AI labs are buying data from dead startups to train their models",
@@ -40,7 +211,7 @@
     },
     {
       "source": "NVIDIA",
-      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "title": "NVIDIA Announces New Investments in France’s Startups",
       "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
       "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to ap…",
       "ts": 1791867631000,
@@ -48,10 +219,28 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "IAEA News",
+      "title": "Call for Abstracts: International Conference on Radiation Protection and Safety",
+      "url": "http://www.iaea.org/newscenter/news/call-for-abstracts-international-conference-on-radiation-protection-and-safety",
+      "summary": "",
+      "ts": 1791867600000,
+      "publishedAt": "2026-10-13T05:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Nuclear Nutrition Programme Celebrates Its First Graduating Class",
+      "url": "http://www.iaea.org/newscenter/news/iaea-nuclear-nutrition-programme-celebrates-its-first-graduating-class",
+      "summary": "",
+      "ts": 1791867600000,
+      "publishedAt": "2026-10-13T05:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "APOD: 2026 October 13 – Desert Stairway to Heaven",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-13-desert-stairway-to-heaven/",
-      "summary": "APOD Science APOD APOD: 2026 October 13 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "summary": "APODScienceAPODAPOD: 2026 October 13 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fasc…",
       "ts": 1791864300000,
       "publishedAt": "2026-10-13T04:05:00.000Z",
       "categoryId": "space"
@@ -184,7 +373,7 @@
     },
     {
       "source": "MIT Technology Review",
-      "title": "Mars may be a hellhole, but the moon is not far behind",
+      "title": "What it would take to build a city on the moon",
       "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
       "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface b…",
       "ts": 1791797822000,
@@ -222,7 +411,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 12 – Jupiter and the Moons",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
-      "summary": "APOD Science APOD APOD: 2026 October 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "summary": "APODScienceAPODAPOD: 2026 October 12 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fasc…",
       "ts": 1791777900000,
       "publishedAt": "2026-10-12T04:05:00.000Z",
       "categoryId": "space"
@@ -622,195 +811,6 @@
       "ts": 1791564108000,
       "publishedAt": "2026-10-09T16:41:48.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "‘Molecular Movie’ of Penicillin Synthesis Could Inform Future Antibiotic Development",
-      "url": "https://www.genengnews.com/topics/bioprocessing/molecular-movie-of-penicillin-synthesis-could-inform-future-antibiotic-development/",
-      "summary": "An international research team have revealed previously unseen rapid chemical stages in the formation of β-lactam antibiotics such as penicillin, offering insights that could help to support future antibiotic development…",
-      "ts": 1791563782000,
-      "publishedAt": "2026-10-09T16:36:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharma’s free lunches for doctors boost inappropriate prescribing, analysis finds",
-      "url": "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss",
-      "summary": "The gifts and payments that doctors receive from drugmakers increased inappropriate prescribing, likely leading to rising health care costs, according to a new review.",
-      "ts": 1791563635000,
-      "publishedAt": "2026-10-09T16:33:55.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare Advantage star ratings trigger new bonuses, and uncertainty",
-      "url": "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/?utm_campaign=rss",
-      "summary": "The federal government has released new quality ratings for Medicare Advantage insurers for 2027, with Humana emerging as the biggest winner.",
-      "ts": 1791561347000,
-      "publishedAt": "2026-10-09T15:55:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Multiomics in 2026 and Beyond",
-      "url": "https://www.genengnews.com/topics/omics/multiomics-in-2026-and-beyond/",
-      "summary": "Multiomics analysis combines data from two or more omics layers—such as genomics, transcriptomics, proteomics, and epigenomics. However, published criticisms of multiomics approaches have highlighted concerns about data …",
-      "ts": 1791561223000,
-      "publishedAt": "2026-10-09T15:53:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Life Biosciences share glaucoma study updates for its cellular reprogramming drug",
-      "url": "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/?utm_campaign=rss",
-      "summary": "Life Biosciences said yesterday that three glaucoma patients have now received a single injection of its experimental cellular reprogramming drug, with no serious adverse events.",
-      "ts": 1791560499000,
-      "publishedAt": "2026-10-09T15:41:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-370-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1791558935000,
-      "publishedAt": "2026-10-09T15:15:35.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1791554375000,
-      "publishedAt": "2026-10-09T13:59:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Cosmic House of Mirrors",
-      "url": "https://www.nasa.gov/image-article/cosmic-house-of-mirrors/",
-      "summary": "Galaxies warp and multiply as if in a house of mirrors in this image from NASA’s James Webb Space Telescope released on Sept. 29, 2026. The brilliant golden galaxies seen here are part of a galaxy cluster called MACS J04…",
-      "ts": 1791554244000,
-      "publishedAt": "2026-10-09T13:57:24.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "How these census changes could threaten public health",
-      "url": "https://www.statnews.com/2026/10/09/health-news-census-changes-threaten-public-data-collection/?utm_campaign=rss",
-      "summary": "The Trump administration wants to make three big changes to the U.S. Census, including eliminating questions about race, ethnicity, and sexual orientation and excluding anyone who is not a citizen…",
-      "ts": 1791552209000,
-      "publishedAt": "2026-10-09T13:23:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a setback for Argenx, Lilly suits over copycat versions of an obesity drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/?utm_campaign=rss",
-      "summary": "The FDA flagged a potential safety signal after four patient deaths in a trial testing a schizophrenia drug, Argenx faces an unusual setback, and more pharma news.",
-      "ts": 1791551840000,
-      "publishedAt": "2026-10-09T13:17:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 05-09 October 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_05-09_October_2026",
-      "summary": "Week in images: 05-09 October 2026 Discover our week through the lens",
-      "ts": 1791551700000,
-      "publishedAt": "2026-10-09T13:15:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
-      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are train…",
-      "ts": 1791547800000,
-      "publishedAt": "2026-10-09T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: ‘Horrific’ attack in Sudan, Israeli incursions in Syria intensify, most women and girls homeless in Gaza",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168567",
-      "summary": "A suspected drone strike has left at least 40 dead in Sudan’s Blue Nile State – near the Ethiopian border - according to initial reports from the ground, according to UN Spokesperson Stéphane Dujarric. Most of the casual…",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Global trade reaches record $35 trillion despite conflicts",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168566",
-      "summary": "World trade reached a record $35 trillion in 2025 – but developing countries were held back from greater participation in the global economy because of new technological and policy barriers, the UN trade and development …",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Livestreaming US execution would breach prohibition of torture, UN rights office warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168565",
-      "summary": "The UN human rights office (OHCHR) on Friday warned that livestreaming a planned execution by firing squad in the United States would amount to a public execution and breach the absolute prohibition on torture.",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Cycle of escalating attacks on civilians in Ukraine ‘must end now’",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168564",
-      "summary": "Escalating violence and human rights violations in the four-year-old Russia-Ukraine war are in the spotlight in the Security Council on Friday following a spate of Russian attacks against civilian targets and infrastruct…",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Serious blow’: Guterres condemns new US sanctions on International Criminal Court",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168562",
-      "summary": "The United States has imposed sanctions on the International Criminal Court (ICC) as an institution, with Secretary of State Marco Rubio vowing on Friday to “dismantle the ICC, brick by brick” unless it ends what Washing…",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Amid heartache of Nepal flooding disaster, fear remains",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168561",
-      "summary": "Six weeks after Nepal’s deadly flooding disaster, communities are still struggling to rebuild their lives, but they will need sustained help as global warming increases the risk of another Himalayan catastrophe, the UN C…",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Yemen has fallen back into full-scale war, warns UN envoy",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168559",
-      "summary": "The Security Council met to discuss the crisis in Yemen Friday, where a Houthi offensive launched in September has sharply escalated the 12-year-long war for control of the country and spillover from the US-Iran war has …",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Former UN human rights chief Navi Pillay awarded Nobel Peace Prize",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168558",
-      "summary": "South African jurist and former UN High Commissioner for Human Rights Navi Pillay was on Friday announced as the winner of the 2026 Nobel Peace Prize.",
-      "ts": 1791547200000,
-      "publishedAt": "2026-10-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "ARASIA Countries Harmonize Data to Combat Cultural Heritage Trafficking",
-      "url": "http://www.iaea.org/newscenter/news/arasia-countries-harmonize-data-to-combat-cultural-heritage-trafficking",
-      "summary": "",
-      "ts": 1791545068000,
-      "publishedAt": "2026-10-09T11:24:28.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
