@@ -67767,3 +67767,103 @@ main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !imp
 
 
 
+/* ==========================================================
+   ARCHENOVA / HOME — CONCEPT + TWO PURPOSES
+   STABLE SINGLE-SURFACE GLASS / APPEND AT END OF globals.css
+
+   Only material rendering is overridden. No changes to
+   opening/closing, chapter navigation, layout or typography.
+   Static opaque-enough charcoal eliminates live backdrop
+   recompositing and density changes caused by animated scenery.
+========================================================== */
+
+/* Concept entrance + the two independently mounted purpose cards. */
+main.an-home-2026 #archenova-concept > .an-concept-portal__surface,
+main.an-home-2026 #archenova-civilization-prelude .an-civilization-purpose__glass,
+main.an-home-2026 #archenova-ideal-user .an-ideal-user__glass {
+  background: linear-gradient(145deg, #111215 0%, #090a0c 48%, #030304 100%) !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  filter: none !important;
+  animation: none !important;
+  transition-property: none !important;
+}
+
+/* Do not modify chapter article animations or controls. */
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / HOME — PURPOSES: GALLERY-MATCHED DENSITY
+   APPEND AFTER ArcheNova_Concept_Purposes_StableGlass_APPEND.css
+
+   Only the background of the two Purpose glass surfaces changes.
+   Concept, WorldGallery, geometry, navigation and all other
+   stability rules remain untouched.
+
+   IMPORTANT: Gallery's blur is intentionally NOT copied because
+   the previous stability fix disabled backdrop recompositing.
+========================================================== */
+
+main.an-home-2026 #archenova-civilization-prelude .an-civilization-purpose__glass,
+main.an-home-2026 #archenova-ideal-user .an-ideal-user__glass {
+  background: linear-gradient(
+    155deg,
+    rgba(13, 14, 17, 0.36) 0%,
+    rgba(4, 5, 7, 0.44) 48%,
+    rgba(0, 0, 0, 0.53) 100%
+  ) !important;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / HOME — TWO PURPOSES ONLY
+   LOW-TRANSPARENCY BLACK / FLICKER-SAFE
+
+   Append at the very end of styles/globals.css, AFTER the
+   previous GalleryDensity_Only_APPEND rule.
+
+   Changes ONLY the background opacity of the two Purpose
+   glass surfaces. No backdrop-filter, animation, layout,
+   chapter navigation, Concept or WorldGallery changes.
+========================================================== */
+
+main.an-home-2026 #archenova-civilization-prelude .an-civilization-purpose__glass,
+main.an-home-2026 #archenova-ideal-user .an-ideal-user__glass {
+  background: linear-gradient(
+    155deg,
+    rgba(13, 14, 17, 0.90) 0%,
+    rgba(4, 5, 7, 0.93) 48%,
+    rgba(0, 0, 0, 0.96) 100%
+  ) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
