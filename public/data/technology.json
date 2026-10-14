@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-10-14T14:59:55.816Z",
+  "updated": "2026-10-14T19:17:04.345Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "How consumer tech company Whoop is building for Medicare patients",
+      "url": "https://www.statnews.com/2026/10/14/whoop-ami-bhatt-population-health-stat-summit-boston-2026/?utm_campaign=rss",
+      "summary": "Whoop's chief medical officer, said the company's work with Medicare is an opportunity to prove its ability to improve health at the population level.",
+      "ts": 1792001768000,
+      "publishedAt": "2026-10-14T18:16:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Alzheimer’s Small-Molecule Therapy Shows Promise in Mice and Early Human Trial",
+      "url": "https://www.genengnews.com/topics/drug-discovery/alzheimers-small-molecule-therapy-shows-promise-in-mice-and-early-human-trial/",
+      "summary": "A small-molecule therapy, VG-3927, targeting microglial TREM2 signaling showed neuroprotective effects in preclinical studies for Alzheimer's disease and was well tolerated in a Phase I trial. The post Alzheimer’s Small-…",
+      "ts": 1792000848000,
+      "publishedAt": "2026-10-14T18:00:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Chandra Breaks Down ‘Treble Clef’s’ Galaxy Cluster Collision",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/",
+      "summary": "Astronomers have used NASA’s Chandra X-ray Observatory to break down the cause of a remarkable formation of radio waves they have nicknamed the “Treble Clef” because its distinct shape strongly resembles the musical symb…",
+      "ts": 1791996418000,
+      "publishedAt": "2026-10-14T16:46:58.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Preterm Birth for Some Women Linked to Specific Autoantibodies",
+      "url": "https://www.genengnews.com/topics/translational-medicine/preterm-birth-for-some-women-linked-to-specific-autoantibodies/",
+      "summary": "By analyzing maternal sera from term and preterm pregnancies, in combination with studies in live mice and in human placental tissues, researchers identified antibodies that play a role in triggering early labor. The pos…",
+      "ts": 1791996216000,
+      "publishedAt": "2026-10-14T16:43:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cell Therapy Manufacturing Takes Shape Across Asia-Pacific",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cell-therapy-manufacturing-takes-shape-across-asia-pacific/",
+      "summary": "Cell and gene therapy is accelerating across Asia-Pacific, but manufacturing remains fragmented. Strategic automation, adaptable bioprocessing platforms, stronger supply chains, and workforce development could help thera…",
+      "ts": 1791993629000,
+      "publishedAt": "2026-10-14T16:00:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "For Biocatalysis, Solvents Are a Key Bioprocessing Parameter",
+      "url": "https://www.genengnews.com/topics/bioprocessing/for-biocatalysis-solvents-are-a-key-bioprocessing-parameter/",
+      "summary": "Deep eutectic solvents can modulate multiple biocatalysis process parameters, thus minimizing or eliminating the need for bioengineering in certain enzymes while enhancing productivity and product quality. The post For B…",
+      "ts": 1791993627000,
+      "publishedAt": "2026-10-14T16:00:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Turning Process Understanding Into Control of Lipid Nanoparticles",
+      "url": "https://www.genengnews.com/topics/bioprocessing/turning-process-understanding-into-control-of-lipid-nanoparticles/",
+      "summary": "Splitting lipid nanoparticle manufacturing into multiple mixing steps can help better control the size, shape, and stability of particles, with the aim of improving product quality during commercial-scale production. The…",
+      "ts": 1791993604000,
+      "publishedAt": "2026-10-14T16:00:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Contracting Expansion: A Path to Better CAR T-Cell Therapy Production",
+      "url": "https://www.genengnews.com/topics/bioprocessing/contracting-expansion-a-path-to-better-car-t-cell-therapy-production/",
+      "summary": "Shorter cell expansion steps could significantly accelerate CAR T-cell therapy production processes, according to researchers, who cite microfluidic culture systems, real-time PAT tools, and AI-enabled predictive models …",
+      "ts": 1791993601000,
+      "publishedAt": "2026-10-14T16:00:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Space X CRS-35 Launch Jellyfish",
+      "url": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
+      "summary": "Sunlight illuminates the exhaust plumes of a SpaceX Falcon 9 rocket carrying the company’s Dragon spacecraft on Oct. 13, 2026. This visual phenomenon is known as a “jellyfish”; it happens near sunrise or sunset when the …",
+      "ts": 1791991118000,
+      "publishedAt": "2026-10-14T15:18:38.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Develops Batteries to Power Humanity’s Return to Moon",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/",
+      "summary": "If you’ve ever had your car start sluggishly, or not at all, on a particularly frigid winter morning, you know standard batteries do not like extreme cold. That’s why NASA researchers are working to develop a battery tha…",
+      "ts": 1791988881000,
+      "publishedAt": "2026-10-14T14:41:21.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA adcomm members’ ties to industry under scrutiny",
@@ -48,6 +138,15 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "Isotopes Help Trace Nitrogen Pollution in Water",
+      "url": "http://www.iaea.org/newscenter/news/isotopes-help-trace-nitrogen-pollution-in-water",
+      "summary": "Nitrogen pollution is an increasing threat to rivers, lakes and groundwater worldwide. Excess nitrate from wastewater discharges, agricultural activities and other human sources can degrade water quality, fuel harmful al…",
+      "ts": 1791981660000,
+      "publishedAt": "2026-10-14T12:41:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Sanofi avoids fine as EU accepts offer to end antitrust probe over disparaging rival vaccine",
       "url": "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/?utm_campaign=rss",
@@ -64,6 +163,42 @@
       "ts": 1791979800000,
       "publishedAt": "2026-10-14T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
+      "summary": "Intensifying fighting in Yemen has cut off life-saving assistance to 800,000 people as shifting frontlines, blocked roads and growing insecurity severely restrict access to the city of Taiz and other conflict zones, the …",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "WHO calls for urgent health action across the Eastern Mediterranean",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168590",
+      "summary": "The head of the World Health Organization (WHO) has called for promoting, providing and protecting health in the Eastern Mediterranean region, home to some of the world’s top humanitarian crises such as Sudan, Yemen and …",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -111,8 +246,17 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "ts": 1791961200000,
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NVIDIA",
-      "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+      "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
       "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
       "summary": "Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDI…",
       "ts": 1791957855000,
@@ -664,150 +808,6 @@
       "title": "RNAGenScape: Property-Guided, Optimized Generation of mRNA Sequences with Manifold Langevin Dynamics",
       "url": "https://arxiv.org/abs/2510.24736",
       "summary": "arXiv:2510.24736v4 Announce Type: replace Abstract: Generating property-optimized mRNA sequences is central to applications such as vaccine design and protein replacement therapy, but remains challenging due to limited d…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Characterizing Fungal Infections in the All of Us Research Program",
-      "url": "https://arxiv.org/abs/2512.21952",
-      "summary": "arXiv:2512.21952v2 Announce Type: replace Abstract: Fungal infections, such as coccidioidomycosis, aspergillosis, and histoplasmosis, represent a growing public health concern in the United States. However, the actual bu…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Outbreak dynamics and population vulnerability in stochastic epidemic models on networks",
-      "url": "https://arxiv.org/abs/2601.13730",
-      "summary": "arXiv:2601.13730v2 Announce Type: replace Abstract: During infectious disease epidemics, pathogen transmission occurs in host populations made up of interacting subpopulations. Using stochastic simulation and analytical …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning When Visual Context Matters for Mouse Behavior Analysis",
-      "url": "https://arxiv.org/abs/2603.07279",
-      "summary": "arXiv:2603.07279v2 Announce Type: replace Abstract: Understanding mouse behavior at scale is a foundational problem in neuroscience, with two core tasks: classifying frames into known behaviors and segmenting recordings …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Information in a recurrent Retina-V1 network with realistic noise, feedback and nonlinearities",
-      "url": "https://arxiv.org/abs/2603.27347",
-      "summary": "arXiv:2603.27347v2 Announce Type: replace Abstract: Quantitative estimation of information flow in early vision with psychophysically realistic networks is still an open issue. This is because, up to date, the necessary …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Consensus-level substitution rates are distinct from the virion-level rate",
-      "url": "https://arxiv.org/abs/2605.31305",
-      "summary": "arXiv:2605.31305v2 Announce Type: replace Abstract: Estimating viral substitution rates is central to evolutionary epidemiology, and recent interest in within-host evolution has sharpened the question of what such rates …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An Octahedral Fibrous Constitutive Model for Heart Valve Mechanics and Function",
-      "url": "https://arxiv.org/abs/2606.04234",
-      "summary": "arXiv:2606.04234v2 Announce Type: replace Abstract: Fibrous soft tissues derive their nonlinear mechanical response from networks of extracellular matrix fibers. The organization of fibers and their load-bearing characte…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EEGDash: An open-source platform for machine learning on public neurophysiological data",
-      "url": "https://arxiv.org/abs/2606.16041",
-      "summary": "arXiv:2606.16041v2 Announce Type: replace Abstract: Public recordings of electroencephalography (EEG), magnetoencephalography (MEG), intracranial EEG (iEEG), functional near-infrared spectroscopy (fNIRS) and electromyogr…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Towards a full-stack functionalist theory of consciousness: Identifying its functional profile",
-      "url": "https://arxiv.org/abs/2609.33366",
-      "summary": "arXiv:2609.33366v2 Announce Type: replace Abstract: If consciousness is functional, a basic question is what awareness of a content actually changes in how a system operates on it. We ask, for a particular content X and …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamical Insights into the Current Control Strategies for Chikungunya",
-      "url": "https://arxiv.org/abs/2610.08856",
-      "summary": "arXiv:2610.08856v2 Announce Type: replace Abstract: This paper addresses the challenge that, under China's current mosquito-control policy for chikungunya---\\textit{clearing stagnant water, killing adult mosquitoes, and …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Semantic Context Forests for Learning-Based Knee Cartilage Segmentation in 3D MR Images",
-      "url": "https://arxiv.org/abs/1307.2965",
-      "summary": "arXiv:1307.2965v3 Announce Type: replace-cross Abstract: The automatic segmentation of human knee cartilage from 3D MR images is a useful yet challenging task due to the thin sheet structure of the cartilage with diffuse…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Comprehensive Review on RNA Subcellular Localization Prediction",
-      "url": "https://arxiv.org/abs/2504.17162",
-      "summary": "arXiv:2504.17162v2 Announce Type: replace-cross Abstract: The subcellular localization of RNAs, including long non-coding RNAs (lncRNAs), messenger RNAs (mRNAs), microRNAs (miRNAs) and other smaller RNAs, plays a critica…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Graph Neural Network-Based Reinforcement Learning for Controlling Biological Networks - the GATTACA Framework",
-      "url": "https://arxiv.org/abs/2505.02712",
-      "summary": "arXiv:2505.02712v4 Announce Type: replace-cross Abstract: Cellular reprogramming, the artificial transformation of one cell type into another, has been attracting increasing research attention due to its therapeutic pote…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural Evidence and Behavioural Welfare Economics: When Can Neuroeconomics Inform Policy?",
-      "url": "https://arxiv.org/abs/2511.19548",
-      "summary": "arXiv:2511.19548v2 Announce Type: replace-cross Abstract: Neuroeconomics appears to offer welfare economics an evidential supplement, since neural data may help distinguish choices that express genuine preferences from c…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "QSAR-Guided Generative Framework for the Discovery of Synthetically Viable Odorants",
-      "url": "https://arxiv.org/abs/2512.23080",
-      "summary": "arXiv:2512.23080v2 Announce Type: replace-cross Abstract: The discovery of novel odorant molecules is key for the fragrance and flavor industries, yet efficiently navigating the vast chemical space to identify structures…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Consistent and scalable detection and comparison of spatial patterns",
-      "url": "https://arxiv.org/abs/2602.02825",
-      "summary": "arXiv:2602.02825v2 Announce Type: replace-cross Abstract: Spatial omics maps molecular features within tissues to study their organization across biological contexts, including disease and development. Interpreting these…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Deep probabilistic model synthesis enables unified modeling of whole-brain neural activity across individual subjects",
-      "url": "https://arxiv.org/abs/2603.14161",
-      "summary": "arXiv:2603.14161v3 Announce Type: replace-cross Abstract: Many disciplines need quantitative models that synthesize experimental data across multiple instances of the same general system. For example, neuroscientists mus…",
       "ts": 1791950400000,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "categoryId": "bio"
