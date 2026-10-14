@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-10-14T09:58:13.297Z",
+  "updated": "2026-10-14T14:59:55.816Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA adcomm members’ ties to industry under scrutiny",
+      "url": "https://www.statnews.com/2026/10/14/biotech-news-fda-adcomm-member-ties-to-industry-under-scrutiny/?utm_campaign=rss",
+      "summary": "New research found that nearly 40% of FDA advisory meetings held over a recent 20-year period included either a patient or consumer rep with active ties to an advocacy group…",
+      "ts": 1791987134000,
+      "publishedAt": "2026-10-14T14:12:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
+      "url": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+      "summary": "NASA will provide an update on its plans to return American astronauts to the surface of the Moon by 2028 at 2 p.m. EDT, Friday, Oct. 23, at the agency’s Kennedy Space Center in Florida. Learn where to watch online: http…",
+      "ts": 1791984745000,
+      "publishedAt": "2026-10-14T13:32:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Sanofi settling an EU antitrust probe, ‘pharma bro’ Shkreli, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/14/sanofi-settling-european-antitrust-probe-pharma-bro-shkreli/?utm_campaign=rss",
+      "summary": "The FTC asked a U.S. court to hold Martin Shkreli in contempt for “flagrantly” violating a court order banning him from working in the pharma industry",
+      "ts": 1791984399000,
+      "publishedAt": "2026-10-14T13:26:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The startup chasing ‘general biological intelligence’",
+      "url": "https://www.statnews.com/2026/10/14/the-startup-chasing-general-biological-intelligence-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of AI Prognosis, Brittany Trang talks to Eric Nguyen, the CEO of Radical Numerics, a startup pursuing \"general biological intelligence.'",
+      "ts": 1791983877000,
+      "publishedAt": "2026-10-14T13:17:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
+      "url": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constel…",
+      "ts": 1791983361000,
+      "publishedAt": "2026-10-14T13:09:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sanofi avoids fine as EU accepts offer to end antitrust probe over disparaging rival vaccine",
+      "url": "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/?utm_campaign=rss",
+      "summary": "E.U. antitrust regulators accepted concessions from Sanofi to settle a probe into an allegedly “misleading” campaign that disparaged a rival flu vaccine.",
+      "ts": 1791980255000,
+      "publishedAt": "2026-10-14T12:17:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: faking blood and the future of batteries",
+      "url": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopt…",
+      "ts": 1791979800000,
+      "publishedAt": "2026-10-14T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
+      "url": "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/?utm_campaign=rss",
+      "summary": "A wave of clinical trials have begun to test the ability of GLP-1 weight loss drugs to quell various substance use disorders, with some promising results. A new trial announced…",
+      "ts": 1791978829000,
+      "publishedAt": "2026-10-14T11:53:49.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The US military’s race to make fake blood",
@@ -55,6 +127,24 @@
       "ts": 1791957628000,
       "publishedAt": "2026-10-14T06:00:28.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
+      "summary": "What a cosmic coincidence! In today’s image, Mars joins the Beehive cluster below an auroral curtain and above a horizon of happy little trees near Lansjärv, Sweden.",
+      "ts": 1791950700000,
+      "publishedAt": "2026-10-14T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Hurricane Simon Lurks Off the Mexican Coast",
+      "url": "https://science.nasa.gov/earth/earth-observatory/hurricane-simon-lurks-off-the-mexican-coast/",
+      "summary": "Though it remained offshore, the storm lashed coastal areas with high winds and flooding—and produced remarkable rippling patterns in the upper atmosphere.",
+      "ts": 1791950460000,
+      "publishedAt": "2026-10-14T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -721,96 +811,6 @@
       "ts": 1791950400000,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Overcoming unfairness via repeated interactions in mini-ultimatum game",
-      "url": "https://arxiv.org/abs/2604.03625",
-      "summary": "arXiv:2604.03625v2 Announce Type: replace-cross Abstract: Repeated interactions are ubiquitous and known to promote social behaviour. While research often focuses on cooperation in the Prisoner's Dilemma, experimental ev…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Estimating marginal association between paired outcomes in clustered data with an application to analyzing caries and periodontal disease data from the National Health and Nutrition Examination Survey",
-      "url": "https://arxiv.org/abs/2605.16108",
-      "summary": "arXiv:2605.16108v3 Announce Type: replace-cross Abstract: The within-cluster subgroup composition of units can inform on the marginal distribution of those units outcomes, denoted informative subgroup size (ISS). Moreove…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Audit Before You Update: Recording Artifacts and the Limits of Bounded Model Updates in MIMIC-IV ICU Prediction",
-      "url": "https://arxiv.org/abs/2607.19020",
-      "summary": "arXiv:2607.19020v5 Announce Type: replace-cross Abstract: Clinical prediction models in intensive care degrade as data shift, and regulators such as the FDA ask developers to specify bounded update protocols in advance. …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Forecasting Without Full Identification: Reliability and Computational Cost in Clot-Growth Simulation",
-      "url": "https://arxiv.org/abs/2608.08165",
-      "summary": "arXiv:2608.08165v2 Announce Type: replace-cross Abstract: We forecast clot growth from sparse early measurements with incomplete biochemical information. Using 1,000 simulated trajectories, we compare inverse search, whi…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "NeuronSifter: An Agent-in-Twin for Prioritizing Central Nervous System Interventions with World Action Models",
-      "url": "https://arxiv.org/abs/2609.35445",
-      "summary": "arXiv:2609.35445v3 Announce Type: replace-cross Abstract: Effective central nervous system (CNS) intervention requires more than predicting biological responses: a scientific system must determine which intervention, obs…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TempoBridge: Source-Conditioned Flow Matching with Optimal Transport Couplings for Single-Cell Population Transitions",
-      "url": "https://arxiv.org/abs/2610.04945",
-      "summary": "arXiv:2610.04945v2 Announce Type: replace-cross Abstract: Destructive single-cell measurements provide unpaired population snapshots rather than observations of the same cells across conditions. Local cell states and tra…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Unraveling phenotypic variation in multiscale behavioral dynamics",
-      "url": "https://arxiv.org/abs/2610.06027",
-      "summary": "arXiv:2610.06027v2 Announce Type: replace-cross Abstract: Behavioral variability reflects differences in internal and external parameters and provides a substrate for natural selection. However, uncovering its structure …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Taxonomic Classification with Tag Arrays",
-      "url": "https://arxiv.org/abs/2610.10500",
-      "summary": "arXiv:2610.10500v2 Announce Type: replace-cross Abstract: Taxonomic classifiers based on exact matches differ in which matches they use and in how each match splits its credit among the taxa containing it: Kraken~2 gives…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Designing Protein Structures from Natural Language",
-      "url": "https://arxiv.org/abs/2610.13917",
-      "summary": "arXiv:2610.13917v2 Announce Type: replace-cross Abstract: A central challenge in de novo protein design is generating proteins with desired structural and functional properties. Existing design models typically require a…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The EU’s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "ts": 1791936000000,
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
