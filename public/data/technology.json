@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-10-14T19:17:04.345Z",
+  "updated": "2026-10-14T23:02:27.028Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "As White House shifts focus toward AI and tech, U.S. science leaders defend role of the American university",
+      "url": "https://www.statnews.com/2026/10/14/american-science-funding-university-industry-shift-stat-summit-boston-2026/?utm_campaign=rss",
+      "summary": "White House planned shift of research funding from universities to industry risks creating a drought in basic research, science leaders say",
+      "ts": 1792016013000,
+      "publishedAt": "2026-10-14T22:13:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump administration delays new rule that could restrict imported medicines from Canada and overseas",
+      "url": "https://www.statnews.com/pharmalot/2026/10/14/trump-administration-delays-new-rule-that-could-restrict-imported-meds-from-canad-and-overseas/?utm_campaign=rss",
+      "summary": "The Trump administration is delaying by 90 days a federal rule that could prevent Americans from obtaining prescription drugs from licensed international pharmacies.",
+      "ts": 1792009019000,
+      "publishedAt": "2026-10-14T20:16:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Host News Conference Previewing US Spacewalks 100, 101",
+      "url": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/",
+      "summary": "NASA will preview two upcoming spacewalks to complete solar array installation and power augmentation of the International Space Station during a news conference at 2 p.m. EDT, Tuesday, Oct. 20, from NASA’s Johnson Space…",
+      "ts": 1792008809000,
+      "publishedAt": "2026-10-14T20:13:29.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronauts to Answer Questions from Florida Students",
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
+      "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 12 p.m. ED…",
+      "ts": 1792005171000,
+      "publishedAt": "2026-10-14T19:12:51.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "How consumer tech company Whoop is building for Medicare patients",
@@ -184,6 +220,60 @@
     },
     {
       "source": "United Nations News",
+      "title": "Haiti sanctions renewed: Starving the gangs of bullets",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168598",
+      "summary": "Haiti is living through one of the world’s most acute security crises. Armed gangs control large parts of the capital, Port-au-Prince, and are pushing into rural areas, terrorising communities, killing people, committing…",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Colombia: UN independent experts call for Ecopetrol to provide reparations to victims of armed conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168597",
+      "summary": "UN independent experts welcomed on Wednesday a recent landmark corporate accountability ruling involving the Ecopetrol oil company by Colombia’s Special Jurisdiction for Peace, calling for reparations for victims.",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Gaza braces for winter amid attacks, joint patrols in CAR, 90 cities commit to sustainable development",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168596",
+      "summary": "The UN and its partners are stepping up preparations in Gaza for the approaching cold and rainy season, even as attacks affecting civilians continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said…",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo: Cholera cases spike amid fight against Ebola",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168595",
+      "summary": "The cholera epidemic continues to spread in the Democratic Republic of Congo (DRC), where more than 125,000 suspected cases and 3,644 suspected deaths were recorded between January 2025 and the end of September 2026, the…",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Health workers tackle taboos over drinking with new AI tool",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168594",
+      "summary": "A new AI-powered hub for health professionals aims to help identify alcohol-related risks and launch discussions with patients, including the link between drinking and cancer, the World Health Organization (WHO) announce…",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Libya in the spotlight amid ‘encouraging progress’",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168592",
+      "summary": "Despite progress in the political process in Libya, institutional divisions, economic deterioration and security fragility continue to threaten stability, the UN envoy warned the Security Council on Wednesday, calling on…",
+      "ts": 1791979200000,
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
       "summary": "Intensifying fighting in Yemen has cut off life-saving assistance to 800,000 people as shifting frontlines, blocked roads and growing insecurity severely restrict access to the city of Taiz and other conflict zones, the …",
@@ -255,10 +345,19 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "ts": 1791961200000,
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NVIDIA",
       "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
       "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-      "summary": "Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDI…",
+      "summary": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is …",
       "ts": 1791957855000,
       "publishedAt": "2026-10-14T06:04:15.000Z",
       "categoryId": "ai-compute"
@@ -709,105 +808,6 @@
       "title": "Collective Benefits and Efficiency in Coupled Echo State Networks",
       "url": "https://arxiv.org/abs/2610.17506",
       "summary": "arXiv:2610.17506v1 Announce Type: cross Abstract: Simple aggregation of independent responses (\"wisdom of crowds\") generally improves collective performance through statistical facilitation, but interaction among members…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MedEvo: Medical Reasoning Evolution through Knowledge Navigation",
-      "url": "https://arxiv.org/abs/2610.17690",
-      "summary": "arXiv:2610.17690v1 Announce Type: cross Abstract: Medical multimodal reasoning models are typically trained on teacher-generated rationales, discarding the valid reasoning in students' own failed trajectories, while gene…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Understanding Gene Expression-to-Image Learning: Spatial Structure and Information Fidelity",
-      "url": "https://arxiv.org/abs/2610.17699",
-      "summary": "arXiv:2610.17699v1 Announce Type: cross Abstract: Single-cell RNA sequencing (scRNA-seq) enables cell-level analysis of biological heterogeneity, but learning effective representations from high-dimensional, unordered ge…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
-      "url": "https://arxiv.org/abs/2610.17718",
-      "summary": "arXiv:2610.17718v1 Announce Type: cross Abstract: Electrocardiogram (ECG) models need supervision that targets evolving weaknesses and remains faithful to waveform evidence. We introduce ECG-RSI, a recursive self-improve…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spatial Kernel Restricted Canonical Correlation Analysis: Population Targets, Identifiability, and Stability",
-      "url": "https://arxiv.org/abs/2610.17830",
-      "summary": "arXiv:2610.17830v1 Announce Type: cross Abstract: Relating observations of different categories across space requires methods that accommodate distinct sampling locations and spatial dependence. Spatial kernel restricted…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Lossless Reductions and Hybrid Sampling for Phylogeny Using the Maximum Compatibility Criterion",
-      "url": "https://arxiv.org/abs/2610.18029",
-      "summary": "arXiv:2610.18029v1 Announce Type: cross Abstract: Maximum compatibility provides a criterion for phylogenetic reconstruction in which the objective is to retain a maximum set of mutually compatible characters. For binary…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Two Routes to Interoceptive Prioritisation: Dissociating Likelihood Precision and Preference Reweighting in Active Inference",
-      "url": "https://arxiv.org/abs/2610.18617",
-      "summary": "arXiv:2610.18617v1 Announce Type: cross Abstract: An embodied agent must prioritise among competing bodily needs. In active inference, it can respond to an urgent need by increasing the precision of information about tha…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
-      "url": "https://arxiv.org/abs/2610.18851",
-      "summary": "arXiv:2610.18851v1 Announce Type: cross Abstract: Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while ma…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On the Regularity of Reaction Systems",
-      "url": "https://arxiv.org/abs/2409.05340",
-      "summary": "arXiv:2409.05340v3 Announce Type: replace Abstract: Reaction networks have been widely used as generic models in diverse areas of applied sciences, such as biology, chemistry, ecology, epidemiology, and computer science.…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "iBitter-Stack: A Multi-Representation Ensemble Learning Model for Accurate Bitter Peptide Identification",
-      "url": "https://arxiv.org/abs/2505.15730",
-      "summary": "arXiv:2505.15730v3 Announce Type: replace Abstract: The identification of bitter peptides is crucial in various domains, including food science, drug discovery, and biochemical research. These peptides not only contribut…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spin-Based Modeling of Perception as Emergent from contextualized Internal Evaluation",
-      "url": "https://arxiv.org/abs/2507.06041",
-      "summary": "arXiv:2507.06041v2 Announce Type: replace Abstract: We develop a microscopic model of perception of an interoceptive sensation in which spin-like variables encode an organism's internal evaluation of embodied vital norms…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "RNAGenScape: Property-Guided, Optimized Generation of mRNA Sequences with Manifold Langevin Dynamics",
-      "url": "https://arxiv.org/abs/2510.24736",
-      "summary": "arXiv:2510.24736v4 Announce Type: replace Abstract: Generating property-optimized mRNA sequences is central to applications such as vaccine design and protein replacement therapy, but remains challenging due to limited d…",
       "ts": 1791950400000,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "categoryId": "bio"
