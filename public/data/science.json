@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-10-13T23:13:00.930Z",
+  "updated": "2026-10-14T04:02:00.947Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Wild bobwhite quail spotted after habitat restoration project",
+      "url": "https://phys.org/news/2026-10-wild-bobwhite-quail-habitat.html",
+      "summary": "Multiple coveys of wild bobwhite quail were recently sighted at the University of Tennessee's Ames AgResearch and Education Center, marking an encouraging milestone in an ongoing effort to restore habitat for the species…",
+      "ts": 1791948008000,
+      "publishedAt": "2026-10-14T03:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black women in food industries face systemic roadblocks",
+      "url": "https://phys.org/news/2026-10-black-women-food-industries-roadblocks.html",
+      "summary": "Lilly Jan was perplexed and a little annoyed. Last year, Jan, an assistant teaching professor in the Cornell Nolan School of Hotel Administration in the Cornell SC Johnson College of Business, was trying to collect infor…",
+      "ts": 1791942001000,
+      "publishedAt": "2026-10-14T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simple cleaning steps could curb deadly fungal disease risks for Australia's wild reptiles",
+      "url": "https://phys.org/news/2026-10-simple-curb-deadly-fungal-disease.html",
+      "summary": "With spring underway and the weather warming, reptiles are on the move in suburbs, parks and scrubland across Australia. Snake catchers and wildlife caregivers are responding to calls for help, and reptile enthusiasts—kn…",
+      "ts": 1791937201000,
+      "publishedAt": "2026-10-14T00:20:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A nanosystem manipulates angiocrine signaling for cardioprotection in male mice by relocalizing endothelial exosomes",
+      "url": "https://www.nature.com/articles/s41467-026-78706-3",
+      "summary": "",
+      "ts": 1791936000000,
+      "publishedAt": "2026-10-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Integrated multi-omics identifies distinct immune signatures with diagnostic and therapeutic implications in immune checkpoint inhibitor-induced myocarditis",
+      "url": "https://www.nature.com/articles/s41467-026-77262-0",
+      "summary": "",
+      "ts": 1791936000000,
+      "publishedAt": "2026-10-14T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrashort laser pulses offer a new way to probe electrons' quantum geometry",
+      "url": "https://phys.org/news/2026-10-ultrashort-laser-pulses-probe-electrons.html",
+      "summary": "Researchers at Friedrich Schiller University Jena and the University of Regensburg have developed a method for determining, using light, a quantum property of electrons that has hitherto been difficult to access. The foc…",
+      "ts": 1791934802000,
+      "publishedAt": "2026-10-13T23:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover 'D-rex', a giant fungus from Chinese forests whose unique lineage dates back 65 million years",
+      "url": "https://phys.org/news/2026-10-scientists-d-rex-giant-fungus.html",
+      "summary": "Deep in the forests of Yunnan, China, scientists have discovered a \"fungal giant\" that challenges our understanding of how large fungi can become. The newly described species, Dianjunus rex, produces vertical fruiting bo…",
+      "ts": 1791933610000,
+      "publishedAt": "2026-10-13T23:20:10.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Isle of Wight fossil Europe's first known long-clawed megaraptoran dinosaur",
@@ -507,6 +563,46 @@
       "publishedAt": "2026-10-13T11:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Photon-echo synchronization and quantum state transfer in short quantum links",
+      "url": "http://link.aps.org/doi/10.1103/f42v-1dx7",
+      "summary": "Author(s): Hong Jiang, Carlos Barahona-Pascual, and Juan José García-Ripoll The short quantum link regime, where the photon travel time $τ$ is comparable to the emitter lifetime $1/γ$, is experimentally relevant but theo…",
+      "ts": 1791885600000,
+      "publishedAt": "2026-10-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Hybrid quantum interferometer bridging Hong-Ou-Mandel and N00N-state interference",
+      "url": "http://link.aps.org/doi/10.1103/pd91-dyf9",
+      "summary": "Author(s): Zi-Qi Zeng, Samuel Corona-Aquino, Tao Xie, Bin Yin, Yan Guo, Yukun Song, Yun Meng, Kai Zou, Song Li, Xiaolong Hu, Alfred B. U’Ren, Roberto de J. León-Montiel, Chenglong You, Baihong Li, Dongzhou Wang, and Rui-…",
+      "ts": 1791885600000,
+      "publishedAt": "2026-10-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "High-fidelity quantum readout processing via an embedded SNAIL amplifier",
+      "url": "http://link.aps.org/doi/10.1103/nq9c-ftrm",
+      "summary": "Author(s): Leon Bello, Boris Mesits, Michael Hatridge, and Hakan E. Türeci Scalable, high-fidelity quantum-state readout remains a central challenge in the development of large-scale superconducting quantum processors. C…",
+      "ts": 1791885600000,
+      "publishedAt": "2026-10-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Monolithic segmented three-dimensional ion trap for quantum technology applications",
+      "url": "http://link.aps.org/doi/10.1103/srq8-cgnt",
+      "summary": "Author(s): Abhishek Menon, Michael Straus, George Tomaras, Liam Jeanette, April X. Sheffield, Devon Valdez, Yuanheng Xie, Visal So, De Luo, Midhuna Duraisamy Suganthi, Mark Dugan, Philippe Bado, Norbert M. Linke, Guido P…",
+      "ts": 1791885600000,
+      "publishedAt": "2026-10-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "High-bandwidth coherence cloning using optical-phase-locking feedforward",
+      "url": "http://link.aps.org/doi/10.1103/p8h6-qc1l",
+      "summary": "Author(s): Chen Jia, Zhen-Xing Hua, Yu-Xin Chao, and Meng Khoon Tey Ultranarrow-linewidth lasers with suppressed high-frequency phase noise are critical for quantum control and precision metrology, but standard optical p…",
+      "ts": 1791885600000,
+      "publishedAt": "2026-10-13T10:00:00.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "100-year magazine study reveals 'narrowing' of U.K. seafood recipes",
       "url": "https://phys.org/news/2026-10-year-magazine-reveals-narrowing-uk.html",
@@ -705,102 +801,6 @@
       "summary": "A northern gannet scans the sea for fish from 100 feet (30 meters) in the air. Upon seeing a school, it pitches its body into a nosedive, somehow breaking the surface at 70 miles per hour (113 kilometers per hour) withou…",
       "ts": 1791840601000,
       "publishedAt": "2026-10-12T21:30:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Global satellite data reveal widening recovery gap between urban and rural vegetation",
-      "url": "https://phys.org/news/2026-10-global-satellite-reveal-widening-recovery.html",
-      "summary": "A global study has revealed a striking divergence in how urban and rural vegetation respond to climate stress. The study was led by Jin Wu from the School of Biological Sciences, Faculty of Science, and professor Yuyu Zh…",
-      "ts": 1791840014000,
-      "publishedAt": "2026-10-12T21:20:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Measuring wildfire plumes to predict extreme fire behavior",
-      "url": "https://phys.org/news/2026-10-wildfire-plumes-extreme-behavior.html",
-      "summary": "Predicting the unpredictable starts with understanding how extreme wildfires develop and under what conditions. This knowledge is essential to better anticipate and respond to them. To achieve this, firefighter and resea…",
-      "ts": 1791840007000,
-      "publishedAt": "2026-10-12T21:20:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Cholesterol-linked drug boosts gene-targeting potency in early findings",
-      "url": "https://phys.org/news/2026-10-cholesterol-linked-drug-boosts-gene.html",
-      "summary": "Nucleic acid therapeutics, such as antisense oligonucleotides (ASOs), have emerged as promising platforms for treating a variety of previously hard-to-treat diseases, including neurological diseases.",
-      "ts": 1791838818000,
-      "publishedAt": "2026-10-12T21:00:18.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Vapor-based method creates ultralight aerogels without conventional liquid-based chemistry",
-      "url": "https://phys.org/news/2026-10-vapor-based-method-ultralight-aerogels.html",
-      "summary": "Researchers at National Taiwan University (NTU), working across the College of Engineering, College of Medicine and National Taiwan University Hospital (NTUH), have developed a new method for producing aerogels, introduc…",
-      "ts": 1791838810000,
-      "publishedAt": "2026-10-12T21:00:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Major cities worldwide are sinking, satellite data reveal",
-      "url": "https://phys.org/news/2026-10-major-cities-worldwide-satellite-reveal.html",
-      "summary": "Land subsidence is the gradual sinking of the ground, which can damage buildings, foundations, and drainage and sewage systems, and may increase flood risks. However, information on land subsidence dynamics remains limit…",
-      "ts": 1791837611000,
-      "publishedAt": "2026-10-12T20:40:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "High-speed microscopy captures sugar-building enzymes forming rigid pairs and flexible assemblies",
-      "url": "https://phys.org/news/2026-10-high-microscopy-captures-sugar-enzymes.html",
-      "summary": "From a rigid molecular pair to flexible assemblies with moving domains, the enzymes that build sugar chains display strikingly different behaviors.",
-      "ts": 1791837601000,
-      "publishedAt": "2026-10-12T20:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hurricane Simon lashes Mexico's Pacific coast, threatens landfall",
-      "url": "https://phys.org/news/2026-10-hurricane-simon-lashes-mexico-pacific.html",
-      "summary": "Hurricane Simon lashed Mexico's Pacific coast with severe winds and heavy rain on Monday as it threatened to make landfall this week, according to the U.S. National Hurricane Center.",
-      "ts": 1791836431000,
-      "publishedAt": "2026-10-12T20:20:31.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Baby tooth places macaques in northern Germany more than 300,000 years ago",
-      "url": "https://phys.org/news/2026-10-baby-tooth-macaques-northern-germany.html",
-      "summary": "A research team from the Senckenberg Centre for Human Evolution and Palaeoenvironment at the University of Tübingen and Leiden University in the Netherlands has examined a tooth from the Schöningen archaeological site in…",
-      "ts": 1791836423000,
-      "publishedAt": "2026-10-12T20:20:23.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Water-based process turns wood industry byproduct into carbon nanofibers for sodium-ion batteries",
-      "url": "https://phys.org/news/2026-10-based-wood-industry-byproduct-carbon.html",
-      "summary": "A new study led by researchers at the University of Limerick (UL) has identified a new battery material from a renewable wood industry byproduct that could help reduce reliance on scarce and expensive materials.",
-      "ts": 1791835218000,
-      "publishedAt": "2026-10-12T20:00:18.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New light-emitting organic materials could enable deep-tissue bioimaging",
-      "url": "https://phys.org/news/2026-10-emitting-materials-enable-deep-tissue.html",
-      "summary": "Researchers at the University of St Andrews have identified the first examples of a new class of advanced organic semiconductor materials that could one day be used as bioimaging agents, opening up new possibilities for …",
-      "ts": 1791835207000,
-      "publishedAt": "2026-10-12T20:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tiny fossils reveal a missing chapter of ocean life after Snowball Earth",
-      "url": "https://phys.org/news/2026-10-tiny-fossils-reveal-chapter-ocean.html",
-      "summary": "A rare assemblage of micro- and macro-fossils found in a roadside outcrop in South China, featuring thin ribbons, branching shapes and a tiny balloon on a stalk, offers a glimpse of marine life after one of Earth's most …",
-      "ts": 1791834010000,
-      "publishedAt": "2026-10-12T19:40:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New study finds the staffing structure of an audit office improves outcomes",
-      "url": "https://phys.org/news/2026-10-staffing-office-outcomes.html",
-      "summary": "Audit firms rely on partners to oversee audits and client relationships; managers to supervise teams and projects; and staff to perform much of the day-to-day work. The more audit partners and managers are involved in su…",
-      "ts": 1791834006000,
-      "publishedAt": "2026-10-12T19:40:06.000Z"
     }
   ],
   "sources": [
