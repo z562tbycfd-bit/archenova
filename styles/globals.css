@@ -67648,15 +67648,14 @@ main.an-home-2026 #archenova-ideal-user .an-ideal-user__glass {
 
 
 /* ==========================================================
-   ARCHENOVA HOME FOOTER — NEUTRAL OBSIDIAN BLACK / CENTERED
-   Existing layout, sizing, vertical gap and pager clearance retained.
-   Only the visible frame background density has changed.
+   ARCHENOVA HOME FOOTER — HEADER-MATCHED GLASS / NO BLUR
+   Full replacement for the footer block only.
+   Keep header, Concept, Purposes, Gallery unchanged.
 ========================================================== */
 
-/* Outer element: transparent spacer ABOVE the full-bleed footer. */
 main.an-home-2026.archenova-twin-home > .an-home-footer {
   position: relative !important;
-  isolation: isolate;
+  isolation: auto;
   display: block !important;
   box-sizing: border-box !important;
   width: 100% !important;
@@ -67664,8 +67663,8 @@ main.an-home-2026.archenova-twin-home > .an-home-footer {
   min-width: 0 !important;
   min-height: 0 !important;
   height: auto !important;
-  margin: 24px 0 0 !important; /* ONLY gap: above footer; bottom is flush */
-  padding: 0 !important;       /* NO left/right outer gutters */
+  margin: 24px 0 0 !important;
+  padding: 0 !important;
   overflow: visible !important;
   background: transparent !important;
   background-image: none !important;
@@ -67684,10 +67683,9 @@ main.an-home-2026.archenova-twin-home > .an-home-footer::after {
   display: none !important;
 }
 
-/* ONE visible frame, spanning the entire available screen width. */
 main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner {
   position: relative;
-  isolation: isolate;
+  isolation: auto;
   box-sizing: border-box !important;
   display: block;
   width: 100% !important;
@@ -67698,18 +67696,20 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   margin: 0 !important;
   padding: clamp(28px, 3.2vw, 48px) clamp(16px, 3.8vw, 76px) clamp(20px, 2.6vw, 36px) !important;
   overflow: hidden;
+  /* Matches the FINAL slim-header background declarations. */
   background: linear-gradient(
-    155deg,
-    rgba(3, 4, 5, 0.985) 0%,
-    rgba(1, 2, 3, 0.990) 48%,
-    rgba(0, 0, 1, 0.995) 100%
+    145deg,
+    rgba(14, 14, 15, 0.22),
+    rgba(3, 3, 4, 0.32)
   ) !important;
-  border: 1px solid rgba(255,255,255,.065) !important;
-  border-radius: 24px 24px 0 0 !important;
+  /* Header has a single 0.04-opacity dividing line. */
+  border: 0 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
+  border-radius: 0 !important;
   outline: 0 !important;
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.04), inset 0 -1px 0 rgba(255,255,255,.01) !important;
+  box-shadow: none !important;
 }
 
 main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner::before,
@@ -67718,7 +67718,6 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   display: none !important;
 }
 
-/* Compact editorial layout; preserve all existing content and controls. */
 .an-home-footer__rule {
   height: 1px;
   width: 100%;
@@ -67727,7 +67726,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
 .an-home-footer__content {
   display: grid;
   grid-template-columns: minmax(0,1fr);
-  gap: clamp(20px, 2.5vw, 32px);
+  gap: clamp(22px, 2.6vw, 34px);
   align-items: center;
   justify-items: center;
   text-align: center;
@@ -67754,18 +67753,19 @@ main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__stateme
 }
 .an-home-footer__period { color: rgba(255,255,255,.40); }
 .an-home-footer__statement {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 620px;
   color: rgba(245,245,245,.63);
-  font-size: clamp(13px, 1.05vw, 15px);
+  font-size: clamp(14px, 1.15vw, 16px);
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.75;
   letter-spacing: -.02em;
 }
 .an-home-footer__utility {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   min-width: 180px;
   max-width: 100%;
   text-align: center;
@@ -67834,7 +67834,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__stateme
   }
   main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner {
     padding: 26px 21px calc(112px + env(safe-area-inset-bottom)) !important;
-    border-radius: 20px 20px 0 0 !important;
+    border-radius: 0 !important;
   }
   .an-home-footer__content {
     grid-template-columns: minmax(0,1fr);
@@ -67854,9 +67854,9 @@ main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__stateme
   .an-home-footer__top,
   .an-home-footer__top-icon { transition: none; }
 }
-
-/* Footer is the final painted surface; no external bottom spacing. */
 main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !important; }
+
+
 
 
 
