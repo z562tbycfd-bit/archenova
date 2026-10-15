@@ -1,7 +1,124 @@
 {
   "ok": true,
-  "updated": "2026-10-15T08:58:40.757Z",
+  "updated": "2026-10-15T14:06:14.658Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about former FDA head calling DOGE a ‘disaster,’ an AstraZeneca AI deal, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/15/former-fda-commissioner-califf-criticized-doge-astrazeneca-ai-deal/?utm_campaign=rss",
+      "summary": "Three former FDA chiefs lit into the Trump administration, criticizing the now former FDA officials who oversaw a massive staff exodus",
+      "ts": 1792071116000,
+      "publishedAt": "2026-10-15T13:31:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: ‘AI sandboxes’ are all the rage. Advocates scramble to control their future",
+      "url": "https://www.statnews.com/2026/10/15/scramble-to-shape-regulations-around-state-ai-sandboxes-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT's Health Tech newsletter: The groups vying to shape regulations that'd govern state AI sandboxes, and more.",
+      "ts": 1792070077000,
+      "publishedAt": "2026-10-15T13:14:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+      "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step in…",
+      "ts": 1792069259000,
+      "publishedAt": "2026-10-15T13:00:59.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "ts": 1792069200000,
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Thirty Million Compartments: Testing Single-Molecule PCR’s Potential",
+      "url": "https://www.genengnews.com/sponsored/thirty-million-compartments-testing-single-molecule-pcrs-potential/",
+      "summary": "Countable Labs has named Fred Hutchinson its first certified service provider, currently serving researchers across the Seattle region. And the company is continuing to build its list of service providers. The post Thirt…",
+      "ts": 1792068535000,
+      "publishedAt": "2026-10-15T12:48:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "url": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidne…",
+      "ts": 1792066200000,
+      "publishedAt": "2026-10-15T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 — Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new […] The post Agile Space In…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "WHO urges faster action to end lead exposure which kills 3.5 million annually",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168600",
+      "summary": "Countries must accelerate efforts to prevent lead exposure, which is estimated to cause more than 3.5 million deaths globally each year and affects hundreds of millions of children, the World Health Organization (WHO) sa…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "Kenya reports second Ebola case",
+      "url": "https://www.statnews.com/2026/10/15/health-news-kenya-reports-second-ebola-case/?utm_campaign=rss",
+      "summary": "Kenya reports a second Ebola case. Meanwhile, the situation in Congo is still quite dire. Authorities have confirmed more than 4,000 deaths and 9,000 cases as officials have struggled to…",
+      "ts": 1792065317000,
+      "publishedAt": "2026-10-15T11:55:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: On Wall Street, there’s trouble stirring for biotech",
+      "url": "https://www.statnews.com/2026/10/15/wall-street-biotech-trouble-stirring/?utm_campaign=rss",
+      "summary": "On Wall Street, the real trouble for biotech, and the reason for investor angst, lies below the surface.",
+      "ts": 1792060200000,
+      "publishedAt": "2026-10-15T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends…",
+      "ts": 1792058412000,
+      "publishedAt": "2026-10-15T10:00:12.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How much more can nuclear power plants give?",
+      "url": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
+      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do jus…",
+      "ts": 1792058400000,
+      "publishedAt": "2026-10-15T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Six wild ideas for perpetuating your mind",
+      "url": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
+      "summary": "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot t…",
+      "ts": 1792054800000,
+      "publishedAt": "2026-10-15T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
@@ -46,6 +163,24 @@
       "ts": 1792040412000,
       "publishedAt": "2026-10-15T05:00:12.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 15 – The Milky Way over Manhattan",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
+      "summary": "APOD Science APOD APOD: 2026 October 15 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+      "ts": 1792037100000,
+      "publishedAt": "2026-10-15T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Fires Arrive in the Amazon Rainforest",
+      "url": "https://science.nasa.gov/earth/earth-observatory/fires-arrive-in-the-amazon-rainforest/",
+      "summary": "During El Niño, a cascade of fires across the tropics begins in equatorial Asia and continues in the central and eastern Amazon.",
+      "ts": 1792036860000,
+      "publishedAt": "2026-10-15T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -375,7 +510,7 @@
       "source": "NASA",
       "title": "NASA Astronauts to Answer Questions from Florida Students",
       "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
-      "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 12 p.m. ED…",
+      "summary": "Editor’s Note: This article was updated Thursday, Oct. 15, 2026, to reflect a change to the event start time. Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded…",
       "ts": 1792005171000,
       "publishedAt": "2026-10-14T19:12:51.000Z",
       "categoryId": "space"
@@ -675,141 +810,6 @@
       "summary": "“We need more rigorous, large-scale research into the gut-brain axis across the life course,” write Holly Baines and George Vradenburg.",
       "ts": 1791966600000,
       "publishedAt": "2026-10-14T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "ts": 1791961200000,
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "ts": 1791961200000,
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
-      "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-      "summary": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is …",
-      "ts": 1791957855000,
-      "publishedAt": "2026-10-14T06:04:15.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-      "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and inte…",
-      "ts": 1791957628000,
-      "publishedAt": "2026-10-14T06:00:28.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
-      "summary": "What a cosmic coincidence! In today’s image, Mars joins the Beehive cluster below an auroral curtain and above a horizon of happy little trees near Lansjärv, Sweden.",
-      "ts": 1791950700000,
-      "publishedAt": "2026-10-14T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Hurricane Simon Lurks Off the Mexican Coast",
-      "url": "https://science.nasa.gov/earth/earth-observatory/hurricane-simon-lurks-off-the-mexican-coast/",
-      "summary": "Though it remained offshore, the storm lashed coastal areas with high winds and flooding—and produced remarkable rippling patterns in the upper atmosphere.",
-      "ts": 1791950460000,
-      "publishedAt": "2026-10-14T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Discovery of Bioresorbable Polymer Suture Coatings for Controlled Tissue Regeneration with Multimodal Foundation Models",
-      "url": "https://arxiv.org/abs/2610.13993",
-      "summary": "arXiv:2610.13993v1 Announce Type: new Abstract: Therapeutic sutures can localize bioactive payloads to wounds, but burst release and insufficient coating durability can compromise regeneration and increase infection risk…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Disease-level drug approval forecasting from trial-agnostic public data",
-      "url": "https://arxiv.org/abs/2610.14013",
-      "summary": "arXiv:2610.14013v1 Announce Type: new Abstract: Drug development is an expensive and lengthy process requiring developers to select drugs for human trials and diseases to target. Computational tools that can estimate bef…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Energy, Information, and the Limits of Neuropsychiatric Classification",
-      "url": "https://arxiv.org/abs/2610.14095",
-      "summary": "arXiv:2610.14095v1 Announce Type: new Abstract: Importance: The search for reliable neuroimaging biomarkers of mental disorders has remained elusive despite decades of research. Why clinically consequential disorders yie…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bayesian Uncertainty Quantification of Breast-Cancer Pathology AI Agreement under Reader- and Annotation-Condition-Dependent Reference Labels",
-      "url": "https://arxiv.org/abs/2610.14642",
-      "summary": "arXiv:2610.14642v1 Announce Type: new Abstract: Human reference labels used to evaluate medical AI can vary across readers and annotation workflows. We quantified agreement of a fixed pathology AI system with a future qu…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Amortised Global Sensitivity Analysis of Pharmacokinetic models for Simulated Clinical Trials",
-      "url": "https://arxiv.org/abs/2610.14719",
-      "summary": "arXiv:2610.14719v1 Announce Type: new Abstract: Pharmacokinetic and pharmacokinetic-pharmacodynamic models are used in simulated clinical trials to compare dosing protocols and patient groups before a trial is run. Disti…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multilateral governance of invasive alien species management: An ecological-economic model with Allee effect",
-      "url": "https://arxiv.org/abs/2610.14916",
-      "summary": "arXiv:2610.14916v1 Announce Type: new Abstract: Invasive alien species (IAS) generate substantial ecological and economic damages that often transcend political boundaries, creating strong incentives for coordinated mana…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Full Lyapunov Spectra of Random Neural Networks, Part I: Finite-Time and Asymptotic Theory",
-      "url": "https://arxiv.org/abs/2610.14922",
-      "summary": "arXiv:2610.14922v1 Announce Type: new Abstract: We develop a dynamical mean-field framework for the full finite-time and stationary asymptotic Lyapunov spectra of random recurrent neural networks. At finite observation t…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A mathematical model for fitness effects on viral persistence",
-      "url": "https://arxiv.org/abs/2610.14928",
-      "summary": "arXiv:2610.14928v1 Announce Type: new Abstract: Persistent viral infections arise from complex interactions between viral replication, host cell responses, and ongoing viral evolution. A general framework linking viral f…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Ensemble-Based Modelling of Optogenetic Bioprocesses under Phototoxicity",
-      "url": "https://arxiv.org/abs/2610.14974",
-      "summary": "arXiv:2610.14974v1 Announce Type: new Abstract: Optogenetics enables methanol-free protein production in the yeast $\\textit{Komagataella phaffii}$ using light as a control input, facilitated by the blue-light-responsive …",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],

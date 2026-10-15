@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-10-15T08:58:38.314Z",
+  "updated": "2026-10-15T14:06:10.648Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Drowned 5,000-year-old forests reborn as thriving peat reefs and biodiversity hotspots off Mozambique",
+      "url": "https://phys.org/news/2026-10-year-forests-reborn-peat-reefs.html",
+      "summary": "Researchers from the Bazaruto Center for Scientific Studies (BCSS) Ocean Observatory have documented ancient forests that grew on the Mozambican coast thousands of years ago and have been found beneath the sea, where the…",
+      "ts": 1792072816000,
+      "publishedAt": "2026-10-15T14:00:16.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pupil size reveals differences between speaking aloud and inner speech",
+      "url": "https://phys.org/news/2026-10-pupil-size-reveals-differences-aloud.html",
+      "summary": "Even when we are silent, we often talk to ourselves in our heads, using words to guide our thoughts and actions. This \"inner speech\" is thought to be involved in thinking and self-control.",
+      "ts": 1792072810000,
+      "publishedAt": "2026-10-15T14:00:10.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "How Do Fungi Keep the Planet Healthy?",
+      "url": "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/",
+      "summary": "Evolutionary biologist Toby Kiers explains how fungal networks in soil trade nutrients with plants, help keep carbon underground, and strike bargains without having a brain. The post How Do Fungi Keep the Planet Healthy?…",
+      "ts": 1792071613000,
+      "publishedAt": "2026-10-15T13:40:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research finds vegan honey could be made with similar antimicrobial properties to mānuka honey",
+      "url": "https://phys.org/news/2026-10-vegan-honey-similar-antimicrobial-properties.html",
+      "summary": "Vegan honey alternatives could be engineered to have antimicrobial properties similar to those of prized mānuka honey from New Zealand, according to research at Aston University.",
+      "ts": 1792071601000,
+      "publishedAt": "2026-10-15T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cortisol is a reproduction friend, not enemy",
+      "url": "https://phys.org/news/2026-10-cortisol-reproduction-friend-enemy.html",
+      "summary": "A major international study of the role cortisol plays in reproduction has found it may not be the villain it has been depicted as, and it may actually promote healthy reproduction.",
+      "ts": 1792070404000,
+      "publishedAt": "2026-10-15T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Finding new ways to catch a thief—via intruders' airborne eDNA",
+      "url": "https://phys.org/news/2026-10-ways-thief-intruders-airborne-edna.html",
+      "summary": "Environmental DNA (eDNA) is increasingly being investigated by forensic scientists as a tool to help solve criminal cases that lack biological traces—and attention is also turning to collecting trace airborne eDNA left b…",
+      "ts": 1792069209000,
+      "publishedAt": "2026-10-15T13:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Time to redefine concept of health: Indigenous views of health reveal gaps in Western health frameworks",
+      "url": "https://phys.org/news/2026-10-redefine-concept-health-indigenous-views.html",
+      "summary": "How health is defined, measured and addressed by Indigenous communities doesn't match Western frameworks, leading health systems to fall short in caring for vulnerable communities, a University of Otago—Ōtākou Whakaihu W…",
+      "ts": 1792069205000,
+      "publishedAt": "2026-10-15T13:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Brain implants are helping people who’ve lost their voice",
+      "url": "https://www.sciencenews.org/article/brain-implants-restore-voices-injuries",
+      "summary": "The technology could get those with ALS, Parkinson’s disease and brain injuries “talking” again.",
+      "ts": 1792069200000,
+      "publishedAt": "2026-10-15T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why tightly confined water's response to electric fields depends on direction",
+      "url": "https://phys.org/news/2026-10-tightly-confined-response-electric-fields.html",
+      "summary": "Using an advanced new mathematical model, a pair of physicists in Belgium has revealed the origins of an unusual, direction-dependent effect found in water confined to a narrow gap between two plates. Through research pu…",
+      "ts": 1792068008000,
+      "publishedAt": "2026-10-15T12:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Expanding climate models to better capture the complexities of public health",
+      "url": "https://phys.org/news/2026-10-qa-climate-capture-complexities-health.html",
+      "summary": "About a decade ago, a group of climate scientists described five scenarios for the future. Called the Shared Socioeconomic Pathways (SSPs), these scenarios suggest how socioeconomic development could evolve in worlds wit…",
+      "ts": 1792068005000,
+      "publishedAt": "2026-10-15T12:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research challenges the idea that GST always hits lower-income households hardest",
+      "url": "https://phys.org/news/2026-10-idea-gst-income-households-hardest.html",
+      "summary": "Goods and services tax (GST) is priced into many everyday purchases, from groceries and clothing to restaurant meals and household bills. That means any change to the tax can affect how much households have left to spend…",
+      "ts": 1792066802000,
+      "publishedAt": "2026-10-15T12:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turning up the heat on chickpea yield",
+      "url": "https://phys.org/news/2026-10-chickpea-yield.html",
+      "summary": "A University of Queensland study has outlined a practical pathway for accelerating the development of heat-adapted chickpeas using data from new 'omic' technologies. Ph.D. candidate Callum Jamie said the suite of technol…",
+      "ts": 1792065602000,
+      "publishedAt": "2026-10-15T12:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Looking for relief from dating app anxiety? Try a variety of platforms",
+      "url": "https://phys.org/news/2026-10-relief-dating-app-anxiety-variety.html",
+      "summary": "Using more than one type of app, including both mainstream apps such as Tinder or Hinge and gay apps like Grindr, could lead to lower levels of anxiety among gay men who use mobile dating platforms.",
+      "ts": 1792064401000,
+      "publishedAt": "2026-10-15T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Early growth differences help explain which beech trees survive forest competition",
+      "url": "https://phys.org/news/2026-10-early-growth-differences-beech-trees.html",
+      "summary": "The fight for survival in the forest is fierce: light, water and nutrients are all limited. This is particularly true in \"mast years\"—times when trees and shrubs produce an unusually large crop of fruits, nuts or seeds. …",
+      "ts": 1792063201000,
+      "publishedAt": "2026-10-15T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Green space is linked with fewer gun-related homicides—but not everywhere",
+      "url": "https://phys.org/news/2026-10-green-space-linked-gun-homicides.html",
+      "summary": "Physical surroundings affect everything from personal well-being to a neighborhood's safety. A new study from The Ohio State University finds that when it comes to preventing gun violence in a community, green space can …",
+      "ts": 1792062001000,
+      "publishedAt": "2026-10-15T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum sensor could measure how Earth drags spacetime",
+      "url": "https://phys.org/news/2026-10-quantum-sensor-earth-spacetime.html",
+      "summary": "Einstein's theory of general relativity describes gravity as the bending of spacetime, a mathematical model that combines three-dimensional space and time into a single, four-dimensional continuum. The theory also predic…",
+      "ts": 1792060801000,
+      "publishedAt": "2026-10-15T10:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Countries most vulnerable to fossil fuel phaseout generate just 6% of global output, climate analysis finds",
+      "url": "https://phys.org/news/2026-10-countries-vulnerable-fossil-fuel-phaseout.html",
+      "summary": "Countries highly vulnerable to the phase-out of oil, gas and coal account for just 6% of global economic output, countries in Africa stand to benefit from their vast solar energy potential, and the economic interests of …",
+      "ts": 1792054812000,
+      "publishedAt": "2026-10-15T09:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Candida auris copies its entire genome to survive antifungal treatment, research reveals",
+      "url": "https://phys.org/news/2026-10-candida-auris-entire-genome-survive.html",
+      "summary": "New research has revealed an unexpected new mechanism through which the killer fungus Candida auris is resisting antifungal drug treatment. A team led by the University of Exeter and City St George's, University of Londo…",
+      "ts": 1792054808000,
+      "publishedAt": "2026-10-15T09:00:08.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ascension Island: How a planting project created a lush cloud forest",
@@ -655,150 +799,6 @@
       "title": "MoEDAL-MAPP: the first dedicated search experiment at the LHC",
       "url": "https://arxiv.org/abs/2610.19959",
       "summary": "arXiv:2610.19959v1 Announce Type: cross Abstract: This special issue brings together a collection of original research articles and review papers addressing topics directly related to the MoEDAL-MAPP experiment at the La…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stationary Resistive MHD Solutions Near an Isolated Three-Dimensional Magnetic Null",
-      "url": "https://arxiv.org/abs/2610.20015",
-      "summary": "arXiv:2610.20015v1 Announce Type: cross Abstract: Magnetic null points define the magnetic field topology in stellar coronae, planetary magnetospheres, and astrospheres, and are commonly associated with magnetic reconnec…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tracking a solar energetic eruption and associated energetic particles from Sun to spacecraft",
-      "url": "https://arxiv.org/abs/2610.20026",
-      "summary": "arXiv:2610.20026v1 Announce Type: cross Abstract: Context. Solar energetic particles (SEPs) in the heliosphere are produced by flaring processes on the Sun or shocks driven by coronal mass ejections (CMEs). Electrons, in…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flares and flux ropes: an entangled story",
-      "url": "https://arxiv.org/abs/2610.20056",
-      "summary": "arXiv:2610.20056v1 Announce Type: cross Abstract: Solar flares serve as standard candles for all magnetic-reconnection-based energy releases, and their consequences into the heliosphere can be modeled from first principl…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uncovering higher-order interactions from memory in observed dynamics",
-      "url": "https://arxiv.org/abs/2610.20095",
-      "summary": "arXiv:2610.20095v1 Announce Type: cross Abstract: Many complex systems involve group interactions, which can readily be represented by higher-order structures such as hypergraphs. However, when observing a system's dynam…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "eMOOD: Entropy-Based Multidimensional Optimal Order Detection for High-Order Shock-Capturing Finite-Volume Schemes",
-      "url": "https://arxiv.org/abs/2610.20133",
-      "summary": "arXiv:2610.20133v1 Announce Type: cross Abstract: We present eMOOD, an entropy-guided evolution of the Multidimensional Optimal Order Detection (MOOD) framework for high-order finite-volume methods on unstructured meshes…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "R&D activity in INAF on light instrumentation for continuous optical turbulence monitoring",
-      "url": "https://arxiv.org/abs/2610.20143",
-      "summary": "arXiv:2610.20143v1 Announce Type: cross Abstract: Measurements of optical turbulence are essential in both ground-based astronomy and free-space optical communication systems contexts for multiple reasons including suppo…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Frequency Mass Transfer Enabling Over-Limiting Currents in Porous Electrodes",
-      "url": "https://arxiv.org/abs/2610.20211",
-      "summary": "arXiv:2610.20211v1 Announce Type: cross Abstract: Classical film theory predicts a finite diffusion-limited current at porous electrodes. However, over-limiting currents (OLCs), which exceed this limit, are often observe…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics with Radioactive Ion Beams at the Nuclear Science Laboratory",
-      "url": "https://arxiv.org/abs/2610.20236",
-      "summary": "arXiv:2610.20236v1 Announce Type: cross Abstract: The University of Notre Dame is home to a rich history of nuclear science efforts, including some of the earliest developments in the production and creation of radioacti…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Making Weak Interlayer Excitons Absorb: Manipulating the Effective Oscillator Strength via Purcell Engineering of Critical Coupling",
-      "url": "https://arxiv.org/abs/2610.20307",
-      "summary": "arXiv:2610.20307v1 Announce Type: cross Abstract: Interlayer excitons (IXs) in transition metal dichalcogenide bilayers possess unique dipolar properties, providing a path for exploring correlated many-body phases, elect…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Continued fractions and passive ladder networks for acoustic impedances: the baffled piston and the horn",
-      "url": "https://arxiv.org/abs/2610.20371",
-      "summary": "arXiv:2610.20371v1 Announce Type: cross Abstract: Lumped-element networks give transparent, passive models of acoustic impedances whose low- and high-frequency limits can be read from the circuit, but a systematic, arbit…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective Graph Neural Representation of Chain Architectures of Block Copolymers Tested by Predicting RPA Instability Limits",
-      "url": "https://arxiv.org/abs/2610.20374",
-      "summary": "arXiv:2610.20374v1 Announce Type: cross Abstract: Advances in polymer synthesis and computational modeling are expanding the block-copolymer architecture space accessible for phase-behavior design. Machine learning can a…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast Monte Carlo calculation of multiple scattering in resonant neutron capture",
-      "url": "https://arxiv.org/abs/2610.20435",
-      "summary": "arXiv:2610.20435v1 Announce Type: cross Abstract: A fast Monte Carlo code has been developed to calculate multiple neutron scattering in a sample. Good agreement with an independent Monte Carlo calculation using SAMMY is…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demonstration of a mobile ion-trap quantum device",
-      "url": "https://arxiv.org/abs/2610.20487",
-      "summary": "arXiv:2610.20487v1 Announce Type: cross Abstract: Trapped-ion devices are being investigated for transportable applications, including the transfer of exotic charged particles between laboratories and the development of …",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structural identification in general crystalline systems via Voronoi cell topology",
-      "url": "https://arxiv.org/abs/2610.20498",
-      "summary": "arXiv:2610.20498v1 Announce Type: cross Abstract: Widely used methods for identifying crystal structure in atomistic simulations are limited in practice to a handful of simple structures, leaving many important crystalli…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probabilistic AI models outperform numerical weather prediction models on record breaking heat extremes",
-      "url": "https://arxiv.org/abs/2610.20519",
-      "summary": "arXiv:2610.20519v1 Announce Type: cross Abstract: AI weather prediction (AIWP) models have emerged as a key complement to physics-based numerical weather prediction (NWP) models, and now often outperform them on aggregat…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revealing the Spatial Distribution of Dust and Plasma Solitary Waves in Jupiter's Innermost Magnetosphere Using Juno Waves Observations",
-      "url": "https://arxiv.org/abs/2610.20541",
-      "summary": "arXiv:2610.20541v1 Announce Type: cross Abstract: Jupiter's faint ring system contains micron- and submicron-sized dust whose dynamics are influenced by the planet's rapidly rotating magnetic field. Optical observations …",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transient PULSE: Code for the Transient Propagation of UltraLight (pseudo)Scalars to Earth",
-      "url": "https://arxiv.org/abs/2610.20601",
-      "summary": "arXiv:2610.20601v1 Announce Type: cross Abstract: We present Transient PULSE, a software package that numerically implements a previously developed source-to-detector framework for transient ultralight bosonic signals fr…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A heuristic sketch how it could fit all together with time",
-      "url": "https://arxiv.org/abs/2405.10335",
-      "summary": "arXiv:2405.10335v4 Announce Type: replace Abstract: On a scientific meta-level, it is discussed how an overall understanding of the physical universe can be built on the basis of well-proven theories, observations, and r…",
       "ts": 1792036800000,
       "publishedAt": "2026-10-15T04:00:00.000Z"
     }
