@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-10-14T23:02:27.028Z",
+  "updated": "2026-10-15T03:44:27.693Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Compass Pathways CEO: Psychedelics company will ‘go slow before we go fast’",
+      "url": "https://www.statnews.com/2026/10/14/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss",
+      "summary": "The CEO of Compass Pathways said the company, whose psychedelic therapy is set for regulatory review this year, is prepared to “go slow before we go fast.”",
+      "ts": 1792022484000,
+      "publishedAt": "2026-10-15T00:01:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Former FDA officials blast DOGE as ‘one of the biggest disasters in American history’",
+      "url": "https://www.statnews.com/2026/10/14/former-fda-commissioners-say-recruit-defend-support-agency-workforce/?utm_campaign=rss",
+      "summary": "Three former FDA chiefs criticized the DOGE cuts to the agency, saying they robbed the FDA of institutional knowledge that will take years to restore.",
+      "ts": 1792020200000,
+      "publishedAt": "2026-10-14T23:23:20.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "As White House shifts focus toward AI and tech, U.S. science leaders defend role of the American university",
@@ -790,24 +808,6 @@
       "title": "Learning Perceptual Geometry of Natural Odor Mixtures from LLM-Derived Descriptors",
       "url": "https://arxiv.org/abs/2610.17164",
       "summary": "arXiv:2610.17164v1 Announce Type: cross Abstract: The relationship between odor chemistry and perception remains incompletely understood. Many existing studies focus on the perception of single molecules, whereas natural…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beyond Successful Play: Diagnosing Opponent Modeling in Large Language Models",
-      "url": "https://arxiv.org/abs/2610.17310",
-      "summary": "arXiv:2610.17310v1 Announce Type: cross Abstract: Language-model agents are expected to adapt to others whose behavior changes through interaction. Yet adaptation may rely on learned behavioral patterns rather than theor…",
-      "ts": 1791950400000,
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Collective Benefits and Efficiency in Coupled Echo State Networks",
-      "url": "https://arxiv.org/abs/2610.17506",
-      "summary": "arXiv:2610.17506v1 Announce Type: cross Abstract: Simple aggregation of independent responses (\"wisdom of crowds\") generally improves collective performance through statistical facilitation, but interaction among members…",
       "ts": 1791950400000,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "categoryId": "bio"
