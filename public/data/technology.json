@@ -1,7 +1,169 @@
 {
   "ok": true,
-  "updated": "2026-10-15T14:06:14.658Z",
+  "updated": "2026-10-15T18:56:24.009Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "The Trump administration is doubling down on health care fraud investigations",
+      "url": "https://www.statnews.com/2026/10/15/healthcare-fraud-new-doj-policy-rewards-self-disclosure/?utm_campaign=rss",
+      "summary": "At the STAT Summit, the Department of Justice offered up a warning for health care executives: Don’t be another Theranos.",
+      "ts": 1792087758000,
+      "publishedAt": "2026-10-15T18:09:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Satellites Observe Historic 2026 El Niño",
+      "url": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
+      "summary": "A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely. El Niño is a natural climate pattern that emerges roughly every two to seven…",
+      "ts": 1792087162000,
+      "publishedAt": "2026-10-15T17:59:22.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Newly Identified Microexons Offer Clues to Autism Spectrum Disorder’s Genetic Roots",
+      "url": "https://www.genengnews.com/topics/omics/newly-identified-microexons-offer-clues-to-autism-spectrum-disorders-genetic-roots/",
+      "summary": "Hundreds of newly identified microexons seem to matter for autism and other neurological conditions, according to a Nature study. A machine learning model of their regulatory code also pinpoints variants predicted to dis…",
+      "ts": 1792087136000,
+      "publishedAt": "2026-10-15T17:58:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
+      "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
+      "summary": "From the International Space Station’s unique position 250 miles above Earth, the Sun is a vital source of energy. Solar power supports the station’s life support systems, daily activities, and hundreds of research inves…",
+      "ts": 1792085439000,
+      "publishedAt": "2026-10-15T17:30:39.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Mass. lawmaker Auchincloss favors boosting U.S. biotech over targeting China",
+      "url": "https://www.statnews.com/2026/10/15/auchincloss-us-biotech-vs-china-protectionism/?utm_campaign=rss",
+      "summary": "Rep. Jake Auchincloss (D-Mass.) has some advice for fellow lawmakers: unapologetically support the biotech industry.",
+      "ts": 1792084790000,
+      "publishedAt": "2026-10-15T17:19:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How Alzheimer’s Risk Gene APOE4 Disrupts Myelination",
+      "url": "https://www.genengnews.com/topics/translational-medicine/how-alzheimers-risk-gene-apoe4-disrupts-myelination/",
+      "summary": "Study linked the APOE4 gene with suppression of Wnt signaling in the oligodendrocyte cells that provide neurons with their fatty myelin insulation, and also demonstrated a potential approach to preventing disruption of m…",
+      "ts": 1792084036000,
+      "publishedAt": "2026-10-15T17:07:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the wor…",
+      "ts": 1792083623000,
+      "publishedAt": "2026-10-15T17:00:23.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "summary": "A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissio…",
+      "ts": 1792082530000,
+      "publishedAt": "2026-10-15T16:42:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes All Ages, Experience Levels for Space Apps Challenge",
+      "url": "https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/",
+      "summary": "Registration is open for the 2026 NASA Space Apps Challenge, a two-day global event on Saturday, Nov. 14 and Sunday, Nov. 15, where teams work to create solutions inspired by NASA’s most ambitious exploration goals and m…",
+      "ts": 1792080788000,
+      "publishedAt": "2026-10-15T16:13:08.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "summary": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space. Through NASA’s …",
+      "ts": 1792079867000,
+      "publishedAt": "2026-10-15T15:57:47.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Former FDA commissioners Califf, Gottlieb, Sharpless lay into current HHS leadership",
+      "url": "https://www.statnews.com/2026/10/15/health-policy-news-fda-califf-gottlieb-sharpless-criticize-hhs-leadership/?utm_campaign=rss",
+      "summary": "Former FDA commissioners Rob Califf (Obama and Biden administrations), Scott Gottlieb, and Ned Sharpless (both from the first Trump administration) criticized the officials who ran the agency during a massive…",
+      "ts": 1792079458000,
+      "publishedAt": "2026-10-15T15:50:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Illumina Combines Multiomics Informatics Applications in New BioInsight Platform",
+      "url": "https://www.genengnews.com/topics/omics/illumina-combines-multiomics-informatics-applications-in-new-bioinsight-platform/",
+      "summary": "Illumina is bringing its software, AI, and data offerings together in the new BioInsight platform, designed to help scientists analyze genomic and multiomic datasets. It will be showcased at ASHG in Montreal. The post Il…",
+      "ts": 1792079241000,
+      "publishedAt": "2026-10-15T15:47:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Verastem’s KRAS inhibitor shows promise in pancreatic cancer",
+      "url": "https://www.statnews.com/2026/10/15/biotech-news-verastem-kras-inhibitor-shows-promise-in-pancreatic-cancer/?utm_campaign=rss",
+      "summary": "Verastem Oncology reports encouraging early results for its KRAS G12D inhibitor, which it’s studying in more than 200 patients with advanced solid tumors like metastatic pancreatic ductal adenocarcinoma and non-small…",
+      "ts": 1792078995000,
+      "publishedAt": "2026-10-15T15:43:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "After a melanoma diagnosis, mRNA cancer vaccine delivered a patient hope — and a path forward",
+      "url": "https://www.statnews.com/2026/10/15/melanoma-diagnosis-mrna-cancer-vaccine-stat-summit-boston-2026/?utm_campaign=rss",
+      "summary": "A schoolteacher diagnosed with melanoma provides an inside look at what it was like to be treated with a cancer vaccine developed by Merck and Moderna.",
+      "ts": 1792077908000,
+      "publishedAt": "2026-10-15T15:25:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "How NASA is thinking about a moon base",
+      "url": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinkin…",
+      "ts": 1792077264000,
+      "publishedAt": "2026-10-15T15:14:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotr…",
+      "ts": 1792076424000,
+      "publishedAt": "2026-10-15T15:00:24.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance ",
+      "url": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
+      "summary": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface. Additional engineering data analysis of the Orion spacec…",
+      "ts": 1792076241000,
+      "publishedAt": "2026-10-15T14:57:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Chandra Finds Possible Origin of ‘Treble Clef’ Waves",
+      "url": "https://www.nasa.gov/image-article/chandra-finds-possible-origin-of-treble-clef-waves/",
+      "summary": "A formation of radio waves looks remarkably like a treble clef in this Oct. 14, 2026, image from NASA’s Chandra X-Ray Observatory. Researchers used Chandra to find that the Treble Clef is likely caused by an outburst fro…",
+      "ts": 1792073946000,
+      "publishedAt": "2026-10-15T14:19:06.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about former FDA head calling DOGE a ‘disaster,’ an AstraZeneca AI deal, and more",
@@ -48,6 +210,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Supports Capacity Building for Nuclear Energy Planning at Regional INPRO School in Kazakhstan",
+      "url": "http://www.iaea.org/newscenter/news/iaea-supports-capacity-building-for-nuclear-energy-planning-at-regional-inpro-school-in-kazakhstan",
+      "summary": "",
+      "ts": 1792067124000,
+      "publishedAt": "2026-10-15T12:25:24.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
       "url": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
@@ -64,6 +235,60 @@
       "ts": 1792065600000,
       "publishedAt": "2026-10-15T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World losing ground in ‘war on nature’ as progress on biodiversity targets lags",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168607",
+      "summary": "Fewer than half of the national targets set to protect the world’s plants, animals and ecosystems are on track, the UN warns in a new report, days before countries gather in Yerevan, Armenia, for the COP17 biodiversity c…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "AI, green energy and economic transitions risk leaving vulnerable communities behind, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168604",
+      "summary": "Rapid transformations – from artificial intelligence and digital technologies to renewable energy and demographic shifts – are reshaping economies worldwide, creating new opportunities but also threatening to deepen soci…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan faces record hunger levels amid rampant rights violations",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168605",
+      "summary": "Acute malnutrition and hunger in Afghanistan have reached the highest levels ever recorded, with 15.9 million people facing acute food insecurity and conditions set to worsen in the coming months, according to a global h…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Critical health supplies destroyed in ongoing Russian attacks",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168603",
+      "summary": "Ongoing and deadly Russian attacks across Ukraine are causing serious healthcare disruption, with more than $1.5 million-worth of medicines and supplies destroyed in four separate strikes on warehouses used by the UN the…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "WHO urges vigilance after Kenya confirms second Ebola case",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168602",
+      "summary": "The World Health Organization (WHO) continues to support Kenya’s efforts to contain Ebola after a second person tested positive for the Bundibugyo virus, the UN agency’s representative in the country said on Thursday.",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Deaths, demolitions spike in Gaza, West Bank",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168599",
+      "summary": "Amid a rise in lethal Israeli strikes, demolitions and violence in Gaza and the West Bank, the Security Council is holding an open debate on Thursday focusing on the current situation in the Occupied Palestinian Territor…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -471,6 +696,69 @@
       "categoryId": "bio"
     },
     {
+      "source": "Cell",
+      "title": "Milking the niche: Microbial control of neonatal hematopoiesis",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01079-2?rss=yes",
+      "summary": "In this issue of Cell, Howard et al. reveal how the milk glycoprotein osteopontin shapes the neonatal microbiome to regulate hematopoiesis, promoting dendritic cell development and protection from severe respiratory infe…",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Cellular scaling laws in the mammalian brain",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01017-2?rss=yes",
+      "summary": "This perspective argues that our brains do not operate as a single system; instead, there are two systems, where one is a copy-paste “learning” engine that scales by duplicating the same modules and the other is a bespok…",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Charting the silent variation within us",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01187-6?rss=yes",
+      "summary": "Every human is a mosaic of trillions of subtly different genomes. This commentary highlights the SMaHT Network’s benchmarking papers and body-wide map of somatic mosaicism and discusses what this newly measurable variati…",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01135-9?rss=yes",
+      "summary": "Benchmarking by the Somatic Mosaicism across Human Tissues Network demonstrates that advances in sequencing and analysis now enable systematic and comprehensive discovery of somatic mutations across diverse mutation type…",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01137-2?rss=yes",
+      "summary": "FIRE is a long-read Fiber-seq method that resolves chromatin accessibility along individual DNA molecules on each parental chromosome, enabling a comprehensive assessment of the diploid epigenome. FIRE reveals that the H…",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01136-0?rss=yes",
+      "summary": "A near-telomere-to-telomere diploid assembly is paired with deep long-read sequencing of a matched melanoma, revealing that 16% of somatic variants lie in sequences absent from GRCh38. Satellite repeats absorb UV damage,…",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Spatiotemporal co-transcriptomics uncovers coordinated rhizobia-legume stress programs supporting nitrogen fixation in Medicago",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00865-2?rss=yes",
+      "summary": "Rhizobial nitrogen fixation in legume nodules requires precise spatial and temporal coordination between plant and bacterial gene expression. This study generates a host-rhizobium co-transcriptomic atlas of Medicago nodu…",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
       "source": "STAT",
       "title": "Former FDA officials blast DOGE as ‘one of the biggest disasters in American history’",
       "url": "https://www.statnews.com/2026/10/14/former-fda-commissioners-say-recruit-defend-support-agency-workforce/?utm_campaign=rss",
@@ -522,294 +810,6 @@
       "summary": "Whoop's chief medical officer, said the company's work with Medicare is an opportunity to prove its ability to improve health at the population level.",
       "ts": 1792001768000,
       "publishedAt": "2026-10-14T18:16:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Alzheimer’s Small-Molecule Therapy Shows Promise in Mice and Early Human Trial",
-      "url": "https://www.genengnews.com/topics/drug-discovery/alzheimers-small-molecule-therapy-shows-promise-in-mice-and-early-human-trial/",
-      "summary": "A small-molecule therapy, VG-3927, targeting microglial TREM2 signaling showed neuroprotective effects in preclinical studies for Alzheimer's disease and was well tolerated in a Phase I trial. The post Alzheimer’s Small-…",
-      "ts": 1792000848000,
-      "publishedAt": "2026-10-14T18:00:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Chandra Breaks Down ‘Treble Clef’s’ Galaxy Cluster Collision",
-      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/",
-      "summary": "Astronomers have used NASA’s Chandra X-ray Observatory to break down the cause of a remarkable formation of radio waves they have nicknamed the “Treble Clef” because its distinct shape strongly resembles the musical symb…",
-      "ts": 1791996418000,
-      "publishedAt": "2026-10-14T16:46:58.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Preterm Birth for Some Women Linked to Specific Autoantibodies",
-      "url": "https://www.genengnews.com/topics/translational-medicine/preterm-birth-for-some-women-linked-to-specific-autoantibodies/",
-      "summary": "By analyzing maternal sera from term and preterm pregnancies, in combination with studies in live mice and in human placental tissues, researchers identified antibodies that play a role in triggering early labor. The pos…",
-      "ts": 1791996216000,
-      "publishedAt": "2026-10-14T16:43:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cell Therapy Manufacturing Takes Shape Across Asia-Pacific",
-      "url": "https://www.genengnews.com/topics/bioprocessing/cell-therapy-manufacturing-takes-shape-across-asia-pacific/",
-      "summary": "Cell and gene therapy is accelerating across Asia-Pacific, but manufacturing remains fragmented. Strategic automation, adaptable bioprocessing platforms, stronger supply chains, and workforce development could help thera…",
-      "ts": 1791993629000,
-      "publishedAt": "2026-10-14T16:00:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "For Biocatalysis, Solvents Are a Key Bioprocessing Parameter",
-      "url": "https://www.genengnews.com/topics/bioprocessing/for-biocatalysis-solvents-are-a-key-bioprocessing-parameter/",
-      "summary": "Deep eutectic solvents can modulate multiple biocatalysis process parameters, thus minimizing or eliminating the need for bioengineering in certain enzymes while enhancing productivity and product quality. The post For B…",
-      "ts": 1791993627000,
-      "publishedAt": "2026-10-14T16:00:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Turning Process Understanding Into Control of Lipid Nanoparticles",
-      "url": "https://www.genengnews.com/topics/bioprocessing/turning-process-understanding-into-control-of-lipid-nanoparticles/",
-      "summary": "Splitting lipid nanoparticle manufacturing into multiple mixing steps can help better control the size, shape, and stability of particles, with the aim of improving product quality during commercial-scale production. The…",
-      "ts": 1791993604000,
-      "publishedAt": "2026-10-14T16:00:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Contracting Expansion: A Path to Better CAR T-Cell Therapy Production",
-      "url": "https://www.genengnews.com/topics/bioprocessing/contracting-expansion-a-path-to-better-car-t-cell-therapy-production/",
-      "summary": "Shorter cell expansion steps could significantly accelerate CAR T-cell therapy production processes, according to researchers, who cite microfluidic culture systems, real-time PAT tools, and AI-enabled predictive models …",
-      "ts": 1791993601000,
-      "publishedAt": "2026-10-14T16:00:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Space X CRS-35 Launch Jellyfish",
-      "url": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
-      "summary": "Sunlight illuminates the exhaust plumes of a SpaceX Falcon 9 rocket carrying the company’s Dragon spacecraft on Oct. 13, 2026. This visual phenomenon is known as a “jellyfish”; it happens near sunrise or sunset when the …",
-      "ts": 1791991118000,
-      "publishedAt": "2026-10-14T15:18:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Develops Batteries to Power Humanity’s Return to Moon",
-      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/",
-      "summary": "If you’ve ever had your car start sluggishly, or not at all, on a particularly frigid winter morning, you know standard batteries do not like extreme cold. That’s why NASA researchers are working to develop a battery tha…",
-      "ts": 1791988881000,
-      "publishedAt": "2026-10-14T14:41:21.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA adcomm members’ ties to industry under scrutiny",
-      "url": "https://www.statnews.com/2026/10/14/biotech-news-fda-adcomm-member-ties-to-industry-under-scrutiny/?utm_campaign=rss",
-      "summary": "New research found that nearly 40% of FDA advisory meetings held over a recent 20-year period included either a patient or consumer rep with active ties to an advocacy group…",
-      "ts": 1791987134000,
-      "publishedAt": "2026-10-14T14:12:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
-      "url": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
-      "summary": "NASA will provide an update on its plans to return American astronauts to the surface of the Moon by 2028 at 2 p.m. EDT, Friday, Oct. 23, at the agency’s Kennedy Space Center in Florida. Learn where to watch online: http…",
-      "ts": 1791984745000,
-      "publishedAt": "2026-10-14T13:32:25.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Sanofi settling an EU antitrust probe, ‘pharma bro’ Shkreli, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/14/sanofi-settling-european-antitrust-probe-pharma-bro-shkreli/?utm_campaign=rss",
-      "summary": "The FTC asked a U.S. court to hold Martin Shkreli in contempt for “flagrantly” violating a court order banning him from working in the pharma industry",
-      "ts": 1791984399000,
-      "publishedAt": "2026-10-14T13:26:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The startup chasing ‘general biological intelligence’",
-      "url": "https://www.statnews.com/2026/10/14/the-startup-chasing-general-biological-intelligence-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of AI Prognosis, Brittany Trang talks to Eric Nguyen, the CEO of Radical Numerics, a startup pursuing \"general biological intelligence.'",
-      "ts": 1791983877000,
-      "publishedAt": "2026-10-14T13:17:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
-      "url": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
-      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be […] The post How mini-constel…",
-      "ts": 1791983361000,
-      "publishedAt": "2026-10-14T13:09:21.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Isotopes Help Trace Nitrogen Pollution in Water",
-      "url": "http://www.iaea.org/newscenter/news/isotopes-help-trace-nitrogen-pollution-in-water",
-      "summary": "Nitrogen pollution is an increasing threat to rivers, lakes and groundwater worldwide. Excess nitrate from wastewater discharges, agricultural activities and other human sources can degrade water quality, fuel harmful al…",
-      "ts": 1791981660000,
-      "publishedAt": "2026-10-14T12:41:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sanofi avoids fine as EU accepts offer to end antitrust probe over disparaging rival vaccine",
-      "url": "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/?utm_campaign=rss",
-      "summary": "E.U. antitrust regulators accepted concessions from Sanofi to settle a probe into an allegedly “misleading” campaign that disparaged a rival flu vaccine.",
-      "ts": 1791980255000,
-      "publishedAt": "2026-10-14T12:17:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: faking blood and the future of batteries",
-      "url": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopt…",
-      "ts": 1791979800000,
-      "publishedAt": "2026-10-14T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "url": "https://openai.com/index/sentinelone",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Haiti sanctions renewed: Starving the gangs of bullets",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168598",
-      "summary": "Haiti is living through one of the world’s most acute security crises. Armed gangs control large parts of the capital, Port-au-Prince, and are pushing into rural areas, terrorising communities, killing people, committing…",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Colombia: UN independent experts call for Ecopetrol to provide reparations to victims of armed conflict",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168597",
-      "summary": "UN independent experts welcomed on Wednesday a recent landmark corporate accountability ruling involving the Ecopetrol oil company by Colombia’s Special Jurisdiction for Peace, calling for reparations for victims.",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Gaza braces for winter amid attacks, joint patrols in CAR, 90 cities commit to sustainable development",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168596",
-      "summary": "The UN and its partners are stepping up preparations in Gaza for the approaching cold and rainy season, even as attacks affecting civilians continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said…",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo: Cholera cases spike amid fight against Ebola",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168595",
-      "summary": "The cholera epidemic continues to spread in the Democratic Republic of Congo (DRC), where more than 125,000 suspected cases and 3,644 suspected deaths were recorded between January 2025 and the end of September 2026, the…",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Health workers tackle taboos over drinking with new AI tool",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168594",
-      "summary": "A new AI-powered hub for health professionals aims to help identify alcohol-related risks and launch discussions with patients, including the link between drinking and cancer, the World Health Organization (WHO) announce…",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Libya in the spotlight amid ‘encouraging progress’",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168592",
-      "summary": "Despite progress in the political process in Libya, institutional divisions, economic deterioration and security fragility continue to threaten stability, the UN envoy warned the Security Council on Wednesday, calling on…",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
-      "summary": "Intensifying fighting in Yemen has cut off life-saving assistance to 800,000 people as shifting frontlines, blocked roads and growing insecurity severely restrict access to the city of Taiz and other conflict zones, the …",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "WHO calls for urgent health action across the Eastern Mediterranean",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168590",
-      "summary": "The head of the World Health Organization (WHO) has called for promoting, providing and protecting health in the Eastern Mediterranean region, home to some of the world’s top humanitarian crises such as Sudan, Yemen and …",
-      "ts": 1791979200000,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
-      "url": "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/?utm_campaign=rss",
-      "summary": "A wave of clinical trials have begun to test the ability of GLP-1 weight loss drugs to quell various substance use disorders, with some promising results. A new trial announced…",
-      "ts": 1791978829000,
-      "publishedAt": "2026-10-14T11:53:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The US military’s race to make fake blood",
-      "url": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/",
-      "summary": "Its call sign was Morphine 1-2. In February 2007, the hulking dual-­rotor casualty evacuation helicopter had just flown three wounded soldiers to a field hospital in Balad, north of Baghdad, when another call came: an em…",
-      "ts": 1791968400000,
-      "publishedAt": "2026-10-14T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lobbyists and trade groups fight to shape how states regulate medical AI",
-      "url": "https://www.statnews.com/2026/10/14/lobbyists-trade-groups-ama-push-autonomous-clinical-ai-regulations/?utm_campaign=rss",
-      "summary": "Lobbying groups for doctors and hospitals and trade groups are working behind the scenes on how to regulate AI in medicine.",
-      "ts": 1791966600000,
-      "publishedAt": "2026-10-14T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How states can resist the potential Trump vaccine shortages",
-      "url": "https://www.statnews.com/2026/10/14/state-vaccine-factories-trump-shortages-vicp/?utm_campaign=rss",
-      "summary": "“States can serve as a last line of defense against the Trump administration’s anti-vaccine policy,” writes Joel Dodge.",
-      "ts": 1791966600000,
-      "publishedAt": "2026-10-14T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: We think a baby’s gut microbiome could be key to lifelong brain health",
-      "url": "https://www.statnews.com/2026/10/14/gut-microbiome-baby-brain-health-research/?utm_campaign=rss",
-      "summary": "“We need more rigorous, large-scale research into the gut-brain axis across the life course,” write Holly Baines and George Vradenburg.",
-      "ts": 1791966600000,
-      "publishedAt": "2026-10-14T08:30:00.000Z",
       "categoryId": "bio"
     }
   ],
