@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-10-15T18:56:24.009Z",
+  "updated": "2026-10-15T22:01:04.965Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+      "url": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
+      "summary": "U.S. health officials are moving ahead with a plan to allow specialty pharmacies to produce certain peptides, a class of largely unregulated injections favored by health secretary Robert F. Kennedy…",
+      "ts": 1792097169000,
+      "publishedAt": "2026-10-15T20:46:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Oct. 29: Applying AI to the GEOINT Mission",
+      "url": "https://spacenews.com/applying-ai-to-the-geoint-mission-event/",
+      "summary": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI to the GEOINT Mission appeared first on SpaceNews.",
+      "ts": 1792096910000,
+      "publishedAt": "2026-10-15T20:41:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Merck and Moderna have ‘lot of exploring to do’ after initial cancer vaccine success",
+      "url": "https://www.statnews.com/2026/10/15/moderna-merck-keytruda-mrna-cancer-vaccine-strategy/?utm_campaign=rss",
+      "summary": "Stephen Hoge and Dean Li, at the STAT Summit, spoke of how Merck and Moderna will pair Keytruda with personalized mRNA vaccines to target tumors.",
+      "ts": 1792094315000,
+      "publishedAt": "2026-10-15T19:58:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
+      "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
+      "summary": "NASA is playing an important role in JAXA’s (Japan Aerospace Exploration Agency) MMX (Martian Moons eXploration) mission, to advance our understanding of Mars’ moons and build on the agency’s long history of exploring th…",
+      "ts": 1792094288000,
+      "publishedAt": "2026-10-15T19:58:08.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "ts": 1792090800000,
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "The Trump administration is doubling down on health care fraud investigations",
@@ -765,51 +810,6 @@
       "summary": "Three former FDA chiefs criticized the DOGE cuts to the agency, saying they robbed the FDA of institutional knowledge that will take years to restore.",
       "ts": 1792020200000,
       "publishedAt": "2026-10-14T23:23:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "As White House shifts focus toward AI and tech, U.S. science leaders defend role of the American university",
-      "url": "https://www.statnews.com/2026/10/14/american-science-funding-university-industry-shift-stat-summit-boston-2026/?utm_campaign=rss",
-      "summary": "White House planned shift of research funding from universities to industry risks creating a drought in basic research, science leaders say",
-      "ts": 1792016013000,
-      "publishedAt": "2026-10-14T22:13:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump administration delays new rule that could restrict imported medicines from Canada and overseas",
-      "url": "https://www.statnews.com/pharmalot/2026/10/14/trump-administration-delays-new-rule-that-could-restrict-imported-meds-from-canad-and-overseas/?utm_campaign=rss",
-      "summary": "The Trump administration is delaying by 90 days a federal rule that could prevent Americans from obtaining prescription drugs from licensed international pharmacies.",
-      "ts": 1792009019000,
-      "publishedAt": "2026-10-14T20:16:59.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Host News Conference Previewing US Spacewalks 100, 101",
-      "url": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/",
-      "summary": "NASA will preview two upcoming spacewalks to complete solar array installation and power augmentation of the International Space Station during a news conference at 2 p.m. EDT, Tuesday, Oct. 20, from NASA’s Johnson Space…",
-      "ts": 1792008809000,
-      "publishedAt": "2026-10-14T20:13:29.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronauts to Answer Questions from Florida Students",
-      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
-      "summary": "Editor’s Note: This article was updated Thursday, Oct. 15, 2026, to reflect a change to the event start time. Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded…",
-      "ts": 1792005171000,
-      "publishedAt": "2026-10-14T19:12:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "How consumer tech company Whoop is building for Medicare patients",
-      "url": "https://www.statnews.com/2026/10/14/whoop-ami-bhatt-population-health-stat-summit-boston-2026/?utm_campaign=rss",
-      "summary": "Whoop's chief medical officer, said the company's work with Medicare is an opportunity to prove its ability to improve health at the population level.",
-      "ts": 1792001768000,
-      "publishedAt": "2026-10-14T18:16:08.000Z",
       "categoryId": "bio"
     }
   ],
