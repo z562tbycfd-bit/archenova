@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-16T20:38:57.260Z",
+  "updated": "2026-10-16T23:18:19.821Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "ADC Developmentfrom Concept to Clinic",
+      "url": "https://www.genengnews.com/resources/ebooks/adc-developmentfrom-concept-to-clinic/",
+      "summary": "This eBook brings insight on integrated end-to-end solutions for precision engineered therapeutics. The post ADC Developmentfrom Concept to Clinic appeared first on GEN - Genetic Engineering and Biotechnology News.",
+      "ts": 1792183002000,
+      "publishedAt": "2026-10-16T20:36:42.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
@@ -270,15 +279,6 @@
       "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
       "ts": 1792123500000,
       "publishedAt": "2026-10-16T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Isaias Dims the Gulf Coast",
-      "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
-      "summary": "High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back.",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -570,6 +570,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Isaias Dims the Gulf Coast",
+      "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
+      "summary": "High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back.",
+      "ts": 1792123200000,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "IAEA News",
       "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-371-iaea-director-general-statement-on-situation-in-ukraine",
@@ -801,15 +810,6 @@
       "summary": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface. Additional engineering data analysis of the Orion spacec…",
       "ts": 1792076241000,
       "publishedAt": "2026-10-15T14:57:21.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Chandra Finds Possible Origin of ‘Treble Clef’ Waves",
-      "url": "https://www.nasa.gov/image-article/chandra-finds-possible-origin-of-treble-clef-waves/",
-      "summary": "A formation of radio waves looks remarkably like a treble clef in this Oct. 14, 2026, image from NASA’s Chandra X-Ray Observatory. Researchers used Chandra to find that the Treble Clef is likely caused by an outburst fro…",
-      "ts": 1792073946000,
-      "publishedAt": "2026-10-15T14:19:06.000Z",
       "categoryId": "space"
     }
   ],

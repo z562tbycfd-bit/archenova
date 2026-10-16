@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-10-16T20:38:54.246Z",
+  "updated": "2026-10-16T23:18:17.509Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Plants shift gene activity within minutes of entering spaceflight, experiment reveals",
+      "url": "https://phys.org/news/2026-10-shift-gene-minutes-spaceflight-reveals.html",
+      "summary": "Plants begin responding to spaceflight almost immediately after leaving Earth, according to a new University of Florida study that captured the earliest stages of biological adaptation during a commercial suborbital miss…",
+      "ts": 1792191601000,
+      "publishedAt": "2026-10-16T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New 3D model reveals how shadows reshape chemistry in stellar nurseries",
+      "url": "https://phys.org/news/2026-10-3d-reveals-shadows-reshape-chemistry.html",
+      "summary": "How do young stars reshape the clouds from which they are born? A new high-resolution 3D model developed by an international team led by Dr Brandt Gaches from the University of Duisburg-Essen shows how the uneven structu…",
+      "ts": 1792190404000,
+      "publishedAt": "2026-10-16T22:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover cell division does more than make new cells: It helps reshape tissues",
+      "url": "https://phys.org/news/2026-10-scientists-cell-division-cells-reshape.html",
+      "summary": "Every time a tissue grows or renews itself, cells must divide inside an already crowded environment. That creates a fundamental problem that scientists have not fully understood: How does a tightly packed sheet of cells …",
+      "ts": 1792189201000,
+      "publishedAt": "2026-10-16T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sexual violence concepts launched online are spilling into the real world",
+      "url": "https://phys.org/news/2026-10-sexual-violence-concepts-online-real.html",
+      "summary": "Andrew Tate, a self-described misogynist and an online influencer with millions of followers, faces charges in several countries of allegedly causing physical harm, including rape and sex trafficking of women and girls.",
+      "ts": 1792188005000,
+      "publishedAt": "2026-10-16T22:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New high-frequency method boosts 2D material readout for next-gen quantum computers",
+      "url": "https://phys.org/news/2026-10-high-frequency-method-boosts-2d.html",
+      "summary": "Quantum computers represent a next step in the fast-paced evolution of technology. Using quantum bits (qubits), they have the potential to run certain calculations exponentially faster than conventional computers. Howeve…",
+      "ts": 1792188001000,
+      "publishedAt": "2026-10-16T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sunlight gives biodiesel byproduct a second life as hydrogen and valuable chemicals",
+      "url": "https://phys.org/news/2026-10-sunlight-biodiesel-byproduct-life-hydrogen.html",
+      "summary": "Australian researchers and international collaborators have demonstrated a solar-driven approach to convert glycerol, a low-value byproduct of biodiesel production, into hydrogen and higher-value chemicals. Using advance…",
+      "ts": 1792186801000,
+      "publishedAt": "2026-10-16T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A highway instead of a racetrack: Strong coupling of light and sound in an optical fiber",
+      "url": "https://phys.org/news/2026-10-highway-racetrack-strong-coupling-optical.html",
+      "summary": "For the first time, scientists have achieved strong coupling between light and long-lived acoustic vibrations in an optical fiber. Optical fibers are used in both classical telecommunications and quantum communication an…",
+      "ts": 1792185601000,
+      "publishedAt": "2026-10-16T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Infrared light overcomes mirror coating obstacle in gravitational wave detector upgrades",
+      "url": "https://phys.org/news/2026-10-infrared-mirror-coating-obstacle-gravitational.html",
+      "summary": "Researchers have developed and tested a new locking method for gravitational wave detectors that will advance the discovery of distant black holes and neutron stars colliding.",
+      "ts": 1792184405000,
+      "publishedAt": "2026-10-16T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First comprehensive Mars soil classification offers framework for exploration and future farming",
+      "url": "https://phys.org/news/2026-10-comprehensive-mars-soil-classification-framework.html",
+      "summary": "A Ph.D. student at the University of Sydney has produced the first comprehensive classification system and map of Martian soils, creating a new framework that could help scientists compare landscapes across the Red Plane…",
+      "ts": 1792183206000,
+      "publishedAt": "2026-10-16T20:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Judging strangers' preferences may actually be easier when they're less like our own",
+      "url": "https://phys.org/news/2026-10-strangers-easier-theyre.html",
+      "summary": "Researchers already know that humans have a tendency to use egocentric anchoring—a cognitive bias in which people use their own preferences, beliefs and perspectives as a mental starting point (or anchor) to understand o…",
+      "ts": 1792183202000,
+      "publishedAt": "2026-10-16T20:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Essential oil sprays kill cockroaches on contact but offer little lasting control",
@@ -719,86 +799,6 @@
       "title": "Analytically Benchmarked Spatial and Temporal Discretization Guidelines for Finite Element Simulation of Thermal Waves",
       "url": "https://arxiv.org/abs/2610.20938",
       "summary": "arXiv:2610.20938v1 Announce Type: new Abstract: Finite element simulation is widely used to design and interpret thermal wave-based measurement systems. The accuracy of the results obtained from such simulations depends …",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A differentiable PCA-GPR surrogate framework for full-transient Bayesian inverse uncertainty quantification of black-box nuclear thermal-hydraulic systems",
-      "url": "https://arxiv.org/abs/2610.20978",
-      "summary": "arXiv:2610.20978v1 Announce Type: new Abstract: Complex transient energy systems require uncertainty-quantified predictions, but Bayesian inverse uncertainty quantification (IUQ) is often impractical because posterior sa…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Variable Masking for Climate Emulation in ACE",
-      "url": "https://arxiv.org/abs/2610.21012",
-      "summary": "arXiv:2610.21012v1 Announce Type: new Abstract: In the recent AI Model Intercomparison Project (AIMIP) benchmark, the ACE2.1-ERA5 emulator was shown to underestimate the true near-surface warming trend both during the tr…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Localized high-Q resonances enable electrically defined beam steering in lithium niobate metasurfaces",
-      "url": "https://arxiv.org/abs/2610.21027",
-      "summary": "arXiv:2610.21027v1 Announce Type: new Abstract: High-speed beam steering for LiDAR and optical communication requires independent, reconfigurable control of optical phase. We demonstrate a metasurface combining lithium n…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Scalable Sharp-Interface Immersed Boundary Method for Moving Boundary Flow Simulation on Multi-GPU Systems",
-      "url": "https://arxiv.org/abs/2610.21032",
-      "summary": "arXiv:2610.21032v1 Announce Type: new Abstract: Sharp-interface immersed boundary methods provide a versatile framework for simulating flows with complex moving boundaries, but their irregular data structures, dynamic sp…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-Driven Optimization of Seminumerical Exchange for SIMD CPUs",
-      "url": "https://arxiv.org/abs/2610.21075",
-      "summary": "arXiv:2610.21075v1 Announce Type: new Abstract: We present a seminumerical exchange algorithm (SNK) based on the sn-LinK method [Laqua et al., J. Chem. Theory Comput. 16, 1456 (2020)], optimized for modern multi-core cen…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aluminum wide-range EOS sensitivity in Z-pinch dynamic-hohlraum liner-foam impact and outgoing radiation",
-      "url": "https://arxiv.org/abs/2610.21107",
-      "summary": "arXiv:2610.21107v1 Announce Type: new Abstract: In a Z-pinch dynamic hohlraum, an aluminum liner collides with a central foam and converts kinetic energy into radiation, and the liner-foam response depends on the aluminu…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constrained Nuclear-Electronic Orbital Time-Dependent Density Functional Theory for Excited-State Dynamics with Nuclear Quantum Effects",
-      "url": "https://arxiv.org/abs/2610.21120",
-      "summary": "arXiv:2610.21120v1 Announce Type: new Abstract: Nuclear quantum effects can strongly influence excited-state processes involving light nuclei, yet their inclusion in practical molecular dynamics remains challenging. We d…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Panoramic Network Overview of Shortcut Impact on Power Grids",
-      "url": "https://arxiv.org/abs/2610.21157",
-      "summary": "arXiv:2610.21157v1 Announce Type: new Abstract: Synchronization of coupled oscillators on complex networks underlies critical functions in natural and engineered systems, including power-grid operation. While synchroniza…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy Flow Shapes the Decomposition Dynamics of a Reactive Atmospheric Intermediate",
-      "url": "https://arxiv.org/abs/2610.21259",
-      "summary": "arXiv:2610.21259v1 Announce Type: new Abstract: The unimolecular dynamics of Criegee intermediates depend strongly on their internal energy, which can differ substantially between nascent atmospheric species and laborato…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RAT-EC: Introducing a New Open-Source 3D Volume-Integral Eddy-Current Module",
-      "url": "https://arxiv.org/abs/2610.21315",
-      "summary": "arXiv:2610.21315v1 Announce Type: new Abstract: We present RAT-EC, an open-source volume-integral eddy-current module for unstructured meshes, driven in the time domain by coils of arbitrary winding geometry. It is the f…",
       "ts": 1792123200000,
       "publishedAt": "2026-10-16T04:00:00.000Z"
     }
