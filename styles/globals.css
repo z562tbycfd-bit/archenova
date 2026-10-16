@@ -68177,6 +68177,136 @@ main#home-top.an-home-2026
 
 
 
+/* ==========================================================
+   ARCHENOVA HOME
+   HORIZON + STILLNESS
+   PURE OBSIDIAN BLACK GLASS
+
+   SAME MATERIAL AS:
+   - Concept
+   - Civilization Prelude
+   - Ideal User
+   - World Gallery
+
+   Preserve:
+   - Existing text and typography
+   - Layout and alignment
+   - Section dimensions
+   - Animations and interactions
+   - Scroll behavior
+========================================================== */
+
+
+/* ==========================================================
+   01 / SHARED OBSIDIAN MATERIAL
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-horizon.an-home-2026__section
+> .an-home-2026__glass,
+
+main#home-top.an-home-2026
+> #archenova-stillness.an-home-2026__section
+> .an-home-2026__glass {
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(10, 10, 10, 0.88) 0%,
+      rgba(5, 5, 5, 0.91) 48%,
+      rgba(0, 0, 0, 0.94) 100%
+    ) !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius:
+    30px !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline:
+    0 !important;
+}
+
+
+/* ==========================================================
+   02 / MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  main#home-top.an-home-2026
+  > #archenova-horizon.an-home-2026__section
+  > .an-home-2026__glass,
+
+  main#home-top.an-home-2026
+  > #archenova-stillness.an-home-2026__section
+  > .an-home-2026__glass {
+
+    background:
+      linear-gradient(
+        145deg,
+        rgba(10, 10, 10, 0.88) 0%,
+        rgba(5, 5, 5, 0.91) 48%,
+        rgba(0, 0, 0, 0.94) 100%
+      ) !important;
+
+    border:
+      1px solid rgba(255, 255, 255, 0.065)
+      !important;
+
+    border-radius:
+      26px !important;
+
+    -webkit-backdrop-filter:
+      none !important;
+
+    backdrop-filter:
+      none !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.040),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+      !important;
+  }
+}
+
+
+/* ==========================================================
+   03 / SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  main#home-top.an-home-2026
+  > #archenova-horizon.an-home-2026__section
+  > .an-home-2026__glass,
+
+  main#home-top.an-home-2026
+  > #archenova-stillness.an-home-2026__section
+  > .an-home-2026__glass {
+
+    border-radius:
+      22px !important;
+  }
+}
+
+/* ==========================================================
+   END / HORIZON + STILLNESS OBSIDIAN GLASS
+========================================================== */
+
+
 
 
 
