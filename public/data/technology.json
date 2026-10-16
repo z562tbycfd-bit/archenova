@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-10-16T06:49:56.387Z",
+  "updated": "2026-10-16T12:09:18.422Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "Guterres urges faster action and financing to stop biodiversity loss",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168610",
+      "summary": "The United Nations Secretary-General appealed on Friday for governments, businesses and communities to accelerate efforts to protect biodiversity for future generations and all life on Earth.",
+      "ts": 1792152000000,
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This implant can restore sight for patients with macular degeneration",
+      "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+      "summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting F…",
+      "ts": 1792141200000,
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Love is infrastructure",
+      "url": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/",
+      "summary": "I. Meet cute Barnabas and Mainspring grew up near at hand, about an hour apart with good traffic, but for a long time they weren’t close. They traded glimpses and occasional hellos and then went about their business. Bot…",
+      "ts": 1792141200000,
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Can’t bear to say goodbye to your pet? Biotech’s got you covered.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/",
+      "summary": "I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and chuckle about the time s…",
+      "ts": 1792141200000,
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Coerced sex or a jealous ex? Jury weighs dueling accounts of star scientist David Sabatini’s downfall",
+      "url": "https://www.statnews.com/2026/10/16/david-sabatini-civil-trial-highlights-permissive-sexual-norms-whitehead-metoo/?utm_campaign=rss",
+      "summary": "Was molecular biologist David Sabatini a manipulative mentor who coerced a younger colleague into sex? Or was he the victim of a spurned former lover?",
+      "ts": 1792139400000,
+      "publishedAt": "2026-10-16T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: In DOGE’s aftermath, federal health workers bristle at new performance reviews",
+      "url": "https://www.statnews.com/2026/10/16/federal-performance-reviews-health-agency-employees-wary-after-doge/?utm_campaign=rss",
+      "summary": "Changes to the annual performance review process are the latest flashpoint in tensions between federal workers across the Department of Health and Human Services and the Trump administration, federal employees…",
+      "ts": 1792139400000,
+      "publishedAt": "2026-10-16T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Is Milton Friedman to blame for America’s health care woes?",
+      "url": "https://www.statnews.com/2026/10/16/neoliberalism-health-care-milton-friedman-john-mcdonough-stuart-butler-debate/?utm_campaign=rss",
+      "summary": "Health policy experts John McDonough and Stuart Butler debate where the U.S. medical system went wrong — and how to fix it.",
+      "ts": 1792139400000,
+      "publishedAt": "2026-10-16T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I thought I knew why patients stopped taking their medicine. I was wrong",
+      "url": "https://www.statnews.com/2026/10/16/nonadherence-medication-stopped-identity-pharmacist-side-effects-prevent/?utm_campaign=rss",
+      "summary": "Patients can understand that medication is necessary and still struggle with what taking it means.",
+      "ts": 1792139400000,
+      "publishedAt": "2026-10-16T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: West Antarctica",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_West_Antarctica",
+      "summary": "Image: This image over part of West Antarctica was captured by Copernicus Sentinel-3 on 30 September 2026.",
+      "ts": 1792137600000,
+      "publishedAt": "2026-10-16T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Kids are outsmarting social media bans. That’s not a problem we need to solve.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
+      "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by the country’s top court …",
+      "ts": 1792137392000,
+      "publishedAt": "2026-10-16T07:56:32.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 16 – Chasing the International Space Station",
@@ -721,96 +811,6 @@
       "ts": 1792054800000,
       "publishedAt": "2026-10-15T09:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
-      "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
-      "summary": "Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been successfully rewarmed and shown to work again for the first time, say scientists. They hope to replicate the findings with human organs…",
-      "ts": 1792053804000,
-      "publishedAt": "2026-10-15T08:43:24.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Forty percent of high school students report binge eating in new CDC survey",
-      "url": "https://www.statnews.com/2026/10/15/teenage-binge-eating-cdc-survey-finds-alarming-rate/?utm_campaign=rss",
-      "summary": "About 40% of high school students reported binge-eating in the past month in a new CDC survey, highlighting how widespread this form of disordered eating is among young people.",
-      "ts": 1792053000000,
-      "publishedAt": "2026-10-15T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: MyChart said I could opt out of sharing my health data. Figuring out how was maddening",
-      "url": "https://www.statnews.com/2026/10/15/health-data-privacy-medical-record-opt-out-barriers-investigated/?utm_campaign=rss",
-      "summary": "Want to opt out of sharing your personal health data? You may need a notary, writes Alex Rosenblat.",
-      "ts": 1792053000000,
-      "publishedAt": "2026-10-15T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: My daughter’s death changed how I understood the nursing shortage",
-      "url": "https://www.statnews.com/2026/10/15/nursing-shortage-workforce-direct-support-home-care-workers-group-home/?utm_campaign=rss",
-      "summary": "Health systems invest in training, but lose early-career nurses within a few years.",
-      "ts": 1792053000000,
-      "publishedAt": "2026-10-15T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-      "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-      "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfold…",
-      "ts": 1792040412000,
-      "publishedAt": "2026-10-15T05:00:12.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 15 – The Milky Way over Manhattan",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
-      "summary": "APOD Science APOD APOD: 2026 October 15 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1792037100000,
-      "publishedAt": "2026-10-15T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Fires Arrive in the Amazon Rainforest",
-      "url": "https://science.nasa.gov/earth/earth-observatory/fires-arrive-in-the-amazon-rainforest/",
-      "summary": "During El Niño, a cascade of fires across the tropics begins in equatorial Asia and continues in the central and eastern Amazon.",
-      "ts": 1792036860000,
-      "publishedAt": "2026-10-15T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Physiology-Informed Sparse Identification of Dynamic Crop Models",
-      "url": "https://arxiv.org/abs/2610.18920",
-      "summary": "arXiv:2610.18920v1 Announce Type: new Abstract: Developing resilient crops requires models that accurately capture how plant growth dynamics emerge from the continuous interplay between genetic and environmental factors.…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling the Microenvironmental Dynamics of Adenoid Cystic Carcinoma in Lacrimal Gland with Treatment Intervention",
-      "url": "https://arxiv.org/abs/2610.18936",
-      "summary": "arXiv:2610.18936v1 Announce Type: new Abstract: Adenoid cystic carcinoma (ACC) of the lacrimal gland is a rare and extremely life threatening malignant tumor with a high risk of recurrence and poor long-term outcomes. On…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Deep learning-based virtual perturbation reveals increasing heterogeneity of gene regulatory responses with aging",
-      "url": "https://arxiv.org/abs/2610.19029",
-      "summary": "arXiv:2610.19029v1 Announce Type: new Abstract: A central hypothesis in aging biology proposes that the gradual accumulation of stochastic molecular damage drives transcriptional deregulation (TD), ultimately leading to …",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

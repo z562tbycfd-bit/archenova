@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-10-16T06:49:53.461Z",
+  "updated": "2026-10-16T12:09:15.462Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why exposure to firearm suicide may not mean safer gun storage",
+      "url": "https://phys.org/news/2026-10-exposure-firearm-suicide-safer-gun.html",
+      "summary": "Knowing someone who died by firearm suicide is associated with greater recognition of suicide risk, but may not lead to safer storage practices, according to a Rutgers study published in Psychiatry Research.",
+      "ts": 1792152005000,
+      "publishedAt": "2026-10-16T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Solving the gallium anomaly: New calculation may explain neutrino shortfall without invoking new particles",
+      "url": "https://phys.org/news/2026-10-gallium-anomaly-neutrino-shortfall-invoking.html",
+      "summary": "Glimpses of the \"gallium anomaly\" were first seen in the mid-1990s, but it was first clearly discovered and stated in 2007 by neutrino physicist Carlo Giunti of Italy. The problem is simple to state but potentially very …",
+      "ts": 1792152001000,
+      "publishedAt": "2026-10-16T12:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Crossword: Time lines",
+      "url": "https://www.sciencenews.org/article/crossword-puzzle-november-2026",
+      "summary": "Solve the crossword from our November 2026 issue, in which we cultivate an understanding of growth curves.",
+      "ts": 1792152000000,
+      "publishedAt": "2026-10-16T12:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Whales take different routes but still reach dinner on time",
+      "url": "https://phys.org/news/2026-10-whales-routes-dinner.html",
+      "summary": "Some travelers take the scenic route. Others step on the gas and head straight for the destination. New research suggests southern right whales do much the same when crossing the Southern Ocean.",
+      "ts": 1792150801000,
+      "publishedAt": "2026-10-16T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Changing how you think about time could help you accomplish year-end goals: Q&A",
+      "url": "https://phys.org/news/2026-10-year-goals-qa.html",
+      "summary": "The way time is described can shape everything from our motivation to our decision-making, according to new research from behavioral scientist Dr. Deepak Sirwani, an assistant professor at the UBC Sauder School of Busine…",
+      "ts": 1792149601000,
+      "publishedAt": "2026-10-16T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Transferable chemical prediction approach may help reduce trial and error",
+      "url": "https://phys.org/news/2026-10-chemical-approach-trial-error.html",
+      "summary": "Chemical predictions can help prevent unwanted reactions or improve the efficacy of industrial processes, among other applications, but predicting how chemicals interact can be costly and time-consuming—especially becaus…",
+      "ts": 1792148408000,
+      "publishedAt": "2026-10-16T11:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Resistance to change has 12 different drivers, new measurement tool reveals",
+      "url": "https://phys.org/news/2026-10-resistance-drivers-tool-reveals.html",
+      "summary": "Almost all change is difficult: adapting your lifestyle, a reorganization at work, or starting to use gender-neutral language. When behavioral change is required, resistance is therefore often encountered. As a result, i…",
+      "ts": 1792146297000,
+      "publishedAt": "2026-10-16T10:24:57.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Winter sea ice loss may be underestimated, ancient clues from a warmer Arctic suggest",
+      "url": "https://phys.org/news/2026-10-winter-sea-ice-loss-underestimated.html",
+      "summary": "Future Arctic winter sea ice is likely to shrink by around 1 million square kilometers (386,000 square miles) more than previously thought, after researchers used clues from a warm period 6,000 years ago to improve the r…",
+      "ts": 1792141204000,
+      "publishedAt": "2026-10-16T09:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Performance under pressure: A new perspective on why we fail—or rise to the occasion",
@@ -735,70 +799,6 @@
       "title": "Beyond the Beacon: State and Corporate Competition after an Information-Rich Technosignature Detection",
       "url": "https://arxiv.org/abs/2610.21645",
       "summary": "arXiv:2610.21645v1 Announce Type: cross Abstract: The 2026 update to the Declaration of Principles Concerning the Conduct of the Search for Extraterrestrial Intelligence provides a framework for post-detection practice. …",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A general feedback mechanism unifying stochasticity, long transients, and resilience",
-      "url": "https://arxiv.org/abs/2610.21834",
-      "summary": "arXiv:2610.21834v1 Announce Type: cross Abstract: Stochasticity in complex systems is commonly treated either as external noise added to deterministic dynamics or as an effective stochastic description of deterministic c…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large in-plane optical anisotropy in epitaxial CrN(113) films",
-      "url": "https://arxiv.org/abs/2610.21856",
-      "summary": "arXiv:2610.21856v1 Announce Type: cross Abstract: CrN, a transition-metal nitride crystallizing in the cubic rocksalt structure, exhibits a unique combination of mechanical robustness, semiconducting behavior, and thermo…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffusion-Induced Stabilization of Nonreciprocal Wealth Dynamics",
-      "url": "https://arxiv.org/abs/2610.21861",
-      "summary": "arXiv:2610.21861v1 Announce Type: cross Abstract: We study the stability of equal wealth shares in a spatial model combining local sharing, global redistribution, and random nonreciprocal interactions. On a two-dimension…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lossy Lorentz boosts at ultra-relativistic energies: Numerical study and source survey of high-energy physics software",
-      "url": "https://arxiv.org/abs/2610.21897",
-      "summary": "arXiv:2610.21897v1 Announce Type: cross Abstract: Most high-energy-physics software packages implement Lorentz boosts for themselves. At sufficiently large boosts, these routines can return finite, plausible-looking four…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VoroTypes: automated enumeration of Voronoi cell topologies for structural identification of complex crystals in atomistic simulations",
-      "url": "https://arxiv.org/abs/2610.21911",
-      "summary": "arXiv:2610.21911v1 Announce Type: cross Abstract: VoroTypes enumerates, for an arbitrary crystal structure, the complete family of Voronoi cell topologies that can arise under small generic perturbations of atomic positi…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins",
-      "url": "https://arxiv.org/abs/2610.21939",
-      "summary": "arXiv:2610.21939v1 Announce Type: cross Abstract: Growing interest in in-space servicing, manufacturing, and assembly has renewed attention on reliable metal joining for modular construction and on-orbit repair. Robotic …",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ordinal-pattern transition networks as a symbolic substrate for reservoir computing",
-      "url": "https://arxiv.org/abs/2610.21973",
-      "summary": "arXiv:2610.21973v1 Announce Type: cross Abstract: Reservoir computing has established itself as a computationally efficient alternative to fully trained recurrent neural networks using a fixed high-dimensional nonlinear …",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PANDA-D: Interface-free determination of two dynamic contact angles",
-      "url": "https://arxiv.org/abs/2610.21996",
-      "summary": "arXiv:2610.21996v1 Announce Type: cross Abstract: Contact angles are central descriptors of wetting and capillary behavior at solid--fluid interfaces. Dynamic contact angles in molecular simulations are commonly extracte…",
       "ts": 1792123200000,
       "publishedAt": "2026-10-16T04:00:00.000Z"
     }
