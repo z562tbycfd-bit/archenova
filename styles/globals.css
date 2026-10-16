@@ -67894,13 +67894,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !imp
   > #archenova-concept.an-concept-portal
   > .an-concept-portal__surface {
 
-    /*
-   * Apple-like smoked optical glass.
-   *
-   * Deliberately lighter than the previous implementation.
-   * The cosmic background remains visible through the card.
-   */
-  background:
+     background:
     radial-gradient(
       circle at 50% 0%,
       rgba(255, 255, 255, 0.025) 0%,
@@ -67915,29 +67909,15 @@ main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !imp
     )
     !important;
 
-  border:
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+
+     border:
     1px solid
     rgba(255, 255, 255, 0.065)
     !important;
 
-  border-radius:
-    30px !important;
-
-  -webkit-backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
-
-  backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
-
-  /*
-   * Optical edge only.
-   * Absolutely no external drop shadow.
-   */
-  box-shadow:
+    box-shadow:
     inset
     0
     1px
@@ -67950,9 +67930,7 @@ main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !imp
     0
     rgba(255, 255, 255, 0.010)
     !important;
-
-  outline: 0 !important;
-}
+  }
 }
 
 
