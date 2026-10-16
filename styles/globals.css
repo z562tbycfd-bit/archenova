@@ -67937,49 +67937,75 @@ main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !imp
 
 
 
-
 /* ==========================================================
    ARCHENOVA HOME
-   FOUR SURFACES — PURE OBSIDIAN BLACK GLASS
+   UNIVERSAL OBSIDIAN SOFT MATTE GLASS
    ==========================================================
 
-   DESIGN PHILOSOPHY
-
+   DESIGN:
    ArcheNova Black Aesthetic
-   Apple-inspired Minimal Optical Glass
-
-   REFERENCE:
-   Existing World Gallery dark glass density
 
    TARGETS:
-   01. Concept
-   02. Civilization Prelude
-   03. Ideal User
-   04. World Gallery
+   01 / Concept
+   02 / Civilization Prelude
+   03 / Ideal User
+   04 / World Gallery
+   05 / Horizon
+   06 / Stillness
 
    OBJECTIVES:
-   - Unified deep-black glass
-   - No navy tint
-   - No blue-gray tint
-   - Neutral RGB black only
-   - Subtle optical borders
-   - No external shadows
-   - Preserve all existing content
-   - Preserve dimensions and positioning
-   - Preserve horizontal / vertical scrolling
-   - Preserve animations and interactions
+   - One material across all devices
+   - Deep neutral black
+   - Subtle cosmic background visibility
+   - Soft matte appearance
+   - No navy or blue-gray pigment
+   - Delicate optical border
+   - No external shadow
+   - Preserve existing content
+   - Preserve section geometry
+   - Preserve scroll and interactions
 
    INSTALLATION:
-   Replace the previous FOUR SURFACES unified
-   glass CSS block with this entire block.
-
-   Do not remove other component CSS.
+   Replace the previous FOUR SURFACES block.
+   Place at the end of globals.css.
 
 ========================================================== */
 
 
 /* ==========================================================
-   01. SHARED OBSIDIAN GLASS MATERIAL
+   01 / UNIVERSAL MATERIAL TOKENS
+
+   Defined once.
+   Shared by desktop, tablet and mobile.
+========================================================== */
+
+main#home-top.an-home-2026 {
+
+  --an-obsidian-glass:
+    linear-gradient(
+      145deg,
+      rgba(8, 8, 8, 0.92) 0%,
+      rgba(4, 4, 4, 0.94) 50%,
+      rgba(0, 0, 0, 0.95) 100%
+    );
+
+  --an-obsidian-edge:
+    1px solid rgba(255, 255, 255, 0.075);
+
+  --an-obsidian-reflection:
+    inset 0 1px 0 rgba(255, 255, 255, 0.035),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.008);
+
+  --an-obsidian-radius:
+    30px;
+}
+
+
+/* ==========================================================
+   02 / ALL SIX GLASS SURFACES
+
+   Apply material to existing elements only.
+   No new layers or pseudo-elements.
 ========================================================== */
 
 main#home-top.an-home-2026
@@ -67995,37 +68021,44 @@ main#home-top.an-home-2026
 .an-ideal-user__glass,
 
 main#home-top.an-home-2026
-> #archenova-world.an-world-gallery {
+> #archenova-world.an-world-gallery,
+
+main#home-top.an-home-2026
+> #archenova-horizon
+> .an-home-2026__glass,
+
+main#home-top.an-home-2026
+> #archenova-stillness
+> .an-home-2026__glass {
 
   /*
-   * Pure neutral black.
-   *
-   * R = G = B at every gradient stop.
-   * No blue or navy undertones.
-   *
-   * Dense enough for stable text contrast,
-   * with subtle remaining transparency.
+   * Neutral black with restrained transparency.
+   * No navy or blue-gray RGB values.
    */
 
   background:
-    linear-gradient(
-      145deg,
-      rgba(10, 10, 10, 0.88) 0%,
-      rgba(5, 5, 5, 0.91) 48%,
-      rgba(0, 0, 0, 0.94) 100%
-    ) !important;
-
-  /*
-   * Minimal optical edge.
-   */
-
-  border:
-    1px solid rgba(255, 255, 255, 0.065)
+    var(--an-obsidian-glass)
     !important;
 
   /*
-   * Avoid backdrop recompositing and
-   * visual flickering over animated scenery.
+   * Minimal optical frame.
+   */
+
+  border:
+    var(--an-obsidian-edge)
+    !important;
+
+  /*
+   * Subtle inner reflections.
+   */
+
+  box-shadow:
+    var(--an-obsidian-reflection)
+    !important;
+
+  /*
+   * No additional background blur.
+   * Avoid expensive backdrop recompositing.
    */
 
   -webkit-backdrop-filter:
@@ -68034,141 +68067,75 @@ main#home-top.an-home-2026
   backdrop-filter:
     none !important;
 
-  /*
-   * Inner reflections only.
-   * No external floating shadow.
-   */
-
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.040),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
-    !important;
+  background-blend-mode:
+    normal !important;
 
   outline:
     0 !important;
+
+  /*
+   * Uniform corner geometry.
+   */
+
+  border-radius:
+    var(--an-obsidian-radius)
+    !important;
 }
 
 
 /* ==========================================================
-   02. DESKTOP
-   UNIFIED CORNER GEOMETRY
-========================================================== */
+   03 / RESPONSIVE GEOMETRY
 
-@media (min-width: 769px) {
+   Same material on every device.
+   Only corner radius changes.
 
-  main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal
-  > .an-concept-portal__surface,
-
-  main#home-top.an-home-2026
-  > #archenova-civilization-prelude
-  .an-civilization-purpose__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-ideal-user
-  .an-ideal-user__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-world.an-world-gallery {
-
-    border-radius:
-      30px !important;
-  }
-
-}
-
-
-/* ==========================================================
-   03. MOBILE
-   SAME OBSIDIAN MATERIAL
+   No background overrides in media queries.
 ========================================================== */
 
 @media (max-width: 768px) {
 
-  main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal
-  > .an-concept-portal__surface,
+  main#home-top.an-home-2026 {
 
-  main#home-top.an-home-2026
-  > #archenova-civilization-prelude
-  .an-civilization-purpose__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-ideal-user
-  .an-ideal-user__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-world.an-world-gallery {
-
-    /*
-     * Identical neutral black material.
-     * No mobile-specific blue tint.
-     */
-
-    background:
-      linear-gradient(
-        145deg,
-        rgba(10, 10, 10, 0.88) 0%,
-        rgba(5, 5, 5, 0.91) 48%,
-        rgba(0, 0, 0, 0.94) 100%
-      ) !important;
-
-    border:
-      1px solid rgba(255, 255, 255, 0.065)
-      !important;
-
-    border-radius:
-      26px !important;
-
-    -webkit-backdrop-filter:
-      none !important;
-
-    backdrop-filter:
-      none !important;
-
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.040),
-      inset 0 -1px 0 rgba(255, 255, 255, 0.010)
-      !important;
-
-    outline:
-      0 !important;
+    --an-obsidian-radius:
+      26px;
   }
+}
 
+
+@media (max-width: 430px) {
+
+  main#home-top.an-home-2026 {
+
+    --an-obsidian-radius:
+      22px;
+  }
 }
 
 
 /* ==========================================================
-   04. SMALL MOBILE
+   04 / WORLD GALLERY PROTECTION
+
+   No changes to:
+   - display
+   - position
+   - width
+   - height
+   - padding
+   - margin
+   - overflow
+   - transforms
+   - scrolling
+   - images
+   - exhibition interactions
+
+   Only the existing outer surface receives
+   the shared optical material.
 ========================================================== */
-
-@media (max-width: 430px) {
-
-  main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal
-  > .an-concept-portal__surface,
-
-  main#home-top.an-home-2026
-  > #archenova-civilization-prelude
-  .an-civilization-purpose__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-ideal-user
-  .an-ideal-user__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-world.an-world-gallery {
-
-    border-radius:
-      22px !important;
-  }
-
-}
 
 
 /* ==========================================================
    END
-   ARCHENOVA PURE OBSIDIAN GLASS
+   ARCHENOVA UNIVERSAL OBSIDIAN GLASS
 ========================================================== */
 
 
@@ -68177,134 +68144,7 @@ main#home-top.an-home-2026
 
 
 
-/* ==========================================================
-   ARCHENOVA HOME
-   HORIZON + STILLNESS
-   PURE OBSIDIAN BLACK GLASS
 
-   SAME MATERIAL AS:
-   - Concept
-   - Civilization Prelude
-   - Ideal User
-   - World Gallery
-
-   Preserve:
-   - Existing text and typography
-   - Layout and alignment
-   - Section dimensions
-   - Animations and interactions
-   - Scroll behavior
-========================================================== */
-
-
-/* ==========================================================
-   01 / SHARED OBSIDIAN MATERIAL
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-horizon.an-home-2026__section
-> .an-home-2026__glass,
-
-main#home-top.an-home-2026
-> #archenova-stillness.an-home-2026__section
-> .an-home-2026__glass {
-
-  background:
-    linear-gradient(
-      145deg,
-      rgba(10, 10, 10, 0.88) 0%,
-      rgba(5, 5, 5, 0.91) 48%,
-      rgba(0, 0, 0, 0.94) 100%
-    ) !important;
-
-  border:
-    1px solid rgba(255, 255, 255, 0.065)
-    !important;
-
-  border-radius:
-    30px !important;
-
-  -webkit-backdrop-filter:
-    none !important;
-
-  backdrop-filter:
-    none !important;
-
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.040),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
-    !important;
-
-  outline:
-    0 !important;
-}
-
-
-/* ==========================================================
-   02 / MOBILE
-========================================================== */
-
-@media (max-width: 768px) {
-
-  main#home-top.an-home-2026
-  > #archenova-horizon.an-home-2026__section
-  > .an-home-2026__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-stillness.an-home-2026__section
-  > .an-home-2026__glass {
-
-    background:
-      linear-gradient(
-        145deg,
-        rgba(10, 10, 10, 0.88) 0%,
-        rgba(5, 5, 5, 0.91) 48%,
-        rgba(0, 0, 0, 0.94) 100%
-      ) !important;
-
-    border:
-      1px solid rgba(255, 255, 255, 0.065)
-      !important;
-
-    border-radius:
-      26px !important;
-
-    -webkit-backdrop-filter:
-      none !important;
-
-    backdrop-filter:
-      none !important;
-
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.040),
-      inset 0 -1px 0 rgba(255, 255, 255, 0.010)
-      !important;
-  }
-}
-
-
-/* ==========================================================
-   03 / SMALL MOBILE
-========================================================== */
-
-@media (max-width: 430px) {
-
-  main#home-top.an-home-2026
-  > #archenova-horizon.an-home-2026__section
-  > .an-home-2026__glass,
-
-  main#home-top.an-home-2026
-  > #archenova-stillness.an-home-2026__section
-  > .an-home-2026__glass {
-
-    border-radius:
-      22px !important;
-  }
-}
-
-/* ==========================================================
-   END / HORIZON + STILLNESS OBSIDIAN GLASS
-========================================================== */
 
 
 
