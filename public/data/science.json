@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-10-15T22:01:02.022Z",
+  "updated": "2026-10-16T01:02:39.619Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Can extra weight weigh on your dog's brain?",
+      "url": "https://phys.org/news/2026-10-extra-weight-dog-brain.html",
+      "summary": "Scientists have learned a lot about what happens to the human body as we age. But there's still much to learn about how other species age, including dogs. Even carrying extra weight could affect a dog's cognitive health.…",
+      "ts": 1792112401000,
+      "publishedAt": "2026-10-16T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "In animated films, nonhuman characters are still overwhelmingly male",
+      "url": "https://phys.org/news/2026-10-animated-nonhuman-characters-overwhelmingly-male.html",
+      "summary": "Female protagonists in animated films have come a long way over the past several decades. Take the 1959 movie \"Sleeping Beauty\": Soft-spoken and vulnerable, Princess Aurora is cursed as an infant by the evil fairy Malefi…",
+      "ts": 1792108801000,
+      "publishedAt": "2026-10-16T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Precision RNAi for fibrodysplasia ossificans progressiva in mice using a combinatorial unimolecular allele selective approach",
+      "url": "https://www.nature.com/articles/s41467-026-78738-9",
+      "summary": "",
+      "ts": 1792108800000,
+      "publishedAt": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly discovered viruses reveal an evolutionary missing link",
+      "url": "https://phys.org/news/2026-10-newly-viruses-reveal-evolutionary-link.html",
+      "summary": "Researchers at the University of Miami have identified a group of previously unknown viruses that bridge an evolutionary gap between viruses and cellular protein compartments, a discovery with implications for both biote…",
+      "ts": 1792107610000,
+      "publishedAt": "2026-10-15T23:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rigorous analysis confirms NASA's Artemis II heat shield performance",
+      "url": "https://phys.org/news/2026-10-rigorous-analysis-nasa-artemis-ii.html",
+      "summary": "NASA's Artemis II mission sent four astronauts around the moon and brought them safely back to Earth, laying a foundation for crewed flights to the moon's surface.",
+      "ts": 1792107601000,
+      "publishedAt": "2026-10-15T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "White Sands footprints suggest humans experienced abrupt environmental shifts during the last ice age",
+      "url": "https://phys.org/news/2026-10-white-sands-footprints-humans-experienced.html",
+      "summary": "Expanded excavations at White Sands National Park in New Mexico have provided researchers an opportunity to refine the age of the oldest human footprints in North America and establish a deeper understanding of the lands…",
+      "ts": 1792106408000,
+      "publishedAt": "2026-10-15T23:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Imperial woodpecker returns to life as a detailed digital specimen",
+      "url": "https://phys.org/news/2026-10-imperial-woodpecker-life-digital-specimen.html",
+      "summary": "Researchers have created a detailed, animated 3D model of the imperial woodpecker (Campephilus imperialis), a spectacular bird that has not been confirmed in the wild since 1956. The model, built from a museum specimen a…",
+      "ts": 1792106404000,
+      "publishedAt": "2026-10-15T23:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Food, fear and physics help explain group behavior from plankton to whales",
+      "url": "https://phys.org/news/2026-10-food-physics-group-behavior-plankton.html",
+      "summary": "The open ocean is a dynamic environment, where food is patchy, predators are plentiful, and oceanographic conditions change constantly. Life in the pelagic environment—the offshore waters that extend from the sunlit surf…",
+      "ts": 1792105209000,
+      "publishedAt": "2026-10-15T23:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New spectroscopy method enables direct comparisons of nuclear sizes across heavy elements",
+      "url": "https://phys.org/news/2026-10-spectroscopy-method-enables-comparisons-nuclear.html",
+      "summary": "The size of a nucleus (nuclear charge radius) is an important physical quantity that reflects the arrangement of protons and neutrons within the nucleus. Particularly in deformed nuclei, such as those of rare-earth eleme…",
+      "ts": 1792105201000,
+      "publishedAt": "2026-10-15T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lunar fault maps reveal how much the moon is shrinking",
+      "url": "https://phys.org/news/2026-10-lunar-fault-reveal-moon.html",
+      "summary": "A new study of young tectonic landforms on the moon offers the most detailed estimate yet of how much the moon has contracted as its interior gradually cooled over time.",
+      "ts": 1792104008000,
+      "publishedAt": "2026-10-15T22:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nearly half of reef-building coral species face higher risk of extinction",
+      "url": "https://phys.org/news/2026-10-reef-coral-species-higher-extinction.html",
+      "summary": "A University of Portsmouth scientist has helped lead a major global study, which finds that 44% of the world's reef-building coral species are now threatened with extinction—and warns the true figure is likely to be even…",
+      "ts": 1792104001000,
+      "publishedAt": "2026-10-15T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "African American young adults favor family support when it comes to caring for older adults",
+      "url": "https://phys.org/news/2026-10-african-american-young-adults-favor.html",
+      "summary": "A study led by Nekehia Quashie, an assistant professor of public health in the University of Rhode Island's College of Health Sciences, examined how different African American age groups felt about the responsibility of …",
+      "ts": 1792102811000,
+      "publishedAt": "2026-10-15T22:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First bacterial galactose oxidase expands toolkit for greener drug and food ingredient production",
+      "url": "https://phys.org/news/2026-10-bacterial-galactose-oxidase-toolkit-greener.html",
+      "summary": "To produce pharmaceuticals, food ingredients, and flavors and fragrances, it is often necessary to oxidize alcohols. In conventional chemistry, this transformation typically relies on harsh oxidants and elevated temperat…",
+      "ts": 1792102804000,
+      "publishedAt": "2026-10-15T22:20:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Electron density check offers better starting point for chemistry's most difficult metal molecules",
@@ -695,110 +799,6 @@
       "title": "Physics-based deep learning for non-stationary adaptive multiple suppression",
       "url": "https://arxiv.org/abs/2610.19147",
       "summary": "arXiv:2610.19147v1 Announce Type: new Abstract: Surface-related multiple elimination (SRME) is an indispensable processing step in marine seismic exploration, comprising two main components: multiple prediction and adapt…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Standardized Planck-Mean Absorption Coefficients for High-Temperature Gases",
-      "url": "https://arxiv.org/abs/2610.19196",
-      "summary": "arXiv:2610.19196v1 Announce Type: new Abstract: Planck-mean absorption coefficients of pure gases are calculated from line-by-line integrations of HITEMP and ExoMol spectra up to 5000 K for use in high-enthalpy radiative…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual-Resonator Organic Microcavities for Triplet-Triplet Annihilation Upconversion",
-      "url": "https://arxiv.org/abs/2610.19209",
-      "summary": "arXiv:2610.19209v1 Announce Type: new Abstract: Solid-state triplet-triplet annihilation upconversion offers a compelling route to harvest sub-bandgap photons to increase the efficiency of photovoltaics, but low sensitiz…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collaborative Neural Networks significantly Improve Global Aerosol Retrievals From Multi-Angle Polarimeters",
-      "url": "https://arxiv.org/abs/2610.19217",
-      "summary": "arXiv:2610.19217v1 Announce Type: new Abstract: We present the RemoTAP-Hybrid algorithm for global aerosol products retrieved from Multi-Angle Polarimeters (MAP), and apply it to one-year aerosol retrievals from the SPEX…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-resolution retinal matrix imaging via computational motion and aberration correction",
-      "url": "https://arxiv.org/abs/2610.19245",
-      "summary": "arXiv:2610.19245v1 Announce Type: new Abstract: High-resolution optical imaging of the human retina is essential for diagnosing ophthalmic and neurodegenerative diseases. While adaptive optics combined with coherence gat…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topologically Protected Surface Acoustic Wave Edge States in Phononic Integrated Circuits",
-      "url": "https://arxiv.org/abs/2610.19259",
-      "summary": "arXiv:2610.19259v1 Announce Type: new Abstract: Phononic integrated circuits enable the development of compact systems to manipulate radio frequency signals through interconnected networks of acoustic waveguides. Introdu…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Gompertz-Zipf city size distribution and urban allometry",
-      "url": "https://arxiv.org/abs/2610.19338",
-      "summary": "arXiv:2610.19338v1 Announce Type: new Abstract: This dissertation discusses the distribution of city sizes using censuses of the Brazilian Institute for Geography and Statistics (IBGE) spanning 150 years, from 1872 to 20…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Combined Absorption and Emission Study of Air Species in NASA EAST",
-      "url": "https://arxiv.org/abs/2610.19346",
-      "summary": "arXiv:2610.19346v1 Announce Type: new Abstract: A suite of tunable diode laser absorption spectroscopy (TDLAS) diagnostics targeting rovibrational states of nitric oxide (NO) in the mid-infrared (MIR) and electronic stat…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physical Processes Driving Year-to-Year Surface Temperature Variability Changes in a Warming Climate",
-      "url": "https://arxiv.org/abs/2610.19389",
-      "summary": "arXiv:2610.19389v1 Announce Type: new Abstract: Under anthropogenic greenhouse forcing, climate models project a decrease in year-to-year temperature variability in the mid-to-high latitudes and an increase in the tropic…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wigner time delay in the $4d$ giant-resonance region of iodoalkanes",
-      "url": "https://arxiv.org/abs/2610.19402",
-      "summary": "arXiv:2610.19402v1 Announce Type: new Abstract: The iodine $4d$ giant resonance provides an unusually strong and predominantly iodine-centered photoionization channel in iodoalkanes. Recent attosecond measurements by Sch…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strong field confinement in air and enhanced optical Kerr nonlinearity of high-index star-shaped pore membrane metasurfaces",
-      "url": "https://arxiv.org/abs/2610.19412",
-      "summary": "arXiv:2610.19412v1 Announce Type: new Abstract: The optical Kerr effect in high-refractive-index membrane metasurfaces patterned with a square lattice of five-pointed star-shaped pores is investigated numerically using g…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A dynamic mathematical model for sub-lethal damage recovery: Integrating recovery processes into multi-target theory to visualize damage states",
-      "url": "https://arxiv.org/abs/2610.19473",
-      "summary": "arXiv:2610.19473v1 Announce Type: new Abstract: Quantifying the biological effects of radiation is essential for radiotherapy and radiation protection. While research has centered on statistical analyses of experimental …",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DiffSpecMatch: Differentiable Waveform Inverse Design with Configurable Optimization Modules for Response-Spectrum Matching of Ground Motions",
-      "url": "https://arxiv.org/abs/2610.19482",
-      "summary": "arXiv:2610.19482v1 Announce Type: new Abstract: Response-spectrum matching is an underdetermined waveform inverse problem in which spectral compatibility must be achieved without uncontrolled changes in other engineering…",
-      "ts": 1792036800000,
-      "publishedAt": "2026-10-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A nonequilibrium-capturing unified gas-kinetic scheme I: discrete orthogonal basis construction and expansion on velocity space",
-      "url": "https://arxiv.org/abs/2610.19486",
-      "summary": "arXiv:2610.19486v1 Announce Type: new Abstract: Velocity space discretization is a primary source of computational cost in deterministic methods for multiscale gas flows. A fixed velocity grid often retains redundant kin…",
       "ts": 1792036800000,
       "publishedAt": "2026-10-15T04:00:00.000Z"
     }

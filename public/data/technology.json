@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-15T22:01:04.965Z",
+  "updated": "2026-10-16T01:02:42.878Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Proteomics Reveals Ovarian Remodeling Decades After Menopause",
+      "url": "https://www.genengnews.com/topics/omics/proteomics-reveals-ovarian-remodeling-decades-after-menopause/",
+      "summary": "5,812 protein groups were quantified in postmenopausal ovaries, uncovering molecular shifts associated with inflammation, immunity, and extracellular matrix remodeling. The post Proteomics Reveals Ovarian Remodeling Deca…",
+      "ts": 1792102595000,
+      "publishedAt": "2026-10-15T22:16:35.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
@@ -283,7 +292,16 @@
     },
     {
       "source": "United Nations News",
-      "title": "World losing ground in ‘war on nature’ as progress on biodiversity targets lags",
+      "title": "Could your brain data be used against you? UN calls for limits on neurotechnology",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168609",
+      "summary": "Brain signals recorded by a gaming headset or a wellness gadget could one day be used as evidence against you in court, according to a new UN report which warns that neurotechnology is outpacing the laws meant to protect…",
+      "ts": 1792065600000,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "The world is waging a ‘war on nature’ as progress on biodiversity targets lags",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168607",
       "summary": "Fewer than half of the national targets set to protect the world’s plants, animals and ecosystems are on track, the UN warns in a new report, days before countries gather in Yerevan, Armenia, for the COP17 biodiversity c…",
       "ts": 1792065600000,
@@ -330,7 +348,7 @@
       "source": "United Nations News",
       "title": "Security Council LIVE: Deaths, demolitions spike in Gaza, West Bank",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168599",
-      "summary": "Amid a rise in lethal Israeli strikes, demolitions and violence in Gaza and the West Bank, the Security Council is holding an open debate on Thursday focusing on the current situation in the Occupied Palestinian Territor…",
+      "summary": "Amid a rise in lethal Israeli strikes, demolitions and violence in Gaza and the West Bank, the Security Council held an open debate on Thursday focusing on the current situation in the Occupied Palestinian Territory.",
       "ts": 1792065600000,
       "publishedAt": "2026-10-15T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -741,6 +759,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "ts": 1792022400000,
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Cell",
       "title": "Milking the niche: Microbial control of neonatal hematopoiesis",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01079-2?rss=yes",
@@ -783,33 +810,6 @@
       "summary": "FIRE is a long-read Fiber-seq method that resolves chromatin accessibility along individual DNA molecules on each parental chromosome, enabling a comprehensive assessment of the diploid epigenome. FIRE reveals that the H…",
       "ts": 1792022400000,
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01136-0?rss=yes",
-      "summary": "A near-telomere-to-telomere diploid assembly is paired with deep long-read sequencing of a matched melanoma, revealing that 16% of somatic variants lie in sequences absent from GRCh38. Satellite repeats absorb UV damage,…",
-      "ts": 1792022400000,
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "Spatiotemporal co-transcriptomics uncovers coordinated rhizobia-legume stress programs supporting nitrogen fixation in Medicago",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00865-2?rss=yes",
-      "summary": "Rhizobial nitrogen fixation in legume nodules requires precise spatial and temporal coordination between plant and bacterial gene expression. This study generates a host-rhizobium co-transcriptomic atlas of Medicago nodu…",
-      "ts": 1792022400000,
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Former FDA officials blast DOGE as ‘one of the biggest disasters in American history’",
-      "url": "https://www.statnews.com/2026/10/14/former-fda-commissioners-say-recruit-defend-support-agency-workforce/?utm_campaign=rss",
-      "summary": "Three former FDA chiefs criticized the DOGE cuts to the agency, saying they robbed the FDA of institutional knowledge that will take years to restore.",
-      "ts": 1792020200000,
-      "publishedAt": "2026-10-14T23:23:20.000Z",
       "categoryId": "bio"
     }
   ],
