@@ -67648,9 +67648,9 @@ main.an-home-2026 #archenova-ideal-user .an-ideal-user__glass {
 
 
 /* ==========================================================
-   ARCHENOVA HOME FOOTER — HEADER-MATCHED GLASS / NO BLUR
-   Full replacement for the footer block only.
-   Keep header, Concept, Purposes, Gallery unchanged.
+   ARCHENOVA HOME FOOTER — OPAQUE OBSIDIAN / NO BLUR
+   Full replacement of footer CSS block only.
+   Preserves layout, dimensions, content, controls, mobile spacing.
 ========================================================== */
 
 main.an-home-2026.archenova-twin-home > .an-home-footer {
@@ -67696,13 +67696,8 @@ main.an-home-2026.archenova-twin-home > .an-home-footer > .an-home-footer__inner
   margin: 0 !important;
   padding: clamp(28px, 3.2vw, 48px) clamp(16px, 3.8vw, 76px) clamp(20px, 2.6vw, 36px) !important;
   overflow: hidden;
-  /* Matches the FINAL slim-header background declarations. */
-  background: linear-gradient(
-    145deg,
-    rgba(14, 14, 15, 0.22),
-    rgba(3, 3, 4, 0.32)
-  ) !important;
-  /* Header has a single 0.04-opacity dividing line. */
+  /* Fully opaque, restrained near-black; no background image shows through. */
+  background: linear-gradient(145deg, #09090b 0%, #050506 55%, #030304 100%) !important;
   border: 0 !important;
   border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
   border-radius: 0 !important;
@@ -67855,6 +67850,11 @@ main.an-home-2026.archenova-twin-home > .an-home-footer .an-home-footer__stateme
   .an-home-footer__top-icon { transition: none; }
 }
 main.an-home-2026.archenova-twin-home > .an-home-footer { padding-bottom: 0 !important; }
+
+
+
+
+
 
 
 
