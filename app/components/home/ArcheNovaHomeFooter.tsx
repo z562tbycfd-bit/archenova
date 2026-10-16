@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-/** HOME-only closing landmark. No data-home-section attribute. */
+/** HOME-only closing landmark. Intentionally not a pager section. */
 export default function ArcheNovaHomeFooter() {
   const [copied, setCopied] = useState(false);
   const resetTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -25,7 +25,7 @@ export default function ArcheNovaHomeFooter() {
       if (resetTimer.current !== null) clearTimeout(resetTimer.current);
       resetTimer.current = setTimeout(() => setCopied(false), 1800);
     } catch {
-      // The canonical HOME link below remains available.
+      // The HOME link below remains available when clipboard access is blocked.
     }
   };
 
@@ -36,12 +36,13 @@ export default function ArcheNovaHomeFooter() {
 
         <div className="an-home-footer__content">
           <div className="an-home-footer__identity">
-            <span className="an-home-footer__overline">INDEPENDENT BY DESIGN</span>
+            <span className="an-home-footer__overline">A CIVILIZATION IN THE MAKING</span>
             <p className="an-home-footer__name">
               ArcheNova<span className="an-home-footer__period">.</span>
             </p>
             <p className="an-home-footer__statement">
-              Guiding civilization through responsible scientific and technological progress.
+              Building its own civilization through scientific discovery,
+              responsible engineering, and enduring principles.
             </p>
           </div>
 
@@ -67,8 +68,12 @@ export default function ArcheNovaHomeFooter() {
         </div>
 
         <div className="an-home-footer__bottom">
-          <span>© {new Date().getFullYear()} ArcheNova</span>
-          <span>Independent by design. Accountable to reality.</span>
+          <span className="an-home-footer__copyright">© {new Date().getFullYear()} ArcheNova</span>
+          <span className="an-home-footer__credo">
+            <span>Independent in thought.</span>
+            <span>Grounded in truth.</span>
+            <span>Building civilization.</span>
+          </span>
           <a href="/home/" aria-label="ArcheNova HOME">archenova.org</a>
         </div>
       </div>
