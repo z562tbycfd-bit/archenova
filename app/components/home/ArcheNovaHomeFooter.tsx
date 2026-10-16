@@ -70,9 +70,7 @@ export default function ArcheNovaHomeFooter() {
         <div className="an-home-footer__bottom">
           <span className="an-home-footer__copyright">© {new Date().getFullYear()} ArcheNova</span>
           <span className="an-home-footer__credo">
-            <span>Independent in thought.</span>
-            <span>Grounded in truth.</span>
-            <span>Building civilization.</span>
+            <span>ArcheNova Builds Its Own Civilization.</span>
           </span>
           <a href="/home/" aria-label="ArcheNova HOME">archenova.org</a>
         </div>
