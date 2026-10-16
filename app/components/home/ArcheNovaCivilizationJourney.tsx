@@ -221,16 +221,22 @@ function WorldVisual({
   Outward contemplation.
 ========================================================== */
 
-export function ArcheNovaHorizon() {
- return (
-   <ArcheNovaQuietSpace
-     id="archenova-horizon"
-     variant="horizon"
-     accessibleName="The Horizon"
-     sentence="A quiet view of the world we seek to understand."
-   />
- );
+export function ArcheNovaHorizon({
+  embedded = false,
+}: {
+  embedded?: boolean;
+}) {
+  return (
+    <ArcheNovaQuietSpace
+      id="archenova-horizon"
+      variant="horizon"
+      accessibleName="The Horizon"
+      sentence="A quiet view of the world we seek to understand."
+      embedded={embedded}
+    />
+  );
 }
+
 
 
 /* ==========================================================
@@ -444,13 +450,18 @@ export function ArcheNovaWorld() {
   Inward contemplation.
 ========================================================== */
 
-export function ArcheNovaStillness() {
- return (
-   <ArcheNovaQuietSpace
-     id="archenova-stillness"
-     variant="stillness"
-     accessibleName="The Stillness"
-     sentence="Beyond every discovery lies a question worth contemplating."
-   />
- );
+export function ArcheNovaStillness({
+  embedded = false,
+}: {
+  embedded?: boolean;
+}) {
+  return (
+    <ArcheNovaQuietSpace
+      id="archenova-stillness"
+      variant="stillness"
+      accessibleName="The Stillness"
+      sentence="Beyond every discovery lies a question worth contemplating."
+      embedded={embedded}
+    />
+  );
 }

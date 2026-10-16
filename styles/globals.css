@@ -68157,3 +68157,473 @@ main#home-top.an-home-2026
 
 
 
+/* ==========================================================
+   ARCHENOVA HOME
+   CIVILIZATION PERSPECTIVES
+   CONCEPT-MATCHED OBSIDIAN FRAME
+
+   Horizon / Digital Twin / Stillness
+   One frame, three horizontal views.
+
+   APPEND TO END OF globals.css
+========================================================== */
+
+/* SECTION GEOMETRY */
+
+main#home-top.an-home-2026
+> #archenova-civilization-perspectives {
+  position: relative !important;
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-width: 0 !important;
+
+  height: 100svh !important;
+  min-height: 100svh !important;
+  max-height: 100svh !important;
+
+  margin: 0 !important;
+  padding: clamp(12px, 2vw, 24px) !important;
+
+  overflow: hidden !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+
+  scroll-snap-align: start;
+}
+
+/* ONE OUTER GLASS */
+
+main#home-top.an-home-2026
+> #archenova-civilization-perspectives
+> .an-civilization-perspectives__surface {
+  position: relative;
+  isolation: isolate;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1800px;
+  min-width: 0;
+
+  height: 100%;
+  min-height: 0;
+
+  margin: 0 auto;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(10,10,10,0.88) 0%,
+      rgba(5,5,5,0.91) 48%,
+      rgba(0,0,0,0.94) 100%
+    ) !important;
+
+  border:
+    1px solid rgba(255,255,255,0.065)
+    !important;
+
+  border-radius: 30px !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.040),
+    inset 0 -1px 0 rgba(255,255,255,0.010)
+    !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* HORIZONTAL TRACK */
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__track {
+  position: relative;
+
+  display: flex;
+  flex: 1 1 auto;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__track::-webkit-scrollbar {
+  display: none;
+}
+
+/* SLIDES */
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__slide {
+  position: relative;
+
+  flex: 0 0 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  overflow: hidden;
+
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* EMBEDDED QUIET SPACES */
+
+main#home-top.an-home-2026
+#archenova-civilization-perspectives
+.an-quiet-space--embedded {
+  position: relative !important;
+  inset: auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  box-sizing: border-box !important;
+
+  width: 100% !important;
+  min-width: 0 !important;
+
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: clamp(24px, 5vw, 80px) !important;
+
+  overflow: hidden !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  transform: none !important;
+  filter: none !important;
+  contain: none !important;
+
+  scroll-snap-align: none !important;
+}
+
+/* CENTERED TEXT */
+
+main#home-top.an-home-2026
+#archenova-civilization-perspectives
+.an-quiet-space--embedded
+.an-quiet-space__center {
+  position: relative !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  box-sizing: border-box !important;
+
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 0 !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  transform: none !important;
+}
+
+main#home-top.an-home-2026
+#archenova-civilization-perspectives
+.an-quiet-space--embedded
+.an-quiet-space__sentence {
+  max-width: min(720px, 100%);
+  margin-inline: auto !important;
+  text-align: center !important;
+  text-wrap: balance;
+}
+
+/* DIGITAL TWIN */
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__twin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+
+  padding: clamp(24px, 5vw, 80px);
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  max-width: 1200px;
+  max-height: 100%;
+
+  object-fit: contain;
+  object-position: center;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* NAVIGATION */
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__navigation {
+  position: relative;
+  z-index: 3;
+
+  flex: 0 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  gap: clamp(8px, 2vw, 24px);
+  padding:
+    12px clamp(12px, 3vw, 40px)
+    20px;
+
+  background: transparent;
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: clamp(8px, 2vw, 24px);
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 10px 8px;
+
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid transparent;
+
+  color: rgba(255,255,255,0.44);
+
+  font: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.10em;
+
+  cursor: pointer;
+
+  transition:
+    color 300ms ease,
+    border-color 300ms ease;
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__tab.is-active {
+  color: rgba(255,255,255,0.94);
+  border-bottom-color:
+    rgba(255,255,255,0.52);
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__tab-number {
+  opacity: 0.55;
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+
+  border:
+    1px solid rgba(255,255,255,0.09);
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,0.025);
+  color: rgba(255,255,255,0.80);
+
+  font-size: 19px;
+  cursor: pointer;
+
+  transition:
+    background 250ms ease,
+    opacity 250ms ease;
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__arrow:disabled {
+  opacity: 0.20;
+  cursor: default;
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__arrow:not(:disabled):hover {
+  background: rgba(255,255,255,0.075);
+}
+
+main#home-top.an-home-2026
+.an-civilization-perspectives__tab:focus-visible,
+main#home-top.an-home-2026
+.an-civilization-perspectives__arrow:focus-visible,
+main#home-top.an-home-2026
+.an-civilization-perspectives__track:focus-visible {
+  outline: 2px solid rgba(255,255,255,0.75);
+  outline-offset: 2px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  main#home-top.an-home-2026
+  > #archenova-civilization-perspectives {
+    padding:
+      max(8px, env(safe-area-inset-top))
+      max(8px, env(safe-area-inset-right))
+      max(8px, env(safe-area-inset-bottom))
+      max(8px, env(safe-area-inset-left))
+      !important;
+  }
+
+  main#home-top.an-home-2026
+  > #archenova-civilization-perspectives
+  > .an-civilization-perspectives__surface {
+    border-radius: 26px !important;
+  }
+
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__navigation {
+    gap: 5px;
+    padding: 10px 8px 16px;
+  }
+
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__tabs {
+    gap: 3px;
+  }
+
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__tab {
+    gap: 4px;
+    padding: 9px 4px;
+    font-size: 9px;
+    letter-spacing: 0.02em;
+  }
+
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__arrow {
+    flex-basis: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__twin {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 430px) {
+  main#home-top.an-home-2026
+  > #archenova-civilization-perspectives
+  > .an-civilization-perspectives__surface {
+    border-radius: 22px !important;
+  }
+}
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__track {
+    scroll-behavior: auto !important;
+  }
+
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__tab,
+  main#home-top.an-home-2026
+  .an-civilization-perspectives__arrow {
+    transition: none !important;
+  }
+}
+
+/* ==========================================================
+   END / CIVILIZATION PERSPECTIVES
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

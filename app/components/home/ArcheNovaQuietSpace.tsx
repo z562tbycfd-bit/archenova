@@ -2,23 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 
-/* ==========================================================
-   ARCHENOVA — QUIET SPACE
-
-   THE HORIZON
-   THE STILLNESS
-
-   Image-free.
-   One HOME section = one transparent black glass surface.
-
-   The only visible content is the designated sentence.
-========================================================== */
-
 type QuietSpaceProps = {
   id: string;
   sentence: string;
   accessibleName: string;
   variant: "horizon" | "stillness";
+  embedded?: boolean;
 };
 
 export default function ArcheNovaQuietSpace({
@@ -26,17 +15,20 @@ export default function ArcheNovaQuietSpace({
   sentence,
   accessibleName,
   variant,
+  embedded = false,
 }: QuietSpaceProps) {
   const sectionRef = useRef<HTMLElement>(null);
-
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const element = sectionRef.current;
-
     if (!element) return;
 
-    if (typeof IntersectionObserver === "undefined") {
+    const reduced = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    if (reduced || typeof IntersectionObserver === "undefined") {
       setIsVisible(true);
       return;
     }
@@ -55,7 +47,6 @@ export default function ArcheNovaQuietSpace({
     );
 
     observer.observe(element);
-
     return () => observer.disconnect();
   }, []);
 
@@ -63,14 +54,15 @@ export default function ArcheNovaQuietSpace({
     <section
       ref={sectionRef}
       id={id}
-      data-home-section
+      {...(!embedded ? { "data-home-section": "" } : {})}
       className={[
         "home-page",
-        "an-home-2026__section",
+        !embedded ? "an-home-2026__section" : "",
         "an-quiet-space",
         `an-quiet-space--${variant}`,
+        embedded ? "an-quiet-space--embedded" : "",
         isVisible ? "an-quiet-space--visible" : "",
-      ].join(" ")}
+      ].filter(Boolean).join(" ")}
       aria-label={accessibleName}
     >
       <div className="an-quiet-space__center">

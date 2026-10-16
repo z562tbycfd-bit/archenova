@@ -1,5 +1,11 @@
 "use client";
 
+import {
+  useCallback,
+  useRef,
+  useState,
+} from "react";
+
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import TodaysInquiryPortal from "../components/TodaysInquiryPortal";
@@ -19,14 +25,8 @@ import {
 
 import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
 
-
 /* ==========================================================
-   ARCHENOVA — THE ARCHITECTURE OF CIVILIZATION
-
-   - HomeSectionPager compatible
-   - Existing HOME sections preserved
-   - Glass appearance owned by global CSS
-   - Reduced spacing between Architecture and Search
+   CIVILIZATION ARCHITECTURE
 ========================================================== */
 
 const CIVILIZATION_ARCHITECTURE = [
@@ -87,6 +87,179 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "archenova-valley",
   },
 ] as const;
+
+/* ==========================================================
+   CIVILIZATION PERSPECTIVES
+
+   One HOME section.
+   One outer glass frame.
+   Three horizontal perspectives.
+========================================================== */
+
+const PERSPECTIVES = [
+  { number: "01", label: "HORIZON" },
+  { number: "02", label: "DIGITAL TWIN" },
+  { number: "03", label: "STILLNESS" },
+] as const;
+
+function CivilizationPerspectives() {
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [active, setActive] = useState(0);
+
+  const goTo = useCallback((index: number) => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    const next = Math.max(
+      0,
+      Math.min(index, PERSPECTIVES.length - 1),
+    );
+
+    const reduced = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    track.scrollTo({
+      left: next * track.clientWidth,
+      behavior: reduced ? "auto" : "smooth",
+    });
+
+    setActive(next);
+  }, []);
+
+  const syncActive = useCallback(() => {
+    const track = trackRef.current;
+    if (!track || track.clientWidth <= 0) return;
+
+    const index = Math.max(
+      0,
+      Math.min(
+        PERSPECTIVES.length - 1,
+        Math.round(track.scrollLeft / track.clientWidth),
+      ),
+    );
+
+    setActive((previous) =>
+      previous === index ? previous : index,
+    );
+  }, []);
+
+  return (
+    <section
+      id="archenova-civilization-perspectives"
+      data-home-section
+      data-home-chapter="perspectives"
+      className="an-civilization-perspectives"
+      aria-label="ArcheNova Civilization Perspectives"
+    >
+      <div className="an-civilization-perspectives__surface">
+        <div
+          ref={trackRef}
+          id="an-perspectives-track"
+          className="an-civilization-perspectives__track"
+          role="region"
+          aria-roledescription="carousel"
+          aria-label="Civilization perspectives"
+          tabIndex={0}
+          onScroll={syncActive}
+          onKeyDown={(event) => {
+            if (event.key === "ArrowRight") {
+              event.preventDefault();
+              goTo(active + 1);
+            } else if (event.key === "ArrowLeft") {
+              event.preventDefault();
+              goTo(active - 1);
+            }
+          }}
+        >
+          <div
+            className="an-civilization-perspectives__slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="1 of 3: Horizon"
+          >
+            <ArcheNovaHorizon embedded />
+          </div>
+
+          <div
+            className="an-civilization-perspectives__slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="2 of 3: Civilization Digital Twin"
+          >
+            <div className="an-civilization-perspectives__twin">
+              <img
+                src="/images/archenova-civilization-digital-twin.jpeg"
+                alt="Conceptual visualization of the ArcheNova civilization digital twin integrating planetary systems, cities, infrastructure, energy, biological environments, data, and interconnected models."
+                className="an-civilization-perspectives__image"
+                loading="eager"
+                decoding="async"
+                draggable={false}
+              />
+            </div>
+          </div>
+
+          <div
+            className="an-civilization-perspectives__slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="3 of 3: Stillness"
+          >
+            <ArcheNovaStillness embedded />
+          </div>
+        </div>
+
+        <nav
+          className="an-civilization-perspectives__navigation"
+          aria-label="Select civilization perspective"
+        >
+          <button
+            type="button"
+            className="an-civilization-perspectives__arrow"
+            disabled={active === 0}
+            onClick={() => goTo(active - 1)}
+            aria-label="Previous perspective"
+          >
+            ←
+          </button>
+
+          <div className="an-civilization-perspectives__tabs">
+            {PERSPECTIVES.map((item, index) => (
+              <button
+                key={item.number}
+                type="button"
+                className={[
+                  "an-civilization-perspectives__tab",
+                  active === index ? "is-active" : "",
+                ].filter(Boolean).join(" ")}
+                aria-label={`Show ${item.label}`}
+                aria-current={
+                  active === index ? "true" : undefined
+                }
+                onClick={() => goTo(index)}
+              >
+                <span className="an-civilization-perspectives__tab-number">
+                  {item.number}
+                </span>
+                <span>{item.label}</span>
+              </button>
+            ))}
+          </div>
+
+          <button
+            type="button"
+            className="an-civilization-perspectives__arrow"
+            disabled={active === PERSPECTIVES.length - 1}
+            onClick={() => goTo(active + 1)}
+            aria-label="Next perspective"
+          >
+            →
+          </button>
+        </nav>
+      </div>
+    </section>
+  );
+}
 
 /* ==========================================================
    ARCHITECTURE ENTRANCE
@@ -184,8 +357,6 @@ function CivilizationArchitectureEntrance() {
       </div>
 
       <style jsx global>{`
-        /* Architecture and Search form one visual sequence. */
-
         main.an-home-2026.home-snap.archenova-twin-home
           > section#archenova-architecture-of-civilization {
           min-height: 0 !important;
@@ -232,38 +403,16 @@ export default function HomePage() {
       <MobileHomeScrollReset />
       <HomeSectionPager />
 
-      {/* 00 — ARCHENOVA CONCEPT */}
+      {/* 00 — CONCEPT */}
       <ArcheNovaConceptPortal />
 
-      {/* 01 — THE HORIZON */}
-      <ArcheNovaHorizon />
+      {/* 01 — THREE PERSPECTIVES / ONE FRAME */}
+      <CivilizationPerspectives />
 
-      {/* 02 — CIVILIZATION DIGITAL TWIN */}
-      <section
-        id="archenova-civilization-digital-twin"
-        data-home-section
-        className="an-home-2026__section an-civilization-twin-visual"
-        aria-label="ArcheNova Civilization Digital Twin"
-      >
-        <div className="an-home-2026__glass an-civilization-twin-visual__surface">
-          <img
-            src="/images/archenova-civilization-digital-twin.jpeg"
-            alt="Conceptual visualization of the ArcheNova civilization digital twin integrating planetary systems, cities, infrastructure, energy, biological environments, data, and interconnected models."
-            className="an-civilization-twin-visual__image"
-            loading="eager"
-            decoding="async"
-            draggable={false}
-          />
-        </div>
-      </section>
-
-      {/* 03 — THE STILLNESS */}
-      <ArcheNovaStillness />
-
-      {/* 04 — THE ARCHITECTURE OF CIVILIZATION */}
+      {/* 02 — ARCHITECTURE */}
       <CivilizationArchitectureEntrance />
 
-      {/* 05 — SEARCH */}
+      {/* 03 — SEARCH */}
       <section
         id="archenova-search-section"
         data-home-section
@@ -275,7 +424,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 06 — TODAY'S INQUIRY */}
+      {/* 04 — TODAY'S INQUIRY */}
       <section
         id="todays-inquiry"
         data-home-section
@@ -287,7 +436,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 07 — HUMANITY RESPONSIBILITY */}
+      {/* 05 — HUMANITY RESPONSIBILITY */}
       <section
         id="humanity-responsibility"
         data-home-section
@@ -299,7 +448,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 08 — CONTINUITY */}
+      {/* 06 — CONTINUITY */}
       <section
         id="archenova-continuity"
         data-home-section
@@ -311,7 +460,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 09 — WORK MODELS */}
+      {/* 07 — WORK MODELS */}
       <section
         id="work-models"
         data-home-section
@@ -323,7 +472,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 10 — CIVILIZATION SPACE */}
+      {/* 08 — CIVILIZATION SPACE */}
       <section
         id="civilization-space"
         data-home-section
@@ -335,7 +484,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 11 — ARCHENOVA VALLEY */}
+      {/* 09 — ARCHENOVA VALLEY */}
       <section
         id="archenova-valley"
         data-home-section
@@ -346,11 +495,9 @@ export default function HomePage() {
           <ArcheNovaValleyPortal />
         </div>
       </section>
-      
 
-      {/* HOME — FINAL CLOSING FOOTER */}
+      {/* FINAL CLOSING FOOTER */}
       <ArcheNovaHomeFooter />
-
     </main>
   );
 }
