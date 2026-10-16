@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-10-16T17:12:31.742Z",
+  "updated": "2026-10-16T20:38:57.260Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
+      "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+      "summary": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, ret…",
+      "ts": 1792181679000,
+      "publishedAt": "2026-10-16T20:14:39.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Danaher, Nvidia Combine Lab Instrumentation and AI to Advance Autonomous Science",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/danaher-nvidia-combine-lab-instrumentation-and-ai-to-advance-autonomous-science/",
+      "summary": "Danaher and Nvidia are collaborating to advance autonomous science, combining lab instrumentation, automation, and software with accelerated computing and AI so that experiments inform models and models help design bette…",
+      "ts": 1792181584000,
+      "publishedAt": "2026-10-16T20:13:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints f…",
+      "ts": 1792173600000,
+      "publishedAt": "2026-10-16T18:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Designing the Ecosystem for CGT Success",
+      "url": "https://www.genengnews.com/resources/ebooks/designing-the-ecosystem-for-cgt-success/",
+      "summary": "This proceedings eBook, developed in partnership with GEN and Cincinnati Children’s Hospital Applied Gene and Cell Therapy Center, captures perspectives and lessons from The Cell Summit ’26 and extends the conversation b…",
+      "ts": 1792171309000,
+      "publishedAt": "2026-10-16T17:21:49.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Exposure to Common Endocrine-Disrupting Chemicals May Alter Normal Breast Development",
@@ -150,7 +186,7 @@
       "source": "MIT Technology Review",
       "title": "This implant can restore sight for patients with macular degeneration",
       "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
-      "summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting F…",
+      "summary": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in…",
       "ts": 1792141200000,
       "publishedAt": "2026-10-16T09:00:00.000Z",
       "categoryId": "ai-compute"
@@ -543,6 +579,15 @@
       "categoryId": "energy-climate"
     },
     {
+      "source": "OpenAI",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "ts": 1792108800000,
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Proteomics Reveals Ovarian Remodeling Decades After Menopause",
       "url": "https://www.genengnews.com/topics/omics/proteomics-reveals-ovarian-remodeling-decades-after-menopause/",
@@ -766,51 +811,6 @@
       "ts": 1792073946000,
       "publishedAt": "2026-10-15T14:19:06.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about former FDA head calling DOGE a ‘disaster,’ an AstraZeneca AI deal, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/15/former-fda-commissioner-califf-criticized-doge-astrazeneca-ai-deal/?utm_campaign=rss",
-      "summary": "Three former FDA chiefs lit into the Trump administration, criticizing the now former FDA officials who oversaw a massive staff exodus",
-      "ts": 1792071116000,
-      "publishedAt": "2026-10-15T13:31:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: ‘AI sandboxes’ are all the rage. Advocates scramble to control their future",
-      "url": "https://www.statnews.com/2026/10/15/scramble-to-shape-regulations-around-state-ai-sandboxes-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT's Health Tech newsletter: The groups vying to shape regulations that'd govern state AI sandboxes, and more.",
-      "ts": 1792070077000,
-      "publishedAt": "2026-10-15T13:14:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-      "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step in…",
-      "ts": 1792069259000,
-      "publishedAt": "2026-10-15T13:00:59.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "ts": 1792069200000,
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Thirty Million Compartments: Testing Single-Molecule PCR’s Potential",
-      "url": "https://www.genengnews.com/sponsored/thirty-million-compartments-testing-single-molecule-pcrs-potential/",
-      "summary": "Countable Labs has named Fred Hutchinson its first certified service provider, currently serving researchers across the Seattle region. And the company is continuing to build its list of service providers. The post Thirt…",
-      "ts": 1792068535000,
-      "publishedAt": "2026-10-15T12:48:55.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
