@@ -186,7 +186,67 @@ function SectionTitle({number,label,title,muted,children}:{number:string;label:s
   </Reveal>;
 }
 
-function ResearchField({domain}:{domain:Domain}){
+type InquirySignal = { id:string; title:string; summary:string; url:string; source:string; date:string; category:string; tags:string[] };
+const SIGNAL_PATH = "/data/signals.json";
+const SIGNAL_TERMS: Record<string,string[]> = {
+  intelligence:["ai","artificial intelligence","machine learning","model","agent","llm","compute","cyber","algorithm","autonomy"],
+  energy:["energy","power grid","electricity","nuclear","fusion","solar","battery","climate","hydrogen","renewable"],
+  life:["biology","biological","medicine","health","genome","gene","cell","vaccine","clinical","biotech","brain"],
+  infrastructure:["infrastructure","network","transport","water","supply chain","semiconductor","communication","resilience","satellite","space"],
+  governance:["governance","policy","law","regulation","institution","ethics","rights","security","international","oversight"],
+  principle:["science","research","discovery","evidence","physics","experiment"],
+  capacities:["safety","risk","monitoring","oversight","reliability","verification","security"],
+  fields:["science","technology","research","innovation","discovery"],
+  conditions:["engineering","reliability","failure","safety","system","control"],
+  validation:["study","trial","experiment","benchmark","evaluation","replication"],
+  horizons:["long-term","sustainability","climate","environment","future","stewardship"],
+  counterfactual:["resilience","crisis","disruption","failure","recovery","risk"],
+  evidence:["paper","research","evidence","review","study","journal"]
+};
+function normalizeSignal(raw:unknown,index:number):InquirySignal|null {
+  if(!raw || typeof raw!=="object")return null;
+  const r=raw as Record<string,unknown>;
+  const pick=(...keys:string[])=>{for(const k of keys){const v=r[k];if(typeof v==="string"&&v.trim())return v.trim();}return "";};
+  const title=pick("title","headline","name");
+  if(!title)return null;
+  const url=pick("url","link","href","sourceUrl","source_url");
+  const safeUrl=/^https?:\/\//i.test(url)?url:"";
+  const tags=Array.isArray(r.tags)?r.tags.filter((v):v is string=>typeof v==="string"):[];
+  return {id:pick("id")||`${index}-${title}`,title,summary:pick("summary","description","snippet","abstract","body"),url:safeUrl,source:pick("source","publisher","origin","feed"),date:pick("publishedAt","published_at","published","date","timestamp","updatedAt"),category:pick("category","domain","field","sector","type"),tags};
+}
+function parseSignalFeed(value:unknown):InquirySignal[]{
+  let rows:unknown[]=[];
+  if(Array.isArray(value))rows=value;
+  else if(value&&typeof value==="object"){
+    const obj=value as Record<string,unknown>;
+    for(const key of ["signals","items","data","results","entries"]){if(Array.isArray(obj[key])){rows=obj[key] as unknown[];break;}}
+  }
+  return rows.map(normalizeSignal).filter((v):v is InquirySignal=>v!==null);
+}
+function signalDate(value:string):number{
+  if(!value)return 0;
+  const n=Number(value);
+  if(Number.isFinite(n)&&n>1000000000)return n<100000000000?n*1000:n;
+  const parsed=Date.parse(value);return Number.isFinite(parsed)?parsed:0;
+}
+function signalMatches(signal:InquirySignal,section:string):boolean{
+  const text=[signal.title,signal.summary,signal.category,...signal.tags].join(" ").toLowerCase();
+  return (SIGNAL_TERMS[section]||[]).some(term=>text.includes(term));
+}
+function SignalsPanel({section,signals,status,updatedAt}:{section:string;signals:InquirySignal[];status:"loading"|"ready"|"error";updatedAt:string}){
+  const matched=signals.filter(s=>signalMatches(s,section)).sort((a,b)=>signalDate(b.date)-signalDate(a.date)).slice(0,3);
+  return <Reveal className="pi-signals-wrap"><aside className="pi-signals" aria-label={`Research signals for ${section}`}>
+    <div className="pi-signals__head"><div><span className="pi-label">ARCHENOVA / RESEARCH SIGNALS</span><h3>Signals in context<span className="pi-signals__pulse" aria-hidden="true"/></h3></div><div className="pi-signals__status">{status==="loading"?"LOADING":status==="error"?"FEED UNAVAILABLE":matched.length?`${matched.length} RELATED SIGNALS`:"NO MATCHING SIGNALS"}</div></div>
+    {matched.length>0?<div className="pi-signals__grid">{matched.map(s=><article className="pi-signals__item" key={s.id}>
+      <span className="pi-label">{s.source||"RESEARCH SIGNAL"}{s.date&&signalDate(s.date)>0?` · ${new Date(signalDate(s.date)).toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}`:""}</span>
+      <h4>{s.url?<a href={s.url} target="_blank" rel="noopener noreferrer">{s.title} <span aria-hidden="true">↗</span></a>:s.title}</h4>
+      {s.summary&&<p>{s.summary.length>235?s.summary.slice(0,232)+"…":s.summary}</p>}
+    </article>)}</div>:<p className="pi-signals__empty">{status==="loading"?"Loading the current ArcheNova signal feed…":status==="error"?"The signal feed could not be loaded. Research content remains available.":"No matching signals are available in the current feed."}</p>}
+    <div className="pi-signals__foot"><span>Signals are source items, not independent verification or endorsement.</span><span>{updatedAt?`FEED UPDATED ${updatedAt}`:"UPDATES DEPEND ON THE EXISTING FEED PIPELINE"}</span></div>
+  </aside></Reveal>;
+}
+
+function ResearchField({domain,signals,status,updatedAt}:{domain:Domain;signals:InquirySignal[];status:"loading"|"ready"|"error";updatedAt:string}){
   const items=[
     ["01 / CAUSAL STRUCTURE","Where responsibility enters",domain.causal],
     ["02 / RESEARCH METHOD","How to test the claim",domain.method],
@@ -200,7 +260,7 @@ function ResearchField({domain}:{domain:Domain}){
         <h2 id={`pi-${domain.id}`}>{domain.name}</h2>
         <p>{domain.question}</p>
       </Reveal>
-      <Reveal><article className="pi-glass pi-abstract"><span className="pi-label">RESEARCH ABSTRACT</span><p>{domain.abstract}</p></article></Reveal>
+      <SignalsPanel section={domain.id} signals={signals} status={status} updatedAt={updatedAt}/><Reveal><article className="pi-glass pi-abstract"><span className="pi-label">RESEARCH ABSTRACT</span><p>{domain.abstract}</p></article></Reveal>
       <div className="pi-research-grid">{items.map(([label,title,body])=><Reveal key={label}><article className="pi-glass pi-research"><span className="pi-label">{label}</span><h3>{title}</h3><p>{body}</p></article></Reveal>)}</div>
       <Reveal><article className="pi-glass pi-horizon"><div><span className="pi-label">LONG HORIZON</span><h3>Beyond the moment of creation</h3></div><p>{domain.horizon}</p></article></Reveal>
       <Reveal><div className="pi-open"><span className="pi-label">OPEN RESEARCH QUESTION</span><p>{domain.openProblem}</p></div></Reveal>
@@ -225,6 +285,30 @@ export default function HumanityResponsibilityPage(){
   const [progress,setProgress]=useState(0);
   const [active,setActive]=useState("top");
   const [menuOpen,setMenuOpen]=useState(false);
+  const [signals,setSignals]=useState<InquirySignal[]>([]);
+  const [signalStatus,setSignalStatus]=useState<"loading"|"ready"|"error">("loading");
+  const [feedUpdatedAt,setFeedUpdatedAt]=useState("");
+  useEffect(()=>{
+    let alive=true;
+    const load=async()=>{
+      try{
+        const response=await fetch(SIGNAL_PATH,{cache:"no-store"});
+        if(!response.ok)throw new Error(`Signal feed ${response.status}`);
+        const payload:unknown=await response.json();
+        if(!alive)return;
+        setSignals(parseSignalFeed(payload));
+        if(payload&&typeof payload==="object"&&!Array.isArray(payload)){
+          const meta=payload as Record<string,unknown>;
+          const v=meta.updatedAt??meta.generatedAt??meta.lastUpdated;
+          if(typeof v==="string"&&signalDate(v)>0)setFeedUpdatedAt(new Date(signalDate(v)).toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"}));
+        }
+        setSignalStatus("ready");
+      }catch{if(alive)setSignalStatus("error");}
+    };
+    void load();
+    const timer=window.setInterval(()=>{void load();},60*60*1000);
+    return ()=>{alive=false;window.clearInterval(timer);};
+  },[]);
   useEffect(()=>{
     let frame=0;
     const update=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{
@@ -278,7 +362,7 @@ export default function HumanityResponsibilityPage(){
       <div className="pi-wrap">
         <Reveal><span className="pi-kicker">01 / THE GOVERNING PRINCIPLE</span><h2 id="pi-principle" className="pi-display">Advance capability.<br/><span>Preserve correction.</span></h2><p className="pi-lead">Progress is not merely the accumulation of power. It is the expansion of reproducible knowledge and reliable capability without surrendering the means to observe, challenge, correct, recover, and revise.</p></Reveal>
         <Reveal><div className="pi-glass pi-formula"><span className="pi-label">THE FUNDAMENTAL DISTINCTION</span><div>REALITY <i>≠</i> MODEL <i>≠</i> CAPABILITY <i>≠</i> VALUE</div><p>Neither a representation nor a successful demonstration authorizes an unlimited claim. Reality retains the ability to disprove every model, and society must retain the ability to revise every consequential system.</p></div></Reveal>
-        <div className="pi-three">
+        <SignalsPanel section="principle" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-three">
           {[
             ["EPISTEMIC DISCIPLINE","Reality retains veto","Observations, measurements, and models are not reality itself. Scientific progress requires discriminating tests, independent replication, explicit uncertainty, and revision when evidence changes."],
             ["ENGINEERED CORRECTABILITY","Power remains interruptible","A system must be observable and challengeable, with effective intervention before adverse consequences propagate beyond control. Nominal safeguards are not enough."],
@@ -289,18 +373,18 @@ export default function HumanityResponsibilityPage(){
     </section>
     <section id="capacities" className="pi-section" aria-labelledby="pi-capacities">
       <div className="pi-wrap"><SectionTitle number="02" label="THE CONTINUOUS TEST" title="Correctability is" muted="a living capacity.">The relevant question is not whether a safeguard exists on paper, but whether it remains effective as complexity, autonomy, dependencies, and consequences change.</SectionTitle>
-        <div className="pi-rows">{CAPACITIES.map((c,i)=><Reveal key={c.title}><article className="pi-row"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 06</span><h3>{c.title}</h3></div><div><h4>{c.question}</h4><p>{c.body}</p><div className="pi-row__evidence"><span className="pi-label">EVIDENCE TO SEEK</span><p>{c.evidence}</p></div></div></article></Reveal>)}</div>
+        <SignalsPanel section="capacities" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-rows">{CAPACITIES.map((c,i)=><Reveal key={c.title}><article className="pi-row"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 06</span><h3>{c.title}</h3></div><div><h4>{c.question}</h4><p>{c.body}</p><div className="pi-row__evidence"><span className="pi-label">EVIDENCE TO SEEK</span><p>{c.evidence}</p></div></div></article></Reveal>)}</div>
       </div>
     </section>
     <section id="fields" className="pi-section pi-fields" aria-labelledby="pi-fields">
       <div className="pi-wrap"><SectionTitle number="03" label="RESEARCH LIBRARY" title="One inquiry." muted="Five fields.">The same governing principle must be tested against different causal structures, physical constraints, institutional arrangements, and evidence boundaries. Select a field to examine its research architecture.</SectionTitle>
-        <nav className="pi-field-grid" aria-label="Research fields">{DOMAINS.map(d=><a href={`#${d.id}`} key={d.id}><span className="pi-label">{d.number} / 05</span><strong>{d.name}</strong><small>{d.subtitle}</small><span className="pi-field-grid__arrow">↗</span></a>)}</nav>
+        <SignalsPanel section="fields" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><nav className="pi-field-grid" aria-label="Research fields">{DOMAINS.map(d=><a href={`#${d.id}`} key={d.id}><span className="pi-label">{d.number} / 05</span><strong>{d.name}</strong><small>{d.subtitle}</small><span className="pi-field-grid__arrow">↗</span></a>)}</nav>
       </div>
     </section>
-    {DOMAINS.map(d=><ResearchField key={d.id} domain={d}/>)}
+    {DOMAINS.map(d=><ResearchField key={d.id} domain={d} signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/>)}
     <section id="conditions" className="pi-section" aria-labelledby="pi-conditions">
       <div className="pi-wrap"><SectionTitle number="04" label="ENGINEERING CONDITIONS" title="The response must" muted="precede the consequence.">The following conditions are proposed engineering requirements, not universal physical laws. Each real application needs measurable thresholds, domain-specific evidence, and independent validation.</SectionTitle>
-        <div className="pi-stack">
+        <SignalsPanel section="conditions" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-stack">
           {[
             ["RESPONSE WINDOW","Correction must arrive in time.","Detection latency + decision latency + intervention latency must remain below the relevant harm threshold. Test degraded sensors, communications, personnel, and infrastructure.","Does the response still work when the systems it depends on are impaired?"],
             ["PERMISSIBLE SCALE","Reach must not outrun oversight.","Expanded autonomy, exposure, coupling, or deployment can create new failure pathways. A successful pilot does not automatically justify unrestricted scale.","What new evidence is required before the next increase in reach?"],
@@ -311,17 +395,17 @@ export default function HumanityResponsibilityPage(){
     </section>
     <section id="validation" className="pi-section" aria-labelledby="pi-validation">
       <div className="pi-wrap"><SectionTitle number="05" label="FROM EVIDENCE TO AUTHORITY" title="No expansion" muted="without renewed evidence.">Six proposed gates connect scientific discrimination to bounded deployment. Open each gate to inspect its test. The gates are design propositions, not a certification of any existing system.</SectionTitle><Reveal><Gates/></Reveal>
-        <Reveal><p className="pi-endnote">A claim must not advance beyond the evidence that supports it. ArcheNova does not claim to have completed these tests for every domain or application.</p></Reveal>
+        <SignalsPanel section="validation" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><Reveal><p className="pi-endnote">A claim must not advance beyond the evidence that supports it. ArcheNova does not claim to have completed these tests for every domain or application.</p></Reveal>
       </div>
     </section>
     <section id="horizons" className="pi-section" aria-labelledby="pi-horizons">
       <div className="pi-wrap"><SectionTitle number="06" label="TIME AND STEWARDSHIP" title="Consequences may outlive" muted="their creators.">The relevant timescale is the duration of the consequence, not the lifetime of the organization or product that produced it.</SectionTitle>
-        <div className="pi-rows">{HORIZONS.map((h,i)=><Reveal key={h.title}><article className="pi-row pi-time"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 04</span><span className="pi-time__label">{h.label}</span></div><div><h3>{h.title}</h3><p>{h.body}</p></div></article></Reveal>)}</div>
+        <SignalsPanel section="horizons" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-rows">{HORIZONS.map((h,i)=><Reveal key={h.title}><article className="pi-row pi-time"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 04</span><span className="pi-time__label">{h.label}</span></div><div><h3>{h.title}</h3><p>{h.body}</p></div></article></Reveal>)}</div>
       </div>
     </section>
     <section id="counterfactual" className="pi-section" aria-labelledby="pi-counterfactual">
       <div className="pi-wrap"><SectionTitle number="07" label="COUNTERFACTUAL STRESS TEST" title="Design for" muted="the day after.">A civilization-scale system must not depend indefinitely on its original creators, funding, suppliers, or assumptions.</SectionTitle>
-        <Reveal><article className="pi-glass pi-scenario"><span className="pi-label">HYPOTHETICAL SCENARIO / NOT A REPORTED EVENT</span><h3>The original operator disappears.</h3><p>A consequential system remains in use. Its original team is gone, records are incomplete, a critical supplier has failed, and a previously unknown hazard emerges.</p>
+        <SignalsPanel section="counterfactual" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><Reveal><article className="pi-glass pi-scenario"><span className="pi-label">HYPOTHETICAL SCENARIO / NOT A REPORTED EVENT</span><h3>The original operator disappears.</h3><p>A consequential system remains in use. Its original team is gone, records are incomplete, a critical supplier has failed, and a previously unknown hazard emerges.</p>
           {["Who can establish what the system is doing?","Who has the authority and resources to intervene?","Can essential functions continue through an alternative pathway?","Who provides remedy if harm cannot be reversed?","What evidence justifies continued operation—or closure?"].map((q,i)=><div className="pi-scenario__question" key={q}><span className="pi-label">{String(i+1).padStart(2,"0")}</span><p>{q}</p></div>)}
           <strong>If these questions lack credible answers, the original design contains an unresolved responsibility gap.</strong>
         </article></Reveal>
@@ -329,7 +413,7 @@ export default function HumanityResponsibilityPage(){
     </section>
     <section id="evidence" className="pi-section" aria-labelledby="pi-evidence">
       <div className="pi-wrap"><SectionTitle number="08" label="EVIDENCE & LIMITS" title="The framework must" muted="answer to reality.">An architecture is valuable only if it improves real decisions and remains open to independent criticism, contrary evidence, and revision.</SectionTitle>
-        <div className="pi-three pi-evidence">
+        <SignalsPanel section="evidence" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-three pi-evidence">
           {[
             ["PRESENTED HERE","A research proposition","A governing principle, domain-specific causal analysis, proposed design conditions, falsification criteria, and a framework for durable correction."],
             ["REQUIRES VALIDATION","Operational effectiveness","Measurable variables, application-specific comparisons, realistic failure tests, qualified independent review, and evidence from actual operating conditions."],
@@ -442,6 +526,26 @@ export default function HumanityResponsibilityPage(){
       @media(max-width:1100px){.pi{--side:clamp(24px,4.5vw,60px)}.pi-topbar__name{display:none}.pi-three{grid-template-columns:1fr}.pi-field-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.pi-research-grid{grid-template-columns:1fr}.pi-horizon{grid-template-columns:1fr;gap:20px}}
       @media(max-width:700px){.pi{--side:20px}.pi-section{min-height:100svh;padding:95px 0}.pi-topbar{padding:18px var(--side)}.pi-back,.pi-menu-toggle{font-size:9px;padding:9px 13px}.pi-cosmos__architecture{width:170%;left:-45%;opacity:.55}.pi-drawer{top:75px;max-height:78dvh;border-radius:20px}.pi-drawer__grid{grid-template-columns:1fr}.pi-drawer__grid a{min-height:85px}.pi-hero{padding:0}.pi-hero>.pi-wrap{padding-top:130px;padding-bottom:50px}.pi-hero h1{font-size:clamp(38px,9vw,63px);line-height:1.08}.pi-hero__intro{grid-template-columns:1fr;gap:16px;margin-top:30px}.pi-hero__intro p{font-size:15px}.pi-actions{flex-direction:column;margin-top:30px}.pi-button{width:100%;min-height:52px;font-size:9px}.pi-hero__foot{font-size:8px;letter-spacing:.04em}.pi-hero__foot span:last-child{display:none}.pi-kicker,.pi-label{font-size:9px;letter-spacing:.1em}.pi-section-title{margin-bottom:42px}.pi-section-title h2,.pi-display{font-size:clamp(42px,9.5vw,67px)}.pi-section-title>p,.pi-lead{font-size:16px;margin-top:22px}.pi-glass{border-radius:21px;backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px)}.pi-formula{margin-top:40px;padding:25px}.pi-formula>div{font-size:clamp(22px,5.5vw,34px)}.pi-three{gap:25px;margin-top:50px}.pi-row{grid-template-columns:1fr;gap:25px;padding:45px 0}.pi-row h3{font-size:clamp(42px,10vw,62px);margin-top:14px}.pi-row h4{font-size:25px}.pi-row p{font-size:15px;margin-top:17px}.pi-field-grid{grid-template-columns:1fr;gap:10px}.pi-field-grid a{min-height:85px;padding:18px;gap:6px}.pi-field-grid strong{margin-top:0;font-size:22px}.pi-field-grid small{font-size:8px}.pi-domain__head h2{font-size:clamp(55px,12vw,88px)}.pi-domain__head>p{font-size:clamp(23px,5.6vw,31px)}.pi-abstract,.pi-research,.pi-horizon,.pi-condition,.pi-scenario,.pi-evidence__card{padding:25px}.pi-abstract p{font-size:17px}.pi-research-grid{gap:12px;margin-top:12px}.pi-research h3,.pi-horizon h3{font-size:27px}.pi-research p,.pi-horizon p,.pi-condition p{font-size:15px}.pi-horizon{margin-top:12px}.pi-open{grid-template-columns:1fr;gap:15px;margin-top:55px}.pi-open p{font-size:24px}.pi-condition h3{font-size:clamp(29px,6.8vw,41px)}.pi-condition>div{grid-template-columns:1fr;gap:10px}.pi-gate button{grid-template-columns:30px 1fr 22px;gap:12px;min-height:110px;padding:23px 0}.pi-gate strong{font-size:23px}.pi-gate small{font-size:13px}.pi-gate__toggle{font-size:24px}.pi-gate__body{padding:0 0 30px 42px}.pi-gate__body p{font-size:15px}.pi-time h3{font-size:29px}.pi-scenario h3{font-size:38px}.pi-scenario__question{grid-template-columns:28px 1fr;gap:13px}.pi-scenario__question p{font-size:19px}.pi-scenario>strong{font-size:23px}.pi-footer{font-size:8px;letter-spacing:.06em}}
       @media(max-width:390px){.pi{--side:15px}.pi-hero h1{font-size:clamp(34px,8.9vw,42px)}.pi-abstract,.pi-research,.pi-horizon,.pi-condition,.pi-scenario,.pi-evidence__card{padding:21px}}
+
+      /* Contextual signals: black glass, full-width responsive cards */
+      .pi-signals-wrap{width:100%;margin:clamp(30px,5vw,70px) 0}
+      .pi-signals{padding:clamp(24px,3.5vw,50px);border:1px solid rgba(255,255,255,.13);border-radius:clamp(20px,2.2vw,30px);background:rgba(0,0,0,.78);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+      .pi-signals__head{display:flex;align-items:end;justify-content:space-between;gap:20px;padding-bottom:25px;border-bottom:1px solid var(--line)}
+      .pi-signals__head h3{margin:10px 0 0;font-size:clamp(24px,2.4vw,39px);font-weight:480;letter-spacing:-.055em}
+      .pi-signals__pulse{display:inline-block;width:6px;height:6px;margin-left:14px;vertical-align:middle;border-radius:50%;background:rgba(255,255,255,.75);box-shadow:0 0 13px rgba(255,255,255,.3);animation:pi-signal-pulse 4s ease-in-out infinite}
+      .pi-signals__status{color:var(--faint);font-size:9px;letter-spacing:.13em;text-align:right}
+      .pi-signals__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+      .pi-signals__item{min-width:0;padding:26px clamp(12px,2vw,32px) 20px;border-right:1px solid var(--line)}
+      .pi-signals__item:first-child{padding-left:0}.pi-signals__item:last-child{border-right:0}
+      .pi-signals__item h4{margin:16px 0 0;font-size:clamp(18px,1.45vw,24px);font-weight:480;line-height:1.4;letter-spacing:-.04em}
+      .pi-signals__item h4 a:hover{text-decoration:underline;text-underline-offset:4px}
+      .pi-signals__item h4 span{font-size:.7em;color:var(--faint)}
+      .pi-signals__item p{margin:13px 0 0;color:var(--muted);font-size:13px;line-height:1.8}
+      .pi-signals__empty{margin:25px 0;color:var(--muted);font-size:14px;line-height:1.8}
+      .pi-signals__foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:15px;padding-top:18px;border-top:1px solid var(--line);color:var(--faint);font-size:10px;line-height:1.6}
+      @keyframes pi-signal-pulse{0%,100%{opacity:.35}50%{opacity:1}}
+      @media(max-width:1100px){.pi-signals__grid{grid-template-columns:1fr}.pi-signals__item,.pi-signals__item:first-child{padding:23px 0;border-right:0;border-bottom:1px solid var(--line)}.pi-signals__item:last-child{border-bottom:0}}
+      @media(max-width:700px){.pi-signals{padding:23px}.pi-signals__head{align-items:start;flex-direction:column;gap:10px}.pi-signals__status{text-align:left}.pi-signals__foot{font-size:9px}}
       @media(prefers-reduced-motion:reduce){html:has(.pi){scroll-behavior:auto}.pi *,.pi *::before,.pi *::after{animation:none!important;transition:none!important}.pi-reveal{opacity:1!important;transform:none!important}}
     `}</style>
   </main>;
