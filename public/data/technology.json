@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-16T23:18:19.821Z",
+  "updated": "2026-10-17T03:30:43.929Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Jury rules in favor of ousted Cambridge scientist David Sabatini, with $6 million in damages to be awarded",
+      "url": "https://www.statnews.com/2026/10/16/david-sabatini-wins-sexual-misconduct-lawsuit-metoo/?utm_campaign=rss",
+      "summary": "A jury awarded $6 million in damages to scientist David Sabatini, whose career imploded after he was accused by a much younger colleague of inappropriate sexual conduct in his lab.",
+      "ts": 1792204715000,
+      "publishedAt": "2026-10-17T02:38:35.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "ADC Developmentfrom Concept to Clinic",
@@ -28,6 +37,15 @@
       "ts": 1792181584000,
       "publishedAt": "2026-10-16T20:13:04.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "ts": 1792177200000,
+      "publishedAt": "2026-10-16T19:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -157,6 +175,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "As disasters mount, next UN climate summit faces a test of trust",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168617",
+      "summary": "Less than a month before the UN climate conference COP31 opens in Antalya, Türkiye, representatives of three successive summit presidencies gathered to address a pressing question: How can the world restore trust in clim…",
+      "ts": 1792152000000,
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Civilian casualty rates among ‘deadliest’ in years, as energy attacks intensify",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168614",
+      "summary": "Civilian casualties in Ukraine remain at record levels, with intensified Russian attacks in September continuing a pattern of harm in 2026 far exceeding previous years, UN human rights monitors in Ukraine said on Friday.",
+      "ts": 1792152000000,
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "WHO scales up Ebola readiness in 22 countries across three continents",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168613",
       "summary": "The World Health Organization (WHO) is strengthening Ebola preparedness amid conflict and displacement affecting millions of lives in a region that spans parts of Africa, Asia and Europe.",
@@ -279,6 +315,15 @@
       "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
       "ts": 1792123500000,
       "publishedAt": "2026-10-16T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Isaias Dims the Gulf Coast",
+      "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
+      "summary": "High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back.",
+      "ts": 1792123200000,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -570,15 +615,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Isaias Dims the Gulf Coast",
-      "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
-      "summary": "High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back.",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "IAEA News",
       "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-371-iaea-director-general-statement-on-situation-in-ukraine",
@@ -775,42 +811,6 @@
       "ts": 1792078995000,
       "publishedAt": "2026-10-15T15:43:15.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "After a melanoma diagnosis, mRNA cancer vaccine delivered a patient hope — and a path forward",
-      "url": "https://www.statnews.com/2026/10/15/melanoma-diagnosis-mrna-cancer-vaccine-stat-summit-boston-2026/?utm_campaign=rss",
-      "summary": "A schoolteacher diagnosed with melanoma provides an inside look at what it was like to be treated with a cancer vaccine developed by Merck and Moderna.",
-      "ts": 1792077908000,
-      "publishedAt": "2026-10-15T15:25:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "How NASA is thinking about a moon base",
-      "url": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
-      "summary": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 and the incremental steps to […] The post How NASA is thinkin…",
-      "ts": 1792077264000,
-      "publishedAt": "2026-10-15T15:14:24.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-      "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotr…",
-      "ts": 1792076424000,
-      "publishedAt": "2026-10-15T15:00:24.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance ",
-      "url": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
-      "summary": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface. Additional engineering data analysis of the Orion spacec…",
-      "ts": 1792076241000,
-      "publishedAt": "2026-10-15T14:57:21.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
