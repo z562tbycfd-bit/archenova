@@ -94,6 +94,9 @@ const CIVILIZATION_ARCHITECTURE = [
    One HOME section.
    One outer glass frame.
    Three horizontal perspectives.
+
+   Refined ultra-thin navigation arrows.
+   All existing dimensions and functionality preserved.
 ========================================================== */
 
 const PERSPECTIVES = [
@@ -213,6 +216,10 @@ function CivilizationPerspectives() {
           className="an-civilization-perspectives__navigation"
           aria-label="Select civilization perspective"
         >
+          {/* ==================================================
+              PREVIOUS / REFINED THIN CHEVRON
+          ================================================== */}
+
           <button
             type="button"
             className="an-civilization-perspectives__arrow"
@@ -220,8 +227,28 @@ function CivilizationPerspectives() {
             onClick={() => goTo(active - 1)}
             aria-label="Previous perspective"
           >
-            ←
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                d="M14.5 5.5L8 12L14.5 18.5"
+                stroke="currentColor"
+                strokeWidth="1.15"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
           </button>
+
+          {/* ==================================================
+              PERSPECTIVE TABS
+              Original structure preserved
+          ================================================== */}
 
           <div className="an-civilization-perspectives__tabs">
             {PERSPECTIVES.map((item, index) => (
@@ -246,6 +273,10 @@ function CivilizationPerspectives() {
             ))}
           </div>
 
+          {/* ==================================================
+              NEXT / REFINED THIN CHEVRON
+          ================================================== */}
+
           <button
             type="button"
             className="an-civilization-perspectives__arrow"
@@ -253,7 +284,22 @@ function CivilizationPerspectives() {
             onClick={() => goTo(active + 1)}
             aria-label="Next perspective"
           >
-            →
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                d="M9.5 5.5L16 12L9.5 18.5"
+                stroke="currentColor"
+                strokeWidth="1.15"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
           </button>
         </nav>
       </div>
@@ -291,9 +337,6 @@ function CivilizationArchitectureEntrance() {
       <div className="an-home-2026__glass an-architecture-home__glass">
         <div className="an-architecture-home__layout">
           <header className="an-architecture-home__intro">
-            <span className="an-architecture-home__eyebrow">
-              ARCHENOVA / CIVILIZATION ARCHITECTURE
-            </span>
 
             <h2 id="an-architecture-home-title">
               The Architecture
