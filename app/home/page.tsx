@@ -47,13 +47,13 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "todays-inquiry",
   },
   {
-    number: "03",
-    label: "HUMANITY & RESPONSIBILITY",
-    title: "Civilization Responsibility",
-    description:
-      "Examine the relationship between power and responsibility.",
-    target: "humanity-responsibility",
-  },
+  number: "03",
+  label: "PERMANENT INQUIRY",
+  title: "Correctable Civilization",
+  description:
+    "Advance civilization through discovery, innovation, and correction.",
+  target: "humanity-responsibility",
+},
   {
     number: "04",
     label: "CONTINUITY",
