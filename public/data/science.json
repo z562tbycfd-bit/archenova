@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-17T16:10:18.393Z",
+  "updated": "2026-10-17T19:04:42.375Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Simulations explore nuclear mitigation of asteroid threats",
+      "url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
+      "summary": "Lawrence Livermore National Laboratory (LLNL) researchers are developing three-dimensional simulations to examine how a nuclear device could be used to deflect or potentially disrupt an asteroid threatening Earth.",
+      "ts": 1792263605000,
+      "publishedAt": "2026-10-17T19:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum magic state cleanup cuts errors 40-fold in first successful hardware test",
+      "url": "https://phys.org/news/2026-10-quantum-magic-state-cleanup-errors.html",
+      "summary": "Qubits, the quantum equivalent of digital bits, are fragile and prone to errors. That makes building reliable quantum computers extremely difficult. One fix has been to use traditional magic state distillation, which fil…",
+      "ts": 1792260002000,
+      "publishedAt": "2026-10-17T18:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What an ancient volcanic eruption teaches us about resilience today",
+      "url": "https://phys.org/news/2026-10-ancient-volcanic-eruption-resilience-today.html",
+      "summary": "When a massive environmental disaster strikes, do societies simply collapse and disappear? Or do people find a way to adapt, rebuild and recover?",
+      "ts": 1792256405000,
+      "publishedAt": "2026-10-17T17:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hand-cranked device tells blood type and red cell levels in 1 minute",
@@ -775,30 +799,6 @@
       "title": "LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models",
       "url": "https://arxiv.org/abs/2610.21594",
       "summary": "arXiv:2610.21594v1 Announce Type: new Abstract: Looped Transformers improve parameter efficiency by repeatedly applying the same Transformer layers. However, generating each token still involves sequential computation an…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Evaluating Inquiry Learning in LLM-Based Agents: Hypothesizing, Reasoning, and Exploration",
-      "url": "https://arxiv.org/abs/2610.21604",
-      "summary": "arXiv:2610.21604v1 Announce Type: new Abstract: Scientific inquiry involves iterative cycles of exploration, hypothesis generation, and reasoning over observations to uncover relationships in complex systems. Large langu…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Learning Intrinsic Dynamics in Latent World Models",
-      "url": "https://arxiv.org/abs/2610.21612",
-      "summary": "arXiv:2610.21612v1 Announce Type: new Abstract: Learning intrinsic dynamics---the relationship between actions and their consequences---is essential for world models. However, visual variations unrelated to the underlyin…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AgentPerturb: Evaluating LLM Agent Robustness under Controlled Interaction Perturbations",
-      "url": "https://arxiv.org/abs/2610.21624",
-      "summary": "arXiv:2610.21624v1 Announce Type: new Abstract: Real-world tasks are often complex and noisy, posing substantial challenges for LLM agents. Yet existing evaluations lack a systematic framework for jointly characterizing …",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-17T16:10:21.064Z",
+  "updated": "2026-10-17T19:04:45.244Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "Flour sacks turned flood barriers: Gaza faces another winter without safe shelter",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168619",
+      "summary": "Like many people in the war-ravaged Gaza Strip, Ahmed Al-Omari is preparing for another winter of bitter cold and rain that threatens to cause flooding as families struggle to survive in tattered tents and damaged buildi…",
+      "ts": 1792238400000,
+      "publishedAt": "2026-10-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 17 – 3D 67P",
@@ -802,15 +811,6 @@
       "ts": 1792079867000,
       "publishedAt": "2026-10-15T15:57:47.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Former FDA commissioners Califf, Gottlieb, Sharpless lay into current HHS leadership",
-      "url": "https://www.statnews.com/2026/10/15/health-policy-news-fda-califf-gottlieb-sharpless-criticize-hhs-leadership/?utm_campaign=rss",
-      "summary": "Former FDA commissioners Rob Califf (Obama and Biden administrations), Scott Gottlieb, and Ned Sharpless (both from the first Trump administration) criticized the officials who ran the agency during a massive…",
-      "ts": 1792079458000,
-      "publishedAt": "2026-10-15T15:50:58.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
