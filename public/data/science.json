@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-17T08:20:04.691Z",
+  "updated": "2026-10-17T12:45:22.471Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Electrical sliding switches graphene between magnetic states",
+      "url": "https://phys.org/news/2026-10-electrical-graphene-magnetic-states.html",
+      "summary": "In a discovery that could offer a new way to control quantum properties in two-dimensional materials, researchers at Cornell have found that electrically sliding the layers of ultrathin graphene can switch the material b…",
+      "ts": 1792238406000,
+      "publishedAt": "2026-10-17T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global survey links financial hardship to lower trust in science",
+      "url": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+      "summary": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a globa…",
+      "ts": 1792238401000,
+      "publishedAt": "2026-10-17T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Popular song lyrics express less emotion over time, analysis of 38K+ songs finds",
+      "url": "https://phys.org/news/2026-10-popular-song-lyrics-emotion-analysis.html",
+      "summary": "New research from Michigan State University finds that popular music has gradually become less explicit about emotion and relationships—both across generations of artists and within artists' careers.",
+      "ts": 1792236005000,
+      "publishedAt": "2026-10-17T11:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "During El Niño, a perfect storm of weather systems could spell disaster for the Great Barrier Reef",
+      "url": "https://phys.org/news/2026-10-el-nio-storm-weather-disaster.html",
+      "summary": "The strong El Niño currently under way in the Pacific Ocean raises the specter of marine heat waves and coral bleaching once again threatening Australia's iconic Great Barrier Reef. And now new research has revealed the …",
+      "ts": 1792234807000,
+      "publishedAt": "2026-10-17T11:00:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
@@ -767,38 +799,6 @@
       "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
       "url": "https://arxiv.org/abs/2610.21791",
       "summary": "arXiv:2610.21791v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in complex tasks, including code generation, tool use, and multi-hop question answering. Existing se…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Co2In: a Bi-level Memory Incremental Learning Framework with Knowledge Encoding, Consolidation, and Integration",
-      "url": "https://arxiv.org/abs/2610.21804",
-      "summary": "arXiv:2610.21804v1 Announce Type: new Abstract: Incremental learning (IL) aims to continually acquire new knowledge (plasticity) while retaining previously learned information (stability). However, striking a balance bet…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CIM-Embed: Learning Instruction-Conditioned Multimodal Embeddings for Clustering",
-      "url": "https://arxiv.org/abs/2610.21805",
-      "summary": "arXiv:2610.21805v1 Announce Type: new Abstract: Multimodal objects can require different partitions under different instructions, as when products in an e-commerce catalog are grouped by color, material, or both. Retriev…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "RoleQ: Role-Aligned Scales for Converting Language Models to Ternary",
-      "url": "https://arxiv.org/abs/2610.21808",
-      "summary": "arXiv:2610.21808v1 Announce Type: new Abstract: Weight quantization below four bits shrinks memory and bandwidth at a perplexity that looks acceptable, but often at the cost of factual knowledge and task accuracy. Ternar…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
-      "url": "https://arxiv.org/abs/2610.21910",
-      "summary": "arXiv:2610.21910v1 Announce Type: new Abstract: As Vision-Language Models (VLMs) advance, they are increasingly expected to perform spatiotemporal reasoning over motion, actions, and view changes beyond what the input im…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
