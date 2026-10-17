@@ -12,57 +12,80 @@ import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 
 /* ==========================================================
-   ARCHENOVA / HUMANITY RESPONSIBILITY PORTAL
+   ARCHENOVA / PERMANENT INQUIRY
 
-   PERMANENT INQUIRY
+   CIVILIZATION AS AN OPEN, CORRECTABLE SYSTEM
 
    HOME OWNS:
-   - The only visible outer glass surface
-   - Card dimensions and positioning
+   - Outer obsidian glass
+   - HOME section geometry
+   - Vertical page scrolling
    - HOME navigation
 
    PORTAL OWNS:
-   - Header / central experience / footer
-   - Responsibility symbol
-   - Entry interaction and fullscreen transition
+   - Inquiry identity
+   - Central question
+   - Civilization evolution symbol
+   - Entry interaction
+   - Fullscreen transition
 
-   DESIGN:
-   - No blue full-card atmosphere
-   - No additional glass surface
-   - Neutral silver symbol with restrained illumination
-   - Human agency remains the visual center
+   PRINCIPLES:
+   - Reality remains independent of representation.
+   - Scientific and technological capability can evolve.
+   - Civilization must remain observable and correctable.
+   - No inner vertical scroll container.
+   - No additional HOME glass surface.
+   - Reduced-motion accessibility.
 ========================================================== */
 
 const DESTINATION = "/humanity-responsibility";
 
+const INQUIRY_TITLE =
+  "Can Civilization Advance Without Losing the Capacity to Correct Itself?";
+
+const INQUIRY_SUBTITLE =
+  "Scientific discovery, technological capability, and civilization must evolve without losing the ability to question, correct, and recover.";
+
+const INQUIRY_SEQUENCE = [
+  "DISCOVERY",
+  "CAPABILITY",
+  "CIVILIZATION",
+  "CORRECTION",
+] as const;
+
 /* ==========================================================
-   RESPONSIBILITY SYMBOL
+   CIVILIZATION EVOLUTION SYMBOL
 
-   HUMAN:
-   The accountable agent.
+   CENTER:
+   Reality and the limits of representation.
 
-   INTERSECTING ORBITS:
-   Power and consequences across connected systems.
+   INNER STRUCTURE:
+   Scientific discovery and reproducibility.
+
+   INTERCONNECTED ORBITS:
+   Technology, intelligence, infrastructure, life.
 
    OPEN OUTER ARC:
-   Responsibility is never a completed question.
+   Civilization is never a finished system.
 
-   MARKERS:
-   Decisions persist across generations.
+   RETURN PATH:
+   Observation, correction, recovery.
 
-   The symbol has no background rectangle or glass layer.
+   No human silhouette.
+   No background rectangle.
+   No additional glass layer.
 ========================================================== */
 
-function ResponsibilitySymbol({
+function CivilizationEvolutionSymbol({
   transition = false,
 }: {
   transition?: boolean;
 }) {
   const id = useId().replace(/:/g, "");
 
-  const humanGradient = `hrp-human-${id}`;
   const orbitGradient = `hrp-orbit-${id}`;
   const coreGradient = `hrp-core-${id}`;
+  const axisGradient = `hrp-axis-${id}`;
 
   return (
     <svg
@@ -79,57 +102,57 @@ function ResponsibilitySymbol({
     >
       <defs>
         <linearGradient
-          id={humanGradient}
-          x1="148"
-          y1="126"
-          x2="252"
-          y2="285"
+          id={orbitGradient}
+          x1="70"
+          y1="64"
+          x2="332"
+          y2="338"
           gradientUnits="userSpaceOnUse"
         >
           <stop
             offset="0%"
             stopColor="#FFFFFF"
-            stopOpacity=".98"
+            stopOpacity=".13"
           />
           <stop
-            offset="52%"
-            stopColor="#E0E2E4"
-            stopOpacity=".91"
+            offset="34%"
+            stopColor="#F4F4F2"
+            stopOpacity=".75"
+          />
+          <stop
+            offset="65%"
+            stopColor="#BFC3C5"
+            stopOpacity=".39"
           />
           <stop
             offset="100%"
-            stopColor="#9B9FA4"
-            stopOpacity=".76"
+            stopColor="#FFFFFF"
+            stopOpacity=".10"
           />
         </linearGradient>
 
         <linearGradient
-          id={orbitGradient}
-          x1="74"
-          y1="64"
-          x2="326"
-          y2="340"
+          id={axisGradient}
+          x1="200"
+          y1="46"
+          x2="200"
+          y2="354"
           gradientUnits="userSpaceOnUse"
         >
           <stop
             offset="0%"
             stopColor="#FFFFFF"
-            stopOpacity=".10"
+            stopOpacity="0"
           />
           <stop
-            offset="33%"
-            stopColor="#F5F5F4"
-            stopOpacity=".54"
-          />
-          <stop
-            offset="66%"
-            stopColor="#D6D8D9"
-            stopOpacity=".35"
+            offset="48%"
+            stopColor="#FFFFFF"
+            stopOpacity=".56"
           />
           <stop
             offset="100%"
             stopColor="#FFFFFF"
-            stopOpacity=".09"
+            stopOpacity="0"
           />
         </linearGradient>
 
@@ -138,18 +161,18 @@ function ResponsibilitySymbol({
           cx="0"
           cy="0"
           r="1"
-          gradientTransform="translate(200 204) rotate(90) scale(57)"
+          gradientTransform="translate(200 200) rotate(90) scale(78)"
           gradientUnits="userSpaceOnUse"
         >
           <stop
             offset="0%"
             stopColor="#FFFFFF"
-            stopOpacity=".085"
+            stopOpacity=".16"
           />
           <stop
-            offset="55%"
+            offset="45%"
             stopColor="#FFFFFF"
-            stopOpacity=".025"
+            stopOpacity=".045"
           />
           <stop
             offset="100%"
@@ -159,17 +182,17 @@ function ResponsibilitySymbol({
         </radialGradient>
       </defs>
 
-      {/* LOCAL LIGHT — INSIDE THE SYMBOL ONLY */}
+      {/* REALITY / LOCAL LIGHT */}
 
       <circle
         className="hrp-symbol__core-light"
         cx="200"
-        cy="204"
-        r="57"
+        cy="200"
+        r="78"
         fill={`url(#${coreGradient})`}
       />
 
-      {/* GENERATIONAL REFERENCE RING */}
+      {/* CIVILIZATION REFERENCE RING */}
 
       <circle
         className="hrp-symbol__reference-ring"
@@ -177,12 +200,12 @@ function ResponsibilitySymbol({
         cy="200"
         r="151"
         stroke="#F0F0EF"
-        strokeOpacity=".13"
-        strokeWidth=".75"
-        strokeDasharray="1 9"
+        strokeOpacity=".18"
+        strokeWidth=".8"
+        strokeDasharray="1 8"
       />
 
-      {/* TWO INTERSECTING SYSTEM ORBITS */}
+      {/* INTERCONNECTED SCIENTIFIC SYSTEMS */}
 
       <g
         className="hrp-symbol__orbits"
@@ -193,31 +216,63 @@ function ResponsibilitySymbol({
           cx="200"
           cy="200"
           rx="140"
-          ry="65"
-          transform="rotate(-34 200 200)"
+          ry="63"
+          transform="rotate(-37 200 200)"
         />
 
         <ellipse
           cx="200"
           cy="200"
           rx="140"
-          ry="65"
-          transform="rotate(34 200 200)"
+          ry="63"
+          transform="rotate(37 200 200)"
+        />
+
+        <ellipse
+          cx="200"
+          cy="200"
+          rx="140"
+          ry="63"
+          transform="rotate(90 200 200)"
         />
       </g>
 
-      {/* QUIET VERTICAL AXIS */}
+      {/* SCIENTIFIC REPRODUCIBILITY RINGS */}
 
-      <path
-        className="hrp-symbol__axis"
-        d="M200 67 V121 M200 279 V333"
-        stroke="#ECEDEC"
-        strokeOpacity=".19"
+      <g className="hrp-symbol__inner-rings">
+        <circle
+          cx="200"
+          cy="200"
+          r="49"
+          stroke="#E6E8E8"
+          strokeOpacity=".43"
+          strokeWidth=".85"
+        />
+
+        <circle
+          cx="200"
+          cy="200"
+          r="31"
+          stroke="#E6E8E8"
+          strokeOpacity=".22"
+          strokeWidth=".7"
+          strokeDasharray="2 6"
+        />
+      </g>
+
+      {/* OBSERVATION AXES */}
+
+      <g
+        className="hrp-symbol__axes"
+        stroke={`url(#${axisGradient})`}
         strokeWidth=".8"
         strokeLinecap="round"
-      />
+      >
+        <path d="M200 45 V355" />
+        <path d="M45 200 H355" />
+      </g>
 
-      {/* OPEN RESPONSIBILITY ARC */}
+      {/* CORRECTABLE CIVILIZATION ARC */}
 
       <g
         className="hrp-symbol__open-arc"
@@ -226,147 +281,110 @@ function ResponsibilitySymbol({
         strokeLinejoin="round"
       >
         <path
-          d="M84 113 A148 148 0 1 1 316 113"
-          strokeWidth="1.55"
+          d="M86 111 A148 148 0 1 1 314 111"
+          strokeWidth="1.65"
         />
 
         <path
-          d="M97 102 L84 113 L82 96"
-          strokeWidth="1.05"
-          opacity=".72"
+          d="M99 99 L86 111 L84 94"
+          strokeWidth="1.1"
+          opacity=".82"
         />
       </g>
 
-      {/* HUMAN PRESENCE */}
+      {/* STRUCTURAL CORE */}
+
+      <g className="hrp-symbol__structure">
+        <path
+          d="M200 154 L246 200 L200 246 L154 200 Z"
+          stroke="#F4F4F2"
+          strokeOpacity=".62"
+          strokeWidth="1.1"
+        />
+
+        <path
+          d="M200 168 L232 200 L200 232 L168 200 Z"
+          stroke="#F4F4F2"
+          strokeOpacity=".25"
+          strokeWidth=".75"
+        />
+
+        <path
+          d="M200 154 V246 M154 200 H246"
+          stroke="#FFFFFF"
+          strokeOpacity=".16"
+          strokeWidth=".7"
+        />
+      </g>
+
+      {/* CORRECTION / RETURN PATH */}
 
       <g
-        className="hrp-symbol__human"
-        stroke={`url(#${humanGradient})`}
+        className="hrp-symbol__return-path"
+        stroke="#F2F2F0"
+        strokeOpacity=".45"
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <circle
-          cx="200"
-          cy="158"
-          r="13"
-          strokeWidth="1.85"
+        <path
+          d="M174 200 A26 26 0 1 1 200 226"
+          strokeWidth="1.05"
         />
 
         <path
-          d="
-            M200 175
-            C181 175 169 188 168 205
-
-            M200 175
-            C219 175 231 188 232 205
-
-            M168 205
-            L154 239
-
-            M232 205
-            L246 239
-
-            M181 192
-            L181 234
-            L172 274
-
-            M219 192
-            L219 234
-            L228 274
-
-            M181 234
-            Q200 244 219 234
-          "
-          strokeWidth="1.8"
-        />
-
-        <path
-          d="
-            M200 181
-            V226
-
-            M181 210
-            Q200 218 219 210
-          "
-          strokeWidth=".8"
-          opacity=".52"
+          d="M193 221 L200 226 L193 231"
+          strokeWidth=".9"
         />
       </g>
 
-      {/* ACCOUNTABILITY POINT */}
+      {/* REALITY REFERENCE */}
 
       <circle
         className="hrp-symbol__core-halo"
         cx="200"
-        cy="205"
-        r="8"
+        cy="200"
+        r="10"
         fill="#FFFFFF"
-        fillOpacity=".055"
+        fillOpacity=".075"
       />
 
       <circle
         className="hrp-symbol__core"
         cx="200"
-        cy="205"
-        r="2"
+        cy="200"
+        r="2.5"
         fill="#FFFFFF"
       />
 
-      {/* CONSEQUENCE MARKERS */}
+      {/* INTERCONNECTED SYSTEM NODES */}
 
       <g
         className="hrp-symbol__points"
-        fill="#F4F4F3"
+        fill="#F4F4F2"
       >
-        <circle
-          cx="200"
-          cy="49"
-          r="1.55"
-          opacity=".85"
-        />
+        <circle cx="200" cy="49" r="1.6" opacity=".9" />
+        <circle cx="200" cy="351" r="1.6" opacity=".9" />
+        <circle cx="49" cy="200" r="1.5" opacity=".7" />
+        <circle cx="351" cy="200" r="1.5" opacity=".7" />
 
-        <circle
-          cx="200"
-          cy="351"
-          r="1.55"
-          opacity=".85"
-        />
+        <circle cx="86" cy="111" r="2" opacity=".95" />
+        <circle cx="314" cy="111" r="2" opacity=".95" />
 
-        <circle
-          cx="84"
-          cy="113"
-          r="1.8"
-          opacity=".9"
-        />
+        <circle cx="101" cy="299" r="1.6" opacity=".75" />
+        <circle cx="299" cy="299" r="1.6" opacity=".75" />
 
-        <circle
-          cx="316"
-          cy="113"
-          r="1.8"
-          opacity=".9"
-        />
-
-        <circle
-          cx="76"
-          cy="261"
-          r="1.15"
-          opacity=".46"
-        />
-
-        <circle
-          cx="324"
-          cy="261"
-          r="1.15"
-          opacity=".46"
-        />
+        <circle cx="200" cy="151" r="1.5" opacity=".75" />
+        <circle cx="249" cy="200" r="1.5" opacity=".75" />
+        <circle cx="200" cy="249" r="1.5" opacity=".75" />
+        <circle cx="151" cy="200" r="1.5" opacity=".75" />
       </g>
 
-      {/* GENERATIONAL TIME MARKERS */}
+      {/* TIME / GENERATIONAL MARKERS */}
 
       <g
         className="hrp-symbol__time-marks"
         stroke="#E9EAE9"
-        strokeOpacity=".31"
+        strokeOpacity=".32"
         strokeLinecap="round"
       >
         {Array.from({ length: 12 }, (_, index) => {
@@ -388,9 +406,7 @@ function ResponsibilitySymbol({
               y1={y1}
               x2={x2}
               y2={y2}
-              strokeWidth={
-                index % 3 === 0 ? 1 : 0.65
-              }
+              strokeWidth={index % 3 === 0 ? 1 : 0.65}
             />
           );
         })}
@@ -401,9 +417,6 @@ function ResponsibilitySymbol({
 
 /* ==========================================================
    FULLSCREEN ENTRY TRANSITION
-
-   This is intentionally separate from the HOME glass.
-   It is mounted in document.body only when entering.
 ========================================================== */
 
 function ResponsibilityEntryTransition() {
@@ -417,25 +430,20 @@ function ResponsibilityEntryTransition() {
       <div className="hrp-entry__rings">
         <span />
         <span />
+        <span />
       </div>
 
       <div className="hrp-entry__symbol">
-        <ResponsibilitySymbol transition />
+        <CivilizationEvolutionSymbol transition />
       </div>
 
       <div className="hrp-entry__copy">
-        <span>
-          ARCHENOVA / PERMANENT INQUIRY
-        </span>
+        <span>ARCHENOVA / PERMANENT INQUIRY</span>
 
-        <strong>
-          Can Humanity Remain Responsible
-          <br />
-          for the Power It Creates?
-        </strong>
+        <strong>{INQUIRY_TITLE}</strong>
 
         <small>
-          Capability must never outgrow responsibility.
+          Civilization must remain open to correction.
         </small>
       </div>
     </div>
@@ -443,7 +451,7 @@ function ResponsibilityEntryTransition() {
 }
 
 /* ==========================================================
-   PORTAL
+   PERMANENT INQUIRY PORTAL
 ========================================================== */
 
 export default function HumanityResponsibilityPortal() {
@@ -455,8 +463,7 @@ export default function HumanityResponsibilityPortal() {
   const enteringRef = useRef(false);
 
   const [entering, setEntering] = useState(false);
-  const [reducedMotion, setReducedMotion] =
-    useState(false);
+  const [reducedMotion, setReducedMotion] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -466,9 +473,7 @@ export default function HumanityResponsibilityPortal() {
       "(prefers-reduced-motion: reduce)",
     );
 
-    const update = () => {
-      setReducedMotion(media.matches);
-    };
+    const update = () => setReducedMotion(media.matches);
 
     update();
 
@@ -482,9 +487,7 @@ export default function HumanityResponsibilityPortal() {
 
     media.addListener(update);
 
-    return () => {
-      media.removeListener(update);
-    };
+    return () => media.removeListener(update);
   }, []);
 
   const enterInquiry = useCallback(() => {
@@ -495,7 +498,7 @@ export default function HumanityResponsibilityPortal() {
 
     transitionTimerRef.current = setTimeout(() => {
       router.push(DESTINATION);
-    }, reducedMotion ? 160 : 1250);
+    }, reducedMotion ? 100 : 1150);
   }, [reducedMotion, router]);
 
   useEffect(() => {
@@ -518,7 +521,7 @@ export default function HumanityResponsibilityPortal() {
         aria-labelledby="hrp-portal-title"
       >
         <div className="hrp-portal__stage">
-          {/* ROW 1 / HEADER */}
+          {/* HEADER */}
 
           <header className="hrp-portal__header">
             <div className="hrp-portal__identity">
@@ -527,23 +530,30 @@ export default function HumanityResponsibilityPortal() {
               </span>
 
               <small>
-                 A QUESTION WITHOUT AN EXPIRATION DATE
+                THE OPEN QUESTION OF CIVILIZATION
               </small>
             </div>
           </header>
 
-          {/* ROW 2 / CENTRAL EXPERIENCE */}
+          {/* CENTRAL EXPERIENCE */}
 
           <div className="hrp-portal__experience">
             <div className="hrp-portal__statement">
+              <span className="hrp-portal__eyebrow">
+                SCIENCE / TECHNOLOGY / CIVILIZATION
+              </span>
 
               <h2 id="hrp-portal-title">
-                Can Humanity Remain
+                Can Civilization Advance
                 <br />
-                Responsible for the
+                Without Losing the Capacity
                 <br />
-                Power It Creates?
+                to Correct Itself?
               </h2>
+
+              <p className="hrp-portal__description">
+                {INQUIRY_SUBTITLE}
+              </p>
             </div>
 
             <button
@@ -551,20 +561,18 @@ export default function HumanityResponsibilityPortal() {
               className="hrp-portal__symbol-button"
               onClick={enterInquiry}
               disabled={entering}
-              aria-label="Explore ArcheNova's permanent inquiry: Can Humanity Remain Responsible for the Power It Creates?"
+              aria-label={`Explore ArcheNova's permanent inquiry: ${INQUIRY_TITLE}`}
             >
               <span className="hrp-portal__symbol-space">
                 <span
                   className="hrp-portal__symbol-object"
                   aria-hidden="true"
                 >
-                  <ResponsibilitySymbol />
+                  <CivilizationEvolutionSymbol />
                 </span>
 
                 <span className="hrp-portal__tap-hint">
-                  <span>
-                    EXPLORE THE QUESTION
-                  </span>
+                  <span>ENTER THE INQUIRY</span>
 
                   <svg
                     viewBox="0 0 16 16"
@@ -575,7 +583,7 @@ export default function HumanityResponsibilityPortal() {
                     <path
                       d="M3 8 H12 M8.5 4.5 L12 8 L8.5 11.5"
                       stroke="currentColor"
-                      strokeWidth="1.2"
+                      strokeWidth="1.1"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
@@ -585,27 +593,30 @@ export default function HumanityResponsibilityPortal() {
             </button>
 
             <div className="hrp-portal__sequence">
-              <span>POWER</span>
+              {INQUIRY_SEQUENCE.map((item, index) => (
+                <span
+                  className="hrp-portal__sequence-item"
+                  key={item}
+                >
+                  {index > 0 && (
+                    <i aria-hidden="true" />
+                  )}
 
-              <i aria-hidden="true" />
-
-              <span>RESPONSIBILITY</span>
-
-              <i aria-hidden="true" />
-
-              <span>GENERATIONS</span>
+                  <span>{item}</span>
+                </span>
+              ))}
             </div>
           </div>
 
-          {/* ROW 3 / FOOTER */}
+          {/* FOOTER */}
 
           <footer className="hrp-portal__footer">
-            <span>ARCHENOVA / HUMANITY</span>
+            <span>ARCHENOVA / CIVILIZATION</span>
 
             <i aria-hidden="true" />
 
             <span>
-              CAPABILITY MUST NEVER OUTGROW RESPONSIBILITY
+              DISCOVER / BUILD / QUESTION / CORRECT
             </span>
           </footer>
         </div>
@@ -620,10 +631,11 @@ export default function HumanityResponsibilityPortal() {
 
       <style jsx global>{`
         /* ==================================================
-           BASE
+           BASE / SCROLL-SAFE
 
-           No card-level background, gradient,
-           pseudo-glass, or blue overlay.
+           No internal vertical scroll.
+           No scroll trapping.
+           No additional glass.
         ================================================== */
 
         .hrp-portal,
@@ -639,24 +651,21 @@ export default function HumanityResponsibilityPortal() {
 
         .hrp-portal {
           position: relative;
-
-          display: flex;
-          flex-direction: column;
-          align-self: stretch;
-
-          flex: 1 0 auto;
+          display: block;
 
           width: 100%;
           max-width: 100%;
           min-width: 0;
 
-          min-height: 100%;
           height: auto;
+          min-height: 0;
+          max-height: none;
 
           margin: 0;
           padding: 0;
 
-          overflow: hidden;
+          overflow: visible;
+          overscroll-behavior: auto;
 
           border: 0;
           border-radius: 0;
@@ -683,62 +692,35 @@ export default function HumanityResponsibilityPortal() {
           font: inherit;
         }
 
-        .hrp-portal,
-        .hrp-portal__stage,
-        .hrp-portal__experience {
-          scrollbar-width: none;
-          -ms-overflow-style: none;
-        }
-
-        .hrp-portal::-webkit-scrollbar,
-        .hrp-portal__stage::-webkit-scrollbar,
-        .hrp-portal__experience::-webkit-scrollbar {
-          display: none;
-          width: 0;
-          height: 0;
-        }
-
         /* ==================================================
-           STAGE
-
-           Three rows only.
-           Entire stage is optically transparent.
+           STAGE / NATURAL DOCUMENT FLOW
         ================================================== */
 
         .hrp-portal__stage {
           position: relative;
 
           display: grid;
-
-          grid-template-rows:
-            auto
-            minmax(0, 1fr)
-            auto;
-
-          flex: 1 0 auto;
+          grid-template-rows: auto auto auto;
 
           width: 100%;
           min-width: 0;
 
-          min-height: clamp(560px, 58vw, 700px);
           height: auto;
+          min-height: 0;
           max-height: none;
 
-          padding: clamp(18px, 2.5vw, 32px);
+          margin: 0;
 
-          overflow: hidden;
+          padding:
+            clamp(24px, 3vw, 44px)
+            clamp(20px, 4vw, 64px)
+            clamp(22px, 3vw, 40px);
 
-          border: 0;
-          border-radius: 0;
-          outline: 0;
+          overflow: visible;
 
           background: transparent;
-          background-image: none;
-
+          border: 0;
           box-shadow: none;
-
-          -webkit-backdrop-filter: none;
-          backdrop-filter: none;
 
           transition:
             opacity 0.4s ease,
@@ -761,7 +743,6 @@ export default function HumanityResponsibilityPortal() {
           z-index: 2;
 
           display: flex;
-          align-items: flex-start;
           justify-content: center;
 
           width: 100%;
@@ -778,25 +759,23 @@ export default function HumanityResponsibilityPortal() {
         }
 
         .hrp-portal__identity > span {
-          color: rgba(255, 255, 255, 0.87);
+          color: rgba(255, 255, 255, 0.86);
 
           font-size: 10px;
           font-weight: 650;
-          letter-spacing: 0.25em;
+          letter-spacing: 0.23em;
         }
 
         .hrp-portal__identity > small {
-          color: rgba(255, 255, 255, 0.36);
+          color: rgba(255, 255, 255, 0.39);
 
-          font-size: 7px;
+          font-size: 8px;
           font-weight: 500;
           letter-spacing: 0.16em;
-
-          white-space: nowrap;
         }
 
         /* ==================================================
-           CENTRAL EXPERIENCE
+           EXPERIENCE
         ================================================== */
 
         .hrp-portal__experience {
@@ -808,18 +787,20 @@ export default function HumanityResponsibilityPortal() {
           align-items: center;
           justify-content: center;
 
-          align-self: stretch;
-
           width: 100%;
           min-width: 0;
+
+          height: auto;
           min-height: 0;
+          max-height: none;
 
           padding:
-            clamp(12px, 2vw, 24px)
+            clamp(38px, 5vw, 70px)
             0
-            clamp(10px, 1.6vw, 18px);
+            clamp(34px, 4vw, 58px);
 
-          overflow: hidden;
+          overflow: visible;
+          overscroll-behavior: auto;
 
           background: transparent;
         }
@@ -831,7 +812,7 @@ export default function HumanityResponsibilityPortal() {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 15px;
+          gap: 18px;
 
           width: 100%;
           min-width: 0;
@@ -842,34 +823,46 @@ export default function HumanityResponsibilityPortal() {
         .hrp-portal__eyebrow {
           color: rgba(235, 235, 233, 0.43);
 
-          font-size: 7px;
+          font-size: 9px;
           font-weight: 600;
-          letter-spacing: 0.18em;
-
-          text-align: center;
+          letter-spacing: 0.2em;
         }
 
         .hrp-portal__statement h2 {
           width: 100%;
+          max-width: 1080px;
+
           margin: 0;
 
           color: rgba(251, 251, 250, 0.97);
 
-          font-size: clamp(34px, 4.6vw, 63px);
+          font-size: clamp(34px, 4.2vw, 62px);
           font-weight: 300;
-          line-height: 1.06;
-          letter-spacing: -0.057em;
+          line-height: 1.12;
+          letter-spacing: -0.052em;
 
           text-align: center;
           text-wrap: balance;
         }
 
-        /* ==================================================
-           SYMBOL INTERACTION
+        .hrp-portal__description {
+          max-width: 690px;
 
-           No surrounding glass panel.
-           No large blue aura.
-           Only the SVG itself is illuminated.
+          margin: 0;
+
+          color: rgba(245, 245, 243, 0.55);
+
+          font-size: clamp(12px, 1.1vw, 15px);
+          font-weight: 400;
+          line-height: 1.85;
+          letter-spacing: 0.005em;
+
+          text-align: center;
+          text-wrap: pretty;
+        }
+
+        /* ==================================================
+           SYMBOL / INTERACTION
         ================================================== */
 
         .hrp-portal__symbol-button {
@@ -877,34 +870,23 @@ export default function HumanityResponsibilityPortal() {
           z-index: 3;
 
           display: block;
-          flex: 0 1 auto;
 
-          width: min(100%, 360px);
+          width: min(100%, 340px);
           min-width: 0;
 
-          margin:
-            clamp(5px, 0.8vw, 10px)
-            auto
-            0;
-
+          margin: clamp(18px, 2vw, 28px) auto 0;
           padding: 0;
 
           border: 0;
           outline: 0;
 
           background: transparent;
-          background-image: none;
-
           box-shadow: none;
 
-          -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-
           color: inherit;
-
           cursor: pointer;
-          appearance: none;
 
+          appearance: none;
           -webkit-appearance: none;
           -webkit-tap-highlight-color: transparent;
 
@@ -916,11 +898,9 @@ export default function HumanityResponsibilityPortal() {
         }
 
         .hrp-portal__symbol-button:focus-visible {
-          outline:
-            1px solid rgba(245, 245, 243, 0.72);
-
+          outline: 1px solid rgba(245, 245, 243, 0.75);
           outline-offset: 7px;
-          border-radius: 18px;
+          border-radius: 12px;
         }
 
         .hrp-portal__symbol-space {
@@ -929,22 +909,17 @@ export default function HumanityResponsibilityPortal() {
           display: grid;
           place-items: center;
 
-          width: min(100%, 330px);
-          aspect-ratio: 1.17;
+          width: min(100%, 310px);
+          aspect-ratio: 1.1;
 
           margin: 0 auto;
 
           background: transparent;
-          background-image: none;
-
           border: 0;
           box-shadow: none;
 
-          -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-
           transition:
-            transform 0.75s
+            transform 0.8s
             cubic-bezier(0.2, 0.8, 0.2, 1);
         }
 
@@ -958,8 +933,7 @@ export default function HumanityResponsibilityPortal() {
           height: 100%;
 
           animation:
-            hrp-symbol-float
-            13s ease-in-out infinite;
+            hrp-symbol-float 13s ease-in-out infinite;
         }
 
         .hrp-symbol {
@@ -972,7 +946,7 @@ export default function HumanityResponsibilityPortal() {
 
           filter:
             drop-shadow(
-              0 0 7px rgba(255, 255, 255, 0.055)
+              0 0 9px rgba(255, 255, 255, 0.07)
             );
         }
 
@@ -990,7 +964,15 @@ export default function HumanityResponsibilityPortal() {
 
           animation:
             hrp-orbits-breathe
-            14s ease-in-out infinite;
+            16s ease-in-out infinite;
+        }
+
+        .hrp-symbol__inner-rings {
+          transform-origin: 200px 200px;
+
+          animation:
+            hrp-inner-rings-breathe
+            12s ease-in-out infinite;
         }
 
         .hrp-symbol__open-arc {
@@ -999,9 +981,9 @@ export default function HumanityResponsibilityPortal() {
             11s ease-in-out infinite;
         }
 
-        .hrp-symbol__human {
+        .hrp-symbol__structure {
           animation:
-            hrp-human-breathe
+            hrp-structure-breathe
             9s ease-in-out infinite;
         }
 
@@ -1018,31 +1000,28 @@ export default function HumanityResponsibilityPortal() {
         }
 
         /* ==================================================
-           EXPLORE HINT
-
-           A minimal text-and-arrow affordance.
-           No pill, background, or additional card.
+           ENTRY HINT
         ================================================== */
 
         .hrp-portal__tap-hint {
           position: absolute;
           z-index: 2;
 
-          bottom: 0;
+          bottom: -8px;
           left: 50%;
 
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          gap: 8px;
+          gap: 9px;
 
           transform: translateX(-50%);
 
-          color: rgba(255, 255, 255, 0.49);
+          color: rgba(255, 255, 255, 0.52);
 
-          font-size: 8px;
+          font-size: 9px;
           font-weight: 550;
-          letter-spacing: 0.14em;
+          letter-spacing: 0.16em;
 
           white-space: nowrap;
 
@@ -1054,53 +1033,59 @@ export default function HumanityResponsibilityPortal() {
         .hrp-portal__tap-hint svg {
           display: block;
 
-          width: 13px;
-          height: 13px;
+          width: 14px;
+          height: 14px;
 
           flex: 0 0 auto;
 
-          transition:
-            transform 0.3s ease;
+          transition: transform 0.3s ease;
         }
 
         /* ==================================================
-           SEQUENCE
+           CIVILIZATION SEQUENCE
         ================================================== */
 
         .hrp-portal__sequence {
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
           justify-content: center;
+
           gap: 12px;
 
           width: 100%;
+          margin-top: 24px;
 
-          margin-top: 9px;
+          color: rgba(255, 255, 255, 0.43);
 
-          color: rgba(255, 255, 255, 0.37);
-
-          font-size: 7px;
+          font-size: 8px;
           font-weight: 550;
           letter-spacing: 0.12em;
-
-          white-space: nowrap;
         }
 
-        .hrp-portal__sequence i {
-          width: clamp(16px, 4vw, 42px);
+        .hrp-portal__sequence-item {
+          display: inline-flex;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .hrp-portal__sequence-item i {
+          display: block;
+
+          width: 24px;
           height: 1px;
 
           background:
             linear-gradient(
               90deg,
               transparent,
-              rgba(245, 245, 243, 0.30),
+              rgba(245, 245, 243, 0.36),
               transparent
             );
         }
 
         /* ==================================================
-           FOOTER — THIRD GRID ROW
+           FOOTER
         ================================================== */
 
         .hrp-portal__footer {
@@ -1108,28 +1093,26 @@ export default function HumanityResponsibilityPortal() {
           z-index: 2;
 
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
           justify-content: center;
 
-          gap: clamp(9px, 1.4vw, 16px);
-
-          align-self: end;
+          gap: 12px;
 
           width: 100%;
-          min-height: 20px;
 
-          padding-top: 12px;
+          padding-top: 18px;
 
           border-top:
             1px solid rgba(255, 255, 255, 0.055);
 
-          color: rgba(255, 255, 255, 0.34);
+          color: rgba(255, 255, 255, 0.36);
         }
 
         .hrp-portal__footer > span {
-          font-size: 6px;
-          font-weight: 610;
-          letter-spacing: 0.15em;
+          font-size: 8px;
+          font-weight: 600;
+          letter-spacing: 0.14em;
 
           text-align: center;
         }
@@ -1147,9 +1130,6 @@ export default function HumanityResponsibilityPortal() {
 
         /* ==================================================
            FULLSCREEN ENTRY TRANSITION
-
-           This is not a HOME card surface.
-           Neutral black replaces the old blue background.
         ================================================== */
 
         .hrp-entry {
@@ -1168,18 +1148,13 @@ export default function HumanityResponsibilityPortal() {
           padding: 0;
 
           overflow: hidden;
-          overflow: clip;
 
-          opacity: 0;
-          visibility: hidden;
+          opacity: 1;
+          visibility: visible;
+
           pointer-events: none;
 
           background: #050505;
-        }
-
-        .hrp-entry--active {
-          opacity: 1;
-          visibility: visible;
         }
 
         .hrp-entry__background {
@@ -1189,9 +1164,9 @@ export default function HumanityResponsibilityPortal() {
           background:
             radial-gradient(
               ellipse at 50% 45%,
-              #171717 0%,
-              #0B0B0B 43%,
-              #030303 83%
+              #181818 0%,
+              #0B0B0B 45%,
+              #030303 85%
             );
 
           opacity: 0;
@@ -1234,6 +1209,13 @@ export default function HumanityResponsibilityPortal() {
             rgba(245, 245, 243, 0.28);
         }
 
+        .hrp-entry__rings > span:nth-child(3) {
+          inset: 37%;
+
+          border-color:
+            rgba(245, 245, 243, 0.35);
+        }
+
         .hrp-entry__symbol {
           position: absolute;
 
@@ -1247,16 +1229,11 @@ export default function HumanityResponsibilityPortal() {
 
           transform:
             translate(-50%, -50%)
-            scale(0.75);
+            scale(0.7);
 
-          filter: blur(7px);
+          filter: blur(8px);
 
           pointer-events: none;
-        }
-
-        .hrp-entry__symbol .hrp-symbol {
-          width: 100%;
-          height: 100%;
         }
 
         .hrp-entry__copy {
@@ -1271,20 +1248,19 @@ export default function HumanityResponsibilityPortal() {
           align-items: center;
           gap: 12px;
 
-          width: min(100%, 760px);
+          width: min(100%, 800px);
 
           padding: 0 20px;
 
           opacity: 0;
 
-          transform:
-            translate(-50%, 8px);
+          transform: translate(-50%, 8px);
 
           text-align: center;
         }
 
         .hrp-entry__copy > span {
-          color: rgba(245, 245, 243, 0.62);
+          color: rgba(245, 245, 243, 0.64);
 
           font-size: 9px;
           font-weight: 650;
@@ -1292,28 +1268,26 @@ export default function HumanityResponsibilityPortal() {
         }
 
         .hrp-entry__copy > strong {
-          color: rgba(250, 250, 249, 0.96);
+          color: rgba(250, 250, 249, 0.97);
 
-          font-size: clamp(20px, 3.3vw, 36px);
+          font-size: clamp(21px, 3.2vw, 36px);
           font-weight: 300;
           line-height: 1.2;
           letter-spacing: -0.04em;
         }
 
         .hrp-entry__copy > small {
-          color: rgba(245, 245, 243, 0.53);
+          color: rgba(245, 245, 243, 0.55);
 
           font-size: 10px;
           line-height: 1.6;
-          letter-spacing: 0.04em;
         }
 
         /* ==================================================
            ENTERING STATE
         ================================================== */
 
-        .hrp-portal--entering
-        .hrp-portal__stage {
+        .hrp-portal--entering .hrp-portal__stage {
           opacity: 0;
 
           transform: scale(0.975);
@@ -1323,45 +1297,44 @@ export default function HumanityResponsibilityPortal() {
             blur(7px);
         }
 
-        .hrp-entry--active
-        .hrp-entry__background {
+        .hrp-entry--active .hrp-entry__background {
           animation:
             hrp-entry-background
-            1.25s ease forwards;
+            1.15s ease forwards;
         }
 
-        .hrp-entry--active
-        .hrp-entry__rings > span {
+        .hrp-entry--active .hrp-entry__rings > span {
           animation:
             hrp-entry-ring
-            1.25s ease-out forwards;
+            1.15s ease-out forwards;
         }
 
         .hrp-entry--active
         .hrp-entry__rings > span:nth-child(2) {
-          animation-delay: 0.12s;
+          animation-delay: 0.1s;
         }
 
         .hrp-entry--active
-        .hrp-entry__symbol {
+        .hrp-entry__rings > span:nth-child(3) {
+          animation-delay: 0.2s;
+        }
+
+        .hrp-entry--active .hrp-entry__symbol {
           animation:
             hrp-entry-symbol
-            1.25s
+            1.15s
             cubic-bezier(0.2, 0.75, 0.2, 1)
             forwards;
         }
 
-        .hrp-entry--active
-        .hrp-entry__copy {
+        .hrp-entry--active .hrp-entry__copy {
           animation:
             hrp-entry-copy
-            1.25s ease forwards;
+            1.15s ease forwards;
         }
 
         /* ==================================================
            AMBIENT ANIMATIONS
-
-           Small motion, no rotating card-sized glow.
         ================================================== */
 
         @keyframes hrp-symbol-float {
@@ -1376,31 +1349,43 @@ export default function HumanityResponsibilityPortal() {
 
         @keyframes hrp-core-light-breathe {
           0%, 100% {
-            opacity: 0.5;
-            transform: scale(0.96);
+            opacity: 0.55;
+            transform: scale(0.97);
           }
 
           50% {
-            opacity: 0.9;
+            opacity: 0.95;
             transform: scale(1.04);
           }
         }
 
         @keyframes hrp-orbits-breathe {
           0%, 100% {
-            opacity: 0.7;
-            transform: rotate(-1deg);
+            opacity: 0.72;
+            transform: rotate(-1.5deg);
           }
 
           50% {
             opacity: 1;
-            transform: rotate(1deg);
+            transform: rotate(1.5deg);
+          }
+        }
+
+        @keyframes hrp-inner-rings-breathe {
+          0%, 100% {
+            opacity: 0.62;
+            transform: scale(0.98);
+          }
+
+          50% {
+            opacity: 1;
+            transform: scale(1.02);
           }
         }
 
         @keyframes hrp-arc-breathe {
           0%, 100% {
-            opacity: 0.7;
+            opacity: 0.72;
           }
 
           50% {
@@ -1408,9 +1393,9 @@ export default function HumanityResponsibilityPortal() {
           }
         }
 
-        @keyframes hrp-human-breathe {
+        @keyframes hrp-structure-breathe {
           0%, 100% {
-            opacity: 0.87;
+            opacity: 0.78;
           }
 
           50% {
@@ -1420,7 +1405,7 @@ export default function HumanityResponsibilityPortal() {
 
         @keyframes hrp-core-breathe {
           0%, 100% {
-            opacity: 0.62;
+            opacity: 0.65;
           }
 
           50% {
@@ -1430,7 +1415,7 @@ export default function HumanityResponsibilityPortal() {
 
         @keyframes hrp-points-breathe {
           0%, 100% {
-            opacity: 0.6;
+            opacity: 0.65;
           }
 
           50% {
@@ -1439,7 +1424,7 @@ export default function HumanityResponsibilityPortal() {
         }
 
         /* ==================================================
-           ENTRY ANIMATIONS — 1250ms
+           ENTRY ANIMATIONS
         ================================================== */
 
         @keyframes hrp-entry-background {
@@ -1459,7 +1444,7 @@ export default function HumanityResponsibilityPortal() {
           }
 
           35% {
-            opacity: 0.6;
+            opacity: 0.55;
           }
 
           100% {
@@ -1474,9 +1459,9 @@ export default function HumanityResponsibilityPortal() {
 
             transform:
               translate(-50%, -50%)
-              scale(0.75);
+              scale(0.7);
 
-            filter: blur(7px);
+            filter: blur(8px);
           }
 
           25% {
@@ -1493,36 +1478,30 @@ export default function HumanityResponsibilityPortal() {
           }
 
           100% {
-            opacity: 0.2;
+            opacity: 0.15;
 
             transform:
               translate(-50%, -50%)
-              scale(1.3);
+              scale(1.32);
 
-            filter: blur(8px);
+            filter: blur(9px);
           }
         }
 
         @keyframes hrp-entry-copy {
-          0%, 18% {
+          0%, 15% {
             opacity: 0;
-
-            transform:
-              translate(-50%, 8px);
+            transform: translate(-50%, 8px);
           }
 
-          40%, 85% {
+          38%, 82% {
             opacity: 1;
-
-            transform:
-              translate(-50%, 0);
+            transform: translate(-50%, 0);
           }
 
           100% {
             opacity: 0;
-
-            transform:
-              translate(-50%, -5px);
+            transform: translate(-50%, -5px);
           }
         }
 
@@ -1534,198 +1513,146 @@ export default function HumanityResponsibilityPortal() {
           .hrp-portal__symbol-button:hover
           .hrp-portal__symbol-space {
             transform:
-              translateY(-2px)
-              scale(1.025);
+              translateY(-3px)
+              scale(1.035);
           }
 
           .hrp-portal__symbol-button:hover
           .hrp-symbol {
             filter:
               drop-shadow(
-                0 0 10px rgba(255, 255, 255, 0.12)
+                0 0 12px rgba(255, 255, 255, 0.14)
               );
           }
 
           .hrp-portal__symbol-button:hover
           .hrp-portal__tap-hint {
-            color: rgba(255, 255, 255, 0.88);
+            color: rgba(255, 255, 255, 0.92);
 
-            transform:
-              translate(-50%, -2px);
+            transform: translate(-50%, -2px);
           }
 
           .hrp-portal__symbol-button:hover
           .hrp-portal__tap-hint svg {
-            transform: translateX(3px);
+            transform: translateX(4px);
           }
         }
 
         /* ==================================================
-           MOBILE
+           MOBILE / NATURAL PAGE SCROLL
         ================================================== */
 
         @media (max-width: 700px) {
           .hrp-portal {
-            display: flex;
-            flex-direction: column;
-            align-self: stretch;
-
-            flex: 1 0 auto;
-
-            width: 100%;
-            min-width: 0;
-
-            min-height: max(
-              690px,
-              calc(100svh - 42px)
-            );
-
             height: auto;
+            min-height: 0;
             max-height: none;
 
-            overflow: hidden;
+            overflow: visible;
+            overscroll-behavior: auto;
           }
 
           .hrp-portal__stage {
-            display: grid;
-
-            grid-template-rows:
-              auto
-              minmax(0, 1fr)
-              auto;
-
-            flex: 1 0 auto;
-
-            width: 100%;
-            min-width: 0;
-
-            min-height: max(
-              690px,
-              calc(100svh - 42px)
-            );
+            grid-template-rows: auto auto auto;
 
             height: auto;
+            min-height: 0;
             max-height: none;
 
-            padding: 25px 18px 23px;
+            padding: 28px 18px 24px;
 
-            overflow: hidden;
-          }
-
-          .hrp-portal__header {
-            align-items: center;
+            overflow: visible;
           }
 
           .hrp-portal__identity {
-            gap: 5px;
+            gap: 6px;
           }
 
           .hrp-portal__identity > span {
             font-size: 9px;
-            letter-spacing: 0.17em;
+            letter-spacing: 0.16em;
           }
 
           .hrp-portal__identity > small {
-            font-size: 6px;
-            letter-spacing: 0.1em;
-          }
-
-          .hrp-portal__experience {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            align-self: stretch;
-
-            flex: 1 1 auto;
-
-            width: 100%;
-            min-width: 0;
-            min-height: 0;
-
-            height: auto;
-            max-height: none;
-
-            padding: 35px 0 30px;
-
-            overflow-x: hidden;
-            overflow-y: auto;
-
-            overscroll-behavior-y: contain;
-            -webkit-overflow-scrolling: touch;
-          }
-
-          .hrp-portal__statement {
-            flex: 0 0 auto;
-            gap: 11px;
-          }
-
-          .hrp-portal__eyebrow {
-            font-size: 6px;
-            letter-spacing: 0.1em;
-          }
-
-          .hrp-portal__statement h2 {
-            font-size: clamp(29px, 7vw, 38px);
-            line-height: 1.07;
-            letter-spacing: -0.055em;
-          }
-
-          .hrp-portal__symbol-button {
-            flex: 0 0 auto;
-
-            width: min(100%, 310px);
-
-            margin-top: 10px;
-          }
-
-          .hrp-portal__symbol-space {
-            width: min(100%, 275px);
-            aspect-ratio: 1.12;
-          }
-
-          .hrp-portal__tap-hint {
-            gap: 6px;
-
             font-size: 7px;
             letter-spacing: 0.1em;
           }
 
-          .hrp-portal__tap-hint svg {
-            width: 12px;
-            height: 12px;
+          .hrp-portal__experience {
+            height: auto;
+            min-height: 0;
+            max-height: none;
+
+            padding: 44px 0 40px;
+
+            overflow: visible;
+            overscroll-behavior: auto;
+          }
+
+          .hrp-portal__statement {
+            gap: 15px;
+          }
+
+          .hrp-portal__eyebrow {
+            font-size: 7px;
+            letter-spacing: 0.12em;
+          }
+
+          .hrp-portal__statement h2 {
+            font-size: clamp(28px, 7vw, 39px);
+            line-height: 1.12;
+            letter-spacing: -0.05em;
+          }
+
+          .hrp-portal__statement h2 br {
+            display: none;
+          }
+
+          .hrp-portal__description {
+            max-width: 440px;
+
+            font-size: 12px;
+            line-height: 1.75;
+          }
+
+          .hrp-portal__symbol-button {
+            width: min(100%, 290px);
+            margin-top: 20px;
+          }
+
+          .hrp-portal__symbol-space {
+            width: min(100%, 260px);
+          }
+
+          .hrp-portal__tap-hint {
+            font-size: 8px;
+            letter-spacing: 0.11em;
           }
 
           .hrp-portal__sequence {
-            flex: 0 0 auto;
-
             gap: 8px;
-            margin-top: 9px;
+            margin-top: 22px;
 
-            font-size: 6px;
+            font-size: 7px;
             letter-spacing: 0.07em;
           }
 
-          .hrp-portal__sequence i {
-            width: 17px;
+          .hrp-portal__sequence-item {
+            gap: 8px;
+          }
+
+          .hrp-portal__sequence-item i {
+            width: 14px;
           }
 
           .hrp-portal__footer {
-            flex: 0 0 auto;
-            align-self: end;
-
-            gap: 7px;
-
-            width: 100%;
-            min-height: 20px;
-
-            padding-top: 12px;
+            gap: 8px;
+            padding-top: 15px;
           }
 
           .hrp-portal__footer > span {
-            font-size: 5.5px;
-            letter-spacing: 0.08em;
+            font-size: 6px;
+            letter-spacing: 0.09em;
           }
 
           .hrp-entry__symbol {
@@ -1733,113 +1660,44 @@ export default function HumanityResponsibilityPortal() {
           }
         }
 
-        /* ==================================================
-           NARROW MOBILE
-        ================================================== */
-
         @media (max-width: 430px) {
           .hrp-portal__stage {
-            padding: 25px 15px 21px;
-          }
-
-          .hrp-portal__identity > span {
-            font-size: 8px;
-            letter-spacing: 0.13em;
+            padding: 25px 15px 22px;
           }
 
           .hrp-portal__statement h2 {
-            font-size: clamp(27px, 7.15vw, 34px);
+            font-size: clamp(27px, 7.1vw, 34px);
           }
 
           .hrp-portal__symbol-space {
-            width: min(100%, 260px);
+            width: min(100%, 240px);
           }
 
-          .hrp-portal__footer > span {
-            font-size: 5px;
+          .hrp-portal__sequence {
+            column-gap: 7px;
+            row-gap: 10px;
           }
         }
 
         @media (max-width: 360px) {
           .hrp-portal__stage {
-            padding: 23px 13px 19px;
+            padding: 23px 12px 20px;
           }
 
           .hrp-portal__statement h2 {
             font-size: 25px;
           }
 
-          .hrp-portal__eyebrow {
-            font-size: 5.5px;
-          }
-
-          .hrp-portal__symbol-space {
-            width: min(100%, 235px);
-          }
-
-          .hrp-portal__sequence {
-            gap: 5px;
-            font-size: 5.5px;
-          }
-
-          .hrp-portal__sequence i {
-            width: 12px;
-          }
-
-          .hrp-portal__footer > span {
-            font-size: 4.5px;
-          }
-        }
-
-        /* ==================================================
-           SHORT VIEWPORTS
-        ================================================== */
-
-        @media (max-width: 700px) and (max-height: 760px) {
-          .hrp-portal__experience {
-            padding: 24px 0 20px;
-          }
-
-          .hrp-portal__statement {
-            gap: 8px;
-          }
-
-          .hrp-portal__symbol-button {
-            margin-top: 6px;
-          }
-
-          .hrp-portal__symbol-space {
-            width: min(100%, 245px);
-          }
-
-          .hrp-portal__sequence {
-            margin-top: 6px;
-          }
-        }
-
-        @media (max-width: 700px) and (max-height: 640px) {
-          .hrp-portal__experience {
-            padding: 18px 0 15px;
-          }
-
-          .hrp-portal__statement h2 {
-            font-size: clamp(25px, 6.6vw, 32px);
-          }
-
           .hrp-portal__symbol-space {
             width: min(100%, 215px);
           }
-        }
 
-        @media (max-width: 430px) and (max-height: 760px) {
-          .hrp-portal__symbol-space {
-            width: min(100%, 235px);
+          .hrp-portal__sequence {
+            font-size: 6px;
           }
-        }
 
-        @media (max-width: 430px) and (max-height: 640px) {
-          .hrp-portal__symbol-space {
-            width: min(100%, 205px);
+          .hrp-portal__sequence-item i {
+            width: 10px;
           }
         }
 
@@ -1851,8 +1709,9 @@ export default function HumanityResponsibilityPortal() {
           .hrp-portal__symbol-object,
           .hrp-symbol__core-light,
           .hrp-symbol__orbits,
+          .hrp-symbol__inner-rings,
           .hrp-symbol__open-arc,
-          .hrp-symbol__human,
+          .hrp-symbol__structure,
           .hrp-symbol__core,
           .hrp-symbol__points {
             animation: none !important;
@@ -1860,7 +1719,7 @@ export default function HumanityResponsibilityPortal() {
 
           .hrp-portal__symbol-space,
           .hrp-portal__stage {
-            transition-duration: 0.12s !important;
+            transition: none !important;
           }
 
           .hrp-entry--active
@@ -1893,9 +1752,7 @@ export default function HumanityResponsibilityPortal() {
           .hrp-entry--active
           .hrp-entry__copy {
             opacity: 1;
-
-            transform:
-              translate(-50%, 0);
+            transform: translate(-50%, 0);
           }
         }
       `}</style>

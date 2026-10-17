@@ -95,7 +95,7 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     id: "humanity-responsibility",
     mark: "⑇",
     title: "PERMANENT INQUIRY",
-    subtitle: "Can humanity handle its power?",
+    subtitle: "Can civilization remain correctable?",
   },
   {
     id: "archenova-continuity",

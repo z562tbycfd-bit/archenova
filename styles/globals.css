@@ -68787,3 +68787,83 @@ main#home-top.an-home-2026
 
 
 
+/* ==========================================================
+   ARCHENOVA / PERMANENT INQUIRY
+   HOME SCROLL CONTINUITY
+
+   Scope: humanity-responsibility only.
+   Preserve the outer obsidian glass appearance.
+========================================================== */
+
+main#home-top.an-home-2026
+> section#humanity-responsibility {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+
+  overscroll-behavior-y: auto !important;
+  scroll-snap-align: start;
+}
+
+main#home-top.an-home-2026
+> section#humanity-responsibility
+> .an-home-2026__glass {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+
+  overscroll-behavior-y: auto !important;
+}
+
+main#home-top.an-home-2026
+> section#humanity-responsibility
+.hrp-portal,
+main#home-top.an-home-2026
+> section#humanity-responsibility
+.hrp-portal__stage,
+main#home-top.an-home-2026
+> section#humanity-responsibility
+.hrp-portal__experience {
+  height: auto !important;
+  max-height: none !important;
+
+  overflow-y: visible !important;
+  overscroll-behavior-y: auto !important;
+}
+
+/* Avoid forced snapping inside long content. */
+
+@media (max-width: 700px) {
+  main#home-top.an-home-2026
+  > section#humanity-responsibility {
+    scroll-snap-align: none !important;
+  }
+}
+
+/* ==========================================================
+   END / HOME SCROLL CONTINUITY
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
