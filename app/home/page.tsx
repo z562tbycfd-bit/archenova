@@ -96,7 +96,10 @@ const CIVILIZATION_ARCHITECTURE = [
    Three horizontal perspectives.
 
    Refined ultra-thin navigation arrows.
-   All existing dimensions and functionality preserved.
+   Minimal text-only perspective navigation.
+
+   All existing dimensions, content,
+   and functionality preserved.
 ========================================================== */
 
 const PERSPECTIVES = [
@@ -175,6 +178,10 @@ function CivilizationPerspectives() {
             }
           }}
         >
+          {/* ==================================================
+              01 / HORIZON
+          ================================================== */}
+
           <div
             className="an-civilization-perspectives__slide"
             role="group"
@@ -183,6 +190,10 @@ function CivilizationPerspectives() {
           >
             <ArcheNovaHorizon embedded />
           </div>
+
+          {/* ==================================================
+              02 / DIGITAL TWIN
+          ================================================== */}
 
           <div
             className="an-civilization-perspectives__slide"
@@ -202,6 +213,10 @@ function CivilizationPerspectives() {
             </div>
           </div>
 
+          {/* ==================================================
+              03 / STILLNESS
+          ================================================== */}
+
           <div
             className="an-civilization-perspectives__slide"
             role="group"
@@ -211,6 +226,10 @@ function CivilizationPerspectives() {
             <ArcheNovaStillness embedded />
           </div>
         </div>
+
+        {/* ==================================================
+            PERSPECTIVE NAVIGATION
+        ================================================== */}
 
         <nav
           className="an-civilization-perspectives__navigation"
@@ -247,7 +266,11 @@ function CivilizationPerspectives() {
 
           {/* ==================================================
               PERSPECTIVE TABS
-              Original structure preserved
+
+              HORIZON / DIGITAL TWIN / STILLNESS
+
+              Number labels removed from visible UI.
+              All tab interactions preserved.
           ================================================== */}
 
           <div className="an-civilization-perspectives__tabs">
@@ -258,17 +281,16 @@ function CivilizationPerspectives() {
                 className={[
                   "an-civilization-perspectives__tab",
                   active === index ? "is-active" : "",
-                ].filter(Boolean).join(" ")}
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
                 aria-label={`Show ${item.label}`}
                 aria-current={
                   active === index ? "true" : undefined
                 }
                 onClick={() => goTo(index)}
               >
-                <span className="an-civilization-perspectives__tab-number">
-                  {item.number}
-                </span>
-                <span>{item.label}</span>
+                {item.label}
               </button>
             ))}
           </div>
