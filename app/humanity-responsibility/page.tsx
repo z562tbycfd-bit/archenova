@@ -193,15 +193,7 @@ const SIGNAL_TERMS: Record<string,string[]> = {
   energy:["energy","power grid","electricity","nuclear","fusion","solar","battery","climate","hydrogen","renewable"],
   life:["biology","biological","medicine","health","genome","gene","cell","vaccine","clinical","biotech","brain"],
   infrastructure:["infrastructure","network","transport","water","supply chain","semiconductor","communication","resilience","satellite","space"],
-  governance:["governance","policy","law","regulation","institution","ethics","rights","security","international","oversight"],
-  principle:["science","research","discovery","evidence","physics","experiment"],
-  capacities:["safety","risk","monitoring","oversight","reliability","verification","security"],
-  fields:["science","technology","research","innovation","discovery"],
-  conditions:["engineering","reliability","failure","safety","system","control"],
-  validation:["study","trial","experiment","benchmark","evaluation","replication"],
-  horizons:["long-term","sustainability","climate","environment","future","stewardship"],
-  counterfactual:["resilience","crisis","disruption","failure","recovery","risk"],
-  evidence:["paper","research","evidence","review","study","journal"]
+  governance:["governance","policy","law","regulation","institution","ethics","rights","security","international","oversight"]
 };
 function normalizeSignal(raw:unknown,index:number):InquirySignal|null {
   if(!raw || typeof raw!=="object")return null;
@@ -362,7 +354,7 @@ export default function HumanityResponsibilityPage(){
       <div className="pi-wrap">
         <Reveal><span className="pi-kicker">01 / THE GOVERNING PRINCIPLE</span><h2 id="pi-principle" className="pi-display">Advance capability.<br/><span>Preserve correction.</span></h2><p className="pi-lead">Progress is not merely the accumulation of power. It is the expansion of reproducible knowledge and reliable capability without surrendering the means to observe, challenge, correct, recover, and revise.</p></Reveal>
         <Reveal><div className="pi-glass pi-formula"><span className="pi-label">THE FUNDAMENTAL DISTINCTION</span><div>REALITY <i>≠</i> MODEL <i>≠</i> CAPABILITY <i>≠</i> VALUE</div><p>Neither a representation nor a successful demonstration authorizes an unlimited claim. Reality retains the ability to disprove every model, and society must retain the ability to revise every consequential system.</p></div></Reveal>
-        <SignalsPanel section="principle" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-three">
+        <div className="pi-three">
           {[
             ["EPISTEMIC DISCIPLINE","Reality retains veto","Observations, measurements, and models are not reality itself. Scientific progress requires discriminating tests, independent replication, explicit uncertainty, and revision when evidence changes."],
             ["ENGINEERED CORRECTABILITY","Power remains interruptible","A system must be observable and challengeable, with effective intervention before adverse consequences propagate beyond control. Nominal safeguards are not enough."],
@@ -373,18 +365,18 @@ export default function HumanityResponsibilityPage(){
     </section>
     <section id="capacities" className="pi-section" aria-labelledby="pi-capacities">
       <div className="pi-wrap"><SectionTitle number="02" label="THE CONTINUOUS TEST" title="Correctability is" muted="a living capacity.">The relevant question is not whether a safeguard exists on paper, but whether it remains effective as complexity, autonomy, dependencies, and consequences change.</SectionTitle>
-        <SignalsPanel section="capacities" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-rows">{CAPACITIES.map((c,i)=><Reveal key={c.title}><article className="pi-row"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 06</span><h3>{c.title}</h3></div><div><h4>{c.question}</h4><p>{c.body}</p><div className="pi-row__evidence"><span className="pi-label">EVIDENCE TO SEEK</span><p>{c.evidence}</p></div></div></article></Reveal>)}</div>
+        <div className="pi-rows">{CAPACITIES.map((c,i)=><Reveal key={c.title}><article className="pi-row"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 06</span><h3>{c.title}</h3></div><div><h4>{c.question}</h4><p>{c.body}</p><div className="pi-row__evidence"><span className="pi-label">EVIDENCE TO SEEK</span><p>{c.evidence}</p></div></div></article></Reveal>)}</div>
       </div>
     </section>
     <section id="fields" className="pi-section pi-fields" aria-labelledby="pi-fields">
       <div className="pi-wrap"><SectionTitle number="03" label="RESEARCH LIBRARY" title="One inquiry." muted="Five fields.">The same governing principle must be tested against different causal structures, physical constraints, institutional arrangements, and evidence boundaries. Select a field to examine its research architecture.</SectionTitle>
-        <SignalsPanel section="fields" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><nav className="pi-field-grid" aria-label="Research fields">{DOMAINS.map(d=><a href={`#${d.id}`} key={d.id}><span className="pi-label">{d.number} / 05</span><strong>{d.name}</strong><small>{d.subtitle}</small><span className="pi-field-grid__arrow">↗</span></a>)}</nav>
+        <nav className="pi-field-grid" aria-label="Research fields">{DOMAINS.map(d=><a href={`#${d.id}`} key={d.id}><span className="pi-label">{d.number} / 05</span><strong>{d.name}</strong><small>{d.subtitle}</small><span className="pi-field-grid__arrow">↗</span></a>)}</nav>
       </div>
     </section>
     {DOMAINS.map(d=><ResearchField key={d.id} domain={d} signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/>)}
     <section id="conditions" className="pi-section" aria-labelledby="pi-conditions">
       <div className="pi-wrap"><SectionTitle number="04" label="ENGINEERING CONDITIONS" title="The response must" muted="precede the consequence.">The following conditions are proposed engineering requirements, not universal physical laws. Each real application needs measurable thresholds, domain-specific evidence, and independent validation.</SectionTitle>
-        <SignalsPanel section="conditions" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-stack">
+        <div className="pi-stack">
           {[
             ["RESPONSE WINDOW","Correction must arrive in time.","Detection latency + decision latency + intervention latency must remain below the relevant harm threshold. Test degraded sensors, communications, personnel, and infrastructure.","Does the response still work when the systems it depends on are impaired?"],
             ["PERMISSIBLE SCALE","Reach must not outrun oversight.","Expanded autonomy, exposure, coupling, or deployment can create new failure pathways. A successful pilot does not automatically justify unrestricted scale.","What new evidence is required before the next increase in reach?"],
@@ -395,17 +387,17 @@ export default function HumanityResponsibilityPage(){
     </section>
     <section id="validation" className="pi-section" aria-labelledby="pi-validation">
       <div className="pi-wrap"><SectionTitle number="05" label="FROM EVIDENCE TO AUTHORITY" title="No expansion" muted="without renewed evidence.">Six proposed gates connect scientific discrimination to bounded deployment. Open each gate to inspect its test. The gates are design propositions, not a certification of any existing system.</SectionTitle><Reveal><Gates/></Reveal>
-        <SignalsPanel section="validation" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><Reveal><p className="pi-endnote">A claim must not advance beyond the evidence that supports it. ArcheNova does not claim to have completed these tests for every domain or application.</p></Reveal>
+        <Reveal><p className="pi-endnote">A claim must not advance beyond the evidence that supports it. ArcheNova does not claim to have completed these tests for every domain or application.</p></Reveal>
       </div>
     </section>
     <section id="horizons" className="pi-section" aria-labelledby="pi-horizons">
       <div className="pi-wrap"><SectionTitle number="06" label="TIME AND STEWARDSHIP" title="Consequences may outlive" muted="their creators.">The relevant timescale is the duration of the consequence, not the lifetime of the organization or product that produced it.</SectionTitle>
-        <SignalsPanel section="horizons" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-rows">{HORIZONS.map((h,i)=><Reveal key={h.title}><article className="pi-row pi-time"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 04</span><span className="pi-time__label">{h.label}</span></div><div><h3>{h.title}</h3><p>{h.body}</p></div></article></Reveal>)}</div>
+        <div className="pi-rows">{HORIZONS.map((h,i)=><Reveal key={h.title}><article className="pi-row pi-time"><div><span className="pi-label">{String(i+1).padStart(2,"0")} / 04</span><span className="pi-time__label">{h.label}</span></div><div><h3>{h.title}</h3><p>{h.body}</p></div></article></Reveal>)}</div>
       </div>
     </section>
     <section id="counterfactual" className="pi-section" aria-labelledby="pi-counterfactual">
       <div className="pi-wrap"><SectionTitle number="07" label="COUNTERFACTUAL STRESS TEST" title="Design for" muted="the day after.">A civilization-scale system must not depend indefinitely on its original creators, funding, suppliers, or assumptions.</SectionTitle>
-        <SignalsPanel section="counterfactual" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><Reveal><article className="pi-glass pi-scenario"><span className="pi-label">HYPOTHETICAL SCENARIO / NOT A REPORTED EVENT</span><h3>The original operator disappears.</h3><p>A consequential system remains in use. Its original team is gone, records are incomplete, a critical supplier has failed, and a previously unknown hazard emerges.</p>
+        <Reveal><article className="pi-glass pi-scenario"><span className="pi-label">HYPOTHETICAL SCENARIO / NOT A REPORTED EVENT</span><h3>The original operator disappears.</h3><p>A consequential system remains in use. Its original team is gone, records are incomplete, a critical supplier has failed, and a previously unknown hazard emerges.</p>
           {["Who can establish what the system is doing?","Who has the authority and resources to intervene?","Can essential functions continue through an alternative pathway?","Who provides remedy if harm cannot be reversed?","What evidence justifies continued operation—or closure?"].map((q,i)=><div className="pi-scenario__question" key={q}><span className="pi-label">{String(i+1).padStart(2,"0")}</span><p>{q}</p></div>)}
           <strong>If these questions lack credible answers, the original design contains an unresolved responsibility gap.</strong>
         </article></Reveal>
@@ -413,7 +405,7 @@ export default function HumanityResponsibilityPage(){
     </section>
     <section id="evidence" className="pi-section" aria-labelledby="pi-evidence">
       <div className="pi-wrap"><SectionTitle number="08" label="EVIDENCE & LIMITS" title="The framework must" muted="answer to reality.">An architecture is valuable only if it improves real decisions and remains open to independent criticism, contrary evidence, and revision.</SectionTitle>
-        <SignalsPanel section="evidence" signals={signals} status={signalStatus} updatedAt={feedUpdatedAt}/><div className="pi-three pi-evidence">
+        <div className="pi-three pi-evidence">
           {[
             ["PRESENTED HERE","A research proposition","A governing principle, domain-specific causal analysis, proposed design conditions, falsification criteria, and a framework for durable correction."],
             ["REQUIRES VALIDATION","Operational effectiveness","Measurable variables, application-specific comparisons, realistic failure tests, qualified independent review, and evidence from actual operating conditions."],
