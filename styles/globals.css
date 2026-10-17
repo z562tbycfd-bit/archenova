@@ -68772,26 +68772,6 @@ main#home-top.an-home-2026
 ========================================================== */
 
 
-/* Civilization Digital Twin — Full Frame */
-
-main#home-top.an-home-2026
-#archenova-civilization-perspectives
-.an-civilization-perspectives__twin {
-  padding: 0 !important;
-}
-
-main#home-top.an-home-2026
-#archenova-civilization-perspectives
-.an-civilization-perspectives__image {
-  width: 100% !important;
-  height: 100% !important;
-  max-width: none !important;
-  max-height: none !important;
-  object-fit: cover !important;
-  object-position: center !important;
-}
-
-
 
 
 
