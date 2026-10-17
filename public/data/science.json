@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-17T19:04:42.375Z",
+  "updated": "2026-10-17T22:00:23.335Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What a worm's brain can teach us about sex differences in the nervous system",
+      "url": "https://phys.org/news/2026-10-worm-brain-sex-differences-nervous.html",
+      "summary": "Ever wonder what goes on inside the brain of a worm—how it processes information, responds to stimuli and perceives the world around it? Northeastern University researchers have opened up that can of worms, specifically …",
+      "ts": 1792272001000,
+      "publishedAt": "2026-10-17T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How one of Earth's worst volcanic disasters affected societies in prehistoric Japan",
+      "url": "https://phys.org/news/2026-10-earth-worst-volcanic-disasters-affected.html",
+      "summary": "A new international study led by Lund University examines what happened to population levels after the Kikai-Akahoya volcanic eruption in prehistoric Japan. The results paint a more complex picture than what had previous…",
+      "ts": 1792267201000,
+      "publishedAt": "2026-10-17T20:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Simulations explore nuclear mitigation of asteroid threats",
@@ -783,22 +799,6 @@
       "title": "ClaimScope: Label-Blind Witness Verification for Mathematical Claim Auditing",
       "url": "https://arxiv.org/abs/2610.21581",
       "summary": "arXiv:2610.21581v1 Announce Type: new Abstract: Mathematical agents are commonly evaluated by answer accuracy or proof acceptance. We introduce ClaimScope, a 72-task benchmark for auditing proposed claims through a verdi…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design",
-      "url": "https://arxiv.org/abs/2610.21591",
-      "summary": "arXiv:2610.21591v1 Announce Type: new Abstract: Machine learning (ML) for analog IC design is constrained by limited open data and the absence of standardized evaluation: results reported in different papers are typicall…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models",
-      "url": "https://arxiv.org/abs/2610.21594",
-      "summary": "arXiv:2610.21594v1 Announce Type: new Abstract: Looped Transformers improve parameter efficiency by repeatedly applying the same Transformer layers. However, generating each token still involves sequential computation an…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }

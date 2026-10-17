@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-17T19:04:45.244Z",
+  "updated": "2026-10-17T22:00:24.935Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell,…",
+      "ts": 1792270813000,
+      "publishedAt": "2026-10-17T21:00:13.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "United Nations News",
       "title": "Flour sacks turned flood barriers: Gaza faces another winter without safe shelter",
@@ -249,7 +258,7 @@
       "source": "MIT Technology Review",
       "title": "This implant can restore sight for patients with macular degeneration",
       "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
-      "summary": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in…",
+      "summary": "More than 5 million people around the world have an advanced form of age-related macular degeneration (AMD) called geographic atrophy, in which cells in the retinas die off. And until now, no treatment could restore thei…",
       "ts": 1792141200000,
       "publishedAt": "2026-10-16T09:00:00.000Z",
       "categoryId": "ai-compute"
@@ -801,15 +810,6 @@
       "summary": "Registration is open for the 2026 NASA Space Apps Challenge, a two-day global event on Saturday, Nov. 14 and Sunday, Nov. 15, where teams work to create solutions inspired by NASA’s most ambitious exploration goals and m…",
       "ts": 1792080788000,
       "publishedAt": "2026-10-15T16:13:08.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "summary": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space. Through NASA’s …",
-      "ts": 1792079867000,
-      "publishedAt": "2026-10-15T15:57:47.000Z",
       "categoryId": "space"
     }
   ],
