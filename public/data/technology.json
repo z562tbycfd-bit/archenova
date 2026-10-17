@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-17T03:30:43.929Z",
+  "updated": "2026-10-17T08:20:06.689Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 17 – 3D 67P",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+      "summary": "APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
+      "ts": 1792209900000,
+      "publishedAt": "2026-10-17T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Jury rules in favor of ousted Cambridge scientist David Sabatini, with $6 million in damages to be awarded",
@@ -633,6 +642,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "ts": 1792108800000,
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Proteomics Reveals Ovarian Remodeling Decades After Menopause",
       "url": "https://www.genengnews.com/topics/omics/proteomics-reveals-ovarian-remodeling-decades-after-menopause/",
@@ -792,24 +810,6 @@
       "summary": "Former FDA commissioners Rob Califf (Obama and Biden administrations), Scott Gottlieb, and Ned Sharpless (both from the first Trump administration) criticized the officials who ran the agency during a massive…",
       "ts": 1792079458000,
       "publishedAt": "2026-10-15T15:50:58.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Illumina Combines Multiomics Informatics Applications in New BioInsight Platform",
-      "url": "https://www.genengnews.com/topics/omics/illumina-combines-multiomics-informatics-applications-in-new-bioinsight-platform/",
-      "summary": "Illumina is bringing its software, AI, and data offerings together in the new BioInsight platform, designed to help scientists analyze genomic and multiomic datasets. It will be showcased at ASHG in Montreal. The post Il…",
-      "ts": 1792079241000,
-      "publishedAt": "2026-10-15T15:47:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Verastem’s KRAS inhibitor shows promise in pancreatic cancer",
-      "url": "https://www.statnews.com/2026/10/15/biotech-news-verastem-kras-inhibitor-shows-promise-in-pancreatic-cancer/?utm_campaign=rss",
-      "summary": "Verastem Oncology reports encouraging early results for its KRAS G12D inhibitor, which it’s studying in more than 200 patients with advanced solid tumors like metastatic pancreatic ductal adenocarcinoma and non-small…",
-      "ts": 1792078995000,
-      "publishedAt": "2026-10-15T15:43:15.000Z",
       "categoryId": "bio"
     }
   ],
