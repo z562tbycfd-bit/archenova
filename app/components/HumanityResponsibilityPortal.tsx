@@ -7,45 +7,29 @@ import {
   useRef,
   useState,
 } from "react";
-
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 
 /* ==========================================================
    ARCHENOVA / PERMANENT INQUIRY
+   OPEN CIVILIZATION / LIVING INQUIRY
 
-   CIVILIZATION AS AN OPEN, CORRECTABLE SYSTEM
+   Preserved:
+   - All HOME geometry and outer glass ownership
+   - Natural page scroll, no nested scroll container
+   - Inquiry copy, sequence, footer and destination
+   - Reduced motion support
 
-   HOME OWNS:
-   - Outer obsidian glass
-   - HOME section geometry
-   - Vertical page scrolling
-   - HOME navigation
-
-   PORTAL OWNS:
-   - Inquiry identity
-   - Central question
-   - Civilization evolution symbol
-   - Entry interaction
-   - Fullscreen transition
-
-   PRINCIPLES:
-   - Reality remains independent of representation.
-   - Scientific and technological capability can evolve.
-   - Civilization must remain observable and correctable.
-   - No inner vertical scroll container.
-   - No additional HOME glass surface.
-   - Reduced-motion accessibility.
+   Reimagined:
+   - Non-planetary living civilization architecture
+   - Immersive, depth-based entry transition
 ========================================================== */
 
 const DESTINATION = "/humanity-responsibility";
-
 const INQUIRY_TITLE =
   "Can Civilization Advance Without Losing the Capacity to Correct Itself?";
-
 const INQUIRY_SUBTITLE =
   "Scientific discovery, technological capability, and civilization must evolve without losing the ability to question, correct, and recover.";
-
 const INQUIRY_SEQUENCE = [
   "DISCOVERY",
   "CAPABILITY",
@@ -53,507 +37,220 @@ const INQUIRY_SEQUENCE = [
   "CORRECTION",
 ] as const;
 
-/* ==========================================================
-   CIVILIZATION EVOLUTION SYMBOL
+/* Deterministic geometry; no random values during rendering. */
+const INQUIRY_PARTICLES = Array.from({ length: 48 }, (_, i) => {
+  const angle = i * 2.399963229728653;
+  const radius = 112 + Math.sqrt((i + 0.5) / 48) * 74;
+  return {
+    x: 200 + Math.cos(angle) * radius,
+    y: 200 + Math.sin(angle) * radius,
+    r: i % 11 === 0 ? 1.05 : 0.45,
+    opacity: 0.15 + ((i * 7) % 10) * 0.055,
+  };
+});
 
-   CENTER:
-   Reality and the limits of representation.
-
-   INNER STRUCTURE:
-   Scientific discovery and reproducibility.
-
-   INTERCONNECTED ORBITS:
-   Technology, intelligence, infrastructure, life.
-
-   OPEN OUTER ARC:
-   Civilization is never a finished system.
-
-   RETURN PATH:
-   Observation, correction, recovery.
-
-   No human silhouette.
-   No background rectangle.
-   No additional glass layer.
-========================================================== */
-
+/*
+  THE OPEN CIVILIZATION
+  No planet, globe, sphere or planetary geography.
+  An architectural lattice grows around an intentionally open center.
+  Nested incomplete structures express inquiry, revision and recovery.
+*/
 function CivilizationEvolutionSymbol({
   transition = false,
 }: {
   transition?: boolean;
 }) {
   const id = useId().replace(/:/g, "");
+  const silver = `hrp-silver-${id}`;
+  const light = `hrp-light-${id}`;
+  const beam = `hrp-beam-${id}`;
 
-  const orbitGradient = `hrp-orbit-${id}`;
-  const coreGradient = `hrp-core-${id}`;
-  const axisGradient = `hrp-axis-${id}`;
+  const stations = [
+    [200, 64], [293, 102], [339, 200], [295, 297],
+    [200, 337], [105, 297], [61, 200], [107, 104],
+  ] as const;
 
   return (
     <svg
-      className={[
-        "hrp-symbol",
-        transition ? "hrp-symbol--transition" : "",
-      ]
-        .filter(Boolean)
-        .join(" ")}
+      className={`hrp-symbol${transition ? " hrp-symbol--transition" : ""}`}
       viewBox="0 0 400 400"
       fill="none"
       aria-hidden="true"
       focusable="false"
     >
       <defs>
-        <linearGradient
-          id={orbitGradient}
-          x1="70"
-          y1="64"
-          x2="332"
-          y2="338"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop
-            offset="0%"
-            stopColor="#FFFFFF"
-            stopOpacity=".13"
-          />
-          <stop
-            offset="34%"
-            stopColor="#F4F4F2"
-            stopOpacity=".75"
-          />
-          <stop
-            offset="65%"
-            stopColor="#BFC3C5"
-            stopOpacity=".39"
-          />
-          <stop
-            offset="100%"
-            stopColor="#FFFFFF"
-            stopOpacity=".10"
-          />
+        <linearGradient id={silver} x1="82" y1="76" x2="325" y2="325" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#F9FAF8" stopOpacity=".10" />
+          <stop offset=".26" stopColor="#F6F7F5" stopOpacity=".82" />
+          <stop offset=".52" stopColor="#C9CFD0" stopOpacity=".34" />
+          <stop offset=".79" stopColor="#FFFFFF" stopOpacity=".86" />
+          <stop offset="1" stopColor="#F8F8F6" stopOpacity=".12" />
         </linearGradient>
-
-        <linearGradient
-          id={axisGradient}
-          x1="200"
-          y1="46"
-          x2="200"
-          y2="354"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop
-            offset="0%"
-            stopColor="#FFFFFF"
-            stopOpacity="0"
-          />
-          <stop
-            offset="48%"
-            stopColor="#FFFFFF"
-            stopOpacity=".56"
-          />
-          <stop
-            offset="100%"
-            stopColor="#FFFFFF"
-            stopOpacity="0"
-          />
-        </linearGradient>
-
-        <radialGradient
-          id={coreGradient}
-          cx="0"
-          cy="0"
-          r="1"
-          gradientTransform="translate(200 200) rotate(90) scale(78)"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop
-            offset="0%"
-            stopColor="#FFFFFF"
-            stopOpacity=".16"
-          />
-          <stop
-            offset="45%"
-            stopColor="#FFFFFF"
-            stopOpacity=".045"
-          />
-          <stop
-            offset="100%"
-            stopColor="#FFFFFF"
-            stopOpacity="0"
-          />
+        <radialGradient id={light} cx="0" cy="0" r="1" gradientTransform="translate(200 200) rotate(90) scale(119)">
+          <stop stopColor="#F8FAF9" stopOpacity=".15" />
+          <stop offset=".35" stopColor="#E5EBE9" stopOpacity=".055" />
+          <stop offset="1" stopColor="#FFFFFF" stopOpacity="0" />
         </radialGradient>
+        <linearGradient id={beam} x1="126" y1="284" x2="274" y2="116" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#FFFFFF" stopOpacity="0" />
+          <stop offset=".48" stopColor="#FFFFFF" stopOpacity=".58" />
+          <stop offset="1" stopColor="#FFFFFF" stopOpacity="0" />
+        </linearGradient>
       </defs>
 
-      {/* REALITY / LOCAL LIGHT */}
-
-      <circle
-        className="hrp-symbol__core-light"
-        cx="200"
-        cy="200"
-        r="78"
-        fill={`url(#${coreGradient})`}
-      />
-
-      {/* CIVILIZATION REFERENCE RING */}
-
-      <circle
-        className="hrp-symbol__reference-ring"
-        cx="200"
-        cy="200"
-        r="151"
-        stroke="#F0F0EF"
-        strokeOpacity=".18"
-        strokeWidth=".8"
-        strokeDasharray="1 8"
-      />
-
-      {/* INTERCONNECTED SCIENTIFIC SYSTEMS */}
-
-      <g
-        className="hrp-symbol__orbits"
-        stroke={`url(#${orbitGradient})`}
-        strokeWidth="1.15"
-      >
-        <ellipse
-          cx="200"
-          cy="200"
-          rx="140"
-          ry="63"
-          transform="rotate(-37 200 200)"
-        />
-
-        <ellipse
-          cx="200"
-          cy="200"
-          rx="140"
-          ry="63"
-          transform="rotate(37 200 200)"
-        />
-
-        <ellipse
-          cx="200"
-          cy="200"
-          rx="140"
-          ry="63"
-          transform="rotate(90 200 200)"
-        />
+      {/* Space is transparent; HOME's existing glass remains visible. */}
+      <g className="hrp-symbol__stars" fill="#F4F6F5">
+        {INQUIRY_PARTICLES.map((point, index) => (
+          <circle key={index} cx={point.x} cy={point.y} r={point.r} opacity={point.opacity} />
+        ))}
       </g>
 
-      {/* SCIENTIFIC REPRODUCIBILITY RINGS */}
-
-      <g className="hrp-symbol__inner-rings">
-        <circle
-          cx="200"
-          cy="200"
-          r="49"
-          stroke="#E6E8E8"
-          strokeOpacity=".43"
-          strokeWidth=".85"
-        />
-
-        <circle
-          cx="200"
-          cy="200"
-          r="31"
-          stroke="#E6E8E8"
-          strokeOpacity=".22"
-          strokeWidth=".7"
-          strokeDasharray="2 6"
-        />
+      {/* Civilization: multiple non-closed frames, not a planetary body. */}
+      <g className="hrp-symbol__outer-framework" stroke={`url(#${silver})`} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M200 35L316 84L365 200L316 316L200 365L84 316L35 200L84 84Z" strokeWidth=".75" strokeDasharray="2 9" opacity=".45" />
+        <path d="M200 65L296 104L335 200L296 296L200 335L104 296L65 200L104 104" strokeWidth="1.15" />
+        <path d="M104 104L200 65M296 104L335 200M296 296L200 335M104 296L65 200" strokeWidth=".6" opacity=".5" />
       </g>
 
-      {/* OBSERVATION AXES */}
-
-      <g
-        className="hrp-symbol__axes"
-        stroke={`url(#${axisGradient})`}
-        strokeWidth=".8"
-        strokeLinecap="round"
-      >
-        <path d="M200 45 V355" />
-        <path d="M45 200 H355" />
+      {/* Architectural strata move at independent speeds. */}
+      <g className="hrp-symbol__architecture-back" stroke={`url(#${silver})`} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M200 104L285 152V249L200 297L115 249V152Z" strokeWidth="1.05" opacity=".66" />
+        <path d="M200 104V297M115 152L285 249M285 152L115 249" strokeWidth=".7" opacity=".23" />
+        <path d="M200 104L200 72M285 152L312 136M285 249L313 267M200 297V329M115 249L87 267M115 152L87 136" strokeWidth=".85" opacity=".58" />
       </g>
 
-      {/* CORRECTABLE CIVILIZATION ARC */}
-
-      <g
-        className="hrp-symbol__open-arc"
-        stroke={`url(#${orbitGradient})`}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path
-          d="M86 111 A148 148 0 1 1 314 111"
-          strokeWidth="1.65"
-        />
-
-        <path
-          d="M99 99 L86 111 L84 94"
-          strokeWidth="1.1"
-          opacity=".82"
-        />
+      {/* Open inquiry: a living aperture, never a completed enclosure. */}
+      <g className="hrp-symbol__inquiry-arc" stroke={`url(#${silver})`} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M147 145C162 129 181 120 200 120C242 120 279 155 279 200C279 240 246 278 204 280" strokeWidth="2.1" />
+        <path d="M253 255C239 268 220 275 202 275C162 275 123 241 123 200C123 183 129 166 139 152" strokeWidth=".9" opacity=".72" />
+        <path d="M197 273L204 280L212 272" strokeWidth="1.25" />
       </g>
 
-      {/* STRUCTURAL CORE */}
-
-      <g className="hrp-symbol__structure">
-        <path
-          d="M200 154 L246 200 L200 246 L154 200 Z"
-          stroke="#F4F4F2"
-          strokeOpacity=".62"
-          strokeWidth="1.1"
-        />
-
-        <path
-          d="M200 168 L232 200 L200 232 L168 200 Z"
-          stroke="#F4F4F2"
-          strokeOpacity=".25"
-          strokeWidth=".75"
-        />
-
-        <path
-          d="M200 154 V246 M154 200 H246"
-          stroke="#FFFFFF"
-          strokeOpacity=".16"
-          strokeWidth=".7"
-        />
+      {/* Reproducible knowledge: non-solid layered geometry. */}
+      <g className="hrp-symbol__inner-framework" stroke={`url(#${silver})`} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M200 150L246 176V225L200 252L154 225V176Z" strokeWidth="1.15" />
+        <path d="M200 150V201L246 176M200 201L154 176M200 201V252M200 201L246 225M200 201L154 225" strokeWidth=".75" opacity=".56" />
+        <path d="M200 165L233 184V218L200 237L167 218V184Z" strokeWidth=".7" opacity=".34" />
       </g>
 
-      {/* CORRECTION / RETURN PATH */}
-
-      <g
-        className="hrp-symbol__return-path"
-        stroke="#F2F2F0"
-        strokeOpacity=".45"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path
-          d="M174 200 A26 26 0 1 1 200 226"
-          strokeWidth="1.05"
-        />
-
-        <path
-          d="M193 221 L200 226 L193 231"
-          strokeWidth=".9"
-        />
+      {/* Knowledge passes between systems, with independent return routes. */}
+      <g className="hrp-symbol__network" stroke="#F0F4F3" strokeWidth=".7" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M200 64L293 102L339 200L295 297L200 337L105 297L61 200L107 104L200 64" opacity=".26" />
+        <path d="M107 104L200 150L293 102M61 200L154 225L105 297M339 200L246 176L295 297M200 337L200 252" opacity=".45" />
+        <path className="hrp-symbol__signal" d="M107 104L200 150L246 176L339 200" stroke={`url(#${beam})`} strokeWidth="1.7" />
+        <path className="hrp-symbol__signal hrp-symbol__signal--second" d="M295 297L200 252L154 225L61 200" stroke={`url(#${beam})`} strokeWidth="1.6" />
       </g>
 
-      {/* REALITY REFERENCE */}
-
-      <circle
-        className="hrp-symbol__core-halo"
-        cx="200"
-        cy="200"
-        r="10"
-        fill="#FFFFFF"
-        fillOpacity=".075"
-      />
-
-      <circle
-        className="hrp-symbol__core"
-        cx="200"
-        cy="200"
-        r="2.5"
-        fill="#FFFFFF"
-      />
-
-      {/* INTERCONNECTED SYSTEM NODES */}
-
-      <g
-        className="hrp-symbol__points"
-        fill="#F4F4F2"
-      >
-        <circle cx="200" cy="49" r="1.6" opacity=".9" />
-        <circle cx="200" cy="351" r="1.6" opacity=".9" />
-        <circle cx="49" cy="200" r="1.5" opacity=".7" />
-        <circle cx="351" cy="200" r="1.5" opacity=".7" />
-
-        <circle cx="86" cy="111" r="2" opacity=".95" />
-        <circle cx="314" cy="111" r="2" opacity=".95" />
-
-        <circle cx="101" cy="299" r="1.6" opacity=".75" />
-        <circle cx="299" cy="299" r="1.6" opacity=".75" />
-
-        <circle cx="200" cy="151" r="1.5" opacity=".75" />
-        <circle cx="249" cy="200" r="1.5" opacity=".75" />
-        <circle cx="200" cy="249" r="1.5" opacity=".75" />
-        <circle cx="151" cy="200" r="1.5" opacity=".75" />
+      {/* A field of independent, breathing civilization nodes. */}
+      <g className="hrp-symbol__stations">
+        {stations.map(([cx, cy], index) => (
+          <g key={index} className={`hrp-symbol__station hrp-symbol__station--${index % 4}`}>
+            <circle cx={cx} cy={cy} r="6.5" stroke="#EDF1F0" strokeOpacity=".20" strokeWidth=".7" />
+            <circle cx={cx} cy={cy} r="2.1" fill="#F7F8F6" opacity=".83" />
+          </g>
+        ))}
       </g>
 
-      {/* TIME / GENERATIONAL MARKERS */}
+      {/* The center is a question, not a globe or a final answer. */}
+      <g className="hrp-symbol__core">
+        <circle cx="200" cy="200" r="86" fill={`url(#${light})`} />
+        <path d="M200 183V217M183 200H217" stroke="#F7F8F6" strokeOpacity=".48" strokeWidth=".75" />
+        <circle cx="200" cy="200" r="11" stroke="#F7F8F6" strokeOpacity=".38" strokeWidth=".85" strokeDasharray="12 7" />
+        <circle cx="200" cy="200" r="2.5" fill="#FFFFFF" />
+      </g>
 
-      <g
-        className="hrp-symbol__time-marks"
-        stroke="#E9EAE9"
-        strokeOpacity=".32"
-        strokeLinecap="round"
-      >
-        {Array.from({ length: 12 }, (_, index) => {
-          const angle = (index * Math.PI) / 6;
-
-          const inner = index % 3 === 0 ? 165 : 170;
-          const outer = 175;
-
-          const x1 = 200 + Math.sin(angle) * inner;
-          const y1 = 200 - Math.cos(angle) * inner;
-
-          const x2 = 200 + Math.sin(angle) * outer;
-          const y2 = 200 - Math.cos(angle) * outer;
-
-          return (
-            <line
-              key={index}
-              x1={x1}
-              y1={y1}
-              x2={x2}
-              y2={y2}
-              strokeWidth={index % 3 === 0 ? 1 : 0.65}
-            />
-          );
-        })}
+      {/* Incomplete return trajectory = independent correction. */}
+      <g className="hrp-symbol__return" stroke={`url(#${silver})`} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M86 115C49 162 48 228 83 278C110 320 155 346 203 346" strokeWidth="1.2" />
+        <path d="M193 340L203 346L195 354" strokeWidth="1" />
+        <path d="M314 286C349 240 355 182 329 134" strokeWidth=".8" opacity=".62" />
       </g>
     </svg>
   );
 }
 
-/* ==========================================================
-   FULLSCREEN ENTRY TRANSITION
-========================================================== */
-
+/* Fullscreen experience is portaled only after the user chooses to enter. */
 function ResponsibilityEntryTransition() {
   return (
-    <div
-      className="hrp-entry hrp-entry--active"
-      aria-hidden="true"
-    >
+    <div className="hrp-entry hrp-entry--active" aria-hidden="true">
       <div className="hrp-entry__background" />
-
-      <div className="hrp-entry__rings">
-        <span />
-        <span />
-        <span />
+      <div className="hrp-entry__starfield hrp-entry__starfield--far" />
+      <div className="hrp-entry__starfield hrp-entry__starfield--near" />
+      <div className="hrp-entry__depth">
+        <span /><span /><span /><span />
       </div>
-
       <div className="hrp-entry__symbol">
         <CivilizationEvolutionSymbol transition />
       </div>
-
+      <div className="hrp-entry__horizon" />
       <div className="hrp-entry__copy">
-        <span>ARCHENOVA / PERMANENT INQUIRY</span>
-
+        <span>ARCHENOVA PERMANENT INQUIRY</span>
         <strong>{INQUIRY_TITLE}</strong>
-
-        <small>
-          Civilization must remain open to correction.
-        </small>
+        <small>Civilization must remain open to correction.</small>
       </div>
+      <div className="hrp-entry__veil" />
     </div>
   );
 }
 
-/* ==========================================================
-   PERMANENT INQUIRY PORTAL
-========================================================== */
-
 export default function HumanityResponsibilityPortal() {
   const router = useRouter();
-
-  const transitionTimerRef =
-    useRef<ReturnType<typeof setTimeout> | null>(null);
-
+  const transitionTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const enteringRef = useRef(false);
-
   const [entering, setEntering] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
-
-    const media = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    );
-
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
     const update = () => setReducedMotion(media.matches);
-
     update();
-
     if (media.addEventListener) {
       media.addEventListener("change", update);
-
-      return () => {
-        media.removeEventListener("change", update);
-      };
+      return () => media.removeEventListener("change", update);
     }
-
     media.addListener(update);
-
     return () => media.removeListener(update);
   }, []);
 
   const enterInquiry = useCallback(() => {
     if (enteringRef.current) return;
-
     enteringRef.current = true;
     setEntering(true);
-
     transitionTimerRef.current = setTimeout(() => {
       router.push(DESTINATION);
-    }, reducedMotion ? 100 : 1150);
+    }, reducedMotion ? 100 : 1550);
   }, [reducedMotion, router]);
 
-  useEffect(() => {
-    return () => {
-      if (transitionTimerRef.current !== null) {
-        clearTimeout(transitionTimerRef.current);
-      }
-    };
+  useEffect(() => () => {
+    if (transitionTimerRef.current !== null) {
+      clearTimeout(transitionTimerRef.current);
+    }
   }, []);
 
   return (
     <>
       <section
-        className={[
-          "hrp-portal",
-          entering ? "hrp-portal--entering" : "",
-        ]
-          .filter(Boolean)
-          .join(" ")}
+        className={["hrp-portal", entering ? "hrp-portal--entering" : ""].filter(Boolean).join(" ")}
         aria-labelledby="hrp-portal-title"
       >
         <div className="hrp-portal__stage">
-          {/* HEADER */}
-
           <header className="hrp-portal__header">
             <div className="hrp-portal__identity">
-              <span>
-                ARCHENOVA / PERMANENT INQUIRY
-              </span>
-
-              <small>
-                THE OPEN QUESTION OF CIVILIZATION
-              </small>
+              <span>ARCHENOVA PERMANENT INQUIRY</span>
+              <small>THE OPEN QUESTION OF CIVILIZATION</small>
             </div>
           </header>
 
-          {/* CENTRAL EXPERIENCE */}
-
           <div className="hrp-portal__experience">
             <div className="hrp-portal__statement">
-              <span className="hrp-portal__eyebrow">
-                SCIENCE / TECHNOLOGY / CIVILIZATION
-              </span>
-
               <h2 id="hrp-portal-title">
-                Can Civilization Advance
-                <br />
-                Without Losing the Capacity
-                <br />
+                Can Civilization Advance<br />
+                Without Losing the Capacity<br />
                 to Correct Itself?
               </h2>
-
-              <p className="hrp-portal__description">
-                {INQUIRY_SUBTITLE}
-              </p>
+              <p className="hrp-portal__description">{INQUIRY_SUBTITLE}</p>
             </div>
 
             <button
@@ -564,29 +261,15 @@ export default function HumanityResponsibilityPortal() {
               aria-label={`Explore ArcheNova's permanent inquiry: ${INQUIRY_TITLE}`}
             >
               <span className="hrp-portal__symbol-space">
-                <span
-                  className="hrp-portal__symbol-object"
-                  aria-hidden="true"
-                >
+                <span className="hrp-portal__symbol-object" aria-hidden="true">
                   <CivilizationEvolutionSymbol />
                 </span>
-
                 <span className="hrp-portal__tap-hint">
                   <span>ENTER THE INQUIRY</span>
-
-                  <svg
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    aria-hidden="true"
-                    focusable="false"
-                  >
-                    <path
-                      d="M3 8 H12 M8.5 4.5 L12 8 L8.5 11.5"
-                      stroke="currentColor"
-                      strokeWidth="1.1"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
+                  <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+                    <path d="M3 8 H12 M8.5 4.5 L12 8 L8.5 11.5"
+                      stroke="currentColor" strokeWidth="1.1"
+                      strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </span>
               </span>
@@ -594,1166 +277,517 @@ export default function HumanityResponsibilityPortal() {
 
             <div className="hrp-portal__sequence">
               {INQUIRY_SEQUENCE.map((item, index) => (
-                <span
-                  className="hrp-portal__sequence-item"
-                  key={item}
-                >
-                  {index > 0 && (
-                    <i aria-hidden="true" />
-                  )}
-
+                <span className="hrp-portal__sequence-item" key={item}>
+                  {index > 0 && <i aria-hidden="true" />}
                   <span>{item}</span>
                 </span>
               ))}
             </div>
           </div>
 
-          {/* FOOTER */}
-
           <footer className="hrp-portal__footer">
-            <span>ARCHENOVA / CIVILIZATION</span>
-
-            <i aria-hidden="true" />
-
-            <span>
-              DISCOVER / BUILD / QUESTION / CORRECT
-            </span>
+            <span>ARCHENOVA PERMANENT INQUIRY</span>
           </footer>
         </div>
       </section>
 
-      {mounted &&
-        entering &&
-        createPortal(
-          <ResponsibilityEntryTransition />,
-          document.body,
-        )}
+      {mounted && entering && createPortal(
+        <ResponsibilityEntryTransition />,
+        document.body,
+      )}
 
       <style jsx global>{`
-        /* ==================================================
-           BASE / SCROLL-SAFE
-
-           No internal vertical scroll.
-           No scroll trapping.
-           No additional glass.
-        ================================================== */
-
-        .hrp-portal,
-        .hrp-portal *,
-        .hrp-portal *::before,
-        .hrp-portal *::after,
-        .hrp-entry,
-        .hrp-entry *,
-        .hrp-entry *::before,
-        .hrp-entry *::after {
+        /* HOME ownership and natural scrolling: unchanged. */
+        .hrp-portal, .hrp-portal *, .hrp-portal *::before, .hrp-portal *::after,
+        .hrp-entry, .hrp-entry *, .hrp-entry *::before, .hrp-entry *::after {
           box-sizing: border-box;
         }
-
         .hrp-portal {
           position: relative;
           display: block;
-
-          width: 100%;
-          max-width: 100%;
-          min-width: 0;
-
-          height: auto;
-          min-height: 0;
-          max-height: none;
-
-          margin: 0;
-          padding: 0;
-
-          overflow: visible;
-          overscroll-behavior: auto;
-
-          border: 0;
-          border-radius: 0;
-          outline: 0;
-
-          background: transparent;
-          background-image: none;
-
-          box-shadow: none;
-
-          -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-
-          color: rgba(248, 248, 247, 0.94);
+          width: 100%; max-width: 100%; min-width: 0;
+          height: auto; min-height: 0; max-height: none;
+          margin: 0; padding: 0;
+          overflow: visible; overscroll-behavior: auto;
+          border: 0; border-radius: 0; outline: 0;
+          background: transparent; background-image: none;
+          box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none;
+          color: rgba(248,248,247,.94);
         }
-
-        .hrp-portal::before,
-        .hrp-portal::after {
-          content: none;
-          display: none;
+        .hrp-portal::before, .hrp-portal::after,
+        .hrp-portal__stage::before, .hrp-portal__stage::after {
+          content: none; display: none;
         }
-
-        .hrp-portal button {
-          font: inherit;
-        }
-
-        /* ==================================================
-           STAGE / NATURAL DOCUMENT FLOW
-        ================================================== */
-
+        .hrp-portal button { font: inherit; }
         .hrp-portal__stage {
           position: relative;
-
-          display: grid;
-          grid-template-rows: auto auto auto;
-
-          width: 100%;
-          min-width: 0;
-
-          height: auto;
-          min-height: 0;
-          max-height: none;
-
+          display: grid; grid-template-rows: auto auto auto;
+          width: 100%; min-width: 0;
+          height: auto; min-height: 0; max-height: none;
           margin: 0;
-
-          padding:
-            clamp(24px, 3vw, 44px)
-            clamp(20px, 4vw, 64px)
-            clamp(22px, 3vw, 40px);
-
-          overflow: visible;
-
-          background: transparent;
-          border: 0;
-          box-shadow: none;
-
-          transition:
-            opacity 0.4s ease,
-            transform 0.55s ease,
-            filter 0.5s ease;
+          padding: clamp(24px,3vw,44px) clamp(20px,4vw,64px) clamp(22px,3vw,40px);
+          overflow: visible; background: transparent; border: 0; box-shadow: none;
+          transition: opacity .4s ease, transform .55s ease, filter .5s ease;
         }
-
-        .hrp-portal__stage::before,
-        .hrp-portal__stage::after {
-          content: none;
-          display: none;
-        }
-
-        /* ==================================================
-           HEADER
-        ================================================== */
-
         .hrp-portal__header {
-          position: relative;
-          z-index: 2;
-
-          display: flex;
-          justify-content: center;
-
-          width: 100%;
-          min-width: 0;
+          position: relative; z-index: 2;
+          display: flex; justify-content: center;
+          width: 100%; min-width: 0;
         }
-
         .hrp-portal__identity {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 8px;
-
-          text-align: center;
+          display: flex; flex-direction: column; align-items: center;
+          gap: 8px; text-align: center;
         }
-
         .hrp-portal__identity > span {
-          color: rgba(255, 255, 255, 0.86);
-
-          font-size: 10px;
-          font-weight: 650;
-          letter-spacing: 0.23em;
+          color: rgba(255,255,255,.86); font-size: 10px;
+          font-weight: 650; letter-spacing: .23em;
         }
-
         .hrp-portal__identity > small {
-          color: rgba(255, 255, 255, 0.39);
-
-          font-size: 8px;
-          font-weight: 500;
-          letter-spacing: 0.16em;
+          color: rgba(255,255,255,.39); font-size: 8px;
+          font-weight: 500; letter-spacing: .16em;
         }
-
-        /* ==================================================
-           EXPERIENCE
-        ================================================== */
-
         .hrp-portal__experience {
-          position: relative;
-          z-index: 1;
-
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-
-          width: 100%;
-          min-width: 0;
-
-          height: auto;
-          min-height: 0;
-          max-height: none;
-
-          padding:
-            clamp(38px, 5vw, 70px)
-            0
-            clamp(34px, 4vw, 58px);
-
-          overflow: visible;
-          overscroll-behavior: auto;
-
-          background: transparent;
+          position: relative; z-index: 1;
+          display: flex; flex-direction: column; align-items: center; justify-content: center;
+          width: 100%; min-width: 0;
+          height: auto; min-height: 0; max-height: none;
+          padding: clamp(38px,5vw,70px) 0 clamp(34px,4vw,58px);
+          overflow: visible; overscroll-behavior: auto; background: transparent;
         }
-
         .hrp-portal__statement {
-          position: relative;
-          z-index: 2;
-
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 18px;
-
-          width: 100%;
-          min-width: 0;
-
-          text-align: center;
+          position: relative; z-index: 2;
+          display: flex; flex-direction: column; align-items: center;
+          gap: 18px; width: 100%; min-width: 0; text-align: center;
         }
-
         .hrp-portal__eyebrow {
-          color: rgba(235, 235, 233, 0.43);
-
-          font-size: 9px;
-          font-weight: 600;
-          letter-spacing: 0.2em;
+          color: rgba(235,235,233,.43); font-size: 9px;
+          font-weight: 600; letter-spacing: .2em;
         }
-
         .hrp-portal__statement h2 {
-          width: 100%;
-          max-width: 1080px;
-
-          margin: 0;
-
-          color: rgba(251, 251, 250, 0.97);
-
-          font-size: clamp(34px, 4.2vw, 62px);
-          font-weight: 300;
-          line-height: 1.12;
-          letter-spacing: -0.052em;
-
-          text-align: center;
-          text-wrap: balance;
+          width: 100%; max-width: 1080px; margin: 0;
+          color: rgba(251,251,250,.97);
+          font-size: clamp(34px,4.2vw,62px);
+          font-weight: 300; line-height: 1.12; letter-spacing: -.052em;
+          text-align: center; text-wrap: balance;
         }
-
         .hrp-portal__description {
-          max-width: 690px;
-
-          margin: 0;
-
-          color: rgba(245, 245, 243, 0.55);
-
-          font-size: clamp(12px, 1.1vw, 15px);
-          font-weight: 400;
-          line-height: 1.85;
-          letter-spacing: 0.005em;
-
-          text-align: center;
-          text-wrap: pretty;
+          max-width: 690px; margin: 0;
+          color: rgba(245,245,243,.55);
+          font-size: clamp(12px,1.1vw,15px);
+          font-weight: 400; line-height: 1.85; letter-spacing: .005em;
+          text-align: center; text-wrap: pretty;
         }
-
-        /* ==================================================
-           SYMBOL / INTERACTION
-        ================================================== */
-
         .hrp-portal__symbol-button {
-          position: relative;
-          z-index: 3;
-
-          display: block;
-
-          width: min(100%, 340px);
-          min-width: 0;
-
-          margin: clamp(18px, 2vw, 28px) auto 0;
-          padding: 0;
-
-          border: 0;
-          outline: 0;
-
-          background: transparent;
-          box-shadow: none;
-
-          color: inherit;
-          cursor: pointer;
-
-          appearance: none;
-          -webkit-appearance: none;
-          -webkit-tap-highlight-color: transparent;
-
-          touch-action: manipulation;
+          position: relative; z-index: 3; display: block;
+          width: min(100%,340px); min-width: 0;
+          margin: clamp(18px,2vw,28px) auto 0; padding: 0;
+          border: 0; outline: 0; background: transparent; box-shadow: none;
+          color: inherit; cursor: pointer;
+          appearance: none; -webkit-appearance: none;
+          -webkit-tap-highlight-color: transparent; touch-action: manipulation;
         }
-
-        .hrp-portal__symbol-button:disabled {
-          cursor: default;
-        }
-
+        .hrp-portal__symbol-button:disabled { cursor: default; }
         .hrp-portal__symbol-button:focus-visible {
-          outline: 1px solid rgba(245, 245, 243, 0.75);
-          outline-offset: 7px;
-          border-radius: 12px;
+          outline: 1px solid rgba(245,245,243,.75);
+          outline-offset: 7px; border-radius: 12px;
         }
-
         .hrp-portal__symbol-space {
-          position: relative;
-
-          display: grid;
-          place-items: center;
-
-          width: min(100%, 310px);
-          aspect-ratio: 1.1;
-
-          margin: 0 auto;
-
-          background: transparent;
-          border: 0;
-          box-shadow: none;
-
-          transition:
-            transform 0.8s
-            cubic-bezier(0.2, 0.8, 0.2, 1);
+          position: relative; display: grid; place-items: center;
+          width: min(100%,310px); aspect-ratio: 1.1; margin: 0 auto;
+          background: transparent; border: 0; box-shadow: none;
+          transition: transform .8s cubic-bezier(.2,.8,.2,1);
         }
-
         .hrp-portal__symbol-object {
-          position: relative;
-          z-index: 1;
-
-          display: block;
-
-          width: 100%;
-          height: 100%;
-
-          animation:
-            hrp-symbol-float 13s ease-in-out infinite;
+          position: relative; z-index: 1; display: block;
+          width: 100%; height: 100%;
+          animation: hrp-symbol-float 13s ease-in-out infinite;
         }
-
         .hrp-symbol {
-          display: block;
-
-          width: 100%;
-          height: 100%;
-
-          overflow: visible;
-
-          filter:
-            drop-shadow(
-              0 0 9px rgba(255, 255, 255, 0.07)
-            );
+          display: block; width: 100%; height: 100%; overflow: visible;
+          filter: drop-shadow(0 0 9px rgba(255,255,255,.07));
         }
 
-        .hrp-symbol__core-light {
-          transform-box: fill-box;
-          transform-origin: center;
-
-          animation:
-            hrp-core-light-breathe
-            10s ease-in-out infinite;
-        }
-
-        .hrp-symbol__orbits {
+        /* Open Civilization: layered, living, non-planetary motion. */
+        .hrp-symbol__outer-framework {
           transform-origin: 200px 200px;
-
-          animation:
-            hrp-orbits-breathe
-            16s ease-in-out infinite;
+          animation: hrp-framework-turn 85s linear infinite;
         }
-
-        .hrp-symbol__inner-rings {
+        .hrp-symbol__architecture-back {
           transform-origin: 200px 200px;
-
-          animation:
-            hrp-inner-rings-breathe
-            12s ease-in-out infinite;
+          animation: hrp-architecture-breathe 17s ease-in-out infinite;
         }
-
-        .hrp-symbol__open-arc {
-          animation:
-            hrp-arc-breathe
-            11s ease-in-out infinite;
+        .hrp-symbol__inquiry-arc {
+          transform-origin: 200px 200px;
+          animation: hrp-inquiry-drift 27s ease-in-out infinite alternate;
         }
-
-        .hrp-symbol__structure {
-          animation:
-            hrp-structure-breathe
-            9s ease-in-out infinite;
+        .hrp-symbol__inner-framework {
+          transform-origin: 200px 200px;
+          animation: hrp-inner-living 13s ease-in-out infinite;
         }
-
+        .hrp-symbol__network {
+          animation: hrp-network-breathe 11s ease-in-out infinite alternate;
+        }
+        .hrp-symbol__signal {
+          stroke-dasharray: 4 18;
+          animation: hrp-signal-flow 7s linear infinite;
+        }
+        .hrp-symbol__signal--second { animation-duration: 9s; animation-direction: reverse; }
+        .hrp-symbol__station { transform-box: fill-box; transform-origin: center; }
+        .hrp-symbol__station--0 { animation: hrp-station-breathe 5.5s ease-in-out infinite; }
+        .hrp-symbol__station--1 { animation: hrp-station-breathe 7.3s ease-in-out infinite -2s; }
+        .hrp-symbol__station--2 { animation: hrp-station-breathe 6.1s ease-in-out infinite -3s; }
+        .hrp-symbol__station--3 { animation: hrp-station-breathe 8.2s ease-in-out infinite -4s; }
         .hrp-symbol__core {
-          animation:
-            hrp-core-breathe
-            6s ease-in-out infinite;
+          transform-origin: 200px 200px;
+          animation: hrp-core-living 9s ease-in-out infinite;
         }
-
-        .hrp-symbol__points {
-          animation:
-            hrp-points-breathe
-            8s ease-in-out infinite;
+        .hrp-symbol__return {
+          animation: hrp-network-breathe 14s ease-in-out infinite alternate-reverse;
         }
-
-        /* ==================================================
-           ENTRY HINT
-        ================================================== */
+        .hrp-symbol__stars {
+          animation: hrp-stars-breathe 17s ease-in-out infinite alternate;
+        }
 
         .hrp-portal__tap-hint {
-          position: absolute;
-          z-index: 2;
-
-          bottom: -8px;
-          left: 50%;
-
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          gap: 9px;
-
+          position: absolute; z-index: 2; bottom: -8px; left: 50%;
+          display: inline-flex; align-items: center; justify-content: center; gap: 9px;
           transform: translateX(-50%);
-
-          color: rgba(255, 255, 255, 0.52);
-
-          font-size: 9px;
-          font-weight: 550;
-          letter-spacing: 0.16em;
-
+          color: rgba(255,255,255,.52);
+          font-size: 9px; font-weight: 550; letter-spacing: .16em;
           white-space: nowrap;
-
-          transition:
-            color 0.3s ease,
-            transform 0.3s ease;
+          transition: color .3s ease, transform .3s ease;
         }
-
         .hrp-portal__tap-hint svg {
-          display: block;
-
-          width: 14px;
-          height: 14px;
-
-          flex: 0 0 auto;
-
-          transition: transform 0.3s ease;
+          display: block; width: 14px; height: 14px; flex: 0 0 auto;
+          transition: transform .3s ease;
         }
-
-        /* ==================================================
-           CIVILIZATION SEQUENCE
-        ================================================== */
-
         .hrp-portal__sequence {
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: center;
-
-          gap: 12px;
-
-          width: 100%;
-          margin-top: 24px;
-
-          color: rgba(255, 255, 255, 0.43);
-
-          font-size: 8px;
-          font-weight: 550;
-          letter-spacing: 0.12em;
+          display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+          gap: 12px; width: 100%; margin-top: 24px;
+          color: rgba(255,255,255,.43);
+          font-size: 8px; font-weight: 550; letter-spacing: .12em;
         }
-
         .hrp-portal__sequence-item {
-          display: inline-flex;
-          align-items: center;
-          gap: 12px;
+          display: inline-flex; align-items: center; gap: 12px;
         }
-
         .hrp-portal__sequence-item i {
-          display: block;
-
-          width: 24px;
-          height: 1px;
-
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(245, 245, 243, 0.36),
-              transparent
-            );
+          display: block; width: 24px; height: 1px;
+          background: linear-gradient(90deg,transparent,rgba(245,245,243,.36),transparent);
         }
-
-        /* ==================================================
-           FOOTER
-        ================================================== */
-
         .hrp-portal__footer {
-          position: relative;
-          z-index: 2;
-
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: center;
-
-          gap: 12px;
-
-          width: 100%;
-
-          padding-top: 18px;
-
-          border-top:
-            1px solid rgba(255, 255, 255, 0.055);
-
-          color: rgba(255, 255, 255, 0.36);
+          position: relative; z-index: 2;
+          display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+          gap: 12px; width: 100%; padding-top: 18px;
+          border-top: 1px solid rgba(255,255,255,.055);
+          color: rgba(255,255,255,.36);
         }
-
         .hrp-portal__footer > span {
-          font-size: 8px;
-          font-weight: 600;
-          letter-spacing: 0.14em;
-
+          font-size: 8px; font-weight: 600; letter-spacing: .14em;
           text-align: center;
         }
-
         .hrp-portal__footer > i {
-          width: 3px;
-          height: 3px;
-
-          flex: 0 0 auto;
-
-          border-radius: 50%;
-
-          background: rgba(255, 255, 255, 0.22);
+          width: 3px; height: 3px; flex: 0 0 auto;
+          border-radius: 50%; background: rgba(255,255,255,.22);
         }
 
-        /* ==================================================
-           FULLSCREEN ENTRY TRANSITION
-        ================================================== */
-
+        /* Fullscreen entry: depth, travel and quiet convergence. */
         .hrp-entry {
-          position: fixed;
-          inset: 0;
-
-          z-index: 2147483647;
-
-          display: grid;
-          place-items: center;
-
-          width: 100%;
-          height: 100dvh;
-
-          margin: 0;
-          padding: 0;
-
-          overflow: hidden;
-
-          opacity: 1;
-          visibility: visible;
-
-          pointer-events: none;
-
-          background: #050505;
+          position: fixed; inset: 0; z-index: 2147483647;
+          display: grid; place-items: center;
+          width: 100%; height: 100dvh; margin: 0; padding: 0;
+          overflow: hidden; opacity: 1; visibility: visible;
+          pointer-events: none; background: #101112;
+          isolation: isolate;
         }
-
         .hrp-entry__background {
-          position: absolute;
-          inset: 0;
-
-          background:
-            radial-gradient(
-              ellipse at 50% 45%,
-              #181818 0%,
-              #0B0B0B 45%,
-              #030303 85%
-            );
-
+          position: absolute; inset: 0;
+          background: radial-gradient(ellipse at 50% 43%, #3A3B3A 0%, #242525 31%, #161717 63%, #101112 100%);
           opacity: 0;
+          animation: hrp-entry-background 1.55s ease forwards;
         }
-
-        .hrp-entry__rings {
-          position: absolute;
-
-          top: 50%;
-          left: 50%;
-
-          width: min(85vmin, 680px);
-          aspect-ratio: 1;
-
-          transform: translate(-50%, -50%);
-
-          pointer-events: none;
+        .hrp-entry__starfield {
+          position: absolute; inset: -35%;
+          background-repeat: repeat;
+          pointer-events: none; opacity: 0;
+          transform-origin: center;
         }
-
-        .hrp-entry__rings > span {
-          position: absolute;
-          inset: 10%;
-
-          display: block;
-
-          border:
-            1px solid rgba(245, 245, 243, 0.19);
-
-          border-radius: 50%;
-
-          opacity: 0;
-
-          transform: scale(0.5);
+        .hrp-entry__starfield--far {
+          background-image:
+            radial-gradient(circle,rgba(255,255,255,.42) .7px,transparent 1px),
+            radial-gradient(circle,rgba(255,255,255,.20) .5px,transparent 1px);
+          background-size: 137px 151px, 211px 193px;
+          background-position: 17px 23px, 73px 91px;
+          animation: hrp-entry-stars-far 1.55s cubic-bezier(.16,.68,.16,1) forwards;
         }
-
-        .hrp-entry__rings > span:nth-child(2) {
-          inset: 24%;
-
-          border-color:
-            rgba(245, 245, 243, 0.28);
+        .hrp-entry__starfield--near {
+          background-image:
+            radial-gradient(circle,rgba(255,255,255,.64) 1px,transparent 1.5px),
+            radial-gradient(circle,rgba(255,255,255,.24) .65px,transparent 1px);
+          background-size: 277px 241px, 191px 311px;
+          background-position: 81px 27px, 39px 97px;
+          animation: hrp-entry-stars-near 1.55s cubic-bezier(.16,.68,.16,1) forwards;
         }
-
-        .hrp-entry__rings > span:nth-child(3) {
-          inset: 37%;
-
-          border-color:
-            rgba(245, 245, 243, 0.35);
+        .hrp-entry__depth {
+          position: absolute; top: 44%; left: 50%;
+          width: min(88vmin,740px); aspect-ratio: 1;
+          transform: translate(-50%,-50%); pointer-events: none;
         }
-
+        .hrp-entry__depth > span {
+          position: absolute; inset: 9%; display: block;
+          border: 1px solid rgba(244,244,242,.31);
+          border-radius: 50%; opacity: 0; transform: scale(.35);
+          animation: hrp-entry-depth 1.55s cubic-bezier(.15,.7,.16,1) forwards;
+        }
+        .hrp-entry__depth > span:nth-child(2) {
+          inset: 23%; border-color: rgba(255,255,255,.34);
+          animation-delay: .09s;
+        }
+        .hrp-entry__depth > span:nth-child(3) {
+          inset: 35%; border-color: rgba(255,255,255,.4);
+          animation-delay: .17s;
+        }
+        .hrp-entry__depth > span:nth-child(4) {
+          inset: 45%; border-color: rgba(255,255,255,.5);
+          animation-delay: .24s;
+        }
         .hrp-entry__symbol {
-          position: absolute;
-
-          top: 44%;
-          left: 50%;
-
-          width: min(64vmin, 440px);
-          aspect-ratio: 1;
-
-          opacity: 0;
-
-          transform:
-            translate(-50%, -50%)
-            scale(0.7);
-
-          filter: blur(8px);
-
-          pointer-events: none;
+          position: absolute; top: 44%; left: 50%;
+          width: min(70vmin,510px); aspect-ratio: 1;
+          opacity: 0; transform: translate(-50%,-50%) scale(.48);
+          filter: blur(8px); pointer-events: none;
+          animation: hrp-entry-cosmos 1.55s cubic-bezier(.16,.7,.14,1) forwards;
         }
-
+        .hrp-entry__symbol .hrp-symbol { width: 100%; height: 100%; }
+        .hrp-entry__horizon {
+          position: absolute; top: 44%; left: 50%;
+          width: min(35vmin,240px); aspect-ratio: 1;
+          border-radius: 50%;
+          background: radial-gradient(circle,rgba(255,255,255,.20) 0%,rgba(255,255,255,.055) 30%,transparent 74%);
+          transform: translate(-50%,-50%) scale(.2);
+          opacity: 0; pointer-events: none;
+          animation: hrp-entry-horizon 1.55s ease-in forwards;
+        }
         .hrp-entry__copy {
-          position: absolute;
-          z-index: 3;
-
-          bottom: clamp(35px, 8vh, 90px);
-          left: 50%;
-
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 12px;
-
-          width: min(100%, 800px);
-
-          padding: 0 20px;
-
-          opacity: 0;
-
-          transform: translate(-50%, 8px);
-
-          text-align: center;
+          position: absolute; z-index: 3;
+          bottom: clamp(35px,8vh,90px); left: 50%;
+          display: flex; flex-direction: column; align-items: center; gap: 12px;
+          width: min(100%,800px); padding: 0 20px;
+          opacity: 0; transform: translate(-50%,8px); text-align: center;
+          animation: hrp-entry-copy 1.55s ease forwards;
         }
-
         .hrp-entry__copy > span {
-          color: rgba(245, 245, 243, 0.64);
-
-          font-size: 9px;
-          font-weight: 650;
-          letter-spacing: 0.2em;
+          color: rgba(245,245,243,.64);
+          font-size: 9px; font-weight: 650; letter-spacing: .2em;
         }
-
         .hrp-entry__copy > strong {
-          color: rgba(250, 250, 249, 0.97);
-
-          font-size: clamp(21px, 3.2vw, 36px);
-          font-weight: 300;
-          line-height: 1.2;
-          letter-spacing: -0.04em;
+          color: rgba(250,250,249,.97);
+          font-size: clamp(21px,3.2vw,36px);
+          font-weight: 300; line-height: 1.2; letter-spacing: -.04em;
         }
-
         .hrp-entry__copy > small {
-          color: rgba(245, 245, 243, 0.55);
-
-          font-size: 10px;
-          line-height: 1.6;
+          color: rgba(245,245,243,.55);
+          font-size: 10px; line-height: 1.6;
         }
-
-        /* ==================================================
-           ENTERING STATE
-        ================================================== */
-
+        .hrp-entry__veil {
+          position: absolute; inset: 0; z-index: 4;
+          background: #101112; opacity: 0; pointer-events: none;
+          animation: hrp-entry-veil 1.55s ease forwards;
+        }
         .hrp-portal--entering .hrp-portal__stage {
-          opacity: 0;
-
-          transform: scale(0.975);
-
-          filter:
-            brightness(0.4)
-            blur(7px);
+          opacity: 0; transform: scale(.975);
+          filter: brightness(.4) blur(7px);
         }
-
-        .hrp-entry--active .hrp-entry__background {
-          animation:
-            hrp-entry-background
-            1.15s ease forwards;
-        }
-
-        .hrp-entry--active .hrp-entry__rings > span {
-          animation:
-            hrp-entry-ring
-            1.15s ease-out forwards;
-        }
-
-        .hrp-entry--active
-        .hrp-entry__rings > span:nth-child(2) {
-          animation-delay: 0.1s;
-        }
-
-        .hrp-entry--active
-        .hrp-entry__rings > span:nth-child(3) {
-          animation-delay: 0.2s;
-        }
-
-        .hrp-entry--active .hrp-entry__symbol {
-          animation:
-            hrp-entry-symbol
-            1.15s
-            cubic-bezier(0.2, 0.75, 0.2, 1)
-            forwards;
-        }
-
-        .hrp-entry--active .hrp-entry__copy {
-          animation:
-            hrp-entry-copy
-            1.15s ease forwards;
-        }
-
-        /* ==================================================
-           AMBIENT ANIMATIONS
-        ================================================== */
 
         @keyframes hrp-symbol-float {
-          0%, 100% {
-            transform: translateY(2px);
-          }
-
-          50% {
-            transform: translateY(-3px);
-          }
+          0%,100% { transform: translateY(2px); }
+          50% { transform: translateY(-3px); }
         }
-
-        @keyframes hrp-core-light-breathe {
-          0%, 100% {
-            opacity: 0.55;
-            transform: scale(0.97);
-          }
-
-          50% {
-            opacity: 0.95;
-            transform: scale(1.04);
-          }
+        @keyframes hrp-framework-turn {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
         }
-
-        @keyframes hrp-orbits-breathe {
-          0%, 100% {
-            opacity: 0.72;
-            transform: rotate(-1.5deg);
-          }
-
-          50% {
-            opacity: 1;
-            transform: rotate(1.5deg);
-          }
+        @keyframes hrp-architecture-breathe {
+          0%,100% { transform: scale(.985) rotate(-1.2deg); opacity: .65; }
+          50% { transform: scale(1.02) rotate(1.2deg); opacity: 1; }
         }
-
-        @keyframes hrp-inner-rings-breathe {
-          0%, 100% {
-            opacity: 0.62;
-            transform: scale(0.98);
-          }
-
-          50% {
-            opacity: 1;
-            transform: scale(1.02);
-          }
+        @keyframes hrp-inquiry-drift {
+          from { transform: rotate(-9deg); opacity: .7; }
+          to { transform: rotate(9deg); opacity: 1; }
         }
-
-        @keyframes hrp-arc-breathe {
-          0%, 100% {
-            opacity: 0.72;
-          }
-
-          50% {
-            opacity: 1;
-          }
+        @keyframes hrp-inner-living {
+          0%,100% { transform: scale(.97) rotate(-2deg); opacity: .76; }
+          50% { transform: scale(1.04) rotate(2deg); opacity: 1; }
         }
-
-        @keyframes hrp-structure-breathe {
-          0%, 100% {
-            opacity: 0.78;
-          }
-
-          50% {
-            opacity: 1;
-          }
+        @keyframes hrp-signal-flow {
+          from { stroke-dashoffset: 0; opacity: .35; }
+          50% { opacity: .95; }
+          to { stroke-dashoffset: -88; opacity: .35; }
         }
-
-        @keyframes hrp-core-breathe {
-          0%, 100% {
-            opacity: 0.65;
-          }
-
-          50% {
-            opacity: 1;
-          }
+        @keyframes hrp-station-breathe {
+          0%,100% { transform: scale(.75); opacity: .48; }
+          50% { transform: scale(1.34); opacity: 1; }
         }
-
-        @keyframes hrp-points-breathe {
-          0%, 100% {
-            opacity: 0.65;
-          }
-
-          50% {
-            opacity: 1;
-          }
+        @keyframes hrp-core-living {
+          0%,100% { transform: scale(.94); opacity: .72; }
+          50% { transform: scale(1.07); opacity: 1; }
         }
-
-        /* ==================================================
-           ENTRY ANIMATIONS
-        ================================================== */
-
+        @keyframes hrp-network-breathe {
+          from { opacity: .48; }
+          to { opacity: .94; }
+        }
+        @keyframes hrp-stars-breathe {
+          from { opacity: .45; }
+          to { opacity: .85; }
+        }
         @keyframes hrp-entry-background {
-          0% {
-            opacity: 0;
-          }
-
-          20%, 100% {
-            opacity: 1;
-          }
+          0% { opacity: 0; }
+          16%,100% { opacity: 1; }
         }
-
-        @keyframes hrp-entry-ring {
-          0% {
-            opacity: 0;
-            transform: scale(0.5);
-          }
-
-          35% {
-            opacity: 0.55;
-          }
-
-          100% {
-            opacity: 0;
-            transform: scale(1.65);
-          }
+        @keyframes hrp-entry-stars-far {
+          0% { opacity: 0; transform: scale(.65); }
+          22% { opacity: .45; }
+          75% { opacity: .6; }
+          100% { opacity: 0; transform: scale(1.65); }
         }
-
-        @keyframes hrp-entry-symbol {
-          0% {
-            opacity: 0;
-
-            transform:
-              translate(-50%, -50%)
-              scale(0.7);
-
-            filter: blur(8px);
-          }
-
-          25% {
-            opacity: 1;
-            filter: blur(0);
-          }
-
-          70% {
-            opacity: 1;
-
-            transform:
-              translate(-50%, -50%)
-              scale(1.04);
-          }
-
-          100% {
-            opacity: 0.15;
-
-            transform:
-              translate(-50%, -50%)
-              scale(1.32);
-
-            filter: blur(9px);
-          }
+        @keyframes hrp-entry-stars-near {
+          0% { opacity: 0; transform: scale(.5); }
+          28% { opacity: .7; }
+          80% { opacity: .7; }
+          100% { opacity: 0; transform: scale(2.6); }
         }
-
+        @keyframes hrp-entry-depth {
+          0% { opacity: 0; transform: scale(.35); }
+          27% { opacity: .65; }
+          70% { opacity: .48; }
+          100% { opacity: 0; transform: scale(3.6); }
+        }
+        @keyframes hrp-entry-cosmos {
+          0% { opacity: 0; transform: translate(-50%,-50%) scale(.48); filter: blur(8px); }
+          18% { opacity: 1; filter: blur(0); }
+          48% { opacity: 1; transform: translate(-50%,-50%) scale(1.06); }
+          78% { opacity: .95; filter: blur(0); }
+          100% { opacity: 0; transform: translate(-50%,-50%) scale(4.1); filter: blur(10px); }
+        }
+        @keyframes hrp-entry-horizon {
+          0%,30% { opacity: 0; transform: translate(-50%,-50%) scale(.2); }
+          62% { opacity: .75; }
+          100% { opacity: 0; transform: translate(-50%,-50%) scale(6); }
+        }
         @keyframes hrp-entry-copy {
-          0%, 15% {
-            opacity: 0;
-            transform: translate(-50%, 8px);
-          }
-
-          38%, 82% {
-            opacity: 1;
-            transform: translate(-50%, 0);
-          }
-
-          100% {
-            opacity: 0;
-            transform: translate(-50%, -5px);
-          }
+          0%,14% { opacity: 0; transform: translate(-50%,8px); }
+          30%,73% { opacity: 1; transform: translate(-50%,0); }
+          94%,100% { opacity: 0; transform: translate(-50%,-8px); }
         }
-
-        /* ==================================================
-           HOVER
-        ================================================== */
+        @keyframes hrp-entry-veil {
+          0%,77% { opacity: 0; }
+          100% { opacity: 1; }
+        }
 
         @media (hover: hover) and (pointer: fine) {
-          .hrp-portal__symbol-button:hover
-          .hrp-portal__symbol-space {
-            transform:
-              translateY(-3px)
-              scale(1.035);
+          .hrp-portal__symbol-button:hover .hrp-portal__symbol-space {
+            transform: translateY(-3px) scale(1.035);
           }
-
-          .hrp-portal__symbol-button:hover
-          .hrp-symbol {
-            filter:
-              drop-shadow(
-                0 0 12px rgba(255, 255, 255, 0.14)
-              );
+          .hrp-portal__symbol-button:hover .hrp-symbol {
+            filter: drop-shadow(0 0 12px rgba(255,255,255,.14));
           }
-
-          .hrp-portal__symbol-button:hover
-          .hrp-portal__tap-hint {
-            color: rgba(255, 255, 255, 0.92);
-
-            transform: translate(-50%, -2px);
+          .hrp-portal__symbol-button:hover .hrp-portal__tap-hint {
+            color: rgba(255,255,255,.92);
+            transform: translate(-50%,-2px);
           }
-
-          .hrp-portal__symbol-button:hover
-          .hrp-portal__tap-hint svg {
+          .hrp-portal__symbol-button:hover .hrp-portal__tap-hint svg {
             transform: translateX(4px);
           }
         }
 
-        /* ==================================================
-           MOBILE / NATURAL PAGE SCROLL
-        ================================================== */
-
+        /* Mobile geometry and scrolling remain unchanged. */
         @media (max-width: 700px) {
           .hrp-portal {
-            height: auto;
-            min-height: 0;
-            max-height: none;
-
-            overflow: visible;
-            overscroll-behavior: auto;
+            height: auto; min-height: 0; max-height: none;
+            overflow: visible; overscroll-behavior: auto;
           }
-
           .hrp-portal__stage {
             grid-template-rows: auto auto auto;
-
-            height: auto;
-            min-height: 0;
-            max-height: none;
-
-            padding: 28px 18px 24px;
-
-            overflow: visible;
+            height: auto; min-height: 0; max-height: none;
+            padding: 28px 18px 24px; overflow: visible;
           }
-
-          .hrp-portal__identity {
-            gap: 6px;
-          }
-
-          .hrp-portal__identity > span {
-            font-size: 9px;
-            letter-spacing: 0.16em;
-          }
-
-          .hrp-portal__identity > small {
-            font-size: 7px;
-            letter-spacing: 0.1em;
-          }
-
+          .hrp-portal__identity { gap: 6px; }
+          .hrp-portal__identity > span { font-size: 9px; letter-spacing: .16em; }
+          .hrp-portal__identity > small { font-size: 7px; letter-spacing: .1em; }
           .hrp-portal__experience {
-            height: auto;
-            min-height: 0;
-            max-height: none;
-
+            height: auto; min-height: 0; max-height: none;
             padding: 44px 0 40px;
-
-            overflow: visible;
-            overscroll-behavior: auto;
+            overflow: visible; overscroll-behavior: auto;
           }
-
-          .hrp-portal__statement {
-            gap: 15px;
-          }
-
-          .hrp-portal__eyebrow {
-            font-size: 7px;
-            letter-spacing: 0.12em;
-          }
-
+          .hrp-portal__statement { gap: 15px; }
+          .hrp-portal__eyebrow { font-size: 7px; letter-spacing: .12em; }
           .hrp-portal__statement h2 {
-            font-size: clamp(28px, 7vw, 39px);
-            line-height: 1.12;
-            letter-spacing: -0.05em;
+            font-size: clamp(28px,7vw,39px);
+            line-height: 1.12; letter-spacing: -.05em;
           }
-
-          .hrp-portal__statement h2 br {
-            display: none;
-          }
-
+          .hrp-portal__statement h2 br { display: none; }
           .hrp-portal__description {
-            max-width: 440px;
-
-            font-size: 12px;
-            line-height: 1.75;
+            max-width: 440px; font-size: 12px; line-height: 1.75;
           }
-
           .hrp-portal__symbol-button {
-            width: min(100%, 290px);
-            margin-top: 20px;
+            width: min(100%,290px); margin-top: 20px;
           }
-
-          .hrp-portal__symbol-space {
-            width: min(100%, 260px);
-          }
-
-          .hrp-portal__tap-hint {
-            font-size: 8px;
-            letter-spacing: 0.11em;
-          }
-
+          .hrp-portal__symbol-space { width: min(100%,260px); }
+          .hrp-portal__tap-hint { font-size: 8px; letter-spacing: .11em; }
           .hrp-portal__sequence {
-            gap: 8px;
-            margin-top: 22px;
-
-            font-size: 7px;
-            letter-spacing: 0.07em;
+            gap: 8px; margin-top: 22px;
+            font-size: 7px; letter-spacing: .07em;
           }
-
-          .hrp-portal__sequence-item {
-            gap: 8px;
-          }
-
-          .hrp-portal__sequence-item i {
-            width: 14px;
-          }
-
-          .hrp-portal__footer {
-            gap: 8px;
-            padding-top: 15px;
-          }
-
-          .hrp-portal__footer > span {
-            font-size: 6px;
-            letter-spacing: 0.09em;
-          }
-
-          .hrp-entry__symbol {
-            width: min(74vw, 440px);
-          }
+          .hrp-portal__sequence-item { gap: 8px; }
+          .hrp-portal__sequence-item i { width: 14px; }
+          .hrp-portal__footer { gap: 8px; padding-top: 15px; }
+          .hrp-portal__footer > span { font-size: 6px; letter-spacing: .09em; }
+          .hrp-entry__symbol { width: min(74vw,440px); }
         }
-
         @media (max-width: 430px) {
-          .hrp-portal__stage {
-            padding: 25px 15px 22px;
-          }
-
-          .hrp-portal__statement h2 {
-            font-size: clamp(27px, 7.1vw, 34px);
-          }
-
-          .hrp-portal__symbol-space {
-            width: min(100%, 240px);
-          }
-
-          .hrp-portal__sequence {
-            column-gap: 7px;
-            row-gap: 10px;
-          }
+          .hrp-portal__stage { padding: 25px 15px 22px; }
+          .hrp-portal__statement h2 { font-size: clamp(27px,7.1vw,34px); }
+          .hrp-portal__symbol-space { width: min(100%,240px); }
+          .hrp-portal__sequence { column-gap: 7px; row-gap: 10px; }
         }
-
         @media (max-width: 360px) {
-          .hrp-portal__stage {
-            padding: 23px 12px 20px;
-          }
-
-          .hrp-portal__statement h2 {
-            font-size: 25px;
-          }
-
-          .hrp-portal__symbol-space {
-            width: min(100%, 215px);
-          }
-
-          .hrp-portal__sequence {
-            font-size: 6px;
-          }
-
-          .hrp-portal__sequence-item i {
-            width: 10px;
-          }
+          .hrp-portal__stage { padding: 23px 12px 20px; }
+          .hrp-portal__statement h2 { font-size: 25px; }
+          .hrp-portal__symbol-space { width: min(100%,215px); }
+          .hrp-portal__sequence { font-size: 6px; }
+          .hrp-portal__sequence-item i { width: 10px; }
         }
-
-        /* ==================================================
-           REDUCED MOTION
-        ================================================== */
-
         @media (prefers-reduced-motion: reduce) {
           .hrp-portal__symbol-object,
-          .hrp-symbol__core-light,
-          .hrp-symbol__orbits,
-          .hrp-symbol__inner-rings,
-          .hrp-symbol__open-arc,
-          .hrp-symbol__structure,
+          .hrp-symbol__outer-framework,
+          .hrp-symbol__architecture-back,
+          .hrp-symbol__inquiry-arc,
+          .hrp-symbol__inner-framework,
+          .hrp-symbol__network,
+          .hrp-symbol__signal,
+          .hrp-symbol__station,
           .hrp-symbol__core,
-          .hrp-symbol__points {
+          .hrp-symbol__return,
+          .hrp-symbol__stars {
             animation: none !important;
           }
-
-          .hrp-portal__symbol-space,
-          .hrp-portal__stage {
+          .hrp-portal__symbol-space, .hrp-portal__stage {
             transition: none !important;
           }
-
-          .hrp-entry--active
           .hrp-entry__background,
-          .hrp-entry--active
-          .hrp-entry__rings > span,
-          .hrp-entry--active
+          .hrp-entry__starfield,
+          .hrp-entry__depth > span,
           .hrp-entry__symbol,
-          .hrp-entry--active
-          .hrp-entry__copy {
+          .hrp-entry__horizon,
+          .hrp-entry__copy,
+          .hrp-entry__veil {
             animation: none !important;
           }
-
-          .hrp-entry--active
-          .hrp-entry__background {
-            opacity: 1;
-          }
-
-          .hrp-entry--active
+          .hrp-entry__background { opacity: 1; }
           .hrp-entry__symbol {
-            opacity: 1;
-
-            transform:
-              translate(-50%, -50%)
-              scale(1);
-
-            filter: none;
+            opacity: 1; transform: translate(-50%,-50%) scale(1); filter: none;
           }
-
-          .hrp-entry--active
-          .hrp-entry__copy {
-            opacity: 1;
-            transform: translate(-50%, 0);
-          }
+          .hrp-entry__copy { opacity: 1; transform: translate(-50%,0); }
+          .hrp-entry__veil { opacity: 0; }
         }
       `}</style>
     </>
