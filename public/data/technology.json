@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-17T12:45:24.514Z",
+  "updated": "2026-10-17T16:10:21.064Z",
   "items": [
     {
       "source": "NASA",
@@ -634,18 +634,18 @@
     },
     {
       "source": "OpenAI",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "ts": 1792108800000,
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "ts": 1792108800000,
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "categoryId": "ai-compute"

@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-10-17T12:45:22.471Z",
+  "updated": "2026-10-17T16:10:18.393Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hand-cranked device tells blood type and red cell levels in 1 minute",
+      "url": "https://phys.org/news/2026-10-cranked-device-blood-red-cell.html",
+      "summary": "When someone is badly injured, doctors urgently need two facts: the patient's blood type, so that a transfusion is safe, and their hematocrit, the share of the blood made up of red blood cells, which reveals blood loss o…",
+      "ts": 1792252801000,
+      "publishedAt": "2026-10-17T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
+      "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
+      "summary": "The ocean beneath Saturn's moon Enceladus lies under kilometers of ice, but some of its contents do reach the surface. Jets near the south pole spray out water vapor and icy particles, offering a way to investigate the h…",
+      "ts": 1792251601000,
+      "publishedAt": "2026-10-17T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australian scavengers don't just eat everything and slink away. They approach a carcass like a buffet",
+      "url": "https://phys.org/news/2026-10-australian-scavengers-dont-approach-carcass.html",
+      "summary": "When scientists talk about scavengers, you might imagine an animal sniffing out or stumbling across a carcass, eating as much as possible and slinking away.",
+      "ts": 1792249201000,
+      "publishedAt": "2026-10-17T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The ambiguous costs of climate change",
+      "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
+      "summary": "As human activity has increased temperatures globally, determining the costs directly incurred by climate change is challenging. The effects of climate change on extreme weather events—such as hurricanes and heat waves—c…",
+      "ts": 1792246801000,
+      "publishedAt": "2026-10-17T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lone, starless cloud may be a 'dark' galaxy",
+      "url": "https://phys.org/news/2026-10-lone-starless-cloud-dark-galaxy.html",
+      "summary": "Astronomers using China's FAST radio telescope have discovered a compact cloud of hydrogen with no visible stars or galaxy around it. This could be one of the strongest candidates yet for an isolated \"dark galaxy,\" conta…",
+      "ts": 1792244404000,
+      "publishedAt": "2026-10-17T13:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Red-sensitive pigments in mantis shrimp eyes act as reversible light switches",
+      "url": "https://phys.org/news/2026-10-red-sensitive-pigments-mantis-shrimp.html",
+      "summary": "With about 30 visual pigments, compared to just three in humans, mantis shrimp possess a visual system that remains a mystery. Researchers from ULiège and Humboldt University in Berlin have, for the first time, analyzed …",
+      "ts": 1792242001000,
+      "publishedAt": "2026-10-17T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Electrical sliding switches graphene between magnetic states",
@@ -751,54 +799,6 @@
       "title": "AgentPerturb: Evaluating LLM Agent Robustness under Controlled Interaction Perturbations",
       "url": "https://arxiv.org/abs/2610.21624",
       "summary": "arXiv:2610.21624v1 Announce Type: new Abstract: Real-world tasks are often complex and noisy, posing substantial challenges for LLM agents. Yet existing evaluations lack a systematic framework for jointly characterizing …",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The Self-Improvement Problem",
-      "url": "https://arxiv.org/abs/2610.21646",
-      "summary": "arXiv:2610.21646v1 Announce Type: new Abstract: With the rise of large language models, agentic systems are becoming increasingly autonomous, as they write code, call tools, revise prompts, and propose modifications to t…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Data World: Scaling Data Environments from Scratch",
-      "url": "https://arxiv.org/abs/2610.21656",
-      "summary": "arXiv:2610.21656v1 Announce Type: new Abstract: Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly environment curation, privacy and intellectual-prope…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "In-Context Preference-Conditioned Pareto Set Learning from Limited Offline Data",
-      "url": "https://arxiv.org/abs/2610.21736",
-      "summary": "arXiv:2610.21736v1 Announce Type: new Abstract: Multi-objective optimization involves diverse preferences over conflicting objectives. Rather than returning a finite set of trade-off solutions, preference-conditioned Par…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
-      "url": "https://arxiv.org/abs/2610.21755",
-      "summary": "arXiv:2610.21755v1 Announce Type: new Abstract: Large Language Model agents operate through closed-loop action policies whose decision space is defined by an agent harness. We investigate how this operating space shapes …",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
-      "url": "https://arxiv.org/abs/2610.21767",
-      "summary": "arXiv:2610.21767v1 Announce Type: new Abstract: Can AI agents organize scientific investigations that lead to well-supported conclusions? To evaluate this capability, we introduce PhysClosureBench, a benchmark of 50 expe…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
-      "url": "https://arxiv.org/abs/2610.21791",
-      "summary": "arXiv:2610.21791v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in complex tasks, including code generation, tool use, and multi-hop question answering. Existing se…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
