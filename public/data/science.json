@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-18T09:22:33.744Z",
+  "updated": "2026-10-18T13:48:53.082Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hybrid diamond chip strengthens interactions between light and quantum bits",
+      "url": "https://phys.org/news/2026-10-hybrid-diamond-chip-interactions-quantum.html",
+      "summary": "Researchers have developed and demonstrated a new hybrid photonic platform that integrates quantum emitters with photonic devices, providing a way to reliably control the interaction between photons and quantum informati…",
+      "ts": 1792328405000,
+      "publishedAt": "2026-10-18T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lion droppings yield previously unknown microbial species, exposing hidden diversity inside Africa's big cats",
+      "url": "https://phys.org/news/2026-10-lion-yield-previously-unknown-microbial.html",
+      "summary": "Scientists know a great deal about how lions hunt, breed and survive, but the microscopic communities living inside them have remained largely unexplored. Now, a study of wild lions in Namibia is beginning to change that…",
+      "ts": 1792324801000,
+      "publishedAt": "2026-10-18T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One million migrating raptors dodge illegal hunters above Georgia's Black Sea coast",
+      "url": "https://phys.org/news/2026-10-million-migrating-raptors-dodge-illegal.html",
+      "summary": "Standing on a verdant hill above Georgia's Black Sea coast, ornithologist Bart Hoekstra looked out over one of the world's greatest wildlife spectacles unfolding before him—then gunshots pierced the air.",
+      "ts": 1792323563000,
+      "publishedAt": "2026-10-18T11:39:23.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan to launch spacecraft on a mission to get samples from a Martian moon",
+      "url": "https://phys.org/news/2026-10-japan-spacecraft-mission-samples-martian.html",
+      "summary": "Japan is set to launch a spacecraft on the world's first mission to bring back samples from Phobos, one of the two small, potato-shaped moons orbiting Mars.",
+      "ts": 1792323520000,
+      "publishedAt": "2026-10-18T11:38:40.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "World's oldest shipwreck discovered off coast of Turkey",
@@ -9,6 +41,22 @@
       "summary": "A shipwreck off the coast of Turkey is the oldest shipwreck in the world, our team of archaeologists believes. There's little left of the ship itself, but based on clues from its cargo—including pottery vessels—a researc…",
       "ts": 1792283401000,
       "publishedAt": "2026-10-18T00:30:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Solvent heterogeneity regulates assembly pathways in supramolecular polymerization",
+      "url": "https://www.nature.com/articles/s41467-026-78525-6",
+      "summary": "",
+      "ts": 1792281600000,
+      "publishedAt": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Bacteroides–Escherichia interactions contribute to colonization resistance against Clostridioides difficile",
+      "url": "https://www.nature.com/articles/s41467-026-78132-5",
+      "summary": "",
+      "ts": 1792281600000,
+      "publishedAt": "2026-10-18T00:00:00.000Z"
     },
     {
       "source": "Nature Communications",
@@ -751,54 +799,6 @@
       "title": "ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing",
       "url": "https://arxiv.org/abs/2610.21502",
       "summary": "arXiv:2610.21502v1 Announce Type: new Abstract: Internal solitary wave (ISW) remote sensing requires task parameters and spatial information to be transferred across image acquisition, detection, stripe extraction, and p…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Decomposing Brain-LLM Alignment with Interpretable Semantic Representations",
-      "url": "https://arxiv.org/abs/2610.21508",
-      "summary": "arXiv:2610.21508v1 Announce Type: new Abstract: Large language models (LLMs) predict neural responses during naturalistic language comprehension, but the linguistic information underlying this brain alignment remains dif…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "QREF: Improving DeepSearch Agents by Aligning Search with Reasoning via Query Refinement and Evidence Filtering",
-      "url": "https://arxiv.org/abs/2610.21512",
-      "summary": "arXiv:2610.21512v1 Announce Type: new Abstract: DeepSearch agents achieve strong performance on complex information-seeking tasks through iterative search and reasoning. However, they often issue intent-misaligned, under…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SCRIBE: Scalable Contextual Representations of Interpretable Brain-Grounded Semantics",
-      "url": "https://arxiv.org/abs/2610.21518",
-      "summary": "arXiv:2610.21518v1 Announce Type: new Abstract: Understanding how the human brain constructs meaning from real-world language remains a fundamental challenge, as semantics depend on context that varies in natural setting…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CriticaLLM: Using LLMs as Autonomous Game Master for Tabletop Role-Playing Games",
-      "url": "https://arxiv.org/abs/2610.21525",
-      "summary": "arXiv:2610.21525v1 Announce Type: new Abstract: Large Language Models (LLMs) have shown impressive capabilities across many tasks, including processing large amounts of text, following instructions, and generating ideas.…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Functional Subnetwork Localization for Efficient Continual Learning in Large Language Models",
-      "url": "https://arxiv.org/abs/2610.21537",
-      "summary": "arXiv:2610.21537v1 Announce Type: new Abstract: Biological intelligence continually adapts to new information while retaining prior skills through localized plasticity. In contrast, continual learning in large language m…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Agent Status Protocol (ASP): A Lightweight Specification for State Reporting in Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2610.21538",
-      "summary": "arXiv:2610.21538v1 Announce Type: new Abstract: The Agent Status Protocol (ASP) defines a lightweight way for heterogeneous AI agents to report their operational state to a status server, and for observers such as dashbo…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
