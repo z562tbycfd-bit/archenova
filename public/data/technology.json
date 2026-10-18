@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-18T04:15:30.118Z",
+  "updated": "2026-10-18T09:22:41.822Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
+      "summary": "APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1792296300000,
+      "publishedAt": "2026-10-18T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
@@ -10,6 +19,15 @@
       "ts": 1792270813000,
       "publishedAt": "2026-10-17T21:00:13.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP17: The world has a plan to save nature. Is it working?",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168618",
+      "summary": "The UN Secretary-General has called for an end to the “war on nature”. On Monday, governments gathering in Yerevan, Armenia, will have to confront a more practical question: are they doing enough to win the peace and put…",
+      "ts": 1792238400000,
+      "publishedAt": "2026-10-17T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1792083623000,
       "publishedAt": "2026-10-15T17:00:23.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
-      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
-      "summary": "A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissio…",
-      "ts": 1792082530000,
-      "publishedAt": "2026-10-15T16:42:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Welcomes All Ages, Experience Levels for Space Apps Challenge",
-      "url": "https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/",
-      "summary": "Registration is open for the 2026 NASA Space Apps Challenge, a two-day global event on Saturday, Nov. 14 and Sunday, Nov. 15, where teams work to create solutions inspired by NASA’s most ambitious exploration goals and m…",
-      "ts": 1792080788000,
-      "publishedAt": "2026-10-15T16:13:08.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
