@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-10-18T13:48:53.082Z",
+  "updated": "2026-10-18T17:08:54.081Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Genome detectives: Researchers sequence the genome of a harmful plant pathogen",
+      "url": "https://phys.org/news/2026-10-genome-sequence-pathogen.html",
+      "summary": "Graduate students in Penn State's College of Agricultural Sciences contributed to the first complete genome sequence of a harmful plant pathogen from an ornamental Prunus host through an active-learning activity in a pla…",
+      "ts": 1792342801000,
+      "publishedAt": "2026-10-18T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover a way to reverse coral bleaching at record speed",
+      "url": "https://phys.org/news/2026-10-scientists-reverse-coral.html",
+      "summary": "For the first time, scientists have observed bleached corals on the brink of death fully recover through brief contact with healthy clones. Ghostly white corals returned to full health in a laboratory setting within seve…",
+      "ts": 1792339201000,
+      "publishedAt": "2026-10-18T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Warming could help make the Indian Ocean a stronger climate buffer",
+      "url": "https://phys.org/news/2026-10-indian-ocean-stronger-climate-buffer.html",
+      "summary": "The world's oceans help slow climate change by absorbing carbon dioxide (CO₂) from the atmosphere, but how much they take up can vary throughout the year. New research, published in Geophysical Research Letters, suggests…",
+      "ts": 1792336801000,
+      "publishedAt": "2026-10-18T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Close social bonds help wild jackdaws hold feeding spots but come with waiting costs",
+      "url": "https://phys.org/news/2026-10-social-bonds-wild-jackdaws.html",
+      "summary": "Close social relationships are known to contribute to the survival of many animals, including humans. Maintaining social bonds over time, however, can also require effort and sacrifices.",
+      "ts": 1792333201000,
+      "publishedAt": "2026-10-18T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan's MMX mission aims to swipe soil samples from Mars's moon Phobos",
+      "url": "https://phys.org/news/2026-10-japan-mmx-mission-aims-swipe.html",
+      "summary": "A Japanese space mission is about to launch towards Mars. But it will not land on the planet itself. Instead, the Martian Moons Exploration (MMX) mission will focus on Phobos, the bigger of Mars's two small moons.",
+      "ts": 1792332001000,
+      "publishedAt": "2026-10-18T14:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hybrid diamond chip strengthens interactions between light and quantum bits",
@@ -759,46 +799,6 @@
       "title": "Ontology Refinement with Embeddings and LLMs: A Case Study on CASTON",
       "url": "https://arxiv.org/abs/2610.21466",
       "summary": "arXiv:2610.21466v1 Announce Type: new Abstract: Ontologies are widely used to represent and organize complex knowledge in domains such as biomedicine and healthcare. However, constructing reliable ontologies remains chal…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Tool-Augmented Large Language Models for Reliable Medical Calculation from Patient Notes",
-      "url": "https://arxiv.org/abs/2610.21477",
-      "summary": "arXiv:2610.21477v1 Announce Type: new Abstract: Medical calculators translate raw patient observations into clinically actionable values and scores. However, applying these calculators directly to free-form patient notes…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AI-Driven Disaster Response and Displacement Monitoring",
-      "url": "https://arxiv.org/abs/2610.21482",
-      "summary": "arXiv:2610.21482v1 Announce Type: new Abstract: ARTIFICIAL INTELLIGENCE (AI) has demonstrated its potential across a wide range of humanitarian tasks, offering scalable and data-driven solutions to some of the world's mo…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "FlashAttention with Statistics: Low-Overhead Attention Features for Compact Hallucination Detectors",
-      "url": "https://arxiv.org/abs/2610.21483",
-      "summary": "arXiv:2610.21483v1 Announce Type: new Abstract: Large language models can produce fluent answers that the supplied context does not support. A compact frozen proxy model can detect such answers by reading the context and…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MetaExp: Learning to Self-Improve through Experience via Verifiable Cross-Task Environment Scaling",
-      "url": "https://arxiv.org/abs/2610.21492",
-      "summary": "arXiv:2610.21492v1 Announce Type: new Abstract: Language-model agents can accumulate interaction feedback, but reliably turning that feedback into reusable experience remains challenging. Existing methods either optimize…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing",
-      "url": "https://arxiv.org/abs/2610.21502",
-      "summary": "arXiv:2610.21502v1 Announce Type: new Abstract: Internal solitary wave (ISW) remote sensing requires task parameters and spatial information to be transferred across image acquisition, detection, stripe extraction, and p…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
