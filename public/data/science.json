@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-18T20:16:33.106Z",
+  "updated": "2026-10-18T22:51:27.381Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Early humans in America endured climate chaos—new research",
+      "url": "https://phys.org/news/2026-10-early-humans-america-climate-chaos.html",
+      "summary": "Some 23,000 years ago, during the coldest part of the last ice age, people walked across the muddy margins of an ancient lake in what is now White Sands National Park, New Mexico.",
+      "ts": 1792359601000,
+      "publishedAt": "2026-10-18T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earth's oldest evidence of life is written in stone—but it's at risk of disappearing",
+      "url": "https://phys.org/news/2026-10-earth-oldest-evidence-life-written.html",
+      "summary": "Today, our planet is teeming with life, but it has not always looked the same. Long before forests reached skyward, animals walked on land and dinosaurs rose and fell, our planet was shaped by a much smaller, more unassu…",
+      "ts": 1792357201000,
+      "publishedAt": "2026-10-18T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan to launch historic round-trip mission to Mars moon",
+      "url": "https://phys.org/news/2026-10-japan-historic-mission-mars-moon.html",
+      "summary": "Japanese scientists are readying a mission to Mars' moons to retrieve samples that could help unlock the origins of the solar system and life on Earth, in what aims to be the first round trip to the Martian region.",
+      "ts": 1792354801000,
+      "publishedAt": "2026-10-18T20:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Spatial genomics tool maps long-range DNA interactions while preserving cells' locations within tissues",
@@ -775,30 +799,6 @@
       "title": "Learning to Reason with Selective Internal Feedback",
       "url": "https://arxiv.org/abs/2610.21392",
       "summary": "arXiv:2610.21392v1 Announce Type: new Abstract: Reinforcement learning from internal feedback can improve language models without ground-truth answers or external verifiers. However, confidence and correctness can diverg…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Self-Guided LLM Reasoning for Error Diagnosis in Vehicle Routing Problems",
-      "url": "https://arxiv.org/abs/2610.21393",
-      "summary": "arXiv:2610.21393v1 Announce Type: new Abstract: Vehicle Routing Problems (VRPs) are fundamental to many real-world applications. Recent advances in large language models (LLMs) have spurred progress in solving these NP-h…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Watts If? A Benchmark for Counterfactual Reasoning About the AI Data Center Buildout",
-      "url": "https://arxiv.org/abs/2610.21397",
-      "summary": "arXiv:2610.21397v1 Announce Type: new Abstract: An AI data center is committed years before it draws a watt: a few discrete choices (grid or on-site gas, evaporative or dry cooling, which county to file in) fix its capit…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents",
-      "url": "https://arxiv.org/abs/2610.21405",
-      "summary": "arXiv:2610.21405v1 Announce Type: new Abstract: Long-term memory has become a crucial component of large language model (LLM) agents, with most research focusing on retrieving relevant information accurately and efficien…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
