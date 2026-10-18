@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-10-18T17:09:01.376Z",
+  "updated": "2026-10-18T20:16:35.877Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Liquidia Rebounds After Settling Legal Wrangle with United Therapeutics",
+      "url": "https://www.genengnews.com/topics/drug-discovery/stockwatch-liquidia-rebounds-after-settling-legal-wrangle-with-united-therapeutics/",
+      "summary": "Two weeks after its stock lost more than half its value following a setback in a seven-year legal wrangle, Liquidia shares finally began bouncing back thanks to a settlement with United Therapeutics that drew mixed concl…",
+      "ts": 1792348411000,
+      "publishedAt": "2026-10-18T18:33:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Diasome’s HDV-Insulin for T1D Finalizing Phase III Plans After Promising Data",
+      "url": "https://www.genengnews.com/topics/translational-medicine/diasomes-hdv-insulin-for-t1d-finalizing-phase-iii-plans-after-promising-data/",
+      "summary": "HDV is intended to address the difficulty of insulin, GLP-1, or other molecules traveling to the liver when injected subcutaneously, due to the large number of receptors in peripheral tissue such as fat cells and muscle …",
+      "ts": 1792345677000,
+      "publishedAt": "2026-10-18T17:47:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
@@ -793,24 +811,6 @@
       "ts": 1792084790000,
       "publishedAt": "2026-10-15T17:19:50.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "How Alzheimer’s Risk Gene APOE4 Disrupts Myelination",
-      "url": "https://www.genengnews.com/topics/translational-medicine/how-alzheimers-risk-gene-apoe4-disrupts-myelination/",
-      "summary": "Study linked the APOE4 gene with suppression of Wnt signaling in the oligodendrocyte cells that provide neurons with their fatty myelin insulation, and also demonstrated a potential approach to preventing disruption of m…",
-      "ts": 1792084036000,
-      "publishedAt": "2026-10-15T17:07:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-      "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the wor…",
-      "ts": 1792083623000,
-      "publishedAt": "2026-10-15T17:00:23.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

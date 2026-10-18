@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-10-18T17:08:54.081Z",
+  "updated": "2026-10-18T20:16:33.106Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Spatial genomics tool maps long-range DNA interactions while preserving cells' locations within tissues",
+      "url": "https://phys.org/news/2026-10-spatial-genomics-tool-range-dna.html",
+      "summary": "DNA is not randomly distributed within the nucleus but is packaged with proteins into chromatin, which is precisely folded into complex three-dimensional structures. However, scientists have not fully understood how this…",
+      "ts": 1792353602000,
+      "publishedAt": "2026-10-18T20:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dozens of orangutans saved from Indonesia blazes as region grapples with haze",
+      "url": "https://phys.org/news/2026-10-dozens-orangutans-indonesia-blazes-region.html",
+      "summary": "Dozens of critically endangered orangutans have been rescued in recent weeks from rampant wildfires burning across Indonesia that have cloaked the region in toxic haze, conservation groups said.",
+      "ts": 1792351180000,
+      "publishedAt": "2026-10-18T19:19:40.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change affects the quality of one of the world's most important staple foods",
+      "url": "https://phys.org/news/2026-10-climate-affects-quality-world-important.html",
+      "summary": "Depending on the cultivar, higher concentrations of carbon dioxide (CO₂) in the atmosphere can significantly alter the protein composition of wheat. This affects not only baking quality but potentially also the tolerabil…",
+      "ts": 1792350001000,
+      "publishedAt": "2026-10-18T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New monolithic ion trap opens quantum simulations to more researchers",
+      "url": "https://phys.org/news/2026-10-monolithic-ion-quantum-simulations.html",
+      "summary": "Some quantum systems are so complex that even the most powerful supercomputers struggle to simulate their behavior. One solution is quantum simulation: building a controllable quantum system in the lab and tuning it to m…",
+      "ts": 1792346406000,
+      "publishedAt": "2026-10-18T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new way to detect stabilizing properties of optical devices",
+      "url": "https://phys.org/news/2026-10-stabilizing-properties-optical-devices.html",
+      "summary": "In optical fibers, chips and other light-guiding devices, minor defects can scatter photons and disrupt their path. A new study demonstrates a way to reveal properties which, in certain systems, help light wave behavior …",
+      "ts": 1792346401000,
+      "publishedAt": "2026-10-18T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists prove a long-suspected quantum speed limit for thermalization",
+      "url": "https://phys.org/news/2026-10-physicists-quantum-limit-thermalization.html",
+      "summary": "Whether we are waiting for a car windshield to defrost in winter or a warm drink to cool down, how long it takes for an object to settle into a stable, even temperature within its environment (thermal equilibrium) depend…",
+      "ts": 1792344001000,
+      "publishedAt": "2026-10-18T17:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Genome detectives: Researchers sequence the genome of a harmful plant pathogen",
@@ -751,54 +799,6 @@
       "title": "MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents",
       "url": "https://arxiv.org/abs/2610.21405",
       "summary": "arXiv:2610.21405v1 Announce Type: new Abstract: Long-term memory has become a crucial component of large language model (LLM) agents, with most research focusing on retrieving relevant information accurately and efficien…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Jev-LiteMAS: Separating Decisions from Generation in Multi-Agent Workflows",
-      "url": "https://arxiv.org/abs/2610.21411",
-      "summary": "arXiv:2610.21411v1 Announce Type: new Abstract: Multi-agent LLM systems rely on generative models for expert execution, workflow planning, and artifact review. Yet many coordination operations require only bounded decisi…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
-      "url": "https://arxiv.org/abs/2610.21412",
-      "summary": "arXiv:2610.21412v1 Announce Type: new Abstract: Large language model (LLM) agents now fix software, operate computers and serve customers, but their harnesses, the programs that run them, call a large LLM at every step, …",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Do Agents Need a New Kind of Paper? SPRA: Structured Paper Representation for Agents",
-      "url": "https://arxiv.org/abs/2610.21424",
-      "summary": "arXiv:2610.21424v1 Announce Type: new Abstract: Scientific agents must connect research problems, methods, and findings dispersed through narrative articles. We introduce SPRA (Structured Paper Representation for Agents)…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Learning from Interaction Experience via Localized Context Distillation",
-      "url": "https://arxiv.org/abs/2610.21427",
-      "summary": "arXiv:2610.21427v1 Announce Type: new Abstract: Learning from interaction experience is essential for enabling large language models to continually improve during deployment. Context distillation offers a promising path:…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Incentivizing Tool-Use Reinforcement Learning for Post-Arrival Emergency Care Prediction",
-      "url": "https://arxiv.org/abs/2610.21449",
-      "summary": "arXiv:2610.21449v1 Announce Type: new Abstract: Large language models (LLMs) can reason over both structured measurements and free-text records, which makes them attractive for emergency department (ED) prediction. Howev…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Ontology Refinement with Embeddings and LLMs: A Case Study on CASTON",
-      "url": "https://arxiv.org/abs/2610.21466",
-      "summary": "arXiv:2610.21466v1 Announce Type: new Abstract: Ontologies are widely used to represent and organize complex knowledge in domains such as biomedicine and healthcare. However, constructing reliable ontologies remains chal…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
