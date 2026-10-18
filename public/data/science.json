@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-17T23:57:26.889Z",
+  "updated": "2026-10-18T04:15:28.071Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "World's oldest shipwreck discovered off coast of Turkey",
+      "url": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+      "summary": "A shipwreck off the coast of Turkey is the oldest shipwreck in the world, our team of archaeologists believes. There's little left of the ship itself, but based on clues from its cargo—including pottery vessels—a researc…",
+      "ts": 1792283401000,
+      "publishedAt": "2026-10-18T00:30:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Molecular architecture of <i>Cryptococcus</i> cell walls reveals species-specific chitosan-dependent remodeling",
+      "url": "https://www.nature.com/articles/s41467-026-78940-9",
+      "summary": "",
+      "ts": 1792281600000,
+      "publishedAt": "2026-10-18T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What a worm's brain can teach us about sex differences in the nervous system",
@@ -783,22 +799,6 @@
       "title": "Agent Status Protocol (ASP): A Lightweight Specification for State Reporting in Multi-Agent Systems",
       "url": "https://arxiv.org/abs/2610.21538",
       "summary": "arXiv:2610.21538v1 Announce Type: new Abstract: The Agent Status Protocol (ASP) defines a lightweight way for heterogeneous AI agents to report their operational state to a status server, and for observers such as dashbo…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond",
-      "url": "https://arxiv.org/abs/2610.21539",
-      "summary": "arXiv:2610.21539v1 Announce Type: new Abstract: Diffusion models (DMs) have steadily demonstrated outstanding performance in high-fidelity, controllable generation across diverse scenarios, following the \"pretraining-fin…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ClaimScope: Label-Blind Witness Verification for Mathematical Claim Auditing",
-      "url": "https://arxiv.org/abs/2610.21581",
-      "summary": "arXiv:2610.21581v1 Announce Type: new Abstract: Mathematical agents are commonly evaluated by answer accuracy or proof acceptance. We introduce ClaimScope, a 72-task benchmark for auditing proposed claims through a verdi…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
