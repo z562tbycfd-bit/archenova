@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-10-19T05:51:29.558Z",
+  "updated": "2026-10-19T12:30:28.456Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Labeling foods with added sugar content may reduce demand and consumption",
+      "url": "https://phys.org/news/2026-10-foods-added-sugar-content-demand.html",
+      "summary": "The labeling of added sugar on food labels, which became mandatory in the U.S. by 2021, may reduce demand for and consumption of certain types of food, according to a study led by researchers in Penn State's College of A…",
+      "ts": 1792412402000,
+      "publishedAt": "2026-10-19T12:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genomic study uncovers a new lace bug species on Japan's remote Ogasawara Islands",
+      "url": "https://phys.org/news/2026-10-genomic-uncovers-lace-bug-species.html",
+      "summary": "Researchers have used genome-wide DNA data to identify a new insect species on the Ogasawara Islands, a remote Japanese archipelago roughly 900 to 1,000 kilometers (560 to 620 miles) south of Tokyo. The findings suggest …",
+      "ts": 1792411201000,
+      "publishedAt": "2026-10-19T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japanese philosophy offers a new perspective on education",
+      "url": "https://phys.org/news/2026-10-japanese-philosophy-perspective.html",
+      "summary": "Modern education is predominantly shaped by approaches that emphasize efficiency, measurable achievement, prediction and the ability to solve problems through rational intervention.",
+      "ts": 1792410003000,
+      "publishedAt": "2026-10-19T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers are ignoring most living things: Analysis finds vertebrates dominate biodiversity research",
+      "url": "https://phys.org/news/2026-10-analysis-vertebrates-dominate-biodiversity.html",
+      "summary": "According to two new UNSW studies, researchers often choose research topics based on personal preferences and cultural attitudes, including exposure to films, TV shows and even zoos, rather than attempting to fill the mo…",
+      "ts": 1792408806000,
+      "publishedAt": "2026-10-19T11:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers advance aquifer mapping using remote sensing and statistical models to improve groundwater management",
+      "url": "https://phys.org/news/2026-10-advance-aquifer-remote-statistical-groundwater.html",
+      "summary": "Groundwater in many areas of the U.S. and across the globe is being depleted as pumping for drinking water and agriculture outpaces nature's ability to refill aquifers. In the most severe cases, this could lead to a poin…",
+      "ts": 1792407602000,
+      "publishedAt": "2026-10-19T11:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nations seek reset at UN talks as nature goals off track",
+      "url": "https://phys.org/news/2026-10-nations-reset-nature-goals-track.html",
+      "summary": "Nearly 200 nations are gathering in Armenia on Monday for critical negotiations as governments come under pressure to salvage a landmark nature pact whose goals are slipping out of reach.",
+      "ts": 1792402801000,
+      "publishedAt": "2026-10-19T09:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The painstaking task of cataloging the world's species",
+      "url": "https://phys.org/news/2026-10-painstaking-task-world-species.html",
+      "summary": "A bumblebee-like insect that was last seen in France 150 years ago was spotted again in the Paris region in 2025.",
+      "ts": 1792401602000,
+      "publishedAt": "2026-10-19T09:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Factoring daily weather extremes into glacier models reveals greater ice loss and faster sea-level rise",
+      "url": "https://phys.org/news/2026-10-factoring-daily-weather-extremes-glacier.html",
+      "summary": "A new study led by researchers at ETH Zurich (Switzerland) and the Vrije Universiteit Brussel (Belgium) reveals that glaciers worldwide could lose ice faster than previously projected. Published in Nature Communications,…",
+      "ts": 1792400401000,
+      "publishedAt": "2026-10-19T09:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "On the front line of ocean conservation off Portugal's Madeira",
+      "url": "https://phys.org/news/2026-10-front-line-ocean-portugal-madeira.html",
+      "summary": "Juan Mayorga smiled as a stingray glided across his computer screen, moving gracefully over the seabed near Portugal's Desertas Islands, part of the Madeira archipelago in the Atlantic Ocean.",
+      "ts": 1792399201000,
+      "publishedAt": "2026-10-19T08:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Record El Niño? Depends who's counting",
+      "url": "https://phys.org/news/2026-10-el-nio.html",
+      "summary": "Britain's Met Office says this year's El Niño is \"unprecedented.\" Japan's weather agency has called it the strongest ever observed. U.S. forecasters say it still trails the biggest events in its record books.",
+      "ts": 1792398001000,
+      "publishedAt": "2026-10-19T08:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Retired pilot helps historical society buy Neil Armstrong's boyhood home for tours",
+      "url": "https://phys.org/news/2026-10-historical-society-buy-neil-armstrong.html",
+      "summary": "Ken Schreiber was 9 when Neil Armstrong took his first steps on the moon in 1969—a moment he would never forget. Like Armstrong, he became a military fighter pilot.",
+      "ts": 1792396466000,
+      "publishedAt": "2026-10-19T07:54:26.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Having a baby is too expensive, 4 in 5 parents say",
@@ -711,94 +799,6 @@
       "title": "Diffusion-controlled reactions with time-dependent surface reactivity",
       "url": "https://arxiv.org/abs/2610.23017",
       "summary": "arXiv:2610.23017v1 Announce Type: cross Abstract: We investigate diffusion-controlled reactions on a reactive surface with time-dependent reactivity. Starting from a conventional formulation via diffusion equation with R…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatiotemporal Adaptive Eigenspectrum Remapping in Transcranial Ultrasound Localization Microscopy",
-      "url": "https://arxiv.org/abs/2610.23099",
-      "summary": "arXiv:2610.23099v1 Announce Type: cross Abstract: Clutter suppression is a critical preprocessing step in ultrasound blood flow imaging, yet conventional singular value decomposition (SVD) filtering depends on data-speci…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Validating LLM-generated political networks with survey-reported partisan exposure",
-      "url": "https://arxiv.org/abs/2610.23199",
-      "summary": "arXiv:2610.23199v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used to simulate human behavior in social science research, including decisions, interactions, and social relationships. How…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exponential-SWAP gate between bosonic motional modes of trapped ions",
-      "url": "https://arxiv.org/abs/2610.23208",
-      "summary": "arXiv:2610.23208v1 Announce Type: cross Abstract: The exponential-SWAP (eSWAP) gate generates a coherent superposition of identity and SWAP operations, with continuously tunable amplitudes. We experimentally implement th…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergence of Correlations Between Records and Maximum in Random Time Series",
-      "url": "https://arxiv.org/abs/2610.23217",
-      "summary": "arXiv:2610.23217v1 Announce Type: cross Abstract: We compute exactly the covariance between the maximum $M$ and the number of records $K$ in a discrete time series of $n$ entries as a quantitative probe of the history le…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation of centrifugal separation of particles with equal sedimentation velocities",
-      "url": "https://arxiv.org/abs/2610.23244",
-      "summary": "arXiv:2610.23244v1 Announce Type: cross Abstract: Conventional centrifugal sedimentation cannot readily separate particles with the same sedimentation velocities. Density gradient centrifugation, although highly selectiv…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When Cooling Meets Flow: Advection-Driven Orientation Selection in Phase Separation around a Moving Cooling Source",
-      "url": "https://arxiv.org/abs/2610.23285",
-      "summary": "arXiv:2610.23285v1 Announce Type: cross Abstract: We investigate phase separation in a binary fluid subjected to a moving Gaussian cooling source and externally imposed material flow. Unlike conventional homogeneous quen…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Circuits for Variable-Coefficient Vlasov Dynamics via Schr\\\"odingerisation",
-      "url": "https://arxiv.org/abs/2610.23405",
-      "summary": "arXiv:2610.23405v1 Announce Type: cross Abstract: High-dimensional Vlasov equations present promising use cases for quantum simulation, but their transport coefficients must be implemented coherently in order to preserve…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrogen Ion-Cut Single-Crystal Diamond Membranes for Wide and Ultrawide Bandgap Semiconductor Heterointegration",
-      "url": "https://arxiv.org/abs/2610.23433",
-      "summary": "arXiv:2610.23433v1 Announce Type: cross Abstract: Single-crystal diamond membranes (SCDms) were created using a hydrogen ion-cut process combined with a two-step post-implantation annealing, electrochemical etching, and …",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Regularization of stochastic fluid dynamics and non-perturbative renormalization of the shear viscosity of incompressible fluids",
-      "url": "https://arxiv.org/abs/2610.23442",
-      "summary": "arXiv:2610.23442v1 Announce Type: cross Abstract: We propose a regularization of stochastic fluid dynamics that preserves all relevant symmetries. By considering an incompressible fluid, we demonstrate explicitly that th…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Isomer-resolved ion-molecule reaction kinetics of HCO+ and HOC+",
-      "url": "https://arxiv.org/abs/2610.23452",
-      "summary": "arXiv:2610.23452v1 Announce Type: cross Abstract: The HCO$^+$/HOC$^+$ abundance ratio has been observed to vary significantly in different astrophysical environments, making it an important diagnostic tool for exploring …",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Proton-Number Fluctuations in $^{238}$U+$^{238}$U Collisions at $\\sqrt{s_{\\mathrm{NN}}} = 2.1$ GeV with the CEE Fast Simulation",
-      "url": "https://arxiv.org/abs/2610.23460",
-      "summary": "arXiv:2610.23460v1 Announce Type: cross Abstract: The Cooling Storage Ring External-target Experiment (CEE) at the Heavy Ion Research Facility in Lanzhou (HIRFL) offers a unique opportunity to map the QCD phase diagram i…",
       "ts": 1792382400000,
       "publishedAt": "2026-10-19T04:00:00.000Z"
     }

@@ -1,7 +1,115 @@
 {
   "ok": true,
-  "updated": "2026-10-19T05:51:32.435Z",
+  "updated": "2026-10-19T12:30:31.028Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James…",
+      "ts": 1792411800000,
+      "publishedAt": "2026-10-19T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Euclid discovers new comet ",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "summary": "The European Space Agency’s Euclid space telescope has discovered its first previously unknown comet, in images taken between 16 and 24 September 2026.",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Protecting Earth’s fragile biodiversity takes spotlight at Armenia talks",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168620",
+      "summary": "Biodiversity losses continue to upend the lives of billions of people whose future prosperity depends on countries taking urgent action to protect our planet, the top UN official leading talks at the UN Biodiversity Conf…",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "url": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
+      "summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks. The blaze, possibly spar…",
+      "ts": 1792401737000,
+      "publishedAt": "2026-10-19T09:22:17.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies …",
+      "ts": 1792400885000,
+      "publishedAt": "2026-10-19T09:08:05.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How far can we push computing?",
+      "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29…",
+      "ts": 1792400400000,
+      "publishedAt": "2026-10-19T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Gilead’s IBD drug eliminated symptoms for patients, mid-stage study finds",
+      "url": "https://www.statnews.com/2026/10/19/gilead-ibs-drug-succeeds-phase-2-trial/?utm_campaign=rss",
+      "summary": "An oral treatment from Gilead Sciences eliminated the symptoms experienced by patients with a type of inflammatory bowel disease, according to mid-stage study results reported Monday.",
+      "ts": 1792398900000,
+      "publishedAt": "2026-10-19T08:35:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Top immunology association divided over $8.4-billion California ballot measure to fund the field, emails show",
+      "url": "https://www.statnews.com/2026/10/19/california-prop-38-immunology-research-bond-oddly-specific-earmark/?utm_campaign=rss",
+      "summary": "Internal emails obtained by STAT show that the American Association of Immunologists is sharply divided over California's Proposition 38, even though it would provide $8.4 billion in taxpayer dollars for…",
+      "ts": 1792398600000,
+      "publishedAt": "2026-10-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Does Isomorphic Labs have what it takes to revolutionize drugmaking?",
+      "url": "https://www.statnews.com/2026/10/19/can-isomorphic-labs-revolutionize-drugmaking/?utm_campaign=rss",
+      "summary": "Isomorphic Labs wants to turn its technology into an engine for new medicines. The question now is whether — and how — it can deliver on that promise.",
+      "ts": 1792398600000,
+      "publishedAt": "2026-10-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: My mother killed herself. I wish assisted suicide had been an option",
+      "url": "https://www.statnews.com/2026/10/19/medical-aid-in-dying-mental-illness-canada/?utm_campaign=rss",
+      "summary": "“Sometimes mental illness is terminal,” Torie Bosch writes in a personal essay about medical aid in dying for psychiatric reasons.",
+      "ts": 1792398600000,
+      "publishedAt": "2026-10-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Measles is back — and becoming a midterm liability for Republicans",
+      "url": "https://www.statnews.com/2026/10/19/measles-2026-midterms-vaccine-hesitancy-liability-republicans/?utm_campaign=rss",
+      "summary": "“Silence on vaccines is becoming a dealbreaker for voters who would otherwise vote Republican,” write physicians and former GOP Reps. Larry Buchson and Michael Burgess.",
+      "ts": 1792398600000,
+      "publishedAt": "2026-10-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How the No Surprises Act’s nonprofit arbitrators are operating like ‘mini gods’ and getting rich doing it",
+      "url": "https://www.statnews.com/2026/10/19/no-surprises-act-billing-arbitration-profits-stat-investigation/?utm_campaign=rss",
+      "summary": "A STAT investigation found that several nonprofits are raking in massive sums by acting as arbitrators in a program that helps protect patients from surprise medical bills.",
+      "ts": 1792398600000,
+      "publishedAt": "2026-10-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
@@ -702,114 +810,6 @@
       "summary": "Patients can understand that medication is necessary and still struggle with what taking it means.",
       "ts": 1792139400000,
       "publishedAt": "2026-10-16T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: West Antarctica",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_West_Antarctica",
-      "summary": "Image: This image over part of West Antarctica was captured by Copernicus Sentinel-3 on 30 September 2026.",
-      "ts": 1792137600000,
-      "publishedAt": "2026-10-16T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Kids are outsmarting social media bans. That’s not a problem we need to solve.",
-      "url": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
-      "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by the country’s top court …",
-      "ts": 1792137392000,
-      "publishedAt": "2026-10-16T07:56:32.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 16 – Chasing the International Space Station",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
-      "summary": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1792123500000,
-      "publishedAt": "2026-10-16T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Isaias Dims the Gulf Coast",
-      "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
-      "summary": "High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back.",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Two dissociable axes of brain hierarchical dynamics track universal and population-specific effects of mindfulness",
-      "url": "https://arxiv.org/abs/2610.20854",
-      "summary": "arXiv:2610.20854v1 Announce Type: new Abstract: How mental training reshapes the temporal architecture of large-scale brain dynamics and how these mechanisms differ between healthy and clinically vulnerable populations r…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Awakening as a Trait-Level Transformation of Consciousness",
-      "url": "https://arxiv.org/abs/2610.20856",
-      "summary": "arXiv:2610.20856v1 Announce Type: new Abstract: Awakening is reported across contemplative traditions yet remains poorly defined in science, where it is often conflated with transient states induced by meditation or psyc…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Statistical Mechanics of Spike Trains: Self-Consistent Activity Ensembles and Phase Transitions",
-      "url": "https://arxiv.org/abs/2610.20971",
-      "summary": "arXiv:2610.20971v1 Announce Type: new Abstract: We introduce a statistical-mechanical framework for spiking neuronal systems in which entire spike trains, defined as spatiotemporal configurations of discrete events, are …",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural Computation Runs on Dissipative Structures Under Cyclic Calibration: A Systems Perspective on Sleep",
-      "url": "https://arxiv.org/abs/2610.21486",
-      "summary": "arXiv:2610.21486v1 Announce Type: new Abstract: Biological function operates far from thermodynamic equilibrium, sustained by metastable structures that continuously cycle through synthesis, function execution, and degra…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Transferable conditional brain charts link cortico-subcortical structure to Alzheimer's disease progression",
-      "url": "https://arxiv.org/abs/2610.21660",
-      "summary": "arXiv:2610.21660v1 Announce Type: new Abstract: Normative models chart how brain measures vary across the lifespan, expressing each individual as a deviation from a healthy reference. However, most regional models of cor…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Panoramic modelling of single-cell transcriptomes at scale with CellNet",
-      "url": "https://arxiv.org/abs/2610.21943",
-      "summary": "arXiv:2610.21943v1 Announce Type: new Abstract: Comprehensively characterizing cellular diversity is critical for understanding tissue development, identifying disease-associated populations and investigating gene progra…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Documenting Trofinetide Treatment Phenotypes in Rett Syndrome with a Dual-LLM Consensus Pipeline",
-      "url": "https://arxiv.org/abs/2610.22062",
-      "summary": "arXiv:2610.22062v1 Announce Type: new Abstract: Objective: Trofinetide, approved in 2023 as the first Rett syndrome treatment, lacks scalable real-world monitoring because chart review is labor-intensive. We developed a …",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Platelet-driven contraction enlarges accessible space in layered fibrin networks without uniformly accelerating particle escape",
-      "url": "https://arxiv.org/abs/2610.20762",
-      "summary": "arXiv:2610.20762v1 Announce Type: cross Abstract: Platelet traction contracts fibrin networks, yet whether contraction promotes or hinders the escape of suspended particles is unclear. We coupled an overdamped Langevin m…",
-      "ts": 1792123200000,
-      "publishedAt": "2026-10-16T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
