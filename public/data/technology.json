@@ -1,7 +1,160 @@
 {
   "ok": true,
-  "updated": "2026-10-19T12:30:31.028Z",
+  "updated": "2026-10-19T19:07:10.763Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Landmark UK Biobank, IMU Immune Profiling Initiative Taps Ultima and Waters",
+      "url": "https://www.genengnews.com/topics/omics/landmark-uk-biobank-imu-immune-profiling-initiative-taps-ultima-and-waters/",
+      "summary": "IMU Biosciences and UK Biobank will profile 80,000 blood samples using technologies from Waters and Ultima Genomics, creating a high-resolution immune dataset to advance AI-driven biomedical research and disease predicti…",
+      "ts": 1792435085000,
+      "publishedAt": "2026-10-19T18:38:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and…",
+      "ts": 1792434167000,
+      "publishedAt": "2026-10-19T18:22:47.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Software",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
+      "summary": "Research teams at NASA’s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft prop…",
+      "ts": 1792433500000,
+      "publishedAt": "2026-10-19T18:11:40.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Experimental Facilities",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/",
+      "summary": "Research teams at the NASA Glenn Research Center perform experiments in world-class facilities such as the 9- by 15-Foot Low-Speed Wind Tunnel (9 x15 LSWT), the Aero-Acoustic Propulsion Laboratory (AAPL), the Small Hot J…",
+      "ts": 1792433332000,
+      "publishedAt": "2026-10-19T18:08:52.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat ",
+      "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+      "summary": "The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston.",
+      "ts": 1792432911000,
+      "publishedAt": "2026-10-19T18:01:51.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI wor…",
+      "ts": 1792431955000,
+      "publishedAt": "2026-10-19T17:45:55.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Trump orders creation of NIH division, task force on women’s health",
+      "url": "https://www.statnews.com/2026/10/19/executive-order-melania-trump-nih-division-on-womens-health/?utm_campaign=rss",
+      "summary": "Melania Trump said a new research and policy initiative will set “a new standard for women’s health.”",
+      "ts": 1792431765000,
+      "publishedAt": "2026-10-19T17:42:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Psychological Stress Triggers Arthritis Flares in Mice via IL-6-Dependent Pathway",
+      "url": "https://www.genengnews.com/topics/translational-medicine/psychological-stress-triggers-arthritis-flares-in-mice-via-il-6-dependent-pathway/",
+      "summary": "A study in mice offers up a biological explanation for how psychological stress can contribute to arthritis flares, and identifies a stress-responsive pathway that could be explored as a potential therapeutic target. The…",
+      "ts": 1792431493000,
+      "publishedAt": "2026-10-19T17:38:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I was a Theranos whistleblower. In ‘You Can See Everything,’ Elizabeth Holmes is still lying",
+      "url": "https://www.statnews.com/2026/10/19/elizabeth-holmes-theranos-whistleblower-tyler-shultz-insider-review/?utm_campaign=rss",
+      "summary": "A more accurate name would be “You Can See Everything That We Chose To Point The Camera At,”Theranos whistleblower Tyler Shultz writes.",
+      "ts": 1792430824000,
+      "publishedAt": "2026-10-19T17:27:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Instrumentation",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/",
+      "summary": "To measure airflow and sound, research teams at the NASA Glenn Research Center use special instrumentation like particle image velocimetry, hot wire anemometry, Raman spectroscopy, microphones in phased arrays or continu…",
+      "ts": 1792427865000,
+      "publishedAt": "2026-10-19T16:37:45.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
+      "url": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
+      "summary": "SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct. 1 aboard SpaceX’s Transporter-18 mission. At least […] The …",
+      "ts": 1792427472000,
+      "publishedAt": "2026-10-19T16:31:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Martian Dawn",
+      "url": "https://www.nasa.gov/image-article/martian-dawn/",
+      "summary": "NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant, win…",
+      "ts": 1792425831000,
+      "publishedAt": "2026-10-19T16:03:51.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The umpires getting rich off surprise medical bills, and MLB job lock",
+      "url": "https://www.statnews.com/2026/10/19/no-surprises-act-arbitrators-getting-rich-jake-bauers-health-insurance/?utm_campaign=rss",
+      "summary": "We dig into trust, prices, and a bit of baseball in this week's Health Care Inc. newsletter.",
+      "ts": 1792424615000,
+      "publishedAt": "2026-10-19T15:43:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "summary": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European…",
+      "ts": 1792422031000,
+      "publishedAt": "2026-10-19T15:00:31.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: China moves to restrict foreign biotech acquisitions",
+      "url": "https://www.statnews.com/2026/10/19/biotech-news-china-moves-to-restrict-foreign-biotech-acquisitons/?utm_campaign=rss",
+      "summary": "China is proposing new restrictions on foreign acquisitions of critical biopharma technologies, as the country seeks to retain control over its burgeoning drug development industry.",
+      "ts": 1792421911000,
+      "publishedAt": "2026-10-19T14:58:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Two former Republican lawmakers say the GOP’s vaccine position is a liability",
+      "url": "https://www.statnews.com/2026/10/19/health-news-two-former-republican-congressmen-against-gop-vaccine-liability/?utm_campaign=rss",
+      "summary": "The Republican party’s confusing messaging on vaccines is going to hurt candidates in the midterms, two former GOP congressmen argue.",
+      "ts": 1792417168000,
+      "publishedAt": "2026-10-19T13:39:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Roche investments in Germany, a Gilead bowel disease drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/19/roche-investments-in-germany-gilead-bowel-disease-drug/?utm_campaign=rss",
+      "summary": "Roche is reviewing all future investments in Germany over health care cost-cutting ​policies, with a top executive citing a loss of trust",
+      "ts": 1792416238000,
+      "publishedAt": "2026-10-19T13:23:58.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
@@ -19,6 +172,24 @@
       "ts": 1792411200000,
       "publishedAt": "2026-10-19T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Guterres honours Indonesian troops who paid ‘ultimate sacrifice’",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168623",
+      "summary": "UN Secretary-General António Guterres paid tribute to Indonesian peacekeepers on Monday, laying a wreath in honour of four who recently lost their lives in Lebanon and offering a robust defence of UN peacekeeping in what…",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza: Funding cuts leave half a million without food assistance",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168622",
+      "summary": "Funding shortages have forced the World Food Programme (WFP) to slash assistance to hungry families in the Gaza Strip by roughly one third – a move that will affect some 500,000 people as winter approaches, the UN agency…",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -114,7 +285,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
-      "summary": "APOD Science APOD APOD: 2026 October 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "summary": "APODScienceAPODAPOD: 2026 October 19 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fasc…",
       "ts": 1792382700000,
       "publishedAt": "2026-10-19T04:05:00.000Z",
       "categoryId": "space"
@@ -483,7 +654,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
-      "summary": "APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "summary": "APODScienceAPODAPOD: 2026 October 18 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fasc…",
       "ts": 1792296300000,
       "publishedAt": "2026-10-18T04:05:00.000Z",
       "categoryId": "space"
@@ -519,7 +690,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 17 – 3D 67P",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
-      "summary": "APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
+      "summary": "APODScienceAPODAPOD: 2026 October 17…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascin…",
       "ts": 1792209900000,
       "publishedAt": "2026-10-17T04:05:00.000Z",
       "categoryId": "space"
@@ -535,9 +706,9 @@
     },
     {
       "source": "Genetic Engineering News",
-      "title": "ADC Developmentfrom Concept to Clinic",
+      "title": "ADC Development from Concept to Clinic",
       "url": "https://www.genengnews.com/resources/ebooks/adc-developmentfrom-concept-to-clinic/",
-      "summary": "This eBook brings insight on integrated end-to-end solutions for precision engineered therapeutics. The post ADC Developmentfrom Concept to Clinic appeared first on GEN - Genetic Engineering and Biotechnology News.",
+      "summary": "This eBook brings insight on integrated end-to-end solutions for precision engineered therapeutics. The post ADC Development from Concept to Clinic appeared first on GEN - Genetic Engineering and Biotechnology News.",
       "ts": 1792183002000,
       "publishedAt": "2026-10-16T20:36:42.000Z",
       "categoryId": "bio"
@@ -639,177 +810,6 @@
       "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
       "ts": 1792159213000,
       "publishedAt": "2026-10-16T14:00:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss",
-      "summary": "The Trump administration is proceeding with a plan to allow compounding pharmacies to produce certain peptides",
-      "ts": 1792158561000,
-      "publishedAt": "2026-10-16T13:49:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: RevMed’s pancreatic cancer drug nears European approval",
-      "url": "https://www.statnews.com/2026/10/16/biotech-news-revmed-pancreatic-cancer-drug-nears-european-approval/?utm_campaign=rss",
-      "summary": "Following a green light from the FDA, European regulators have now recommended the approval of Revolution Medicines' Rasonque for pancreatic cancer.",
-      "ts": 1792157902000,
-      "publishedAt": "2026-10-16T13:38:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Spies Spiral’s Edge",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
-      "summary": "This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove.",
-      "ts": 1792154528000,
-      "publishedAt": "2026-10-16T12:42:08.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "From Farm to Fork: How Nuclear Science Helps Put Food on Our Tables",
-      "url": "http://www.iaea.org/newscenter/news/from-farm-to-fork-how-nuclear-science-helps-put-food-on-our-tables",
-      "summary": "",
-      "ts": 1792154100000,
-      "publishedAt": "2026-10-16T12:35:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "What to read before you go see that new documentary on Elizabeth Holmes",
-      "url": "https://www.statnews.com/2026/10/16/health-news-what-to-read-before-elizabeth-holmes-you-can-see-everything/?utm_campaign=rss",
-      "summary": "Ahead of \"You Can See Everything\" hitting theaters, let's rewind the last decade and review some of the most significant news tied to Elizabeth Holmes, who was convicted in 2022…",
-      "ts": 1792154043000,
-      "publishedAt": "2026-10-16T12:34:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: failed social media bans, and extending pets’ lives",
-      "url": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids are outsmarting social media bans. That’s not a problem we need to solve. —Mi…",
-      "ts": 1792152600000,
-      "publishedAt": "2026-10-16T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "As disasters mount, next UN climate summit faces a test of trust",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168617",
-      "summary": "Less than a month before the UN climate conference COP31 opens in Antalya, Türkiye, representatives of three successive summit presidencies gathered to address a pressing question: How can the world restore trust in clim…",
-      "ts": 1792152000000,
-      "publishedAt": "2026-10-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ukraine: Civilian casualty rates among ‘deadliest’ in years, as energy attacks intensify",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168614",
-      "summary": "Civilian casualties in Ukraine remain at record levels, with intensified Russian attacks in September continuing a pattern of harm in 2026 far exceeding previous years, UN human rights monitors in Ukraine said on Friday.",
-      "ts": 1792152000000,
-      "publishedAt": "2026-10-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "WHO scales up Ebola readiness in 22 countries across three continents",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168613",
-      "summary": "The World Health Organization (WHO) is strengthening Ebola preparedness amid conflict and displacement affecting millions of lives in a region that spans parts of Africa, Asia and Europe.",
-      "ts": 1792152000000,
-      "publishedAt": "2026-10-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Sudan’s war spreads as drones and hunger take a deadly toll",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168612",
-      "summary": "As drone strikes kill civilians from El Obeid to Blue Nile and famine risk spreads across Darfur and Kordofan, the Security Council meets on Sudan – the world’s largest hunger and displacement crisis. Ambassadors are exp…",
-      "ts": 1792152000000,
-      "publishedAt": "2026-10-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza: 340 children killed despite ceasefire agreement - UNICEF",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168611",
-      "summary": "A little over one year since a ceasefire agreement was announced between Hamas fighters and Israel, more than 340 children have been reported killed and hundreds more injured, the UN Children’s Fund (UNICEF) said on Frid…",
-      "ts": 1792152000000,
-      "publishedAt": "2026-10-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres urges faster action and financing to stop biodiversity loss",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168610",
-      "summary": "The United Nations Secretary-General appealed on Friday for governments, businesses and communities to accelerate efforts to protect biodiversity for future generations and all life on Earth.",
-      "ts": 1792152000000,
-      "publishedAt": "2026-10-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "This implant can restore sight for patients with macular degeneration",
-      "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
-      "summary": "More than 5 million people around the world have an advanced form of age-related macular degeneration (AMD) called geographic atrophy, in which cells in the retinas die off. And until now, no treatment could restore thei…",
-      "ts": 1792141200000,
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Love is infrastructure",
-      "url": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/",
-      "summary": "I. Meet cute Barnabas and Mainspring grew up near at hand, about an hour apart with good traffic, but for a long time they weren’t close. They traded glimpses and occasional hellos and then went about their business. Bot…",
-      "ts": 1792141200000,
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Can’t bear to say goodbye to your pet? Biotech’s got you covered.",
-      "url": "https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/",
-      "summary": "I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and chuckle about the time s…",
-      "ts": 1792141200000,
-      "publishedAt": "2026-10-16T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Coerced sex or a jealous ex? Jury weighs dueling accounts of star scientist David Sabatini’s downfall",
-      "url": "https://www.statnews.com/2026/10/16/david-sabatini-civil-trial-highlights-permissive-sexual-norms-whitehead-metoo/?utm_campaign=rss",
-      "summary": "Was molecular biologist David Sabatini a manipulative mentor who coerced a younger colleague into sex? Or was he the victim of a spurned former lover?",
-      "ts": 1792139400000,
-      "publishedAt": "2026-10-16T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In DOGE’s aftermath, federal health workers bristle at new performance reviews",
-      "url": "https://www.statnews.com/2026/10/16/federal-performance-reviews-health-agency-employees-wary-after-doge/?utm_campaign=rss",
-      "summary": "Changes to the annual performance review process are the latest flashpoint in tensions between federal workers across the Department of Health and Human Services and the Trump administration, federal employees…",
-      "ts": 1792139400000,
-      "publishedAt": "2026-10-16T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Is Milton Friedman to blame for America’s health care woes?",
-      "url": "https://www.statnews.com/2026/10/16/neoliberalism-health-care-milton-friedman-john-mcdonough-stuart-butler-debate/?utm_campaign=rss",
-      "summary": "Health policy experts John McDonough and Stuart Butler debate where the U.S. medical system went wrong — and how to fix it.",
-      "ts": 1792139400000,
-      "publishedAt": "2026-10-16T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I thought I knew why patients stopped taking their medicine. I was wrong",
-      "url": "https://www.statnews.com/2026/10/16/nonadherence-medication-stopped-identity-pharmacist-side-effects-prevent/?utm_campaign=rss",
-      "summary": "Patients can understand that medication is necessary and still struggle with what taking it means.",
-      "ts": 1792139400000,
-      "publishedAt": "2026-10-16T08:30:00.000Z",
       "categoryId": "bio"
     }
   ],
