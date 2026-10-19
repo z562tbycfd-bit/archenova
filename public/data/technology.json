@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-10-19T19:07:10.763Z",
+  "updated": "2026-10-19T23:25:28.702Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "ASHG: Long-Read Genomics Meets Clinical Data in PacBio, Verily Health AI Deal",
+      "url": "https://www.genengnews.com/topics/omics/ashg-long-read-genomics-meets-clinical-data-in-pacbio-verily-health-ai-deal/",
+      "summary": "A multi-year collaboration will connect PacBio's HiFi sequencing with Verily Pre, combining long-read genomic and clinical data for biomedical research and AI model development. The post ASHG: Long-Read Genomics Meets Cl…",
+      "ts": 1792449331000,
+      "publishedAt": "2026-10-19T22:35:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Improves Shock, Vibration Analysis",
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
+      "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predi…",
+      "ts": 1792438112000,
+      "publishedAt": "2026-10-19T19:28:32.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "summary": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial a…",
+      "ts": 1792438028000,
+      "publishedAt": "2026-10-19T19:27:08.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Landmark UK Biobank, IMU Immune Profiling Initiative Taps Ultima and Waters",
@@ -165,6 +192,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "ESA",
       "title": "Euclid discovers new comet ",
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
@@ -172,6 +208,42 @@
       "ts": 1792411200000,
       "publishedAt": "2026-10-19T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN condemns deadly wave of drone strikes in war-torn Sudan",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168628",
+      "summary": "Drone strikes killed and injured dozens across Sudan on Monday as the ongoing war continues to cause soaring displacement and hunger.",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Hunger is ‘an avoidable tragedy’ in a world of plenty: Türk",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168627",
+      "summary": "More than a quarter of humanity struggles to get enough food, even though the world produces enough for everyone, UN human rights chief Volker Türk said on Monday, blaming injustice and the denial of human rights for hun…",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti: Elections on hold as gangs adapt to security crackdown, Security Council hears",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168626",
+      "summary": "Armed groups in Haiti are adapting to intensified security operations, stepping up reprisals against civilians and extending their reach into rural areas, the UN warned the Security Council on Monday.",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Season of fear’: Escalating Israeli attacks on West Bank olive farmers, deadly strikes on Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168625",
+      "summary": "Israeli attacks on war-torn Gaza over the weekend killed at least six Palestinians, including children, despite a year-old ceasefire agreement. Meanwhile, in the occupied West Bank, settler violence continued through the…",
+      "ts": 1792411200000,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -739,78 +811,6 @@
       "ts": 1792177200000,
       "publishedAt": "2026-10-16T19:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints f…",
-      "ts": 1792173600000,
-      "publishedAt": "2026-10-16T18:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Designing the Ecosystem for CGT Success",
-      "url": "https://www.genengnews.com/resources/ebooks/designing-the-ecosystem-for-cgt-success/",
-      "summary": "This proceedings eBook, developed in partnership with GEN and Cincinnati Children’s Hospital Applied Gene and Cell Therapy Center, captures perspectives and lessons from The Cell Summit ’26 and extends the conversation b…",
-      "ts": 1792171309000,
-      "publishedAt": "2026-10-16T17:21:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Exposure to Common Endocrine-Disrupting Chemicals May Alter Normal Breast Development",
-      "url": "https://www.genengnews.com/topics/cancer/exposure-to-common-endocrine-disrupting-chemicals-may-alter-normal-breast-development/",
-      "summary": "A study in human breast organoids has found that exposure to some common endocrine-disrupting chemicals may lead to molecular changes in breast tissue that could influence susceptibility to breast cancer later in life. T…",
-      "ts": 1792169926000,
-      "publishedAt": "2026-10-16T16:58:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Artemis II Heat Shield After Splashdown",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
-      "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal pr…",
-      "ts": 1792168081000,
-      "publishedAt": "2026-10-16T16:28:01.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ASHG 2026 Awards Honor Achievements in Research, Education, and More",
-      "url": "https://www.genengnews.com/topics/omics/ashg-2026-awards-honor-achievements-in-research-education-and-more/",
-      "summary": "ASHG will honor seven recipients with its 2026 Professional Awards, recognizing outstanding contributions to human genetics and genomics research, education, mentorship, and public service at ceremonies this week. The po…",
-      "ts": 1792168068000,
-      "publishedAt": "2026-10-16T16:27:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Hospitals’ next lucrative bet — longevity clinics",
-      "url": "https://www.statnews.com/2026/10/16/readout-loud-podcast-hospitals-longevity-clinics-northwestern/?utm_campaign=rss",
-      "summary": "On this week's “The Readout LOUD,” STAT's biotech podcast, we discuss the booming industry of longevity health.",
-      "ts": 1792164871000,
-      "publishedAt": "2026-10-16T15:34:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "I Am Artemis: Allison Mjoen",
-      "url": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
-      "summary": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agen…",
-      "ts": 1792160669000,
-      "publishedAt": "2026-10-16T14:24:29.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/10/16/up-down-ladder-jobs-pharma-biotech-gilead-bausch-sanofi/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1792159213000,
-      "publishedAt": "2026-10-16T14:00:13.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
