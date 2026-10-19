@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-18T22:51:27.381Z",
+  "updated": "2026-10-19T00:55:06.485Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Who's paying whom? The circular money machine behind the AI boom (or bubble)",
+      "url": "https://phys.org/news/2026-10-paying-circular-money-machine-ai.html",
+      "summary": "Imagine a company that sells you equipment, invests money in your business and then rents back what you build with it. It's your supplier, your investor and your customer all at once.",
+      "ts": 1792369801000,
+      "publishedAt": "2026-10-19T00:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient Nubian temple faience workshop reveals links between craft production and royal power",
+      "url": "https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html",
+      "summary": "Archaeologists have discovered a faience workshop at a major temple complex in the ancient Nubian capital of Napata, showing how the rulers of ancient Kush used specialized craft production to reinforce royal power.",
+      "ts": 1792364402000,
+      "publishedAt": "2026-10-18T23:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Early humans in America endured climate chaos—new research",
@@ -783,22 +799,6 @@
       "title": "FedSkillGit: Federated Skill Evolution via Version Control",
       "url": "https://arxiv.org/abs/2610.21348",
       "summary": "arXiv:2610.21348v1 Announce Type: new Abstract: Large language model agents can improve their capabilities by evolving reusable natural-language skills from execution experience. In real-world deployments, this experienc…",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Hierarchical Graph Convolutional Network Approach for Detecting Low-Quality Documents",
-      "url": "https://arxiv.org/abs/2610.21350",
-      "summary": "arXiv:2610.21350v1 Announce Type: new Abstract: Consistency within a document is a crucial feature indicative of its quality. Recently, within the vast amount of information produced across various media, there exists a …",
-      "ts": 1792209600000,
-      "publishedAt": "2026-10-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Learning to Reason with Selective Internal Feedback",
-      "url": "https://arxiv.org/abs/2610.21392",
-      "summary": "arXiv:2610.21392v1 Announce Type: new Abstract: Reinforcement learning from internal feedback can improve language models without ground-truth answers or external verifiers. However, confidence and correctness can diverg…",
       "ts": 1792209600000,
       "publishedAt": "2026-10-17T04:00:00.000Z"
     }
