@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-10-20T19:00:56.582Z",
+  "updated": "2026-10-20T22:59:58.412Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Catalytic Reactive-Hydrogen Membranes Capture and Break Down PFAS",
+      "url": "https://www.genengnews.com/topics/bioprocessing/new-catalytic-reactive-hydrogen-membranes-capture-and-break-down-pfas/",
+      "summary": "Newly developed palladium-coated membranes capture PFAS and use reactive hydrogen to break their carbon–fluorine bonds. During 58 days of continuous operation, the system achieved up to 96% removal and 83% defluorination…",
+      "ts": 1792533528000,
+      "publishedAt": "2026-10-20T21:58:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: He’s slashing quality at nursing homes. This state is letting it happen",
+      "url": "https://www.statnews.com/2026/10/20/nursing-home-chains-slash-quality-massachusetts/?utm_campaign=rss",
+      "summary": "The Boston Globe Spotlight Team found Eli Mirlis made grim cuts to resident care while steering millions of dollars from his nursing homes’ revenue into a constellation of real estate…",
+      "ts": 1792531346000,
+      "publishedAt": "2026-10-20T21:22:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "It’s a bird, it’s a plane … it’s a robo-puffin?",
+      "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
+      "summary": "Given that water is 1,000 times denser than air, moving through those two mediums requires very different mechanics—or so one might assume. Yet birds like gulls and puffins can plunge into the sea, swim underwater, and l…",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Here’s the tea",
+      "url": "https://www.technologyreview.com/2026/10/20/1145274/heres-the-tea/",
+      "summary": "When Tristan Brown, an associate professor of history at MIT, first examined a Chinese tea chest label displayed at Old South Meeting House, he had no reason to doubt its story. Descendants of the Boston blacksmith Thoma…",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Melt it, spin it, use it again",
+      "url": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
+      "summary": "The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn. The thermoplastic yarn mim…",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A reason to eat carbs",
+      "url": "https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/",
+      "summary": "A high-fat, low-carbohydrate diet can help some people lose weight, and some research has shown that it may protect against colon cancer. But a new study suggests that such a ketogenic diet may also increase the risk of …",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Robotic therapy for stroke patients",
+      "url": "https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/",
+      "summary": "Strokes leave 5 million people with long-term impairments each year, and a growing shortage of physical therapists makes it hard for them to get the care they need. A new approach tries to solve that problem by combining…",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Taking a swing at a pickleball startup",
+      "url": "https://www.technologyreview.com/2026/10/20/1145287/taking-a-swing-at-a-pickleball-startup/",
+      "summary": "In corporate America, Stanley Anderson ’79 says, executives often assume that their peers grew up in privileged circumstances. He did not. “I spent my early years trying not to get recruited into gangs, getting shot at, …",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A good TA: priceless",
+      "url": "https://www.technologyreview.com/2026/10/20/1145291/a-good-ta-priceless/",
+      "summary": "These are images of quizzes I took in 3.091, Introduction to Solid-State Chemistry, in the fall of 1980. One is my very first exam at MIT, and getting 49 out of 100 was a soul-crushing experience. I can still picture the…",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Nebraska native explores galaxies far, far away",
+      "url": "https://www.technologyreview.com/2026/10/20/1145294/nebraska-native-explores-galaxies-far-far-away/",
+      "summary": "Growing up on a small farm in Nebraska, Megan Donahue ’85 discovered the wider world by reading her way through her local library. Today, she is learning how the wider universe works by studying galaxy clusters. Donahue …",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A champion for brain injury patients",
+      "url": "https://www.technologyreview.com/2026/10/20/1145297/a-champion-for-brain-injury-patients/",
+      "summary": "Alissa Totman ’13 was a sophomore when she joined MIT BrainTrust, a student-run organization that connects Institute undergraduates and people with brain injuries for support and socializing. “That group was a great way …",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A cleaner path to rare earth metals",
+      "url": "https://www.technologyreview.com/2026/10/20/1145300/a-cleaner-path-to-rare-earth-metals/",
+      "summary": "Tomás Villalón Jr. ’14 was raised in San Antonio, Texas, but vividly remembers smog hanging over the city his family came from—Monterrey, Mexico, a steel manufacturing and metal fabrication hub. Even as a child, he reali…",
+      "ts": 1792530000000,
+      "publishedAt": "2026-10-20T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "summary": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farm…",
+      "ts": 1792527696000,
+      "publishedAt": "2026-10-20T20:21:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: State regulators move to seize licenses from nursing home chain that was focus of Boston Globe investigation",
+      "url": "https://www.statnews.com/2026/10/20/massachusetts-regulators-move-to-seize-regal-care-nursing-home-licenses-boston-globe-investigation/?utm_campaign=rss",
+      "summary": "A Boston Globe investigation found that RegalCare acquired nursing homes across Massachusetts, then gutted the quality of care.",
+      "ts": 1792527269000,
+      "publishedAt": "2026-10-20T20:14:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Roche, Hansoh Launch Up-to-$15B+ Cancer ADC Collaboration",
+      "url": "https://www.genengnews.com/topics/cancer/roche-hansoh-launch-up-to-15b-cancer-adc-collaboration/",
+      "summary": "The companies' strategic collaboration will consist of two preclinical Hansoh ADC programs and “multiple” ADC programs based on Roche-identified targets, to be developed through Hansoh’s ADC technology platform. The post…",
+      "ts": 1792525100000,
+      "publishedAt": "2026-10-20T19:38:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Takara Bio USA, SPT Labtech Team Up to Automate NGS Library Prep Workflows",
+      "url": "https://www.genengnews.com/topics/omics/takara-bio-usa-spt-labtech-team-up-to-automate-ngs-library-prep-workflows/",
+      "summary": "The partners are targeting NGS core labs with a combined offering that automates next-generation sequencing library prep workflows using kits from Takara Bio and SPT Labtech’s firefly instrument. They are starting with R…",
+      "ts": 1792524180000,
+      "publishedAt": "2026-10-20T19:23:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Immune Pathway Contributing to Radiation Therapy-Related Lung Damage Identified in Mice",
@@ -10,6 +154,15 @@
       "ts": 1792520000000,
       "publishedAt": "2026-10-20T18:13:20.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonst…",
+      "ts": 1792519893000,
+      "publishedAt": "2026-10-20T18:11:33.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -30,6 +183,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights ",
+      "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
+      "summary": "NASA researchers are developing the future of flight on Mars, laying the groundwork for helicopters with the ability to fly higher and farther while conducting science on the Red Planet. Using high-fidelity computer simu…",
+      "ts": 1792512155000,
+      "publishedAt": "2026-10-20T16:02:35.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "Why I wish you didn’t want to see Nathan Fielder’s Elizabeth Holmes documentary",
       "url": "https://www.statnews.com/2026/10/20/elizabeth-holmes-superpower-authenticity-vs-truth-matt-herper-take/?utm_campaign=rss",
@@ -46,6 +208,24 @@
       "ts": 1792509625000,
       "publishedAt": "2026-10-20T15:20:25.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Provides Progress Update on Moon Base Rovers",
+      "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
+      "summary": "As NASA works to build the Moon Base, crewed and robotic lunar rovers will play a crucial role during early development through technology demonstrations, astronaut transport, terrain mapping, scientific investigations, …",
+      "ts": 1792508410000,
+      "publishedAt": "2026-10-20T15:00:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Webb Captures Stellar Jets",
+      "url": "https://www.nasa.gov/image-article/webb-captures-stellar-jets/",
+      "summary": "An image from NASA’s James Webb Space Telescope released on Oct. 6, 2026, reveals a cauldron of cosmic creation. Webb has unveiled numerous stars formerly hidden by clouds of dust in a stellar nursery known as NGC 7129, …",
+      "ts": 1792507449000,
+      "publishedAt": "2026-10-20T14:44:09.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -109,6 +289,51 @@
       "ts": 1792498200000,
       "publishedAt": "2026-10-20T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "AI on track to ‘crowd out’ human decision-making in warfare",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168636",
+      "summary": "Artificial intelligence is already being widely used on the battlefield, and the role of human judgment in military operations is shrinking rapidly, the head of the UN’s independent disarmament research institute warned …",
+      "ts": 1792497600000,
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "As Sudan war spills into Central African Republic, UN warns against early peacekeeper exit",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168630",
+      "summary": "The UN warned on Tuesday against a premature withdrawal of its peacekeepers as the war in Sudan spills over into the Central African Republic (CAR).",
+      "ts": 1792497600000,
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Bangladesh: UNICEF chief calls for an end to child marriage",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168632",
+      "summary": "At 14, Bushra faced being married off – until community leaders at a UNICEF-supported child protection hub worked with her father to prevent her from being given away against her will.",
+      "ts": 1792497600000,
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘One step away from famine’: Inside Afghanistan’s hunger crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168631",
+      "summary": "Following extreme hunger warnings, a bitter reality is unfolding across Afghanistan: food is available, but remains inaccessible for millions of people.",
+      "ts": 1792497600000,
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen war continues to force families from homes amid hunger and disease",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168629",
+      "summary": "More than 250,000 people have now fled renewed fighting in Yemen, the UN said on Tuesday, citing particular concern for those sheltering in the southwestern city of Taiz and the wider governorate, where access is “essent…",
+      "ts": 1792497600000,
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "MIT Technology Review",
@@ -583,231 +808,6 @@
       "title": "Application of Single-cell Deep Learning in Elucidating the Mapping Relationship Between Visceral and Body Surface Inflammatory Patterns",
       "url": "https://arxiv.org/abs/2503.17418",
       "summary": "arXiv:2503.17418v2 Announce Type: replace Abstract: The subcutaneous fascia (scFascia) is a widely distributed connective tissue, yet its contribution to systemic responses during visceral inflammation remains insufficie…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Data-driven multi-agent modelling of calcium interactions in cell culture: PINN vs Regularized Least-squares",
-      "url": "https://arxiv.org/abs/2505.20327",
-      "summary": "arXiv:2505.20327v2 Announce Type: replace Abstract: Data-driven discovery of dynamics in biological systems allows for better observation and characterization of processes, such as calcium signaling in cell culture. Rece…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "RNAGenScape: Property-Guided, Optimized Generation of mRNA Sequences with Manifold Langevin Dynamics",
-      "url": "https://arxiv.org/abs/2510.24736",
-      "summary": "arXiv:2510.24736v5 Announce Type: replace Abstract: Generating property-optimized mRNA sequences is central to applications such as vaccine design and protein replacement therapy, but remains challenging due to limited d…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Invading activity fronts or near-critical clusters may stabilize vulnerable excitable systems against stochastic trajectories terminating in an absorbing state",
-      "url": "https://arxiv.org/abs/2511.10807",
-      "summary": "arXiv:2511.10807v2 Announce Type: replace Abstract: Stochastic chemical reaction or population dynamics in finite systems often terminates in an absorbing state. Yet in large spatially extended systems, the time to reach…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamic response phenotypes and model discrimination in systems and synthetic biology",
-      "url": "https://arxiv.org/abs/2512.24945",
-      "summary": "arXiv:2512.24945v4 Announce Type: replace Abstract: Biological systems encode function not primarily in steady states, but in the structure of transient responses elicited by time-varying stimuli. Overshoots, biphasic dy…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CPTCs Drive Somatic-Visceral Communication via the Wnt Axis in Somatic Mechanotherapy: A Single-Cell Deep Learning Study",
-      "url": "https://arxiv.org/abs/2602.05451",
-      "summary": "arXiv:2602.05451v3 Announce Type: replace Abstract: Somatic mechanical stimulation (e.g., acupuncture) exerts systemic immunomodulatory effects, yet the cellular bridge translating peripheral physical force into visceral…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Direct RNA sequence design under codon constraints using expressive tensor-based secondary structure models",
-      "url": "https://arxiv.org/abs/2604.19718",
-      "summary": "arXiv:2604.19718v2 Announce Type: replace Abstract: Nucleic acid sequence design via codon optimization is a fundamental task with applications across synthetic biology, mRNA therapeutics, and vaccine design. Given a tar…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Integrative neurocybernetic modeling in the era of large-scale neuroscience",
-      "url": "https://arxiv.org/abs/2604.23903",
-      "summary": "arXiv:2604.23903v2 Announce Type: replace Abstract: Large-scale neuroscience is generating rich datasets across animals, brain areas, and behavioral contexts, yet our modeling efforts remain fragmented across isolated ex…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PACE: Geometry-Aware Bridge Transport for Single-Cell Trajectory Inference",
-      "url": "https://arxiv.org/abs/2605.18587",
-      "summary": "arXiv:2605.18587v3 Announce Type: replace Abstract: Single-cell trajectory inference from destructive time-course snapshots is fundamentally ill-posed: neither cross-time cell correspondences nor continuous trajectories …",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Consensus-level substitution rates are distinct from the virion-level rate",
-      "url": "https://arxiv.org/abs/2605.31305",
-      "summary": "arXiv:2605.31305v3 Announce Type: replace Abstract: Estimating viral substitution rates is central to evolutionary epidemiology, and recent interest in within-host evolution has sharpened the question of what such rates …",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Establishing the Minimal Clinically Important Difference (MCID) for Smartphone-Derived Gait Measures in Multiple Sclerosis",
-      "url": "https://arxiv.org/abs/2606.28449",
-      "summary": "arXiv:2606.28449v2 Announce Type: replace Abstract: Background: Digital health technologies allow for frequent, remote gait monitoring in people with multiple sclerosis (MS). However, to differentiate daily variability f…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evaluating Conformal Reliability of Pathway-Level Transcriptomic Signatures Under Cross-Cohort Shift in Sepsis Mortality Prediction",
-      "url": "https://arxiv.org/abs/2607.17405",
-      "summary": "arXiv:2607.17405v2 Announce Type: replace Abstract: Blood transcriptomic profiling enables prognostic modeling by capturing the host immune response at the molecular level. Yet, the within-cohort evaluation strategies em…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Harmonic Torsional Diffusion for Protein-Ligand Flexible Docking",
-      "url": "https://arxiv.org/abs/2608.20366",
-      "summary": "arXiv:2608.20366v2 Announce Type: replace Abstract: Molecular docking requires reasoning jointly about ligand pose and protein flexibility. Most diffusion-based docking models predict torsional updates with generic Eucli…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Propensity Straight-Through Gradients for Discrete Stochastic Systems",
-      "url": "https://arxiv.org/abs/2608.25631",
-      "summary": "arXiv:2608.25631v2 Announce Type: replace Abstract: We introduce the propensity straight-through (PST) estimator for gradient-based learning through exact simulations of continuous-time Markov chains (CTMCs). These model…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Orchestra: Corroboration-Based Regulatory Candidate Discovery via Composed Bioinformatics MCP Agents",
-      "url": "https://arxiv.org/abs/2609.05496",
-      "summary": "arXiv:2609.05496v4 Announce Type: replace Abstract: Orchestra composes two independently built bioinformatics MCP servers -- RegNetAgents, which infers regulatory network topology, and CASCADE, which provides independent…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "WILSON - Multi-magnification composites as a foundation for patient-level pathology analysis and diagnostic text generation",
-      "url": "https://arxiv.org/abs/2609.25123",
-      "summary": "arXiv:2609.25123v2 Announce Type: replace Abstract: Pathologists examine tissue sections across multiple magnifications and slides, integrating morphological information to establish a diagnosis. In contrast, most pathol…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A theory of plasticity: capacity for change as inverse configurational constraint",
-      "url": "https://arxiv.org/abs/2609.25312",
-      "summary": "arXiv:2609.25312v3 Announce Type: replace Abstract: Plasticity is invoked across the sciences to explain how systems can change, yet it is inferred from the very change it is meant to explain. A system may have many alte…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An Open-Source Web-Based Viewer for Disseminating Image-Derived Models",
-      "url": "https://arxiv.org/abs/2610.19237",
-      "summary": "arXiv:2610.19237v2 Announce Type: replace Abstract: Patient-specific 3-dimensional (3D) models are increasingly central to planning surgery and catheter-based intervention in children with congenital heart disease (CHD),…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sensitive dependence of the motion of a legged robot on granular media",
-      "url": "https://arxiv.org/abs/0905.4950",
-      "summary": "arXiv:0905.4950v2 Announce Type: replace-cross Abstract: Legged locomotion on flowing ground ({\\em e.g.} granular media) is unlike locomotion on hard ground because feet experience both solid- and fluid-like forces durin…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamic gain neuromodulation attenuates stability gaps during continual joint training",
-      "url": "https://arxiv.org/abs/2507.14056",
-      "summary": "arXiv:2507.14056v4 Announce Type: replace-cross Abstract: Recent work in continual learning has highlighted the stability gap -- a temporary performance drop on previously learned tasks when new ones are introduced. This…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SiLVi: Simple Interface for Labeling Video Interactions",
-      "url": "https://arxiv.org/abs/2511.03819",
-      "summary": "arXiv:2511.03819v3 Announce Type: replace-cross Abstract: Computer vision methods are increasingly used for the automated analysis of large volumes of video data collected through camera traps, drones, or direct observat…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Brain-OF: An Omnifunctional Foundation Model for fMRI, EEG and MEG",
-      "url": "https://arxiv.org/abs/2602.23410",
-      "summary": "arXiv:2602.23410v4 Announce Type: replace-cross Abstract: Brain foundation models have achieved remarkable advances across a wide range of neuroscience tasks. However, most existing models are limited to a single functio…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying Memorization and Privacy Risks in Genomic Language Models",
-      "url": "https://arxiv.org/abs/2603.08913",
-      "summary": "arXiv:2603.08913v3 Announce Type: replace-cross Abstract: Genomic language models (GLMs) have emerged as powerful tools for learning representations of DNA sequences, enabling advances in variant prediction, regulatory e…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Shape-Constrained Bayesian Active Learning of Self-Limiting Saturation Curves",
-      "url": "https://arxiv.org/abs/2606.26577",
-      "summary": "arXiv:2606.26577v2 Announce Type: replace-cross Abstract: Saturation curves, monotone responses that rise from zero to a plateau, recur across gas adsorption, enzyme kinetics, and self-limiting growth. Learning one from …",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DoAtlas-2: A Foundation for Self-Evolving Causal Biomedical Discovery",
-      "url": "https://arxiv.org/abs/2609.35107",
-      "summary": "arXiv:2609.35107v2 Announce Type: replace-cross Abstract: We introduce DoAtlas-2, a foundation for self-evolving causal biomedical discovery that organizes knowledge around causal mechanisms and advances through external…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Double-Take: Improving Capacity, Binding, and Selectivity In Long-Context Within Bidirectional Memory",
-      "url": "https://arxiv.org/abs/2610.13073",
-      "summary": "arXiv:2610.13073v2 Announce Type: replace-cross Abstract: Processing a long sequence does not guarantee that distant information remains usable. As context grows, a fixed-size memory must retain many associations, connec…",
       "ts": 1792468800000,
       "publishedAt": "2026-10-20T04:00:00.000Z",
       "categoryId": "bio"
