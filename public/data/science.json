@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-10-19T23:25:26.649Z",
+  "updated": "2026-10-20T03:58:42.876Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Synthetic public opinion polling: AI personas don't always change their minds like real voters do",
+      "url": "https://phys.org/news/2026-10-synthetic-opinion-polling-ai-personas.html",
+      "summary": "A voter surveyed in October may give a different answer by January. An AI persona might not, depending on how it's built.",
+      "ts": 1792467601000,
+      "publishedAt": "2026-10-20T03:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NZ's climate in 'uncharted territory,' with more extreme weather events ahead",
+      "url": "https://phys.org/news/2026-10-nz-climate-uncharted-territory-extreme.html",
+      "summary": "Much is being made of a record-strength El Niño event that could well spell a drier, windier summer for the north and east of New Zealand. But, as a major new assessment shows, it is forming against a backdrop of warming…",
+      "ts": 1792465201000,
+      "publishedAt": "2026-10-20T03:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Juvenile striped bass maintaining average abundance in Virginia waters in 2026",
+      "url": "https://phys.org/news/2026-10-juvenile-striped-bass-average-abundance.html",
+      "summary": "Preliminary results from an ongoing long-term survey conducted by William & Mary's Virginia Institute of Marine Science (VIMS) suggest that an average year class of young-of-year striped bass was produced in the Virginia…",
+      "ts": 1792462801000,
+      "publishedAt": "2026-10-20T02:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: How does technology help track foodborne pathogens and outbreaks?",
+      "url": "https://phys.org/news/2026-10-qa-technology-track-foodborne-pathogens.html",
+      "summary": "After a cyclospora outbreak and recalls of imported beef over the summer, a recent Gallup poll found that Americans' confidence in food safety has fallen to a record low, and consumers may be wondering how foodborne illn…",
+      "ts": 1792460401000,
+      "publishedAt": "2026-10-20T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery",
+      "url": "https://phys.org/news/2026-10-nanoscale-tech-tracks-proteins-neurons.html",
+      "summary": "A technology developed at The University of Queensland allowing scientists to observe how disease-related proteins behave inside living neurons will be used to advance early drug discovery for neurodegenerative diseases.…",
+      "ts": 1792458002000,
+      "publishedAt": "2026-10-20T01:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Students take up to 88 standardized tests before high school, but more testing doesn't improve learning",
+      "url": "https://phys.org/news/2026-10-students-standardized-high-school-doesnt.html",
+      "summary": "The public K-12 school system in the United States has become pervasively shaped by standardized testing.",
+      "ts": 1792455601000,
+      "publishedAt": "2026-10-20T00:20:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Direct observation of the Lindhard continuum using resonant inelastic X-ray scattering",
+      "url": "https://www.nature.com/articles/s41467-026-78503-y",
+      "summary": "",
+      "ts": 1792454400000,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A prefrontal–bed nucleus pathway controls aversive memory specificity independently of glucocorticoids",
+      "url": "https://www.nature.com/articles/s41467-026-78719-y",
+      "summary": "",
+      "ts": 1792454400000,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Three-photon population imaging of subcortical brain regions",
+      "url": "https://www.nature.com/articles/s41467-026-78585-8",
+      "summary": "",
+      "ts": 1792454400000,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Strong field spectroscopy of many-body interactions in solids",
+      "url": "https://www.nature.com/articles/s41467-026-78716-1",
+      "summary": "",
+      "ts": 1792454400000,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New 4D biofabrication technology holds promise for tissue engineering, wound healing",
+      "url": "https://phys.org/news/2026-10-4d-biofabrication-technology-tissue-wound.html",
+      "summary": "If you've ever created a snowflake by folding, cutting and unfolding a piece of paper, you've practiced the art of kirigami. Like origami, kirigami has inspired innovations far beyond the elementary school classroom, wit…",
+      "ts": 1792453212000,
+      "publishedAt": "2026-10-19T23:40:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular switch controls how cells load cargo for recycling",
+      "url": "https://phys.org/news/2026-10-molecular-cells-cargo-recycling.html",
+      "summary": "Cells constantly recycle proteins and other cellular components. But how do they ensure that the right cargo ends up in the right recycling vesicle—one of the cell's transport carriers? A team at the University of Basel …",
+      "ts": 1792453208000,
+      "publishedAt": "2026-10-19T23:40:08.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "13% of Earth's land identified as biodiversity conservation hotspots",
@@ -515,6 +611,22 @@
       "publishedAt": "2026-10-19T11:00:02.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Empirical extension of the ridge regression theorem to nonlinear least-squares estimation with application to myelin water mapping using magnetic resonance imaging",
+      "url": "http://link.aps.org/doi/10.1103/zk7b-yvs7",
+      "summary": "Author(s): Griffin S. Hampton, Ryan A. Neff, Jeffrey Han, Aditee Prabhutendolkar, Zezheng Song, Mustapha Bouhrara, Radu Balan, and Richard G. Spencer Purpose: Parameter estimation from biexponential models is a notorious…",
+      "ts": 1792404000000,
+      "publishedAt": "2026-10-19T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Superconducting-qubit decoherence correlated with detected radiation events",
+      "url": "http://link.aps.org/doi/10.1103/ddyy-t37l",
+      "summary": "Author(s): Alessandro R. Castelli, Kristin M. Beck, Loren D. H. Alegria, Luis A. Martinez, Kevin R. Chaves, Sean R. O’Kelley, Nicholas Materise, Jonathan L DuBois, and Yaniv J. Rosen Most quantum error-correction (QEC) p…",
+      "ts": 1792404000000,
+      "publishedAt": "2026-10-19T10:00:00.000Z"
+    },
+    {
       "source": "APS PRX",
       "title": "Orientation-Dependent Structural Phase Transitions and Melting in Shock-Compressed MgO",
       "url": "http://link.aps.org/doi/10.1103/vt45-32bb",
@@ -687,118 +799,6 @@
       "title": "Thermo-viscous feedback in heat transport through fracture-matrix systems with finite thermal capacity",
       "url": "https://arxiv.org/abs/2610.22531",
       "summary": "arXiv:2610.22531v1 Announce Type: new Abstract: In geothermal systems, injected fluid flows along preferential fracture pathways and exchanges heat with matrix blocks. Reduced models often neglect temperature-dependent v…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Atmospheric Chemistry-Climate Modeling with an AI Foundation Model",
-      "url": "https://arxiv.org/abs/2610.22555",
-      "summary": "arXiv:2610.22555v1 Announce Type: new Abstract: Atmospheric composition and chemistry-climate interactions are central to predicting future climate change. Yet simulating chemical and aerosol processes is typically the m…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-photon Doppler-free spectroscopy of the $6s^2\\;^1S_0 \\rightarrow 6s23s\\;^1S_0$ Rydberg transition for quantum sensing in ytterbium",
-      "url": "https://arxiv.org/abs/2610.22574",
-      "summary": "arXiv:2610.22574v1 Announce Type: new Abstract: Here we report atomic structure calculations and experimental observations of the two-photon $6s^2\\;^1S_0 \\rightarrow 6s23s\\;^1S_0$ transition in Yb. The unique level struc…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultra-stable laser with sub-Hz intrinsic linewidth using a silicon photonic chip",
-      "url": "https://arxiv.org/abs/2610.22596",
-      "summary": "arXiv:2610.22596v1 Announce Type: new Abstract: Here, we demonstrate a novel optical self-injection-locking scheme integrated with a modulation-free laser frequency stabilization technique co-integrated with a compact va…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring electron density and electromagnetic fields in low-density laser-driven plasmas using proton radiography",
-      "url": "https://arxiv.org/abs/2610.22605",
-      "summary": "arXiv:2610.22605v1 Announce Type: new Abstract: In this paper, we describe a novel technique for inferring electron density in laser plasmas from proton-radiography data. Proton radiography is primarily a diagnostic for …",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SCP-FTLE and SCP-FSLE: High-performance finite-time and finite-size Lyapunov-exponent computations for CPUs and GPUs",
-      "url": "https://arxiv.org/abs/2610.22609",
-      "summary": "arXiv:2610.22609v1 Announce Type: new Abstract: Finite-time and finite-size Lyapunov exponents (FTLE and FSLE) characterise material stretching and transport barriers over prescribed time intervals and separation scales,…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Trapping of nanofabricated SiO$_2$ high-aspect-ratio discs in an optical lattice",
-      "url": "https://arxiv.org/abs/2610.22614",
-      "summary": "arXiv:2610.22614v1 Announce Type: new Abstract: We describe the nanofabrication and loading of lithographically patterned, high aspect ratio $10$ $\\mu$m diameter silicon dioxide discs with thickness of $400$ nm into an o…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-Domain Data-Driven Loewner Reduced-Order Models for Electromagnetic Simulation",
-      "url": "https://arxiv.org/abs/2610.22624",
-      "summary": "arXiv:2610.22624v1 Announce Type: new Abstract: This paper presents a data-driven Loewner framework for constructing reduced-order models (ROMs) from time-domain electromagnetic (EM) simulation data. High-fidelity simula…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The typical red cell makes too little vacuole material for coalescence to build the large vacuoles of pocked cells",
-      "url": "https://arxiv.org/abs/2610.22646",
-      "summary": "arXiv:2610.22646v1 Announce Type: new Abstract: Red blood cells carrying intracellular vacuoles, called pocked cells, are a sensitive marker of splenic function: about 0.5% of cells in healthy people, 20 to 70% after spl…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Managing complexity for integrated fusion reactor design using a differentiable graph-based MDAO framework: PROCESS as a case study",
-      "url": "https://arxiv.org/abs/2610.22687",
-      "summary": "arXiv:2610.22687v1 Announce Type: new Abstract: Integrated design of nuclear fusion reactors requires combining an increasingly large number of models from different disciplines self-consistently, with model selection an…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pair-exchange dynamics of magnetohydrodynamic turbulence",
-      "url": "https://arxiv.org/abs/2610.22729",
-      "summary": "arXiv:2610.22729v1 Announce Type: new Abstract: Nonlinear interactions in incompressible magnetohydrodynamic (MHD) and Navier-Stokes turbulence involve three spatial fluctuations conservatively exchanging, e.g., energy. …",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An improved limit on $^{171}\\text{Yb}$ electric dipole moment",
-      "url": "https://arxiv.org/abs/2610.22739",
-      "summary": "arXiv:2610.22739v1 Announce Type: new Abstract: Searches for permanent electric dipole moments (EDMs) probe new sources of CP violation beyond the Standard Model. The atomic EDM of $^{171}\\text{Yb}$, which is sensitive t…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fourier-Feature-Embedded Complex-Valued Physics-Informed Convolutional Residual Networks for Sparse and Gappy Noisy Flow-Field Reconstruction",
-      "url": "https://arxiv.org/abs/2610.22743",
-      "summary": "arXiv:2610.22743v1 Announce Type: new Abstract: Reconstructing flow fields from sparse and noisy measurements becomes particularly challenging when data are completely absent from dynamically critical regions, such as th…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a fabrication-to-benchtop process for SiN-based quantum devices",
-      "url": "https://arxiv.org/abs/2610.22776",
-      "summary": "arXiv:2610.22776v1 Announce Type: new Abstract: Silicon nitride has emerged as a key material for the advancement of future quantum communication and computational devices. However, challenges persist in establishing a c…",
-      "ts": 1792382400000,
-      "publishedAt": "2026-10-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Azimuthal Instability in Oscillating Liquid Jets by the Weber Number Variations",
-      "url": "https://arxiv.org/abs/2610.22780",
-      "summary": "arXiv:2610.22780v1 Announce Type: new Abstract: This paper investigates the dependence of azimuthal mode growth rate of oscillating liquid laminar jets on the Weber number. The oscillating liquid laminar jets were simula…",
       "ts": 1792382400000,
       "publishedAt": "2026-10-19T04:00:00.000Z"
     }

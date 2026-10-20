@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-19T23:25:28.702Z",
+  "updated": "2026-10-20T03:58:45.168Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -31,7 +31,7 @@
     },
     {
       "source": "Genetic Engineering News",
-      "title": "Landmark UK Biobank, IMU Immune Profiling Initiative Taps Ultima and Waters",
+      "title": "ASHG 2026: Landmark UK Biobank, IMU Immune Profiling Initiative Taps Ultima and Waters",
       "url": "https://www.genengnews.com/topics/omics/landmark-uk-biobank-imu-immune-profiling-initiative-taps-ultima-and-waters/",
       "summary": "IMU Biosciences and UK Biobank will profile 80,000 blood samples using technologies from Waters and Ultima Genomics, creating a high-resolution immune dataset to advance AI-driven biomedical research and disease predicti…",
       "ts": 1792435085000,
@@ -193,7 +193,7 @@
     },
     {
       "source": "OpenAI",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "title": "Advancing coding in low‑resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "ts": 1792411200000,
