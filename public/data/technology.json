@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-10-20T14:47:39.993Z",
+  "updated": "2026-10-20T19:00:56.582Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Immune Pathway Contributing to Radiation Therapy-Related Lung Damage Identified in Mice",
+      "url": "https://www.genengnews.com/topics/cancer/immune-pathway-contributing-to-radiation-therapy-related-lung-damage-identified-in-mice/",
+      "summary": "Working with a mouse model of radiation-induced lung injury, researchers uncovered an immune pathway that may contribute to radiation-related lung damage and, suggest their results may point to a potential preventive str…",
+      "ts": 1792520000000,
+      "publishedAt": "2026-10-20T18:13:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A bipartisan group of lawmakers urges the FDA to close a peptide loophole",
+      "url": "https://www.statnews.com/2026/10/20/health-policy-news-bipartisan-group-of-lawmaker-urges-fda-to-close-peptide-loophole/?utm_campaign=rss",
+      "summary": "A bipartisan group of lawmakers is urging the FDA to plug a loophole used to import knockoff retatrutide, an investigational obesity drug made by Eli Lilly.",
+      "ts": 1792514822000,
+      "publishedAt": "2026-10-20T16:47:02.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Roche continues to look to China for new drugs",
+      "url": "https://www.statnews.com/2026/10/20/biotech-news-roches-15b-hunt-for-new-drugs-in-china/?utm_campaign=rss",
+      "summary": "China's Hansoh Pharmaceutical Group has announced that it struck a massive deal with Roche to develop a portfolio of antibody-drug conjugates.",
+      "ts": 1792514526000,
+      "publishedAt": "2026-10-20T16:42:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Why I wish you didn’t want to see Nathan Fielder’s Elizabeth Holmes documentary",
+      "url": "https://www.statnews.com/2026/10/20/elizabeth-holmes-superpower-authenticity-vs-truth-matt-herper-take/?utm_campaign=rss",
+      "summary": "A reporter who interviewed Elizabeth Holmes on why society confuses authenticity, honesty, and truth, and how she takes advantage.",
+      "ts": 1792510870000,
+      "publishedAt": "2026-10-20T15:41:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The new economics of enterprise AI",
+      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, ev…",
+      "ts": 1792509625000,
+      "publishedAt": "2026-10-20T15:20:25.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: OpenEvidence’s JAMA paper leaves open questions",
@@ -84,6 +129,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "Atoms4Food: Protecting Biodiversity",
+      "url": "http://www.iaea.org/newscenter/multimedia/videos/atoms4food-protecting-biodiversity",
+      "summary": "",
+      "ts": 1792494000000,
+      "publishedAt": "2026-10-20T11:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Launch prices for new medicines dipped slightly last year but remain high, analysis finds",
       "url": "https://www.statnews.com/pharmalot/2026/10/20/launch-price-of-new-medicines-drop-very-slightly-2025/?utm_campaign=rss",
@@ -91,6 +145,15 @@
       "ts": 1792492200000,
       "publishedAt": "2026-10-20T10:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "ts": 1792490400000,
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -747,69 +810,6 @@
       "summary": "arXiv:2610.13073v2 Announce Type: replace-cross Abstract: Processing a long sequence does not guarantee that distant information remains usable. As context grows, a fixed-size memory must retain many associations, connec…",
       "ts": 1792468800000,
       "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hybrid Context Forests and Bilateral Viterbi Matching for 3D Rib Centerline Tracing in CT",
-      "url": "https://arxiv.org/abs/2610.16047",
-      "summary": "arXiv:2610.16047v2 Announce Type: replace-cross Abstract: Automatic extraction and anatomical numbering (R01-R12, L01-L12) of all 24 rib centerlines in thoracic CT is essential for unfolded rib visualization, fracture de…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders",
-      "url": "https://arxiv.org/abs/2610.18879",
-      "summary": "arXiv:2610.18879v2 Announce Type: replace-cross Abstract: Protein function annotation operates over an expanding label space, making class-incremental learning (CIL) a natural framework for incorporating newly discovered…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/",
-      "summary": "Written by Alex Innanen, Atmospheric Scientist at York University Earth planning date: Friday, Oct. 9, 2026 Happy New Mars Year! We mark the start of a new year on Mars at the beginning of the northern hemisphere spring,…",
-      "ts": 1792459298000,
-      "publishedAt": "2026-10-20T01:21:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ASHG: Long-Read Genomics Meets Clinical Data in PacBio, Verily Health AI Deal",
-      "url": "https://www.genengnews.com/topics/omics/ashg-long-read-genomics-meets-clinical-data-in-pacbio-verily-health-ai-deal/",
-      "summary": "A multi-year collaboration will connect PacBio's HiFi sequencing with Verily Pre, combining long-read genomic and clinical data for biomedical research and AI model development. The post ASHG: Long-Read Genomics Meets Cl…",
-      "ts": 1792449331000,
-      "publishedAt": "2026-10-19T22:35:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Improves Shock, Vibration Analysis",
-      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
-      "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predi…",
-      "ts": 1792438112000,
-      "publishedAt": "2026-10-19T19:28:32.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-      "summary": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial a…",
-      "ts": 1792438028000,
-      "publishedAt": "2026-10-19T19:27:08.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ASHG 2026: Landmark UK Biobank, IMU Immune Profiling Initiative Taps Ultima and Waters",
-      "url": "https://www.genengnews.com/topics/omics/landmark-uk-biobank-imu-immune-profiling-initiative-taps-ultima-and-waters/",
-      "summary": "IMU Biosciences and UK Biobank will profile 80,000 blood samples using technologies from Waters and Ultima Genomics, creating a high-resolution immune dataset to advance AI-driven biomedical research and disease predicti…",
-      "ts": 1792435085000,
-      "publishedAt": "2026-10-19T18:38:05.000Z",
       "categoryId": "bio"
     }
   ],
