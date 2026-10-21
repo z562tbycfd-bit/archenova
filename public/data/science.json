@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-10-20T22:59:55.668Z",
+  "updated": "2026-10-21T01:28:31.249Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Major repairs needed to save Horseshoe Bay Lagoon",
+      "url": "https://phys.org/news/2026-10-major-horseshoe-bay-lagoon.html",
+      "summary": "Volunteer researcher Chris Hopper, JCU's adjunct professor Eric Wolanski and independent researcher Natalie K. Dowling examined the impact of saltwater and erosion on Horseshoe Bay Lagoon, a freshwater lagoon and one of …",
+      "ts": 1792545601000,
+      "publishedAt": "2026-10-21T01:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rare solar radiation storm gives scientists clearest picture yet of flight risks",
+      "url": "https://phys.org/news/2026-10-rare-solar-storm-scientists-clearest.html",
+      "summary": "The most comprehensive data set ever collected from Earth's atmosphere during a solar radiation event has highlighted the importance of better-coordinated radiation monitoring for aviation safety, according to new resear…",
+      "ts": 1792544401000,
+      "publishedAt": "2026-10-21T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shortening Canadian teacher education risks devaluing the profession of teaching",
+      "url": "https://phys.org/news/2026-10-shortening-canadian-teacher-devaluing.html",
+      "summary": "Recently, shorter teacher certification programs have been introduced in different Canadian provinces. These programs are being implemented in Alberta, Nova Scotia, Ontario and Québec.",
+      "ts": 1792543209000,
+      "publishedAt": "2026-10-21T00:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Where El Niño may impact California coastal areas this winter",
+      "url": "https://phys.org/news/2026-10-el-nio-impact-california-coastal.html",
+      "summary": "Driving across Highway 37 in the San Francisco Bay Area on the best of days already feels like driving on top of water. Buffeted on both sides by marshlands hosting egrets, herons, ducks and a handful of endangered speci…",
+      "ts": 1792542012000,
+      "publishedAt": "2026-10-21T00:20:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers study how AI could improve weed management",
+      "url": "https://phys.org/news/2026-10-ai-weed.html",
+      "summary": "Advances in weed management technology could reduce reliance on herbicides and manual labor, but a new review from the University of Mississippi and Cornell University indicates those tools also bring steep costs and pot…",
+      "ts": 1792540807000,
+      "publishedAt": "2026-10-21T00:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shipwrecks can become thriving reefs, but may contain hidden toxic time bombs",
+      "url": "https://phys.org/news/2026-10-shipwrecks-reefs-hidden-toxic.html",
+      "summary": "Late last year, scientists in Germany published findings on a World War II munitions dump in the Baltic Sea. Some may dismiss the dump as hazardous waste, but to marine biologists it was something far more exciting: a th…",
+      "ts": 1792539612000,
+      "publishedAt": "2026-10-20T23:40:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Forgotten samples from Greenland's Cold War base reveal warmer summers during ancient ice-free period",
+      "url": "https://phys.org/news/2026-10-forgotten-samples-greenland-cold-war.html",
+      "summary": "The site of a former U.S. military base in Greenland was ice-free at a time when summers were a few degrees warmer than today, according to a new University at Buffalo–led study of ancient sediment recovered from beneath…",
+      "ts": 1792539601000,
+      "publishedAt": "2026-10-20T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Judging faces without personality labels uncovers key patterns in first impressions",
+      "url": "https://phys.org/news/2026-10-personality-uncovers-key-patterns.html",
+      "summary": "Imagine sitting on a city bus full of strangers. Look around at the people riding with you. If you needed help, how would you choose whom to trust? By scanning people's faces, your brain is already making interpretations…",
+      "ts": 1792538412000,
+      "publishedAt": "2026-10-20T23:20:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Building wildfire-resilient homes costs less than residents expect",
+      "url": "https://phys.org/news/2026-10-wildfire-resilient-homes-residents.html",
+      "summary": "Housing development in Colorado is spreading into fire-prone landscapes, increasing wildfire risk and adding to the challenges of affordable housing and rising insurance costs.",
+      "ts": 1792538402000,
+      "publishedAt": "2026-10-20T23:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mystery skeleton found in Roman sarcophagus at Westminster Abbey may finally have an identity",
+      "url": "https://phys.org/news/2026-10-mystery-skeleton-roman-sarcophagus-westminster.html",
+      "summary": "The identity of a mysterious skeleton found in a Roman sarcophagus in the grounds of Westminster Abbey more than 150 years ago appears closer to being solved.",
+      "ts": 1792537801000,
+      "publishedAt": "2026-10-20T23:10:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Rule breaking by just a few people can be contagious",
+      "url": "https://www.sciencenews.org/article/rule-breaking-can-be-contagious",
+      "summary": "People are more likely to mimic — or even surpass — rule breakers than rule followers, a study finds. But real-world consequences may keep people in line.",
+      "ts": 1792537260000,
+      "publishedAt": "2026-10-20T23:01:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Like humans, some primates become cautious of germs in the wake of a viral outbreak",
+      "url": "https://phys.org/news/2026-10-humans-primates-cautious-germs-viral.html",
+      "summary": "In the early days of the COVID-19 pandemic, many households wiped down groceries with disinfectant before putting them away. Hand sanitizer was in short supply. With little information on how the virus spread, people bec…",
+      "ts": 1792537216000,
+      "publishedAt": "2026-10-20T23:00:16.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Caribbean islands were once the center of diversity for barn owls",
+      "url": "https://phys.org/news/2026-10-caribbean-islands-center-diversity-barn.html",
+      "summary": "Legend has it that a giant elfin, owl-like creature called the chickcharney haunts the islands of the Bahamas. Those who encounter this cryptid on cordial terms are said to be blessed with good luck. Those who disrespect…",
+      "ts": 1792537204000,
+      "publishedAt": "2026-10-20T23:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Northern Australia is a 'lifeboat' for critically endangered green sawfish",
+      "url": "https://phys.org/news/2026-10-northern-australia-lifeboat-critically-endangered.html",
+      "summary": "Green sawfish, distinguished by their long, sharklike bodies and tooth-lined \"saw\" on the front of their heads, are on the verge of extinction, largely due to overfishing and habitat loss.",
+      "ts": 1792537201000,
+      "publishedAt": "2026-10-20T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Male seahorse pouch proteins may help remove toxic waste from developing embryos",
@@ -689,118 +801,6 @@
       "summary": "Author(s): Yu-Chen Zhou, Zhenzhen Kong, Rong-Long Ma, Hao-Tian Jiang, Ao-Ran Li, Yang Zhong, Zhi-Tao Wu, Rui Zheng, Gui-Lei Wang, Gang Cao, Hai-Ou Li, and Guo-Ping Guo Hole spin qubits based on semiconductor quantum dots…",
       "ts": 1792490400000,
       "publishedAt": "2026-10-20T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Near miss: Indonesia probes crash of suspected Chinese rocket fragment",
-      "url": "https://phys.org/news/2026-10-indonesia-probes-chinese-rocket-fragment.html",
-      "summary": "Indonesian authorities were investigating Tuesday after a car-sized piece of debris, possibly from a Chinese rocket according to a government agency, crashed into a palm oil plantation near homes and work sites.",
-      "ts": 1792489568000,
-      "publishedAt": "2026-10-20T09:46:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
-      "url": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-      "summary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples.",
-      "ts": 1792489213000,
-      "publishedAt": "2026-10-20T09:40:13.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Deep-sea expedition will revisit Pacific mining site five and a half years after test",
-      "url": "https://phys.org/news/2026-10-deep-sea-revisit-pacific-site.html",
-      "summary": "During Oct. 2026, the research vessel SONNE set sail from San Diego into the Pacific Ocean for expedition SO322. Its destination: the Clarion-Clipperton Zone north of the equator—the area that harbors the largest known d…",
-      "ts": 1792489202000,
-      "publishedAt": "2026-10-20T09:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Marine life dramatically declined in Gulf of Mexico in years after BP oil spill, study finds",
-      "url": "https://phys.org/news/2026-10-marine-life-declined-gulf-mexico.html",
-      "summary": "In a deep, dark part of the Gulf of Mexico, the number of marine animals plummeted by about 60% in the years following the 2010 Deepwater Horizon explosion, a new study found.",
-      "ts": 1792489147000,
-      "publishedAt": "2026-10-20T09:39:07.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Algebraic decomposition and topological fibrations of the $U(4) \\to SU(2)$ quotient space",
-      "url": "https://arxiv.org/abs/2610.23859",
-      "summary": "arXiv:2610.23859v1 Announce Type: new Abstract: We investigate the algebraic and topological properties of the unitary group $U(4)$ subjected to a non-standard continuous symmetry breaking cascade down to an $SU(2)_H$ su…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Foundations of Wilson lines and loops from basic concepts to gauge field reconstruction",
-      "url": "https://arxiv.org/abs/2610.23897",
-      "summary": "arXiv:2610.23897v1 Announce Type: new Abstract: This review presents a concise and unified treatment of Wilson lines and Wilson loops in continuum gauge theory, emphasizing their interpretation as parallel transport and …",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Horizon-Boundary Localization of the Hawking Temperature in a Weak AdS/CFT Extension",
-      "url": "https://arxiv.org/abs/2610.23916",
-      "summary": "arXiv:2610.23916v1 Announce Type: new Abstract: We establish a conditional boundary-localization statement for the Hawking temperature. For a static, Euclideanizable black hole with a non-degenerate horizon, the temperat…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite quantum gravity in locally conformally flat spacetime through covariant spectral regularization",
-      "url": "https://arxiv.org/abs/2610.23924",
-      "summary": "arXiv:2610.23924v1 Announce Type: new Abstract: Pure gravity quantum gravity (pure gravity QG) is non-renormalizable at two and higher loop level. One of the main characteristics of objects occurring in QG is their Loren…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing generalized equation of state for dark energy with latest cosmological probes",
-      "url": "https://arxiv.org/abs/2610.23954",
-      "summary": "arXiv:2610.23954v1 Announce Type: new Abstract: Baryon acoustic oscillation (BAO) measurements from DESI DR2 have strengthened indications of a time-evolving dark energy. In this paper, we investigate observational const…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two Cosmological Histories in a New Exponential Infrared $f(T)$ Teleparallel Gravity: Implications for the Hubble Tension and the Low-$\\ell$ Planck TT--EE Tension",
-      "url": "https://arxiv.org/abs/2610.23956",
-      "summary": "arXiv:2610.23956v1 Announce Type: new Abstract: We investigate a particular case of the New Exponential Infrared $f(T)$ teleparallel gravity model with the same number of free parameters as the standard $\\Lambda$CDM mode…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "$f(Q,T)$ Gravity with Barrow Holographic Dark Energy and Massive Neutrinos: DESI DR2 Constraints and Implications for the Hubble Tension",
-      "url": "https://arxiv.org/abs/2610.23957",
-      "summary": "arXiv:2610.23957v1 Announce Type: new Abstract: We study a modification of symmetric teleparallel gravity in which the function $f(Q,T)$ is linear in the non-metricity scalar $Q$ and the trace $T$ of the energy-momentum …",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transient Heat Conduction on Quantum Hardware: Replicated Temperature-Field Reconstruction and Shot-Count Sensitivity with a Variational Quantum Linear Solver",
-      "url": "https://arxiv.org/abs/2610.24004",
-      "summary": "arXiv:2610.24004v1 Announce Type: new Abstract: Implicit discretizations of transient heat conduction repeatedly generate sparse linear systems, making diffusion problems a natural test bed for quantum linear solvers. Th…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Residual Carleman lift for nonlinear lattice Boltzmann simulations",
-      "url": "https://arxiv.org/abs/2610.24041",
-      "summary": "arXiv:2610.24041v1 Announce Type: new Abstract: Low-order Carleman embeddings replace nonlinear dynamics by a larger linear system, but truncation errors can accumulate even when the underlying nonlinear model is accurat…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revealing Detailed Transport Mechanisms in Silicon Tunneling Diodes",
-      "url": "https://arxiv.org/abs/2610.24088",
-      "summary": "arXiv:2610.24088v1 Announce Type: new Abstract: Understanding carrier transport in heavily doped semiconductor junctions is essential for developing next-generation tunneling devices for cryogenic electronics and steep-s…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z"
     }
   ],
   "sources": [

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-20T22:59:58.412Z",
+  "updated": "2026-10-21T01:28:38.584Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -444,6 +444,15 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "ts": 1792479600000,
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NVIDIA",
       "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
       "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
@@ -799,15 +808,6 @@
       "title": "Disentanglement with Biological Constraints: A Theory of Functional Cell Types",
       "url": "https://arxiv.org/abs/2210.01768",
       "summary": "arXiv:2210.01768v3 Announce Type: replace Abstract: Neurons in the brain are often finely tuned for specific task variables. Moreover, such disentangled representations are highly sought after in machine learning. Here w…",
-      "ts": 1792468800000,
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Application of Single-cell Deep Learning in Elucidating the Mapping Relationship Between Visceral and Body Surface Inflammatory Patterns",
-      "url": "https://arxiv.org/abs/2503.17418",
-      "summary": "arXiv:2503.17418v2 Announce Type: replace Abstract: The subcutaneous fascia (scFascia) is a widely distributed connective tissue, yet its contribution to systemic responses during visceral inflammation remains insufficie…",
       "ts": 1792468800000,
       "publishedAt": "2026-10-20T04:00:00.000Z",
       "categoryId": "bio"
