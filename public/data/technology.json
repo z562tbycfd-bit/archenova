@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-10-21T13:34:01.023Z",
+  "updated": "2026-10-21T18:28:42.832Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Using AI Agents and Bio-Foundation Models to Automate Vector Design for Cell Line Development",
+      "url": "https://www.genengnews.com/multimedia/webinars/using-ai-agents-and-bio-foundation-models-to-automate-vector-design-for-cell-line-development/",
+      "summary": "In this GEN webinar, Asimov’s VP of Business Development and Commercial Strategy Jamie Freeman, PhD, will show how Asimov combines bio-foundation models, AI agents, and synthetic biology to tailor expression vector desig…",
+      "ts": 1792606458000,
+      "publishedAt": "2026-10-21T18:14:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bridging the Translational Gap in Pancreatic Cancer Through Biology-First Modeling",
+      "url": "https://www.genengnews.com/multimedia/webinars/bridging-the-translational-gap-in-pancreatic-cancer-through-biology-first-modeling/",
+      "summary": "In this GEN webinar, our expert speaker Josh Wheeler, MD, PhD, will discuss a biology-first, interpretable AI approach to understand patient tumor states and next-generation preclinical models that reproduce their biolog…",
+      "ts": 1792605635000,
+      "publishedAt": "2026-10-21T18:00:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What’s the deal with Isomorphic Labs?",
+      "url": "https://www.statnews.com/2026/10/21/whats-the-deal-with-isomorphic-labs-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis: What does Isomorphic Labs' high valuation say about AI's role in drug development, and the debate around AI and cost of care.",
+      "ts": 1792604971000,
+      "publishedAt": "2026-10-21T17:49:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "ts": 1792602000000,
+      "publishedAt": "2026-10-21T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Conduct NCAA Flyover, Engage Fans at University of Alabama",
+      "url": "https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama/",
+      "summary": "As part of the agency’s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&M football game in Tuscaloosa, Alabama, on Saturday, Oct. 24. NASA Administrator Jared Isaacman will pilot on…",
+      "ts": 1792600271000,
+      "publishedAt": "2026-10-21T16:31:11.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Researchers Validate Buoyant Mass for Cell Health Testing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/researchers-validate-buoyant-mass-for-cell-health-testing/",
+      "summary": "Scientists have used measurement of buoyant mass by suspended microchannel resonator (SMR) technology to assess the immune fitness of T cells and predict patient response to immune checkpoint blockade (ICB). The post Res…",
+      "ts": 1792598454000,
+      "publishedAt": "2026-10-21T16:00:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "iPSC Manufacturing Starts with the Source",
+      "url": "https://www.genengnews.com/topics/bioprocessing/ipsc-manufacturing-starts-with-the-source/",
+      "summary": "For iPSC developers, scalable manufacturing begins long before the bioreactor. Pluristyx leaders explain why starting material, process discipline, automation, and shared data will help therapies reach patients reliably …",
+      "ts": 1792598436000,
+      "publishedAt": "2026-10-21T16:00:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Raman+NIR Spectra Improves Glucose Soft Sensing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/ramannir-spectra-improves-glucose-soft-sensing/",
+      "summary": "Combining Raman and NIR spectroscopy into a single framework creates a multi-modal soft-sensing option that is effective for fed-batch, online, and in-line glucose sensing, preparing the way for hybrid/continuous process…",
+      "ts": 1792598413000,
+      "publishedAt": "2026-10-21T16:00:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Patients Should Be Considered When Choosing a Vector Production Method",
+      "url": "https://www.genengnews.com/topics/bioprocessing/patients-should-be-considered-when-choosing-a-vector-production-method/",
+      "summary": "Vector production costs have a disproportionate influence on gene therapy prices, according to researchers who say that, given this, choosing the vector manufacturing method that best suits the intended use of the produc…",
+      "ts": 1792598400000,
+      "publishedAt": "2026-10-21T16:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Tracks Along the Longest Drive on Another World",
+      "url": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
+      "summary": "Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA’s Jet Propulsion Laboratory Oct. 12, 2026 Since the last blog update, Perseverance has achieved a major milestone on Mars. On Sol 2006 (Oct. 11, 2026)…",
+      "ts": 1792597844000,
+      "publishedAt": "2026-10-21T15:50:44.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
+      "url": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post T…",
+      "ts": 1792596389000,
+      "publishedAt": "2026-10-21T15:26:29.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Science on the Space Station with NASA Astronaut Jessica Watkins",
+      "url": "https://www.nasa.gov/image-article/science-on-the-space-station-with-nasa-astronaut-jessica-watkins/",
+      "summary": "NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module’s Life Science Glovebox on Oct. 9, 2026, safely mixing living cell samples with a bioink and then filling a special…",
+      "ts": 1792595108000,
+      "publishedAt": "2026-10-21T15:05:08.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
+      "url": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Ser…",
+      "ts": 1792594822000,
+      "publishedAt": "2026-10-21T15:00:22.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
+      "url": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
+      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Spac…",
+      "ts": 1792592997000,
+      "publishedAt": "2026-10-21T14:29:57.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: GSK picks up hep B drug approval",
+      "url": "https://www.statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval/?utm_campaign=rss",
+      "summary": "GSK has won FDA approval for its hepatitis B drug, which extended functional cures to far more patients than previous methods.",
+      "ts": 1792592685000,
+      "publishedAt": "2026-10-21T14:24:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Organoid Odyssey: A Glimpse Into the Past, Present, and Future of hPSC-Derived 3D Models",
+      "url": "https://www.genengnews.com/multimedia/webinars/the-organoid-odyssey-a-glimpse-into-the-past-present-and-future-of-hpsc-derived-3d-models/",
+      "summary": "In this GEN webinar, our expert speaker, Arati Naveen, PhD, will trace the foundational discoveries that shaped organoid technology as a new approach methodology (NAM), while highlighting pioneering contributions and con…",
+      "ts": 1792592378000,
+      "publishedAt": "2026-10-21T14:19:38.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about Mark Cuban eyeing rare disease drugs, a ketamine gold rush, and more",
@@ -10,6 +154,24 @@
       "ts": 1792589187000,
       "publishedAt": "2026-10-21T13:26:27.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "ts": 1792587600000,
+      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Advisory Mission Helps Georgia Strengthen Management of Disused Radioactive Sources",
+      "url": "http://www.iaea.org/newscenter/news/iaea-advisory-mission-helps-georgia-strengthen-management-of-disused-radioactive-sources",
+      "summary": "The first official mission conducted through the IAEA’s new Radioactive Waste Management Advisory Service (RAD-WISE) has helped Georgia assess and strengthen its management of disuse",
+      "ts": 1792585080000,
+      "publishedAt": "2026-10-21T12:18:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -55,6 +217,51 @@
       "ts": 1792584000000,
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Aid for Ethiopia, Abyei drone strikes condemned, extreme heat and newborn health",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168643",
+      "summary": "The World Health Organization (WHO) is scaling up emergency health response operations across Afar, Amhara and Tigray in Ethiopia to address growing humanitarian and health needs resulting from ongoing hostilities.",
+      "ts": 1792584000000,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Migrants paid up to $500 million in smuggling fees on European sea routes",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168642",
+      "summary": "The price tag for smuggling on European sea routes reached up to half a billion dollars last year, the UN Office on Drugs and Crime (UNODC) and the UN migration office, IOM, reported on Wednesday.",
+      "ts": 1792584000000,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Summit in Samarkand, a boon for child wellbeing and health",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168640",
+      "summary": "Representatives from across the international community are meeting in Samarkand, Uzbekistan, to ensure that children everywhere can thrive in a world marred by war, climate chaos and other fundamental challenges.",
+      "ts": 1792584000000,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN agencies appeal for help to protect weakest from unprecedented El Niño",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168639",
+      "summary": "Two UN agencies issued a powerful appeal on Wednesday for immediate assistance to help communities already being impacted by the strongest El Niño weather pattern on record.",
+      "ts": 1792584000000,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan conflict: Peace efforts resume to end ‘drone war’ fuelling humanitarian crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168638",
+      "summary": "Talks to halt the fighting in Sudan and alleviate the humanitarian crisis there continued in Geneva on Wednesday, where nearly two dozen countries convened to discuss a pathway to a ceasefire and transition to peaceful g…",
+      "ts": 1792584000000,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -280,6 +487,33 @@
       "ts": 1792571400000,
       "publishedAt": "2026-10-21T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "ts": 1792566000000,
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "ts": 1792566000000,
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "ts": 1792558200000,
+      "publishedAt": "2026-10-21T04:50:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -577,240 +811,6 @@
       "ts": 1792555200000,
       "publishedAt": "2026-10-21T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Two base rates, two weights: base-rate neglect has a second axis",
-      "url": "https://arxiv.org/abs/2608.05658",
-      "summary": "arXiv:2608.05658v4 Announce Type: replace-cross Abstract: Base-rate neglect is usually treated as one mistake: giving the prior too little weight. Turning co-occurrences into a judgment takes two base-rate corrections, n…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beauty is in the ELBO of the Beholder: A Variational Account of Processing Fluency in Face Perception",
-      "url": "https://arxiv.org/abs/2608.24219",
-      "summary": "arXiv:2608.24219v2 Announce Type: replace-cross Abstract: Facial attractiveness has been linked to statistical regularities such as symmetry and averageness, suggesting that beauty may depend on the ease with which a fac…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "manylp: reproducible, exact, and batched linear programming for genome-scale dynamic flux balance analysis",
-      "url": "https://arxiv.org/abs/2610.14566",
-      "summary": "arXiv:2610.14566v2 Announce Type: replace-cross Abstract: Dynamic flux balance analysis (dFBA) and its community, spatial and ensemble variants predict microbial metabolism by solving one linear program (LP) per species …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New Catalytic Reactive-Hydrogen Membranes Capture and Break Down PFAS",
-      "url": "https://www.genengnews.com/topics/bioprocessing/new-catalytic-reactive-hydrogen-membranes-capture-and-break-down-pfas/",
-      "summary": "Newly developed palladium-coated membranes capture PFAS and use reactive hydrogen to break their carbon–fluorine bonds. During 58 days of continuous operation, the system achieved up to 96% removal and 83% defluorination…",
-      "ts": 1792533528000,
-      "publishedAt": "2026-10-20T21:58:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: He’s slashing quality at nursing homes. This state is letting it happen",
-      "url": "https://www.statnews.com/2026/10/20/nursing-home-chains-slash-quality-massachusetts/?utm_campaign=rss",
-      "summary": "The Boston Globe Spotlight Team found Eli Mirlis made grim cuts to resident care while steering millions of dollars from his nursing homes’ revenue into a constellation of real estate…",
-      "ts": 1792531346000,
-      "publishedAt": "2026-10-20T21:22:26.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "It’s a bird, it’s a plane … it’s a robo-puffin?",
-      "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
-      "summary": "Given that water is 1,000 times denser than air, moving through those two mediums requires very different mechanics—or so one might assume. Yet birds like gulls and puffins can plunge into the sea, swim underwater, and l…",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Here’s the tea",
-      "url": "https://www.technologyreview.com/2026/10/20/1145274/heres-the-tea/",
-      "summary": "When Tristan Brown, an associate professor of history at MIT, first examined a Chinese tea chest label displayed at Old South Meeting House, he had no reason to doubt its story. Descendants of the Boston blacksmith Thoma…",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Melt it, spin it, use it again",
-      "url": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
-      "summary": "The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn. The thermoplastic yarn mim…",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A reason to eat carbs",
-      "url": "https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/",
-      "summary": "A high-fat, low-carbohydrate diet can help some people lose weight, and some research has shown that it may protect against colon cancer. But a new study suggests that such a ketogenic diet may also increase the risk of …",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Robotic therapy for stroke patients",
-      "url": "https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/",
-      "summary": "Strokes leave 5 million people with long-term impairments each year, and a growing shortage of physical therapists makes it hard for them to get the care they need. A new approach tries to solve that problem by combining…",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Taking a swing at a pickleball startup",
-      "url": "https://www.technologyreview.com/2026/10/20/1145287/taking-a-swing-at-a-pickleball-startup/",
-      "summary": "In corporate America, Stanley Anderson ’79 says, executives often assume that their peers grew up in privileged circumstances. He did not. “I spent my early years trying not to get recruited into gangs, getting shot at, …",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A good TA: priceless",
-      "url": "https://www.technologyreview.com/2026/10/20/1145291/a-good-ta-priceless/",
-      "summary": "These are images of quizzes I took in 3.091, Introduction to Solid-State Chemistry, in the fall of 1980. One is my very first exam at MIT, and getting 49 out of 100 was a soul-crushing experience. I can still picture the…",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Nebraska native explores galaxies far, far away",
-      "url": "https://www.technologyreview.com/2026/10/20/1145294/nebraska-native-explores-galaxies-far-far-away/",
-      "summary": "Growing up on a small farm in Nebraska, Megan Donahue ’85 discovered the wider world by reading her way through her local library. Today, she is learning how the wider universe works by studying galaxy clusters. Donahue …",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A champion for brain injury patients",
-      "url": "https://www.technologyreview.com/2026/10/20/1145297/a-champion-for-brain-injury-patients/",
-      "summary": "Alissa Totman ’13 was a sophomore when she joined MIT BrainTrust, a student-run organization that connects Institute undergraduates and people with brain injuries for support and socializing. “That group was a great way …",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A cleaner path to rare earth metals",
-      "url": "https://www.technologyreview.com/2026/10/20/1145300/a-cleaner-path-to-rare-earth-metals/",
-      "summary": "Tomás Villalón Jr. ’14 was raised in San Antonio, Texas, but vividly remembers smog hanging over the city his family came from—Monterrey, Mexico, a steel manufacturing and metal fabrication hub. Even as a child, he reali…",
-      "ts": 1792530000000,
-      "publishedAt": "2026-10-20T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
-      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
-      "summary": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farm…",
-      "ts": 1792527696000,
-      "publishedAt": "2026-10-20T20:21:36.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: State regulators move to seize licenses from nursing home chain that was focus of Boston Globe investigation",
-      "url": "https://www.statnews.com/2026/10/20/massachusetts-regulators-move-to-seize-regal-care-nursing-home-licenses-boston-globe-investigation/?utm_campaign=rss",
-      "summary": "A Boston Globe investigation found that RegalCare acquired nursing homes across Massachusetts, then gutted the quality of care.",
-      "ts": 1792527269000,
-      "publishedAt": "2026-10-20T20:14:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Roche, Hansoh Launch Up-to-$15B+ Cancer ADC Collaboration",
-      "url": "https://www.genengnews.com/topics/cancer/roche-hansoh-launch-up-to-15b-cancer-adc-collaboration/",
-      "summary": "The companies' strategic collaboration will consist of two preclinical Hansoh ADC programs and “multiple” ADC programs based on Roche-identified targets, to be developed through Hansoh’s ADC technology platform. The post…",
-      "ts": 1792525100000,
-      "publishedAt": "2026-10-20T19:38:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Takara Bio USA, SPT Labtech Team Up to Automate NGS Library Prep Workflows",
-      "url": "https://www.genengnews.com/topics/omics/takara-bio-usa-spt-labtech-team-up-to-automate-ngs-library-prep-workflows/",
-      "summary": "The partners are targeting NGS core labs with a combined offering that automates next-generation sequencing library prep workflows using kits from Takara Bio and SPT Labtech’s firefly instrument. They are starting with R…",
-      "ts": 1792524180000,
-      "publishedAt": "2026-10-20T19:23:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Immune Pathway Contributing to Radiation Therapy-Related Lung Damage Identified in Mice",
-      "url": "https://www.genengnews.com/topics/cancer/immune-pathway-contributing-to-radiation-therapy-related-lung-damage-identified-in-mice/",
-      "summary": "Working with a mouse model of radiation-induced lung injury, researchers uncovered an immune pathway that may contribute to radiation-related lung damage and, suggest their results may point to a potential preventive str…",
-      "ts": 1792520000000,
-      "publishedAt": "2026-10-20T18:13:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
-      "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
-      "summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonst…",
-      "ts": 1792519893000,
-      "publishedAt": "2026-10-20T18:11:33.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A bipartisan group of lawmakers urges the FDA to close a peptide loophole",
-      "url": "https://www.statnews.com/2026/10/20/health-policy-news-bipartisan-group-of-lawmaker-urges-fda-to-close-peptide-loophole/?utm_campaign=rss",
-      "summary": "A bipartisan group of lawmakers is urging the FDA to plug a loophole used to import knockoff retatrutide, an investigational obesity drug made by Eli Lilly.",
-      "ts": 1792514822000,
-      "publishedAt": "2026-10-20T16:47:02.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roche continues to look to China for new drugs",
-      "url": "https://www.statnews.com/2026/10/20/biotech-news-roches-15b-hunt-for-new-drugs-in-china/?utm_campaign=rss",
-      "summary": "China's Hansoh Pharmaceutical Group has announced that it struck a massive deal with Roche to develop a portfolio of antibody-drug conjugates.",
-      "ts": 1792514526000,
-      "publishedAt": "2026-10-20T16:42:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights ",
-      "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
-      "summary": "NASA researchers are developing the future of flight on Mars, laying the groundwork for helicopters with the ability to fly higher and farther while conducting science on the Red Planet. Using high-fidelity computer simu…",
-      "ts": 1792512155000,
-      "publishedAt": "2026-10-20T16:02:35.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Why I wish you didn’t want to see Nathan Fielder’s Elizabeth Holmes documentary",
-      "url": "https://www.statnews.com/2026/10/20/elizabeth-holmes-superpower-authenticity-vs-truth-matt-herper-take/?utm_campaign=rss",
-      "summary": "A reporter who interviewed Elizabeth Holmes on why society confuses authenticity, honesty, and truth, and how she takes advantage.",
-      "ts": 1792510870000,
-      "publishedAt": "2026-10-20T15:41:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The new economics of enterprise AI",
-      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, ev…",
-      "ts": 1792509625000,
-      "publishedAt": "2026-10-20T15:20:25.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
