@@ -1,7 +1,159 @@
 {
   "ok": true,
-  "updated": "2026-10-21T07:14:27.240Z",
+  "updated": "2026-10-21T13:33:57.055Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Astronomers uncover the engine behind the most powerful stellar flares in the Kepler field",
+      "url": "https://phys.org/news/2026-10-astronomers-uncover-powerful-stellar-flares.html",
+      "summary": "A new study led by researchers at the Konkoly Observatory of the HUN-REN Research Centre for Astronomy and Earth Sciences (HUN-REN CSFK) in Budapest has revealed what makes a distant red giant star the most explosively a…",
+      "ts": 1792588806000,
+      "publishedAt": "2026-10-21T13:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia urged to put biodiversity at the heart of planning as global targets slip out of reach",
+      "url": "https://phys.org/news/2026-10-australia-urged-biodiversity-heart-global.html",
+      "summary": "The world is falling short of its biodiversity commitments because nature is still treated as an afterthought in decisions about housing, infrastructure, agriculture, energy, mining and conservation, according to a new U…",
+      "ts": 1792588801000,
+      "publishedAt": "2026-10-21T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI reveals how a warming climate will intensify NZ's most extreme downpours",
+      "url": "https://phys.org/news/2026-10-ai-reveals-climate-nz-extreme.html",
+      "summary": "The most damaging weather events are the record-breaking \"one-in-100-year\" disasters communities have usually only seen once.",
+      "ts": 1792587625000,
+      "publishedAt": "2026-10-21T13:00:25.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The ocean's most abundant 'loner' microbe has a sticky second life",
+      "url": "https://phys.org/news/2026-10-ocean-abundant-loner-microbe-sticky.html",
+      "summary": "The oxygen in about every other breath we take comes from microscopic cells—phytoplankton—drifting in the surface of the ocean. Among them is Prochlorococcus, the smallest and most abundant photosynthetic organism in the…",
+      "ts": 1792587606000,
+      "publishedAt": "2026-10-21T13:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tackling Lake Erie's algal blooms requires targeted conservation strategies",
+      "url": "https://phys.org/news/2026-10-tackling-lake-erie-algal-blooms.html",
+      "summary": "Anyone living along the coast of Lake Erie will be well aware of the periodic algal blooms that appear on its surface. The greenish blooms can cause rashes and other health problems and pose risks to both humans and anim…",
+      "ts": 1792586401000,
+      "publishedAt": "2026-10-21T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genomes of 20 eastern Finnish species provide unique insights into species' adaptations to local conditions",
+      "url": "https://phys.org/news/2026-10-genomes-eastern-finnish-species-unique.html",
+      "summary": "In recent years, researchers at the University of Eastern Finland have been both leading and contributing to collaborative genome projects. These efforts have produced reference-quality genome assemblies for the Finnish …",
+      "ts": 1792585201000,
+      "publishedAt": "2026-10-21T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parents and nongamers struggle to identify video game loot boxes",
+      "url": "https://phys.org/news/2026-10-parents-nongamers-struggle-video-game.html",
+      "summary": "New research has found parents, guardians and nongamers may struggle to recognize video game loot boxes, their defining features and the digital receipts linked to purchases.",
+      "ts": 1792584002000,
+      "publishedAt": "2026-10-21T12:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Atomic memory keeps distant ions entangled for about 10 seconds",
+      "url": "https://phys.org/news/2026-10-atomic-memory-distant-ions-entangled.html",
+      "summary": "Quantum networks, systems that connect devices and allow them to exchange information encoded in the quantum states of particles, could enable more secure communications. To build these networks, physicists need to devis…",
+      "ts": 1792582812000,
+      "publishedAt": "2026-10-21T11:40:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Smart planning of outdoor sports tournaments using environmental heat measurements",
+      "url": "https://phys.org/news/2026-10-smart-outdoor-sports-tournaments-environmental.html",
+      "summary": "Rising temperatures caused by climate change are making it harder to organize outdoor sports events safely. Exercising in the heat lowers performance and raises the risk of heatstroke, which is a leading cause of nontrau…",
+      "ts": 1792582804000,
+      "publishedAt": "2026-10-21T11:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can surplus-food apps have too much competition?",
+      "url": "https://phys.org/news/2026-10-surplus-food-apps-competition.html",
+      "summary": "Apps that let businesses sell surplus food at a discount in \"surplus bags\" have become a popular way to keep edible food out of landfills while giving consumers access to lower-cost meals and groceries.",
+      "ts": 1792581606000,
+      "publishedAt": "2026-10-21T11:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Do new platform features hurt hiring chances for competitive gig workers?",
+      "url": "https://phys.org/news/2026-10-qa-platform-features-hiring-chances.html",
+      "summary": "Whether they are driven by economic necessity or a desire for greater control over their careers, a growing number of workers are turning to online gig-work platforms to supplement their income with freelance projects li…",
+      "ts": 1792580404000,
+      "publishedAt": "2026-10-21T11:00:04.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "What can minerals tell us about Earth’s past? This geologist is finding out",
+      "url": "https://www.sciencenews.org/article/minerals-earth-geology-gabriela-farfan",
+      "summary": "Smithsonian geologist Gabriela Farfan studies corals, gemstones and other minerals for clues to changing oceans and environments.",
+      "ts": 1792580400000,
+      "publishedAt": "2026-10-21T11:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Synchronized bodily responses do not always reflect cooperation, study finds",
+      "url": "https://phys.org/news/2026-10-synchronized-bodily-responses-cooperation.html",
+      "summary": "Sometimes, while people are interacting with each other, their movements and physiological responses can fall into step. Some past studies have linked synchronized bodily responses to cooperation and being attuned to the…",
+      "ts": 1792579201000,
+      "publishedAt": "2026-10-21T10:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "South Korea launches new bid to guide crowd-pulling shark to sea",
+      "url": "https://phys.org/news/2026-10-south-korea-crowd-shark-sea.html",
+      "summary": "South Korean authorities began a new attempt Wednesday to coax a shark-turned-viral sensation back to sea, with falling temperatures in the Busan canal where it is stranded raising concerns for its survival.",
+      "ts": 1792575601000,
+      "publishedAt": "2026-10-21T09:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prized wild pepper at risk in Madagascar's shrinking forests",
+      "url": "https://phys.org/news/2026-10-prized-wild-pepper-madagascar-forests.html",
+      "summary": "A rare wild pepper endemic to Madagascar and prized by international chefs is facing an uncertain future, a victim of its own success and the destruction of its forest habitat.",
+      "ts": 1792574401000,
+      "publishedAt": "2026-10-21T09:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More current with less calcium: Computational models help solve longstanding ion channel evolution mystery",
+      "url": "https://phys.org/news/2026-10-current-calcium-longstanding-ion-channel.html",
+      "summary": "In the early 1980s, scientists observed an anomaly. Embedded within cell membranes, they identified ion channels with extraordinarily high conductance. These so-called \"BK\" (Big K, or Big Potassium) channels had roughly …",
+      "ts": 1792573206000,
+      "publishedAt": "2026-10-21T09:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Transparent minispheres reveal that some look-alike cancer drugs part ways in 3D",
+      "url": "https://phys.org/news/2026-10-transparent-minispheres-reveal-alike-cancer.html",
+      "summary": "Researchers at Uppsala University have adapted Cell Painting, a widely used imaging method in drug discovery, to look at individual cells inside small 3D clusters of cancer cells. Two drugs that looked almost identical i…",
+      "ts": 1792573202000,
+      "publishedAt": "2026-10-21T09:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A First Nation community in Canada is using a data center to preserve its heritage",
+      "url": "https://phys.org/news/2026-10-nation-community-canada-center-heritage.html",
+      "summary": "For thousands of years, Indigenous peoples have passed down their traditions and culture through oral storytelling. Now, a Canadian Indigenous community is using a data center to help preserve its heritage.",
+      "ts": 1792572598000,
+      "publishedAt": "2026-10-21T08:49:58.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX turns a profit after a string of losses as its satellite and computer leasing businesses soar",
+      "url": "https://phys.org/news/2026-10-spacex-profit-losses-satellite-leasing.html",
+      "summary": "SpaceX reported a bigger quarterly profit than expected Tuesday as its satellite communications operations and its business of leasing computing power to other companies boomed.",
+      "ts": 1792572495000,
+      "publishedAt": "2026-10-21T08:48:15.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Targeting a particular gene may improve tea plants' flavor and cold tolerance",
@@ -647,158 +799,6 @@
       "title": "DeGroot Dynamics on Multiplex Networks with Directed and Acyclic Interlayer Connectivities",
       "url": "https://arxiv.org/abs/2610.27198",
       "summary": "arXiv:2610.27198v1 Announce Type: cross Abstract: In models of opinion dynamics, researchers typically examine how an individual's opinion on one topic is influenced by the opinions of their neighbors in a network. Howev…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Counterexamples to the total-current Hohenberg-Kohn conjecture",
-      "url": "https://arxiv.org/abs/2610.27294",
-      "summary": "arXiv:2610.27294v1 Announce Type: cross Abstract: The total-current Hohenberg-Kohn conjecture asserts that the ground-state particle density and total current determine the scalar potential up to an additive constant and…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of the Human-Robot Interaction Workspace for Robot Assisted Head Stabilization Control",
-      "url": "https://arxiv.org/abs/2610.27336",
-      "summary": "arXiv:2610.27336v1 Announce Type: cross Abstract: Accurate head immobilization is critical for medical procedures such as neuroimaging and intracranial radiation therapy, where even minor motion can compromise precision.…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reaction-induced Localized Annealing for On-chip Materials Discovery",
-      "url": "https://arxiv.org/abs/2610.27355",
-      "summary": "arXiv:2610.27355v1 Announce Type: cross Abstract: On-chip thermal processing is a key technology for materials discovery across all disciplines of the natural sciences. Here, we present a microfabricated heat-delivery pl…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multifractality of human upper-limb velocity tracks motor optimization via hand dominance experiment",
-      "url": "https://arxiv.org/abs/2610.27399",
-      "summary": "arXiv:2610.27399v1 Announce Type: cross Abstract: Theoretical goal-directed movements follow a unique, stereotyped velocity profile, but continuous movement has no unique optimal solution, so it is unclear whether motor …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fully Automated Wannier Disentanglement via Projectability Selection in Gaussian and Augmented Plane-Wave Frameworks",
-      "url": "https://arxiv.org/abs/2610.27411",
-      "summary": "arXiv:2610.27411v1 Announce Type: cross Abstract: Constructing the frozen manifold for entangled bands requires balancing exact reproduction of the target bands with sufficient variational freedom to build a well-localiz…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Field demonstration of a self-contained 10 km mobile-to-ground quantum network node via common-aperture co-propagation",
-      "url": "https://arxiv.org/abs/2610.27427",
-      "summary": "arXiv:2610.27427v1 Announce Type: cross Abstract: In this work, we demonstrate a dual-function, common-aperture free-space optical system that simultaneously supports decoy-state BB84 quantum key distribution (QKD) at 80…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Charge-conserving creation and annihilation of topological phase singularities in atomically thin semiconductors",
-      "url": "https://arxiv.org/abs/2610.27486",
-      "summary": "arXiv:2610.27486v1 Announce Type: cross Abstract: Atomically thin transition metal dichalcogenides provide a promising material platform for optical phase manipulation, as rapid variations in their dielectric functions c…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fate of Discrete Time Crystals in Finite-Size Cavity QED Systems",
-      "url": "https://arxiv.org/abs/2610.27589",
-      "summary": "arXiv:2610.27589v1 Announce Type: cross Abstract: It has been shown that Discrete Time Crystal (DTC) behavior may arise in the periodically driven, open Dicke model in the thermodynamic limit ($N \\rightarrow \\infty$). In…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Radiation-Hardened, Fault-Aware Quantized Neural Network That Self-Heals",
-      "url": "https://arxiv.org/abs/2610.27621",
-      "summary": "arXiv:2610.27621v1 Announce Type: cross Abstract: Deep learning (DL) models are increasingly being deployed into radiation-challenging environments in spacecraft, particle accelerators, and, soon, space-based data center…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-photon time qubit: Quantum-vacuum control and complementarity of the arrow of time",
-      "url": "https://arxiv.org/abs/2610.27639",
-      "summary": "arXiv:2610.27639v1 Announce Type: cross Abstract: Treating the arrow of time as a controllable quantum variable rather than a fixed external parameter is a central challenge in quantum physics. Recently, Bloch~\\cite{Bloc…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-Threshold Sampling: Local and Global Parameter Identifiability",
-      "url": "https://arxiv.org/abs/2610.27665",
-      "summary": "arXiv:2610.27665v1 Announce Type: cross Abstract: Multi-threshold (MT) sampling records threshold-crossing times for parameter estimation in applications including positron emission tomography, oil well logging, and phot…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural Operator Splitting for Fluid Dynamics in Complex Geometry",
-      "url": "https://arxiv.org/abs/2610.27671",
-      "summary": "arXiv:2610.27671v1 Announce Type: cross Abstract: Solving dynamical systems in complex and diverse geometries remains challenging for both numerical solvers and learning-based surrogate models. We propose Neural Operator…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A high-speed, large-aperture 3D printed laser shutter for cold atom experiments",
-      "url": "https://arxiv.org/abs/2610.27709",
-      "summary": "arXiv:2610.27709v1 Announce Type: cross Abstract: Cold atom experiments require optical shutters with rapid and repeatable actuation. Existing solutions often involve high cost, limited aperture diameter and slow transit…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-uniform grids to accelerate electron-phonon coupling calculations for superconductivity",
-      "url": "https://arxiv.org/abs/2610.27718",
-      "summary": "arXiv:2610.27718v1 Announce Type: cross Abstract: Efficient and accurate evaluation of electron-phonon interactions is essential for predictive superconductivity calculations, but dense Brillouin zone sampling requiremen…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Good-$\\Gamma$ Numbers: A Shell-Optimized Route to the Thermodynamic Limit in Quantum Monte Carlo Calculations of the High-Density Two-Dimensional Electron Gas",
-      "url": "https://arxiv.org/abs/2610.27761",
-      "summary": "arXiv:2610.27761v1 Announce Type: cross Abstract: Single-particle finite-size errors remain a central obstacle in quantum Monte Carlo (QMC) simulations of periodic systems, conventionally reduced via twist averaging (TA)…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Narrowband nonreciprocal transmission in a Doppler-broadened multilevel atomic system",
-      "url": "https://arxiv.org/abs/2610.27792",
-      "summary": "arXiv:2610.27792v1 Announce Type: cross Abstract: We theoretically investigate narrowband nonreciprocal transmission in a Doppler-broadened five-level M-type atomic medium. After Doppler averaging, the M-type system reta…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "infomeasure-rs: A High-Performance Rust Library for Information-Theoretic Measures and Estimators",
-      "url": "https://arxiv.org/abs/2610.27951",
-      "summary": "arXiv:2610.27951v1 Announce Type: cross Abstract: Information theory has become a standard tool across the natural and social sciences, yet practical use is limited by estimator choice, fragmented software, reproducibili…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of interfacial water structure on the adsorption of weakly hydrated anions",
-      "url": "https://arxiv.org/abs/2610.27964",
-      "summary": "arXiv:2610.27964v1 Announce Type: cross Abstract: Weakly hydrated anions tend to partition to macromolecular surfaces, leading to salting-in at low salt concentrations. Recent studies have linked this partitioning to dis…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase shifts and fluctuations from motional, relativistic, and dark-matter effects in ion-trap clocks",
-      "url": "https://arxiv.org/abs/2610.27994",
-      "summary": "arXiv:2610.27994v1 Announce Type: cross Abstract: Ions possess both center-of-mass motion and internal states, rendering trapped-ion optical clocks susceptible to perturbations of both degrees of freedom, which results i…",
       "ts": 1792555200000,
       "publishedAt": "2026-10-21T04:00:00.000Z"
     }
