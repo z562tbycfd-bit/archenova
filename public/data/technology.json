@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-10-21T18:28:42.832Z",
+  "updated": "2026-10-21T22:12:24.446Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: CMS extends fraud crackdown to New York’s adult day care program",
+      "url": "https://www.statnews.com/2026/10/21/cms-medicaid-fraud-nyc-adult-daycare-operators/?utm_campaign=rss",
+      "summary": "CMS is cracking down on adult day cares in New York, part of a broader focus on alleged health care fraud.",
+      "ts": 1792618721000,
+      "publishedAt": "2026-10-21T21:38:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "ts": 1792616400000,
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
+      "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
+      "summary": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for almost eight-and-a-half minutes (50…",
+      "ts": 1792615910000,
+      "publishedAt": "2026-10-21T20:51:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Another diabetes association leader is out while review continues",
+      "url": "https://www.statnews.com/2026/10/21/american-diabetes-association-leadership-change-controversy/?utm_campaign=rss",
+      "summary": "An endocrinologist who had long served in the American Diabetes Association's leadership is out without explanation.",
+      "ts": 1792612788000,
+      "publishedAt": "2026-10-21T19:59:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "BCG Vaccine-Induced Trained Immunity May Help Protect Against Dementia",
+      "url": "https://www.genengnews.com/topics/translational-medicine/bcg-vaccine-induced-trained-immunity-may-help-protect-against-dementia/",
+      "summary": "The results of a preclinical study suggest that the BCG vaccine, which is widely used to prevent tuberculosis and treat bladder cancer, may also have properties that reduce the risk for dementia by inducing trained immun…",
+      "ts": 1792610022000,
+      "publishedAt": "2026-10-21T19:13:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/",
+      "summary": "Interstellar probes. Lunar drones. Helicopters on Mars. When a group of Caltech graduate students and enthusiasts began conducting rocket-propulsion tests in Pasadena’s Arroyo Seco on Oct. 31, 1936, they had no idea that…",
+      "ts": 1792607756000,
+      "publishedAt": "2026-10-21T18:35:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ASHG: Signals Based on Clinical Obesity Show Stronger Links to Cardiovascular Health than Those Linked to BMI",
+      "url": "https://www.genengnews.com/topics/drug-discovery/ashg-signals-based-on-clinical-obesity-show-stronger-links-to-cardiovascular-health-than-those-linked-to-bmi/",
+      "summary": "Researchers also developed a clinical obesity polygenic score that combined information from numerous genetic variants, a score that was shown to be significantly associated with BMI, body fat percentage, and waist circu…",
+      "ts": 1792607456000,
+      "publishedAt": "2026-10-21T18:30:56.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Using AI Agents and Bio-Foundation Models to Automate Vector Design for Cell Line Development",
@@ -217,6 +280,24 @@
       "ts": 1792584000000,
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Fate unknown of many returned to DPR Korea from China: UN independent experts",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168645",
+      "summary": "Three years on from the reported resumption of large-scale forcible returns of nationals of the Democratic People’s Republic of Korea (DPRK) from China, serious concerns persist about their fate, according to a group of …",
+      "ts": 1792584000000,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Ominous start’ to West Bank olive harvest amid settler attacks",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168644",
+      "summary": "The use of live ammunition, arson and the destruction of centuries-old olive trees have marked the opening weeks of this year’s harvest in the occupied West Bank.",
+      "ts": 1792584000000,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -519,7 +600,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 21 – New Ghosts Revealed in Cassiopeia",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-21-new-ghosts-revealed-in-cassiopeia/",
-      "summary": "APOD Science APOD APOD: 2026 October 21 – New… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+      "summary": "APODScienceAPODAPOD: 2026 October 21 – New…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our …",
       "ts": 1792555500000,
       "publishedAt": "2026-10-21T04:05:00.000Z",
       "categoryId": "space"
@@ -727,87 +808,6 @@
       "title": "DRIADA: an open-source Python toolkit for linking single-neuron selectivity and population activity to behavior",
       "url": "https://arxiv.org/abs/2607.00851",
       "summary": "arXiv:2607.00851v2 Announce Type: replace Abstract: Understanding how individual neurons contribute to population activity during behavior is central to understanding brain functions across biological scales. We develope…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Alignment of visual brain encoding models with individual perceptual similarity judgments",
-      "url": "https://arxiv.org/abs/2610.22569",
-      "summary": "arXiv:2610.22569v2 Announce Type: replace Abstract: Encoding models that predict brain activation responses to images have traditionally been trained to maximize accuracy when predicting observed brain data. However, the…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Testing for genetic interactions in complex disease with distance correlation",
-      "url": "https://arxiv.org/abs/2012.05285",
-      "summary": "arXiv:2012.05285v3 Announce Type: replace-cross Abstract: Understanding epistasis (genetic interaction) may shed some light on the genomic basis of common diseases, including disorders of maximum interest due to their hi…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "One-shot learning of paired association navigation with biologically plausible schemas",
-      "url": "https://arxiv.org/abs/2106.03580",
-      "summary": "arXiv:2106.03580v5 Announce Type: replace-cross Abstract: After learning a multiple paired-association (MPA) navigation task, rodents can rapidly learn new cue-location associations after a single exposure, a phenomenon …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Statistical inference for a multiscale stochastic model of enzyme kinetics via propagation of chaos",
-      "url": "https://arxiv.org/abs/2409.06565",
-      "summary": "arXiv:2409.06565v5 Announce Type: replace-cross Abstract: We study a class of Stochastic Differential Equations (SDEs) with jumps modeling multistage Michaelis--Menten enzyme kinetics, in which a substrate is sequentiall…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Computational Typology",
-      "url": "https://arxiv.org/abs/2504.15642",
-      "summary": "arXiv:2504.15642v3 Announce Type: replace-cross Abstract: Typology is a subfield of linguistics that focuses on the study and classification of languages based on their structural features. Unlike genealogical classifica…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GenoMAS: Guided Multi-Agent Programming for Scientific Discovery from Genomic Data",
-      "url": "https://arxiv.org/abs/2507.21035",
-      "summary": "arXiv:2507.21035v4 Announce Type: replace-cross Abstract: Gene expression analysis holds the key to many biomedical discoveries, yet extracting insights from raw transcriptomic data remains challenging due to the complex…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Curriculum-Augmented GFlowNets For mRNA Sequence Generation",
-      "url": "https://arxiv.org/abs/2510.03811",
-      "summary": "arXiv:2510.03811v2 Announce Type: replace-cross Abstract: We develop an approach for the de novo synthesis of messenger RNA (mRNA) sequences encoding target proteins. This requires optimizing multiple biological objectiv…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Computing the final epidemic size distributions of a multi-type Galton--Watson process",
-      "url": "https://arxiv.org/abs/2606.03007",
-      "summary": "arXiv:2606.03007v2 Announce Type: replace-cross Abstract: The Galton--Watson process (GWP) is a discrete-time branching process model that provides a powerful tool for analyzing epidemic data and estimating key epidemiol…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
-      "url": "https://arxiv.org/abs/2607.04987",
-      "summary": "arXiv:2607.04987v5 Announce Type: replace-cross Abstract: Cell-type deconvolution, the task of estimating the proportions of constituent cell types in a heterogeneous biological sample, is a core problem in computational…",
       "ts": 1792555200000,
       "publishedAt": "2026-10-21T04:00:00.000Z",
       "categoryId": "bio"
