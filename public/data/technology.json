@@ -1,7 +1,142 @@
 {
   "ok": true,
-  "updated": "2026-10-22T07:16:22.419Z",
+  "updated": "2026-10-22T13:35:25.542Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA has finalized its guidance on apps related to drugs",
+      "url": "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: FDA's guidance on prescription drug use-related software, and telehealth pushing GLP-1s for addiction.",
+      "ts": 1792675049000,
+      "publishedAt": "2026-10-22T13:17:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+      "summary": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign…",
+      "ts": 1792674020000,
+      "publishedAt": "2026-10-22T13:00:20.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Health insurance premiums jump 9%, and more Americans don’t have access to coverage",
+      "url": "https://www.statnews.com/2026/10/22/health-news-insurance-premiums-jump-more-americans-lose-coverage/?utm_campaign=rss",
+      "summary": "Working-age U.S. adults without health insurance rose in 2026. Half of all uninsured people did not seek needed care because of cost concerns, according to a new survey.",
+      "ts": 1792671732000,
+      "publishedAt": "2026-10-22T12:22:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: computing’s next leap and permafrost’s climate threat",
+      "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richar…",
+      "ts": 1792671000000,
+      "publishedAt": "2026-10-22T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints an…",
+      "ts": 1792663200000,
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Three things you should know about permafrost",
+      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
+      "summary": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The grea…",
+      "ts": 1792663200000,
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA Open Days 2026",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/ESA_Open_Days_2026",
+      "summary": "Video: 00:00:49 ESA Open Days 2026 welcomed over 23 000 visitors across its six establishments, giving the public the opportunity to discover more about Europe’s space activities, meet the people behind the missions and …",
+      "ts": 1792659600000,
+      "publishedAt": "2026-10-22T09:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
+      "url": "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss",
+      "summary": "A KFF survey finds that rising healthcare costs are squeezing both employers and workers.",
+      "ts": 1792659600000,
+      "publishedAt": "2026-10-22T09:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens …",
+      "ts": 1792658478000,
+      "publishedAt": "2026-10-22T08:41:18.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: What I got wrong about the Affordable Care Act — and how to fix it",
+      "url": "https://www.statnews.com/2026/10/22/aca-failure-contain-healthcare-costs-economist-regret/?utm_campaign=rss",
+      "summary": "“The big mistake, ironically, was the ACA’s lack of focus on affordability,” writes Dana Goldman.",
+      "ts": 1792657800000,
+      "publishedAt": "2026-10-22T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The inherited disease my family called ‘it’ had a name, which changed everything",
+      "url": "https://www.statnews.com/2026/10/22/rare-disease-family-name-fenib-personal-essay/?utm_campaign=rss",
+      "summary": "For 50 years, doctors shrugged about the disease running through Miranda Pappas’ family. Then she discovered something.",
+      "ts": 1792657800000,
+      "publishedAt": "2026-10-22T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Telehealth leapfrogs FDA approval with off-label GLP-1 prescriptions for addiction",
+      "url": "https://www.statnews.com/2026/10/22/glp-1-drugs-substance-use-disorder-telehealth-off-label-prescription/?utm_campaign=rss",
+      "summary": "As telehealth promotes GLP-1s for addiction, experts worry about fragmented care, and exposing patients to unknown risks.",
+      "ts": 1792657800000,
+      "publishedAt": "2026-10-22T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA Council approves appointment of two new directors",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_Council_approves_appointment_of_two_new_directors",
+      "summary": "The European Space Agency Council has approved the appointment of two new directors: Andrzej Banasiak as Director of Commercialisation and Industry Partnership, and Nicolaus Hanowski as Director of Space Operations.",
+      "ts": 1792657560000,
+      "publishedAt": "2026-10-22T08:26:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Stars brewing in a nebulous cauldron",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
+      "summary": "Image: Stars brewing in a nebulous cauldron",
+      "ts": 1792656000000,
+      "publishedAt": "2026-10-22T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "ts": 1792648800000,
+      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NVIDIA",
       "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
@@ -336,6 +471,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Supports Major Cybersecurity Exercise in Brazil",
+      "url": "http://www.iaea.org/newscenter/news/iaea-supports-major-cybersecurity-exercise-in-brazil",
+      "summary": "Brazil put computer security for critical infrastructure to the test during ‘Cyber Guardian’, a large-scale national exercise supported by the IAEA featuring scenarios involving nuclear power plants, cancer treatment fac…",
+      "ts": 1792639869000,
+      "publishedAt": "2026-10-22T03:31:09.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "Faster to Science: A Letter to the Science Community",
       "url": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
@@ -343,6 +487,15 @@
       "ts": 1792627216000,
       "publishedAt": "2026-10-22T00:00:16.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Heatwave-induced capacity bottlenecks in European electricity grids",
+      "url": "https://www.nature.com/articles/s41560-026-02151-1",
+      "summary": "",
+      "ts": 1792627200000,
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -658,159 +811,6 @@
       "ts": 1792584000000,
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Summit in Samarkand, a boon for child wellbeing and health",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168640",
-      "summary": "Representatives from across the international community are meeting in Samarkand, Uzbekistan, to ensure that children everywhere can thrive in a world marred by war, climate chaos and other fundamental challenges.",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN agencies appeal for help to protect weakest from unprecedented El Niño",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168639",
-      "summary": "Two UN agencies issued a powerful appeal on Wednesday for immediate assistance to help communities already being impacted by the strongest El Niño weather pattern on record.",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan conflict: Peace efforts resume to end ‘drone war’ fuelling humanitarian crisis",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168638",
-      "summary": "Talks to halt the fighting in Sudan and alleviate the humanitarian crisis there continued in Geneva on Wednesday, where nearly two dozen countries convened to discuss a pathway to a ceasefire and transition to peaceful g…",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "WHO supports Nigeria after first Ebola case confirmed",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168637",
-      "summary": "The World Health Organization (WHO) is assisting Nigeria following confirmation of the first case of Ebola Bundibugyo virus disease in the country.",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Global warming will breach 1.5°C – but deep, fast cuts can still bring it back",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168634",
-      "summary": "With global temperature rise set to exceed 1.5°C above pre-industrial levels, countries “must pull out all the stops” and urgently cut emissions to minimize the overshoot and return to the internationally agreed threshol…",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Nigeria identifies travel-related Ebola case",
-      "url": "https://www.statnews.com/2026/10/21/health-news-nigeria-travel-related-ebola-case-outbreak/?utm_campaign=rss",
-      "summary": "Nigeria has confirmed an imported Ebola case tied to the ongoing outbreak centered in the Democratic Republic of the Congo, becoming the fifth country to identify a related infection, health…",
-      "ts": 1792583687000,
-      "publishedAt": "2026-10-21T11:54:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Summer of Quantum: Building momentum for space-based QKD",
-      "url": "https://spacenews.com/summer-of-quantum-building-momentum-for-space-based-qkd/",
-      "summary": "Glasgow, UK | 21 October 2026 – The pace of development in quantum technologies continues to accelerate, and over the past few months, space engineering company Craft Prospect has been […] The post Summer of Quantum: Bui…",
-      "ts": 1792583670000,
-      "publishedAt": "2026-10-21T11:54:30.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Lin…",
-      "ts": 1792579837000,
-      "publishedAt": "2026-10-21T10:50:37.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
-      "summary": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud custo…",
-      "ts": 1792579517000,
-      "publishedAt": "2026-10-21T10:45:17.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-      "summary": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure t…",
-      "ts": 1792578641000,
-      "publishedAt": "2026-10-21T10:30:41.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
-      "summary": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open …",
-      "ts": 1792578640000,
-      "publishedAt": "2026-10-21T10:30:40.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-      "summary": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircra…",
-      "ts": 1792578625000,
-      "publishedAt": "2026-10-21T10:30:25.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "summary": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy …",
-      "ts": 1792578602000,
-      "publishedAt": "2026-10-21T10:30:02.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-      "summary": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and …",
-      "ts": 1792577401000,
-      "publishedAt": "2026-10-21T10:10:01.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
-      "summary": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and…",
-      "ts": 1792576807000,
-      "publishedAt": "2026-10-21T10:00:07.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-      "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a…",
-      "ts": 1792575016000,
-      "publishedAt": "2026-10-21T09:30:16.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "We can do impossible things",
-      "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
-      "summary": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my …",
-      "ts": 1792573200000,
-      "publishedAt": "2026-10-21T09:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
