@@ -1,10 +1,136 @@
 {
   "ok": true,
-  "updated": "2026-10-22T13:35:25.542Z",
+  "updated": "2026-10-22T18:24:07.013Z",
   "items": [
     {
       "source": "STAT",
-      "title": "STAT+: FDA has finalized its guidance on apps related to drugs",
+      "title": "STAT+: AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations ",
+      "url": "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/?utm_campaign=rss",
+      "summary": "AbbVie's lutikizumab, an experimental therapy for a chronic skin condition, succeeded in a late-stage trial but missed market expectations.",
+      "ts": 1792693347000,
+      "publishedAt": "2026-10-22T18:22:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rethinking networks in space with Aalyria’s Brian Barritt",
+      "url": "https://spacenews.com/rethinking-networks-in-space-with-aalyrias-brian-barritt/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss talks with the CEO of Aalyria Brian Barritt about how networks are evolving, what scaling the company means and the role of software interoperability […] The post Rethinking network…",
+      "ts": 1792692818000,
+      "publishedAt": "2026-10-22T18:13:38.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Nutrition experts press White House to release ultra-processed food definition ",
+      "url": "https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss",
+      "summary": "MAHA allies and nutrition experts want the Trump administration to act on ultra-processed foods before the elections.",
+      "ts": 1792692287000,
+      "publishedAt": "2026-10-22T18:04:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Top MAHA adviser Calley Means resigns from White House days ahead of midterms",
+      "url": "https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss",
+      "summary": "The surprising departure of Calley Means comes just before an election that may serve as a referendum on the MAHA movement.",
+      "ts": 1792691529000,
+      "publishedAt": "2026-10-22T17:52:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Nvidia, UW Institute for Protein Design Unveil Open-Source Protein Design AI Model",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-uw-institute-for-protein-design-unveil-open-source-protein-design-ai-model/",
+      "summary": "RFD4-Proteina is an open model based on Nvidia’s NVIDIA BioNeMo™ artificial intelligence (AI) platform for chemistry and biology that combines programmable protein design with search capabilities. RFD4-Proteina generates…",
+      "ts": 1792691292000,
+      "publishedAt": "2026-10-22T17:48:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "PerturbAI and OpenAI Launch AI Reasoning Agents for Biomedical Discovery",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/perturbai-and-openai-launch-ai-reasoning-agents-for-biomedical-discovery/",
+      "summary": "A year-long collaboration involving scientists at PerturbAI, OpenAI, and their other institutions yielded an AI reasoning framework that turns datasets into testable hypotheses, with thousands of agents analyzing whole-b…",
+      "ts": 1792690424000,
+      "publishedAt": "2026-10-22T17:33:44.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ASHG President Susan Slaugenhaupt Calls for Hope, Leadership, and Communication in Science",
+      "url": "https://www.genengnews.com/topics/omics/ashg-president-susan-slaugenhaupt-calls-for-hope-leadership-and-communication-in-science/",
+      "summary": "ASHG President Susan Slaugenhaupt, PhD, opened the society’s Montreal meeting with a heartfelt address emphasizing hope, leadership, and the importance of communication amid the challenges facing science today. The post …",
+      "ts": 1792687385000,
+      "publishedAt": "2026-10-22T16:43:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses ",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+      "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
+      "ts": 1792686037000,
+      "publishedAt": "2026-10-22T16:20:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Will the Treasury restrict U.S. investment in the Chinese biotech sector?",
+      "url": "https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/?utm_campaign=rss",
+      "summary": "Rumors are swirling that the Treasury Department this week is going to propose a rule that restricts U.S. investment in the Chinese biotech sector.",
+      "ts": 1792685823000,
+      "publishedAt": "2026-10-22T16:17:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Crackdowns loom, from China to New York",
+      "url": "https://www.statnews.com/2026/10/22/china-biotech-coins-act-rule-health-insurance-costs-rise/?utm_campaign=rss",
+      "summary": "Speaking on the economy, the vice president told a crowd in Ohio that, “You don’t turn the Titanic around overnight.” Send news tips and bad metaphors to John.Wilkerson@statnews.com or John_Wilkerson.07…",
+      "ts": 1792681588000,
+      "publishedAt": "2026-10-22T15:06:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-buil…",
+      "ts": 1792681202000,
+      "publishedAt": "2026-10-22T15:00:02.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "350th ESA Council: Media information session",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/350th_ESA_Council_Media_information_session",
+      "summary": "Video: 01:45:34 Watch the replay of the media information session where ESA Director General Josef Aschbacher and ESA Council Chair at delegate level Juan Carlos Cortés outline the key decisions and main outcomes of the …",
+      "ts": 1792677600000,
+      "publishedAt": "2026-10-22T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a U.S. rule on Chinese deals, Belgium refusing Mounjaro coverage, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss",
+      "summary": "U.S. is poised to issue a proposed rule that would subject outbound licensing deals with Chinese biotech companies to additional scrutiny",
+      "ts": 1792676566000,
+      "publishedAt": "2026-10-22T13:42:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What to expect from the Moderna-Merck cancer vaccine data reveal",
+      "url": "https://www.statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal/?utm_campaign=rss",
+      "summary": "The Moderna-Merck cancer vaccine data reveal is days away. Here's what to expect.",
+      "ts": 1792676120000,
+      "publishedAt": "2026-10-22T13:35:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA finalizes its guidance on apps related to drugs, pharma rejoices",
       "url": "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss",
       "summary": "In this edition of STAT Health Tech: FDA's guidance on prescription drug use-related software, and telehealth pushing GLP-1s for addiction.",
       "ts": 1792675049000,
@@ -28,6 +154,15 @@
       "ts": 1792671732000,
       "publishedAt": "2026-10-22T12:22:12.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Mission Finds Kenya Committed to Safe Management of Radioactive Waste as it Develops a Nuclear Power Programme",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-finds-kenya-committed-to-safe-management-of-radioactive-waste-as-it-develops-a-nuclear-power-programme",
+      "summary": "",
+      "ts": 1792671497000,
+      "publishedAt": "2026-10-22T12:18:17.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -127,6 +262,15 @@
       "ts": 1792656000000,
       "publishedAt": "2026-10-22T08:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Bridging Research and Industry to Advance Actinium-225 Cancer Therapies",
+      "url": "http://www.iaea.org/newscenter/news/bridging-research-and-industry-to-advance-actinium-225-cancer-therapies",
+      "summary": "Developing innovative cancer therapies requires more than scientific advancement.",
+      "ts": 1792653715000,
+      "publishedAt": "2026-10-22T07:21:55.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "OpenAI",
@@ -489,6 +633,15 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "ts": 1792627200000,
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Nature Energy",
       "title": "Heatwave-induced capacity bottlenecks in European electricity grids",
       "url": "https://www.nature.com/articles/s41560-026-02151-1",
@@ -658,159 +811,6 @@
       "ts": 1792596389000,
       "publishedAt": "2026-10-21T15:26:29.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Science on the Space Station with NASA Astronaut Jessica Watkins",
-      "url": "https://www.nasa.gov/image-article/science-on-the-space-station-with-nasa-astronaut-jessica-watkins/",
-      "summary": "NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module’s Life Science Glovebox on Oct. 9, 2026, safely mixing living cell samples with a bioink and then filling a special…",
-      "ts": 1792595108000,
-      "publishedAt": "2026-10-21T15:05:08.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
-      "url": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
-      "summary": "Paris, France | October 2026 – Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace’s Satellite Connectivity […] The post Global Satcom Ser…",
-      "ts": 1792594822000,
-      "publishedAt": "2026-10-21T15:00:22.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
-      "url": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
-      "summary": "LOS ALAMOS, N.M. — October 21, 2026 — Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction […] The post Spac…",
-      "ts": 1792592997000,
-      "publishedAt": "2026-10-21T14:29:57.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: GSK picks up hep B drug approval",
-      "url": "https://www.statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval/?utm_campaign=rss",
-      "summary": "GSK has won FDA approval for its hepatitis B drug, which extended functional cures to far more patients than previous methods.",
-      "ts": 1792592685000,
-      "publishedAt": "2026-10-21T14:24:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Organoid Odyssey: A Glimpse Into the Past, Present, and Future of hPSC-Derived 3D Models",
-      "url": "https://www.genengnews.com/multimedia/webinars/the-organoid-odyssey-a-glimpse-into-the-past-present-and-future-of-hpsc-derived-3d-models/",
-      "summary": "In this GEN webinar, our expert speaker, Arati Naveen, PhD, will trace the foundational discoveries that shaped organoid technology as a new approach methodology (NAM), while highlighting pioneering contributions and con…",
-      "ts": 1792592378000,
-      "publishedAt": "2026-10-21T14:19:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Mark Cuban eyeing rare disease drugs, a ketamine gold rush, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss",
-      "summary": "Mark Cuban has a new vision for his company Cost Plus Drugs: shake up the business of custom-made rare disease medicines",
-      "ts": 1792589187000,
-      "publishedAt": "2026-10-21T13:26:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "ts": 1792587600000,
-      "publishedAt": "2026-10-21T13:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Advisory Mission Helps Georgia Strengthen Management of Disused Radioactive Sources",
-      "url": "http://www.iaea.org/newscenter/news/iaea-advisory-mission-helps-georgia-strengthen-management-of-disused-radioactive-sources",
-      "summary": "The first official mission conducted through the IAEA’s new Radioactive Waste Management Advisory Service (RAD-WISE) has helped Georgia assess and strengthen its management of disuse",
-      "ts": 1792585080000,
-      "publishedAt": "2026-10-21T12:18:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-      "summary": "From orbit, today’s space-based laser instruments measure Earth’s forests and terrain one narrow line at a time. Between those lines are enormous gaps that include millions of acres of land scientists never directly meas…",
-      "ts": 1792585078000,
-      "publishedAt": "2026-10-21T12:17:58.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: introducing the Impossible issue",
-      "url": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to incl…",
-      "ts": 1792584600000,
-      "publishedAt": "2026-10-21T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roivant says closely watched immune drug succeeded in new eye disease",
-      "url": "https://www.statnews.com/2026/10/21/roivant-immune-drug-lisraya-noninfectious-uveitis-trial-results/?utm_campaign=rss",
-      "summary": "An immune drug from Roivant could be headed to a new market, after the company reported positive trials in the eye disease non-infectious uveitis.",
-      "ts": 1792584354000,
-      "publishedAt": "2026-10-21T12:05:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Solstar provides Wi-Fi connectivity for NASA proximity operations demonstration",
-      "url": "https://spacenews.com/solstar-provides-wi-fi-connectivity-for-nasa-proximity-operations-demonstration/",
-      "summary": "SAN FRANCISCO – Wi-Fi technology from Solstar Space connected NASA’s R5-S10 cubesat with Momentus’ Vigoride-7 orbital service vehicle during proximity operations and relayed data to NASA’s Johnson Space Center, Solstar […",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Fate unknown of many returned to DPR Korea from China: UN independent experts",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168645",
-      "summary": "Three years on from the reported resumption of large-scale forcible returns of nationals of the Democratic People’s Republic of Korea (DPRK) from China, serious concerns persist about their fate, according to a group of …",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Ominous start’ to West Bank olive harvest amid settler attacks",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168644",
-      "summary": "The use of live ammunition, arson and the destruction of centuries-old olive trees have marked the opening weeks of this year’s harvest in the occupied West Bank.",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Aid for Ethiopia, Abyei drone strikes condemned, extreme heat and newborn health",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168643",
-      "summary": "The World Health Organization (WHO) is scaling up emergency health response operations across Afar, Amhara and Tigray in Ethiopia to address growing humanitarian and health needs resulting from ongoing hostilities.",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Migrants paid up to $500 million in smuggling fees on European sea routes",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168642",
-      "summary": "The price tag for smuggling on European sea routes reached up to half a billion dollars last year, the UN Office on Drugs and Crime (UNODC) and the UN migration office, IOM, reported on Wednesday.",
-      "ts": 1792584000000,
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
