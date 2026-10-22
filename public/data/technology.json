@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-21T22:12:24.446Z",
+  "updated": "2026-10-22T01:20:18.837Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Faster to Science: A Letter to the Science Community",
+      "url": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
+      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall.",
+      "ts": 1792627216000,
+      "publishedAt": "2026-10-22T00:00:16.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: CMS extends fraud crackdown to New York’s adult day care program",
@@ -799,15 +808,6 @@
       "title": "PACE: Geometry-Aware Bridge Transport for Single-Cell Trajectory Inference",
       "url": "https://arxiv.org/abs/2605.18587",
       "summary": "arXiv:2605.18587v4 Announce Type: replace Abstract: Single-cell trajectory inference from destructive time-course snapshots is fundamentally ill-posed: neither cross-time cell correspondences nor continuous trajectories …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DRIADA: an open-source Python toolkit for linking single-neuron selectivity and population activity to behavior",
-      "url": "https://arxiv.org/abs/2607.00851",
-      "summary": "arXiv:2607.00851v2 Announce Type: replace Abstract: Understanding how individual neurons contribute to population activity during behavior is central to understanding brain functions across biological scales. We develope…",
       "ts": 1792555200000,
       "publishedAt": "2026-10-21T04:00:00.000Z",
       "categoryId": "bio"

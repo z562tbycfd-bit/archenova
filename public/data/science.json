@@ -1,7 +1,135 @@
 {
   "ok": true,
-  "updated": "2026-10-21T22:12:19.407Z",
+  "updated": "2026-10-22T01:20:15.775Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Student motivation and responsibility shown to be key to tackling bullying in physical education",
+      "url": "https://phys.org/news/2026-10-student-responsibility-shown-key-tackling.html",
+      "summary": "Physical education has traditionally been one of the most eagerly awaited classes of the school day, since it lets students get out of the classroom, move around and interact with their classmates in a different way—cond…",
+      "ts": 1792632001000,
+      "publishedAt": "2026-10-22T01:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Private business fortunes reveal overlooked source of wealth and inequality in America",
+      "url": "https://phys.org/news/2026-10-private-business-fortunes-reveal-overlooked.html",
+      "summary": "A majority of Americans blame billionaires for the nation's ever-growing income and wealth divide. But economists Eric Zwick and Owen Zidar say there's a much larger but little-known cadre of very rich folks who may be e…",
+      "ts": 1792630801000,
+      "publishedAt": "2026-10-22T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Virus that sickens cows, kills deer still rare in New York state—for now",
+      "url": "https://phys.org/news/2026-10-virus-sickens-cows-deer-rare.html",
+      "summary": "An insect-driven disease that causes high mortality in white-tailed deer and mimics the symptoms of foot-and-mouth disease in cattle is still rare in New York state, but the warming climate may increase its future spread…",
+      "ts": 1792629601000,
+      "publishedAt": "2026-10-22T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Four questions about schoolwork feedback to guide young students' learning",
+      "url": "https://phys.org/news/2026-10-schoolwork-feedback-young-students.html",
+      "summary": "What happens when a young student gets a low math score? A parent may say, \"Math has never been your strength.\" A teacher might write \"careless\" beside a calculation.",
+      "ts": 1792628408000,
+      "publishedAt": "2026-10-22T00:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Africans reuse, repair, recycle and resell waste: What's needed to build on the circular economy basics",
+      "url": "https://phys.org/news/2026-10-africans-reuse-recycle-resell-circular.html",
+      "summary": "In many African cities, a broken fridge is rarely thrown away immediately. It may be repaired and resold, dismantled for spare parts or collected for its metal components.",
+      "ts": 1792627201000,
+      "publishedAt": "2026-10-22T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI listens to bee buzzes to monitor activity without lethal traps",
+      "url": "https://phys.org/news/2026-10-ai-bee-lethal.html",
+      "summary": "Populations of many pollinators, including bumblebees, have been crashing over the last few decades, thanks to the widespread use of chemical pesticides, loss of habitat and the acceleration of climate change. But it can…",
+      "ts": 1792626005000,
+      "publishedAt": "2026-10-21T23:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Venomous primate thought lost to science for nearly a century turns up in gardens and on roads across Indonesia",
+      "url": "https://phys.org/news/2026-10-venomous-primate-thought-lost-science.html",
+      "summary": "A big-eyed, venomous primate that had not been documented in scientific literature since the 1930s has been hiding in plain sight on the Indonesian island of Bangka, turning up in backyards, along roadsides and on power …",
+      "ts": 1792626001000,
+      "publishedAt": "2026-10-21T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Holding out or holding back? Kindergarten redshirting and retention shifted sharply during the pandemic",
+      "url": "https://phys.org/news/2026-10-kindergarten-redshirting-retention-shifted-sharply.html",
+      "summary": "By the time a child reaches the age of 4 or 5, most parents and caregivers have heard about \"kindergarten readiness.\" But what if a 5-year-old still struggles to count to 10, sing the alphabet song or play cooperatively …",
+      "ts": 1792624803000,
+      "publishedAt": "2026-10-21T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New optogenetic tool inhibits activity in neurons and heart muscle cells",
+      "url": "https://phys.org/news/2026-10-optogenetic-tool-inhibits-neurons-heart.html",
+      "summary": "Researchers from Ruhr University Bochum have partnered with colleagues in Göttingen, Berlin, Paris and Essen to develop new optogenetic tools that can selectively inhibit cellular activity through light. These tools coul…",
+      "ts": 1792624801000,
+      "publishedAt": "2026-10-21T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "U.K. exam board science specifications reveal gender gap that may influence girls' STEM choices",
+      "url": "https://phys.org/news/2026-10-uk-exam-board-science-specifications.html",
+      "summary": "An absence of women scientists in U.K. exam board specifications for science could be a factor in the disproportionate number of girls dropping STEM subjects at 16 and contribute to the gender gap in STEM careers, new re…",
+      "ts": 1792624202000,
+      "publishedAt": "2026-10-21T23:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Candida auris: A harbinger of further dangerous fungal species?",
+      "url": "https://phys.org/news/2026-10-candida-auris-harbinger-dangerous-fungal.html",
+      "summary": "Why has the yeast Candida auris become a dangerous pathogen worldwide in just a few years? This question is on the minds of many researchers. Carla Schuh and Chaitanya Gokhale from the Biocentre at the University of Würz…",
+      "ts": 1792623601000,
+      "publishedAt": "2026-10-21T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sweeping changes to agri-food supply chain needed to tackle global food shortages",
+      "url": "https://phys.org/news/2026-10-agri-food-chain-tackle-global.html",
+      "summary": "Systemic changes are needed across the entire agri-food supply chain to address the global impact of conflict and climate change on food shortages, writes an expert in The BMJ's climate issue.",
+      "ts": 1792621809000,
+      "publishedAt": "2026-10-21T22:30:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Data vital in holding militaries accountable for the environmental toll of war",
+      "url": "https://phys.org/news/2026-10-vital-militaries-accountable-environmental-toll.html",
+      "summary": "Ahead of the U.N. Climate Change Conference (COP31) meeting in Antalya, Turkiye, held in Nov. 2026, an expert writing in The BMJ's climate issue argues that accurate data on greenhouse gas emissions during armed conflict…",
+      "ts": 1792621806000,
+      "publishedAt": "2026-10-21T22:30:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rising military spending could worsen climate change and undermine security, experts warn",
+      "url": "https://phys.org/news/2026-10-military-worsen-climate-undermine-experts.html",
+      "summary": "Investing more in the military is not a solution to climate change and may cost us our security, warn experts in The BMJ's climate issue. In the first article, Neta Crawford at the University of St Andrews says the view …",
+      "ts": 1792621801000,
+      "publishedAt": "2026-10-21T22:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser-made lattice reveals discrete light solitons in tunable atomic vapor",
+      "url": "https://phys.org/news/2026-10-laser-lattice-reveals-discrete-solitons.html",
+      "summary": "Scientists from the Quantum Technologies Group at the Institute of Physics Zagreb, in collaboration with a colleague from the Physics Department at the Faculty of Science (PMF), have experimentally demonstrated for the f…",
+      "ts": 1792621207000,
+      "publishedAt": "2026-10-21T22:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How rice coordinates signals to partner with beneficial soil fungi",
+      "url": "https://phys.org/news/2026-10-rice-partner-beneficial-soil-fungi.html",
+      "summary": "Most plants do not gather nutrients from the soil entirely on their own. Many form partnerships with microscopic fungi that grow inside their roots and extend into the surrounding soil. These partnerships, known as arbus…",
+      "ts": 1792621201000,
+      "publishedAt": "2026-10-21T22:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Study finds air quality warnings had only a modest impact on Montrealers' movements during wildfires",
@@ -588,9 +716,25 @@
     },
     {
       "source": "APS PR Applied",
+      "title": "Oscillator-based computer as a physical unclonable function",
+      "url": "http://link.aps.org/doi/10.1103/4q4x-k35d",
+      "summary": "Author(s): Edmon Perkins The adaptive oscillator itself is capable of a type innate neuromorphic processing, as it can dynamically learn and store information about an external signal. When used as a physical reservoir c…",
+      "ts": 1792576800000,
+      "publishedAt": "2026-10-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
       "title": "Broadband sound manipulation via monopole-dipole degeneracy in ventilated metamaterials",
       "url": "http://link.aps.org/doi/10.1103/w6p4-ylqz",
       "summary": "Author(s): Caixing Fu, Jingbo Wang, Shuyu Chen, Jiahe Chen, J. Michael Kosterlitz, Min Yang, and Zhi Hong Hang Achieving broadband sound manipulation within deep-subwavelength, ventilated structures remains a fundamental…",
+      "ts": 1792576800000,
+      "publishedAt": "2026-10-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Strain-transfer mechanisms and voltage generation in scaled composite magnetoelectric devices",
+      "url": "http://link.aps.org/doi/10.1103/hygl-rxbr",
+      "summary": "Author(s): Emma Van Meirvenne, Aude Brinkmann-Hornbogen, Bart Sorée, Christoph Adelmann, and Florin Ciubotaru We investigate the differential voltage generation originating from the direct magnetoelectric effect in nanos…",
       "ts": 1792576800000,
       "publishedAt": "2026-10-21T10:00:00.000Z"
     },
@@ -657,150 +801,6 @@
       "summary": "Research in New Phytologist reveals a gene that regulates tea plants' flavor and cold tolerance, providing insights on how to expand the potential for better-tasting tea to be grown in a wider variety of locations.",
       "ts": 1792566615000,
       "publishedAt": "2026-10-21T07:10:15.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "U.S. antipoverty tax credit expansion may have unintended costs for children's development",
-      "url": "https://phys.org/news/2026-10-antipoverty-tax-credit-expansion-unintended.html",
-      "summary": "As part of U.S. welfare reforms in the 1990s to provide adequate financial support to low-income families while avoiding disincentivizing work, policymakers expanded the Earned Income Tax Credit (EITC). This change encou…",
-      "ts": 1792566607000,
-      "publishedAt": "2026-10-21T07:10:07.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Limits of a Space-Time Description and the Physical Meaning of Phase Space in a Nonlocal Continuum",
-      "url": "https://arxiv.org/abs/2610.26876",
-      "summary": "arXiv:2610.26876v1 Announce Type: new Abstract: In a previous paper we derived an uncertainty relation for nonlocal fields by showing that the physical localization width in nonlocal quantum field theory is broadened by …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting self-interacting dark matter with DESI DR2 baryon acoustic oscillation observations",
-      "url": "https://arxiv.org/abs/2610.26877",
-      "summary": "arXiv:2610.26877v1 Announce Type: new Abstract: We revisit self-interacting dark matter (SIDM), originally proposed to resolve small-scale CDM problems and drive late-time cosmic acceleration. Using latest DESI BAO, Pant…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards a General Theory of GPS Inter-Satellite Communications Between Moving Satellites on Arbitrary Space Trajectories, Accounting for General Relativity Effects",
-      "url": "https://arxiv.org/abs/2610.26879",
-      "summary": "arXiv:2610.26879v1 Announce Type: new Abstract: In previous publications it has been shown that it is possible to calculate (in terms of zero and higher order elliptic integrals) the propagation time of a signal, emitted…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Machine Learning Approach to Finslerian Cosmological Dark Energy Model",
-      "url": "https://arxiv.org/abs/2610.26882",
-      "summary": "arXiv:2610.26882v1 Announce Type: new Abstract: Modified extensions of the standard cosmological models often introduce complex parameter degeneracies that severely impact sampling convergence of the parameter space whil…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Is the Kaniadakis deformation of holographic dark energy detectable? A non-flat analysis with DESI DR2, cosmic chronometers and Pantheon+SH0ES",
-      "url": "https://arxiv.org/abs/2610.26883",
-      "summary": "arXiv:2610.26883v1 Announce Type: new Abstract: Kaniadakis entropy deforms the horizon entropy through a single parameter $K$, and the holographic dark energy built on it (KHDE) reduces to the standard model as $K\\to0$. …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Commutative Coarse-graining on the Sphere",
-      "url": "https://arxiv.org/abs/2610.26896",
-      "summary": "arXiv:2610.26896v1 Announce Type: new Abstract: Filtering by spatial convolution underlies coarse-graining and Large Eddy Simulation, the analysis of multiscale dynamics, and data processing across the sciences. Yet, as …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry and Quantum Interference in the Attosecond Domain",
-      "url": "https://arxiv.org/abs/2610.26901",
-      "summary": "arXiv:2610.26901v1 Announce Type: new Abstract: In this review, we examine the interplay of symmetry and quantum interference in the attosecond domain primarily through one- and two-electron photoelectron momentum distri…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhancing analytical photon transport in turbid media through physics-guided neural network corrections",
-      "url": "https://arxiv.org/abs/2610.26917",
-      "summary": "arXiv:2610.26917v1 Announce Type: new Abstract: Analytical methods provide rapid and computationally efficient predictions of light transport in turbid media, making them attractive for real-time and inverse applications…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Matrix-Free Resolvent Analysis for Large-Scale Aerodynamic Systems",
-      "url": "https://arxiv.org/abs/2610.26931",
-      "summary": "arXiv:2610.26931v1 Announce Type: new Abstract: At industrial scale the cost of resolvent analysis is set by the linear solves and the assembly and storage of the Jacobian. We present a matrix-free resolvent framework in…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase-dependent THz yield in two-color laser plasmas: nonlinear propagation and Coulomb-modified recollision",
-      "url": "https://arxiv.org/abs/2610.26939",
-      "summary": "arXiv:2610.26939v1 Announce Type: new Abstract: Two-color laser-induced plasmas provide a reliable source of broadband terahertz (THz) radiation and offer several control parameters for optimizing THz yields. We investig…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gerchberg-Saxton Optimized Silicon Metasurface for Sinusoidal Structured-Light Three-Dimensional Imaging",
-      "url": "https://arxiv.org/abs/2610.26956",
-      "summary": "arXiv:2610.26956v1 Announce Type: new Abstract: Three-dimensional (3D) optical imaging based on structured illumination has attracted considerable attention in applications including machine vision, robotics, and computa…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FoundPDE: A generative foundation model for data-driven symbolic discovery of partial differential equations",
-      "url": "https://arxiv.org/abs/2610.26963",
-      "summary": "arXiv:2610.26963v1 Announce Type: new Abstract: Discovering governing partial differential equations (PDEs) from observed data is a central inverse problem in computational science and engineering: the goal is not only t…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Punctuated Equilibrium in Technological Capabilities: Commercial Selection and the Predictability of Frontier Advances",
-      "url": "https://arxiv.org/abs/2610.26971",
-      "summary": "arXiv:2610.26971v1 Announce Type: new Abstract: Evolutionary accounts of technological change connect new technical opportunities with economic selection. Using approximately 1.74 million electronic-component product rec…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anchored Exploration in Product Evolution: A Phylogenetic Network Framework for Semiconductor Designs",
-      "url": "https://arxiv.org/abs/2610.26973",
-      "summary": "arXiv:2610.26973v1 Announce Type: new Abstract: We develop a product phylogenetic network framework for examining anchored exploration. Using 102,465 semiconductor products grouped into 45,996 design families, we disting…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Load-Balanced Neural-Network-Aided Adaptive Tabulation of Phase Equilibria for Transcritical Multiphase Flows",
-      "url": "https://arxiv.org/abs/2610.26984",
-      "summary": "arXiv:2610.26984v1 Announce Type: new Abstract: Simulating high-pressure transcritical flows with phase change is critical for advanced propulsion, yet traditional first-principles approaches, vapor-liquid equilibrium (V…",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shaping the spectra of second harmonic laser by spatial focusing",
-      "url": "https://arxiv.org/abs/2610.27011",
-      "summary": "arXiv:2610.27011v1 Announce Type: new Abstract: Accurately controlling the spectral width of second harmonic generation (SHG) is critical in applications such as nonlinear microscopy, ultrafast spectroscopy, and quantum …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Geometric Principle for Path Selection in Directed Acyclic Graphs",
-      "url": "https://arxiv.org/abs/2610.27025",
-      "summary": "arXiv:2610.27025v1 Announce Type: new Abstract: There are many types of path between nodes of a Directed acyclic graph (DAG), including the shortest and longest paths. Here, we ask whether the choice of path used in any …",
-      "ts": 1792555200000,
-      "publishedAt": "2026-10-21T04:00:00.000Z"
     }
   ],
   "sources": [
