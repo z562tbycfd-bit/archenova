@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-10-22T18:24:07.013Z",
+  "updated": "2026-10-22T22:11:25.721Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on…",
+      "ts": 1792705198000,
+      "publishedAt": "2026-10-22T21:39:58.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Spiral’s Edge",
+      "url": "https://www.nasa.gov/image-article/spirals-edge/",
+      "summary": "This NASA Hubble Space Telescope image released on Oct. 16, 2026, features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. Hubble capt…",
+      "ts": 1792704938000,
+      "publishedAt": "2026-10-22T21:35:38.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has center…",
+      "ts": 1792703849000,
+      "publishedAt": "2026-10-22T21:17:29.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial",
+      "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss",
+      "summary": "A Moderna and Merck personalized mRNA cancer vaccine reduced the risk of disease recurrence in patients with melanoma by 42% compared to standard treatment.",
+      "ts": 1792695811000,
+      "publishedAt": "2026-10-22T19:03:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "ts": 1792695600000,
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores …",
+      "ts": 1792694884000,
+      "publishedAt": "2026-10-22T18:48:04.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "EQT to Acquire Qiagen for $12.1B, Plans to Take Tools, Diagnostics Provider Private",
+      "url": "https://www.genengnews.com/topics/bioprocessing/eqt-to-acquire-qiagen-for-12-1b-plans-to-take-tools-diagnostics-provider-private/",
+      "summary": "EQT has €354 billion in assets under management and a three-decade track record of acquiring, developing, and sometimes selling companies that include life sciences tools/tech concerns. The post EQT to Acquire Qiagen for…",
+      "ts": 1792694019000,
+      "publishedAt": "2026-10-22T18:33:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Proteins Circulating in Blood Linked to Future Risk of Prostate Cancer",
+      "url": "https://www.genengnews.com/topics/cancer/proteins-circulating-in-blood-linked-to-future-risk-of-prostate-cancer/",
+      "summary": "The results of a large prospective proteomic study have associated proteins linked with the immune system, cell adhesion, blood vessel formation, and known prostate cancer genes, to future risk of developing prostate can…",
+      "ts": 1792693369000,
+      "publishedAt": "2026-10-22T18:22:49.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations ",
@@ -22,7 +94,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Nutrition experts press White House to release ultra-processed food definition ",
+      "title": "STAT+: Nutrition experts press White House to release ultra-processed food definition",
       "url": "https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss",
       "summary": "MAHA allies and nutrition experts want the Trump administration to act on ultra-processed foods before the elections.",
       "ts": 1792692287000,
@@ -172,6 +244,24 @@
       "ts": 1792671000000,
       "publishedAt": "2026-10-22T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo: Ebola responders under pressure as outbreak expands",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
+      "summary": "As the deadly Ebola disease outbreak reached an eighth province of the Democratic Republic of the Congo (DRC), investigators pursued all leads on Thursday to assess the risk of the disease spreading in Nigeria.",
+      "ts": 1792670400000,
+      "publishedAt": "2026-10-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Connect the dots’ between street protests and global turmoil, urges Guterres",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168646",
+      "summary": "The international community must combat inequality and stop wars from expanding to ensure a safer world for all, the UN Secretary-General said on Thursday.",
+      "ts": 1792670400000,
+      "publishedAt": "2026-10-22T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "MIT Technology Review",
@@ -721,96 +811,6 @@
       "ts": 1792606458000,
       "publishedAt": "2026-10-21T18:14:18.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bridging the Translational Gap in Pancreatic Cancer Through Biology-First Modeling",
-      "url": "https://www.genengnews.com/multimedia/webinars/bridging-the-translational-gap-in-pancreatic-cancer-through-biology-first-modeling/",
-      "summary": "In this GEN webinar, our expert speaker Josh Wheeler, MD, PhD, will discuss a biology-first, interpretable AI approach to understand patient tumor states and next-generation preclinical models that reproduce their biolog…",
-      "ts": 1792605635000,
-      "publishedAt": "2026-10-21T18:00:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What’s the deal with Isomorphic Labs?",
-      "url": "https://www.statnews.com/2026/10/21/whats-the-deal-with-isomorphic-labs-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AI Prognosis: What does Isomorphic Labs' high valuation say about AI's role in drug development, and the debate around AI and cost of care.",
-      "ts": 1792604971000,
-      "publishedAt": "2026-10-21T17:49:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "ts": 1792602000000,
-      "publishedAt": "2026-10-21T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Conduct NCAA Flyover, Engage Fans at University of Alabama",
-      "url": "https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama/",
-      "summary": "As part of the agency’s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&M football game in Tuscaloosa, Alabama, on Saturday, Oct. 24. NASA Administrator Jared Isaacman will pilot on…",
-      "ts": 1792600271000,
-      "publishedAt": "2026-10-21T16:31:11.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Researchers Validate Buoyant Mass for Cell Health Testing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/researchers-validate-buoyant-mass-for-cell-health-testing/",
-      "summary": "Scientists have used measurement of buoyant mass by suspended microchannel resonator (SMR) technology to assess the immune fitness of T cells and predict patient response to immune checkpoint blockade (ICB). The post Res…",
-      "ts": 1792598454000,
-      "publishedAt": "2026-10-21T16:00:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "iPSC Manufacturing Starts with the Source",
-      "url": "https://www.genengnews.com/topics/bioprocessing/ipsc-manufacturing-starts-with-the-source/",
-      "summary": "For iPSC developers, scalable manufacturing begins long before the bioreactor. Pluristyx leaders explain why starting material, process discipline, automation, and shared data will help therapies reach patients reliably …",
-      "ts": 1792598436000,
-      "publishedAt": "2026-10-21T16:00:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Raman+NIR Spectra Improves Glucose Soft Sensing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/ramannir-spectra-improves-glucose-soft-sensing/",
-      "summary": "Combining Raman and NIR spectroscopy into a single framework creates a multi-modal soft-sensing option that is effective for fed-batch, online, and in-line glucose sensing, preparing the way for hybrid/continuous process…",
-      "ts": 1792598413000,
-      "publishedAt": "2026-10-21T16:00:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Patients Should Be Considered When Choosing a Vector Production Method",
-      "url": "https://www.genengnews.com/topics/bioprocessing/patients-should-be-considered-when-choosing-a-vector-production-method/",
-      "summary": "Vector production costs have a disproportionate influence on gene therapy prices, according to researchers who say that, given this, choosing the vector manufacturing method that best suits the intended use of the produc…",
-      "ts": 1792598400000,
-      "publishedAt": "2026-10-21T16:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Tracks Along the Longest Drive on Another World",
-      "url": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
-      "summary": "Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA’s Jet Propulsion Laboratory Oct. 12, 2026 Since the last blog update, Perseverance has achieved a major milestone on Mars. On Sol 2006 (Oct. 11, 2026)…",
-      "ts": 1792597844000,
-      "publishedAt": "2026-10-21T15:50:44.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "TechnoMile Recognized as a 2026 Inc. Power Partner Award Winner",
-      "url": "https://spacenews.com/technomile-recognized-as-a-2026-inc-power-partner-award-winner/",
-      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, has been named a 2026 Inc. Power Partner Awards winner, recognizing the company among the leading B2B […] The post T…",
-      "ts": 1792596389000,
-      "publishedAt": "2026-10-21T15:26:29.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
