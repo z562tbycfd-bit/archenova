@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-10-23T07:08:40.933Z",
+  "updated": "2026-10-23T13:11:17.236Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Excavation reveals history of Portuguese village shelled after sheltering Spanish refugees",
+      "url": "https://phys.org/news/2026-10-excavation-reveals-history-portuguese-village.html",
+      "summary": "Led by Dr. Rui Gomes Coelho, assistant professor of historical archaeology, the research reveals ordinary people's attitudes toward hospitality and solidarity in 20th-century Europe.",
+      "ts": 1792761001000,
+      "publishedAt": "2026-10-23T13:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "East Asia's summer rain belt has shifted north over decades, reshaping rain and heat risks",
+      "url": "https://phys.org/news/2026-10-east-asia-summer-belt-shifted.html",
+      "summary": "A joint research team from KAIST and the APEC Climate Center has found that the East Asian summer front has migrated north over the past half century, with the shift exceeding 200 km (124 miles) in late summer. This rais…",
+      "ts": 1792760406000,
+      "publishedAt": "2026-10-23T13:00:06.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Electric stoves could help people with asthma breathe easier",
+      "url": "https://www.sciencenews.org/article/asthma-symptoms-electric-stove-gas",
+      "summary": "Switching to an electric stove from a lung-irritating gas one may improve asthma symptoms. But if you’re stuck with gas, reducing exposure may help.",
+      "ts": 1792760400000,
+      "publishedAt": "2026-10-23T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Time to tap into agriculture's hidden genetic potential",
+      "url": "https://phys.org/news/2026-10-agriculture-hidden-genetic-potential.html",
+      "summary": "Modern agriculture's selective breeding of crops for particular requirements may now be a roadblock to further gains, prompting a trio of senior University of Queensland plant scientists to call for a new way forward.",
+      "ts": 1792759802000,
+      "publishedAt": "2026-10-23T12:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experiment shows when quantum 'cat' states stop bouncing back",
+      "url": "https://phys.org/news/2026-10-quantum-cat-states.html",
+      "summary": "Quantum systems can occupy superpositions, quantum states that combine different possibilities. For instance, a microwave field can be prepared in a superposition of an empty state and a state that contains microwave lig…",
+      "ts": 1792759202000,
+      "publishedAt": "2026-10-23T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds lower rates of overweight among vegan-fed cats",
+      "url": "https://phys.org/news/2026-10-overweight-vegan-fed-cats.html",
+      "summary": "A large-scale survey has found cats fed vegan diets had lower rates of obesity and related health problems than those fed conventional meat-based diets.",
+      "ts": 1792758602000,
+      "publishedAt": "2026-10-23T12:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The world's most expensive spice could provide a lifeline to Colorado farmers",
+      "url": "https://phys.org/news/2026-10-world-expensive-spice-lifeline-colorado.html",
+      "summary": "Alexander the Great, king of the ancient Greek kingdom of Macedon, reportedly bathed in saffron to heal his battle wounds. Doctors once prescribed this rare plant as a treatment for the bubonic plague. Cleopatra even use…",
+      "ts": 1792757401000,
+      "publishedAt": "2026-10-23T12:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hide-and-seek for treats offers a new window into cognitive decline in dogs",
+      "url": "https://phys.org/news/2026-10-window-cognitive-decline-dogs.html",
+      "summary": "It is tough to watch a dog deal with issues associated with aging. A senior dog that gets lost at home or starts showing more anxiety may be exhibiting signs of dementia. But by the time these signs show up, the decline …",
+      "ts": 1792755601000,
+      "publishedAt": "2026-10-23T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study highlights gender gap in AI media coverage in Spain",
+      "url": "https://phys.org/news/2026-10-highlights-gender-gap-ai-media.html",
+      "summary": "A media \"glass ceiling\" exists in news stories on artificial intelligence (AI) published in Spanish media in recent years: men are the main subjects in 41% of news reports, compared to just 5% featuring women. This is on…",
+      "ts": 1792754411000,
+      "publishedAt": "2026-10-23T11:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI agents can form political camps—and changing their conversation partners does little to soften their views",
+      "url": "https://phys.org/news/2026-10-ai-agents-political-conversation-partners.html",
+      "summary": "Give AI agents political positions, ask them to defend their views and persuade one another, and let them decide which contacts to keep. This recent experiment, published in Nature Communications, found that over repeate…",
+      "ts": 1792754406000,
+      "publishedAt": "2026-10-23T11:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What is red crown rot? Expert explains emerging soybean pathogen",
+      "url": "https://phys.org/news/2026-10-red-crown-expert-emerging-soybean.html",
+      "summary": "Red crown rot, a fungal disease of soybean, is not new to the Midwest. First reported in Illinois in 2018, the disease is now surging across the state and the region. Boris Camiletti, a plant pathologist at the Universit…",
+      "ts": 1792753804000,
+      "publishedAt": "2026-10-23T11:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Just 3% of the world's glaciers account for over half of glacier ice loss",
+      "url": "https://phys.org/news/2026-10-world-glaciers-account-glacier-ice.html",
+      "summary": "Glaciers ending in lakes, oceans or ice shelves make up 3.2% of the world's glaciers, but lost 134 billion metric tons (148 billion tons) of ice each year between 2000 and 2019, accounting for more than half of all glaci…",
+      "ts": 1792746001000,
+      "publishedAt": "2026-10-23T09:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Taiwan shuts down as Typhoon Champi approaches",
+      "url": "https://phys.org/news/2026-10-taiwan-typhoon-champi-approaches.html",
+      "summary": "Most shops and schools were shut across Taiwan on Friday as Typhoon Champi neared the island, forcing hundreds of people to leave their homes ahead of the powerful storm.",
+      "ts": 1792744201000,
+      "publishedAt": "2026-10-23T08:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's killer heat this summer claims 50,000 lives. Climate change blamed for two-thirds of deaths",
+      "url": "https://phys.org/news/2026-10-europe-killer-summer-climate-blamed.html",
+      "summary": "Blistering record heat in Europe this summer helped kill more than 50,000 people, with nearly two-thirds of that death toll blamed on human-caused climate change, a new study found.",
+      "ts": 1792743601000,
+      "publishedAt": "2026-10-23T08:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-based method enables precise control of ultrafast electron flow in a scanning tunneling microscope",
+      "url": "https://phys.org/news/2026-10-based-method-enables-precise-ultrafast.html",
+      "summary": "What would it take to watch an electron move through a material? Researchers would need to see individual atoms and capture an electron's motion at incredibly short timescales. A Technion-led team has brought those two c…",
+      "ts": 1792743001000,
+      "publishedAt": "2026-10-23T08:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Costly dead-tissue disorder in apples caused by faster growth rates",
+      "url": "https://phys.org/news/2026-10-dead-tissue-disorder-apples-faster.html",
+      "summary": "New research reveals that faster growth rates in Honeycrisp apples increase both the incidence and severity of the \"bitter pit\" disorder, which is responsible for large-scale fruit yield losses and avoidable economic imp…",
+      "ts": 1792742410000,
+      "publishedAt": "2026-10-23T08:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Iris patterns offer a noninvasive way to recognize individual Amazonian treefrogs",
+      "url": "https://phys.org/news/2026-10-iris-patterns-noninvasive-individual-amazonian.html",
+      "summary": "Identifying individual animals in the wild has long meant tagging, branding or clipping. For amphibians, the standard approach has often been toe-clipping, a procedure that can affect survival, physiology and behavior. A…",
+      "ts": 1792742401000,
+      "publishedAt": "2026-10-23T08:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A mineral from the inside of planets reveals a surprising lesson: How you push matters",
+      "url": "https://phys.org/news/2026-10-mineral-planets-reveals-lesson.html",
+      "summary": "In the deepest region of the Earth's mantle, just above the core, much of the material consists of crystals of magnesium oxide. In larger rocky exoplanets called super-Earths, the higher pressures in the lower mantle may…",
+      "ts": 1792741364000,
+      "publishedAt": "2026-10-23T07:42:44.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mother bats' hearts beat faster at the sound of their own babies' cries",
@@ -655,150 +799,6 @@
       "title": "Bridge change-of-measure for propagator estimation of diffusions",
       "url": "https://arxiv.org/abs/2610.30213",
       "summary": "arXiv:2610.30213v1 Announce Type: cross Abstract: The propagator of one-dimensional diffusions has relevant applications in statistical inference and across many disciplines. Yet it is obtained in closed form only for ve…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sequential SBI for Resonance Searches at the LHC",
-      "url": "https://arxiv.org/abs/2610.30245",
-      "summary": "arXiv:2610.30245v1 Announce Type: cross Abstract: Neural simulation-based inference has been shown to extract significantly more information from LHC data than histogram-based analyses. So far, it has mostly been applied…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shear-induced mechanical yielding controls cluster morphology and dynamics in aggregating non-Brownian suspensions",
-      "url": "https://arxiv.org/abs/2610.30330",
-      "summary": "arXiv:2610.30330v1 Announce Type: cross Abstract: In sheared aggregating suspensions, flow drives both the formation and breakage of particle clusters, whose dynamic evolution influences transport and rheological propert…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite time implosions of the multidimensional compressible Euler equations with a finite far-field cutoff",
-      "url": "https://arxiv.org/abs/2610.30331",
-      "summary": "arXiv:2610.30331v1 Announce Type: cross Abstract: We study the problem of finite time singularities in the isentropic compressible Euler equations in multiple dimensions with radial symmetry. Our initial data consists of…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Semblance Distance Analysis for Channel Quality Assessment in Distributed Acoustic Sensing",
-      "url": "https://arxiv.org/abs/2610.30401",
-      "summary": "arXiv:2610.30401v1 Announce Type: cross Abstract: Distributed Acoustic Sensing (DAS) enables dense, kilometer-scale measurements for seismic and environmental monitoring, but its performance is limited by spatially heter…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unified Projection-Domain Material Decomposition for Energy-Integrating and Photon-Counting CT",
-      "url": "https://arxiv.org/abs/2610.30440",
-      "summary": "arXiv:2610.30440v1 Announce Type: cross Abstract: Objective: To develop a unified and efficient method for projection-domain material decomposition in spectral computed tomography (CT) that incorporates an arbitrary numb…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Suppression of Grain Boundary Nitrogen Degradation by Boron in Superalloys",
-      "url": "https://arxiv.org/abs/2610.30451",
-      "summary": "arXiv:2610.30451v1 Announce Type: cross Abstract: Superalloys enable the hottest sections of jet engines to operate at high temperatures, but environmentally assisted degradation limits their lifetime. In polycrystalline…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Orientation-selective microwave heating of laser-graphitized diamond at 2.45 GHz",
-      "url": "https://arxiv.org/abs/2610.30453",
-      "summary": "arXiv:2610.30453v1 Announce Type: cross Abstract: Pristine diamond couples negligibly to a 2.45 GHz field. We show that femtosecond-laser inscription of a buried graphitic (sp2) architecture makes a 4 x 4 x 2 mm^3 N-dope…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CARS: a centerline-anchored attention surrogate for coronary blood flow on skeleton-generated lumen geometries",
-      "url": "https://arxiv.org/abs/2610.30498",
-      "summary": "arXiv:2610.30498v1 Announce Type: cross Abstract: When the parameter of a PDE surrogate is the flow domain itself, the key/value set of an attention model must encode that domain. We present CARS (Coronary Artery Rapid S…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thouless Pumping of One-Dimensional Dark Solitons and Domain Walls",
-      "url": "https://arxiv.org/abs/2610.30550",
-      "summary": "arXiv:2610.30550v1 Announce Type: cross Abstract: We predict that quantized transport of dark solitons and domain walls can be observed in mutually sliding optical lattices in both focusing and defocusing nonlinear mater…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergent Entropic Forces Drive Inverse and Reentrant Phase Transitions in Condensates of Intrinsically Disordered Proteins",
-      "url": "https://arxiv.org/abs/2610.30627",
-      "summary": "arXiv:2610.30627v1 Announce Type: cross Abstract: We present a phenomenological, mean-field model for condensates of intrinsically disordered proteins that describes inverse phase transitions and qualitatively predicts r…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Localization Contrast As a Fundamental Limit of Radiative Quantum Efficiency",
-      "url": "https://arxiv.org/abs/2610.30741",
-      "summary": "arXiv:2610.30741v1 Announce Type: cross Abstract: Disorder can localize valence- and conduction-band states to different degrees, yet whether such localization contrast has observable consequences remains poorly understo…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wavenumber-Aware Deep Learning for Robust Analysis of Raman Spectra",
-      "url": "https://arxiv.org/abs/2610.30746",
-      "summary": "arXiv:2610.30746v1 Announce Type: cross Abstract: Machine-learning models for spectroscopy usually treat a spectrum as a fixed-grid intensity vector, leaving the physical coordinate implicit in the array index. Such mode…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strain Waves Generate Compression and Trigger Buckling in Active Polymers",
-      "url": "https://arxiv.org/abs/2610.30749",
-      "summary": "arXiv:2610.30749v1 Announce Type: cross Abstract: Chemical reactions can sustain polymer motion without necessarily generating the compression required for buckling. Theory and simulations show that tension-dependent che…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ADAPT for Science: A Multi-Agent System for Self-Evolving Scientific Optimization",
-      "url": "https://arxiv.org/abs/2610.30851",
-      "summary": "arXiv:2610.30851v1 Announce Type: cross Abstract: Scientific discovery often requires identifying a small number of high-performing designs in vast, constrained search spaces. This is difficult when evaluations are costl…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A sharp gradient-corrected Lieb--Thirring inequality in one dimension with applications to density functional theory",
-      "url": "https://arxiv.org/abs/2610.30887",
-      "summary": "arXiv:2610.30887v1 Announce Type: cross Abstract: We first prove a sharp Lieb-Thirring inequality with semi-classical constant and gradient correction in one dimension. In the periodic setting, the corresponding inequali…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Cole-Hopf Coordinates for Stochastic Growth Dynamics: the KPZ class",
-      "url": "https://arxiv.org/abs/2610.30919",
-      "summary": "arXiv:2610.30919v1 Announce Type: cross Abstract: Inferring effective equations from observations of nonlinear stochastic processes is challenging because individual trajectories are noisy realizations, while the relevan…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lifetime of the singly charged $^{229}$Th nuclear isomer",
-      "url": "https://arxiv.org/abs/2610.31009",
-      "summary": "arXiv:2610.31009v1 Announce Type: cross Abstract: The nucleus of thorium-229 ($^{229}$Th) has an exceptionally low-energy isomeric state ($^{229\\mathrm{m}}$Th). Because its excitation energy is close to the energy levels…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy-production cost limits hierarchical decision-making in homing pigeon flocks",
-      "url": "https://arxiv.org/abs/2610.31126",
-      "summary": "arXiv:2610.31126v1 Announce Type: cross Abstract: Collective decision-making requires individuals to reconcile diverse, often conflicting opinions to reach a common course of action. However, within a group, they rarely …",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }

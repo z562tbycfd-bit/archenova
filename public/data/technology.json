@@ -1,7 +1,133 @@
 {
   "ok": true,
-  "updated": "2026-10-23T07:08:42.780Z",
+  "updated": "2026-10-23T13:11:19.614Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: AI drug firm Pathos raises $237 million, pushing valuation to $3 billion",
+      "url": "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/?utm_campaign=rss",
+      "summary": "AI drug firm Pathos raises $237 million, a deal that brings together a big Tempus dataset, AI analysis from Pathos, and drug development from BMS.",
+      "ts": 1792760400000,
+      "publishedAt": "2026-10-23T13:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: testing six tech promises and biotech’s blind spots",
+      "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossib…",
+      "ts": 1792757400000,
+      "publishedAt": "2026-10-23T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Tango reports 82% tumor response rate in trial of combo therapy for advanced pancreatic cancer",
+      "url": "https://www.statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque/?utm_campaign=rss",
+      "summary": "An experimental drug combination led to tumor responses in 82% of patients with a certain type of advanced pancreatic cancer, Tango Therapeutics reported.",
+      "ts": 1792751400000,
+      "publishedAt": "2026-10-23T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "In the biotech world, you can’t see everything",
+      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (a…",
+      "ts": 1792746000000,
+      "publishedAt": "2026-10-23T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: State officials scrambling to implement Medicaid work requirements meet up to swap notes",
+      "url": "https://www.statnews.com/2026/10/23/state-medicaid-officials-prepare-for-new-work-requirements/?utm_campaign=rss",
+      "summary": "What state officials scrambling to implement Medicaid work requirements shared behind closed doors at the National Association of Medicaid Directors conference.",
+      "ts": 1792744200000,
+      "publishedAt": "2026-10-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: New Medicare policies will keep important pain relief from some patients",
+      "url": "https://www.statnews.com/2026/10/23/severe-pain-policy-medicare-coverage-macs-nerve-block/?utm_campaign=rss",
+      "summary": "For some people, simply putting on pants can be excruciatingly painful. New policy will put pain relief out of reach for many, doctor writes.",
+      "ts": 1792744200000,
+      "publishedAt": "2026-10-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Overdose deaths have plunged. We need to know why",
+      "url": "https://www.statnews.com/2026/10/23/opioid-deaths-fallen-naloxone-treatment-supply-shock-public-health/?utm_campaign=rss",
+      "summary": "The humbling truth is that forces outside medical care and public health policies must be playing the biggest role in a dramatic drop in opioid overdose deaths, three health experts…",
+      "ts": 1792744200000,
+      "publishedAt": "2026-10-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT reporters react to the new Elizabeth Holmes documentary",
+      "url": "https://www.statnews.com/2026/10/23/explain-appeal-elizabeth-holmes-doc-status-report/?utm_campaign=rss",
+      "summary": "It seems everyone has a hot take on the new Elizabeth Holmes documentary, \"You Can See Everything.\" STAT reporters went to see the film — here's their review.",
+      "ts": 1792744200000,
+      "publishedAt": "2026-10-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "How a targeted drug kept one patient alive 15 years — but failed to save her friends",
+      "url": "https://www.statnews.com/2026/10/23/lung-cancer-patient-ros1-mutation-on-crizotinib/?utm_campaign=rss",
+      "summary": "A lung cancer patient speaks out about her cutting-edge treatment: “Research is big on tracking survival stats, but quality of life for survivors — not so much.”",
+      "ts": 1792744200000,
+      "publishedAt": "2026-10-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "One family’s story of a life-extending medicine for pancreatic cancer",
+      "url": "https://www.statnews.com/2026/10/23/patient-story-pancreatic-cancer-drug-daraxonrasib-rasonque/?utm_campaign=rss",
+      "summary": "Bobby Senaha was among the first patients to use daraxonrasib, a new life-extending drug for pancreatic cancer. His wife shares what those extra months meant to his family.",
+      "ts": 1792744200000,
+      "publishedAt": "2026-10-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: The pink city",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_The_pink_city",
+      "summary": "Image: This image shows a detailed view of the city of Toulouse in southwest France, with its terracotta tiled rooftops lending it the nickname la ville rose, or the pink city.",
+      "ts": 1792742400000,
+      "publishedAt": "2026-10-23T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Alnylam says Huntington’s drug shows promise in early study",
+      "url": "https://www.statnews.com/2026/10/23/huntingtons-alnylam-gene-silencing-brezosiran/?utm_campaign=rss",
+      "summary": "It’s yet to be seen whether Alnylam’s drug will actually slow progression of Huntington’s, but the field is lively.",
+      "ts": 1792741500000,
+      "publishedAt": "2026-10-23T07:45:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
+      "url": "http://www.iaea.org/newscenter/news/italy-and-romania-establish-new-member-state-support-programmes-to-strengthen-iaea-safeguards",
+      "summary": "",
+      "ts": 1792735200000,
+      "publishedAt": "2026-10-23T06:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "What is Nuclear Fuel?",
+      "url": "http://www.iaea.org/newscenter/news/what-is-nuclear-fuel",
+      "summary": "",
+      "ts": 1792735200000,
+      "publishedAt": "2026-10-23T06:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 23 – Andromeda in Southern Spring",
@@ -9,15 +135,6 @@
       "summary": "APOD Science APOD APOD: 2026 October 23 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
       "ts": 1792728300000,
       "publishedAt": "2026-10-23T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "El Niño Then and Now",
-      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
-      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -264,10 +381,19 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "El Niño Then and Now",
+      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
+      "ts": 1792728000000,
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "NVIDIA",
       "title": "Kazakhstan Expands Compute for Its AI Future",
       "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below poin…",
+      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visi…",
       "ts": 1792720813000,
       "publishedAt": "2026-10-23T02:00:13.000Z",
       "categoryId": "ai-compute"
@@ -685,132 +811,6 @@
       "ts": 1792656000000,
       "publishedAt": "2026-10-22T08:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Bridging Research and Industry to Advance Actinium-225 Cancer Therapies",
-      "url": "http://www.iaea.org/newscenter/news/bridging-research-and-industry-to-advance-actinium-225-cancer-therapies",
-      "summary": "Developing innovative cancer therapies requires more than scientific advancement.",
-      "ts": 1792653715000,
-      "publishedAt": "2026-10-22T07:21:55.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "OpenAI",
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "summary": "What forward deployed engineering means at OpenAI",
-      "ts": 1792648800000,
-      "publishedAt": "2026-10-22T06:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
-      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
-      "summary": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their o…",
-      "ts": 1792645256000,
-      "publishedAt": "2026-10-22T05:00:56.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Dat…",
-      "ts": 1792645227000,
-      "publishedAt": "2026-10-22T05:00:27.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
-      "url": "https://blogs.nvidia.com/blog/dsx-power/",
-      "summary": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds …",
-      "ts": 1792645225000,
-      "publishedAt": "2026-10-22T05:00:25.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-      "summary": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is …",
-      "ts": 1792645223000,
-      "publishedAt": "2026-10-22T05:00:23.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-      "summary": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking sh…",
-      "ts": 1792645219000,
-      "publishedAt": "2026-10-22T05:00:19.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
-      "summary": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and publ…",
-      "ts": 1792645202000,
-      "publishedAt": "2026-10-22T05:00:02.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 22 – The First Green Star, WD J1330+6435",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
-      "summary": "APOD Science APOD APOD: 2026 October 22 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1792641900000,
-      "publishedAt": "2026-10-22T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Fires Char New Guinea",
-      "url": "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
-      "summary": "Emissions on both sides of the island are unusually high as human-set fires spread in a landscape parched by drought.",
-      "ts": 1792641660000,
-      "publishedAt": "2026-10-22T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "System-evolutionary view of RNA presence in living cells",
-      "url": "https://arxiv.org/abs/2610.28697",
-      "summary": "arXiv:2610.28697v1 Announce Type: new Abstract: Our guiding question for this article was: How did RNA adjust its life when the RNA world era came to an end? RNA has its practical execution side in the whole-cell systems…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An autoencoder outperforms two transformers on prediction of gene expression from chromatin accessibility",
-      "url": "https://arxiv.org/abs/2610.28853",
-      "summary": "arXiv:2610.28853v1 Announce Type: new Abstract: Models that predict RNA abundance from chromatin accessibility are rarely compared under the same features, targets and metrics. We built one benchmark on 126,604 paired si…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Vagus nerve stimulation strengthens beta- and gamma-rate auditory steady-state responses in rat cortex",
-      "url": "https://arxiv.org/abs/2610.29042",
-      "summary": "arXiv:2610.29042v1 Announce Type: new Abstract: Background: Gamma entrainment using sensory stimulation (GENUS) is under study as a treatment for neurological disease, but cortical engagement is variable. Vagus nerve sti…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Multiscale Kinetic Model of DNA Damage Signalling and Repair under Combined Proton and Nanoparticle Exposure",
-      "url": "https://arxiv.org/abs/2610.29157",
-      "summary": "arXiv:2610.29157v1 Announce Type: new Abstract: We present a multiscale kinetic framework for predicting the induction, processing, and biological consequences of DNA double-strand breaks (DSBs) in AG1522 human fibroblas…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
