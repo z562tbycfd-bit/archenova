@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-10-23T18:09:54.384Z",
+  "updated": "2026-10-23T21:54:44.676Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Nov. 5: Satellite Mission Management at the Edge",
+      "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
+      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
+      "ts": 1792785205000,
+      "publishedAt": "2026-10-23T19:53:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Highly anticipated Moderna-Merck melanoma cancer vaccine data arrived early",
+      "url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/?utm_campaign=rss",
+      "summary": "In data released at ESMO, the Moderna-Merck personalized mRNA cancer vaccine reduced recurrence-free survival and the time until distant metastasis occurred.",
+      "ts": 1792783195000,
+      "publishedAt": "2026-10-23T19:19:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Diabetes association says ‘threat’ preceded members’ ejections, but admits policies were unclear",
+      "url": "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/?utm_campaign=rss",
+      "summary": "The American Diabetes Association has issued two explanations, two reviews and an apology over its June convention. A Friday report adds new twists.",
+      "ts": 1792782997000,
+      "publishedAt": "2026-10-23T19:16:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "RS-25 Engine Tests at NASA Stennis",
+      "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+      "summary": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-…",
+      "ts": 1792781824000,
+      "publishedAt": "2026-10-23T18:57:04.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Patient dies in Bristol Myers Squibb autoimmune CAR-T trial",
+      "url": "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/?utm_campaign=rss",
+      "summary": "Where should the safety bar be for studies investigating CAR-T therapies for autoimmune conditions?",
+      "ts": 1792781712000,
+      "publishedAt": "2026-10-23T18:55:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Most cancer drugs approved by European regulators lack a high clinical benefit, analysis finds",
+      "url": "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/?utm_campaign=rss",
+      "summary": "Most new cancer medicines approved by European regulators over a recent four-year period do not offer high clinical benefit, a new analysis finds.",
+      "ts": 1792781290000,
+      "publishedAt": "2026-10-23T18:48:10.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA, Virginia Launch Power Partnership for Energy Security",
@@ -102,6 +156,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-372-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1792763745000,
+      "publishedAt": "2026-10-23T13:55:45.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a cancer vaccine, an experimental pancreatic cancer drug, and more",
       "url": "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/?utm_campaign=rss",
@@ -139,6 +202,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
+      "summary": "The UN said on Friday it was “extremely alarmed” by intensifying violence in the occupied West Bank, as Israel moved to seal off the territory following a deadly attack on its soldiers in Hebron.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Drone strikes killed at least 306 people in three weeks",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168661",
+      "summary": "UN human rights chief Volker Türk on Friday strongly condemned an escalation in drone strikes across Sudan this month, which killed at least 306 people and injured hundreds more in the first three weeks of October alone.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Soil mapping aims to boost agricultural production in Kenya",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168657",
       "summary": "A new Kenyan initiative is helping farmers better understand their soils in a bid to improve crop yields amid intensifying climate shocks.",
@@ -172,6 +253,15 @@
       "ts": 1792751400000,
       "publishedAt": "2026-10-23T10:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -721,96 +811,6 @@
       "ts": 1792685823000,
       "publishedAt": "2026-10-22T16:17:03.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Crackdowns loom, from China to New York",
-      "url": "https://www.statnews.com/2026/10/22/china-biotech-coins-act-rule-health-insurance-costs-rise/?utm_campaign=rss",
-      "summary": "Speaking on the economy, the vice president told a crowd in Ohio that, “You don’t turn the Titanic around overnight.” Send news tips and bad metaphors to John.Wilkerson@statnews.com or John_Wilkerson.07…",
-      "ts": 1792681588000,
-      "publishedAt": "2026-10-22T15:06:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-buil…",
-      "ts": 1792681202000,
-      "publishedAt": "2026-10-22T15:00:02.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "350th ESA Council: Media information session",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/350th_ESA_Council_Media_information_session",
-      "summary": "Video: 01:45:34 Watch the replay of the media information session where ESA Director General Josef Aschbacher and ESA Council Chair at delegate level Juan Carlos Cortés outline the key decisions and main outcomes of the …",
-      "ts": 1792677600000,
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a U.S. rule on Chinese deals, Belgium refusing Mounjaro coverage, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss",
-      "summary": "U.S. is poised to issue a proposed rule that would subject outbound licensing deals with Chinese biotech companies to additional scrutiny",
-      "ts": 1792676566000,
-      "publishedAt": "2026-10-22T13:42:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What to expect from the Moderna-Merck cancer vaccine data reveal",
-      "url": "https://www.statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal/?utm_campaign=rss",
-      "summary": "The Moderna-Merck cancer vaccine data reveal is days away. Here's what to expect.",
-      "ts": 1792676120000,
-      "publishedAt": "2026-10-22T13:35:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA finalizes its guidance on apps related to drugs, pharma rejoices",
-      "url": "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: FDA's guidance on prescription drug use-related software, and telehealth pushing GLP-1s for addiction.",
-      "ts": 1792675049000,
-      "publishedAt": "2026-10-22T13:17:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
-      "summary": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign…",
-      "ts": 1792674020000,
-      "publishedAt": "2026-10-22T13:00:20.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Health insurance premiums jump 9%, and more Americans don’t have access to coverage",
-      "url": "https://www.statnews.com/2026/10/22/health-news-insurance-premiums-jump-more-americans-lose-coverage/?utm_campaign=rss",
-      "summary": "Working-age U.S. adults without health insurance rose in 2026. Half of all uninsured people did not seek needed care because of cost concerns, according to a new survey.",
-      "ts": 1792671732000,
-      "publishedAt": "2026-10-22T12:22:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Mission Finds Kenya Committed to Safe Management of Radioactive Waste as it Develops a Nuclear Power Programme",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-finds-kenya-committed-to-safe-management-of-radioactive-waste-as-it-develops-a-nuclear-power-programme",
-      "summary": "",
-      "ts": 1792671497000,
-      "publishedAt": "2026-10-22T12:18:17.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: computing’s next leap and permafrost’s climate threat",
-      "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richar…",
-      "ts": 1792671000000,
-      "publishedAt": "2026-10-22T12:10:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

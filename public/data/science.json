@@ -1,7 +1,167 @@
 {
   "ok": true,
-  "updated": "2026-10-23T18:09:51.395Z",
+  "updated": "2026-10-23T21:54:41.684Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Counting magnetic flux quanta offers new way to measure photon numbers",
+      "url": "https://phys.org/news/2026-10-magnetic-flux-quanta-photon.html",
+      "summary": "Researchers at AIST have directly observed magnetic flux quanta generated in a superconductor by photon absorption and demonstrated a new principle of photon detection that identifies the number of photons based on the n…",
+      "ts": 1792790402000,
+      "publishedAt": "2026-10-23T21:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'It's pretty toxic… but just a little, I want to be like that': What young men think of manosphere content",
+      "url": "https://phys.org/news/2026-10-pretty-toxic-young-men-manosphere.html",
+      "summary": "Masculinity content promises young men self-optimization and success, but often delivers health harms, risk-taking, unattainable standards, gender stereotypes and misogyny. The latter is the strongest predictor of violen…",
+      "ts": 1792789217000,
+      "publishedAt": "2026-10-23T21:00:17.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists demonstrate AI-designed enzyme for drug synthesis",
+      "url": "https://phys.org/news/2026-10-scientists-ai-enzyme-drug-synthesis.html",
+      "summary": "The new RFD4-Proteina unified generative model for protein design—created by the Institute for Protein Design (IPD) in collaboration with NVIDIA—uses advanced AI to generate entirely new protein sequences and structures,…",
+      "ts": 1792789213000,
+      "publishedAt": "2026-10-23T21:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemically modified sugars enable direct nanostructure formation",
+      "url": "https://phys.org/news/2026-10-chemically-sugars-enable-nanostructure-formation.html",
+      "summary": "Researchers at AIST have demonstrated the synthesis of nanoporous carbonaceous materials and carbonaceous materials with layered nanostructures through a simple process involving the chemical modification of common sugar…",
+      "ts": 1792788008000,
+      "publishedAt": "2026-10-23T20:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The psychology of why we overpay for used cars—study points to left-digit bias",
+      "url": "https://phys.org/news/2026-10-psychology-overpay-cars-left-digit.html",
+      "summary": "Consumers routinely ignore information when making purchases. They overlook the tax attached to a price, skim past ingredient lists and often fail to process exact numbers with any precision.",
+      "ts": 1792788001000,
+      "publishedAt": "2026-10-23T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Designing better adsorbents to remove PFAS from water",
+      "url": "https://phys.org/news/2026-10-adsorbents-pfas.html",
+      "summary": "A review by Tohoku University researchers identifies key molecular features that could guide the development of more effective materials for removing PFAS from water. The study is published in the journal ACS Materials A…",
+      "ts": 1792786814000,
+      "publishedAt": "2026-10-23T20:20:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plain silicon grating reveals a hidden 'twist' in light from electron beams",
+      "url": "https://phys.org/news/2026-10-plain-silicon-reveals-hidden-electron.html",
+      "summary": "In 1953, two physicists showed that an electron beam skimming past a grating emits light whose color depends only on the electron's speed and the grating's spacing. Known as Smith-Purcell radiation, this phenomenon has b…",
+      "ts": 1792786808000,
+      "publishedAt": "2026-10-23T20:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Elections are more predictable than they look",
+      "url": "https://phys.org/news/2026-10-elections.html",
+      "summary": "As politics in America become more polarized and each voting cycle seems more fraught than the last, a common narrative in the media is that each election is unique and increasingly unpredictable. But new research shows …",
+      "ts": 1792785605000,
+      "publishedAt": "2026-10-23T20:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacteria reinvent their weapons through selection, chance and gene swapping",
+      "url": "https://phys.org/news/2026-10-bacteria-reinvent-weapons-chance-gene.html",
+      "summary": "Many of the most potent antibiotics originate from bacteria. A large proportion belong to a class of compounds known as nonribosomal peptides (NRP). They are produced by large bacterial enzyme machineries—the nonribosoma…",
+      "ts": 1792785601000,
+      "publishedAt": "2026-10-23T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New marker panel and free web tool help track stem cells as they develop",
+      "url": "https://phys.org/news/2026-10-marker-panel-free-web-tool.html",
+      "summary": "How can the identity of pluripotent stem cells be determined more reliably during their differentiation? Researchers from the IUF—Leibniz Research Institute for Environmental Medicine and Heinrich Heine University Duesse…",
+      "ts": 1792784408000,
+      "publishedAt": "2026-10-23T19:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can we stop antibiotic resistance from ruining promising drugs before they reach patients?",
+      "url": "https://phys.org/news/2026-10-antibiotic-resistance-drugs-patients.html",
+      "summary": "What if we could predict early in drug development which antibiotics bacteria are most likely to become resistant to? In a review published in Nature Reviews Microbiology, researchers from the HUN-REN Biological Research…",
+      "ts": 1792784401000,
+      "publishedAt": "2026-10-23T19:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Potatoes could be the secret to better plant-based meat, say food scientists",
+      "url": "https://phys.org/news/2026-10-potatoes-secret-based-meat-food.html",
+      "summary": "Potatoes could hold the key to making better gluten-free plant-based meat, according to a new study.",
+      "ts": 1792783211000,
+      "publishedAt": "2026-10-23T19:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Everyday Mylar turned into a promising insulator for lunar habitats",
+      "url": "https://phys.org/news/2026-10-everyday-mylar-insulator-lunar-habitats.html",
+      "summary": "Establishing a long-term presence on the moon will require solving challenges that are easy to overlook on Earth. Lunar temperatures, for instance, can vary from hundreds of degrees below zero to boiling, making effectiv…",
+      "ts": 1792783201000,
+      "publishedAt": "2026-10-23T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chaos makes sense of market movements in a crisis",
+      "url": "https://phys.org/news/2026-10-chaos-movements-crisis.html",
+      "summary": "Research shows that crises do more than cause financial market volatility and falling share prices—they lead to markets becoming far more interconnected.",
+      "ts": 1792782008000,
+      "publishedAt": "2026-10-23T19:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stellar collision may explain why Orion Nebula's planet-forming disks appear younger than its stars",
+      "url": "https://phys.org/news/2026-10-stellar-collision-orion-nebula-planet.html",
+      "summary": "The Orion Nebula is a large star-forming region visible to the naked eye. Some of the young stars in the nebula are surrounded by disks of gas and dust in which planets form. Radiation from the massive central star, 1 Or…",
+      "ts": 1792782001000,
+      "publishedAt": "2026-10-23T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists uncover the molecular pillars that shape our cells' powerpacks",
+      "url": "https://phys.org/news/2026-10-scientists-uncover-molecular-pillars-cells.html",
+      "summary": "Mitochondria are the tiny powerpacks that supply most of the energy our cells need. Their ability to generate this energy relies on a distinctive architecture: two membranes, one tucked inside the other, separated by a n…",
+      "ts": 1792780805000,
+      "publishedAt": "2026-10-23T18:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mechanism behind PARP1-mediated DNA repair characterized, offering insight into targeted cancer therapy",
+      "url": "https://phys.org/news/2026-10-mechanism-parp1-dna-characterized-insight.html",
+      "summary": "When DNA is damaged, cellular processes respond and repair the DNA. Inhibiting DNA damage repair can be therapeutically beneficial in cancers with genetic vulnerabilities related to DNA damage response. Scientists at St.…",
+      "ts": 1792780801000,
+      "publishedAt": "2026-10-23T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rare fossils reveal what ancient Denisovans may have looked like",
+      "url": "https://phys.org/news/2026-10-rare-fossils-reveal-ancient-denisovans.html",
+      "summary": "Whenever anything is written about the Denisovans, the word \"mysterious\" is almost guaranteed to appear. That is because we just don't know a lot about this extinct human group that may have lived in East Asia from at le…",
+      "ts": 1792780201000,
+      "publishedAt": "2026-10-23T18:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black holes spinning near maximum rate could split in two, calculations suggest",
+      "url": "https://phys.org/news/2026-10-black-holes-maximum.html",
+      "summary": "Two black holes can collide and merge into one. But could the opposite happen: could a single black hole split into two smaller ones? That question is explored in a new theoretical study: \"When Black Holes Admit Pair-of-…",
+      "ts": 1792779612000,
+      "publishedAt": "2026-10-23T18:20:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hoarders without borders: Study suggests investors aid international expansion",
+      "url": "https://phys.org/news/2026-10-hoarders-borders-investors-aid-international.html",
+      "summary": "Venture capital firms can help young businesses expand internationally by providing funding as well as market knowledge, expertise and access to professional networks, according to a research literature review published …",
+      "ts": 1792779607000,
+      "publishedAt": "2026-10-23T18:20:07.000Z"
+    },
     {
       "source": "Science News",
       "title": "Why did humans’ brains surpass chimps’? A tiny foe might help explain it",
@@ -639,166 +799,6 @@
       "title": "Reconfigurable Free-Space Optical Interconnects",
       "url": "https://arxiv.org/abs/2610.30757",
       "summary": "arXiv:2610.30757v1 Announce Type: new Abstract: Free-space optical interconnects can support many low-data-rate channels while avoiding the cost, energy consumption, and packaging constraints of optical waveguide- or fib…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Advancing oxygen-enhanced MRI acquisition and modelling through dynamic ${\\Delta}R_{1}$ and ${\\Delta}R_2^*$ sensing",
-      "url": "https://arxiv.org/abs/2610.30793",
-      "summary": "arXiv:2610.30793v1 Announce Type: new Abstract: Purpose: To develop a multiparametric mapping framework for quantifying fat- and water-specific longitudinal and effective transverse relaxation rates, as well as changes i…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Drift Waves and Electrostatic Density Cavities in Upper Ionosphere",
-      "url": "https://arxiv.org/abs/2610.30826",
-      "summary": "arXiv:2610.30826v1 Announce Type: new Abstract: Nonlinear drift waves are investigated to explain the mechanism for the creation of one dimensional (1D) and two dimensional (2D) electrostatic density cavities in the pres…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Light pulse propagation through a dielectric slab. II. Two roads to the same field: numerical cross-validation of local (FDTD-ADE) and non-local (retarded integral-equation) solutions",
-      "url": "https://arxiv.org/abs/2610.30833",
-      "summary": "arXiv:2610.30833v1 Announce Type: new Abstract: Paper I of this series (arXiv:2610.29336) solves, via the retarded Green's functions, the local differential equations governing light propagation in a plane-parallel diele…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stiff source terms inside ADER-DG method",
-      "url": "https://arxiv.org/abs/2610.30852",
-      "summary": "arXiv:2610.30852v1 Announce Type: new Abstract: ADER-DG numerical method with the LST-DG predictor, when used to solve hyperbolic equations with stiff source terms, exhibits properties characteristic of IMEX computationa…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-photonic millimeter-wave and terahertz signal core at room and cryogenic temperatures",
-      "url": "https://arxiv.org/abs/2610.30857",
-      "summary": "arXiv:2610.30857v1 Announce Type: new Abstract: Millimeter-wave and terahertz technologies offer new opportunities for high-capacity communications, sensing, and quantum systems, but electronic signal chains above 100 GH…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser-design methodology for extending an available wavelength range of dual-wavelength injection-seeded laser",
-      "url": "https://arxiv.org/abs/2610.30897",
-      "summary": "arXiv:2610.30897v1 Announce Type: new Abstract: This paper describes a method for expanding the applicable wavelength range of dual-wavelength oscillation injection-locked lasers. Special focus is placed on the laser des…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intrinsic Angular Momentum Contribution to the Sagnac Response of a Rotating Helical Optical Fiber",
-      "url": "https://arxiv.org/abs/2610.30898",
-      "summary": "arXiv:2610.30898v1 Announce Type: new Abstract: We investigate rotation-induced phase accumulation of structured light in a mechanically rotating uniform helical optical fiber using a four-component optical Dirac-like eq…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LieGROG: A Lie algebra approach for calibrating GRAPPA operators",
-      "url": "https://arxiv.org/abs/2610.30927",
-      "summary": "arXiv:2610.30927v1 Announce Type: new Abstract: Purpose: In multi-coil acquisitions based on non-Cartesian k-space sampling, image reconstruction using GRAPPA Operator based gridding (GROG) can provide advantages with re…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Personal History in Quantum Foundations: an Oral History Interview",
-      "url": "https://arxiv.org/abs/2610.30998",
-      "summary": "arXiv:2610.30998v1 Announce Type: new Abstract: This oral history interview provides Yakir Aharonov's personal and conceptual recollections from the 1950s to the 2000s, focusing on his academic trajectory, some of his ma…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Modeling of 3D-Printed Freeform Waveguides with a Transformation Optics-Based Beam Propagation Method",
-      "url": "https://arxiv.org/abs/2610.31004",
-      "summary": "arXiv:2610.31004v1 Announce Type: new Abstract: An efficient numerical method is introduced for simulating wave propagation in 3D-printed freeform waveguides, referred to as photonic wire bonds (PWBs). This approach inte…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On Spurious Mesh-Scale Oscillations Associated with Resonance-Cone Regimes in Wave-Plasma Simulations",
-      "url": "https://arxiv.org/abs/2610.31021",
-      "summary": "arXiv:2610.31021v1 Announce Type: new Abstract: Spurious mesh-scale oscillations can compromise frequency-domain finite-element simulations of electromagnetic wave propagation in magnetized cold plasmas. We investigate t…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective-action formulation of $\\mathbf{k}$-odd bianisotropy and unidirectional polarization rotation in nonlocal temporal metamaterials",
-      "url": "https://arxiv.org/abs/2610.31022",
-      "summary": "arXiv:2610.31022v1 Announce Type: new Abstract: We derive the effective action of temporal metamaterials up to first order in spatial derivatives through a multiscale analysis of the electromagnetic Lagrangian density. W…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Mechanism of Chirality in Plasmonic Structures: Asymmetric Resonance Modes",
-      "url": "https://arxiv.org/abs/2610.31045",
-      "summary": "arXiv:2610.31045v1 Announce Type: new Abstract: This study presents a theoretical framework for understanding the mechanism of chirality generation and circular dichroism (CD) in chiral nanostructures, with a particular …",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial scaling of network length and shared-node density in bilayer distribution grids",
-      "url": "https://arxiv.org/abs/2610.31053",
-      "summary": "arXiv:2610.31053v1 Announce Type: new Abstract: Certain distribution networks are built in layers, each layer collecting a commodity from the layer above it and delivering it to the layer below. We propose a minimal mode…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation",
-      "url": "https://arxiv.org/abs/2610.31071",
-      "summary": "arXiv:2610.31071v1 Announce Type: new Abstract: Frequency-domain wavefield modeling underpins seismic imaging and inversion, where repeated Helmholtz solutions become costly as velocity models, source locations, and freq…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extended-regularized lattice Boltzmann method",
-      "url": "https://arxiv.org/abs/2610.31072",
-      "summary": "arXiv:2610.31072v1 Announce Type: new Abstract: Regularized lattice Boltzmann methods improve numerical stability by projecting the nonequilibrium distribution onto its hydrodynamic second-order Hermite sector and filter…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In situ performance of the Vertex Silicon Plane in the BM@N experiment during Run 9",
-      "url": "https://arxiv.org/abs/2610.31077",
-      "summary": "arXiv:2610.31077v1 Announce Type: new Abstract: The Vertex Silicon Plane (VSP) was commissioned and operated for the first time as the most upstream tracking station of the Baryonic Matter at Nuclotron (BM@N) experiment …",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GeoAgent: Contract-Constrained LLM Agents for Seismic Data Processing",
-      "url": "https://arxiv.org/abs/2610.31096",
-      "summary": "arXiv:2610.31096v1 Announce Type: new Abstract: Large language models (LLMs) can drive scientific software through function calling, but free-form tool use is fragile on long, data-dependent processing chains. Models omi…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of nanoparticle shapes in nanofluid film boiling on vertical cylinders: A numerical study",
-      "url": "https://arxiv.org/abs/2610.31151",
-      "summary": "arXiv:2610.31151v1 Announce Type: new Abstract: This research explores how nanoparticle shapes affect the thermal behavior of nanofluid film boiling along a vertical cylinder, using a Continuous-Species-Transfer method w…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond city pairs: Higher-order information in urban growth across borders",
-      "url": "https://arxiv.org/abs/2610.31159",
-      "summary": "arXiv:2610.31159v1 Announce Type: new Abstract: We apply higher-order information measures to urban growth across borders and spatial units. We analyse 8,808 functional urban areas using gridded GDP estimates allocated f…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
