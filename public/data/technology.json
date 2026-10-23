@@ -1,7 +1,124 @@
 {
   "ok": true,
-  "updated": "2026-10-23T13:11:19.614Z",
+  "updated": "2026-10-23T18:09:54.384Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA, Virginia Launch Power Partnership for Energy Security",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
+      "summary": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energ…",
+      "ts": 1792777821000,
+      "publishedAt": "2026-10-23T17:50:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "ts": 1792774800000,
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Novartis multiple sclerosis treatment cuts rates of relapse in pivotal trials",
+      "url": "https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/?utm_campaign=rss",
+      "summary": "An MS treatment from Novartis cut by a third the rates of relapses compared to a standard treatment.",
+      "ts": 1792774051000,
+      "publishedAt": "2026-10-23T16:47:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: It took me 13 years to be diagnosed with MS. Christina Applegate’s misdiagnosis doesn’t surprise me",
+      "url": "https://www.statnews.com/2026/10/23/christina-applegate-ms-misdiagnosis/?utm_campaign=rss",
+      "summary": "“I felt Christina Applegate’s disappointment as if it were my own — because not long ago, it was,” writes Lindsay Karp.",
+      "ts": 1792773544000,
+      "publishedAt": "2026-10-23T16:39:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1792771147000,
+      "publishedAt": "2026-10-23T15:59:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Remembering STAT’s Helen Branswell",
+      "url": "https://www.statnews.com/2026/10/23/readout-loud-podcast-remembering-helen-branswell-infectious-disease/?utm_campaign=rss",
+      "summary": "This week on the “The Readout LOUD” podcast, we remember our beloved colleague Helen Branswell, who died last week. We speak with colleagues, family, and public health leaders about her…",
+      "ts": 1792770501000,
+      "publishedAt": "2026-10-23T15:48:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Tango builds on Revolution Medicines’ pancreatic cancer success",
+      "url": "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/?utm_campaign=rss",
+      "summary": "As the ESMO conference kicks off, Tango's pancreatic cancer combination shows striking promise and detailed data on Moderna and Merck's cancer vaccine is released early.",
+      "ts": 1792769068000,
+      "publishedAt": "2026-10-23T15:24:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Wirelessly Powered Electronic Implant, ECHO, Enables Drug-Free Management of ‘Diabesity’",
+      "url": "https://www.genengnews.com/topics/translational-medicine/wirelessly-powered-electronic-implant-echo-enables-drug-free-management-of-diabesity/",
+      "summary": "Researchers developed an implantable, wirelessly powered electronic device, ECHO, that uses electrocatalysis to remove excess glucose from the bloodstream on demand, and could offer a drug-free approach to managing obesi…",
+      "ts": 1792768884000,
+      "publishedAt": "2026-10-23T15:21:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Multiomic Study of MSS CRC Identifies Vulnerabilities Pointing to Therapeutic Possibilities",
+      "url": "https://www.genengnews.com/topics/cancer/multiomic-study-of-mss-crc-identifies-vulnerabilities-pointing-to-therapeutic-possibilities/",
+      "summary": "Researchers analyzed mulitomic and clinical data from 2000 colorectal cancer samples and used an AI tool, iPhenMap, to help identify cancer cell vulnerabilities and drug combinations that could be used to treat MSS CRC. …",
+      "ts": 1792768378000,
+      "publishedAt": "2026-10-23T15:12:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Anxiety builds over Medicaid work requirements",
+      "url": "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/?utm_campaign=rss",
+      "summary": "As a Boston judge heard a challenge to Medicaid work requirements, state Medicaid directors gathered in Maryland to figure out how to implement those sweeping changes.",
+      "ts": 1792766841000,
+      "publishedAt": "2026-10-23T14:47:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Treasury proposes major restrictions to U.S. investment in Chinese biotech sector",
+      "url": "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/?utm_campaign=rss",
+      "summary": "A new Treasury Department proposal would restrict U.S. investments in Chinese biotechs, but still allows licensing deals.",
+      "ts": 1792764186000,
+      "publishedAt": "2026-10-23T14:03:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a cancer vaccine, an experimental pancreatic cancer drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/?utm_campaign=rss",
+      "summary": "A personalized mRNA cancer vaccine reduced the risk of disease recurrence in patients with melanoma by 42% compared to a standard treatment",
+      "ts": 1792763114000,
+      "publishedAt": "2026-10-23T13:45:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 19-23 October 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_19-23_October_2026",
+      "summary": "Week in images: 19-23 October 2026 Discover our week through the lens",
+      "ts": 1792761300000,
+      "publishedAt": "2026-10-23T13:15:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: AI drug firm Pathos raises $237 million, pushing valuation to $3 billion",
@@ -19,6 +136,33 @@
       "ts": 1792757400000,
       "publishedAt": "2026-10-23T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Soil mapping aims to boost agricultural production in Kenya",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168657",
+      "summary": "A new Kenyan initiative is helping farmers better understand their soils in a bid to improve crop yields amid intensifying climate shocks.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Burden and loss’ builds in DR Congo, as Kenya strengthens Ebola containment",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168655",
+      "summary": "As Ebola continues to spread in the Democratic Republic of the Congo (DRC), more resources are needed to fight the disease and feed patients and families, UN agencies said on Friday.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen: Deepening concerns for Taiz City as aid is blocked from entering",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168654",
+      "summary": "Aid agencies warned on Friday of the fast-developing humanitarian emergency inside Taiz City in Yemen, which has been encircled by de facto Houthi forces fighting government troops along the country’s west coast.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -135,6 +279,15 @@
       "summary": "APOD Science APOD APOD: 2026 October 23 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
       "ts": 1792728300000,
       "publishedAt": "2026-10-23T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "El Niño Then and Now",
+      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
+      "ts": 1792728000000,
+      "publishedAt": "2026-10-23T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -379,15 +532,6 @@
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "El Niño Then and Now",
-      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
-      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "NVIDIA",
@@ -667,150 +811,6 @@
       "ts": 1792671000000,
       "publishedAt": "2026-10-22T12:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Russian attacks intensify, UN team tours West Bank, ‘unlawful’ elderly deaths",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168648",
-      "summary": "Long-range Russian attacks across Ukraine are intensifying, including in Kyiv, causing at least 14 civilian deaths and 78 injuries overnight into Thursday, as UN agencies continue to provide aid.",
-      "ts": 1792670400000,
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "First human case of Shamonda virus reported in France as patient dies",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168652",
-      "summary": "A patient in France has died after being infected with Shamonda virus, the first recorded human case of the disease.",
-      "ts": 1792670400000,
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Nepal’s deadly glacier flood a ‘defining moment’ for the international community",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168651",
-      "summary": "The deadly flash flood that tore through Nepal in August is a “defining moment” for both the country and the international community, according to the head of the UN field agency which builds roads, schools and clinics i…",
-      "ts": 1792670400000,
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Mothers get nearly eight times more paid leave than fathers – and women pay the price",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168650",
-      "summary": "Mothers around the world get nearly eight times as much paid leave as fathers, leaving women to shoulder most of the care burden – at a cost to families, children and economies, according to new UN data published on Thur…",
-      "ts": 1792670400000,
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo: Ebola responders under pressure as outbreak expands",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
-      "summary": "As the deadly Ebola disease outbreak reached an eighth province of the Democratic Republic of the Congo (DRC), investigators pursued all leads on Thursday to assess the risk of the disease spreading in Nigeria.",
-      "ts": 1792670400000,
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Connect the dots’ between street protests and global turmoil, urges Guterres",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168646",
-      "summary": "The international community must combat inequality and stop wars from expanding to ensure a safer world for all, the UN Secretary-General said on Thursday.",
-      "ts": 1792670400000,
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Making the case for context-aware AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints an…",
-      "ts": 1792663200000,
-      "publishedAt": "2026-10-22T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Three things you should know about permafrost",
-      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
-      "summary": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The grea…",
-      "ts": 1792663200000,
-      "publishedAt": "2026-10-22T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA Open Days 2026",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/ESA_Open_Days_2026",
-      "summary": "Video: 00:00:49 ESA Open Days 2026 welcomed over 23 000 visitors across its six establishments, giving the public the opportunity to discover more about Europe’s space activities, meet the people behind the missions and …",
-      "ts": 1792659600000,
-      "publishedAt": "2026-10-22T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
-      "url": "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss",
-      "summary": "A KFF survey finds that rising healthcare costs are squeezing both employers and workers.",
-      "ts": 1792659600000,
-      "publishedAt": "2026-10-22T09:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI’s hidden storage bill: What inference leaves behind",
-      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens …",
-      "ts": 1792658478000,
-      "publishedAt": "2026-10-22T08:41:18.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What I got wrong about the Affordable Care Act — and how to fix it",
-      "url": "https://www.statnews.com/2026/10/22/aca-failure-contain-healthcare-costs-economist-regret/?utm_campaign=rss",
-      "summary": "“The big mistake, ironically, was the ACA’s lack of focus on affordability,” writes Dana Goldman.",
-      "ts": 1792657800000,
-      "publishedAt": "2026-10-22T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The inherited disease my family called ‘it’ had a name, which changed everything",
-      "url": "https://www.statnews.com/2026/10/22/rare-disease-family-name-fenib-personal-essay/?utm_campaign=rss",
-      "summary": "For 50 years, doctors shrugged about the disease running through Miranda Pappas’ family. Then she discovered something.",
-      "ts": 1792657800000,
-      "publishedAt": "2026-10-22T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Telehealth leapfrogs FDA approval with off-label GLP-1 prescriptions for addiction",
-      "url": "https://www.statnews.com/2026/10/22/glp-1-drugs-substance-use-disorder-telehealth-off-label-prescription/?utm_campaign=rss",
-      "summary": "As telehealth promotes GLP-1s for addiction, experts worry about fragmented care, and exposing patients to unknown risks.",
-      "ts": 1792657800000,
-      "publishedAt": "2026-10-22T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA Council approves appointment of two new directors",
-      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_Council_approves_appointment_of_two_new_directors",
-      "summary": "The European Space Agency Council has approved the appointment of two new directors: Andrzej Banasiak as Director of Commercialisation and Industry Partnership, and Nicolaus Hanowski as Director of Space Operations.",
-      "ts": 1792657560000,
-      "publishedAt": "2026-10-22T08:26:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Stars brewing in a nebulous cauldron",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
-      "summary": "Image: Stars brewing in a nebulous cauldron",
-      "ts": 1792656000000,
-      "publishedAt": "2026-10-22T08:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
