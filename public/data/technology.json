@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-10-22T22:11:25.721Z",
+  "updated": "2026-10-23T01:19:19.553Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cryo-EM and AI-Designed Scaffold Reveal How Andes Hantavirus Binds Cells",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/cryo-em-and-ai-designed-scaffold-reveal-how-andes-hantavirus-binds-cells/",
+      "summary": "Using cryo-EM and an AI-designed scaffold, researchers mapped how Andes hantavirus engages a receptor on human cells. The findings explain how antibodies block attachment and may highlight a potential target for antivira…",
+      "ts": 1792713003000,
+      "publishedAt": "2026-10-22T23:50:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Gilead to pay $45 million to settle kickback charges filed by Texas attorney general",
+      "url": "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss",
+      "summary": "Gilead Sciences agreed to pay $45 million to settle allegations of paying kickbacks that improperly influenced prescriptions paid for by the Texas Medicaid program",
+      "ts": 1792710737000,
+      "publishedAt": "2026-10-22T23:12:17.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
@@ -793,24 +811,6 @@
       "ts": 1792607756000,
       "publishedAt": "2026-10-21T18:35:56.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ASHG: Signals Based on Clinical Obesity Show Stronger Links to Cardiovascular Health than Those Linked to BMI",
-      "url": "https://www.genengnews.com/topics/drug-discovery/ashg-signals-based-on-clinical-obesity-show-stronger-links-to-cardiovascular-health-than-those-linked-to-bmi/",
-      "summary": "Researchers also developed a clinical obesity polygenic score that combined information from numerous genetic variants, a score that was shown to be significantly associated with BMI, body fat percentage, and waist circu…",
-      "ts": 1792607456000,
-      "publishedAt": "2026-10-21T18:30:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Using AI Agents and Bio-Foundation Models to Automate Vector Design for Cell Line Development",
-      "url": "https://www.genengnews.com/multimedia/webinars/using-ai-agents-and-bio-foundation-models-to-automate-vector-design-for-cell-line-development/",
-      "summary": "In this GEN webinar, Asimov’s VP of Business Development and Commercial Strategy Jamie Freeman, PhD, will show how Asimov combines bio-foundation models, AI agents, and synthetic biology to tailor expression vector desig…",
-      "ts": 1792606458000,
-      "publishedAt": "2026-10-21T18:14:18.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

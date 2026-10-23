@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-10-22T22:11:21.564Z",
+  "updated": "2026-10-23T01:19:17.718Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New test measures potentially harmful metals in cellulose food packaging",
+      "url": "https://phys.org/news/2026-10-potentially-metals-cellulose-food-packaging.html",
+      "summary": "A technique for detecting potentially harmful metals in regenerated cellulose food packaging is discussed in the International Journal of Environment and Pollution. The new tool can be used for safety assessments of mate…",
+      "ts": 1792717201000,
+      "publishedAt": "2026-10-23T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Autonomous triangular modules could build tomorrow's mega-observatories",
+      "url": "https://phys.org/news/2026-10-autonomous-triangular-modules-tomorrow-mega.html",
+      "summary": "Private companies are getting better at launching more mass into space with larger rockets. But there is still a major constraint on the size of objects we can get into orbit—fairing size. This places physical constraint…",
+      "ts": 1792716001000,
+      "publishedAt": "2026-10-23T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop AI tool to map microRNA binding sites on circular RNAs",
+      "url": "https://phys.org/news/2026-10-ai-tool-microrna-sites-circular.html",
+      "summary": "Circular RNAs (circRNAs) are loop-shaped molecules that can influence gene regulation through interactions with microRNAs (miRNAs). This matters because circRNAs can exist as different full-length isoforms, and their bac…",
+      "ts": 1792714801000,
+      "publishedAt": "2026-10-23T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Acupuncture and mutual exchange in Chinese and Soviet science",
+      "url": "https://phys.org/news/2026-10-acupuncture-mutual-exchange-chinese-soviet.html",
+      "summary": "Previous accounts of the scientific relationship between communist China and the Soviet Union have depicted it as one of subordination, with the Russians exporting knowledge to the Chinese or scavenging from their bodies…",
+      "ts": 1792713605000,
+      "publishedAt": "2026-10-23T00:00:05.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Illusory disagreement over socialism and capitalism in the United States and Brazil",
+      "url": "https://www.nature.com/articles/s41467-026-78853-7",
+      "summary": "",
+      "ts": 1792713600000,
+      "publishedAt": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-activated catalyst makes sustainable production of hydrogen peroxide more efficient",
+      "url": "https://phys.org/news/2026-10-catalyst-sustainable-production-hydrogen-peroxide.html",
+      "summary": "Hydrogen peroxide (H₂O₂) is a versatile chemical feedstock whose industrial production relies predominantly on an energy-intensive process with a substantial environmental footprint. One alternative is to produce it usin…",
+      "ts": 1792712406000,
+      "publishedAt": "2026-10-22T23:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Material substitution can increase the potential environmental impact of packaging systems",
+      "url": "https://phys.org/news/2026-10-material-substitution-potential-environmental-impact.html",
+      "summary": "New research suggests that replacing polyethylene (PE) packaging with paper, glass, aluminum or steel often does not reduce environmental impacts across a product's life cycle.",
+      "ts": 1792712401000,
+      "publishedAt": "2026-10-22T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What is a neutrino anyway? A look at the science behind this year's Nobel Prize in Physics",
+      "url": "https://phys.org/news/2026-10-neutrino-science-year-nobel-prize.html",
+      "summary": "If you wanted a Nobel Prize, you would do well to study neutrinos. To date, the Nobel Prize in Physics has been awarded five times to research related to neutrino detection and discovery. This year, Francis Halzen earned…",
+      "ts": 1792711801000,
+      "publishedAt": "2026-10-22T23:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "With climate-resilient crops in mind, study tackles flaw in photosynthesis",
+      "url": "https://phys.org/news/2026-10-climate-resilient-crops-mind-tackles.html",
+      "summary": "Rising temperatures and increasing drought are shortening crop-growing seasons in many parts of the world. Now scientists in Sweden report new advances toward engineering more efficient photosynthesis, work that could ev…",
+      "ts": 1792711201000,
+      "publishedAt": "2026-10-22T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Revamped playground design could protect children around the world from dangers of the sun",
+      "url": "https://phys.org/news/2026-10-revamped-playground-children-world-dangers.html",
+      "summary": "A new design methodology for school playgrounds is demonstrating how children can still enjoy their playtime while being protected from the harmful effects of the sun.",
+      "ts": 1792710601000,
+      "publishedAt": "2026-10-22T23:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrafast light pulses track molecular motion with three-femtosecond resolution",
+      "url": "https://phys.org/news/2026-10-ultrafast-pulses-track-molecular-motion.html",
+      "summary": "Researchers have observed a molecule in the first instants after it has absorbed light and tracked the coordinated motion of electrons and nuclei with a temporal resolution of three femtoseconds. This is the result achie…",
+      "ts": 1792710002000,
+      "publishedAt": "2026-10-22T23:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shrinking iron films strengthens laser-driven demagnetization",
+      "url": "https://phys.org/news/2026-10-iron-laser-driven-demagnetization.html",
+      "summary": "From photos and videos to documents, vast amounts of data are stored on hard drives in large data centers. These devices use tiny magnetic regions whose orientation determines the information stored. But how could data b…",
+      "ts": 1792708810000,
+      "publishedAt": "2026-10-22T22:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researcher tackles impact of a CMO's life events on businesses' bottom line",
+      "url": "https://phys.org/news/2026-10-tackles-impact-cmo-life-events.html",
+      "summary": "When a major company's CEO goes through a messy divorce or is arrested for drunk driving, investors often get nervous, worried that the executive's personal struggles will dent their returns. But most people hardly notic…",
+      "ts": 1792708801000,
+      "publishedAt": "2026-10-22T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global database provides a fuller picture of the elements that make up plant life",
+      "url": "https://phys.org/news/2026-10-global-database-fuller-picture-elements.html",
+      "summary": "What, exactly, is a plant made of? Scientists have a good understanding of the essential nutrients plants need to grow. But what plants need and what they contain are not necessarily the same.",
+      "ts": 1792707611000,
+      "publishedAt": "2026-10-22T22:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brazil's presidential elections linked to decades of fluctuating environmental destruction—study",
+      "url": "https://phys.org/news/2026-10-brazil-presidential-elections-linked-decades.html",
+      "summary": "A University of Cambridge–led analysis of maps made from satellite imagery covering over three decades and seven presidents shows how the winner of Brazil's national elections since 1990 directly affected the preservatio…",
+      "ts": 1792707607000,
+      "publishedAt": "2026-10-22T22:20:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Supramolecular assembly opens a new route to building quantum materials",
@@ -579,6 +699,22 @@
       "publishedAt": "2026-10-22T11:00:04.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Nontrivial Boundary-Mediated Superconducting Transport in a TRSB Topological Iron-Based Superconductor",
+      "url": "http://link.aps.org/doi/10.1103/8vgt-twh5",
+      "summary": "Author(s): Wenyao Liu et al. Edge-mediated nonlocal transport measurements in thin Fe(Te,Se) devices reveal a robust conductance plateau governed by spontaneous magnetic ordering. [Phys. Rev. X 16, 041022] Published Thu …",
+      "ts": 1792663200000,
+      "publishedAt": "2026-10-22T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Cosmological and High-Energy Physics Implications from Gravitational-Wave Background Searches in LIGO-Virgo-KAGRA’s O1–O4a Runs",
+      "url": "http://link.aps.org/doi/10.1103/dlfv-z6m2",
+      "summary": "Author(s): A. G. Abac et al. (LIGO Scientific Collaboration, Virgo Collaboration, and KAGRA Collaboration) Numerous well-motivated particle-physics-based models are constrained using the most recent LIGO-Virgo gravitatio…",
+      "ts": 1792663200000,
+      "publishedAt": "2026-10-22T10:00:00.000Z"
+    },
+    {
       "source": "APS PR Applied",
       "title": "Transition metal–functionalized BO monolayers as promising catalysts for the hydrogen-evolution reaction: A first-principles perspective",
       "url": "http://link.aps.org/doi/10.1103/3bz4-fvrz",
@@ -663,142 +799,6 @@
       "title": "Model-based computational study of reactive fluid systems using transfer operator methods",
       "url": "https://arxiv.org/abs/2610.28635",
       "summary": "arXiv:2610.28635v1 Announce Type: new Abstract: In many industrial applications one aims for the design of efficient chemical reactions. This is often done using experimental analysis of the reactors in combination with …",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Background-Limited Silicon Telescope Methodology for Weak Internal Pair Creation Transition in Low-Energy Deuteron-Deuteron Reactions",
-      "url": "https://arxiv.org/abs/2610.28645",
-      "summary": "arXiv:2610.28645v1 Announce Type: new Abstract: A background-constrained silicon-telescope methodology has been developed to investigate recently observed internal electron-positron pair creation in low-energy deuteron-d…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fermionic Condensation as the Universal Order Parameter for Mass Generation",
-      "url": "https://arxiv.org/abs/2610.28654",
-      "summary": "arXiv:2610.28654v1 Announce Type: new Abstract: A fermion bilinear acquiring a non-zero vacuum expectation value and generating a mass gap underlies the Peierls instability, BCS superconductivity, the Nambu--Jona-Lasinio…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Viscous matter in modified $f(R)$-gravity: Hubble tension attenuation with DESI and SH0ES data",
-      "url": "https://arxiv.org/abs/2610.28659",
-      "summary": "arXiv:2610.28659v1 Announce Type: new Abstract: We study the late-time dynamics of the Universe in a modified metric $f(R)$ gravity model formulated in the Jordan frame. The standard $\\Lambda$CDM model is additionally de…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Recovering What Breaks in a Trapped-Ion Quantum Simulation of a Lattice Gauge Theory",
-      "url": "https://arxiv.org/abs/2610.28660",
-      "summary": "arXiv:2610.28660v1 Announce Type: new Abstract: A recent trapped-ion experiment realised a lattice gauge theory with the gauge field in the internal states of the ions and bosonic matter in their vibrations. We showed ea…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Swampland diagnostics and observational tests of the inflationary universe in the Palatini formalism",
-      "url": "https://arxiv.org/abs/2610.28661",
-      "summary": "arXiv:2610.28661v1 Announce Type: new Abstract: We consider quintessential inflation in a quadratic Palatini model with a generalized Peebles-Vilenkin potential, where the same scalar field describes both the inflationar…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A general criterion to compare metric and Palatini formulations with arbitrary non-minimal couplings: the case of Natural Inflation",
-      "url": "https://arxiv.org/abs/2610.28662",
-      "summary": "arXiv:2610.28662v1 Announce Type: new Abstract: We study Natural Inflation with several types of non-minimal couplings to gravity in metric and Palatini formalisms, focusing on how the choice of gravitational formulation…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cosmological Bounds on the Generalized Uncertainty Principle from the CMB",
-      "url": "https://arxiv.org/abs/2610.28664",
-      "summary": "arXiv:2610.28664v1 Announce Type: new Abstract: We constrain the deformation parameter $\\beta$ of the Generalized Uncertainty Principle with cosmological observations. A quadratic deformation of the Heisenberg uncertaint…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Eclipse Observables for Navigation in Cislunar Space",
-      "url": "https://arxiv.org/abs/2610.28669",
-      "summary": "arXiv:2610.28669v1 Announce Type: new Abstract: Autonomous navigation independent of Earth-based tracking remains a challenge for spacecraft operating in cislunar space. This paper proposes onboard eclipse detection as a…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Online Seakeeping Forecast Coupling System Identification With Nonlinear Pseudo Spectral Potential-Flow",
-      "url": "https://arxiv.org/abs/2610.28694",
-      "summary": "arXiv:2610.28694v1 Announce Type: new Abstract: This paper presents a grey-box framework for a robust deterministic, real-time prediction of coupled surge-heave-pitch motion in waves. The approach combines a physics-base…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Catalog of Dispersive Ionospheric and Plasmaspheric Arcs from Cislunar and Lunar-surface GNSS Radio Occultations",
-      "url": "https://arxiv.org/abs/2610.28695",
-      "summary": "arXiv:2610.28695v1 Announce Type: new Abstract: This dataset is a catalog of 263 dispersive arcs induced by ionospheric and plasmaspheric occultation observed in GNSS signals recorded by the Lunar GNSS Receiver Experimen…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards a Complete Kerr Soft-Hair Theory: Integrability, Counterterm Equivalence,and Quantum State Counting",
-      "url": "https://arxiv.org/abs/2610.28700",
-      "summary": "arXiv:2610.28700v1 Announce Type: new Abstract: The horizon symmetry construction of Haco, Hawking, Perry, and Strominger yield two Virasoro central charges 12J after a specified Wald-Zoupas correction. Turning that calc…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tetrads and their intrinsic spin structures",
-      "url": "https://arxiv.org/abs/2610.28713",
-      "summary": "arXiv:2610.28713v1 Announce Type: new Abstract: In Minkowski spacetime an observer's moving frame may be associated with a tetrad: four orthogonal directions, one timelike and three spacelike. Locally, a physical measure…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gibbs and Einstein in 1902: Parallel Constructions in Statistical Mechanics",
-      "url": "https://arxiv.org/abs/2610.28764",
-      "summary": "arXiv:2610.28764v1 Announce Type: new Abstract: This article reexamines the striking conceptual and formal parallels between Josiah Willard Gibbs Elementary Principles in Statistical Mechanics and Albert Einstein first p…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Second-Order Nonlinear Microresonators on Thin-Film Lithium Tantalate",
-      "url": "https://arxiv.org/abs/2610.28777",
-      "summary": "arXiv:2610.28777v1 Announce Type: new Abstract: Nonlinear frequency conversion enables coherent light generation in spectral regions that conventional lasers cannot reach directly and is foundational to the generation of…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CRAFT-{\\epsilon}: A Conformer-Resolved Atom- and Fragment-based Theory for the Static Relative Permittivity of Pure Organic Liquids",
-      "url": "https://arxiv.org/abs/2610.28850",
-      "summary": "arXiv:2610.28850v1 Announce Type: new Abstract: The static relative permittivity is an important property in thermodynamic modeling, electrochemistry, and solvent design, but predicting it directly from molecular structu…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comprehensive Acoustic Characterization of a Broadband Lateral MEMS Ultrasonic Transducer by Near-Field Acoustic Holography and Coupled Multiphysics Simulation",
-      "url": "https://arxiv.org/abs/2610.28868",
-      "summary": "arXiv:2610.28868v1 Announce Type: new Abstract: Broadband airborne ultrasonic transducers are attractive for applications such as ranging, echo-location, and acoustic material characterization, where wide bandwidths enab…",
-      "ts": 1792641600000,
-      "publishedAt": "2026-10-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a Prototype Superconducting Radio-Frequency Multicell Cavity for Compact, Conduction-Cooled Accelerators",
-      "url": "https://arxiv.org/abs/2610.28870",
-      "summary": "arXiv:2610.28870v1 Announce Type: new Abstract: Jefferson Lab and General Atomics are jointly advancing compact, high-power irradiation systems capable of delivering electron-beam powers in the hundreds of kilowatts base…",
       "ts": 1792641600000,
       "publishedAt": "2026-10-22T04:00:00.000Z"
     }
