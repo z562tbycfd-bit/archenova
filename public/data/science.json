@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-24T20:31:36.556Z",
+  "updated": "2026-10-24T22:58:34.733Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
+      "url": "https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html",
+      "summary": "Raw, grilled, roasted, stuffed—there are many ways to enjoy bell peppers, also called capsicums, sweet peppers or paprika. Bell peppers originated in Central and South America and belong to the nightshade family along wi…",
+      "ts": 1792875607000,
+      "publishedAt": "2026-10-24T21:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tests reveal why titanium additions do not fully prevent pitting corrosion in stainless steel",
+      "url": "https://phys.org/news/2026-10-reveal-titanium-additions-fully-pitting.html",
+      "summary": "Stainless steel is widely used for its corrosion resistance, but it is not invincible. In environments containing chloride ions, such as seawater, pitting corrosion can occur. These pits often start at tiny particles cal…",
+      "ts": 1792875601000,
+      "publishedAt": "2026-10-24T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
@@ -783,22 +799,6 @@
       "title": "Reconfigurable Free-Space Optical Interconnects",
       "url": "https://arxiv.org/abs/2610.30757",
       "summary": "arXiv:2610.30757v1 Announce Type: new Abstract: Free-space optical interconnects can support many low-data-rate channels while avoiding the cost, energy consumption, and packaging constraints of optical waveguide- or fib…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Advancing oxygen-enhanced MRI acquisition and modelling through dynamic ${\\Delta}R_{1}$ and ${\\Delta}R_2^*$ sensing",
-      "url": "https://arxiv.org/abs/2610.30793",
-      "summary": "arXiv:2610.30793v1 Announce Type: new Abstract: Purpose: To develop a multiparametric mapping framework for quantifying fat- and water-specific longitudinal and effective transverse relaxation rates, as well as changes i…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Drift Waves and Electrostatic Density Cavities in Upper Ionosphere",
-      "url": "https://arxiv.org/abs/2610.30826",
-      "summary": "arXiv:2610.30826v1 Announce Type: new Abstract: Nonlinear drift waves are investigated to explain the mechanism for the creation of one dimensional (1D) and two dimensional (2D) electrostatic density cavities in the pres…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
