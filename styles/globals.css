@@ -67494,9 +67494,9 @@ main#home-top.an-home-2026.archenova-twin-home
   background:
     linear-gradient(
       155deg,
-      rgba(0, 0, 0, 0.95) 0%,
-      rgba(1, 2, 3, 0.97) 48%,
-      rgba(0, 0, 0, 0.98) 100%
+      rgba(0, 0, 0, 0.96) 0%,
+      rgba(1, 2, 3, 0.98) 48%,
+      rgba(0, 0, 0, 0.99) 100%
     ) !important;
 
   border:
@@ -69996,3 +69996,19 @@ main#home-top.an-home-2026.archenova-twin-home
 
 
 
+
+/* ==========================================================
+   ARCHENOVA HOME — FOOTER BLACK EDGE ONLY
+   Preserve all other HOME section borders
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home
+> .an-home-footer {
+  border:
+    1px solid rgba(0, 0, 0, 0.98)
+    !important;
+
+  border-color:
+    rgba(0, 0, 0, 0.98)
+    !important;
+}
