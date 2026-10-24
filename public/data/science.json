@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-24T00:21:52.129Z",
+  "updated": "2026-10-24T05:30:13.216Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Surveying the genetic battlefield to uncover the rules of rapid evolution",
+      "url": "https://phys.org/news/2026-10-surveying-genetic-battlefield-uncover-rapid.html",
+      "summary": "The Malik Lab thrives on competition. But for HHMI investigator Harmit Malik and his team at the Fred Hutchinson Cancer Center, it's the genomes—not the people—that are in conflict. The lab studies rapid evolution—the ge…",
+      "ts": 1792812002000,
+      "publishedAt": "2026-10-24T03:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Child-led citizen science helps Ecuadorian community tackle beach pollution and shape environmental decisions",
+      "url": "https://phys.org/news/2026-10-child-citizen-science-ecuadorian-community.html",
+      "summary": "Pollution from human-generated waste in marine ecosystems has reached critical levels, with cigarette butts (CBs) among the most persistent and harmful pollutants. Globally, an estimated 4.5 trillion cigarette butts are …",
+      "ts": 1792808401000,
+      "publishedAt": "2026-10-24T02:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Habitat explains Finnish animal distributions better than climate, study finds",
+      "url": "https://phys.org/news/2026-10-habitat-finnish-animal-climate.html",
+      "summary": "Researchers at the University of Helsinki wanted to understand which is the dominant factor for species occurrence and abundance: the climate or habitat-related variables, such as their natural state and the share of lan…",
+      "ts": 1792803602000,
+      "publishedAt": "2026-10-24T01:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Power cuts and sleep: Students link load shedding to anxiety, disrupted rest and lower grades",
@@ -775,30 +799,6 @@
       "title": "Efficient third-harmonic generation in high-Q tantalum pentoxide microcavities",
       "url": "https://arxiv.org/abs/2610.30579",
       "summary": "arXiv:2610.30579v1 Announce Type: new Abstract: Nonlinear harmonic generation in microcavities offers a compelling route toward energy efficient on-chip short-wavelength coherent light sources, enabled by tight optical c…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Supercoiling Drives DNA-Protein Co-Condensation",
-      "url": "https://arxiv.org/abs/2610.30588",
-      "summary": "arXiv:2610.30588v1 Announce Type: new Abstract: The co-condensation of DNA and proteins plays an important role in genome compaction, including heterochromatin formation and chromosome segregation. Meanwhile, transcripti…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Alignment-Free Optical Combining with Scalar-Message Expectation Propagation Detection for Distributed Multi-Aperture Coherent Reception",
-      "url": "https://arxiv.org/abs/2610.30600",
-      "summary": "arXiv:2610.30600v1 Announce Type: new Abstract: We propose an alignment-free distributed multi-aperture optical receiver with a single coherent front end, in which the differential delays between apertures are large. The…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Metasurface engineering of transient photothermal responses for vibrational imaging at living interfaces",
-      "url": "https://arxiv.org/abs/2610.30610",
-      "summary": "arXiv:2610.30610v1 Announce Type: new Abstract: Chemical transformations at biological interfaces are central to cellular function, yet the weak vibrational signals associated with subtle molecular changes limit their sp…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }

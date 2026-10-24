@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-24T00:21:55.673Z",
+  "updated": "2026-10-24T05:30:17.131Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+      "summary": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1792814700000,
+      "publishedAt": "2026-10-24T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
@@ -801,15 +810,6 @@
       "summary": "MAHA allies and nutrition experts want the Trump administration to act on ultra-processed foods before the elections.",
       "ts": 1792692287000,
       "publishedAt": "2026-10-22T18:04:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Top MAHA adviser Calley Means resigns from White House days ahead of midterms",
-      "url": "https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss",
-      "summary": "The surprising departure of Calley Means comes just before an election that may serve as a referendum on the MAHA movement.",
-      "ts": 1792691529000,
-      "publishedAt": "2026-10-22T17:52:09.000Z",
       "categoryId": "bio"
     }
   ],
