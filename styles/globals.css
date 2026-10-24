@@ -67494,8 +67494,8 @@ main#home-top.an-home-2026.archenova-twin-home
   background:
     linear-gradient(
       155deg,
-      rgba(0, 0, 0, 0.96) 0%,
-      rgba(1, 2, 3, 0.98) 48%,
+      rgba(0, 0, 0, 0.99) 0%,
+      rgba(1, 2, 3, 0.99) 48%,
       rgba(0, 0, 0, 0.99) 100%
     ) !important;
 
@@ -70005,10 +70005,10 @@ main#home-top.an-home-2026.archenova-twin-home
 main#home-top.an-home-2026.archenova-twin-home
 > .an-home-footer {
   border:
-    1px solid rgba(0, 0, 0, 0.98)
+    1px solid rgba(0, 0, 0, 0.99)
     !important;
 
   border-color:
-    rgba(0, 0, 0, 0.98)
+    rgba(0, 0, 0, 0.99)
     !important;
 }
