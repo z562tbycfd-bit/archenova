@@ -69918,76 +69918,35 @@ main#home-top.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   ARCHENOVA HOME — UNIFIED OBSIDIAN BLACK EDGES
-   2026
+   ARCHENOVA HOME — OBSIDIAN EDGE REFINEMENT
 
-   Scope:
-   - HOME section outer frames
-   - HOME footer outer frame
-
-   Preserve:
-   - Background and opacity
-   - Blur and glass appearance
-   - Width, height and spacing
-   - Animations and transitions
-   - Scroll and interactions
+   Darken outer section borders only.
+   Preserve internal cards, icons, controls and animations.
 ========================================================== */
 
-main#home-top.an-home-2026.archenova-twin-home {
-  --an-obsidian-edge:
-    rgba(22, 24, 28, 0.72);
-
-  --an-obsidian-reflection:
-    rgba(255, 255, 255, 0.012);
-
-  --an-obsidian-shadow:
-    rgba(0, 0, 0, 0.30);
-}
-
-/* 01 — ALL HOME SECTION OUTER FRAMES */
-
 main#home-top.an-home-2026.archenova-twin-home
-> section.an-home-2026__section {
-  border:
-    1px solid var(--an-obsidian-edge)
-    !important;
-
-  box-shadow:
-    inset 0 1px 0 var(--an-obsidian-reflection),
-    inset 0 -1px 0 var(--an-obsidian-shadow)
-    !important;
-}
-
-/* 02 — WORLD GALLERY OUTER FRAME */
-
+> section.an-home-2026__section,
 main#home-top.an-home-2026.archenova-twin-home
-> section#archenova-world.an-world-gallery {
-  border:
-    1px solid var(--an-obsidian-edge)
-    !important;
-
-  box-shadow:
-    inset 0 1px 0 var(--an-obsidian-reflection),
-    inset 0 -1px 0 var(--an-obsidian-shadow)
-    !important;
-}
-
-/* 03 — HOME FOOTER OUTER FRAME */
-
+> section#archenova-world.an-world-gallery,
 main#home-top.an-home-2026.archenova-twin-home
 > .an-home-footer {
-  border:
-    1px solid var(--an-obsidian-edge)
-    !important;
+  border-color:
+    rgba(255, 255, 255, 0.018) !important;
 
   box-shadow:
-    inset 0 1px 0 var(--an-obsidian-reflection),
-    inset 0 -1px 0 var(--an-obsidian-shadow)
+    inset 0 1px 0 rgba(255, 255, 255, 0.012),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.20)
     !important;
 }
 
+/* Footer internal divider: soften the bright top edge */
 
-
+main#home-top.an-home-2026.archenova-twin-home
+> .an-home-footer
+> .an-home-footer__inner {
+  border-top-color:
+    rgba(255, 255, 255, 0.018) !important;
+}
 
 
 
