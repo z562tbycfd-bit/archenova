@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-23T21:54:41.684Z",
+  "updated": "2026-10-24T00:21:52.129Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Power cuts and sleep: Students link load shedding to anxiety, disrupted rest and lower grades",
+      "url": "https://phys.org/news/2026-10-power-students-link-anxiety-disrupted.html",
+      "summary": "South Africa endured its worst year of load shedding (scheduled power cuts by the country's utility, Eskom) in 2023. The power went off on 335 of the year's 365 days, often several times a day. Since then, the country ha…",
+      "ts": 1792798804000,
+      "publishedAt": "2026-10-23T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Glowing plants reveal immune responses around infection sites via two colors",
+      "url": "https://phys.org/news/2026-10-reveal-immune-responses-infection-sites.html",
+      "summary": "Researchers at the MRC Laboratory of Medical Sciences (LMS) have developed a new way to make glowing biological reporters more accurate, allowing scientists to track gene activity in living plants over days, weeks and po…",
+      "ts": 1792797601000,
+      "publishedAt": "2026-10-23T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study maps the human side of flood risk",
+      "url": "https://phys.org/news/2026-10-human-side.html",
+      "summary": "When heavy rain hits a city, knowing where water will accumulate is only part of the picture. Who lives in the affected buildings? How might flooding disrupt their lives? And where could additional support make the great…",
+      "ts": 1792794002000,
+      "publishedAt": "2026-10-23T22:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Counting magnetic flux quanta offers new way to measure photon numbers",
@@ -515,6 +539,22 @@
       "publishedAt": "2026-10-23T11:10:04.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Toward Complete Characterization of Topological Insulators and Superconductors: A Systematic Construction of Topological Invariants Based on Atiyah-Hirzebruch Spectral Sequence",
+      "url": "http://link.aps.org/doi/10.1103/2rw7-bzl4",
+      "summary": "Author(s): Seishiro Ono and Ken Shiozaki A framework based on the Atiyah-Hirzebruch spectral sequence in momentum space yields topological invariants that classify stable superconducting phases across 159 space groups. […",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Quantum Advantage for Sensing Properties of Classical Fields",
+      "url": "http://link.aps.org/doi/10.1103/6ps1-mw9l",
+      "summary": "Author(s): Jordan Cotler, Daine L. Danielson, and Ishaan Kannan Researchers demonstrate a quantum sensing protocol that uses entanglement and squeezing to learn diverse classical signal properties with subvacuum precisio…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "Just 3% of the world's glaciers account for over half of glacier ice loss",
       "url": "https://phys.org/news/2026-10-world-glaciers-account-glacier-ice.html",
@@ -759,46 +799,6 @@
       "title": "Metasurface engineering of transient photothermal responses for vibrational imaging at living interfaces",
       "url": "https://arxiv.org/abs/2610.30610",
       "summary": "arXiv:2610.30610v1 Announce Type: new Abstract: Chemical transformations at biological interfaces are central to cellular function, yet the weak vibrational signals associated with subtle molecular changes limit their sp…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental evidence of forward energy transfer induced by core-edge coupling in multiscale tokamak turbulence",
-      "url": "https://arxiv.org/abs/2610.30638",
-      "summary": "arXiv:2610.30638v1 Announce Type: new Abstract: Turbulence in magnetically confined plasmas is inherently quasi-two-dimensional and can exhibit both inverse and forward energy transfer across scales. Experimental evidenc…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Venus to the Parking Lot: A Flexible Stellar Interferometry Experiment",
-      "url": "https://arxiv.org/abs/2610.30669",
-      "summary": "arXiv:2610.30669v1 Announce Type: new Abstract: We describe a simple extension of our earlier Venus interferometry demonstration that can be performed indoors or outdoors, independent of planetary visibility or atmospher…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-gravitating isothermal equilibria in Eddington-inspired Born--Infeld gravity: exact planar sheets and the Bonnor--Ebert critical mass",
-      "url": "https://arxiv.org/abs/2610.30716",
-      "summary": "arXiv:2610.30716v1 Announce Type: new Abstract: We study self-gravitating fluid equilibria in the Newtonian limit of Eddington-inspired Born--Infeld (EiBI) gravity, in which the Poisson equation acquires a term proportio…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Core-periphery structure induces double phase transitions in information cascades",
-      "url": "https://arxiv.org/abs/2610.30745",
-      "summary": "arXiv:2610.30745v1 Announce Type: new Abstract: Double phase transitions in spreading processes are commonly associated with additional dynamical or structural complexity. Here, we show that such transitions can emerge n…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconfigurable Free-Space Optical Interconnects",
-      "url": "https://arxiv.org/abs/2610.30757",
-      "summary": "arXiv:2610.30757v1 Announce Type: new Abstract: Free-space optical interconnects can support many low-data-rate channels while avoiding the cost, energy consumption, and packaging constraints of optical waveguide- or fib…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }

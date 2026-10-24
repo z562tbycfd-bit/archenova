@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-10-23T21:54:44.676Z",
+  "updated": "2026-10-24T00:21:55.673Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+      "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+      "summary": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the des…",
+      "ts": 1792795179000,
+      "publishedAt": "2026-10-23T22:39:39.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+      "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "summary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, …",
+      "ts": 1792795073000,
+      "publishedAt": "2026-10-23T22:37:53.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+      "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+      "summary": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the…",
+      "ts": 1792792279000,
+      "publishedAt": "2026-10-23T21:51:19.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Nov. 5: Satellite Mission Management at the Edge",
@@ -202,6 +229,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
+      "summary": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Blood brothers: WHO chief joins ENHYPEN to celebrate drive success",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168662",
+      "summary": "The head of the World Health Organization (WHO) is a self-confessed fan of K-pop sensation ENHYPEN and this week, he got the chance to tell them so in person.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
       "summary": "The UN said on Friday it was “extremely alarmed” by intensifying violence in the occupied West Bank, as Israel moved to seal off the territory following a deadly attack on its soldiers in Hebron.",
@@ -366,7 +411,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 23 – Andromeda in Southern Spring",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
-      "summary": "APOD Science APOD APOD: 2026 October 23 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "summary": "APODScienceAPODAPOD: 2026 October 23 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fasc…",
       "ts": 1792728300000,
       "publishedAt": "2026-10-23T04:05:00.000Z",
       "categoryId": "space"
@@ -765,51 +810,6 @@
       "summary": "The surprising departure of Calley Means comes just before an election that may serve as a referendum on the MAHA movement.",
       "ts": 1792691529000,
       "publishedAt": "2026-10-22T17:52:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Nvidia, UW Institute for Protein Design Unveil Open-Source Protein Design AI Model",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-uw-institute-for-protein-design-unveil-open-source-protein-design-ai-model/",
-      "summary": "RFD4-Proteina is an open model based on Nvidia’s NVIDIA BioNeMo™ artificial intelligence (AI) platform for chemistry and biology that combines programmable protein design with search capabilities. RFD4-Proteina generates…",
-      "ts": 1792691292000,
-      "publishedAt": "2026-10-22T17:48:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "PerturbAI and OpenAI Launch AI Reasoning Agents for Biomedical Discovery",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/perturbai-and-openai-launch-ai-reasoning-agents-for-biomedical-discovery/",
-      "summary": "A year-long collaboration involving scientists at PerturbAI, OpenAI, and their other institutions yielded an AI reasoning framework that turns datasets into testable hypotheses, with thousands of agents analyzing whole-b…",
-      "ts": 1792690424000,
-      "publishedAt": "2026-10-22T17:33:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ASHG President Susan Slaugenhaupt Calls for Hope, Leadership, and Communication in Science",
-      "url": "https://www.genengnews.com/topics/omics/ashg-president-susan-slaugenhaupt-calls-for-hope-leadership-and-communication-in-science/",
-      "summary": "ASHG President Susan Slaugenhaupt, PhD, opened the society’s Montreal meeting with a heartfelt address emphasizing hope, leadership, and the importance of communication amid the challenges facing science today. The post …",
-      "ts": 1792687385000,
-      "publishedAt": "2026-10-22T16:43:05.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses ",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
-      "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
-      "ts": 1792686037000,
-      "publishedAt": "2026-10-22T16:20:37.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Will the Treasury restrict U.S. investment in the Chinese biotech sector?",
-      "url": "https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/?utm_campaign=rss",
-      "summary": "Rumors are swirling that the Treasury Department this week is going to propose a rule that restricts U.S. investment in the Chinese biotech sector.",
-      "ts": 1792685823000,
-      "publishedAt": "2026-10-22T16:17:03.000Z",
       "categoryId": "bio"
     }
   ],
