@@ -69902,3 +69902,98 @@ main#home-top.an-home-2026.archenova-twin-home
   overflow: hidden !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME — UNIFIED OBSIDIAN BLACK EDGES
+   2026
+
+   Scope:
+   - HOME section outer frames
+   - HOME footer outer frame
+
+   Preserve:
+   - Background and opacity
+   - Blur and glass appearance
+   - Width, height and spacing
+   - Animations and transitions
+   - Scroll and interactions
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home {
+  --an-obsidian-edge:
+    rgba(22, 24, 28, 0.72);
+
+  --an-obsidian-reflection:
+    rgba(255, 255, 255, 0.012);
+
+  --an-obsidian-shadow:
+    rgba(0, 0, 0, 0.30);
+}
+
+/* 01 — ALL HOME SECTION OUTER FRAMES */
+
+main#home-top.an-home-2026.archenova-twin-home
+> section.an-home-2026__section {
+  border:
+    1px solid var(--an-obsidian-edge)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 var(--an-obsidian-reflection),
+    inset 0 -1px 0 var(--an-obsidian-shadow)
+    !important;
+}
+
+/* 02 — WORLD GALLERY OUTER FRAME */
+
+main#home-top.an-home-2026.archenova-twin-home
+> section#archenova-world.an-world-gallery {
+  border:
+    1px solid var(--an-obsidian-edge)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 var(--an-obsidian-reflection),
+    inset 0 -1px 0 var(--an-obsidian-shadow)
+    !important;
+}
+
+/* 03 — HOME FOOTER OUTER FRAME */
+
+main#home-top.an-home-2026.archenova-twin-home
+> .an-home-footer {
+  border:
+    1px solid var(--an-obsidian-edge)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 var(--an-obsidian-reflection),
+    inset 0 -1px 0 var(--an-obsidian-shadow)
+    !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
