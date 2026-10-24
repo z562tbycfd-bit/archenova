@@ -68802,7 +68802,9 @@ main.an-home-2026.home-snap.archenova-twin-home
   margin: 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
-  border: 1px solid #242424 !important;
+  border:
+  1px solid rgba(12, 13, 15, 0.96)
+  !important;
   border-radius: 30px !important;
   background: linear-gradient(
     155deg,
@@ -68810,7 +68812,11 @@ main.an-home-2026.home-snap.archenova-twin-home
     rgba(1, 2, 3, .86) 48%,
     rgba(0, 0, 0, .90) 100%
   ) !important;
-  box-shadow: none !important;
+  box-shadow:
+  inset 0 1px 0 rgba(255, 255, 255, 0.010),
+  0 0 0 1px rgba(0, 0, 0, 0.40),
+  0 8px 28px rgba(0, 0, 0, 0.16)
+  !important;
   -webkit-backdrop-filter: blur(28px) saturate(70%) !important;
   backdrop-filter: blur(28px) saturate(70%) !important;
 }
@@ -69561,10 +69567,13 @@ main.an-home-2026.home-snap.archenova-twin-home
     --an-cs-content-gutter: 20px;
   }
   main.an-home-2026.home-snap.archenova-twin-home
-  > section#civilization-synthesis.an-home-2026__section {
-    border: 1px solid #202020 !important;
-    border-radius: 22px !important;
-  }
+> section#civilization-synthesis.an-home-2026__section {
+  border:
+    1px solid rgba(12, 13, 15, 0.96)
+    !important;
+
+  border-radius: 22px !important;
+}
   #civilization-synthesis .an-synthesis-home__content.an-synthesis-home__premium-layout {
     row-gap: 38px;
     padding-top: 100px;
