@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-10-24T01:58:49.438Z",
+  "updated": "2026-10-24T10:30:46.807Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Swinging virtual lightsabers and punching improve pattern-based learning in VR tests",
+      "url": "https://phys.org/news/2026-10-virtual-lightsabers-pattern-based-vr.html",
+      "summary": "Punching a virtual response box or swinging a virtual lightsaber can dramatically improve learning on certain tasks, according to new research from Florida Atlantic University's College of Engineering and Computer Scienc…",
+      "ts": 1792837201000,
+      "publishedAt": "2026-10-24T10:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Typhoon Champi knocks out power to thousands in Taiwan",
+      "url": "https://phys.org/news/2026-10-typhoon-champi-power-thousands-taiwan.html",
+      "summary": "Emergency crews scrambled on Saturday to restore power to tens of thousands of homes in Taiwan after Typhoon Champi's fierce winds battered the island, with the storm moving toward China and Japan.",
+      "ts": 1792834801000,
+      "publishedAt": "2026-10-24T09:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA adopting Apollo's urgency to build a moon base and land astronauts within 2 years",
+      "url": "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
+      "summary": "NASA is moving fast on its plans to build a moon base and return astronauts to the lunar surface in as little as two years.",
+      "ts": 1792834080000,
+      "publishedAt": "2026-10-24T09:28:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Surveying the genetic battlefield to uncover the rules of rapid evolution",
+      "url": "https://phys.org/news/2026-10-surveying-genetic-battlefield-uncover-rapid.html",
+      "summary": "The Malik Lab thrives on competition. But for HHMI investigator Harmit Malik and his team at the Fred Hutchinson Cancer Center, it's the genomes—not the people—that are in conflict. The lab studies rapid evolution—the ge…",
+      "ts": 1792812002000,
+      "publishedAt": "2026-10-24T03:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Child-led citizen science helps Ecuadorian community tackle beach pollution and shape environmental decisions",
+      "url": "https://phys.org/news/2026-10-child-citizen-science-ecuadorian-community.html",
+      "summary": "Pollution from human-generated waste in marine ecosystems has reached critical levels, with cigarette butts (CBs) among the most persistent and harmful pollutants. Globally, an estimated 4.5 trillion cigarette butts are …",
+      "ts": 1792808401000,
+      "publishedAt": "2026-10-24T02:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Habitat explains Finnish animal distributions better than climate, study finds",
@@ -275,6 +315,22 @@
       "publishedAt": "2026-10-23T13:00:00.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Toward Complete Characterization of Topological Insulators and Superconductors: A Systematic Construction of Topological Invariants Based on Atiyah-Hirzebruch Spectral Sequence",
+      "url": "http://link.aps.org/doi/10.1103/2rw7-bzl4",
+      "summary": "Author(s): Seishiro Ono and Ken Shiozaki A framework based on the Atiyah-Hirzebruch spectral sequence in momentum space yields topological invariants that classify stable superconducting phases across 159 space groups. […",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Quantum Advantage for Sensing Properties of Classical Fields",
+      "url": "http://link.aps.org/doi/10.1103/6ps1-mw9l",
+      "summary": "Author(s): Jordan Cotler, Daine L. Danielson, and Ishaan Kannan Researchers demonstrate a quantum sensing protocol that uses entanglement and squeezing to learn diverse classical signal properties with subvacuum precisio…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Entangling Ions with Engineered Light Gradients",
       "url": "http://link.aps.org/doi/10.1103/4smy-6w2n",
@@ -311,22 +367,6 @@
       "title": "Electronic Transport in Hexagonal-Boron-Nitride-Encapsulated Graphene Limited by Remote Phonon Scattering",
       "url": "http://link.aps.org/doi/10.1103/8yyp-vx4t",
       "summary": "Author(s): K. Dinar, F. Macheda, A. Guandalini, M. Paillet, C. Consejo, F. Teppe, B. Jouault, T. Sohier, and S. Nanot We study the impact of hexagonal boron nitride (hBN) phonons on the electrical resistivity of hBN-enca…",
-      "ts": 1792749600000,
-      "publishedAt": "2026-10-23T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Toward Complete Characterization of Topological Insulators and Superconductors: A Systematic Construction of Topological Invariants Based on Atiyah-Hirzebruch Spectral Sequence",
-      "url": "http://link.aps.org/doi/10.1103/2rw7-bzl4",
-      "summary": "Author(s): Seishiro Ono and Ken Shiozaki A framework based on the Atiyah-Hirzebruch spectral sequence in momentum space yields topological invariants that classify stable superconducting phases across 159 space groups. […",
-      "ts": 1792749600000,
-      "publishedAt": "2026-10-23T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Quantum Advantage for Sensing Properties of Classical Fields",
-      "url": "http://link.aps.org/doi/10.1103/6ps1-mw9l",
-      "summary": "Author(s): Jordan Cotler, Daine L. Danielson, and Ishaan Kannan Researchers demonstrate a quantum sensing protocol that uses entanglement and squeezing to learn diverse classical signal properties with subvacuum precisio…",
       "ts": 1792749600000,
       "publishedAt": "2026-10-23T10:00:00.000Z"
     },
@@ -759,46 +799,6 @@
       "title": "Quartz Crystal Microbalance impedance of discrete adsorbates with lubricated contact",
       "url": "https://arxiv.org/abs/2610.31220",
       "summary": "arXiv:2610.31220v1 Announce Type: new Abstract: We present a thorough theoretical investigation of the shear force exerted on a horizontal plate undergoing fast (MHz range) longitudinal oscillations in presence of a sphe…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fock-space relativistic coupled-cluster study of systematic shifts and fine-structure constant sensitivity in {\\rm Cf$^{17+}$}, {\\rm Cm$^{15+}$} and {\\rm Bk$^{16+}$} highly charged ions",
-      "url": "https://arxiv.org/abs/2610.31231",
-      "summary": "arXiv:2610.31231v1 Announce Type: new Abstract: Highly charged ions (HCIs) are among the most promising candidates proposed for the development of next-generation optical clocks and the precision tests of fundamental phy…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Precise Determination of Electric Dipole Polarizabilities of Sr Clock States Using Linear-Response and Equation-of-Motion Relativistic Coupled-Cluster Methods",
-      "url": "https://arxiv.org/abs/2610.31232",
-      "summary": "arXiv:2610.31232v1 Announce Type: new Abstract: We present accurate values of the electric dipole polarizabilities ($\\alpha$) of the ground and excited states of Sr using four-component relativistic coupled-cluster (RCC)…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cleaner air strengthens the Pacific trade winds without a detectable change in El Nino",
-      "url": "https://arxiv.org/abs/2610.31236",
-      "summary": "arXiv:2610.31236v1 Announce Type: new Abstract: Air quality policy will cut aerosol and ozone precursor emissions, and studies disagree on how the tropical Pacific circulation and the El Nino Southern Oscillation (ENSO) …",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AI Enhanced Cerenkov Luminescence Microscopy",
-      "url": "https://arxiv.org/abs/2610.31240",
-      "summary": "arXiv:2610.31240v1 Announce Type: new Abstract: Cerenkov Luminescence Microscopy (CLM) enables the visualization of radiotracer uptake in three-dimensional (3D) tumor spheroids but is limited by low photon statistics and…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Second- and third-order nonlinearities in silicon nitride waveguides via heterogeneous integration of lithium niobate membranes",
-      "url": "https://arxiv.org/abs/2610.31243",
-      "summary": "arXiv:2610.31243v1 Announce Type: new Abstract: Thick, dispersion-engineered silicon nitride is a leading platform for integrated third-order nonlinear optics, supporting supercontinuum and frequency comb generation. How…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
