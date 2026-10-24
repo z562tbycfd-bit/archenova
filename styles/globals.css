@@ -69918,41 +69918,72 @@ main#home-top.an-home-2026.archenova-twin-home
 
 
 /* ==========================================================
-   ARCHENOVA HOME — OBSIDIAN EDGE REFINEMENT
+   ARCHENOVA HOME — OBSIDIAN EDGE
+   DARK ARCHITECTURAL BOUNDARIES
 
-   Darken outer section borders only.
-   Preserve internal cards, icons, controls and animations.
+   Scope:
+   - HOME outer section frames
+   - HOME footer outer frame
+   - Preserve all internal components
 ========================================================== */
 
+
+/* ARCHENOVA — DEEPER OBSIDIAN EDGE */
+
+main#home-top.an-home-2026.archenova-twin-home {
+  --an-obsidian-edge:
+    rgba(12, 13, 15, 0.96);
+
+  --an-obsidian-edge-light:
+    rgba(255, 255, 255, 0.010);
+
+  --an-obsidian-edge-shadow:
+    rgba(0, 0, 0, 0.82);
+}
+
+
+/* 01 — HOME SECTION OUTER FRAMES */
+
 main#home-top.an-home-2026.archenova-twin-home
-> section.an-home-2026__section,
-main#home-top.an-home-2026.archenova-twin-home
-> section#archenova-world.an-world-gallery,
-main#home-top.an-home-2026.archenova-twin-home
-> .an-home-footer {
-  border-color:
-    rgba(255, 255, 255, 0.018) !important;
+> section.an-home-2026__section {
+  border:
+    1px solid var(--an-obsidian-edge)
+    !important;
 
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.012),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.20)
+    inset 0 1px 0
+      var(--an-obsidian-edge-light),
+    0 0 0 1px
+      rgba(0, 0, 0, 0.40),
+    0 8px 28px
+      rgba(0, 0, 0, 0.16)
     !important;
 }
 
-/* Footer internal divider: soften the bright top edge */
+/* 02 — WORLD GALLERY OUTER FRAME */
 
 main#home-top.an-home-2026.archenova-twin-home
-> .an-home-footer
-> .an-home-footer__inner {
-  border-top-color:
-    rgba(255, 255, 255, 0.018) !important;
+> section#archenova-world.an-world-gallery {
+  border:
+    1px solid var(--an-obsidian-edge)
+    !important;
 }
 
+/* 03 — FOOTER OUTER FRAME */
 
+main#home-top.an-home-2026.archenova-twin-home
+> .an-home-footer {
+  border:
+    1px solid var(--an-obsidian-edge)
+    !important;
 
-
-
-
+  box-shadow:
+    inset 0 1px 0
+      var(--an-obsidian-edge-light),
+    0 0 0 1px
+      rgba(0, 0, 0, 0.40)
+    !important;
+}
 
 
 
