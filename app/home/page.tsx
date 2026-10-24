@@ -195,7 +195,7 @@ function CivilizationSynthesisPortal() {
               <div className="an-synthesis-home__eyebrow">
                 <span className="an-synthesis-home__eyebrow-line" />
                 <span>
-                  ARCHENOVA / CIVILIZATIONAL SYSTEMS ENGINEERING
+                  ARCHENOVA / CIVILIZATIONAL SYSTEMS
                 </span>
               </div>
 
@@ -695,7 +695,7 @@ function CivilizationSynthesisPortal() {
 
             <footer className="an-synthesis-home__bottom an-synthesis-home__premium-bottom">
               <span className="an-synthesis-home__functions">
-                From Knowledge to Civilizational Reality.
+               Advancing a responsible scientific civilization.
               </span>
             </footer>
           </div>
