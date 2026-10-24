@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-24T17:56:42.910Z",
+  "updated": "2026-10-24T20:31:36.556Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
+      "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
+      "summary": "Understanding instabilities and turbulence in plasmas is one of the key challenges across a wide range of plasma research fields, including nuclear fusion, astrophysics and laser-plasma physics. In plasmas, slight distur…",
+      "ts": 1792868406000,
+      "publishedAt": "2026-10-24T19:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How flare ribbons reveal hidden solar explosions on the sun",
+      "url": "https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html",
+      "summary": "Many topics in astronomy and astrophysics are esoteric. There's not much of a relationship between something like the supermassive black hole at the center of the Milky Way and the life of a regular person going about th…",
+      "ts": 1792864801000,
+      "publishedAt": "2026-10-24T18:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'One-positron cyclotron' could test a key prediction of the Standard Model",
@@ -783,22 +799,6 @@
       "title": "Nonlinear Drift Waves and Electrostatic Density Cavities in Upper Ionosphere",
       "url": "https://arxiv.org/abs/2610.30826",
       "summary": "arXiv:2610.30826v1 Announce Type: new Abstract: Nonlinear drift waves are investigated to explain the mechanism for the creation of one dimensional (1D) and two dimensional (2D) electrostatic density cavities in the pres…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Light pulse propagation through a dielectric slab. II. Two roads to the same field: numerical cross-validation of local (FDTD-ADE) and non-local (retarded integral-equation) solutions",
-      "url": "https://arxiv.org/abs/2610.30833",
-      "summary": "arXiv:2610.30833v1 Announce Type: new Abstract: Paper I of this series (arXiv:2610.29336) solves, via the retarded Green's functions, the local differential equations governing light propagation in a plane-parallel diele…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stiff source terms inside ADER-DG method",
-      "url": "https://arxiv.org/abs/2610.30852",
-      "summary": "arXiv:2610.30852v1 Announce Type: new Abstract: ADER-DG numerical method with the LST-DG predictor, when used to solve hyperbolic equations with stiff source terms, exhibits properties characteristic of IMEX computationa…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
