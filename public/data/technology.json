@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-10-24T10:30:48.578Z",
+  "updated": "2026-10-24T14:19:50.999Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: Christina Applegate puts a face on one of the most consequential challenges in neurology",
+      "url": "https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/?utm_campaign=rss",
+      "summary": "“The goal is not simply to diagnose MS faster. It is to get the diagnosis right,” writes Bruce Bebo.",
+      "ts": 1792839600000,
+      "publishedAt": "2026-10-24T11:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT readers on Elizabeth Holmes, cancer screening, and more",
+      "url": "https://www.statnews.com/2026/10/24/you-can-see-everything-stat-letters-to-editor/?utm_campaign=rss",
+      "summary": "“Even if Theranos had a functioning testing machine, the economic model on which is was based would result in failure,” writes a STAT reader.",
+      "ts": 1792839600000,
+      "publishedAt": "2026-10-24T11:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+      "summary": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1792814700000,
+      "publishedAt": "2026-10-24T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
@@ -784,33 +811,6 @@
       "ts": 1792687385000,
       "publishedAt": "2026-10-22T16:43:05.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses ",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
-      "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
-      "ts": 1792686037000,
-      "publishedAt": "2026-10-22T16:20:37.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-buil…",
-      "ts": 1792681202000,
-      "publishedAt": "2026-10-22T15:00:02.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "350th ESA Council: Media information session",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/350th_ESA_Council_Media_information_session",
-      "summary": "Video: 01:45:34 Watch the replay of the media information session where ESA Director General Josef Aschbacher and ESA Council Chair at delegate level Juan Carlos Cortés outline the key decisions and main outcomes of the …",
-      "ts": 1792677600000,
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

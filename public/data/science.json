@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-10-24T10:30:46.807Z",
+  "updated": "2026-10-24T14:19:47.389Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
+      "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
+      "summary": "What seabirds eat might seem like a good starting point for identifying species that tend to accumulate plastic in their digestive systems. Yet a recent global analysis suggests that mapping the evolutionary relatives of…",
+      "ts": 1792850401000,
+      "publishedAt": "2026-10-24T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years",
+      "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
+      "summary": "In places like South Asia, Africa and parts of the Americas, monsoon rains supply water for drinking, crops and hydropower for billions of people. Understanding the patterns that monsoons tend to follow can help people p…",
+      "ts": 1792846801000,
+      "publishedAt": "2026-10-24T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cleaner brick kilns cut pollution, but gains did not reach workers, research finds",
+      "url": "https://phys.org/news/2026-10-cleaner-brick-kilns-pollution-gains.html",
+      "summary": "Relatively simple changes to the way traditional brick kilns operate in Bangladesh can reduce pollution, save fuel and improve the quality of bricks they produce.",
+      "ts": 1792843207000,
+      "publishedAt": "2026-10-24T12:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New long‑clawed British dinosaur is the first of its kind in Europe",
+      "url": "https://phys.org/news/2026-10-longclawed-british-dinosaur-kind-europe.html",
+      "summary": "The fossilized skull of a new species of mysterious meat-eating dinosaur from the Isle of Wight has been rediscovered in the collections of the Natural History Museum after over 100 years in storage.",
+      "ts": 1792843201000,
+      "publishedAt": "2026-10-24T12:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "The human voice",
+      "url": "https://www.sciencenews.org/article/ed-note-november-2026",
+      "summary": "Editor in Chief Nancy Shute discusses the power of the human voice, hopeful advances in treating stiff person syndrome and new controversy about using AI in mathematics.",
+      "ts": 1792839600000,
+      "publishedAt": "2026-10-24T11:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Swinging virtual lightsabers and punching improve pattern-based learning in VR tests",
@@ -315,22 +355,6 @@
       "publishedAt": "2026-10-23T13:00:00.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Toward Complete Characterization of Topological Insulators and Superconductors: A Systematic Construction of Topological Invariants Based on Atiyah-Hirzebruch Spectral Sequence",
-      "url": "http://link.aps.org/doi/10.1103/2rw7-bzl4",
-      "summary": "Author(s): Seishiro Ono and Ken Shiozaki A framework based on the Atiyah-Hirzebruch spectral sequence in momentum space yields topological invariants that classify stable superconducting phases across 159 space groups. […",
-      "ts": 1792749600000,
-      "publishedAt": "2026-10-23T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Quantum Advantage for Sensing Properties of Classical Fields",
-      "url": "http://link.aps.org/doi/10.1103/6ps1-mw9l",
-      "summary": "Author(s): Jordan Cotler, Daine L. Danielson, and Ishaan Kannan Researchers demonstrate a quantum sensing protocol that uses entanglement and squeezing to learn diverse classical signal properties with subvacuum precisio…",
-      "ts": 1792749600000,
-      "publishedAt": "2026-10-23T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Entangling Ions with Engineered Light Gradients",
       "url": "http://link.aps.org/doi/10.1103/4smy-6w2n",
@@ -367,6 +391,22 @@
       "title": "Electronic Transport in Hexagonal-Boron-Nitride-Encapsulated Graphene Limited by Remote Phonon Scattering",
       "url": "http://link.aps.org/doi/10.1103/8yyp-vx4t",
       "summary": "Author(s): K. Dinar, F. Macheda, A. Guandalini, M. Paillet, C. Consejo, F. Teppe, B. Jouault, T. Sohier, and S. Nanot We study the impact of hexagonal boron nitride (hBN) phonons on the electrical resistivity of hBN-enca…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Toward Complete Characterization of Topological Insulators and Superconductors: A Systematic Construction of Topological Invariants Based on Atiyah-Hirzebruch Spectral Sequence",
+      "url": "http://link.aps.org/doi/10.1103/2rw7-bzl4",
+      "summary": "Author(s): Seishiro Ono and Ken Shiozaki A framework based on the Atiyah-Hirzebruch spectral sequence in momentum space yields topological invariants that classify stable superconducting phases across 159 space groups. […",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Quantum Advantage for Sensing Properties of Classical Fields",
+      "url": "http://link.aps.org/doi/10.1103/6ps1-mw9l",
+      "summary": "Author(s): Jordan Cotler, Daine L. Danielson, and Ishaan Kannan Researchers demonstrate a quantum sensing protocol that uses entanglement and squeezing to learn diverse classical signal properties with subvacuum precisio…",
       "ts": 1792749600000,
       "publishedAt": "2026-10-23T10:00:00.000Z"
     },
@@ -759,46 +799,6 @@
       "title": "Accurate ab initio calculations of the ground state properties of singly charged alkali metal hydrides",
       "url": "https://arxiv.org/abs/2610.31161",
       "summary": "arXiv:2610.31161v1 Announce Type: new Abstract: In this article, we investigate the ground state electronic properties of singly charged alkali metal hydrides using the single-reference coupled-cluster method with single…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Network topology shapes consensus and vulnerability in LLM populations",
-      "url": "https://arxiv.org/abs/2610.31165",
-      "summary": "arXiv:2610.31165v1 Announce Type: new Abstract: As large language models (LLMs) are deployed in interacting populations, their collective behaviour depends not only on the models but also on who interacts with whom. Stud…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Track finding and particle identification performance with particle physics foundation models",
-      "url": "https://arxiv.org/abs/2610.31180",
-      "summary": "arXiv:2610.31180v1 Announce Type: new Abstract: Modern high energy nuclear and particle physics experiments produce large amounts of sparse data that must be reduced significantly in size before performing physics analys…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unconstrained learning of equivariant atomistic properties",
-      "url": "https://arxiv.org/abs/2610.31183",
-      "summary": "arXiv:2610.31183v1 Announce Type: new Abstract: Machine-learned interatomic potentials based on graph neural networks (GNNs) have made first-principles accuracy routine for the potential energy surface (PES). Their backb…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shaping Near Fields of Photonic Modes into Topological Textures",
-      "url": "https://arxiv.org/abs/2610.31207",
-      "summary": "arXiv:2610.31207v1 Announce Type: new Abstract: Topological textures of light, such as optical vortices and skyrmions, are attractive for high-density information encoding and light-matter interactions. In the near field…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quartz Crystal Microbalance impedance of discrete adsorbates with lubricated contact",
-      "url": "https://arxiv.org/abs/2610.31220",
-      "summary": "arXiv:2610.31220v1 Announce Type: new Abstract: We present a thorough theoretical investigation of the shear force exerted on a horizontal plate undergoing fast (MHz range) longitudinal oscillations in presence of a sphe…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
