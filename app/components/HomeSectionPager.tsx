@@ -21,10 +21,11 @@ type ChapterTarget = {
 /* ==========================================================
    HOME ENVIRONMENTS
 
-   ARCHENOVA CONCEPT
-      ├─ Foundational Purpose
-      ├─ Ideal User / Human Agency
-      └─ ArcheNova World
+   CIVILIZATION SYNTHESIS
+      └─ Civilizational Charter / Research Architecture
+
+   ARCHENOVA WORLD
+      └─ Five Conceptual Civilizational Exhibitions
 
    THE ARCHITECTURE OF CIVILIZATION
       ├─ Civilization Discovery
@@ -45,27 +46,29 @@ type ChapterTarget = {
 
    IMPORTANT
 
-   The Architecture of Civilization is an independent
-   HOME navigation destination.
-
-   Its seven internal navigation buttons lead to the
-   existing HOME environments.
-
-   All original portal destinations, labels, icons,
-   scroll behavior, and active detection are preserved.
+   - Concept navigation is replaced by Synthesis and World.
+   - Synthesis and World are independent HOME destinations.
+   - Architecture remains an independent HOME destination.
+   - All remaining destinations and labels are preserved.
+   - Original navigation classes and behavior are preserved.
+   - Existing active-section detection is preserved.
+   - No additional navigation dependencies.
 ========================================================== */
 
 const CHAPTER_TARGETS: readonly ChapterTarget[] = [
+  /* ========================================================
+     01 / CIVILIZATION SYNTHESIS
+  ======================================================== */
+
   {
-    id: "archenova-concept",
+    id: "civilization-synthesis",
     mark: "✦",
-    title: "CONCEPT",
-    subtitle: "What is ArcheNova?",
+    title: "SYNTHESIS",
+    subtitle: "How do we engineer civilization?",
   },
 
   /* ========================================================
-     THE ARCHITECTURE OF CIVILIZATION
-     NEW INDEPENDENT HOME DESTINATION
+     02 / THE ARCHITECTURE OF CIVILIZATION
   ======================================================== */
 
   {
@@ -85,36 +88,42 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     title: "MAP",
     subtitle: "Where are we?",
   },
+
   {
     id: "todays-inquiry",
     mark: "☁︎",
     title: "INQUIRY",
     subtitle: "What should we ask?",
   },
+
   {
     id: "humanity-responsibility",
     mark: "⑇",
     title: "PERMANENT INQUIRY",
     subtitle: "Can civilization remain correctable?",
   },
+
   {
     id: "archenova-continuity",
     mark: "⌱",
     title: "CONTINUITY",
     subtitle: "How do we continue?",
   },
+
   {
     id: "work-models",
     mark: "⎅",
     title: "MODELS",
     subtitle: "What can we imagine?",
   },
+
   {
     id: "civilization-space",
     mark: "❂",
     title: "CIVILIZATION",
     subtitle: "What can we build?",
   },
+
   {
     id: "archenova-valley",
     mark: "⏥",
@@ -125,6 +134,8 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
 
 /* ==========================================================
    SCROLL
+
+   Preserved original behavior.
 ========================================================== */
 
 function scrollToChapter(id: string) {
@@ -177,13 +188,13 @@ export default function HomeSectionPager() {
   /* ========================================================
      ACTIVE SECTION DETECTION
 
-     Only IDs explicitly declared in CHAPTER_TARGETS
-     are observed.
+     Only IDs declared in CHAPTER_TARGETS are observed.
 
-     The Architecture of Civilization is now included
-     as one independent HOME environment.
+     Civilization Synthesis and ArcheNova World are
+     independently observed.
 
-     Existing Concept internals remain unchanged.
+     All original observer thresholds, root margins,
+     and active-selection logic are preserved.
   ======================================================== */
 
   useEffect(() => {
@@ -305,6 +316,8 @@ export default function HomeSectionPager() {
 
   /* ========================================================
      CURRENT POSITION
+
+     Preserved original logic.
   ======================================================== */
 
   const currentIndex =
@@ -343,6 +356,8 @@ export default function HomeSectionPager() {
 
   /* ========================================================
      UI
+
+     Original structure and CSS class names preserved.
   ======================================================== */
 
   return (

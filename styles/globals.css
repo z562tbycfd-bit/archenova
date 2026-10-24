@@ -68867,3 +68867,1933 @@ main#home-top.an-home-2026
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION SYNTHESIS
+   CONSOLIDATED HOME EXPERIENCE — 2026
+
+   ARCHITECTURE
+   - Full-viewport black environment
+   - Section-owned visual surface
+   - Transparent HOME glass wrapper
+   - Living stars without galaxy elements
+   - Left identity / right research framework
+   - Six expandable research disciplines
+   - One expandable civilization paper
+   - Pure-black internal panels
+   - Refined English serif typography
+   - Centered final statement
+   - Responsive, accessible, content-safe
+
+   REPLACES ALL PREVIOUS
+   CIVILIZATION SYNTHESIS CSS BLOCKS
+========================================================== */
+
+
+/* ==========================================================
+   01 / DESIGN TOKENS
+========================================================== */
+
+#civilization-synthesis {
+  --an-cs-black: #000000;
+
+  --an-cs-white: rgba(255,255,255,.95);
+  --an-cs-text: rgba(245,247,251,.72);
+  --an-cs-muted: rgba(245,247,251,.47);
+  --an-cs-faint: rgba(245,247,251,.34);
+
+  --an-cs-border: rgba(255,255,255,.085);
+  --an-cs-border-soft: rgba(255,255,255,.065);
+  --an-cs-border-active: rgba(255,255,255,.22);
+
+  --an-cs-serif-display:
+    "Cormorant Garamond",
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  --an-cs-serif-body:
+    "Noto Serif",
+    "Yu Mincho",
+    "Hiragino Mincho ProN",
+    Georgia,
+    serif;
+
+  --an-cs-content-width: 1800px;
+
+  --an-cs-content-gutter:
+    clamp(28px, 6vw, 112px);
+
+  --an-cs-ease:
+    cubic-bezier(.16,1,.3,1);
+
+  font-family: var(--an-cs-serif-body);
+  color: var(--an-cs-white);
+}
+
+
+/* ==========================================================
+   02 / FULL-VIEWPORT BLACK SECTION
+
+   The SECTION owns the visual environment.
+   No visible HOME background on either side.
+========================================================== */
+
+main.an-home-2026.home-snap.archenova-twin-home
+> section#civilization-synthesis.an-home-2026__section {
+  position: relative !important;
+  isolation: isolate !important;
+
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: stretch !important;
+  justify-content: center !important;
+
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background:
+    linear-gradient(
+      115deg,
+      #010102 0%,
+      #030304 52%,
+      #000000 100%
+    ) !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   03 / TRANSPARENT HOME GLASS WRAPPER
+
+   Prevent a second, narrower frame.
+========================================================== */
+
+main.an-home-2026.home-snap.archenova-twin-home
+> section#civilization-synthesis
+> .an-home-2026__glass.an-synthesis-home__glass {
+  position: relative !important;
+
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-self: stretch !important;
+
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   04 / FULL-WIDTH CONTENT SURFACE
+========================================================== */
+
+#civilization-synthesis
+.an-synthesis-home__link {
+  position: relative;
+  isolation: isolate;
+
+  box-sizing: border-box;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  flex: 1 1 auto;
+
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  min-height: 100svh !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  color: var(--an-cs-white);
+  text-decoration: none;
+
+  cursor: default;
+}
+
+
+/* ==========================================================
+   05 / LIVING STARFIELD
+
+   Two independent star layers.
+   Gentle drift and asynchronous breathing.
+   No galaxies, orbits, or filaments.
+========================================================== */
+
+#civilization-synthesis
+.an-synthesis-home__cosmos {
+  position: absolute;
+  inset: 0;
+
+  z-index: 0;
+
+  width: 100%;
+  height: 100%;
+
+  isolation: isolate;
+  overflow: hidden;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse at 76% 28%,
+      rgba(50,56,67,.075),
+      transparent 46%
+    ),
+    radial-gradient(
+      ellipse at 22% 78%,
+      rgba(39,44,54,.045),
+      transparent 49%
+    ),
+    linear-gradient(
+      115deg,
+      #010102 0%,
+      #030304 52%,
+      #000000 100%
+    );
+}
+
+/* Hide legacy galaxy decorations */
+
+#civilization-synthesis
+.an-synthesis-home__galaxy,
+#civilization-synthesis
+.an-synthesis-home__orbit,
+#civilization-synthesis
+.an-synthesis-home__galaxy-core,
+#civilization-synthesis
+.an-synthesis-home__filament {
+  display: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   05.1 / STAR LAYER FOUNDATION
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__stars {
+  position: absolute;
+  inset: -12%;
+
+  display: block;
+
+  pointer-events: none;
+
+  background-repeat: repeat;
+
+  transform-origin: center;
+
+  will-change: transform, opacity;
+}
+
+
+/* ----------------------------------------------------------
+   05.2 / NEAR STARS
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__stars--a {
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(255,255,255,.90) 0 .85px,
+      transparent 1.5px
+    ),
+    radial-gradient(
+      circle,
+      rgba(245,249,255,.65) 0 .65px,
+      transparent 1.2px
+    ),
+    radial-gradient(
+      circle,
+      rgba(255,255,255,.48) 0 .5px,
+      transparent 1px
+    );
+
+  background-size:
+    157px 173px,
+    239px 197px,
+    307px 271px;
+
+  background-position:
+    23px 37px,
+    91px 63px,
+    151px 119px;
+
+  animation:
+    an-cs-star-drift-a
+      145s ease-in-out infinite alternate,
+    an-cs-star-breathe-a
+      11.7s ease-in-out infinite;
+}
+
+
+/* ----------------------------------------------------------
+   05.3 / DISTANT STARS
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__stars--b {
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(255,255,255,.68) 0 .55px,
+      transparent 1px
+    ),
+    radial-gradient(
+      circle,
+      rgba(235,243,255,.48) 0 .5px,
+      transparent 1px
+    ),
+    radial-gradient(
+      circle,
+      rgba(255,255,255,.36) 0 .45px,
+      transparent .9px
+    );
+
+  background-size:
+    109px 127px,
+    191px 211px,
+    283px 257px;
+
+  background-position:
+    41px 73px,
+    79px 21px,
+    137px 97px;
+
+  animation:
+    an-cs-star-drift-b
+      205s ease-in-out infinite alternate,
+    an-cs-star-breathe-b
+      17.3s ease-in-out infinite;
+}
+
+
+/* ----------------------------------------------------------
+   05.4 / STAR MOVEMENT
+---------------------------------------------------------- */
+
+@keyframes an-cs-star-drift-a {
+  0% {
+    transform: translate3d(-1.5%, -.8%, 0);
+  }
+
+  50% {
+    transform: translate3d(.4%, .5%, 0);
+  }
+
+  100% {
+    transform: translate3d(1.8%, 1.2%, 0);
+  }
+}
+
+@keyframes an-cs-star-drift-b {
+  0% {
+    transform: translate3d(1.4%, -1.1%, 0);
+  }
+
+  50% {
+    transform: translate3d(-.2%, .7%, 0);
+  }
+
+  100% {
+    transform: translate3d(-1.7%, 1.4%, 0);
+  }
+}
+
+
+/* ----------------------------------------------------------
+   05.5 / STAR BREATHING
+---------------------------------------------------------- */
+
+@keyframes an-cs-star-breathe-a {
+  0%, 100% {
+    opacity: .30;
+  }
+
+  28% {
+    opacity: .48;
+  }
+
+  62% {
+    opacity: .36;
+  }
+
+  81% {
+    opacity: .53;
+  }
+}
+
+@keyframes an-cs-star-breathe-b {
+  0%, 100% {
+    opacity: .22;
+  }
+
+  37% {
+    opacity: .38;
+  }
+
+  71% {
+    opacity: .27;
+  }
+
+  88% {
+    opacity: .42;
+  }
+}
+
+
+/* ----------------------------------------------------------
+   05.6 / INDIVIDUAL STAR HIGHLIGHTS
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__cosmos::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  z-index: 1;
+
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(
+      circle at 14% 22%,
+      rgba(255,255,255,.54) 0 1px,
+      transparent 2.3px
+    ),
+    radial-gradient(
+      circle at 78% 18%,
+      rgba(255,255,255,.42) 0 .9px,
+      transparent 2px
+    ),
+    radial-gradient(
+      circle at 89% 67%,
+      rgba(255,255,255,.58) 0 1.1px,
+      transparent 2.5px
+    ),
+    radial-gradient(
+      circle at 42% 83%,
+      rgba(255,255,255,.38) 0 .8px,
+      transparent 2px
+    ),
+    radial-gradient(
+      circle at 65% 49%,
+      rgba(255,255,255,.43) 0 .85px,
+      transparent 2.1px
+    );
+
+  animation:
+    an-cs-star-sparkle
+      13.9s ease-in-out infinite;
+}
+
+@keyframes an-cs-star-sparkle {
+  0%, 100% {
+    opacity: .22;
+  }
+
+  25% {
+    opacity: .48;
+  }
+
+  55% {
+    opacity: .30;
+  }
+
+  82% {
+    opacity: .58;
+  }
+}
+
+
+/* ----------------------------------------------------------
+   05.7 / CONTRAST VEIL
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__cosmos::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  z-index: 3;
+
+  pointer-events: none;
+
+  background: rgba(0,0,0,.16);
+}
+
+
+/* ==========================================================
+   06 / MAIN TWO-COLUMN LAYOUT
+
+   LEFT: Civilization Synthesis identity
+   RIGHT: Disciplines and research paper
+   BOTTOM: Centered signature
+========================================================== */
+
+#civilization-synthesis
+.an-synthesis-home__content.an-synthesis-home__premium-layout {
+  position: relative;
+
+  z-index: 2;
+
+  box-sizing: border-box;
+
+  display: grid !important;
+
+  grid-template-columns:
+    minmax(0, .88fr)
+    minmax(0, 1.12fr) !important;
+
+  grid-template-rows:
+    auto auto !important;
+
+  align-content: center;
+  align-items: center;
+
+  column-gap: clamp(40px, 6vw, 110px);
+  row-gap: clamp(46px, 6vw, 94px);
+
+  flex: 1 1 auto;
+
+  width: 100% !important;
+  max-width: var(--an-cs-content-width);
+  min-width: 0 !important;
+
+  min-height: 100svh;
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 auto !important;
+
+  padding:
+    clamp(105px, 13svh, 170px)
+    var(--an-cs-content-gutter)
+    clamp(65px, 8svh, 110px);
+
+  overflow: visible;
+}
+
+
+/* ==========================================================
+   07 / LEFT IDENTITY
+========================================================== */
+
+#civilization-synthesis
+.an-synthesis-home__identity {
+  grid-column: 1;
+  grid-row: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  align-self: center;
+
+  min-width: 0;
+  max-width: 660px;
+
+  text-align: left;
+}
+
+
+/* ----------------------------------------------------------
+   07.1 / EYEBROW
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__eyebrow {
+  display: flex;
+  align-items: center;
+
+  gap: 13px;
+
+  color: rgba(240,244,250,.50);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 10px;
+  font-weight: 500;
+
+  letter-spacing: .15em;
+  line-height: 1.7;
+}
+
+#civilization-synthesis
+.an-synthesis-home__eyebrow-line {
+  flex: 0 0 25px;
+
+  height: 1px;
+
+  background: rgba(255,255,255,.43);
+}
+
+
+/* ----------------------------------------------------------
+   07.2 / MAIN TITLE
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__title {
+  width: 100%;
+
+  margin: 30px 0 18px;
+
+  color: rgba(255,255,255,.97);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: clamp(62px, 7vw, 112px);
+  font-weight: 500;
+
+  letter-spacing: -.055em;
+  line-height: .96;
+
+  text-align: left;
+  text-wrap: balance;
+}
+
+#civilization-synthesis
+.an-synthesis-home__title span {
+  display: block;
+
+  color: rgba(245,247,251,.82);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+}
+
+
+/* ----------------------------------------------------------
+   07.3 / STATEMENT
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__statement {
+  margin: 27px 0 0;
+
+  color: rgba(255,255,255,.86);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: clamp(24px, 2.2vw, 35px);
+  font-weight: 500;
+
+  letter-spacing: -.015em;
+  line-height: 1.25;
+}
+
+
+/* ----------------------------------------------------------
+   07.4 / DESCRIPTION
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__description {
+  max-width: 560px;
+
+  margin: 20px 0 0;
+
+  color: var(--an-cs-text);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: clamp(12px, 1vw, 15px);
+  font-weight: 400;
+
+  letter-spacing: .005em;
+  line-height: 1.95;
+}
+
+
+/* ----------------------------------------------------------
+   07.5 / IDENTITY SIGNATURE
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__identity-signature {
+  display: flex;
+  align-items: center;
+
+  gap: 13px;
+
+  margin-top: 33px;
+
+  color: var(--an-cs-muted);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 9px;
+  letter-spacing: .12em;
+  line-height: 1.8;
+}
+
+#civilization-synthesis
+.an-synthesis-home__identity-rule {
+  flex: 0 0 26px;
+
+  height: 1px;
+
+  background: rgba(255,255,255,.38);
+}
+
+
+/* ==========================================================
+   08 / RIGHT RESEARCH EXPERIENCE
+========================================================== */
+
+#civilization-synthesis
+.an-synthesis-home__experience {
+  grid-column: 2;
+  grid-row: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  align-self: center;
+
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+
+  gap: 0;
+}
+
+
+/* ----------------------------------------------------------
+   08.1 / SECTION LABELS
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-synthesis-home__experience-heading,
+#civilization-synthesis
+.an-cs-latest-research__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  gap: 12px;
+
+  color: var(--an-cs-muted);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 10px;
+  font-weight: 500;
+
+  letter-spacing: .13em;
+  line-height: 1.7;
+}
+
+
+/* ==========================================================
+   09 / SIX-DISCIPLINE ACCORDION
+========================================================== */
+
+#civilization-synthesis
+.an-cs-discipline-list {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-width: 0;
+
+  margin-top: 20px;
+
+  overflow: hidden;
+
+  border: 1px solid var(--an-cs-border);
+  border-radius: 18px;
+
+  background: var(--an-cs-black);
+}
+
+
+/* ----------------------------------------------------------
+   09.1 / LIST ITEMS
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-item {
+  min-width: 0;
+
+  background: var(--an-cs-black);
+}
+
+#civilization-synthesis
+.an-cs-discipline-item + .an-cs-discipline-item {
+  border-top:
+    1px solid var(--an-cs-border-soft);
+}
+
+
+/* ----------------------------------------------------------
+   09.2 / CLICKABLE ROW
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-trigger {
+  appearance: none;
+  -webkit-appearance: none;
+
+  box-sizing: border-box;
+
+  display: grid;
+
+  grid-template-columns:
+    28px minmax(0, 1fr) 20px;
+
+  align-items: center;
+
+  gap: 15px;
+
+  width: 100%;
+  min-width: 0;
+
+  padding: 16px 20px;
+
+  border: 0;
+
+  background: var(--an-cs-black);
+
+  color: var(--an-cs-white);
+
+  text-align: left;
+
+  cursor: pointer;
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* ----------------------------------------------------------
+   09.3 / NUMBER
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-number {
+  color: var(--an-cs-faint);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 10px;
+  letter-spacing: .10em;
+}
+
+
+/* ----------------------------------------------------------
+   09.4 / TITLE AND SUBTITLE
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-heading {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3px;
+
+  min-width: 0;
+}
+
+#civilization-synthesis
+.an-cs-discipline-heading strong {
+  color: rgba(255,255,255,.93);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: clamp(20px, 1.7vw, 26px);
+  font-weight: 500;
+
+  letter-spacing: -.012em;
+  line-height: 1.2;
+}
+
+#civilization-synthesis
+.an-cs-discipline-heading small {
+  color: var(--an-cs-muted);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 10px;
+  font-weight: 400;
+
+  line-height: 1.6;
+}
+
+
+/* ----------------------------------------------------------
+   09.5 / EXPANSION INDICATOR
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-indicator {
+  justify-self: end;
+
+  color: rgba(255,255,255,.56);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: 24px;
+  font-weight: 400;
+
+  line-height: 1;
+}
+
+
+/* ----------------------------------------------------------
+   09.6 / ACTIVE STATE
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-item.is-open
+.an-cs-discipline-heading strong {
+  color: #ffffff;
+}
+
+#civilization-synthesis
+.an-cs-discipline-item.is-open
+.an-cs-discipline-trigger {
+  border-bottom:
+    1px solid rgba(255,255,255,.055);
+}
+
+
+/* ==========================================================
+   10 / EXPANDED DISCIPLINE DETAILS
+========================================================== */
+
+#civilization-synthesis
+.an-cs-discipline-panel {
+  padding:
+    0 20px 26px 63px;
+
+  background: var(--an-cs-black);
+
+  font-family:
+    var(--an-cs-serif-body);
+}
+
+#civilization-synthesis
+.an-cs-discipline-panel[hidden] {
+  display: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   10.1 / PURPOSE
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-purpose {
+  margin: 19px 0 0;
+
+  color: var(--an-cs-text);
+
+  font-size: 12px;
+  line-height: 1.95;
+}
+
+
+/* ----------------------------------------------------------
+   10.2 / DETAIL COLUMNS
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-columns {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 24px;
+
+  margin-top: 23px;
+  padding-top: 20px;
+
+  border-top:
+    1px solid var(--an-cs-border-soft);
+}
+
+#civilization-synthesis
+.an-cs-discipline-columns h3 {
+  margin: 0 0 10px;
+
+  color: rgba(255,255,255,.79);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#civilization-synthesis
+.an-cs-discipline-columns p,
+#civilization-synthesis
+.an-cs-discipline-columns li {
+  margin: 0;
+
+  color: rgba(245,247,251,.58);
+
+  font-size: 11px;
+  line-height: 1.9;
+}
+
+#civilization-synthesis
+.an-cs-discipline-columns ul {
+  display: grid;
+  gap: 7px;
+
+  margin: 0;
+  padding-left: 16px;
+}
+
+#civilization-synthesis
+.an-cs-discipline-columns h3:not(:first-child) {
+  margin-top: 21px;
+}
+
+
+/* ----------------------------------------------------------
+   10.3 / OPEN QUESTION
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-discipline-question {
+  margin-top: 23px;
+  padding-top: 18px;
+
+  border-top:
+    1px solid var(--an-cs-border-soft);
+}
+
+#civilization-synthesis
+.an-cs-discipline-question span {
+  color: var(--an-cs-muted);
+
+  font-size: 9px;
+  letter-spacing: .13em;
+}
+
+#civilization-synthesis
+.an-cs-discipline-question p {
+  margin: 9px 0 0;
+
+  color: var(--an-cs-text);
+
+  font-size: 11px;
+  line-height: 1.85;
+}
+
+
+/* ==========================================================
+   11 / LATEST CIVILIZATION RESEARCH
+========================================================== */
+
+#civilization-synthesis
+.an-cs-latest-research {
+  width: 100%;
+  min-width: 0;
+
+  margin-top: 34px;
+}
+
+
+/* ==========================================================
+   12 / INTEGRATED PAPER ACCORDION
+========================================================== */
+
+#civilization-synthesis
+.an-cs-paper.an-cs-paper--accordion {
+  display: block;
+
+  box-sizing: border-box;
+
+  width: 100%;
+  min-width: 0;
+
+  margin-top: 17px;
+  padding: 0 !important;
+
+  overflow: hidden;
+
+  background: var(--an-cs-black) !important;
+  background-image: none !important;
+
+  border:
+    1px solid var(--an-cs-border);
+
+  border-radius: 19px;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   12.1 / PAPER TRIGGER
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-paper__header-trigger {
+  appearance: none;
+  -webkit-appearance: none;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 23px;
+
+  width: 100%;
+  min-width: 0;
+
+  padding: 25px 23px;
+
+  border: 0;
+
+  background: var(--an-cs-black);
+
+  color: var(--an-cs-white);
+
+  text-align: left;
+  cursor: pointer;
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* ----------------------------------------------------------
+   12.2 / PAPER HEADER
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-paper__header-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+
+  min-width: 0;
+}
+
+#civilization-synthesis
+.an-cs-paper__kicker {
+  color: var(--an-cs-muted);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 9px;
+  letter-spacing: .15em;
+}
+
+#civilization-synthesis
+.an-cs-paper__header-title {
+  color: rgba(255,255,255,.94);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: clamp(25px, 2.45vw, 39px);
+  font-weight: 500;
+
+  letter-spacing: -.025em;
+  line-height: 1.18;
+
+  text-wrap: balance;
+}
+
+#civilization-synthesis
+.an-cs-paper__header-subtitle {
+  color: var(--an-cs-muted);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+#civilization-synthesis
+.an-cs-paper__header-indicator {
+  flex: 0 0 auto;
+
+  color: rgba(255,255,255,.59);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: 26px;
+  line-height: 1;
+}
+
+
+/* ----------------------------------------------------------
+   12.3 / PAPER BODY
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-paper__accordion-content {
+  padding:
+    0 23px 28px;
+
+  background: var(--an-cs-black);
+}
+
+#civilization-synthesis
+.an-cs-paper__accordion-content[hidden] {
+  display: none !important;
+}
+
+#civilization-synthesis
+.an-cs-paper__abstract {
+  padding-top: 23px;
+
+  border-top:
+    1px solid var(--an-cs-border-soft);
+}
+
+#civilization-synthesis
+.an-cs-paper__abstract > span {
+  color: var(--an-cs-muted);
+
+  font-size: 9px;
+  letter-spacing: .14em;
+}
+
+#civilization-synthesis
+.an-cs-paper__abstract p,
+#civilization-synthesis
+.an-cs-paper__expanded p {
+  margin: 15px 0 0;
+
+  color: var(--an-cs-text);
+
+  font-size: 12px;
+  line-height: 1.95;
+}
+
+
+/* ----------------------------------------------------------
+   12.4 / PAPER SECTIONS
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-paper__expanded {
+  margin-top: 25px;
+  padding-top: 8px;
+
+  border-top:
+    1px solid var(--an-cs-border-soft);
+}
+
+#civilization-synthesis
+.an-cs-paper__expanded h3 {
+  margin: 23px 0 0;
+
+  color: rgba(255,255,255,.86);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+/* ----------------------------------------------------------
+   12.5 / PAPER EVIDENCE FOOTER
+---------------------------------------------------------- */
+
+#civilization-synthesis
+.an-cs-paper__footer {
+  margin-top: 27px;
+  padding-top: 19px;
+
+  border-top:
+    1px solid var(--an-cs-border-soft);
+}
+
+#civilization-synthesis
+.an-cs-paper__footer span {
+  color: var(--an-cs-muted);
+
+  font-size: 9px;
+  letter-spacing: .10em;
+  line-height: 1.8;
+}
+
+
+/* ==========================================================
+   13 / INTERACTION
+========================================================== */
+
+@media (hover: hover) and (pointer: fine) {
+  #civilization-synthesis
+  .an-cs-discipline-trigger:hover
+  .an-cs-discipline-heading strong {
+    color: #ffffff;
+  }
+
+  #civilization-synthesis
+  .an-cs-paper__header-trigger:hover
+  .an-cs-paper__header-title {
+    color: #ffffff;
+  }
+}
+
+#civilization-synthesis
+.an-cs-discipline-trigger:focus-visible,
+#civilization-synthesis
+.an-cs-paper__header-trigger:focus-visible {
+  outline:
+    2px solid rgba(255,255,255,.85);
+
+  outline-offset: -4px;
+}
+
+
+/* ==========================================================
+   14 / CENTERED FINAL STATEMENT
+========================================================== */
+
+#civilization-synthesis
+.an-synthesis-home__bottom.an-synthesis-home__premium-bottom {
+  grid-column: 1 / -1;
+  grid-row: 2;
+
+  display: flex !important;
+
+  align-items: center;
+  justify-content: center !important;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+
+  text-align: center;
+}
+
+#civilization-synthesis
+.an-synthesis-home__functions {
+  display: block;
+
+  width: 100%;
+
+  color: rgba(245,247,251,.59);
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: clamp(16px, 1.45vw, 21px);
+  font-weight: 400;
+
+  letter-spacing: .05em;
+  line-height: 1.8;
+
+  text-align: center;
+}
+
+
+/* ==========================================================
+   15 / REFINED ENTRANCE MOTION
+========================================================== */
+
+@keyframes an-cs-reveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+    filter: blur(3px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    filter: blur(0);
+  }
+}
+
+#civilization-synthesis
+.an-synthesis-home__identity {
+  animation:
+    an-cs-reveal
+      1.1s var(--an-cs-ease) both;
+}
+
+#civilization-synthesis
+.an-synthesis-home__experience {
+  animation:
+    an-cs-reveal
+      1.15s var(--an-cs-ease) .18s both;
+}
+
+#civilization-synthesis
+.an-synthesis-home__bottom {
+  animation:
+    an-cs-reveal
+      1.1s var(--an-cs-ease) .3s both;
+}
+
+
+/* ==========================================================
+   16 / TABLET
+========================================================== */
+
+@media (max-width: 1100px) {
+  #civilization-synthesis {
+    --an-cs-content-gutter:
+      clamp(24px, 5vw, 48px);
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__content.an-synthesis-home__premium-layout {
+    grid-template-columns:
+      minmax(0, 1fr) !important;
+
+    grid-template-rows:
+      auto auto auto !important;
+
+    row-gap: 48px;
+
+    padding-top: 115px;
+    padding-bottom: 85px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__identity {
+    grid-column: 1;
+    grid-row: 1;
+
+    max-width: 780px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__experience {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__bottom.an-synthesis-home__premium-bottom {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__title {
+    font-size: clamp(60px, 9vw, 94px);
+  }
+}
+
+
+/* ==========================================================
+   17 / MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  #civilization-synthesis {
+    --an-cs-content-gutter: 20px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__content.an-synthesis-home__premium-layout {
+    row-gap: 38px;
+
+    padding-top: 100px;
+    padding-bottom: 77px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__title {
+    margin-top: 25px;
+
+    font-size: clamp(53px, 13vw, 78px);
+
+    letter-spacing: -.05em;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__statement {
+    font-size: 26px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__description {
+    font-size: 12px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__eyebrow {
+    font-size: 9px;
+    letter-spacing: .09em;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__identity-signature {
+    font-size: 9px;
+    letter-spacing: .07em;
+  }
+
+  #civilization-synthesis
+  .an-cs-discipline-trigger {
+    grid-template-columns:
+      24px minmax(0, 1fr) 18px;
+
+    gap: 11px;
+
+    padding: 16px 14px;
+  }
+
+  #civilization-synthesis
+  .an-cs-discipline-heading strong {
+    font-size: 22px;
+  }
+
+  #civilization-synthesis
+  .an-cs-discipline-panel {
+    padding: 0 16px 24px;
+  }
+
+  #civilization-synthesis
+  .an-cs-discipline-columns {
+    grid-template-columns:
+      minmax(0, 1fr);
+
+    gap: 22px;
+  }
+
+  #civilization-synthesis
+  .an-cs-latest-research {
+    margin-top: 29px;
+  }
+
+  #civilization-synthesis
+  .an-cs-paper__header-trigger {
+    padding: 23px 17px;
+  }
+
+  #civilization-synthesis
+  .an-cs-paper__header-title {
+    font-size: clamp(25px, 7vw, 35px);
+  }
+
+  #civilization-synthesis
+  .an-cs-paper__accordion-content {
+    padding: 0 17px 26px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__functions {
+    font-size: 17px;
+    letter-spacing: .025em;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__cosmos::after {
+    background: rgba(0,0,0,.22);
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__stars--a {
+    animation-duration: 175s, 13.1s;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__stars--b {
+    animation-duration: 235s, 19.7s;
+  }
+}
+
+
+/* ==========================================================
+   18 / SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+  #civilization-synthesis {
+    --an-cs-content-gutter: 15px;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__title {
+    font-size: 51px;
+  }
+
+  #civilization-synthesis
+  .an-cs-paper__header-title {
+    font-size: 25px;
+  }
+}
+
+
+/* ==========================================================
+   19 / REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  #civilization-synthesis
+  .an-synthesis-home__stars,
+  #civilization-synthesis
+  .an-synthesis-home__cosmos::before,
+  #civilization-synthesis
+  .an-synthesis-home__identity,
+  #civilization-synthesis
+  .an-synthesis-home__experience,
+  #civilization-synthesis
+  .an-synthesis-home__bottom {
+    animation: none !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__stars--a {
+    opacity: .40 !important;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__stars--b {
+    opacity: .28 !important;
+  }
+
+  #civilization-synthesis
+  .an-synthesis-home__cosmos::before {
+    opacity: .35 !important;
+  }
+}
+
+
+/* ==========================================================
+   END / ARCHENOVA CIVILIZATION SYNTHESIS
+========================================================== */
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION SYNTHESIS
+   CIVILIZATIONAL CHARTER ENHANCEMENT
+
+   Preserve:
+   - Existing full-viewport black frame
+   - Existing living starfield
+   - Existing left/right composition
+   - Existing accordion interactions
+   - Existing serif typography
+   - Existing centered footer
+========================================================== */
+
+/* Constitutional principle label */
+
+#civilization-synthesis
+.an-cs-charter-article-label {
+  margin-top: 22px;
+
+  color: rgba(245,247,251,.43);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 9px;
+  font-weight: 500;
+
+  letter-spacing: .15em;
+  line-height: 1.7;
+}
+
+/* Give constitutional principles room to breathe */
+
+#civilization-synthesis
+.an-cs-discipline-purpose {
+  margin-top: 12px;
+
+  color: rgba(245,247,251,.82);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: clamp(12px, .95vw, 14px);
+  font-weight: 400;
+
+  letter-spacing: .005em;
+  line-height: 2;
+}
+
+/* Advancement gate */
+
+#civilization-synthesis
+.an-cs-charter-gate {
+  margin-top: 27px;
+  padding-top: 20px;
+
+  border-top:
+    1px solid rgba(255,255,255,.075);
+}
+
+#civilization-synthesis
+.an-cs-charter-gate > span {
+  display: block;
+
+  color: rgba(245,247,251,.51);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 9px;
+  font-weight: 500;
+
+  letter-spacing: .14em;
+  line-height: 1.7;
+}
+
+#civilization-synthesis
+.an-cs-charter-gate > p {
+  margin: 11px 0 0;
+
+  color: rgba(245,247,251,.73);
+
+  font-family:
+    var(--an-cs-serif-body) !important;
+
+  font-size: 12px;
+  line-height: 1.95;
+}
+
+/* Constitutional prohibition */
+
+#civilization-synthesis
+.an-cs-discipline-question {
+  margin-top: 22px;
+  padding-top: 19px;
+
+  border-top:
+    1px solid rgba(255,255,255,.075);
+}
+
+#civilization-synthesis
+.an-cs-discipline-question p {
+  color: rgba(245,247,251,.66);
+  line-height: 1.95;
+}
+
+/* Research paper readability */
+
+#civilization-synthesis
+.an-cs-paper__expanded h3 {
+  margin-top: 30px;
+
+  font-family:
+    var(--an-cs-serif-display) !important;
+
+  font-size: clamp(22px, 1.85vw, 27px);
+  font-weight: 500;
+
+  letter-spacing: -.01em;
+  line-height: 1.3;
+}
+
+#civilization-synthesis
+.an-cs-paper__expanded p {
+  margin-top: 13px;
+
+  color: rgba(245,247,251,.70);
+
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* Keep long technical terms inside the frame */
+
+#civilization-synthesis
+.an-cs-discipline-panel,
+#civilization-synthesis
+.an-cs-paper__accordion-content {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  #civilization-synthesis
+  .an-cs-charter-article-label {
+    margin-top: 19px;
+  }
+
+  #civilization-synthesis
+  .an-cs-charter-gate {
+    margin-top: 23px;
+  }
+
+  #civilization-synthesis
+  .an-cs-paper__expanded h3 {
+    font-size: 23px;
+  }
+}
+
+/* ==========================================================
+   END / CIVILIZATIONAL CHARTER ENHANCEMENT
+========================================================== */
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION SYNTHESIS
+   NEAR-BLACK ARCHITECTURAL FRAME
+
+   Philosophy:
+   - Almost invisible neutral-gray boundary
+   - Seamless integration with black background
+   - No bright outlines or colored reflections
+   - Preserve existing structure and interactions
+========================================================== */
+
+main.an-home-2026.home-snap.archenova-twin-home
+> section#civilization-synthesis.an-home-2026__section {
+  position: relative !important;
+  box-sizing: border-box !important;
+
+  /* Near-black architectural boundary */
+  border: 1px solid #242424 !important;
+  border-radius: 30px !important;
+
+  /* Preserve the existing black surface */
+  background-color: #000000 !important;
+
+  /* No artificial glow */
+  box-shadow: none !important;
+
+  overflow: hidden !important;
+}
+
+/* Prevent a second visible frame */
+
+main.an-home-2026.home-snap.archenova-twin-home
+> section#civilization-synthesis
+> .an-home-2026__glass.an-synthesis-home__glass {
+  border: none !important;
+  border-radius: inherit !important;
+
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  main.an-home-2026.home-snap.archenova-twin-home
+  > section#civilization-synthesis.an-home-2026__section {
+    border: 1px solid #202020 !important;
+    border-radius: 22px !important;
+  }
+}
+
+/* ==========================================================
+   END / NEAR-BLACK ARCHITECTURAL FRAME
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
