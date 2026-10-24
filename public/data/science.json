@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-24T14:19:47.389Z",
+  "updated": "2026-10-24T17:56:42.910Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'One-positron cyclotron' could test a key prediction of the Standard Model",
+      "url": "https://phys.org/news/2026-10-positron-cyclotron-key-standard.html",
+      "summary": "The positron is the antimatter counterpart of the electron, identical in mass but carrying an equal and opposite electric charge. Like the electron, it also behaves like a tiny bar magnet, and according to a key predicti…",
+      "ts": 1792862402000,
+      "publishedAt": "2026-10-24T17:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly identified protein pathway helps HIV stay hidden despite treatment",
+      "url": "https://phys.org/news/2026-10-newly-protein-pathway-hiv-stay.html",
+      "summary": "Current HIV medicines are effective at suppressing the virus in the blood. However, HIV can remain \"asleep\" or dormant inside certain immune cells and in the brain. These hidden pockets of virus, called HIV reservoirs, a…",
+      "ts": 1792857601000,
+      "publishedAt": "2026-10-24T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications",
+      "url": "https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html",
+      "summary": "Metallic materials used in extremely cold environments must maintain high strength, ductility and fracture toughness to support applications in aerospace, clean energy, superconducting systems and deep-space exploration.…",
+      "ts": 1792854002000,
+      "publishedAt": "2026-10-24T15:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
@@ -89,6 +113,70 @@
       "summary": "Researchers at the University of Helsinki wanted to understand which is the dominant factor for species occurrence and abundance: the climate or habitat-related variables, such as their natural state and the share of lan…",
       "ts": 1792803602000,
       "publishedAt": "2026-10-24T01:00:02.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Critically coupled zeroth-order resonance for ultrathin nonlinear photonics",
+      "url": "https://www.nature.com/articles/s41467-026-78579-6",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Exsolution of metal nanoparticles by control of point defects",
+      "url": "https://www.nature.com/articles/s41467-026-78473-1",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Predicting protein electrostatics with protein language models",
+      "url": "https://www.nature.com/articles/s41467-026-78406-y",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Metallaphotoredox-catalyzed ring swing of arene-fused cycles to γ-sultones",
+      "url": "https://www.nature.com/articles/s41467-026-79071-x",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Education-related polygenic scores show different associations with youth mental health in parent-offspring trios",
+      "url": "https://www.nature.com/articles/s41467-026-78790-5",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Phylogenomics of captured <i>Cryptosporidium</i> sequenced directly from patient samples identifies clade-specific genomic architecture and host-adapted lineages",
+      "url": "https://www.nature.com/articles/s41467-026-78927-6",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Reliability-based arbitration reveals heterogeneous model-based and model-free reinforcement learning strategies linked to compulsivity and impulsivity",
+      "url": "https://www.nature.com/articles/s41467-026-78185-6",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Enterovirus A71 exploits peripheral circulating extracellular vesicles to facilitate blood-brain barrier permeability",
+      "url": "https://www.nature.com/articles/s41467-026-79119-y",
+      "summary": "",
+      "ts": 1792800000000,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -411,6 +499,54 @@
       "publishedAt": "2026-10-23T10:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Artificial synaptic device based on an AlSb/Al(As, Sb) and InAs/In(As, Sb) superlattice heterojunction for visual simulation",
+      "url": "http://link.aps.org/doi/10.1103/jyy9-p4rq",
+      "summary": "Author(s): Dexiang Li (李德香), Jian Zhang (张健), Tao Zhang (张涛), Zhe Li (李哲), Zian Hong (洪子安), Zhaotan Gao (高照潭), Liangqing Zhu (朱亮清), Biao Yue (岳彪), Gongrong Deng (邓功荣), Yawei Li (李亚巍), Liyan Shang (商丽燕), Jinzhong Zhang (张…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Reciprocal-space approach to dipolarly coupled magnetic heterostructures",
+      "url": "http://link.aps.org/doi/10.1103/9z24-jjx3",
+      "summary": "Author(s): A. Del Giacco, L. Menna, M. J. Gross, O. Wojewoda, V. Levati, M. Urbánek, S. Kurdi, E. Albisetti, D. Petti, and C. A. Ross We present an analytical framework capable of describing spin-wave dynamics in magneti…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Design and optimization of spin dynamics in germanium quantum dots: $\\mathbit{g}$-factor modulation, geometry-induced dephasing sweet spots, and phonon-induced relaxation",
+      "url": "http://link.aps.org/doi/10.1103/zvhv-klhf",
+      "summary": "Author(s): Ngoc Duong and Daryoosh Vashaee Gate geometry and bias asymmetry can be used to engineer spin dynamics in gate-defined Ge hole quantum dots by reshaping the confinement potential and driving transitions betwee…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Resolving buried coordination heterogeneity in ${\\mathrm{Al}/\\mathrm{AlO}}_{x}/\\text{Al}$ Josephson junctions",
+      "url": "http://link.aps.org/doi/10.1103/lvjh-dxr8",
+      "summary": "Author(s): Paul Corbae, Alex Abelson, Shivani Srivastava, Heemin Lee, Bevin Huang, Lyrik R-J Lee, Davis B. Rash, Cheng-Tai Kuo, Donghui Lu, Mihir Pendharkar, Loren D. Alegria, Tian T. Li, Keith G. Ray, Shannon P. Harvey,…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Alignment-controlled optical orbital trapping of single airborne aerosols for dynamical particle sensing",
+      "url": "http://link.aps.org/doi/10.1103/svcf-bmjj",
+      "summary": "Author(s): Chun-Yen Wen, Yang-Yi Lee, Chung-Lin Chao, Ruei-Ying Jian, Tzu-Ling Chen, and Wayne Cheng-Wei Huang Optical forces in focused-beam traps are generally nonconservative, yet the controlled use of this nonconserv…",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Accurate vector magnetometer via Zeeman Rabi oscillations",
+      "url": "http://link.aps.org/doi/10.1103/ll3s-5fq9",
+      "summary": "Author(s): T. S. Menon, D. P. Hewatt, C. Kiehl, M. Ellmeier, S. Knappe, and C. A. Regal Accurate measurements of magnetic field direction are essential for applications ranging from magnetic navigation to space science, …",
+      "ts": 1792749600000,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
       "source": "arXiv Physics",
       "title": "The Universal Law of Academic Capital: A Parameter-Unified Theory of Academic Integritology",
       "url": "https://arxiv.org/abs/2610.30153",
@@ -663,142 +799,6 @@
       "title": "Stiff source terms inside ADER-DG method",
       "url": "https://arxiv.org/abs/2610.30852",
       "summary": "arXiv:2610.30852v1 Announce Type: new Abstract: ADER-DG numerical method with the LST-DG predictor, when used to solve hyperbolic equations with stiff source terms, exhibits properties characteristic of IMEX computationa…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-photonic millimeter-wave and terahertz signal core at room and cryogenic temperatures",
-      "url": "https://arxiv.org/abs/2610.30857",
-      "summary": "arXiv:2610.30857v1 Announce Type: new Abstract: Millimeter-wave and terahertz technologies offer new opportunities for high-capacity communications, sensing, and quantum systems, but electronic signal chains above 100 GH…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser-design methodology for extending an available wavelength range of dual-wavelength injection-seeded laser",
-      "url": "https://arxiv.org/abs/2610.30897",
-      "summary": "arXiv:2610.30897v1 Announce Type: new Abstract: This paper describes a method for expanding the applicable wavelength range of dual-wavelength oscillation injection-locked lasers. Special focus is placed on the laser des…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intrinsic Angular Momentum Contribution to the Sagnac Response of a Rotating Helical Optical Fiber",
-      "url": "https://arxiv.org/abs/2610.30898",
-      "summary": "arXiv:2610.30898v1 Announce Type: new Abstract: We investigate rotation-induced phase accumulation of structured light in a mechanically rotating uniform helical optical fiber using a four-component optical Dirac-like eq…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LieGROG: A Lie algebra approach for calibrating GRAPPA operators",
-      "url": "https://arxiv.org/abs/2610.30927",
-      "summary": "arXiv:2610.30927v1 Announce Type: new Abstract: Purpose: In multi-coil acquisitions based on non-Cartesian k-space sampling, image reconstruction using GRAPPA Operator based gridding (GROG) can provide advantages with re…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Personal History in Quantum Foundations: an Oral History Interview",
-      "url": "https://arxiv.org/abs/2610.30998",
-      "summary": "arXiv:2610.30998v1 Announce Type: new Abstract: This oral history interview provides Yakir Aharonov's personal and conceptual recollections from the 1950s to the 2000s, focusing on his academic trajectory, some of his ma…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Modeling of 3D-Printed Freeform Waveguides with a Transformation Optics-Based Beam Propagation Method",
-      "url": "https://arxiv.org/abs/2610.31004",
-      "summary": "arXiv:2610.31004v1 Announce Type: new Abstract: An efficient numerical method is introduced for simulating wave propagation in 3D-printed freeform waveguides, referred to as photonic wire bonds (PWBs). This approach inte…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On Spurious Mesh-Scale Oscillations Associated with Resonance-Cone Regimes in Wave-Plasma Simulations",
-      "url": "https://arxiv.org/abs/2610.31021",
-      "summary": "arXiv:2610.31021v1 Announce Type: new Abstract: Spurious mesh-scale oscillations can compromise frequency-domain finite-element simulations of electromagnetic wave propagation in magnetized cold plasmas. We investigate t…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective-action formulation of $\\mathbf{k}$-odd bianisotropy and unidirectional polarization rotation in nonlocal temporal metamaterials",
-      "url": "https://arxiv.org/abs/2610.31022",
-      "summary": "arXiv:2610.31022v1 Announce Type: new Abstract: We derive the effective action of temporal metamaterials up to first order in spatial derivatives through a multiscale analysis of the electromagnetic Lagrangian density. W…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Mechanism of Chirality in Plasmonic Structures: Asymmetric Resonance Modes",
-      "url": "https://arxiv.org/abs/2610.31045",
-      "summary": "arXiv:2610.31045v1 Announce Type: new Abstract: This study presents a theoretical framework for understanding the mechanism of chirality generation and circular dichroism (CD) in chiral nanostructures, with a particular …",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial scaling of network length and shared-node density in bilayer distribution grids",
-      "url": "https://arxiv.org/abs/2610.31053",
-      "summary": "arXiv:2610.31053v1 Announce Type: new Abstract: Certain distribution networks are built in layers, each layer collecting a commodity from the layer above it and delivering it to the layer below. We propose a minimal mode…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation",
-      "url": "https://arxiv.org/abs/2610.31071",
-      "summary": "arXiv:2610.31071v1 Announce Type: new Abstract: Frequency-domain wavefield modeling underpins seismic imaging and inversion, where repeated Helmholtz solutions become costly as velocity models, source locations, and freq…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extended-regularized lattice Boltzmann method",
-      "url": "https://arxiv.org/abs/2610.31072",
-      "summary": "arXiv:2610.31072v1 Announce Type: new Abstract: Regularized lattice Boltzmann methods improve numerical stability by projecting the nonequilibrium distribution onto its hydrodynamic second-order Hermite sector and filter…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In situ performance of the Vertex Silicon Plane in the BM@N experiment during Run 9",
-      "url": "https://arxiv.org/abs/2610.31077",
-      "summary": "arXiv:2610.31077v1 Announce Type: new Abstract: The Vertex Silicon Plane (VSP) was commissioned and operated for the first time as the most upstream tracking station of the Baryonic Matter at Nuclotron (BM@N) experiment …",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GeoAgent: Contract-Constrained LLM Agents for Seismic Data Processing",
-      "url": "https://arxiv.org/abs/2610.31096",
-      "summary": "arXiv:2610.31096v1 Announce Type: new Abstract: Large language models (LLMs) can drive scientific software through function calling, but free-form tool use is fragile on long, data-dependent processing chains. Models omi…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of nanoparticle shapes in nanofluid film boiling on vertical cylinders: A numerical study",
-      "url": "https://arxiv.org/abs/2610.31151",
-      "summary": "arXiv:2610.31151v1 Announce Type: new Abstract: This research explores how nanoparticle shapes affect the thermal behavior of nanofluid film boiling along a vertical cylinder, using a Continuous-Species-Transfer method w…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond city pairs: Higher-order information in urban growth across borders",
-      "url": "https://arxiv.org/abs/2610.31159",
-      "summary": "arXiv:2610.31159v1 Announce Type: new Abstract: We apply higher-order information measures to urban growth across borders and spatial units. We analyse 8,808 functional urban areas using gridded GDP estimates allocated f…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accurate ab initio calculations of the ground state properties of singly charged alkali metal hydrides",
-      "url": "https://arxiv.org/abs/2610.31161",
-      "summary": "arXiv:2610.31161v1 Announce Type: new Abstract: In this article, we investigate the ground state electronic properties of singly charged alkali metal hydrides using the single-reference coupled-cluster method with single…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }

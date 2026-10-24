@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-24T14:19:50.999Z",
+  "updated": "2026-10-24T17:56:45.877Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: The ESMO presentation everyone’s been waiting for",
+      "url": "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/?utm_campaign=rss",
+      "summary": "Moderna and Merck's 'presidential' presentation, and other news from Day 2 of the European Society for Medical Oncology meeting in Madrid.",
+      "ts": 1792861259000,
+      "publishedAt": "2026-10-24T17:00:59.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Opinion: Christina Applegate puts a face on one of the most consequential challenges in neurology",
@@ -801,15 +810,6 @@
       "summary": "A year-long collaboration involving scientists at PerturbAI, OpenAI, and their other institutions yielded an AI reasoning framework that turns datasets into testable hypotheses, with thousands of agents analyzing whole-b…",
       "ts": 1792690424000,
       "publishedAt": "2026-10-22T17:33:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ASHG President Susan Slaugenhaupt Calls for Hope, Leadership, and Communication in Science",
-      "url": "https://www.genengnews.com/topics/omics/ashg-president-susan-slaugenhaupt-calls-for-hope-leadership-and-communication-in-science/",
-      "summary": "ASHG President Susan Slaugenhaupt, PhD, opened the society’s Montreal meeting with a heartfelt address emphasizing hope, leadership, and the importance of communication amid the challenges facing science today. The post …",
-      "ts": 1792687385000,
-      "publishedAt": "2026-10-22T16:43:05.000Z",
       "categoryId": "bio"
     }
   ],
