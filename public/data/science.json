@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-25T21:31:55.224Z",
+  "updated": "2026-10-25T23:55:43.065Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Experienced teachers are quitting or reducing their hours—they're struggling to cope",
+      "url": "https://phys.org/news/2026-10-experienced-teachers-hours-theyre-struggling.html",
+      "summary": "Teacher shortages are affecting school systems in countries across the world. Governments have responded with initiatives to attract graduates into teaching. While much attention has focused on increasing supply, far les…",
+      "ts": 1792971002000,
+      "publishedAt": "2026-10-25T23:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Assessment tool helps schools look at students holistically",
+      "url": "https://phys.org/news/2026-10-tool-schools-students-holistically.html",
+      "summary": "Researchers in the Neag School of Education are bringing a whole child screening assessment to a company that provides schools with a connected set of solutions that turn every student signal into timely, equitable, coor…",
+      "ts": 1792969802000,
+      "publishedAt": "2026-10-25T23:10:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Australian coral reefs face risk of collapse within 50 years without drastic action, global assessment finds",
@@ -783,22 +799,6 @@
       "title": "Dynamical-Model-Informed Stochastic Flow Matching for Global Probabilistic Subseasonal Forecasting of Means and Extremes",
       "url": "https://arxiv.org/abs/2610.30159",
       "summary": "arXiv:2610.30159v1 Announce Type: new Abstract: Physics-based models provide skillful subseasonal forecasts but suffer from systematic biases, weakened teleconnections, and parameterized physics, while very large ensembl…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaporative Cooling and Secondary Combustion in a Liquid-Hydrocarbon Rotating Detonation Combustor with Dual-Purpose Head-End Injection",
-      "url": "https://arxiv.org/abs/2610.30171",
-      "summary": "arXiv:2610.30171v1 Announce Type: new Abstract: The rotating detonation engine (RDE) faces severe thermal protection challenges. This study numerically investigates a head-end dual-purpose injection configuration in whic…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GeoDiv KAN Solver for Time Fractional Navier Stokes Equations on Complex Domains to Realistic CFD Reconstruction",
-      "url": "https://arxiv.org/abs/2610.30179",
-      "summary": "arXiv:2610.30179v1 Announce Type: new Abstract: Scientific machine learning provides a promising framework for solving complex problems in science and engineering. Notably, physics informed neural networks (PINNs) have s…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }

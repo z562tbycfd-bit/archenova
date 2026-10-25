@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-25T21:31:57.716Z",
+  "updated": "2026-10-25T23:55:46.605Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Investment Banker Talks U.S.-Chinese Deals, IPOs, and a Tough Climate for Startups Seeking Capital",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/",
+      "summary": "Geoff Meyerson addressed the growth of U.S.-Chinese licensing/collaboration deals, the recent growth of IPOs, and the still-chilly climate for startups seeking financing in a recent interview with GEN Edge. The post Stoc…",
+      "ts": 1792969865000,
+      "publishedAt": "2026-10-25T23:11:05.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: At ESMO, AstraZeneca’s cancer pursuits get a showcase",
@@ -801,15 +810,6 @@
       "summary": "Fast, focused, low-cost decisions for any application.",
       "ts": 1792695600000,
       "publishedAt": "2026-10-22T19:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Foundations of Scalable AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores …",
-      "ts": 1792694884000,
-      "publishedAt": "2026-10-22T18:48:04.000Z",
       "categoryId": "ai-compute"
     }
   ],
