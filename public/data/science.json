@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-25T11:08:39.382Z",
+  "updated": "2026-10-25T15:44:41.880Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A few seconds of loading time can push online learners off track",
+      "url": "https://phys.org/news/2026-10-seconds-online-learners-track.html",
+      "summary": "An online lesson takes an extra second to load. The wait may seem trivial, but in a study examining large learning platforms, these brief pauses were linked to unfinished assignments, lower scores and less time spent on …",
+      "ts": 1792941602000,
+      "publishedAt": "2026-10-25T15:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microorganisms show promise for reducing emissions from manure",
+      "url": "https://phys.org/news/2026-10-microorganisms-emissions-manure.html",
+      "summary": "Dairy farmers sometimes use additives in their cattle housing to reduce emissions from slurry. Emissions of substances such as ammonia occur when urine and feces mix on the floor of the housing. At the same time, dairy f…",
+      "ts": 1792933201000,
+      "publishedAt": "2026-10-25T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Southern Africa's first known stenciled rock art found hiding in plain sight",
+      "url": "https://phys.org/news/2026-10-southern-africa-stenciled-art-plain.html",
+      "summary": "Southern Africa has one of the most detailed and elaborate bodies of rock art anywhere in the world, from herds of running antelope to dancing men and humanoid beings with wings, hooves and horns. All are painted with fi…",
+      "ts": 1792932002000,
+      "publishedAt": "2026-10-25T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global underground CO₂ storage hit record 43.6 million metric tons in 2024 alone",
+      "url": "https://phys.org/news/2026-10-global-underground-storage-million-metric.html",
+      "summary": "The most comprehensive record yet of carbon dioxide stored underground through geological carbon dioxide storage has been published today, revealing that 43.6 million metric tons were sequestered in 2024 alone—a new annu…",
+      "ts": 1792929601000,
+      "publishedAt": "2026-10-25T12:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Sea cucumber–inspired gel could help heal damaged tissue in humans",
@@ -767,38 +799,6 @@
       "title": "Synthetic Stochastic Time Series from Generative Models",
       "url": "https://arxiv.org/abs/2610.30406",
       "summary": "arXiv:2610.30406v1 Announce Type: new Abstract: Obtaining statistically converged time-series data represents a fundamental challenge in computational chemistry, where sampling is constrained by the prohibitive computati…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Predicting droplet landing in angle-controlled surface acoustic wave jetting",
-      "url": "https://arxiv.org/abs/2610.30407",
-      "summary": "arXiv:2610.30407v1 Announce Type: new Abstract: Nozzle-free droplet generation eliminates the need for a dispensing orifice, but useful printing also requires control over where droplets are deposited. Here we demonstrat…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparing local and global optimization reveals untapped hybrid potentials for machine learning-based inverse planning",
-      "url": "https://arxiv.org/abs/2610.30424",
-      "summary": "arXiv:2610.30424v1 Announce Type: new Abstract: Machine learning (ML) models for normal tissue complication probability (NTCP) can be embedded directly into inverse treatment planning, but the resulting optimization prob…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Concentration-Dependent Speciation in ZnCl2 Electrolyte Solutions: Transferability of Machine-Learning Interatomic Potentials and Speciation Sensitivity of EXAFS",
-      "url": "https://arxiv.org/abs/2610.30513",
-      "summary": "arXiv:2610.30513v1 Announce Type: new Abstract: Predicting speciation in concentrated electrolytes requires accurate ion interactions and adequate sampling of slowly interconverting coordination environments. We combine …",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First Results of Calculation of the Dayside Magnetopause Reconnection Rate with TRACERS",
-      "url": "https://arxiv.org/abs/2610.30517",
-      "summary": "arXiv:2610.30517v1 Announce Type: new Abstract: Quantifying the rate of reconnection remains a key challenge in the study of geomagnetic storms. In this study, we present the first results from the new Tandem Reconnectio…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
