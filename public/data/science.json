@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-10-25T18:46:58.996Z",
+  "updated": "2026-10-25T21:31:55.224Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Australian coral reefs face risk of collapse within 50 years without drastic action, global assessment finds",
+      "url": "https://phys.org/news/2026-10-australian-coral-reefs-collapse-years.html",
+      "summary": "Every shallow-water coral reef ecosystem in Australia faces an extremely high risk of collapse by 2075, driven largely by projected ocean warming, according to a global assessment.",
+      "ts": 1792956601000,
+      "publishedAt": "2026-10-25T19:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Supercurrent enables the reading of quantum information without destroying it",
+      "url": "https://phys.org/news/2026-10-supercurrent-enables-quantum-destroying.html",
+      "summary": "One of the fundamental challenges of quantum computing is obtaining information from a quantum bit, or qubit. Unlike a conventional bit, which can be read repeatedly without altering its content, direct measurement of a …",
+      "ts": 1792954820000,
+      "publishedAt": "2026-10-25T19:00:20.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crows make decisions twice as fast as humans and monkeys",
+      "url": "https://phys.org/news/2026-10-crows-decisions-fast-humans-monkeys.html",
+      "summary": "University of Tübingen researchers have shown that crows, when confronted with a visual choice, make a decision twice as fast as humans and monkeys. In the experiment, two carrion crows took just 235 milliseconds on aver…",
+      "ts": 1792954816000,
+      "publishedAt": "2026-10-25T19:00:16.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Storms batter Europe, hitting power supplies, flights and phones",
+      "url": "https://phys.org/news/2026-10-storms-batter-europe-power-flights.html",
+      "summary": "Storms battered northern Europe on Sunday, cutting power to more than 150,000 homes, forcing the cancellation of hundreds of flights and silencing phone networks.",
+      "ts": 1792954813000,
+      "publishedAt": "2026-10-25T19:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Monarchs report their locations via… cellphone?",
+      "url": "https://phys.org/news/2026-10-monarchs-cellphone.html",
+      "summary": "Who knew a monarch butterfly could borrow a cellphone to check in with friendly people he met on his journey? That is essentially what happens now that new technology has reduced the weight of a radio-pulse tag to less t…",
+      "ts": 1792954806000,
+      "publishedAt": "2026-10-25T19:00:06.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Milky Way's disk grew 'upside down,' with younger stars forming in ever-thinner layers",
@@ -759,46 +799,6 @@
       "title": "GeoDiv KAN Solver for Time Fractional Navier Stokes Equations on Complex Domains to Realistic CFD Reconstruction",
       "url": "https://arxiv.org/abs/2610.30179",
       "summary": "arXiv:2610.30179v1 Announce Type: new Abstract: Scientific machine learning provides a promising framework for solving complex problems in science and engineering. Notably, physics informed neural networks (PINNs) have s…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automated generation and execution of large-scale semidefinite programs for variational two-electron reduced density matrix theory",
-      "url": "https://arxiv.org/abs/2610.30278",
-      "summary": "arXiv:2610.30278v1 Announce Type: new Abstract: The variational two-electron reduced density matrix (v2RDM) method provides a wave-function-free approach to the description of strong electron correlation whose computatio…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma transport by carrier electrons: classical coefficients across ionization and magnetization",
-      "url": "https://arxiv.org/abs/2610.30303",
-      "summary": "arXiv:2610.30303v1 Announce Type: new Abstract: The classical transport of magnetic field and electron energy in a plasma requires the use of coefficients that depend on plasma ionization $Z$ and magnetization $\\chi$. Th…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution of Jeans instability in nonthermal magnetized complex plasmas",
-      "url": "https://arxiv.org/abs/2610.30332",
-      "summary": "arXiv:2610.30332v1 Announce Type: new Abstract: The classical Jeans instability framework provides a conceptual foundation for understanding self-gravitational collapse and subsequent star formation in interstellar envir…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A novel mechanism for spontaneous ExB shear layer formation in scrape-off-layer plasmas",
-      "url": "https://arxiv.org/abs/2610.30343",
-      "summary": "arXiv:2610.30343v1 Announce Type: new Abstract: We present a novel mechanism for spontaneous shear-flow generation in the scrape-off layer (SOL) of magnetically confined plasmas, arising at abrupt changes in the sheath c…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust PCA Study of TEM Images of Gold Nanospheres: Stable and Dynamic Closed Knot-Like Phase-Space Loops",
-      "url": "https://arxiv.org/abs/2610.30367",
-      "summary": "arXiv:2610.30367v1 Announce Type: new Abstract: In this study, we apply Robust PCA to transmission electron microscopy (TEM) images of gold nanoparticles (GNPs) to decompose their geometrical, topological, and dynamical …",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
