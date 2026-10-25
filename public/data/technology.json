@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-25T15:44:44.971Z",
+  "updated": "2026-10-25T18:47:01.138Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: At ESMO, AstraZeneca’s cancer pursuits get a showcase",
+      "url": "https://www.statnews.com/2026/10/25/esmo-astrazeneca-adcs-lung-gastric-cancer/?utm_campaign=rss",
+      "summary": "AstraZeneca has seen major momentum in oncology in recent years. It got a big showcase at Europe's top cancer conference.",
+      "ts": 1792947525000,
+      "publishedAt": "2026-10-25T16:58:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: After a cancer vaccine’s first success, the race is on to expand the impact",
@@ -802,15 +811,6 @@
       "ts": 1792694884000,
       "publishedAt": "2026-10-22T18:48:04.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "EQT to Acquire Qiagen for $12.1B, Plans to Take Tools, Diagnostics Provider Private",
-      "url": "https://www.genengnews.com/topics/bioprocessing/eqt-to-acquire-qiagen-for-12-1b-plans-to-take-tools-diagnostics-provider-private/",
-      "summary": "EQT has €354 billion in assets under management and a three-decade track record of acquiring, developing, and sometimes selling companies that include life sciences tools/tech concerns. The post EQT to Acquire Qiagen for…",
-      "ts": 1792694019000,
-      "publishedAt": "2026-10-22T18:33:39.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
