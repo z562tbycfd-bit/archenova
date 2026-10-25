@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-25T01:00:00.192Z",
+  "updated": "2026-10-25T05:57:13.673Z",
   "items": [
     {
       "source": "Phys.org",
@@ -9,6 +9,22 @@
       "summary": "In 1987, biologists captured the last free-flying condor to transfer it to captivity, and the largest flying North American bird species was officially declared extinct in the wild. Today, after decades of coordinated ef…",
       "ts": 1792886401000,
       "publishedAt": "2026-10-25T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Active locomotion predictively rescues head direction attractor dynamics in head-fixed mice",
+      "url": "https://www.nature.com/articles/s41467-026-79031-5",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structural dynamics of substrate processing by the p97-Ufd1-Npl4-FAF1 machinery",
+      "url": "https://www.nature.com/articles/s41467-026-78639-x",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -783,22 +799,6 @@
       "title": "From Venus to the Parking Lot: A Flexible Stellar Interferometry Experiment",
       "url": "https://arxiv.org/abs/2610.30669",
       "summary": "arXiv:2610.30669v1 Announce Type: new Abstract: We describe a simple extension of our earlier Venus interferometry demonstration that can be performed indoors or outdoors, independent of planetary visibility or atmospher…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-gravitating isothermal equilibria in Eddington-inspired Born--Infeld gravity: exact planar sheets and the Bonnor--Ebert critical mass",
-      "url": "https://arxiv.org/abs/2610.30716",
-      "summary": "arXiv:2610.30716v1 Announce Type: new Abstract: We study self-gravitating fluid equilibria in the Newtonian limit of Eddington-inspired Born--Infeld (EiBI) gravity, in which the Poisson equation acquires a term proportio…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Core-periphery structure induces double phase transitions in information cascades",
-      "url": "https://arxiv.org/abs/2610.30745",
-      "summary": "arXiv:2610.30745v1 Announce Type: new Abstract: Double phase transitions in spreading processes are commonly associated with additional dynamical or structural complexity. Here, we show that such transitions can emerge n…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
