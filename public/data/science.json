@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-25T05:57:13.673Z",
+  "updated": "2026-10-25T11:08:39.382Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sea cucumber–inspired gel could help heal damaged tissue in humans",
+      "url": "https://phys.org/news/2026-10-sea-cucumberinspired-gel-tissue-humans.html",
+      "summary": "Inspired by the ability of sea cucumbers to change the stiffness of their bodies, University of Waterloo researchers have developed a gel that could one day help repair damaged tendons and other soft tissues without leav…",
+      "ts": 1792926001000,
+      "publishedAt": "2026-10-25T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Who should have a say in which species are saved? The California condor offers lessons for a global biodiversity treaty",
@@ -12,8 +20,64 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Holographic focused ultrasound enables multitarget EV and MSC delivery for neurovascular repair after ischemic stroke",
+      "url": "https://www.nature.com/articles/s41467-026-78847-5",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Active locomotion predictively rescues head direction attractor dynamics in head-fixed mice",
       "url": "https://www.nature.com/articles/s41467-026-79031-5",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Dual-point-groups engineering enable multi-ultrahigh-Q resonances via Brillouin zone folding in tetramer metasurfaces",
+      "url": "https://www.nature.com/articles/s41467-026-78953-4",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Emergence of diffusion models from associative memory through memorization and generalization",
+      "url": "https://www.nature.com/articles/s41467-026-78727-y",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "NYNRIN safeguards leukemia stem cells by sustaining thioredoxin activity to maintain redox homeostasis",
+      "url": "https://www.nature.com/articles/s41467-026-78678-4",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Evaluating anonymized genome re-identification using polygenic predictions and its implications for data privacy",
+      "url": "https://www.nature.com/articles/s41467-026-78494-w",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Spatiotemporal proteomics reveals dynamic antiparallel gradients shaping signalling waves",
+      "url": "https://www.nature.com/articles/s41467-026-78911-0",
+      "summary": "",
+      "ts": 1792886400000,
+      "publishedAt": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Complementary axes of functional system integrity and integration with divergent clinical correlates characterize focal epilepsy",
+      "url": "https://www.nature.com/articles/s41467-026-79018-2",
       "summary": "",
       "ts": 1792886400000,
       "publishedAt": "2026-10-25T00:00:00.000Z"
@@ -735,70 +799,6 @@
       "title": "First Results of Calculation of the Dayside Magnetopause Reconnection Rate with TRACERS",
       "url": "https://arxiv.org/abs/2610.30517",
       "summary": "arXiv:2610.30517v1 Announce Type: new Abstract: Quantifying the rate of reconnection remains a key challenge in the study of geomagnetic storms. In this study, we present the first results from the new Tandem Reconnectio…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser with $7\\times10^{-18}$ stability",
-      "url": "https://arxiv.org/abs/2610.30532",
-      "summary": "arXiv:2610.30532v1 Announce Type: new Abstract: We report a laser with record frequency stability, based on a 21 cm cryogenic silicon cavity. For best short-term stability, the cavity operates at 6 K to minimize Brownian…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deep-Learning Identification and Global Characterization of Energetic O2+ Beams at Mars",
-      "url": "https://arxiv.org/abs/2610.30578",
-      "summary": "arXiv:2610.30578v1 Announce Type: new Abstract: Martian ionospheric ions can be accelerated away from Mars by the solar wind, contributing substantially to atmospheric ion escape. Here, we develop a U-Net-based image seg…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient third-harmonic generation in high-Q tantalum pentoxide microcavities",
-      "url": "https://arxiv.org/abs/2610.30579",
-      "summary": "arXiv:2610.30579v1 Announce Type: new Abstract: Nonlinear harmonic generation in microcavities offers a compelling route toward energy efficient on-chip short-wavelength coherent light sources, enabled by tight optical c…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Supercoiling Drives DNA-Protein Co-Condensation",
-      "url": "https://arxiv.org/abs/2610.30588",
-      "summary": "arXiv:2610.30588v1 Announce Type: new Abstract: The co-condensation of DNA and proteins plays an important role in genome compaction, including heterochromatin formation and chromosome segregation. Meanwhile, transcripti…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Alignment-Free Optical Combining with Scalar-Message Expectation Propagation Detection for Distributed Multi-Aperture Coherent Reception",
-      "url": "https://arxiv.org/abs/2610.30600",
-      "summary": "arXiv:2610.30600v1 Announce Type: new Abstract: We propose an alignment-free distributed multi-aperture optical receiver with a single coherent front end, in which the differential delays between apertures are large. The…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Metasurface engineering of transient photothermal responses for vibrational imaging at living interfaces",
-      "url": "https://arxiv.org/abs/2610.30610",
-      "summary": "arXiv:2610.30610v1 Announce Type: new Abstract: Chemical transformations at biological interfaces are central to cellular function, yet the weak vibrational signals associated with subtle molecular changes limit their sp…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental evidence of forward energy transfer induced by core-edge coupling in multiscale tokamak turbulence",
-      "url": "https://arxiv.org/abs/2610.30638",
-      "summary": "arXiv:2610.30638v1 Announce Type: new Abstract: Turbulence in magnetically confined plasmas is inherently quasi-two-dimensional and can exhibit both inverse and forward energy transfer across scales. Experimental evidenc…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Venus to the Parking Lot: A Flexible Stellar Interferometry Experiment",
-      "url": "https://arxiv.org/abs/2610.30669",
-      "summary": "arXiv:2610.30669v1 Announce Type: new Abstract: We describe a simple extension of our earlier Venus interferometry demonstration that can be performed indoors or outdoors, independent of planetary visibility or atmospher…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }
