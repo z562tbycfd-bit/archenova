@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-10-24T22:58:34.733Z",
+  "updated": "2026-10-25T01:00:00.192Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Who should have a say in which species are saved? The California condor offers lessons for a global biodiversity treaty",
+      "url": "https://phys.org/news/2026-10-species-california-condor-lessons-global.html",
+      "summary": "In 1987, biologists captured the last free-flying condor to transfer it to captivity, and the largest flying North American bird species was officially declared extinct in the wild. Today, after decades of coordinated ef…",
+      "ts": 1792886401000,
+      "publishedAt": "2026-10-25T00:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
@@ -791,14 +799,6 @@
       "title": "Core-periphery structure induces double phase transitions in information cascades",
       "url": "https://arxiv.org/abs/2610.30745",
       "summary": "arXiv:2610.30745v1 Announce Type: new Abstract: Double phase transitions in spreading processes are commonly associated with additional dynamical or structural complexity. Here, we show that such transitions can emerge n…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconfigurable Free-Space Optical Interconnects",
-      "url": "https://arxiv.org/abs/2610.30757",
-      "summary": "arXiv:2610.30757v1 Announce Type: new Abstract: Free-space optical interconnects can support many low-data-rate channels while avoiding the cost, energy consumption, and packaging constraints of optical waveguide- or fib…",
       "ts": 1792728000000,
       "publishedAt": "2026-10-23T04:00:00.000Z"
     }

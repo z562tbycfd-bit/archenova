@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-24T22:58:37.875Z",
+  "updated": "2026-10-25T01:00:02.181Z",
   "items": [
     {
       "source": "STAT",
@@ -10,6 +10,15 @@
       "ts": 1792861259000,
       "publishedAt": "2026-10-24T17:00:59.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168663",
+      "summary": "When Tahani Al-Numeiri heard the first explosions in Khartoum, her hometown, war seemed so remote that she assumed they were celebrations from a nearby wedding. It was the morning of 15 April 2023, and the paramilitary R…",
+      "ts": 1792843200000,
+      "publishedAt": "2026-10-24T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -262,6 +271,15 @@
       "ts": 1792757400000,
       "publishedAt": "2026-10-23T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN marks 81 years of global cooperation",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168665",
+      "summary": "The United Nations celebrates its 81st anniversary on Saturday, highlighting more than eight decades of work to advance peace, human rights and development around the world.",
+      "ts": 1792756800000,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1792692818000,
       "publishedAt": "2026-10-22T18:13:38.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Nvidia, UW Institute for Protein Design Unveil Open-Source Protein Design AI Model",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-uw-institute-for-protein-design-unveil-open-source-protein-design-ai-model/",
-      "summary": "RFD4-Proteina is an open model based on Nvidia’s NVIDIA BioNeMo™ artificial intelligence (AI) platform for chemistry and biology that combines programmable protein design with search capabilities. RFD4-Proteina generates…",
-      "ts": 1792691292000,
-      "publishedAt": "2026-10-22T17:48:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "PerturbAI and OpenAI Launch AI Reasoning Agents for Biomedical Discovery",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/perturbai-and-openai-launch-ai-reasoning-agents-for-biomedical-discovery/",
-      "summary": "A year-long collaboration involving scientists at PerturbAI, OpenAI, and their other institutions yielded an AI reasoning framework that turns datasets into testable hypotheses, with thousands of agents analyzing whole-b…",
-      "ts": 1792690424000,
-      "publishedAt": "2026-10-22T17:33:44.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
