@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-10-26T16:37:44.948Z",
+  "updated": "2026-10-26T21:27:25.592Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: HHS relaxes security, transparency rules for health record software used by hospitals",
+      "url": "https://www.statnews.com/2026/10/26/health-data-interoperability-hti5-relaxes-privacy-security-requirements/?utm_campaign=rss",
+      "summary": "The Trump administration removed several security, privacy and transparency requirements for vendors of EHR software.",
+      "ts": 1793049371000,
+      "publishedAt": "2026-10-26T21:16:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "World HUPO 2026: Asia-Pacific Ambition and the Road to Predictive Biology",
+      "url": "https://www.genengnews.com/topics/omics/world-hupo-2026-asia-pacific-ambition-and-the-road-to-predictive-biology/",
+      "summary": "Conversations at HUPO 2026 revolved around questions that reach beyond the proteomics community: who will develop disease, why treatment fails, and whether a computational model can help us decide which experiment to run…",
+      "ts": 1793048331000,
+      "publishedAt": "2026-10-26T20:58:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Anthropic IPO Discloses Plans for Life Sciences Growth",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/anthropic-ipo-discloses-plans-for-life-sciences-growth/",
+      "summary": "Anthropic’s Form S-1 Registration Statement did not reveal what research areas it is pursuing through the molecular biology lab it disclosed last month, and what if any new therapies it is seeking to discover and develop…",
+      "ts": 1793048222000,
+      "publishedAt": "2026-10-26T20:57:02.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Flexell Space Establishes French Subsidiary to Strengthen European Presence",
+      "url": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
+      "summary": "– Paris-based FLEXELL SPACE FRANCE SAS creates a local business hub in Europe– New entity to support ongoing contract and volume-production discussions with European customers, from technical reviews to supply […] The po…",
+      "ts": 1793044800000,
+      "publishedAt": "2026-10-26T20:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Spatial Proteomics for Precision Oncology",
+      "url": "https://www.genengnews.com/multimedia/webinars/spatial-proteomics-for-precision-oncology/",
+      "summary": "In this GEN webinar, Bernd Bodenmiller, PhD (University of Zürich), illustrates this integrated approach through two recent examples. The post Spatial Proteomics for Precision Oncology appeared first on GEN - Genetic Eng…",
+      "ts": 1793044665000,
+      "publishedAt": "2026-10-26T19:57:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "South African Labs Strive for Africa’s Biopharma Sovereignty",
+      "url": "https://www.genengnews.com/topics/drug-discovery/south-african-labs-strive-for-africas-biopharma-sovereignty/",
+      "summary": "Africa still imports 99% of its routine vaccines and 70–90% of its biopharmaceuticals. The Africa CDC warns this vulnerability could cost the continent up to $1.1 trillion in skills and jobs through 2050. The post South …",
+      "ts": 1793040941000,
+      "publishedAt": "2026-10-26T18:55:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Overcoming Bottlenecks: Biopharma’s Big Challenge Is Execution",
+      "url": "https://www.genengnews.com/topics/bioprocessing/overcoming-bottlenecks-biopharmas-big-challenge-is-execution/",
+      "summary": "The biggest challenge facing the biopharma industry isn’t scientific innovation. It’s manufacturing execution. Closing this gap is one of the greatest opportunities biopharma has today to enhance resilience and unlock th…",
+      "ts": 1793038972000,
+      "publishedAt": "2026-10-26T18:22:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Predicting Leukemia Survival May Be Aided by Six Gene Scoring System",
+      "url": "https://www.genengnews.com/topics/cancer/predicting-leukemia-survival-may-be-aided-by-six-gene-scoring-system/",
+      "summary": "Researchers studying mice and human data identified a six gene signature, and developed a scorings system, that could help forecast acute myeloid leukemia patient survival, and potentially point to new therapeutic target…",
+      "ts": 1793038506000,
+      "publishedAt": "2026-10-26T18:15:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 3…",
+      "ts": 1793036743000,
+      "publishedAt": "2026-10-26T17:45:43.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: House lawmaker probes PBMs for ‘punitive’ audits of independent pharmacies",
@@ -13,7 +94,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: GSK sees its return to cancer starting to pay off",
+      "title": "STAT+: GSK sees its return to cancer start to pay off",
       "url": "https://www.statnews.com/2026/10/26/gsk-cancer-esmo-adcs-jemperli/?utm_campaign=rss",
       "summary": "A decade ago, GSK was out of oncology. It could soon pick up approval for its sixth cancer drug.",
       "ts": 1793031605000,
@@ -138,6 +219,15 @@
       "categoryId": "global-governance"
     },
     {
+      "source": "OpenAI",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "ts": 1793008800000,
+      "publishedAt": "2026-10-26T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "ESA",
       "title": "Ice mission CRISTAL opens its wings",
       "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings",
@@ -205,6 +295,15 @@
       "title": "How Fanatics and OpenAI streamline the fan experience",
       "url": "https://openai.com/index/fanatics-streamline-fan-experience",
       "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "ts": 1792998000000,
+      "publishedAt": "2026-10-26T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
       "ts": 1792998000000,
       "publishedAt": "2026-10-26T07:00:00.000Z",
       "categoryId": "ai-compute"
@@ -462,6 +561,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "summary": "Bringing fast and capable computer use to everyone",
+      "ts": 1792972800000,
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "StockWatch: Investment Banker Talks U.S.-Chinese Deals, IPOs, and a Tough Climate for Startups Seeking Capital",
       "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/",
@@ -703,114 +811,6 @@
       "ts": 1792768884000,
       "publishedAt": "2026-10-23T15:21:24.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Multiomic Study of MSS CRC Identifies Vulnerabilities Pointing to Therapeutic Possibilities",
-      "url": "https://www.genengnews.com/topics/cancer/multiomic-study-of-mss-crc-identifies-vulnerabilities-pointing-to-therapeutic-possibilities/",
-      "summary": "Researchers analyzed multiomic and clinical data from 2000 colorectal cancer samples and used an AI tool, iPhenMap, to help identify cancer cell vulnerabilities and drug combinations that could be used to treat MSS CRC. …",
-      "ts": 1792768378000,
-      "publishedAt": "2026-10-23T15:12:58.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Anxiety builds over Medicaid work requirements",
-      "url": "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/?utm_campaign=rss",
-      "summary": "As a Boston judge heard a challenge to Medicaid work requirements, state Medicaid directors gathered in Maryland to figure out how to implement those sweeping changes.",
-      "ts": 1792766841000,
-      "publishedAt": "2026-10-23T14:47:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Treasury proposes major restrictions to U.S. investment in Chinese biotech sector",
-      "url": "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/?utm_campaign=rss",
-      "summary": "A new Treasury Department proposal would restrict U.S. investments in Chinese biotechs, but still allows licensing deals.",
-      "ts": 1792764186000,
-      "publishedAt": "2026-10-23T14:03:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-372-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1792763745000,
-      "publishedAt": "2026-10-23T13:55:45.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a cancer vaccine, an experimental pancreatic cancer drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/?utm_campaign=rss",
-      "summary": "A personalized mRNA cancer vaccine reduced the risk of disease recurrence in patients with melanoma by 42% compared to a standard treatment",
-      "ts": 1792763114000,
-      "publishedAt": "2026-10-23T13:45:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 19-23 October 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_19-23_October_2026",
-      "summary": "Week in images: 19-23 October 2026 Discover our week through the lens",
-      "ts": 1792761300000,
-      "publishedAt": "2026-10-23T13:15:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI drug firm Pathos raises $237 million, pushing valuation to $3 billion",
-      "url": "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/?utm_campaign=rss",
-      "summary": "AI drug firm Pathos raises $237 million, a deal that brings together a big Tempus dataset, AI analysis from Pathos, and drug development from BMS.",
-      "ts": 1792760400000,
-      "publishedAt": "2026-10-23T13:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: testing six tech promises and biotech’s blind spots",
-      "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossib…",
-      "ts": 1792757400000,
-      "publishedAt": "2026-10-23T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN marks 81 years of global cooperation",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168665",
-      "summary": "The United Nations celebrates its 81st anniversary on Saturday, highlighting more than eight decades of work to advance peace, human rights and development around the world.",
-      "ts": 1792756800000,
-      "publishedAt": "2026-10-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
-      "summary": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
-      "ts": 1792756800000,
-      "publishedAt": "2026-10-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Blood brothers: WHO chief joins ENHYPEN to celebrate drive success",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168662",
-      "summary": "The head of the World Health Organization (WHO) is a self-confessed fan of K-pop sensation ENHYPEN and this week, he got the chance to tell them so in person.",
-      "ts": 1792756800000,
-      "publishedAt": "2026-10-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
-      "summary": "The UN said on Friday it was “extremely alarmed” by intensifying violence in the occupied West Bank, as Israel moved to seal off the territory following a deadly attack on its soldiers in Hebron.",
-      "ts": 1792756800000,
-      "publishedAt": "2026-10-23T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
