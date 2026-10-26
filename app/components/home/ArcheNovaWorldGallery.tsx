@@ -395,12 +395,12 @@ export default function ArcheNovaWorldGallery() {
           >
             The ArcheNova
             <br />
-            World.
+            World
           </h2>
 
           <p className="an-world-gallery__introduction">
             <small>
-            Five visions of a world
+            Five visions of a civilization
             <br />
             yet to be built.
             </small>
@@ -408,7 +408,7 @@ export default function ArcheNovaWorldGallery() {
 
           <div className="an-world-gallery__header-bottom">
             
-            <span>THE COLLECTION / 2026 ↓</span>
+            <span>FIVE VISIONS / 2026 ↓</span>
           </div>
         </header>
 

@@ -13,15 +13,25 @@ import WorkModelsPortal from "../components/WorkModelsPortal";
 import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
 import ContinuityHomePortal from "../components/home/ContinuityHomePortal";
 import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
+import OryvanthCivilizationPortal from "../components/home/OryvanthCivilizationPortal";
 
 /* ==========================================================
-   CIVILIZATION SYNTHESIS / FIRST HOME SECTION
+   ORYVANTH CIVILIZATION / FIRST HOME SECTION
+
+   Oryvanth Civilization
+   └─ Civilization Synthesis
+      ├─ Six constitutional charter articles
+      └─ Original scientific and engineering research paper
 
    Preserved:
+   - Existing section ID
    - Six constitutional charter articles
-   - Original scientific and engineering research paper
+   - Original research paper
    - Article and paper accordion interactions
    - Existing glass, cosmos and typography classes
+   - HOME scroll and navigation compatibility
+
+   No additional outer section or scroll container.
 ========================================================== */
 
 function CivilizationSynthesisPortal() {
@@ -174,12 +184,12 @@ function CivilizationSynthesisPortal() {
 
   return (
     <section
-      id="civilization-synthesis"
-      data-home-section
-      data-home-chapter="synthesis"
-      className="home-page an-home-2026__section an-synthesis-home"
-      aria-labelledby="an-synthesis-home-title"
-    >
+id="civilization-synthesis"
+data-home-section
+data-home-chapter="synthesis"
+className="home-page an-home-2026__section an-synthesis-home"
+aria-labelledby="an-synthesis-home-title"
+>
       <div className="an-home-2026__glass an-synthesis-home__glass">
         <div className="an-synthesis-home__link">
           <div
@@ -200,24 +210,23 @@ function CivilizationSynthesisPortal() {
               </div>
 
               <h1
-                id="an-synthesis-home-title"
-                className="an-synthesis-home__title"
-              >
-                Civilization
-                <span>Synthesis.</span>
-              </h1>
+id="an-synthesis-home-title"
+className="an-synthesis-home__title"
+>
+Civilization
+<span>Synthesis.</span>
+</h1>
 
               <p className="an-synthesis-home__statement">
-                Engineering an Independent Scientific Civilization.
-              </p>
+Engineering an Independent Scientific Civilization.
+</p>
 
-              <p className="an-synthesis-home__description">
-                A constitutional engineering framework for
-                transforming scientific knowledge into
-                verifiable infrastructure, accountable
-                institutions, resilient systems, and
-                enduring civilizational capability.
-              </p>
+<p className="an-synthesis-home__description">
+A constitutional systems-engineering framework for
+transforming scientific knowledge into verifiable
+infrastructure, accountable institutions, resilient
+systems, and enduring civilizational capability.
+</p>
 
               <div className="an-synthesis-home__identity-signature">
                 <span className="an-synthesis-home__identity-rule" />
@@ -228,6 +237,32 @@ function CivilizationSynthesisPortal() {
             </header>
 
             <div className="an-synthesis-home__experience">
+              {/* ==================================================
+                  CIVILIZATION SYNTHESIS
+                  INTERNAL TO ORYVANTH CIVILIZATION
+              ================================================== */}
+
+              <div
+                className="an-oryvanth-synthesis-heading"
+                aria-label="Civilization Synthesis"
+              >
+                <span className="an-oryvanth-synthesis-heading__eyebrow">
+                  ORYVANTH CIVILIZATION / FOUNDATIONAL ARCHITECTURE
+                </span>
+
+                <h2>
+                  Civilization Synthesis.
+                </h2>
+
+                <p>
+                  A constitutional systems-engineering framework
+                  for transforming scientific knowledge into
+                  verifiable infrastructure, accountable
+                  institutions, resilient systems, and
+                  enduring civilizational capability.
+                </p>
+              </div>
+
               <div className="an-synthesis-home__experience-heading">
                 <span>THE ARCHENOVA CIVILIZATIONAL CHARTER</span>
                 <span>01 — 06</span>
@@ -695,7 +730,7 @@ function CivilizationSynthesisPortal() {
 
             <footer className="an-synthesis-home__bottom an-synthesis-home__premium-bottom">
               <span className="an-synthesis-home__functions">
-               Advancing a responsible scientific civilization.
+                Advancing a responsible scientific civilization.
               </span>
             </footer>
           </div>
@@ -899,7 +934,8 @@ function CivilizationArchitectureEntrance() {
 /* ==========================================================
    ARCHENOVA / HOME PAGE
 
-   00 / Civilization Synthesis
+   00 / Oryvanth Civilization
+        └─ Civilization Synthesis
    01 / ArcheNova World
    02 / Architecture of Civilization
    03 / Civilization Discovery
@@ -910,33 +946,28 @@ function CivilizationArchitectureEntrance() {
    08 / Civilization Space
    09 / ArcheNova Valley
 
-   Removed from HOME:
-   - ArcheNova Concept
-   - Civilization Prelude / Purpose
-   - Ideal User / Human Agency
-   - Civilization Perspectives
-   - Horizon
-   - Digital Twin presentation
-   - Stillness
-
-   The original World Gallery is preserved without
-   additional wrappers or modification.
+   All existing HOME destinations preserved.
+   Original World Gallery preserved without wrappers.
 ========================================================== */
 
 export default function HomePage() {
-  return (
-    <main
-      className="home-snap archenova-twin-home an-home-2026"
-      id="home-top"
-    >
-      <MobileHomeScrollReset />
-      <HomeSectionPager />
+ return (
+   <main
+     className="home-snap archenova-twin-home an-home-2026"
+     id="home-top"
+     >
 
-      {/* 00 — CIVILIZATION SYNTHESIS */}
-      <CivilizationSynthesisPortal />
+     <MobileHomeScrollReset />
+     <HomeSectionPager />
 
-      {/* 01 — ARCHENOVA WORLD / INDEPENDENT */}
-      <ArcheNovaWorldGallery />
+     {/* 00 — ORYVANTH CIVILIZATION */}
+     <OryvanthCivilizationPortal />
+
+     {/* 01 — CIVILIZATION SYNTHESIS */}
+     <CivilizationSynthesisPortal />
+
+     {/* 02 — ARCHENOVA WORLD / INDEPENDENT */}
+     <ArcheNovaWorldGallery />
 
       {/* 02 — ARCHITECTURE OF CIVILIZATION */}
       <CivilizationArchitectureEntrance />

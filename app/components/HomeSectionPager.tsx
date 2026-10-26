@@ -21,8 +21,10 @@ type ChapterTarget = {
 /* ==========================================================
    HOME ENVIRONMENTS
 
-   CIVILIZATION SYNTHESIS
-      └─ Civilizational Charter / Research Architecture
+   ORYVANTH CIVILIZATION
+      └─ CIVILIZATION SYNTHESIS
+         ├─ Civilizational Charter
+         └─ Research Architecture
 
    ARCHENOVA WORLD
       └─ Five Conceptual Civilizational Exhibitions
@@ -36,94 +38,64 @@ type ChapterTarget = {
       ├─ Civilization Systems
       └─ Civilization Implementation
 
-   MAP
-   → INQUIRY
-   → PERMANENT INQUIRY
-   → CONTINUITY
-   → MODELS
-   → CIVILIZATION
-   → VALLEY
-
-   IMPORTANT
-
-   - Concept navigation is replaced by Synthesis and World.
-   - Synthesis and World are independent HOME destinations.
-   - Architecture remains an independent HOME destination.
-   - All remaining destinations and labels are preserved.
-   - Original navigation classes and behavior are preserved.
-   - Existing active-section detection is preserved.
-   - No additional navigation dependencies.
+   Existing navigation and behavior preserved.
 ========================================================== */
 
 const CHAPTER_TARGETS: readonly ChapterTarget[] = [
-  /* ========================================================
-     01 / CIVILIZATION SYNTHESIS
-  ======================================================== */
-
+   {
+    id: "oryvanth-civilization",
+    mark: "✦",
+    title: "ORYVANTH",
+    subtitle: "The Totality of Existence and Development.",
+  },
   {
     id: "civilization-synthesis",
-    mark: "✦",
+    mark: "◇",
     title: "SYNTHESIS",
-    subtitle: "How do we engineer civilization?",
+    subtitle: "Engineering a Correctable Civilization.",
   },
-
-  /* ========================================================
-     02 / THE ARCHITECTURE OF CIVILIZATION
-  ======================================================== */
-
   {
     id: "archenova-architecture-of-civilization",
     mark: "⧉",
     title: "ARCHITECTURE",
     subtitle: "What is the Architecture?",
   },
-
-  /* ========================================================
-     EXISTING HOME ENVIRONMENTS
-  ======================================================== */
-
   {
     id: "archenova-search-section",
     mark: "⌭",
     title: "MAP",
     subtitle: "Where are we?",
   },
-
   {
     id: "todays-inquiry",
     mark: "☁︎",
     title: "INQUIRY",
     subtitle: "What should we ask?",
   },
-
   {
     id: "humanity-responsibility",
     mark: "⑇",
     title: "PERMANENT INQUIRY",
     subtitle: "Can civilization remain correctable?",
   },
-
   {
     id: "archenova-continuity",
     mark: "⌱",
     title: "CONTINUITY",
     subtitle: "How do we continue?",
   },
-
   {
     id: "work-models",
     mark: "⎅",
     title: "MODELS",
     subtitle: "What can we imagine?",
   },
-
   {
     id: "civilization-space",
     mark: "❂",
     title: "CIVILIZATION",
     subtitle: "What can we build?",
   },
-
   {
     id: "archenova-valley",
     mark: "⏥",
@@ -189,9 +161,6 @@ export default function HomeSectionPager() {
      ACTIVE SECTION DETECTION
 
      Only IDs declared in CHAPTER_TARGETS are observed.
-
-     Civilization Synthesis and ArcheNova World are
-     independently observed.
 
      All original observer thresholds, root margins,
      and active-selection logic are preserved.
@@ -365,10 +334,6 @@ export default function HomeSectionPager() {
       className="chapter-navigator"
       aria-label="ArcheNova HOME navigation"
     >
-      {/* ====================================================
-          PREVIOUS
-      ==================================================== */}
-
       <button
         type="button"
         className={[
@@ -395,10 +360,6 @@ export default function HomeSectionPager() {
       >
         ↑
       </button>
-
-      {/* ====================================================
-          HOME ENVIRONMENT LIST
-      ==================================================== */}
 
       <div className="chapter-nav-list">
         {targets.map(
@@ -457,10 +418,6 @@ export default function HomeSectionPager() {
           },
         )}
       </div>
-
-      {/* ====================================================
-          NEXT
-      ==================================================== */}
 
       <button
         type="button"
