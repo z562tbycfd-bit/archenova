@@ -70517,3 +70517,183 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
 
 
 
+/* ==========================================================
+   ARCHENOVA / ORYVANTH CIVILIZATION
+   CIVILIZATION SYNTHESIS GUIDE
+   GLOBAL CSS — 2026
+
+   - Existing HOME glass preserved
+   - Existing Oryvanth image preserved
+   - Synthesis guidance directly below the image
+   - Responsive layout
+   - No nested scroll container
+========================================================== */
+
+#oryvanth-civilization
+.an-oryvanth-home__visual-column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: clamp(24px, 3vw, 42px);
+  width: 100%;
+  min-width: 0;
+}
+
+#oryvanth-civilization
+.an-oryvanth-home__visual-column
+> .an-oryvanth-home__visual {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+#oryvanth-civilization
+.an-oryvanth-home__synthesis-guide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  min-width: 0;
+
+  padding:
+    clamp(22px, 2.5vw, 34px)
+    clamp(20px, 2.5vw, 34px);
+
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.035),
+      rgba(255, 255, 255, 0.008) 65%
+    );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.035);
+
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+#oryvanth-civilization
+.an-oryvanth-home__synthesis-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: rgba(245, 247, 251, 0.46);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1.7;
+}
+
+#oryvanth-civilization
+.an-oryvanth-home__synthesis-title {
+  margin: 17px 0 0;
+
+  color: rgba(255, 255, 255, 0.95);
+
+  font-family:
+    "Cormorant Garamond",
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(29px, 3vw, 43px);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+#oryvanth-civilization
+.an-oryvanth-home__synthesis-description {
+  max-width: 600px;
+  margin: 13px 0 0;
+
+  color: rgba(245, 247, 251, 0.66);
+
+  font-family:
+    "Noto Serif",
+    "Yu Mincho",
+    Georgia,
+    serif;
+
+  font-size: clamp(11px, 0.95vw, 13px);
+  font-weight: 400;
+  line-height: 1.9;
+}
+
+#oryvanth-civilization
+.an-oryvanth-home__synthesis-guide
+.an-oryvanth-home__explore {
+  align-self: flex-start;
+  margin-top: 23px;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  #oryvanth-civilization
+  .an-oryvanth-home__visual-column {
+    gap: 22px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  #oryvanth-civilization
+  .an-oryvanth-home__synthesis-guide {
+    padding: 23px 19px;
+    border-radius: 18px;
+  }
+
+  #oryvanth-civilization
+  .an-oryvanth-home__synthesis-eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.1em;
+  }
+
+  #oryvanth-civilization
+  .an-oryvanth-home__synthesis-title {
+    font-size: clamp(28px, 8vw, 36px);
+  }
+
+  #oryvanth-civilization
+  .an-oryvanth-home__synthesis-description {
+    font-size: 12px;
+  }
+}
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+  #oryvanth-civilization
+  .an-oryvanth-home__synthesis-guide {
+    scroll-behavior: auto;
+  }
+}
+
+/* END / ORYVANTH CIVILIZATION SYNTHESIS GUIDE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

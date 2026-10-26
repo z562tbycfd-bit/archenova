@@ -3,6 +3,23 @@
 import Image from "next/image";
 
 export default function OryvanthCivilizationPortal() {
+  const scrollToCivilizationSynthesis = () => {
+    const target = document.getElementById(
+      "civilization-synthesis"
+    );
+
+    if (!target) return;
+
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    target.scrollIntoView({
+      behavior: reducedMotion ? "auto" : "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <section
       id="oryvanth-civilization"
@@ -15,9 +32,12 @@ export default function OryvanthCivilizationPortal() {
         <div className="an-oryvanth-home__layout">
           <header className="an-oryvanth-home__intro">
             <div className="an-oryvanth-home__eyebrow">
-              <span className="an-oryvanth-home__eyebrow-line" />
+              <span
+                className="an-oryvanth-home__eyebrow-line"
+                aria-hidden="true"
+              />
               <span>
-                ARCHENOVA / CIVILIZATIONAL VISION
+                ARCHENOVA / ETERNAL CIVILIZATION
               </span>
             </div>
 
@@ -34,56 +54,79 @@ export default function OryvanthCivilizationPortal() {
             </p>
 
             <p className="an-oryvanth-home__description">
-              An ArcheNova civilization-scale vision
-              integrating scientific discovery, engineering,
-              intelligence, infrastructure, capital,
-              public trust, and legitimate institutional
-              authority into enduring human capability.
+              Oryvanth is an integrated, immortal civilization
+              in which science, intelligence, energy,
+              engineering, infrastructure, capital, and
+              governance exist as one coherent whole—
+              continuously evolving, regenerating, and
+              preserving its continuity across generations,
+              transformations, and epochs.
             </p>
 
             <div className="an-oryvanth-home__signature">
-              <span className="an-oryvanth-home__signature-line" />
+              <span
+                className="an-oryvanth-home__signature-line"
+                aria-hidden="true"
+              />
               <span>
-                EXISTENCE · KNOWLEDGE · DEVELOPMENT · CONTINUITY
+                UNITY · EXISTENCE · EVOLUTION · IMMORTALITY
               </span>
             </div>
-
-            <button
-              type="button"
-              className="an-oryvanth-home__explore"
-              onClick={() => {
-                const target = document.getElementById(
-                  "civilization-synthesis"
-                );
-
-                if (!target) return;
-
-                const reducedMotion = window.matchMedia(
-                  "(prefers-reduced-motion: reduce)"
-                ).matches;
-
-                target.scrollIntoView({
-                  behavior: reducedMotion ? "auto" : "smooth",
-                  block: "start",
-                });
-              }}
-            >
-              <span>Explore Civilization Synthesis</span>
-              <span aria-hidden="true">↓</span>
-            </button>
           </header>
 
-          <figure className="an-oryvanth-home__visual">
-            <Image
-              src="/images/oryvanth-civilization.jpeg"
-              alt="A black-robed figure overlooking a vast cosmic civilization, with orbital structures, galaxies, and interconnected worlds."
-              width={1125}
-              height={1113}
-              priority
-              sizes="(max-width: 900px) 100vw, 50vw"
-              className="an-oryvanth-home__image"
-            />
-          </figure>
+          <div className="an-oryvanth-home__visual-column">
+            <figure className="an-oryvanth-home__visual">
+              <Image
+                src="/images/oryvanth-civilization.jpeg"
+                alt="Oryvanth Civilization represented as an integrated cosmic civilization encompassing interconnected worlds, orbital structures, and enduring systems of existence."
+                width={1125}
+                height={1113}
+                priority
+                sizes="(max-width: 900px) 100vw, 50vw"
+                className="an-oryvanth-home__image"
+              />
+            </figure>
+
+            <div
+              className="an-oryvanth-home__synthesis-guide"
+              aria-labelledby="an-oryvanth-synthesis-title"
+            >
+              <div className="an-oryvanth-home__synthesis-eyebrow">
+                <span
+                  className="an-oryvanth-home__eyebrow-line"
+                  aria-hidden="true"
+                />
+                <span>
+                  THE ARCHITECTURE OF CIVILIZATION
+                </span>
+              </div>
+
+              <h2
+                id="an-oryvanth-synthesis-title"
+                className="an-oryvanth-home__synthesis-title"
+              >
+                Civilization Synthesis
+              </h2>
+
+              <p className="an-oryvanth-home__synthesis-description">
+                Explore the scientific, engineering, and
+                institutional principles through which
+                civilization is integrated, developed,
+                verified, and continuously renewed.
+              </p>
+
+              <button
+                type="button"
+                className="an-oryvanth-home__explore"
+                onClick={scrollToCivilizationSynthesis}
+              >
+                <span>
+                  Explore Civilization Synthesis
+                </span>
+                <span aria-hidden="true">↓</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
