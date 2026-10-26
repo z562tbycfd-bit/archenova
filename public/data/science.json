@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-25T23:55:43.065Z",
+  "updated": "2026-10-26T03:53:25.484Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Lumina simulation brings the early universe to life on a record-breaking scale",
+      "url": "https://phys.org/news/2026-10-lumina-simulation-early-universe-life.html",
+      "summary": "The James Webb Space Telescope (JWST) and Nancy Roman Space Telescope are revealing the universe's earliest chapters in detail. To help astronomers understand what they are seeing, researchers at the Center for Astrophys…",
+      "ts": 1792973401000,
+      "publishedAt": "2026-10-26T00:10:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Trace H<sub>2</sub>O<sub>2</sub>-triggered Fenton-like reaction by secondary coordination sphere in iron-based metal-organic frameworks",
+      "url": "https://www.nature.com/articles/s41467-026-79095-3",
+      "summary": "",
+      "ts": 1792972800000,
+      "publishedAt": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Ureterovesical junction: a stem cell niche for ureteral urothelial renewal and bladder urothelial injury repair",
+      "url": "https://www.nature.com/articles/s41467-026-78820-2",
+      "summary": "",
+      "ts": 1792972800000,
+      "publishedAt": "2026-10-26T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Experienced teachers are quitting or reducing their hours—they're struggling to cope",
@@ -777,30 +801,6 @@
       "summary": "Author(s): Chun-Yen Wen, Yang-Yi Lee, Chung-Lin Chao, Ruei-Ying Jian, Tzu-Ling Chen, and Wayne Cheng-Wei Huang Optical forces in focused-beam traps are generally nonconservative, yet the controlled use of this nonconserv…",
       "ts": 1792749600000,
       "publishedAt": "2026-10-23T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Accurate vector magnetometer via Zeeman Rabi oscillations",
-      "url": "http://link.aps.org/doi/10.1103/ll3s-5fq9",
-      "summary": "Author(s): T. S. Menon, D. P. Hewatt, C. Kiehl, M. Ellmeier, S. Knappe, and C. A. Regal Accurate measurements of magnetic field direction are essential for applications ranging from magnetic navigation to space science, …",
-      "ts": 1792749600000,
-      "publishedAt": "2026-10-23T10:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Universal Law of Academic Capital: A Parameter-Unified Theory of Academic Integritology",
-      "url": "https://arxiv.org/abs/2610.30153",
-      "summary": "arXiv:2610.30153v1 Announce Type: new Abstract: Academic capital, comprising research funding ($\\mathcal{F}$), accumulated titles and honours ($\\mathcal{L}$), and administrative power ($\\mathcal{A}$), has undergone a sil…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamical-Model-Informed Stochastic Flow Matching for Global Probabilistic Subseasonal Forecasting of Means and Extremes",
-      "url": "https://arxiv.org/abs/2610.30159",
-      "summary": "arXiv:2610.30159v1 Announce Type: new Abstract: Physics-based models provide skillful subseasonal forecasts but suffer from systematic biases, weakened teleconnections, and parameterized physics, while very large ensembl…",
-      "ts": 1792728000000,
-      "publishedAt": "2026-10-23T04:00:00.000Z"
     }
   ],
   "sources": [
