@@ -70687,6 +70687,156 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
 
 
 
+/* ==========================================================
+   ORYVANTH — CIVILIZATION SYNTHESIS
+   Subtle Glass / Centered Typography
+
+   Scope: Synthesis guide only
+   Does not affect Oryvanth's main layout or image.
+========================================================== */
+
+.an-oryvanth-home__synthesis-guide {
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: clamp(36px, 5vw, 64px)
+           clamp(20px, 4vw, 48px);
+
+  text-align: center;
+
+  background: rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.045);
+  border-radius: 28px;
+
+  box-shadow: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.an-oryvanth-home__synthesis-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  width: 100%;
+  margin: 0 0 24px;
+
+  text-align: center;
+  font-size: clamp(10px, 1vw, 12px);
+  letter-spacing: 0.18em;
+  line-height: 1.7;
+
+  color: rgba(255, 255, 255, 0.48);
+}
+
+.an-oryvanth-home__synthesis-eyebrow
+.an-oryvanth-home__eyebrow-line {
+  width: 24px;
+  height: 1px;
+  flex: 0 0 24px;
+
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.an-oryvanth-home__synthesis-title {
+  width: 100%;
+  margin: 0;
+
+  text-align: center;
+  font-size: clamp(30px, 4vw, 56px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.an-oryvanth-home__explore {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  width: auto;
+  min-width: 0;
+  min-height: 44px;
+
+  margin: 28px auto 0;
+  padding: 8px 14px;
+
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: none;
+
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+  transition:
+    color 220ms ease,
+    opacity 220ms ease;
+}
+
+.an-oryvanth-home__explore::before,
+.an-oryvanth-home__explore::after {
+  display: none;
+  content: none;
+}
+
+.an-oryvanth-home__explore:hover {
+  color: rgba(255, 255, 255, 0.95);
+  background: transparent;
+  box-shadow: none;
+}
+
+.an-oryvanth-home__explore:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.6);
+  outline-offset: 5px;
+}
+
+@media (max-width: 640px) {
+  .an-oryvanth-home__synthesis-guide {
+    padding: 36px 18px;
+    border-radius: 22px;
+  }
+
+  .an-oryvanth-home__synthesis-eyebrow {
+    gap: 8px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+  }
+
+  .an-oryvanth-home__synthesis-title {
+    font-size: clamp(28px, 8vw, 42px);
+  }
+
+  .an-oryvanth-home__explore {
+    margin-top: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .an-oryvanth-home__explore {
+    transition: none;
+  }
+}
+
+
+
+
+
+
 
 
 
