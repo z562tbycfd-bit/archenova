@@ -88,9 +88,9 @@ export default function OryvanthCivilizationPortal() {
             </figure>
 
             <div
-              className="an-oryvanth-home__synthesis-guide"
-              aria-labelledby="an-oryvanth-synthesis-title"
-            >
+  className="an-home-2026__glass an-oryvanth-home__synthesis-guide"
+  aria-labelledby="an-oryvanth-synthesis-title"
+>
               <div className="an-oryvanth-home__synthesis-eyebrow">
                 <span
                   className="an-oryvanth-home__eyebrow-line"
