@@ -292,6 +292,23 @@ export default function ArcheNovaHeader({ papers = ARCHENOVA_RESEARCH_PAPERS }: 
       .an-papers__abstract { color: rgba(223,233,247,.72); line-height: 1.8; font-size: 14px; max-width: 76ch; }
       .an-papers__item .an-header-panel__text-action { margin-top: 19px; }
       .an-papers__empty { border: 1px solid rgba(225,235,250,.12); border-radius: 18px; padding: 35px 24px; color: rgba(223,233,247,.68); background: rgba(255,255,255,.025); line-height: 1.7; }
+      /* Slightly taller header, without changing horizontal alignment. */
+      .an-top-header .an-top-header__bar {
+        min-height: 64px !important;
+        height: 64px !important;
+      }
+      .an-top-header .an-top-header__side {
+        min-height: 64px;
+      }
+      @media (max-width: 480px) {
+        .an-top-header .an-top-header__bar {
+          min-height: 60px !important;
+          height: 60px !important;
+        }
+        .an-top-header .an-top-header__side {
+          min-height: 60px;
+        }
+      }
       /* Header alignment: three equal tracks, independent of legacy flex rules. */
       .an-top-header .an-top-header__bar {
         display: grid !important;
