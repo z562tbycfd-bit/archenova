@@ -108,20 +108,13 @@ export default function OryvanthCivilizationPortal() {
                 Civilization Synthesis
               </h2>
 
-              <p className="an-oryvanth-home__synthesis-description">
-                Explore the scientific, engineering, and
-                institutional principles through which
-                civilization is integrated, developed,
-                verified, and continuously renewed.
-              </p>
-
               <button
                 type="button"
                 className="an-oryvanth-home__explore"
                 onClick={scrollToCivilizationSynthesis}
               >
                 <span>
-                  Explore Civilization Synthesis
+                  Explore
                 </span>
                 <span aria-hidden="true">↓</span>
               </button>
