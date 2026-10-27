@@ -728,14 +728,6 @@ systems, and enduring civilizational capability.
 const CIVILIZATION_ARCHITECTURE = [
   {
     number: "01",
-    label: "SEARCH",
-    title: "Civilization Discovery",
-    description:
-      "Explore the structures connecting knowledge and reality.",
-    target: "archenova-search-section",
-  },
-  {
-    number: "02",
     label: "TODAY'S INQUIRY",
     title: "Civilization Inquiry",
     description:
@@ -743,7 +735,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "todays-inquiry",
   },
   {
-    number: "03",
+    number: "02",
     label: "PERMANENT INQUIRY",
     title: "Correctable Civilization",
     description:
@@ -751,7 +743,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "humanity-responsibility",
   },
   {
-    number: "04",
+    number: "03",
     label: "CONTINUITY",
     title: "Civilization Continuity",
     description:
@@ -759,7 +751,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "archenova-continuity",
   },
   {
-    number: "05",
+    number: "04",
     label: "WORK MODELS",
     title: "Civilization Engineering",
     description:
@@ -767,7 +759,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "work-models",
   },
   {
-    number: "06",
+    number: "05",
     label: "CIVILIZATION SPACE",
     title: "Civilization Systems",
     description:
@@ -775,7 +767,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "civilization-space",
   },
   {
-    number: "07",
+    number: "06",
     label: "ARCHENOVA VALLEY",
     title: "Civilization Implementation",
     description:
@@ -950,18 +942,7 @@ export default function HomePage() {
 
       {/* 02 — ARCHITECTURE OF CIVILIZATION */}
       <CivilizationArchitectureEntrance />
-
-      {/* 03 — CIVILIZATION DISCOVERY */}
-      <section
-        id="archenova-search-section"
-        data-home-section
-        className="home-page archenova-search-section an-home-2026__section"
-        aria-label="ArcheNova Map"
-      >
-        <div className="an-home-2026__glass">
-          <ArcheNovaMap />
-        </div>
-      </section>
+      
 
       {/* 04 — TODAY'S INQUIRY */}
       <section

@@ -50,7 +50,7 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
   },
   {
     id: "civilization-synthesis",
-    mark: "✡︎",
+    mark: "✪",
     title: "SYNTHESIS",
     subtitle: "Engineering a Correctable Civilization.",
   },
