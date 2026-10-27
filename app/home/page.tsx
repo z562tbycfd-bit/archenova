@@ -242,27 +242,6 @@ systems, and enduring civilizational capability.
                   INTERNAL TO ORYVANTH CIVILIZATION
               ================================================== */}
 
-              <div
-                className="an-oryvanth-synthesis-heading"
-                aria-label="Civilization Synthesis"
-              >
-                <span className="an-oryvanth-synthesis-heading__eyebrow">
-                  ORYVANTH CIVILIZATION / FOUNDATIONAL ARCHITECTURE
-                </span>
-
-                <h2>
-                  Civilization Synthesis.
-                </h2>
-
-                <p>
-                  A constitutional systems-engineering framework
-                  for transforming scientific knowledge into
-                  verifiable infrastructure, accountable
-                  institutions, resilient systems, and
-                  enduring civilizational capability.
-                </p>
-              </div>
-
               <div className="an-synthesis-home__experience-heading">
                 <span>THE ARCHENOVA CIVILIZATIONAL CHARTER</span>
                 <span>01 — 06</span>
