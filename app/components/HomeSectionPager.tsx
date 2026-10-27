@@ -44,13 +44,13 @@ type ChapterTarget = {
 const CHAPTER_TARGETS: readonly ChapterTarget[] = [
    {
     id: "oryvanth-civilization",
-    mark: "✦",
+    mark: "❂",
     title: "ORYVANTH",
     subtitle: "The Totality of Existence and Development.",
   },
   {
     id: "civilization-synthesis",
-    mark: "◇",
+    mark: "✡︎",
     title: "SYNTHESIS",
     subtitle: "Engineering a Correctable Civilization.",
   },
@@ -59,48 +59,6 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     mark: "⧉",
     title: "ARCHITECTURE",
     subtitle: "What is the Architecture?",
-  },
-  {
-    id: "archenova-search-section",
-    mark: "⌭",
-    title: "MAP",
-    subtitle: "Where are we?",
-  },
-  {
-    id: "todays-inquiry",
-    mark: "☁︎",
-    title: "INQUIRY",
-    subtitle: "What should we ask?",
-  },
-  {
-    id: "humanity-responsibility",
-    mark: "⑇",
-    title: "PERMANENT INQUIRY",
-    subtitle: "Can civilization remain correctable?",
-  },
-  {
-    id: "archenova-continuity",
-    mark: "⌱",
-    title: "CONTINUITY",
-    subtitle: "How do we continue?",
-  },
-  {
-    id: "work-models",
-    mark: "⎅",
-    title: "MODELS",
-    subtitle: "What can we imagine?",
-  },
-  {
-    id: "civilization-space",
-    mark: "❂",
-    title: "CIVILIZATION",
-    subtitle: "What can we build?",
-  },
-  {
-    id: "archenova-valley",
-    mark: "⏥",
-    title: "VALLEY",
-    subtitle: "What can we realize?",
   },
 ];
 
