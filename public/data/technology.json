@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-27T19:54:14.886Z",
+  "updated": "2026-10-27T23:36:37.853Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Ukrainian startup, GomSpace test satellite for future communications network",
+      "url": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
+      "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first…",
+      "ts": 1793132490000,
+      "publishedAt": "2026-10-27T20:21:30.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Artiva Axes 94% of Workforce, Weighs Strategic Alternatives After Two Patients in Phase IIa Trial Die",
@@ -90,6 +99,15 @@
       "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discove…",
       "ts": 1793113220000,
       "publishedAt": "2026-10-27T15:00:20.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "ts": 1793113200000,
+      "publishedAt": "2026-10-27T15:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -790,24 +808,6 @@
       "title": "Does a Flux-Defined Markov Blanket Screen Self-Replicating Gray--Scott Spots? A Computational Test of a Blanket Condition from the Free Energy Principle",
       "url": "https://arxiv.org/abs/2610.27235",
       "summary": "arXiv:2610.27235v2 Announce Type: replace Abstract: Friston's free energy principle holds that a system separated from its environment by a Markov blanket (a boundary whose states statistically screen its interior from i…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Shared clones make random cell halves look reproducible in pooled screens",
-      "url": "https://arxiv.org/abs/2610.32962",
-      "summary": "arXiv:2610.32962v2 Announce Type: replace Abstract: Single-cell perturbation screens are used to train and evaluate models of perturbation effects, and model scores are judged against the reproducibility of the measured …",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Inhomogeneous branching trees with symmetric and asymmetric offspring and their genealogies",
-      "url": "https://arxiv.org/abs/2510.07921",
-      "summary": "arXiv:2510.07921v2 Announce Type: replace-cross Abstract: We define symmetric and asymmetric branching trees, a class of processes particularly suited for modeling genealogies of inhomogeneous populations where individua…",
       "ts": 1793073600000,
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "categoryId": "bio"
