@@ -1,7 +1,106 @@
 {
   "ok": true,
-  "updated": "2026-10-27T14:07:49.469Z",
+  "updated": "2026-10-27T19:54:14.886Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Artiva Axes 94% of Workforce, Weighs Strategic Alternatives After Two Patients in Phase IIa Trial Die",
+      "url": "https://www.genengnews.com/topics/translational-medicine/artiva-axes-94-of-workforce-weighs-strategic-alternatives-after-two-patients-in-phase-iia-trial-die/",
+      "summary": "In announcing the layoffs and strategic alternatives review, Artiva disclosed that two patients in the trial who underwent the study treatment died in Grade 5 safety events. One patient succumbed to leukoencephalopathy w…",
+      "ts": 1793129441000,
+      "publishedAt": "2026-10-27T19:30:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+      "summary": "The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center …",
+      "ts": 1793129242000,
+      "publishedAt": "2026-10-27T19:27:22.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Missouri AG warns Lilly to stop requiring data from hospitals seeking 340B drug discounts",
+      "url": "https://www.statnews.com/pharmalot/2026/10/27/missouri-ag-warns-lilly-340b-drug-pricing-data/?utm_campaign=rss",
+      "summary": "Missouri AG told Lilly to stop forcing hospitals to provide claims data to receive discounted medicines under 340B, a sign more states are pushing back against drugmakers.",
+      "ts": 1793126734000,
+      "publishedAt": "2026-10-27T18:45:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: After two deaths in autoimmune cell therapy trial, Artiva is shutting down",
+      "url": "https://www.statnews.com/2026/10/27/autoimmune-cell-therapy-trial-artiva-therapeutics-shutting-down/?utm_campaign=rss",
+      "summary": "Recent deaths are setbacks in drug companies’ interest in applying cancer therapy strategies to autoimmune diseases.",
+      "ts": 1793124313000,
+      "publishedAt": "2026-10-27T18:05:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Neo Surveyor Sunshade",
+      "url": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+      "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 m…",
+      "ts": 1793123937000,
+      "publishedAt": "2026-10-27T17:58:57.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bonjour Genomics: A Video from ASHG",
+      "url": "https://www.genengnews.com/topics/omics/bonjour-genomics-a-video-from-ashg/",
+      "summary": "GEN editors Uduak Thomas and Julianna LeMieux, PhD, recap ASHG, highlighting key sessions, Ultima Genomics’ user group meeting, Illumina news, and insights from PacBio’s new CEO Mark Van Oene. The post Bonjour Genomics: …",
+      "ts": 1793121535000,
+      "publishedAt": "2026-10-27T17:18:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Vitamin Derivative Pantethine Alleviates Psoriasis Symptoms in Small Human Trial",
+      "url": "https://www.genengnews.com/topics/drug-discovery/vitamin-derivative-pantethine-alleviates-psoriasis-symptoms-in-small-human-trial/",
+      "summary": "Researchers found that the vitamin B5 derivative pantethine prevented the development of psoriasis in mice, and in a small-scale trial in human psoriasis patients administering pantethine in combination with topical calc…",
+      "ts": 1793120550000,
+      "publishedAt": "2026-10-27T17:02:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA offers new details on quicker approval pathway for personalized gene therapies",
+      "url": "https://www.statnews.com/2026/10/27/fda-personalized-gene-therapy-guidance-individualized-feature-space/?utm_campaign=rss",
+      "summary": "Rare disease advocates applauded the FDA's move to speed access to treatments.",
+      "ts": 1793117853000,
+      "publishedAt": "2026-10-27T16:17:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: RFK Jr. goes for broke in Iowa",
+      "url": "https://www.statnews.com/2026/10/27/rfk-jr-campaigns-zach-lahn-iowa-coins-binsa-china-biotech-rules/?utm_campaign=rss",
+      "summary": "Kennedy on the campaign trail for MAHA, and new rules loom for U.S. investments in Chinese biotech.",
+      "ts": 1793115921000,
+      "publishedAt": "2026-10-27T15:45:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+      "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discove…",
+      "ts": 1793113220000,
+      "publishedAt": "2026-10-27T15:00:20.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Nonprofit resurrects shelved gene therapy after startup shuts down ",
+      "url": "https://www.statnews.com/2026/10/27/biotech-news-nonprofit-resurrects-shelved-gene-therapy/?utm_campaign=rss",
+      "summary": "Last year, U.K. gene therapy startup Bloomsbury Genetic Therapies announced it was shutting down after dosing just one patient. Now, a nonprofit is resurrecting its lead program:",
+      "ts": 1793111290000,
+      "publishedAt": "2026-10-27T14:28:10.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "First light: Hera resolves two asteroids instead of one",
@@ -138,6 +237,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA’s Grossi Calls for Progress in Deploying Nuclear Power as Ministerial Conference Opens",
+      "url": "http://www.iaea.org/newscenter/news/iaeas-grossi-calls-for-progress-in-deploying-nuclear-power-as-ministerial-conference-opens",
+      "summary": "IAEA Director General Rafael Mariano Grossi called on countries to turn growing support for nuclear power into concrete results as the International Ministerial Conference on Nuclear Power opened in the Republic of Korea…",
+      "ts": 1793088000000,
+      "publishedAt": "2026-10-27T08:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent ",
       "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
@@ -145,6 +253,15 @@
       "ts": 1793084871000,
       "publishedAt": "2026-10-27T07:07:51.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "ts": 1793084400000,
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "IAEA News",
@@ -693,123 +810,6 @@
       "summary": "arXiv:2510.07921v2 Announce Type: replace-cross Abstract: We define symmetric and asymmetric branching trees, a class of processes particularly suited for modeling genealogies of inhomogeneous populations where individua…",
       "ts": 1793073600000,
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Coder as Editor: Code-driven Interpretable Molecular Editing",
-      "url": "https://arxiv.org/abs/2510.14455",
-      "summary": "arXiv:2510.14455v2 Announce Type: replace-cross Abstract: Molecular design is a central task in drug discovery that requires precise structural reasoning and domain knowledge. While large language models (LLMs) have show…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "FRIGID: Scaling Diffusion-Based Molecular Generation from Mass Spectra at Training and Inference Time",
-      "url": "https://arxiv.org/abs/2604.16648",
-      "summary": "arXiv:2604.16648v3 Announce Type: replace-cross Abstract: Tandem mass spectrometry is prominent in scientific discovery workflows for identifying unknown small molecules, yet high-throughput structural elucidation remain…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "REALM: Retrospective Encoder Alignment for LFP Modeling",
-      "url": "https://arxiv.org/abs/2605.14867",
-      "summary": "arXiv:2605.14867v3 Announce Type: replace-cross Abstract: Spike activity has been the dominant neural signal for behavior decoding because its high spatiotemporal resolution supports accurate decoding. However, as intrac…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MedEvo: Medical Reasoning Evolution through Knowledge Navigation",
-      "url": "https://arxiv.org/abs/2610.17690",
-      "summary": "arXiv:2610.17690v2 Announce Type: replace-cross Abstract: Medical multimodal reasoning models are typically trained on teacher-generated rationales, discarding the valid reasoning in students' own failed trajectories, wh…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
-      "url": "https://arxiv.org/abs/2610.17718",
-      "summary": "arXiv:2610.17718v2 Announce Type: replace-cross Abstract: Electrocardiogram (ECG) models need supervision that targets evolving weaknesses and remains faithful to waveform evidence. We introduce ECG-RSI, a recursive self…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Reverse-Gold Theorem: Positive-Data Identification by Substrate-Bounded Contrastive Learners",
-      "url": "https://arxiv.org/abs/2610.28747",
-      "summary": "arXiv:2610.28747v2 Announce Type: replace-cross Abstract: Gold's theorem shows that no learner can identify an arbitrary language in a superfinite class from positive presentations alone. We prove a positive result of a …",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Video-rate quantitative phase and polarimetric imaging (QP2I) for label-free imaging of contracting muscle cells",
-      "url": "https://arxiv.org/abs/2610.32756",
-      "summary": "arXiv:2610.32756v2 Announce Type: replace-cross Abstract: Quantitative phase imaging (QPI) has become a standard approach for label-free microscopy of transparent specimens, mapping the optical path length. However, the …",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Structural improvements to address energy poverty had most substantial thermal comfort and health effects",
-      "url": "https://www.nature.com/articles/s41560-026-02145-z",
-      "summary": "",
-      "ts": 1793059200000,
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roche gets a lung cancer win with its KRAS drug divarasib",
-      "url": "https://www.statnews.com/2026/10/26/roche-kras-drug-divarasib-lung-cancer-treatment-win/?utm_campaign=rss",
-      "summary": "One of the more impressive data sets at this year’s ESMO came from a Roche study of its drug divarasib, which treats lung cancer.",
-      "ts": 1793056633000,
-      "publishedAt": "2026-10-26T23:17:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
-      "url": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-      "summary": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. Whi…",
-      "ts": 1793054892000,
-      "publishedAt": "2026-10-26T22:48:12.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "ts": 1793052000000,
-      "publishedAt": "2026-10-26T22:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Nonprofit Bon Secours Mercy Health strikes $5.7 billion deal for surgery center chain",
-      "url": "https://www.statnews.com/2026/10/26/bon-secours-mercy-health-surgery-partners-deal-ambulatory-surgery-centers-bain-capital/?utm_campaign=rss",
-      "summary": "The deal would make the Catholic system one of the largest operators of outpatient surgery centers.",
-      "ts": 1793051664000,
-      "publishedAt": "2026-10-26T21:54:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: HHS relaxes security, transparency rules for health record software used by hospitals",
-      "url": "https://www.statnews.com/2026/10/26/health-data-interoperability-hti5-relaxes-privacy-security-requirements/?utm_campaign=rss",
-      "summary": "The Trump administration removed several security, privacy and transparency requirements for vendors of EHR software.",
-      "ts": 1793049371000,
-      "publishedAt": "2026-10-26T21:16:11.000Z",
       "categoryId": "bio"
     }
   ],
