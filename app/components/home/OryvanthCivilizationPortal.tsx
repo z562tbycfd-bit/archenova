@@ -87,9 +87,6 @@ export default function OryvanthCivilizationPortal() {
               </div>
             </div>
             <div className="ov-reports__footer">
-              <button type="button" className="ov-reports__pillars-trigger" aria-expanded={pillarsOpen} aria-controls="ov-reports-pillars" onClick={() => setPillarsOpen((v) => !v)}>
-                <span>FOUR FOUNDATIONS</span><span>{pillarsOpen ? "−" : "+"}</span>
-              </button>
               <button type="button" className="ov-reports__next" onClick={scrollToSynthesis}>Civilization Synthesis <span aria-hidden="true">↓</span></button>
             </div>
             {pillarsOpen && <div id="ov-reports-pillars" className="ov-reports__pillars">{PILLARS.map((p, i) => <span key={p}><small>0{i + 1}</small> {p}</span>)}</div>}
