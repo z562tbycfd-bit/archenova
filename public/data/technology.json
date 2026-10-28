@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-10-28T18:02:06.939Z",
+  "updated": "2026-10-28T22:58:28.223Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Three-Photon Microscopy Reveals Neural Activity Deep in the Mouse Brain",
+      "url": "https://www.genengnews.com/topics/translational-medicine/three-photon-microscopy-reveals-neural-activity-deep-in-the-mouse-brain/",
+      "summary": "By optimizing laser, optical, and acquisition parameters, The Rockefeller University researchers developed a three-photon microscopy platform that captures deep-brain neural activity in living mice at single-cell resolut…",
+      "ts": 1793225858000,
+      "publishedAt": "2026-10-28T22:17:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory ",
+      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
+      "summary": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Viet…",
+      "ts": 1793224201000,
+      "publishedAt": "2026-10-28T21:50:01.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lawmaker wants government watchdog to probe TrumpRx over claims about drug savings",
+      "url": "https://www.statnews.com/pharmalot/2026/10/28/lawmaker-wants-gao-probe-trumprx-drug-pricing/?utm_campaign=rss",
+      "summary": "A House lawmaker asked the Government Accountability Office to review whether the TrumpRx platform has saved Americans any money.",
+      "ts": 1793220672000,
+      "publishedAt": "2026-10-28T20:51:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How the Heart Stays Strong with MCT1-Dependent Mitochondrial Lactate Import",
+      "url": "https://www.genengnews.com/topics/translational-medicine/how-the-heart-stays-strong-with-mct1-dependent-mitochondrial-lactate-import/",
+      "summary": "Preclinical study results suggest how the heart can keep itself well-fueled even under times of stress, by burning glucose in the cell cytosol while burning lactate in the mitochondria. The post How the Heart Stays Stron…",
+      "ts": 1793220150000,
+      "publishedAt": "2026-10-28T20:42:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Creating AI value with enterprise context",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one i…",
+      "ts": 1793219522000,
+      "publishedAt": "2026-10-28T20:32:02.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
+      "summary": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Techn…",
+      "ts": 1793213984000,
+      "publishedAt": "2026-10-28T18:59:44.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
+      "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
+      "summary": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder expected the research to be demanding – but he was surprised …",
+      "ts": 1793210428000,
+      "publishedAt": "2026-10-28T18:00:28.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Human Dengue Study Reveals How Preexisting Immunity Shapes Secondary Infections",
@@ -40,9 +103,9 @@
     },
     {
       "source": "Genetic Engineering News",
-      "title": "Decentralization, AI, and Gene Editing are Opportunities for CGT Contractors",
+      "title": "Decentralization, AI, and Gene Editing Are Opportunities for CGT Contractors",
       "url": "https://www.genengnews.com/topics/bioprocessing/decentralization-ai-and-gene-editing-are-opportunities-for-cgt-contractors/",
-      "summary": "CDMOs already play a critical role in the cell and gene therapy development and manufacturing space and, says Rose Biosolutions, with emerging bioprocessing technologies, production methods, and strategies, are creating …",
+      "summary": "CDMOs already play a critical role in the cell and gene therapy development and manufacturing space, says Rose Biosolutions. Emerging bioprocessing technologies, production methods, and strategies are creating even more …",
       "ts": 1793203234000,
       "publishedAt": "2026-10-28T16:00:34.000Z",
       "categoryId": "bio"
@@ -138,6 +201,15 @@
       "categoryId": "energy-climate"
     },
     {
+      "source": "OpenAI",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "ts": 1793193300000,
+      "publishedAt": "2026-10-28T13:15:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: dead startups fueling AI and interspecies communication",
       "url": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
@@ -221,7 +293,7 @@
     {
       "source": "OpenAI",
       "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "url": "https://openai.com/index/legora",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "ts": 1793179800000,
       "publishedAt": "2026-10-28T09:30:00.000Z",
@@ -230,7 +302,7 @@
     {
       "source": "OpenAI",
       "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "ts": 1793179800000,
       "publishedAt": "2026-10-28T09:30:00.000Z",
@@ -285,7 +357,7 @@
       "source": "NASA",
       "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
-      "summary": "APOD Science APOD APOD: 2026 October 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+      "summary": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our …",
       "ts": 1793160300000,
       "publishedAt": "2026-10-28T04:05:00.000Z",
       "categoryId": "space"
@@ -738,78 +810,6 @@
       "summary": "arXiv:2610.32756v3 Announce Type: replace-cross Abstract: Quantitative phase imaging (QPI) has become a standard approach for label-free microscopy of transparent specimens, mapping the optical path length. However, the …",
       "ts": 1793160000000,
       "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Ukrainian startup, GomSpace test satellite for future communications network",
-      "url": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
-      "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first…",
-      "ts": 1793132490000,
-      "publishedAt": "2026-10-27T20:21:30.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Artiva Axes 94% of Workforce, Weighs Strategic Alternatives After Two Patients in Phase IIa Trial Die",
-      "url": "https://www.genengnews.com/topics/translational-medicine/artiva-axes-94-of-workforce-weighs-strategic-alternatives-after-two-patients-in-phase-iia-trial-die/",
-      "summary": "In announcing the layoffs and strategic alternatives review, Artiva disclosed that two patients in the trial who underwent the study treatment died in Grade 5 safety events. One patient succumbed to leukoencephalopathy w…",
-      "ts": 1793129441000,
-      "publishedAt": "2026-10-27T19:30:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
-      "summary": "The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center …",
-      "ts": 1793129242000,
-      "publishedAt": "2026-10-27T19:27:22.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Missouri AG warns Lilly to stop requiring data from hospitals seeking 340B drug discounts",
-      "url": "https://www.statnews.com/pharmalot/2026/10/27/missouri-ag-warns-lilly-340b-drug-pricing-data/?utm_campaign=rss",
-      "summary": "Missouri AG told Lilly to stop forcing hospitals to provide claims data to receive discounted medicines under 340B, a sign more states are pushing back against drugmakers.",
-      "ts": 1793126734000,
-      "publishedAt": "2026-10-27T18:45:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: After two deaths in autoimmune cell therapy trial, Artiva is shutting down",
-      "url": "https://www.statnews.com/2026/10/27/autoimmune-cell-therapy-trial-artiva-therapeutics-shutting-down/?utm_campaign=rss",
-      "summary": "Recent deaths are setbacks in drug companies’ interest in applying cancer therapy strategies to autoimmune diseases.",
-      "ts": 1793124313000,
-      "publishedAt": "2026-10-27T18:05:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Neo Surveyor Sunshade",
-      "url": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
-      "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 m…",
-      "ts": 1793123937000,
-      "publishedAt": "2026-10-27T17:58:57.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bonjour Genomics: A Video from ASHG",
-      "url": "https://www.genengnews.com/topics/omics/bonjour-genomics-a-video-from-ashg/",
-      "summary": "GEN editors Uduak Thomas and Julianna LeMieux, PhD, recap ASHG, highlighting key sessions, Ultima Genomics’ user group meeting, Illumina news, and insights from PacBio’s new CEO Mark Van Oene. The post Bonjour Genomics: …",
-      "ts": 1793121535000,
-      "publishedAt": "2026-10-27T17:18:55.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Vitamin Derivative Pantethine Alleviates Psoriasis Symptoms in Small Human Trial",
-      "url": "https://www.genengnews.com/topics/drug-discovery/vitamin-derivative-pantethine-alleviates-psoriasis-symptoms-in-small-human-trial/",
-      "summary": "Researchers found that the vitamin B5 derivative pantethine prevented the development of psoriasis in mice, and in a small-scale trial in human psoriasis patients administering pantethine in combination with topical calc…",
-      "ts": 1793120550000,
-      "publishedAt": "2026-10-27T17:02:30.000Z",
       "categoryId": "bio"
     }
   ],
