@@ -61,7 +61,7 @@ export default function OryvanthCivilizationPortal() {
         </div>
         <div className="ov-reports__content">
           <header className="ov-reports__hero">
-            <p className="ov-reports__eyebrow">ARCHENOVA <span>/</span> CIVILIZATION ARCHITECTURE</p>
+            <p className="ov-reports__eyebrow">CIVILIZATION ARCHITECTURE</p>
             <h2 id="an-oryvanth-title" className="ov-reports__title">Oryvanth <span>Civilization.</span></h2>
             <p className="ov-reports__tagline">The Totality of Existence and Development.</p>
             <p className="ov-reports__lead">An independent scientific civilization conceived across the diversity of cosmic existence.</p>
