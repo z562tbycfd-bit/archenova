@@ -71367,3 +71367,234 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
 
 
 
+/* ==========================================================
+   ORYVANTH — COLLAPSIBLE RESEARCH REPORTS
+   Global CSS / Existing glass design preserved
+   ========================================================== */
+
+.an-oryvanth-home .ov-reports__archive {
+  position: relative;
+  width: min(100%, 740px);
+  min-width: 0;
+  flex-shrink: 0;
+}
+
+/* Collapsed trigger */
+
+.an-oryvanth-home .ov-reports__archive-trigger {
+  appearance: none;
+  -webkit-appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 58px;
+  gap: 18px;
+  padding: 12px 0;
+  border: 0;
+  border-top: 1px solid rgba(242,248,252,.34);
+  border-bottom: 1px solid rgba(242,248,252,.20);
+  border-radius: 0;
+  background: transparent;
+  color: #f5f7fa;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color .3s ease;
+}
+
+.an-oryvanth-home .ov-reports__archive-trigger-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 6px;
+}
+
+.an-oryvanth-home .ov-reports__archive-label {
+  color: rgba(238,244,251,.58);
+  font-size: 8px;
+  font-weight: 450;
+  letter-spacing: .18em;
+}
+
+.an-oryvanth-home
+.ov-reports__archive-trigger-copy strong {
+  color: rgba(248,250,253,.95);
+  font-size: clamp(14px,1.3vw,18px);
+  font-weight: 350;
+  letter-spacing: -.025em;
+  line-height: 1.3;
+}
+
+.an-oryvanth-home .ov-reports__archive-trigger-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 0 0 auto;
+  gap: 20px;
+}
+
+.an-oryvanth-home .ov-reports__archive-total {
+  color: rgba(238,244,251,.62);
+  font-size: 8px;
+  font-weight: 450;
+  letter-spacing: .14em;
+  white-space: nowrap;
+}
+
+.an-oryvanth-home .ov-reports__archive-symbol {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  color: rgba(248,251,254,.95);
+  font-size: 21px;
+  font-weight: 250;
+  line-height: 1;
+}
+
+/* Expanded report overlay */
+
+.an-oryvanth-home .ov-reports__archive-panel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(100% + 12px);
+  z-index: 20;
+  width: 100%;
+  max-height: min(390px,52svh);
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid rgba(244,249,253,.16);
+  border-radius: 18px;
+  background: linear-gradient(
+    145deg,
+    rgba(12,17,25,.96),
+    rgba(3,7,13,.97)
+  );
+  -webkit-backdrop-filter: blur(24px) saturate(110%);
+  backdrop-filter: blur(24px) saturate(110%);
+  box-shadow:
+    0 18px 60px rgba(0,0,0,.35),
+    inset 0 1px 0 rgba(255,255,255,.055);
+  animation: ovArchiveEnter .25s ease both;
+}
+
+.an-oryvanth-home .ov-reports__archive-inner {
+  padding: clamp(17px,2.5vw,28px);
+}
+
+/* Stable report content */
+
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-body {
+  height: 156px;
+  min-height: 156px;
+  max-height: 156px;
+  overflow: hidden;
+  padding: 19px 0 13px;
+}
+
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-placeholder {
+  height: 156px;
+  min-height: 156px;
+  max-height: 156px;
+  overflow: hidden;
+}
+
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-title {
+  overflow-wrap: anywhere;
+}
+
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-controls {
+  min-height: 34px;
+}
+
+/* Accessibility */
+
+.an-oryvanth-home
+.ov-reports__archive-trigger:focus-visible,
+.an-oryvanth-home
+.ov-reports__archive-panel button:focus-visible,
+.an-oryvanth-home
+.ov-reports__archive-panel a:focus-visible {
+  outline: 2px solid #f1f7fd;
+  outline-offset: 4px;
+}
+
+@media (hover: hover) {
+  .an-oryvanth-home
+  .ov-reports__archive-trigger:hover {
+    border-top-color: rgba(245,250,253,.65);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .an-oryvanth-home .ov-reports__archive {
+    width: 100%;
+  }
+
+  .an-oryvanth-home .ov-reports__archive-trigger {
+    min-height: 56px;
+    gap: 10px;
+  }
+
+  .an-oryvanth-home .ov-reports__archive-trigger-right {
+    gap: 10px;
+  }
+
+  .an-oryvanth-home .ov-reports__archive-total {
+    font-size: 7px;
+  }
+
+  .an-oryvanth-home .ov-reports__archive-panel {
+    bottom: calc(100% + 10px);
+    max-height: min(360px,50svh);
+    border-radius: 15px;
+  }
+
+  .an-oryvanth-home .ov-reports__archive-inner {
+    padding: 18px;
+  }
+}
+
+/* Short viewport */
+
+@media (max-height: 650px) {
+  .an-oryvanth-home .ov-reports__archive-panel {
+    max-height: 45svh;
+  }
+}
+
+/* Animation */
+
+@keyframes ovArchiveEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .an-oryvanth-home .ov-reports__archive-panel {
+    animation: none;
+  }
+
+  .an-oryvanth-home .ov-reports__archive-trigger {
+    transition: none;
+  }
+}
