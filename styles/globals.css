@@ -70927,3 +70927,453 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHE NOVA — ORYVANTH CIVILIZATION
+   Research Reports Showcase
+
+   Outer glass frame:
+   Managed by existing global.css:
+   .an-home-2026__glass
+   ========================================================== */
+
+.ov-reports,
+.ov-reports * {
+  box-sizing: border-box;
+}
+
+.ov-reports {
+  color: #f5f7fa;
+  min-width: 0;
+}
+
+/* Main visual stage */
+
+.ov-reports__stage {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: min(850px, 100svh);
+}
+
+.ov-reports__scene {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.ov-reports__image {
+  object-fit: cover;
+  object-position: 62% center;
+  opacity: 0.94;
+  filter: saturate(0.92) contrast(1.06);
+}
+
+.ov-reports__shade {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(2, 4, 9, 0.84),
+      rgba(2, 4, 9, 0.57) 45%,
+      rgba(2, 4, 9, 0.12) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(2, 4, 9, 0.16),
+      transparent 38%,
+      rgba(2, 4, 9, 0.77) 100%
+    );
+}
+
+.ov-reports__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: clamp(80px, 14vh, 180px);
+  min-height: inherit;
+  padding: clamp(28px, 5.5vw, 84px);
+}
+
+/* Civilization introduction */
+
+.ov-reports__hero {
+  max-width: 720px;
+}
+
+.ov-reports__eyebrow {
+  margin: 0 0 clamp(22px, 3.4vw, 43px);
+  font-size: 10px;
+  letter-spacing: 0.21em;
+  color: rgba(245, 249, 253, 0.74);
+}
+
+.ov-reports__eyebrow span {
+  padding: 0 9px;
+  opacity: 0.5;
+}
+
+.ov-reports__title {
+  margin: 0;
+  font-size: clamp(53px, 6.5vw, 112px);
+  font-weight: 250;
+  line-height: 0.99;
+  letter-spacing: -0.065em;
+  text-wrap: balance;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.ov-reports__title span {
+  display: block;
+}
+
+.ov-reports__tagline {
+  margin: clamp(18px, 2.5vw, 30px) 0 0;
+  font-size: clamp(16px, 1.7vw, 25px);
+  font-weight: 330;
+  line-height: 1.45;
+}
+
+.ov-reports__lead {
+  margin: 12px 0 0;
+  max-width: 540px;
+  font-size: clamp(11px, 0.96vw, 14px);
+  line-height: 1.75;
+  color: rgba(237, 243, 249, 0.78);
+}
+
+/* Research Reports */
+
+.ov-reports__bottom {
+  max-width: 1000px;
+}
+
+.ov-reports__report {
+  max-width: 740px;
+  padding: 19px 0 15px;
+  border-top: 1px solid rgba(242, 248, 252, 0.34);
+  border-bottom: 1px solid rgba(242, 248, 252, 0.2);
+}
+
+.ov-reports__report-heading,
+.ov-reports__report-meta {
+  font-size: 9px;
+  letter-spacing: 0.17em;
+  color: rgba(238, 244, 251, 0.72);
+}
+
+.ov-reports__report-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.ov-reports__report-count {
+  white-space: nowrap;
+}
+
+.ov-reports__report-body {
+  min-height: 125px;
+  padding: 19px 0 13px;
+  animation: ov-report-enter 0.35s ease both;
+}
+
+.ov-reports__report-meta {
+  margin: 0 0 8px;
+  font-size: 8px;
+}
+
+.ov-reports__report-title {
+  margin: 0;
+  max-width: 690px;
+  font-size: clamp(19px, 2vw, 29px);
+  font-weight: 350;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ov-reports__report-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ov-reports__report-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.ov-reports__report-summary {
+  margin: 9px 0 0;
+  max-width: 660px;
+  font-size: 12px;
+  line-height: 1.65;
+  color: rgba(234, 242, 250, 0.76);
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ov-reports__report-placeholder {
+  min-height: 125px;
+  margin: 0;
+  padding: 27px 0;
+  color: rgba(236, 243, 250, 0.76);
+  font-size: 12px;
+}
+
+/* Report navigation */
+
+.ov-reports__report-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.ov-reports__report-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.ov-reports__report-steps button {
+  width: 21px;
+  height: 3px;
+  border: 0;
+  border-radius: 4px;
+  background: rgba(235, 243, 250, 0.27);
+  cursor: pointer;
+}
+
+.ov-reports__report-steps button.is-active {
+  background: #f3f8fc;
+}
+
+.ov-reports__arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.ov-reports__arrows button {
+  width: 34px;
+  height: 30px;
+  border: 1px solid rgba(243, 248, 252, 0.24);
+  border-radius: 20px;
+  background: rgba(5, 10, 18, 0.2);
+  color: #f3f7fb;
+  cursor: pointer;
+}
+
+/* Footer navigation */
+
+.ov-reports__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.ov-reports__pillars-trigger,
+.ov-reports__next {
+  display: inline-flex;
+  align-items: center;
+  gap: 17px;
+  padding: 8px 0;
+  border: 0;
+  background: transparent;
+  color: rgba(245, 249, 253, 0.9);
+  cursor: pointer;
+}
+
+.ov-reports__pillars-trigger {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+}
+
+.ov-reports__next {
+  font-size: 12px;
+}
+
+.ov-reports__pillars {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+  padding: 17px 0;
+  border-top: 1px solid rgba(240, 247, 252, 0.16);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.ov-reports__pillars small {
+  margin-right: 6px;
+  opacity: 0.55;
+}
+
+/* Accessibility */
+
+.ov-reports button:focus-visible,
+.ov-reports a:focus-visible {
+  outline: 2px solid #f1f7fd;
+  outline-offset: 4px;
+}
+
+/* Animation */
+
+@keyframes ov-report-enter {
+  from {
+    opacity: 0.45;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .ov-reports__stage {
+    min-height: 100svh;
+  }
+
+  .ov-reports__content {
+    padding: 32px 22px;
+    gap: 95px;
+  }
+
+  .ov-reports__image {
+    object-position: 55% center;
+  }
+
+  .ov-reports__shade {
+    background: linear-gradient(
+      180deg,
+      rgba(2, 4, 9, 0.70),
+      rgba(2, 4, 9, 0.35) 38%,
+      rgba(2, 4, 9, 0.84) 100%
+    );
+  }
+
+  .ov-reports__title {
+    font-size: clamp(48px, 11.7vw, 77px);
+  }
+
+  .ov-reports__report-body {
+    min-height: 130px;
+  }
+
+  .ov-reports__pillars {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ov-reports__footer {
+    align-items: flex-start;
+  }
+
+  .ov-reports__lead {
+    max-width: 380px;
+  }
+}
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .ov-reports__report-body {
+    animation: none;
+  }
+}
+
+/* ORYVANTH — Navigation aligned to glass frame edges */
+
+.an-oryvanth-home .ov-reports__stage {
+  position: relative;
+}
+
+/* Remove the content width restriction */
+.an-oryvanth-home .ov-reports__bottom {
+  max-width: none;
+  width: 100%;
+}
+
+/* Extend navigation to the glass frame edges */
+.an-oryvanth-home .ov-reports__footer {
+  position: relative;
+  display: flex;
+  width: calc(100% + 2 * clamp(28px, 5.5vw, 84px));
+  max-width: none;
+  margin-left: calc(-1 * clamp(28px, 5.5vw, 84px));
+  margin-right: calc(-1 * clamp(28px, 5.5vw, 84px));
+  padding: 0 clamp(12px, 1.5vw, 22px);
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.an-oryvanth-home .ov-reports__pillars-trigger {
+  margin: 0 auto 0 0;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.an-oryvanth-home .ov-reports__next {
+  margin: 0 0 0 auto;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* Mobile frame edges */
+@media (max-width: 700px) {
+  .an-oryvanth-home .ov-reports__footer {
+    width: calc(100% + 44px);
+    margin-left: -22px;
+    margin-right: -22px;
+    padding: 0 10px;
+    gap: 8px;
+  }
+
+  .an-oryvanth-home .ov-reports__pillars-trigger,
+  .an-oryvanth-home .ov-reports__next {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
