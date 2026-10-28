@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-10-28T04:40:02.532Z",
+  "updated": "2026-10-28T11:05:16.555Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Machine learning simulations reveal how plastic transforms into hard carbon",
+      "url": "https://phys.org/news/2026-10-machine-simulations-reveal-plastic-hard.html",
+      "summary": "In a new study published in Chemical Science, researchers from the University of Oxford's Department of Chemistry have used machine learning simulations to trace how a common polymer transforms into hard carbon, revealin…",
+      "ts": 1793185208000,
+      "publishedAt": "2026-10-28T11:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why do people self-harm? The mind-body divide might hold some clues",
+      "url": "https://phys.org/news/2026-10-people-mind-body-clues.html",
+      "summary": "In Finnish lore, the goddess Kivutar stashes away pain in a mountain for safekeeping. And yet she's also a healer, channeling it into rocks or boiling it down into a less potent form in a huge vat.",
+      "ts": 1793185205000,
+      "publishedAt": "2026-10-28T11:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Why do flamingos dance while they eat? This scientist found out",
+      "url": "https://www.sciencenews.org/article/flamingos-dance-eat-scientist",
+      "summary": "Beautiful ripples drew Víctor Ortega Jiménez to feeding flamingos. Unraveling their secret could inspire new ways to filter water.",
+      "ts": 1793185200000,
+      "publishedAt": "2026-10-28T11:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "U.S. moves to weaken methane limits on oil and gas producers",
+      "url": "https://phys.org/news/2026-10-weaken-methane-limits-oil-gas.html",
+      "summary": "U.S. President Donald Trump announced Tuesday a sweeping rollback of rules that stop oil and gas producers from emitting methane, a greenhouse gas superpollutant.",
+      "ts": 1793182801000,
+      "publishedAt": "2026-10-28T10:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cyclone eases after lashing India coast, no deaths reported",
+      "url": "https://phys.org/news/2026-10-cyclone-eases-lashing-india-coast.html",
+      "summary": "Ferocious winds and torrential rain lashed India's southeastern coast after a cyclone made landfall on Wednesday, but officials said there were no initial reports of deaths and the storm later began to ease.",
+      "ts": 1793181885000,
+      "publishedAt": "2026-10-28T10:04:45.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Comets probably didn't seed life on Earth after all, new study suggests",
+      "url": "https://phys.org/news/2026-10-comets-didnt-seed-life-earth.html",
+      "summary": "The theory that comets delivered the molecular building blocks for life on Earth is a long-standing one, since comets are known to carry many of these molecules. However, a new study challenges this idea.",
+      "ts": 1793181610000,
+      "publishedAt": "2026-10-28T10:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineered albumin helps a therapeutic protein last longer and cross mucosal barriers",
+      "url": "https://phys.org/news/2026-10-albumin-therapeutic-protein-longer-mucosal.html",
+      "summary": "Protein-based medicines have transformed the treatment of many diseases, but they often come with a limitation: they must be injected, sometimes repeatedly, because they are rapidly cleared from the bloodstream. For pati…",
+      "ts": 1793181605000,
+      "publishedAt": "2026-10-28T10:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Major Southern Hemisphere ocean layer shifts, raising questions about heat and carbon storage",
+      "url": "https://phys.org/news/2026-10-major-southern-hemisphere-ocean-layer.html",
+      "summary": "The Antarctic Intermediate Water (AAIW)—a vast layer of fresh water spanning much of the Southern Hemisphere's ocean—has rapidly reversed its long-term trends in salinity and density, according to new research. The AAIW …",
+      "ts": 1793181601000,
+      "publishedAt": "2026-10-28T10:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Comets probably didn’t deliver life’s building blocks to Earth",
+      "url": "https://www.sciencenews.org/article/comet-chemistry-life-earth-speed-sharp",
+      "summary": "Most comets would have hit Earth with too much speed and at too sharp an angle for life-giving molecules to survive impact, a new study suggests.",
+      "ts": 1793181600000,
+      "publishedAt": "2026-10-28T10:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA analysis identifies root-dwelling fungi as potential keystone species in forest microbial communities",
+      "url": "https://phys.org/news/2026-10-dna-analysis-root-fungi-potential.html",
+      "summary": "Beneath the forest floor extends a vast ecosystem where a diverse array of microorganisms inhabit soil and root systems. Here, fungi and bacteria play pivotal roles in processes such as nutrient cycling and carbon seques…",
+      "ts": 1793178001000,
+      "publishedAt": "2026-10-28T09:00:01.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Spacetime Sentinels: a Qiskit game that exposes the competition between spacetime checks and magic in low-overhead quantum error detection",
@@ -719,86 +799,6 @@
       "title": "Amorphization-Depth-Dependent Bismuth Redistribution and Activation in Silicon for Quantum Devices",
       "url": "https://arxiv.org/abs/2610.35993",
       "summary": "arXiv:2610.35993v1 Announce Type: cross Abstract: Near-surface bismuth donors are promising for silicon quantum devices because of their rich electron-nuclear spin structure and long spin coherence, but their electrical …",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum circuit simulation with high-order optical tensor processing",
-      "url": "https://arxiv.org/abs/2610.36172",
-      "summary": "arXiv:2610.36172v1 Announce Type: cross Abstract: Classical simulation is essential for developing and testing quantum circuits, but the exponential growth of Hilbert space challenges conventional digital processors. Her…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generation of quantum light with tunable Wigner negativity with a semiconductor quantum dot",
-      "url": "https://arxiv.org/abs/2610.36233",
-      "summary": "arXiv:2610.36233v1 Announce Type: cross Abstract: Wigner-negative states of light are key resources for quantum advantage in continuous-variable optical quantum computing. They can be produced probabilistically via frequ…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum hydrodynamics from Nambu's unpublished fluid notes",
-      "url": "https://arxiv.org/abs/2610.36275",
-      "summary": "arXiv:2610.36275v1 Announce Type: cross Abstract: We develop a quantum hydrodynamic theory based on Nambu's unpublished note \\emph{A New Look at Fluid Dynamics}. The kinetic action defines a metric on configuration space…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calculation of distant retrograde orbits and their use in space weather forecasting",
-      "url": "https://arxiv.org/abs/2610.36315",
-      "summary": "arXiv:2610.36315v1 Announce Type: cross Abstract: There is current renewed interest in using Sun-Earth distant retrograde orbits (DROs) for a space weather forecasting mission, which would temporarily place spacecraft at…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental Geometric State Preparation on the Bloch Sphere Via Linear Mechanical Resonator",
-      "url": "https://arxiv.org/abs/2610.36322",
-      "summary": "arXiv:2610.36322v1 Announce Type: cross Abstract: The Bloch sphere representation, familiar from quantum two-level systems, can also describe classical linear systems whose dynamics are effectively confined to two modes.…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Fidelity Aerostructural Dataset of Transonic Wings in Cruise Conditions",
-      "url": "https://arxiv.org/abs/2610.36442",
-      "summary": "arXiv:2610.36442v1 Announce Type: cross Abstract: Recent advances in machine learning (ML) have the potential to substantially accelerate aircraft wing design, a process that has traditionally required extensive high-fid…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral Oscillations and Temporal Meandering of Dissipative Solitons in a Moving Intracavity Phase Potential",
-      "url": "https://arxiv.org/abs/2610.36504",
-      "summary": "arXiv:2610.36504v1 Announce Type: cross Abstract: Dissipative solitons (DSs) provide a prototypical platform for studying nonequilibrium dynamics governed by the interplay between nonlinearity, dissipation, and external …",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Detailed balance and phase transition in Nash equilibria of mean-field Ising game",
-      "url": "https://arxiv.org/abs/2610.36518",
-      "summary": "arXiv:2610.36518v1 Announce Type: cross Abstract: We study a finite-state mean-field game with entropic control cost. In the large population limit, we show that its stationary Nash equilibria satisfy the detailed balanc…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective Noise Thresholds for Reliable Quantum Approximation Optimisation Algorithm under Noisy Environment",
-      "url": "https://arxiv.org/abs/2610.36597",
-      "summary": "arXiv:2610.36597v1 Announce Type: cross Abstract: Variational quantum algorithms are leading candidates for practical utilisation on noisy intermediate-scale quantum (NISQ) processors, but accumulating noise bounds the u…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Where Does the Anion-Redox Hole Go? Reliability of Open-Shell Projection-Based Embedding for Li-Rich Cathodes, from DFT Environments to Quantum Solvers",
-      "url": "https://arxiv.org/abs/2610.36659",
-      "summary": "arXiv:2610.36659v1 Announce Type: cross Abstract: Anion redox in Li-rich layered oxides places holes on oxygen next to an antiferromagnetic Mn(IV) d3 lattice, a strongly correlated open-shell problem for which projection…",
       "ts": 1793160000000,
       "publishedAt": "2026-10-28T04:00:00.000Z"
     }

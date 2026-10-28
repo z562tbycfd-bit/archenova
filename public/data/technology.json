@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-10-28T04:40:05.817Z",
+  "updated": "2026-10-28T11:05:21.015Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Lilly says ‘triple-G’ drug beats Novo’s Ozempic in diabetes study",
+      "url": "https://www.statnews.com/2026/10/28/retatrutide-vs-ozempic-lilly-diabetes-study/?utm_campaign=rss",
+      "summary": "Data add to expectations that the drug will be one of Lilly’s greatest growth drivers.",
+      "ts": 1793184300000,
+      "publishedAt": "2026-10-28T10:45:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "ts": 1793179800000,
+      "publishedAt": "2026-10-28T09:30:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How pediatricians like me are helping families stay calm and informed about measles",
+      "url": "https://www.statnews.com/2026/10/28/measles-parents-panic-pennsylvania-vaccines-education/?utm_campaign=rss",
+      "summary": "“It is dizzying to have a family clamoring for the MMR vaccine in one room while the room next door adamantly opposes vaccination,” writes a pediatrician.",
+      "ts": 1793176200000,
+      "publishedAt": "2026-10-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Have you been impacted by Epic’s actions?",
+      "url": "https://www.statnews.com/2026/10/28/epic-systems-electronic-health-records-reader-callout/?utm_campaign=rss",
+      "summary": "STAT is looking to learn, from people with direct knowledge, how Epic's actions impact hospitals' technology choices. Share your story with us.",
+      "ts": 1793176200000,
+      "publishedAt": "2026-10-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Freezing my eggs showed me just how anti-feminist the fertility industry can be",
+      "url": "https://www.statnews.com/2026/10/28/fertility-industry-private-equity-egg-freezing-ethics-costs/?utm_campaign=rss",
+      "summary": "“A few years ago, I froze my eggs — and the experience was anything but empowering,” writes physician Pooja Yerramilli.",
+      "ts": 1793176200000,
+      "publishedAt": "2026-10-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: As Epic’s dominance grows, its iron grip is choking innovation in health technology",
+      "url": "https://www.statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny/?utm_campaign=rss",
+      "summary": "A STAT investigation found that Epic selectively withholds access to patient data, disadvantaging rival software developers and stymying innovation.",
+      "ts": 1793176200000,
+      "publishedAt": "2026-10-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "scPyviewer: a Python-native interactive viewer from AnnData single-cell data",
@@ -757,60 +811,6 @@
       "ts": 1793084871000,
       "publishedAt": "2026-10-27T07:07:51.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "ts": 1793084400000,
-      "publishedAt": "2026-10-27T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Tritium Level Far Below Japan’s Operational Limit in 25th Batch of ALPS Treated Water, IAEA Confirms",
-      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-25th-batch-of-alps-treated-water-iaea-confirms",
-      "summary": "",
-      "ts": 1793082548000,
-      "publishedAt": "2026-10-27T06:29:08.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 27 – Noctilucent Clouds over Sweden",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
-      "summary": "APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1793073900000,
-      "publishedAt": "2026-10-27T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "A-81 Reaches South Georgia",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
-      "summary": "The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GoCo: structure-guided conformal calibration for error-controlled Gene Ontology annotation release",
-      "url": "https://arxiv.org/abs/2610.32990",
-      "summary": "arXiv:2610.32990v1 Announce Type: new Abstract: Computational gene-function prediction generates annotations at a scale that experimental characterization cannot match, yet substantial errors remain even among leading me…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TIAgent: From Natural Language to Grounded Agentic Workflows for Computational Pathology",
-      "url": "https://arxiv.org/abs/2610.32993",
-      "summary": "arXiv:2610.32993v1 Announce Type: new Abstract: Computational pathology (CPath) analyses increasingly depend on multi-step computational workflows that require substantial programming expertise, limiting their accessibil…",
-      "ts": 1793073600000,
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
