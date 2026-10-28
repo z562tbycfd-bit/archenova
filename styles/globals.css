@@ -71598,3 +71598,162 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
     transition: none;
   }
 }
+
+
+
+
+/* ==========================================================
+   ORYVANTH — REPORTS MATTE BLACK
+   Pure black / Pure white / No blue tint
+   ========================================================== */
+
+/* Expanded Reports panel */
+.an-oryvanth-home .ov-reports__archive-panel {
+  background: #000000;
+  background-image: none;
+
+  color: #ffffff;
+
+  border: 1px solid rgba(255, 255, 255, 0.16);
+
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+
+  box-shadow:
+    0 16px 48px rgba(0, 0, 0, 0.55);
+}
+
+/* All report text */
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-heading,
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-count,
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-meta,
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-title,
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-summary,
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-placeholder {
+  color: #ffffff;
+}
+
+/* Report links */
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-title a {
+  color: #ffffff;
+}
+
+/* Navigation arrows */
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__arrows button {
+  color: #ffffff;
+
+  background: #000000;
+
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+/* Report progress indicators */
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-steps button {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__report-steps button.is-active {
+  background: #ffffff;
+}
+
+/* Remove blue-tinted focus and hover colors */
+.an-oryvanth-home
+.ov-reports__archive-panel a:focus-visible,
+.an-oryvanth-home
+.ov-reports__archive-panel button:focus-visible {
+  outline-color: #ffffff;
+}
+
+
+
+
+/* ==========================================================
+   ORYVANTH — MINIMAL REPORT NAVIGATION
+   Thin monochrome arrows
+   ========================================================== */
+
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__arrows {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.an-oryvanth-home
+.ov-reports__archive-panel
+.ov-reports__arrows button {
+  appearance: none;
+  -webkit-appearance: none;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+  padding: 0;
+
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+
+  color: #ffffff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1;
+
+  cursor: pointer;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+@media (hover: hover) {
+  .an-oryvanth-home
+  .ov-reports__archive-panel
+  .ov-reports__arrows button:hover {
+    opacity: 0.65;
+    transform: translateY(-1px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .an-oryvanth-home
+  .ov-reports__archive-panel
+  .ov-reports__arrows button {
+    transition: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+

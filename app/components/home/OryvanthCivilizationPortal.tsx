@@ -242,12 +242,12 @@ export default function OryvanthCivilizationPortal() {
               >
                 <span className="ov-reports__archive-trigger-copy">
                   <span className="ov-reports__archive-label">
-                    ARCHENOVA INTELLIGENCE
+                    <strong>
+                    Civilization Reports
+                    </strong>
                   </span>
 
-                  <strong>
-                    Research Reports
-                  </strong>
+                  
                 </span>
 
                 <span className="ov-reports__archive-trigger-right">
