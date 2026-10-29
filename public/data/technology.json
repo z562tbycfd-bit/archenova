@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-10-29T02:18:09.181Z",
+  "updated": "2026-10-29T09:33:59.651Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: Is AI more a partner, competitor, or crutch for biomedical scientists?",
+      "url": "https://www.statnews.com/2026/10/29/ai-science-biology-dependence-ethics-research/?utm_campaign=rss",
+      "summary": "Biologist Paul Knoepfler asks: Could overdependence on AI make us less capable as researchers?",
+      "ts": 1793262600000,
+      "publishedAt": "2026-10-29T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Biopharma industry at odds over impact of Treasury’s new China rule",
+      "url": "https://www.statnews.com/2026/10/29/biotech-licensing-deals-treasury-rules-stir-debate/?utm_campaign=rss",
+      "summary": "An exemption for a common kind of biopharma deal is at the heart of disagreements over the proposal.",
+      "ts": 1793262600000,
+      "publishedAt": "2026-10-29T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Politicians have failed to tackle health care affordability. It’s now voters’ rallying cry",
+      "url": "https://www.statnews.com/2026/10/29/health-care-costs-midterms-issue-out-of-pocket-series-part-6/?utm_campaign=rss",
+      "summary": "As costs surge, voters are embracing more radical solutions to the crisis.",
+      "ts": 1793262600000,
+      "publishedAt": "2026-10-29T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Health care needs buyers willing to say no",
+      "url": "https://www.statnews.com/2026/10/29/health-care-premiums-open-enrollment-employer-costs/?utm_campaign=rss",
+      "summary": "\"The industry’s major players have little appetite for change,\" writes Anthony T. Lo Sasso.",
+      "ts": 1793262600000,
+      "publishedAt": "2026-10-29T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 29 October 2026 – The Horns of Venus",
+      "url": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+      "summary": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+      "ts": 1793246700000,
+      "publishedAt": "2026-10-29T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Arnab Strikes India",
+      "url": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
+      "summary": "The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.",
+      "ts": 1793246460000,
+      "publishedAt": "2026-10-29T04:01:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+      "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California. The emeritus astronaut and retired U.S. Navy captain begin…",
+      "ts": 1793242199000,
+      "publishedAt": "2026-10-29T02:49:59.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Three-Photon Microscopy Reveals Neural Activity Deep in the Mouse Brain",
@@ -745,69 +808,6 @@
       "title": "AI-guided deep visual proteomics reveals recurrence-associated morpho-molecular signatures within triple-negative breast cancers",
       "url": "https://arxiv.org/abs/2608.03145",
       "summary": "arXiv:2608.03145v3 Announce Type: replace-cross Abstract: Outcome informed AI can localize prognostically relevant regions in digital pathology, but directly characterizing the molecular basis of these spatial prediction…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A general-purpose multi-path stacked coupling for stochastic reaction networks",
-      "url": "https://arxiv.org/abs/2608.22627",
-      "summary": "arXiv:2608.22627v2 Announce Type: replace-cross Abstract: Stochastic reaction networks are continuous-time Markov chain models for interacting populations, with applications in biochemistry, epidemiology, ecology, and re…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Framework for Evaluating Forward Contamination Risk for Bio-ISRU Microorganisms",
-      "url": "https://arxiv.org/abs/2609.12015",
-      "summary": "arXiv:2609.12015v2 Announce Type: replace-cross Abstract: NASA planetary protection policy seeks to avoid inadvertent forward contamination of celestial bodies and backward contamination of Earth during space exploration…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Asymptotics and finite sample bounds for prediction and smoothing in Wright-Fisher hidden Markov models",
-      "url": "https://arxiv.org/abs/2609.22444",
-      "summary": "arXiv:2609.22444v3 Announce Type: replace-cross Abstract: We study signal prediction and smoothing in hidden Markov models whose latent signal is a multi-type Wright-Fisher diffusion and whose discrete-time observations …",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Score Is Not the Structure: Brain Alignment and Cross-Lingual Transfer",
-      "url": "https://arxiv.org/abs/2610.03827",
-      "summary": "arXiv:2610.03827v4 Announce Type: replace-cross Abstract: Similarity scores are often offered as evidence that a model shares structure with the brain or across languages. We ask what such a score reads when that structu…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Tri-Directional Sub-Voxel Displacement and Ipsilateral Territory Decoupling for 3D Bilateral Coronary Artery Tree Reconstruction in Cardiac CT Angiography",
-      "url": "https://arxiv.org/abs/2610.05900",
-      "summary": "arXiv:2610.05900v2 Announce Type: replace-cross Abstract: Three-dimensional (3D) reconstruction of bilateral coronary trees (LCA and RCA) from cardiac computed tomography angiography (CCTA) is limited by $64^3$ quantizat…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Label-free cell counting and viability prediction with brightfield imaging and deep learning",
-      "url": "https://arxiv.org/abs/2610.10473",
-      "summary": "arXiv:2610.10473v2 Announce Type: replace-cross Abstract: Cell viability assessment is a core requirement in cell culture systems, with critical applications in biopharmaceutical manufacturing and drug development. Conve…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Video-rate quantitative phase and polarimetric imaging (QP2I) for label-free imaging of contracting muscle cells",
-      "url": "https://arxiv.org/abs/2610.32756",
-      "summary": "arXiv:2610.32756v3 Announce Type: replace-cross Abstract: Quantitative phase imaging (QPI) has become a standard approach for label-free microscopy of transparent specimens, mapping the optical path length. However, the …",
       "ts": 1793160000000,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "categoryId": "bio"
