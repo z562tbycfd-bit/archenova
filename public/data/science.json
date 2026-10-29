@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-10-28T22:58:24.484Z",
+  "updated": "2026-10-29T02:18:05.970Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Optimistic climate futures for local communities in the UK imagined in a new report",
+      "url": "https://phys.org/news/2026-10-optimistic-climate-futures-local-communities.html",
+      "summary": "A new report co-authored by researchers from the University of York and WWF highlights how local communities across the U.K. imagine positive, sustainable, and resilient futures for the places where they live and work.",
+      "ts": 1793239202000,
+      "publishedAt": "2026-10-29T02:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the Indian Ocean is linked to Europe's early-winter rain and storms",
+      "url": "https://phys.org/news/2026-10-indian-ocean-linked-europe-early.html",
+      "summary": "When we think about Europe's winter weather, the Indian Ocean is probably not the first place we look. We might picture Atlantic storms, cold air arriving from the north or rain sweeping across the Mediterranean. In my r…",
+      "ts": 1793235606000,
+      "publishedAt": "2026-10-29T01:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The phantom lighthouse: New research explains one of Australia's strangest illusions",
+      "url": "https://phys.org/news/2026-10-phantom-lighthouse-australia-strangest-illusions.html",
+      "summary": "There are two lighthouses on Lady Elliot Island, at the southernmost tip of Australia's Great Barrier Reef. The first was built in 1873, but was decommissioned in 1995 when the second took over the job of warning ships o…",
+      "ts": 1793230801000,
+      "publishedAt": "2026-10-28T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrathin metal layer boosts spin-related signals, opening a door to ultralow-power electronics",
+      "url": "https://phys.org/news/2026-10-ultrathin-metal-layer-boosts-door.html",
+      "summary": "Researchers at Kyushu University have found that an ultrathin layer of iridium manganese (IrMn) can improve two spin-related signals in a structure made of a magnetic insulator and a platinum film. By examining how spin …",
+      "ts": 1793229602000,
+      "publishedAt": "2026-10-28T23:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Atomic magnetism reveals why iron, but not chromium, can produce ammonia using sunlight",
+      "url": "https://phys.org/news/2026-10-atomic-magnetism-reveals-iron-chromium.html",
+      "summary": "Two nearly identical materials have completely different chemical behavior. Research teams at the University of Vienna and TU Wien studied catalysts that use the energy of sunlight to produce ammonia. Surprisingly, when …",
+      "ts": 1793228401000,
+      "publishedAt": "2026-10-28T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Macromolecular crowding could help build artificial cell systems",
@@ -563,6 +603,38 @@
       "publishedAt": "2026-10-28T10:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Measurement-induced state transitions across the fluxonium qubit landscape",
+      "url": "http://link.aps.org/doi/10.1103/n2qr-9p7z",
+      "summary": "Author(s): Alex A. Chapple, Boris M. Varbanov, Alexander McDonald, and Alexandre Blais Fluxonium qubits are promising candidates for fault-tolerant quantum processors, but their dispersive readout remains challenging due…",
+      "ts": 1793181600000,
+      "publishedAt": "2026-10-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Generation of perfect spatiotemporal acoustic vortices",
+      "url": "http://link.aps.org/doi/10.1103/4q3d-fgd3",
+      "summary": "Author(s): Shuai Liu, Feng-Zhuang Liu, Hao Ge, Ming-Hui Lu, and Yan-Feng Chen Spatiotemporal acoustic vortices provide an intriguing route to encode transverse orbital angular momentum (OAM) in sound, but they have a fun…",
+      "ts": 1793181600000,
+      "publishedAt": "2026-10-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simultaneous determination of local magnetic fields and sensor orientation with nitrogen-vacancy centers in nanodiamond",
+      "url": "http://link.aps.org/doi/10.1103/zh44-55ms",
+      "summary": "Author(s): Yizhou Wang, Haochen Shen, Zhongyuan Liu, Yue Yu, Shengwang Du, Chong Zu, and Chuanwei Zhang Nanodiamond sensors can measure magnetic fields at the nanoscale, but their random orientations create a calibration…",
+      "ts": 1793181600000,
+      "publishedAt": "2026-10-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "${\\mathrm{Zn}}^{2+}$ and ${\\mathrm{Mn}}^{2+}$ doping effect on spin dynamics of ${\\mathrm{Fe}}_{3}{\\mathrm{O}}_{4}$-based magnetic nanoparticles: A possible path to efficient MRI contrast agents",
+      "url": "http://link.aps.org/doi/10.1103/n4jy-9t8m",
+      "summary": "Author(s): Margherita Porru, Francesca Brero, Álvaro Gallo-Cordova, Rafael Pérez del Real, Manuel Mariani, Paolo Arosio, Francesco Orsini, María del Puerto Morales, and Alessandro Lascialfari Iron oxide-based magnetic na…",
+      "ts": 1793181600000,
+      "publishedAt": "2026-10-28T10:00:00.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "DNA analysis identifies root-dwelling fungi as potential keystone species in forest microbial communities",
       "url": "https://phys.org/news/2026-10-dna-analysis-root-fungi-potential.html",
@@ -727,78 +799,6 @@
       "title": "QMOMKit: A C++ library for quadrature-based moment methods",
       "url": "https://arxiv.org/abs/2610.36189",
       "summary": "arXiv:2610.36189v1 Announce Type: new Abstract: QMOMKit is an open-source C++ library for the phase-space evolution of population balance equations with quadrature-based moment methods. The present version implements the…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elasticized magnetohydrostatics",
-      "url": "https://arxiv.org/abs/2610.36241",
-      "summary": "arXiv:2610.36241v1 Announce Type: new Abstract: The modern approach to modeling equilibria in stellarators features two blind spots: lack of foundational agreement between theory and computation, and inability to reliabl…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-layer conjugate flows in an open channel",
-      "url": "https://arxiv.org/abs/2610.36242",
-      "summary": "arXiv:2610.36242v1 Announce Type: new Abstract: We investigate conjugate flows in a two-layer fluid system with a flat bottom and a free surface. These are up- and downstream states consistent with simultaneous conservat…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DSMC Study of Hypersonic Boundary-Layer Unsteadiness Using Data-Driven Analysis",
-      "url": "https://arxiv.org/abs/2610.36248",
-      "summary": "arXiv:2610.36248v1 Announce Type: new Abstract: The prediction of transition remains challenging because the receptivity amplitude is usually prescribed rather than measured. This work uses Direct Simulation Monte Carlo …",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reduced magnetohydrodynamics with electron inertia in pseudodipole coordinates",
-      "url": "https://arxiv.org/abs/2610.36262",
-      "summary": "arXiv:2610.36262v1 Announce Type: new Abstract: We study the altitude-dependent structuring of field-aligned currents by driven Alfv\\'en waves in an expanding auroral flux tube. The model uses the reduced magnetohydrodyn…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Subpercent accuracy in molecular electric quadrupole coupling: nuclear-size and relativistic effects in RaF",
-      "url": "https://arxiv.org/abs/2610.36286",
-      "summary": "arXiv:2610.36286v1 Announce Type: new Abstract: We report a benchmark study of the electric-quadrupole hyperfine interaction in the electronic ground state of the RaF molecule, including finite-nuclear-size effects. The …",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FASST: A Compact Stateless Atmosphere Model for Long-Term Ocean Coupling",
-      "url": "https://arxiv.org/abs/2610.36297",
-      "summary": "arXiv:2610.36297v1 Announce Type: new Abstract: Coupled climate simulations are computationally expensive, largely because of the atmosphere. We introduce FASST, a coupled climate model that retains the prognostic POP2 o…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatially-Adaptive Neural-Network Based Extraction of Significant Wave Heights from HF Radar Data",
-      "url": "https://arxiv.org/abs/2610.36301",
-      "summary": "arXiv:2610.36301v1 Announce Type: new Abstract: Significant wave height (SWH) retrieval from high-frequency (HF) radar data conventionally relies on Doppler-spectrum processing and interpretation of the weak second-order…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neutron-Lean D-3He Fusion by Asymmetric Enhancement of the Primary Reaction: A Spin-Polarized Non-Thermal Hot Tail",
-      "url": "https://arxiv.org/abs/2610.36310",
-      "summary": "arXiv:2610.36310v1 Announce Type: new Abstract: This paper focuses on a modified fuel that combines the theory of spin-polarized fuel with non-thermal \"hot-tail\" reactions for D-T, D-3He, and D-D reactions. We find that …",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Image-Domain CT Metal Artifact Reduction Using an Endpoint-Conditioned Diffusion Bridge",
-      "url": "https://arxiv.org/abs/2610.36319",
-      "summary": "arXiv:2610.36319v1 Announce Type: new Abstract: Background: Metal implants cause streaking and shading artifacts in computed tomography (CT), obscuring anatomy and distorting Hounsfield-unit (HU) values. Conventional dif…",
       "ts": 1793160000000,
       "publishedAt": "2026-10-28T04:00:00.000Z"
     }
