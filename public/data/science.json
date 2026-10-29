@@ -1,7 +1,255 @@
 {
   "ok": true,
-  "updated": "2026-10-29T16:42:48.765Z",
+  "updated": "2026-10-29T21:37:32.804Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How the quantum vacuum perturbs atoms, could shrink black holes and may have helped form galaxies",
+      "url": "https://phys.org/news/2026-10-quantum-vacuum-perturbs-atoms-black.html",
+      "summary": "The word \"vacuum\" may conjure the image of empty space. Maybe you think of a region far outside the solar system without planets, debris, gas clouds or light. According to quantum theory, however, a vacuum is never truly…",
+      "ts": 1793309405000,
+      "publishedAt": "2026-10-29T21:30:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Detailed images reveal ribosome assembly inside human cells for the first time",
+      "url": "https://phys.org/news/2026-10-images-reveal-ribosome-human-cells.html",
+      "summary": "For decades, ribosomes have been under the lens of many scientists. Ribosomes are highly sophisticated and complex molecular machines that allow cells to synthesize proteins. However, putting ribosomes together requires …",
+      "ts": 1793309401000,
+      "publishedAt": "2026-10-29T21:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Eyewitnesses remember feedback better after making an identification, study finds",
+      "url": "https://phys.org/news/2026-10-eyewitnesses-feedback-identification.html",
+      "summary": "An eyewitness can tell the truth, believe every word they say and still send an innocent person to prison. A new study by Stephen Charman from FIU's Department of Psychology takes on a question that has challenged the ju…",
+      "ts": 1793308808000,
+      "publishedAt": "2026-10-29T21:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Terahertz light distinguishes two groups of particles trapped inside superconducting vortices",
+      "url": "https://phys.org/news/2026-10-terahertz-distinguishes-groups-particles-superconducting.html",
+      "summary": "Scientists at Rutgers and in Estonia have used invisible light to look into tiny magnetic whirlpools, called vortices, inside a superconductor, revealing details that could help researchers develop better materials for c…",
+      "ts": 1793308801000,
+      "publishedAt": "2026-10-29T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What animal bones in Malawi teach us about the social lives of people long ago",
+      "url": "https://phys.org/news/2026-10-animal-bones-malawi-social-people.html",
+      "summary": "In the ancient past, when human communities were small and the only way to travel was by walking, what were the chances of meeting a stranger? And what would happen next?",
+      "ts": 1793308206000,
+      "publishedAt": "2026-10-29T21:10:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "European rivers retain far more plastic than they carry to the sea, study finds",
+      "url": "https://phys.org/news/2026-10-european-rivers-retain-plastic-sea.html",
+      "summary": "Plastic that enters the environment does not necessarily make its way to the sea via rivers. In fact, only a tiny fraction eventually reaches river mouths. Most plastic remains on land or within river systems.",
+      "ts": 1793308201000,
+      "publishedAt": "2026-10-29T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wild orchids face growing challenges as conservation falls short",
+      "url": "https://phys.org/news/2026-10-wild-orchids-falls-short.html",
+      "summary": "At first glance, it is easy to see why Corybas puniceus has captured the attention of collectors around the world. Small enough to fit in the palm of your hand, its unusual shape and bursts of color make it unlike almost…",
+      "ts": 1793307607000,
+      "publishedAt": "2026-10-29T21:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How eggs protect chromosome connections during prolonged dormancy",
+      "url": "https://phys.org/news/2026-10-eggs-chromosome-prolonged-dormancy.html",
+      "summary": "Eggs follow a very different developmental path from sperm. Once a male hits puberty, sperm cells are produced continuously throughout his life. Eggs, however, are all produced during the fetal stage. Once formed, eggs e…",
+      "ts": 1793307601000,
+      "publishedAt": "2026-10-29T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sealing gaps and securing food can fight rodent infestations while protecting predators",
+      "url": "https://phys.org/news/2026-10-gaps-food-rodent-infestations-predators.html",
+      "summary": "Mice and rats can spread dangerous viruses and bacteria, trigger asthma attacks and damage property with their constant gnawing. So when rodents get indoors, most people take action to help keep their home safe.",
+      "ts": 1793307010000,
+      "publishedAt": "2026-10-29T20:50:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Machine learning helps track semiconductor defects under more realistic temperature conditions",
+      "url": "https://phys.org/news/2026-10-machine-track-semiconductor-defects-realistic.html",
+      "summary": "All materials contain inherent defects. These are not always harmful, since they can be used to engineer and introduce certain properties into a material. However, it is crucial to understand how they function and how th…",
+      "ts": 1793307005000,
+      "publishedAt": "2026-10-29T20:50:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Machine-learning models predict human health from microbiome data",
+      "url": "https://phys.org/news/2026-10-machine-human-health-microbiome.html",
+      "summary": "Inside the gut, on the surface of the skin and lining your ears, mouth and nose are colonies of millions of microbes. For every human cell you have, there are at least as many microbial cells associated with your body.",
+      "ts": 1793307001000,
+      "publishedAt": "2026-10-29T20:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What drives temperature preferences? Female mice have temperature sensors tuned to run warmer",
+      "url": "https://phys.org/news/2026-10-temperature-female-mice-sensors-tuned.html",
+      "summary": "Female mice like warmer spaces than males because of two types of tiny temperature sensors in their nerves which are tuned to switch on at higher temperatures, according to researchers at the Institute of Psychiatry, Psy…",
+      "ts": 1793306401000,
+      "publishedAt": "2026-10-29T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoparticle properties shape protein coats that guide cell entry and immune evasion",
+      "url": "https://phys.org/news/2026-10-nanoparticle-properties-protein-coats-cell.html",
+      "summary": "A new study has revealed molecular rules governing how nanoparticles interact with biological systems, showing how their physicochemical properties shape protein corona (PC) formation and influence biological outcomes. T…",
+      "ts": 1793305801000,
+      "publishedAt": "2026-10-29T20:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microplastic shape can influence viral disease severity in rainbow trout",
+      "url": "https://phys.org/news/2026-10-microplastic-viral-disease-severity-rainbow.html",
+      "summary": "The shape of microplastics can influence how deadly a viral infection can be for fish, according to new research from William & Mary's Virginia Institute of Marine Science (VIMS). The findings suggest that some forms of …",
+      "ts": 1793305212000,
+      "publishedAt": "2026-10-29T20:20:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ghostly Cat's Head Nebula lurks within sight of NASA's Hubble, Webb",
+      "url": "https://phys.org/news/2026-10-ghostly-cat-nebula-lurks-sight.html",
+      "summary": "NASA's Hubble and James Webb Space Telescopes have captured a hauntingly dynamic star-forming scene, like a spectral form rising out of a cold mist. It lies within the vast Carina Nebula, a diffuse star-forming region lo…",
+      "ts": 1793305201000,
+      "publishedAt": "2026-10-29T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fingerprints of the sea: Identifying sharks by their fins alone",
+      "url": "https://phys.org/news/2026-10-fingerprints-sea-sharks-fins.html",
+      "summary": "Every oceanic whitetip shark has a fin pattern as unique as a human fingerprint. In a new study published in Marine Biology, FIU researchers identified more than 50 oceanic whitetip sharks by their fins alone using pelag…",
+      "ts": 1793304605000,
+      "publishedAt": "2026-10-29T20:10:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Snøfrid the Sámi: Matriarch of Norway's royal bloodline?",
+      "url": "https://phys.org/news/2026-10-snfrid-smi-matriarch-norway-royal.html",
+      "summary": "For a long time, some researchers believed that the South Sámi population arrived in Central Norway in the 18th century at the earliest, and that Norwegian farmers were present long before the Sámi. This is known as the …",
+      "ts": 1793304601000,
+      "publishedAt": "2026-10-29T20:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-emitting nanoparticles help ultrasound direct gene editing to selected mouse brain regions",
+      "url": "https://phys.org/news/2026-10-emitting-nanoparticles-ultrasound-gene-mouse.html",
+      "summary": "Scientists can now edit genes in precise locations deep in the brain and body without the use of invasive surgery or implants, thanks to new work from researchers at the Wu Tsai Neurosciences Institute. The team demonstr…",
+      "ts": 1793304006000,
+      "publishedAt": "2026-10-29T20:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Who mapped Africa? Debunking the myth that Europeans alone plotted the continent",
+      "url": "https://phys.org/news/2026-10-africa-debunking-myth-europeans-plotted.html",
+      "summary": "After the United Nations adopted a resolution in September 2026 endorsing a map that more fairly represents the size of Earth's landmasses, author and journalist Moky Makura of Africa No Filter—a main sponsor of the Corr…",
+      "ts": 1793303406000,
+      "publishedAt": "2026-10-29T19:50:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zombie bacteria keep building DNA after death",
+      "url": "https://phys.org/news/2026-10-zombie-bacteria-dna-death.html",
+      "summary": "Researchers at Aarhus University have discovered that bacteria can continue producing DNA after they die. And they have found a way to control what gets produced. The discovery could eventually contribute to the developm…",
+      "ts": 1793303401000,
+      "publishedAt": "2026-10-29T19:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrical signals reveal hidden magnetic information in altermagnets for first time",
+      "url": "https://phys.org/news/2026-10-electrical-reveal-hidden-magnetic-altermagnets.html",
+      "summary": "Researchers have experimentally demonstrated, for the first time, that it is possible to obtain from an altermagnet a spin current that can transport magnetic information. This result is supported by the theoretical mode…",
+      "ts": 1793302804000,
+      "publishedAt": "2026-10-29T19:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly discovered amoeba reproduces at 145 F, breaking heat record for eukaryotic life",
+      "url": "https://phys.org/news/2026-10-newly-amoeba-eukaryotic-life.html",
+      "summary": "Organisms are products of the environments they live and evolve in. While the physical world is governed by universal laws like thermodynamics and gravity, there are few laws of biology. An open question for biologists l…",
+      "ts": 1793302207000,
+      "publishedAt": "2026-10-29T19:30:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Planetary collisions may help young worlds hold on to their atmospheres",
+      "url": "https://phys.org/news/2026-10-planetary-collisions-young-worlds-atmospheres.html",
+      "summary": "A new study lets some of the air out of a long-held theory that growing, rocky planets will lose their atmosphere if they smash into a large object in space.",
+      "ts": 1793302201000,
+      "publishedAt": "2026-10-29T19:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fresh as the microplastic-laden Sierra snow: Storms can deliver pollution to even remote locations",
+      "url": "https://phys.org/news/2026-10-fresh-microplastic-laden-sierra-storms.html",
+      "summary": "For the first time, UC Riverside scientists have measured how much microplastic pollution falls on the Sierra Nevada during snowstorms and were surprised to find significant amounts even in the most remote locations.",
+      "ts": 1793301601000,
+      "publishedAt": "2026-10-29T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light reshapes gelatin scaffolds to steer cell growth in three dimensions",
+      "url": "https://phys.org/news/2026-10-reshapes-gelatin-scaffolds-cell-growth.html",
+      "summary": "Soft, flexible hydrogels have enabled significant advancements in engineering biological tissue by mimicking the natural scaffolding that provides structure and support to cells. Existing engineered hydrogels, however, f…",
+      "ts": 1793301007000,
+      "publishedAt": "2026-10-29T19:10:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Political information increasingly comes from pop culture",
+      "url": "https://phys.org/news/2026-10-political-culture.html",
+      "summary": "Research on political polarization points to how people's preferred news outlets and social media use create information silos, environments in which people primarily encounter views consistent with their own, further ce…",
+      "ts": 1793301001000,
+      "publishedAt": "2026-10-29T19:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experimental study on moths supports the molecular cookie cutter idea proposed for butterflies",
+      "url": "https://phys.org/news/2026-10-experimental-moths-molecular-cookie-cutter.html",
+      "summary": "Have you ever thought about reinventing yourself? According to a new study on moths conducted by Andrei Sourakov, collection coordinator of Lepidoptera at the Florida Museum of Natural History and affiliate associate pro…",
+      "ts": 1793300401000,
+      "publishedAt": "2026-10-29T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Is it a boy or a girl? For alligators, it may come down to one degree",
+      "url": "https://phys.org/news/2026-10-boy-girl-alligators-degree.html",
+      "summary": "The future of the alligator species could come down to a one- or two-degree temperature difference, according to new research from the University of Georgia. The findings are published in the Journal of Experimental Biol…",
+      "ts": 1793299802000,
+      "publishedAt": "2026-10-29T18:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A blue laser for underwater communication and sensing",
+      "url": "https://phys.org/news/2026-10-blue-laser-underwater-communication.html",
+      "summary": "Researchers at EPFL have developed a chip-scale blue laser that combines stable light emission with rapid frequency control, opening possibilities for underwater communication, environmental sensing and quantum technolog…",
+      "ts": 1793299208000,
+      "publishedAt": "2026-10-29T18:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Built to take the blast: Students test prototype landing pad to make moon landings safer",
+      "url": "https://phys.org/news/2026-10-built-blast-students-prototype-pad.html",
+      "summary": "As NASA works toward a sustained human presence on the moon, researchers at The University of Alabama in Huntsville (UAH), a part of The University of Alabama System, are helping solve one of the most pressing challenges…",
+      "ts": 1793299205000,
+      "publishedAt": "2026-10-29T18:40:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Seabirds get jet lag, too — and it can throw them a bit off course",
+      "url": "https://www.sciencenews.org/article/seabird-jet-lag-navigation-off-course",
+      "summary": "GPS tracking reveals fast east-west flights lead to a mismatch between birds' internal time and the sun’s position, skewing their sense of direction.",
+      "ts": 1793296800000,
+      "publishedAt": "2026-10-29T18:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Rubin observatory reveals two hidden companions of the Milky Way",
@@ -551,254 +799,6 @@
       "title": "AC-JEPA: Anchored Cross-Modal Joint Embedding Predictive Architecture for Visual-to-Symbolic Translation",
       "url": "https://arxiv.org/abs/2610.36493",
       "summary": "arXiv:2610.36493v1 Announce Type: new Abstract: Cross-modal translation requires models to capture shared semantics across modalities while preserving the fine-grained structure required by the target modality. Yet in re…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MedConstBench: Benchmarking How Constitutions Steer LLMs in Medical Ethics",
-      "url": "https://arxiv.org/abs/2610.36513",
-      "summary": "arXiv:2610.36513v1 Announce Type: new Abstract: As large language models advance rapidly, they are increasingly used to answer medical questions, and many such models are now deployed locally. Once a model is deployed, i…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ATEMPO: Amortized Transfer Entropy Model Per-lag Over-Time",
-      "url": "https://arxiv.org/abs/2610.36536",
-      "summary": "arXiv:2610.36536v1 Announce Type: new Abstract: When one time series informs another, the delay at which that information arrives determines if models can utilize this relationship effectively. A source may be strongly p…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
-      "url": "https://arxiv.org/abs/2610.36544",
-      "summary": "arXiv:2610.36544v1 Announce Type: new Abstract: Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action id…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CASEL: Consequence-Aware Selective Execution for Reliable Long-Horizon Tool-Using Agents",
-      "url": "https://arxiv.org/abs/2610.36570",
-      "summary": "arXiv:2610.36570v1 Announce Type: new Abstract: Tool-using language agents increasingly modify external systems, yet most runtime safeguards allocate scrutiny by generic uncertainty scores or coarse mutation heuristics. …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ADTGuard: Adaptive Depth-Time Safeguard for Streaming Inference in Large Language Models",
-      "url": "https://arxiv.org/abs/2610.36574",
-      "summary": "arXiv:2610.36574v1 Announce Type: new Abstract: Large Language Models (LLMs) can generate fluent responses to diverse user requests, yet streaming may expose users to harmful content before generation is complete. Existi…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Follow the Herd: A Data-Driven Approach for Actionable Recourse",
-      "url": "https://arxiv.org/abs/2610.36580",
-      "summary": "arXiv:2610.36580v1 Announce Type: new Abstract: As machine learning systems make increasingly greater decisions about people's lives, it is critical to provide users with actionable recourse about how they can achieve th…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "InfraDev: Can Coding Agents Develop AI Infrastructure, and How Can We Tell?",
-      "url": "https://arxiv.org/abs/2610.36589",
-      "summary": "arXiv:2610.36589v1 Announce Type: new Abstract: Coding agents are beginning to develop the production-grade AI infrastructure that trains and serves large models, yet existing benchmarks cover only single kernels or sing…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Learning to Formalize: Bridging Open-Ended Workloads and Fast Decision Models",
-      "url": "https://arxiv.org/abs/2610.36595",
-      "summary": "arXiv:2610.36595v1 Announce Type: new Abstract: Decision models offer fast choices over sup- plied alternatives, while general-purpose large language models interpret open-ended tasks through flexible generation and reas…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "God Does Not Play Dice: Enforcing Batch Invariance in Agentic Kernel Generation",
-      "url": "https://arxiv.org/abs/2610.36623",
-      "summary": "arXiv:2610.36623v1 Announce Type: new Abstract: Large language model (LLM) serving systems dynamically batch user requests for GPU execution, so the same request may be processed alongside different requests across runs.…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Polarity--Time Interaction and Multi-Level Reliability for Event-Based Spacecraft Pose Estimation",
-      "url": "https://arxiv.org/abs/2610.36625",
-      "summary": "arXiv:2610.36625v1 Announce Type: new Abstract: Sparse event responses produce uneven keypoint errors whose effects on spacecraft pose depend on correspondence geometry and the reliability of successive observations. We …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The uneven rise of AI-generated web content",
-      "url": "https://arxiv.org/abs/2610.36631",
-      "summary": "arXiv:2610.36631v1 Announce Type: new Abstract: In less than five years, generative artificial intelligence (AI) has dramatically reshaped the public-facing web. Using a sample of more than 5 million crawlable webpages, …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2610.36652",
-      "summary": "arXiv:2610.36652v1 Announce Type: new Abstract: Memory helps LLM-based multi-agent systems reuse experience, but stored advice can be flawed or applied in the wrong situation. Team-level success or failure alone cannot r…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The View from Nowhere: Population-Centered Agent Evolution",
-      "url": "https://arxiv.org/abs/2610.36660",
-      "summary": "arXiv:2610.36660v1 Announce Type: new Abstract: Self-improving AI systems can revise the designs that govern their own behavior. Yet existing approaches center improvement on selected parent agents and their evolutionary…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Learning Where to Trust: Reliability-Guided Expert Routing and Velocity Gating for 3D Deformable Registration",
-      "url": "https://arxiv.org/abs/2610.36672",
-      "summary": "arXiv:2610.36672v1 Announce Type: new Abstract: Deformable image registration relies on accurate anatomical correspondences. However, explicitly coupling local matching reliability with spatial context selection and defo…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "PsyJev: Psychological Analysis via System-1 Judgment",
-      "url": "https://arxiv.org/abs/2610.36689",
-      "summary": "arXiv:2610.36689v1 Announce Type: new Abstract: Self-disclosures on the Web support diverse psychological analyses, from recognizing expressed experiences to identifying symptom-relevant information. We study a shared, q…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Beyond the Evidence Coherence Trap: Agent-Driven Evidence Selection for Temporally Disordered Fake News Detection",
-      "url": "https://arxiv.org/abs/2610.36764",
-      "summary": "arXiv:2610.36764v1 Announce Type: new Abstract: Fake news undermines public trust and the integrity of online information ecosystems. Temporally disordered fake news is especially elusive because it rearranges factual ev…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Can LLMs Reliably Grade Olympiad Proofs? A Study of Mathematical Verification with LLMs",
-      "url": "https://arxiv.org/abs/2610.36767",
-      "summary": "arXiv:2610.36767v1 Announce Type: new Abstract: Large Language Models (LLMs) have made remarkable progress on solving competition-level mathematics, yet their ability to verify natural-language mathematical proofs remain…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Batching the Reflective Optimization Loop: Parallel Proposals Make GEPA Faster and Better",
-      "url": "https://arxiv.org/abs/2610.36774",
-      "summary": "arXiv:2610.36774v1 Announce Type: new Abstract: Reflective text optimization makes agentic systems better, but the optimization loop is itself a resource-hungry workload whose sequential structure leaves parallel evaluat…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Dependency Graphs of Mathematical Arguments: Representation, Structural Measurement, and Proof Review",
-      "url": "https://arxiv.org/abs/2610.36776",
-      "summary": "arXiv:2610.36776v1 Announce Type: new Abstract: We propose a source-grounded framework for representing and measuring mathematical arguments with assistance from large language models. It includes numbered and unnumbered…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning",
-      "url": "https://arxiv.org/abs/2610.36820",
-      "summary": "arXiv:2610.36820v1 Announce Type: new Abstract: Early-warning models in learning analytics can identify learners at risk of failure or withdrawal, but the resulting alerts are often only weakly connected to inspectable l…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Who Knows What - and What Does It Support? Perspective-Bounded Evidence Calibration for Multimodal Theory of Mind",
-      "url": "https://arxiv.org/abs/2610.36824",
-      "summary": "arXiv:2610.36824v1 Announce Type: new Abstract: Theory of Mind (ToM), the ability to infer others' beliefs, goals, and intentions, is a cornerstone of social intelligence. Multimodal ToM requires inferring an agent's men…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When the Critic Falls Behind: Co-Evolving Rubrics and Harnesses for Continual Agent Self-Improvement",
-      "url": "https://arxiv.org/abs/2610.36826",
-      "summary": "arXiv:2610.36826v1 Announce Type: new Abstract: Autonomous agents increasingly depend on harnesses that govern interaction, memory, tools, and execution around large language models (LLMs). While recent work has begun to…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Conservative Policy Iteration For Zero-Sum POSGs",
-      "url": "https://arxiv.org/abs/2610.36847",
-      "summary": "arXiv:2610.36847v1 Announce Type: new Abstract: Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs). Existing point-based solvers usually optimise a …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Evolving Agent Teams",
-      "url": "https://arxiv.org/abs/2610.36848",
-      "summary": "arXiv:2610.36848v1 Announce Type: new Abstract: The rapid progress of software engineering agents drives interest in applying them to open-ended problems such as GPU kernel optimization. However, we find that existing co…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents",
-      "url": "https://arxiv.org/abs/2610.36877",
-      "summary": "arXiv:2610.36877v1 Announce Type: new Abstract: Mobile GUI agents are typically fine-tuned 7B-scale vision-language models (VLMs) that generate each action as text. However, these VLMs decode every action token by token,…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "RubricAtlas: Mining Type-Level Rubrics from Expert Reports to Evaluate Deep Research Agents",
-      "url": "https://arxiv.org/abs/2610.36878",
-      "summary": "arXiv:2610.36878v1 Announce Type: new Abstract: Deep research agents conduct multi-step Web searches and synthesise retrieved information into analytical reports. Evaluating these outputs requires checking which analyses…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Noise Steering: Exploiting Wake Steering and Acoustic Directivity for Noise-Constrained Wind Farm Control via Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.36888",
-      "summary": "arXiv:2610.36888v1 Announce Type: new Abstract: Existing noise mitigation strategies for wind farms usually consist in reducing turbines power output, without accounting for the wake interactions between them and the noi…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Natural Hard-Negative Mining from Positives for Instruction-Following Retrieval",
-      "url": "https://arxiv.org/abs/2610.36900",
-      "summary": "arXiv:2610.36900v1 Announce Type: new Abstract: Instruction-following information retrieval (IFIR) requires retrievers to rank documents by both a query and its instance-specific instructions, yet instruction-conditioned…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Vision-Language Agents Can Learn in Their Own Latent Worlds",
-      "url": "https://arxiv.org/abs/2610.36925",
-      "summary": "arXiv:2610.36925v1 Announce Type: new Abstract: Learning from experience is essential for building the next generation of agents that continually expand their capabilities. Pretrained vision-language models (VLMs) alread…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Do bots feel bad? Assessing empirical evidence for functional valence in LLMs",
-      "url": "https://arxiv.org/abs/2610.36962",
-      "summary": "arXiv:2610.36962v1 Announce Type: new Abstract: Do LLMs have valenced states, i.e. states that feel pleasant or unpleasant? Recent empirical work has claimed to show that LLMs possess functional valenced states (e.g. ``f…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Proactive Memory for Event-Driven LLM Agents",
-      "url": "https://arxiv.org/abs/2610.36967",
-      "summary": "arXiv:2610.36967v1 Announce Type: new Abstract: Proactive LLM agents anticipate service opportunities from ongoing observations and accumulated history. Existing approaches emphasize recent context or retrieval of relate…",
       "ts": 1793246400000,
       "publishedAt": "2026-10-29T04:00:00.000Z"
     }

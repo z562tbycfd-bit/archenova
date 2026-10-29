@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-10-29T16:42:51.898Z",
+  "updated": "2026-10-29T21:37:34.619Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Brain Quality Control Selectively Eliminates Neurons with Abnormal Variants in Development",
+      "url": "https://www.genengnews.com/topics/translational-medicine/brain-quality-control-selectively-eliminates-neurons-with-abnormal-variants-in-development/",
+      "summary": "In developing fetuses, the human brain generates an excess of neurons, most of which are eliminated around when the baby is born. New research suggests that this is an important quality-control mechanism. The post Brain …",
+      "ts": 1793301439000,
+      "publishedAt": "2026-10-29T19:17:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Federal judge rejects new Medicaid ‘frailty’ definition for work requirements",
+      "url": "https://www.statnews.com/2026/10/29/medicaid-work-requirements-judge-blocks-new-limits-medical-frailty/?utm_campaign=rss",
+      "summary": "A judge ruled that federal regulators exceeded their authority in narrowing the exceptions to Medicaid work requirements for people with medical issues.",
+      "ts": 1793300257000,
+      "publishedAt": "2026-10-29T18:57:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "First Whole-Body Single-Cell Atlas of Adult Vertebrate Generated in Danionella cerebrum",
+      "url": "https://www.genengnews.com/topics/omics/first-whole-body-single-cell-atlas-of-adult-vertebrate-generated-in-danionella-cerebrum/",
+      "summary": "Researchers created the first comprehensive whole-body single-cell atlas of an adult vertebrate, the tiny, transparent fish Danionella cerebrum, offering a new resource for studying brain regeneration, cellular diversity…",
+      "ts": 1793298524000,
+      "publishedAt": "2026-10-29T18:28:44.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dated its minerals did they realize the nearly 2-pound (800-gra…",
+      "ts": 1793297889000,
+      "publishedAt": "2026-10-29T18:18:09.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
+      "url": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
+      "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test pilot and aerospace engineer with decades of experience in fl…",
+      "ts": 1793296835000,
+      "publishedAt": "2026-10-29T18:00:35.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NIH–NASA QuSAFE Challenge",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/",
+      "summary": "The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and NASA, advances quantum-enabled sensing for in vitro NAMs, su…",
+      "ts": 1793295877000,
+      "publishedAt": "2026-10-29T17:44:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "ts": 1793293200000,
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: New federal rule will require prescription drug middlemen to share secret payments data",
+      "url": "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/?utm_campaign=rss",
+      "summary": "A Trump administration rule will force pharmacy benefit managers to disclose fees and compensation details currently kept private.",
+      "ts": 1793292245000,
+      "publishedAt": "2026-10-29T16:44:05.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: The EPIC investigation, and a Teladoc surprise",
@@ -202,6 +274,51 @@
     },
     {
       "source": "United Nations News",
+      "title": "Myanmar’s illicit economy fuels escalating violence, with civilians bearing the brunt",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168705",
+      "summary": "Myanmar’s human rights situation is “catastrophic”, the UN independent expert on the country warned at a press briefing Thursday, as the war spirals with no end in sight.",
+      "ts": 1793275200000,
+      "publishedAt": "2026-10-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "AI is changing the way we think. The question is whether we’ll notice in time",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168704",
+      "summary": "Artificial intelligence promises to make life easier. With a few keystrokes, it can write emails, summarize reports, generate ideas and answer complex questions in seconds. For many people, it feels like a technological …",
+      "ts": 1793275200000,
+      "publishedAt": "2026-10-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: 5 children killed in Sudan, Haiti hunger emergency, Yemen war update",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168703",
+      "summary": "At least five children were killed and two others injured in a drone attack on a market in Nyala, in Sudan’s South Darfur state, on Monday, the UN Children’s Fund (UNICEF) said on Thursday.",
+      "ts": 1793275200000,
+      "publishedAt": "2026-10-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Russia drone strike on Ukrainian railway station kills 13",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168702",
+      "summary": "The UN’s top humanitarian official in Ukraine on Thursday condemned a Russian drone attack on the city of Dnipro that killed at least 13 civilians and injured 10 others at its main railway station.",
+      "ts": 1793275200000,
+      "publishedAt": "2026-10-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nature is making a comeback – now restoration funding must quadruple",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168700",
+      "summary": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.",
+      "ts": 1793275200000,
+      "publishedAt": "2026-10-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Security Council LIVE: Can new technology keep the world’s sea lanes safe?",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168698",
       "summary": "Cheap drones, autonomous vessels and cyberattacks are changing the threats to the world’s shipping lanes – and the tools to counter them. At an open debate on Thursday, the Security Council is weighing how emerging techn…",
@@ -246,6 +363,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "ts": 1793264400000,
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "Opinion: STAT+: Is AI more a partner, competitor, or crutch for biomedical scientists?",
       "url": "https://www.statnews.com/2026/10/29/ai-science-biology-dependence-ethics-research/?utm_campaign=rss",
@@ -280,6 +406,15 @@
       "ts": 1793262600000,
       "publishedAt": "2026-10-29T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "ts": 1793257200000,
+      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -676,141 +811,6 @@
       "ts": 1793188800000,
       "publishedAt": "2026-10-28T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Record heat-related deaths in 2023, WHO-partnered report finds",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168688",
-      "summary": "Climate inaction continues to harm and kill people in all countries with a record 710,000 estimated deaths globally from heat in 2023, a UN-partnered report warned on Wednesday. For the first time, more than seven in 10 …",
-      "ts": 1793188800000,
-      "publishedAt": "2026-10-28T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ocean’s ability to absorb carbon is weakening as climate change intensifies, UN warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168687",
-      "summary": "The ocean absorbs around 30 per cent of human-caused carbon dioxide (CO₂) emissions and 90 per cent of excess heat trapped by greenhouse gases. But climate change has already reduced its capacity to absorb carbon by appr…",
-      "ts": 1793188800000,
-      "publishedAt": "2026-10-28T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lilly says ‘triple-G’ drug beat Novo’s Ozempic in diabetes study",
-      "url": "https://www.statnews.com/2026/10/28/retatrutide-vs-ozempic-lilly-diabetes-study/?utm_campaign=rss",
-      "summary": "Data add to expectations that the drug will be one of Lilly’s greatest growth drivers.",
-      "ts": 1793184300000,
-      "publishedAt": "2026-10-28T10:45:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The future of the firm",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-      "ts": 1793181600000,
-      "publishedAt": "2026-10-28T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "ts": 1793179800000,
-      "publishedAt": "2026-10-28T09:30:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "ts": 1793179800000,
-      "publishedAt": "2026-10-28T09:30:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How pediatricians like me are helping families stay calm and informed about measles",
-      "url": "https://www.statnews.com/2026/10/28/measles-parents-panic-pennsylvania-vaccines-education/?utm_campaign=rss",
-      "summary": "“It is dizzying to have a family clamoring for the MMR vaccine in one room while the room next door adamantly opposes vaccination,” writes a pediatrician.",
-      "ts": 1793176200000,
-      "publishedAt": "2026-10-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Have you been impacted by Epic’s actions?",
-      "url": "https://www.statnews.com/2026/10/28/epic-systems-electronic-health-records-reader-callout/?utm_campaign=rss",
-      "summary": "STAT is looking to learn, from people with direct knowledge, how Epic's actions impact hospitals' technology choices. Share your story with us.",
-      "ts": 1793176200000,
-      "publishedAt": "2026-10-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Freezing my eggs showed me just how anti-feminist the fertility industry can be",
-      "url": "https://www.statnews.com/2026/10/28/fertility-industry-private-equity-egg-freezing-ethics-costs/?utm_campaign=rss",
-      "summary": "“A few years ago, I froze my eggs — and the experience was anything but empowering,” writes physician Pooja Yerramilli.",
-      "ts": 1793176200000,
-      "publishedAt": "2026-10-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: As Epic’s dominance grows, its iron grip is choking innovation in health technology",
-      "url": "https://www.statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny/?utm_campaign=rss",
-      "summary": "A STAT investigation found that Epic selectively withholds access to patient data, disadvantaging rival software developers and stymying innovation.",
-      "ts": 1793176200000,
-      "publishedAt": "2026-10-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-      "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away…",
-      "ts": 1793165986000,
-      "publishedAt": "2026-10-28T05:39:46.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
-      "summary": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our …",
-      "ts": 1793160300000,
-      "publishedAt": "2026-10-28T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "The Land of the Standing-Up Rocks",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/",
-      "summary": "A national monument since the 1920s, Chiricahua is America’s newest national park.",
-      "ts": 1793160060000,
-      "publishedAt": "2026-10-28T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "scPyviewer: a Python-native interactive viewer from AnnData single-cell data",
-      "url": "https://arxiv.org/abs/2610.35890",
-      "summary": "arXiv:2610.35890v1 Announce Type: new Abstract: Motivation: Interactive web tools enabling non-programmers to explore single-cell datasets, embeddings, gene expression, metadata, and marker genes are standard laboratory …",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structure, Not Sequence: Tracking and Validating Folding Mechanisms in ESMFold's Trunk with Sparse Autoencoders",
-      "url": "https://arxiv.org/abs/2610.36226",
-      "summary": "arXiv:2610.36226v1 Announce Type: new Abstract: Structure predictors like ESMFold fold proteins using neural network computation and have transformed structural biology. However, the driving mechanism from amino-acid (AA…",
-      "ts": 1793160000000,
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
