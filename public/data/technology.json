@@ -1,7 +1,187 @@
 {
   "ok": true,
-  "updated": "2026-10-30T08:15:37.002Z",
+  "updated": "2026-10-30T15:40:39.343Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence too…",
+      "ts": 1793372410000,
+      "publishedAt": "2026-10-30T15:00:10.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "What happened this month at the European Space Agency? (October 2026)",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
+      "summary": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Eart…",
+      "ts": 1793372400000,
+      "publishedAt": "2026-10-30T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/10/30/up-and-down-the-ladder-jobs-pharma-biotech-lilly/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1793371550000,
+      "publishedAt": "2026-10-30T14:45:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 26-30 October 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_26-30_October_2026",
+      "summary": "Week in images: 26-30 October 2026 Discover our week through the lens",
+      "ts": 1793369700000,
+      "publishedAt": "2026-10-30T14:15:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "How Election Day can affect your heart",
+      "url": "https://www.statnews.com/2026/10/30/election-stress-heart-attack-risk/?utm_campaign=rss",
+      "summary": "Political campaigns can do more than raise your blood pressure. Studies link election stress to irregular heartbeats and an increase in heart attacks.",
+      "ts": 1793369234000,
+      "publishedAt": "2026-10-30T14:07:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Assessing Merck and Moderna’s mRNA cancer vaccine",
+      "url": "https://www.statnews.com/2026/10/30/readout-loud-podcast-oncology-cancer-vaccine-moderna-merck-amgen-roche/?utm_campaign=rss",
+      "summary": "On this week's “The Readout LOUD,” we discuss the latest cancer data presented at the annual meeting of the European Society for Medical Oncology.",
+      "ts": 1793367235000,
+      "publishedAt": "2026-10-30T13:33:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about AstraZeneca cost-cutting, Sun Pharma facility problems, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/30/astrazeneca-cost-cutting-sun-pharma-facility-problems/?utm_campaign=rss",
+      "summary": "AstraZeneca has launched a three-year cost-cutting program that aims to slice off $1.5 billion a year, with the savings reinvested in R&D.",
+      "ts": 1793366569000,
+      "publishedAt": "2026-10-30T13:22:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The persisting paradox of men’s health",
+      "url": "https://www.statnews.com/2026/10/30/health-news-the-paradox-of-men-health/?utm_campaign=rss",
+      "summary": "A new series in The Lancet argues for the need to investigate a paradox of men’s health: why men experience worse health outcomes than women, even though they hold undeniable…",
+      "ts": 1793365969000,
+      "publishedAt": "2026-10-30T13:12:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN rights office warns of deepening displacement ‘nightmare’ in Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168707",
+      "summary": "Israeli forces continue to push Palestinians into ever-smaller areas of the Gaza Strip while destroying civilian infrastructure and attacking displacement sites, the UN human rights office, OHCHR, warned on Friday amid c…",
+      "ts": 1793361600000,
+      "publishedAt": "2026-10-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen war makes reaching assistance too dangerous for many",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168706",
+      "summary": "More than 280,000 people have now been displaced by fighting in Yemen and many vulnerable people are unable to access lifesaving relief because it is too dangerous to do so, the UN refugee agency (UNHCR) said on Friday.",
+      "ts": 1793361600000,
+      "publishedAt": "2026-10-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+      "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-los…",
+      "ts": 1793359800000,
+      "publishedAt": "2026-10-30T11:30:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "November’s Night Sky Notes: Light-Day Away",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+      "summary": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. …",
+      "ts": 1793354400000,
+      "publishedAt": "2026-10-30T10:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
+      "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
+      "summary": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new repo…",
+      "ts": 1793350800000,
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Champi’s eerie eye",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Champi_s_eerie_eye",
+      "summary": "Image: This image of Super Typhoon Champi from Copernicus Sentinel-3 was captured on 21 October 2026 off the coasts of Taiwan and the Philippines.",
+      "ts": 1793350800000,
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: What a mother’s 1834 letter about measles tells us about MAHA",
+      "url": "https://www.statnews.com/2026/10/30/maha-measles-letter-1834-pseudoscience-women/?utm_campaign=rss",
+      "summary": "An 1834 letter about a measles outbreak sheds light on today’s anti-vaccine movement, writes a medical historian.",
+      "ts": 1793349000000,
+      "publishedAt": "2026-10-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA, CMS scramble to avoid regulatory logjam as more states look to test AI in clinical settings",
+      "url": "https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/?utm_campaign=rss",
+      "summary": "Officials are moving behind the scenes to head off a conflict brewing between states and the federal government over regulating AI.",
+      "ts": 1793349000000,
+      "publishedAt": "2026-10-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The health care issues STAT reporters are watching in the midterms",
+      "url": "https://www.statnews.com/2026/10/30/health-care-policy-midterm-elections-status-report-alex-hogan/?utm_campaign=rss",
+      "summary": "In this week's \"STATus Report,\" STAT reporters break down how the midterms could shape federal health and science policy, and an El-Sayed interview.",
+      "ts": 1793349000000,
+      "publishedAt": "2026-10-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How Congress can fix expert advisory committees",
+      "url": "https://www.statnews.com/2026/10/30/scientific-expert-advisory-committees-fda-hhs-congress/?utm_campaign=rss",
+      "summary": "“This evisceration of scientific advice is untenable,” write C. Joseph Ross Daval and Aaron S. Kesselheim.",
+      "ts": 1793349000000,
+      "publishedAt": "2026-10-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How a simple UTI turns into a $1,756 bill",
+      "url": "https://www.statnews.com/2026/10/30/hybrid-er-urgent-care-clinics-hidden-billing-complaints-intuitive-health/?utm_campaign=rss",
+      "summary": "They visited for what they thought were obvious urgent care issues — coughs, congestion, flu — and were shocked to get bills for ER care instead, totaling thousands of dollars.",
+      "ts": 1793349000000,
+      "publishedAt": "2026-10-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "How Nuclear Technology Is Helping Cities Become More Sustainable",
+      "url": "http://www.iaea.org/newscenter/news/how-nuclear-technology-is-helping-cities-become-more-sustainable",
+      "summary": "",
+      "ts": 1793347200000,
+      "publishedAt": "2026-10-30T08:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
@@ -516,6 +696,51 @@
       "categoryId": "space"
     },
     {
+      "source": "Nature Energy",
+      "title": "Ironing out oxygen instability",
+      "url": "https://www.nature.com/articles/s41560-026-02153-z",
+      "summary": "",
+      "ts": 1793318400000,
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "An extra beat every minute",
+      "url": "https://www.nature.com/articles/s41560-026-02156-w",
+      "summary": "",
+      "ts": 1793318400000,
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Durable reactive CO<sub>2</sub> capture exceeding 1,000 h via self-reinforcing molecular catalysts",
+      "url": "https://www.nature.com/articles/s41560-026-02159-7",
+      "summary": "",
+      "ts": 1793318400000,
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Caloric cooling devices and systems",
+      "url": "https://www.nature.com/articles/s41560-026-02143-1",
+      "summary": "",
+      "ts": 1793318400000,
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "One-minute frequency disturbances from unintended synchronization in cyber–physical power systems",
+      "url": "https://www.nature.com/articles/s41560-026-02144-0",
+      "summary": "",
+      "ts": 1793318400000,
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "Slice of Martian Meteorite Teghaza 001",
       "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
@@ -586,231 +811,6 @@
       "ts": 1793295877000,
       "publishedAt": "2026-10-29T17:44:37.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "ts": 1793293200000,
-      "publishedAt": "2026-10-29T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: New federal rule will require prescription drug middlemen to share secret payments data",
-      "url": "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/?utm_campaign=rss",
-      "summary": "A Trump administration rule will force pharmacy benefit managers to disclose fees and compensation details currently kept private.",
-      "ts": 1793292245000,
-      "publishedAt": "2026-10-29T16:44:05.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The EPIC investigation, and a Teladoc surprise",
-      "url": "https://www.statnews.com/2026/10/29/epic-investigation-teladoc-surprise-ai-payment-model-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: An Epic investigation, a Teladoc surprise, and figuring out how to pay for AI.",
-      "ts": 1793290520000,
-      "publishedAt": "2026-10-29T16:15:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omn…",
-      "ts": 1793289635000,
-      "publishedAt": "2026-10-29T16:00:35.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
-      "url": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
-      "summary": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu nombre sí puede hacerlo! La NASA invita al público a enviar…",
-      "ts": 1793287283000,
-      "publishedAt": "2026-10-29T15:21:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
-      "url": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
-      "summary": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard the agency’s Dragonfly rotorcraft and be part of the first s…",
-      "ts": 1793286618000,
-      "publishedAt": "2026-10-29T15:10:18.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
-      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
-      "summary": "When companies began approaching NASA’s Langley Research Center, asking to be included in the In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play for access to competitive intelligence, the team knew the…",
-      "ts": 1793286400000,
-      "publishedAt": "2026-10-29T15:06:40.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Advice for optimizing the space industry with Laura Crabtree",
-      "url": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
-      "summary": "In this episode, Mike Gruss speaks with Laura Crabtree, the CEO of Epsilon3, who is also a former SpaceX astronaut trainer. They talk about ways that space companies can organize […] The post Advice for optimizing the sp…",
-      "ts": 1793286069000,
-      "publishedAt": "2026-10-29T15:01:09.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Marks Way for Roman Space Telescope",
-      "url": "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/",
-      "summary": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target. This observation is one of many gravitational lensing images taken by NASA’s Hub…",
-      "ts": 1793285367000,
-      "publishedAt": "2026-10-29T14:49:27.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Kennedy’s closing arguments for the 2026 midterms: Fraud, vaccines, and MAHA",
-      "url": "https://www.statnews.com/2026/10/29/rfk-jr-midterm-health-care-policy-maha-fraud-vaccines/?utm_campaign=rss",
-      "summary": "RFK Jr. is making his pitch ahead of a midterm election that could shape the fate of his MAHA movement.",
-      "ts": 1793285148000,
-      "publishedAt": "2026-10-29T14:45:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Building the Future of AAV Gene Therapy",
-      "url": "https://www.genengnews.com/resources/ebooks/building-the-future-of-aav-gene-therapy/",
-      "summary": "This eBook brings together perspectives from across the AAV development and manufacturing continuum. It explores how early commercial planning can help avoid costly delays, how standardized platform approaches and off-th…",
-      "ts": 1793285145000,
-      "publishedAt": "2026-10-29T14:45:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Trains Medical Professionals in Mongolia on Paediatric Medical Imaging",
-      "url": "http://www.iaea.org/newscenter/news/iaea-trains-medical-professionals-in-mongolia-on-paediatric-medical-imaging",
-      "summary": "More than 300 radiologists, medical imaging technologists, paediatricians, surgeons and other specialists from every province of Mongolia have strengthened their skills in paediatric medical imaging through a national tr…",
-      "ts": 1793284155000,
-      "publishedAt": "2026-10-29T14:29:15.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: El-Sayed claps back at RFK Jr., and FDA’s ‘enforcement discretion’ on peptides",
-      "url": "https://www.statnews.com/2026/10/29/el-sayed-claps-back-at-rfk-jr-fda-peptide-policy-dc-diagnosis/?utm_campaign=rss",
-      "summary": "Abdul El-Sayed, the Democratic Senate candidate in Michigan, pushes back against the RFK Jr.'s claims, and the new FDA policy around peptides.",
-      "ts": 1793283507000,
-      "publishedAt": "2026-10-29T14:18:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Ghostly Cat’s Head Nebula Lurks Within Sight of NASA’s Hubble, Webb",
-      "url": "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/",
-      "summary": "Like a spectral form rising out of a cold mist, NASA’s Hubble and James Webb Space Telescopes have captured a hauntingly dynamic star-forming scene. It lies within the vast Carina Nebula, a diffuse star-forming region lo…",
-      "ts": 1793282461000,
-      "publishedAt": "2026-10-29T14:01:01.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb",
-      "summary": "The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7500 light-years away from …",
-      "ts": 1793282400000,
-      "publishedAt": "2026-10-29T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "New Report Highlights Advances in Groundwater Monitoring Across Asia and the Pacific",
-      "url": "http://www.iaea.org/newscenter/news/new-report-highlights-advances-in-groundwater-monitoring-across-asia-and-the-pacific",
-      "summary": "",
-      "ts": 1793282349000,
-      "publishedAt": "2026-10-29T13:59:09.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Hamburg Hosts 2026 European Gene Therapy Conference",
-      "url": "https://www.genengnews.com/topics/genome-editing/hamburg-hosts-2026-european-gene-therapy-conference/",
-      "summary": "GEN's Kevin Davies, PhD, reports from ESGCT where patient safety, expanding access to gene therapy, and progress towards an HIV vaccine were prominent themes among the early talks at ESGCT 2026. The post Hamburg Hosts 20…",
-      "ts": 1793281473000,
-      "publishedAt": "2026-10-29T13:44:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: HHS green lights six peptides, despite concerns from FDA scientists",
-      "url": "https://www.statnews.com/2026/10/29/biotech-news-hhs-green-lights-six-peptides-for-now/?utm_campaign=rss",
-      "summary": "Great news for peptide fans: The Trump administration is giving the peptide craze a regulatory boost, despite objections from FDA career scientists.",
-      "ts": 1793281424000,
-      "publishedAt": "2026-10-29T13:43:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Martin Kulldorff critiques scientific gatekeepers at NIH lecture",
-      "url": "https://www.statnews.com/2026/10/29/health-news-martin-kulldorff-critiques-scientific-gatekeepers-at-nih-lecture/?utm_campaign=rss",
-      "summary": "Martin Kulldorff, the biostatistician who advocated against Covid lockdowns, insisted that the rise in measles cases is caused by a widely disputed claim about said lockdowns:",
-      "ts": 1793281116000,
-      "publishedAt": "2026-10-29T13:38:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Contractor to Civil Servant: NASA Welcomes Jared Spiers",
-      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jared-spiers/",
-      "summary": "Jared Spiers had an interest in contributing to NASA’s mission long before becoming a civil servant for the agency. Growing up close to NASA’s Stennis Space Center near Bay St. Louis, Mississippi, and hearing about his f…",
-      "ts": 1793280454000,
-      "publishedAt": "2026-10-29T13:27:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Vertex kidney disease drug scrutinized for infection risk",
-      "url": "https://www.statnews.com/2026/10/29/biotech-news-vertex-kidney-disease-drug-scrutinized-for-infection-risk/?utm_campaign=rss",
-      "summary": "Ahead of its FDA approval decision on Nov 30, Vertex's kidney disease drug is being heavily scrutinized for infection risk.",
-      "ts": 1793280301000,
-      "publishedAt": "2026-10-29T13:25:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
-      "summary": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts …",
-      "ts": 1793278816000,
-      "publishedAt": "2026-10-29T13:00:16.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss",
-      "summary": "HHS released a policy that will temporarily allow compounding pharmacies to manufacture some peptide products",
-      "ts": 1793278331000,
-      "publishedAt": "2026-10-29T12:52:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI agent tracking and climate feedback loops",
-      "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Sr…",
-      "ts": 1793275800000,
-      "publishedAt": "2026-10-29T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Myanmar’s illicit economy fuels escalating violence, with civilians bearing the brunt",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168705",
-      "summary": "Myanmar’s human rights situation is “catastrophic”, the UN independent expert on the country warned at a press briefing Thursday, as the war spirals with no end in sight.",
-      "ts": 1793275200000,
-      "publishedAt": "2026-10-29T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
