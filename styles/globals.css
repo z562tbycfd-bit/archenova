@@ -72387,3 +72387,479 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
 
 
 
+/* ARCHENOVA / RESEARCH REPORT — OBSIDIAN EDITORIAL */
+.an-rp{--rp-display:"Cormorant Garamond",Georgia,"Times New Roman",serif;--rp-body:"Noto Serif","Yu Mincho","Hiragino Mincho ProN",Georgia,serif;--rp-muted:rgba(245,247,251,.53);--rp-line:rgba(255,255,255,.075);min-height:100svh;background:#050506;color:rgba(255,255,255,.93);font-family:var(--rp-body);font-weight:300;overflow-x:clip;-webkit-font-smoothing:antialiased}
+.an-rp *{box-sizing:border-box}.an-rp-shell{width:min(100%,1640px);margin:auto;padding:clamp(85px,10vw,145px) clamp(18px,5vw,90px) 75px}.an-rp a{color:inherit;text-decoration:none}.an-rp-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:12px;color:var(--rp-muted);font-size:10px;letter-spacing:.08em}.an-rp-breadcrumb a:hover,.an-rp-footer a:hover{color:#fff}.an-rp-hero{margin-top:clamp(32px,5vw,75px);padding:clamp(28px,5vw,75px);border:1px solid rgba(12,13,15,.96);border-radius:30px;background:linear-gradient(155deg,rgba(0,0,0,.82),rgba(10,11,13,.86) 48%,rgba(0,0,0,.90));box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 20px 70px rgba(0,0,0,.3)}.an-rp-overline,.an-rp-hero-label,.an-rp-kicker,.an-rp-hero-bottom,.an-rp-meta>span,.an-rp-index,.an-rp-notice,.an-rp-footnote{font-size:10px;letter-spacing:.13em;color:var(--rp-muted);line-height:1.8}.an-rp-overline span{padding:0 7px;color:rgba(255,255,255,.22)}.an-rp-hero-grid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(220px,.65fr);gap:clamp(30px,6vw,90px);margin-top:clamp(32px,5vw,65px)}.an-rp h1,.an-rp h2,.an-rp h3{font-family:var(--rp-display);font-weight:300}.an-rp h1{font-size:clamp(43px,5.4vw,86px);letter-spacing:-.035em;line-height:1.06;margin:20px 0 26px;text-wrap:balance;overflow-wrap:anywhere}.an-rp-deck{max-width:680px;font-size:clamp(13px,1.1vw,16px);line-height:2;color:rgba(245,247,251,.66)}.an-rp-hero-aside{border-left:1px solid var(--rp-line);padding-left:clamp(20px,3vw,45px);display:grid;align-content:center;gap:23px}.an-rp-meta{display:flex;flex-direction:column;gap:7px;min-width:0}.an-rp-meta strong{font-weight:400;font-size:12px;line-height:1.7;overflow-wrap:anywhere}.an-rp-hero-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-top:65px;padding-top:22px;border-top:1px solid var(--rp-line)}.an-rp-toc{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 55px}.an-rp-toc a{font-size:11px;color:rgba(255,255,255,.66);padding:11px 16px;border:1px solid var(--rp-line);border-radius:99px;transition:background .2s,color .2s}.an-rp-toc a:hover,.an-rp-toc a:focus-visible{color:#fff;background:rgba(255,255,255,.08)}.an-rp-content{display:grid;gap:18px}.an-rp-panel{display:grid;grid-template-columns:minmax(200px,.65fr) minmax(0,1.6fr);gap:clamp(24px,5vw,85px);padding:clamp(27px,4.5vw,65px);border:1px solid rgba(12,13,15,.96);border-radius:30px;background:linear-gradient(155deg,rgba(0,0,0,.82),rgba(1,2,3,.86) 48%,rgba(0,0,0,.90));box-shadow:inset 0 1px 0 rgba(255,255,255,.015),0 8px 28px rgba(0,0,0,.16);scroll-margin-top:25px}.an-rp-panel-heading{display:flex;align-items:flex-start;gap:17px}.an-rp-index{color:rgba(255,255,255,.38);padding-top:4px}.an-rp-kicker{margin:0 0 13px}.an-rp h2{font-size:clamp(29px,3.2vw,48px);line-height:1.14;letter-spacing:-.02em;margin:0}.an-rp-panel-body{min-width:0}.an-rp-panel-body p{overflow-wrap:anywhere}.an-rp-abstract{font-family:var(--rp-display);font-size:clamp(24px,2.4vw,36px);line-height:1.42;color:rgba(255,255,255,.92);margin:22px 0 34px}.an-rp-entry{margin-bottom:28px}.an-rp-entry:last-child{margin-bottom:0}.an-rp-entry h3,.an-rp-subheading{font-size:clamp(20px,1.8vw,26px);margin:0 0 11px;color:rgba(255,255,255,.87)}.an-rp-entry p,.an-rp-panel-body>p:not(.an-rp-abstract),.an-rp-points p,.an-rp-horizon p,.an-rp-disclosure p{font-size:clamp(12px,1vw,14px);line-height:2.05;color:rgba(245,247,251,.72);margin:0}.an-rp-notice{padding:12px 0 18px;border-bottom:1px solid var(--rp-line);letter-spacing:.035em}.an-rp-disclosure{margin-top:25px;padding:23px 25px;border:1px solid var(--rp-line);border-radius:20px;background:rgba(255,255,255,.018)}.an-rp-disclosure strong{font-size:11px;font-weight:400;letter-spacing:.1em;display:block;margin-bottom:10px}.an-rp-two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.an-rp-points{padding:0;margin:0;list-style:none;display:grid;gap:12px}.an-rp-points li{display:flex;gap:15px;padding:15px 0;border-bottom:1px solid var(--rp-line)}.an-rp-points li>span{font-size:10px;color:var(--rp-muted);padding-top:5px}.an-rp-space-top{margin-top:35px}.an-rp-horizons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.an-rp-horizon{padding:20px;border:1px solid var(--rp-line);border-radius:20px}.an-rp-horizon>span{font-family:var(--rp-display);font-size:28px;color:#fff}.an-rp-footnote{margin-top:19px!important;letter-spacing:.015em}.an-rp-scores{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 35px}.an-rp-score-top{display:flex;align-items:baseline;justify-content:space-between;gap:15px;font-size:12px}.an-rp-score-top strong{font-family:var(--rp-display);font-size:27px;font-weight:400}.an-rp-score-top small{font-family:var(--rp-body);font-size:10px;color:var(--rp-muted)}.an-rp-track{height:2px;background:rgba(255,255,255,.12);margin-top:12px}.an-rp-track span{display:block;height:100%;background:rgba(255,255,255,.85)}.an-rp-classification{display:flex;flex-direction:column;gap:9px;margin-top:30px;padding-top:25px;border-top:1px solid var(--rp-line)}.an-rp-classification span{font-size:10px;letter-spacing:.12em;color:var(--rp-muted)}.an-rp-classification strong{font-family:var(--rp-display);font-size:26px;font-weight:400}.an-rp-metadata-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:30px}.an-rp-principle{font-family:var(--rp-display);font-size:clamp(22px,2.2vw,32px);line-height:1.5;border-top:1px solid var(--rp-line);padding-top:24px;margin-top:25px}.an-rp-source-copy{margin-bottom:22px!important}.an-rp-source-link{display:inline-flex;gap:15px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.5);font-size:12px;margin:0 0 30px}.an-rp-source-link:hover{color:#fff}.an-rp-muted{color:var(--rp-muted)!important}.an-rp-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;padding:36px 0;color:var(--rp-muted);font-size:11px}.an-rp-footer span{font-size:9px;letter-spacing:.12em}
+@media(max-width:1000px){.an-rp-hero-grid,.an-rp-panel{grid-template-columns:minmax(0,1fr)}.an-rp-hero-aside{border-left:0;border-top:1px solid var(--rp-line);padding:25px 0 0;grid-template-columns:repeat(2,minmax(0,1fr))}.an-rp-panel{gap:30px}.an-rp-hero-bottom{margin-top:35px}}
+@media(max-width:700px){.an-rp-shell{padding:85px 15px 45px}.an-rp-hero,.an-rp-panel{border-radius:24px;padding:26px 20px}.an-rp h1{font-size:clamp(39px,10vw,61px)}.an-rp-hero-aside,.an-rp-two-col,.an-rp-horizons,.an-rp-scores,.an-rp-metadata-grid{grid-template-columns:minmax(0,1fr)}.an-rp-toc{gap:6px;margin-bottom:26px}.an-rp-toc a{font-size:10px;padding:9px 11px}.an-rp-panel-heading{gap:12px}.an-rp-panel{gap:25px}.an-rp-horizon{padding:15px}.an-rp-footer{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){.an-rp *{scroll-behavior:auto!important;transition:none!important}}
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / RESEARCH REPORTS
+   FULL-SCREEN SCIENTIFIC EDITORIAL — 2026
+
+   - Full viewport-width presentation
+   - No floating outer glass cards
+   - Unified obsidian background
+   - Elegant thin serif typography
+   - Natural document scrolling
+   - Responsive desktop / tablet / mobile
+   - Existing report content and functionality preserved
+========================================================== */
+
+/* 01 — FULL-SCREEN ROOT */
+
+html:has(main.an-rp),
+body:has(main.an-rp) {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+main.an-rp {
+  position: relative;
+  isolation: isolate;
+
+  display: block;
+
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  min-height: 100svh;
+
+  margin: 0;
+  padding: 0;
+
+  background: #050506;
+  color: rgba(255,255,255,.94);
+
+  font-family:
+    "Noto Serif",
+    "Yu Mincho",
+    "Hiragino Mincho ProN",
+    Georgia,
+    serif;
+
+  font-weight: 300;
+  overflow-x: clip;
+}
+
+/* 02 — REMOVE CONSTRAINED PAGE SHELL */
+
+main.an-rp .an-rp-shell {
+  display: block;
+
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* 03 — BREADCRUMB */
+
+main.an-rp .an-rp-breadcrumb {
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+  padding:
+    clamp(90px, 11svh, 145px)
+    clamp(24px, 5vw, 100px)
+    0;
+}
+
+/* 04 — FULL-SCREEN HERO */
+
+main.an-rp .an-rp-hero {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  max-width: none;
+
+  min-height: 75svh;
+  height: auto;
+
+  margin: 0;
+
+  padding:
+    clamp(65px, 9svh, 130px)
+    clamp(24px, 5vw, 100px)
+    clamp(65px, 9svh, 130px);
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* 05 — HERO TYPOGRAPHY */
+
+main.an-rp h1,
+main.an-rp h2,
+main.an-rp h3 {
+  font-family:
+    "Cormorant Garamond",
+    "Noto Serif",
+    Georgia,
+    serif;
+
+  font-weight: 300;
+}
+
+main.an-rp h1 {
+  max-width: 1500px;
+
+  font-size: clamp(46px, 6.5vw, 110px);
+  font-weight: 300;
+
+  line-height: 1.07;
+  letter-spacing: -0.04em;
+
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+main.an-rp .an-rp-deck {
+  max-width: 950px;
+
+  font-size: clamp(14px, 1.15vw, 18px);
+  line-height: 2;
+
+  font-weight: 300;
+}
+
+/* 06 — HERO GRID */
+
+main.an-rp .an-rp-hero-grid {
+  width: 100%;
+  max-width: none;
+
+  grid-template-columns:
+    minmax(0, 1.8fr)
+    minmax(240px, .55fr);
+
+  gap: clamp(45px, 7vw, 130px);
+}
+
+main.an-rp .an-rp-hero-aside {
+  min-width: 0;
+}
+
+/* 07 — TABLE OF CONTENTS */
+
+main.an-rp .an-rp-toc {
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+
+  padding:
+    25px
+    clamp(24px, 5vw, 100px)
+    45px;
+
+  border-top:
+    1px solid rgba(255,255,255,.065);
+
+  border-bottom:
+    1px solid rgba(255,255,255,.065);
+}
+
+/* 08 — FULL-WIDTH RESEARCH DOCUMENT */
+
+main.an-rp .an-rp-content {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: none;
+
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* 09 — REMOVE INDIVIDUAL PANEL FRAMES */
+
+main.an-rp .an-rp-panel {
+  display: grid;
+
+  grid-template-columns:
+    minmax(220px, .55fr)
+    minmax(0, 1.45fr);
+
+  align-items: start;
+
+  gap: clamp(45px, 6vw, 120px);
+
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+
+  min-height: 60svh;
+  height: auto;
+
+  margin: 0;
+
+  padding:
+    clamp(80px, 11svh, 150px)
+    clamp(24px, 5vw, 100px);
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-bottom:
+    1px solid rgba(255,255,255,.075)
+    !important;
+
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  overflow: visible;
+  scroll-margin-top: 40px;
+}
+
+/* 10 — RESEARCH SECTION HEADING */
+
+main.an-rp .an-rp-panel-heading {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 20px;
+  min-width: 0;
+}
+
+main.an-rp h2 {
+  font-size: clamp(36px, 4.1vw, 70px);
+  font-weight: 300;
+
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+
+/* 11 — READING AREA */
+
+main.an-rp .an-rp-panel-body {
+  width: 100%;
+  max-width: 1050px;
+  min-width: 0;
+
+  margin: 0;
+  padding: 0;
+}
+
+main.an-rp .an-rp-panel-body p,
+main.an-rp .an-rp-entry p,
+main.an-rp .an-rp-points p,
+main.an-rp .an-rp-horizon p {
+  font-family:
+    "Noto Serif",
+    "Yu Mincho",
+    "Hiragino Mincho ProN",
+    Georgia,
+    serif;
+
+  font-size: clamp(13px, 1.05vw, 16px);
+  font-weight: 300;
+
+  line-height: 2.1;
+  letter-spacing: .01em;
+}
+
+main.an-rp .an-rp-abstract {
+  font-family:
+    "Cormorant Garamond",
+    "Noto Serif",
+    Georgia,
+    serif;
+
+  font-size: clamp(28px, 2.8vw, 46px);
+  font-weight: 300;
+
+  line-height: 1.48;
+  letter-spacing: -.015em;
+}
+
+/* 12 — INTERNAL INFORMATION SURFACES */
+
+main.an-rp .an-rp-disclosure,
+main.an-rp .an-rp-horizon {
+  background: transparent;
+  box-shadow: none;
+}
+
+main.an-rp .an-rp-disclosure {
+  border: 0;
+  border-top:
+    1px solid rgba(255,255,255,.09);
+
+  border-radius: 0;
+
+  padding: 25px 0;
+}
+
+/* Horizon blocks retain subtle internal separation */
+
+main.an-rp .an-rp-horizon {
+  border-color: rgba(255,255,255,.075);
+  border-radius: 14px;
+}
+
+/* 13 — FOOTER */
+
+main.an-rp .an-rp-footer {
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+
+  padding:
+    45px
+    clamp(24px, 5vw, 100px)
+    70px;
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1100px) {
+  main.an-rp .an-rp-hero-grid,
+  main.an-rp .an-rp-panel {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  main.an-rp .an-rp-panel {
+    min-height: auto;
+    gap: 45px;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  main.an-rp .an-rp-hero {
+    min-height: auto;
+  }
+
+  main.an-rp .an-rp-hero-aside {
+    border-left: 0;
+    border-top:
+      1px solid rgba(255,255,255,.075);
+
+    padding: 30px 0 0;
+  }
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  main.an-rp .an-rp-breadcrumb {
+    padding:
+      95px 20px 0;
+  }
+
+  main.an-rp .an-rp-hero {
+    min-height: auto;
+
+    padding:
+      65px 20px 75px;
+  }
+
+  main.an-rp h1 {
+    font-size: clamp(42px, 10vw, 65px);
+    line-height: 1.1;
+  }
+
+  main.an-rp .an-rp-deck {
+    font-size: 13px;
+    line-height: 1.95;
+  }
+
+  main.an-rp .an-rp-toc {
+    padding: 25px 20px 35px;
+  }
+
+  main.an-rp .an-rp-panel {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: auto;
+
+    gap: 32px;
+
+    padding:
+      75px 20px 85px;
+  }
+
+  main.an-rp h2 {
+    font-size: clamp(34px, 8vw, 49px);
+  }
+
+  main.an-rp .an-rp-panel-body {
+    max-width: none;
+  }
+
+  main.an-rp .an-rp-abstract {
+    font-size: clamp(27px, 7vw, 36px);
+  }
+
+  main.an-rp .an-rp-panel-body p,
+  main.an-rp .an-rp-entry p,
+  main.an-rp .an-rp-points p,
+  main.an-rp .an-rp-horizon p {
+    font-size: 13px;
+    line-height: 2;
+  }
+
+  main.an-rp .an-rp-footer {
+    padding: 40px 20px 65px;
+  }
+}
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+  main.an-rp .an-rp-breadcrumb {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  main.an-rp .an-rp-hero,
+  main.an-rp .an-rp-panel,
+  main.an-rp .an-rp-toc,
+  main.an-rp .an-rp-footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* ==========================================================
+   END — FULL-SCREEN RESEARCH EDITORIAL
+========================================================== */
