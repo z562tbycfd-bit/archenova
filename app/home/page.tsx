@@ -206,7 +206,7 @@ aria-labelledby="an-synthesis-home-title"
               <div className="an-synthesis-home__eyebrow">
                 <span className="an-synthesis-home__eyebrow-line" />
                 <span>
-                  ARCHENOVA / CIVILIZATIONAL SYSTEMS
+                  CIVILIZATIONAL SYSTEMS
                 </span>
               </div>
 

@@ -72267,6 +72267,116 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
 
 
 
+/* ==========================================================
+   ARCHENOVA / CIVILIZATIONAL RELATIONS
+   ELEGANT THIN SERIF TYPOGRAPHY
+
+   - Refined Mincho / Serif
+   - Light typography
+   - Monochrome elegance
+   - Existing layout and interactions preserved
+========================================================== */
+
+#civilizational-relations {
+  --an-relations-display:
+    "Cormorant Garamond",
+    "Noto Serif",
+    Georgia,
+    serif;
+
+  --an-relations-body:
+    "Noto Serif",
+    "Yu Mincho",
+    "Hiragino Mincho ProN",
+    Georgia,
+    serif;
+
+  font-family: var(--an-relations-body) !important;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Main heading */
+
+#civilizational-relations .an-relations-home__title,
+#civilizational-relations .an-relations-home__title span {
+  font-family: var(--an-relations-display) !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+}
+
+/* Introduction and description */
+
+#civilizational-relations .an-relations-home__lead,
+#civilizational-relations .an-relations-home__description {
+  font-family: var(--an-relations-body) !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.012em;
+  line-height: 1.95;
+}
+
+/* Eyebrow and small labels */
+
+#civilizational-relations .an-relations-home__eyebrow,
+#civilizational-relations .an-relations-home__caption,
+#civilizational-relations .an-relations-home__caption span,
+#civilizational-relations .an-relations-home__details-copy small,
+#civilizational-relations .an-relations-home__relation-number,
+#civilizational-relations .an-relations-home__explanation > span,
+#civilizational-relations .an-relations-home__footer {
+  font-family: var(--an-relations-body) !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.12em;
+}
+
+/* Interactive headings */
+
+#civilizational-relations .an-relations-home__details-copy strong,
+#civilizational-relations .an-relations-home__relation-copy strong,
+#civilizational-relations .an-relations-home__explanation h3 {
+  font-family: var(--an-relations-display) !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.015em;
+}
+
+/* Interactive descriptions */
+
+#civilizational-relations .an-relations-home__relation-copy small,
+#civilizational-relations .an-relations-home__explanation p,
+#civilizational-relations .an-relations-home__boundary {
+  font-family: var(--an-relations-body) !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.01em;
+  line-height: 1.9;
+}
+
+/* Buttons inherit the serif typography */
+
+#civilizational-relations button {
+  font-family: var(--an-relations-body) !important;
+}
+
+/* Mobile refinement */
+
+@media (max-width: 700px) {
+  #civilizational-relations .an-relations-home__title {
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+  }
+
+  #civilizational-relations .an-relations-home__lead,
+  #civilizational-relations .an-relations-home__description {
+    line-height: 1.85;
+  }
+}
+
+
+
+
+
+
+
 
 
 
