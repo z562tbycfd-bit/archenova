@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-10-30T15:40:39.343Z",
+  "updated": "2026-10-30T20:30:33.491Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
+      "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "summary": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Spac…",
+      "ts": 1793388662000,
+      "publishedAt": "2026-10-30T19:31:02.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Opentrons Raises $40M in Series E to Expand Its Robotics, Software, Data Infrastructure",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/opentrons-raises-40m-in-series-e-to-expand-its-robotics-software-data-infrastructure/",
+      "summary": "According to the company, the funds will support the next phase of its growth in enabling autonomous science in labs and biopharmaceutical companies using its AI and robotics systems. The post Opentrons Raises $40M in Se…",
+      "ts": 1793387821000,
+      "publishedAt": "2026-10-30T19:17:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "100 Million-Cell AI-Ready Dataset with Single-Cell and Proteomic Data Created by Parse and Nomic",
+      "url": "https://www.genengnews.com/topics/omics/100-million-cell-ai-ready-dataset-with-single-cell-and-proteomic-data-created-by-parse-and-nomic/",
+      "summary": "Parse Biosciences and Nomic Bio are partnering to create Cascade, a 100-million-cell multimodal dataset combining single-cell and proteomic data to advance AI-driven immune modeling, drug discovery, and therapeutic targe…",
+      "ts": 1793387614000,
+      "publishedAt": "2026-10-30T19:13:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "ESI supplying solar array components to missile defense programs",
+      "url": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
+      "summary": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile…",
+      "ts": 1793386474000,
+      "publishedAt": "2026-10-30T18:54:34.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
+      "url": "http://www.iaea.org/newscenter/news/iaea-safeguards-symposium-2026-programme-now-available",
+      "summary": "",
+      "ts": 1793381733000,
+      "publishedAt": "2026-10-30T17:35:33.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 373 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-373-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1793379016000,
+      "publishedAt": "2026-10-30T16:50:16.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+      "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+      "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sc…",
+      "ts": 1793375786000,
+      "publishedAt": "2026-10-30T15:56:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Blocking Protein Slows Pancreatic Tumor Growth and Reduces Immune Suppression in Mice",
+      "url": "https://www.genengnews.com/topics/cancer/blocking-protein-slows-pancreatic-tumor-growth-and-reduces-immune-suppression-in-mice/",
+      "summary": "Scientists identified a potential therapeutic target for pancreatic ductal cell adenocarcinoma, discovering that the protein ANO6 is involved in a process helping pancreatic cancer cells obtain nutrients from surrounding…",
+      "ts": 1793375231000,
+      "publishedAt": "2026-10-30T15:47:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "No Nonsense: David Liu Lauds Progress in Disease-Agnostic Gene Editing at ESGCT",
+      "url": "https://www.genengnews.com/topics/genome-editing/no-nonsense-david-liu-lauds-progress-in-disease-agnostic-gene-editing-at-esgct/",
+      "summary": "Liu ensured that his return visit to ESGCT (having spoken at the congress in Barcelona in 2019) would be one of the highlights of the conference. The “meta lesson” of the past few years in therapeutic genome editing is t…",
+      "ts": 1793374729000,
+      "publishedAt": "2026-10-30T15:38:49.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
@@ -18,6 +99,15 @@
       "summary": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Eart…",
       "ts": 1793372400000,
       "publishedAt": "2026-10-30T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+      "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "summary": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+      "ts": 1793371881000,
+      "publishedAt": "2026-10-30T14:51:21.000Z",
       "categoryId": "space"
     },
     {
@@ -76,6 +166,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "DR Congo: Hunger deepens for millions amid conflict, Ebola and climate shocks",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168708",
+      "summary": "More than 28 million people in the Democratic Republic of the Congo (DRC) are not getting enough to eat and the number is expected to tick up in the coming months, according to the latest alert from the IPC global food s…",
+      "ts": 1793361600000,
+      "publishedAt": "2026-10-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "UN rights office warns of deepening displacement ‘nightmare’ in Gaza",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168707",
       "summary": "Israeli forces continue to push Palestinians into ever-smaller areas of the Gaza Strip while destroying civilian infrastructure and attacking displacement sites, the UN human rights office, OHCHR, warned on Friday amid c…",
@@ -109,6 +208,24 @@
       "ts": 1793354400000,
       "publishedAt": "2026-10-30T10:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "ts": 1793352600000,
+      "publishedAt": "2026-10-30T09:30:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "ts": 1793350800000,
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -693,123 +810,6 @@
       "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure wher…",
       "ts": 1793318859000,
       "publishedAt": "2026-10-30T00:07:39.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Ironing out oxygen instability",
-      "url": "https://www.nature.com/articles/s41560-026-02153-z",
-      "summary": "",
-      "ts": 1793318400000,
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "An extra beat every minute",
-      "url": "https://www.nature.com/articles/s41560-026-02156-w",
-      "summary": "",
-      "ts": 1793318400000,
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Durable reactive CO<sub>2</sub> capture exceeding 1,000 h via self-reinforcing molecular catalysts",
-      "url": "https://www.nature.com/articles/s41560-026-02159-7",
-      "summary": "",
-      "ts": 1793318400000,
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Caloric cooling devices and systems",
-      "url": "https://www.nature.com/articles/s41560-026-02143-1",
-      "summary": "",
-      "ts": 1793318400000,
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "One-minute frequency disturbances from unintended synchronization in cyber–physical power systems",
-      "url": "https://www.nature.com/articles/s41560-026-02144-0",
-      "summary": "",
-      "ts": 1793318400000,
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Slice of Martian Meteorite Teghaza 001",
-      "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
-      "summary": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping…",
-      "ts": 1793316755000,
-      "publishedAt": "2026-10-29T23:32:35.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Halloween Aboard the International Space Station ",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
-      "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individuall…",
-      "ts": 1793310263000,
-      "publishedAt": "2026-10-29T21:44:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Brain Quality Control Selectively Eliminates Neurons with Abnormal Variants in Development",
-      "url": "https://www.genengnews.com/topics/translational-medicine/brain-quality-control-selectively-eliminates-neurons-with-abnormal-variants-in-development/",
-      "summary": "In developing fetuses, the human brain generates an excess of neurons, most of which are eliminated around when the baby is born. New research suggests that this is an important quality-control mechanism. The post Brain …",
-      "ts": 1793301439000,
-      "publishedAt": "2026-10-29T19:17:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Federal judge rejects new Medicaid ‘frailty’ definition for work requirements",
-      "url": "https://www.statnews.com/2026/10/29/medicaid-work-requirements-judge-blocks-new-limits-medical-frailty/?utm_campaign=rss",
-      "summary": "A judge ruled that federal regulators exceeded their authority in narrowing the exceptions to Medicaid work requirements for people with medical issues.",
-      "ts": 1793300257000,
-      "publishedAt": "2026-10-29T18:57:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "First Whole-Body Single-Cell Atlas of Adult Vertebrate Generated in Danionella cerebrum",
-      "url": "https://www.genengnews.com/topics/omics/first-whole-body-single-cell-atlas-of-adult-vertebrate-generated-in-danionella-cerebrum/",
-      "summary": "Researchers created the first comprehensive whole-body single-cell atlas of an adult vertebrate, the tiny, transparent fish Danionella cerebrum, offering a new resource for studying brain regeneration, cellular diversity…",
-      "ts": 1793298524000,
-      "publishedAt": "2026-10-29T18:28:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
-      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
-      "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dated its minerals did they realize the nearly 2-pound (800-gra…",
-      "ts": 1793297889000,
-      "publishedAt": "2026-10-29T18:18:09.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
-      "url": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
-      "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test pilot and aerospace engineer with decades of experience in fl…",
-      "ts": 1793296835000,
-      "publishedAt": "2026-10-29T18:00:35.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NIH–NASA QuSAFE Challenge",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/",
-      "summary": "The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and NASA, advances quantum-enabled sensing for in vitro NAMs, su…",
-      "ts": 1793295877000,
-      "publishedAt": "2026-10-29T17:44:37.000Z",
       "categoryId": "space"
     }
   ],
