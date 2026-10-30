@@ -14,6 +14,7 @@ import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
 import ContinuityHomePortal from "../components/home/ContinuityHomePortal";
 import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
 import OryvanthCivilizationPortal from "../components/home/OryvanthCivilizationPortal";
+import CivilizationalRelationsPortal from "../components/home/CivilizationalRelationsPortal";
 
 /* ==========================================================
    ORYVANTH CIVILIZATION / FIRST HOME SECTION
@@ -935,12 +936,15 @@ export default function HomePage() {
      <OryvanthCivilizationPortal />
 
      {/* 01 — CIVILIZATION SYNTHESIS */}
-     <CivilizationSynthesisPortal />
+<CivilizationSynthesisPortal />
 
-     {/* 02 — ARCHENOVA WORLD / INDEPENDENT */}
-     <ArcheNovaWorldGallery />
+{/* 02 — CIVILIZATIONAL RELATIONS */}
+<CivilizationalRelationsPortal />
 
-      {/* 02 — ARCHITECTURE OF CIVILIZATION */}
+{/* 03 — ARCHENOVA WORLD / INDEPENDENT */}
+<ArcheNovaWorldGallery />
+
+      {/* 04 — ARCHITECTURE OF CIVILIZATION */}
       <CivilizationArchitectureEntrance />
       
 

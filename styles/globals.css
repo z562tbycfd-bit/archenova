@@ -71817,3 +71817,463 @@ main#home-top.an-home-2026.home-snap.archenova-twin-home
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA — CIVILIZATIONAL RELATIONS
+   Independent by Design. Coexistent by Principle.
+
+   - Unified Obsidian Glass
+   - Monochrome presentation
+   - Full diagram visibility
+   - Collapsible relationship details
+   - Responsive layout
+========================================================== */
+
+main#home-top .an-relations-home {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+main#home-top .an-relations-home__glass {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  background: transparent;
+}
+
+main#home-top .an-relations-home__layout {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: clamp(30px, 5vw, 76px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(24px, 3.5vw, 48px);
+}
+
+/* Header */
+
+.an-relations-home__header {
+  max-width: 850px;
+}
+
+.an-relations-home__eyebrow {
+  margin: 0 0 24px;
+  color: rgba(255,255,255,.55);
+  font-size: 10px;
+  font-weight: 450;
+  letter-spacing: .2em;
+}
+
+.an-relations-home__title {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(34px, 5vw, 74px);
+  font-weight: 350;
+  letter-spacing: -.055em;
+  line-height: 1.12;
+}
+
+.an-relations-home__title span {
+  display: block;
+  color: rgba(255,255,255,.68);
+}
+
+.an-relations-home__lead {
+  max-width: 720px;
+  margin: 25px 0 0;
+  color: rgba(255,255,255,.9);
+  font-size: clamp(15px, 1.5vw, 19px);
+  line-height: 1.75;
+}
+
+.an-relations-home__description {
+  max-width: 720px;
+  margin: 13px 0 0;
+  color: rgba(255,255,255,.58);
+  font-size: clamp(13px, 1.15vw, 15px);
+  line-height: 1.8;
+}
+
+/* Relationship diagram */
+
+.an-relations-home__figure {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.an-relations-home__image-wrap {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 18px;
+  background: #000;
+}
+
+.an-relations-home__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.an-relations-home__caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  margin-top: 15px;
+  color: rgba(255,255,255,.65);
+  font-size: 9px;
+  letter-spacing: .13em;
+}
+
+.an-relations-home__caption span {
+  color: rgba(255,255,255,.45);
+  letter-spacing: .025em;
+}
+
+/* Collapsible details */
+
+.an-relations-home__details {
+  width: 100%;
+  min-width: 0;
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+
+.an-relations-home__details-trigger {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 76px;
+  padding: 16px 0;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+}
+
+.an-relations-home__details-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.an-relations-home__details-copy small {
+  color: rgba(255,255,255,.48);
+  font-size: 9px;
+  font-weight: 450;
+  letter-spacing: .17em;
+}
+
+.an-relations-home__details-copy strong {
+  font-size: clamp(16px, 1.5vw, 21px);
+  font-weight: 350;
+  letter-spacing: -.025em;
+}
+
+.an-relations-home__symbol {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.an-relations-home__details-panel {
+  padding: 8px 0 25px;
+}
+
+.an-relations-home__details-panel[hidden] {
+  display: none !important;
+}
+
+.an-relations-home__relations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.an-relations-home__relation {
+  appearance: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: 100%;
+  min-width: 0;
+  padding: 19px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 12px;
+  background: rgba(0,0,0,.55);
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color .2s ease, background .2s ease;
+}
+
+.an-relations-home__relation.is-active {
+  border-color: rgba(255,255,255,.45);
+  background: rgba(255,255,255,.045);
+}
+
+.an-relations-home__relation-number {
+  color: rgba(255,255,255,.45);
+  font-size: 10px;
+  letter-spacing: .1em;
+}
+
+.an-relations-home__relation-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  gap: 7px;
+}
+
+.an-relations-home__relation-copy strong {
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.an-relations-home__relation-copy small {
+  color: rgba(255,255,255,.55);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.an-relations-home__explanation {
+  margin-top: 14px;
+  padding: clamp(20px, 3vw, 32px);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px;
+  background: #080808;
+}
+
+.an-relations-home__explanation > span {
+  color: rgba(255,255,255,.5);
+  font-size: 9px;
+  letter-spacing: .15em;
+}
+
+.an-relations-home__explanation h3 {
+  margin: 13px 0;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 350;
+}
+
+.an-relations-home__explanation p {
+  max-width: 780px;
+  margin: 0;
+  color: rgba(255,255,255,.76);
+  font-size: 13px;
+  line-height: 1.85;
+}
+
+.an-relations-home__boundary {
+  margin: 20px 0 0;
+  color: rgba(255,255,255,.45);
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+/* Footer */
+
+.an-relations-home__footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,.1);
+  color: rgba(255,255,255,.5);
+  font-size: 9px;
+  letter-spacing: .14em;
+}
+
+/* Focus and hover */
+
+.an-relations-home button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+@media (hover: hover) {
+  .an-relations-home__relation:hover {
+    border-color: rgba(255,255,255,.35);
+  }
+
+  .an-relations-home__details-trigger:hover {
+    opacity: .8;
+  }
+}
+
+/* Tablet and mobile */
+
+@media (max-width: 700px) {
+  main#home-top .an-relations-home__layout {
+    padding: 28px clamp(16px, 5vw, 28px);
+    gap: 25px;
+  }
+
+  .an-relations-home__eyebrow {
+    margin-bottom: 18px;
+    font-size: 8px;
+  }
+
+  .an-relations-home__title {
+    font-size: clamp(31px, 8vw, 47px);
+  }
+
+  .an-relations-home__lead {
+    margin-top: 19px;
+  }
+
+  .an-relations-home__image-wrap {
+    border-radius: 10px;
+  }
+
+  .an-relations-home__caption {
+    font-size: 8px;
+    line-height: 1.7;
+  }
+
+  .an-relations-home__relations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .an-relations-home__details-trigger {
+    min-height: 68px;
+  }
+
+  .an-relations-home__footer {
+    justify-content: flex-start;
+    font-size: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .an-relations-home__relation {
+    transition: none;
+  }
+}
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATIONAL RELATIONS
+   UNIFIED OBSIDIAN OUTER FRAME — 2026
+
+   Matches existing HOME architecture:
+   - Near-black obsidian boundary
+   - Rounded outer frame
+   - Unified translucent black glass
+   - No secondary inner frame
+   - Existing content and interactions preserved
+========================================================== */
+
+/* 01 — OUTER FRAME */
+
+main#home-top.an-home-2026.home-snap.archenova-twin-home
+> section#civilizational-relations.an-home-2026__section {
+  box-sizing: border-box !important;
+
+  background:
+    var(
+      --an-home-glass-background,
+      linear-gradient(
+        155deg,
+        rgba(0, 0, 0, 0.82) 0%,
+        rgba(1, 2, 3, 0.86) 48%,
+        rgba(0, 0, 0, 0.90) 100%
+      )
+    ) !important;
+
+  border:
+    1px solid
+    var(
+      --an-obsidian-edge,
+      rgba(12, 13, 15, 0.96)
+    ) !important;
+
+  border-radius: 30px !important;
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.010),
+    0 0 0 1px
+      rgba(0, 0, 0, 0.40),
+    0 8px 28px
+      rgba(0, 0, 0, 0.16)
+    !important;
+
+  -webkit-backdrop-filter:
+    blur(28px) saturate(70%) !important;
+
+  backdrop-filter:
+    blur(28px) saturate(70%) !important;
+}
+
+/* 02 — REMOVE SECONDARY INNER FRAME */
+
+main#home-top.an-home-2026.home-snap.archenova-twin-home
+> section#civilizational-relations.an-home-2026__section
+> .an-home-2026__glass {
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* 03 — MOBILE */
+
+@media (max-width: 768px) {
+  main#home-top.an-home-2026.home-snap.archenova-twin-home
+  > section#civilizational-relations.an-home-2026__section {
+    border-radius: 24px !important;
+  }
+}
+
+/* ==========================================================
+   END — CIVILIZATIONAL RELATIONS OBSIDIAN FRAME
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

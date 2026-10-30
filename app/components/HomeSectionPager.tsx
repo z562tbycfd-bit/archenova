@@ -26,6 +26,15 @@ type ChapterTarget = {
          ├─ Civilizational Charter
          └─ Research Architecture
 
+   CIVILIZATIONAL RELATIONS
+      └─ Independence and Coexistence
+         ├─ Nations
+         ├─ Companies
+         ├─ Research Institutions
+         ├─ International Organizations
+         ├─ Civil Society
+         └─ Other Civilizations
+
    ARCHENOVA WORLD
       └─ Five Conceptual Civilizational Exhibitions
 
@@ -42,7 +51,7 @@ type ChapterTarget = {
 ========================================================== */
 
 const CHAPTER_TARGETS: readonly ChapterTarget[] = [
-   {
+  {
     id: "oryvanth-civilization",
     mark: "❂",
     title: "ORYVANTH",
@@ -53,6 +62,12 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     mark: "✪",
     title: "SYNTHESIS",
     subtitle: "Engineering a Correctable Civilization.",
+  },
+  {
+    id: "civilizational-relations",
+    mark: "✦",
+    title: "RELATIONS",
+    subtitle: "Independent by Design. Coexistent by Principle.",
   },
   {
     id: "archenova-architecture-of-civilization",
