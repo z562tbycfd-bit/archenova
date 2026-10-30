@@ -48,10 +48,10 @@ const ITEMS: readonly MenuItem[] = [
     note: "Episteme · Aetherion · Framework",
   },
   {
-    href: "/research",
-    label: "Research",
-    note: "Scientific inquiry and papers",
-  },
+  href: "/intelligence-platform/reports",
+  label: "Reports",
+  note: "Scientific Intelligence & Civilization Engineering",
+},
 ];
 
 export default function Menu() {
