@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-10-29T21:37:34.619Z",
+  "updated": "2026-10-30T01:40:31.294Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+      "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+      "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure wher…",
+      "ts": 1793318859000,
+      "publishedAt": "2026-10-30T00:07:39.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Slice of Martian Meteorite Teghaza 001",
+      "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
+      "summary": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping…",
+      "ts": 1793316755000,
+      "publishedAt": "2026-10-29T23:32:35.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Halloween Aboard the International Space Station ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
+      "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individuall…",
+      "ts": 1793310263000,
+      "publishedAt": "2026-10-29T21:44:23.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Brain Quality Control Selectively Eliminates Neurons with Abnormal Variants in Development",
@@ -781,33 +808,6 @@
       "title": "Backing for UN call to end Cuba embargo falls to 20-year low",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168694",
       "summary": "The UN General Assembly on Wednesday called for the 34th time for an end to the US economic, commercial and financial embargo on Cuba – but with the weakest backing for the resolution in two decades.",
-      "ts": 1793188800000,
-      "publishedAt": "2026-10-28T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ending conflict is ‘number one thing’ to reduce world hunger, new WFP chief says",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168693",
-      "summary": "Reducing conflict is the single most effective way to tackle global hunger, the new head of the UN World Food Programme (WFP), Luke Lindberg, said on Wednesday, noting that conflict drives two thirds of the acute food in…",
-      "ts": 1793188800000,
-      "publishedAt": "2026-10-28T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Protecting the storytellers: Women journalists on the frontline of conflict",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168691",
-      "summary": "As online abuse, gender-based attacks and impunity ramp up the threats to women reporting from crisis zones, journalists and UN leaders are calling for urgent action to protect those who document conflict.",
-      "ts": 1793188800000,
-      "publishedAt": "2026-10-28T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo: WHO urges sustained efforts as Ebola cases top 10,000",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168689",
-      "summary": "As Ebola cases in the Democratic Republic of the Congo (DRC) surpass the 10,000 mark, the World Health Organization (WHO) has underlined the need for continued efforts to contain spread of the disease.",
       "ts": 1793188800000,
       "publishedAt": "2026-10-28T12:00:00.000Z",
       "categoryId": "global-governance"

@@ -1,7 +1,215 @@
 {
   "ok": true,
-  "updated": "2026-10-29T21:37:32.804Z",
+  "updated": "2026-10-30T01:40:27.492Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Television gains ground in streaming platform era, study shows",
+      "url": "https://phys.org/news/2026-10-television-gains-ground-streaming-platform.html",
+      "summary": "A University of Alicante (UA) study of 325 fiction series released in Spain between 2020 and 2024 has concluded that video-on-demand (VOD) platforms have not replaced traditional television. Instead, the two distribution…",
+      "ts": 1793324401000,
+      "publishedAt": "2026-10-30T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New X-ray method isolates faint signals from water at material surfaces",
+      "url": "https://phys.org/news/2026-10-ray-method-isolates-faint-material.html",
+      "summary": "A research team from Toyohashi University of Technology, the Institute for Molecular Science and the Institute of Science Tokyo, led by Yu Kinjo and professor Ryugo Tero of Toyohashi University of Technology, has develop…",
+      "ts": 1793323201000,
+      "publishedAt": "2026-10-30T01:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New travel tool combines three algorithms to tailor destination recommendations",
+      "url": "https://phys.org/news/2026-10-tool-combines-algorithms-tailor-destination.html",
+      "summary": "Researchers have developed a tourist recommendation system combining three algorithms to help travelers find destinations suited to their preferences, budgets and travel routes. Details appear in the International Journa…",
+      "ts": 1793322004000,
+      "publishedAt": "2026-10-30T01:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's new UV space telescope will launch in 2031",
+      "url": "https://phys.org/news/2026-10-nasa-uv-space-telescope.html",
+      "summary": "Most of us could spend our entire lives looking at the night sky and see very few changes. The moon becomes more or less illuminated, the planets drift placidly through the sky, satellites and the ISS intrude for a few m…",
+      "ts": 1793320801000,
+      "publishedAt": "2026-10-30T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study: Partisan ties shape how voters view campaign AI",
+      "url": "https://phys.org/news/2026-10-partisan-voters-view-campaign-ai.html",
+      "summary": "As political campaigns increasingly use artificial intelligence to communicate with voters, questions arise about how the technology influences perceptions of election fairness and trust.",
+      "ts": 1793319601000,
+      "publishedAt": "2026-10-30T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Keeping one eye open: Veterinarian applies unique treatment to preserve dog's eyesight",
+      "url": "https://phys.org/news/2026-10-eye-veterinarian-unique-treatment-dog.html",
+      "summary": "Aparna Shah teaches Virginia Tech students how the human eye turns light into sight. In May, she saw her dog lose his.",
+      "ts": 1793318401000,
+      "publishedAt": "2026-10-30T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Evolutionary changes in key enzyme may help bacteria make proteins faster",
+      "url": "https://phys.org/news/2026-10-evolutionary-key-enzyme-bacteria-proteins.html",
+      "summary": "Evolutionary changes in a key protein synthesis enzyme, isoleucyl-tRNA synthetase (IleRS), may help bacteria fine-tune how quickly proteins are made, report researchers from Institute of Science Tokyo, Japan; the Univers…",
+      "ts": 1793317205000,
+      "publishedAt": "2026-10-29T23:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Using machine learning to build safer cities",
+      "url": "https://phys.org/news/2026-10-machine-safer-cities.html",
+      "summary": "In eThekwini, researchers have harnessed machine learning and satellite data to spot the city's most landslide-prone zones. A new study published in Scientific Reports has found that urban development activities, includi…",
+      "ts": 1793317201000,
+      "publishedAt": "2026-10-29T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How ancient insect-eating diets could inspire more sustainable food systems",
+      "url": "https://phys.org/news/2026-10-ancient-insect-diets-sustainable-food.html",
+      "summary": "New research from Durham University highlights how insects have been part of human diets for thousands of years despite seeming unusual to many people.",
+      "ts": 1793316608000,
+      "publishedAt": "2026-10-29T23:30:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rare 4.1-billion-year-old Martian meteorite reveals clues to planet's ancient past",
+      "url": "https://phys.org/news/2026-10-rare-billion-year-martian-meteorite.html",
+      "summary": "Scientists at the University of New Mexico have played a key role in identifying a rare, 4.1-billion-year-old Martian meteorite that provides new evidence that the red planet may have once had a wetter, Earth-like enviro…",
+      "ts": 1793316605000,
+      "publishedAt": "2026-10-29T23:30:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrical guardrails for charge carriers: A new approach to harness graphene for solar cells",
+      "url": "https://phys.org/news/2026-10-electrical-guardrails-carriers-approach-harness.html",
+      "summary": "Graphene is a single layer of carbon atoms in which electrons can move with high mobility, making it promising for high-speed electronic components. Yet it is not very efficient at converting light into electricity. Whil…",
+      "ts": 1793316001000,
+      "publishedAt": "2026-10-29T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Faraway tectonic forces may have accelerated the Gulf of California rifting",
+      "url": "https://phys.org/news/2026-10-faraway-tectonic-gulf-california-rifting.html",
+      "summary": "When the Baja California peninsula broke from mainland Mexico nearly 12 million years ago, it gave rise to the Gulf of California. New research suggests that this process of continental rifting was greatly accelerated du…",
+      "ts": 1793315402000,
+      "publishedAt": "2026-10-29T23:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simplified ancestral enzyme makes ATP without amino acid needed for its usual reaction",
+      "url": "https://phys.org/news/2026-10-ancestral-enzyme-atp-amino-acid.html",
+      "summary": "Proteins perform essential functions in living organisms, from catalyzing biochemical reactions to supporting cellular energy metabolism. Their functions depend on their amino acid composition and three-dimensional struc…",
+      "ts": 1793314806000,
+      "publishedAt": "2026-10-29T23:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New calculations reveal hidden pathways that let chemical reactions produce different products",
+      "url": "https://phys.org/news/2026-10-reveal-hidden-pathways-chemical-reactions.html",
+      "summary": "Chemical reactions are often understood as molecules crossing a high-energy saddle point, known as a transition state, before following a downhill pathway toward a product. Conventional quantum chemical calculations typi…",
+      "ts": 1793314801000,
+      "publishedAt": "2026-10-29T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Asteroids venturing near white dwarfs don't break directly into dust, study reveals",
+      "url": "https://phys.org/news/2026-10-asteroids-venturing-white-dwarfs-dont.html",
+      "summary": "When asteroids travel too close to white dwarfs, the dense remnants of stars that have exhausted their nuclear fuel, powerful gravitational forces can tear them apart. However, new research from Planetary Science Institu…",
+      "ts": 1793314201000,
+      "publishedAt": "2026-10-29T22:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sex after baby: How childhood trauma can get in the way",
+      "url": "https://phys.org/news/2026-10-sex-baby-childhood-trauma.html",
+      "summary": "Why do some parents have more sexual difficulties than others after having a baby? Childhood trauma plays a significant role, amplifying the other factors at play.",
+      "ts": 1793313605000,
+      "publishedAt": "2026-10-29T22:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Measuring multiple reactions on a single electrode with extraordinary sensitivity",
+      "url": "https://phys.org/news/2026-10-multiple-reactions-electrode-extraordinary-sensitivity.html",
+      "summary": "A reaction on a single electrode can tell scientists a remarkable amount about the chemical nature and number of analytes involved. The challenge comes when they want to distinguish many reactions on the same electrode. …",
+      "ts": 1793313601000,
+      "publishedAt": "2026-10-29T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A protein that regulates mRNA decoding can itself be regulated with implications for understanding cancer",
+      "url": "https://phys.org/news/2026-10-protein-mrna-decoding-implications-cancer.html",
+      "summary": "Decoding of messenger RNA (mRNA) occurs during translation, the vital cellular process that builds proteins. Errors in this process are known to lead to cancer growth. Scientists at St. Jude Children's Research Hospital …",
+      "ts": 1793313006000,
+      "publishedAt": "2026-10-29T22:30:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers observe the arrival of El Niño in Monterey Bay",
+      "url": "https://phys.org/news/2026-10-el-nio-monterey-bay.html",
+      "summary": "For more than 30 years, MBARI technology has recorded real-time data about Monterey Bay, from oceanographic conditions at the surface to biological surveys in the depths of Monterey Canyon. These data are integral to und…",
+      "ts": 1793313001000,
+      "publishedAt": "2026-10-29T22:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Waves alter Antarctic polynyas by breaking up surrounding sea ice",
+      "url": "https://phys.org/news/2026-10-antarctic-polynyas-sea-ice.html",
+      "summary": "Polynyas are one of Antarctica's great counterintuitive features: recurring areas of open water surrounded by vast expanses of sea ice. These unusual environments are hot spots for sea-ice production, ocean–atmosphere ex…",
+      "ts": 1793312402000,
+      "publishedAt": "2026-10-29T22:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemical recycling turns silicone waste into reusable building blocks with up to 99% yield",
+      "url": "https://phys.org/news/2026-10-chemical-recycling-silicone-reusable-blocks.html",
+      "summary": "Silicones are widely used in industry, medicine and everyday products due to their exceptional thermal and chemical stability. However, it is precisely these properties that have made recycling silicones extremely proble…",
+      "ts": 1793311801000,
+      "publishedAt": "2026-10-29T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Borneo's wildfires could have a lasting impact on orangutans",
+      "url": "https://phys.org/news/2026-10-borneo-wildfires-impact-orangutans.html",
+      "summary": "Indonesia is battling one of its most severe wildfire seasons in over a decade, as intense El Niño conditions fuel widespread drought. Some of the most severely affected areas are on the island of Borneo. Peatlands acros…",
+      "ts": 1793311214000,
+      "publishedAt": "2026-10-29T22:00:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Qinghai–Tibet Plateau study traces evolution of terrestrial animals across three distinct regions",
+      "url": "https://phys.org/news/2026-10-qinghaitibet-plateau-evolution-terrestrial-animals.html",
+      "summary": "A new study has pieced together the evolutionary history of terrestrial animals on the Qinghai–Tibet Plateau (QTP), offering a comprehensive picture of how the distinctive fauna of the \"Third Pole\" took shape over millio…",
+      "ts": 1793311201000,
+      "publishedAt": "2026-10-29T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The human surfaceome: AI flags potential cell surface drug targets overlooked by major databases",
+      "url": "https://phys.org/news/2026-10-human-surfaceome-ai-flags-potential.html",
+      "summary": "More than 65% of approved medicines work by binding to proteins on the surface of human cells. Yet scientists developing new treatments face a fundamental problem: Major biological databases disagree about which proteins…",
+      "ts": 1793310601000,
+      "publishedAt": "2026-10-29T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The 'shape' of gene expression: Identifying genes that may share roles across species",
+      "url": "https://phys.org/news/2026-10-gene-genes-roles-species.html",
+      "summary": "Much of what we know about biology comes from animal models, particularly mice. Applying these insights to humans, however, is not always straightforward. For example, some of the genes important for the formation of ger…",
+      "ts": 1793310016000,
+      "publishedAt": "2026-10-29T21:40:16.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nature finance needs a fundamental rethink, researchers argue",
+      "url": "https://phys.org/news/2026-10-nature-fundamental-rethink.html",
+      "summary": "The authors call on governments, investors and conservation organizers to reimagine nature finance based on a central tenet: raising funds should be a means to an end, not an end in itself.",
+      "ts": 1793310004000,
+      "publishedAt": "2026-10-29T21:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How the quantum vacuum perturbs atoms, could shrink black holes and may have helped form galaxies",
@@ -515,6 +723,46 @@
       "publishedAt": "2026-10-29T12:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Dimensional confinement-driven scattering inversion in ${\\mathrm{NaCrTe}}_{2}$",
+      "url": "http://link.aps.org/doi/10.1103/xw8f-6666",
+      "summary": "Author(s): Himanshu Sharma, Bhawna Sahni, Tanusri Saha-Dasgupta, and Aftab Alam Dimensionality reduction provides a powerful route to tune the electronic and magnetic properties of van der Waals materials, yet its influe…",
+      "ts": 1793268000000,
+      "publishedAt": "2026-10-29T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Inhomogeneity of magnetic anisotropy and damping in nanoscale magnetic tunnel junctions",
+      "url": "http://link.aps.org/doi/10.1103/l7gr-lj4k",
+      "summary": "Author(s): Motoya Shinozaki, Junta Igarashi, Butsurin Jinnai, Shunsuke Fukami, Hideo Sato, and Hideo Ohno We investigate the Gilbert damping constant $α$ and the inhomogeneity of the effective magnetic anisotropy field $…",
+      "ts": 1793268000000,
+      "publishedAt": "2026-10-29T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Taiji drag-free and attitude control system: Modeling and end-to-end simulation for the science mode",
+      "url": "http://link.aps.org/doi/10.1103/nrs6-99jc",
+      "summary": "Author(s): Ke An, Yidi Fan, Minghui Du, Yuxian Liu, Junhao Yan, Pengcheng Wang, Yizhai Zhang, Peng Xu, and Yonghe Zhang In the Taiji project—a Chinese space-borne gravitational wave detector—the drag-free and attitude co…",
+      "ts": 1793268000000,
+      "publishedAt": "2026-10-29T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Generation of attosecond electron bunches via high-gradient acceleration in periodic structures driven by a pulse-front-tilted laser",
+      "url": "http://link.aps.org/doi/10.1103/q1y7-w87y",
+      "summary": "Author(s): Chaolu Ding, Xuesong Geng, and Liangliang Ji Direct laser acceleration leveraging transverse fields promises unparalleled gradients exceeding $1\\text{ }\\mathrm{TeV}/\\mathrm{m}$ yet is fundamentally constrained…",
+      "ts": 1793268000000,
+      "publishedAt": "2026-10-29T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Distinct low-frequency noise fingerprints of filamentary and interfacial switching in ${\\mathrm{La}}_{2}{\\mathrm{NiO}}_{4+δ}$-based RRAM",
+      "url": "http://link.aps.org/doi/10.1103/z81t-dr2y",
+      "summary": "Author(s): Yingxin Li, Demian Ranftl, Aleksandra Koroleva, Tristan Stadler, Philipp Schreyer, Taewook Kim, Yu Duan, Alexey Arzumanov, Mónica Burriel, Jens Müller, Lambert Alff, and Eszter Piros This work investigates the…",
+      "ts": 1793268000000,
+      "publishedAt": "2026-10-29T10:00:00.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "Philippine island fights rising seas with nature, not concrete",
       "url": "https://phys.org/news/2026-10-philippine-island-seas-nature-concrete.html",
@@ -551,254 +799,6 @@
       "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
       "url": "https://arxiv.org/abs/2610.35984",
       "summary": "arXiv:2610.35984v1 Announce Type: new Abstract: Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often limited by challenges su…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-      "url": "https://arxiv.org/abs/2610.36077",
-      "summary": "arXiv:2610.36077v1 Announce Type: new Abstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: const…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
-      "url": "https://arxiv.org/abs/2610.36100",
-      "summary": "arXiv:2610.36100v1 Announce Type: new Abstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce Cohor…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction",
-      "url": "https://arxiv.org/abs/2610.36116",
-      "summary": "arXiv:2610.36116v1 Announce Type: new Abstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing science, and \\emph{how} shoul…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors",
-      "url": "https://arxiv.org/abs/2610.36146",
-      "summary": "arXiv:2610.36146v1 Announce Type: new Abstract: Prompt optimization should improve the image a user receives without changing the scene the user requested. Yet stylistic rewriting can weaken object attributes and relatio…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule",
-      "url": "https://arxiv.org/abs/2610.36169",
-      "summary": "arXiv:2610.36169v1 Announce Type: new Abstract: A retrieval-augmented language model answers from two sources, the retrieved context and its own knowledge, and the two disagree whenever the context is incomplete or wrong…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Learning Human Sports Motion Feasibility via Quantile Regression on Tracking Data",
-      "url": "https://arxiv.org/abs/2610.36183",
-      "summary": "arXiv:2610.36183v1 Announce Type: new Abstract: We study time-to-arrival (TTA) in sports: the shortest plausible time a player needs to reach an arbitrary location on the pitch given their current kinematic state, estima…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
-      "url": "https://arxiv.org/abs/2610.36188",
-      "summary": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development a…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor Infused with Systems Engineering Knowledge",
-      "url": "https://arxiv.org/abs/2610.36234",
-      "summary": "arXiv:2610.36234v1 Announce Type: new Abstract: Requirements engineering (RE) is foundational to systems engineering (SE), as requirement defects can propagate downstream and adversely affect development outcomes. Althou…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "BehaveRec: When Does Long-Term Behavioral History Help Sequential Recommendation? A Study with Session, History, and Community Signals",
-      "url": "https://arxiv.org/abs/2610.36239",
-      "summary": "arXiv:2610.36239v1 Announce Type: new Abstract: Sequential recommendation models typically predict a user's next action from recent session interactions, which limits personalization when short-term signals are weak or a…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A Smart Instant Book Filter Model based on Dual-Objective Optimization",
-      "url": "https://arxiv.org/abs/2610.36287",
-      "summary": "arXiv:2610.36287v1 Announce Type: new Abstract: Hospitality service in online marketplaces has become increasingly popular over the past few years, not only because it helps people easily rent short-term lodging but also…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study of Model Stealing Attacks",
-      "url": "https://arxiv.org/abs/2610.36298",
-      "summary": "arXiv:2610.36298v1 Announce Type: new Abstract: Machine learning models deployed behind query interfaces expose more than their predictions, because an adversary can use those predictions to rebuild the model itself. Mod…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory",
-      "url": "https://arxiv.org/abs/2610.36308",
-      "summary": "arXiv:2610.36308v1 Announce Type: new Abstract: Memory-agent benchmarks often collapse retrieval and answer generation into one score, making it hard to tell whether a failure comes from missing an update or from not usi…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
-      "url": "https://arxiv.org/abs/2610.36325",
-      "summary": "arXiv:2610.36325v1 Announce Type: new Abstract: Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to d…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "How Stable Are LLM-Generated Proofs Under Program Refactoring? A Stress Test for Verifiable Code Generation",
-      "url": "https://arxiv.org/abs/2610.36328",
-      "summary": "arXiv:2610.36328v1 Announce Type: new Abstract: Benchmarks for verifiable code generation usually test a proof against one fixed implementation. We ask whether the same proof remains valid after a program refactoring tha…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Plenty of Room in the Middle: Revealing Opportunities on a GPU Cluster via Fine-Grained Monitoring",
-      "url": "https://arxiv.org/abs/2610.36329",
-      "summary": "arXiv:2610.36329v1 Announce Type: new Abstract: GPU clusters have become essential computing resources for AI and scientific research in academia and industry. However, their high cost and growing demand often result in …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning",
-      "url": "https://arxiv.org/abs/2610.36335",
-      "summary": "arXiv:2610.36335v1 Announce Type: new Abstract: Large language models (LLMs) perform well across many real-world tasks but remain prone to hallucination, limiting their reliability in domains such as biomedicine and heal…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Executable Archaeology of Programs That Model Programming: Reanimating the Heuristic Compiler (1961) and KBEmacs (1984)",
-      "url": "https://arxiv.org/abs/2610.36341",
-      "summary": "arXiv:2610.36341v1 Announce Type: new Abstract: Early AI programs were often also theories of how people think, and programs that wrote programs were, in part, theories of how people program. Here we report on the reanim…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "WAKMan: Workload Aware KVCache Manager",
-      "url": "https://arxiv.org/abs/2610.36355",
-      "summary": "arXiv:2610.36355v1 Announce Type: new Abstract: Prefix caching enables a Large Language Model (LLM) servers to reuse the Key-Value (KV) states and accelerate prefill computation stage for requests that share a prefix wit…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LoRA on a Budget: Function-Aware Post-Hoc Compression for Adapter Fleets",
-      "url": "https://arxiv.org/abs/2610.36386",
-      "summary": "arXiv:2610.36386v1 Announce Type: new Abstract: Low-Rank Adaptation (LoRA) has become a key mechanism for efficiently specializing foundation models into many task- and user-specific variants. Serving many LoRA adapters …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations",
-      "url": "https://arxiv.org/abs/2610.36389",
-      "summary": "arXiv:2610.36389v1 Announce Type: new Abstract: Evaluating natural language explanations in recommender systems is essential for fostering user trust, transparency, and engagement. However, existing evaluation approaches…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "kw-bench: Breaking Frontier Harnesses on Real-World Tasks",
-      "url": "https://arxiv.org/abs/2610.36405",
-      "summary": "arXiv:2610.36405v1 Announce Type: new Abstract: Each new generation of frontier model pushes the edge of what is possible. Inside a harness -- a loop, a shell, a filesystem, the ability to write and run its own code -- a…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Verifiable Efficiency Limits of Innate LLM Planning in Sliding Puzzles",
-      "url": "https://arxiv.org/abs/2610.36415",
-      "summary": "arXiv:2610.36415v1 Announce Type: new Abstract: Tool-assisted planning success can reflect external search and verification, leaving a model's unaided planning ability unresolved. We isolate innate planning through compl…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction",
-      "url": "https://arxiv.org/abs/2610.36433",
-      "summary": "arXiv:2610.36433v1 Announce Type: new Abstract: Construction safety management still struggles to produce daily safety bulletins (DSBs), structured daily communications that identify site-specific hazards, convey safety …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Your Agent Acts Differently When You're Around: How User Presence Changes Agent Behavior in Negotiation",
-      "url": "https://arxiv.org/abs/2610.36435",
-      "summary": "arXiv:2610.36435v1 Announce Type: new Abstract: LLM agents increasingly interact with other agents on behalf of users, yet how users in the loop affect their agents' behavior--for better or worse--remains poorly understo…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG",
-      "url": "https://arxiv.org/abs/2610.36444",
-      "summary": "arXiv:2610.36444v1 Announce Type: new Abstract: Web-based applications increasingly rely on understanding long multimodal documents, where answering questions often requires combining information across pages, tables, an…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "From Solver Trajectories to Teaching Trajectories: Cognition-Aligned Reasoning Distillation",
-      "url": "https://arxiv.org/abs/2610.36445",
-      "summary": "arXiv:2610.36445v1 Announce Type: new Abstract: Knowledge distillation from large reasoning models (LRMs) often uses raw teacher trajectories as supervision. However, this practice creates a mismatch between the goal of …",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A Heart Means Recursion: Exploring Visual Meaning and Communication in VLMs",
-      "url": "https://arxiv.org/abs/2610.36449",
-      "summary": "arXiv:2610.36449v1 Announce Type: new Abstract: Do vision-language models (VLMs) share our ability to communicate visually? We share preliminary findings, starting from a surprising observation: simple visual symbols lik…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Correction or Manipulation? Measuring Epistemic Vigilance in LLM Agents Under User Pressure",
-      "url": "https://arxiv.org/abs/2610.36453",
-      "summary": "arXiv:2610.36453v1 Announce Type: new Abstract: LLM agents that answer questions and act on behalf of users must decide when to yield to a user who disagrees. Disagreement may correct a genuine error or may be an attempt…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When to Intervene? An Empirical Study of Errors and Self-Recovery in LLM Agents",
-      "url": "https://arxiv.org/abs/2610.36471",
-      "summary": "arXiv:2610.36471v1 Announce Type: new Abstract: LLM agents interact with Web services to perform tasks on users' behalf. Errors during these interactions can disrupt execution and prevent task completion, motivating exte…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
-      "url": "https://arxiv.org/abs/2610.36484",
-      "summary": "arXiv:2610.36484v1 Announce Type: new Abstract: Claims about the cognitive capabilities of large language models are typically tested by translating behavioral paradigms into text prompts, bypassing the visual interfaces…",
-      "ts": 1793246400000,
-      "publishedAt": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AC-JEPA: Anchored Cross-Modal Joint Embedding Predictive Architecture for Visual-to-Symbolic Translation",
-      "url": "https://arxiv.org/abs/2610.36493",
-      "summary": "arXiv:2610.36493v1 Announce Type: new Abstract: Cross-modal translation requires models to capture shared semantics across modalities while preserving the fine-grained structure required by the target modality. Yet in re…",
       "ts": 1793246400000,
       "publishedAt": "2026-10-29T04:00:00.000Z"
     }
