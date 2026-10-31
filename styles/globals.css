@@ -73927,3 +73927,73 @@ main.cos-workspace .cos-panel {
 
 
 
+/* ==========================================================
+   ArcheNova Valley
+   Desktop Stable Obsidian Frame
+   ========================================================== */
+
+@media (min-width: 1025px) {
+
+  /* 1. 外枠を常に不透明な黒で固定 */
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley.an-home-2026__section {
+    position: relative !important;
+    isolation: isolate !important;
+
+    background: #000 !important;
+    background-image: none !important;
+
+    border: 1px solid rgba(18, 20, 24, 0.94) !important;
+    border-radius: 30px !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.018),
+      0 8px 28px rgba(0,0,0,0.16) !important;
+  }
+
+  /* 2. 内側の共通ガラス枠を透明に統一 */
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  > .an-home-2026__glass {
+    position: relative !important;
+    z-index: 1;
+
+    background: transparent !important;
+    background-image: none !important;
+
+    border: 0 !important;
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  /* 3. HOME共通の装飾疑似要素をValleyだけ無効化 */
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley::before,
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley::after,
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  > .an-home-2026__glass::before,
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  > .an-home-2026__glass::after {
+    content: none !important;
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
