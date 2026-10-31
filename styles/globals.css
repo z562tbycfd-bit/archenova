@@ -73987,6 +73987,106 @@ main.cos-workspace .cos-panel {
   }
 }
 
+/* ==========================================================
+   ARCHENOVA VALLEY
+   PERMANENT OBSIDIAN FRAME — DESKTOP
+
+   Goal:
+   - Preserve the first screenshot's appearance
+   - Prevent background bleed-through
+   - Keep the civilization gateway interactive
+   - Avoid affecting other HOME sections
+========================================================== */
+
+@media (min-width: 1025px) {
+
+  /* 1. Single, stable outer frame */
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley.an-home-2026__section {
+
+    position: relative !important;
+
+    isolation: isolate !important;
+
+    background: #000000 !important;
+    background-image: none !important;
+
+    border:
+      1px solid
+      rgba(12, 13, 15, 0.96) !important;
+
+    border-radius: 30px !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.010),
+      0 0 0 1px rgba(0, 0, 0, 0.40),
+      0 8px 28px rgba(0, 0, 0, 0.16)
+      !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  /* 2. Remove the secondary glass surface */
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  > .an-home-2026__glass {
+
+    position: relative !important;
+
+    z-index: 1;
+
+    background: transparent !important;
+    background-image: none !important;
+
+    border: 0 !important;
+
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  /* 3. Keep the portal canvas transparent */
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  .an-valley-portal {
+
+    position: relative;
+
+    isolation: isolate;
+
+    background: transparent !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  /* 4. Prevent inherited decorative backgrounds */
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley::before,
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley::after,
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  > .an-home-2026__glass::before,
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  > .an-home-2026__glass::after {
+
+    content: none !important;
+
+    display: none !important;
+  }
+
+}
 
 
 
