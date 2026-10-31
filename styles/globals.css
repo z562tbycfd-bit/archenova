@@ -73927,3 +73927,113 @@ main.cos-workspace .cos-panel {
 
 
 
+/* ==========================================================
+   ARCHENOVA VALLEY — FROSTED OBSIDIAN GLASS
+   2026
+
+   Design:
+   - Preserve background visibility
+   - Strongly soften external visuals
+   - Maintain premium black-glass aesthetics
+   - Preserve portal animations and interactions
+   - No scroll or layout overrides
+========================================================== */
+
+main#home-top.an-home-2026.home-snap.archenova-twin-home
+> section#archenova-valley.an-home-2026__section {
+
+  /* Dark translucent glass */
+  background:
+    linear-gradient(
+      155deg,
+      rgba(0, 0, 0, 0.80) 0%,
+      rgba(2, 3, 5, 0.84) 48%,
+      rgba(0, 0, 0, 0.88) 100%
+    ) !important;
+
+  background-image:
+    linear-gradient(
+      155deg,
+      rgba(0, 0, 0, 0.80) 0%,
+      rgba(2, 3, 5, 0.84) 48%,
+      rgba(0, 0, 0, 0.88) 100%
+    ) !important;
+
+  /* Frosted background */
+  -webkit-backdrop-filter:
+    blur(40px)
+    saturate(45%)
+    brightness(0.68) !important;
+
+  backdrop-filter:
+    blur(40px)
+    saturate(45%)
+    brightness(0.68) !important;
+
+  /* Refined frame */
+  border:
+    1px solid rgba(255, 255, 255, 0.045)
+    !important;
+
+  border-radius: 30px !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.012),
+    0 0 0 1px rgba(0, 0, 0, 0.20),
+    0 12px 36px rgba(0, 0, 0, 0.12)
+    !important;
+}
+
+/* Remove secondary glass effects without
+   affecting the outer frosted surface. */
+
+main#home-top.an-home-2026.home-snap.archenova-twin-home
+> section#archenova-valley.an-home-2026__section
+> .an-home-2026__glass {
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border-color: transparent !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Mobile: same material, softer processing */
+
+@media (max-width: 768px) {
+
+  main#home-top.an-home-2026.home-snap.archenova-twin-home
+  > section#archenova-valley.an-home-2026__section {
+
+    border-radius: 24px !important;
+
+    -webkit-backdrop-filter:
+      blur(28px)
+      saturate(50%)
+      brightness(0.72) !important;
+
+    backdrop-filter:
+      blur(28px)
+      saturate(50%)
+      brightness(0.72) !important;
+  }
+}
+
+/* ==========================================================
+   END — FROSTED OBSIDIAN GLASS
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
