@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-30T20:30:33.491Z",
+  "updated": "2026-10-31T00:32:02.109Z",
   "items": [
     {
       "source": "NASA",
@@ -163,6 +163,24 @@
       "ts": 1793365969000,
       "publishedAt": "2026-10-30T13:12:49.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: 300,000 displaced in Lebanon, Türk ‘deeply concerned’ over Novaya Gazeta closure, $50 million refugee appeal, World Cities Day",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168713",
+      "summary": "More than 300,000 people displaced since early March remain internally displaced in Lebanon, where the humanitarian crisis is “far from over,” according to the UN’s aid coordination office (OCHA).",
+      "ts": 1793361600000,
+      "publishedAt": "2026-10-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Oleshky ceasefire offers ‘hope’ for civilians as attacks on aid vehicles continue",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168712",
+      "summary": "Each day the ceasefire in Oleshky holds means hope for civilians in the city, the UN’s top humanitarian official said, stressing that those wishing to leave must be able to do so safely and voluntarily.",
+      "ts": 1793361600000,
+      "publishedAt": "2026-10-30T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1793332800000,
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bistability, Absolute Concentration Robustness, and Hysteresis in Dual-Site Futile Cycles with Bifunctional Enzymes",
-      "url": "https://arxiv.org/abs/2605.11389",
-      "summary": "arXiv:2605.11389v2 Announce Type: replace-cross Abstract: Bifunctional enzymes, which catalyze both the forward and reverse steps of a substrate modification reaction, arise naturally in bacterial two-component signaling…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
-      "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
-      "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure wher…",
-      "ts": 1793318859000,
-      "publishedAt": "2026-10-30T00:07:39.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-10-30T20:30:31.368Z",
+  "updated": "2026-10-31T00:32:00.155Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Figuring out where cosmic neutrinos come from is tricky—radio telescopes could help find 'ghost particles' origin",
+      "url": "https://phys.org/news/2026-10-figuring-cosmic-neutrinos-tricky-radio.html",
+      "summary": "Neutrinos are funny little particles that weigh almost nothing, making them one of the universe's most elusive building blocks. They can come from objects as mundane as bananas and as exotic as supernovas—the exploding d…",
+      "ts": 1793406001000,
+      "publishedAt": "2026-10-31T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Livestock guardian dogs enlisted in efforts to conserve Texas' smallest fox",
+      "url": "https://phys.org/news/2026-10-livestock-guardian-dogs-efforts-texas.html",
+      "summary": "In the Texas Panhandle, two livestock guardian dogs patrol a herd of cattle grazing the Rita Blanca National Grasslands. Although their singular focus is protecting the herd from would-be predators, their presence may ma…",
+      "ts": 1793398804000,
+      "publishedAt": "2026-10-30T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New home for orangutans rescued from Indonesia's burning forests",
+      "url": "https://phys.org/news/2026-10-home-orangutans-indonesia-forests.html",
+      "summary": "Deep in a forest in Indonesian Borneo, conservationists open a cage. A female orangutan and her baby waste little time, clambering up the towering trees and disappearing into the canopy, safe at last.",
+      "ts": 1793396401000,
+      "publishedAt": "2026-10-30T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "For many, striped bass fishing is a way of life. But the iconic species could face collapse",
+      "url": "https://phys.org/news/2026-10-striped-bass-fishing-life-iconic.html",
+      "summary": "Striped bass fishing has been Bill Jakob's passion for more than 60 years, and he remembers an era when he'd spend all night casting his line into the crashing waves off Montauk and get eight or nine fish ranging up to 4…",
+      "ts": 1793395201000,
+      "publishedAt": "2026-10-30T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemists create disappearing tattoos: Here's the science behind how they work",
+      "url": "https://phys.org/news/2026-10-chemists-tattoos-science.html",
+      "summary": "How handy would it be if you could make your tattoos invisible for a job interview in the morning, and reveal them again for a party in the evening? This sounds like science fiction, but it may soon be reality.",
+      "ts": 1793394004000,
+      "publishedAt": "2026-10-30T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are narcissists multiplying or is the social media algorithm making them bolder? The answer in five stages",
+      "url": "https://phys.org/news/2026-10-narcissists-social-media-algorithm-bolder.html",
+      "summary": "Social media doesn't necessarily reflect who you are, but it may intensify particular personality traits and confirm or even persuade you that your worst behavior is justified.",
+      "ts": 1793392806000,
+      "publishedAt": "2026-10-30T20:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden erosion: Study reveals soft mountain rock erodes three times faster than hard rock—with climate implications",
+      "url": "https://phys.org/news/2026-10-hidden-erosion-reveals-soft-mountain.html",
+      "summary": "A University of Massachusetts Amherst-led research team has discovered that weaker rock in mountain landscapes erodes three times faster than harder rock—even on gentler slopes—and is one of the main attributes governing…",
+      "ts": 1793392801000,
+      "publishedAt": "2026-10-30T20:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tiny photonic chip links telescopes together to view the universe in 'astonishing' detail",
@@ -507,46 +563,6 @@
       "publishedAt": "2026-10-30T10:00:02.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Magnetically tunable telecommunication-wavelength emission from ${\\mathbf{Er}}^{\\mathbf{3}+}$ ions in layered ${\\mathbf{WS}}_{\\mathbf{2}}$",
-      "url": "http://link.aps.org/doi/10.1103/w7nd-vbtt",
-      "summary": "Author(s): Guadalupe García-Arellano, Gabriel I. López-Morales, Johannes Flick, Cyrus E. Dreyer, and Carlos A. Meriles Erbium ions (${\\mathrm{Er}}^{3+}$) provide a telecom-band optical transition with strong magnetic-dip…",
-      "ts": 1793354400000,
-      "publishedAt": "2026-10-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Broadband fluorescence collection efficiency enhancement system based on a short-focal-length metalens",
-      "url": "http://link.aps.org/doi/10.1103/sm6w-tcfv",
-      "summary": "Author(s): Ju Gao, Zhangziyi Jin, Zijun Wang, Yun Guo, and Xin Zheng Efficient fluorescence collection is essential for precise quantum measurements based on nitrogen-vacancy (NV) centers in diamond. However, photon extr…",
-      "ts": 1793354400000,
-      "publishedAt": "2026-10-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Selective state-space model for photon-energy estimation in microwave kinetic inductance detectors",
-      "url": "http://link.aps.org/doi/10.1103/hz16-xh69",
-      "summary": "Author(s): Benjamin A. Mazin Microwave kinetic inductance detectors (MKIDs) are superconducting photon counting detectors that simultaneously measure the energy and arrival time of individual photons and are suitable for…",
-      "ts": 1793354400000,
-      "publishedAt": "2026-10-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Extraordinary light transmission through a zero-mode waveguide at the Brewster angle",
-      "url": "http://link.aps.org/doi/10.1103/87b1-dsqy",
-      "summary": "Author(s): Arina M. Safonova, Alexey S. Kalmykov, Anton S. Gritchenko, Victor I. Balykin, Vasilii V. Klimov, and Pavel N. Melentiev In optics, Brewster’s effect is a significant phenomenon widely used in photonics and la…",
-      "ts": 1793354400000,
-      "publishedAt": "2026-10-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Measuring the complete set of spatial Schmidt modes of entangled two-photon fields",
-      "url": "http://link.aps.org/doi/10.1103/rwmz-jp7r",
-      "summary": "Author(s): Radhika Prasad, Nilakshi Senapati, Abhinandan Bhattacharjee, Suman Karan, and Anand K. Jha Spontaneous parametric down-conversion (SPDC) is the most widely used source of high-dimensional entangled two-photon …",
-      "ts": 1793354400000,
-      "publishedAt": "2026-10-30T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Rare-Event Quantum Sensing Using Logical Qubits",
       "url": "http://link.aps.org/doi/10.1103/q4lp-htgw",
@@ -631,6 +647,46 @@
       "title": "Plasmascopy of Ultrafast Hot Charge Carriers",
       "url": "http://link.aps.org/doi/10.1103/ctkf-wz2d",
       "summary": "Author(s): Dmitry A. Zimin, Raja Sen, Muhammad Qasim, Jelena Sjakste, and Vladislav S. Yakovlev We demonstrate an electric-field-resolved approach for probing ultrafast dynamics of photoinjected charge carriers in solids…",
+      "ts": 1793354400000,
+      "publishedAt": "2026-10-30T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Magnetically tunable telecommunication-wavelength emission from ${\\mathbf{Er}}^{\\mathbf{3}+}$ ions in layered ${\\mathbf{WS}}_{\\mathbf{2}}$",
+      "url": "http://link.aps.org/doi/10.1103/w7nd-vbtt",
+      "summary": "Author(s): Guadalupe García-Arellano, Gabriel I. López-Morales, Johannes Flick, Cyrus E. Dreyer, and Carlos A. Meriles Erbium ions (${\\mathrm{Er}}^{3+}$) provide a telecom-band optical transition with strong magnetic-dip…",
+      "ts": 1793354400000,
+      "publishedAt": "2026-10-30T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Broadband fluorescence collection efficiency enhancement system based on a short-focal-length metalens",
+      "url": "http://link.aps.org/doi/10.1103/sm6w-tcfv",
+      "summary": "Author(s): Ju Gao, Zhangziyi Jin, Zijun Wang, Yun Guo, and Xin Zheng Efficient fluorescence collection is essential for precise quantum measurements based on nitrogen-vacancy (NV) centers in diamond. However, photon extr…",
+      "ts": 1793354400000,
+      "publishedAt": "2026-10-30T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Selective state-space model for photon-energy estimation in microwave kinetic inductance detectors",
+      "url": "http://link.aps.org/doi/10.1103/hz16-xh69",
+      "summary": "Author(s): Benjamin A. Mazin Microwave kinetic inductance detectors (MKIDs) are superconducting photon counting detectors that simultaneously measure the energy and arrival time of individual photons and are suitable for…",
+      "ts": 1793354400000,
+      "publishedAt": "2026-10-30T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Extraordinary light transmission through a zero-mode waveguide at the Brewster angle",
+      "url": "http://link.aps.org/doi/10.1103/87b1-dsqy",
+      "summary": "Author(s): Arina M. Safonova, Alexey S. Kalmykov, Anton S. Gritchenko, Victor I. Balykin, Vasilii V. Klimov, and Pavel N. Melentiev In optics, Brewster’s effect is a significant phenomenon widely used in photonics and la…",
+      "ts": 1793354400000,
+      "publishedAt": "2026-10-30T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Measuring the complete set of spatial Schmidt modes of entangled two-photon fields",
+      "url": "http://link.aps.org/doi/10.1103/rwmz-jp7r",
+      "summary": "Author(s): Radhika Prasad, Nilakshi Senapati, Abhinandan Bhattacharjee, Suman Karan, and Anand K. Jha Spontaneous parametric down-conversion (SPDC) is the most widely used source of high-dimensional entangled two-photon …",
       "ts": 1793354400000,
       "publishedAt": "2026-10-30T10:00:00.000Z"
     },
@@ -743,62 +799,6 @@
       "title": "Automated identification of quasi-BIC modes in disordered resonator chains using spatial field envelopes and resonance descriptors",
       "url": "https://arxiv.org/abs/2610.37967",
       "summary": "arXiv:2610.37967v1 Announce Type: new Abstract: Structural disorder turns bound states in the continuum (BICs) into quasi-BIC resonances and mixes them with spectrally close eigenmodes, so the target mode must be identif…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solitary movement style predicts collective foraging while whom to follow emerges only in company",
-      "url": "https://arxiv.org/abs/2610.37978",
-      "summary": "arXiv:2610.37978v1 Announce Type: new Abstract: How far can behaviour inside a group, and the group's performance, be predicted from members measured while alone? We tested this on three public datasets of human collecti…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Optimal Seed Reveals the Dynamical Route to Spontaneous Splitting of Turbulent Puffs",
-      "url": "https://arxiv.org/abs/2610.38011",
-      "summary": "arXiv:2610.38011v1 Announce Type: new Abstract: The localized turbulence in pipe flow, known as puffs, is sustained by their proliferation. This process is crucial to the subcritical laminar-turbulent transition, a centu…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Why does the detonation cell size $\\lambda$ provide quasi-universal scaling of detonation dynamics?",
-      "url": "https://arxiv.org/abs/2610.38033",
-      "summary": "arXiv:2610.38033v1 Announce Type: new Abstract: The detonation cell size $\\lambda$ is known to provide a characteristic scale for the detonation dynamics and serves as scaling parameter for numerous correlations with oth…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Absolute calibration of scintillators for laser-driven ion spectroscopy using in situ CR-39 sampling detectors",
-      "url": "https://arxiv.org/abs/2610.38063",
-      "summary": "arXiv:2610.38063v1 Announce Type: new Abstract: Quantitative studies of laser-driven ion acceleration and laser-induced nuclear fusion require accurate measurements of ion yields and energy spectra. Although scintillator…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automated CR-39 pit detection for energy and angular characterization of laser-driven ion beams",
-      "url": "https://arxiv.org/abs/2610.38089",
-      "summary": "arXiv:2610.38089v1 Announce Type: new Abstract: Accurate characterization of ion beams from sub-MeV to multi-MeV energies is essential for diagnostics in laser-driven ion acceleration and fusion research. CR-39 detectors…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transition from laser Raman to Bernstein scattering in magnetized plasmas",
-      "url": "https://arxiv.org/abs/2610.38093",
-      "summary": "arXiv:2610.38093v1 Announce Type: new Abstract: When a laser backscatters from an external perpendicular magnetic field, stimulated Raman scattering transitions to stimulated Bernstein scattering, which we show using kin…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "El Agente Quntur: Agentic Active-Space Selection for CASSCF",
-      "url": "https://arxiv.org/abs/2610.38145",
-      "summary": "arXiv:2610.38145v1 Announce Type: new Abstract: Multireference calculations often require substantial human expertise and time to choose and refine an active space for the electronic states or chemical process of interes…",
       "ts": 1793332800000,
       "publishedAt": "2026-10-30T04:00:00.000Z"
     }
