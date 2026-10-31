@@ -77,7 +77,7 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
   },
     {
     id: "civilization-operating-system",
-    mark: "✡︎",
+    mark: "⌱",
     title: "CIVILIZATION OS",
     subtitle: "Reality-Connected. Correctable by Design.",
   },
