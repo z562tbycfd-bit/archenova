@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-31T06:45:04.970Z",
+  "updated": "2026-10-31T13:25:33.870Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rare fossil discovery reveals new dinosaur species that specialized in eating fruit",
+      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+      "summary": "Among the ravenous carnivores and lumbering herbivores that roamed the Cretaceous landscape, another kind of dinosaur was evolving that started to eat something else: the plants that began to flower and produce fruit. Th…",
+      "ts": 1793451602000,
+      "publishedAt": "2026-10-31T13:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Molecular armor' can trap shape-matched planar molecules",
+      "url": "https://phys.org/news/2026-10-molecular-armor-planar-molecules.html",
+      "summary": "A research team has designed and synthesized a molecular cage with an internal cavity by connecting two curved π-conjugated molecules face-to-face at three points.",
+      "ts": 1793448001000,
+      "publishedAt": "2026-10-31T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young Canadians focus on mental health at key climate trial",
+      "url": "https://phys.org/news/2026-10-young-canadians-focus-mental-health.html",
+      "summary": "At a landmark Canadian trial focused on the government's obligations to fight climate change, the young plaintiffs suing Ottawa over alleged policy failures have sought to focus attention on their mental health.",
+      "ts": 1793444407000,
+      "publishedAt": "2026-10-31T11:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nations commit to get nature goals back on track",
+      "url": "https://phys.org/news/2026-10-nations-commit-nature-goals-track.html",
+      "summary": "Nearly 200 nations struck hard-fought agreements Friday at a U.N. biodiversity summit, but the outcome was accompanied by disappointment over missed opportunities to address humanity's destructive toll on nature.",
+      "ts": 1793443022000,
+      "publishedAt": "2026-10-31T10:37:02.000Z"
+    },
     {
       "source": "arXiv AI",
       "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
@@ -767,38 +799,6 @@
       "title": "AgentDecept: Benchmarking Deceptive Behavior in Tool-Using LLM Agents under Pressure",
       "url": "https://arxiv.org/abs/2610.39377",
       "summary": "arXiv:2610.39377v1 Announce Type: new Abstract: LLM agents increasingly carry out multi-turn tasks across everyday applications, yet users often see only the agent's report rather than the observations, API calls, and st…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Retaining Repair Hypotheses for Cost-Aware Execution",
-      "url": "https://arxiv.org/abs/2610.39410",
-      "summary": "arXiv:2610.39410v1 Announce Type: new Abstract: Several corrections of an executable model can fit the same observations while predicting different execution outcomes. We study a repair-to-execution interface that retain…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Verifiable LLM-Guided Focal SMT Solving for Quantified Arrays",
-      "url": "https://arxiv.org/abs/2610.39435",
-      "summary": "arXiv:2610.39435v1 Announce Type: new Abstract: Large language models can often identify useful semantic structure in formal artifacts, but their outputs cannot be trusted as proofs or solver decisions. We study whether …",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search",
-      "url": "https://arxiv.org/abs/2610.39438",
-      "summary": "arXiv:2610.39438v1 Announce Type: new Abstract: Reliable local search is essential for LLM agents to support everyday decisions and longer plans by finding places that meet users' needs at given times and locations. Yet …",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Timbre: Reliability-aware harmonic consensus for label-free multimodal test-time rexinforcement learning",
-      "url": "https://arxiv.org/abs/2610.39439",
-      "summary": "arXiv:2610.39439v1 Announce Type: new Abstract: Label-free test-time reinforcement learning adapts vision--language models using rewards derived from their own predictions. However, misinterpreted visual evidence and sen…",
       "ts": 1793419200000,
       "publishedAt": "2026-10-31T04:00:00.000Z"
     }
