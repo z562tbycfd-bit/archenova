@@ -4461,6 +4461,42 @@ export default function ArcheNovaValleyPortal() {
 
         }
 
+        /* ==================================================
+   STABLE INTERNAL STACKING
+   ================================================== */
+
+@media (min-width: 1025px) {
+
+  .an-valley-portal__card::before {
+    z-index: 0;
+  }
+
+  .an-valley-portal__ambient {
+    z-index: 0;
+  }
+
+  .an-valley-portal__stars {
+    z-index: 0;
+  }
+
+  .an-valley-portal__reflection {
+    z-index: 0;
+  }
+
+  .an-valley-portal__top {
+    z-index: 2;
+  }
+
+  .an-valley-portal__experience {
+    z-index: 2;
+  }
+
+  .an-valley-portal__footer {
+    z-index: 2;
+  }
+
+}
+
       `}</style>
 
     </section>

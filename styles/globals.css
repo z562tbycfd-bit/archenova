@@ -73929,79 +73929,151 @@ main.cos-workspace .cos-panel {
 
 /* ==========================================================
    ARCHENOVA VALLEY
-   OBSIDIAN GLASS / BACKGROUND ATTENUATION
+   DESKTOP PERMANENT OBSIDIAN SURFACE
 
-   One glass surface.
-   Background remains subtly perceptible.
-   Civilization city remains clear.
-========================================================== */
+   Purpose:
+   - Keep the first screenshot's visual state
+   - Prevent underlying HOME artwork from showing
+   - Stabilize compositing and stacking
+   - Preserve the civilization gateway
+   - Preserve click navigation and transition
+   ========================================================== */
 
-main#home-top.an-home-2026.home-snap.archenova-twin-home
-> section#archenova-valley.an-home-2026__section {
-  position: relative !important;
-  isolation: isolate !important;
+@media (min-width: 1025px) {
 
-  background:
-    linear-gradient(
-      155deg,
-      rgba(0, 0, 0, 0.965) 0%,
-      rgba(2, 3, 5, 0.975) 48%,
-      rgba(0, 0, 0, 0.985) 100%
-    ) !important;
+  /* ========================================================
+     1. SINGLE OPAQUE OUTER SURFACE
+     ======================================================== */
 
-  background-image:
-    linear-gradient(
-      155deg,
-      rgba(0, 0, 0, 0.965) 0%,
-      rgba(2, 3, 5, 0.975) 48%,
-      rgba(0, 0, 0, 0.985) 100%
-    ) !important;
-
-  -webkit-backdrop-filter:
-    blur(48px)
-    saturate(35%)
-    brightness(0.48) !important;
-
-  backdrop-filter:
-    blur(48px)
-    saturate(35%)
-    brightness(0.48) !important;
-
-  border:
-    1px solid rgba(12, 13, 15, 0.96) !important;
-
-  border-radius: 30px !important;
-}
-
-/* Keep the inner canvas transparent */
-
-main#home-top.an-home-2026.home-snap.archenova-twin-home
-> section#archenova-valley.an-home-2026__section
-> .an-home-2026__glass {
-  background: transparent !important;
-  background-image: none !important;
-
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-
-  box-shadow: none !important;
-}
-
-/* Mobile */
-
-@media (max-width: 768px) {
-  main#home-top.an-home-2026.home-snap.archenova-twin-home
+  main#home-top.an-home-2026.archenova-twin-home
   > section#archenova-valley.an-home-2026__section {
-    border-radius: 24px !important;
+    position: relative !important;
+    isolation: isolate !important;
 
-    -webkit-backdrop-filter:
-      blur(36px)
-      saturate(35%)
-      brightness(0.45) !important;
+    background: #020203 !important;
+    background-image: none !important;
 
-    backdrop-filter:
-      blur(36px)
-      saturate(35%)
-      brightness(0.45) !important;
+    border: 1px solid rgba(12, 13, 15, 0.96) !important;
+    border-radius: 30px !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.01),
+      0 0 0 1px rgba(0, 0, 0, 0.4),
+      0 8px 28px rgba(0, 0, 0, 0.16) !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+
+    overflow: hidden !important;
   }
+
+  /* ========================================================
+     2. REMOVE SECONDARY GLASS EFFECTS
+     ======================================================== */
+
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-valley
+  > .an-home-2026__glass {
+    position: relative !important;
+
+    width: 100%;
+    min-width: 0;
+
+    background: transparent !important;
+    background-image: none !important;
+
+    border: 0 !important;
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+
+    isolation: isolate;
+  }
+
+  /* ========================================================
+     3. STABILIZE VALLEY ROOT
+     ======================================================== */
+
+  #archenova-valley .an-valley-portal {
+    position: relative !important;
+    isolation: isolate !important;
+
+    background: #020203 !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  /* ========================================================
+     4. MAKE INTERNAL CANVAS OPAQUE
+
+     The canvas is not a second card.
+     It receives no border or shadow.
+     ======================================================== */
+
+  #archenova-valley .an-valley-portal__card {
+    position: relative !important;
+    isolation: isolate !important;
+
+    background:
+      radial-gradient(
+        ellipse at 50% 56%,
+        #0b0c0e 0%,
+        #050506 38%,
+        #020203 76%,
+        #000000 100%
+      ) !important;
+
+    border: 0 !important;
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  /* ========================================================
+     5. PREVENT DECORATIVE LAYERS FROM
+        INTERFERING WITH INTERACTION
+     ======================================================== */
+
+  #archenova-valley .an-valley-portal__ambient,
+  #archenova-valley .an-valley-portal__stars,
+  #archenova-valley .an-valley-portal__reflection {
+    pointer-events: none !important;
+  }
+
+  /* ========================================================
+     6. KEEP THE MAIN EXPERIENCE ABOVE BACKGROUND
+     ======================================================== */
+
+  #archenova-valley .an-valley-portal__top,
+  #archenova-valley .an-valley-portal__experience,
+  #archenova-valley .an-valley-portal__footer {
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ========================================================
+     7. KEEP THE CITY BUTTON INTERACTIVE
+     ======================================================== */
+
+  #archenova-valley .an-valley-portal__city-button {
+    position: relative;
+    z-index: 3;
+
+    pointer-events: auto;
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
