@@ -75,6 +75,12 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     title: "ARCHITECTURE",
     subtitle: "What is the Architecture?",
   },
+    {
+    id: "civilization-operating-system",
+    mark: "⚙︎",
+    title: "CIVILIZATION OS",
+    subtitle: "Reality-Connected. Correctable by Design.",
+  },
 ];
 
 /* ==========================================================

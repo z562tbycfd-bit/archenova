@@ -6,7 +6,6 @@ import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import TodaysInquiryPortal from "../components/TodaysInquiryPortal";
 import HumanityResponsibilityPortal from "../components/HumanityResponsibilityPortal";
-import ArcheNovaMap from "../components/civilization/ArcheNovaMap";
 import CivilizationSpacePortal from "../components/CivilizationSpacePortal";
 import ArcheNovaValleyPortal from "../components/ArcheNovaValleyPortal";
 import WorkModelsPortal from "../components/WorkModelsPortal";
@@ -15,6 +14,7 @@ import ContinuityHomePortal from "../components/home/ContinuityHomePortal";
 import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
 import OryvanthCivilizationPortal from "../components/home/OryvanthCivilizationPortal";
 import CivilizationalRelationsPortal from "../components/home/CivilizationalRelationsPortal";
+import CivilizationOSPortal from "../components/home/CivilizationOSPortal";
 
 /* ==========================================================
    ORYVANTH CIVILIZATION / FIRST HOME SECTION
@@ -1019,6 +1019,9 @@ export default function HomePage() {
           <ArcheNovaValleyPortal />
         </div>
       </section>
+
+         {/* 10 — CIVILIZATION OPERATING SYSTEM */}
+     <CivilizationOSPortal />
 
       {/* HOME FOOTER */}
       <ArcheNovaHomeFooter />

@@ -72863,3 +72863,1067 @@ main.an-rp .an-rp-footer {
 /* ==========================================================
    END — FULL-SCREEN RESEARCH EDITORIAL
 ========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION OPERATING SYSTEM
+   HOME PORTAL — GLOBAL STYLES
+
+   All frame and visual styling managed here.
+
+   - Independent obsidian glass frame
+   - Separation from ArcheNova Valley and HOME Footer
+   - No secondary glass frame
+   - Preserved typography and content layout
+   - Responsive mobile design
+========================================================== */
+
+/* ==========================================================
+   01 / INDEPENDENT OUTER FRAME
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home
+> section#civilization-operating-system.an-cos-home {
+  position: relative !important;
+  isolation: isolate;
+
+  width: auto;
+  height: auto !important;
+  min-height: 0 !important;
+
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+
+  padding: clamp(14px, 2.5vw, 36px) !important;
+
+  border: 1px solid rgba(32, 37, 45, 0.96) !important;
+  border-radius: 30px !important;
+
+  background:
+    linear-gradient(
+      155deg,
+      rgba(0, 0, 0, 0.82) 0%,
+      rgba(3, 5, 8, 0.88) 48%,
+      rgba(0, 0, 0, 0.93) 100%
+    ) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.025),
+    0 0 0 1px rgba(0, 0, 0, 0.35),
+    0 12px 38px rgba(0, 0, 0, 0.20)
+    !important;
+
+  -webkit-backdrop-filter:
+    blur(28px) saturate(72%) !important;
+
+  backdrop-filter:
+    blur(28px) saturate(72%) !important;
+
+  overflow: hidden;
+}
+
+/* ==========================================================
+   02 / REMOVE SECONDARY GLASS FRAME
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home
+> section#civilization-operating-system
+> .an-cos-home__glass {
+  position: relative;
+
+  width: 100%;
+  height: auto;
+  min-height: 0 !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  overflow: hidden;
+}
+
+/* ==========================================================
+   03 / BASE
+========================================================== */
+
+.an-cos-home,
+.an-cos-home * {
+  box-sizing: border-box;
+}
+
+.an-cos-home {
+  color: #e9ebef;
+}
+
+/* ==========================================================
+   04 / ATMOSPHERE
+========================================================== */
+
+.an-cos-home__atmosphere {
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.an-cos-home__halo {
+  position: absolute;
+
+  width: min(75vw, 750px);
+  aspect-ratio: 1;
+
+  top: -260px;
+  right: -230px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(106, 126, 151, 0.10),
+      rgba(60, 73, 91, 0.035) 42%,
+      transparent 72%
+    );
+}
+
+.an-cos-home__orbit {
+  position: absolute;
+
+  width: min(65vw, 680px);
+  aspect-ratio: 1;
+
+  right: -260px;
+  top: -250px;
+
+  border: 1px solid rgba(180, 195, 215, 0.09);
+  border-radius: 50%;
+
+  transform: rotate(-22deg) scaleY(0.75);
+}
+
+.an-cos-home__orbit--two {
+  transform: rotate(34deg) scaleY(0.65);
+}
+
+.an-cos-home__orbit--three {
+  transform: rotate(78deg) scaleY(0.8);
+}
+
+/* ==========================================================
+   05 / CONTENT LAYOUT
+========================================================== */
+
+.an-cos-home__layout {
+  position: relative;
+  z-index: 1;
+
+  width: min(100%, 1280px);
+
+  height: auto;
+  min-height: 0;
+  max-height: none;
+
+  margin: 0 auto;
+
+  padding:
+    clamp(32px, 5.5vw, 90px)
+    clamp(12px, 3vw, 48px);
+
+  overflow-wrap: anywhere;
+}
+
+.an-cos-home__header {
+  max-width: 950px;
+}
+
+/* ==========================================================
+   06 / EYEBROW
+========================================================== */
+
+.an-cos-home__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  margin-bottom: clamp(28px, 4vw, 56px);
+
+  font-size: 10px;
+  letter-spacing: 0.24em;
+
+  color: rgba(207, 216, 229, 0.64);
+}
+
+.an-cos-home__eyebrow-line {
+  width: 32px;
+  height: 1px;
+
+  background: rgba(200, 211, 225, 0.5);
+}
+
+/* ==========================================================
+   07 / TITLE
+========================================================== */
+
+.an-cos-home__title {
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(43px, 7vw, 104px);
+  font-weight: 400;
+
+  line-height: 0.99;
+  letter-spacing: -0.055em;
+
+  color: #f1f1f3;
+}
+
+.an-cos-home__title span {
+  display: block;
+
+  margin-top: 0.08em;
+
+  color: rgba(219, 227, 238, 0.78);
+}
+
+/* ==========================================================
+   08 / INTRODUCTION
+========================================================== */
+
+.an-cos-home__statement {
+  margin: clamp(28px, 4vw, 52px) 0 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(19px, 2.5vw, 32px);
+  font-weight: 400;
+
+  line-height: 1.45;
+
+  color: rgba(235, 237, 241, 0.92);
+}
+
+.an-cos-home__description {
+  max-width: 720px;
+
+  margin: 22px 0 0;
+
+  font-size: clamp(13px, 1.1vw, 15px);
+  line-height: 2;
+
+  color: rgba(204, 211, 221, 0.72);
+}
+
+.an-cos-home__principle {
+  max-width: 800px;
+
+  margin: 32px 0 0;
+  padding-left: 22px;
+
+  border-left:
+    1px solid rgba(185, 200, 220, 0.32);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(16px, 1.6vw, 21px);
+  font-style: italic;
+
+  line-height: 1.7;
+
+  color: rgba(229, 233, 239, 0.79);
+}
+
+/* ==========================================================
+   09 / CIVILIZATION SYSTEMS
+========================================================== */
+
+.an-cos-home__body {
+  margin-top: clamp(64px, 8vw, 120px);
+
+  overflow-wrap: anywhere;
+}
+
+.an-cos-home__section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+
+  padding-bottom: 18px;
+
+  border-bottom:
+    1px solid rgba(220, 230, 240, 0.18);
+
+  font-size: 10px;
+  letter-spacing: 0.2em;
+
+  color: rgba(207, 215, 227, 0.62);
+}
+
+.an-cos-home__systems {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  column-gap: clamp(24px, 5vw, 80px);
+
+  margin-top: 10px;
+}
+
+.an-cos-home__system {
+  display: flex;
+  gap: 22px;
+
+  align-items: baseline;
+
+  min-width: 0;
+
+  padding: 24px 0;
+
+  border-bottom:
+    1px solid rgba(220, 230, 240, 0.10);
+}
+
+.an-cos-home__system-number {
+  flex-shrink: 0;
+
+  font-size: 11px;
+
+  color: rgba(181, 198, 218, 0.52);
+}
+
+.an-cos-home__system-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  min-width: 0;
+}
+
+.an-cos-home__system-copy strong {
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(17px, 1.6vw, 22px);
+  font-weight: 400;
+
+  color: rgba(238, 240, 243, 0.94);
+}
+
+.an-cos-home__system-copy small {
+  font-size: 12px;
+  line-height: 1.7;
+
+  color: rgba(192, 201, 213, 0.60);
+}
+
+/* ==========================================================
+   10 / HISTORICAL FOUNDATION
+========================================================== */
+
+.an-cos-home__foundation {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  gap: 13px;
+
+  margin-top: clamp(50px, 6vw, 86px);
+  padding: 28px 0;
+
+  border-top:
+    1px solid rgba(220, 230, 240, 0.16);
+
+  border-bottom:
+    1px solid rgba(220, 230, 240, 0.16);
+}
+
+.an-cos-home__foundation-label,
+.an-cos-home__execution-label {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+
+  color: rgba(186, 201, 219, 0.62);
+}
+
+.an-cos-home__foundation strong {
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(22px, 2.6vw, 34px);
+  font-weight: 400;
+}
+
+.an-cos-home__foundation p {
+  max-width: 800px;
+
+  margin: 0;
+
+  font-size: 13px;
+  line-height: 1.9;
+
+  color: rgba(202, 210, 222, 0.72);
+}
+
+/* ==========================================================
+   11 / FIRST RESEARCH OBJECTIVE
+========================================================== */
+
+.an-cos-home__execution {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 40px;
+
+  margin-top: clamp(52px, 6vw, 90px);
+}
+
+.an-cos-home__execution > div {
+  max-width: 650px;
+}
+
+.an-cos-home__execution h3 {
+  margin: 18px 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(24px, 3vw, 40px);
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+.an-cos-home__execution p {
+  margin: 0;
+
+  font-size: 13px;
+  line-height: 1.9;
+
+  color: rgba(200, 210, 222, 0.7);
+}
+
+/* ==========================================================
+   12 / ENTER WORKSPACE
+========================================================== */
+
+.an-cos-home__enter {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 32px;
+  flex-shrink: 0;
+
+  min-height: 56px;
+
+  padding: 18px 22px;
+
+  border:
+    1px solid rgba(205, 219, 235, 0.32);
+
+  border-radius: 3px;
+
+  background:
+    rgba(215, 225, 240, 0.055);
+
+  color: #e8edf4;
+
+  text-decoration: none;
+
+  font-size: 10px;
+  letter-spacing: 0.13em;
+
+  transition:
+    background 200ms ease,
+    border-color 200ms ease,
+    transform 200ms ease;
+}
+
+.an-cos-home__enter:hover {
+  background:
+    rgba(215, 225, 240, 0.12);
+
+  border-color:
+    rgba(220, 230, 245, 0.58);
+
+  transform: translateY(-2px);
+}
+
+.an-cos-home__enter:focus-visible {
+  outline: 2px solid #b5c5d9;
+  outline-offset: 4px;
+}
+
+/* ==========================================================
+   13 / FOOTER
+========================================================== */
+
+.an-cos-home__footer {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 30px;
+
+  margin-top: clamp(64px, 8vw, 120px);
+  padding-top: 22px;
+
+  border-top:
+    1px solid rgba(220, 230, 240, 0.13);
+
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  line-height: 1.8;
+
+  color: rgba(185, 198, 215, 0.50);
+}
+
+/* ==========================================================
+   14 / TABLET
+========================================================== */
+
+@media (max-width: 800px) {
+  .an-cos-home__systems {
+    grid-template-columns: 1fr;
+  }
+
+  .an-cos-home__execution {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .an-cos-home__enter {
+    width: 100%;
+  }
+}
+
+/* ==========================================================
+   15 / MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#civilization-operating-system.an-cos-home {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+
+    padding: 14px !important;
+
+    border-radius: 24px !important;
+  }
+
+  .an-cos-home__layout {
+    padding: 36px 10px 40px;
+  }
+
+  .an-cos-home__title {
+    font-size: clamp(40px, 10vw, 64px);
+    overflow-wrap: anywhere;
+  }
+
+  .an-cos-home__system {
+    padding: 20px 0;
+  }
+
+  .an-cos-home__footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* ==========================================================
+   16 / REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .an-cos-home__enter {
+    transition: none;
+  }
+
+  .an-cos-home__enter:hover {
+    transform: none;
+  }
+}
+
+
+
+
+/* ==========================================================
+   CIVILIZATION OS / OBSIDIAN BLACK FRAME
+   Harmonized with ArcheNova's black background
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home
+> section#civilization-operating-system.an-cos-home {
+  position: relative !important;
+  isolation: isolate;
+
+  width: auto;
+  height: auto !important;
+  min-height: 0 !important;
+
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+
+  padding: clamp(14px, 2.5vw, 36px) !important;
+
+  /* Nearly invisible obsidian edge */
+  border: 1px solid rgba(12, 13, 15, 0.96) !important;
+  border-radius: 30px !important;
+
+  /* Deep black glass */
+  background:
+    linear-gradient(
+      155deg,
+      rgba(0, 0, 0, 0.82) 0%,
+      rgba(1, 2, 3, 0.86) 48%,
+      rgba(0, 0, 0, 0.90) 100%
+    ) !important;
+
+  /* Restrained depth without a bright outline */
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.010),
+    0 0 0 1px rgba(0, 0, 0, 0.40),
+    0 8px 28px rgba(0, 0, 0, 0.16)
+    !important;
+
+  -webkit-backdrop-filter:
+    blur(28px) saturate(70%) !important;
+
+  backdrop-filter:
+    blur(28px) saturate(70%) !important;
+
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ArcheNova Civilization OS — fullscreen black responsive override.
+   Append at the END of app/globals.css. Scoped to the Civilization OS page. */
+html:has(main.cos-workspace),
+body:has(main.cos-workspace) {
+  background: #000 !important;
+  overflow-x: clip;
+}
+
+main.cos-workspace {
+  position: relative;
+  width: 100vw !important;
+  width: 100dvw !important;
+  max-width: none !important;
+  min-width: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin-inline: calc(50% - 50vw) !important;
+  padding: 0 !important;
+  background: #000 !important;
+  color: #e9eaec;
+  overflow-x: clip;
+}
+
+main.cos-workspace .cos-shell {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0;
+  margin: 0 !important;
+  padding: clamp(22px, 3vw, 52px) clamp(18px, 3.2vw, 72px) clamp(80px, 8vw, 150px) !important;
+}
+
+main.cos-workspace .cos-hero {
+  max-width: 1120px;
+  padding-block: clamp(72px, 9vh, 140px) clamp(58px, 8vh, 110px);
+}
+
+main.cos-workspace .cos-columns {
+  grid-template-columns: minmax(340px, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(14px, 1.6vw, 28px);
+}
+
+main.cos-workspace .cos-panel {
+  min-width: 0;
+  border: 1px solid rgba(255, 255, 255, 0.105);
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(17,17,17,0.94), rgba(4,4,4,0.98)) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.025), 0 18px 48px rgba(0,0,0,0.28);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+main.cos-workspace .cos-metrics > div,
+main.cos-workspace .cos-checks > div {
+  background: #080808;
+  border-color: rgba(255,255,255,0.11);
+}
+
+main.cos-workspace .cos-field input,
+main.cos-workspace .cos-field select {
+  background: #080808;
+  border-color: rgba(255,255,255,0.20);
+  color: #f2f2f2;
+}
+
+main.cos-workspace .cos-top,
+main.cos-workspace .cos-table-scroll th,
+main.cos-workspace .cos-table-scroll td,
+main.cos-workspace .cos-footer {
+  border-color: rgba(255,255,255,0.12);
+}
+
+main.cos-workspace .cos-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+main.cos-workspace .cos-method {
+  max-width: 1120px;
+}
+
+@media (min-width: 1800px) {
+  main.cos-workspace .cos-columns {
+    grid-template-columns: minmax(440px, 0.78fr) minmax(0, 1.22fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  main.cos-workspace .cos-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  main.cos-workspace .cos-shell {
+    padding-inline: clamp(18px, 3vw, 34px) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  main.cos-workspace .cos-shell {
+    padding: 18px 14px 90px !important;
+  }
+  main.cos-workspace .cos-panel {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+  main.cos-workspace .cos-fields,
+  main.cos-workspace .cos-checks {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  main.cos-workspace .cos-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  main.cos-workspace .cos-hero h1 {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 360px) {
+  main.cos-workspace .cos-metrics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main.cos-workspace *,
+  main.cos-workspace *::before,
+  main.cos-workspace *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ArcheNova Civilization OS
+   Disable Component Blur
+   ========================================================== */
+
+/* Civilization OSの各Component枠 */
+main.cos-workspace .cos-panel,
+main.cos-workspace .cos-metrics > div,
+main.cos-workspace .cos-checks > div,
+main.cos-workspace .cos-method {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  filter: none !important;
+}
+
+/* パネルの疑似要素によるぼかしも解除 */
+main.cos-workspace .cos-panel::before,
+main.cos-workspace .cos-panel::after {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  filter: none !important;
+}
+
+/* 枠の輪郭を明確にする */
+main.cos-workspace .cos-panel {
+  background: #080808 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.025),
+    0 12px 32px rgba(0, 0, 0, 0.24) !important;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ArcheNova Civilization OS
+   Premium Enter Portal — Refined Black
+   ========================================================== */
+
+/* 研究説明とEnterの配置を統一 */
+#civilization-operating-system .an-cos-home__execution {
+  width: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: clamp(30px, 4vw, 54px) !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+/* 研究説明の中央配置 */
+#civilization-operating-system .an-cos-home__execution > div {
+  width: 100%;
+  max-width: 740px !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+#civilization-operating-system .an-cos-home__execution h3,
+#civilization-operating-system .an-cos-home__execution p {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Enter：高級感のある黒いピル型 */
+#civilization-operating-system .an-cos-home__enter {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: fit-content !important;
+  min-width: min(100%, 270px) !important;
+  max-width: 100% !important;
+  min-height: 58px !important;
+
+  gap: clamp(20px, 3vw, 42px) !important;
+  padding: 17px 30px !important;
+
+  border: 1px solid rgba(230, 235, 243, 0.22) !important;
+  border-radius: 999px !important;
+
+  background: #0b0b0b !important;
+  background-image: none !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.045),
+    0 8px 22px rgba(0,0,0,0.18) !important;
+
+  color: rgba(244,246,249,0.92) !important;
+  text-decoration: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  filter: none !important;
+
+  transition:
+    background-color 220ms ease,
+    border-color 220ms ease,
+    transform 220ms ease !important;
+}
+
+/* Enterテキスト */
+#civilization-operating-system .an-cos-home__enter span:first-child {
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.15em !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+/* 右上矢印 */
+#civilization-operating-system .an-cos-home__enter span:last-child {
+  flex-shrink: 0;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  line-height: 1 !important;
+  opacity: 0.65;
+  transition:
+    transform 220ms ease,
+    opacity 220ms ease;
+}
+
+/* Hover */
+@media (hover: hover) {
+  #civilization-operating-system .an-cos-home__enter:hover {
+    background: #151515 !important;
+    border-color: rgba(240,244,250,0.42) !important;
+    transform: translateY(-2px);
+  }
+
+  #civilization-operating-system
+  .an-cos-home__enter:hover span:last-child {
+    transform: translate(2px,-2px);
+    opacity: 1;
+  }
+}
+
+/* キーボード操作 */
+#civilization-operating-system .an-cos-home__enter:focus-visible {
+  outline: 2px solid rgba(220,230,245,0.8) !important;
+  outline-offset: 5px;
+}
+
+/* スマートフォン */
+@media (max-width: 600px) {
+  #civilization-operating-system .an-cos-home__execution {
+    gap: 30px !important;
+  }
+
+  #civilization-operating-system .an-cos-home__enter {
+    width: min(100%, 340px) !important;
+    min-width: 0 !important;
+    padding: 17px 22px !important;
+  }
+}
+
+/* 動きを減らす設定 */
+@media (prefers-reduced-motion: reduce) {
+  #civilization-operating-system .an-cos-home__enter,
+  #civilization-operating-system .an-cos-home__enter span {
+    transition: none !important;
+  }
+
+  #civilization-operating-system .an-cos-home__enter:hover {
+    transform: none !important;
+  }
+}
+
+
+
+/* ==========================================================
+   ArcheNova Civilization OS
+   Historical Research Foundation — Center Alignment
+   ========================================================== */
+
+#civilization-operating-system .an-cos-home__foundation {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 100%;
+  text-align: center !important;
+}
+
+/* Historical Research Foundation */
+#civilization-operating-system
+.an-cos-home__foundation-label {
+  display: block;
+  width: 100%;
+  text-align: center !important;
+}
+
+/* Uruk · Ancient Mesopotamia */
+#civilization-operating-system
+.an-cos-home__foundation > strong {
+  display: block;
+  width: 100%;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+/* 説明文 */
+#civilization-operating-system
+.an-cos-home__foundation > p {
+  width: 100%;
+  max-width: 780px;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
