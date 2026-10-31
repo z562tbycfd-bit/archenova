@@ -1,6 +1,281 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-calling-species-invasive-and-culling-them-isn-t-done-lightly-but-it-matters-to-a",
+    "title": "Calling species 'invasive'—and culling them—isn't done lightly. But it matters to Australia's threatened species",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-10-species-invasive-culling-isnt-australia.html",
+    "summary": "It may sound abstract, but distinctions between \"native,\" \"introduced\" or \"invasive\" species can often be life or death. Species considered invasive in Australia—such as European rabbits and feral pigs—are often culled, …",
+    "coreInsight": "Calling species 'invasive'—and culling them—isn't done lightly. But it matters to Australia's threatened species is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "It may sound abstract, but distinctions between \"native,\" \"introduced\" or \"invasive\" species can often be life or death. Species considered invasive in Australia—such as European rabbits and feral pigs—are often culled, …",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1793469605000
+  },
+  {
+    "slug": "ai-ultracold-atoms-simulate-hard-to-observe-matter-antimatter-pair-production",
+    "title": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html",
+    "summary": "According to quantum electrodynamics, the theory describing interactions between light and electrically charged particles, a sufficiently strong electric field can, in principle, convert some of its energy into particles…",
+    "coreInsight": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "According to quantum electrodynamics, the theory describing interactions between light and electrically charged particles, a sufficiently strong electric field can, in principle, convert some of its energy into particles…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1793466001000
+  },
+  {
+    "slug": "quantum-four-superconducting-cables-link-two-large-quantum-processors-into-one",
+    "title": "Four superconducting cables link two large quantum processors into one",
+    "category": "Quantum",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html",
+    "summary": "As quantum computers grow more ambitious, many researchers believe the best way forward is to build them in multiple interconnected parts. In these modular designs, separate quantum processors are linked so they can work…",
+    "coreInsight": "Four superconducting cables link two large quantum processors into one indicates a possible shift in computation, AI infrastructure, chips, data systems, automation, or strategic intelligence capacity.",
+    "scientificSignal": "As quantum computers grow more ambitious, many researchers believe the best way forward is to build them in multiple interconnected parts. In these modular designs, separate quantum processors are linked so they can work…",
+    "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
+    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
+    "strategicRelevance": "Strategically relevant for AI infrastructure, semiconductors, cloud platforms, data centers, simulation systems, automation, and institutional decision intelligence.",
+    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
+    "capitalImplication": "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud systems, data centers, model deployment, and computational platforms.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Compute cost",
+      "Energy demand",
+      "Hardware availability",
+      "Security, safety, and governance constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
+    "technologyRoadmap": [
+      "Computational architecture",
+      "Hardware or model optimization",
+      "Platform deployment",
+      "Institutional and industrial adoption",
+      "Civilization-scale prediction capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Deployment into research and enterprise systems.",
+      "mid": "5–15 Years: Infrastructure-scale computational integration.",
+      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "Very High",
+      "timeHorizon": "3–10 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8,
+      "engineering": 9.2,
+      "economic": 9.1,
+      "civilization": 9,
+      "overall": 8.8,
+      "classification": "Intelligence Infrastructure Signal"
+    },
+    "ts": 1793462402000
+  },
+  {
+    "slug": "general-rare-iron-age-celtic-helmet-discovered-in-northeastern-poland-far-from-its-homel",
+    "title": "Rare Iron Age Celtic helmet discovered in northeastern Poland far from its homeland",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-10-rare-iron-age-celtic-helmet.html",
+    "summary": "Around 2,400 years ago, at Łysa Góra in Poland, a group of people took a bronze helmet, crushed it, broke it into pieces and threw it into a pit with iron adzes and a scythe. Such helmets are sometimes found in lavish gr…",
+    "coreInsight": "Rare Iron Age Celtic helmet discovered in northeastern Poland far from its homeland is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Around 2,400 years ago, at Łysa Góra in Poland, a group of people took a bronze helmet, crushed it, broke it into pieces and threw it into a pit with iron adzes and a scythe. Such helmets are sometimes found in lavish gr…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1793458806000
+  },
+  {
+    "slug": "space-new-gel-fuel-could-make-rocket-and-satellite-propulsion-easier-to-control",
+    "title": "New gel fuel could make rocket and satellite propulsion easier to control",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-10-gel-fuel-rocket-satellite-propulsion.html",
+    "summary": "A kerosene-based gel developed by Concordia researchers could make rocket and satellite fuels easier to store and control.",
+    "coreInsight": "New gel fuel could make rocket and satellite propulsion easier to control indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "A kerosene-based gel developed by Concordia researchers could make rocket and satellite fuels easier to store and control.",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1793458801000
+  },
+  {
     "slug": "general-rare-fossil-discovery-reveals-new-dinosaur-species-that-specialized-in-eating-fr",
     "title": "Rare fossil discovery reveals new dinosaur species that specialized in eating fruit",
     "category": "General",
@@ -109,6 +384,61 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1793448001000
+  },
+  {
+    "slug": "general-dpr-korea-isolation-deepens-even-as-the-country-changes-says-un-rights-official",
+    "title": "DPR Korea: Isolation deepens even as the country changes, says UN rights official",
+    "category": "General",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/10/1168690",
+    "summary": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the ou…",
+    "coreInsight": "DPR Korea: Isolation deepens even as the country changes, says UN rights official indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the ou…",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.3,
+      "engineering": 8.7,
+      "economic": 9.2,
+      "civilization": 9.8,
+      "overall": 9.3,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1793448000000
   },
   {
     "slug": "ai-somalia-looks-to-the-future-as-the-un-s-political-mission-closes",
@@ -4635,6 +4965,61 @@ export const generatedResearchReports =
 export const archeNovaTopSignals =
 [
   {
+    "slug": "space-new-gel-fuel-could-make-rocket-and-satellite-propulsion-easier-to-control",
+    "title": "New gel fuel could make rocket and satellite propulsion easier to control",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-10-gel-fuel-rocket-satellite-propulsion.html",
+    "summary": "A kerosene-based gel developed by Concordia researchers could make rocket and satellite fuels easier to store and control.",
+    "coreInsight": "New gel fuel could make rocket and satellite propulsion easier to control indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "A kerosene-based gel developed by Concordia researchers could make rocket and satellite fuels easier to store and control.",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1793458801000
+  },
+  {
     "slug": "ai-nasa-releases-max-power-key-events-for-media-participants",
     "title": "NASA Releases MAX POWER Key Events for Media, Participants",
     "category": "AI",
@@ -4688,6 +5073,61 @@ export const archeNovaTopSignals =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1793388662000
+  },
+  {
+    "slug": "general-dpr-korea-isolation-deepens-even-as-the-country-changes-says-un-rights-official",
+    "title": "DPR Korea: Isolation deepens even as the country changes, says UN rights official",
+    "category": "General",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/10/1168690",
+    "summary": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the ou…",
+    "coreInsight": "DPR Korea: Isolation deepens even as the country changes, says UN rights official indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the ou…",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.3,
+      "engineering": 8.7,
+      "economic": 9.2,
+      "civilization": 9.8,
+      "overall": 9.3,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1793448000000
   },
   {
     "slug": "space-esi-supplying-solar-array-components-to-missile-defense-programs",
@@ -5076,121 +5516,68 @@ export const archeNovaTopSignals =
       "classification": "Biological Capability Signal"
     },
     "ts": 1793419200000
-  },
-  {
-    "slug": "space-nasa-s-james-webb-space-telescope-captures-eerie-cat-s-head",
-    "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
-    "category": "Space",
-    "source": "NASA",
-    "originalUrl": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
-    "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sc…",
-    "coreInsight": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sc…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1793375786000
-  },
-  {
-    "slug": "ai-what-happened-this-month-at-the-european-space-agency-october-2026",
-    "title": "What happened this month at the European Space Agency? (October 2026)",
-    "category": "AI",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
-    "summary": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Eart…",
-    "coreInsight": "What happened this month at the European Space Agency? (October 2026) indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Eart…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1793372400000
   }
 ];
 
 export const archeNovaWatchlist =
 [
+  {
+    "slug": "space-new-gel-fuel-could-make-rocket-and-satellite-propulsion-easier-to-control",
+    "title": "New gel fuel could make rocket and satellite propulsion easier to control",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-10-gel-fuel-rocket-satellite-propulsion.html",
+    "summary": "A kerosene-based gel developed by Concordia researchers could make rocket and satellite fuels easier to store and control.",
+    "coreInsight": "New gel fuel could make rocket and satellite propulsion easier to control indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "A kerosene-based gel developed by Concordia researchers could make rocket and satellite fuels easier to store and control.",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1793458801000,
+    "trend": "Top Signal",
+    "rank": 1
+  },
   {
     "slug": "ai-nasa-releases-max-power-key-events-for-media-participants",
     "title": "NASA Releases MAX POWER Key Events for Media, Participants",
@@ -5245,8 +5632,65 @@ export const archeNovaWatchlist =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1793388662000,
-    "trend": "Top Signal",
-    "rank": 1
+    "trend": "High Priority",
+    "rank": 2
+  },
+  {
+    "slug": "general-dpr-korea-isolation-deepens-even-as-the-country-changes-says-un-rights-official",
+    "title": "DPR Korea: Isolation deepens even as the country changes, says UN rights official",
+    "category": "General",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/10/1168690",
+    "summary": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the ou…",
+    "coreInsight": "DPR Korea: Isolation deepens even as the country changes, says UN rights official indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the ou…",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.3,
+      "engineering": 8.7,
+      "economic": 9.2,
+      "civilization": 9.8,
+      "overall": 9.3,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1793448000000,
+    "trend": "Stable",
+    "rank": 3
   },
   {
     "slug": "space-esi-supplying-solar-array-components-to-missile-defense-programs",
@@ -5302,8 +5746,8 @@ export const archeNovaWatchlist =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1793386474000,
-    "trend": "Rising",
-    "rank": 2
+    "trend": "Stable",
+    "rank": 4
   },
   {
     "slug": "space-november-s-night-sky-notes-light-day-away",
@@ -5360,7 +5804,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793354400000,
     "trend": "Stable",
-    "rank": 3
+    "rank": 5
   },
   {
     "slug": "ai-yoga-biomechanics-through-energy-optimization-diverse-kinematics-and-low-dimensi",
@@ -5417,7 +5861,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793332800000,
     "trend": "Stable",
-    "rank": 4
+    "rank": 6
   },
   {
     "slug": "ai-webanything-from-the-wild-web-to-scalable-agent-environments",
@@ -5474,7 +5918,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793419200000,
     "trend": "Stable",
-    "rank": 5
+    "rank": 7
   },
   {
     "slug": "bio-what-does-an-ontology-catch-curated-llm-generated-and-data-derived-ontologies-as",
@@ -5532,7 +5976,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793419200000,
     "trend": "Stable",
-    "rank": 6
+    "rank": 8
   },
   {
     "slug": "ai-evaluating-and-improving-ai-agents-for-sequencing-protocol-understanding",
@@ -5590,7 +6034,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793419200000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 9
   },
   {
     "slug": "ai-garden-generalist-autonomous-reward-design-through-evidence-navigation-for-coope",
@@ -5648,7 +6092,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793419200000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 10
   },
   {
     "slug": "space-nasa-s-james-webb-space-telescope-captures-eerie-cat-s-head",
@@ -5705,7 +6149,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793375786000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 11
   },
   {
     "slug": "ai-what-happened-this-month-at-the-european-space-agency-october-2026",
@@ -5762,7 +6206,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793372400000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 12
   },
   {
     "slug": "space-nasa-explores-potential-commercial-servicing-for-hubble-telescope",
@@ -5819,7 +6263,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793371881000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 13
   },
   {
     "slug": "ai-stat-pharmalittle-we-re-reading-about-astrazeneca-cost-cutting-sun-pharma-facili",
@@ -5876,7 +6320,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793366569000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 14
   },
   {
     "slug": "ai-earth-from-space-champi-s-eerie-eye",
@@ -5933,7 +6377,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793350800000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 15
   },
   {
     "slug": "ai-generative-discovery-of-chemical-reaction-networks",
@@ -5991,7 +6435,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793332800000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 16
   },
   {
     "slug": "bio-the-verification-wall-in-microbial-metabolomics",
@@ -6049,7 +6493,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793332800000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 17
   },
   {
     "slug": "bio-a-heterogenetic-theory-of-living-systems",
@@ -6107,7 +6551,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793332800000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 18
   },
   {
     "slug": "bio-how-many-mutations-does-it-take-to-evolve-a-new-function",
@@ -6165,7 +6609,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1793332800000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 19
   },
   {
     "slug": "bio-the-persisting-paradox-of-men-s-health",
@@ -6221,120 +6665,6 @@ export const archeNovaWatchlist =
       "classification": "Biological Resilience Signal"
     },
     "ts": 1793365969000,
-    "trend": "Stable",
-    "rank": 18
-  },
-  {
-    "slug": "bio-eating-disorders-are-on-the-rise-glp-1s-could-make-things-worse",
-    "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
-    "category": "Bio",
-    "source": "MIT Technology Review",
-    "originalUrl": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
-    "summary": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new repo…",
-    "coreInsight": "Eating disorders are on the rise. GLP-1s could make things worse. indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new repo…",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1793350800000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "general-a-differentiable-gpu-accelerated-finite-element-formulation-in-jax-for-large-def",
-    "title": "A Differentiable, GPU-Accelerated Finite-Element Formulation in JAX for Large-Deformation Shells with Contact: Application to Patient-Specific Aortic Valve Simulation",
-    "category": "General",
-    "source": "arXiv q-bio",
-    "originalUrl": "https://arxiv.org/abs/2610.38075",
-    "summary": "arXiv:2610.38075v1 Announce Type: new Abstract: Patient-specific aortic-valve models can help assess how tissue properties and geometry influence leaflet deformation and coaptation, with potential to inform intervention …",
-    "coreInsight": "A Differentiable, GPU-Accelerated Finite-Element Formulation in JAX for Large-Deformation Shells with Contact: Application to Patient-Specific Aortic Valve Simulation indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "arXiv:2610.38075v1 Announce Type: new Abstract: Patient-specific aortic-valve models can help assess how tissue properties and geometry influence leaflet deformation and coaptation, with potential to inform intervention …",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1793332800000,
     "trend": "Stable",
     "rank": 20
   }
