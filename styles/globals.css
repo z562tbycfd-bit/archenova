@@ -73927,3 +73927,81 @@ main.cos-workspace .cos-panel {
 
 
 
+/* ==========================================================
+   ARCHENOVA VALLEY
+   OBSIDIAN GLASS / BACKGROUND ATTENUATION
+
+   One glass surface.
+   Background remains subtly perceptible.
+   Civilization city remains clear.
+========================================================== */
+
+main#home-top.an-home-2026.home-snap.archenova-twin-home
+> section#archenova-valley.an-home-2026__section {
+  position: relative !important;
+  isolation: isolate !important;
+
+  background:
+    linear-gradient(
+      155deg,
+      rgba(0, 0, 0, 0.965) 0%,
+      rgba(2, 3, 5, 0.975) 48%,
+      rgba(0, 0, 0, 0.985) 100%
+    ) !important;
+
+  background-image:
+    linear-gradient(
+      155deg,
+      rgba(0, 0, 0, 0.965) 0%,
+      rgba(2, 3, 5, 0.975) 48%,
+      rgba(0, 0, 0, 0.985) 100%
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(48px)
+    saturate(35%)
+    brightness(0.48) !important;
+
+  backdrop-filter:
+    blur(48px)
+    saturate(35%)
+    brightness(0.48) !important;
+
+  border:
+    1px solid rgba(12, 13, 15, 0.96) !important;
+
+  border-radius: 30px !important;
+}
+
+/* Keep the inner canvas transparent */
+
+main#home-top.an-home-2026.home-snap.archenova-twin-home
+> section#archenova-valley.an-home-2026__section
+> .an-home-2026__glass {
+  background: transparent !important;
+  background-image: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  main#home-top.an-home-2026.home-snap.archenova-twin-home
+  > section#archenova-valley.an-home-2026__section {
+    border-radius: 24px !important;
+
+    -webkit-backdrop-filter:
+      blur(36px)
+      saturate(35%)
+      brightness(0.45) !important;
+
+    backdrop-filter:
+      blur(36px)
+      saturate(35%)
+      brightness(0.45) !important;
+  }
+}
