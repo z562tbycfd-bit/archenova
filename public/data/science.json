@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-31T18:19:13.579Z",
+  "updated": "2026-10-31T22:17:59.509Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Giant virus yields potassium channel gene that illuminates complex protein evolution",
+      "url": "https://phys.org/news/2026-10-giant-virus-yields-potassium-channel.html",
+      "summary": "Researchers have discovered a gene for a tandem potassium channel in an algal virus. The finding supports the view that giant viruses may have contributed significantly to the evolution of complex proteins. The study is …",
+      "ts": 1793480405000,
+      "publishedAt": "2026-10-31T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why do people prefer human empathy despite rating AI empathy higher?",
+      "url": "https://phys.org/news/2026-10-people-human-empathy-ai-higher.html",
+      "summary": "More people are turning to artificial intelligence (AI)-powered chatbots for companionship and to address loneliness. But can AI-generated empathy replace human connection?",
+      "ts": 1793480401000,
+      "publishedAt": "2026-10-31T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemists develop AI tool to convert human ingenuity into life-enhancing enzymes",
+      "url": "https://phys.org/news/2026-10-chemists-ai-tool-human-ingenuity.html",
+      "summary": "Many have voiced concerns that artificial intelligence will take jobs away from humans. But assistant professor of chemistry Zhongyue (John) Yang, along with his former doctoral student Qianzhen Shao (now a postdoc at St…",
+      "ts": 1793473201000,
+      "publishedAt": "2026-10-31T19:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Calling species 'invasive'—and culling them—isn't done lightly. But it matters to Australia's threatened species",
@@ -775,30 +799,6 @@
       "title": "Where to Learn and How Far to Roll Out: Efficient Adaptive Training for GUI Agents",
       "url": "https://arxiv.org/abs/2610.39251",
       "summary": "arXiv:2610.39251v1 Announce Type: new Abstract: Trajectory-level GRPO is a common approach for training multi-step GUI agents, but repeatedly rolling out complete trajectories from the task root can be inefficient: task-…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
-      "url": "https://arxiv.org/abs/2610.39264",
-      "summary": "arXiv:2610.39264v1 Announce Type: new Abstract: While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, small…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LLM-Assisted Optimization for Simulation-Based Redesign",
-      "url": "https://arxiv.org/abs/2610.39275",
-      "summary": "arXiv:2610.39275v1 Announce Type: new Abstract: Engineering design frequently involves redesigning a prior solution to adapt to changes in context, such as material prices or system requirements. Redesign often leverages…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MemSteer: Turning User Histories into Supervision for Agent Memory Optimization",
-      "url": "https://arxiv.org/abs/2610.39276",
-      "summary": "arXiv:2610.39276v1 Announce Type: new Abstract: An effective agent memory system should adapt to a user's history and task requirements. Human-annotated supervision can guide this adaptation by providing feedback for eva…",
       "ts": 1793419200000,
       "publishedAt": "2026-10-31T04:00:00.000Z"
     }
