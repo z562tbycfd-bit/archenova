@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-31T22:17:59.509Z",
+  "updated": "2026-11-01T01:57:41.110Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "This oddball reflective lava world is challenging to understand",
+      "url": "https://phys.org/news/2026-10-oddball-lava-world.html",
+      "summary": "Among Kepler and TESS's many surprising exoplanet discoveries are the ultra-short-period (USP) planets. These planets move very quickly and complete an orbit in less than 24 hours. Ancient astronomers thought that Mercur…",
+      "ts": 1793493001000,
+      "publishedAt": "2026-11-01T00:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Looking for bats after dark can help science—and change how we see them",
+      "url": "https://phys.org/news/2026-10-dark-science.html",
+      "summary": "What's that chirping sound coming through the detector? Did you feel something whiz past? Those are just some ways people react when they encounter microbats for the first time. Microbats are small, mostly nocturnal mamm…",
+      "ts": 1793485801000,
+      "publishedAt": "2026-10-31T22:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Giant virus yields potassium channel gene that illuminates complex protein evolution",
@@ -783,22 +799,6 @@
       "title": "Beyond LLM Wrappers: Context Engineering and the Three-Engine Architecture for Reliable Financial AI",
       "url": "https://arxiv.org/abs/2610.39230",
       "summary": "arXiv:2610.39230v1 Announce Type: new Abstract: Financial AI systems must support decision-bearing questions involving payments, collections, cash flow, and compliance while ensuring numerical accuracy, traceability, and…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SocialArena: Evaluating Social Intelligence in Large Language Models",
-      "url": "https://arxiv.org/abs/2610.39247",
-      "summary": "arXiv:2610.39247v1 Announce Type: new Abstract: We introduce SocialArena, a benchmark for systematically defining and evaluating the social intelligence of large language models (LLMs). Although LLMs are increasingly dep…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Where to Learn and How Far to Roll Out: Efficient Adaptive Training for GUI Agents",
-      "url": "https://arxiv.org/abs/2610.39251",
-      "summary": "arXiv:2610.39251v1 Announce Type: new Abstract: Trajectory-level GRPO is a common approach for training multi-step GUI agents, but repeatedly rolling out complete trajectories from the task root can be inefficient: task-…",
       "ts": 1793419200000,
       "publishedAt": "2026-10-31T04:00:00.000Z"
     }
