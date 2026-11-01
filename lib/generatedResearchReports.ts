@@ -939,13 +939,13 @@ export const generatedResearchReports =
     "ts": 1793444407000
   },
   {
-    "slug": "bio-stat-what-are-the-health-stakes-of-the-midterms-policymakers-lobbyists-and-exper",
-    "title": "STAT+: What are the health stakes of the midterms? Policymakers, lobbyists, and experts weigh in",
+    "slug": "bio-stat-the-4-biggest-ways-the-midterms-could-change-health-policy-according-to-pol",
+    "title": "STAT+: The 4 biggest ways the midterms could change health policy, according to policymakers, lobbyists, and experts",
     "category": "Bio",
     "source": "STAT",
     "originalUrl": "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss",
     "summary": "No matter what happens on Election Day, the midterms will have sweeping implications for American health care. More than two dozen experts on what could come next.",
-    "coreInsight": "STAT+: What are the health stakes of the midterms? Policymakers, lobbyists, and experts weigh in indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "coreInsight": "STAT+: The 4 biggest ways the midterms could change health policy, according to policymakers, lobbyists, and experts indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
     "scientificSignal": "No matter what happens on Election Day, the midterms will have sweeping implications for American health care. More than two dozen experts on what could come next.",
     "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
     "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
