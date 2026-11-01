@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-11-01T09:02:05.248Z",
+  "updated": "2026-11-01T16:37:45.822Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How permanent daylight saving time could affect schools",
+      "url": "https://phys.org/news/2026-10-permanent-daylight-affect-schools.html",
+      "summary": "Sleep is fundamental to well-being. Decisions to end semiannual clock changes and remain on permanent daylight saving time (DST) in British Columbia, the Northwest Territories, Alberta, Manitoba and northwestern Ontario …",
+      "ts": 1793547002000,
+      "publishedAt": "2026-11-01T15:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+      "url": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html",
+      "summary": "The interstellar comet 3I/ATLAS carries a chemical clue to conditions in the planetary system of its origin, locked away long before it reached our sun. Its methane signature is unusually rich in heavy hydrogen, suggesti…",
+      "ts": 1793546402000,
+      "publishedAt": "2026-11-01T15:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "2,700-year-old mummy head yields first molecular evidence linking aloe to Egyptian embalming",
+      "url": "https://phys.org/news/2026-10-year-mummy-yields-molecular-evidence.html",
+      "summary": "What materials did ancient Egyptians use to preserve the dead, and how can their composition still be investigated thousands of years later? An interdisciplinary team at Marburg University has combined modern natural pro…",
+      "ts": 1793541601000,
+      "publishedAt": "2026-11-01T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
+      "url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html",
+      "summary": "In a recent Nature Communications study, researchers have reported the realization of an anti-spin ice, a system that does the opposite of conventional spin ices by breaking the ice rule that governs them.",
+      "ts": 1793533201000,
+      "publishedAt": "2026-11-01T11:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "This oddball reflective lava world is challenging to understand",
@@ -9,6 +41,70 @@
       "summary": "Among Kepler and TESS's many surprising exoplanet discoveries are the ultra-short-period (USP) planets. These planets move very quickly and complete an orbit in less than 24 hours. Ancient astronomers thought that Mercur…",
       "ts": 1793493001000,
       "publishedAt": "2026-11-01T00:30:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Excess type I interferon disrupts developmental crosstalk and promotes premature distalization in trisomy 21 lungs",
+      "url": "https://www.nature.com/articles/s41467-026-79210-4",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Spatiotemporal modulation of microalgae to boost biofuel generation from CO<sub>2</sub> by the stick-to-culture strategy",
+      "url": "https://www.nature.com/articles/s41467-026-79326-7",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Metabolic reprogramming modulates cardiomyocyte hypertrophy via GLS1 in chronic kidney disease in male mice",
+      "url": "https://www.nature.com/articles/s41467-026-79129-w",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "The gene <i>ivory:mir-193</i> controls scale type differentiation in <i>Heliconius</i> butterflies",
+      "url": "https://www.nature.com/articles/s41467-026-79315-w",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Li<sup>+</sup>-locked domain effect for breaking the temperature stability bottleneck in thermal-detection high-entropy energy storage ceramics",
+      "url": "https://www.nature.com/articles/s41467-026-79179-0",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Volumetric scattering microscopy",
+      "url": "https://www.nature.com/articles/s41467-026-79103-6",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Small-molecule targeting of kinesin-13 KIF2C enhances double-strand break DNA repair and slows down aging",
+      "url": "https://www.nature.com/articles/s41467-026-79165-6",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "PRMT1 methylates SKP1 to inhibit the ubiquitination of pro-proliferative phosphoproteins during hepatocyte proliferation",
+      "url": "https://www.nature.com/articles/s41467-026-79101-8",
+      "summary": "",
+      "ts": 1793491200000,
+      "publishedAt": "2026-11-01T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -703,102 +799,6 @@
       "title": "TreasuryQA Bench: Can AI Agents Work an Archive of Scanned Financial Records?",
       "url": "https://arxiv.org/abs/2610.38924",
       "summary": "arXiv:2610.38924v1 Announce Type: new Abstract: Organisations keep decades of financial records as scanned PDFs on shared drives, and AI agents can now reach those drives through Model Context Protocol (MCP) servers. Exi…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Efficient Agentic Audio-Visual Question Answering through Toolset Pruning and Modality Consolidation",
-      "url": "https://arxiv.org/abs/2610.38960",
-      "summary": "arXiv:2610.38960v1 Announce Type: new Abstract: Fine-grained audio-visual question answering (AVQA) requires models to resolve complex cross-modal correspondences and temporally grounding from sparsely distributed eviden…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Dungeons & Dragons Encounter Analysis with Semi-Random Simulation in Foundry VTT",
-      "url": "https://arxiv.org/abs/2610.38975",
-      "summary": "arXiv:2610.38975v1 Announce Type: new Abstract: Dungeons & Dragons (D&D) is a tabletop roleplaying game (TTRPG) in which a group of players, guided by a Game Master, roleplay a fantasy adventure with simulated combat and…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Context Compaction for World Models",
-      "url": "https://arxiv.org/abs/2610.38980",
-      "summary": "arXiv:2610.38980v1 Announce Type: new Abstract: World models let observers explore and interact with generated worlds. Recent work shows that when observers revisit a region, current models often fail to regenerate it co…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Syntactic Segmentation and Collage Generation for Videogame Levels with Perceptual Distance",
-      "url": "https://arxiv.org/abs/2610.38987",
-      "summary": "arXiv:2610.38987v1 Announce Type: new Abstract: In procedural videogame level design, many existing techniques combine hand-authored level chunks. Some existing analysis techniques also rely on a higher-level graph struc…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Agentic AI Reasoning and Learned Sampling for Task-Aware Projection Selection in Sparse-View CT: Predicting Hemodynamics",
-      "url": "https://arxiv.org/abs/2610.39003",
-      "summary": "arXiv:2610.39003v1 Announce Type: new Abstract: Sparse-view computed tomography (CT) reduces the number of acquired projections, but conventional sampling strategies are designed primarily for image reconstruction rather…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Formal Specifications with Data-Driven Signal Analysis",
-      "url": "https://arxiv.org/abs/2610.39007",
-      "summary": "arXiv:2610.39007v1 Announce Type: new Abstract: Developing analog and hybrid systems requires substantial domain knowledge that is hard to articulate in a formal specification; without additional effort, this domain know…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When Should AI Decide, Defer, and Deviate? Responsible Automation for Deceased Donor Kidney Allocation",
-      "url": "https://arxiv.org/abs/2610.39045",
-      "summary": "arXiv:2610.39045v1 Announce Type: new Abstract: We ask when an AI trained on historical decisions should be allowed to recommend decisions, defer to human experts, or in other cases, flag concerning patterns in data and …",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When the Same Prompt Gives Different Answers (and the Same Answer Isn't Always Right): A Taxonomy of Failure Mechanisms, Testing, and Mitigation Strategies for LLM-Assisted Evidence Synthesis Read-and-Evaluate Tasks",
-      "url": "https://arxiv.org/abs/2610.39070",
-      "summary": "arXiv:2610.39070v1 Announce Type: new Abstract: LLM read-and-evaluate tasks include study screening, data extraction, risk-of-bias assessment, and critical appraisal in the evidence synthesis field. These task differ in …",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Certified Access: Test-Time Compute on Conservative Physics-Structured AI Memory",
-      "url": "https://arxiv.org/abs/2610.39073",
-      "summary": "arXiv:2610.39073v1 Announce Type: new Abstract: Test-time compute mechanisms, such as retries, confidence-based escalation and non-local routing, are conventionally deployed as black-box additions to trained models. They…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Reasoning or Pattern Exploitation? Mechanistic Insights from RL-Trained Language Models",
-      "url": "https://arxiv.org/abs/2610.39182",
-      "summary": "arXiv:2610.39182v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly described as acquiring \"reasoning\" skills after reinforcement learning with verifiable rewards. However, whether these gains r…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Goal-Aware Dynamic Multi-Agent Collaboration for Long-Horizon Tasks",
-      "url": "https://arxiv.org/abs/2610.39193",
-      "summary": "arXiv:2610.39193v1 Announce Type: new Abstract: LLM-based agents are increasingly used to complete complex, long-horizon tasks without human intervention. To make progress toward the task goal, agents need to perform dif…",
-      "ts": 1793419200000,
-      "publishedAt": "2026-10-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Beyond LLM Wrappers: Context Engineering and the Three-Engine Architecture for Reliable Financial AI",
-      "url": "https://arxiv.org/abs/2610.39230",
-      "summary": "arXiv:2610.39230v1 Announce Type: new Abstract: Financial AI systems must support decision-bearing questions involving payments, collections, cash flow, and compliance while ensuring numerical accuracy, traceability, and…",
       "ts": 1793419200000,
       "publishedAt": "2026-10-31T04:00:00.000Z"
     }
