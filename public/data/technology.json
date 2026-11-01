@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-01T16:37:49.506Z",
+  "updated": "2026-11-01T20:59:13.125Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Gene Editing Shares Jump on ESGCT Data, FDA Draft Guidance",
+      "url": "https://www.genengnews.com/topics/genome-editing/stockwatch-gene-editing-shares-jump-on-esgct-data-fda-draft-guidance/",
+      "summary": "Shares of gene editing therapy companies mostly surged this past week on two growth catalysts: Data readouts at the European Society of Gene and Cell Therapy’s 33rd ESGCT Annual Congress, and the FDA's new draft guidance…",
+      "ts": 1793559804000,
+      "publishedAt": "2026-11-01T19:03:24.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "United Nations News",
       "title": "COP17: Nations chart ‘Yerevan Pathway’ to speed up action for nature",
@@ -19,6 +28,15 @@
       "ts": 1793534400000,
       "publishedAt": "2026-11-01T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 1 – Colors of the Moon",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+      "summary": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1793505900000,
+      "publishedAt": "2026-11-01T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "United Nations News",
@@ -790,24 +808,6 @@
       "title": "Emergent topological structure in spontaneous brain-organoid activity",
       "url": "https://arxiv.org/abs/2607.16517",
       "summary": "arXiv:2607.16517v2 Announce Type: replace Abstract: Neural activity is widely held to organize on low-dimensional structure embedded in a high-dimensional state space. Persistent homology reads such structure directly fr…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "pyAvalanches: A Python Package for Analyzing Spatiotemporal Propagation in Neuronal Avalanches",
-      "url": "https://arxiv.org/abs/2609.11530",
-      "summary": "arXiv:2609.11530v2 Announce Type: replace Abstract: The analysis of neuronal avalanches offers insights into brain dynamics utilizing the framework of criticality, but the reproducibility and comparability of studies are…",
-      "ts": 1793332800000,
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "gpuGEM: GPU-based linear optimisation of genome-scale metabolic models",
-      "url": "https://arxiv.org/abs/2610.24106",
-      "summary": "arXiv:2610.24106v2 Announce Type: replace Abstract: Summary: Genome-scale metabolic models increasingly challenge CPU linear-programming solvers in repeated optimisation. We present gpuGEM, an open-source Python library …",
       "ts": 1793332800000,
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "categoryId": "bio"
