@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-11-02T17:57:55.828Z",
+  "updated": "2026-11-03T00:52:37.907Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Washington state resident dies from bird flu following exposure to infected cattle",
+      "url": "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/?utm_campaign=rss",
+      "summary": "A person in Washington state has died from complications of the bird flu, the first such U.S. death in a year.",
+      "ts": 1793652280000,
+      "publishedAt": "2026-11-02T20:44:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "FDA Sets May 1 PDUFA Action Date for uniQure’s Huntington’s Disease Gene Therapy",
+      "url": "https://www.genengnews.com/topics/genome-editing/fda-sets-may-1-pdufa-action-date-for-uniqures-huntingtons-disease-gene-therapy/",
+      "summary": "uniQure has aligned with the FDA on what the company calls key elements of the confirmatory study design: The study is being designed as a randomized, standard-of-care trial enrolling approximately 200 patients in a 2:1 …",
+      "ts": 1793643193000,
+      "publishedAt": "2026-11-02T18:13:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Inflammatory Process Identified as Link Between Pulmonary Hypertension and Cognitive Decline",
+      "url": "https://www.genengnews.com/topics/translational-medicine/inflammatory-process-identified-as-link-between-pulmonary-hypertension-and-cognitive-decline/",
+      "summary": "A study investigating the observed connection between pulmonary hypertension and cognitive decline symptoms has linked brain abnormalities in pulmonary hypertension to the same inflammatory processes that drive disease i…",
+      "ts": 1793642165000,
+      "publishedAt": "2026-11-02T17:56:05.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
@@ -46,6 +73,15 @@
       "ts": 1793636026000,
       "publishedAt": "2026-11-02T16:13:46.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "ts": 1793633400000,
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Genetic Engineering News",
@@ -127,6 +163,42 @@
       "ts": 1793624922000,
       "publishedAt": "2026-11-02T13:08:42.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: healthcare crisis in Yemen’s Taiz and Afghanistan, Western Sahara mission's phased closure",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168723",
+      "summary": "The humanitarian crisis in Yemen is worsening, particularly in the southwestern city of Taiz, which is being encircled by paramilitary Iran-backed Houthi forces.",
+      "ts": 1793620800000,
+      "publishedAt": "2026-11-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: WFP provides hot meals to Oleshky evacuees as UN pushes to restore power before winter",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168722",
+      "summary": "The UN World Food Programme (WFP) is providing emergency food assistance to more than 400 people who were able to leave the Russian-occupied city of Oleshky, in Ukraine’s Kherson region, during a brief local ceasefire.",
+      "ts": 1793620800000,
+      "publishedAt": "2026-11-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ethiopia: Violence in the north is pushing health system to the brink, WHO chief warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168720",
+      "summary": "The head of the World Health Organization (WHO) called on Monday for greater protection for civilians caught in conflict in northern Ethiopia following deadly drone strikes this past weekend.",
+      "ts": 1793620800000,
+      "publishedAt": "2026-11-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Six in seven journalist murders go unpunished,  UNESCO reports",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168719",
+      "summary": "Global impunity for journalist killings has risen for the first time in more than a decade, while the growing use of drones is an emerging threat for reporters in conflict zones, according to the latest report from UN cu…",
+      "ts": 1793620800000,
+      "publishedAt": "2026-11-02T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "MIT Technology Review",
@@ -633,6 +705,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "ts": 1793577600000,
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "ts": 1793577600000,
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Nature Energy",
       "title": "Directing solvent reactivity",
       "url": "https://www.nature.com/articles/s41560-026-02150-2",
@@ -667,6 +757,15 @@
       "ts": 1793559804000,
       "publishedAt": "2026-11-01T19:03:24.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Breaking the silence in Mexico’s barracks",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168715",
+      "summary": "In Mexico’s armed forces, an order from a superior is meant to be obeyed without question. For many women in uniform, investigative journalist Zorayda Gallegos found, that can include an order to step into an officer’s b…",
+      "ts": 1793534400000,
+      "publishedAt": "2026-11-01T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -712,105 +811,6 @@
       "ts": 1793448000000,
       "publishedAt": "2026-10-31T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DPR Korea: Isolation deepens even as the country changes, says UN rights official",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168690",
-      "summary": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the ou…",
-      "ts": 1793448000000,
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Somalia looks to the future as the UN's political mission closes",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168714",
-      "summary": "“The story of the UN's political engagement in Somalia has been one of persistence, partnership and adaptation,” Raisedon Zenenga, the UN Secretary-General's Deputy Special Representative for Somalia has said, as three d…",
-      "ts": 1793448000000,
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The 4 biggest ways the midterms could change health policy, according to policymakers, lobbyists, and experts",
-      "url": "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss",
-      "summary": "No matter what happens on Election Day, the midterms will have sweeping implications for American health care. More than two dozen experts on what could come next.",
-      "ts": 1793444400000,
-      "publishedAt": "2026-10-31T11:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
-      "summary": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1793419500000,
-      "publishedAt": "2026-10-31T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
-      "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
-      "summary": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Spac…",
-      "ts": 1793388662000,
-      "publishedAt": "2026-10-30T19:31:02.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Opentrons Raises $40M in Series E to Expand Its Robotics, Software, Data Infrastructure",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/opentrons-raises-40m-in-series-e-to-expand-its-robotics-software-data-infrastructure/",
-      "summary": "According to the company, the funds will support the next phase of its growth in enabling autonomous science in labs and biopharmaceutical companies using its AI and robotics systems. The post Opentrons Raises $40M in Se…",
-      "ts": 1793387821000,
-      "publishedAt": "2026-10-30T19:17:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "100 Million-Cell AI-Ready Dataset with Single-Cell and Proteomic Data Created by Parse and Nomic",
-      "url": "https://www.genengnews.com/topics/omics/100-million-cell-ai-ready-dataset-with-single-cell-and-proteomic-data-created-by-parse-and-nomic/",
-      "summary": "Parse Biosciences and Nomic Bio are partnering to create Cascade, a 100-million-cell multimodal dataset combining single-cell and proteomic data to advance AI-driven immune modeling, drug discovery, and therapeutic targe…",
-      "ts": 1793387614000,
-      "publishedAt": "2026-10-30T19:13:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "ESI supplying solar array components to missile defense programs",
-      "url": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
-      "summary": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array components to missile…",
-      "ts": 1793386474000,
-      "publishedAt": "2026-10-30T18:54:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
-      "url": "http://www.iaea.org/newscenter/news/iaea-safeguards-symposium-2026-programme-now-available",
-      "summary": "",
-      "ts": 1793381733000,
-      "publishedAt": "2026-10-30T17:35:33.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 373 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-373-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1793379016000,
-      "publishedAt": "2026-10-30T16:50:16.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
-      "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
-      "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sc…",
-      "ts": 1793375786000,
-      "publishedAt": "2026-10-30T15:56:26.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
