@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-11-03T15:57:08.436Z",
+  "updated": "2026-11-03T21:39:08.740Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Servier’s $1.55 billion muscular dystrophy drug fails first major test",
+      "url": "https://www.statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail/?utm_campaign=rss",
+      "summary": "Servier reports a surprise setback for a drug being tested for a form of muscular dystrophy that lacks treatment.",
+      "ts": 1793739200000,
+      "publishedAt": "2026-11-03T20:53:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Amid Mass General Brigham layoffs, CEO pens vague letter, stirring staff anxiety",
+      "url": "https://www.statnews.com/2026/11/03/mass-general-brigham-layoffs-ceo-letter-staff-anxiety/?utm_campaign=rss",
+      "summary": "A cryptic email sent to Mass General Brigham employees by the health system's CEO is stirring staff anxiety less than two weeks after a round of layoffs.",
+      "ts": 1793738002000,
+      "publishedAt": "2026-11-03T20:33:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Precision Automation Meets Biology",
+      "url": "https://www.genengnews.com/topics/omics/precision-automation-meets-biology/",
+      "summary": "In this GEN podcast, a cellular workflow automation specialist from Molecular Devices explores what precision automation means for working biologists and how purpose-built instruments, software, and expertise can support…",
+      "ts": 1793737982000,
+      "publishedAt": "2026-11-03T20:33:02.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Recursion Eyes H2 2027 Pivotal Trial for Lead Candidate After Positive Phase II FAP Data",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/recursion-eyes-h2-2027-pivotal-trial-for-lead-candidate-after-positive-phase-ii-fap-data/",
+      "summary": "Following 12 weeks of treatment, Recursion said, 87% of patients (13 of 15) had a reduction in total polyp burden, with a 47% median reduction. Approximately one in three patients achieved reductions of ≥65%. The post Re…",
+      "ts": 1793730830000,
+      "publishedAt": "2026-11-03T18:33:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
+      "url": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
+      "summary": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and heavier satellites. Simera Sense xScape200 […] The post Simera…",
+      "ts": 1793725183000,
+      "publishedAt": "2026-11-03T16:59:43.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Astronaut and Earth",
+      "url": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+      "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Ku…",
+      "ts": 1793723862000,
+      "publishedAt": "2026-11-03T16:37:42.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interac…",
+      "ts": 1793721645000,
+      "publishedAt": "2026-11-03T16:00:45.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Lost and Found: Neural Pathway for Forgetting Found in C. elegans",
@@ -21,6 +84,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "TB 26-10 Printed Circuit Board Assembly Chip Resistor Body Cracking",
+      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/",
+      "summary": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download PDF here Chip resistors are widely used in NASA projects, yet cases of alumina substrate cracking during environmental…",
+      "ts": 1793720114000,
+      "publishedAt": "2026-11-03T15:35:14.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: What do the midterms mean for health care?",
       "url": "https://www.statnews.com/2026/11/03/midterm-election-health-care-issues-dc-diagnosis-newsletter/?utm_campaign=rss",
@@ -28,6 +100,15 @@
       "ts": 1793719747000,
       "publishedAt": "2026-11-03T15:29:07.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
+      "summary": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator …",
+      "ts": 1793718950000,
+      "publishedAt": "2026-11-03T15:15:50.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -82,6 +163,15 @@
       "ts": 1793710350000,
       "publishedAt": "2026-11-03T12:52:30.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "ts": 1793707200000,
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "IAEA News",
@@ -145,6 +235,15 @@
       "ts": 1793698200000,
       "publishedAt": "2026-11-03T09:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "ts": 1793692800000,
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
@@ -709,105 +808,6 @@
       "title": "Establishing the Minimal Clinically Important Difference (MCID) for Smartphone-Derived Gait Measures in Multiple Sclerosis",
       "url": "https://arxiv.org/abs/2606.28449",
       "summary": "arXiv:2606.28449v3 Announce Type: replace Abstract: Background: Digital health technologies allow for frequent, remote gait monitoring in people with multiple sclerosis (MS). However, to differentiate daily variability f…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synergy and Complementarity: The Generative Basis of Chemical Organizations",
-      "url": "https://arxiv.org/abs/2608.03541",
-      "summary": "arXiv:2608.03541v3 Announce Type: replace Abstract: Identifying structural features ensuring the persistence of a reaction network is fundamental for understanding the evolution and complexification of biological entitie…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Platonic brain bridge hypothesis: brain networks as architectural priors for multimodal large language models",
-      "url": "https://arxiv.org/abs/2609.10947",
-      "summary": "arXiv:2609.10947v3 Announce Type: replace Abstract: Multimodal large language models predict brain activity, but brain alignment has been a measurement, not a design tool. We propose the Platonic brain bridge hypothesis:…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Panoramic modelling of single-cell transcriptomes at scale with CellNet",
-      "url": "https://arxiv.org/abs/2610.21943",
-      "summary": "arXiv:2610.21943v2 Announce Type: replace Abstract: Comprehensively characterizing cellular landscapes to elucidate cell diversity is a central goal in biology. Recent advances in single-cell profiling have created unpre…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reading Between the Reads: A Decade On, Revisiting Sequencing Protocol Annotation in the Sequence Read Archive",
-      "url": "https://arxiv.org/abs/2610.27331",
-      "summary": "arXiv:2610.27331v3 Announce Type: replace Abstract: Background: Experimental metadata are essential for interpreting archived sequencing data. In 2015, Alnasir and Shanahan examined the annotation of fragmentation, adapt…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spontaneous Mutations from Terahertz Proton Tunneling",
-      "url": "https://arxiv.org/abs/2305.05624",
-      "summary": "arXiv:2305.05624v5 Announce Type: replace-cross Abstract: Protons in the bonds between base pairs of the double helix store the code of life by breaking the dyad symmetry that swaps the sense strand with its complementar…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MindEye2: Shared-Subject Models Enable fMRI-To-Image With 1 Hour of Data",
-      "url": "https://arxiv.org/abs/2403.11207",
-      "summary": "arXiv:2403.11207v3 Announce Type: replace-cross Abstract: Reconstructions of visual perception from brain activity have improved tremendously, but the practical utility of such methods has been limited. This is because s…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Feed-forward active magnetic shielding",
-      "url": "https://arxiv.org/abs/2406.14234",
-      "summary": "arXiv:2406.14234v3 Announce Type: replace-cross Abstract: Measurement of small magnetic fields requires shielding. For example, magnetoencephalography (MEG) measures small fields arising within the brain, in the presence…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A stochastic epidemic model with memory of the last infection and waning immunity",
-      "url": "https://arxiv.org/abs/2505.00601",
-      "summary": "arXiv:2505.00601v2 Announce Type: replace-cross Abstract: We adapt the article of Forien, Pang, Pardoux and Zotsa, on epidemic models with varying infectivity and waning immunity, to incorporate the memory of the last in…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying structural uncertainty in chemical reaction network inference",
-      "url": "https://arxiv.org/abs/2505.15653",
-      "summary": "arXiv:2505.15653v4 Announce Type: replace-cross Abstract: Dynamical systems in biology are complex, and one often does not have comprehensive knowledge about the interactions involved. Chemical reaction network (CRN) inf…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "NeuroVolve: Evolving personalized visual stimuli toward user-defined brain response targets",
-      "url": "https://arxiv.org/abs/2512.00557",
-      "summary": "arXiv:2512.00557v2 Announce Type: replace-cross Abstract: A central question in neuroscience is what visual features drive brain responses across regions. Classic approaches rely on handcrafted stimuli to test specific h…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How Withheld Punishment Sustains Anti-Democratic Behavior in an Evolutionary Game",
-      "url": "https://arxiv.org/abs/2512.06245",
-      "summary": "arXiv:2512.06245v4 Announce Type: replace-cross Abstract: Democratic backsliding is often framed as a contest between defenders and disruptors of democratic institutions. That framing can miss a third response, withholdi…",
       "ts": 1793682000000,
       "publishedAt": "2026-11-03T05:00:00.000Z",
       "categoryId": "bio"
