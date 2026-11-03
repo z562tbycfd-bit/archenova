@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-11-03T00:52:37.907Z",
+  "updated": "2026-11-03T07:41:03.842Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI off…",
+      "ts": 1793689212000,
+      "publishedAt": "2026-11-03T07:00:12.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+      "summary": "APOD Science APOD APOD: 2026 November 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1793682300000,
+      "publishedAt": "2026-11-03T05:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "The Pacific’s Busy Storm Season",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/",
+      "summary": "Super Typhoon In-fa developed an unusually large eye, and the remnants of Typhoon Champi transitioned into an extratropical storm that targeted Alaska.",
+      "ts": 1793682060000,
+      "publishedAt": "2026-11-03T05:01:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained …",
+      "ts": 1793679527000,
+      "publishedAt": "2026-11-03T04:18:47.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+      "summary": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting m…",
+      "ts": 1793655359000,
+      "publishedAt": "2026-11-02T21:35:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "TB 26-09 Measured Hammer-Tap Inputs",
+      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-09-measured-hammer-tap-inputs/",
+      "summary": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete…",
+      "ts": 1793652461000,
+      "publishedAt": "2026-11-02T20:47:41.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Washington state resident dies from bird flu following exposure to infected cattle",
@@ -12,6 +66,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s CHAPEA Crew “Returns” to Earth",
+      "url": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+      "summary": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew M…",
+      "ts": 1793645442000,
+      "publishedAt": "2026-11-02T18:50:42.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "What’s Up: November 2026 Skywatching Tips from NASA",
+      "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+      "summary": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcrip…",
+      "ts": 1793643598000,
+      "publishedAt": "2026-11-02T18:19:58.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "FDA Sets May 1 PDUFA Action Date for uniQure’s Huntington’s Disease Gene Therapy",
       "url": "https://www.genengnews.com/topics/genome-editing/fda-sets-may-1-pdufa-action-date-for-uniqures-huntingtons-disease-gene-therapy/",
@@ -19,6 +91,24 @@
       "ts": 1793643193000,
       "publishedAt": "2026-11-02T18:13:13.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "ts": 1793642400000,
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "ts": 1793642400000,
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Genetic Engineering News",
@@ -285,7 +375,7 @@
       "source": "NASA",
       "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
-      "summary": "APOD Science APOD APOD: 2026 November 2 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "summary": "APODScienceAPODAPOD: 2026 November 2 – A…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
       "ts": 1793595900000,
       "publishedAt": "2026-11-02T05:05:00.000Z",
       "categoryId": "space"
@@ -721,96 +811,6 @@
       "ts": 1793577600000,
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Directing solvent reactivity",
-      "url": "https://www.nature.com/articles/s41560-026-02150-2",
-      "summary": "",
-      "ts": 1793577600000,
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Stable anode-free sodium batteries enabled by controlled oligomerization",
-      "url": "https://www.nature.com/articles/s41560-026-02154-y",
-      "summary": "",
-      "ts": 1793577600000,
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Grain boundary engineering using metallomesogen in formamidinium–caesium lead triiodide for stable perovskite/silicon tandem solar cells",
-      "url": "https://www.nature.com/articles/s41560-026-02161-z",
-      "summary": "",
-      "ts": 1793577600000,
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "StockWatch: Gene Editing Shares Jump on ESGCT Data, FDA Draft Guidance",
-      "url": "https://www.genengnews.com/topics/genome-editing/stockwatch-gene-editing-shares-jump-on-esgct-data-fda-draft-guidance/",
-      "summary": "Shares of gene editing therapy companies mostly surged this past week on two growth catalysts: Data readouts at the European Society of Gene and Cell Therapy’s 33rd ESGCT Annual Congress, and the FDA's new draft guidance…",
-      "ts": 1793559804000,
-      "publishedAt": "2026-11-01T19:03:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Breaking the silence in Mexico’s barracks",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168715",
-      "summary": "In Mexico’s armed forces, an order from a superior is meant to be obeyed without question. For many women in uniform, investigative journalist Zorayda Gallegos found, that can include an order to step into an officer’s b…",
-      "ts": 1793534400000,
-      "publishedAt": "2026-11-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "COP17: Nations chart ‘Yerevan Pathway’ to speed up action for nature",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168718",
-      "summary": "At the halfway mark to 2030, countries meeting in Armenia have agreed a roadmap to accelerate action for nature, after a global review found the world off track to meet its biodiversity targets.",
-      "ts": 1793534400000,
-      "publishedAt": "2026-11-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Western Sahara: UN ‘stands ready’ to keep supporting peace efforts as MINURSO mission ends",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168717",
-      "summary": "The UN remains committed to supporting a just, lasting and mutually acceptable political solution in Western Sahara that provides for the self-determination of its people, Secretary-General António Guterres said on Sunda…",
-      "ts": 1793534400000,
-      "publishedAt": "2026-11-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 1 – Colors of the Moon",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
-      "summary": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1793505900000,
-      "publishedAt": "2026-11-01T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘They deserve to know the truth’: UN rights chief demands probe into staffer’s death in Houthi custody",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168716",
-      "summary": "The UN human rights chief on Saturday demanded an independent investigation into the death of a Yemeni colleague held by the Houthis for more than two years, whose family learned of his death only weeks after it happened…",
-      "ts": 1793448000000,
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Samarkand: A ‘living museum’ on the Silk Road grapples with a tourism boom",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168711",
-      "summary": "As the sun sets over Samarkand’s majestic Registan, its last rays glint across the turquoise mosaics. Dusk settles on the ancient square where great trade routes have crossed for centuries.",
-      "ts": 1793448000000,
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

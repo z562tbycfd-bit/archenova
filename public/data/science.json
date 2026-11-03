@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-11-03T00:52:35.493Z",
+  "updated": "2026-11-03T07:41:01.010Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "China imports millions of donkey hides from Africa every year: New book traces the drivers and impact",
+      "url": "https://phys.org/news/2026-11-china-imports-millions-donkey-africa.html",
+      "summary": "The demand for donkey hides has grown exponentially over the past 15 years, driven mainly by demand from China. Lauren Johnston is a specialist on China trade with Africa. She has spent several years looking into the don…",
+      "ts": 1793678402000,
+      "publishedAt": "2026-11-03T04:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How political disagreement with our neighbors relates to whether we bother casting a ballot",
+      "url": "https://phys.org/news/2026-11-political-disagreement-neighbors-bother-ballot.html",
+      "summary": "In the 2025 federal election, Canadians voted at the highest rate since 1993. Explanations for high or low turnout usually focus on the national election campaign, including how close the race was and what seemed to be a…",
+      "ts": 1793676002000,
+      "publishedAt": "2026-11-03T03:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study dives into lesser-known climate impacts of global reforestation",
+      "url": "https://phys.org/news/2026-11-lesser-climate-impacts-global-reforestation.html",
+      "summary": "Simon Fraser University researchers are zeroing in on how global forestation efforts impact our climate system beyond CO₂ removal in a new study.",
+      "ts": 1793673601000,
+      "publishedAt": "2026-11-03T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ceres' water ice can mask massive surface salt deposits",
+      "url": "https://phys.org/news/2026-11-ceres-ice-mask-massive-surface.html",
+      "summary": "The dwarf planet Ceres is arguably one of the most overlooked and underappreciated planetary objects in the solar system. This could be because while Ceres has the same dwarf planet designation as Pluto, Ceres is largely…",
+      "ts": 1793672401000,
+      "publishedAt": "2026-11-03T02:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change is making the tropics hotter",
+      "url": "https://phys.org/news/2026-11-climate-tropics-hotter.html",
+      "summary": "A new study finds that tropical areas often thought to be safe from the effects of climate change are actually experiencing significant changes in rainfall and extreme temperature events. The paper, \"Shifting climate in …",
+      "ts": 1793671201000,
+      "publishedAt": "2026-11-03T02:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chinese writing developed square forms gradually, shaped by language, tools and tradition, analysis suggests",
+      "url": "https://phys.org/news/2026-11-chinese-square-gradually-language-tools.html",
+      "summary": "A new historical analysis challenges the received wisdom as to why Chinese characters developed their distinctive square shapes. The work, published in the International Journal of Arts and Technology, argues that their …",
+      "ts": 1793670007000,
+      "publishedAt": "2026-11-03T01:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK storm surges have far-flung, global climate connections",
+      "url": "https://phys.org/news/2026-11-uk-storm-surges-flung-global.html",
+      "summary": "Where a storm surge strikes along a stretch of U.K. coastline is decided by global climate patterns in the Atlantic, Arctic and even further afield—according to new research led by Cambridge University.",
+      "ts": 1793668801000,
+      "publishedAt": "2026-11-03T01:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Queen's University Belfast students find Neptune's elusive Trojan asteroids",
+      "url": "https://phys.org/news/2026-11-queen-university-belfast-students-neptune.html",
+      "summary": "An international team led by researchers at Queen's University Belfast has made a discovery that has eluded astronomers for decades. Beginning in 1906, telescope observations revealed a population of asteroids leading an…",
+      "ts": 1793667601000,
+      "publishedAt": "2026-11-03T01:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "When to move is key to mobile retail",
@@ -41,6 +105,22 @@
       "summary": "Archaeologists have performed toxicological analysis on the mummified remains of people sacrificed at mountain shrines across the Inca Empire, revealing the psychoactive substances they consumed before their deaths.",
       "ts": 1793664001000,
       "publishedAt": "2026-11-03T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Aging-related cellular and molecular changes reveal a role for <i>Bglap3+</i> neurons in MEC spatial cognition",
+      "url": "https://www.nature.com/articles/s41467-026-78673-9",
+      "summary": "",
+      "ts": 1793664000000,
+      "publishedAt": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Resolving competitive adsorption through <i>d</i>-orbital tuning in plasmonic layered double hydroxides for multiplexed SERS",
+      "url": "https://www.nature.com/articles/s41467-026-79205-1",
+      "summary": "",
+      "ts": 1793664000000,
+      "publishedAt": "2026-11-03T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -719,86 +799,6 @@
       "title": "Web application for retrospective geomagnetic storm detection, main phase analysis and identification of solar wind influence on storm intensity",
       "url": "https://arxiv.org/abs/2610.41217",
       "summary": "arXiv:2610.41217v1 Announce Type: new Abstract: This work presents a web application for retrospective detection and analysis of geomagnetic storms using hourly Dst and solar wind data from OMNIWeb. The application detec…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Large Eddy Simulation Study of Turbine Pitch Motion Effects on Power Generation in Fully Developed Floating Wind Turbine Arrays",
-      "url": "https://arxiv.org/abs/2610.41224",
-      "summary": "arXiv:2610.41224v1 Announce Type: new Abstract: Interactions between floating wind turbines and the marine atmospheric boundary layer affect turbine wakes and power output. This study examines the impact of turbine repre…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Understanding LLM-Based Bargaining of Driving Agents in Mixed-Autonomy Traffic",
-      "url": "https://arxiv.org/abs/2610.41239",
-      "summary": "arXiv:2610.41239v1 Announce Type: new Abstract: Large Language Models (LLMs) offer a flexible computational approach for modeling social interactions among heterogeneous agents. This paper develops a novel framework towa…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasmoid Instability in Inhomogeneous Current Sheets",
-      "url": "https://arxiv.org/abs/2610.41241",
-      "summary": "arXiv:2610.41241v1 Announce Type: new Abstract: Plasmoid instability in inhomogeneous current sheets is investigated using electromagnetic gyrokinetic simulations of collisionless magnetic reconnection. Simulations with …",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intensity-Domain Demultiplexing of Orbital Angular Momentum Channels for Optical Communication",
-      "url": "https://arxiv.org/abs/2610.41259",
-      "summary": "arXiv:2610.41259v1 Announce Type: new Abstract: Orbital angular momentum (OAM) multiplexing has been limited in practice by the complexity and optical loss of the elements that separate the channels at the receiver side.…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-contact temperature sensing and optical scatter in cryogenically-cooled crystalline silicon",
-      "url": "https://arxiv.org/abs/2610.41261",
-      "summary": "arXiv:2610.41261v1 Announce Type: new Abstract: Cryogenic crystalline silicon is a promising optical material for next generation gravitational-wave detectors due to its low mechanical loss (a driver of thermal noise), h…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shielding design and construction for the XINGZHI cold neutron triple-axis spectrometer: integrating velocity selector, S-bender polarizer, and neutron guide",
-      "url": "https://arxiv.org/abs/2610.41288",
-      "summary": "arXiv:2610.41288v1 Announce Type: new Abstract: The optimized design and construction of shielding for the velocity selector, S-bender polarizer, and neutron guide in the XINGZHI cold neutron triple-axis spectrometer hav…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ART of PIV: Agentic Real-Time Particle Image Velocimetry for Active Flow Control",
-      "url": "https://arxiv.org/abs/2610.41304",
-      "summary": "arXiv:2610.41304v1 Announce Type: new Abstract: Particle image velocimetry (PIV) measures fluid motion from images of tracer particles, but its accuracy depends on choices throughout the estimation pipeline, including im…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Feature-preserving interface reconstruction using piecewise circles and cusps",
-      "url": "https://arxiv.org/abs/2610.41305",
-      "summary": "arXiv:2610.41305v1 Announce Type: new Abstract: We present a geometric interface reconstruction method for Volume-of-Fluid (VOF) simulations that captures both curved interfaces and sharp features using only volume fract…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual-rate optical frequency comb based on a cylindrical microresonator with a nanoscale radius variation",
-      "url": "https://arxiv.org/abs/2610.41315",
-      "summary": "arXiv:2610.41315v1 Announce Type: new Abstract: We theoretically find that a cylindrical microresonator with nanoscale radius variation can be a source of coherent microcombs with two repetition rates, independently cont…",
-      "ts": 1793595600000,
-      "publishedAt": "2026-11-02T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Streptavidin-Biotin Binding is Intrinsically Non-Cooperative, but Experimental Artefacts Can Induce Apparent Positive Cooperativity",
-      "url": "https://arxiv.org/abs/2610.41363",
-      "summary": "arXiv:2610.41363v1 Announce Type: new Abstract: The biotin-streptavidin interaction is a key component of nanobiotechnology, yet the nature of its cooperativity remains a debated question. Here, we introduce a label-free…",
       "ts": 1793595600000,
       "publishedAt": "2026-11-02T05:00:00.000Z"
     }
