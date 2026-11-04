@@ -1,7 +1,223 @@
 {
   "ok": true,
-  "updated": "2026-11-04T08:57:49.905Z",
+  "updated": "2026-11-04T17:01:57.616Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: CVS Health to split, reversing years of deal-making to combine pharmacies and insurance",
+      "url": "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/?utm_campaign=rss",
+      "summary": "CVS Health’s decision to split comes amid federal and state scrutiny over vertical integration.",
+      "ts": 1793809806000,
+      "publishedAt": "2026-11-04T16:30:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
+      "url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+      "summary": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leaders…",
+      "ts": 1793809001000,
+      "publishedAt": "2026-11-04T16:16:41.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Reveals Cosmic Mystery",
+      "url": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
+      "summary": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA’s Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of milli…",
+      "ts": 1793807976000,
+      "publishedAt": "2026-11-04T15:59:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A looming deadline to fund the government will shape Congress’ unusual lame duck session",
+      "url": "https://www.statnews.com/2026/11/04/lame-duck-session-congress-health-policy-aca-subsidies-medicaid-funding/?utm_campaign=rss",
+      "summary": "Before Democrats take control, Congress must fund expiring health care programs and confirm HHS nominees.",
+      "ts": 1793807754000,
+      "publishedAt": "2026-11-04T15:55:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Five midterm winners and losers: MAHA mowed down, Dem docs scrub in, ‘Medicare for All’ returns",
+      "url": "https://www.statnews.com/2026/11/04/midterm-health-policy-winners-losers-medicare-for-all-rfk-jr/?utm_campaign=rss",
+      "summary": "Democratic doctors were among the winners in the midterm elections, while the MAHA movement and President Trump's health agenda were losers.",
+      "ts": 1793805321000,
+      "publishedAt": "2026-11-04T15:15:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, NOAA Track 2026 Antarctic Ozone Hole",
+      "url": "https://science.nasa.gov/earth/2026-ozone-hole/",
+      "summary": "Weather provided ideal conditions for enhanced ozone depletion",
+      "ts": 1793804414000,
+      "publishedAt": "2026-11-04T15:00:14.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Ultragenyx cuts staff after another study fails ",
+      "url": "https://www.statnews.com/2026/11/04/biotech-news-ultragenyx-cuts-staff-after-another-study-fails/?utm_campaign=rss",
+      "summary": "Ultragenyx announced that it's laying off about 20% of its staff as it ends development of two rare disease drugs.",
+      "ts": 1793803606000,
+      "publishedAt": "2026-11-04T14:46:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "ts": 1793802600000,
+      "publishedAt": "2026-11-04T14:30:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about CVS plans to split up, FDA inspections in India and China and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss",
+      "summary": "The Trump administration will survey key components of pharmaceutical production in order to identify domestic supply chain vulnerabilities.",
+      "ts": 1793802046000,
+      "publishedAt": "2026-11-04T14:20:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Kamau Therapeutics Releases Encouraging Sickle Cell Clinical Data Ahead of ASH Meeting",
+      "url": "https://www.genengnews.com/topics/genome-editing/kamau-therapeutics-releases-encouraging-sickle-cell-clinical-data-ahead-of-ash-meeting/",
+      "summary": "The findings, part of a trove of abstracts that will be presented at next month’s American Society of Hematology (ASH) conference, show precise correction of the SCD mutation in the β-globin gene in three SCD patients as…",
+      "ts": 1793801987000,
+      "publishedAt": "2026-11-04T14:19:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How Epigenomics Is Transforming Drug Discovery and Development",
+      "url": "https://www.genengnews.com/resources/ebooks/how-epigenomics-is-transforming-drug-discovery-and-development/",
+      "summary": "In this GEN eBook readers will discover how epigenomic insights are improving every stage of the drug discovery pipeline, from target identification and validation to mechanism-of-action studies and therapeutic optimizat…",
+      "ts": 1793801951000,
+      "publishedAt": "2026-11-04T14:19:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sens. Wyden and Sanders, backers of ‘Medicare for All,’ set to take charge of key committees",
+      "url": "https://www.statnews.com/2026/11/04/democratic-wins-medicare-for-all-momentum/?utm_campaign=rss",
+      "summary": "The Democratic flip of the Senate is expected to put two Democrats who support Medicare for All in charge of key committees.",
+      "ts": 1793799497000,
+      "publishedAt": "2026-11-04T13:38:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: blended meat, restored sight, and the agentic web",
+      "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat In the fall …",
+      "ts": 1793797800000,
+      "publishedAt": "2026-11-04T13:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The biotech startups skipping AI for drug discovery",
+      "url": "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of AI Prognosis: These biotech startups don't think drug discovery is where AI can make the biggest difference.",
+      "ts": 1793797293000,
+      "publishedAt": "2026-11-04T13:01:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the age…",
+      "ts": 1793797200000,
+      "publishedAt": "2026-11-04T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Former Madrigal Pharmaceuticals executive alleges coverup of safety issues tied to its drug",
+      "url": "https://www.statnews.com/2026/11/04/former-madrigal-pharmaceuticals-executive-rezdiffra-lawsuit/?utm_campaign=rss",
+      "summary": "A top former executive at Madrigal Pharmaceuticals has filed a lawsuit in federal court alleging a coverup of drug safety issues.",
+      "ts": 1793795443000,
+      "publishedAt": "2026-11-04T12:30:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Top health takeaways from the midterm elections",
+      "url": "https://www.statnews.com/2026/11/04/health-news-midterm-elections-2026-democrats-control-congress/?utm_campaign=rss",
+      "summary": "Democrats gained control of both chambers of Congress, and doctors and scientists won key seats. Here are the top health takeaways from the midterms.",
+      "ts": 1793794508000,
+      "publishedAt": "2026-11-04T12:15:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghan children face narrowing path to education, UN agencies report",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168732",
+      "summary": "More than half of Afghanistan’s children who should be in primary school remain outside formal learning and millions of girls can only dream of going to university.",
+      "ts": 1793793600000,
+      "publishedAt": "2026-11-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘The world is not ready’: Climate adaptation cash falls far short as warming heads past 1.5°C",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168725",
+      "summary": "Although global warming is set to exceed 1.5°C, financing to help communities adapt to climate change falls far short of needs, the UN Environment Programme (UNEP) said in a report published on Wednesday.",
+      "ts": 1793793600000,
+      "publishedAt": "2026-11-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-confirms-japanese-monitoring-data-of-alps-treated-water-prior-to-discharge-under-additional-measures",
+      "summary": "",
+      "ts": 1793792306000,
+      "publishedAt": "2026-11-04T11:38:26.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I moved to Europe for free health care. I miss my patient portal",
+      "url": "https://www.statnews.com/2026/11/04/moving-to-europe-free-health-care-differences/?utm_campaign=rss",
+      "summary": "“To be honest, in Malta, I pay for medical care all the time. I just pay differently,” writes Mariska Breland.",
+      "ts": 1793784600000,
+      "publishedAt": "2026-11-04T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Time to wake up MetOp-SG-B1 weather satellite",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/Time_to_wake_up_MetOp-SG-B1_weather_satellite",
+      "summary": "Following a short period in storage after arriving at Europe’s Spaceport in French Guiana, the MetOp Second Generation-B1 satellite has been transferred to a cleanroom and removed from its transport container. The team i…",
+      "ts": 1793783400000,
+      "publishedAt": "2026-11-04T09:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "The Lise Meitner Programme Explores the Nuclear Fuel Cycle in France and IAEA HQ",
+      "url": "http://www.iaea.org/newscenter/news/the-lise-meitner-programme-explores-the-nuclear-fuel-cycle-in-france-and-iaea-hq",
+      "summary": "",
+      "ts": 1793779200000,
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "ts": 1793775600000,
+      "publishedAt": "2026-11-04T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
@@ -481,6 +697,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "‘This is not about politics. This is about people’: UN warns of impact of deadly drone strikes in Sudan",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168731",
+      "summary": "Intensifying drone attacks on civilian infrastructure across Sudan are disrupting electricity, water and fuel supplies, putting lives at risk and hampering the delivery of humanitarian aid, the UN’s top official in the c…",
+      "ts": 1793707200000,
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World News in Brief: Children killed in Myanmar strike, new violence flares in Mozambique, an Internet affordability milestone",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168729",
       "summary": "A school in Myanmar has been hit in an airstrike, with three children reported killed and five others injured, according to UN Children’s Fund UNICEF.",
@@ -585,231 +810,6 @@
       "summary": "Scientists and ethicists are rethinking the potential risks and benefits of a technology to prevent babies from inheriting rare mitochondrial diseases.",
       "ts": 1793698200000,
       "publishedAt": "2026-11-03T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "url": "https://openai.com/index/cisco-cyber",
-      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "ts": 1793692800000,
-      "publishedAt": "2026-11-03T08:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
-      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "ts": 1793692800000,
-      "publishedAt": "2026-11-03T08:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-      "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI off…",
-      "ts": 1793689212000,
-      "publishedAt": "2026-11-03T07:00:12.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
-      "summary": "APOD Science APOD APOD: 2026 November 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1793682300000,
-      "publishedAt": "2026-11-03T05:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "The Pacific’s Busy Storm Season",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/",
-      "summary": "Super Typhoon In-fa developed an unusually large eye, and the remnants of Typhoon Champi transitioned into an extratropical storm that targeted Alaska.",
-      "ts": 1793682060000,
-      "publishedAt": "2026-11-03T05:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hydrodynamic flow in the gut hinders the fixation of beneficial mutants but accelerates their invasion",
-      "url": "https://arxiv.org/abs/2611.00134",
-      "summary": "arXiv:2611.00134v1 Announce Type: new Abstract: Gut bacteria experience a spatially structured environment with hydrodynamic flow. Using a branching-process approach, we show that beneficial mutants arising randomly upon…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How timing and mode of selection shape ancestral genetic contributions",
-      "url": "https://arxiv.org/abs/2611.00161",
-      "summary": "arXiv:2611.00161v1 Announce Type: new Abstract: We examine a population that evolves according to a biparental Moran model with two distinct types of individuals. Each individual's type is determined by the allele they c…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spatial structure promotes coexistence, resilience, and synergy in microbial communities",
-      "url": "https://arxiv.org/abs/2611.00222",
-      "summary": "arXiv:2611.00222v1 Announce Type: new Abstract: Microbial communities are highly complex systems with a tremendous number of interactions. They thrive in vastly different environments, from the human body to soil and mar…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sharp transitions between optimal therapy regimes reveal robust dosing strategies against drug-induced persistence",
-      "url": "https://arxiv.org/abs/2611.00295",
-      "summary": "arXiv:2611.00295v1 Announce Type: new Abstract: Anti-cancer drug treatment can induce tumor cells to adopt reversible drug-tolerant persister states, facilitating resistance evolution and eventual treatment failure. Alth…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Recurrence in Sequence Space: How Epistasis Mimics Shared Ancestry",
-      "url": "https://arxiv.org/abs/2611.00360",
-      "summary": "arXiv:2611.00360v1 Announce Type: new Abstract: Sequences in a protein family do not explore the sequence space freely: folding, packing, and binding couple residues, so the set of viable sequences is irreducibly correla…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geometric and algebraic inference in humans and neural networks",
-      "url": "https://arxiv.org/abs/2611.00387",
-      "summary": "arXiv:2611.00387v1 Announce Type: new Abstract: Humans possess a remarkable ability to draw inferences from limited data. While some inferences are made intuitively from past experience, others require online reasoning b…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Can agents reliably design therapeutic antibodies?",
-      "url": "https://arxiv.org/abs/2611.00558",
-      "summary": "arXiv:2611.00558v1 Announce Type: new Abstract: Recent work has demonstrated agents driving protein design workflows, either through orchestration of specialized tools or direct manipulation of sequences. Yet the fidelit…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mathematical modeling to study combination strategies for neural stem cell therapy in glioblastoma",
-      "url": "https://arxiv.org/abs/2611.01374",
-      "summary": "arXiv:2611.01374v1 Announce Type: new Abstract: Neural stem cells (NSCs) are a promising treatment platform due to their ability to cross the restrictive blood-brain barrier and migrate toward damaged regions of the brai…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An auditable agentic pipeline for variant-to-gene prioritisation, validated against orthogonal functional evidence",
-      "url": "https://arxiv.org/abs/2611.01461",
-      "summary": "arXiv:2611.01461v1 Announce Type: new Abstract: Assigning GWAS variants to causal genes requires evidence from multiple resources. We present V2G, an agentic pipeline that records evidence retrieval and returns ranked ge…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A resident-traveller model for global aspects of vaccination",
-      "url": "https://arxiv.org/abs/2611.01555",
-      "summary": "arXiv:2611.01555v1 Announce Type: new Abstract: A model for the spread of a vaccine-preventable infectious disease is set in a resident-traveller metapopulation context to investigate global aspects of vaccination. Of pa…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cell lines that share a well are not independent observations in the Tahoe-100M drug screen",
-      "url": "https://arxiv.org/abs/2611.01604",
-      "summary": "arXiv:2611.01604v1 Announce Type: new Abstract: Pooled drug screens treat and sequence dozens of cancer cell lines together in one well. Tahoe-100M, the largest, is used to train and benchmark models that predict how unm…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Planar Switching Neuron Shares Logarithmic First-Spike Latency with Its Three-Dimensional Parent But Not Its Onset Mechanism",
-      "url": "https://arxiv.org/abs/2611.01632",
-      "summary": "arXiv:2611.01632v1 Announce Type: new Abstract: Can a reduced neuron model reproduce first-spike latency scaling while changing how a stimulus initiates sustained firing? We compare a piecewise-linear planar Neurosimilat…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Kinetic Basis of the Genetic Code",
-      "url": "https://arxiv.org/abs/2611.01832",
-      "summary": "arXiv:2611.01832v1 Announce Type: new Abstract: The origin of the genetic code is an enigma, requiring explanations for the emergence of degeneracy, the organizational structure of the code, and the correspondence betwee…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolutionary characterization of whole-genome doubling across human cancers",
-      "url": "https://arxiv.org/abs/2611.01897",
-      "summary": "arXiv:2611.01897v1 Announce Type: new Abstract: Whole-genome doubling (WGD) is common across human cancers and is associated with tumour progression and adverse clinical outcomes. However, how genome-doubled tumours evol…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pin and Replay, or Refuse: Conditional Exactness and Probabilistic Validation Across Reference Releases",
-      "url": "https://arxiv.org/abs/2611.02182",
-      "summary": "arXiv:2611.02182v1 Announce Type: new Abstract: Biologists annotate genomes by searching proteins against reference databases such as Pfam, which publish new releases every few weeks to months. Each release forces a full…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling Visual Cortex with Layerwise Multiscale Manifold Capacity Maximization",
-      "url": "https://arxiv.org/abs/2611.02245",
-      "summary": "arXiv:2611.02245v1 Announce Type: new Abstract: Task-optimized deep neural networks have risen to prominence as the most predictive phenomenological models of responses in primate visual cortex, but leave much to be desi…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Keep on growing or change direction? Dependence of clonal plant survival on the probability of side-branching",
-      "url": "https://arxiv.org/abs/2611.02700",
-      "summary": "arXiv:2611.02700v1 Announce Type: new Abstract: In clonal organisms, the genetic individual (genet) may consist of several physiological individuals (ramets). Clonal plants typically grow horizontally by means of stolons…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Coupling cellular trajectories and RNA kinetics on continuous expression manifolds with ManifoldVelo",
-      "url": "https://arxiv.org/abs/2611.03056",
-      "summary": "arXiv:2611.03056v1 Announce Type: new Abstract: Jointly recovering pseudotime and RNA velocity from static single-cell transcriptomes requires reconciling global trajectory structure with local expression changes, partic…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Intrinsic network dynamics catalyze switching in functional connectivity states of the brain",
-      "url": "https://arxiv.org/abs/2611.03071",
-      "summary": "arXiv:2611.03071v1 Announce Type: new Abstract: Dynamic functional connectivity (dFC) reflects ongoing reconfiguration of large-scale brain networks, but the temporal organization and network processes underlying spontan…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Automatic Generation of Novel Highly-Functional Molecular Sequences",
-      "url": "https://arxiv.org/abs/2611.03603",
-      "summary": "arXiv:2611.03603v1 Announce Type: new Abstract: While multiple methods now exist to generate functional sequence variants from existing annotated examples, it is unclear how well such methods can be used to generate sequ…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
       "categoryId": "bio"
     }
   ],
