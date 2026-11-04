@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-03T21:39:08.740Z",
+  "updated": "2026-11-04T01:58:46.106Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Alamar, Nightingale Health Team up on UK Biobank Neurodegeneration Protein Study",
+      "url": "https://www.genengnews.com/topics/omics/alamar-nightingale-health-team-up-on-uk-biobank-neurodegeneration-protein-study/",
+      "summary": "Nightingale Health will run the measurements in its labs using Alamar’s NULISA platform to quantify hundreds of blood proteins in 80,000 UK Biobank samples, seeking early molecular signs of neurodegeneration. The post Al…",
+      "ts": 1793745832000,
+      "publishedAt": "2026-11-03T22:43:52.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Servier’s $1.55 billion muscular dystrophy drug fails first major test",
@@ -172,6 +181,51 @@
       "ts": 1793707200000,
       "publishedAt": "2026-11-03T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Children killed in Myanmar strike, new violence flares in Mozambique, an Internet affordability milestone",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168729",
+      "summary": "A school in Myanmar has been hit in an airstrike, with three children reported killed and five others injured, according to UN Children’s Fund UNICEF.",
+      "ts": 1793707200000,
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Married off at 14: In Yemen’s war, women and girls suffer ‘devastating consequences’",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168730",
+      "summary": "Safa is 14. Her mother died earlier this year. She has no brothers or sisters. And a few weeks ago, as the crisis took hold, her father married her to an elderly man, afraid that if he were killed in the hostilities, no …",
+      "ts": 1793707200000,
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti gang leader seeks UN talks as El Salvador sends 2,000 troops to hunt for missing soldiers",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168728",
+      "summary": "A Haitian gang leader wanted by the United States has asked the UN to mediate, as El Salvador sends more than 2,000 troops into the country to search for four of its soldiers who went missing after a gang ambush.",
+      "ts": 1793707200000,
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gender equality pays off for business – so why are companies pulling back?",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168726",
+      "summary": "Gender equality and diversity are good for business – but while increasing numbers of women are reaching top spots in the corporate world, more initiatives are needed to keep momentum going.",
+      "ts": 1793707200000,
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Air raid alerts and attacks on schools: the devastating face of education in Ukraine",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168724",
+      "summary": "Ukraine has sustained almost 2,000 attacks on education since the full-scale Russian invasion in 2022, with some 270 this year alone, the UN Children’s Fund (UNICEF) said on Tuesday, a day after a strike at a school bein…",
+      "ts": 1793707200000,
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "IAEA News",
@@ -754,60 +808,6 @@
       "title": "Neuromodulation-inspired gated associative memory networks: extended memory retrieval and emergent multistability",
       "url": "https://arxiv.org/abs/2512.13859",
       "summary": "arXiv:2512.13859v3 Announce Type: replace Abstract: Classical autoassociative memory models have been central to understanding emergent computations in recurrent neural circuits across diverse biological contexts. Howeve…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Behavioral patterns and mean-field games in epidemiological models",
-      "url": "https://arxiv.org/abs/2512.20547",
-      "summary": "arXiv:2512.20547v2 Announce Type: replace Abstract: We introduce a new type of Mean Field Game epidemiological models, in which subpopulations have different behavioral patterns: some people exhibit a type of ``rational'…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Differential Dynamic Causal Nets: Model Construction, Identification and Group Comparisons",
-      "url": "https://arxiv.org/abs/2601.21478",
-      "summary": "arXiv:2601.21478v2 Announce Type: replace Abstract: Pathophysiological modelling of brain systems from microscale to macroscale remains difficult in group comparisons partly because of the infeasibility of modelling the …",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CTM-AI: Evolving Multi-Agent Intelligence Inspired by a Model of Consciousness",
-      "url": "https://arxiv.org/abs/2605.04097",
-      "summary": "arXiv:2605.04097v2 Announce Type: replace Abstract: Despite remarkable advances, today's AI systems remain narrow in scope, falling short of the adaptive and continual intelligence that characterizes human capabilities. …",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Oxygenation and spatial heterogeneity shape radiotherapy protocol ranking through phenotypic adaptation",
-      "url": "https://arxiv.org/abs/2606.04004",
-      "summary": "arXiv:2606.04004v3 Announce Type: replace Abstract: Tumor response to radiotherapy is strongly influenced by oxygen availability and phenotypic heterogeneity, yet their combined impact on the relative performance of frac…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Querying Counterfactuals on Tissue Graphs with Supervised Disentanglement",
-      "url": "https://arxiv.org/abs/2606.08493",
-      "summary": "arXiv:2606.08493v3 Announce Type: replace Abstract: Tissue graph counterfactuals ask what a cell would express if its spatial neighborhood were altered, a question central to predicting cell behavior in tissues. Existing…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Establishing the Minimal Clinically Important Difference (MCID) for Smartphone-Derived Gait Measures in Multiple Sclerosis",
-      "url": "https://arxiv.org/abs/2606.28449",
-      "summary": "arXiv:2606.28449v3 Announce Type: replace Abstract: Background: Digital health technologies allow for frequent, remote gait monitoring in people with multiple sclerosis (MS). However, to differentiate daily variability f…",
       "ts": 1793682000000,
       "publishedAt": "2026-11-03T05:00:00.000Z",
       "categoryId": "bio"
