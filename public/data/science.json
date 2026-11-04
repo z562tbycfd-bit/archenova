@@ -1,806 +1,806 @@
 {
   "ok": true,
-  "updated": "2026-11-04T01:58:43.186Z",
+  "updated": "2026-11-04T08:57:46.897Z",
   "items": [
     {
       "source": "Phys.org",
-      "title": "Shared data ecosystem could help scientists explore new biological connections",
-      "url": "https://phys.org/news/2026-11-ecosystem-scientists-explore-biological.html",
-      "summary": "Scientists generate vast amounts of research data, but connecting information across studies can be difficult. The NIH Common Fund Data Ecosystem is working to change that by making research data sets from 18 NIH program…",
-      "ts": 1793756401000,
-      "publishedAt": "2026-11-04T01:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Digitalization front-runners are more vulnerable to cyberattacks",
-      "url": "https://phys.org/news/2026-11-digitalization-front-runners-vulnerable-cyberattacks.html",
-      "summary": "For many business leaders, digitalization is associated with promises of greater efficiency and productivity. However, a new study by professor of accounting Jukka Sihvonen from the University of Vaasa, Finland, suggests…",
-      "ts": 1793755801000,
-      "publishedAt": "2026-11-04T01:30:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study maps Nelore cattle microbiota to reduce methane emissions",
-      "url": "https://phys.org/news/2026-11-nelore-cattle-microbiota-methane-emissions.html",
-      "summary": "Researchers at the Brazilian Agricultural Research Corporation (EMBRAPA) are studying the relationship between the genetics of Nelore cattle and the microorganisms in their guts (microbiota). Nelore cattle are the most w…",
-      "ts": 1793754001000,
-      "publishedAt": "2026-11-04T01:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "North Atlantic's 'cold blob' may contain climate nuance",
-      "url": "https://phys.org/news/2026-11-north-atlantic-cold-blob-climate.html",
-      "summary": "Climate observers have long tied the strength of a major ocean current to water temperatures in the so-called \"cold blob\" in the North Atlantic Ocean. The 965,000-square-mile (2.5 million square kilometers) area south an…",
-      "ts": 1793752806000,
-      "publishedAt": "2026-11-04T00:40:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How the nasal microbiome can help potentially harmful bacteria thrive",
-      "url": "https://phys.org/news/2026-11-nasal-microbiome-potentially-bacteria.html",
-      "summary": "Our noses are home to many different species of bacteria living side by side. One of them may be S. aureus. Many people carry this bacterium without knowing it, although it can cause serious infections. Why S. aureus col…",
-      "ts": 1793752802000,
-      "publishedAt": "2026-11-04T00:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Semiautomated platform delivers consistent batches of extracellular vesicles for potential regenerative therapies",
-      "url": "https://phys.org/news/2026-11-semiautomated-platform-batches-extracellular-vesicles.html",
-      "summary": "A study led by researchers from the Germans Trias i Pujol Research Institute (IGTP) and the Blood and Tissue Bank (BST) has developed and validated a manufacturing platform for extracellular vesicles that meets pharmaceu…",
-      "ts": 1793751604000,
-      "publishedAt": "2026-11-04T00:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "US midterm elections: Younger politicians could strengthen trust in democracy",
-      "url": "https://phys.org/news/2026-11-midterm-elections-younger-politicians-democracy.html",
-      "summary": "It's no secret that American politics is dominated by older politicians. When 81-year-old Joe Biden withdrew from the 2024 presidential race amid concerns about his age, it was the then-78-year-old Donald Trump who ultim…",
-      "ts": 1793751602000,
-      "publishedAt": "2026-11-04T00:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Using vibrations to reveal what lies beneath other planets' surfaces",
-      "url": "https://phys.org/news/2026-11-vibrations-reveal-beneath-planets-surfaces.html",
-      "summary": "Modern space exploration hasn't quite reached \"Star Trek\" levels of boldly going where no one has gone before. But if, like the denizens of the USS Enterprise, astronauts one day want to land on an uncharted planet, they…",
-      "ts": 1793751001000,
-      "publishedAt": "2026-11-04T00:10:01.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "How hawkmoths turned their genitals into bat-busting weapons",
-      "url": "https://www.sciencenews.org/article/hawkmoth-genitals-bat-weapon",
-      "summary": "In arms race with bats, hawkmoths have evolved three distinct ways to make bat-busting ultrasound using their genitalia.",
-      "ts": 1793750460000,
-      "publishedAt": "2026-11-04T00:01:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tiny fossils show brittle stars gathered around a dead whale 9.5 million years ago",
-      "url": "https://phys.org/news/2026-11-tiny-fossils-brittle-stars-dead.html",
-      "summary": "Tiny skeletal plates recovered beside fossil whale bones in southern Denmark offer a rare glimpse of life around a whale carcass approximately 9.5 million years ago. Researchers have identified a new species of brittle s…",
-      "ts": 1793750406000,
-      "publishedAt": "2026-11-04T00:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Disillusion runs deep among young Americans, poll reveals",
-      "url": "https://phys.org/news/2026-11-disillusion-deep-young-americans-poll.html",
-      "summary": "The kids are not all right on the future. For the first time in the 26-year history of the Harvard Youth Poll, more respondents expect to be worse off financially than their parents (27%) than better off (25%).",
-      "ts": 1793750401000,
-      "publishedAt": "2026-11-04T00:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Southern Ocean waters reveal distinct nutrient recycling pathways during decades-long journeys north",
-      "url": "https://phys.org/news/2026-11-southern-ocean-reveal-distinct-nutrient.html",
-      "summary": "The Southern Ocean may seem far removed from the North Pacific or the Gulf of Maine, but its waters are linked to all the world's major ocean basins through a vast circulation system.",
-      "ts": 1793749801000,
-      "publishedAt": "2026-11-03T23:50:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Asymmetric atomic structure improves sodium–sulfur battery performance",
-      "url": "https://phys.org/news/2026-11-asymmetric-atomic-sodiumsulfur-battery.html",
-      "summary": "Chinese researchers have developed a new way to improve sodium–sulfur battery performance by changing the atomic structure of a catalyst. Led by professors Wang Hui and Zheng Fangcai from the High Magnetic Field Laborato…",
-      "ts": 1793749205000,
-      "publishedAt": "2026-11-03T23:40:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Finding the fingerprints of noisy distributions in random quantum systems",
-      "url": "https://phys.org/news/2026-11-fingerprints-noisy-random-quantum.html",
-      "summary": "Imagine shuffling a deck of cards where some of the cards are fading just because of the way they interact with the external environment as you shuffle them. Your job is to figure out the interplay between the shuffling,…",
-      "ts": 1793749201000,
-      "publishedAt": "2026-11-03T23:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tijuana River pollution doesn't stay put—it can travel seven times farther than expected",
-      "url": "https://phys.org/news/2026-11-tijuana-river-pollution-doesnt-stay.html",
-      "summary": "Waste dumped into the Tijuana River can travel seven times farther than expected before becoming airborne and affecting San Diego's air, at least 20 miles (32 kilometers) from its source, according to new UC Riverside re…",
-      "ts": 1793748601000,
-      "publishedAt": "2026-11-03T23:30:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New framework helps turn biodiversity goals into measurable action",
-      "url": "https://phys.org/news/2026-11-framework-biodiversity-goals-action.html",
-      "summary": "The new study by Newcastle University and the International Union for Conservation of Nature (IUCN) offers a practical roadmap for tracking progress toward halting species extinctions by 2050. It guides users from unders…",
-      "ts": 1793748007000,
-      "publishedAt": "2026-11-03T23:20:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Cooking is a bigger source of harmful air particles than vehicle exhausts in London and Beijing",
-      "url": "https://phys.org/news/2026-11-cooking-bigger-source-air-particles.html",
-      "summary": "There have been decades of regulations to make vehicles greener and improve air quality in London and Beijing, as well as a popular shift toward less polluting road transport. Now, total emissions of harmful air pollutan…",
-      "ts": 1793748002000,
-      "publishedAt": "2026-11-03T23:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Body size, not competition, may kick-start evolution",
-      "url": "https://phys.org/news/2026-11-body-size-competition-evolution.html",
-      "summary": "A new evolutionary theory suggests changes in body size, rather than competition for food and habitat, may drive the earliest physical differences between species.",
-      "ts": 1793747401000,
-      "publishedAt": "2026-11-03T23:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Talk of the town: Virtual world gets stroke survivors talking",
-      "url": "https://phys.org/news/2026-11-town-virtual-world-survivors.html",
-      "summary": "Have you ever felt like you know exactly what you want to say, but just can't get the words out? Having a word on the tip of your tongue can be frustrating at the best of times, but for people with communication difficul…",
-      "ts": 1793746806000,
-      "publishedAt": "2026-11-03T23:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scarcer food may have pushed early humans to rework stone tools for longer use",
-      "url": "https://phys.org/news/2026-11-scarcer-food-early-humans-rework.html",
-      "summary": "About 300,000 years ago, the emergence of the first Homo sapiens in Africa was accompanied by major cultural and technological changes, marking the beginning of a new archaeological period, the Middle Stone Age. At that …",
-      "ts": 1793746801000,
-      "publishedAt": "2026-11-03T23:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "When should we listen for alien signals? Scientists turn to game theory",
-      "url": "https://phys.org/news/2026-11-alien-scientists-game-theory.html",
-      "summary": "Finding a signal from an extraterrestrial civilization takes more than just pointing a telescope in the right direction. We may also need to listen at exactly the right time.",
-      "ts": 1793746201000,
-      "publishedAt": "2026-11-03T22:50:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Stone Age hunters in northern Europe may have used poison arrows to hunt big prey",
-      "url": "https://phys.org/news/2026-11-stone-age-hunters-northern-europe.html",
-      "summary": "Autumn walks in Britain are glorious, as the foliage changes color and cool, crisp air begins to bite. However, some of these European trees hide a much darker secret. For example, the yew tree's lovely red arils—the cup…",
-      "ts": 1793745613000,
-      "publishedAt": "2026-11-03T22:40:13.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How humans influence fish behavior and why this is important for species conservation",
-      "url": "https://phys.org/news/2026-11-humans-fish-behavior-important-species.html",
-      "summary": "Two recent review articles in the journals Trends in Ecology & Evolution and Fish and Fisheries, to which researchers from the Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB) contributed, focus on the …",
-      "ts": 1793745601000,
-      "publishedAt": "2026-11-03T22:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Light-matter hybrids form supersolid quantum state at room temperature",
-      "url": "https://phys.org/news/2026-11-hybrids-supersolid-quantum-state-room.html",
-      "summary": "Researchers from the Faculty of Physics at the University of Warsaw, the Military University of Technology (Poland), IBM Research Zurich and the French National Centre for Scientific Research (CNRS) have observed a new q…",
-      "ts": 1793744411000,
-      "publishedAt": "2026-11-03T22:20:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Single-copy genes can be used as markers to distinguish between bacteria in the same family",
-      "url": "https://phys.org/news/2026-11-genes-markers-distinguish-bacteria-family.html",
-      "summary": "The more than 100 bacterial species of the genus Vibrio are important in marine ecosystems because they contribute to the carbon cycle and other ecological processes, but they can also be significant pathogens for both h…",
-      "ts": 1793744401000,
-      "publishedAt": "2026-11-03T22:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Researchers develop method for single-cell DNA methylation analysis",
-      "url": "https://phys.org/news/2026-11-method-cell-dna-methylation-analysis.html",
-      "summary": "Researchers have recently developed a standardized workflow for analyzing DNA methylation in individual cells. The protocol combines an improved laboratory procedure with an automated data analysis tool, making it easier…",
-      "ts": 1793743206000,
-      "publishedAt": "2026-11-03T22:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The marginalia found in millions of Arabic manuscripts could reshape our understanding of Islamic history",
-      "url": "https://phys.org/news/2026-11-marginalia-millions-arabic-manuscripts-reshape.html",
-      "summary": "For a comprehensive understanding of the content of millions of Arabic manuscripts held in libraries around the world, it is crucial for scholars to first examine what their marginalia reveal, according to a new study pu…",
-      "ts": 1793743201000,
-      "publishedAt": "2026-11-03T22:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study finds stronger trade secret protection leads firms to break down innovation silos",
-      "url": "https://phys.org/news/2026-11-stronger-secret-firms-silos.html",
-      "summary": "To guard proprietary know-how, many firms separate their inventors into independent groups so that no single employee sees too much of the organization's knowledge. New research published in Strategic Management Journal …",
-      "ts": 1793742012000,
-      "publishedAt": "2026-11-03T21:40:12.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A laser can draw superconductivity at the nanoscale",
-      "url": "https://phys.org/news/2026-11-laser-superconductivity-nanoscale.html",
-      "summary": "Researchers from ICMAB-CSIC, the Politecnico di Milano and Université de Liège have adapted a direct laser writing technique that allows them to \"draw\" superconducting properties in a material. The result is a new way to…",
-      "ts": 1793742002000,
-      "publishedAt": "2026-11-03T21:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Plant-inspired natural coatings can beat forever chemicals",
-      "url": "https://phys.org/news/2026-11-natural-coatings-chemicals.html",
-      "summary": "Polyfluoroalkyl substances (PFAS) are known as \"forever chemicals\" because of the impact they make on the environment and human bodies. Much of modern manufacturing relies on these substances for safe packaging, fire pro…",
-      "ts": 1793740804000,
-      "publishedAt": "2026-11-03T21:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Cold storage can extend shelf life of platelets for dogs facing life-threatening bleeding",
-      "url": "https://phys.org/news/2026-11-cold-storage-shelf-life-platelets.html",
-      "summary": "Veterinarians often have limited access to one of the most effective tools for controlling life-threatening bleeding complications in dogs: platelets.",
-      "ts": 1793740801000,
-      "publishedAt": "2026-11-03T21:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Nearly 7 in 10 professors report being bullied, often by students over grades",
-      "url": "https://phys.org/news/2026-11-professors-bullied-students-grades.html",
-      "summary": "Faculty and university staff members report being bullied in two ways: by their colleagues and supervisors, and by their students over grades, according to an international study I conducted with colleagues Zahra Moradi …",
-      "ts": 1793739610000,
-      "publishedAt": "2026-11-03T21:00:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "More power, less payoff: Study reveals a bottleneck in cleaner methanol production",
-      "url": "https://phys.org/news/2026-11-power-payoff-reveals-bottleneck-cleaner.html",
-      "summary": "Dialing up the power on electricity-driven chemical reactions doesn't guarantee that they'll be more efficient, suggests a new study, a finding that gets researchers closer to creating the ideal conditions for sustainabl…",
-      "ts": 1793739601000,
-      "publishedAt": "2026-11-03T21:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A single measurement makes quantum bits more reliable",
-      "url": "https://phys.org/news/2026-11-quantum-bits-reliable.html",
-      "summary": "Researchers at the University of Regensburg and their international partners have found a way to significantly reduce errors in quantum bits. In an experiment, they demonstrated that a single additional measurement befor…",
-      "ts": 1793738406000,
-      "publishedAt": "2026-11-03T20:40:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wherever there are people, there is also wildlife—though not necessarily at the same time",
-      "url": "https://phys.org/news/2026-11-people-wildlife-necessarily.html",
-      "summary": "Human-induced global change has reached an unprecedented scale and intensity. Through intensive land use and the associated loss of species, humans are permanently altering the habitats and communities of wild animals. \"…",
-      "ts": 1793738401000,
-      "publishedAt": "2026-11-03T20:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "As it gets harder to figure out what to eat, some Americans are turning to religion for answers",
-      "url": "https://phys.org/news/2026-11-harder-figure-americans-religion.html",
-      "summary": "It's getting harder and harder to figure out what to eat. A scroll through social media raises many questions. Why is food so expensive? Am I getting enough protein? What about fiber? Do I need supplements? Should I be m…",
-      "ts": 1793737206000,
-      "publishedAt": "2026-11-03T20:20:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Reading single vesicles reveals clues to the origin of chronic inflammation",
-      "url": "https://phys.org/news/2026-11-vesicles-reveals-clues-chronic-inflammation.html",
-      "summary": "A new technique to diagnose chronic inflammation developed at Nagoya University can read information from the surface and within individual extracellular vesicles in blood and urine. This technique could be used to devel…",
-      "ts": 1793737202000,
-      "publishedAt": "2026-11-03T20:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Researchers target PFAS with lower-temperature destruction method",
-      "url": "https://phys.org/news/2026-11-pfas-temperature-destruction-method.html",
-      "summary": "Removing harmful chemicals from contaminated water is only one step toward their elimination. Once collected in filtration materials, these chemicals must still be destroyed and detoxified to prevent contamination from m…",
-      "ts": 1793736007000,
-      "publishedAt": "2026-11-03T20:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Global accounting reveals economic toll of ecosystem losses from rising seas",
-      "url": "https://phys.org/news/2026-11-global-accounting-reveals-economic-toll.html",
-      "summary": "A global accounting puts the value of ecosystem services that could be lost to sea level rise at well over 100 billion in 2020 international dollars (Int$2020) per year by 2100, according to a study—and the nations that …",
-      "ts": 1793736001000,
-      "publishedAt": "2026-11-03T20:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Silent lakes ahead? Long-term study finds common loon productivity is dropping across North America",
-      "url": "https://phys.org/news/2026-11-silent-lakes-term-common-loon.html",
-      "summary": "The eerie call of the common loon has long been the sound of North America's northern lakes, but new research shows it may not be that way in the future. A new study led by Birds Canada analyzed breeding attempts across …",
-      "ts": 1793734812000,
-      "publishedAt": "2026-11-03T19:40:12.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Microbiome research reveals how bacterial lipids influence liver and muscle health in mice",
-      "url": "https://phys.org/news/2026-11-microbiome-reveals-bacterial-lipids-liver.html",
-      "summary": "An interdisciplinary team of researchers from UConn and the University of Pittsburgh is filling knowledge gaps about the surprising roles that our microbiomes play in our health. The team's recent studies, published in G…",
-      "ts": 1793734801000,
-      "publishedAt": "2026-11-03T19:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Silk microneedles offer new way to deliver vaccines to farmed fish",
-      "url": "https://phys.org/news/2026-11-silk-microneedles-vaccines-farmed-fish.html",
-      "summary": "Fish that are cultivated in pools or ponds are an increasingly important source of food around the world. Unfortunately, disease outbreaks can cause substantial losses in aquaculture.",
-      "ts": 1793734201000,
-      "publishedAt": "2026-11-03T19:30:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Oil-producing yeast reveals two stages of fat accumulation under nitrogen limitation",
-      "url": "https://phys.org/news/2026-11-oil-yeast-reveals-stages-fat.html",
-      "summary": "A research team led by professors Xu Guowang and Liu Xinyu from the Dalian Institute of Chemical Physics (DICP) of the Chinese Academy of Sciences (CAS), in collaboration with researchers from Dalian University of Techno…",
-      "ts": 1793733610000,
-      "publishedAt": "2026-11-03T19:20:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Mapping Kīlauea's magma reservoirs at high resolution",
-      "url": "https://phys.org/news/2026-11-klauea-magma-reservoirs-high-resolution.html",
-      "summary": "The Hawaiian volcano Kīlauea is among the most active on Earth. Not only did it erupt almost continuously from 1983 to 2018, but it also began a new series of eruptions in late 2024 that continue as of late 2026. The act…",
-      "ts": 1793733606000,
-      "publishedAt": "2026-11-03T19:20:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Pregnant mandrill monkeys are more likely to miscarry when also nursing an infant",
-      "url": "https://phys.org/news/2026-11-pregnant-mandrill-monkeys-miscarry-nursing.html",
-      "summary": "Female mandrills are more likely to experience pregnancy loss when they are simultaneously nursing an infant, which may reflect a physiological trade-off between current and future offspring, according to a study by Niko…",
-      "ts": 1793732415000,
-      "publishedAt": "2026-11-03T19:00:15.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Five ways that sea‑level rise affects your daily life, even if you live inland",
-      "url": "https://phys.org/news/2026-11-ways-sealevel-affects-daily-life.html",
-      "summary": "Rising sea levels might seem like someone else's problem if you live inland. But even miles from the coast, changing sea levels can affect the food we eat, the goods we buy, the energy we use and the taxes we pay.",
-      "ts": 1793732411000,
-      "publishedAt": "2026-11-03T19:00:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Cold without consequences? Short-term climate fluctuations appear to have had less impact on early farmers",
-      "url": "https://phys.org/news/2026-11-cold-consequences-short-term-climate.html",
-      "summary": "Cold conditions may not have been responsible for the centuries-long pause in the spread of farming across south-eastern Europe during prehistory, according to a new study by the Leibniz-Zentrum für Archäologie (LEIZA) i…",
-      "ts": 1793731222000,
-      "publishedAt": "2026-11-03T18:40:22.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "US wildfire damage is on pace to triple by mid‑century, but there are affordable ways to lower the risk",
-      "url": "https://phys.org/news/2026-11-wildfire-pace-triple-midcentury-ways.html",
-      "summary": "As temperatures rise and development expands, the number of homes and other structures damaged or destroyed by wildfires across the U.S. is on pace to triple by midcentury, my colleagues and I found in a study just publi…",
-      "ts": 1793731202000,
-      "publishedAt": "2026-11-03T18:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bee nest linings could inspire plastics that break down in soil",
-      "url": "https://phys.org/news/2026-11-bee-linings-plastics-soil.html",
-      "summary": "Hundreds of millions of metric tons of plastics are produced every year, and most of them end up sitting in landfills or polluting natural environments after use. These plastics endure for dozens to hundreds of years. Bu…",
-      "ts": 1793730601000,
-      "publishedAt": "2026-11-03T18:30:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Iridium catalyst activates chemotherapy drug directly at targeted cancer cells",
-      "url": "https://phys.org/news/2026-11-iridium-catalyst-chemotherapy-drug-cancer.html",
-      "summary": "Conventional chemotherapy treatments often attack not only cancer cells but also healthy tissue, leading to severe side effects such as hair loss or nausea. The team led by Dr. Thomas Ward from the Department of Chemistr…",
-      "ts": 1793730016000,
-      "publishedAt": "2026-11-03T18:20:16.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scientists revive decades-old approach to target cancer-linked genes using synthetic DNA",
-      "url": "https://phys.org/news/2026-11-scientists-revive-decades-approach-cancer.html",
-      "summary": "Researchers have developed a new approach that uses synthetic DNA molecules to target cancer-linked genes directly, opening new possibilities for future treatments, diagnostics and biological research.",
-      "ts": 1793730014000,
-      "publishedAt": "2026-11-03T18:20:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Double mutualist' birds are key to mistletoe reproduction",
-      "url": "https://phys.org/news/2026-11-mutualist-birds-key-mistletoe-reproduction.html",
-      "summary": "Some bird species act as \"double mutualists\" for a common mistletoe, both pollinating its flowers and dispersing its seeds. These double mutualists play an effective role in mistletoe reproduction.",
-      "ts": 1793728811000,
-      "publishedAt": "2026-11-03T18:00:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Are Counter-Strike players better at decision-making? Study reveals faster brain processing in expert gamers",
-      "url": "https://phys.org/news/2026-11-counter-players-decision-reveals-faster.html",
-      "summary": "Expert Counter-Strike players could make ideal candidates for fast-paced emergency service response jobs requiring split-second decision-making, according to a new University of Sheffield study aiming to debunk myths abo…",
-      "ts": 1793728802000,
-      "publishedAt": "2026-11-03T18:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tell this AI what you want a protein to do—and it designs one",
-      "url": "https://phys.org/news/2026-11-ai-protein.html",
-      "summary": "In a short space of time, artificial intelligence has become a whiz at designing proteins, molecular machines that perform various functions such as speeding up reactions, producing fluorescent signals and breaking down …",
-      "ts": 1793727617000,
-      "publishedAt": "2026-11-03T17:40:17.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI is changing what's in store for new hires and managers alike",
-      "url": "https://phys.org/news/2026-11-ai-hires-alike.html",
-      "summary": "AI is screening résumés, prompting some managers to hire fewer entry-level workers and leading others to expect beginners to tackle more advanced work, Northeastern University's AI & Society Survey found. The report is t…",
-      "ts": 1793727601000,
-      "publishedAt": "2026-11-03T17:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Life on the move in a changing Chesapeake Bay",
-      "url": "https://phys.org/news/2026-11-life-chesapeake-bay.html",
-      "summary": "In 2025, a local crabber reached out to professor Romuald Lipcius with some news: He'd been catching stone crabs in the Chesapeake Bay. Native to Florida, the species had reached its northernmost documented occurrence to…",
-      "ts": 1793726414000,
-      "publishedAt": "2026-11-03T17:20:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Plants' immune memory hints at new crop breeding approach",
-      "url": "https://phys.org/news/2026-11-immune-memory-hints-crop-approach.html",
-      "summary": "A study published in Nature Communications, led by professor Jurriaan Ton and Dr. Adam Hannan Parker at the University of Sheffield, has identified mechanisms by which plants maintain and reset stress memory from past in…",
-      "ts": 1793726401000,
-      "publishedAt": "2026-11-03T17:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A new way to navigate tough land and water use decisions",
-      "url": "https://phys.org/news/2026-11-tough-decisions.html",
-      "summary": "An open-source software tool to help find a sweet spot between competing environmental and development demands has been launched by researchers at the University of Queensland.",
-      "ts": 1793725801000,
-      "publishedAt": "2026-11-03T17:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Boat burial reveals leprosy strain in fifth-century Germany",
-      "url": "https://phys.org/news/2026-11-boat-burial-reveals-leprosy-strain.html",
-      "summary": "Visigothic and Vandal forces marched into Italy and conquered Rome; the Huns spread fear and terror on their campaigns through Western Europe; the Franks expanded their domain southward—the fifth century was an era of pr…",
-      "ts": 1793725206000,
-      "publishedAt": "2026-11-03T17:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Physicists step closer to the 'Zeptoverse' after 42-year particle search",
-      "url": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html",
-      "summary": "Physicists have found evidence of a particle decay so rare that it is expected to occur only around once in every 10 billion \"beauty\" particles. The result, from the upgraded LHCb experiment at CERN's Large Hadron Collid…",
-      "ts": 1793720430000,
-      "publishedAt": "2026-11-03T15:40:30.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How to reduce harmful sexual behavior and protect your kids and their peers",
-      "url": "https://phys.org/news/2026-11-sexual-behavior-kids-peers.html",
-      "summary": "Recent media reports of alleged sexual assaults by teenage boys draw attention to an uncomfortable truth: Young people sometimes perpetrate harmful sexual behavior against their peers.",
-      "ts": 1793720401000,
-      "publishedAt": "2026-11-03T15:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Afforestation reshapes wildfire activity across temperate regions worldwide",
-      "url": "https://phys.org/news/2026-11-afforestation-reshapes-wildfire-temperate-regions.html",
-      "summary": "Tree planting provides wood, biomass and climate benefits, but the location where those new forests are established matters. An international study by researchers in Spain, Chile and Finland shows that converting nonfore…",
-      "ts": 1793719802000,
-      "publishedAt": "2026-11-03T15:30:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Forgotten flint tools reveal how Egypt's farmers organized work before the pharaohs",
-      "url": "https://phys.org/news/2026-11-forgotten-flint-tools-reveal-egypt.html",
-      "summary": "More than a century after they were excavated from beneath Cairo, almost 3,000 stone tools from Heliopolis show that specialized work was already reshaping village life before Egypt became a state.",
-      "ts": 1793719212000,
-      "publishedAt": "2026-11-03T15:20:12.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "JWST may have found where heavy black hole seeds formed",
-      "url": "https://phys.org/news/2026-11-jwst-heavy-black-hole-seeds.html",
-      "summary": "Astrophysicists think that the supermassive black holes (SMBH) we see in the modern universe are the result of a long, drawn-out process. That process is referred to as the hierarchical black hole mergers framework. It e…",
-      "ts": 1793719201000,
-      "publishedAt": "2026-11-03T15:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Evolution in the act': Forest lizards reveal rapid adaptation in a warming world",
-      "url": "https://phys.org/news/2026-11-evolution-forest-lizards-reveal-rapid.html",
-      "summary": "Yale research scientist Saúl Domínguez-Guerrero didn't set out to catch \"evolution in the act\" when he traveled to the Caribbean with a team of Yale researchers a few years ago. At the time, the team from the lab of evol…",
-      "ts": 1793718009000,
-      "publishedAt": "2026-11-03T15:00:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Many local communities know how to communicate during disasters. Let's learn from them",
-      "url": "https://phys.org/news/2026-11-local-communities-communicate-disasters.html",
-      "summary": "It was a frightening time.",
-      "ts": 1793718004000,
-      "publishedAt": "2026-11-03T15:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Beetle poop may have helped shape millions of years of yeast evolution",
-      "url": "https://phys.org/news/2026-11-beetle-poop-millions-years-yeast.html",
-      "summary": "University at Buffalo scientists have found evidence that different species of yeast have shared genes originally acquired from an ancient virus—and the guts and droppings of beetles may have helped make it happen.",
-      "ts": 1793716806000,
-      "publishedAt": "2026-11-03T14:40:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Why we give flowers to those in grief—or buy them for ourselves when we're sad",
-      "url": "https://phys.org/news/2026-11-grief-buy-sad.html",
-      "summary": "During his renowned excavations at the Shanidar Cave in the Kurdistan Region of Iraq, American archaeologist Ralph Solecki located burial sites containing pollen and flower fragments from various species of wildflowers. …",
-      "ts": 1793716801000,
-      "publishedAt": "2026-11-03T14:40:01.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "Your voice can now say things you never said",
-      "url": "https://www.sciencenews.org/article/voice-clone-deep-end-podcast",
-      "summary": "Synthetic voices can restore speech, enable scams and outlive their owners. These uses raise questions about trust, consent and control.",
-      "ts": 1793716200000,
-      "publishedAt": "2026-11-03T14:30:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Why are we so squeamish about eating hagfish?",
-      "url": "https://phys.org/news/2026-11-squeamish-hagfish.html",
-      "summary": "When fishers are out working their boats, they are typically targeting a specific type of fish. However, other species often end up in their nets or trawls as well. This is known as \"bycatch\"—seafood for which the fisher…",
-      "ts": 1793715615000,
-      "publishedAt": "2026-11-03T14:20:15.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Fingernail-sized chip untangles mixed light into clean beams",
-      "url": "https://phys.org/news/2026-11-fingernail-sized-chip-untangles.html",
-      "summary": "Stanford engineers and colleagues designed a chip that can take a muddled mixture of light from multiple lasers and output clean beams of light. It's the first time researchers have demonstrated a device that can take in…",
-      "ts": 1793715612000,
-      "publishedAt": "2026-11-03T14:20:12.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Trial of live facial recognition technology to catch criminals is putting people's privacy to the test",
-      "url": "https://phys.org/news/2026-11-trial-facial-recognition-technology-criminals.html",
-      "summary": "WA Police are using live facial recognition technology to help identify and arrest criminals, with significant results. The trial is the first of its kind in Australia.",
-      "ts": 1793714405000,
-      "publishedAt": "2026-11-03T14:00:05.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "A drug-free diabetes treatment? An implant lowers blood sugar in mice",
-      "url": "https://www.sciencenews.org/article/diabetes-device-experiment-blood-sugar",
-      "summary": "The wireless implant rids mice's bodies of excess sugar on demand, and helps them shed weight. It could one day help treat diabetes and obesity.",
-      "ts": 1793714400000,
-      "publishedAt": "2026-11-03T14:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A tiny shift exposes a cold brown dwarf masquerading as an early galaxy",
-      "url": "https://phys.org/news/2026-11-tiny-shift-exposes-cold-brown.html",
-      "summary": "A faint red object spotted by the James Webb Space Telescope originally appeared to offer a possible glimpse of the universe's first galaxies. But images taken about 3½ years apart revealed a giveaway: The object, nickna…",
-      "ts": 1793713208000,
-      "publishedAt": "2026-11-03T13:40:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Unpacking wheat's water use for drought research",
-      "url": "https://phys.org/news/2026-11-wheat-drought.html",
-      "summary": "Researchers at The University of Queensland have developed a way to quantify how wheat varieties capture and convert soil water. Dr. Raul Gimenez from the Queensland Alliance for Agriculture and Food Innovation said the …",
-      "ts": 1793713201000,
-      "publishedAt": "2026-11-03T13:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tree shade offers critical heat relief for people experiencing unsheltered homelessness",
-      "url": "https://phys.org/news/2026-11-tree-critical-relief-people-experiencing.html",
-      "summary": "People experiencing unsheltered homelessness in Salt Lake City face hours of dangerous daytime heat and hot nights that offer little relief, according to a University of Utah study. Researchers also found that tree shade…",
-      "ts": 1793712005000,
-      "publishedAt": "2026-11-03T13:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Using sentimental possessions makes them more meaningful, study finds",
-      "url": "https://phys.org/news/2026-11-sentimental-meaningful.html",
-      "summary": "Consumers often protect their sentimentally valuable possessions by storing them away, which precludes them from being used. Across five studies, research from the University of Missouri-St. Louis and the University of O…",
-      "ts": 1793710805000,
-      "publishedAt": "2026-11-03T13:00:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Leviathan's sprawling stars challenge idea that dusty giants become compact galaxies",
-      "url": "https://phys.org/news/2026-10-leviathan-sprawling-stars-idea-dusty.html",
-      "summary": "Astronomers using the James Webb Space Telescope (JWST) have confirmed a massive, dust-rich galaxy called Leviathan in the early universe. Seen when the universe was roughly 1.5 billion years old, the galaxy has its star…",
-      "ts": 1793709606000,
-      "publishedAt": "2026-11-03T12:40:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study reveals concerning trends in global mental health",
-      "url": "https://phys.org/news/2026-11-reveals-trends-global-mental-health.html",
-      "summary": "A survey of 50,000 people across 92 countries finds global mental health may be languishing, including in the wealthiest countries, and especially among young people, who in previous generations had comparatively higher …",
-      "ts": 1793709601000,
-      "publishedAt": "2026-11-03T12:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New study examines how diabetes and weight-loss drugs affect employment and working hours",
-      "url": "https://phys.org/news/2026-11-diabetes-weight-loss-drugs-affect.html",
-      "summary": "Diabetes and weight-loss medications may have economic effects beyond health care spending, according to new research from NYU Abu Dhabi. Using population-wide data from Denmark, the study found that diabetes treatment c…",
-      "ts": 1793708408000,
-      "publishedAt": "2026-11-03T12:20:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New study reveals where drought and extreme heat converge across Oman",
-      "url": "https://phys.org/news/2026-11-reveals-drought-extreme-converge-oman.html",
-      "summary": "Drought and extreme heat do not always occur separately. When they coincide, their combined effects can place greater pressure on water resources, agriculture, ecosystems, energy systems and public health.",
-      "ts": 1793707204000,
-      "publishedAt": "2026-11-03T12:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Crow experiments suggest switching to vocal communication requires extra mental effort",
-      "url": "https://phys.org/news/2026-11-crow-vocal-communication-requires-extra.html",
-      "summary": "For animals that can produce vocalizations, choosing to emit a sound involves various neural processes. For instance, it entails controlling when to emit a sound and how loud and high-pitched the sound will be, while als…",
-      "ts": 1793706001000,
-      "publishedAt": "2026-11-03T11:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Fire losses to U.S. buildings could nearly triple by 2060 without new protections",
-      "url": "https://phys.org/news/2026-11-losses-triple.html",
-      "summary": "Fires in the U.S. are getting faster, larger and more dangerous, but people continue to develop and move into fire-prone regions. New research from the University of Colorado Boulder's Cooperative Institute for Research …",
-      "ts": 1793700008000,
-      "publishedAt": "2026-11-03T10:00:08.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Witnessing Short- and Long-Range Nonstabilizerness via the Information Lattice",
-      "url": "http://link.aps.org/doi/10.1103/4t3l-hy7z",
-      "summary": "Author(s): Yuliya Bilinskaya, Miguel F. Martínez, Soumi Ghosh, Thomas Klein Kvorning, Claudia Artiaco, and Jens H. Bardarson We study nonstabilizerness on the information lattice and demonstrate that noninteger local inf…",
-      "ts": 1793700000000,
-      "publishedAt": "2026-11-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of the Rare Decay $η→{μ}^{+}{μ}^{−}{e}^{+}{e}^{−}$",
-      "url": "http://link.aps.org/doi/10.1103/dv54-jq8p",
-      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) A first observation of the rare decay $η→{μ}^{+}{μ}^{−}{e}^{+}{e}^{−}$ is reported by the CMS Collaboration at the CERN LHC. The result is based on a proton-proton col…",
-      "ts": 1793700000000,
-      "publishedAt": "2026-11-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Building Far-from-Equilibrium Effective Field Theories Using Shift Symmetries",
-      "url": "http://link.aps.org/doi/10.1103/7bz2-nmb9",
-      "summary": "Author(s): Xin An, Robbe Brants, Michal P. Heller, and Yi Yin Contemporary understanding of thermalization in quantum field theory stems largely from understanding properties of transient excitations of equilibria. These…",
-      "ts": 1793700000000,
-      "publishedAt": "2026-11-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "From Coherent to Fermionized Microwave Photons in a Superconducting Transmission Line",
-      "url": "http://link.aps.org/doi/10.1103/g262-dlhf",
-      "summary": "Author(s): Alberto Tabarelli de Fatis, Stephanie Matern, Gianluca Rastelli, and Iacopo Carusotto We investigate superconducting transmission lines as a novel platform for realizing a quantum fluid of microwave photons in…",
-      "ts": 1793700000000,
-      "publishedAt": "2026-11-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "First-Principles Calculation of Coherence Length and Penetration Depth Based on Density Functional Theory for Superconductors",
-      "url": "http://link.aps.org/doi/10.1103/lrhl-j9bt",
-      "summary": "Author(s): Mitsuaki Kawamura, Takuya Nomoto, Niklas Witt, and Ryotaro Arita A new formalism yields the quantities that characterize a conventional superconductor without adjustable parameters. [Phys. Rev. Lett. 137, 1960…",
-      "ts": 1793700000000,
-      "publishedAt": "2026-11-03T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Monarch butterflies get tiny trackers to help scientists follow their mysterious migration",
-      "url": "https://phys.org/news/2026-11-monarch-butterflies-tiny-trackers-scientists.html",
-      "summary": "As a child, Rebeca Quiñonez-Piñón wondered where monarch butterflies stop for a meal and a night's rest on their long migrations across North America. Now she and other scientists are attaching tiny tracking devices to h…",
-      "ts": 1793697657000,
-      "publishedAt": "2026-11-03T09:20:57.000Z"
+      "title": "Testing Einstein's laws from the bottom of the Mediterranean Sea",
+      "url": "https://phys.org/news/2026-11-einstein-laws-bottom-mediterranean-sea.html",
+      "summary": "Are the laws of physics truly the same everywhere in the universe? This fundamental principle, known as Lorentz invariance, lies at the heart of Einstein's theory of relativity. Yet some theories that seek to reconcile g…",
+      "ts": 1793768408000,
+      "publishedAt": "2026-11-04T05:00:08.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "Quantitative $T_2^*$ Fidelity in Accelerated Radial Ultrashort-Echo-Time MRI of the Lumbar Cartilage Endplate: A Synthetic Computational Validation Study",
-      "url": "https://arxiv.org/abs/2611.00005",
-      "summary": "arXiv:2611.00005v1 Announce Type: new Abstract: The lumbar cartilage endplate (CEP) is a short-$T_2^*$ structure whose composition has been linked to disc health. Ultrashort-echo-time (UTE) MRI enables direct CEP visuali…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "Shock wave transmission across solid-water interfaces in underwater electrical foil explosions",
+      "url": "https://arxiv.org/abs/2611.03657",
+      "summary": "arXiv:2611.03657v1 Announce Type: new Abstract: The transmission of shock waves generated by underwater electrical foil explosions across solid materials with varying acoustic impedances and thicknesses is investigated. …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "Neonatal EEG Seizure Prediction with Quantum Inspired Continuous-Variable (Bosonic) Reservoir Computing",
-      "url": "https://arxiv.org/abs/2611.00008",
-      "summary": "arXiv:2611.00008v1 Announce Type: new Abstract: We study short-horizon neonatal seizure prediction on Helsinki-style (HUH) preprocessed EEG feature tables using quantum-inspired reservoir computing. Under strict subject-…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "Renormalisation of Hydrogen Partition Function and Saha Ionisation Equation",
+      "url": "https://arxiv.org/abs/2611.03671",
+      "summary": "arXiv:2611.03671v1 Announce Type: new Abstract: An important physical quantity that is part of the Saha ionisation equation is the partition function of the neutral hydrogen atoms. An immense uncertainty is caused by the…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "The Skin Detector System of the LZ Dark Matter Experiment",
-      "url": "https://arxiv.org/abs/2611.00010",
-      "summary": "arXiv:2611.00010v1 Announce Type: new Abstract: This paper presents the design, calibration, and performance of the Skin Detector component of the LUX-ZEPLIN (LZ) dark matter experiment. The Skin Detector consists of app…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "Long-horizon Forecasting of Sodium-ion Battery Charge-profile Evolution and Degradation using Autoregressive Deep Sequence Models",
+      "url": "https://arxiv.org/abs/2611.03672",
+      "summary": "arXiv:2611.03672v1 Announce Type: new Abstract: Accurate long-horizon battery ageing prediction remains challenging because degradation alters not only scalar health indicators but also the shape and duration of electroc…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "Inhalation-exhalation asymmetry in pressure-driven airflow through a population-derived median unilateral human nasal cavity",
-      "url": "https://arxiv.org/abs/2611.00012",
-      "summary": "arXiv:2611.00012v1 Announce Type: new Abstract: This study investigates inhalation-exhalation asymmetry in population-derived median unilateral human nasal cavity under pressure-driven breathing using time-resolved compu…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "A Simulation-Driven Digital Workflow Integrating Bayesian Optimization for Early-Stage Process Design: A Methyl Acetate Production Case Study",
+      "url": "https://arxiv.org/abs/2611.03673",
+      "summary": "arXiv:2611.03673v1 Announce Type: new Abstract: Methyl acetate production via direct carbonylation of dimethyl ether and carbon monoxide involves strong nonlinear interactions among reactor operation, recycle structure, …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "A Computational Journey Toward an Optimal Design for Metamaterial Epicardial Passive Sleeves",
-      "url": "https://arxiv.org/abs/2611.00013",
-      "summary": "arXiv:2611.00013v1 Announce Type: new Abstract: Heart failure (HF) following myocardial infarction (MI) is a major clinical challenge with severe complications. Epicardial sleeves and patches are increasingly investigate…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "A local orchestration harness for molecular design with foundation models",
+      "url": "https://arxiv.org/abs/2611.03676",
+      "summary": "arXiv:2611.03676v1 Announce Type: new Abstract: Molecular design requires coordinated generation, property prediction and iterative editing, with each decision linked to the correct chemical structure and supporting evid…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "DiffStent: Surrogate Adjoint Differentiation for Stent Deployment in Anisotropic Arteries",
-      "url": "https://arxiv.org/abs/2611.00014",
-      "summary": "arXiv:2611.00014v1 Announce Type: new Abstract: We present DiffStent, a differentiable finite element framework for simulating arterial deformation during in silico stent deployment, where nearly incompressible, anisotro…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "A Pair-Weighted Reciprocal-Cost Representation of the von Weizs\\\"acker Functional",
+      "url": "https://arxiv.org/abs/2611.03677",
+      "summary": "arXiv:2611.03677v1 Announce Type: new Abstract: We investigate pair-weighted lattice energies constructed from the reciprocal ratio cost $J(x)=\\frac{1}{2}(x+x^{-1})-1$ and their connection to the von Weizs\\\"acker kinetic…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "Omni-iEEG Planner: an open-source Python platform integrating multimodal neuroimaging and intracranial EEG data for epilepsy surgery research",
-      "url": "https://arxiv.org/abs/2611.00018",
-      "summary": "arXiv:2611.00018v1 Announce Type: new Abstract: Multimodal intracranial EEG (iEEG) research for epilepsy surgery combines anatomical and functional imaging, implanted electrode locations, interictal biomarkers, and funct…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "Conformer diversity over quantity in COSMO-RS-based LLE predictions",
+      "url": "https://arxiv.org/abs/2611.03679",
+      "summary": "arXiv:2611.03679v1 Announce Type: new Abstract: Accurate prediction of phase equilibria is essential for chemical process design, particularly in systems characterized by complex intermolecular interactions. This work in…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "The influence of cold wall thickness and background activity on recovery coefficients in PET and SPECT",
-      "url": "https://arxiv.org/abs/2611.00019",
-      "summary": "arXiv:2611.00019v1 Announce Type: new Abstract: Purpose: The partial volume effect caused by limited spatial resolution consists of signal spill-out from and, in the case of background, spill-in into objects. This can be…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "Many Electrons, One Determinant: Hartree--Fock Theory, Basis Sets, and Molecular Integrals",
+      "url": "https://arxiv.org/abs/2611.03680",
+      "summary": "arXiv:2611.03680v1 Announce Type: new Abstract: This chapter accompanies the lectures on Hartree--Fock theory and on basis sets and molecular integrals at the \\href{https://www.esqc.org}{European Summer School of Quantum…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "Tropical Cyclone Wind Field Diagnosis with Image-to-Image Models",
-      "url": "https://arxiv.org/abs/2611.00038",
-      "summary": "arXiv:2611.00038v1 Announce Type: new Abstract: This study presents a novel application of image-to-image generative adversarial networks (GANs) to produce a complete tropical cyclone (TC) surface wind field diagnosis fr…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "Geometry, Topology, and Confined Spectra Around Anisotropic Cosmic Strings",
+      "url": "https://arxiv.org/abs/2611.03683",
+      "summary": "arXiv:2611.03683v1 Announce Type: new Abstract: We study scalar, Dirac, and electromagnetic test fields on a two-parameter family of static spacetimes, labeled by an angular winding number $k$ and an anisotropy parameter…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "Fabrication and characterization of a micro-boiling meter for heat transfer measurements on a single nucleation site",
-      "url": "https://arxiv.org/abs/2611.00057",
-      "summary": "arXiv:2611.00057v1 Announce Type: new Abstract: Accurate characterization of heat transfer during pool boiling requires sensors capable of resolving rapid transients and highly localized thermal events. Conventional appr…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "Charge-Dependent Coordination and Redox Energetics of Actinide Fluoride Complexes in Molten Salts",
+      "url": "https://arxiv.org/abs/2611.03686",
+      "summary": "arXiv:2611.03686v1 Announce Type: new Abstract: Redox control in molten fluoride salt reactors determines actinide solubility and corrosion of structural alloys, but the role of local fluoride coordination in this contro…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     },
     {
       "source": "arXiv Physics",
-      "title": "Computational assessment of incremental pyriform aperture enlargement in plastic surgery: effect on inhaled nasal airflow",
-      "url": "https://arxiv.org/abs/2611.00083",
-      "summary": "arXiv:2611.00083v1 Announce Type: new Abstract: Background. The pyriform aperture is a critical anterior bony constriction governing nasal airflow and is clinically relevant to both functional and aesthetic nasal surgery…",
-      "ts": 1793682000000,
-      "publishedAt": "2026-11-03T05:00:00.000Z"
+      "title": "samQEq: universal charge equilibration for molecules and conductors",
+      "url": "https://arxiv.org/abs/2611.03687",
+      "summary": "arXiv:2611.03687v1 Announce Type: new Abstract: Charge equilibration assigns atomic charges by equalizing an atomic chemical potential built from electronegativity, hardness and the Coulomb interaction. Under one global …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Cosmic Expansion in f(Q,C) Gravity: Observational Constraints and Geometric Diagnostics",
+      "url": "https://arxiv.org/abs/2611.03689",
+      "summary": "arXiv:2611.03689v1 Announce Type: new Abstract: We investigate the late-time expansion history of the Universe within the framework of $f(Q, C)$ gravity by adopting a linear parametrization of the deceleration parameter …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "From Forecasting to Feedback: Evaluating Learned Dynamics for Tokamak Control",
+      "url": "https://arxiv.org/abs/2611.03690",
+      "summary": "arXiv:2611.03690v1 Announce Type: new Abstract: Learned temporal models are moving beyond offline forecasting toward interactive environments for decision making, yet logged-trajectory accuracy need not predict closed-lo…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Power Density as a Universal Biosignature: An Application to the Stellivore Hypothesis",
+      "url": "https://arxiv.org/abs/2611.03691",
+      "summary": "arXiv:2611.03691v1 Announce Type: new Abstract: Power density is a central measure underlying a common thread in cosmic evolution. It measures the rate at which free energy transits in a complex system of a given mass. W…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Matter-Only Late-Time Acceleration via Barrow Entropy in Kaniadakis Statistics",
+      "url": "https://arxiv.org/abs/2611.03692",
+      "summary": "arXiv:2611.03692v1 Announce Type: new Abstract: The Barrow correction to the horizon entropy changes the total number of microstates associated with the horizon, whereas the Kaniadakis correction provides an alternate st…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Birefringence in non-linear electrodynamics emerging from a Lorentz-symmetry violation scenario",
+      "url": "https://arxiv.org/abs/2611.03694",
+      "summary": "arXiv:2611.03694v1 Announce Type: new Abstract: In this paper, we investigate the classical properties of a non-linear electrodynamics that emerges from one loop effective action for fermions coupled to an antisymmetric …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Steerable Single-step Retrosynthesis with Electron-pushing Discrete Flow Matching and Feynman-Kac Steering",
+      "url": "https://arxiv.org/abs/2611.03696",
+      "summary": "arXiv:2611.03696v1 Announce Type: new Abstract: Expert chemists perform retrosynthetic analysis in a strategic manner, where each reaction in a route is employed with a specific purpose, combined with mechanistic reasoni…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "The Umami Chaplygin Gas as a Unified Dark Fluid: Observational Constraints, Perturbative and Thermodynamic Stability Analysis",
+      "url": "https://arxiv.org/abs/2611.03697",
+      "summary": "arXiv:2611.03697v1 Announce Type: new Abstract: We study a cosmological scenario in which the Universe contains standard baryonic matter, radiation, and a single unified dark fluid, the umami Chaplygin gas, which account…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "All Paths All at Once: A Quantum Monte Carlo and Neural Committor Approach to Reaction Pathway Search",
+      "url": "https://arxiv.org/abs/2611.03699",
+      "summary": "arXiv:2611.03699v1 Announce Type: new Abstract: Locating competing reaction pathways is difficult when potential-energy gradients are unavailable. Here we present tReax\\_expedition, an energy-only approach combining coup…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Constructions of Variable Modified Chaplygin-Jacobi and Chaplygin-Abel Gases from Geometrothermodynamics",
+      "url": "https://arxiv.org/abs/2611.03700",
+      "summary": "arXiv:2611.03700v1 Announce Type: new Abstract: Understanding the physical origin of the Universe's late-time accelerated expansion remains one of the central open problems in modern cosmology. Geometrothermodynamics (GT…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Beyond the Federer paradox in tennis",
+      "url": "https://arxiv.org/abs/2611.03702",
+      "summary": "arXiv:2611.03702v1 Announce Type: new Abstract: Roger Federer won about 80% of his professional matches with only 54% of the points. Hierarchical scoring amplifies small advantages on points into large advantages on matc…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Fine structure of fermion mixing and quark-mass hierarchies",
+      "url": "https://arxiv.org/abs/2611.03704",
+      "summary": "arXiv:2611.03704v1 Announce Type: new Abstract: We investigate a semi-empirical flavour framework based on two linked hypotheses: a golden/pentagonal organisation of fermion mixing and the recurrence of its hierarchy map…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Surface chemistry as data for level-set simulation of etching and deposition",
+      "url": "https://arxiv.org/abs/2611.03707",
+      "summary": "arXiv:2611.03707v1 Announce Type: new Abstract: Level-set simulators of etching and deposition move the surface with a velocity that depends on adsorbate coverages. These coverages are usually computed from balances solv…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Stabilization of kinetic plasma instabilities via instantaneous external field control",
+      "url": "https://arxiv.org/abs/2611.03720",
+      "summary": "arXiv:2611.03720v1 Announce Type: new Abstract: We propose an instantaneous control framework for the stabilization of kinetic plasma instabilities using external fields. The control problem is formulated as a PDE-constr…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Complete Donor-Set Guidance for Frozen Diffusion Docking Models",
+      "url": "https://arxiv.org/abs/2611.03731",
+      "summary": "arXiv:2611.03731v1 Announce Type: new Abstract: Metalloprotein docking requires a ligand pose to satisfy both global pocket fit and the identity and geometry of metal-coordinating atoms. General-purpose diffusion docking…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Isothermal-Isobaric Molecular Dynamics with a Foundation Interatomic Potential in LAMMPS across NVIDIA and Intel GPUs",
+      "url": "https://arxiv.org/abs/2611.03892",
+      "summary": "arXiv:2611.03892v1 Announce Type: new Abstract: Foundation machine-learning interatomic potentials (MLIPs) offer one model for many chemistries, but their deep, globally coupled architectures do not fit the spatial decom…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "On the Electrodynamics of a Non-Contact Inductive Sensor for High-Accuracy Tip Deflection Measurements of Piezoceramic Bending Actuators and its Application for Energy Harvesting Purposes",
+      "url": "https://arxiv.org/abs/2611.03903",
+      "summary": "arXiv:2611.03903v1 Announce Type: new Abstract: Piezoelectric bending actuators provide deflections of several hundred micrometers and are used in electrical and mechanical engineering, acoustics, automation, automotive …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Ray propagation of circularly polarized light in an inhomogeneous medium: the optical Magnus effect from Maxwell's equations",
+      "url": "https://arxiv.org/abs/2611.03914",
+      "summary": "arXiv:2611.03914v1 Announce Type: new Abstract: We derive the ray propagation of circularly polarized light in an inhomogeneous, isotropic and lossless medium, including the first correction to geometrical optics, the op…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Tropical Cyclone-Following Dataset for Limited-Area Machine Learning Applications",
+      "url": "https://arxiv.org/abs/2611.03925",
+      "summary": "arXiv:2611.03925v1 Announce Type: new Abstract: This work presents a lightweight dataset of tropical cyclone (TC)-following meteorological variables to facilitate the development and application of machine learning (ML) …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Labtune: Treating Lab Organization and Information Sharing as Experimental Variables in LLM-Agent Discovery",
+      "url": "https://arxiv.org/abs/2611.03935",
+      "summary": "arXiv:2611.03935v1 Announce Type: new Abstract: De-siloing can create groupthink; silos can prevent knowledge sharing and reduce research efficiency. The same tension appears in research systems built with large language…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Contrast-Enhanced Nonlinear Imaging with Moir\\'e Flatband Superlattices",
+      "url": "https://arxiv.org/abs/2611.03951",
+      "summary": "arXiv:2611.03951v1 Announce Type: new Abstract: Nonlinear metasurfaces offer a compact platform for infrared-to-visible conversion and imaging, yet resonant enhancement is often accompanied by restricted angular acceptan…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Hydrogen Electron Cyclotron Resonance Dissociator Demonstrator for the Project 8 Experiment",
+      "url": "https://arxiv.org/abs/2611.03972",
+      "summary": "arXiv:2611.03972v1 Announce Type: new Abstract: Project 8, a neutrino mass experiment, employs the novel frequency technique of cyclotron radiation emission spectroscopy (CRES) to perform a model independent measurement …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Direct Analysis in Real Time Mass Spectrometry (DART-MS) Study of Amino Acids in the Vacuum Stable Liquids EMI-BF$_4$, EMI-Acetate, DEMA-OTf, DEMA-MsO, and Glycerol",
+      "url": "https://arxiv.org/abs/2611.03990",
+      "summary": "arXiv:2611.03990v1 Announce Type: new Abstract: The detection of organics and potential biomolecules is an important goal of planetary science and astrobiology spacecraft missions, and many types of analytical chemistry …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Reconfigurable multi-tone mmWave/THz generation powered by high-efficiency Kerr parametric oscillation",
+      "url": "https://arxiv.org/abs/2611.03997",
+      "summary": "arXiv:2611.03997v1 Announce Type: new Abstract: Broadband and simultaneously accessible multi-tone millimeter-wave (mmWave) and terahertz (THz) signals are attractive for multi-band wireless communication and spectroscop…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Collective animal motion: The case of midge swarms",
+      "url": "https://arxiv.org/abs/2611.04046",
+      "summary": "arXiv:2611.04046v1 Announce Type: new Abstract: Among collective states of animal groups, midge swarms pose several puzzling questions. Their polarization order parameter is very small, and the insects interact only weak…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Microstrip-Line Characterization of Artificial Dielectric Materials for MRI Applications",
+      "url": "https://arxiv.org/abs/2611.04051",
+      "summary": "arXiv:2611.04051v1 Announce Type: new Abstract: Artificial dielectric materials (ADMs) offer a flexible means of shaping radiofrequency fields in magnetic resonance imaging (MRI). However, ADM designs based on plane-wave…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Life Cycle Sustainability Assessment of Fossil- and Bio-Based Membrane Manufacturing",
+      "url": "https://arxiv.org/abs/2611.04117",
+      "summary": "arXiv:2611.04117v1 Announce Type: new Abstract: The transition towards sustainable membrane manufacturing is challenged by its reliance on fossil-based polymers, organic solvents, and generation of large volumes of conta…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Extracting and Characterizing Near-Fault Effects from Strong Motion Observations of the 2022 Chishang Earthquake Sequence",
+      "url": "https://arxiv.org/abs/2611.04120",
+      "summary": "arXiv:2611.04120v1 Announce Type: new Abstract: Accurately characterizing near-fault ground motions, particularly permanent tectonic displacements and velocity pulses associated with rupture directivity, is essential for…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Bicarbonate/carbonic acid equilibria in aqueous solutions: Conformational Dynamics, Ion-Pair Speciation, and Free Energy Landscapes from Ab Initio Molecular Dynamics and Metadynamics",
+      "url": "https://arxiv.org/abs/2611.04121",
+      "summary": "arXiv:2611.04121v1 Announce Type: new Abstract: Carbonic acid (H2CO3) is connected with the dissolved CO2 and bicarbonate (HCO3-) equilibria in aqueous solutions. Its two elementary reactions in water, acid dissociation …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Fractional Orbital Bombardment Systems",
+      "url": "https://arxiv.org/abs/2611.04124",
+      "summary": "arXiv:2611.04124v1 Announce Type: new Abstract: We analyze Fractional Orbital Bombardment Systems (FOBS) as a means of delivering nuclear weapons by placing warheads into partial orbits around the Earth, and show that th…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Active Learning with Generative AI in Introductory Physics: A Multi-Institutional Study of the P-A.I.R. Framework",
+      "url": "https://arxiv.org/abs/2611.04148",
+      "summary": "arXiv:2611.04148v1 Announce Type: new Abstract: Generative AI tools have become part of how students study physics, yet unstructured use may reduce students' opportunities to work through problems independently. The Phys…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Dielectric Models of Normal and Diseased Human Trabecular Bones at Microwave Frequencies",
+      "url": "https://arxiv.org/abs/2611.04160",
+      "summary": "arXiv:2611.04160v1 Announce Type: new Abstract: The dielectric properties of biological tissues are used to investigate the interaction of electromagnetic (EM) fields with the human body. These properties are integrated …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Dynamics of Vortex Electrons in a Uniform Magnetic Field Across Nonrelativistic and Relativistic Regimes",
+      "url": "https://arxiv.org/abs/2611.04162",
+      "summary": "arXiv:2611.04162v1 Announce Type: new Abstract: The dynamics of a vortex electron in a transverse uniform magnetic field involves not only the cyclotron motion of the wave packet center but also the evolution of its inte…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Dielectric characterisation of human adrenal glands and adrenal tumours for the development of microwave ablation technologies for hypertension treatment",
+      "url": "https://arxiv.org/abs/2611.04170",
+      "summary": "arXiv:2611.04170v1 Announce Type: new Abstract: Adrenal gland-induced hypertension results from underlying adrenal gland disorders including Conn's syndrome, Cushing's syndrome, and Pheochromocytoma. Due to the limitatio…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "A Two-Dimensional Physics-Informed Neural Network Model of a Hall Effect Thruster Plasma: Self-Consistent Electrostatics and Physical-Consistency Diagnostics",
+      "url": "https://arxiv.org/abs/2611.04194",
+      "summary": "arXiv:2611.04194v1 Announce Type: new Abstract: We present a two-dimensional axisymmetric physics-informed neural network (PINN) of the discharge channel of the P5 Hall thruster at 300 V and 5.4 A, which solves eleven co…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Accurate representation of the continuum orbital in a Gaussian basis set: application to Auger decay rates",
+      "url": "https://arxiv.org/abs/2611.04202",
+      "summary": "arXiv:2611.04202v1 Announce Type: new Abstract: Many processes in chemistry and physics, such as autoionization, photoionization, or electron-impact collisions, involve unbound electrons. Despite their importance, theore…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Shallow lunar fractures dominate the long-lasting seismic coda",
+      "url": "https://arxiv.org/abs/2611.04209",
+      "summary": "arXiv:2611.04209v1 Announce Type: new Abstract: Lunar seismic records are characterized by long-lasting spindle-shaped coda, which has long been considered to be caused by strong velocity contrasts in a continuous-medium…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Differentiable topology optimization for high-fidelity acoustic holography beyond the thin-element approximation",
+      "url": "https://arxiv.org/abs/2611.04251",
+      "summary": "arXiv:2611.04251v1 Announce Type: new Abstract: Acoustic holography in the megahertz range can impact applications from manufacturing and non-destructive testing to transcranial ultrasound. Designing lens topologies for …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "High-Efficiency Wakefield Acceleration of Positrons via a Slit Plasma Channel",
+      "url": "https://arxiv.org/abs/2611.04261",
+      "summary": "arXiv:2611.04261v1 Announce Type: new Abstract: Although plasma-based wakefield acceleration has achieved remarkable success for electrons, efficient positron acceleration remains a long standing challenge, as positrons …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "From Sea Surface Height to Velocity - A Machine Learning Approach",
+      "url": "https://arxiv.org/abs/2611.04270",
+      "summary": "arXiv:2611.04270v1 Announce Type: new Abstract: Inferring upper-ocean velocity from altimetric sea surface height (SSH) remains challenging below 50~km, scales now resolved by the Surface Water and Ocean Topography (SWOT…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Flow and transport characteristics of hydrogen in a square-spiral Knudsen pump with coupled thermal transpiration and Poiseuille flow",
+      "url": "https://arxiv.org/abs/2611.04288",
+      "summary": "arXiv:2611.04288v1 Announce Type: new Abstract: Gas transport driven by thermal transpiration under temperature gradients, known as a Knudsen pump, has shown strong potential in gas separation and delivery applications. …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Conceptual Design of Pumping Systems up to 1000 m3/s Based on Non-Evaporable Getters in a Gas-Dynamic Magnetic Trap",
+      "url": "https://arxiv.org/abs/2611.04322",
+      "summary": "arXiv:2611.04322v1 Announce Type: new Abstract: The Gas-Dynamic Magnetic Trap (GDMT), a new linear magnetic facility for confining high-temperature hydrogen plasma, is currently under development at the Budker Institute …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Asymptotic electromagnetic transition conditions for thin layers: the arithmetic-mean field and susceptibility hybridization",
+      "url": "https://arxiv.org/abs/2611.04324",
+      "summary": "arXiv:2611.04324v1 Announce Type: new Abstract: Effective transition conditions that replace a thin polarizable layer by a zero-thickness sheet are commonly applied in electromagnetic models of two-dimensional (2D) mater…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "The preplasma origin of the plasma-mirror reflectivity response",
+      "url": "https://arxiv.org/abs/2611.04355",
+      "summary": "arXiv:2611.04355v1 Announce Type: new Abstract: Plasma mirrors (PM) enhance the temporal contrast of high-power lasers, but declining reflectivity at subrelativistic intensities limits their energy throughput. Here we sh…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Reference-Beam-Assisted Perturbation-Resistant Imaging Through A Single Multimode Fiber",
+      "url": "https://arxiv.org/abs/2611.04427",
+      "summary": "arXiv:2611.04427v1 Announce Type: new Abstract: Multimode fiber (MMF) imaging is highly sensitive to mechanical perturbations, which alter modal coupling and disrupt the speckle-to-target mapping. Here, we propose a refe…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Transitional Fluid-Ablation Interactions on a Compression Ramp at Mach 8",
+      "url": "https://arxiv.org/abs/2611.04443",
+      "summary": "arXiv:2611.04443v1 Announce Type: new Abstract: Direct numerical simulations (DNS) are performed for a Mach 8 flow over a 15 degree compression ramp undergoing ablation to analyze fluid-ablation interaction (FAI) effects…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Probabilistic Modeling of Photon Interaction Chains in a Silicon Detector",
+      "url": "https://arxiv.org/abs/2611.04446",
+      "summary": "arXiv:2611.04446v1 Announce Type: new Abstract: Compton camera imaging relies on the positions and energies of multiple photon interactions recorded in the detector. In silicon detectors that resolve individual interacti…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "GeoSim: Benchmarking Multi-Field Neural Operators for Geodynamics",
+      "url": "https://arxiv.org/abs/2611.04517",
+      "summary": "arXiv:2611.04517v1 Announce Type: new Abstract: Learning reliable surrogates for geodynamic models requires benchmarks that resolve coupled fields and temporal stability. We present GeoSim, a benchmark of high-resolution…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Machine learning emulators of dynamic global vegetation models for fast gridded carbon budget predictions",
+      "url": "https://arxiv.org/abs/2611.04536",
+      "summary": "arXiv:2611.04536v1 Announce Type: new Abstract: The land carbon sink explains most of the variability of the atmospheric CO2 growth rate, but the Global Carbon Budget estimates it with dynamic global vegetation models (D…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Wavefront engineering with atomic Huygens' surfaces made simple",
+      "url": "https://arxiv.org/abs/2611.04538",
+      "summary": "arXiv:2611.04538v1 Announce Type: new Abstract: Atomic arrays provide a cooperative platform for light-mediated interactions in nonlocal metasurfaces which can operate in the quantum regime without nanofabricated optical…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Machine-Learning Molecular Dynamics Reveals Grotthuss Transport in Concentrated Electrolytes",
+      "url": "https://arxiv.org/abs/2611.04558",
+      "summary": "arXiv:2611.04558v1 Announce Type: new Abstract: Proton transfer is responsible for the anomalous high conductivity in acidic or basic aqueous solutions. Yet, the contribution of the proton transfer mechanism to the condu…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Impedance-controlled Laser Dynamics in Near-Zero Index Media",
+      "url": "https://arxiv.org/abs/2611.04578",
+      "summary": "arXiv:2611.04578v1 Announce Type: new Abstract: Near-zero-index (NZI) media have been explored for controlling spontaneous emission, but their impact on stimulated emission and lasing properties remains unexplored within…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Fluid memory beyond creeping flow: a history kernel for a sphere at finite Reynolds numbers",
+      "url": "https://arxiv.org/abs/2611.04606",
+      "summary": "arXiv:2611.04606v1 Announce Type: new Abstract: Predicting the history force on a sphere beyond the creeping-flow limit remains challenging. Existing formulations have been derived or calibrated for selected flow histori…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Low-Terahertz Channel Performance in Falling Wheat for Moisture Sensing",
+      "url": "https://arxiv.org/abs/2611.04615",
+      "summary": "arXiv:2611.04615v1 Announce Type: new Abstract: Terahertz (THz) waves are highly sensitive to water and therefore offer a promising noncontact approach to wheat moisture sensing, but existing THz studies have been limite…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "A flux-balanced diffuse-interface kinetic model for rarefied gas-solid boundaries with arbitrary absorption probability",
+      "url": "https://arxiv.org/abs/2611.04622",
+      "summary": "arXiv:2611.04622v1 Announce Type: new Abstract: Rarefied gas--solid interactions determine mechanical loads, heat transfer, and material exchange in microscale devices and low-pressure processings. Modeling these interac…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Eddy currents and error fields in the toroidally segmented shell configuration aka Armadillo",
+      "url": "https://arxiv.org/abs/2611.04651",
+      "summary": "arXiv:2611.04651v1 Announce Type: new Abstract: A stream function formulation for the calculation of the eddy current distribution in a toroidally segmented conducting shell (Armadillo) is presented and verified. The gov…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "On flow unsteadiness in strongly separated high-speed ramp flows using kinetic and data-driven methods",
+      "url": "https://arxiv.org/abs/2611.04684",
+      "summary": "arXiv:2611.04684v1 Announce Type: new Abstract: The gas dynamics of high speed flows over several compression-expansion ramp geometries with large separation regions were investigated using a particle kinetic approach an…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Designing turbulence through hierarchies",
+      "url": "https://arxiv.org/abs/2611.04706",
+      "summary": "arXiv:2611.04706v1 Announce Type: new Abstract: Turbulence is defined by a set of emergent and singular phenomena: a constant-flux energy cascade, intermittency, a dissipation rate that survives the vanishing of viscosit…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Perioperative shear wave elastography for the evaluation of spinal cord release in pediatric dysraphism: first experience in 21 patients",
+      "url": "https://arxiv.org/abs/2611.04746",
+      "summary": "arXiv:2611.04746v1 Announce Type: new Abstract: OBJECTIVE Shear wave elastography (SWE) is a recent method for evaluating soft tissue stiffness. Its application to the spinal cord is limited by the ultrasound bone barrie…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "RadarFill: Observation-Constrained Gap Filling of Systematic Blind Zones in 3-D Weather Radar Reflectivity Mosaics",
+      "url": "https://arxiv.org/abs/2611.04768",
+      "summary": "arXiv:2611.04768v1 Announce Type: new Abstract: Ground-based weather radar mosaics contain systematic blind zones, especially at low altitudes, where missing reflectivity lacks corresponding complete observations for dir…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "LIPS-PC: Learning Illumination Patterns for Single-Pixel Classification",
+      "url": "https://arxiv.org/abs/2611.04780",
+      "summary": "arXiv:2611.04780v1 Announce Type: new Abstract: In single-pixel (ghost) imaging, known illumination patterns probe an object and a detector with no spatial resolution returns one number per pattern. Each measurement cost…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Reconstructing Rayleigh--B\\'enard flows from temperature-only measurements using the Ensemble Kalman Filter",
+      "url": "https://arxiv.org/abs/2611.04795",
+      "summary": "arXiv:2611.04795v1 Announce Type: new Abstract: Reconstructing the full state of a multiscale chaotic system from observations of only a subset of its degrees of freedom is a central problem in data assimilation. Turbule…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Observation of pseudospin-locked chiral edge transport in gyromagnetic photonic crystals",
+      "url": "https://arxiv.org/abs/2611.04827",
+      "summary": "arXiv:2611.04827v1 Announce Type: new Abstract: Photonic pseudospins enable selective excitation and routing of light, but perturbations that mix opposite pseudospins can induce backscattering in helical edge channels. H…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Influence of Geometry and Tissue Damage on the Mechanical Behaviour of Skin Meshing",
+      "url": "https://arxiv.org/abs/2611.04875",
+      "summary": "arXiv:2611.04875v1 Announce Type: new Abstract: Skin meshing increases graft coverage, yet the clinically achieved expansion often falls below the manufacturer's nominal meshing ratio. Previous elastic analyses have demo…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "A Multidimensional Evaluation Framework for Artificial Intelligence-Based Ocean State Forecasts",
+      "url": "https://arxiv.org/abs/2611.04892",
+      "summary": "arXiv:2611.04892v1 Announce Type: new Abstract: Artificial intelligence (AI) based ocean state forecasts now approach or surpass those produced by operational ocean forecasting systems as measured by conventional pointwi…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Modeling runaway electron mitigation via passively driven plasma instabilities in a high-current tokamak",
+      "url": "https://arxiv.org/abs/2611.04906",
+      "summary": "arXiv:2611.04906v1 Announce Type: new Abstract: A critical challenge for tokamak-based fusion power plants is the formation of high-current, relativistic runaway electron (RE) beams during abrupt confinement loss events …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "The Nonlinear Physics and Statistical Field Theory of Twilight Clouds: Hovering Dynamics and Dynamic Inertia Emergence",
+      "url": "https://arxiv.org/abs/2611.04924",
+      "summary": "arXiv:2611.04924v1 Announce Type: new Abstract: Twilight clouds are small, optically faint warm clouds whose droplets fluctuate between haze and activated growth. We develop a nonequilibrium statistical field theory link…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Generalized Lorentz Framework for Active Semiconductor Quantum Surface Plasmonics",
+      "url": "https://arxiv.org/abs/2611.04933",
+      "summary": "arXiv:2611.04933v1 Announce Type: new Abstract: Nanostructured semiconductors provide an actively tunable platform for light-matter interactions across a broad spectral range. As feature sizes shrink to the deep nanoscal…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Periodically poled lithium niobate with submicrometer periodicity using electric-field poling technique",
+      "url": "https://arxiv.org/abs/2611.05009",
+      "summary": "arXiv:2611.05009v1 Announce Type: new Abstract: A series of monocrystalline lithium niobate (LN) thin films on low-resistivity silicon (LNOS) substrates, with thicknesses ranging from micrometers down to tens of nanomete…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Ultracold polar molecules for quantum science and technology",
+      "url": "https://arxiv.org/abs/2611.05040",
+      "summary": "arXiv:2611.05040v1 Announce Type: new Abstract: Ultracold polar molecules present a rich platform for experimental quantum science leveraging their unique properties. Of particular relevance is the intrinsic electric dip…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Exploring the World of Lipids with Machine-Learned Coarse-Grained Models",
+      "url": "https://arxiv.org/abs/2611.05100",
+      "summary": "arXiv:2611.05100v1 Announce Type: new Abstract: Lipid bilayers are central to cellular organization and function, yet their atomistic modelling remains constrained by its high computational cost. While coarse-grained (CG…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "In-situ azimuthal sample rotation within a horizontal-field cryomagnet for small-angle neutron scattering",
+      "url": "https://arxiv.org/abs/2611.05159",
+      "summary": "arXiv:2611.05159v1 Announce Type: new Abstract: We present an in-situ azimuthal rotation stage for small-angle neutron scattering measurements. The stage provides an azimuthal rotation range of $315^\\circ$ about the stag…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Analog signal processing, storage, and demultiplexing via in-materia wave-based computing",
+      "url": "https://arxiv.org/abs/2611.05180",
+      "summary": "arXiv:2611.05180v1 Announce Type: new Abstract: The ability of mechanical systems to perform basic computations has gained traction in recent years, providing a robust supplement to digital computing in off-grid, low-pow…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Efficient simulations of spectra and transport for multiorbital quantum impurities",
+      "url": "https://arxiv.org/abs/2611.05185",
+      "summary": "arXiv:2611.05185v1 Announce Type: new Abstract: Quantum impurity calculations become challenging when multiple correlated orbitals are treated explicitly, particularly in nonequilibrium steady states. We introduce Couple…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Lagrangian Irreversibility in Stratified Turbulence",
+      "url": "https://arxiv.org/abs/2611.05282",
+      "summary": "arXiv:2611.05282v1 Announce Type: new Abstract: Stable stratification reorganizes turbulence, suppressing vertical motion and altering the balance between vortical and strain-dominated flow structures. How these changes …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+      "url": "https://arxiv.org/abs/2611.05340",
+      "summary": "arXiv:2611.05340v1 Announce Type: new Abstract: Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculatio…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Weight-space programming for auditing clinical decision networks",
+      "url": "https://arxiv.org/abs/2611.05341",
+      "summary": "arXiv:2611.05341v1 Announce Type: new Abstract: Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the tra…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Structure of energy flux densities in Earth's magnetotail reconnection regions: Bridging simulation and observation",
+      "url": "https://arxiv.org/abs/2611.02870",
+      "summary": "arXiv:2611.02870v1 Announce Type: cross Abstract: Magnetic reconnection is important in both space and laboratory contexts because it changes the topology of magnetic fields and converts magnetic energy into particle ene…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Separating Weight and Likelihood Tail Effects in Bayesian Neural Groundwater Inversion",
+      "url": "https://arxiv.org/abs/2611.03669",
+      "summary": "arXiv:2611.03669v1 Announce Type: cross Abstract: Groundwater inversion is commonly built on Gaussian assumptions for both network weights and output errors. The assumptions are convenient, but it is unclear which one sh…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "When do machine-learning potentials need a configuration-dependent kernel? Learning long-range interactions with Fourier neural operators",
+      "url": "https://arxiv.org/abs/2611.03678",
+      "summary": "arXiv:2611.03678v1 Announce Type: cross Abstract: Long-range interactions in machine-learning interatomic potentials are commonly treated by coupling learned sources through either a prescribed electrostatic kernel or a …",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch",
+      "url": "https://arxiv.org/abs/2611.03721",
+      "summary": "arXiv:2611.03721v1 Announce Type: cross Abstract: Recent breakthroughs in artificial-intelligence-assisted mathematics show that open-ended machine search can outperform human mathematicians, yet transferring this paradi…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Current-Confined Formation of a Buried Ge/Si Free Surface for Defect Filtering",
+      "url": "https://arxiv.org/abs/2611.03762",
+      "summary": "arXiv:2611.03762v1 Announce Type: cross Abstract: Lattice-mismatched heteroepitaxy is limited by misfit dislocations, threading defects, and residual strain generated at buried interfaces. Here, we show that current-conf…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Interstellar and intergalactic medium in the ultraviolet band",
+      "url": "https://arxiv.org/abs/2611.03864",
+      "summary": "arXiv:2611.03864v1 Announce Type: cross Abstract: This article presents an overview of key scientific challenges in the astrophysics and astrochemistry of the interstellar and intergalactic media. Addressing many of thes…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Pump quantization changes optimal measurements for quantum sensing",
+      "url": "https://arxiv.org/abs/2611.03943",
+      "summary": "arXiv:2611.03943v1 Announce Type: cross Abstract: Standard analyses of quantum phase sensing often neglect the overhead of generating squeezed-light by treating the pump as an undepleted classical resource. Realistically…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Measuring Model-Specific Alignment Drift in LLM-Based Opinion Dynamics",
+      "url": "https://arxiv.org/abs/2611.03980",
+      "summary": "arXiv:2611.03980v1 Announce Type: cross Abstract: Large language model (LLM) agents are increasingly used as synthetic participants in opinion-dynamics experiments, often assuming that an agent's behaviour is fully deter…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Adaptive Qubit Encoding for Continuous-Variable Quantum Optimization",
+      "url": "https://arxiv.org/abs/2611.03987",
+      "summary": "arXiv:2611.03987v1 Announce Type: cross Abstract: Optimizing continuous-variable functions on qubit-based quantum hardware requires a finite representation of the search space and a solver-compatible representation of th…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Balance in Inequality: Testing the Physical Equilibrium, Precession, and Structural Stability of Magic Gems",
+      "url": "https://arxiv.org/abs/2611.03991",
+      "summary": "arXiv:2611.03991v1 Announce Type: cross Abstract: A magic square exemplifies balance in inequality: its $n^2$ entries $\\{1,\\dots,n^2\\}$ are distinct, yet every row, column, and main diagonal sums to $\\mu_n=n(n^2+1)/2$. L…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Physics-Informed Identification of Tensegrity Prestress across Taut-Slack Transitions",
+      "url": "https://arxiv.org/abs/2611.04007",
+      "summary": "arXiv:2611.04007v1 Announce Type: cross Abstract: Prestress governs the stability, stiffness, and dynamic behavior of tensegrity structures, but it is not directly observable from sparse structural measurements, and it m…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Triboelectric nanogenerators across length scales: linking materials, multiscale modelling and applications",
+      "url": "https://arxiv.org/abs/2611.04008",
+      "summary": "arXiv:2611.04008v1 Announce Type: cross Abstract: Triboelectric nanogenerators (TENGs) convert low-frequency mechanical energy into electricity and enable self-powered sensing. Their performance depends on interactions a…",
+      "ts": 1793768400000,
+      "publishedAt": "2026-11-04T05:00:00.000Z"
     }
   ],
   "sources": [
