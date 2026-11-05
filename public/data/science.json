@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-11-05T05:42:24.063Z",
+  "updated": "2026-11-05T14:14:52.305Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Swiss Army knife of the Hawaiian Islands—how an endangered bird drills into trees to find food",
+      "url": "https://phys.org/news/2026-11-swiss-army-knife-hawaiian-islands.html",
+      "summary": "There are no woodpeckers on the Hawaiian Islands, but a little yellow bird called the 'akiapōlāʻau (Ah-key-ah-pole-ah-ow) has evolved an unusual beak to drill into branches to find food.",
+      "ts": 1793887224000,
+      "publishedAt": "2026-11-05T14:00:24.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What sorts of nudges win wallet share in the attention economy?",
+      "url": "https://phys.org/news/2026-11-nudges-wallet-attention-economy.html",
+      "summary": "Nudges—the subtle interventions that encourage people to make beneficial decisions without forcing them into these choices—are a popular marketing tool widely used for a variety of social causes and business purposes. Bu…",
+      "ts": 1793887221000,
+      "publishedAt": "2026-11-05T14:00:21.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microbial growth in simulated Mars conditions could guide search for life",
+      "url": "https://phys.org/news/2026-11-microbial-growth-simulated-mars-conditions.html",
+      "summary": "A new experiment reveals that Earth's microbes can grow in harsh conditions similar to what may exist just below the surface of Mars, suggesting new directions in the search for potential cellular life on the red planet.",
+      "ts": 1793887210000,
+      "publishedAt": "2026-11-05T14:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers highlight ferroptosis's dual roles in plant immunity",
+      "url": "https://phys.org/news/2026-11-highlight-ferroptosis-dual-roles-immunity.html",
+      "summary": "When plants encounter pathogens, they can defend themselves by rapidly killing infected cells to restrict pathogen spread. This immune response, known as the hypersensitive response (HR), was first described in 1915. How…",
+      "ts": 1793886001000,
+      "publishedAt": "2026-11-05T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A phenanthrene co-guest helps crystalline sponges reveal 3D structures of small, low-polarity molecules",
+      "url": "https://phys.org/news/2026-11-phenanthrene-guest-crystalline-sponges-reveal.html",
+      "summary": "Adding phenanthrene as a co-guest let the second-generation crystalline sponge (2G-CS) method determine X-ray structures for 24 of 30 small, low-polarity C₁₅ molecules, mostly sesquiterpenoids. Under standard conditions,…",
+      "ts": 1793884801000,
+      "publishedAt": "2026-11-05T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Where U.S. states rank on new housing supply pipeline",
+      "url": "https://phys.org/news/2026-11-states-housing-pipeline.html",
+      "summary": "In order to know where you're going, you must know where you've been, says an old adage. And a new UNLV housing supply rankings report is putting that proverb into practice by providing policymakers and the public with t…",
+      "ts": 1793883601000,
+      "publishedAt": "2026-11-05T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Historic duck DNA traces wild mallard genetic changes to more than a century of releases",
+      "url": "https://phys.org/news/2026-11-historic-duck-dna-wild-mallard.html",
+      "summary": "Researchers have long known that releasing domesticated ducks can alter wild populations. Now, a study led by a doctoral student at The University of Texas at El Paso has documented, for the first time in North America, …",
+      "ts": 1793882406000,
+      "publishedAt": "2026-11-05T12:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrasound reveals hidden tongue movements behind centuries-old language change",
+      "url": "https://phys.org/news/2026-11-ultrasound-reveals-hidden-tongue-movements.html",
+      "summary": "Scientists at Lancaster University have observed the hidden tongue movements accompanying a centuries-old change in English speech—offering a rare glimpse of language transforming in real time. Linguists have used ultras…",
+      "ts": 1793881205000,
+      "publishedAt": "2026-11-05T12:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research fills critical gaps in Central America's freshwater biodiversity knowledge",
+      "url": "https://phys.org/news/2026-11-critical-gaps-central-america-freshwater.html",
+      "summary": "Three new peer-reviewed publications help to fill critical gaps in knowledge about Central America's freshwater ecosystems, which support extraordinary biodiversity but remain among the least-studied ecosystems in the wo…",
+      "ts": 1793880006000,
+      "publishedAt": "2026-11-05T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fractal patterns reveal hidden limits to AI predictability",
+      "url": "https://phys.org/news/2026-11-fractal-patterns-reveal-hidden-limits.html",
+      "summary": "Researchers at the University of Sydney have identified a fundamental mathematical reason why artificial intelligence systems can learn different behaviors even when trained under almost identical conditions, a discovery…",
+      "ts": 1793872804000,
+      "publishedAt": "2026-11-05T10:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prehistoric 'giant rat' found in Thailand from fossil teeth",
+      "url": "https://phys.org/news/2026-11-prehistoric-giant-rat-thailand-fossil.html",
+      "summary": "A giant rodent weighing around 30 kilograms (66 pounds) roamed what is now southern Thailand 33 to 35 million years ago, scientists said, after identifying a previously unknown species from two fossilized teeth.",
+      "ts": 1793869863000,
+      "publishedAt": "2026-11-05T09:11:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Google turns off AI for schoolchildren by default",
+      "url": "https://phys.org/news/2026-11-google-ai-schoolchildren-default.html",
+      "summary": "Google has said it will switch off its AI tools for schoolchildren by default, after drawing criticism for pushing artificial intelligence features to students while schools are still debating how the technology should b…",
+      "ts": 1793869513000,
+      "publishedAt": "2026-11-05T09:05:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia approves seabed site where a Japanese company will store carbon pollution",
+      "url": "https://phys.org/news/2026-11-australia-seabed-site-japanese-company.html",
+      "summary": "Australia has designated a seabed storage site near its northern coast where a Japanese company plans to store massive amounts of carbon pollution using a technology that has divided climate scientists.",
+      "ts": 1793868992000,
+      "publishedAt": "2026-11-05T08:56:32.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Centuries-old cemetery helps scientists link climate shocks to Industrial Revolution disease",
@@ -695,110 +799,6 @@
       "title": "Odd Capillarity",
       "url": "https://arxiv.org/abs/2611.06882",
       "summary": "arXiv:2611.06882v1 Announce Type: new Abstract: Capillarity governs interfacial relaxation and hydrodynamic motion in binary fluids through parity-even mechanical stresses. Here, we introduce \\emph{odd capillarity}, a pa…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer",
-      "url": "https://arxiv.org/abs/2611.06898",
-      "summary": "arXiv:2611.06898v1 Announce Type: new Abstract: Additive manufacturing is increasingly being explored as an approach for producing complex structures for optical hardware. In this work, we present a fully monolithic opto…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
-      "url": "https://arxiv.org/abs/2611.06912",
-      "summary": "arXiv:2611.06912v1 Announce Type: new Abstract: Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models o…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A wider state, not wider arithmetic, for single-precision time integration",
-      "url": "https://arxiv.org/abs/2611.05365",
-      "summary": "arXiv:2611.05365v1 Announce Type: cross Abstract: Single precision (FP32) halves the memory and data movement of double precision (FP64), and on accelerators is often several times faster. Its rounding errors are harmles…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Search for the 229Pa Parity Doublet via Internal-Conversion Spectroscopy at FRIB",
-      "url": "https://arxiv.org/abs/2611.05494",
-      "summary": "arXiv:2611.05494v1 Announce Type: cross Abstract: The radioisotope $^{229}$Pa is predicted to possess a nearly degenerate ground-state parity doublet. Previous $\\gamma$-ray and conversion-electron spectroscopy suggests a…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stroh--Hamiltonian Framework for Modeling Incompressible Poroelastic Materials",
-      "url": "https://arxiv.org/abs/2611.05554",
-      "summary": "arXiv:2611.05554v1 Announce Type: cross Abstract: The Stroh sextic formalism, developed by Stroh, offers a compelling framework for representing the equilibrium equations in anisotropic elasticity. This approach has prov…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations",
-      "url": "https://arxiv.org/abs/2611.05577",
-      "summary": "arXiv:2611.05577v1 Announce Type: cross Abstract: Self-supervised world models are often said to organize their latents around physical quantities. We test this on 2D decaying Navier-Stokes flow in three pre-registered s…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low cross-plane thermal conductivity of $\\kappa$-Ga$_2$O$_3$ thin films",
-      "url": "https://arxiv.org/abs/2611.05647",
-      "summary": "arXiv:2611.05647v1 Announce Type: cross Abstract: The thermal conductivities of (001) $\\kappa$-Ga$_2$O$_3$ thin films deposited on $c$-plane sapphire substrates were measured with frequency-domain thermoreflectance (FDTR…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The kinematic Kelvin-Helmholtz instability-driven dynamo: implications for merging compact objects",
-      "url": "https://arxiv.org/abs/2611.05880",
-      "summary": "arXiv:2611.05880v1 Announce Type: cross Abstract: Binary neutron star (BNS) mergers excite a Kelvin--Helmholtz instability (KHI) in the shear layer between them. It is parasitized upon by the magnetic field to form a pow…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gravitational-Wave Microlensing as a Probe of Compact Object Population",
-      "url": "https://arxiv.org/abs/2611.05947",
-      "summary": "arXiv:2611.05947v1 Announce Type: cross Abstract: The abundance of compact objects ranging from stellar to intermediate masses ($\\sim 1 - 10^{5}M_{\\odot}$) remains poorly constrained, particularly for populations such as…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Local information processing capacity: anatomy of computation in neuromorphic systems",
-      "url": "https://arxiv.org/abs/2611.05959",
-      "summary": "arXiv:2611.05959v1 Announce Type: cross Abstract: Many neuromorphic systems possess rich internal computational structures shaped by their physical dynamics. However, existing metrics characterize only global computation…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collectively pumped superradiant laser with coherence scaling beyond the standard quantum limit",
-      "url": "https://arxiv.org/abs/2611.05976",
-      "summary": "arXiv:2611.05976v1 Announce Type: cross Abstract: For more than half a century, the standard quantum limit (SQL) was thought to limit the laser coherence $\\mathfrak{C}$ -- the number of photons emitted from the laser int…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Perturbation-Based Reconstruction of Depth-Resolved OCT Attenuation without Requiring a Fully Decayed Signal Tail",
-      "url": "https://arxiv.org/abs/2611.05983",
-      "summary": "arXiv:2611.05983v1 Announce Type: cross Abstract: Depth-resolved attenuation in optical coherence tomography (OCT) can provide quantitative optical contrast beyond structural imaging. However, conventional reconstruction…",
-      "ts": 1793854800000,
-      "publishedAt": "2026-11-05T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-crystal X-ray diffraction of BC8 carbon near terapascal pressures",
-      "url": "https://arxiv.org/abs/2611.06045",
-      "summary": "arXiv:2611.06045v1 Announce Type: cross Abstract: Whether carbon forms crystalline structures beyond diamond at terapascal pressures remains unresolved. Predicted for nearly four decades, the denser BC8 phase has lacked …",
       "ts": 1793854800000,
       "publishedAt": "2026-11-05T05:00:00.000Z"
     }

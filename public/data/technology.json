@@ -1,7 +1,160 @@
 {
   "ok": true,
-  "updated": "2026-11-05T05:42:27.276Z",
+  "updated": "2026-11-05T14:14:54.158Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+      "summary": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever…",
+      "ts": 1793887234000,
+      "publishedAt": "2026-11-05T14:00:34.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Beyond statins, one drug lowered heart attack risk by 20%",
+      "url": "https://www.statnews.com/2026/11/05/repatha-vs-zetia-cholesterol-study-heart-attack-risk/?utm_campaign=rss",
+      "summary": "A new study could help doctors figure out what medicine to prescribe for cholesterol when statins don't cut it: It's “answering a really challenging clinical question.\"",
+      "ts": 1793887200000,
+      "publishedAt": "2026-11-05T14:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "European orbiter detects hints of volcanic activity on Mars ",
+      "url": "https://new.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
+      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
+      "ts": 1793885579000,
+      "publishedAt": "2026-11-05T13:32:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. T…",
+      "ts": 1793884200000,
+      "publishedAt": "2026-11-05T13:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare delays controversial RPM rule update",
+      "url": "https://www.statnews.com/2026/11/05/health-tech-news-medicare-delays-controversial-rpm-rule-update/?utm_campaign=rss",
+      "summary": "Despite widespread opposition, Medicare will finalize a controversial proposal that will prevent providers, such as hospitals, from using third parties to deliver remote patient monitoring services.",
+      "ts": 1793883855000,
+      "publishedAt": "2026-11-05T13:04:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Single-payer health care system proponents were thrown a big bone this election",
+      "url": "https://www.statnews.com/2026/11/05/morning-rounds-single-payer-health-care-system-after-midterms/?utm_campaign=rss",
+      "summary": "Sen. Bernie Sanders is likely to lead the Senate’s health committee next year, which could grant him a chance to fundamentally alter how the FDA interacts with the companies it…",
+      "ts": 1793883499000,
+      "publishedAt": "2026-11-05T12:58:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Learns Galactic History From Stars",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
+      "summary": "This Hubble image features the sparkling collection of stars named Messier 30 (M30), also called NGC 7099.",
+      "ts": 1793883381000,
+      "publishedAt": "2026-11-05T12:56:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Revolution Medicines’ pancreatic cancer drug has stunning commercial debut",
+      "url": "https://www.statnews.com/2026/11/05/rasonque-revolution-medicines-pancreatic-cancer-commercial-launch/?utm_campaign=rss",
+      "summary": "Rasonque, Revolution Medicines' new pancreatic cancer drug, is off to one of the best oncology drug launches in history.",
+      "ts": 1793881981000,
+      "publishedAt": "2026-11-05T12:33:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Two new Ebola vaccines to join DR Congo clinical trial",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168742",
+      "summary": "Two new Ebola vaccine candidates will be added to a clinical trial in the Democratic Republic of the Congo (DRC) as the country continues to battle a deadly outbreak caused by the Bundibugyo species of the virus.",
+      "ts": 1793880000000,
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A closer look at ProMis Neurosciences and its Alzheimer’s drug",
+      "url": "https://www.statnews.com/2026/11/05/promis-neurosciences-alzheimers-disease-acumen-vertex-kidney-drug/?utm_campaign=rss",
+      "summary": "Shares of ProMis Neurosciences, developer of a treatment for Alzheimer’s disease, sold off sharply last week. A closer look at the reason why — and whether it holds up.",
+      "ts": 1793878200000,
+      "publishedAt": "2026-11-05T11:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A new bill could change how the US builds energy infrastructure ",
+      "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+      "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipa…",
+      "ts": 1793872800000,
+      "publishedAt": "2026-11-05T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What the midterms could mean for the future of health AI",
+      "url": "https://www.statnews.com/2026/11/05/midterms-shape-future-ai-in-health-care-fda/?utm_campaign=rss",
+      "summary": "The midterms highlighted the negative sentiment around AI across the U.S. How will those attitudes trickle down to legislating AI use in health care?",
+      "ts": 1793871000000,
+      "publishedAt": "2026-11-05T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: As more doctors consult chatbots, health systems can block them — or buy in ",
+      "url": "https://www.statnews.com/2026/11/05/doctors-use-ai-chatbots-hipaa-compliance-questions/?utm_campaign=rss",
+      "summary": "As hundreds of thousands of doctors consult AI chatbots to make care decisions, health systems see new risks to patients' health data.",
+      "ts": 1793871000000,
+      "publishedAt": "2026-11-05T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: In China, a flood of controversial clinical trials slows to a trickle ",
+      "url": "https://www.statnews.com/2026/11/05/china-biotech-restrictions-impact-rare-disease-investigator-initiated-trial/?utm_campaign=rss",
+      "summary": "Following patient deaths, China restricts investigator-initiated biotech trials, leaving rare disease families and US investors facing an uncertain future.",
+      "ts": 1793871000000,
+      "publishedAt": "2026-11-05T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a neurosurgeon. I’ve learned pain and suffering are very different things",
+      "url": "https://www.statnews.com/2026/11/05/neurosurgeon-difference-between-pain-suffering-assisted-dying/?utm_campaign=rss",
+      "summary": "“The cruelest response to suffering is to attempt to explain it away,” writes neurosurgeon Stephen Doran.",
+      "ts": 1793871000000,
+      "publishedAt": "2026-11-05T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 5 – Enceladus in Silhouette",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+      "summary": "APOD Science APOD APOD: 2026 November 5 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1793855100000,
+      "publishedAt": "2026-11-05T05:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Cyprus: Island of Snakes, Cats, and Ophiolites",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites/",
+      "summary": "The third-largest island in the Mediterranean Sea exposes an ancient piece of the ocean floor and hosts a clowder of cats.",
+      "ts": 1793854860000,
+      "publishedAt": "2026-11-05T05:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "A System One Approach to General Protein Evolution",
@@ -327,6 +480,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "ts": 1793844000000,
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NASA",
       "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research ",
       "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
@@ -649,168 +811,6 @@
       "ts": 1793797200000,
       "publishedAt": "2026-11-04T13:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Former Madrigal Pharmaceuticals executive alleges coverup of safety issues tied to its drug",
-      "url": "https://www.statnews.com/2026/11/04/former-madrigal-pharmaceuticals-executive-rezdiffra-lawsuit/?utm_campaign=rss",
-      "summary": "A top former executive at Madrigal Pharmaceuticals has filed a lawsuit in federal court alleging a coverup of drug safety issues.",
-      "ts": 1793795443000,
-      "publishedAt": "2026-11-04T12:30:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Top health takeaways from the midterm elections",
-      "url": "https://www.statnews.com/2026/11/04/health-news-midterm-elections-2026-democrats-control-congress/?utm_campaign=rss",
-      "summary": "Democrats gained control of both chambers of Congress, and doctors and scientists won key seats. Here are the top health takeaways from the midterms.",
-      "ts": 1793794508000,
-      "publishedAt": "2026-11-04T12:15:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "COP31 explained: What’s at stake at this year’s UN climate summit?",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168735",
-      "summary": "The world has more tools than ever to tackle climate change, yet millions remain unable to benefit from them. As clean energy technologies advance faster than ever, the challenge facing countries at COP31 is no longer ju…",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN peacekeeping chief warns of ‘security vacuum’ as Blue Helmets leave Lebanon and Western Sahara",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168741",
-      "summary": "The UN’s peacekeeping chief warned on Wednesday that the withdrawal of “Blue Helmets” from Lebanon and Western Sahara risks leaving a dangerous security vacuum, while the Security Council remains divided over what, if an…",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gunfire damages tents at Rafah displacement site in Gaza, as aid teams prepare for winter storms",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168740",
-      "summary": "Gunfire hit and damaged multiple tents at a displacement site in Gaza’s northern Rafah region on Tuesday, reportedly causing injuries and forcing a humanitarian partner to leave the area, the UN aid coordination office (…",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Fuel price shock: Why developing economies are paying the most at the pump",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168738",
-      "summary": "When war shut the Strait of Hormuz in February, oil prices soared everywhere. But the pain at the pump has been far from equal, and the world’s developing economies are paying the heaviest price, according to a new repor…",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Syria’s undocumented children ‘pay the price’ of war and a law that shuts out mothers",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168737",
-      "summary": "Many children born in Syria since the war began in 2011 have no legal identity because nationality passes only through fathers – many of whom are dead or missing – a member of the independent UN commission investigating …",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "15 years of ‘almost no progress’ in getting young people moving: WHO",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168736",
-      "summary": "One in four adolescents worldwide reported not getting at least 60 minutes of physical activity on any day in the previous week, according to new global estimates released by the World Health Organization (WHO) on Wednes…",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Afghan children face narrowing path to education, UN agencies report",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168732",
-      "summary": "More than half of Afghanistan’s children who should be in primary school remain outside formal learning and millions of girls can only dream of going to university.",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘The world is not ready’: Climate adaptation cash falls far short as warming heads past 1.5°C",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168725",
-      "summary": "Although global warming is set to exceed 1.5°C, financing to help communities adapt to climate change falls far short of needs, the UN Environment Programme (UNEP) said in a report published on Wednesday.",
-      "ts": 1793793600000,
-      "publishedAt": "2026-11-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-confirms-japanese-monitoring-data-of-alps-treated-water-prior-to-discharge-under-additional-measures",
-      "summary": "",
-      "ts": 1793792306000,
-      "publishedAt": "2026-11-04T11:38:26.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I moved to Europe for free health care. I miss my patient portal",
-      "url": "https://www.statnews.com/2026/11/04/moving-to-europe-free-health-care-differences/?utm_campaign=rss",
-      "summary": "“To be honest, in Malta, I pay for medical care all the time. I just pay differently,” writes Mariska Breland.",
-      "ts": 1793784600000,
-      "publishedAt": "2026-11-04T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Time to wake up MetOp-SG-B1 weather satellite",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/Time_to_wake_up_MetOp-SG-B1_weather_satellite",
-      "summary": "Following a short period in storage after arriving at Europe’s Spaceport in French Guiana, the MetOp Second Generation-B1 satellite has been transferred to a cleanroom and removed from its transport container. The team i…",
-      "ts": 1793783400000,
-      "publishedAt": "2026-11-04T09:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "ts": 1793779200000,
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "The Lise Meitner Programme Explores the Nuclear Fuel Cycle in France and IAEA HQ",
-      "url": "http://www.iaea.org/newscenter/news/the-lise-meitner-programme-explores-the-nuclear-fuel-cycle-in-france-and-iaea-hq",
-      "summary": "",
-      "ts": 1793779200000,
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "ts": 1793775600000,
-      "publishedAt": "2026-11-04T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
-      "summary": "APOD Science APOD APOD: 2026 November 4 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1793768700000,
-      "publishedAt": "2026-11-04T05:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Before the Dawn in America’s Heartland",
-      "url": "https://science.nasa.gov/earth/earth-observatory/before-the-dawn-in-americas-heartland/",
-      "summary": "With hardly a cloud in sight, astronauts had a sweeping view of nighttime lights in the U.S. Midwest.",
-      "ts": 1793768460000,
-      "publishedAt": "2026-11-04T05:01:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
