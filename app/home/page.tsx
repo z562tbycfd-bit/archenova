@@ -15,6 +15,7 @@ import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
 import OryvanthCivilizationPortal from "../components/home/OryvanthCivilizationPortal";
 import CivilizationalRelationsPortal from "../components/home/CivilizationalRelationsPortal";
 import CivilizationOSPortal from "../components/home/CivilizationOSPortal";
+import ArcheNovaSpaceFrame from"../components/home/ArcheNovaSpaceFrame";
 
 /* ==========================================================
    ORYVANTH CIVILIZATION / FIRST HOME SECTION
@@ -184,12 +185,11 @@ function CivilizationSynthesisPortal() {
   const [paperOpen, setPaperOpen] = useState(false);
 
   return (
-    <section
-id="civilization-synthesis"
-data-home-section
-data-home-chapter="synthesis"
-className="home-page an-home-2026__section an-synthesis-home"
-aria-labelledby="an-synthesis-home-title"
+   <section
+  id="civilization-synthesis"
+  data-home-chapter="synthesis"
+  className="an-synthesis-home an-space-embedded-section"
+  aria-labelledby="an-synthesis-home-title"
 >
       <div className="an-home-2026__glass an-synthesis-home__glass">
         <div className="an-synthesis-home__link">
@@ -935,14 +935,21 @@ export default function HomePage() {
      {/* 00 — ORYVANTH CIVILIZATION */}
      <OryvanthCivilizationPortal />
 
-     {/* 01 — CIVILIZATION SYNTHESIS */}
-<CivilizationSynthesisPortal />
-
-{/* 02 — CIVILIZATIONAL RELATIONS */}
-<CivilizationalRelationsPortal />
-
-{/* 03 — ARCHENOVA WORLD / INDEPENDENT */}
-<ArcheNovaWorldGallery />
+     <section
+  id="archenova-space"
+  data-home-section
+  data-home-chapter="archenova-space"
+  className="home-page an-home-2026__section archenova-space-page"
+  aria-label="ArcheNova Space"
+>
+  <div className="an-home-2026__glass">
+    <ArcheNovaSpaceFrame
+      synthesis={<CivilizationSynthesisPortal />}
+      relations={<CivilizationalRelationsPortal />}
+      world={<ArcheNovaWorldGallery />}
+    />
+  </div>
+</section>
 
       {/* 04 — ARCHITECTURE OF CIVILIZATION */}
       <CivilizationArchitectureEntrance />

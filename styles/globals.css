@@ -73927,3 +73927,473 @@ main.cos-workspace .cos-panel {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA SPACE — UNIFIED OBSIDIAN / THREE CHAPTERS
+   Add at the END of app/globals.css.
+   The shared outer frame is the ONLY glass surface.
+   ========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home > .an-space-frame {
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin-inline: auto;
+  padding: clamp(22px, 3.5vw, 56px);
+  color: rgba(245, 247, 250, .94);
+  background: linear-gradient(155deg,
+    rgba(0, 0, 0, .82) 0%,
+    rgba(1, 2, 3, .86) 48%,
+    rgba(0, 0, 0, .90) 100%);
+  border: 1px solid rgba(12, 13, 15, .96);
+  border-radius: 30px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.010),
+    0 0 0 1px rgba(0,0,0,.40),
+    0 8px 28px rgba(0,0,0,.16);
+  -webkit-backdrop-filter: blur(28px) saturate(70%);
+  backdrop-filter: blur(28px) saturate(70%);
+  overflow: clip;
+}
+
+.an-space-frame,
+.an-space-frame * { box-sizing: border-box; }
+
+.an-space-frame__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  padding: clamp(28px, 5vw, 80px) 0 clamp(40px, 5vw, 70px);
+}
+.an-space-frame__eyebrow,
+.an-space-frame__chapter-number,
+.an-space-frame__footer {
+  font-size: 10px;
+  font-weight: 550;
+  letter-spacing: .18em;
+  color: rgba(240,242,245,.45);
+}
+.an-space-frame__title {
+  margin: 0;
+  font-size: clamp(40px, 6vw, 84px);
+  font-weight: 250;
+  line-height: 1.05;
+  letter-spacing: -.055em;
+  text-wrap: balance;
+}
+.an-space-frame__lead {
+  margin: 0;
+  font-size: clamp(13px, 1.5vw, 17px);
+  line-height: 1.75;
+  color: rgba(237,240,245,.58);
+}
+.an-space-frame__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  max-width: 100%;
+  margin-top: clamp(18px, 3vw, 36px);
+  padding: 5px;
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 999px;
+  background: rgba(8,8,9,.88);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.an-space-frame__nav-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 11px clamp(12px, 2vw, 24px);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(244,245,247,.56);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  cursor: pointer;
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+.an-space-frame__nav-number { opacity: .5; font-variant-numeric: tabular-nums; }
+.an-space-frame__nav-item.is-selected {
+  color: #f6f7f8;
+  background: #202023;
+  border-color: rgba(255,255,255,.13);
+}
+.an-space-frame__nav-item:hover { color: #fff; }
+.an-space-frame__nav-item:focus-visible {
+  outline: 2px solid #c5cad2;
+  outline-offset: 3px;
+}
+.an-space-frame__chapter {
+  position: relative;
+  min-width: 0;
+  padding-block: clamp(44px, 7vw, 100px);
+  scroll-margin-top: 85px;
+}
+.an-space-frame__chapter + .an-space-frame__chapter {
+  border-top: 1px solid rgba(255,255,255,.085);
+}
+.an-space-frame__chapter-heading {
+  max-width: 800px;
+  margin: 0 auto clamp(28px, 4vw, 58px);
+  text-align: center;
+}
+.an-space-frame__chapter-heading h3 {
+  margin: 16px 0 10px;
+  font-size: clamp(27px, 3.5vw, 49px);
+  font-weight: 300;
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+.an-space-frame__chapter-heading p {
+  margin: 0;
+  color: rgba(235,237,240,.55);
+  font-size: clamp(12px, 1.3vw, 15px);
+  line-height: 1.8;
+}
+.an-space-frame__content { width: 100%; min-width: 0; }
+
+/* Only the root of each EXISTING component loses its outer card.
+   Inner research cards, galleries, accordions, etc. remain untouched. */
+main#home-top .an-space-frame__content > :first-child {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-inline: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-image: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Remove a HOME-only inner glass when it is the direct child of a chapter root. */
+main#home-top .an-space-frame__content > :first-child > .an-home-2026__glass {
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+.an-space-frame__footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 28px 0 12px;
+  border-top: 1px solid rgba(255,255,255,.085);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  main#home-top.an-home-2026.archenova-twin-home > .an-space-frame {
+    padding: 20px 14px 28px;
+    border-radius: 24px;
+  }
+  .an-space-frame__intro { padding-block: 34px 36px; }
+  .an-space-frame__nav { width: 100%; border-radius: 20px; }
+  .an-space-frame__nav-item {
+    flex: 1 1 90px;
+    padding: 11px 7px;
+    font-size: 9px;
+    gap: 5px;
+  }
+  .an-space-frame__chapter { padding-block: 48px; scroll-margin-top: 65px; }
+}
+@media (max-width: 380px) {
+  .an-space-frame__nav-number { display: none; }
+  .an-space-frame__nav-item { letter-spacing: .06em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .an-space-frame__nav-item { transition: none; }
+}
+
+
+/* Append at the very end of app/globals.css */
+main#home-top .an-space-frame__chapter[hidden] {
+  display: none !important;
+}
+/* The existing frame CSS targets a direct child of main. Keep the
+   component directly under main#home-top as in the prior integration. */
+.an-space-frame__nav[aria-label="ArcheNova Space chapters"] {
+  overflow: visible;
+}
+
+/* ArcheNova Space — visibility and section spacing fix.
+   Append after all existing HOME and ArcheNova Space rules. */
+
+/* Allow the active chapter's full natural height. */
+main#home-top.an-home-2026.archenova-twin-home > #archenova-space.an-space-frame {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  margin-bottom: 32px !important;
+}
+
+/* Exactly one chapter is visible. */
+main#home-top #archenova-space .an-space-frame__chapter[hidden] {
+  display: none !important;
+}
+main#home-top #archenova-space .an-space-frame__chapter:not([hidden]) {
+  display: block;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+main#home-top #archenova-space .an-space-frame__chapter:not([hidden]) > .an-space-frame__content {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* The nested HOME sections are no longer standalone snap pages.
+   Preserve their internal components, layout and interactions. */
+main#home-top #archenova-space .an-space-frame__chapter:not([hidden]) .an-space-frame__content > section,
+main#home-top #archenova-space .an-space-frame__chapter:not([hidden]) .an-space-frame__content > .an-home-2026__section {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
+  scroll-snap-align: none !important;
+}
+
+/* When a HOME glass wrapper exists inside a chapter, do not clip its contents. */
+main#home-top #archenova-space .an-space-frame__chapter:not([hidden]) .an-home-2026__glass {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+@media (max-width: 768px) {
+  main#home-top.an-home-2026.archenova-twin-home > #archenova-space.an-space-frame {
+    margin-bottom: 20px !important;
+  }
+}
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA SPACE — THREE CHAPTERS
+   VISIBILITY AND LAYOUT CORRECTION
+
+   Outer frame:
+   #archenova-space
+
+   Inner component:
+   .an-space-frame
+
+   Preserve unified obsidian glass.
+========================================================== */
+
+/* Outer frame: retain existing glass appearance */
+
+main#home-top.an-home-2026.archenova-twin-home
+> section#archenova-space {
+  position: relative;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+  margin-bottom: 32px !important;
+}
+
+/* Existing HOME glass wrapper */
+
+main#home-top
+> section#archenova-space
+> .an-home-2026__glass {
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Inner Space frame: no second glass surface */
+
+main#home-top
+#archenova-space
+.an-space-frame {
+  position: relative;
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+
+  padding: clamp(22px, 3.5vw, 56px);
+
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Unselected chapters */
+
+main#home-top
+#archenova-space
+.an-space-frame__chapter[hidden] {
+  display: none !important;
+}
+
+/* Selected chapter */
+
+main#home-top
+#archenova-space
+.an-space-frame__chapter:not([hidden]) {
+  position: relative;
+  display: block !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Chapter content */
+
+main#home-top
+#archenova-space
+.an-space-frame__chapter:not([hidden])
+> .an-space-frame__content {
+  display: block !important;
+
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+
+  overflow: visible !important;
+}
+
+/* Existing component roots */
+
+main#home-top
+#archenova-space
+.an-space-frame__chapter:not([hidden])
+.an-space-frame__content
+> section {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+
+  scroll-snap-align: none !important;
+}
+
+/* Embedded Synthesis */
+
+main#home-top
+#archenova-space
+.an-synthesis-home {
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+}
+
+/* Responsive spacing */
+
+@media (max-width: 768px) {
+  main#home-top.an-home-2026.archenova-twin-home
+  > section#archenova-space {
+    margin-bottom: 20px !important;
+  }
+
+  main#home-top
+  #archenova-space
+  .an-space-frame {
+    padding: 20px 14px 28px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME SECTION PAGER
+   COMPLETE INVISIBLE STATE
+========================================================== */
+
+main#home-top
+.chapter-navigator[hidden] {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
