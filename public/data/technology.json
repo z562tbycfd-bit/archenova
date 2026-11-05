@@ -1,7 +1,241 @@
 {
   "ok": true,
-  "updated": "2026-11-05T14:14:54.158Z",
+  "updated": "2026-11-05T21:22:02.989Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Ballot measures affirm divisions over abortion and transgender issues",
+      "url": "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/?utm_campaign=rss",
+      "summary": "Voters in 2026 midterm elections decided state health policy ballot measures on abortion rights, marijuana laws, science bonds, and transgender youth care.",
+      "ts": 1793911773000,
+      "publishedAt": "2026-11-05T20:49:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Child dies of measles in Wisconsin’s first such death since 1990",
+      "url": "https://www.statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990/?utm_campaign=rss",
+      "summary": "An infant in southwestern Wisconsin has died after contracting measles, the state’s first death from the disease in 36 years.",
+      "ts": 1793910684000,
+      "publishedAt": "2026-11-05T20:31:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution …",
+      "ts": 1793908841000,
+      "publishedAt": "2026-11-05T20:00:41.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bird Flu Vaccine Developed Using AI Outperforms Current Stockpiled Vaccines in Preclinical Tests",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/",
+      "summary": "Researchers used an AI-guided engineering approach to create a broadly protective bird flu vaccine that is designed to remain effective across a wide range of existing and future H5Nx variants. The post Bird Flu Vaccine …",
+      "ts": 1793908643000,
+      "publishedAt": "2026-11-05T19:57:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Novartis cites cases of previously unknown tumors possibly tied to its SMA gene therapy",
+      "url": "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss",
+      "summary": "Novartis has acknowledged seven previously unknown instances in which tumors were found in children who were treated with its spinal muscular atrophy therapy, Zolgensma.",
+      "ts": 1793904814000,
+      "publishedAt": "2026-11-05T18:53:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Orphan Therapeutics Accelerator In-Licenses Its First Gene Therapy, Eyes Pipeline Expansion",
+      "url": "https://www.genengnews.com/topics/translational-medicine/orphan-therapeutics-accelerator-in-licenses-its-first-gene-therapy-eyes-pipeline-expansion/",
+      "summary": "The nonprofit biotech evaluates potential therapies based on unmet medical need, clinical evidence of safety and efficacy, and the compatibility of institutional partners. Its funding model combines initial seed investme…",
+      "ts": 1793903380000,
+      "publishedAt": "2026-11-05T18:29:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Stunning $6M defamation verdict reverberates at MIT campus, global scientific community",
+      "url": "https://www.statnews.com/2026/11/05/david-sabatini-defamation-verdict-reverberates-mit-scientific-community/?utm_campaign=rss",
+      "summary": "The explosive court battle between a former star scientist at the Massachusetts Institute of Technology and a younger colleague continues to roil the campus community.",
+      "ts": 1793902748000,
+      "publishedAt": "2026-11-05T18:19:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Two No Surprises Act arbitrators lose government contracts to decide payment disputes",
+      "url": "https://www.statnews.com/2026/11/05/no-surprises-act-arbitrators-idr-ipro-network-medical-review-lose-contracts/?utm_campaign=rss",
+      "summary": "The Trump administration is cutting off two groups tasked with arbitrating disputes over surprise medical bills, citing a failure “to meet minimum performance standards.”",
+      "ts": 1793902179000,
+      "publishedAt": "2026-11-05T18:09:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: MAHA 1.0 is dead. MAHA 2.0 is born",
+      "url": "https://www.statnews.com/2026/11/05/end-of-maha-2026-midterms-losses-democrats-aoc-cory-booker/?utm_campaign=rss",
+      "summary": "MAHA 1.0 is dead. MAHA 2.0 is born, write “Why Should I Trust You?” hosts Brinda Adhikari and Tom W. Johnson",
+      "ts": 1793901623000,
+      "publishedAt": "2026-11-05T18:00:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
+      "url": "https://spacenews.com/cork-takes-the-heat-so-dracos-data-can-survive/",
+      "summary": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post …",
+      "ts": 1793898359000,
+      "publishedAt": "2026-11-05T17:05:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Tissue Engineering Takes Shape",
+      "url": "https://www.genengnews.com/topics/translational-medicine/tissue-engineering-takes-shape/",
+      "summary": "Personalized grafts, bioinks, and off-the-shelf tissues are advancing regenerative medicine toward broader clinical use. The post Tissue Engineering Takes Shape appeared first on GEN - Genetic Engineering and Biotechnolo…",
+      "ts": 1793898303000,
+      "publishedAt": "2026-11-05T17:05:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Beyond Conventional CRISPR",
+      "url": "https://www.genengnews.com/insights/beyond-conventional-crispr/",
+      "summary": "Genome editing is not designed to replace neurons or retinal cells that have already been lost. In this article, experts from four companies—eGenesis, Epicrispr, KOMO Biosciences, and Sumitomo Pharma America—discuss how …",
+      "ts": 1793898270000,
+      "publishedAt": "2026-11-05T17:04:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omn…",
+      "ts": 1793898035000,
+      "publishedAt": "2026-11-05T17:00:35.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A possible comeback for a failed sickle cell gene therapy",
+      "url": "https://www.statnews.com/2026/11/05/biotech-news-a-possible-comeback-for-failed-sickle-cell-gene-therapy/?utm_campaign=rss",
+      "summary": "Three years ago, a trial for a sickle cell gene-editing therapy a decade in the making ended abruptly after the first patient suffered a serious adverse event. Now, the therapy…",
+      "ts": 1793895773000,
+      "publishedAt": "2026-11-05T16:22:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Oral Sleep Apnea Therapy Poised to Expand Treatment Options",
+      "url": "https://www.genengnews.com/topics/translational-medicine/oral-sleep-apnea-therapy-poised-to-expand-treatment-options/",
+      "summary": "An oral obstructive sleep apnea therapy targeting multiple pathways is poised to improve patient compliance and, possibly, outcomes. The post Oral Sleep Apnea Therapy Poised to Expand Treatment Options appeared first on …",
+      "ts": 1793894760000,
+      "publishedAt": "2026-11-05T16:06:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Beyond the Payload",
+      "url": "https://www.genengnews.com/topics/bioprocessing/beyond-the-payload/",
+      "summary": "In this Point of View Anthony Blaszczyk, PhD, principal scientist at USP provides insights on how delivery technologies will shape the future of cell and gene therapy. The post Beyond the Payload appeared first on GEN - …",
+      "ts": 1793894756000,
+      "publishedAt": "2026-11-05T16:05:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Revealing the Chemistry Around Us Through Mass Spectrometry",
+      "url": "https://www.genengnews.com/topics/omics/revealing-the-chemistry-around-us-through-mass-spectrometry/",
+      "summary": "Mass spectrometry-based exposomics could be a powerful approach to measuring and understanding environmental impact on health. The post Revealing the Chemistry Around Us Through Mass Spectrometry appeared first on GEN - …",
+      "ts": 1793894683000,
+      "publishedAt": "2026-11-05T16:04:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "What Biotech Licensing Really Buys",
+      "url": "https://www.genengnews.com/insights/what-biotech-licensing-really-buys/",
+      "summary": "In this Point of View Sun Chau Siu, PhD, and Kaisong Zhou, PhD, give insights on the hidden challenges of transferring intellectual property. The post What Biotech Licensing Really Buys appeared first on GEN - Genetic En…",
+      "ts": 1793894643000,
+      "publishedAt": "2026-11-05T16:04:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research enginee…",
+      "ts": 1793894405000,
+      "publishedAt": "2026-11-05T16:00:05.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory part…",
+      "ts": 1793894400000,
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Winners, losers, and MAHA",
+      "url": "https://www.statnews.com/2026/11/05/midterm-election-health-care-takeaways-maha-rfk-medicare-for-all/?utm_campaign=rss",
+      "summary": "Democratic doctors won big, MAHA faces an uncertain future, and what the election could mean for Medicare for All.",
+      "ts": 1793893284000,
+      "publishedAt": "2026-11-05T15:41:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Modernizing the Western Blot for the 21st Century: More Than Just Automation",
+      "url": "https://www.genengnews.com/sponsored/modernizing-the-western-blot-for-the-21st-century-more-than-just-automation/",
+      "summary": "Traditional Western blotting can confirm whether a protein is present, but it is often treated as semi-quantitative. It can be difficult to determine how much protein is present, compare results across experiments, or di…",
+      "ts": 1793892706000,
+      "publishedAt": "2026-11-05T15:31:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Midwestern City Lights",
+      "url": "https://www.nasa.gov/image-article/midwestern-city-lights/",
+      "summary": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detro…",
+      "ts": 1793891839000,
+      "publishedAt": "2026-11-05T15:17:19.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronauts to Answer Questions from Florida Students",
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
+      "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 10:40 a.m.…",
+      "ts": 1793891485000,
+      "publishedAt": "2026-11-05T15:11:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about India’s new manufacturing rules, clinical trials in China, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss",
+      "summary": "India proposed rules requiring regulators to immediately suspend manufacturing licenses for drugs that fail quality standards in government testing",
+      "ts": 1793890156000,
+      "publishedAt": "2026-11-05T14:49:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
+      "url": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on […] The post Building a ‘…",
+      "ts": 1793888138000,
+      "publishedAt": "2026-11-05T14:15:38.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
@@ -23,6 +257,15 @@
     {
       "source": "ESA",
       "title": "European orbiter detects hints of volcanic activity on Mars ",
+      "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
+      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
+      "ts": 1793885579000,
+      "publishedAt": "2026-11-05T13:32:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "European orbiter detects hints of volcanic activity on Mars ",
       "url": "https://new.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
       "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
       "ts": 1793885579000,
@@ -40,7 +283,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Medicare delays controversial RPM rule update",
+      "title": "STAT+: Medicare delays controversial remote patient monitoring rule to 2029",
       "url": "https://www.statnews.com/2026/11/05/health-tech-news-medicare-delays-controversial-rpm-rule-update/?utm_campaign=rss",
       "summary": "Despite widespread opposition, Medicare will finalize a controversial proposal that will prevent providers, such as hospitals, from using third parties to deliver remote patient monitoring services.",
       "ts": 1793883855000,
@@ -76,12 +319,30 @@
     },
     {
       "source": "United Nations News",
+      "title": "Children at risk as war zone attacks on water and sanitation more than triple",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168743",
+      "summary": "Attacks that damaged or destroyed water and sanitation systems in conflict zones tripled between 2021 and 2025, increasing children’s risk of exposure to disease outbreaks, malnutrition and violence.",
+      "ts": 1793880000000,
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Two new Ebola vaccines to join DR Congo clinical trial",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168742",
       "summary": "Two new Ebola vaccine candidates will be added to a clinical trial in the Democratic Republic of the Congo (DRC) as the country continues to battle a deadly outbreak caused by the Bundibugyo species of the virus.",
       "ts": 1793880000000,
       "publishedAt": "2026-11-05T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Impact of Heatwaves on Nuclear Power Plants",
+      "url": "http://www.iaea.org/newscenter/news/impact-of-heatwaves-on-nuclear-power-plants",
+      "summary": "",
+      "ts": 1793880000000,
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -121,7 +382,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: In China, a flood of controversial clinical trials slows to a trickle ",
+      "title": "STAT+: In China, a flood of controversial clinical trials slows to a trickle",
       "url": "https://www.statnews.com/2026/11/05/china-biotech-restrictions-impact-rare-disease-investigator-initiated-trial/?utm_campaign=rss",
       "summary": "Following patient deaths, China restricts investigator-initiated biotech trials, leaving rare disease families and US investors facing an uncertain future.",
       "ts": 1793871000000,
@@ -136,6 +397,15 @@
       "ts": 1793871000000,
       "publishedAt": "2026-11-05T09:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "ts": 1793869200000,
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -541,276 +811,6 @@
       "ts": 1793826419000,
       "publishedAt": "2026-11-04T21:06:59.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
-      "url": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
-      "summary": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously annou…",
-      "ts": 1793826250000,
-      "publishedAt": "2026-11-04T21:04:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "As Therapeutic Modalities Expand, Genomic Profiling Must Keep Pace",
-      "url": "https://www.genengnews.com/sponsored/as-therapeutic-modalities-expand-genomic-profiling-must-keep-pace/",
-      "summary": "The boundaries of what’s considered “druggable” are shifting as advances in cell and gene therapies expand the possibilities for cancer treatment. Expanded insights can open new avenues for biomarker research and therape…",
-      "ts": 1793825353000,
-      "publishedAt": "2026-11-04T20:49:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Rethinking the Clone-First Paradigm for First-in-Human Biologics",
-      "url": "https://www.genengnews.com/topics/bioprocessing/rethinking-the-clone-first-paradigm-for-first-in-human-biologics/",
-      "summary": "A stable-pool strategy can move cell line development off the critical path to Phase I while preserving a path to a conventional clonal cell line as a program matures. The post Rethinking the Clone-First Paradigm for Fir…",
-      "ts": 1793823120000,
-      "publishedAt": "2026-11-04T20:12:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Mass. marijuana consumers, workers high on victory after repeal of recreational weed sales fails in a rout",
-      "url": "https://www.statnews.com/2026/11/04/massachusetts-marijuana-question-8-results-recreational-cannabis/?utm_campaign=rss",
-      "summary": "Massachusetts voters decisively shot down a ballot initiative that would have dismantled the state’s recreational cannabis industry.",
-      "ts": 1793821232000,
-      "publishedAt": "2026-11-04T19:40:32.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "HIV-Blocking Antibody Shows Promise, but Resistant Strains Break Through",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/hiv-blocking-antibody-shows-promise-but-resistant-strains-break-through/",
-      "summary": "A new study finds that the VRC01 antibody initially protects against HIV infection, but resistant strains can cause breakthrough infections as antibody levels decline, highlighting the need for multiple antibodies. The p…",
-      "ts": 1793818841000,
-      "publishedAt": "2026-11-04T19:00:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won th…",
-      "ts": 1793818255000,
-      "publishedAt": "2026-11-04T18:50:55.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Democratic doctors and scientists ride the blue wave",
-      "url": "https://www.statnews.com/2026/11/04/midterms-democrat-winners-doctors-scientists-medical-professionals/?utm_campaign=rss",
-      "summary": "The clinicians and researchers who will take office are ready to tackle the U.S. health care system.",
-      "ts": 1793818005000,
-      "publishedAt": "2026-11-04T18:46:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Building Custom DNA without Bacterial Constraints",
-      "url": "https://www.genengnews.com/sponsored/building-custom-dna-without-bacterial-constraints/",
-      "summary": "Moving high-fidelity DNA assembly from the production queue to the lab bench and the science can start sooner. The post Building Custom DNA without Bacterial Constraints appeared first on GEN - Genetic Engineering and Bi…",
-      "ts": 1793817905000,
-      "publishedAt": "2026-11-04T18:45:05.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
-      "url": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
-      "summary": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and…",
-      "ts": 1793816500000,
-      "publishedAt": "2026-11-04T18:21:40.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
-      "url": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
-      "summary": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft withou…",
-      "ts": 1793815202000,
-      "publishedAt": "2026-11-04T18:00:02.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Where does MAHA go from here? 3 possible futures",
-      "url": "https://www.statnews.com/2026/11/04/maha-movement-future-after-midterm-losses/?utm_campaign=rss",
-      "summary": "Republican losses leave Robert F. Kennedy Jr.’s MAHA movement with three possible futures.",
-      "ts": 1793812184000,
-      "publishedAt": "2026-11-04T17:09:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What’s next for US energy policy after the midterm elections?",
-      "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
-      "summary": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of …",
-      "ts": 1793812080000,
-      "publishedAt": "2026-11-04T17:08:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Standardized Apheresis Processes Would Help Cell Therapy Sector",
-      "url": "https://www.genengnews.com/topics/bioprocessing/standardized-apheresis-processes-would-help-cell-therapy-sector/",
-      "summary": "Variation in collection practices, or apheresis, and handling procedures is a source of cell therapy starting material variability and a major headache for manufacturers, suggesting a degree of standardization would help…",
-      "ts": 1793811651000,
-      "publishedAt": "2026-11-04T17:00:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Small Bioprocess Monitoring Hits the Goldilocks Zone",
-      "url": "https://www.genengnews.com/topics/bioprocessing/small-bioprocess-monitoring-hits-the-goldilocks-zone/",
-      "summary": "A viable-cell-density-on-a-chip monitor offers hope for more fully functional, PAT-compliant in-line monitoring for small bioprocesses, filling a current instrumentation gap. The catch? It’s still in early development. T…",
-      "ts": 1793811635000,
-      "publishedAt": "2026-11-04T17:00:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
-      "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – In…",
-      "ts": 1793811163000,
-      "publishedAt": "2026-11-04T16:52:43.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: CVS Health to split, reversing years of deal-making to combine pharmacies and insurance",
-      "url": "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/?utm_campaign=rss",
-      "summary": "CVS Health’s decision to split comes amid federal and state scrutiny over vertical integration.",
-      "ts": 1793809806000,
-      "publishedAt": "2026-11-04T16:30:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
-      "url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
-      "summary": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leaders…",
-      "ts": 1793809001000,
-      "publishedAt": "2026-11-04T16:16:41.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Reveals Cosmic Mystery",
-      "url": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
-      "summary": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA’s Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of milli…",
-      "ts": 1793807976000,
-      "publishedAt": "2026-11-04T15:59:36.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A looming deadline to fund the government will shape Congress’ unusual lame duck session",
-      "url": "https://www.statnews.com/2026/11/04/lame-duck-session-congress-health-policy-aca-subsidies-medicaid-funding/?utm_campaign=rss",
-      "summary": "Before Democrats take control, Congress must fund expiring health care programs and confirm HHS nominees.",
-      "ts": 1793807754000,
-      "publishedAt": "2026-11-04T15:55:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Five midterm winners and losers: MAHA mowed down, Dem docs scrub in, ‘Medicare for All’ returns",
-      "url": "https://www.statnews.com/2026/11/04/midterm-health-policy-winners-losers-medicare-for-all-rfk-jr/?utm_campaign=rss",
-      "summary": "Democratic doctors were among the winners in the midterm elections, while the MAHA movement and President Trump's health agenda were losers.",
-      "ts": 1793805321000,
-      "publishedAt": "2026-11-04T15:15:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA, NOAA Track 2026 Antarctic Ozone Hole",
-      "url": "https://science.nasa.gov/earth/2026-ozone-hole/",
-      "summary": "Weather provided ideal conditions for enhanced ozone depletion",
-      "ts": 1793804414000,
-      "publishedAt": "2026-11-04T15:00:14.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Ultragenyx cuts staff after another study fails ",
-      "url": "https://www.statnews.com/2026/11/04/biotech-news-ultragenyx-cuts-staff-after-another-study-fails/?utm_campaign=rss",
-      "summary": "Ultragenyx announced that it's laying off about 20% of its staff as it ends development of two rare disease drugs.",
-      "ts": 1793803606000,
-      "publishedAt": "2026-11-04T14:46:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "ts": 1793802600000,
-      "publishedAt": "2026-11-04T14:30:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about CVS plans to split up, FDA inspections in India and China and more",
-      "url": "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss",
-      "summary": "The Trump administration will survey key components of pharmaceutical production in order to identify domestic supply chain vulnerabilities.",
-      "ts": 1793802046000,
-      "publishedAt": "2026-11-04T14:20:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Kamau Therapeutics Releases Encouraging Sickle Cell Clinical Data Ahead of ASH Meeting",
-      "url": "https://www.genengnews.com/topics/genome-editing/kamau-therapeutics-releases-encouraging-sickle-cell-clinical-data-ahead-of-ash-meeting/",
-      "summary": "The findings, part of a trove of abstracts that will be presented at next month’s American Society of Hematology (ASH) conference, show precise correction of the SCD mutation in the β-globin gene in three SCD patients as…",
-      "ts": 1793801987000,
-      "publishedAt": "2026-11-04T14:19:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "How Epigenomics Is Transforming Drug Discovery and Development",
-      "url": "https://www.genengnews.com/resources/ebooks/how-epigenomics-is-transforming-drug-discovery-and-development/",
-      "summary": "In this GEN eBook readers will discover how epigenomic insights are improving every stage of the drug discovery pipeline, from target identification and validation to mechanism-of-action studies and therapeutic optimizat…",
-      "ts": 1793801951000,
-      "publishedAt": "2026-11-04T14:19:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sens. Wyden and Sanders, backers of ‘Medicare for All,’ set to take charge of key committees",
-      "url": "https://www.statnews.com/2026/11/04/democratic-wins-medicare-for-all-momentum/?utm_campaign=rss",
-      "summary": "The Democratic flip of the Senate is expected to put two Democrats who support Medicare for All in charge of key committees.",
-      "ts": 1793799497000,
-      "publishedAt": "2026-11-04T13:38:17.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: blended meat, restored sight, and the agentic web",
-      "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat In the fall …",
-      "ts": 1793797800000,
-      "publishedAt": "2026-11-04T13:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The biotech startups skipping AI for drug discovery",
-      "url": "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of AI Prognosis: These biotech startups don't think drug discovery is where AI can make the biggest difference.",
-      "ts": 1793797293000,
-      "publishedAt": "2026-11-04T13:01:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Securing the agentic enterprise with data lineage",
-      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the age…",
-      "ts": 1793797200000,
-      "publishedAt": "2026-11-04T13:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
