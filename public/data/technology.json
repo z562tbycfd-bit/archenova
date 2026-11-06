@@ -1,7 +1,187 @@
 {
   "ok": true,
-  "updated": "2026-11-06T10:30:47.181Z",
+  "updated": "2026-11-06T17:50:19.535Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Democrats’ midterm landslide spells relief for hospitals",
+      "url": "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/?utm_campaign=rss",
+      "summary": "Democrats are likely to focus on reversing Medicaid cuts and expanding insurance coverage, giving a boost to health care providers.",
+      "ts": 1793987176000,
+      "publishedAt": "2026-11-06T17:46:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Democrats’ midterm victory, and a questionable fertility procedure",
+      "url": "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/?utm_campaign=rss",
+      "summary": "How will the midterm results affect drug pricing policy? And why are women traveling to fertility clinics abroad? Find out on the new episode of \"The Readout LOUD\" podcast.",
+      "ts": 1793984538000,
+      "publishedAt": "2026-11-06T17:02:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Novartis Confirms Nine Cases of Tumors in Children Treated with Gene Therapy Zolgensma",
+      "url": "https://www.genengnews.com/topics/genome-editing/novartis-confirms-nine-cases-of-tumors-in-children-treated-with-gene-therapy-zolgensma/",
+      "summary": "\"Two cases to date have shown evidence of vector integration into the DNA of the patients. In both cases, the patients underwent treatment and continue to be monitored,” Novartis said in a statement. The post Novartis Co…",
+      "ts": 1793984312000,
+      "publishedAt": "2026-11-06T16:58:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1793983429000,
+      "publishedAt": "2026-11-06T16:43:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ER-Negative Breast Cancer Risk Linked with Blood Levels of Two PFAS Forever Chemicals",
+      "url": "https://www.genengnews.com/topics/cancer/er-negative-breast-cancer-risk-linked-with-blood-levels-of-two-pfas-forever-chemicals/",
+      "summary": "The results of a study found that women with higher blood levels of two common PFAS were more likely to develop estrogen receptor-negative breast cancer, saying their results have important public health implications. Th…",
+      "ts": 1793983355000,
+      "publishedAt": "2026-11-06T16:42:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "M30’s Sparkling Stars",
+      "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+      "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who catal…",
+      "ts": 1793982221000,
+      "publishedAt": "2026-11-06T16:23:41.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: New tumor cases show common gene therapy tool can come with risk",
+      "url": "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/?utm_campaign=rss",
+      "summary": "New cases show AAV gene therapies like Zolgensma carry tumor risks, raising key concerns for SMA patients and gene therapy researchers in general.",
+      "ts": 1793981680000,
+      "publishedAt": "2026-11-06T16:14:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Supercomputing Tech Demo Schedule",
+      "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+      "summary": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe…",
+      "ts": 1793981032000,
+      "publishedAt": "2026-11-06T16:03:52.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation …",
+      "ts": 1793980835000,
+      "publishedAt": "2026-11-06T16:00:35.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Amgen’s Repatha linked to fewer heart attacks",
+      "url": "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/?utm_campaign=rss",
+      "summary": "Pithy intro text about the biopharma milieu. Novartis cites more tumor reports after Zolgensma Novartis has disclosed seven previously unreported cases of tumors in children who received Zolgensma, its gene therapy…",
+      "ts": 1793978093000,
+      "publishedAt": "2026-11-06T15:14:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "New evidence for ancient cannabis use",
+      "url": "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/?utm_campaign=rss",
+      "summary": "A new paper, published yesterday in Science, offers compelling evidence of ritual cannabis use in a 2,800-year-old Siberian tomb.",
+      "ts": 1793977182000,
+      "publishedAt": "2026-11-06T14:59:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Novartis gene therapy, faster U.K. drug reviews, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss",
+      "summary": "Novartis acknowledged seven instances of tumors being found in children who were treated with Zolgensma for spinal muscular atrophy",
+      "ts": 1793976063000,
+      "publishedAt": "2026-11-06T14:41:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Why Glycosylation Control Is No Longer a Secondary Concern in the Development of Complex Biologics",
+      "url": "https://www.genengnews.com/topics/bioprocessing/why-glycosylation-control-is-no-longer-a-secondary-concern-in-the-development-of-complex-biologics/",
+      "summary": "A priority shift is redefining expectations for contract development and manufacturing organizations (CDMOs). This article explains how CDMOs can efficiently move their glycosylation processes upstream using quality-by-d…",
+      "ts": 1793973384000,
+      "publishedAt": "2026-11-06T13:56:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-374-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1793972814000,
+      "publishedAt": "2026-11-06T13:46:54.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future.…",
+      "ts": 1793970600000,
+      "publishedAt": "2026-11-06T13:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "From a ship frozen into Arctic ice, a warning to world leaders: Trust the science",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168751",
+      "summary": "Drifting through the polar darkness, a team of scientists is documenting a rapidly changing Arctic. As sea ice retreats and oil tankers move in, a conversation with the UN chief reveals why the battle for climate science…",
+      "ts": 1793966400000,
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan’s suffering is plain for all to see say aid teams, as brutal war continues",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168753",
+      "summary": "Aid teams working to help millions of people uprooted by the ongoing war in Sudan appealed on Friday for more international assistance amid desperate funding shortages, empty warehouses and overwhelming needs.",
+      "ts": 1793966400000,
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘No Escape’ for refugees on the frontlines of the climate crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168752",
+      "summary": "The climate emergency is an immediate crisis for refugees, with three in four – nearly 90 million people – living in countries facing high to severe exposure to hazards such as drought, floods and extreme heat.",
+      "ts": 1793966400000,
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "International Cooperation Strengthens Radioactive Waste Characterization",
+      "url": "http://www.iaea.org/newscenter/news/international-cooperation-strengthens-radioactive-waste-characterization",
+      "summary": "Countries need reliable data about radioactive waste to decide how to treat, store and dispose of it safely.",
+      "ts": 1793966082000,
+      "publishedAt": "2026-11-06T11:54:42.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA’s Euclid captures the Milky Way’s crowded heart ",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/esa-s-euclid-captures-the-milky-way-s-crowded-heart",
+      "summary": "For just one day, our dark Universe detective, Euclid, turned its gaze towards the light: the extremely bright inner region of our Milky Way galaxy, known as the galactic bulge. ...",
+      "ts": 1793962863000,
+      "publishedAt": "2026-11-06T11:01:03.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "European orbiter detects hints of volcanic activity on Mars ",
@@ -49,7 +229,7 @@
     },
     {
       "source": "STAT",
-      "title": "Opinion: What it’s like to live with cognitively unimpaired Alzheimer’s disease",
+      "title": "Opinion: STAT+: What it’s like to live with cognitively unimpaired Alzheimer’s disease",
       "url": "https://www.statnews.com/2026/11/06/pre-clinical-alzheimers-disease-biomarkers-tests-mental-health/?utm_campaign=rss",
       "summary": "People with cognitively unimpaired Alzheimer’s “may be asymptomatic, but they do have a disease experience,” writes Jason Karlawish.",
       "ts": 1793957400000,
@@ -73,6 +253,24 @@
       "ts": 1793946658000,
       "publishedAt": "2026-11-06T06:30:58.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 6 – A Farewell to Swift",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+      "summary": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1793941500000,
+      "publishedAt": "2026-11-06T05:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Taking a Gander at Utah’s Goosenecks",
+      "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
+      "summary": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
+      "ts": 1793941260000,
+      "publishedAt": "2026-11-06T05:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -612,204 +810,6 @@
       "summary": "In this Point of View Sun Chau Siu, PhD, and Kaisong Zhou, PhD, give insights on the hidden challenges of transferring intellectual property. The post What Biotech Licensing Really Buys appeared first on GEN - Genetic En…",
       "ts": 1793894643000,
       "publishedAt": "2026-11-05T16:04:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-      "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research enginee…",
-      "ts": 1793894405000,
-      "publishedAt": "2026-11-05T16:00:05.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory part…",
-      "ts": 1793894400000,
-      "publishedAt": "2026-11-05T16:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Winners, losers, and MAHA",
-      "url": "https://www.statnews.com/2026/11/05/midterm-election-health-care-takeaways-maha-rfk-medicare-for-all/?utm_campaign=rss",
-      "summary": "Democratic doctors won big, MAHA faces an uncertain future, and what the election could mean for Medicare for All.",
-      "ts": 1793893284000,
-      "publishedAt": "2026-11-05T15:41:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Modernizing the Western Blot for the 21st Century: More Than Just Automation",
-      "url": "https://www.genengnews.com/sponsored/modernizing-the-western-blot-for-the-21st-century-more-than-just-automation/",
-      "summary": "Traditional Western blotting can confirm whether a protein is present, but it is often treated as semi-quantitative. It can be difficult to determine how much protein is present, compare results across experiments, or di…",
-      "ts": 1793892706000,
-      "publishedAt": "2026-11-05T15:31:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Midwestern City Lights",
-      "url": "https://www.nasa.gov/image-article/midwestern-city-lights/",
-      "summary": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detro…",
-      "ts": 1793891839000,
-      "publishedAt": "2026-11-05T15:17:19.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronauts to Answer Questions from Florida Students",
-      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
-      "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 10:40 a.m.…",
-      "ts": 1793891485000,
-      "publishedAt": "2026-11-05T15:11:25.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about India’s new manufacturing rules, clinical trials in China, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss",
-      "summary": "India proposed rules requiring regulators to immediately suspend manufacturing licenses for drugs that fail quality standards in government testing",
-      "ts": 1793890156000,
-      "publishedAt": "2026-11-05T14:49:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
-      "url": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
-      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on […] The post Building a ‘…",
-      "ts": 1793888138000,
-      "publishedAt": "2026-11-05T14:15:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
-      "summary": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever…",
-      "ts": 1793887234000,
-      "publishedAt": "2026-11-05T14:00:34.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Beyond statins, one drug lowered heart attack risk by 20%",
-      "url": "https://www.statnews.com/2026/11/05/repatha-vs-zetia-cholesterol-study-heart-attack-risk/?utm_campaign=rss",
-      "summary": "A new study could help doctors figure out what medicine to prescribe for cholesterol when statins don't cut it: It's “answering a really challenging clinical question.\"",
-      "ts": 1793887200000,
-      "publishedAt": "2026-11-05T14:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "European orbiter detects hints of volcanic activity on Mars ",
-      "url": "https://new.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
-      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
-      "ts": 1793885579000,
-      "publishedAt": "2026-11-05T13:32:59.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
-      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. T…",
-      "ts": 1793884200000,
-      "publishedAt": "2026-11-05T13:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare delays controversial remote patient monitoring rule to 2029",
-      "url": "https://www.statnews.com/2026/11/05/health-tech-news-medicare-delays-controversial-rpm-rule-update/?utm_campaign=rss",
-      "summary": "Despite widespread opposition, Medicare will finalize a controversial proposal that will prevent providers, such as hospitals, from using third parties to deliver remote patient monitoring services.",
-      "ts": 1793883855000,
-      "publishedAt": "2026-11-05T13:04:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Single-payer health care system proponents were thrown a big bone this election",
-      "url": "https://www.statnews.com/2026/11/05/morning-rounds-single-payer-health-care-system-after-midterms/?utm_campaign=rss",
-      "summary": "Sen. Bernie Sanders is likely to lead the Senate’s health committee next year, which could grant him a chance to fundamentally alter how the FDA interacts with the companies it…",
-      "ts": 1793883499000,
-      "publishedAt": "2026-11-05T12:58:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Learns Galactic History From Stars",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
-      "summary": "This Hubble image features the sparkling collection of stars named Messier 30 (M30), also called NGC 7099.",
-      "ts": 1793883381000,
-      "publishedAt": "2026-11-05T12:56:21.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Revolution Medicines’ pancreatic cancer drug has stunning commercial debut",
-      "url": "https://www.statnews.com/2026/11/05/rasonque-revolution-medicines-pancreatic-cancer-commercial-launch/?utm_campaign=rss",
-      "summary": "Rasonque, Revolution Medicines' new pancreatic cancer drug, is off to one of the best oncology drug launches in history.",
-      "ts": 1793881981000,
-      "publishedAt": "2026-11-05T12:33:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Impact of Heatwaves on Nuclear Power Plants",
-      "url": "http://www.iaea.org/newscenter/news/impact-of-heatwaves-on-nuclear-power-plants",
-      "summary": "",
-      "ts": 1793880000000,
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Children at risk as war zone attacks on water and sanitation more than triple",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168743",
-      "summary": "Attacks that damaged or destroyed water and sanitation systems in conflict zones tripled between 2021 and 2025, increasing children’s risk of exposure to disease outbreaks, malnutrition and violence.",
-      "ts": 1793880000000,
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Two new Ebola vaccines to join DR Congo clinical trial",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168742",
-      "summary": "Two new Ebola vaccine candidates will be added to a clinical trial in the Democratic Republic of the Congo (DRC) as the country continues to battle a deadly outbreak caused by the Bundibugyo species of the virus.",
-      "ts": 1793880000000,
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A closer look at ProMis Neurosciences and its Alzheimer’s drug",
-      "url": "https://www.statnews.com/2026/11/05/promis-neurosciences-alzheimers-disease-acumen-vertex-kidney-drug/?utm_campaign=rss",
-      "summary": "Shares of ProMis Neurosciences, developer of a treatment for Alzheimer’s disease, sold off sharply last week. A closer look at the reason why — and whether it holds up.",
-      "ts": 1793878200000,
-      "publishedAt": "2026-11-05T11:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A new bill could change how the US builds energy infrastructure ",
-      "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
-      "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipa…",
-      "ts": 1793872800000,
-      "publishedAt": "2026-11-05T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What the midterms could mean for the future of health AI",
-      "url": "https://www.statnews.com/2026/11/05/midterms-shape-future-ai-in-health-care-fda/?utm_campaign=rss",
-      "summary": "The midterms highlighted the negative sentiment around AI across the U.S. How will those attitudes trickle down to legislating AI use in health care?",
-      "ts": 1793871000000,
-      "publishedAt": "2026-11-05T09:30:00.000Z",
       "categoryId": "bio"
     }
   ],
