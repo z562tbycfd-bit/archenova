@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-11-06T17:50:19.535Z",
+  "updated": "2026-11-06T22:49:45.866Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Aging Proteome: Clocks, Cohorts, and Clinical Trials",
+      "url": "https://www.genengnews.com/multimedia/webinars/the-aging-proteome-clocks-cohorts-and-clinical-trials/",
+      "summary": "In this GEN webinar, two experts will show how ultra-sensitive, multiplexed proteomics can measure both the pace of aging and the effects of interventions designed to change it. The post The Aging Proteome: Clocks, Cohor…",
+      "ts": 1794003781000,
+      "publishedAt": "2026-11-06T22:23:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: States sue Trump administration again to delay Medicaid work requirements",
+      "url": "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/?utm_campaign=rss",
+      "summary": "The Trump administration is facing another lawsuit over its sweeping changes to Medicaid less than a week after a federal judge ruled that implementation of work requirements would cause “irreparable…",
+      "ts": 1794002739000,
+      "publishedAt": "2026-11-06T22:05:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: MAHA leader Calley Means castigates White House officials as bending to industry",
+      "url": "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/?utm_campaign=rss",
+      "summary": "Calley Means, a MAHA leader who just resigned from the Trump administration, says Americans \"are being duped and gaslighted and lied to.\"",
+      "ts": 1794002121000,
+      "publishedAt": "2026-11-06T21:55:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Two incoming lawmakers plan to defend health equity from Trump administration cuts",
+      "url": "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/?utm_campaign=rss",
+      "summary": "Two newly elected lawmakers with science backgrounds hope to push back against Trump administration cuts to health equity programs.",
+      "ts": 1794001615000,
+      "publishedAt": "2026-11-06T21:46:55.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Democrats’ midterm landslide spells relief for hospitals",
@@ -139,6 +175,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "Afghanistan faces deepening humanitarian crisis amid sweeping rights restrictions",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168758",
+      "summary": "Afghanistan stands at a “difficult crossroad” more than five years after the Taliban returned to power, a senior UN official said on Friday. Relative stability and security are being undercut by a fragile economy, sweepi…",
+      "ts": 1793966400000,
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Civilians killed in DR Congo, Ukrainians wrestle with return, Guterres calls out ‘normalisation’ of force",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168757",
+      "summary": "At least 30 civilians were killed overnight on Thursday in Beni Territory, North Kivu in the Democratic Republic of the Congo, according to local sources cited by the UN aid coordination office (OCHA).",
+      "ts": 1793966400000,
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "From a ship frozen into Arctic ice, a warning to world leaders: Trust the science",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168751",
       "summary": "Drifting through the polar darkness, a team of scientists is documenting a rapidly changing Arctic. As sea ice retreats and oil tankers move in, a conversation with the UN chief reveals why the battle for climate science…",
@@ -244,6 +298,15 @@
       "ts": 1793953482000,
       "publishedAt": "2026-11-06T08:24:42.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "ts": 1793952000000,
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "IAEA News",
@@ -606,6 +669,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "ts": 1793923200000,
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
       "url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
@@ -738,78 +810,6 @@
       "summary": "Personalized grafts, bioinks, and off-the-shelf tissues are advancing regenerative medicine toward broader clinical use. The post Tissue Engineering Takes Shape appeared first on GEN - Genetic Engineering and Biotechnolo…",
       "ts": 1793898303000,
       "publishedAt": "2026-11-05T17:05:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Beyond Conventional CRISPR",
-      "url": "https://www.genengnews.com/insights/beyond-conventional-crispr/",
-      "summary": "Genome editing is not designed to replace neurons or retinal cells that have already been lost. In this article, experts from four companies—eGenesis, Epicrispr, KOMO Biosciences, and Sumitomo Pharma America—discuss how …",
-      "ts": 1793898270000,
-      "publishedAt": "2026-11-05T17:04:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omn…",
-      "ts": 1793898035000,
-      "publishedAt": "2026-11-05T17:00:35.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "ts": 1793898000000,
-      "publishedAt": "2026-11-05T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A possible comeback for a failed sickle cell gene therapy",
-      "url": "https://www.statnews.com/2026/11/05/biotech-news-a-possible-comeback-for-failed-sickle-cell-gene-therapy/?utm_campaign=rss",
-      "summary": "Three years ago, a trial for a sickle cell gene-editing therapy a decade in the making ended abruptly after the first patient suffered a serious adverse event. Now, the therapy…",
-      "ts": 1793895773000,
-      "publishedAt": "2026-11-05T16:22:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Oral Sleep Apnea Therapy Poised to Expand Treatment Options",
-      "url": "https://www.genengnews.com/topics/translational-medicine/oral-sleep-apnea-therapy-poised-to-expand-treatment-options/",
-      "summary": "An oral obstructive sleep apnea therapy targeting multiple pathways is poised to improve patient compliance and, possibly, outcomes. The post Oral Sleep Apnea Therapy Poised to Expand Treatment Options appeared first on …",
-      "ts": 1793894760000,
-      "publishedAt": "2026-11-05T16:06:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Beyond the Payload",
-      "url": "https://www.genengnews.com/topics/bioprocessing/beyond-the-payload/",
-      "summary": "In this Point of View Anthony Blaszczyk, PhD, principal scientist at USP provides insights on how delivery technologies will shape the future of cell and gene therapy. The post Beyond the Payload appeared first on GEN - …",
-      "ts": 1793894756000,
-      "publishedAt": "2026-11-05T16:05:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Revealing the Chemistry Around Us Through Mass Spectrometry",
-      "url": "https://www.genengnews.com/topics/omics/revealing-the-chemistry-around-us-through-mass-spectrometry/",
-      "summary": "Mass spectrometry-based exposomics could be a powerful approach to measuring and understanding environmental impact on health. The post Revealing the Chemistry Around Us Through Mass Spectrometry appeared first on GEN - …",
-      "ts": 1793894683000,
-      "publishedAt": "2026-11-05T16:04:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "What Biotech Licensing Really Buys",
-      "url": "https://www.genengnews.com/insights/what-biotech-licensing-really-buys/",
-      "summary": "In this Point of View Sun Chau Siu, PhD, and Kaisong Zhou, PhD, give insights on the hidden challenges of transferring intellectual property. The post What Biotech Licensing Really Buys appeared first on GEN - Genetic En…",
-      "ts": 1793894643000,
-      "publishedAt": "2026-11-05T16:04:03.000Z",
       "categoryId": "bio"
     }
   ],
