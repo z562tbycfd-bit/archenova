@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-11-05T21:22:02.989Z",
+  "updated": "2026-11-06T02:02:15.951Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
+      "url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
+      "summary": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than […] The post CesiumAstro S…",
+      "ts": 1793915100000,
+      "publishedAt": "2026-11-05T21:45:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharma’s trade group spent heavily on search ads to sway public opinion",
+      "url": "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/?utm_campaign=rss",
+      "summary": "PhRMA spent an estimated $59 million on search advertising over a recent seven-year period to influence how Americans view prescription drug costs.",
+      "ts": 1793914612000,
+      "publishedAt": "2026-11-05T21:36:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Boehringer Ingelheim Inks Up-to-$7.4B+ Cancer Drug Collaboration with Sino Biopharmaceutical",
+      "url": "https://www.genengnews.com/topics/bioprocessing/boehringer-ingelheim-inks-up-to-7-4b-cancer-drug-collaboration-with-sino-biopharmaceutical/",
+      "summary": "The latest collaboration will encompass six biologic preclinical programs. Five programs focus on treatments originating with a wholly owned SBP Group subsidiary, LaNova Medicines. The sixth comes from another SBP Group …",
+      "ts": 1793913638000,
+      "publishedAt": "2026-11-05T21:20:38.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Ballot measures affirm divisions over abortion and transgender issues",
@@ -27,6 +54,15 @@
       "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution …",
       "ts": 1793908841000,
       "publishedAt": "2026-11-05T20:00:41.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "ts": 1793908800000,
+      "publishedAt": "2026-11-05T20:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -318,6 +354,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "Impact of Heatwaves on Nuclear Power Plants",
+      "url": "http://www.iaea.org/newscenter/news/impact-of-heatwaves-on-nuclear-power-plants",
+      "summary": "",
+      "ts": 1793880000000,
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "United Nations News",
       "title": "Children at risk as war zone attacks on water and sanitation more than triple",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168743",
@@ -334,15 +379,6 @@
       "ts": 1793880000000,
       "publishedAt": "2026-11-05T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Impact of Heatwaves on Nuclear Power Plants",
-      "url": "http://www.iaea.org/newscenter/news/impact-of-heatwaves-on-nuclear-power-plants",
-      "summary": "",
-      "ts": 1793880000000,
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -405,6 +441,15 @@
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "ts": 1793869200000,
       "publishedAt": "2026-11-05T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "ts": 1793865600000,
+      "publishedAt": "2026-11-05T08:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -766,51 +811,6 @@
       "ts": 1793843001000,
       "publishedAt": "2026-11-05T01:43:21.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Beyond Outsourcing: Building Better CDMO Partnerships",
-      "url": "https://www.genengnews.com/sponsored/beyond-outsourcing-building-better-cdmo-partnerships/",
-      "summary": "Rose BioSolutions CEO David Enloe argues that advanced therapies demand deeper scientific collaboration, earlier problem-solving, and shared accountability The post Beyond Outsourcing: Building Better CDMO Partnerships a…",
-      "ts": 1793828583000,
-      "publishedAt": "2026-11-04T21:43:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Lonza Expanding U.S. CDMO Footprint with Purchase of Five Merck KGaA Sites",
-      "url": "https://www.genengnews.com/topics/bioprocessing/lonza-expanding-u-s-cdmo-footprint-with-purchase-of-five-merck-kgaa-sites/",
-      "summary": "The deal would expand Lonza’s U.S. CDMO network from four to nine sites and grow the company’s U.S. workforce nearly 25% by adding approximately 1,100 employees, resulting in a combined headcount of more than 6,000 emplo…",
-      "ts": 1793828087000,
-      "publishedAt": "2026-11-04T21:34:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Multiomic Human Glioblastoma Cell Atlas Could Act as Compass to Guide Future Treatment Approaches",
-      "url": "https://www.genengnews.com/topics/cancer/multiomic-human-glioblastoma-cell-atlas-could-act-as-compass-to-guide-future-treatment-approaches/",
-      "summary": "Researchers mapped more than a million cells across glioblastoma tumors, categorizing cancer cells at different stages of their journey within the different environments in glioblastoma tumors, and showing that the cance…",
-      "ts": 1793827156000,
-      "publishedAt": "2026-11-04T21:19:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharma critic Bernie Sanders is set to hold major sway over FDA funding bill",
-      "url": "https://www.statnews.com/2026/11/04/bernie-sanders-senate-help-key-role-pdufa-reauthorization/?utm_campaign=rss",
-      "summary": "Sanders could use his role in crafting the FDA funding bill to push for reforms.",
-      "ts": 1793827039000,
-      "publishedAt": "2026-11-04T21:17:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Gene That Preserves Bone Stem Cell Supply Throughout Life Identified",
-      "url": "https://www.genengnews.com/topics/translational-medicine/gene-that-preserves-bone-stem-cell-supply-throughout-life-identified/",
-      "summary": "Researchers found that the HOXA10 gene preserves bone stem cell supply throughout life, and say the discovery advances understanding of stem cell biology and could indicate potential therapeutic approaches to improve bon…",
-      "ts": 1793826419000,
-      "publishedAt": "2026-11-04T21:06:59.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
