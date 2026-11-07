@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-11-06T22:49:43.661Z",
+  "updated": "2026-11-07T02:35:48.997Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Disasters and debt. Escaping the 'climate-debt doom loop'",
+      "url": "https://phys.org/news/2026-11-disasters-debt-climate-doom-loop.html",
+      "summary": "It took around 480,000 trucks to haul away 4.8 million metric tons (5.3 million tons) of rubble across western Jamaica after Hurricane Melissa tore through the Caribbean in 2025, United Nations satellites showed.",
+      "ts": 1794018002000,
+      "publishedAt": "2026-11-07T02:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Untangling the patterns of the cosmic microwave background to better understand the early universe",
+      "url": "https://phys.org/news/2026-11-untangling-patterns-cosmic-microwave-background.html",
+      "summary": "A figure in red trudges across a blanket of white. Snow squeaks under the scientist's feet, too dry to be slick or soft. Only a line of flags and a few large buildings—the scientist's destination—break up the landscape. …",
+      "ts": 1794010801000,
+      "publishedAt": "2026-11-07T00:20:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "CO<sub>2</sub> responsive nanoscopic and macroscopic materials directed by peptides",
+      "url": "https://www.nature.com/articles/s41467-026-79006-6",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Mapping Future Energy Journeys Through Modeling the Global Transport of Synthetic Energy Carriers",
+      "url": "https://www.nature.com/articles/s41467-026-78710-7",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spot a baby bird on the ground? Don't be tempted to bird‑nap it",
+      "url": "https://phys.org/news/2026-11-baby-bird-ground-dont-birdnap.html",
+      "summary": "Spring is the season of blooming flowers and buzzing bees.",
+      "ts": 1794006002000,
+      "publishedAt": "2026-11-06T23:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The wasps that horrified Darwin reveal evolution's one-way streets",
@@ -467,6 +507,14 @@
       "publishedAt": "2026-11-06T10:00:01.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Order by Inertia in Spinning Active Matter: Holey Fluids and Spin-Textured Crystals",
+      "url": "http://link.aps.org/doi/10.1103/xyym-pjh7",
+      "summary": "Author(s): Camille Jorge and Denis Bartolo Experiments with macroscopic spinning particles that stir the surrounding fluid at high Reynolds numbers reveal that inertia plays an organizing role in active systems, promotin…",
+      "ts": 1793959200000,
+      "publishedAt": "2026-11-06T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "On-Demand Millisecond Storage of Spectrotemporal Modes at Telecom Wavelength",
       "url": "http://link.aps.org/doi/10.1103/6rns-8wj3",
@@ -751,54 +799,6 @@
       "title": "A componentwise spherical Dirichlet-to-Neumann closure for finite-volume MHD at finite magnetic Reynolds number",
       "url": "https://arxiv.org/abs/2611.07304",
       "summary": "arXiv:2611.07304v1 Announce Type: new Abstract: At finite magnetic Reynolds number, the field induced by a moving conducting fluid or solid extends into open space, so a finite mesh needs an outer boundary condition that…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A nonlinear interface for phase transduction",
-      "url": "https://arxiv.org/abs/2611.07316",
-      "summary": "arXiv:2611.07316v1 Announce Type: new Abstract: Broadband nonlinear frequency conversion mixes multiple input frequencies, complicating the transfer of programmed spectral phase between widely separated spectral bands. H…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Current frontiers in mobility and well-being",
-      "url": "https://arxiv.org/abs/2611.07343",
-      "summary": "arXiv:2611.07343v1 Announce Type: new Abstract: Human mobility has a profound impact on social structure and collective behavior, which allows individuals to reshape group structures in response to strategy information, …",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluation of Image Noise from Computed Tomography in an Organ-Specific Anthropomorphic Phantom",
-      "url": "https://arxiv.org/abs/2611.07357",
-      "summary": "arXiv:2611.07357v1 Announce Type: new Abstract: Computed tomography (CT) is used ubiquitously for diagnostic imaging, with novel iterative reconstructions such as hybrid iterative reconstruction with partial model-based …",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Projection-based segregated, iterative, and multi-stage physics-informed neural network for incompressible Navier-stokes equations",
-      "url": "https://arxiv.org/abs/2611.07387",
-      "summary": "arXiv:2611.07387v1 Announce Type: new Abstract: Physics-informed neural networks(PINNs) offer a mesh-free and continuously differentiable approach to fluid simulation. However, standard monolithic PINNs for incompressibl…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stable dissipative topological solitons in media with even-order dispersion",
-      "url": "https://arxiv.org/abs/2611.07467",
-      "summary": "arXiv:2611.07467v1 Announce Type: new Abstract: The formation and dynamics of dissipative solitons are governed by the interplay of dispersion and nonlinearity, alongside the gain-loss balance. While it is known that dis…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Suppression of the Laser Hosing Instability in a Parabolic Plasma Channel",
-      "url": "https://arxiv.org/abs/2611.07475",
-      "summary": "arXiv:2611.07475v1 Announce Type: new Abstract: We present an analytical stability analysis of the laser hosing instability in a parabolic channel in the weakly relativistic regime. We employ a variational principle appr…",
       "ts": 1793941200000,
       "publishedAt": "2026-11-06T05:00:00.000Z"
     }
