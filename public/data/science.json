@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-11-07T16:09:15.630Z",
+  "updated": "2026-11-07T20:42:28.893Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Different text genres help doctoral students adapt their writing to reach new readers",
+      "url": "https://phys.org/news/2026-11-text-genres-doctoral-students-readers.html",
+      "summary": "An academic abstract, a blog post and a public outreach article all place different demands on the writer. Readers' prior knowledge varies, as does the purpose of the text and what needs explaining. Mastering one kind of…",
+      "ts": 1794078002000,
+      "publishedAt": "2026-11-07T19:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two paths, one flux: Trapped ions simulate Aharonov–Bohm interference in a lattice gauge theory",
+      "url": "https://phys.org/news/2026-11-paths-flux-ions-simulate-aharonovbohm.html",
+      "summary": "In a new Nature Physics study, researchers demonstrated the Aharonov-Bohm effect in a quantum simulation of a lattice gauge theory using a hybrid trapped-ion quantum computer.",
+      "ts": 1794074402000,
+      "publishedAt": "2026-11-07T18:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earth's gravity may have kept the early moon's volcanic heart beating",
+      "url": "https://phys.org/news/2026-11-earth-gravity-early-moon-volcanic.html",
+      "summary": "We typically think of the moon as a static, floating object that has remained the same for basically its entire lifetime, with an occasional asteroid impact serving as an exception. That understanding is grounded in phys…",
+      "ts": 1794072601000,
+      "publishedAt": "2026-11-07T17:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Scientists discover new jellyfish species in waters off Alicante in Spain",
@@ -100,6 +124,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Topological Josephson trijunctions as a Majorana source and path",
+      "url": "https://www.nature.com/articles/s41467-026-79077-5",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Antagonistic second-messenger signalling coordinates <i>Pseudomonas aeruginosa</i> surface colonization and virulence",
       "url": "https://www.nature.com/articles/s41467-026-79432-6",
       "summary": "",
@@ -108,8 +140,48 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Selective depolymerization of poly(ethylene terephthalate) for economical closed-loop recycling of mixed textiles",
+      "url": "https://www.nature.com/articles/s41467-026-78713-4",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Nanofluid wetting of Cu enables thin lithium negative electrodes for high-energy and long-cycling lithium metal batteries",
+      "url": "https://www.nature.com/articles/s41467-026-79376-x",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "CO<sub>2</sub> responsive nanoscopic and macroscopic materials directed by peptides",
       "url": "https://www.nature.com/articles/s41467-026-79006-6",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Fully Integrated Deep-Ocean Flexible Temperature–Depth Sensor with Neural Network Compensation",
+      "url": "https://www.nature.com/articles/s41467-026-78009-7",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "WASH orchestrates phagosomal maturation and bacterial killing in neutrophils through syntaxin 19-mediated lysosomal fusion",
+      "url": "https://www.nature.com/articles/s41467-026-79065-9",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Coupling electrolyte mechanical reinforcement and interfacial stress relaxation for near-ambient sulfide all-solid-state lithium metal batteries",
+      "url": "https://www.nature.com/articles/s41467-026-79393-w",
       "summary": "",
       "ts": 1794009600000,
       "publishedAt": "2026-11-07T00:00:00.000Z"
@@ -729,78 +801,6 @@
       "summary": "Author(s): Szymon P. Oramus, Riccardo Fornari, Gianluca Gubbiotti, and Adekunle O. Adeyeye Antiartificial spin ice (AASI), realized through spin-ice-derived antidot lattices of stadium-shaped holes in continuous Permallo…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bear necessities: Indian techie builds wildlife alert",
-      "url": "https://phys.org/news/2026-11-necessities-indian-techie-wildlife.html",
-      "summary": "After his mother was killed in a bear attack in Kashmir, Indian software engineer Mudasir Ali developed an online early-warning system to help people in the Himalayan region avoid dangerous encounters with wildlife.",
-      "ts": 1793955498000,
-      "publishedAt": "2026-11-06T08:58:18.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Charge-Reversal-Based Extraction of Muonic Ions",
-      "url": "https://arxiv.org/abs/2611.06923",
-      "summary": "arXiv:2611.06923v1 Announce Type: new Abstract: Negative muon capture in matter is accompanied by Auger electron emission and the formation of positively charged muonic ions. This charge reversal provides a possibility f…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Balancing broomsticks to a t!",
-      "url": "https://arxiv.org/abs/2611.06942",
-      "summary": "arXiv:2611.06942v1 Announce Type: new Abstract: A classic question from rotational mechanics asks, \"Is it easier to balance a broomstick heavy side up or heavy side down?\" Measuring the time a student can balance an asym…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Getting the picture - Subtractive color mixing with an inkjet printer",
-      "url": "https://arxiv.org/abs/2611.06943",
-      "summary": "arXiv:2611.06943v1 Announce Type: new Abstract: When teaching colors, physics teachers ask their students to ignore what is taught in art classes and embrace a primary color system of red, green, and blue. This scheme is…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Novel hydrodynamic features in dissipative spin-polarized fluids",
-      "url": "https://arxiv.org/abs/2611.06945",
-      "summary": "arXiv:2611.06945v1 Announce Type: new Abstract: We investigate an extension of perfect spin hydrodynamics that includes dissipation in the spin sector. The presence of dissipation implies that antisymmetric parts of the …",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reliability of Fisher-information bounds for dielectric metalenses: a site-resolved RCWA audit",
-      "url": "https://arxiv.org/abs/2611.07077",
-      "summary": "arXiv:2611.07077v1 Announce Type: new Abstract: We assess the reliability of localization precision predicted for a 1716-nanopillar dielectric metalens using a site-resolved complex RCWA library and a vectorial Poisson F…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Deep-Learning Framework for the Generalized Emulation of Atmospheric Radiative Transfer at Microwave Frequencies",
-      "url": "https://arxiv.org/abs/2611.07094",
-      "summary": "arXiv:2611.07094v1 Announce Type: new Abstract: This paper presents an application of machine learning to the problem of the computational expense of atmospheric radiative transfer calculations from physics-based models.…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "REST: Routing with En-route Seating Thresholds for pedestrian accessibility",
-      "url": "https://arxiv.org/abs/2611.07095",
-      "summary": "arXiv:2611.07095v1 Announce Type: new Abstract: Public seating can support walking by providing opportunities to rest at useful positions along complete journeys. We introduce a route-based framework that assesses nearby…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Embodied physical learning: a trained bacterial cell wall can guide organism behavior",
-      "url": "https://arxiv.org/abs/2611.07112",
-      "summary": "arXiv:2611.07112v1 Announce Type: new Abstract: Physical learning studies how physical systems themselves can be trained to perform learning tasks using physical laws. For instance, disordered spring networks can be trai…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
     }
   ],
   "sources": [

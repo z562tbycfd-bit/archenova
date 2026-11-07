@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-07T16:09:19.293Z",
+  "updated": "2026-11-07T20:42:31.808Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+      "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+      "summary": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds …",
+      "ts": 1794075117000,
+      "publishedAt": "2026-11-07T18:11:57.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: BIO joins the legal fight against Medicare pilot that ties drug prices to peer countries",
+      "url": "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/?utm_campaign=rss",
+      "summary": "The model is a test of Trump's most-favored nation approach to drug pricing, though its impact is likely to be limited.",
+      "ts": 1794070633000,
+      "publishedAt": "2026-11-07T16:57:13.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Failure of Novartis Lp(a) drug raises questions about cardiovascular strategy",
@@ -792,24 +810,6 @@
       "summary": "The nonprofit biotech evaluates potential therapies based on unmet medical need, clinical evidence of safety and efficacy, and the compatibility of institutional partners. Its funding model combines initial seed investme…",
       "ts": 1793903380000,
       "publishedAt": "2026-11-05T18:29:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Stunning $6M defamation verdict reverberates at MIT campus, global scientific community",
-      "url": "https://www.statnews.com/2026/11/05/david-sabatini-defamation-verdict-reverberates-mit-scientific-community/?utm_campaign=rss",
-      "summary": "The explosive court battle between a former star scientist at the Massachusetts Institute of Technology and a younger colleague continues to roil the campus community.",
-      "ts": 1793902748000,
-      "publishedAt": "2026-11-05T18:19:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Two No Surprises Act arbitrators lose government contracts to decide payment disputes",
-      "url": "https://www.statnews.com/2026/11/05/no-surprises-act-arbitrators-idr-ipro-network-medical-review-lose-contracts/?utm_campaign=rss",
-      "summary": "The Trump administration is cutting off two groups tasked with arbitrating disputes over surprise medical bills, citing a failure “to meet minimum performance standards.”",
-      "ts": 1793902179000,
-      "publishedAt": "2026-11-05T18:09:39.000Z",
       "categoryId": "bio"
     }
   ],
