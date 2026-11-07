@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-07T02:35:48.997Z",
+  "updated": "2026-11-07T09:43:42.021Z",
   "items": [
     {
       "source": "Phys.org",
@@ -20,8 +20,40 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Antagonistic second-messenger signalling coordinates <i>Pseudomonas aeruginosa</i> surface colonization and virulence",
+      "url": "https://www.nature.com/articles/s41467-026-79432-6",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "CO<sub>2</sub> responsive nanoscopic and macroscopic materials directed by peptides",
       "url": "https://www.nature.com/articles/s41467-026-79006-6",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Genome-wide CRISPR screening in <i>Spodoptera frugiperda</i> reveals the determinants of insecticide activation and sensitivity",
+      "url": "https://www.nature.com/articles/s41467-026-79097-1",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Propofol induces sustained suppression of alcohol drinking via habenular activation in mice",
+      "url": "https://www.nature.com/articles/s41467-026-79118-z",
+      "summary": "",
+      "ts": 1794009600000,
+      "publishedAt": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Soft robotic and computational models of left atrial hemodynamics in sinus rhythm and atrial fibrillation",
+      "url": "https://www.nature.com/articles/s41467-026-79045-z",
       "summary": "",
       "ts": 1794009600000,
       "publishedAt": "2026-11-07T00:00:00.000Z"
@@ -507,14 +539,6 @@
       "publishedAt": "2026-11-06T10:00:01.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Order by Inertia in Spinning Active Matter: Holey Fluids and Spin-Textured Crystals",
-      "url": "http://link.aps.org/doi/10.1103/xyym-pjh7",
-      "summary": "Author(s): Camille Jorge and Denis Bartolo Experiments with macroscopic spinning particles that stir the surrounding fluid at high Reynolds numbers reveal that inertia plays an organizing role in active systems, promotin…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "On-Demand Millisecond Storage of Spectrotemporal Modes at Telecom Wavelength",
       "url": "http://link.aps.org/doi/10.1103/6rns-8wj3",
@@ -575,6 +599,14 @@
       "title": "Level 2.5 Large Deviations and Uncertainty Relations for Non-Markov Self-Interacting Dynamics",
       "url": "http://link.aps.org/doi/10.1103/pt64-m494",
       "summary": "Author(s): Francesco Coghi, Amarjit Budhiraja, and Juan P. Garrahan We address the general problem of formulating the dynamical large deviations of non-Markovian systems in a closed form. Specifically, we consider a broa…",
+      "ts": 1793959200000,
+      "publishedAt": "2026-11-06T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Order by Inertia in Spinning Active Matter: Holey Fluids and Spin-Textured Crystals",
+      "url": "http://link.aps.org/doi/10.1103/xyym-pjh7",
+      "summary": "Author(s): Camille Jorge and Denis Bartolo Experiments with macroscopic spinning particles that stir the surrounding fluid at high Reynolds numbers reveal that inertia plays an organizing role in active systems, promotin…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
     },
@@ -767,38 +799,6 @@
       "title": "Bearing, heading and the perceptual geometry of collective motion",
       "url": "https://arxiv.org/abs/2611.07214",
       "summary": "arXiv:2611.07214v1 Announce Type: new Abstract: Traditional models of collective motion commonly assume that animals turn to match their neighbours' directions of travel. In the harmonic theory, decisions follow from a n…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The dielectric tensor for a fully anisotropic regularized Kappa plasma",
-      "url": "https://arxiv.org/abs/2611.07220",
-      "summary": "arXiv:2611.07220v1 Announce Type: new Abstract: It has been known for some decades that the plasma in the Solar System is invariably in a state away from thermal equilibrium. In several plasma environments, be it in the …",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dispersive Corrections to Electromagnetic Energy and Power Flux Are Imprints of Eliminated Degrees of Freedom",
-      "url": "https://arxiv.org/abs/2611.07243",
-      "summary": "arXiv:2611.07243v1 Announce Type: new Abstract: In a spatially dispersive medium the electromagnetic energy and flux are given by the frequency and wave-vector derivatives of the constitutive parameters, a result known a…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multireference perturbation theory with nonorthogonal determinants",
-      "url": "https://arxiv.org/abs/2611.07244",
-      "summary": "arXiv:2611.07244v1 Announce Type: new Abstract: We introduce NOCI-RSPT, a framework for constructing perturb-then-diagonalize multireference perturbation theories for model spaces defined by nonorthogonal determinants. N…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A componentwise spherical Dirichlet-to-Neumann closure for finite-volume MHD at finite magnetic Reynolds number",
-      "url": "https://arxiv.org/abs/2611.07304",
-      "summary": "arXiv:2611.07304v1 Announce Type: new Abstract: At finite magnetic Reynolds number, the field induced by a moving conducting fluid or solid extends into open space, so a finite mesh needs an outer boundary condition that…",
       "ts": 1793941200000,
       "publishedAt": "2026-11-06T05:00:00.000Z"
     }
