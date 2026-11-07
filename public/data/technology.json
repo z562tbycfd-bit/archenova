@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-11-07T09:43:44.160Z",
+  "updated": "2026-11-07T16:09:19.293Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Failure of Novartis Lp(a) drug raises questions about cardiovascular strategy",
+      "url": "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/?utm_campaign=rss",
+      "summary": "Medical mystery at the AHA conference: A Novartis drug lowered a risk marker for cardiovascular disease but did not lower chance of heart attack or stroke.",
+      "ts": 1794063000000,
+      "publishedAt": "2026-11-07T14:50:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Despite Novo drug’s failure, cardiologists say they will still pursue anti-inflammatories",
+      "url": "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss",
+      "summary": "“These results, the fact that they're negative, does not invalidate that inflammation plays a very important role in cardiovascular disease.\"",
+      "ts": 1794062100000,
+      "publishedAt": "2026-11-07T14:35:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+      "summary": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1794027900000,
+      "publishedAt": "2026-11-07T05:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "The Aging Proteome: Clocks, Cohorts, and Clinical Trials",
@@ -783,33 +810,6 @@
       "summary": "The Trump administration is cutting off two groups tasked with arbitrating disputes over surprise medical bills, citing a failure “to meet minimum performance standards.”",
       "ts": 1793902179000,
       "publishedAt": "2026-11-05T18:09:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: MAHA 1.0 is dead. MAHA 2.0 is born",
-      "url": "https://www.statnews.com/2026/11/05/end-of-maha-2026-midterms-losses-democrats-aoc-cory-booker/?utm_campaign=rss",
-      "summary": "MAHA 1.0 is dead. MAHA 2.0 is born, write “Why Should I Trust You?” hosts Brinda Adhikari and Tom W. Johnson",
-      "ts": 1793901623000,
-      "publishedAt": "2026-11-05T18:00:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
-      "url": "https://spacenews.com/cork-takes-the-heat-so-dracos-data-can-survive/",
-      "summary": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post …",
-      "ts": 1793898359000,
-      "publishedAt": "2026-11-05T17:05:59.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Tissue Engineering Takes Shape",
-      "url": "https://www.genengnews.com/topics/translational-medicine/tissue-engineering-takes-shape/",
-      "summary": "Personalized grafts, bioinks, and off-the-shelf tissues are advancing regenerative medicine toward broader clinical use. The post Tissue Engineering Takes Shape appeared first on GEN - Genetic Engineering and Biotechnolo…",
-      "ts": 1793898303000,
-      "publishedAt": "2026-11-05T17:05:03.000Z",
       "categoryId": "bio"
     }
   ],

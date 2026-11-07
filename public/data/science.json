@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-11-07T09:43:42.021Z",
+  "updated": "2026-11-07T16:09:15.630Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover new jellyfish species in waters off Alicante in Spain",
+      "url": "https://phys.org/news/2026-11-scientists-jellyfish-species-alicante-spain.html",
+      "summary": "The Mediterranean Sea still holds species unknown to science. One of them is Copula lucentia, a tiny jellyfish measuring just a few millimeters. Discovered off El Campello, in Alicante, it was formally described in 2024 …",
+      "ts": 1794067201000,
+      "publishedAt": "2026-11-07T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heavy rain can more than double glacier speeds in Alaska",
+      "url": "https://phys.org/news/2026-11-heavy-glacier-alaska.html",
+      "summary": "Glaciers are often thought of as unyielding blocks of ice that slowly carve out the landscape as they move downhill by gravity. But sometimes their slow crawl becomes a surge that sees them move orders of magnitude faste…",
+      "ts": 1794066005000,
+      "publishedAt": "2026-11-07T15:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The introduction of a medieval public health system exposed the population to roundworm",
+      "url": "https://phys.org/news/2026-11-introduction-medieval-health-exposed-population.html",
+      "summary": "Medieval health and sanitation efforts involved deliberate interventions; however, some of these measures had the opposite effect, leading to an increased spread of disease in Trondheim.",
+      "ts": 1794061801000,
+      "publishedAt": "2026-11-07T14:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Theory predicting an older universe without dark matter or dark energy passes key cosmological tests",
+      "url": "https://phys.org/news/2026-11-theory-older-universe-dark-energy.html",
+      "summary": "An alternative model in which the universe is 26.7 billion years old and needs neither dark matter nor dark energy has held up against several major cosmology tests, according to a new University of Ottawa study. The res…",
+      "ts": 1794060002000,
+      "publishedAt": "2026-11-07T14:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why treating soil acidity crop by crop is no longer enough for prairie farmers",
+      "url": "https://phys.org/news/2026-11-soil-acidity-crop-longer-prairie.html",
+      "summary": "To protect their future harvests, Western Canadian farmers need to manage soil acidity across their entire multiyear rotation rather than crop by crop, long-term research from the University of Alberta suggests.",
+      "ts": 1794056401000,
+      "publishedAt": "2026-11-07T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Diwali celebrations coincide with worsening air. Here's how to stay safer",
+      "url": "https://phys.org/news/2026-11-diwali-celebrations-coincide-worsening-air.html",
+      "summary": "For people across South Asia, especially in northern India, Diwali celebrations coincide with the return of hazardous winter air, raising concerns about how to celebrate safely.",
+      "ts": 1794051601000,
+      "publishedAt": "2026-11-07T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Polar vortex faltering weeks earlier than ever recorded",
+      "url": "https://phys.org/news/2026-11-polar-vortex-faltering-weeks-earlier.html",
+      "summary": "Meteorologists said Friday they were observing an unprecedented early disruption of the polar vortex, raising the risk of cold snaps across the Northern Hemisphere, though there remains significant uncertainty.",
+      "ts": 1794050404000,
+      "publishedAt": "2026-11-07T11:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+      "url": "https://phys.org/news/2026-11-pakistani-astronaut-board-shenzhou-foreigner.html",
+      "summary": "A Pakistani astronaut will join the crew of China's Shenzhou 24 spacecraft on a mission that would make him the first foreign national to board Beijing's space station, state media reported Saturday.",
+      "ts": 1794050401000,
+      "publishedAt": "2026-11-07T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discovered an unknown baby right whale off Canada. They say it's a cause for joy",
+      "url": "https://phys.org/news/2026-11-scientists-unknown-baby-whale-canada.html",
+      "summary": "It would seem difficult to miss a 15,000-pound (6,804-kilogram) baby, but for months scientists who study rare whales did just that, and now they couldn't be happier.",
+      "ts": 1794049483000,
+      "publishedAt": "2026-11-07T11:04:43.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Atlanta's new giant pandas will make their public debut after a 2-year absence",
+      "url": "https://phys.org/news/2026-11-atlanta-giant-pandas-debut-year.html",
+      "summary": "Panda lovers are expected to line up Friday at Zoo Atlanta to see a new pair of giant pandas make their public debut.",
+      "ts": 1794049059000,
+      "publishedAt": "2026-11-07T10:57:39.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Disasters and debt. Escaping the 'climate-debt doom loop'",
@@ -558,7 +638,7 @@
       "source": "APS Physical Review Letters",
       "title": "Evolution of the Superfluid Density in Infinite-Layer Nickelates",
       "url": "http://link.aps.org/doi/10.1103/25gn-bfgw",
-      "summary": "Author(s): Bai Yang Wang, Shannon P. Harvey, Kyuho Lee, Yijun Yu, Yonghun Lee, Motoki Osada, Chaitanya Murthy, Srinivas Raghu, and Harold Y. Hwang Nickelate superconductors provide a valuable new platform for the study o…",
+      "summary": "Author(s): Bai Yang Wang, Shannon P. Harvey, Kyuho Lee, Yijun Yu, Yonghun Lee, Motoki Osada, Chaitanya Murthy, Srinivas Raghu, and Harold Y. Hwang An experiment enables the first systematic, absolute superfluid-density m…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
     },
@@ -719,86 +799,6 @@
       "title": "Embodied physical learning: a trained bacterial cell wall can guide organism behavior",
       "url": "https://arxiv.org/abs/2611.07112",
       "summary": "arXiv:2611.07112v1 Announce Type: new Abstract: Physical learning studies how physical systems themselves can be trained to perform learning tasks using physical laws. For instance, disordered spring networks can be trai…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Eddies that ride the flow: a model of turbulence with Richardson dispersion and anomalous dissipation",
-      "url": "https://arxiv.org/abs/2611.07121",
-      "summary": "arXiv:2611.07121v1 Announce Type: new Abstract: We construct a divergence-free velocity field $\\mathbf{u}(\\mathbf{x},t)$ on $\\mathbb{T}^{n}$ that is a genuine function of position and carries both defining properties of …",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Context-Aware Automated NMR Structure Elucidation",
-      "url": "https://arxiv.org/abs/2611.07133",
-      "summary": "arXiv:2611.07133v1 Announce Type: new Abstract: Machine learning approaches are rapidly revolutionizing the ability to analyze and extract structural insights from chemical data, enabling high-throughput chemical discove…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improving the accuracy of the momentum-exchange method in lattice Boltzmann methods",
-      "url": "https://arxiv.org/abs/2611.07137",
-      "summary": "arXiv:2611.07137v1 Announce Type: new Abstract: In the lattice Boltzmann method (LBM), the momentum-exchange method (MEM) is widely used to evaluate hydrodynamic forces at fluid-solid interfaces due to its computational …",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The lattice Boltzmann machine",
-      "url": "https://arxiv.org/abs/2611.07139",
-      "summary": "arXiv:2611.07139v1 Announce Type: new Abstract: The lattice Boltzmann (LB) method is widely regarded as a very flexible and efficient solver for a broad class of transport phenomena in fluids, soft matter and related fie…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Convection in the interior of Cepheid variable stars",
-      "url": "https://arxiv.org/abs/2611.07142",
-      "summary": "arXiv:2611.07142v1 Announce Type: new Abstract: This paper is associated with a poster winner of a 2025 American Physical Society's Division of Fluid Dynamics (DFD) Gallery of Fluid Motion Award for work presented at the…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Between Heisenberg and Feynman: Ettore Majorana's Reflections on the Meaning of Quantum Theory",
-      "url": "https://arxiv.org/abs/2611.07143",
-      "summary": "arXiv:2611.07143v1 Announce Type: new Abstract: Ettore Majorana is undoubtedly one of the most important figures in 20th-century Italian science. His contributions to nuclear physics and Quantum Mechanics (QM) included i…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Theory of Partial Truth for Scientific Statements",
-      "url": "https://arxiv.org/abs/2611.07179",
-      "summary": "arXiv:2611.07179v1 Announce Type: new Abstract: Scientific representations often combine accurate and inaccurate components, which a single bivalent classification does not distinguish. This paper develops a restricted f…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The shear Alfv\\'en continuum of optimized stellarators",
-      "url": "https://arxiv.org/abs/2611.07182",
-      "summary": "arXiv:2611.07182v1 Announce Type: new Abstract: The shear Alfv\\'en continuum has been studied extensively in tokamaks, but its gap structure in modern optimized stellarators has received less attention, despite its impor…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reduced-order modeling of squeeze-film damped electrostatically actuated microbeams using complex modes of the coupled problem",
-      "url": "https://arxiv.org/abs/2611.07205",
-      "summary": "arXiv:2611.07205v1 Announce Type: new Abstract: A reduced-order model is developed for the nonlinear dynamics of electrostatically actuated microbeams, including the full squeeze film effect. The model uses Petrov-Galerk…",
-      "ts": 1793941200000,
-      "publishedAt": "2026-11-06T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bearing, heading and the perceptual geometry of collective motion",
-      "url": "https://arxiv.org/abs/2611.07214",
-      "summary": "arXiv:2611.07214v1 Announce Type: new Abstract: Traditional models of collective motion commonly assume that animals turn to match their neighbours' directions of travel. In the harmonic theory, decisions follow from a n…",
       "ts": 1793941200000,
       "publishedAt": "2026-11-06T05:00:00.000Z"
     }
