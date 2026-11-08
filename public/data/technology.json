@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-08T14:14:19.268Z",
+  "updated": "2026-11-08T19:23:54.577Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+      "summary": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites…",
+      "ts": 1794151598000,
+      "publishedAt": "2026-11-08T15:26:38.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Why the latest heart drug failures should make us all more skeptical of AI hype",
@@ -801,15 +810,6 @@
       "summary": "Voters in 2026 midterm elections decided state health policy ballot measures on abortion rights, marijuana laws, science bonds, and transgender youth care.",
       "ts": 1793911773000,
       "publishedAt": "2026-11-05T20:49:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Child dies of measles in Wisconsin’s first such death since 1990",
-      "url": "https://www.statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990/?utm_campaign=rss",
-      "summary": "An infant in southwestern Wisconsin has died after contracting measles, the state’s first death from the disease in 36 years.",
-      "ts": 1793910684000,
-      "publishedAt": "2026-11-05T20:31:24.000Z",
       "categoryId": "bio"
     }
   ],

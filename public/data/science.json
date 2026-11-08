@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-11-08T14:14:16.315Z",
+  "updated": "2026-11-08T19:23:51.631Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "JWST tracks more than 100 magnified stellar events in the Dragon galaxy",
+      "url": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html",
+      "summary": "Using the James Webb Space Telescope (JWST), a team of astronomers identified 104 magnified stellar events in a galaxy known as the Dragon, located around 6.5 billion light-years away. This discovery more than doubles th…",
+      "ts": 1794165601000,
+      "publishedAt": "2026-11-08T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How space weather powers auroras in the sky and threatens power grids on the ground",
+      "url": "https://phys.org/news/2026-11-space-weather-powers-auroras-sky.html",
+      "summary": "An aurora is one of nature's most spectacular light shows: It looks like green or red curtains rippling across the night sky. When viewed from the ground, this colorful display might seem far away and disconnected from a…",
+      "ts": 1794164401000,
+      "publishedAt": "2026-11-08T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "100 buses long: Scientists map one of the world's largest known coral colonies",
+      "url": "https://phys.org/news/2026-11-buses-scientists-world-largest-coral.html",
+      "summary": "A huge coral colony stretching more than 1.5 kilometers (0.93 miles) along the outer reef of the Cocos (Keeling) Islands has been identified by researchers, making it one of the largest known coral colonies ever recorded…",
+      "ts": 1794157201000,
+      "publishedAt": "2026-11-08T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New species of ground-dwelling bird, the largest of its kind, identified in same cave as Homo floresiensis",
+      "url": "https://phys.org/news/2026-11-species-ground-bird-largest-kind.html",
+      "summary": "In 2009, researchers working in the Liang Bua cave on Flores Island came across a leg bone. The 190,000–120,000-year-old fossil was identified as a bird bone and set aside. Like many bird bones before it, it was overlook…",
+      "ts": 1794154801000,
+      "publishedAt": "2026-11-08T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Game theory helps SETI search for alien civilizations",
+      "url": "https://phys.org/news/2026-11-game-theory-seti-alien-civilizations.html",
+      "summary": "The search for extraterrestrial intelligence (SETI) is mostly concerned with where to look for technosignatures from another civilization. Between 2012 and 2015, SETI's Project Phoenix targeted about 1,000 sun-like stars…",
+      "ts": 1794151806000,
+      "publishedAt": "2026-11-08T15:30:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Stupendously large' primordial black holes ruled out as a dark matter source",
+      "url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html",
+      "summary": "Primordial black holes are hypothetical objects that could have formed directly from dense clumps of matter in the very early universe. If they exist, their dramatic origins would set them apart from the black holes we s…",
+      "ts": 1794148801000,
+      "publishedAt": "2026-11-08T14:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Want to fly to the moon? NASA is looking for new astronauts to help grow its Artemis program",
@@ -751,54 +799,6 @@
       "title": "Symbolic Quantum-Trajectory Method for Multichannel Dicke Superradiance",
       "url": "http://link.aps.org/doi/10.1103/5qcc-wfv6",
       "summary": "Author(s): Raphael Holzinger, Nico S. Bassler, Julian Lyne, Susanne F. Yelin, and Claudiu Genes We solve Dicke superradiance with two or more competing collective decay channels of tunable rates using a symbolic quantum-…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Evolution of the Superfluid Density in Infinite-Layer Nickelates",
-      "url": "http://link.aps.org/doi/10.1103/25gn-bfgw",
-      "summary": "Author(s): Bai Yang Wang, Shannon P. Harvey, Kyuho Lee, Yijun Yu, Yonghun Lee, Motoki Osada, Chaitanya Murthy, Srinivas Raghu, and Harold Y. Hwang An experiment enables the first systematic, absolute superfluid-density m…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Compressive Splitting in Brittle Solids: The Inverse of Wrinkling in Sheets",
-      "url": "http://link.aps.org/doi/10.1103/j8x1-hy4t",
-      "summary": "Author(s): Maryam Khodadad, Francois Barthelat, John D. Clayton, George Gazonas, and Kaushik Dayal Theory and experiments suggest that the mysterious fractures that appear when a brittle material is compressed result fro…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Anomalous Diffusion and Singular Transport from Hydrodynamic Recoupling",
-      "url": "http://link.aps.org/doi/10.1103/bzz4-ggnm",
-      "summary": "Author(s): Ewan McCulloch, Romain Vasseur, and Sarang Gopalakrishnan In charge neutral fluids, such as the Dirac fluid in graphene at the Dirac point, charge transport remains diffusive despite the presence of ballistica…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Similarity of Fractional Chern Insulators to Fractional Quantum Hall States: Moiré-Enhanced Gaps and Excitation-Spectrum Correspondence",
-      "url": "http://link.aps.org/doi/10.1103/l6sm-yzbn",
-      "summary": "Author(s): Siddhartha Sarkar, Yitong Zhang, and Kai Sun The excitation spectrum of fractional Chern insulators is identical to their fractional quantum Hall counterparts except for an enhancement factor, making it possib…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Ultrastrong-Coupling Signatures in Photon Statistics from Terahertz Higgs Polaritons",
-      "url": "http://link.aps.org/doi/10.1103/hlk5-589d",
-      "summary": "Author(s): Spenser Talkington, Benjamin Kass, and Martin Claassen The ultrastrong coupling regime of cavity photons and quantum materials has emerged as a pathway to modify materials properties. However, definitive signa…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Level 2.5 Large Deviations and Uncertainty Relations for Non-Markov Self-Interacting Dynamics",
-      "url": "http://link.aps.org/doi/10.1103/pt64-m494",
-      "summary": "Author(s): Francesco Coghi, Amarjit Budhiraja, and Juan P. Garrahan We address the general problem of formulating the dynamical large deviations of non-Markovian systems in a closed form. Specifically, we consider a broa…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
     }
