@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-07T20:42:31.808Z",
+  "updated": "2026-11-08T00:15:21.252Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+      "summary": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nucle…",
+      "ts": 1794091623000,
+      "publishedAt": "2026-11-07T22:47:03.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Lowering blood pressure after stroke or with diabetes poses challenges, in research and practice ",
+      "url": "https://www.statnews.com/2026/11/07/new-studies-on-blood-pressure-management-aha-conference-news/?utm_campaign=rss",
+      "summary": "High blood pressure is known as the silent killer. Researchers are finding new ways to fight back.",
+      "ts": 1794087542000,
+      "publishedAt": "2026-11-07T21:39:02.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
@@ -792,24 +810,6 @@
       "summary": "Researchers used an AI-guided engineering approach to create a broadly protective bird flu vaccine that is designed to remain effective across a wide range of existing and future H5Nx variants. The post Bird Flu Vaccine …",
       "ts": 1793908643000,
       "publishedAt": "2026-11-05T19:57:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Novartis cites cases of previously unknown tumors possibly tied to its SMA gene therapy",
-      "url": "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss",
-      "summary": "Novartis has acknowledged seven previously unknown instances in which tumors were found in children who were treated with its spinal muscular atrophy therapy, Zolgensma.",
-      "ts": 1793904814000,
-      "publishedAt": "2026-11-05T18:53:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Orphan Therapeutics Accelerator In-Licenses Its First Gene Therapy, Eyes Pipeline Expansion",
-      "url": "https://www.genengnews.com/topics/translational-medicine/orphan-therapeutics-accelerator-in-licenses-its-first-gene-therapy-eyes-pipeline-expansion/",
-      "summary": "The nonprofit biotech evaluates potential therapies based on unmet medical need, clinical evidence of safety and efficacy, and the compatibility of institutional partners. Its funding model combines initial seed investme…",
-      "ts": 1793903380000,
-      "publishedAt": "2026-11-05T18:29:40.000Z",
       "categoryId": "bio"
     }
   ],

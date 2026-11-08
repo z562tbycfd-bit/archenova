@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-11-07T20:42:28.893Z",
+  "updated": "2026-11-08T00:15:18.652Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Personalized savings reminders can help boost retirement savings",
+      "url": "https://phys.org/news/2026-11-personalized-boost.html",
+      "summary": "Private retirement savings are an increasingly important topic in public debate. One popular idea is to phrase savings reminders in one of two ways: either you emphasize what someone stands to lose if they don't save, or…",
+      "ts": 1794094201000,
+      "publishedAt": "2026-11-07T23:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Student finds proof of rare wild cat in northern New Mexico",
+      "url": "https://phys.org/news/2026-11-student-proof-rare-wild-cat.html",
+      "summary": "Armed with dozens of motion-sensing cameras, William Grooms spent this past summer documenting wildlife across Carson National Forest in northern New Mexico. It was his first field season collecting photos for a two-year…",
+      "ts": 1794088805000,
+      "publishedAt": "2026-11-07T22:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The hidden ways insects support animal life—from habitat to health—go way beyond being food",
+      "url": "https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html",
+      "summary": "There are at least 14 million insect species on Earth, and they play highly diverse roles in sustaining the natural world. Insects provide many well-known benefits—what scientists often call \"ecosystem services.\" For exa…",
+      "ts": 1794085201000,
+      "publishedAt": "2026-11-07T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Different text genres help doctoral students adapt their writing to reach new readers",
@@ -775,30 +799,6 @@
       "title": "Single-step phase-engineered pulse for active readout cavity reset with a known qubit state",
       "url": "http://link.aps.org/doi/10.1103/9cmh-2yhz",
       "summary": "Author(s): Ren-Ze Zhao, Ze-An Zhao, Tian-Le Wang, Peng Wang, Sheng Zhang, Xiao-Yan Yang, Hai-Feng Zhang, Zhi-Fei Li, Yuan Wu, Sheng-Ri Liu, Peng Duan, and Guo-Ping Guo In a circuit quantum electrodynamic architecture, we…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Two-qubit-gate operation in a high-connectivity transmon lattice utilizing a tunable coupling to a shared mode",
-      "url": "http://link.aps.org/doi/10.1103/5vv7-y2rj",
-      "summary": "Author(s): Tuure Orell, Hao Hsu, Joona Andersson, Jani Tuorila, Frank Deppe, and Hsiang-Sheng Ku Increasing connectivity and decreasing qubit-state delocalization without compromising the speed and accuracy of elementary…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Experimental scaling of diffraction efficiency in laser-induced plasma gratings",
-      "url": "http://link.aps.org/doi/10.1103/9q15-5b5w",
-      "summary": "Author(s): M. M. Wang, V. M. Perez-Ramirez, N. M. Fasano, K. Ou, S. Cao, V. Dewan, A. M. Giakas, A. Morozov, P. Michel, M. R. Edwards, and J. M. Mikhailova We demonstrate efficient diffraction of intense ultrashort laser…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Geometry-driven magnetization reversal and spin-wave dynamics in permalloy artificial anti–spin ice lattices",
-      "url": "http://link.aps.org/doi/10.1103/mkhw-ltd2",
-      "summary": "Author(s): Szymon P. Oramus, Riccardo Fornari, Gianluca Gubbiotti, and Adekunle O. Adeyeye Antiartificial spin ice (AASI), realized through spin-ice-derived antidot lattices of stadium-shaped holes in continuous Permallo…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
     }
