@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-08T19:23:54.577Z",
+  "updated": "2026-11-08T23:28:23.419Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Survival after sudden cardiac arrest didn’t improve despite training bystanders, emergency responders",
+      "url": "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/?utm_campaign=rss",
+      "summary": "A new study found survival after sudden cardiac arrest didn’t improve with advance training of responders — but researchers aren't ready to shut the door on the possibility.",
+      "ts": 1794176100000,
+      "publishedAt": "2026-11-08T22:15:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
@@ -801,15 +810,6 @@
       "summary": "The latest collaboration will encompass six biologic preclinical programs. Five programs focus on treatments originating with a wholly owned SBP Group subsidiary, LaNova Medicines. The sixth comes from another SBP Group …",
       "ts": 1793913638000,
       "publishedAt": "2026-11-05T21:20:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Ballot measures affirm divisions over abortion and transgender issues",
-      "url": "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/?utm_campaign=rss",
-      "summary": "Voters in 2026 midterm elections decided state health policy ballot measures on abortion rights, marijuana laws, science bonds, and transgender youth care.",
-      "ts": 1793911773000,
-      "publishedAt": "2026-11-05T20:49:33.000Z",
       "categoryId": "bio"
     }
   ],

@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-11-08T19:23:51.631Z",
+  "updated": "2026-11-08T23:28:20.692Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Liquid-assisted crystal growth cuts perovskite defects for efficient solar cells and LEDs",
+      "url": "https://phys.org/news/2026-11-liquid-crystal-growth-perovskite-defects.html",
+      "summary": "A research team led by professor Seong Sik Shin of the SKKU Advanced Institute of Nanotechnology (SAINT) at Sungkyunkwan University (SKKU), in international collaboration with the Korea Research Institute of Chemical Tec…",
+      "ts": 1794175201000,
+      "publishedAt": "2026-11-08T22:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "JWST tracks more than 100 magnified stellar events in the Dragon galaxy",
@@ -791,14 +799,6 @@
       "title": "On-Demand Millisecond Storage of Spectrotemporal Modes at Telecom Wavelength",
       "url": "http://link.aps.org/doi/10.1103/6rns-8wj3",
       "summary": "Author(s): Anuj Sethia, Nasser Gohari Kamel, and Daniel Oblak The realization of scalable quantum networks for distribution of entanglement over long distances hinges on quantum repeaters. To outperform the exponential t…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Symbolic Quantum-Trajectory Method for Multichannel Dicke Superradiance",
-      "url": "http://link.aps.org/doi/10.1103/5qcc-wfv6",
-      "summary": "Author(s): Raphael Holzinger, Nico S. Bassler, Julian Lyne, Susanne F. Yelin, and Claudiu Genes We solve Dicke superradiance with two or more competing collective decay channels of tunable rates using a symbolic quantum-…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
     }
