@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-08T06:58:59.337Z",
+  "updated": "2026-11-08T14:14:19.268Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Why the latest heart drug failures should make us all more skeptical of AI hype",
+      "url": "https://www.statnews.com/2026/11/08/heart-drug-failures-lessons-for-artificial-intelligence-from-aha-conference/?utm_campaign=rss",
+      "summary": "Once again, a hot new technology that was supposed to speed up drug research has fallen flat.",
+      "ts": 1794130200000,
+      "publishedAt": "2026-11-08T09:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 November 8 – Major Fireball Meteor",
@@ -802,15 +811,6 @@
       "ts": 1793910684000,
       "publishedAt": "2026-11-05T20:31:24.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution …",
-      "ts": 1793908841000,
-      "publishedAt": "2026-11-05T20:00:41.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-11-08T06:58:56.434Z",
+  "updated": "2026-11-08T14:14:16.315Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Want to fly to the moon? NASA is looking for new astronauts to help grow its Artemis program",
+      "url": "https://phys.org/news/2026-11-fly-moon-nasa-astronauts-artemis.html",
+      "summary": "Want to fly to the moon and help build a permanent lunar base? NASA is accepting applications for a new astronaut class that will help grow the Artemis program.",
+      "ts": 1794138312000,
+      "publishedAt": "2026-11-08T11:45:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chimp sanctuary delivers an ape's food by drone amid Florida floods",
+      "url": "https://phys.org/news/2026-11-chimp-sanctuary-ape-food-drone.html",
+      "summary": "A Florida chimpanzee sanctuary had to deliver food to one of its 200 apes by drone this week because the property was swamped by heavy rain. But the animals stayed safe, and the water finally was receding significantly o…",
+      "ts": 1794138280000,
+      "publishedAt": "2026-11-08T11:44:40.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Why the tropics lose the most birds when cities expand",
@@ -783,22 +799,6 @@
       "title": "Level 2.5 Large Deviations and Uncertainty Relations for Non-Markov Self-Interacting Dynamics",
       "url": "http://link.aps.org/doi/10.1103/pt64-m494",
       "summary": "Author(s): Francesco Coghi, Amarjit Budhiraja, and Juan P. Garrahan We address the general problem of formulating the dynamical large deviations of non-Markovian systems in a closed form. Specifically, we consider a broa…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Order by Inertia in Spinning Active Matter: Holey Fluids and Spin-Textured Crystals",
-      "url": "http://link.aps.org/doi/10.1103/xyym-pjh7",
-      "summary": "Author(s): Camille Jorge and Denis Bartolo Experiments with macroscopic spinning particles that stir the surrounding fluid at high Reynolds numbers reveal that inertia plays an organizing role in active systems, promotin…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces",
-      "url": "http://link.aps.org/doi/10.1103/gwny-d6fw",
-      "summary": "Author(s): Qianqian He, Kenan Guo, Jumin Qiu, Huifu Qiu, Shuyuan Xiao, and Tingting Liu Single-layer diffractive neural networks often face classification accuracy bottlenecks due to limited wavefront modulation capabili…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
     }
