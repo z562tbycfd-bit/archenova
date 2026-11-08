@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-11-08T00:15:18.652Z",
+  "updated": "2026-11-08T06:58:56.434Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why the tropics lose the most birds when cities expand",
+      "url": "https://phys.org/news/2026-11-tropics-birds-cities.html",
+      "summary": "Tropical ecosystems are famous for their teeming, exuberant diversity. In fact, the dramatic increase in biodiversity from the poles to the tropics—known as the latitudinal diversity gradient—is pervasive across branches…",
+      "ts": 1794101401000,
+      "publishedAt": "2026-11-08T01:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Personalized savings reminders can help boost retirement savings",
@@ -791,14 +799,6 @@
       "title": "Edge-enhanced diffractive neural networks based on spin-multiplexed nonlocal metasurfaces",
       "url": "http://link.aps.org/doi/10.1103/gwny-d6fw",
       "summary": "Author(s): Qianqian He, Kenan Guo, Jumin Qiu, Huifu Qiu, Shuyuan Xiao, and Tingting Liu Single-layer diffractive neural networks often face classification accuracy bottlenecks due to limited wavefront modulation capabili…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Single-step phase-engineered pulse for active readout cavity reset with a known qubit state",
-      "url": "http://link.aps.org/doi/10.1103/9cmh-2yhz",
-      "summary": "Author(s): Ren-Ze Zhao, Ze-An Zhao, Tian-Le Wang, Peng Wang, Sheng Zhang, Xiao-Yan Yang, Hai-Feng Zhang, Zhi-Fei Li, Yuan Wu, Sheng-Ri Liu, Peng Duan, and Guo-Ping Guo In a circuit quantum electrodynamic architecture, we…",
       "ts": 1793959200000,
       "publishedAt": "2026-11-06T10:00:00.000Z"
     }

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-08T00:15:21.252Z",
+  "updated": "2026-11-08T06:58:59.337Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 8 – Major Fireball Meteor",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+      "summary": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1794114300000,
+      "publishedAt": "2026-11-08T05:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
@@ -55,6 +64,15 @@
       "ts": 1794062100000,
       "publishedAt": "2026-11-07T14:35:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘For the first time I have my own chair’: Gaza siblings find new freedom",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168759",
+      "summary": "In Gaza, 10-year-old Anas is one of three siblings born without legs and with only two fingers on each of their hands. They struggle to move around and perform daily activities like eating and writing independently.",
+      "ts": 1794052800000,
+      "publishedAt": "2026-11-07T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "NASA",
@@ -793,24 +811,6 @@
       "ts": 1793908841000,
       "publishedAt": "2026-11-05T20:00:41.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "ts": 1793908800000,
-      "publishedAt": "2026-11-05T20:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bird Flu Vaccine Developed Using AI Outperforms Current Stockpiled Vaccines in Preclinical Tests",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/",
-      "summary": "Researchers used an AI-guided engineering approach to create a broadly protective bird flu vaccine that is designed to remain effective across a wide range of existing and future H5Nx variants. The post Bird Flu Vaccine …",
-      "ts": 1793908643000,
-      "publishedAt": "2026-11-05T19:57:23.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
