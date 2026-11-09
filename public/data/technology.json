@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-11-09T05:14:10.011Z",
+  "updated": "2026-11-09T15:31:58.416Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Gene therapy’s long-debated cancer risk materializes",
+      "url": "https://www.statnews.com/2026/11/09/biotech-news-gene-therapy-long-debated-cancer-risk-materializes/?utm_campaign=rss",
+      "summary": "For years, gene therapy researchers debated whether the viruses they use to ferry replacement genes into cells could cause tumors. A small number of cases now offer strong evidence that…",
+      "ts": 1794234972000,
+      "publishedAt": "2026-11-09T14:36:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in studies",
+      "url": "https://www.statnews.com/2026/11/09/eli-lilly-foundayo-sleep-apnea/?utm_campaign=rss",
+      "summary": "Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in two late-stage studies, but it doesn’t appear as effective as Lilly’s injectable drug Zepbound.",
+      "ts": 1794234600000,
+      "publishedAt": "2026-11-09T14:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Novartis heart drug, BIO fighting a Trump program, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/?utm_campaign=rss",
+      "summary": "Novartis is largely abandoning a drug once considered a potential blockbuster after a study found it had little promise for preventing heart attacks and deaths",
+      "ts": 1794234522000,
+      "publishedAt": "2026-11-09T14:28:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Childhood Cancers May Not Always Need Extra Mutations to Spread, Study Suggests",
+      "url": "https://www.genengnews.com/topics/cancer/childhood-cancers-may-not-always-need-extra-mutations-to-spread-study-suggests/",
+      "summary": "Childhood cancers may not always need extra mutations to spread, a new review study indicates. Instead, developmental plasticity may let tumor cells shape-shift into states that help them grow, resist treatment, and ulti…",
+      "ts": 1794232817000,
+      "publishedAt": "2026-11-09T14:00:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling sma…",
+      "ts": 1794232801000,
+      "publishedAt": "2026-11-09T14:00:01.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "CCIA Report Highlights Satellite Connectivity’s Potential to Expand Internet Access and Drive Economic Growth",
+      "url": "https://spacenews.com/ccia-report-highlights-satellite-connectivitys-potential-to-expand-internet-access-and-drive-economic-growth/",
+      "summary": "Washington — The Computer & Communications Industry Association today released Connecting the World: Unlocking the Potential of Satellite Connectivity, a new report examining how satellite technology can expand internet …",
+      "ts": 1794232800000,
+      "publishedAt": "2026-11-09T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "New AI Models Are Turbo-Charging Protein Design",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/new-ai-models-are-turbo-charging-protein-design/",
+      "summary": "Computer-designed protein therapeutics move from proof-of-concept to wet-lab validation and even clinical trials as the field heats up. The post New AI Models Are Turbo-Charging Protein Design appeared first on GEN - Gen…",
+      "ts": 1794232553000,
+      "publishedAt": "2026-11-09T13:55:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Therapeutic Immune Manipulation",
+      "url": "https://www.genengnews.com/topics/cancer/therapeutic-immune-manipulation/",
+      "summary": "Next-generation immunotherapy exploits diverse immune populations to address the challenges that CAR T-cell therapy faces. The post Therapeutic Immune Manipulation appeared first on GEN - Genetic Engineering and Biotechn…",
+      "ts": 1794231806000,
+      "publishedAt": "2026-11-09T13:43:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Formulation Development Roundup",
+      "url": "https://www.genengnews.com/topics/bioprocessing/formulation-development-roundup/",
+      "summary": "What leaders suggest are the key considerations for developing robust formulations. The post Formulation Development Roundup appeared first on GEN - Genetic Engineering and Biotechnology News.",
+      "ts": 1794230829000,
+      "publishedAt": "2026-11-09T13:27:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The climate case for AI has not been made —By Mary Nichols, distinguished…",
+      "ts": 1794230100000,
+      "publishedAt": "2026-11-09T13:15:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practi…",
+      "ts": 1794229200000,
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A new rule to prevent the spread of bioweapons",
+      "url": "https://www.statnews.com/2026/11/09/health-news-new-rule-to-prevent-bioweapon-spread/?utm_campaign=rss",
+      "summary": "AI makes it easier for people to come up with new potential medicines, but may also increase the possibility of bad actors creating new bioweapons. New guidelines from Trump officials…",
+      "ts": 1794228907000,
+      "publishedAt": "2026-11-09T12:55:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Exceptional’ extreme temperatures to continue into next year, UN reports",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168760",
+      "summary": "In April this year, roughly 146.5 million Indians were exposed to an extreme heatwave with temperatures hitting a sweltering 47℃.",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Safeguards: Our Shared Responsibility",
+      "url": "http://www.iaea.org/newscenter/multimedia/videos/safeguards-our-shared-responsibility",
+      "summary": "",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-slovakia-is-committed-to-strengthening-nuclear-and-radiation-safety-regulatory-framework",
+      "summary": "",
+      "ts": 1794224415000,
+      "publishedAt": "2026-11-09T11:40:15.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
+      "summary": "After 378 days without windows, the sounds of the outside world, or real-time calls with family and friends, four research volunteers stepped out of NASA’s Mars Dune Alpha habitat on Oct. 31, completing the agency’s seco…",
+      "ts": 1794222000000,
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The climate case for AI has not been made",
+      "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "summary": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to e…",
+      "ts": 1794218400000,
+      "publishedAt": "2026-11-09T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: CVS’ split doesn’t fix its fundamental problem",
+      "url": "https://www.statnews.com/2026/11/09/cvs-health-split-pbm-conflict-examined-anthony-loiacono-judi-health/?utm_campaign=rss",
+      "summary": "CVS’ split into two doesn’t fix its fundamental problem, writes Judi Health CEO A.J. Loiacono.",
+      "ts": 1794216600000,
+      "publishedAt": "2026-11-09T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Liver experts finally agree on what acute-on-chronic liver failure is",
+      "url": "https://www.statnews.com/2026/11/09/acute-on-chronic-liver-failure-new-definition/?utm_campaign=rss",
+      "summary": "\"Patients are suffering with this condition that everyone has their own way of defining.\"",
+      "ts": 1794216600000,
+      "publishedAt": "2026-11-09T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Democrats begin asking: How far can we go on health care?",
+      "url": "https://www.statnews.com/2026/11/09/democrat-healthcare-agenda-new-lawmakers-weigh-popular-vs-possible/?utm_campaign=rss",
+      "summary": "Many in the party are pushing for Democratic lawmakers to go big on health care, but their dreams may crash into reality.",
+      "ts": 1794216600000,
+      "publishedAt": "2026-11-09T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "AI chatbots aren’t therapists. But can they finally get men to open up?",
+      "url": "https://www.statnews.com/2026/11/09/ai-chatbots-can-overcome-mental-health-barriers-in-men/?utm_campaign=rss",
+      "summary": "AI chatbots are imperfect therapists. But can they finally get men to talk?",
+      "ts": 1794216600000,
+      "publishedAt": "2026-11-09T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups acros…",
+      "ts": 1794211253000,
+      "publishedAt": "2026-11-09T08:00:53.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
+      "summary": "APOD Science APOD APOD: 2026 November 9 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1794200700000,
+      "publishedAt": "2026-11-09T05:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "Korea Advances Physical AI Across Industries With NVIDIA",
@@ -37,6 +244,15 @@
       "ts": 1794200400000,
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Ozone Hole Reaches Its 2026 Maximum",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+      "summary": "The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.",
+      "ts": 1794200400000,
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -363,6 +579,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "Data centres asymmetrically exacerbate energy burdens through wholesale price increases and regressive grid cost shifting",
+      "url": "https://www.nature.com/articles/s41560-026-02163-x",
+      "summary": "",
+      "ts": 1794182400000,
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "Survival after sudden cardiac arrest didn’t improve despite training bystanders, emergency responders",
       "url": "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/?utm_campaign=rss",
@@ -585,231 +810,6 @@
       "summary": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe…",
       "ts": 1793981032000,
       "publishedAt": "2026-11-06T16:03:52.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation …",
-      "ts": 1793980835000,
-      "publishedAt": "2026-11-06T16:00:35.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Amgen’s Repatha linked to fewer heart attacks",
-      "url": "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/?utm_campaign=rss",
-      "summary": "Pithy intro text about the biopharma milieu. Novartis cites more tumor reports after Zolgensma Novartis has disclosed seven previously unreported cases of tumors in children who received Zolgensma, its gene therapy…",
-      "ts": 1793978093000,
-      "publishedAt": "2026-11-06T15:14:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "New evidence for ancient cannabis use",
-      "url": "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/?utm_campaign=rss",
-      "summary": "A new paper, published yesterday in Science, offers compelling evidence of ritual cannabis use in a 2,800-year-old Siberian tomb.",
-      "ts": 1793977182000,
-      "publishedAt": "2026-11-06T14:59:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Novartis gene therapy, faster U.K. drug reviews, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss",
-      "summary": "Novartis acknowledged seven instances of tumors being found in children who were treated with Zolgensma for spinal muscular atrophy",
-      "ts": 1793976063000,
-      "publishedAt": "2026-11-06T14:41:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Why Glycosylation Control Is No Longer a Secondary Concern in the Development of Complex Biologics",
-      "url": "https://www.genengnews.com/topics/bioprocessing/why-glycosylation-control-is-no-longer-a-secondary-concern-in-the-development-of-complex-biologics/",
-      "summary": "A priority shift is redefining expectations for contract development and manufacturing organizations (CDMOs). This article explains how CDMOs can efficiently move their glycosylation processes upstream using quality-by-d…",
-      "ts": 1793973384000,
-      "publishedAt": "2026-11-06T13:56:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-374-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1793972814000,
-      "publishedAt": "2026-11-06T13:46:54.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future.…",
-      "ts": 1793970600000,
-      "publishedAt": "2026-11-06T13:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Afghanistan faces deepening humanitarian crisis amid sweeping rights restrictions",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168758",
-      "summary": "Afghanistan stands at a “difficult crossroad” more than five years after the Taliban returned to power, a senior UN official said on Friday. Relative stability and security are being undercut by a fragile economy, sweepi…",
-      "ts": 1793966400000,
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Civilians killed in DR Congo, Ukrainians wrestle with return, Guterres calls out ‘normalisation’ of force",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168757",
-      "summary": "At least 30 civilians were killed overnight on Thursday in Beni Territory, North Kivu in the Democratic Republic of the Congo, according to local sources cited by the UN aid coordination office (OCHA).",
-      "ts": 1793966400000,
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "From a ship frozen into Arctic ice, a warning to world leaders: Trust the science",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168751",
-      "summary": "Drifting through the polar darkness, a team of scientists is documenting a rapidly changing Arctic. As sea ice retreats and oil tankers move in, a conversation with the UN chief reveals why the battle for climate science…",
-      "ts": 1793966400000,
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan’s suffering is plain for all to see say aid teams, as brutal war continues",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168753",
-      "summary": "Aid teams working to help millions of people uprooted by the ongoing war in Sudan appealed on Friday for more international assistance amid desperate funding shortages, empty warehouses and overwhelming needs.",
-      "ts": 1793966400000,
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘No Escape’ for refugees on the frontlines of the climate crisis",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168752",
-      "summary": "The climate emergency is an immediate crisis for refugees, with three in four – nearly 90 million people – living in countries facing high to severe exposure to hazards such as drought, floods and extreme heat.",
-      "ts": 1793966400000,
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "International Cooperation Strengthens Radioactive Waste Characterization",
-      "url": "http://www.iaea.org/newscenter/news/international-cooperation-strengthens-radioactive-waste-characterization",
-      "summary": "Countries need reliable data about radioactive waste to decide how to treat, store and dispose of it safely.",
-      "ts": 1793966082000,
-      "publishedAt": "2026-11-06T11:54:42.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA’s Euclid captures the Milky Way’s crowded heart ",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/esa-s-euclid-captures-the-milky-way-s-crowded-heart",
-      "summary": "For just one day, our dark Universe detective, Euclid, turned its gaze towards the light: the extremely bright inner region of our Milky Way galaxy, known as the galactic bulge. ...",
-      "ts": 1793962863000,
-      "publishedAt": "2026-11-06T11:01:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "European orbiter detects hints of volcanic activity on Mars ",
-      "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
-      "summary": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping.",
-      "ts": 1793959536000,
-      "publishedAt": "2026-11-06T10:05:36.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-r…",
-      "ts": 1793959200000,
-      "publishedAt": "2026-11-06T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: After Medicare punts RPM overhaul to 2029, advocates see window to fight back",
-      "url": "https://www.statnews.com/2026/11/06/new-medicare-overhaul-of-remote-patient-monitoring-hospital-pushback/?utm_campaign=rss",
-      "summary": "Medicare pushed forward a controversial plan to ban hospitals from using third parties to deliver remote patient monitoring services, despite overwhelming opposition.",
-      "ts": 1793957400000,
-      "publishedAt": "2026-11-06T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: AI depends on medical records that don’t always tell the full truth about women",
-      "url": "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain/?utm_campaign=rss",
-      "summary": "“For AI to achieve its full potential in women’s health, medical records need to tell the complete story,” experts write.",
-      "ts": 1793957400000,
-      "publishedAt": "2026-11-06T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Most people haven’t heard of kratom. What is it, and who’s using it?",
-      "url": "https://www.statnews.com/2026/11/06/what-is-kratom-addiction-risks-explained-7-oh/?utm_campaign=rss",
-      "summary": "Few Americans are familiar with kratom, despite public health messaging and rising use. So what is it, and who's using it?",
-      "ts": 1793957400000,
-      "publishedAt": "2026-11-06T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: STAT+: What it’s like to live with cognitively unimpaired Alzheimer’s disease",
-      "url": "https://www.statnews.com/2026/11/06/pre-clinical-alzheimers-disease-biomarkers-tests-mental-health/?utm_campaign=rss",
-      "summary": "People with cognitively unimpaired Alzheimer’s “may be asymptomatic, but they do have a disease experience,” writes Jason Karlawish.",
-      "ts": 1793957400000,
-      "publishedAt": "2026-11-06T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Euclid discovers new comet",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-discovers-new-comet",
-      "summary": "The European Space Agency’s Euclid space telescope has discovered its first previously unknown comet, in images taken between 16 and 24 September 2026.",
-      "ts": 1793953482000,
-      "publishedAt": "2026-11-06T08:24:42.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "ts": 1793952000000,
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Mission Reviews the Russian Federation’s Regulatory Framework for Nuclear and Radiation Safety",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-reviews-the-russian-federations-regulatory-framework-for-nuclear-and-radiation-safety",
-      "summary": "",
-      "ts": 1793946658000,
-      "publishedAt": "2026-11-06T06:30:58.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 6 – A Farewell to Swift",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
-      "summary": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1793941500000,
-      "publishedAt": "2026-11-06T05:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Taking a Gander at Utah’s Goosenecks",
-      "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
-      "summary": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
-      "ts": 1793941260000,
-      "publishedAt": "2026-11-06T05:01:00.000Z",
       "categoryId": "space"
     }
   ],

@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-11-09T05:14:06.718Z",
+  "updated": "2026-11-09T15:31:55.034Z",
   "items": [
+    {
+      "source": "Quanta Magazine",
+      "title": "Did Life Begin in an RNA World?",
+      "url": "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/",
+      "summary": "The earliest life forms may have emerged from self-copying RNA. The post Did Life Begin in an RNA World? first appeared on Quanta Magazine",
+      "ts": 1794237629000,
+      "publishedAt": "2026-11-09T15:20:29.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How bacteria build the molecular bushing of the flagellar motor",
+      "url": "https://phys.org/news/2026-11-bacteria-molecular-bushing-flagellar-motor.html",
+      "summary": "The bacterial flagellum is a motility organelle that enables bacteria to swim and is composed of more than 30 different proteins. Researchers have long sought to understand how this complex nanomachine self-assembles fro…",
+      "ts": 1794237611000,
+      "publishedAt": "2026-11-09T15:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Protecting the vulnerable Y chromosome at the beginning of development",
+      "url": "https://phys.org/news/2026-11-vulnerable-chromosome.html",
+      "summary": "It's known that the Y chromosome, which confers male sex, plays a big role in development and health, despite its small size. As cells age they frequently lose their Y chromosomes, which is associated with conditions lik…",
+      "ts": 1794237604000,
+      "publishedAt": "2026-11-09T15:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient underwater canyons reveal clues to the world's oldest animal life",
+      "url": "https://phys.org/news/2026-11-ancient-underwater-canyons-reveal-clues.html",
+      "summary": "Geologists have uncovered new evidence that dramatic sea-level changes carved giant underwater canyons in South Australia's Flinders Ranges hundreds of millions of years ago, helping to create conditions that preserved s…",
+      "ts": 1794236406000,
+      "publishedAt": "2026-11-09T15:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Removing too much crop waste for bioenergy could come at a cost to biodiversity, study finds",
+      "url": "https://phys.org/news/2026-11-crop-bioenergy-biodiversity.html",
+      "summary": "Crop residues—the stems, leaves and husks left behind after harvesting cereals—could provide an important source of renewable energy for Europe, but research led by the University of Surrey suggests that removing too muc…",
+      "ts": 1794236402000,
+      "publishedAt": "2026-11-09T15:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two genes, two harvests: Adapting barley for double cropping",
+      "url": "https://phys.org/news/2026-11-genes-harvests-barley-cropping.html",
+      "summary": "Growing two crops in succession on the same land requires a tight schedule. In parts of central and eastern China, farmers sow barley in autumn and harvest it in late spring. It is then followed by a summer crop, such as…",
+      "ts": 1794235201000,
+      "publishedAt": "2026-11-09T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The migration that remade Africa",
+      "url": "https://phys.org/news/2026-11-migration-remade-africa.html",
+      "summary": "It's not easy to extract iron from its ore. But the peoples of the ancient city of Great Zimbabwe—the capital of a thriving kingdom in southern Africa between A.D. 1000 and 1700—were masters.",
+      "ts": 1794232813000,
+      "publishedAt": "2026-11-09T14:00:13.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A high-fiber diet may clear away plastic in the gut",
+      "url": "https://www.sciencenews.org/article/high-fiber-diet-nanoplastic-gut-health",
+      "summary": "Research in mice shows that fiber may literally wrap around plastic particles to remove them from the gut.",
+      "ts": 1794232800000,
+      "publishedAt": "2026-11-09T14:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "COP31 opens with leaders under pressure to tackle climate crisis",
+      "url": "https://phys.org/news/2026-11-cop31-leaders-pressure-tackle-climate.html",
+      "summary": "The COP31 climate talks kicked off Monday with an early fight over money as the U.N.'s chief urged world leaders to \"get serious\" about tackling the crisis after a year of devastating weather extremes.",
+      "ts": 1794230405000,
+      "publishedAt": "2026-11-09T13:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A hummingbird's brilliant magenta feathers depend on a hidden middle layer",
+      "url": "https://phys.org/news/2026-11-hummingbird-brilliant-magenta-feathers-hidden.html",
+      "summary": "The brilliant magenta feathers on the head and throat of a male Anna's hummingbird present an optical puzzle. Magenta cannot be produced by a single wavelength of light. Instead, the feathers reflect a mixture of red and…",
+      "ts": 1794229206000,
+      "publishedAt": "2026-11-09T13:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "CT scanning the centuries-old head of Jeremy Bentham",
+      "url": "https://phys.org/news/2026-11-ct-scanning-centuries-jeremy-bentham.html",
+      "summary": "Cutting-edge medical imaging techniques have revealed that Jeremy Bentham, the Georgian philosopher and reformer, suffered from chronic toothache and a jaw riddled with arthritis.",
+      "ts": 1794227826000,
+      "publishedAt": "2026-11-09T12:37:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sell-side analysts fail to adequately adjust stock forecasts after Fed meetings",
+      "url": "https://phys.org/news/2026-11-side-analysts-adequately-adjust-stock.html",
+      "summary": "When the U.S. Federal Reserve announces a change in its interest rate, consumers expect shifts in borrowing costs elsewhere and potential price adjustments for things like housing and some consumer goods. New research, h…",
+      "ts": 1794225602000,
+      "publishedAt": "2026-11-09T12:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Optical experiment demonstrates the strong Mpemba effect in a single qubit",
+      "url": "https://phys.org/news/2026-11-optical-strong-mpemba-effect-qubit.html",
+      "summary": "Typically, after a physical system is disturbed, it can gradually return toward a state of thermal equilibrium by exchanging heat with its surroundings. Thermal equilibrium is a state in which there is no net transfer of…",
+      "ts": 1794224401000,
+      "publishedAt": "2026-11-09T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crystals hint at a volcano's ability to erupt",
+      "url": "https://phys.org/news/2026-11-crystals-hint-volcano-ability-erupt.html",
+      "summary": "University of Queensland researchers have shown tiny crystals are a window to activity inside volcanoes and could provide clues to when they might erupt.",
+      "ts": 1794218406000,
+      "publishedAt": "2026-11-09T10:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Burning': Life under the world's dirtiest skies",
+      "url": "https://phys.org/news/2026-11-life-world-dirtiest-skies.html",
+      "summary": "On the outskirts of India's capital, a short motorbike ride through the urban area with the world's worst air pollution leaves salesman Kanwar Singh coated in toxic dust.",
+      "ts": 1794217201000,
+      "publishedAt": "2026-11-09T09:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Despite sacrificing people after catastrophic El Niño flooding, ancient societies were generally peaceful",
@@ -679,126 +799,6 @@
       "title": "Evaporation-induced colloidal diffusiophoresis in electrolyte solutions",
       "url": "https://arxiv.org/abs/2611.08965",
       "summary": "arXiv:2611.08965v1 Announce Type: cross Abstract: Non-volatile solutes accumulate near a receding drying front, generating concentration gradients that can drive directional colloidal transport by diffusiophoresis. This …",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Breathers across the Focusing-to-Defocusing Transition: From Diffraction-Like Dynamics to Talbot Carpets",
-      "url": "https://arxiv.org/abs/2611.08980",
-      "summary": "arXiv:2611.08980v1 Announce Type: cross Abstract: We experimentally investigate fundamental unstable breather wave groups propagating across the transition from focusing to defocusing regimes. In hydrodynamics, this tran…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enforcing Symmetries on Pre-trained ML Models for Physics",
-      "url": "https://arxiv.org/abs/2611.08992",
-      "summary": "arXiv:2611.08992v1 Announce Type: cross Abstract: Post-hoc group averaging (or test-time augmentation) is a simple way to impose symmetry on a trained predictor without changing its architecture or retraining it. For fin…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Disentangling Spin and Orbital Contributions in the Search for Altermagnetic Terahertz Conversion in RuO2",
-      "url": "https://arxiv.org/abs/2611.09098",
-      "summary": "arXiv:2611.09098v1 Announce Type: cross Abstract: Rutile RuO2 has emerged as a prominent candidate altermagnet, yet the microscopic origin of its reported charge-angular-momentum conversion remains unsettled. Recent theo…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics Informed Priors for Machine Learning Interatomic Potentials with Uncertainty Quantification",
-      "url": "https://arxiv.org/abs/2611.09325",
-      "summary": "arXiv:2611.09325v1 Announce Type: cross Abstract: Standard uncertainty quantification methods for machine learning interatomic potentials often fail to quantify the effects of model misspecification despite its prominenc…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Successive Decimetric Bursts Associated with Breakout Magnetic Reconnection during the Decay Phase of an M-Class Flare",
-      "url": "https://arxiv.org/abs/2611.09332",
-      "summary": "arXiv:2611.09332v1 Announce Type: cross Abstract: Radio imaging spectroscopy diagnoses coronal electron acceleration and propagation by tracking energetic electron beams and locating energy-release sites. Using MUSER (0.…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "comfort-db: A Python toolkit to access, preprocess and explore the oceanographic COMFORT dataset",
-      "url": "https://arxiv.org/abs/2611.09353",
-      "summary": "arXiv:2611.09353v1 Announce Type: cross Abstract: comfort-db is a Python library that facilitates working with the COMFORT SQLite dataset, version 2. The dataset assembles global oceanographic measurements from ten datas…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Existence of Distinct Strong and Weak Shear Regimes of Self-Generated Turbulent Magnetic Reconnection",
-      "url": "https://arxiv.org/abs/2611.09354",
-      "summary": "arXiv:2611.09354v1 Announce Type: cross Abstract: Magnetic reconnection can become fast in three-dimensional turbulent layers. However, the parameters and mechanisms that control the fast state are not yet fully clear. E…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Motion-Induced Polaron Resonance beyond the Orthogonality Catastrophe",
-      "url": "https://arxiv.org/abs/2611.09390",
-      "summary": "arXiv:2611.09390v1 Announce Type: cross Abstract: We investigate the spectroscopic response of a repulsively interacting, infinitely heavy impurity moving at constant velocity $v$ through a one-dimensional ideal Fermi ga…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Incentive Pathologies in a Live LLM Agent Arena: An Empirical Study of Concentration, Reward-Rule Implementation Discrepancy, and Network Dilution",
-      "url": "https://arxiv.org/abs/2611.09445",
-      "summary": "arXiv:2611.09445v1 Announce Type: cross Abstract: We audit one live LLM agent arena (AITRAP; 22 autonomous agent seats, ~96,000 reasoning nodes) over nine days (Oct 16-25, 2026), during which the platform deployed two bu…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resolving non-neutrality across scales in a hyperdiverse tropical forest",
-      "url": "https://arxiv.org/abs/2611.09479",
-      "summary": "arXiv:2611.09479v1 Announce Type: cross Abstract: Different ecological processes operate at different spatial and temporal scales. Macroscopic regularities can therefore be captured by descriptions that ignore microscopi…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Violent relaxation redux",
-      "url": "https://arxiv.org/abs/2611.09531",
-      "summary": "arXiv:2611.09531v1 Announce Type: cross Abstract: Collisionless self-gravitating systems, such as merging galaxies, have long seemed an exception to the statistical-mechanical principle that chaotic many-body systems rel…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scanning Probe Control, Quantum Dynamics, and Dispersive Readout of Suspended Carbon Nanotube Resonators",
-      "url": "https://arxiv.org/abs/2611.09581",
-      "summary": "arXiv:2611.09581v1 Announce Type: cross Abstract: Suspended carbon nanotubes (CNTs) offer promising opportunities for quantum nanomechanics owing to their small effective mass, strong electrostatic tunability, and mechan…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SparseModesNet for coupled thermal-hydraulic-mechanical system in heterogeneous porous media",
-      "url": "https://arxiv.org/abs/2611.09616",
-      "summary": "arXiv:2611.09616v1 Announce Type: cross Abstract: Coupled thermo-hydro-mechanical (THM) models describe interactions among displacement, fluid pressure, and temperature in geothermal systems. Fine-mesh simulations over m…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inversion symmetry breaking by interlayer hybridization in a tetralayer van der Waals heterostructure",
-      "url": "https://arxiv.org/abs/2611.09669",
-      "summary": "arXiv:2611.09669v1 Announce Type: cross Abstract: Inversion symmetry breaking unlocks a broad range of physical phenomena fundamental for modern technologies, motivating efforts to engineer noncentrosymmetric materials. …",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influenza A Virus as a Multivalent Active Particle: Statistical Mechanics of Binding, Motility, and Antiviral Design",
-      "url": "https://arxiv.org/abs/2611.09696",
-      "summary": "arXiv:2611.09696v1 Announce Type: cross Abstract: In this contribution, we review existing multivalent models of Influenza A Virus (IAV) systems to study virion dynamics and design of multivalent entry blockers. We revie…",
       "ts": 1794200400000,
       "publishedAt": "2026-11-09T05:00:00.000Z"
     }
