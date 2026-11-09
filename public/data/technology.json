@@ -1,7 +1,187 @@
 {
   "ok": true,
-  "updated": "2026-11-09T15:31:58.416Z",
+  "updated": "2026-11-09T23:59:38.276Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves novel Bayer drug to reduce recurrence of stroke",
+      "url": "https://www.statnews.com/2026/11/09/cardiovascular-stroke-recurrence-bayer-drug-fda-approval/?utm_campaign=rss",
+      "summary": "Bayer's drug is the first in a novel class of medications designed to prevent blood clots without increasing risk of bleeding.",
+      "ts": 1794263323000,
+      "publishedAt": "2026-11-09T22:28:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Rubies on Mars?",
+      "url": "https://science.nasa.gov/blog/rubies-on-mars/",
+      "summary": "Written by Roger C. Wiens, SuperCam Principal Investigator for NASA’s Perseverance rover at Purdue University Nov. 4, 2026 Exploration on Mars turns up the unexpected. Perseverance is equipped with a fantastic set of ins…",
+      "ts": 1794263232000,
+      "publishedAt": "2026-11-09T22:27:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Newest Sample, Oldest Rock?",
+      "url": "https://science.nasa.gov/blog/newest-sample-oldest-rock/",
+      "summary": "Written by Tasha Coelho, Mastcam-Z Student Collaborator at Arizona State University Nov. 1, 2026 Perseverance’s most recent abrasion “Pumbe” bears a striking resemblance to an earlier abrasion, “Badger Peak.” That’s no c…",
+      "ts": 1794263152000,
+      "publishedAt": "2026-11-09T22:25:52.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How Cancer-Associated Gene Triggers Cell Division Without Unpacking the Genome",
+      "url": "https://www.genengnews.com/topics/cancer/how-cancer-associated-gene-triggers-cell-division-without-unpacking-the-genome/",
+      "summary": "A study showed how E2F1 can trigger cell division without having to unpack the cell’s genetic material. Instead, it takes a shortcut path by binding directly to a small area of the DNA that remains tightly packaged insid…",
+      "ts": 1794258311000,
+      "publishedAt": "2026-11-09T21:05:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump administration removes WuXi AppTec from its Chinese military list",
+      "url": "https://www.statnews.com/pharmalot/2026/11/09/trump-administration-removes-wuxi-apptec-from-its-chinese-military-list/?utm_campaign=rss",
+      "summary": "The Trump administration has removed WuXi AppTec, a key partner for the pharma industry, from its list of “Chinese military companies” operating in the U.S.",
+      "ts": 1794257510000,
+      "publishedAt": "2026-11-09T20:51:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, p…",
+      "ts": 1794252933000,
+      "publishedAt": "2026-11-09T19:35:33.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "La NASA busca a la próxima generación de astronautas",
+      "url": "https://www.nasa.gov/news-release/la-nasa-busca-a-la-proxima-generacion-de-astronautas/",
+      "summary": "Read this release in English here.La NASA busca a los exploradores que ayudarán a escribir el próximo capítulo de los vuelos espaciales tripulados. Ya está abierto el plazo de inscripción para la próxima promoción de ast…",
+      "ts": 1794252440000,
+      "publishedAt": "2026-11-09T19:27:20.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Bill Ackman’s bold plan to transform brain research",
+      "url": "https://www.statnews.com/2026/11/09/bill-ackman-launches-new-brain-research-institute/?utm_campaign=rss",
+      "summary": "Billionaire Bill Ackman as a bold plan to transform brain research, spurred by a tragic backstory.",
+      "ts": 1794252115000,
+      "publishedAt": "2026-11-09T19:21:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "ts": 1794250800000,
+      "publishedAt": "2026-11-09T19:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+      "summary": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star. A new study, published Monday in the latest issue of The Astrophysical Journal, detai…",
+      "ts": 1794250550000,
+      "publishedAt": "2026-11-09T18:55:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Hospitals win the midterms, and Chopping Very Strategically",
+      "url": "https://www.statnews.com/2026/11/09/midterm-elections-good-news-for-hospitals-cvs-breakup-explained/?utm_campaign=rss",
+      "summary": "We explain the CVS breakup, and why Democrats' election victories are good news for hospitals.",
+      "ts": 1794246853000,
+      "publishedAt": "2026-11-09T17:54:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
+      "summary": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, …",
+      "ts": 1794246162000,
+      "publishedAt": "2026-11-09T17:42:42.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "La NASA destina un millón de dólares al reto estudiantil Base Lunar",
+      "url": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
+      "summary": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el Complejo…",
+      "ts": 1794245793000,
+      "publishedAt": "2026-11-09T17:36:33.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco …",
+      "ts": 1794243943000,
+      "publishedAt": "2026-11-09T17:05:43.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Astronauts Across Generations Share the Stage",
+      "url": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
+      "summary": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA’s Kennedy Space Center Visitor Complex in Merritt Island, Florida. Held on the eve of NASA’s MAX POWER event, the gala celebrated the exp…",
+      "ts": 1794243389000,
+      "publishedAt": "2026-11-09T16:56:29.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Heart association meeting’s readout is trending ‘neutral’",
+      "url": "https://www.statnews.com/2026/11/09/aha-2026-news-neutral-clinical-trials-lessons-learned/?utm_campaign=rss",
+      "summary": "The theme of the American Heart Association meetings was \"neutral\" results. Yet no one wants to stop pursuing inflammation or Lp(a) lowering.",
+      "ts": 1794243201000,
+      "publishedAt": "2026-11-09T16:53:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "MAX POWER: NASA’s Inaugural Aerospace Expo Ignites America’s Future",
+      "url": "https://www.nasa.gov/general/max-power-nasas-inaugural-aerospace-expo-ignites-americas-future/",
+      "summary": "Thousands gathered over several days in early November to experience MAX POWER – NASA’s first exhibition of America’s superiority in space, aeronautics, and technology on and around the agency’s Kennedy Space Center in F…",
+      "ts": 1794240430000,
+      "publishedAt": "2026-11-09T16:07:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+      "summary": "NASA’s two ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft have each successfully completed a powered Earth flyby, using Earth’s gravity in combination with a sustained engine burn to slingsho…",
+      "ts": 1794240107000,
+      "publishedAt": "2026-11-09T16:01:47.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA warns GLP-1 drugs carry potential risk of rare eye condition",
+      "url": "https://www.statnews.com/2026/11/09/glp-1-drugs-potential-risk-rare-eye-condition-naion-fda/?utm_campaign=rss",
+      "summary": "The FDA on Monday warned that GLP-1 drugs carry a potential risk for a rare but serious eye condition that's sometimes referred to as an \"eye stroke.\"",
+      "ts": 1794239815000,
+      "publishedAt": "2026-11-09T15:56:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-safeguards-in-a-changing-world-15th-symposium-on-international-safeguards-opens-in-vienna",
+      "summary": "",
+      "ts": 1794236400000,
+      "publishedAt": "2026-11-09T15:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Gene therapy’s long-debated cancer risk materializes",
@@ -93,6 +273,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "ts": 1794229200000,
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "Innovating with AI in the special chemicals industry",
       "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
@@ -109,6 +298,51 @@
       "ts": 1794228907000,
       "publishedAt": "2026-11-09T12:55:07.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: El Niño’s $11 trillion price tag, Mozambique and Yemen updates",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168768",
+      "summary": "The El Niño extreme weather pattern could cost the global economy up to $11 trillion and seriously impact food security, said the UN agency tackling rural poverty in developing countries on Monday.",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168766",
+      "summary": "An infant reportedly drowned and five Gazans were killed – including three children – when a sand dune collapsed on their tents as the first heavy rains swept across the enclave at the weekend, according to the UN aid co…",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168763",
+      "summary": "Nearly 200 countries have arrived on Türkiye's Mediterranean coast for a climate summit with a different ambition: fewer grand declarations and more concrete decisions. With a powerful El Niño threatening to worsen extre…",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Families who fled Ethiopia for Kenya’s Moyale need food, water and shelter",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168762",
+      "summary": "The International Organization of Migration (IOM) and partners are calling for urgent funding to support tens of thousands of people who have escaped violent clashes in Ethiopia for the Moyale region in northern Kenya.",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Strikes on Ukraine’s power grid, as peace talks loom",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168761",
+      "summary": "The Security Council met in New York on Ukraine Monday. Russian strikes on energy infrastructure are threatening millions with another cold, dark winter, and civilian deaths are climbing sharply. The meeting comes on the…",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -201,6 +435,24 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "ts": 1794211200000,
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "ts": 1794211200000,
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NASA",
       "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
@@ -244,15 +496,6 @@
       "ts": 1794200400000,
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Ozone Hole Reaches Its 2026 Maximum",
-      "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
-      "summary": "The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -568,249 +811,6 @@
       "ts": 1794200400000,
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "StockWatch: Nurix Nosedives as Sanofi Halts Phase I Immunology Candidate",
-      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-nurix-nosedives-as-sanofi-halts-phase-i-immunology-candidate/",
-      "summary": "Sanofi halted development of an oral STAT6 degrader that had been under study in a Phase I first-in-human trial in Europe. STAT6, a key drug target in type 2 inflammation, is among the five targets identified by the comp…",
-      "ts": 1794187606000,
-      "publishedAt": "2026-11-09T01:26:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Data centres asymmetrically exacerbate energy burdens through wholesale price increases and regressive grid cost shifting",
-      "url": "https://www.nature.com/articles/s41560-026-02163-x",
-      "summary": "",
-      "ts": 1794182400000,
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Survival after sudden cardiac arrest didn’t improve despite training bystanders, emergency responders",
-      "url": "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/?utm_campaign=rss",
-      "summary": "A new study found survival after sudden cardiac arrest didn’t improve with advance training of responders — but researchers aren't ready to shut the door on the possibility.",
-      "ts": 1794176100000,
-      "publishedAt": "2026-11-08T22:15:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
-      "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
-      "summary": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites…",
-      "ts": 1794151598000,
-      "publishedAt": "2026-11-08T15:26:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Beyond the broken glass: The human cost of the 1938 November Pogrom",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168756",
-      "summary": "On his way to school in Vienna on the morning of 10 November 1938, eight-year-old Arthur Schneier watched his synagogue burn while firefighters and police officers stood by “rejoicing”.",
-      "ts": 1794139200000,
-      "publishedAt": "2026-11-08T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why the latest heart drug failures should make us all more skeptical of AI hype",
-      "url": "https://www.statnews.com/2026/11/08/heart-drug-failures-lessons-for-artificial-intelligence-from-aha-conference/?utm_campaign=rss",
-      "summary": "Once again, a hot new technology that was supposed to speed up drug research has fallen flat.",
-      "ts": 1794130200000,
-      "publishedAt": "2026-11-08T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 8 – Major Fireball Meteor",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
-      "summary": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1794114300000,
-      "publishedAt": "2026-11-08T05:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
-      "summary": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nucle…",
-      "ts": 1794091623000,
-      "publishedAt": "2026-11-07T22:47:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Lowering blood pressure after stroke or with diabetes poses challenges, in research and practice ",
-      "url": "https://www.statnews.com/2026/11/07/new-studies-on-blood-pressure-management-aha-conference-news/?utm_campaign=rss",
-      "summary": "High blood pressure is known as the silent killer. Researchers are finding new ways to fight back.",
-      "ts": 1794087542000,
-      "publishedAt": "2026-11-07T21:39:02.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
-      "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
-      "summary": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds …",
-      "ts": 1794075117000,
-      "publishedAt": "2026-11-07T18:11:57.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: BIO joins the legal fight against Medicare pilot that ties drug prices to peer countries",
-      "url": "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/?utm_campaign=rss",
-      "summary": "The model is a test of Trump's most-favored nation approach to drug pricing, though its impact is likely to be limited.",
-      "ts": 1794070633000,
-      "publishedAt": "2026-11-07T16:57:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Failure of Novartis Lp(a) drug raises questions about cardiovascular strategy",
-      "url": "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/?utm_campaign=rss",
-      "summary": "Medical mystery at the AHA conference: A Novartis drug lowered a risk marker for cardiovascular disease but did not lower chance of heart attack or stroke.",
-      "ts": 1794063000000,
-      "publishedAt": "2026-11-07T14:50:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Despite Novo drug’s failure, cardiologists say they will still pursue anti-inflammatories",
-      "url": "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss",
-      "summary": "“These results, the fact that they're negative, does not invalidate that inflammation plays a very important role in cardiovascular disease.\"",
-      "ts": 1794062100000,
-      "publishedAt": "2026-11-07T14:35:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘For the first time I have my own chair’: Gaza siblings find new freedom",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168759",
-      "summary": "In Gaza, 10-year-old Anas is one of three siblings born without legs and with only two fingers on each of their hands. They struggle to move around and perform daily activities like eating and writing independently.",
-      "ts": 1794052800000,
-      "publishedAt": "2026-11-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
-      "summary": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1794027900000,
-      "publishedAt": "2026-11-07T05:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Aging Proteome: Clocks, Cohorts, and Clinical Trials",
-      "url": "https://www.genengnews.com/multimedia/webinars/the-aging-proteome-clocks-cohorts-and-clinical-trials/",
-      "summary": "In this GEN webinar, two experts will show how ultra-sensitive, multiplexed proteomics can measure both the pace of aging and the effects of interventions designed to change it. The post The Aging Proteome: Clocks, Cohor…",
-      "ts": 1794003781000,
-      "publishedAt": "2026-11-06T22:23:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: States sue Trump administration again to delay Medicaid work requirements",
-      "url": "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/?utm_campaign=rss",
-      "summary": "The Trump administration is facing another lawsuit over its sweeping changes to Medicaid less than a week after a federal judge ruled that implementation of work requirements would cause “irreparable…",
-      "ts": 1794002739000,
-      "publishedAt": "2026-11-06T22:05:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: MAHA leader Calley Means castigates White House officials as bending to industry",
-      "url": "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/?utm_campaign=rss",
-      "summary": "Calley Means, a MAHA leader who just resigned from the Trump administration, says Americans \"are being duped and gaslighted and lied to.\"",
-      "ts": 1794002121000,
-      "publishedAt": "2026-11-06T21:55:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Two incoming lawmakers plan to defend health equity from Trump administration cuts",
-      "url": "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/?utm_campaign=rss",
-      "summary": "Two newly elected lawmakers with science backgrounds hope to push back against Trump administration cuts to health equity programs.",
-      "ts": 1794001615000,
-      "publishedAt": "2026-11-06T21:46:55.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Democrats’ midterm landslide spells relief for hospitals",
-      "url": "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/?utm_campaign=rss",
-      "summary": "Democrats are likely to focus on reversing Medicaid cuts and expanding insurance coverage, giving a boost to health care providers.",
-      "ts": 1793987176000,
-      "publishedAt": "2026-11-06T17:46:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Democrats’ midterm victory, and a questionable fertility procedure",
-      "url": "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/?utm_campaign=rss",
-      "summary": "How will the midterm results affect drug pricing policy? And why are women traveling to fertility clinics abroad? Find out on the new episode of \"The Readout LOUD\" podcast.",
-      "ts": 1793984538000,
-      "publishedAt": "2026-11-06T17:02:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Novartis Confirms Nine Cases of Tumors in Children Treated with Gene Therapy Zolgensma",
-      "url": "https://www.genengnews.com/topics/genome-editing/novartis-confirms-nine-cases-of-tumors-in-children-treated-with-gene-therapy-zolgensma/",
-      "summary": "\"Two cases to date have shown evidence of vector integration into the DNA of the patients. In both cases, the patients underwent treatment and continue to be monitored,” Novartis said in a statement. The post Novartis Co…",
-      "ts": 1793984312000,
-      "publishedAt": "2026-11-06T16:58:32.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1793983429000,
-      "publishedAt": "2026-11-06T16:43:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ER-Negative Breast Cancer Risk Linked with Blood Levels of Two PFAS Forever Chemicals",
-      "url": "https://www.genengnews.com/topics/cancer/er-negative-breast-cancer-risk-linked-with-blood-levels-of-two-pfas-forever-chemicals/",
-      "summary": "The results of a study found that women with higher blood levels of two common PFAS were more likely to develop estrogen receptor-negative breast cancer, saying their results have important public health implications. Th…",
-      "ts": 1793983355000,
-      "publishedAt": "2026-11-06T16:42:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "M30’s Sparkling Stars",
-      "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
-      "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who catal…",
-      "ts": 1793982221000,
-      "publishedAt": "2026-11-06T16:23:41.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: New tumor cases show common gene therapy tool can come with risk",
-      "url": "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/?utm_campaign=rss",
-      "summary": "New cases show AAV gene therapies like Zolgensma carry tumor risks, raising key concerns for SMA patients and gene therapy researchers in general.",
-      "ts": 1793981680000,
-      "publishedAt": "2026-11-06T16:14:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Supercomputing Tech Demo Schedule",
-      "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
-      "summary": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe…",
-      "ts": 1793981032000,
-      "publishedAt": "2026-11-06T16:03:52.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
