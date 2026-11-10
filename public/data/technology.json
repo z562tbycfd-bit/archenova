@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-11-09T23:59:38.276Z",
+  "updated": "2026-11-10T07:03:48.286Z",
   "items": [
+    {
+      "source": "IAEA News",
+      "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-jordan-is-committed-to-strengthening-radiation-and-nuclear-safety-oversight",
+      "summary": "",
+      "ts": 1794289687000,
+      "publishedAt": "2026-11-10T05:48:07.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+      "summary": "APOD Science APOD APOD: 2026 November 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1794287100000,
+      "publishedAt": "2026-11-10T05:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Autumn Mornings Bring Valley Fog",
+      "url": "https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/",
+      "summary": "Low clouds trace the branching valleys of the Appalachian Plateau and the Cumberland River, then burn off by afternoon.",
+      "ts": 1794286800000,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+      "summary": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal dr…",
+      "ts": 1794272865000,
+      "publishedAt": "2026-11-10T01:07:45.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
+      "summary": "Written by Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Oct. 23, 2026 As regular readers of this blog will know, we returned to the area where we found d…",
+      "ts": 1794272748000,
+      "publishedAt": "2026-11-10T01:05:48.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Ionis Pharmaceuticals shares plummet after slow rollout of biotech’s triglyceride-lowering drug",
+      "url": "https://www.statnews.com/2026/11/09/ionis-pharmaceuticals-shares-plummet-after-tryngolza-slow-rollout/?utm_campaign=rss",
+      "summary": "Ionis Pharmaceuticals lost more than $1 billion in market value on Monday after the company slashed sales projections for a triglyceride-lowering drug.",
+      "ts": 1794271850000,
+      "publishedAt": "2026-11-10T00:50:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Illumina Offers Early Access to Duplex Sequencing for MRD, Tumor Evolution Research",
+      "url": "https://www.genengnews.com/topics/omics/illumina-offers-early-access-to-duplex-sequencing-for-mrd-tumor-evolution-research/",
+      "summary": "Illumina has announced an early access program to a duplex sequencing workflow that reads both DNA strands to detect trace ctDNA in molecular residual disease and tumor evolution studies. Kits are expected in early 2027.…",
+      "ts": 1794268635000,
+      "publishedAt": "2026-11-09T23:57:15.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA approves novel Bayer drug to reduce recurrence of stroke",
@@ -301,6 +364,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "At least 56 migrants die in weekend shipwrecks off Senegal and Greece",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168769",
+      "summary": "At least 56 people died in a series of shipwrecks off Senegal and Greece over the weekend, the International Organization for Migration (IOM) said on Monday, calling it a stark reminder of the deadly risks they face on t…",
+      "ts": 1794225600000,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World News in Brief: El Niño’s $11 trillion price tag, Mozambique and Yemen updates",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168768",
       "summary": "The El Niño extreme weather pattern could cost the global economy up to $11 trillion and seriously impact food security, said the UN agency tackling rural poverty in developing countries on Monday.",
@@ -429,7 +501,7 @@
       "source": "NVIDIA",
       "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
       "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups acros…",
+      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundati…",
       "ts": 1794211253000,
       "publishedAt": "2026-11-09T08:00:53.000Z",
       "categoryId": "ai-compute"
@@ -736,78 +808,6 @@
       "title": "Multimodal Physiological Decoding Reveals Individualized Arousal Dynamics in Closed-Loop Neurofeedback",
       "url": "https://arxiv.org/abs/2610.04113",
       "summary": "arXiv:2610.04113v2 Announce Type: replace Abstract: Most arousal-based brain-computer interfaces (BCIs) use EEG to decode cognitive state. But arousal is an autonomic process. We examined if peripheral physiological sign…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Oscillatory Phase Coding Emerges in Adaptive RNNs for Flexible Working Memory",
-      "url": "https://arxiv.org/abs/2611.06932",
-      "summary": "arXiv:2611.06932v2 Announce Type: replace Abstract: Oscillatory phase coding (OPC) is widely observed in neural systems and has been implicated in cognitive functions such as memory and sequence processing. However, its …",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The effect of limb kinematics on the speed of a legged robot on granular media",
-      "url": "https://arxiv.org/abs/1303.7276",
-      "summary": "arXiv:1303.7276v2 Announce Type: replace-cross Abstract: Achieving effective locomotion on diverse terrestrial substrates can require subtle changes of limb kinematics. Biologically inspired legged robots (physical model…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Cytology Dataset for Early Detection of Oral Squamous Cell Carcinoma",
-      "url": "https://arxiv.org/abs/2506.09661",
-      "summary": "arXiv:2506.09661v2 Announce Type: replace-cross Abstract: Oral squamous cell carcinoma OSCC is a major global health burden, particularly in several regions across Asia, Africa, and South America, where it accounts for a…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Embedding stochastic dynamics in latent manifolds of recurrent neural networks",
-      "url": "https://arxiv.org/abs/2602.14885",
-      "summary": "arXiv:2602.14885v3 Announce Type: replace-cross Abstract: Recurrent neural networks (RNNs) provide a theoretical framework for understanding computation in biological neural circuits through their ability to support rich…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Uncertainty-aware neural emulation reveals climate-resilient maize traits at scale",
-      "url": "https://arxiv.org/abs/2605.22848",
-      "summary": "arXiv:2605.22848v3 Announce Type: replace-cross Abstract: Climate change threatens maize yields worldwide, yet identifying which genetic traits sustain productivity under future conditions requires exploring an enormous …",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference",
-      "url": "https://arxiv.org/abs/2608.18982",
-      "summary": "arXiv:2608.18982v2 Announce Type: replace-cross Abstract: Bioassay activity prediction is often data-limited because drug-discovery datasets rely on time-consuming and expensive wet-lab experiments for data generation an…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Giant strongly biconnected components of directed networks: a generating function approach",
-      "url": "https://arxiv.org/abs/2608.25562",
-      "summary": "arXiv:2608.25562v2 Announce Type: replace-cross Abstract: Strongly connected components (SCCs) characterize modular structure in directed networks but are fragile to single node failures. We study strongly biconnected co…",
-      "ts": 1794200400000,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis",
-      "url": "https://arxiv.org/abs/2608.28990",
-      "summary": "arXiv:2608.28990v2 Announce Type: replace-cross Abstract: Protein co-abundance clusters preserved across tissues can nominate shared disease mechanisms and therapeutic targets, particularly where proteins implicated in o…",
       "ts": 1794200400000,
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "categoryId": "bio"
