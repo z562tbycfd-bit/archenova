@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-11T10:28:32.249Z",
+  "updated": "2026-11-11T18:26:37.890Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,105 @@
       "ts": 1794441600000,
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: What MAHA’s support for Russell Brand tells us about the movement",
+      "url": "https://www.statnews.com/2026/11/11/maha-russell-brand-conviction-violence-rfk-jr/?utm_campaign=rss",
+      "summary": "“The alliance between MAHA and Russell Brand is not an aberration,” writes Gavin Yamey.",
+      "ts": 1794419273000,
+      "publishedAt": "2026-11-11T17:47:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "What to know about this year’s UN climate talks",
+      "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
+      "summary": "It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking…",
+      "ts": 1794416400000,
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: BMI alternative would flip obesity diagnosis for millions, study finds",
+      "url": "https://www.statnews.com/2026/11/11/obesity-diagnosis-bmi-lancet-commission-proposal-impact/?utm_campaign=rss",
+      "summary": "A newly proposed way of identifying obesity could flip the diagnoses of millions of people. Proponents argue it could lead to more precise care.",
+      "ts": 1794412800000,
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Moog Marks 25 Years Since ESPA Design Milestone: Innovating Space Rideshare",
+      "url": "https://spacenews.com/moog-marks-25-years-since-espa-design-milestone-innovating-space-rideshare/",
+      "summary": "East Aurora, N.Y. — Moog Inc. (NYSE: MOG.A and MOG.B) marks 25 years since the Evolved Secondary Payload Adapter (ESPA) ring completed its Critical Design Review in 2001. The pioneering […] The post Moog Marks 25 Years S…",
+      "ts": 1794412437000,
+      "publishedAt": "2026-11-11T15:53:57.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why this former ER doc thinks giving AI less information is sometimes better",
+      "url": "https://www.statnews.com/2026/11/11/mdcalc-cofounder-graham-walker-on-crosscover-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of AI Prognosis: A conversation with Graham Walker, co-founder of MDCalc, about the company's new AI tool.",
+      "ts": 1794410423000,
+      "publishedAt": "2026-11-11T15:20:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cassidy sets key vote on Overton, even as he remains undecided on nominee to lead FDA",
+      "url": "https://www.statnews.com/2026/11/11/fda-commissioner-nominee-heidi-overton-senate-committee-vote/?utm_campaign=rss",
+      "summary": "Cassidy said he and other GOP lawmakers are undecided on Heidi Overton to lead the FDA.",
+      "ts": 1794409648000,
+      "publishedAt": "2026-11-11T15:07:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Dems eyeing Trump MFN deals, fewer drug launches in Europe, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss",
+      "summary": "Incoming Democratic chairs of key congressional committees have taken a new step toward investigating most-favored nation drug pricing agreements",
+      "ts": 1794407668000,
+      "publishedAt": "2026-11-11T14:34:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: preserving minds and weighing open AI risks",
+      "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve …",
+      "ts": 1794402600000,
+      "publishedAt": "2026-11-11T13:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push",
+      "url": "https://spacenews.com/horizon-microtechnologies-targets-constellation-scale-production-as-esa-phi-lab-selection-strengthens-industrialisation-push/",
+      "summary": "(Karlsruhe, Germany, September 29th 2026) Horizon Microtechnologies is accelerating industrialisation of its metallised polymer micro-additive manufacturing platform through IP-MASS, a two-year scale-up project supported…",
+      "ts": 1794402000000,
+      "publishedAt": "2026-11-11T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "The U.S. may soon lose measles elimination status",
+      "url": "https://www.statnews.com/2026/11/11/health-news-us-may-soon-lose-measles-elimination-status/?utm_campaign=rss",
+      "summary": "A regional WHO body will hold a four-day meeting determining whether the U.S. has maintained measles elimination. All signs point to no:",
+      "ts": 1794401773000,
+      "publishedAt": "2026-11-11T12:56:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "The IAEA Holds its First Advanced Training Course on Nuclear Law in Russian",
+      "url": "http://www.iaea.org/newscenter/news/the-iaea-holds-its-first-advanced-training-course-on-nuclear-law-in-russian",
+      "summary": "",
+      "ts": 1794396600000,
+      "publishedAt": "2026-11-11T11:30:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -597,6 +696,24 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "Nature Energy",
+      "title": "Author Correction: Dynamic cycling enhances battery lifetime",
+      "url": "https://www.nature.com/articles/s41560-026-02182-8",
+      "summary": "",
+      "ts": 1794355200000,
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "An organic semiconductor-based photocatalyst sheet for overall solar-driven water splitting",
+      "url": "https://www.nature.com/articles/s41560-026-02160-0",
+      "summary": "",
+      "ts": 1794355200000,
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Democrats take new step toward investigating Trump’s drug pricing deals",
       "url": "https://www.statnews.com/2026/11/10/democrats-investigate-most-favored-nation-deals-letters-drugmakers/?utm_campaign=rss",
@@ -693,123 +810,6 @@
       "summary": "A company developing extracellular vesicle-based products has developed a potency assay for quality control. They hope to adapt it for future products and scale it to commercial manufacturing. The post Extracellular Vesi…",
       "ts": 1794330026000,
       "publishedAt": "2026-11-10T17:00:26.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Automation a Path to Lower Cell Therapy Costs",
-      "url": "https://www.genengnews.com/topics/bioprocessing/automation-a-path-to-lower-cell-therapy-costs/",
-      "summary": "Australian developer Currus Bio predicts that automating the production of its candidate cancer cell therapy, CUR-001, using the Cocoon platform will reduce costs and enhance its ability to scale production as the produc…",
-      "ts": 1794330023000,
-      "publishedAt": "2026-11-10T17:00:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Argenx Expands Immunology Capabilities with Up-to-$1.15B UNP Acquisition",
-      "url": "https://www.genengnews.com/topics/translational-medicine/argenx-expands-immunology-capabilities-with-up-to-1-15b-unp-acquisition/",
-      "summary": "The deal is designed to marry UNP’s macrocyclic peptide discovery platform with Argenx’s immunology innovation capabilities to broaden the buyer’s ability to develop oral or long-acting treatments for serious immune-medi…",
-      "ts": 1794329577000,
-      "publishedAt": "2026-11-10T16:52:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-      "url": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-      "summary": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show i…",
-      "ts": 1794326426000,
-      "publishedAt": "2026-11-10T16:00:26.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its …",
-      "ts": 1794326403000,
-      "publishedAt": "2026-11-10T16:00:03.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "CHAPEA Crew Leaves a Mark",
-      "url": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark/",
-      "summary": "The Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 crew arranged photos around a boot print in the simulated Martian sand outside their habitat on Aug. 31, 2026. The crew recently exited their habitat …",
-      "ts": 1794322675000,
-      "publishedAt": "2026-11-10T14:57:55.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: GLP-1s are given an FDA warning for rare eye condition risk",
-      "url": "https://www.statnews.com/2026/11/10/biotech-news-glp-1-given-an-fda-warning-for-rare-eye-condition-risk/?utm_campaign=rss",
-      "summary": "The FDA warned that GLP-1 drugs carry a potential risk of a rare but serious eye condition sometimes referred to as an “eye stroke.”",
-      "ts": 1794321509000,
-      "publishedAt": "2026-11-10T14:38:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an approval for novel drug for strokes, a warning for GLP-1 drugs, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/?utm_campaign=rss",
-      "summary": "The FDA approved a novel drug to reduce recurrence of stroke, the agency is warning that GLP-1s carry a potential risk for an eye condition, and more pharma news of…",
-      "ts": 1794320724000,
-      "publishedAt": "2026-11-10T14:25:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Kratos and Seagate Space Partner to Advance Mobile Offshore Launch Capabilities for National Security Missions",
-      "url": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
-      "summary": "SAN DIEGO, CA, November 10, 2026 – Kratos Defense & Security Solutions, Inc., a technology company in defense, national security, and global markets, today announced a long-term agreement with Seagate […] The post Kratos…",
-      "ts": 1794319200000,
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Dutch antitrust regulators probe Biogen over test for its MS drug",
-      "url": "https://www.statnews.com/pharmalot/2026/11/10/dutch-antitrust-regulators-probe-biogen-over-multiple-sclerosis-drug-test/?utm_campaign=rss",
-      "summary": "Dutch antitrust regulators are investigating allegations that Biogen may have abused its dominant position in the market for MS treatments and associated blood tests.",
-      "ts": 1794317915000,
-      "publishedAt": "2026-11-10T13:38:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
-      "url": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI —Grace Huckins As a California …",
-      "ts": 1794316200000,
-      "publishedAt": "2026-11-10T13:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Evolving metal extraction processes",
-      "url": "https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/",
-      "summary": "The metals industry has experienced transformational moments before: the Bessemer process, flash smelting, electric arc furnaces, and modern continuous casting all changed what was possible. Yet, for more than a century,…",
-      "ts": 1794315600000,
-      "publishedAt": "2026-11-10T13:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharma is a ‘mixed bag’ when providing drug access to low- and middle-income countries, analysis finds",
-      "url": "https://www.statnews.com/pharmalot/2026/11/10/access-to-key-drugs-mixed-in-poor-countries-cancer-diabetes/?utm_campaign=rss",
-      "summary": "Many large pharmaceutical companies are taking steps to improve access to their medicines in low- and middle-income countries, but progress has been mixed.",
-      "ts": 1794315600000,
-      "publishedAt": "2026-11-10T13:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Why this year’s flu season could be hitting teens and young adults hard",
-      "url": "https://www.statnews.com/2026/11/10/health-news-why-flu-season-could-hit-teens-and-young-adults-hard/?utm_campaign=rss",
-      "summary": "At least 1.7 million cases of flu have been reported so far this year. Here's what experts are expecting for the rest of flu season:",
-      "ts": 1794314975000,
-      "publishedAt": "2026-11-10T12:49:35.000Z",
       "categoryId": "bio"
     }
   ],
