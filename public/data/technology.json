@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-10T22:10:33.550Z",
+  "updated": "2026-11-11T02:35:30.588Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Democrats take new step toward investigating Trump’s drug pricing deals",
+      "url": "https://www.statnews.com/2026/11/10/democrats-investigate-most-favored-nation-deals-letters-drugmakers/?utm_campaign=rss",
+      "summary": "Incoming Democratic chairs of key committees have taken a step toward investigating MFN drug pricing agreements between drugmakers and the Trump administration.",
+      "ts": 1794354900000,
+      "publishedAt": "2026-11-10T23:55:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Wyden, Sanders hand-in-hand on ‘Medicare for All’ initiative",
@@ -235,6 +253,15 @@
       "ts": 1794312000000,
       "publishedAt": "2026-11-10T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Ending cholera by 2030 ‘within reach’, Haiti displacement and hunger, US human rights review rescheduled",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168782",
+      "summary": "Ending cholera as a public health threat by 2030 is within reach, as every cholera death can be prevented with tools that already exist, the World Health Organization (WHO) said on Tuesday.",
+      "ts": 1794312000000,
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -781,33 +808,6 @@
       "title": "BioMARS 2.0: a robotic biologist for formulating and adapting biological experiments",
       "url": "https://arxiv.org/abs/2611.12139",
       "summary": "arXiv:2611.12139v1 Announce Type: cross Abstract: Biological experimentation is not reducible to a single optimization problem, but requires decisions at multiple levels of abstraction: translating scientific knowledge i…",
-      "ts": 1794286800000,
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TrajLift: Lifting Memory Recall Trajectories with Latency-Modulated Heat Diffusion",
-      "url": "https://arxiv.org/abs/2611.12197",
-      "summary": "arXiv:2611.12197v1 Announce Type: cross Abstract: Verbal memory retrieval carries rich diagnostic information for Alzheimer's disease through the order, hesitation, and categorical organization of recalled words, yet com…",
-      "ts": 1794286800000,
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Existence of a non-zero steady-state solution to a population density equation subject to horizontal transfer",
-      "url": "https://arxiv.org/abs/2611.12523",
-      "summary": "arXiv:2611.12523v1 Announce Type: cross Abstract: From plasmid dynamics and efflux pump expression in bacteria to risk-taking behaviour in human groups, horizontal interactions can drive the transmission of deleterious t…",
-      "ts": 1794286800000,
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "K-prop: Deep Online Learning by Backpropagating Temporal Kernels",
-      "url": "https://arxiv.org/abs/2611.12530",
-      "summary": "arXiv:2611.12530v1 Announce Type: cross Abstract: Self-recurrence represents an important component for temporal processing in neural networks, both artificial and biological, where it appears naturally in the form of le…",
       "ts": 1794286800000,
       "publishedAt": "2026-11-10T05:00:00.000Z",
       "categoryId": "bio"
