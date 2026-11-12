@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-11T18:26:37.890Z",
+  "updated": "2026-11-12T01:21:10.163Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Senate committee takes up nominees for NASA chief financial officer and inspector general",
+      "url": "https://spacenews.com/senate-committee-takes-up-nominees-for-nasa-chief-financial-officer-and-inspector-general/",
+      "summary": "A Senate committee is set to advance nominations for NASA’s chief financial officer and inspector general. The post Senate committee takes up nominees for NASA chief financial officer and inspector general appeared first…",
+      "ts": 1794441618000,
+      "publishedAt": "2026-11-12T00:00:18.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "OpenAI",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -10,6 +19,24 @@
       "ts": 1794441600000,
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "All of Us study finds thousands of new genetic variants affecting drug responses",
+      "url": "https://www.statnews.com/2026/11/11/all-of-us-study-finds-gene-variants-drug-responses/?utm_campaign=rss",
+      "summary": "A study of nearly 100,000 diverse Americans identified thousands of new variants in genes that influence our responses to prescription drugs",
+      "ts": 1794433047000,
+      "publishedAt": "2026-11-11T21:37:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Most-favored nations policy makes drugmakers rethink launches abroad",
+      "url": "https://www.statnews.com/2026/11/11/biotech-news-mfn-makes-drugmakers-rethink-launches-abroad/?utm_campaign=rss",
+      "summary": "Drug companies seem to be looking for workarounds to protect their U.S. sales against Trump's \"most-favored nations\" policy:",
+      "ts": 1794426247000,
+      "publishedAt": "2026-11-11T19:44:07.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
@@ -696,6 +723,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "ts": 1794355200000,
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Nature Energy",
       "title": "Author Correction: Dynamic cycling enhances battery lifetime",
       "url": "https://www.nature.com/articles/s41560-026-02182-8",
@@ -774,42 +810,6 @@
       "summary": "In this edition of STAT Health Tech: Growing optimism around chatbots and men who avoid therapy, and highlights from the earnings season.",
       "ts": 1794331122000,
       "publishedAt": "2026-11-10T17:18:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Oura to acquire Counsel Health for $625 million, placing a big bet on AI care",
-      "url": "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss",
-      "summary": "Oura, the smart ring maker that recently delayed plans to go public, said it will pay $625 million to acquire Counsel Health, a clinical AI startup.",
-      "ts": 1794330882000,
-      "publishedAt": "2026-11-10T17:14:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "From Farm Waste to Medical Nanoparticles",
-      "url": "https://www.genengnews.com/topics/bioprocessing/from-farm-waste-to-medical-nanoparticles/",
-      "summary": "Fruit peels, rice husks, and other crop leftovers can yield biomedical nanoparticles, but variable feedstocks, scale-up hurdles, and thin safety data still stand between lab promise and reliable commercial bioprocessing.…",
-      "ts": 1794330031000,
-      "publishedAt": "2026-11-10T17:00:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Hybrid Model Captures Lactate Run-Away and Back-Metabolism",
-      "url": "https://www.genengnews.com/topics/bioprocessing/hybrid-model-captures-lactate-run-away-and-back-metabolism/",
-      "summary": "A hybrid model provides hard-to-achieve insights into lactate performance during bioprocessing, creating conditions for more accurate predictions to better manage key batch parameters and variability. The post Hybrid Mod…",
-      "ts": 1794330027000,
-      "publishedAt": "2026-11-10T17:00:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Extracellular Vesicle Product Developer Creates Potency Assay",
-      "url": "https://www.genengnews.com/topics/bioprocessing/extracellular-vesicle-product-developer-creates-potency-assay/",
-      "summary": "A company developing extracellular vesicle-based products has developed a potency assay for quality control. They hope to adapt it for future products and scale it to commercial manufacturing. The post Extracellular Vesi…",
-      "ts": 1794330026000,
-      "publishedAt": "2026-11-10T17:00:26.000Z",
       "categoryId": "bio"
     }
   ],
