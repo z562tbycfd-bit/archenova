@@ -1,7 +1,279 @@
 {
   "ok": true,
-  "updated": "2026-11-12T09:26:50.721Z",
+  "updated": "2026-11-12T17:58:01.265Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Liquid-phase growth strategy densifies ceramic films at low temperature",
+      "url": "https://phys.org/news/2026-11-liquid-phase-growth-strategy-densifies.html",
+      "summary": "Ceramic films are widely used in solid-state batteries, energy conversion devices and electronic systems. Their fabrication, however, often requires high-temperature sintering, which can cause elemental volatilization, c…",
+      "ts": 1794505222000,
+      "publishedAt": "2026-11-12T17:40:22.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new view of the gamma-ray gap: 14 years of Fermi data reveal around 450 sources in a largely unexplored energy range",
+      "url": "https://phys.org/news/2026-11-view-gamma-ray-gap-years.html",
+      "summary": "The universe is filled with light at many different energies. Some of it is invisible to our eyes, including extremely energetic gamma rays, which can only be produced in the most extreme environments in our universe, fo…",
+      "ts": 1794505201000,
+      "publishedAt": "2026-11-12T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A suspected black hole turns out to be a rapidly spinning star",
+      "url": "https://phys.org/news/2026-11-black-hole-rapidly-star.html",
+      "summary": "Sometimes massive stars can mimic the behavior of a black hole and trick astronomers into misinterpreting their nature. Such is the case with a strange pair of stars in the Large Magellanic Cloud (LMC) cluster NGC 1850. …",
+      "ts": 1794504601000,
+      "publishedAt": "2026-11-12T17:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pumpkin seed protein puts a twist on nondairy coffee creamer",
+      "url": "https://phys.org/news/2026-11-pumpkin-seed-protein-nondairy-coffee.html",
+      "summary": "Pumpkin season is about more than cute décor. The squash contains lots of seeds with a high protein content, but they're usually discarded. Researchers reporting in ACS' Journal of Agricultural and Food Chemistry found a…",
+      "ts": 1794504010000,
+      "publishedAt": "2026-11-12T17:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simulated collisions reveal how Phobos could preserve rocks blasted off Mars",
+      "url": "https://phys.org/news/2026-11-simulated-collisions-reveal-phobos-blasted.html",
+      "summary": "Mars has two small moons, Phobos and Deimos, but their origins remain uncertain. Were they asteroids captured by Mars' gravity, or did they form from debris following a giant impact on the planet?",
+      "ts": 1794504001000,
+      "publishedAt": "2026-11-12T17:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sequential peaks in arthropod availability across snow and vegetation help sustain alpine birds",
+      "url": "https://phys.org/news/2026-11-sequential-peaks-arthropod-availability-vegetation.html",
+      "summary": "The alpine zone is located above the tree line in mountainous regions and is characterized by long winters and short growing seasons. Birds and other animals inhabiting these environments breed during a limited period ex…",
+      "ts": 1794502833000,
+      "publishedAt": "2026-11-12T17:00:33.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Finding romance with AI: Study explores benefits, limits of chatbot intimacy",
+      "url": "https://phys.org/news/2026-11-romance-ai-explores-benefits-limits.html",
+      "summary": "An AI companion can be available for a late-night conversation, respond to personal disclosures and discuss a favorite topic for hours. For people who develop intimate relationships with chatbots, those exchanges can off…",
+      "ts": 1794502823000,
+      "publishedAt": "2026-11-12T17:00:23.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lipids from banana peels help cherry tomatoes stay fresh longer",
+      "url": "https://phys.org/news/2026-11-lipids-banana-cherry-tomatoes-stay.html",
+      "summary": "Fruits and vegetables keep \"breathing\" even after they're picked. Respiration consumes sugars and organic acids that contribute to flavor, while moisture loss and continued ripening soften the fruit. These changes shorte…",
+      "ts": 1794502201000,
+      "publishedAt": "2026-11-12T16:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New analytical method offers potential for faster risk assessment of avian influenza viruses",
+      "url": "https://phys.org/news/2026-11-analytical-method-potential-faster-avian.html",
+      "summary": "Highly pathogenic avian influenza causes significant damage to the poultry industry worldwide. As the virus evolves, new variants regularly emerge that may differ in how easily they spread and how severely they affect in…",
+      "ts": 1794501616000,
+      "publishedAt": "2026-11-12T16:40:16.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny cracks and a 9-volt battery could help fight deadly superbugs",
+      "url": "https://phys.org/news/2026-11-tiny-volt-battery-deadly-superbugs.html",
+      "summary": "As superbugs become harder to treat and antibiotic resistance continues to rise worldwide, Flinders University scientists have uncovered an unlikely ally in the fight to prevent infections before they take hold. They hav…",
+      "ts": 1794501601000,
+      "publishedAt": "2026-11-12T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Feeling pressured to be grateful? Don't force it",
+      "url": "https://phys.org/news/2026-11-pressured-dont.html",
+      "summary": "It's that time of year when gratitude seems to be everywhere: at work, around the dinner table and at holiday gatherings. But with so much pressure to feel thankful, gratitude can start to feel like one more thing on the…",
+      "ts": 1794501002000,
+      "publishedAt": "2026-11-12T16:30:02.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "A New Era for the Dawn of Life",
+      "url": "https://www.quantamagazine.org/a-new-era-for-the-dawn-of-life-20261112/",
+      "summary": "Creative, interdisciplinary, and bold, the study of the origins of life has entered a new age. Welcome to Quanta Magazine’s special series on the origins of life. The post A New Era for the Dawn of Life first appeared on…",
+      "ts": 1794500428000,
+      "publishedAt": "2026-11-12T16:20:28.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rain may increase ocean carbon uptake more than we thought",
+      "url": "https://phys.org/news/2026-11-ocean-carbon-uptake-thought.html",
+      "summary": "Global carbon budgets, which track carbon's movement among the atmosphere, ocean and land, may underestimate how much carbon the ocean absorbs by roughly 5% to 15% because current estimates do not fully account for rain'…",
+      "ts": 1794500406000,
+      "publishedAt": "2026-11-12T16:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sensors track stress in plants in real time—without hurting them in the process",
+      "url": "https://phys.org/news/2026-11-sensors-track-stress-real.html",
+      "summary": "Even plants, from towering palm trees to vegetables such as onions and eggplants, can get stressed. Now, a team of engineers has designed a new kind of sensor that attaches directly to plants and peers inside them to tra…",
+      "ts": 1794499270000,
+      "publishedAt": "2026-11-12T16:01:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unified framework establishes rules for classifying unconventional magnets",
+      "url": "https://phys.org/news/2026-11-framework-unconventional-magnets.html",
+      "summary": "Researchers from the Hefei Institutes of Physical Science (HFIPS) of the Chinese Academy of Sciences (CAS) have developed a unified framework for establishing symmetry criteria and classifying unconventional magnets.",
+      "ts": 1794499249000,
+      "publishedAt": "2026-11-12T16:00:49.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds midlife women face unique need for workplace flexibility",
+      "url": "https://phys.org/news/2026-11-midlife-women-unique-workplace-flexibility.html",
+      "summary": "New research from the Working for Women Research Partnership (WFWRP) shows overlapping life demands make women ages 40–55 more likely than other groups to both want and need workplace flexibility.",
+      "ts": 1794499212000,
+      "publishedAt": "2026-11-12T16:00:12.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "The brain’s fear center moonlights as the save button for memories",
+      "url": "https://www.sciencenews.org/article/brain-amygdala-neuron-saves-memories",
+      "summary": "What determines which moments are remembered? The amygdala, typically associated with regulating fear and aggression, may play a major role",
+      "ts": 1794499200000,
+      "publishedAt": "2026-11-12T16:00:00.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "The Evolving Story of How Chemistry Became Biology",
+      "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+      "summary": "After decades of bickering about which molecules came first, a new generation of scientists is rethinking what life was, is, and could be. The post The Evolving Story of How Chemistry Became Biology first appeared on Qua…",
+      "ts": 1794498327000,
+      "publishedAt": "2026-11-12T15:45:27.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From bush food to biodegradable materials: Unlocking the potential of pigface",
+      "url": "https://phys.org/news/2026-11-bush-food-biodegradable-materials-potential.html",
+      "summary": "An Australian native plant traditionally used by Indigenous communities for food and medicine could help scientists develop stronger, more flexible biodegradable film. UNSW researchers have discovered that adding extract…",
+      "ts": 1794498031000,
+      "publishedAt": "2026-11-12T15:40:31.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electron beam tests advance safer sterilization method for flies that threaten livestock",
+      "url": "https://phys.org/news/2026-11-electron-advance-safer-sterilization-method.html",
+      "summary": "Texas A&M AgriLife Research scientists have achieved early success using electron beam, or eBeam, technology for the sterile insect technique, or SIT, against New World screwworm flies.",
+      "ts": 1794498001000,
+      "publishedAt": "2026-11-12T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why teaching 'ethical' classroom use of AI to learn writing must include the right to refuse",
+      "url": "https://phys.org/news/2026-11-ethical-classroom-ai.html",
+      "summary": "What would it mean to teach students who are learning academic writing to use AI in \"ethical\" ways—for example, large language model (LLM) chatbots like ChatGPT, a specific form of GenAI?",
+      "ts": 1794497410000,
+      "publishedAt": "2026-11-12T15:30:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Euclid offers best-ever 3D map of the universe to date",
+      "url": "https://phys.org/news/2026-11-euclid-3d-universe-date.html",
+      "summary": "The Euclid Consortium and the European Space Agency (ESA) have released the first major batch of data from the Euclid space telescope. This release, which captures light from more than a billion objects and covers an are…",
+      "ts": 1794497401000,
+      "publishedAt": "2026-11-12T15:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sea pigs from the abyss host unusual bacteria",
+      "url": "https://phys.org/news/2026-11-sea-pigs-abyss-host-unusual.html",
+      "summary": "In the deep ocean, translucent sea pigs trundle across the seafloor. Researchers at the University of Tokyo have discovered an unusual bacterium beneath the sea pig's \"skin.\" Through fluorescent imaging, they determined …",
+      "ts": 1794496801000,
+      "publishedAt": "2026-11-12T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI grading means university assessments could theoretically never be read by a human",
+      "url": "https://phys.org/news/2026-11-ai-grading-university-theoretically-human.html",
+      "summary": "There's a doomsday scenario where university students hand in work generated by artificial intelligence (AI), which is then graded by AI and university assessment no longer involves any humans at all.",
+      "ts": 1794495659000,
+      "publishedAt": "2026-11-12T15:00:59.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ant colonies defy aging patterns as death risk falls and reproduction rises",
+      "url": "https://phys.org/news/2026-11-ant-colonies-defy-aging-patterns.html",
+      "summary": "Getting older usually brings a higher risk of death and declining reproduction. Yet for western harvester ant colonies, the opposite occurs. As a colony gets older, it becomes less likely to die and more likely to reprod…",
+      "ts": 1794495649000,
+      "publishedAt": "2026-11-12T15:00:49.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "CCTV is touted as a safety measure for day care centers: But does it work?",
+      "url": "https://phys.org/news/2026-11-cctv-touted-safety-day-centers.html",
+      "summary": "CCTV has been promoted as one way to make early learning safer in the wake of ongoing reports of child abuse and neglect. It's certainly something families see as enhancing safety in services. But does it help in practic…",
+      "ts": 1794494410000,
+      "publishedAt": "2026-11-12T14:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dark magic mushroom is first to contain both psychedelic and toxic compounds",
+      "url": "https://phys.org/news/2026-11-dark-magic-mushroom-psychedelic-toxic.html",
+      "summary": "The world of mushrooms is surrounded by myth and misunderstanding. One thing seems clear: There are magic mushrooms, containing psychedelic compounds, and there are poisonous mushrooms, containing amatoxins. Or is it?",
+      "ts": 1794494401000,
+      "publishedAt": "2026-11-12T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Noncoding RNAs keep genes on time",
+      "url": "https://phys.org/news/2026-11-noncoding-rnas-genes.html",
+      "summary": "Building a multicellular organism, even a fruit fly, is kind of like assembling a complicated piece of Ikea furniture. As with furniture, you have to assemble it in the right order. \"There are many moving parts, many cel…",
+      "ts": 1794493211000,
+      "publishedAt": "2026-11-12T14:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Victoria's Year 12 exam website has been hacked—here are 3 ways students can handle academic stress",
+      "url": "https://phys.org/news/2026-11-victoria-year-exam-website-hacked.html",
+      "summary": "Yesterday evening, an unknown hacker posted messages on the Victorian exam authority website, saying they had accessed 2026 Year 12 exam papers.",
+      "ts": 1794493201000,
+      "publishedAt": "2026-11-12T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New tool maps and analyzes online hate speech",
+      "url": "https://phys.org/news/2026-11-tool-online-speech.html",
+      "summary": "The number of reported hate crimes (hate crime refers to violence, threats or hateful speech motivated by someone's skin color, ethnicity, religion, gender identity or similar characteristics) has more than quintupled si…",
+      "ts": 1794492007000,
+      "publishedAt": "2026-11-12T14:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "US almonds, walnuts and grapes depend on draining groundwater that isn't coming back",
+      "url": "https://phys.org/news/2026-11-almonds-walnuts-grapes-groundwater-isnt.html",
+      "summary": "Half of the groundwater used to grow America's favorite fruits, nuts, veggies, seeds and greens is drawn from aquifers faster than they can refill, according to a new study. Irrigating 75% of produce and specialty crops …",
+      "ts": 1794492001000,
+      "publishedAt": "2026-11-12T14:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Europe’s Hera mission is ready to double down on asteroid science",
+      "url": "https://www.sciencenews.org/article/europe-hera-mission-double-asteroid",
+      "summary": "Europe’s Hera spacecraft is just beginning its exploration of the binary asteroid Didymos in a mission that’s tantalizing scientists on two fronts.",
+      "ts": 1794492000000,
+      "publishedAt": "2026-11-12T14:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study tracks Rum Jungle Mine's metal legacy through Finniss River food web",
+      "url": "https://phys.org/news/2026-11-tracks-rum-jungle-metal-legacy.html",
+      "summary": "The environmental legacy of a uranium-copper mine continues to impact the ecosystem of a major Top End river system more than 50 years after the site was closed, a first-of-its-kind study led by Charles Darwin University…",
+      "ts": 1794490811000,
+      "publishedAt": "2026-11-12T13:40:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "City life leaves subtle genetic traces in Berlin squirrels",
+      "url": "https://phys.org/news/2026-11-city-life-subtle-genetic-berlin.html",
+      "summary": "Roads, buildings and other infrastructure can restrict the movements of wildlife in cities. As a result, urban wildlife from different areas encounter one another less frequently, potentially resulting in reduced genetic…",
+      "ts": 1794490807000,
+      "publishedAt": "2026-11-12T13:40:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New way of detecting date-rape drug use found in Switzerland",
@@ -108,6 +380,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Scaling medical imaging report generation with multimodal reinforcement learning",
+      "url": "https://www.nature.com/articles/s41467-026-78767-4",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Autapse-inspired neuromorphic hardware with synapse–neuron integration for bidirectional feedback control",
       "url": "https://www.nature.com/articles/s41467-026-79401-z",
       "summary": "",
@@ -134,6 +414,22 @@
       "source": "Nature Communications",
       "title": "Latitude modulates climate-driven maize yield gains across the central U.S. “warming hole”",
       "url": "https://www.nature.com/articles/s41467-026-79428-2",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Evolution of the molybdenum and vanadium cycles through time and their impact on ancient nitrogen fixation",
+      "url": "https://www.nature.com/articles/s41467-026-79171-8",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A prefrontal microcircuit computes trial-wise discount of reinforcement during threat learning in male mice",
+      "url": "https://www.nature.com/articles/s41467-026-79254-6",
       "summary": "",
       "ts": 1794441600000,
       "publishedAt": "2026-11-12T00:00:00.000Z"
@@ -505,302 +801,6 @@
       "summary": "People living on the moon may seem like science fiction, but major U.S. labs and agencies are actively working toward building lunar habitats. Making those habitats livable will require solutions for extreme temperatures…",
       "ts": 1794411601000,
       "publishedAt": "2026-11-11T15:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "An old talus slope delayed the 2023 Brienz/Brinzauls rockslide by several weeks",
-      "url": "https://phys.org/news/2026-11-talus-slope-delayed-brienzbrinzauls-rockslide.html",
-      "summary": "On May 12, 2023, the authorities ordered the evacuation of the village of Brienz/Brinzauls in the canton of Grisons, as a rapid slide of the slope above the village appeared imminent. However, it took its time. It was no…",
-      "ts": 1794410406000,
-      "publishedAt": "2026-11-11T15:20:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "11,000-year-old clay fragments reveal early experiments in pottery-making",
-      "url": "https://phys.org/news/2026-11-year-clay-fragments-reveal-early.html",
-      "summary": "Long before pottery became commonplace in Southwest Asia, people living beside the Upper Tigris were experimenting with ways to turn clay into containers.",
-      "ts": 1794410404000,
-      "publishedAt": "2026-11-11T15:20:04.000Z"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "How a Metabolic Spark Could Have Jump-Started Life",
-      "url": "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
-      "summary": "Energetic pathways that make and break complex molecules are critical to all life. It’s even possible that these self-sustaining cycles could have been key at life’s beginning. The post How a Metabolic Spark Could Have J…",
-      "ts": 1794409830000,
-      "publishedAt": "2026-11-11T15:10:30.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Crushes and other injuries: What science tells us about grieving a heartbreak",
-      "url": "https://phys.org/news/2026-11-injuries-science-grieving-heartbreak.html",
-      "summary": "Something funny happened at work, and there is one person you really want to tell. You stare at their name in your contact list. You know that if you call, no one will answer. They're gone.",
-      "ts": 1794409207000,
-      "publishedAt": "2026-11-11T15:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Beyond food: Bran-based gels show potential for targeted drug delivery",
-      "url": "https://phys.org/news/2026-11-food-bran-based-gels-potential.html",
-      "summary": "When it comes to colon health, the benefits of wheat and rye bran in whole-grain foods are well known. Now researchers in Sweden have shown how these fibers may have a therapeutic use, too. A new study published in the j…",
-      "ts": 1794409204000,
-      "publishedAt": "2026-11-11T15:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Glass does surprising things when stretched 1 atom wide. The discovery could help shrink electronics",
-      "url": "https://phys.org/news/2026-11-glass-atom-wide-discovery-electronics.html",
-      "summary": "Smartwatches worn on millions of wrists today pack vastly more processing power than the computers that helped Apollo astronauts land on the moon. But the scientific drive to go tiny has come at a cost: It means heat, el…",
-      "ts": 1794408005000,
-      "publishedAt": "2026-11-11T14:40:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bennu asteroid analysis suggests unexpected origins for organics in space",
-      "url": "https://phys.org/news/2026-11-bennu-asteroid-analysis-unexpected-space.html",
-      "summary": "Samples from the Bennu asteroid, which is currently more than 200 million miles (322 million kilometers) from Earth, and the Murchison meteorite, which fell to Earth in 1969, both contain molecules that build proteins ne…",
-      "ts": 1794406808000,
-      "publishedAt": "2026-11-11T14:20:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New strategy boosts iron-based single-atom catalysts for Fenton-like reactions",
-      "url": "https://phys.org/news/2026-11-strategy-boosts-iron-based-atom.html",
-      "summary": "Researchers at the Xinjiang Technical Institute of Physics and Chemistry (XTIPC) of the Chinese Academy of Sciences (CAS) have developed a core-shell confined iron-based single-atom catalyst that combines high Fenton-lik…",
-      "ts": 1794405607000,
-      "publishedAt": "2026-11-11T14:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The faces of iridium: One metal, many reactions",
-      "url": "https://phys.org/news/2026-11-iridium-metal-reactions.html",
-      "summary": "The same metal can have many faces, and each tells a different chemical story. At the atomic scale, those different faces can push the same reaction along very different paths.",
-      "ts": 1794405601000,
-      "publishedAt": "2026-11-11T14:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "III-nitride device integrates sensing and memory for in-sensor computing",
-      "url": "https://phys.org/news/2026-11-iii-nitride-device-memory-sensor.html",
-      "summary": "A new study published in Nature Materials reports that researchers have developed an aluminum gallium nitride device that combines light detection, memory and basic processing by controlling charge at polarization interf…",
-      "ts": 1794404409000,
-      "publishedAt": "2026-11-11T13:40:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A standard shortcut, used since the 1970s, hides a magneto-optic effect in ordinary glass fiber",
-      "url": "https://phys.org/news/2026-11-standard-shortcut-1970s-magneto-optic.html",
-      "summary": "For more than 50 years, engineers have described light in optical fiber using a convenient shortcut, one that works so well it is rarely questioned. Engineers at the University of the Witwatersrand (Wits University) in J…",
-      "ts": 1794404404000,
-      "publishedAt": "2026-11-11T13:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New algorithm improves phase readout for space-based gravitational wave detection",
-      "url": "https://phys.org/news/2026-11-algorithm-phase-readout-space-based.html",
-      "summary": "In a study published in Optics Communications, a research group led by Yu Tao from the Changchun Institute of Optics, Fine Mechanics and Physics (CIOMP) of the Chinese Academy of Sciences proposed a new analytical phase …",
-      "ts": 1794403208000,
-      "publishedAt": "2026-11-11T13:20:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wonder and ore: A spectacular new view from space maps Australia's mineral wealth",
-      "url": "https://phys.org/news/2026-11-ore-spectacular-view-space-australia.html",
-      "summary": "A new tool that uses detailed satellite images to help unlock Australia's mineral wealth has been unveiled.",
-      "ts": 1794402606000,
-      "publishedAt": "2026-11-11T13:10:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Research snapshot: The use of icons in aphasia-friendly texts",
-      "url": "https://phys.org/news/2026-11-snapshot-icons-aphasia-friendly-texts.html",
-      "summary": "Pictorial reading supports, such as icons, can help people with aphasia better comprehend the material and enjoy the reading process. But exactly what type of icon is most helpful?",
-      "ts": 1794400806000,
-      "publishedAt": "2026-11-11T12:40:06.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "Light is hard to block from every direction. This physicist found a way",
-      "url": "https://www.sciencenews.org/article/light-block-direction-physicist-sn10",
-      "summary": "Physicist Stefano Martiniani uses a computer algorithm to design new materials that could help advance light-based computers.",
-      "ts": 1794398400000,
-      "publishedAt": "2026-11-11T12:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Why land—a scarce resource—is so important for climate protection",
-      "url": "https://phys.org/news/2026-11-scarce-resource-important-climate.html",
-      "summary": "A new study quantifies, for the first time, the interrelationships and competing objectives of two major areas of action for reducing greenhouse gas emissions: the phaseout of fossil fuels and measures taken on natural l…",
-      "ts": 1794391212000,
-      "publishedAt": "2026-11-11T10:00:12.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Deep-sea mining could destroy unique habitats hidden inside metal-rich nodules",
-      "url": "https://phys.org/news/2026-11-deep-sea-destroy-unique-habitats.html",
-      "summary": "In the extreme depths of the Pacific Ocean, there are small, metal-bearing formations that are far more than just valuable sources of raw materials. A new study published in the journal Scientific Reports shows that poly…",
-      "ts": 1794391208000,
-      "publishedAt": "2026-11-11T10:00:08.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pooling ETAS triggering parameters across subduction margins: forecast transfer, estimator stability and sequence-limited skill in Mexico",
-      "url": "https://arxiv.org/abs/2611.12890",
-      "summary": "arXiv:2611.12890v1 Announce Type: new Abstract: Pooling earthquake-triggering parameters can reduce estimation variability on margins with few recorded sequences, but its forecast value must be distinguished from the sta…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Applicability of a Thermodynamic Model to Rich-Hydrogen Flammability Assessment in SMR Containments",
-      "url": "https://arxiv.org/abs/2611.12891",
-      "summary": "arXiv:2611.12891v1 Announce Type: new Abstract: Hydrogen combustion remains a critical safety concern during severe accidents in small modular reactors (SMRs). The compact containment can develop rich-hydrogen atmosphere…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First-passage tests of anomalous transport closures in heterogeneous aquifers",
-      "url": "https://arxiv.org/abs/2611.12893",
-      "summary": "arXiv:2611.12893v1 Announce Type: new Abstract: Breakthrough curves (BTCs) record arrival times, but anomalous transport models are often fitted with time-normalized spatial concentration profiles. Here, the effect of th…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "D-TINs for Track-Sampled Ice Sheet Surface Reconstruction from Satellite Altimetry Data",
-      "url": "https://arxiv.org/abs/2611.12894",
-      "summary": "arXiv:2611.12894v1 Announce Type: new Abstract: Satellite altimetry samples ice sheets densely along tracks but sparsely across tracks, with frequent gaps in spatial coverage. We study the impact of this irregular suppor…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Idealized Model of Buoyant Gas Spreading and Silt Release beneath Rough Cave Ceilings",
-      "url": "https://arxiv.org/abs/2611.12895",
-      "summary": "arXiv:2611.12895v1 Announce Type: new Abstract: Gas exhaled by open-circuit divers collects under the ceilings of submerged caves, migrates along the rock, and dislodges loose silt that then falls through the passage, a …",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "EoSAlign: An Open-Source Software for Calculating, Comparing, and Aligning Pressure Under Extreme Conditions",
-      "url": "https://arxiv.org/abs/2611.12897",
-      "summary": "arXiv:2611.12897v1 Announce Type: new Abstract: Accurate pressure determination is essential in high pressure experiments. Inconsistencies among pressure scales limit direct comparisons and contribute to uncertainty in m…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian Retrieval of L-Band Absorption by Ice using SMOS Brightness Temperatures over the Antarctic Plateau",
-      "url": "https://arxiv.org/abs/2611.12898",
-      "summary": "arXiv:2611.12898v1 Announce Type: new Abstract: The low absorption of microwaves at L-band in ice enables the retrieval of internal ice sheet parameters from satellite observations. However, knowing the precise value of …",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a Long-Term Stable Three-Axis Single-Beam Vector Optically Pumped Magnetometer Using a Buffer-Gas-Free Rubidium Vapor Cell and Direct Absorption Frequency Locking for Unshielded Geomagnetic Monitoring",
-      "url": "https://arxiv.org/abs/2611.12905",
-      "summary": "arXiv:2611.12905v1 Announce Type: new Abstract: Optically pumped magnetometers (OPMs) achieve ultra-high sensitivity, yet sustaining long-term stability in unshielded, dynamic geomagnetic environments remains challenging…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generative Learning on Manifolds for Probabilistic Seismic Performance Assessment and Structural Identifiability",
-      "url": "https://arxiv.org/abs/2611.12908",
-      "summary": "arXiv:2611.12908v1 Announce Type: new Abstract: Seismic performance assessment relies on computationally expensive nonlinear simulations, limiting uncertainty quantification and inference of structural properties from ob…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Landfalling tropical cyclones perturb Earth's rotation",
-      "url": "https://arxiv.org/abs/2611.12909",
-      "summary": "arXiv:2611.12909v1 Announce Type: new Abstract: Natural disasters that devastate human societies can also alter Earth's rotation. The 2011 $M_w$ 9.1 T\\={o}hoku earthquake, one of the most powerful earthquakes ever record…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Leveraging Large Language Models to Predict Atomic Oxygen Erosion of Polymers in Low Earth Orbit",
-      "url": "https://arxiv.org/abs/2611.12910",
-      "summary": "arXiv:2611.12910v1 Announce Type: new Abstract: Low Earth orbit (LEO), home to most active satellites, is projected to undergo a debris-fragmentation cascade known as Kessler Syndrome. In light of this eventuality, it is…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Trace element distribution in coarse-grained Ca-Al-rich inclusions by femtosecond LA-ICP-MS: Implications for U-Pb chronology",
-      "url": "https://arxiv.org/abs/2611.12914",
-      "summary": "arXiv:2611.12914v1 Announce Type: new Abstract: Calcium-aluminium-rich inclusions (CAIs) in chondrites are the first solids that formed in the Solar System, as established by U-Pb chronology. After initial condensation, …",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PyOTIS: an open-source Python package for stream solute transport with transient storage",
-      "url": "https://arxiv.org/abs/2611.12915",
-      "summary": "arXiv:2611.12915v1 Announce Type: new Abstract: OTIS and OTIS-P provide transient-storage transport and parameter estimation, whereas E-OTIS adds coupled water-quality reactions in a separate MATLAB implementation. PyOTI…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First results from a borehole network for the seismic characterization of the Einstein Telescope Euregio Meuse-Rhine candidate site",
-      "url": "https://arxiv.org/abs/2611.12917",
-      "summary": "arXiv:2611.12917v1 Announce Type: new Abstract: The low-frequency sensitivity of the Einstein Telescope depends on the seismic environment of its site, both through the mechanical coupling of ground motion to the test ma…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A domain-specific atomistic model for Earth's core materials",
-      "url": "https://arxiv.org/abs/2611.12919",
-      "summary": "arXiv:2611.12919v1 Announce Type: new Abstract: Understanding Earth's core requires accurate descriptions of multicomponent iron alloys under extreme conditions. Here, we develop the Earth's Core Atomistic Model (ECAM) f…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Confoundry: Spatial Causal Discovery and Dynamic Effect Mapping from Earth Observation Time Series",
-      "url": "https://arxiv.org/abs/2611.12921",
-      "summary": "arXiv:2611.12921v1 Announce Type: new Abstract: Earth observation time series provide extensive historical observations of environmental change, but causal relationships inferred from them may vary geographically and dep…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "marineGeochemFoam: A multipurpose framework for simulating reactive transport and biogeochemical cycling in marine sediments and at seawater-groundwater interfaces",
-      "url": "https://arxiv.org/abs/2611.12926",
-      "summary": "arXiv:2611.12926v1 Announce Type: new Abstract: We present marineGeochemFoam, an open-source reactive transport modeling framework for simulating early diagenesis, sediment burial, submarine groundwater discharge, and bi…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fermions fields inside the geometric algebra of spacetime",
-      "url": "https://arxiv.org/abs/2611.12939",
-      "summary": "arXiv:2611.12939v1 Announce Type: new Abstract: The (signed) basis versors of the geometric algebra of space-time form the extraspecial groups of order 32. Ignoring signs and the unit element, we show that the remaining …",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution of cooperation in enterprise resource-sharing networks with dynamic participation and adaptive decision-making",
-      "url": "https://arxiv.org/abs/2611.12962",
-      "summary": "arXiv:2611.12962v1 Announce Type: new Abstract: Resource sharing among enterprises is an important mechanism for improving resource utilization efficiency and facilitating collaborative development. However, the emergenc…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural Networks with Local Converging Inputs for Solving the 3D Stokes Equations on Unstructured Meshes: Novel Techniques and Advances",
-      "url": "https://arxiv.org/abs/2611.12963",
-      "summary": "arXiv:2611.12963v1 Announce Type: new Abstract: Neural-network surrogates for fluid-flow PDEs usually learn the solution globally, which requires large networks and many high-fidelity training simulations. Neural network…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
     }
   ],
   "sources": [
