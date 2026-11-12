@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-11-12T17:58:04.376Z",
+  "updated": "2026-11-12T23:28:37.321Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "High Frequency of Drug-Impacting Gene Variants Found in All of Us Cohort",
+      "url": "https://www.genengnews.com/topics/omics/high-frequency-of-drug-impacting-gene-variants-found-in-all-of-us-cohort/",
+      "summary": "A study finds that everyone in a diverse, nearly 100,000-person sample carried at least one genetic variant that affects how their body processes medications, and a quarter of those people had been prescribed a medicatio…",
+      "ts": 1794514624000,
+      "publishedAt": "2026-11-12T20:17:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review i…",
+      "ts": 1794514584000,
+      "publishedAt": "2026-11-12T20:16:24.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "I Am Artemis Katie Spicer",
+      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
+      "summary": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided hu…",
+      "ts": 1794514202000,
+      "publishedAt": "2026-11-12T20:10:02.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/index/amplitude",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "ts": 1794513600000,
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "UARX Space Marks a Milestone for Spain’s Space Industry with the Maiden Flight of OSSIE-D, Featuring a Complete Power Subsystem Supplied by DHV Technology",
+      "url": "https://spacenews.com/uarx-space-marks-a-milestone-for-spains-space-industry-with-the-maiden-flight-of-ossie-d-featuring-a-complete-power-subsystem-supplied-by-dhv-technology/",
+      "summary": "Nigrán, Spain | November 12 2026 – UARX Space has achieved a major milestone for Spain’s space industry with the deployment of OSSIE-D, an Orbital Transfer Vehicle (OTV) designed and […] The post UARX Space Marks a Miles…",
+      "ts": 1794513600000,
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "What role does industry play in Europe’s space sovereignty push?",
+      "url": "https://spacenews.com/what-role-does-industry-play-in-europes-space-sovereignty-push/",
+      "summary": "In this episode, SpaceNews’ Jason Rainbow interviews Atle Woello, the CEO and senior vice president of the space systems and surveillance business unit at Kongsberg NanoAvionics. They discuss the role […] The post What r…",
+      "ts": 1794512435000,
+      "publishedAt": "2026-11-12T19:40:35.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Heart in the Sky at NASA Kennedy",
+      "url": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
+      "summary": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy …",
+      "ts": 1794510769000,
+      "publishedAt": "2026-11-12T19:12:49.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Neuroprotective Protein Atlas Positions the Blood-Brain Barrier as a Selective Checkpoint",
+      "url": "https://www.genengnews.com/topics/translational-medicine/neuroprotective-protein-atlas-positions-the-blood-brain-barrier-as-a-selective-checkpoint/",
+      "summary": "The blood-brain barrier keeps most proteins in the bloodstream out of the brain, but not all. The pathways that import them are damaged early in Alzheimer’s disease models, hinting at new ways to treat the disease. The p…",
+      "ts": 1794509989000,
+      "publishedAt": "2026-11-12T18:59:49.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Ames Stars of the Month: November 2026",
@@ -120,6 +192,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "ts": 1794484800000,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "American Cancer Society revises guidelines, urges routine PSA screening for prostate cancer",
       "url": "https://www.statnews.com/2026/11/12/prostate-cancer-screening-guidelines-updated-acs/?utm_campaign=rss",
@@ -127,6 +208,51 @@
       "ts": 1794484800000,
       "publishedAt": "2026-11-12T12:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Aid is the ‘only hope’ for millions in Sudan, WFP chief warns, as funding cuts deepen hunger crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168793",
+      "summary": "The World Food Programme’s (WFP) new Executive Director has warned that funding cuts are worsening Sudan’s hunger crisis following his first field mission to the country, where he met families displaced by conflict and s…",
+      "ts": 1794484800000,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "New platform aims to get money moving before disaster strikes",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168794",
+      "summary": "UN agencies on Thursday launched a joint platform at COP31 in Antalya, Türkiye, that aims to secure access to more than $3 billion in risk financing to protect 75 million people and their livelihoods from climate shocks …",
+      "ts": 1794484800000,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP31: Cities rise up the climate agenda as leaders face demands for action",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168792",
+      "summary": "From flooded homes to melting Himalayan glaciers, the human cost of climate change took centre stage at COP31 on Thursday, as world leaders turned their attention to protecting cities and vulnerable communities, while ac…",
+      "ts": 1794484800000,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Kenya begins countdown towards end of Ebola after last patient discharged",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168790",
+      "summary": "Kenya began a 42-day countdown to the end of its Ebola outbreak on Thursday, a day after the last patient being treated for the disease went home and 11 people were released from quarantine.",
+      "ts": 1794484800000,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti: More than 1,000 killed between July and September, UN report reveals",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168789",
+      "summary": "More than 1,000 people were killed in Haiti during the third quarter of this year, as armed gangs continue to terrorize the population in the capital Port-au-Prince and beyond, the UN team in the island nation, said in i…",
+      "ts": 1794484800000,
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -589,7 +715,7 @@
     },
     {
       "source": "United Nations News",
-      "title": "Lebanon: After 48 years patrolling the Blue Line, UN peacekeepers prepare exit",
+      "title": "Lebanon: Devastation awaits returnees as UN peacekeepers prepare exit",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168784",
       "summary": "The situation in southern Lebanon remains volatile and extremely difficult for communities trying to rebuild their lives, UN peacekeepers based there report, despite a significant decrease in hostilities following an agr…",
       "ts": 1794398400000,
@@ -682,132 +808,6 @@
       "title": "A Markovian SuASR epidemic framework with stochastic external factors",
       "url": "https://arxiv.org/abs/2611.12989",
       "summary": "arXiv:2611.12989v1 Announce Type: new Abstract: Epidemic waves are often shaped by uncertain external drivers, such as environmental variability or behavioral and policy changes, that can randomly amplify or dampen trans…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EvoSurv: Evolution-Aware Multimodal Survival Modeling Reveals Complementary Prognostic Signals",
-      "url": "https://arxiv.org/abs/2611.13190",
-      "summary": "arXiv:2611.13190v1 Announce Type: new Abstract: Accurate cancer survival prediction remains challenging due to tumor heterogeneity. Although multimodal survival models integrate clinical and molecular data, they often ov…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Chemotactic recruitment offsets congestion in honeybee trophallaxis",
-      "url": "https://arxiv.org/abs/2611.13314",
-      "summary": "arXiv:2611.13314v1 Announce Type: new Abstract: Honeybee colonies distribute food by trophallaxis, a sequence of local interactions in which nectar donors transfer resources to hungry nestmates. Efficient transfer requir…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A probabilistic model of visual segmentation explains early visual cortical dynamics",
-      "url": "https://arxiv.org/abs/2611.13316",
-      "summary": "arXiv:2611.13316v1 Announce Type: new Abstract: Neural dynamics are a central feature of biological neural systems. In the visual cortex, the functional role of neural dynamics is poorly understood, particularly for stat…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
-      "url": "https://arxiv.org/abs/2611.13348",
-      "summary": "arXiv:2611.13348v1 Announce Type: new Abstract: Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can onl…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying the impact of 3D diffusion and local versus global removal by surface deposition on indoor airborne transmission",
-      "url": "https://arxiv.org/abs/2611.13372",
-      "summary": "arXiv:2611.13372v1 Announce Type: new Abstract: The Viral Infection Risk Indoor Simulator (VIRIS) [Xue et al. 2024] combines architectural layout, people movement, and airborne transmission modelling to predict infection…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Dose Makes the Poison: Exposure-Aware Evaluation of Generative Drug Design",
-      "url": "https://arxiv.org/abs/2611.13398",
-      "summary": "arXiv:2611.13398v1 Announce Type: new Abstract: Generative models are increasingly used to propose molecules for drug discovery. They can produce far more candidates than can be experimentally tested, making computationa…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Hierarchical View of Ecological Encounters",
-      "url": "https://arxiv.org/abs/2611.13466",
-      "summary": "arXiv:2611.13466v1 Announce Type: new Abstract: Encounters between individuals, or between individuals and entities like vehicles, are central to understanding a host of topics in ecology and related fields. Problems of …",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Ayurvedic Rasayana Restores Lipid Homeostasis in Liver: Insights from Systems Biology Studies",
-      "url": "https://arxiv.org/abs/2611.13551",
-      "summary": "arXiv:2611.13551v1 Announce Type: new Abstract: MASLD and obesity characterized by hepatic lipid accumulation are known risk factors to manifest into Type 2 diabetes (T2D). Increased hepatic lipids due to interorgan cros…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Human and Machine Annotations Predict Brain Responses to Naturalistic Movies Across Development",
-      "url": "https://arxiv.org/abs/2611.13637",
-      "summary": "arXiv:2611.13637v1 Announce Type: new Abstract: Naturalistic movie watching provides a powerful framework for studying dynamic brain function, but linking movie content to neural responses typically relies on labor-inten…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Similar visual tuning conceals different recovery dynamics in a model of macaque V1",
-      "url": "https://arxiv.org/abs/2611.13692",
-      "summary": "arXiv:2611.13692v1 Announce Type: new Abstract: Biologically detailed neuronal networks can model how brain circuits perform observed functions, but their high computational cost limits the comparisons needed to test bio…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Detection of local recombination and mutation hotspots in bacterial genomes using neural posterior estimation",
-      "url": "https://arxiv.org/abs/2611.13763",
-      "summary": "arXiv:2611.13763v1 Announce Type: new Abstract: Motivation: Recombination and mutation rates in bacteria vary along the genome, and regions of elevated rate (hotspots) often reflect selection on specific genes. Detecting…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neuromodulation Through Intrinsic Noise",
-      "url": "https://arxiv.org/abs/2611.13780",
-      "summary": "arXiv:2611.13780v1 Announce Type: new Abstract: Neuromodulation, the modulation of excitability through the regulation of neuronal parameters, is a key tool in neuromorphic control design. This paper investigates how spi…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data",
-      "url": "https://arxiv.org/abs/2611.13801",
-      "summary": "arXiv:2611.13801v1 Announce Type: new Abstract: Motivation: Gene regulatory networks (GRNs) capture the underlying interactions through which transcription factors (TFs) regulate genes. Based on gene expression data, exi…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Benchmarking large language models for parameter-level structural identifiability classification in epidemic ODE models",
-      "url": "https://arxiv.org/abs/2611.14184",
-      "summary": "arXiv:2611.14184v1 Announce Type: new Abstract: Structural identifiability determines whether unknown parameters can be uniquely recovered from ideal model outputs, making it a prerequisite for interpreting parameter est…",
       "ts": 1794373200000,
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "categoryId": "bio"
