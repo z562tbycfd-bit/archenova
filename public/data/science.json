@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-11-12T01:21:07.727Z",
+  "updated": "2026-11-12T09:26:50.721Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New way of detecting date-rape drug use found in Switzerland",
+      "url": "https://phys.org/news/2026-11-date-rape-drug-switzerland.html",
+      "summary": "Swiss researchers have found a new way of detecting the notorious date-rape drug GHB in urine for up to 72 hours after ingestion, in a possible boon to sexual assault investigations.",
+      "ts": 1794475201000,
+      "publishedAt": "2026-11-12T09:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's Hera spacecraft begins close inspections of an asteroid rammed by NASA in a 2022 test",
+      "url": "https://phys.org/news/2026-11-europe-hera-spacecraft-asteroid-rammed.html",
+      "summary": "A European spacecraft has begun close inspections of an asteroid rammed by NASA four years ago in a planetary defense test.",
+      "ts": 1794474450000,
+      "publishedAt": "2026-11-12T09:07:30.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Baboons made themselves at home in this town, and a battle between their defenders and haters ensued",
+      "url": "https://phys.org/news/2026-11-baboons-home-town-defenders-haters.html",
+      "summary": "The divisions over baboons run deep in Simon's Town, where their defenders and haters have clashed on social media and sometimes in real life for years.",
+      "ts": 1794474383000,
+      "publishedAt": "2026-11-12T09:06:23.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How potentials and electric fields together control reactions on catalyst surfaces",
+      "url": "https://phys.org/news/2026-11-potentials-electric-fields-reactions-catalyst.html",
+      "summary": "Researchers at the Interface Science Department (ISC) have shown that electrochemical reactions at solid-solution interfaces can be impacted by two closely related, yet, distinct factors. The applied potential can drive …",
+      "ts": 1794473883000,
+      "publishedAt": "2026-11-12T08:58:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From Romania to Kazakhstan, summer droughts linked to less winter ice in two rapidly warming seas",
+      "url": "https://phys.org/news/2026-11-romania-kazakhstan-summer-droughts-linked.html",
+      "summary": "This summer, with its scarce rainfall and repeated heat waves, witnessed one of the most severe droughts in Europe since 1540. The resulting wildfires across western Europe received considerable media attention, but east…",
+      "ts": 1794459601000,
+      "publishedAt": "2026-11-12T05:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How war has connected the world for 500 years",
+      "url": "https://phys.org/news/2026-11-war-world-years.html",
+      "summary": "With wars raging in Ukraine and across the Middle East, commentators increasingly ask whether we're sliding toward a third world war. But what makes a war \"global\"?",
+      "ts": 1794454801000,
+      "publishedAt": "2026-11-12T03:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indonesia fires burned through nearly 2.9 million hectares: Monitor",
+      "url": "https://phys.org/news/2026-11-indonesia-million-hectares.html",
+      "summary": "Fires in Indonesia driven partly by a strong El Niño have burned through 2.88 million hectares (7.1 million acres) so far in 2026, a monitor analyzing satellite imagery told AFP on Wednesday.",
+      "ts": 1794452408000,
+      "publishedAt": "2026-11-12T03:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Only half of England's young workers outside higher education secure permanent contracts, down from 81%",
+      "url": "https://phys.org/news/2026-11-england-young-workers-higher-permanent.html",
+      "summary": "The study of young people in England found that among those who did not progress to higher education, only 16% secured apprenticeships and just 23% had secured stable work by ages 19–20. Of those in work, only half had a…",
+      "ts": 1794450001000,
+      "publishedAt": "2026-11-12T02:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Retired ocean liner to become largest artificial reef in the world",
@@ -41,6 +105,54 @@
       "summary": "The 2019 Event Horizon Telescope (EHT) image was the work of hundreds of scientists and captured the first direct view of a black hole's shadow—becoming one of the most recognized scientific images of the modern era. A t…",
       "ts": 1794441604000,
       "publishedAt": "2026-11-12T00:00:04.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Autapse-inspired neuromorphic hardware with synapse–neuron integration for bidirectional feedback control",
+      "url": "https://www.nature.com/articles/s41467-026-79401-z",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Thin-film lithium niobate waveguide-integrated p-i-n Tungsten selenide photodiodes with 10Gbit/s data reception",
+      "url": "https://www.nature.com/articles/s41467-026-79595-2",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structural basis of ligand-mediated transition to higher-order rubisco assemblies",
+      "url": "https://www.nature.com/articles/s41467-026-79451-3",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Latitude modulates climate-driven maize yield gains across the central U.S. “warming hole”",
+      "url": "https://www.nature.com/articles/s41467-026-79428-2",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Phylogeographic and functional assembly of population-level bacterial immunity",
+      "url": "https://www.nature.com/articles/s41467-026-79636-w",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "SIP-enabled multi-omics reveals soil microbiome responses to drought and rehydration",
+      "url": "https://www.nature.com/articles/s41467-026-79474-w",
+      "summary": "",
+      "ts": 1794441600000,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -687,118 +799,6 @@
       "title": "Neural Networks with Local Converging Inputs for Solving the 3D Stokes Equations on Unstructured Meshes: Novel Techniques and Advances",
       "url": "https://arxiv.org/abs/2611.12963",
       "summary": "arXiv:2611.12963v1 Announce Type: new Abstract: Neural-network surrogates for fluid-flow PDEs usually learn the solution globally, which requires large networks and many high-fidelity training simulations. Neural network…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Beltrami Mode in Extreme Fractional Hydrodynamics under Stochastic Forcing",
-      "url": "https://arxiv.org/abs/2611.12965",
-      "summary": "arXiv:2611.12965v1 Announce Type: new Abstract: We construct an exact stochastic solution of the extreme order endpoint of adaptive fractional Navier Stokes (AFNS) hydrodynamics on the three-dimensional periodic torus. A…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A constrained mixed variational formulation with Legendre-dual defects for incremental irreversible thermodynamics",
-      "url": "https://arxiv.org/abs/2611.12967",
-      "summary": "arXiv:2611.12967v1 Announce Type: new Abstract: We present a constrained mixed variational formulation for incremental irreversible thermodynamics. A single augmented action combines a linearized contact-increment penalt…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dust matter cosmology in modified symmetric teleparallel $f(Q,T)$ gravity",
-      "url": "https://arxiv.org/abs/2611.12986",
-      "summary": "arXiv:2611.12986v1 Announce Type: new Abstract: We investigate the nonlinear $f(Q,T)$ gravity model, $f(Q,T) = \\alpha Q^n + \\beta T + \\gamma$, which represents a nontrivial coupling between geometry and matter in the con…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct Multispectral Satellite Nowcasting of Gridded Surface Solar Radiation",
-      "url": "https://arxiv.org/abs/2611.12999",
-      "summary": "arXiv:2611.12999v1 Announce Type: new Abstract: Surface shortwave radiation (SWR) can change within minutes as clouds evolve, but operational forecasts often trade spatial detail and update frequency for forecast range. …",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy: the Route from the Gaussian Field to the Statistical Mechanics of the Thermal Radiation",
-      "url": "https://arxiv.org/abs/2611.13054",
-      "summary": "arXiv:2611.13054v1 Announce Type: new Abstract: Maximum Entropy or canonical typicality applied to the electromagnetic field can provide starting points for arriving at the Bose distribution of the photon numbers of ther…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical Investigations on Bitumen Liberation from Oil Sands Lump",
-      "url": "https://arxiv.org/abs/2611.13063",
-      "summary": "arXiv:2611.13063v1 Announce Type: new Abstract: The dynamic liberation and digestion of viscous oil-solid aggregates under turbulent flow is a critical transport phenomenon in multiphase chemical processes, including slu…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electric Propulsion Database Development and Integrated Modelling Analysis",
-      "url": "https://arxiv.org/abs/2611.13121",
-      "summary": "arXiv:2611.13121v1 Announce Type: new Abstract: Electric propulsion (EP) systems require significant subsystem integration and data driven mod- elling for accurate sizing. This paper is an overview of a high-fidelity dat…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Autonomous Optimization of Numerical Algorithms by an AI Agent: Application to Atomistic Simulation",
-      "url": "https://arxiv.org/abs/2611.13143",
-      "summary": "arXiv:2611.13143v1 Announce Type: new Abstract: Coding agents built on large language models, run in automated improvement loops, can discover more efficient algorithms. We present AIOA, a framework that brings this appr…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Everything in its right place: attention is a radio head",
-      "url": "https://arxiv.org/abs/2611.13146",
-      "summary": "arXiv:2611.13146v1 Announce Type: new Abstract: Attention, the core of language models, is a digital calculation over tokens: an exponential selects them, a division normalizes and a positional code sets the order. We sh…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy Dissipation Modulates Sensitivity to Corner Advantage in Weighted Dice",
-      "url": "https://arxiv.org/abs/2611.13149",
-      "summary": "arXiv:2611.13149v1 Announce Type: new Abstract: Weighted dice have pedagogical value and a range of broader implications. The physics of such dice provides an entry point for understanding state probabilities, center-of-…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Background-free and laser-ionization minimized single-shot fs-EFISH in luminous pulsed plasmas",
-      "url": "https://arxiv.org/abs/2611.13158",
-      "summary": "arXiv:2611.13158v1 Announce Type: new Abstract: This work introduces spectrally tuned electric field induced second harmonic (t-EFISH) generation for substantially reducing or eliminating background plasma emission in si…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chemotactic Horizons Regulate Threshold Dynamics in the Biological Carbon Pump",
-      "url": "https://arxiv.org/abs/2611.13165",
-      "summary": "arXiv:2611.13165v1 Announce Type: new Abstract: Microbial encounters with sinking marine snow regulate organic carbon remineralization, acting as a critical knob in the ocean's biological carbon pump. Yet how the vast di…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-power X-Point Target divertor experiments on the TCV tokamak",
-      "url": "https://arxiv.org/abs/2611.13179",
-      "summary": "arXiv:2611.13179v1 Announce Type: new Abstract: Stationary power exhaust in the X-Point Target (XPT) divertor configuration is investigated in high-power ($2.5\\,\\text{MW}$) TCV L-mode discharges, in which the Lengyel det…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Molecular Gas Optics Using Vibrational Population Density Refraction",
-      "url": "https://arxiv.org/abs/2611.13242",
-      "summary": "arXiv:2611.13242v1 Announce Type: new Abstract: Gas optics holds promise for development of advanced optical elements with 2-3 orders of magnitude higher damage threshold than any solid-state optics. Here, we demonstrate…",
       "ts": 1794373200000,
       "publishedAt": "2026-11-11T05:00:00.000Z"
     }

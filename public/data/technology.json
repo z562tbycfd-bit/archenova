@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-11-12T01:21:10.163Z",
+  "updated": "2026-11-12T09:26:53.221Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+      "summary": "APOD Science APOD APOD: 2026 November 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1794459900000,
+      "publishedAt": "2026-11-12T05:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Scotland’s Flow Country",
+      "url": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
+      "summary": "Blanket bogs in the Scottish Highlands store vast amounts of carbon.",
+      "ts": 1794459660000,
+      "publishedAt": "2026-11-12T05:01:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+      "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an ar…",
+      "ts": 1794444095000,
+      "publishedAt": "2026-11-12T00:41:35.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Senate committee takes up nominees for NASA chief financial officer and inspector general",
@@ -127,6 +154,42 @@
       "ts": 1794401773000,
       "publishedAt": "2026-11-11T12:56:13.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza winter aid: ‘No more delay’, Fletcher tells governments stalling on support",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168788",
+      "summary": "The UN’s Emergency Relief Coordinator, Tom Fletcher, expressed deep concern about the deteriorating humanitarian situation in Gaza, as UN member states and partners have been repeatedly delaying sending their support to …",
+      "ts": 1794398400000,
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Make or bake time’: Guterres urges climate justice pact as leaders gather at COP31",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168783",
+      "summary": "UN chief António Guterres called for a new global climate justice agreement at COP31 on Wednesday, urging governments to tax fossil fuel companies to help countries bearing the brunt of a crisis they did little to cause.…",
+      "ts": 1794398400000,
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "From Japan to Rwanda, early warnings are saving lives – but millions remain unprotected",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168787",
+      "summary": "Early warning systems are saving lives across the globe, but for millions of people the warning never arrives, UN Secretary-General António Guterres said on Wednesday, urging the world to protect every person on Earth by…",
+      "ts": 1794398400000,
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Lebanon: After 48 years patrolling the Blue Line, UN peacekeepers prepare exit",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168784",
+      "summary": "The situation in southern Lebanon remains volatile and extremely difficult for communities trying to rebuild their lives, UN peacekeepers based there report, despite a significant decrease in hostilities following an agr…",
+      "ts": 1794398400000,
+      "publishedAt": "2026-11-11T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "IAEA News",
@@ -748,69 +811,6 @@
       "ts": 1794355200000,
       "publishedAt": "2026-11-11T00:00:00.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Democrats take new step toward investigating Trump’s drug pricing deals",
-      "url": "https://www.statnews.com/2026/11/10/democrats-investigate-most-favored-nation-deals-letters-drugmakers/?utm_campaign=rss",
-      "summary": "Incoming Democratic chairs of key committees have taken a step toward investigating MFN drug pricing agreements between drugmakers and the Trump administration.",
-      "ts": 1794354900000,
-      "publishedAt": "2026-11-10T23:55:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Wyden, Sanders hand-in-hand on ‘Medicare for All’ initiative",
-      "url": "https://www.statnews.com/2026/11/10/dc-diagnosis-wyden-sanders-aligned-on-medicare-for-all/?utm_campaign=rss",
-      "summary": "Sen. Bernie Sanders said that he wants to lower the Medicare eligibility age by 10 years, among other initiatives.",
-      "ts": 1794341120000,
-      "publishedAt": "2026-11-10T20:05:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
-      "summary": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human…",
-      "ts": 1794338565000,
-      "publishedAt": "2026-11-10T19:22:45.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
-      "url": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
-      "summary": "NASA will welcome home the Expedition 74 crew during a public event at Space Center Houston following their return from a long-duration mission aboard the International Space Station. NASA astronauts Jessica Meir, Jack H…",
-      "ts": 1794333993000,
-      "publishedAt": "2026-11-10T18:06:33.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Former Eli Lilly rep claims she was fired for complaining about marketing of Mounjaro diabetes drug",
-      "url": "https://www.statnews.com/pharmalot/2026/11/10/former-lilly-rep-claims-she-was-fired-for-complaining-about-marketing-of-mounjaro-diabetes-drug/?utm_campaign=rss",
-      "summary": "A former Eli Lilly sales rep filed a lawsuit alleging she was fired after claiming the company was inappropriately promoting its Mounjaro diabetes drug to combat weight loss.",
-      "ts": 1794333870000,
-      "publishedAt": "2026-11-10T18:04:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "How Breast Cancer Chemotherapy May Impact Biological Aging and Loss of Healthy Life Years",
-      "url": "https://www.genengnews.com/topics/cancer/how-breast-cancer-chemotherapy-may-impact-biological-aging-and-loss-of-healthy-life-years/",
-      "summary": "Chemotherapy helps many women survive breast cancer, but the results of new research suggest that chemotherapy may also accelerate biological aging beyond chronological age and increase the risk of earlier death from oth…",
-      "ts": 1794331611000,
-      "publishedAt": "2026-11-10T17:26:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Men’s use of chatbots for therapy, and earnings season highlights",
-      "url": "https://www.statnews.com/2026/11/10/chatbots-for-men-and-earnings-highlights-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Growing optimism around chatbots and men who avoid therapy, and highlights from the earnings season.",
-      "ts": 1794331122000,
-      "publishedAt": "2026-11-10T17:18:42.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
