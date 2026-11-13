@@ -75531,3 +75531,79 @@ main#home-top
     transition: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   UNIFIED OUTER FRAME GEOMETRY — 2026
+
+   Targets:
+   - CIVILIZATION VISION
+   - ARCHENOVA INQUIRY
+   - CIVILIZATION OS
+
+   Reference:
+   - ARCHENOVA VALLEY
+
+   Geometry only.
+   No background, blur, layout, or interaction changes.
+========================================================== */
+
+/* ==========================================================
+   01 — DESKTOP / TABLET
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home
+> :is(
+  section#oryvanth-civilization,
+  section#archenova-inquiry,
+  section#archenova-civilization-os
+).an-home-2026__section {
+  border: 1px solid rgba(255, 255, 255, 0.055) !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+}
+
+/* ==========================================================
+   02 — MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+  main#home-top.an-home-2026.archenova-twin-home
+  > :is(
+    section#oryvanth-civilization,
+    section#archenova-inquiry,
+    section#archenova-civilization-os
+  ).an-home-2026__section {
+    border-radius: 24px !important;
+  }
+}
+
+/* ==========================================================
+   END — UNIFIED OUTER FRAME GEOMETRY
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
