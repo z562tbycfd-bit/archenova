@@ -74397,3 +74397,1137 @@ main#home-top
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA INQUIRY
+   UNIFIED CIVILIZATIONAL QUESTION SPACE
+   PRESERVE EXISTING HOME OBSIDIAN GLASS
+========================================================== */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__intro {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 52px) 16px 30px;
+  text-align: center;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__eyebrow {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 10px;
+  letter-spacing: .18em;
+  color: rgba(235, 239, 245, .48);
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__title {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 52px);
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: -.035em;
+  color: rgba(246, 248, 250, .95);
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__lead {
+  margin: 18px auto 30px;
+  max-width: 680px;
+  font-size: clamp(13px, 1.5vw, 16px);
+  line-height: 1.8;
+  color: rgba(236, 240, 245, .65);
+}
+
+/* Tab navigation */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__nav-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  min-height: 46px;
+  padding: 12px 22px;
+
+  border: 1px solid rgba(255,255,255,.075);
+  border-radius: 999px;
+  background: rgba(255,255,255,.025);
+
+  color: rgba(240,243,247,.65);
+  font: inherit;
+  font-size: 11px;
+  letter-spacing: .10em;
+  cursor: pointer;
+
+  transition:
+    background .25s ease,
+    border-color .25s ease,
+    color .25s ease;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__nav-item:hover {
+  background: rgba(255,255,255,.06);
+  color: rgba(248,250,252,.95);
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__nav-item.is-selected {
+  background: rgba(255,255,255,.10);
+  border-color: rgba(255,255,255,.22);
+  color: #fff;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__nav-number {
+  opacity: .45;
+  font-size: 10px;
+}
+
+/* Inquiry panel */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__panel[hidden] {
+  display: none !important;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__panel:not([hidden]) {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__heading {
+  padding: 30px 12px 20px;
+  text-align: center;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__number {
+  color: rgba(235,240,245,.45);
+  font-size: 10px;
+  letter-spacing: .14em;
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__heading h3 {
+  margin: 12px 0;
+  font-size: clamp(22px, 2.8vw, 34px);
+  font-weight: 350;
+  color: rgba(248,250,252,.94);
+}
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__heading p {
+  margin: 0 auto;
+  max-width: 700px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: rgba(236,240,245,.58);
+}
+
+/* Embedded components */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__content {
+  width: 100%;
+  min-width: 0;
+  overflow: visible;
+}
+
+/* Footer */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__footer {
+  padding: 28px 12px 8px;
+  text-align: center;
+  color: rgba(235,240,245,.45);
+  font-size: 10px;
+  letter-spacing: .12em;
+  line-height: 1.8;
+}
+
+/* Accessibility */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__nav-item:focus-visible {
+  outline: 2px solid rgba(235,240,250,.85);
+  outline-offset: 4px;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  main#home-top
+  #archenova-inquiry
+  .an-inquiry-frame__intro {
+    padding: 26px 10px 20px;
+  }
+
+  main#home-top
+  #archenova-inquiry
+  .an-inquiry-frame__nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 8px;
+  }
+
+  main#home-top
+  #archenova-inquiry
+  .an-inquiry-frame__nav-item {
+    width: 100%;
+    min-width: 0;
+    padding: 12px 8px;
+    font-size: 10px;
+    letter-spacing: .03em;
+  }
+
+  main#home-top
+  #archenova-inquiry
+  .an-inquiry-frame__heading {
+    padding: 24px 8px 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main#home-top
+  #archenova-inquiry
+  .an-inquiry-frame__nav-item {
+    transition: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   INQUIRY → ARCHITECTURE SPACING
+
+   Preserve existing obsidian glass design.
+   Add breathing room between independent sections.
+========================================================== */
+
+/* Desktop / Tablet */
+main#home-top
+> section#archenova-inquiry {
+  margin-bottom: clamp(28px, 4vw, 56px) !important;
+}
+
+/* Prevent the next section from overlapping */
+
+main#home-top
+> section#archenova-architecture-of-civilization {
+  position: relative;
+  z-index: 1;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  main#home-top
+  > section#archenova-inquiry {
+    margin-bottom: 24px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION OS
+   EMBEDDED FRAME COMPATIBILITY
+========================================================== */
+
+main#home-top
+> section#archenova-civilization-os {
+  min-height: 0;
+  height: auto;
+  overflow: visible;
+  margin-top: clamp(28px, 4vw, 56px);
+}
+
+main#home-top
+> section#archenova-civilization-os
+> .an-home-2026__glass {
+  min-height: 0;
+  height: auto;
+}
+
+/* Embedded portal: no second HOME frame */
+
+.an-cos-home.an-cos-home--embedded {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 0 !important;
+  height: auto !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  overflow: visible;
+}
+
+/* Keep existing atmospheric effects inside the portal */
+
+.an-cos-home--embedded .an-cos-home__atmosphere {
+  pointer-events: none;
+}
+
+/* Preserve content layout without fixed section height */
+
+.an-cos-home--embedded .an-cos-home__layout {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
+}
+
+/* Prevent internal content from overflowing on mobile */
+
+.an-cos-home--embedded .an-cos-home__body,
+.an-cos-home--embedded .an-cos-home__systems,
+.an-cos-home--embedded .an-cos-home__execution {
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  main#home-top
+  > section#archenova-civilization-os {
+    margin-top: 24px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   VALLEY → CIVILIZATION OS
+   REFINED GLASS FRAME SPACING
+========================================================== */
+
+/* Desktop / Tablet */
+main#home-top
+> section#archenova-civilization-os {
+  margin-top: clamp(32px, 4.5vw, 64px) !important;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  main#home-top
+  > section#archenova-civilization-os {
+    margin-top: 28px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / KNOWLEDGE INTEGRITY
+
+   Global Stylesheet
+   2026
+
+   Design:
+   - Deep black aesthetics
+   - Subtle transparent glass
+   - Spacious editorial typography
+   - Scientific clarity
+   - Responsive layouts
+
+   Owner:
+   app/components/home/ArcheNovaKnowledgeIntegrity.tsx
+========================================================== */
+
+/* ==========================================================
+   ROOT
+========================================================== */
+
+.an-ki {
+  width: 100%;
+  min-width: 0;
+  color: #f0f2f6;
+}
+
+/* ==========================================================
+   INTRODUCTION
+========================================================== */
+
+.an-ki__header {
+  max-width: 850px;
+  margin-bottom: 48px;
+}
+
+.an-ki__eyebrow,
+.an-ki__section-heading,
+.an-ki__principle > span,
+.an-ki__boundary > span {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: rgba(235, 240, 250, 0.5);
+}
+
+.an-ki__title {
+  margin: 20px 0;
+  font-size: clamp(36px, 5vw, 72px);
+  line-height: 1.08;
+  font-weight: 450;
+  letter-spacing: -0.06em;
+}
+
+.an-ki__title span {
+  display: block;
+  color: rgba(235, 240, 250, 0.52);
+}
+
+.an-ki__statement {
+  font-size: clamp(17px, 2vw, 23px);
+  line-height: 1.6;
+}
+
+.an-ki__description {
+  margin-top: 18px;
+  max-width: 700px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: rgba(235, 240, 250, 0.62);
+}
+
+.an-ki__principle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 30px;
+  padding: 24px;
+  border: 1px solid rgba(235, 240, 250, 0.12);
+  border-radius: 16px;
+  background: rgba(235, 240, 250, 0.025);
+}
+
+.an-ki__principle strong {
+  font-size: clamp(13px, 1.6vw, 17px);
+  font-weight: 450;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+
+/* ==========================================================
+   SECTION HEADINGS
+========================================================== */
+
+.an-ki__section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(235, 240, 250, 0.13);
+}
+
+.an-ki__domains {
+  margin-bottom: 48px;
+}
+
+/* ==========================================================
+   INTEGRITY DOMAIN ACCORDION
+========================================================== */
+
+.an-ki__domain {
+  border-bottom: 1px solid rgba(235, 240, 250, 0.1);
+}
+
+.an-ki__domain-trigger {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 24px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 8px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.an-ki__domain-trigger:focus-visible {
+  outline: 2px solid rgba(185, 210, 250, 0.8);
+  outline-offset: 3px;
+}
+
+.an-ki__number {
+  font-size: 11px;
+  color: rgba(235, 240, 250, 0.45);
+}
+
+.an-ki__domain-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.an-ki__domain-heading strong {
+  font-size: clamp(17px, 2vw, 22px);
+  font-weight: 450;
+}
+
+.an-ki__domain-heading small {
+  font-size: 12px;
+  color: rgba(235, 240, 250, 0.5);
+}
+
+.an-ki__domain-panel {
+  padding: 0 16px 30px 66px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: rgba(235, 240, 250, 0.7);
+}
+
+.an-ki__domain-panel[hidden] {
+  display: none !important;
+}
+
+.an-ki__domain-panel h4 {
+  margin: 24px 0 10px;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: rgba(235, 240, 250, 0.85);
+}
+
+.an-ki__domain-panel ul {
+  padding-left: 20px;
+}
+
+.an-ki__domain-panel li {
+  margin: 8px 0;
+}
+
+/* ==========================================================
+   VERIFICATION GATES
+========================================================== */
+
+.an-ki__section-heading--gates {
+  margin-bottom: 20px;
+}
+
+.an-ki__gates {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.an-ki__gate {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 22px;
+  border: 1px solid rgba(235, 240, 250, 0.1);
+  border-radius: 14px;
+  background: rgba(235, 240, 250, 0.025);
+}
+
+.an-ki__gate > span {
+  font-size: 10px;
+  color: rgba(235, 240, 250, 0.42);
+}
+
+.an-ki__gate strong {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+.an-ki__gate p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: rgba(235, 240, 250, 0.55);
+}
+
+/* ==========================================================
+   EVIDENCE BOUNDARY
+========================================================== */
+
+.an-ki__boundary {
+  margin-top: 36px;
+  padding: 24px;
+  border-left: 1px solid rgba(235, 240, 250, 0.35);
+  background: rgba(235, 240, 250, 0.02);
+}
+
+.an-ki__boundary p {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: rgba(235, 240, 250, 0.62);
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.an-ki__footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(235, 240, 250, 0.1);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: rgba(235, 240, 250, 0.4);
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .an-ki__gates {
+    grid-template-columns: repeat(
+      2,
+      minmax(0, 1fr)
+    );
+  }
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  .an-ki__header {
+    margin-bottom: 32px;
+  }
+
+  .an-ki__domain-trigger {
+    grid-template-columns:
+      26px minmax(0, 1fr) 18px;
+    gap: 10px;
+    padding: 20px 4px;
+  }
+
+  .an-ki__domain-panel {
+    padding-left: 36px;
+  }
+
+  .an-ki__gates {
+    grid-template-columns: 1fr;
+  }
+
+  .an-ki__gate {
+    padding: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION OS FRAME
+   GLOBAL STYLES
+========================================================== */
+
+.an-os-frame {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  color: #f1f3f6;
+  padding: clamp(24px, 5vw, 72px);
+  background: transparent;
+}
+
+.an-os-frame__header {
+  max-width: 850px;
+  margin-bottom: clamp(32px, 5vw, 64px);
+}
+
+.an-os-frame__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: rgba(235, 240, 250, 0.53);
+}
+
+.an-os-frame__line {
+  width: 28px;
+  height: 1px;
+  background: rgba(235, 240, 250, 0.42);
+}
+
+.an-os-frame__title {
+  margin: 28px 0 22px;
+  font-size: clamp(42px, 6vw, 90px);
+  line-height: 1.05;
+  font-weight: 450;
+  letter-spacing: -0.065em;
+}
+
+.an-os-frame__title span {
+  display: block;
+  color: rgba(230, 235, 245, 0.55);
+}
+
+.an-os-frame__statement {
+  font-size: clamp(17px, 2vw, 24px);
+  line-height: 1.6;
+  color: rgba(245, 247, 250, 0.9);
+}
+
+.an-os-frame__description {
+  margin-top: 18px;
+  max-width: 700px;
+  font-size: clamp(13px, 1.3vw, 15px);
+  line-height: 1.9;
+  color: rgba(220, 225, 235, 0.57);
+}
+
+.an-os-frame__tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.an-os-frame__tab {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px 16px;
+  border: 1px solid rgba(235, 240, 250, 0.09);
+  border-radius: 14px;
+  background: rgba(12, 16, 23, 0.2);
+  color: rgba(230, 235, 245, 0.5);
+  cursor: pointer;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  transition:
+    background 220ms ease,
+    border-color 220ms ease,
+    color 220ms ease;
+}
+
+.an-os-frame__tab:hover {
+  background: rgba(225, 235, 250, 0.06);
+  color: #fff;
+}
+
+.an-os-frame__tab.is-active {
+  background: rgba(225, 235, 250, 0.085);
+  border-color: rgba(235, 240, 250, 0.28);
+  color: #fff;
+}
+
+.an-os-frame__tab:focus-visible {
+  outline: 2px solid rgba(180, 205, 245, 0.85);
+  outline-offset: 3px;
+}
+
+.an-os-frame__tab-number {
+  font-size: 10px;
+  color: rgba(230, 235, 245, 0.4);
+}
+
+.an-os-frame__content,
+.an-os-frame__panel,
+.an-os-frame__panel-body {
+  min-width: 0;
+}
+
+.an-os-frame__panel[hidden] {
+  display: none !important;
+}
+
+.an-os-frame__panel-heading {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  padding: 12px 4px 20px;
+  color: rgba(230, 235, 245, 0.56);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.an-os-frame__panel-body {
+  overflow-wrap: anywhere;
+}
+
+/* ==========================================================
+   OVERVIEW
+========================================================== */
+
+.an-os-overview {
+  width: 100%;
+  min-width: 0;
+}
+
+.an-os-overview__intro {
+  max-width: 850px;
+  margin-bottom: 36px;
+}
+
+.an-os-overview__eyebrow,
+.an-os-overview__section-heading,
+.an-os-overview__principle > span,
+.an-os-overview__pathway-label,
+.an-os-overview__boundary > span {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: rgba(235, 240, 250, 0.5);
+}
+
+.an-os-overview__title {
+  margin: 20px 0;
+  font-size: clamp(30px, 4vw, 58px);
+  line-height: 1.12;
+  font-weight: 450;
+  letter-spacing: -0.055em;
+}
+
+.an-os-overview__title span {
+  display: block;
+  color: rgba(235, 240, 250, 0.55);
+}
+
+.an-os-overview__lead {
+  max-width: 780px;
+  font-size: clamp(16px, 1.8vw, 21px);
+  line-height: 1.75;
+  color: rgba(245, 247, 250, 0.88);
+}
+
+.an-os-overview__description {
+  margin-top: 18px;
+  max-width: 740px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: rgba(235, 240, 250, 0.6);
+}
+
+.an-os-overview__principle {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: clamp(22px, 3vw, 36px);
+  margin-bottom: 46px;
+  border: 1px solid rgba(235, 240, 250, 0.12);
+  border-radius: 18px;
+  background: rgba(235, 240, 250, 0.025);
+}
+
+.an-os-overview__principle strong {
+  max-width: 780px;
+  font-size: clamp(15px, 1.8vw, 21px);
+  font-weight: 450;
+  line-height: 1.8;
+}
+
+.an-os-overview__section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(235, 240, 250, 0.13);
+}
+
+.an-os-overview__layers {
+  margin-bottom: 40px;
+}
+
+.an-os-overview__layer {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 18px;
+  padding: 24px 8px;
+  border-bottom: 1px solid rgba(235, 240, 250, 0.1);
+}
+
+.an-os-overview__number {
+  font-size: 11px;
+  color: rgba(235, 240, 250, 0.45);
+}
+
+.an-os-overview__layer-copy h4 {
+  margin: 0 0 10px;
+  font-size: clamp(17px, 2vw, 22px);
+  font-weight: 450;
+}
+
+.an-os-overview__layer-copy p {
+  margin: 0;
+  max-width: 720px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: rgba(235, 240, 250, 0.6);
+}
+
+.an-os-overview__pathway {
+  padding: 26px;
+  border: 1px solid rgba(235, 240, 250, 0.1);
+  border-radius: 16px;
+  background: rgba(235, 240, 250, 0.025);
+}
+
+.an-os-overview__pathway p {
+  margin-top: 16px;
+  font-size: clamp(13px, 1.5vw, 16px);
+  line-height: 2;
+  color: rgba(235, 240, 250, 0.78);
+}
+
+.an-os-overview__boundary {
+  margin-top: 32px;
+  padding: 24px;
+  border-left: 1px solid rgba(235, 240, 250, 0.35);
+  background: rgba(235, 240, 250, 0.02);
+}
+
+.an-os-overview__boundary p {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: rgba(235, 240, 250, 0.6);
+}
+
+/* ==========================================================
+   RESERVED DOMAINS
+========================================================== */
+
+.an-os-frame__reserved {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(24px, 4vw, 56px);
+  border: 1px solid rgba(235, 240, 250, 0.1);
+  border-radius: 20px;
+  background: rgba(12, 16, 23, 0.17);
+}
+
+.an-os-frame__reserved-label {
+  color: rgba(230, 235, 245, 0.46);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+}
+
+.an-os-frame__reserved h3 {
+  margin: 22px 0 14px;
+  font-size: clamp(24px, 3vw, 38px);
+  font-weight: 450;
+  letter-spacing: -0.04em;
+}
+
+.an-os-frame__reserved p {
+  max-width: 680px;
+  color: rgba(230, 235, 245, 0.64);
+  line-height: 1.85;
+  font-size: 14px;
+}
+
+.an-os-frame__reserved-status {
+  margin-top: 28px;
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  color: rgba(230, 235, 245, 0.4);
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.an-os-frame__footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 48px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(235, 240, 250, 0.1);
+  color: rgba(230, 235, 245, 0.4);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  .an-os-frame {
+    padding: 26px 16px 32px;
+  }
+
+  .an-os-frame__tabs {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .an-os-frame__tab {
+    padding: 16px 12px;
+    font-size: 10px;
+  }
+
+  .an-os-frame__panel-heading {
+    flex-direction: column;
+  }
+
+  .an-os-overview__layer {
+    grid-template-columns: 30px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .an-os-overview__principle,
+  .an-os-overview__pathway,
+  .an-os-overview__boundary {
+    padding: 20px;
+  }
+}
+
+/* ==========================================================
+   ACCESSIBILITY
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .an-os-frame__tab {
+    transition: none;
+  }
+}

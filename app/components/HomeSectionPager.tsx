@@ -1,29 +1,39 @@
 "use client";
 
 import {
+  useCallback,
   useEffect,
-  useMemo,
   useRef,
   useState,
 } from "react";
 
 /* ==========================================================
-   ARCHENOVA HOME SECTION PAGER
-   COMPLETE TAP-TO-TOGGLE EDITION
+   ARCHENOVA / HOME SECTION PAGER
 
+   INTEGRATED CIVILIZATION NAVIGATION
    2026
 
    DESIGN PRINCIPLES
-   - Preserve the original visual design
-   - Preserve existing CSS class names
-   - Preserve scroll navigation
-   - Preserve active-section detection
-   - No close icon
-   - No menu icon
-   - No floating toggle button
-   - Fully invisible when collapsed
-   - Tap the HOME background to toggle visibility
-   - Preserve existing HOME interactions
+
+   - Preserve existing visual design.
+   - Preserve all original CSS class names.
+   - Preserve background tap-to-toggle.
+   - Preserve smooth scroll navigation.
+   - Preserve previous / next controls.
+   - Preserve IntersectionObserver.
+   - Improve active-section detection.
+   - Support independent Inquiry section.
+   - Support integrated Civilization OS.
+   - Avoid duplicate HOME section targets.
+   - Respect reduced-motion preferences.
+   - Remain fully invisible when collapsed.
+   - No close icon.
+   - No menu icon.
+   - No floating toggle button.
+
+   CSS ownership:
+   app/globals.css
+
 ========================================================== */
 
 /* ==========================================================
@@ -42,17 +52,28 @@ type ChapterTarget = {
 
    01 — ORYVANTH CIVILIZATION
 
-   02 — ARCHENOVA SPACE
-        ├─ Civilization Synthesis
-        ├─ Civilizational Relations
-        └─ The ArcheNova World
+   02 — ARCHENOVA CIVILIZATION VISION
+        └─ ArcheNovaSpaceFrame
+           ├─ Synthesis
+           ├─ Relations
+           └─ World
 
-   03 — ARCHITECTURE OF CIVILIZATION
+   03 — ARCHENOVA INQUIRY
+        └─ ArcheNovaInquiryFrame
+           ├─ Today's Inquiry
+           └─ Permanent Inquiry
 
-   04 — CIVILIZATION OPERATING SYSTEM
+   04 — THE ARCHITECTURE OF CIVILIZATION
 
-   The three ArcheNova Space chapters are
-   managed inside ArcheNovaSpaceFrame.
+   05 — CIVILIZATION OS
+        └─ ArcheNovaCivilizationOSFrame
+           ├─ Overview
+           ├─ Operations
+           ├─ Integrity
+           └─ Continuity
+
+   Internal tabs are managed by their own frames.
+
 ========================================================== */
 
 const CHAPTER_TARGETS: readonly ChapterTarget[] = [
@@ -61,41 +82,93 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     mark: "❂",
     title: "ORYVANTH",
     subtitle:
-      "The Totality of Existence and Development.",
+      "An Independent Scientific Civilization.",
   },
   {
     id: "archenova-space",
     mark: "✧",
-    title: "ARCHENOVA SPACE",
+    title: "CIVILIZATION VISION",
     subtitle:
       "Synthesis · Relations · World",
+  },
+  {
+    id: "archenova-inquiry",
+    mark: "✪",
+    title: "ARCHENOVA INQUIRY",
+    subtitle:
+      "Today's Inquiry · Permanent Inquiry",
   },
   {
     id: "archenova-architecture-of-civilization",
     mark: "⧉",
     title: "ARCHITECTURE",
     subtitle:
-      "What is the Architecture?",
+      "The Architecture of Civilization.",
   },
   {
-    id: "civilization-operating-system",
+    id: "archenova-civilization-os",
     mark: "⌱",
     title: "CIVILIZATION OS",
     subtitle:
       "Reality-Connected. Correctable by Design.",
   },
-];
+] as const;
+
+/* ==========================================================
+   INTERACTIVE ELEMENT SELECTOR
+
+   HOME background taps must never interfere with:
+
+   - Buttons
+   - Links
+   - Inputs
+   - Tabs
+   - Menus
+   - Editable content
+   - Other interactive elements
+
+========================================================== */
+
+const INTERACTIVE_SELECTOR = [
+  "button",
+  "a",
+  "input",
+  "select",
+  "textarea",
+  "summary",
+  "label",
+  "option",
+  "audio",
+  "video",
+  "iframe",
+  '[role="button"]',
+  '[role="tab"]',
+  '[role="tablist"]',
+  '[role="link"]',
+  '[role="switch"]',
+  '[role="checkbox"]',
+  '[role="radio"]',
+  '[role="menu"]',
+  '[role="menuitem"]',
+  '[role="slider"]',
+  '[role="textbox"]',
+  '[contenteditable="true"]',
+  "[data-home-pager-ignore]",
+].join(", ");
 
 /* ==========================================================
    SCROLL NAVIGATION
 
-   Preserve original smooth scrolling.
+   Preserve native scrollIntoView behavior.
+
 ========================================================== */
 
-function scrollToChapter(id: string) {
+function scrollToChapter(id: string): boolean {
   const element = document.getElementById(id);
 
-  if (!element) return;
+  if (!element) {
+    return false;
+  }
 
   const reducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
@@ -105,6 +178,105 @@ function scrollToChapter(id: string) {
     behavior: reducedMotion ? "auto" : "smooth",
     block: "start",
   });
+
+  return true;
+}
+
+/* ==========================================================
+   VIEWPORT POSITION ANALYSIS
+
+   Determines which HOME environment is closest
+   to the active reading region.
+
+   The active reading region is approximately
+   the central portion of the viewport.
+
+   This is a navigation heuristic, not a
+   measurement of actual reading attention.
+
+========================================================== */
+
+function getViewportActiveChapter(
+  targets: readonly ChapterTarget[],
+): string | null {
+  if (typeof window === "undefined") {
+    return null;
+  }
+
+  const viewportHeight = window.innerHeight;
+
+  if (viewportHeight <= 0) {
+    return null;
+  }
+
+  const readingLine = viewportHeight * 0.42;
+
+  let containingId: string | null = null;
+  let containingDistance = Number.POSITIVE_INFINITY;
+
+  let nearestId: string | null = null;
+  let nearestDistance = Number.POSITIVE_INFINITY;
+
+  for (const target of targets) {
+    const element = document.getElementById(
+      target.id,
+    );
+
+    if (!element) {
+      continue;
+    }
+
+    const rect = element.getBoundingClientRect();
+
+    if (
+      rect.height <= 0 ||
+      rect.width <= 0
+    ) {
+      continue;
+    }
+
+    const intersectsViewport =
+      rect.bottom > 0 &&
+      rect.top < viewportHeight;
+
+    if (!intersectsViewport) {
+      continue;
+    }
+
+    const containsReadingLine =
+      rect.top <= readingLine &&
+      rect.bottom >= readingLine;
+
+    const distanceToReadingLine =
+      containsReadingLine
+        ? 0
+        : Math.min(
+            Math.abs(rect.top - readingLine),
+            Math.abs(rect.bottom - readingLine),
+          );
+
+    const centerDistance = Math.abs(
+      (rect.top + rect.bottom) / 2 -
+        readingLine,
+    );
+
+    if (
+      containsReadingLine &&
+      centerDistance < containingDistance
+    ) {
+      containingDistance = centerDistance;
+      containingId = target.id;
+    }
+
+    if (
+      distanceToReadingLine < nearestDistance
+    ) {
+      nearestDistance = distanceToReadingLine;
+      nearestId = target.id;
+    }
+  }
+
+  return containingId ?? nearestId;
 }
 
 /* ==========================================================
@@ -128,8 +300,25 @@ export default function HomeSectionPager() {
 
   const rootRef = useRef<HTMLElement | null>(null);
 
-  const targets = useMemo(
-    () => CHAPTER_TARGETS,
+  const frameRef = useRef<number | null>(null);
+
+  const targets = CHAPTER_TARGETS;
+
+  /* ========================================================
+     ACTIVE STATE UPDATE
+
+     Avoid redundant React updates.
+  ======================================================== */
+
+  const updateActiveId = useCallback(
+    (nextId: string) => {
+      if (activeIdRef.current === nextId) {
+        return;
+      }
+
+      activeIdRef.current = nextId;
+      setActiveId(nextId);
+    },
     [],
   );
 
@@ -144,17 +333,16 @@ export default function HomeSectionPager() {
   /* ========================================================
      SCREEN TAP TOGGLE
 
-     Tap the HOME background:
+     Tap non-interactive HOME content:
+
        visible → invisible
        invisible → visible
 
-     Ignore:
-       - Pager itself
-       - Buttons
+     Preserve:
+       - Existing HOME controls
+       - Tabs and accordions
        - Links
-       - Form controls
-       - Chapter tabs
-       - Editable content
+       - Form inputs
        - Text selections
        - Interactions outside HOME
 
@@ -162,53 +350,39 @@ export default function HomeSectionPager() {
   ======================================================== */
 
   useEffect(() => {
-    const handleScreenClick = (event: MouseEvent) => {
+    const handleScreenClick = (
+      event: MouseEvent,
+    ) => {
+      if (event.defaultPrevented) {
+        return;
+      }
+
       const target = event.target;
 
       if (!(target instanceof Element)) {
         return;
       }
 
-      /* Only respond to HOME interactions */
+      const home = document.getElementById(
+        "home-top",
+      );
 
-      const home = document.getElementById("home-top");
-
-      if (!home || !home.contains(target)) {
+      if (
+        !home ||
+        !home.contains(target)
+      ) {
         return;
       }
-
-      /* Ignore the navigator itself */
 
       if (rootRef.current?.contains(target)) {
         return;
       }
 
-      /* Preserve existing interactive controls */
-
-      const interactive = target.closest(
-        [
-          "button",
-          "a",
-          "input",
-          "select",
-          "textarea",
-          "summary",
-          "label",
-          '[role="button"]',
-          '[role="tab"]',
-          '[role="link"]',
-          '[role="switch"]',
-          '[role="checkbox"]',
-          '[role="radio"]',
-          '[contenteditable="true"]',
-        ].join(", "),
-      );
-
-      if (interactive) {
+      if (
+        target.closest(INTERACTIVE_SELECTOR)
+      ) {
         return;
       }
-
-      /* Do not toggle while selecting text */
 
       const selection = window.getSelection();
 
@@ -219,8 +393,6 @@ export default function HomeSectionPager() {
       ) {
         return;
       }
-
-      /* Toggle the entire navigator */
 
       setExpanded((previous) => !previous);
     };
@@ -241,14 +413,19 @@ export default function HomeSectionPager() {
   /* ========================================================
      ACTIVE SECTION DETECTION
 
-     Preserve original:
-       - IntersectionObserver
-       - Thresholds
-       - Root margin
-       - Strongest visible section
-       - Active state synchronization
+     IntersectionObserver:
+       detects section visibility.
 
-     Observe only the four HOME destinations.
+     Viewport analysis:
+       selects the active reading region.
+
+     RequestAnimationFrame:
+       prevents repeated synchronous measurements
+       during rapid scrolling.
+
+     Only top-level HOME environments are observed.
+
+     Internal frame tabs are excluded.
   ======================================================== */
 
   useEffect(() => {
@@ -258,7 +435,7 @@ export default function HomeSectionPager() {
       )
       .filter(
         (element): element is HTMLElement =>
-          Boolean(element),
+          element instanceof HTMLElement,
       );
 
     if (elements.length === 0) {
@@ -271,41 +448,65 @@ export default function HomeSectionPager() {
       ratios.set(element.id, 0);
     });
 
+    const detectActiveChapter = () => {
+      frameRef.current = null;
+
+      const viewportId =
+        getViewportActiveChapter(targets);
+
+      if (viewportId) {
+        updateActiveId(viewportId);
+        return;
+      }
+
+      let strongestId: string | null = null;
+      let strongestRatio = 0;
+
+      for (const target of targets) {
+        const ratio =
+          ratios.get(target.id) ?? 0;
+
+        if (ratio > strongestRatio) {
+          strongestRatio = ratio;
+          strongestId = target.id;
+        }
+      }
+
+      if (
+        strongestId &&
+        strongestRatio > 0
+      ) {
+        updateActiveId(strongestId);
+      }
+    };
+
+    const scheduleDetection = () => {
+      if (frameRef.current !== null) {
+        return;
+      }
+
+      frameRef.current =
+        window.requestAnimationFrame(
+          detectActiveChapter,
+        );
+    };
+
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
+        for (const entry of entries) {
           ratios.set(
             entry.target.id,
             entry.isIntersecting
               ? entry.intersectionRatio
               : 0,
           );
-        });
-
-        let strongestId = activeIdRef.current;
-        let strongestRatio = 0;
-
-        targets.forEach((target) => {
-          const ratio =
-            ratios.get(target.id) ?? 0;
-
-          if (ratio > strongestRatio) {
-            strongestRatio = ratio;
-            strongestId = target.id;
-          }
-        });
-
-        if (strongestRatio <= 0) {
-          return;
         }
 
-        if (strongestId !== activeIdRef.current) {
-          activeIdRef.current = strongestId;
-          setActiveId(strongestId);
-        }
+        scheduleDetection();
       },
       {
         threshold: [
+          0,
           0.05,
           0.12,
           0.2,
@@ -313,6 +514,7 @@ export default function HomeSectionPager() {
           0.45,
           0.6,
           0.75,
+          1,
         ],
         rootMargin: "-5% 0px -5% 0px",
       },
@@ -322,10 +524,42 @@ export default function HomeSectionPager() {
       observer.observe(element);
     });
 
+    window.addEventListener(
+      "scroll",
+      scheduleDetection,
+      { passive: true },
+    );
+
+    window.addEventListener(
+      "resize",
+      scheduleDetection,
+      { passive: true },
+    );
+
+    scheduleDetection();
+
     return () => {
       observer.disconnect();
+
+      window.removeEventListener(
+        "scroll",
+        scheduleDetection,
+      );
+
+      window.removeEventListener(
+        "resize",
+        scheduleDetection,
+      );
+
+      if (frameRef.current !== null) {
+        window.cancelAnimationFrame(
+          frameRef.current,
+        );
+
+        frameRef.current = null;
+      }
     };
-  }, [targets]);
+  }, [targets, updateActiveId]);
 
   /* ========================================================
      CURRENT POSITION
@@ -365,37 +599,48 @@ export default function HomeSectionPager() {
   /* ========================================================
      NAVIGATION ACTION
 
-     Navigate to selected section.
-     Automatically hide pager after selection.
+     Navigate to selected HOME environment.
+
+     Hide navigator after successful navigation.
   ======================================================== */
 
-  const navigateTo = (id: string) => {
-    scrollToChapter(id);
+  const navigateTo = useCallback(
+    (id: string) => {
+      const navigated =
+        scrollToChapter(id);
 
-    setExpanded(false);
-  };
+      if (!navigated) {
+        return;
+      }
+
+      updateActiveId(id);
+
+      setExpanded(false);
+    },
+    [updateActiveId],
+  );
 
   /* ========================================================
      UI
 
-     Original class names preserved:
+     ORIGINAL CLASS NAMES PRESERVED
 
-       chapter-navigator
-       chapter-nav-arrow
-       chapter-nav-list
-       chapter-nav-item
-       chapter-nav-mark
-       chapter-nav-copy
+     chapter-navigator
+     chapter-nav-arrow
+     chapter-nav-list
+     chapter-nav-item
+     chapter-nav-mark
+     chapter-nav-copy
 
-     No toggle buttons or additional wrappers.
+     No additional toggle controls.
 
-     When hidden:
+     Collapsed state:
        no icon
        no button
-       no background
-       no border
-       no visible navigator
-  ======================================================== */
+       no visible background
+       no visible border
+
+========================================================== */
 
   return (
     <nav
@@ -455,7 +700,7 @@ export default function HomeSectionPager() {
               }}
               aria-label={`Go to ${target.title}`}
               aria-current={
-                active ? "page" : undefined
+                active ? "location" : undefined
               }
               title={
                 `${target.title} · ${target.subtitle}`

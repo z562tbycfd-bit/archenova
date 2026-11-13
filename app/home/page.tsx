@@ -4,36 +4,71 @@ import { useState } from "react";
 
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
+
 import TodaysInquiryPortal from "../components/TodaysInquiryPortal";
 import HumanityResponsibilityPortal from "../components/HumanityResponsibilityPortal";
+
 import CivilizationSpacePortal from "../components/CivilizationSpacePortal";
 import ArcheNovaValleyPortal from "../components/ArcheNovaValleyPortal";
 import WorkModelsPortal from "../components/WorkModelsPortal";
+
 import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
 import ContinuityHomePortal from "../components/home/ContinuityHomePortal";
 import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
 import OryvanthCivilizationPortal from "../components/home/OryvanthCivilizationPortal";
 import CivilizationalRelationsPortal from "../components/home/CivilizationalRelationsPortal";
 import CivilizationOSPortal from "../components/home/CivilizationOSPortal";
-import ArcheNovaSpaceFrame from"../components/home/ArcheNovaSpaceFrame";
+
+import ArcheNovaSpaceFrame from "../components/home/ArcheNovaSpaceFrame";
+import ArcheNovaInquiryFrame from "../components/home/ArcheNovaInquiryFrame";
+
+import ArcheNovaKnowledgeIntegrity from "../components/home/ArcheNovaKnowledgeIntegrity";
+import ArcheNovaCivilizationOSFrame from "../components/home/ArcheNovaCivilizationOSFrame";
+
 
 /* ==========================================================
-   ORYVANTH CIVILIZATION / FIRST HOME SECTION
+   ARCHENOVA / HOME
 
-   Oryvanth Civilization
-   └─ Civilization Synthesis
-      ├─ Six constitutional charter articles
-      └─ Original scientific and engineering research paper
+   01 / ORYVANTH CIVILIZATION
 
-   Preserved:
-   - Existing section ID
-   - Six constitutional charter articles
-   - Original research paper
-   - Article and paper accordion interactions
-   - Existing glass, cosmos and typography classes
-   - HOME scroll and navigation compatibility
+   02 / ARCHENOVA CIVILIZATION VISION
+        └─ ArcheNovaSpaceFrame
+           ├─ Synthesis
+           ├─ Relations
+           └─ World
 
-   No additional outer section or scroll container.
+   03 / ARCHENOVA INQUIRY
+        └─ ArcheNovaInquiryFrame
+           ├─ Today's Inquiry
+           └─ Permanent Inquiry
+
+   04 / THE ARCHITECTURE OF CIVILIZATION
+
+   05 / CIVILIZATION CONTINUITY
+   06 / WORK MODELS
+   07 / CIVILIZATION SPACE
+   08 / ARCHENOVA VALLEY
+   09 / CIVILIZATION OS
+
+   DESIGN RULES
+
+   - Preserve existing HOME glass design.
+   - Preserve all six charter articles.
+   - Preserve the complete research paper.
+   - Preserve accordion interactions.
+   - Preserve three ArcheNova Space chapters.
+   - Inquiry is an independent HOME section.
+   - Inquiry is not nested inside Architecture.
+   - Avoid duplicate HOME section identifiers.
+========================================================== */
+
+/* ==========================================================
+   CIVILIZATION SYNTHESIS
+
+   Six constitutional charter articles.
+   Original scientific and engineering research paper.
+
+   Existing content and interactions preserved.
 ========================================================== */
 
 function CivilizationSynthesisPortal() {
@@ -185,12 +220,12 @@ function CivilizationSynthesisPortal() {
   const [paperOpen, setPaperOpen] = useState(false);
 
   return (
-   <section
-  id="civilization-synthesis"
-  data-home-chapter="synthesis"
-  className="an-synthesis-home an-space-embedded-section"
-  aria-labelledby="an-synthesis-home-title"
->
+    <section
+      id="civilization-synthesis"
+      data-home-chapter="synthesis"
+      className="an-synthesis-home an-space-embedded-section"
+      aria-labelledby="an-synthesis-home-title"
+    >
       <div className="an-home-2026__glass an-synthesis-home__glass">
         <div className="an-synthesis-home__link">
           <div
@@ -211,23 +246,23 @@ function CivilizationSynthesisPortal() {
               </div>
 
               <h1
-id="an-synthesis-home-title"
-className="an-synthesis-home__title"
->
-Civilization
-<span>Synthesis.</span>
-</h1>
+                id="an-synthesis-home-title"
+                className="an-synthesis-home__title"
+              >
+                Civilization
+                <span>Synthesis.</span>
+              </h1>
 
               <p className="an-synthesis-home__statement">
-Engineering an Independent Scientific Civilization.
-</p>
+                Engineering an Independent Scientific Civilization.
+              </p>
 
-<p className="an-synthesis-home__description">
-A constitutional systems-engineering framework for
-transforming scientific knowledge into verifiable
-infrastructure, accountable institutions, resilient
-systems, and enduring civilizational capability.
-</p>
+              <p className="an-synthesis-home__description">
+                A constitutional systems-engineering framework for
+                transforming scientific knowledge into verifiable
+                infrastructure, accountable institutions, resilient
+                systems, and enduring civilizational capability.
+              </p>
 
               <div className="an-synthesis-home__identity-signature">
                 <span className="an-synthesis-home__identity-rule" />
@@ -238,13 +273,12 @@ systems, and enduring civilizational capability.
             </header>
 
             <div className="an-synthesis-home__experience">
-              {/* ==================================================
-                  CIVILIZATION SYNTHESIS
-                  INTERNAL TO ORYVANTH CIVILIZATION
-              ================================================== */}
+              {/* CIVILIZATIONAL CHARTER */}
 
               <div className="an-synthesis-home__experience-heading">
-                <span>THE ARCHENOVA CIVILIZATIONAL CHARTER</span>
+                <span>
+                  THE ARCHENOVA CIVILIZATIONAL CHARTER
+                </span>
                 <span>01 — 06</span>
               </div>
 
@@ -254,6 +288,7 @@ systems, and enduring civilizational capability.
               >
                 {articles.map((article, index) => {
                   const expanded = openArticle === index;
+
                   const panelId =
                     `an-cs-charter-article-${article.number}`;
 
@@ -263,7 +298,9 @@ systems, and enduring civilizational capability.
                       className={[
                         "an-cs-discipline-item",
                         expanded ? "is-open" : "",
-                      ].filter(Boolean).join(" ")}
+                      ]
+                        .filter(Boolean)
+                        .join(" ")}
                     >
                       <button
                         type="button"
@@ -341,6 +378,8 @@ systems, and enduring civilizational capability.
                   );
                 })}
               </div>
+
+              {/* ORIGINAL RESEARCH PAPER */}
 
               <div className="an-cs-latest-research">
                 <div className="an-cs-latest-research__heading">
@@ -721,30 +760,22 @@ systems, and enduring civilizational capability.
 }
 
 /* ==========================================================
-   CIVILIZATION ARCHITECTURE
+   THE ARCHITECTURE OF CIVILIZATION
 
-   Seven existing destinations preserved.
+   Inquiry has been separated into its own HOME section.
+
+   Architecture now focuses on:
+   - Continuity
+   - Work Models
+   - Civilization Space
+   - ArcheNova Valley
+
+   Existing navigation behavior preserved.
 ========================================================== */
 
 const CIVILIZATION_ARCHITECTURE = [
   {
     number: "01",
-    label: "TODAY'S INQUIRY",
-    title: "Civilization Inquiry",
-    description:
-      "Begin with the questions that shape our future.",
-    target: "todays-inquiry",
-  },
-  {
-    number: "02",
-    label: "PERMANENT INQUIRY",
-    title: "Correctable Civilization",
-    description:
-      "Advance civilization through discovery, innovation, and correction.",
-    target: "humanity-responsibility",
-  },
-  {
-    number: "03",
     label: "CONTINUITY",
     title: "Civilization Continuity",
     description:
@@ -752,7 +783,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "archenova-continuity",
   },
   {
-    number: "04",
+    number: "02",
     label: "WORK MODELS",
     title: "Civilization Engineering",
     description:
@@ -760,7 +791,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "work-models",
   },
   {
-    number: "05",
+    number: "03",
     label: "CIVILIZATION SPACE",
     title: "Civilization Systems",
     description:
@@ -768,7 +799,7 @@ const CIVILIZATION_ARCHITECTURE = [
     target: "civilization-space",
   },
   {
-    number: "06",
+    number: "04",
     label: "ARCHENOVA VALLEY",
     title: "Civilization Implementation",
     description:
@@ -779,6 +810,14 @@ const CIVILIZATION_ARCHITECTURE = [
 
 /* ==========================================================
    ARCHITECTURE ENTRANCE
+
+   Independent from ArcheNova Inquiry.
+
+   Preserves:
+   - Existing CSS classes
+   - Existing black glass design
+   - Existing navigation interaction
+   - Existing HOME section identity
 ========================================================== */
 
 function CivilizationArchitectureEntrance() {
@@ -814,8 +853,8 @@ function CivilizationArchitectureEntrance() {
             </h2>
 
             <p className="an-architecture-home__lead">
-              Seven connected perspectives on how humanity
-              understands, builds, and sustains civilization.
+              Four connected perspectives on how humanity
+              designs, builds, and sustains civilization.
             </p>
 
             <div
@@ -876,11 +915,6 @@ function CivilizationArchitectureEntrance() {
           padding-bottom: clamp(16px, 2.5vw, 36px) !important;
         }
 
-        main.an-home-2026.home-snap.archenova-twin-home
-        > section#archenova-search-section {
-          padding-top: clamp(16px, 2.5vw, 36px) !important;
-        }
-
         main.an-home-2026
         > section#archenova-architecture-of-civilization
         > .an-architecture-home__glass {
@@ -892,11 +926,6 @@ function CivilizationArchitectureEntrance() {
           > section#archenova-architecture-of-civilization {
             padding-bottom: 14px !important;
           }
-
-          main.an-home-2026.home-snap.archenova-twin-home
-          > section#archenova-search-section {
-            padding-top: 14px !important;
-          }
         }
       `}</style>
     </section>
@@ -906,80 +935,117 @@ function CivilizationArchitectureEntrance() {
 /* ==========================================================
    ARCHENOVA / HOME PAGE
 
-   00 / Oryvanth Civilization
-        └─ Civilization Synthesis
-   01 / ArcheNova World
-   02 / Architecture of Civilization
-   03 / Civilization Discovery
-   04 / Today's Inquiry
-   05 / Humanity Responsibility
-   06 / Civilization Continuity
-   07 / Work Models
-   08 / Civilization Space
-   09 / ArcheNova Valley
+   FINAL ORDER
 
-   All existing HOME destinations preserved.
-   Original World Gallery preserved without wrappers.
+   00 — Oryvanth Civilization
+
+   01 — ArcheNova Civilization Vision
+        └─ ArcheNovaSpaceFrame
+
+   02 — ArcheNova Inquiry
+        └─ ArcheNovaInquiryFrame
+
+   03 — The Architecture of Civilization
+
+   04 — Civilization Continuity
+   05 — Work Models
+   06 — Civilization Space
+   07 — ArcheNova Valley
+   08 — Civilization Operating System
+
+   HOME Footer
 ========================================================== */
 
 export default function HomePage() {
- return (
-   <main
-     className="home-snap archenova-twin-home an-home-2026"
-     id="home-top"
-     >
+  return (
+    <main
+      className="home-snap archenova-twin-home an-home-2026"
+      id="home-top"
+    >
+      {/* ==================================================
+          HOME SYSTEMS
+      ================================================== */}
 
-     <MobileHomeScrollReset />
-     <HomeSectionPager />
+      <MobileHomeScrollReset />
+      <HomeSectionPager />
 
-     {/* 00 — ORYVANTH CIVILIZATION */}
-     <OryvanthCivilizationPortal />
+      {/* ==================================================
+          00 — ORYVANTH CIVILIZATION
+      ================================================== */}
 
-     <section
-  id="archenova-space"
-  data-home-section
-  data-home-chapter="archenova-space"
-  className="home-page an-home-2026__section archenova-space-page"
-  aria-label="ArcheNova Space"
->
-  <div className="an-home-2026__glass">
-    <ArcheNovaSpaceFrame
-      synthesis={<CivilizationSynthesisPortal />}
-      relations={<CivilizationalRelationsPortal />}
-      world={<ArcheNovaWorldGallery />}
-    />
-  </div>
-</section>
+      <OryvanthCivilizationPortal />
 
-      {/* 04 — ARCHITECTURE OF CIVILIZATION */}
+      {/* ==================================================
+          01 — ARCHENOVA CIVILIZATION VISION
+
+          Existing ArcheNova Space.
+
+          Three chapters:
+          SYNTHESIS
+          RELATIONS
+          WORLD
+
+          Existing glass frame preserved.
+      ================================================== */}
+
+      <section
+        id="archenova-space"
+        data-home-section
+        data-home-chapter="archenova-space"
+        className="home-page an-home-2026__section archenova-space-page"
+        aria-label="ArcheNova Civilization Vision"
+      >
+        <div className="an-home-2026__glass">
+          <ArcheNovaSpaceFrame
+            synthesis={<CivilizationSynthesisPortal />}
+            relations={<CivilizationalRelationsPortal />}
+            world={<ArcheNovaWorldGallery />}
+          />
+        </div>
+      </section>
+
+      {/* ==================================================
+          02 — ARCHENOVA INQUIRY
+
+          Independent HOME section.
+
+          NOT inside ArcheNovaSpaceFrame.
+          NOT inside CivilizationArchitectureEntrance.
+
+          Two inquiry experiences:
+          TODAY'S INQUIRY
+          PERMANENT INQUIRY
+
+          Existing HOME glass design preserved.
+      ================================================== */}
+
+      <section
+        id="archenova-inquiry"
+        data-home-section
+        data-home-chapter="inquiry"
+        className="home-page an-home-2026__section archenova-inquiry-page"
+        aria-label="ArcheNova Inquiry"
+      >
+        <div className="an-home-2026__glass">
+          <ArcheNovaInquiryFrame
+            today={<TodaysInquiryPortal />}
+            permanent={<HumanityResponsibilityPortal />}
+          />
+        </div>
+      </section>
+
+      {/* ==================================================
+          03 — THE ARCHITECTURE OF CIVILIZATION
+
+          Independent from ArcheNova Inquiry.
+      ================================================== */}
+
       <CivilizationArchitectureEntrance />
-      
 
-      {/* 04 — TODAY'S INQUIRY */}
-      <section
-        id="todays-inquiry"
-        data-home-section
-        className="home-page todays-inquiry-page an-home-2026__section"
-        aria-label="Today's Inquiry"
-      >
-        <div className="an-home-2026__glass">
-          <TodaysInquiryPortal />
-        </div>
-      </section>
+      {/* ==================================================
+          04 — CIVILIZATION CONTINUITY
+      ================================================== */}
 
-      {/* 05 — HUMANITY RESPONSIBILITY */}
-      <section
-        id="humanity-responsibility"
-        data-home-section
-        className="home-page twin-page humanity-responsibility-page an-home-2026__section"
-        aria-label="Can Humanity Remain Responsible for the Power It Creates?"
-      >
-        <div className="an-home-2026__glass">
-          <HumanityResponsibilityPortal />
-        </div>
-      </section>
-
-      {/* 06 — CIVILIZATION CONTINUITY */}
       <section
         id="archenova-continuity"
         data-home-section
@@ -991,7 +1057,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 07 — WORK MODELS */}
+      {/* ==================================================
+          05 — WORK MODELS
+      ================================================== */}
+
       <section
         id="work-models"
         data-home-section
@@ -1003,7 +1072,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 08 — CIVILIZATION SPACE */}
+      {/* ==================================================
+          06 — CIVILIZATION SPACE
+      ================================================== */}
+
       <section
         id="civilization-space"
         data-home-section
@@ -1015,7 +1087,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 09 — ARCHENOVA VALLEY */}
+      {/* ==================================================
+          07 — ARCHENOVA VALLEY
+      ================================================== */}
+
       <section
         id="archenova-valley"
         data-home-section
@@ -1027,10 +1102,34 @@ export default function HomePage() {
         </div>
       </section>
 
-         {/* 10 — CIVILIZATION OPERATING SYSTEM */}
-     <CivilizationOSPortal />
+     {/* ==================================================
+    ARCHENOVA CIVILIZATION OS
+    Independent integrated frame
+================================================== */}
 
-      {/* HOME FOOTER */}
+<section
+  id="archenova-civilization-os"
+  data-home-section
+  data-home-chapter="civilization-os"
+  className="home-page an-home-2026__section archenova-civilization-os-page"
+  aria-label="ArcheNova Civilization OS"
+>
+  <div className="an-home-2026__glass">
+   <ArcheNovaCivilizationOSFrame
+  operations={
+    <CivilizationOSPortal embedded />
+  }
+  integrity={
+    <ArcheNovaKnowledgeIntegrity />
+  }
+/>
+  </div>
+</section>
+
+      {/* ==================================================
+          HOME FOOTER
+      ================================================== */}
+
       <ArcheNovaHomeFooter />
     </main>
   );
