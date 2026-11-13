@@ -322,7 +322,7 @@ export default function ArcheNovaKnowledgeIntegrity() {
         </span>
 
         <span>
-          ARCHENOVA / KNOWLEDGE INTEGRITY
+          ARCHENOVA  KNOWLEDGE INTEGRITY
         </span>
       </footer>
     </section>
