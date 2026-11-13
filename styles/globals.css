@@ -75552,15 +75552,16 @@ main#home-top
    UNIFIED OUTER FRAME GEOMETRY — 2026
 
    Targets:
-   - CIVILIZATION VISION
-   - ARCHENOVA INQUIRY
-   - CIVILIZATION OS
+   01 — ARCHENOVA CIVILIZATIONAL VISION
+   02 — ARCHENOVA INQUIRY
+   03 — CIVILIZATION OS
 
    Reference:
-   - ARCHENOVA VALLEY
+   ARCHENOVA VALLEY
 
    Geometry only.
-   No background, blur, layout, or interaction changes.
+   Preserve backgrounds, transparency, blur,
+   internal glass, content and interactions.
 ========================================================== */
 
 /* ==========================================================
@@ -75569,7 +75570,7 @@ main#home-top
 
 main#home-top.an-home-2026.archenova-twin-home
 > :is(
-  section#oryvanth-civilization,
+  section#archenova-space,
   section#archenova-inquiry,
   section#archenova-civilization-os
 ).an-home-2026__section {
@@ -75585,7 +75586,7 @@ main#home-top.an-home-2026.archenova-twin-home
 @media (max-width: 768px) {
   main#home-top.an-home-2026.archenova-twin-home
   > :is(
-    section#oryvanth-civilization,
+    section#archenova-space,
     section#archenova-inquiry,
     section#archenova-civilization-os
   ).an-home-2026__section {
@@ -75596,7 +75597,6 @@ main#home-top.an-home-2026.archenova-twin-home
 /* ==========================================================
    END — UNIFIED OUTER FRAME GEOMETRY
 ========================================================== */
-
 
 
 
