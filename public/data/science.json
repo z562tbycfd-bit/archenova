@@ -1,7 +1,263 @@
 {
   "ok": true,
-  "updated": "2026-11-13T14:08:51.805Z",
+  "updated": "2026-11-13T21:15:00.772Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Happy face, angry voice: Human–dog interaction study tracks conflicting cues",
+      "url": "https://phys.org/news/2026-11-happy-angry-voice-humandog-interaction.html",
+      "summary": "Dogs, having lived alongside humans for tens of thousands of years, are keenly tuned in to our emotions. Behavioral experiments, brain studies and even measurements of heart rate all suggest dogs respond differently depe…",
+      "ts": 1794603606000,
+      "publishedAt": "2026-11-13T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A perfect couple: Chromium keeps ruthenium grounded in water electrolysis",
+      "url": "https://phys.org/news/2026-11-couple-chromium-ruthenium-grounded-electrolysis.html",
+      "summary": "They say opposites attract, and many couples do fit this pattern. One is pragmatic and down-to-earth, while the other is a dreamer with their head in the clouds. Yet, these differences make them perfect for each other. A…",
+      "ts": 1794602401000,
+      "publishedAt": "2026-11-13T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A newly discovered South African dinosaur was a heavyweight even as a youngster",
+      "url": "https://phys.org/news/2026-11-newly-south-african-dinosaur-heavyweight.html",
+      "summary": "It probably walked on two legs and weighed about 400 kilograms (880 pounds), despite still being a youngster. Meet Nyana rooiwalensis, a newly identified dinosaur species that lived more than 200 million years ago in wha…",
+      "ts": 1794601204000,
+      "publishedAt": "2026-11-13T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular sensor makes invisible traces of mercury easier to see",
+      "url": "https://phys.org/news/2026-11-molecular-sensor-invisible-mercury-easier.html",
+      "summary": "Mercury contamination presents an obvious challenge: it is invisible. A glass of water or a piece of fruit can seem perfectly normal to the naked eye, even when trace amounts of toxic mercury are present. Detecting such …",
+      "ts": 1794600009000,
+      "publishedAt": "2026-11-13T20:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fruit fly sleep protein yields peptides that inhibit drug-resistant bacteria in lab tests",
+      "url": "https://phys.org/news/2026-11-fruit-fly-protein-yields-peptides.html",
+      "summary": "Researchers at University of Tsukuba and collaborating institutions have identified short antimicrobial peptides derived from Nemuri, a sleep-inducing protein in the fruit fly Drosophila melanogaster. The research is pub…",
+      "ts": 1794598804000,
+      "publishedAt": "2026-11-13T19:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New genetic atlas reveals traces of 10,000 years of sheep breeding",
+      "url": "https://phys.org/news/2026-11-genetic-atlas-reveals-years-sheep.html",
+      "summary": "For around 10,000 years, humans have selectively bred sheep for desirable traits. Generation after generation, we have chosen animals for their wool, size and reproductive characteristics and gradually left our mark on t…",
+      "ts": 1794597606000,
+      "publishedAt": "2026-11-13T19:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient rocks reveal a dramatic journey from deep inside Earth",
+      "url": "https://phys.org/news/2026-11-ancient-reveal-journey-deep-earth.html",
+      "summary": "Surface rocks can reveal records of regions they occupied millions of years ago, even if those areas were kilometers below ground. On Türkiye's Marmara Sea's southern shores and islands, granitic rocks that are now expos…",
+      "ts": 1794596414000,
+      "publishedAt": "2026-11-13T19:00:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Evolution found another way to build a primate brain",
+      "url": "https://phys.org/news/2026-11-evolution-primate-brain.html",
+      "summary": "What makes the human brain so much larger and more complex than the brains of many other mammals? Scientists have long sought clues in our DNA. Some discoveries show how genetic changes enable the developing brain to pro…",
+      "ts": 1794596409000,
+      "publishedAt": "2026-11-13T19:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mountain growth spurts may have sparked complex life on Earth",
+      "url": "https://phys.org/news/2026-11-mountain-growth-spurts-complex-life.html",
+      "summary": "Mountain ranges grew higher throughout Earth's history in two distinct \"spurts\" that correlated with the flourishing of biological diversity on our planet, according to new research published in the journal Science Advan…",
+      "ts": 1794596402000,
+      "publishedAt": "2026-11-13T19:00:02.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "In National Geographic’s “Expedition: Saving Our Seas,” it’s all hands on deck",
+      "url": "https://www.sciencenews.org/article/nat-geo-saving-our-seas-documentary",
+      "summary": "The documentary offers a window into scientists’ wonder and joy in their work as they discover new life forms in the depths of the Southern Ocean.",
+      "ts": 1794596400000,
+      "publishedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A likely supermassive neutron star might shed light on the mass gap between neutron stars and black holes",
+      "url": "https://phys.org/news/2026-11-supermassive-neutron-star-mass-gap.html",
+      "summary": "A team of astronomers recently identified a red giant star with an unseen binary companion after examining data from the Large Sky Area MultiObject Fiber Spectroscopic Telescope (LAMOST) and the Apache Point Observatory …",
+      "ts": 1794595801000,
+      "publishedAt": "2026-11-13T18:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ocean absorbs more fossil fuel carbon while land uptake stalls, 30 years of data show",
+      "url": "https://phys.org/news/2026-11-ocean-absorbs-fossil-fuel-carbon.html",
+      "summary": "The ocean has been absorbing carbon dioxide from fossil fuel emissions at an increasing rate since 1990, while the net uptake of carbon by forests, soils and other land ecosystems has not grown, according to a new study …",
+      "ts": 1794595221000,
+      "publishedAt": "2026-11-13T18:40:21.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Combining five metals in one oxide improves ethanol gas sensing",
+      "url": "https://phys.org/news/2026-11-combining-metals-oxide-ethanol-gas.html",
+      "summary": "A technology that significantly improves ethanol gas sensing performance by combining five different metal elements in a single oxide has been developed.",
+      "ts": 1794595207000,
+      "publishedAt": "2026-11-13T18:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Water-activated polymer forms solid shapes underwater and bonds glass fragments",
+      "url": "https://phys.org/news/2026-11-polymer-solid-underwater-bonds-glass.html",
+      "summary": "Cement hardens when mixed with water, allowing it to form solid structures even in wet environments. This property is known as hydraulicity. Reproducing this property in organic polymers has been challenging, as polymer …",
+      "ts": 1794594011000,
+      "publishedAt": "2026-11-13T18:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate could force more than 200 million from homes: U.N. migration chief",
+      "url": "https://phys.org/news/2026-11-climate-billion-homes-migration-chief.html",
+      "summary": "Climate change could force more than 200 million people from their homes even as countries spend billions on securing their borders, the head of the U.N.'s migration body said Friday.",
+      "ts": 1794593227000,
+      "publishedAt": "2026-11-13T18:07:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Who lives in a sponge under the sea? Tiny Caribbean fish and their microscopic neighbors",
+      "url": "https://phys.org/news/2026-11-sponge-sea-tiny-caribbean-fish.html",
+      "summary": "Two new studies involving Newcastle University marine scientist Dr. Theresa Rueger have highlighted how the tusked goby's relationship with its host sponge shapes almost every aspect of its life. Rueger, a senior lecture…",
+      "ts": 1794592812000,
+      "publishedAt": "2026-11-13T18:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From stimulation to suppression: How nitrogen addition changes soil respiration over time",
+      "url": "https://phys.org/news/2026-11-suppression-nitrogen-addition-soil-respiration.html",
+      "summary": "Soil respiration (Rs), the efflux of CO₂ from soils to the atmosphere driven by root and microbial activity, is one of the largest terrestrial carbon fluxes and a primary determinant of net carbon sequestration. The impo…",
+      "ts": 1794592806000,
+      "publishedAt": "2026-11-13T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How Chinese brewers refined their booze 5,000 years ago",
+      "url": "https://phys.org/news/2026-11-chinese-brewers-refined-booze-years.html",
+      "summary": "More than 5,000 years ago, brewers in eastern China appear to have used red mold to make rice alcohol, then strained the drink through cloth. Microscopic residues on ancient pottery show evidence of both the fermentation…",
+      "ts": 1794591623000,
+      "publishedAt": "2026-11-13T17:40:23.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Kindergarten teachers offer cognitive help during outdoor play but fall short on emotional and social support",
+      "url": "https://phys.org/news/2026-11-kindergarten-teachers-cognitive-outdoor-play.html",
+      "summary": "A study in the International Journal of Innovation and Sustainable Development of teachers' behavior during outdoor play at kindergarten has identified a gap between the support children need and the help educators provi…",
+      "ts": 1794591614000,
+      "publishedAt": "2026-11-13T17:40:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Self-learning AI separates particle jets from background noise in simulated heavy-ion collisions",
+      "url": "https://phys.org/news/2026-11-ai-particle-jets-background-noise.html",
+      "summary": "A team of physicists and computer scientists led by researchers at the U.S. Department of Energy's (DOE) Brookhaven National Laboratory developed a new artificial intelligence (AI) approach that learns on its own to sepa…",
+      "ts": 1794591607000,
+      "publishedAt": "2026-11-13T17:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Colorful fish reveal how species stay distinct despite interbreeding",
+      "url": "https://phys.org/news/2026-11-fish-reveal-species-stay-distinct.html",
+      "summary": "Vividly colored fish dwelling at the bottom of shallow Midwestern streams may help biologists understand the evolutionary mechanisms by which species remain distinct despite their similarities and overlapping ranges. Ora…",
+      "ts": 1794590406000,
+      "publishedAt": "2026-11-13T17:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rh₃ clusters balance activity and butene selectivity in butane dehydrogenation",
+      "url": "https://phys.org/news/2026-11-rh-clusters-butene-butane-dehydrogenation.html",
+      "summary": "Scientists from the Institute of Metal Research (IMR) of the Chinese Academy of Sciences, in collaboration with researchers from Peking University and Chongqing University, have demonstrated how the geometry and electron…",
+      "ts": 1794590401000,
+      "publishedAt": "2026-11-13T17:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat drives electron orbital currents, revealing first experimental evidence of orbital Nernst effect",
+      "url": "https://phys.org/news/2026-11-electron-orbital-currents-revealing-experimental.html",
+      "summary": "Researchers at National Taiwan University (NTU) have reported the first experimental evidence of heat-current-driven transverse accumulation of electrons' orbital angular momentum, a phenomenon known as the orbital Nerns…",
+      "ts": 1794589212000,
+      "publishedAt": "2026-11-13T17:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists successfully swap all fish products in aquafeed to boost sustainable fish farming",
+      "url": "https://phys.org/news/2026-11-scientists-successfully-swap-fish-products.html",
+      "summary": "Global fish production and consumption have hit new heights, according to the United Nations. People worldwide are consuming much more fish per capita, and more than 23 million people now work in the aquaculture industry…",
+      "ts": 1794588025000,
+      "publishedAt": "2026-11-13T16:40:25.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cryosphere decline beyond safe planetary limits, putting conditions for human society at risk",
+      "url": "https://phys.org/news/2026-11-cryosphere-decline-safe-planetary-limits.html",
+      "summary": "New research published at COP31 issues a stark warning about the health of the frozen parts of the planet—ice sheets, mountain glaciers, sea ice, permafrost and snow cover—known as the cryosphere. The study, published in…",
+      "ts": 1794588017000,
+      "publishedAt": "2026-11-13T16:40:17.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gemini and DECam showcase a young Type Ia supernova",
+      "url": "https://phys.org/news/2026-11-gemini-decam-showcase-young-ia.html",
+      "summary": "A star's explosive demise has added a shiny new feature to NGC 1433, a barred spiral galaxy approximately 50 million light-years away in the southern constellation Horologium (the Pendulum Clock). New images of supernova…",
+      "ts": 1794586810000,
+      "publishedAt": "2026-11-13T16:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Direct observation of a submarine landslide reveals seafloor processes",
+      "url": "https://phys.org/news/2026-11-submarine-landslide-reveals-seafloor.html",
+      "summary": "Submarine landslides have significant implications for marine ecology and infrastructure, yet these unpredictable events have remained challenging to study. New research co-led by Newcastle University's Dr. Sanem Acikali…",
+      "ts": 1794585613000,
+      "publishedAt": "2026-11-13T16:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study reveals mechanisms to sustain stable crop yields under long-term drip irrigation in arid regions",
+      "url": "https://phys.org/news/2026-11-reveals-mechanisms-sustain-stable-crop.html",
+      "summary": "Combining drip irrigation during the growing season with autumn or winter irrigation can help control soil salinity and sustain high, stable crop yields in the arid regions of northwestern China, according to a new study…",
+      "ts": 1794585602000,
+      "publishedAt": "2026-11-13T16:00:02.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "The ‘hell chicken’ dinosaur was a real terror — to fruit",
+      "url": "https://www.sciencenews.org/article/hell-chicken-dinosaur-terror-fruit-eat",
+      "summary": "Infernogallus – the ‘hell chicken’ dinosaur – evolved to eat a fruit-heavy diet. It may be the first evidence of fruit-eating adaptations among non-avian dinosaurs.",
+      "ts": 1794585600000,
+      "publishedAt": "2026-11-13T16:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "WheatAI could speed wheat breeding and help farmers assess crops",
+      "url": "https://phys.org/news/2026-11-wheatai-wheat-farmers-crops.html",
+      "summary": "Wheat researchers at South Dakota State University are perfecting an AI-powered web application designed to speed the work of wheat breeders and equip farmers with a more accurate tool for making decisions.",
+      "ts": 1794584424000,
+      "publishedAt": "2026-11-13T15:40:24.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fish prove every pregnancy is a battle: Unexpected evidence for the food fight between mothers and babies",
+      "url": "https://phys.org/news/2026-11-fish-pregnancy-unexpected-evidence-food.html",
+      "summary": "Left to their own devices, babies in the womb would suck their mothers dry. A developing baby benefits from taking as many essential nutrients as possible, but evolutionary theory predicts that to survive pregnancy, moth…",
+      "ts": 1794584405000,
+      "publishedAt": "2026-11-13T15:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oregon logs its first H5N1 case in cows; farmers' union says human avian flu cases underreported in Washington",
+      "url": "https://phys.org/news/2026-11-oregon-h5n1-case-cows-farmers.html",
+      "summary": "Earlier this week, the U.S. Department of Agriculture's Animal and Plant Health Inspection Service (USDA's APHIS) announced the first detection of H5N1 avian flu in a dairy herd in Oregon.",
+      "ts": 1794583214000,
+      "publishedAt": "2026-11-13T15:20:14.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Oʻahu infrastructure threatened by tipping point in sea-level rise impacts",
@@ -543,262 +799,6 @@
       "title": "Ultrahigh-speed digital holography reveals blood flow beneath the skin",
       "url": "https://arxiv.org/abs/2611.15535",
       "summary": "arXiv:2611.15535v1 Announce Type: new Abstract: Laser Doppler holography (LDH) leverages ultrahigh-speed digital holography to reveal blood-flow signals in vessels beneath the skin of the closed eyelid and around the eye…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The physical design of the superfluid helium-4 UCN source at CSNS",
-      "url": "https://arxiv.org/abs/2611.15539",
-      "summary": "arXiv:2611.15539v1 Announce Type: new Abstract: Ultracold neutrons (UCN) play a crucial role in fundamental physics research, enabling investigations into new sources of CP violation, neutron lifetime measurements, and t…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evidence for MeV Radiation from a Large-Amplitude Crystalline Undulator",
-      "url": "https://arxiv.org/abs/2611.15542",
-      "summary": "arXiv:2611.15542v1 Announce Type: new Abstract: We report evidence for MeV radiation from a large-amplitude crystalline undulator in which 35 GeV/c positrons channel along periodically bent Si(110) planes. Si$_3$N$_4$ st…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-logic detection of rotationally inelastic collisions of single molecules",
-      "url": "https://arxiv.org/abs/2611.15573",
-      "summary": "arXiv:2611.15573v1 Announce Type: new Abstract: Collisions between molecules govern chemical reactions and energy transfer across a range of different environments from interstellar space to the Earth's atmosphere. Despi…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser-induced damage threshold of periodic plasmonic metasurfaces",
-      "url": "https://arxiv.org/abs/2611.15590",
-      "summary": "arXiv:2611.15590v1 Announce Type: new Abstract: Plasmonic metasurfaces enable strong nonlinear optical responses due to sub-wavelength field confinement, yet their performance is fundamentally limited by low laser-induce…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of millikelvin scintillation photodetectors with CUPID",
-      "url": "https://arxiv.org/abs/2611.15593",
-      "summary": "arXiv:2611.15593v1 Announce Type: new Abstract: CUPID is a next-generation tonne-scale cryogenic experiment that will search for the neutrinoless double beta decay $(0\\nu\\beta\\beta)$ of $^{100}$Mo. It will be located at …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Open Quantum System Embedded in an Optimized Reservoir of Molecules",
-      "url": "https://arxiv.org/abs/2611.15633",
-      "summary": "arXiv:2611.15633v1 Announce Type: new Abstract: Open-boundary Quantum Mechanics/Molecular Mechanics (QM/MM) simulation provides a direct way to test whether a quantum subsystem and its surrounding classical reservoir are…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gradient-Free Inverse Design of 3D Nanophotonic Devices Using the Level-Set-Method",
-      "url": "https://arxiv.org/abs/2611.15656",
-      "summary": "arXiv:2611.15656v1 Announce Type: new Abstract: Advances in 3D nanophotonic additive manufacturing enable increasingly complex, almost free-form devices for manipulating light at sub-wavelength scales. Extending nanophot…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Xenon energy-deposition widths in silicon: measurements and Geant4 comparisons",
-      "url": "https://arxiv.org/abs/2611.15666",
-      "summary": "arXiv:2611.15666v1 Announce Type: new Abstract: Energy-deposition fluctuations determine the isotope-separation capability of multilayer silicon detectors. We measure the central peak widths of $^{124}$Xe signals in 300-…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radiation Hardness Assurance of Optical Coatings for the COMPASSO Iodine Reference",
-      "url": "https://arxiv.org/abs/2611.15695",
-      "summary": "arXiv:2611.15695v1 Announce Type: new Abstract: The COMPASSO payload demonstrates compact iodine-based optical frequency references on the International Space Station (ISS), requiring optical windows and antireflective c…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards dense optical communications with partially coherent light: I. Bimodal Stokes communications",
-      "url": "https://arxiv.org/abs/2611.15701",
-      "summary": "arXiv:2611.15701v1 Announce Type: new Abstract: In conventional optical multiplexing, $N_{\\mathrm{f}}$~orthogonal spectral or spatial modes multiplex $N_{\\mathrm{f}}$ independent data streams transmitted over an optical …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards dense optical communications with partially coherent light: II. Multimode Stokes communications",
-      "url": "https://arxiv.org/abs/2611.15715",
-      "summary": "arXiv:2611.15715v1 Announce Type: new Abstract: Partially coherent light has a higher informational-carrying capacity than coherent light when both fields are spanned by the same modes, which implies that partially coher…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Subwavelength registration of skull-compensating acoustic holograms via nonlinear parametric array feedback",
-      "url": "https://arxiv.org/abs/2611.15730",
-      "summary": "arXiv:2611.15730v1 Announce Type: new Abstract: Realizing the potential of optimized acoustic holograms for applications like transcranial ultrasound requires sub-wavelength alignment accuracy (less than 1.5 mm at 1 MHz)…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development and characterization of monolithic sensors with internal gain in a 110 nm CMOS process",
-      "url": "https://arxiv.org/abs/2611.15731",
-      "summary": "arXiv:2611.15731v1 Announce Type: new Abstract: This paper presents the optimization and characterization of a Monolithic Active Pixel Sensor with internal gain implemented in the 110 nm CMOS process from LFoundry. This …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Metasurfaces with Anisotropic Electric and Magnetic Conductivities: Parameter Retrieval for Arbitrary Incidence and Polarization",
-      "url": "https://arxiv.org/abs/2611.15752",
-      "summary": "arXiv:2611.15752v1 Announce Type: new Abstract: Metasurfaces come in a great variety of unit cell geometries and material composition. A common approach for describing them relies on retrieving effective surface paramete…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Buffer-Gas-Assisted Fluorescence Spectroscopy of Molecular Ions",
-      "url": "https://arxiv.org/abs/2611.15757",
-      "summary": "arXiv:2611.15757v1 Announce Type: new Abstract: Sustained fluorescence detection of generic molecules has been challenging due to the lack of cycling transitions and limited photon budgets. We demonstrate a nondestructiv…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CCGeant4: charge-state-resolved transport and energy-loss fluctuations of relativistic heavy ions in Geant4",
-      "url": "https://arxiv.org/abs/2611.15759",
-      "summary": "arXiv:2611.15759v1 Announce Type: new Abstract: CCGeant4 models energy-loss fluctuations of heavy ions in Geant4, accounting for both charge exchange and relativistic corrections to electron scattering beyond the first B…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Low-Cost MR-Compatible Pneumatic Motion Phantom for Magnetic Resonance Imaging",
-      "url": "https://arxiv.org/abs/2611.15762",
-      "summary": "arXiv:2611.15762v1 Announce Type: new Abstract: We describe the detailed design, construction, and testing of a simple, low-cost, open-source, exclusively pneumatic phantom for gated magnetic resonance imaging (MRI) stud…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Subpicosecond Optical Time Transfer under Simulated Motion with Electro-Optic Frequency Combs",
-      "url": "https://arxiv.org/abs/2611.15763",
-      "summary": "arXiv:2611.15763v1 Announce Type: new Abstract: Extension of high performance optical frequency comb-based time transfer to real-world systems is challenged by platform motion, particularly for large relative velocities.…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intense and stable second-harmonic generation in robust MePEA-based quasi-2D halide perovskite crystals",
-      "url": "https://arxiv.org/abs/2611.15772",
-      "summary": "arXiv:2611.15772v1 Announce Type: new Abstract: Quasi-2D halide perovskites offer a unique platform for nonlinear optics applications, where structural and optical properties are tuned by the variation of organic spacer …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermal convection and jets produced by human exhalation dominate the indoor spreading of emitted CO$_2$ and aerosols",
-      "url": "https://arxiv.org/abs/2611.15791",
-      "summary": "arXiv:2611.15791v1 Announce Type: new Abstract: For understanding airborne viral infection pathways, the prediction of the spreading and effective diffusivity of saliva droplets emitted from a person while speaking and b…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterization of a Large-Area HRPPD MCP-PMT Coupled to LYSO for TOF-PET",
-      "url": "https://arxiv.org/abs/2611.15820",
-      "summary": "arXiv:2611.15820v1 Announce Type: new Abstract: Large-area microchannel-plate photomultipliers (MCP-PMTs) such as the High-Rate Picosecond Photon Detector (HRPPD) are attractive for time-of-flight positron emission tomog…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient refractive-index sweeps in the discrete dipole approximation using shifted Krylov methods",
-      "url": "https://arxiv.org/abs/2611.15909",
-      "summary": "arXiv:2611.15909v1 Announce Type: new Abstract: The discrete dipole approximation (DDA) is a flexible numerical method for simulating electromagnetic scattering by particles of arbitrary shape and internal structure. In …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Atomistic simulations of electrochemical systems with machine learning potentials",
-      "url": "https://arxiv.org/abs/2611.15939",
-      "summary": "arXiv:2611.15939v1 Announce Type: new Abstract: Modern machine learning potentials (MLPs) enable large-scale atomistic simulations at unprecedented accuracy. The incorporation of explicit physical interactions such as lo…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow Structure in Idealized Rotating Detonation Combustor with Supersonic Inflow",
-      "url": "https://arxiv.org/abs/2611.15944",
-      "summary": "arXiv:2611.15944v1 Announce Type: new Abstract: The work presented investigates the flow structure and stability of an airbreathing rotating detonation engine (RDE) in an idealized combustor. The presented derivation of …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-driven Correction Reduced-Order Stochastic Collocation Method for the Time-Dependent Navier-Stokes Equations",
-      "url": "https://arxiv.org/abs/2611.15980",
-      "summary": "arXiv:2611.15980v1 Announce Type: new Abstract: We develop two hybrid data-driven Uncertainty Quantification (UQ) Reduced-Order Models (ROMs) for the non-stationary incompressible Navier--Stokes Equations (NSEs) with ran…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-body streaming forces lower the axial binding threshold of a held transverse three-sphere chain",
-      "url": "https://arxiv.org/abs/2611.15985",
-      "summary": "arXiv:2611.15985v1 Announce Type: new Abstract: Particles in oscillatory liquids can form chains perpendicular to the drive. We ask whether the forces between isolated pairs predict when three spheres can bind at a finit…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "What Can Next Generation Ultrafast Light Sources Tell Us About Quantum Materials?",
-      "url": "https://arxiv.org/abs/2611.15997",
-      "summary": "arXiv:2611.15997v1 Announce Type: new Abstract: Ultrafast spectroscopy of quantum materials has emerged as a principle application of modern ultrafast optical sources. Measurements made with ultrashort pulses allow the n…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mapping the High-Field Response of Superconducting Nanowire Single-Photon Detectors",
-      "url": "https://arxiv.org/abs/2611.16071",
-      "summary": "arXiv:2611.16071v1 Announce Type: new Abstract: Superconducting nanowire single-photon detectors (SNSPDs) are increasingly being integrated into cryogenic quantum-sensing platforms that operate in large magnetic fields. …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gradient-Aware AI Agents for Autonomous Turbulence Model Discovery via Differentiable CFD",
-      "url": "https://arxiv.org/abs/2611.16082",
-      "summary": "arXiv:2611.16082v1 Announce Type: new Abstract: Turbulence modeling relies on human choices of closure form, physical inputs, and tunable parameters. Training closures a posteriori is efficient only with gradients throug…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-UTE Myelin Fraction Mapping: Repeatability and Cross-Field-Strength Reproducibility at 1.5T and 3T",
-      "url": "https://arxiv.org/abs/2611.16090",
-      "summary": "arXiv:2611.16090v1 Announce Type: new Abstract: Purpose: To evaluate the repeatability and cross-field-strength reproducibility (1.5T vs 3T) of in vivo cerebral myelin fraction (MF) mapping with multi-contrast dual-resol…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical symmetry breaking for single-image field reconstruction",
-      "url": "https://arxiv.org/abs/2611.16094",
-      "summary": "arXiv:2611.16094v1 Announce Type: new Abstract: Light carries information in both amplitude and phase, although cameras record only intensity. Reconstructing the optical field is at the heart of wavefront sensing, micros…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A thermodynamically consistent, fully compressible, fluctuating hydrodynamics model of a Cahn Hilliard binary fluid mixture",
-      "url": "https://arxiv.org/abs/2611.16121",
-      "summary": "arXiv:2611.16121v1 Announce Type: new Abstract: We derive, from first principles, a thermodynamically consistent set of fully compressible fluctuating hydrodynamic equations for a Cahn-Hilliard binary fluid mixture, in i…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z"
     }

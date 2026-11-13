@@ -1,7 +1,133 @@
 {
   "ok": true,
-  "updated": "2026-11-13T14:08:55.066Z",
+  "updated": "2026-11-13T21:15:02.766Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "New addiction society guidance on medetomidine’s brutal withdrawal",
+      "url": "https://www.statnews.com/2026/11/13/medetomidine-withdrawal-asam-new-treatment-guidance/?utm_campaign=rss",
+      "summary": "The American Society of Addiction Medicine has released the first national guidance for recognizing and treating patients who have taken medetomidine.",
+      "ts": 1794602742000,
+      "publishedAt": "2026-11-13T20:45:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How Vancomycin-Resistant Enterococcus Evolved in a Danish Hospital",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/how-vancomycin-resistant-enterococcus-evolved-in-a-danish-hospital/",
+      "summary": "A genomic study reveals how genetic mutations, recombination, and resistance-carrying plasmids shaped the evolution, diversification, and decline of vancomycin-resistant Enterococcus faecium in Danish hospitals between 2…",
+      "ts": 1794600156000,
+      "publishedAt": "2026-11-13T20:02:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation Welcomes CesiumAstro as a New Associate Member",
+      "url": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
+      "summary": "November 13, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome CesiumAstro as its newest Associate Member. A global leader in advanced connectivity solutions for the space and […] The pos…",
+      "ts": 1794592800000,
+      "publishedAt": "2026-11-13T18:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Doctors have questions about the Watchman. Boston Scientific has a sales pitch.",
+      "url": "https://www.statnews.com/2026/11/13/investigation-boston-scientific-watchman-cardiac-implant-marketing-science/?utm_campaign=rss",
+      "summary": "The Boston Globe investigates if Boston Scientific's marketing of its cardiac implant, Watchman, outpaced the science.",
+      "ts": 1794592500000,
+      "publishedAt": "2026-11-13T17:55:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Outbursts from a Massive Star",
+      "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+      "summary": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026. The volatile star,…",
+      "ts": 1794587973000,
+      "publishedAt": "2026-11-13T16:39:33.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+      "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+      "summary": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneu…",
+      "ts": 1794585954000,
+      "publishedAt": "2026-11-13T16:05:54.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1794584894000,
+      "publishedAt": "2026-11-13T15:48:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Downstream Processing: Purifying Complex Antibody Therapeutics When Target Molecules Misbehave",
+      "url": "https://www.genengnews.com/multimedia/webinars/downstream-processing-purifying-complex-antibody-therapeutics-when-target-molecules-misbehave/",
+      "summary": "In this GEN webinar, downstream process development and scale up manufacturing specialists will discuss practical strategies for building robust purification processes when the target molecule misbehaves. The post Downst…",
+      "ts": 1794584372000,
+      "publishedAt": "2026-11-13T15:39:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: HHS plans funding for research into ibogaine for PTSD",
+      "url": "https://www.statnews.com/2026/11/13/biotech-news-hhs-funding-for-research-into-ibogaine-for-ptsd/?utm_campaign=rss",
+      "summary": "The Trump administration will funnel up to $4.9 million into supporting research into ibogaine, a psychedelic that’s drawn interest as a potential treatment for PTSD and addiction.",
+      "ts": 1794583546000,
+      "publishedAt": "2026-11-13T15:25:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "ts": 1794582000000,
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: New organ donation rules are unfair to families",
+      "url": "https://www.statnews.com/2026/11/13/organ-donation-policy-life-sustaining-treatment-brain-death/?utm_campaign=rss",
+      "summary": "New organ donation rules may “blur the line between the physicians fighting to save a patient's life and the teams responsible for organ procurement.”",
+      "ts": 1794581994000,
+      "publishedAt": "2026-11-13T14:59:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Brain implant startup pauses trials",
+      "url": "https://www.statnews.com/2026/11/13/health-news-brain-implant-startup-pauses-trials/?utm_campaign=rss",
+      "summary": "Synchron has paused clinical trials of its second-generation brain-computer interface. Leaders say the pause is not safety related.",
+      "ts": 1794580832000,
+      "publishedAt": "2026-11-13T14:40:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Lilly conflict questions, a DEA OK for a narcolepsy pill, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss",
+      "summary": "A deal for smart-ring maker Oura to acquire a telehealth company is raising conflict-of-interest questions for Eli Lilly",
+      "ts": 1794580396000,
+      "publishedAt": "2026-11-13T14:33:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Concludes Long Term Operation Safety Review at Japan’s Mihama Nuclear Power Plant",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-long-term-operation-safety-review-at-japans-mihama-nuclear-power-plant",
+      "summary": "",
+      "ts": 1794578404000,
+      "publishedAt": "2026-11-13T14:00:04.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Senators introduce bill to curb conflicts of interest on preventive care panel",
@@ -49,6 +175,33 @@
     },
     {
       "source": "United Nations News",
+      "title": "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168804",
+      "summary": "Nearly nine months after Israeli and US strikes on Iran set off a regional war, the Gulf remains on a knife edge. Iran has all but closed the Strait of Hormuz, which carried a fifth of the world’s oil before the conflict…",
+      "ts": 1794571200000,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP31: Climate finance falls short as calls grow for polluters to pay",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168802",
+      "summary": "From emotional appeals for climate justice to high-stakes negotiations over billions of dollars, finance dominated discussions at COP31 on Friday. UN Secretary-General António Guterres warned that even tripling adaptatio…",
+      "ts": 1794571200000,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Lives are at stake’: Humanitarians call for swift entry of winter supplies in Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168799",
+      "summary": "Winter supplies must enter the Gaza Strip where “lives are at stake”, the UN and partners said in an urgent appeal on Friday, in the wake of deadly rainfall this past weekend.",
+      "ts": 1794571200000,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "COP31: New initiative targets AI and reliable climate change information",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168798",
       "summary": "New guidance has been issued to ensure that people everywhere can obtain credible climate change information from artificial intelligence (AI) and understand how the technology impacts the environment.",
@@ -58,7 +211,7 @@
     },
     {
       "source": "United Nations News",
-      "title": "DR Congo Ebola outbreak: armed groups unrest holds back response",
+      "title": "DR Congo Ebola outbreak: Unrest fuelled by armed groups holds back response",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168797",
       "summary": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) continues to spread amid repeated and ongoing deadly attacks on civilians and frontline health workers by armed groups that are obstructing efforts to stop…",
       "ts": 1794571200000,
@@ -121,7 +274,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Across the U.S., homegrown experiments aim to save kids from their phones",
+      "title": "Across the U.S., homegrown experiments aim to save kids from their phones",
       "url": "https://www.statnews.com/2026/11/13/phone-addiction-young-people-fight-back-attention-activism/?utm_campaign=rss",
       "summary": "As researchers struggle to understand phone addiction, young people are finding ways to reclaim their attention and push back against Big Tech.",
       "ts": 1794562200000,
@@ -657,159 +810,6 @@
       "summary": "arXiv:2611.10725v2 Announce Type: replace Abstract: Enantiomeric excess is the primary observable used to quantify chiral amplification across prebiotic chemistry, asymmetric autocatalysis, and multiphase crystallization…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ADZE 2.0: rarefaction estimates of allelic richness and private allelic richness for whole-genome data",
-      "url": "https://arxiv.org/abs/2611.12472",
-      "summary": "arXiv:2611.12472v2 Announce Type: replace Abstract: Allelic richness and private allelic richness describe how alleles are distributed across populations, but both depend strongly on sample size. Rarefaction makes them c…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fine-Tuning Language Models to Know What They Know",
-      "url": "https://arxiv.org/abs/2602.02605",
-      "summary": "arXiv:2602.02605v3 Announce Type: replace-cross Abstract: Evaluating true metacognition in Large Language Models (LLMs) is difficult due to biases and heuristics. This paper presents a framework to measure and enhance LL…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Collaboration drives phase transitions towards cooperation in prisoner's dilemma",
-      "url": "https://arxiv.org/abs/2602.11601",
-      "summary": "arXiv:2602.11601v2 Announce Type: replace-cross Abstract: The emergence of cooperation among self-interested individuals is a central puzzle across biology and the social sciences. While evolutionary game theory has iden…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Confinement Limits Cell Shape and Mitotic Pressure During Division",
-      "url": "https://arxiv.org/abs/2602.18909",
-      "summary": "arXiv:2602.18909v2 Announce Type: replace-cross Abstract: Cells often divide under mechanical confinement, where surrounding structures restrict shape changes during cytokinesis. We analyze a minimal model of a dividing …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Calibeating Prediction-Powered Inference",
-      "url": "https://arxiv.org/abs/2604.21260",
-      "summary": "arXiv:2604.21260v2 Announce Type: replace-cross Abstract: We study semisupervised mean estimation with a small labeled sample, a large unlabeled sample, and a black-box prediction model whose output may be miscalibrated.…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
-      "url": "https://arxiv.org/abs/2604.21573",
-      "summary": "arXiv:2604.21573v2 Announce Type: replace-cross Abstract: Spatial transcriptomics (ST) enables spatially resolved gene profiling but remains expensive and low-throughput, limiting large-cohort studies and routine clinica…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Flexible Flows for Biological Sequence Design",
-      "url": "https://arxiv.org/abs/2606.10543",
-      "summary": "arXiv:2606.10543v2 Announce Type: replace-cross Abstract: Designing functional biological sequences requires navigating vast discrete spaces under strict evolutionary and biophysical constraints. Discrete Flow Matching (…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects",
-      "url": "https://arxiv.org/abs/2607.18777",
-      "summary": "arXiv:2607.18777v2 Announce Type: replace-cross Abstract: Evaluating machine learning in scientific domains requires separating correct predictions from correct reasons under realistic distribution shifts. We introduce P…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multiphysics Simulation Framework for Continuous Ion Transport and Energetics in Atmospheric Pressure Interfaces",
-      "url": "https://arxiv.org/abs/2609.31258",
-      "summary": "arXiv:2609.31258v2 Announce Type: replace-cross Abstract: Optimizing atmospheric pressure interfaces requires balancing efficient ion transport with unwanted collision activation. The complex environment at the inlet reg…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A five-species counterexample to the Hofbauer--Kon--Saito conjecture on qualitative permanence",
-      "url": "https://arxiv.org/abs/2610.38374",
-      "summary": "arXiv:2610.38374v3 Announce Type: replace-cross Abstract: Hofbauer, Kon and Saito showed that a Lotka-Volterra interaction matrix $A$ with negative diagonal can be qualitatively permanent only if (C1) every cycle of leng…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Nonequilibrium Transient Centers in Continuous-Time Systems",
-      "url": "https://arxiv.org/abs/2610.41930",
-      "summary": "arXiv:2610.41930v2 Announce Type: replace-cross Abstract: Analysis of mathematical models in ecology and epidemiology often emphasizes asymptotic dynamics, such as stable equilibria, periodic orbits, and attractors. Howe…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stand-In Effects and Pooling Amplification: Lessons from Biological World Models for Testing Action Effects",
-      "url": "https://arxiv.org/abs/2611.01666",
-      "summary": "arXiv:2611.01666v4 Announce Type: replace-cross Abstract: Whether an action-conditioned world model responds to actions is usually checked by replacing or removing the actions and measuring the loss in accuracy. Taking b…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Navigating Selection Bias in Genome-wide Association Studies (GWAS)",
-      "url": "https://arxiv.org/abs/2611.09429",
-      "summary": "arXiv:2611.09429v2 Announce Type: replace-cross Abstract: Selection bias arises when inclusion in a genetic study depends on traits, or causes of traits, that are associated with genotype. It is present in volunteer-base…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
-      "url": "https://arxiv.org/abs/2611.14498",
-      "summary": "arXiv:2611.14498v2 Announce Type: replace-cross Abstract: Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sens…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "AST SpaceMobile presses case for developing own launch vehicle",
-      "url": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
-      "summary": "AST SpaceMobile executives expressed confidence in the company’s ability to field a new reusable launch vehicle in just two years despite widespread industry skepticism. The post AST SpaceMobile presses case for developi…",
-      "ts": 1794532521000,
-      "publishedAt": "2026-11-13T01:15:21.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Reference Genomes of Malaria-Causing Plasmodium Parasites Completed",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/reference-genomes-of-malaria-causing-plasmodium-parasites-completed/",
-      "summary": "Using DNA sequenced from patient blood samples, researchers assembled complete reference genomes of neglected malaria parasites, uncovering genetic regions potentially involved in immune evasion and providing new tools f…",
-      "ts": 1794527085000,
-      "publishedAt": "2026-11-12T23:44:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "High Frequency of Drug-Impacting Gene Variants Found in All of Us Cohort",
-      "url": "https://www.genengnews.com/topics/omics/high-frequency-of-drug-impacting-gene-variants-found-in-all-of-us-cohort/",
-      "summary": "A study finds that everyone in a diverse, nearly 100,000-person sample carried at least one genetic variant that affects how their body processes medications, and a quarter of those people had been prescribed a medicatio…",
-      "ts": 1794514624000,
-      "publishedAt": "2026-11-12T20:17:04.000Z",
       "categoryId": "bio"
     }
   ],
