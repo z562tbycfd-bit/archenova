@@ -499,12 +499,8 @@ export default function ArcheNovaCivilizationOSFrame({
       {/* FRAME FOOTER */}
 
       <footer className="an-os-frame__footer">
-        <span>
-          REALITY · EVIDENCE · CORRECTION · CONTINUITY
-        </span>
-
-        <span>
-          ARCHENOVA / CIVILIZATION OS
+        <span className="an-os-frame__footer-label">
+          ARCHENOVA CIVILIZATION OS
         </span>
       </footer>
     </div>
