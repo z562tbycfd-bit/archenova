@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-12T23:28:37.321Z",
+  "updated": "2026-11-13T05:39:51.949Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "AST SpaceMobile presses case for developing own launch vehicle",
+      "url": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
+      "summary": "AST SpaceMobile executives expressed confidence in the company’s ability to field a new reusable launch vehicle in just two years despite widespread industry skepticism. The post AST SpaceMobile presses case for developi…",
+      "ts": 1794532521000,
+      "publishedAt": "2026-11-13T01:15:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Reference Genomes of Malaria-Causing Plasmodium Parasites Completed",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/reference-genomes-of-malaria-causing-plasmodium-parasites-completed/",
+      "summary": "Using DNA sequenced from patient blood samples, researchers assembled complete reference genomes of neglected malaria parasites, uncovering genetic regions potentially involved in immune evasion and providing new tools f…",
+      "ts": 1794527085000,
+      "publishedAt": "2026-11-12T23:44:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "High Frequency of Drug-Impacting Gene Variants Found in All of Us Cohort",
@@ -32,7 +50,7 @@
     {
       "source": "OpenAI",
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/index/amplitude",
+      "url": "https://openai.com/business/customer-stories/amplitude",
       "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "ts": 1794513600000,
       "publishedAt": "2026-11-12T20:00:00.000Z",
@@ -46,6 +64,15 @@
       "ts": 1794513600000,
       "publishedAt": "2026-11-12T20:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/index/amplitude",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "ts": 1794513600000,
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -784,33 +811,6 @@
       "ts": 1794373500000,
       "publishedAt": "2026-11-11T05:05:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Water Surges Into Navajo Reservoir",
-      "url": "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/",
-      "summary": "Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.",
-      "ts": 1794373260000,
-      "publishedAt": "2026-11-11T05:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A novel derivative-corrected within-host viral model based on Caputo-Fabrizio fractional dynamics",
-      "url": "https://arxiv.org/abs/2611.12929",
-      "summary": "arXiv:2611.12929v1 Announce Type: new Abstract: We study an implicit within-host viral dynamics model for uninfected target cells $H(t)$, infected cells $I(t)$, viral load $V(t)$, and damaged or removed cells $D(t)$. The…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Markovian SuASR epidemic framework with stochastic external factors",
-      "url": "https://arxiv.org/abs/2611.12989",
-      "summary": "arXiv:2611.12989v1 Announce Type: new Abstract: Epidemic waves are often shaped by uncertain external drivers, such as environmental variability or behavioral and policy changes, that can randomly amplify or dampen trans…",
-      "ts": 1794373200000,
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,7 +1,215 @@
 {
   "ok": true,
-  "updated": "2026-11-12T23:28:34.550Z",
+  "updated": "2026-11-13T05:39:49.187Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Children are not colorblind: Why early conversations about race are essential",
+      "url": "https://phys.org/news/2026-11-children-colorblind-early-conversations-essential.html",
+      "summary": "Discussing racism with children can seem daunting to parents, caregivers and educators for several reasons. Often, it can feel uncomfortable talking about people's differences; conversations about racism reveal implicit …",
+      "ts": 1794544802000,
+      "publishedAt": "2026-11-13T04:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research advances quantum computing that harnesses speed of light",
+      "url": "https://phys.org/news/2026-11-advances-quantum-harnesses.html",
+      "summary": "Quantum computers have the potential to perform calculations more quickly than supercomputers, but they could be even faster and more energy-efficient if they were built with photons as their basic units, called qubits.",
+      "ts": 1794541201000,
+      "publishedAt": "2026-11-13T03:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Automated assembly in space is the future and NOM4D is showing the way",
+      "url": "https://phys.org/news/2026-11-automated-space-future-nom4d.html",
+      "summary": "If we want big things in space, we'll have to build and assemble them there. Rocket fairings are not large enough to accommodate the large things we want to have in space. Not only that, but the stubborn rocket equation …",
+      "ts": 1794540006000,
+      "publishedAt": "2026-11-13T03:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The moon is not the Wild West: Experts call for a pause on lunar industrialization",
+      "url": "https://phys.org/news/2026-11-moon-wild-west-experts-lunar.html",
+      "summary": "As the major powers and the private companies go full tilt with their plans to develop infrastructure and extract resources on the moon, the questions around environmental protection, international regulation and who ben…",
+      "ts": 1794538801000,
+      "publishedAt": "2026-11-13T03:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trusted online information may help networking skills translate into startup ambitions, survey suggests",
+      "url": "https://phys.org/news/2026-11-online-networking-skills-startup-ambitions.html",
+      "summary": "A study of almost 200 undergraduate and postgraduate students in South Korea suggests that the skills of aspiring entrepreneurs are more likely to translate into plans to start a business when supported by trustworthy di…",
+      "ts": 1794537602000,
+      "publishedAt": "2026-11-13T02:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Vision and interferometry improve calibration of large monolithic mirrors",
+      "url": "https://phys.org/news/2026-11-vision-interferometry-calibration-large-monolithic.html",
+      "summary": "In a new study published in Measurement, researchers from the Changchun Institute of Optics, Fine Mechanics and Physics of the Chinese Academy of Sciences have developed a calibration method that combines machine vision …",
+      "ts": 1794536406000,
+      "publishedAt": "2026-11-13T02:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How populist leaders dismantle intelligence agencies from within: New study reveals the 'intelligence cyclone'",
+      "url": "https://phys.org/news/2026-11-populist-leaders-dismantle-intelligence-agencies.html",
+      "summary": "A new joint study from Ben-Gurion University of the Negev (BGU) and The Hebrew University of Jerusalem reveals how populist leaderships systematically undermine, discredit and ultimately capture intelligence agencies, tr…",
+      "ts": 1794535201000,
+      "publishedAt": "2026-11-13T02:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change has different consequences for the health of women and men",
+      "url": "https://phys.org/news/2026-11-climate-consequences-health-women-men.html",
+      "summary": "The health risks men and women are exposed to and the illnesses they develop vary widely across lifetimes and places. Yet climate policy and health services often overlook these differences.",
+      "ts": 1794534001000,
+      "publishedAt": "2026-11-13T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black rhinos are mostly loners, but not always: Why this matters for saving the species",
+      "url": "https://phys.org/news/2026-11-black-rhinos-loners-species.html",
+      "summary": "Black rhinos are notoriously aggressive, not just to humans but also to their fellow black rhinos. Aggression is so prevalent that injuries sustained after fighting with another black rhino are a common cause of death. B…",
+      "ts": 1794533401000,
+      "publishedAt": "2026-11-13T01:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Early signs of stock market instability may appear in how traders place orders",
+      "url": "https://phys.org/news/2026-11-early-stock-instability-traders.html",
+      "summary": "The influence of financial markets cannot be overstated, and this influence highlights the need for thorough market analysis. However, being thorough can be difficult when markets are highly complex and ever-changing, pr…",
+      "ts": 1794531601000,
+      "publishedAt": "2026-11-13T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnetic nanoparticles cut adhesive curing from 24 hours to one in laboratory tests",
+      "url": "https://phys.org/news/2026-11-magnetic-nanoparticles-adhesive-hours-laboratory.html",
+      "summary": "Scientists at Nanyang Technological University, Singapore (NTU Singapore) and global automotive supplier Motherson are collaborating to develop a magnetic heating technology that could significantly reduce the time and e…",
+      "ts": 1794530412000,
+      "publishedAt": "2026-11-13T00:40:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Robotic tools help unlock the hidden microbial world of the deep sea",
+      "url": "https://phys.org/news/2026-11-robotic-tools-hidden-microbial-world.html",
+      "summary": "Scientists have developed a robotic system that can recreate the extreme conditions of the deep ocean in the laboratory, opening up access to some microorganisms for the first time.",
+      "ts": 1794530401000,
+      "publishedAt": "2026-11-13T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Using AI to predict how bioplastics behave under heat",
+      "url": "https://phys.org/news/2026-11-ai-bioplastics.html",
+      "summary": "A new ANIPH study shows how machine learning models can predict how PHB and PHBV respond to heat, helping manufacturers design formulations that are easier to process.",
+      "ts": 1794529204000,
+      "publishedAt": "2026-11-13T00:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earth's orbital asymmetries share recurring rhythms with El Niño, study finds",
+      "url": "https://phys.org/news/2026-11-earth-orbital-asymmetries-recurring-rhythms.html",
+      "summary": "Every few years, an unusual warming of surface waters across the central and eastern tropical Pacific—known as El Niño—reorganizes atmospheric circulation worldwide, bringing severe droughts to some continents and torren…",
+      "ts": 1794529201000,
+      "publishedAt": "2026-11-13T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineered atomic interactions help microwave sensor capture three times as much information",
+      "url": "https://phys.org/news/2026-11-atomic-interactions-microwave-sensor-capture.html",
+      "summary": "Researchers from the Faculty of Physics at the University of Warsaw (UW) and the Center for Optical Quantum Technologies at the University of Warsaw's Center for New Technologies (CeNT UW) have developed a method for ult…",
+      "ts": 1794528601000,
+      "publishedAt": "2026-11-13T00:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Not afraid of ghosts: Curiosity and fearlessness apparent in German shepherd genes",
+      "url": "https://phys.org/news/2026-11-ghosts-curiosity-fearlessness-apparent-german.html",
+      "summary": "German shepherd dogs bred for working are more curious and less neurotic than German shepherds bred for show. A new study from Uppsala University and the Swedish University of Agricultural Sciences has shown that the dif…",
+      "ts": 1794528006000,
+      "publishedAt": "2026-11-13T00:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global climate policies continue to advance despite setbacks, research finds",
+      "url": "https://phys.org/news/2026-11-global-climate-policies-advance-setbacks.html",
+      "summary": "The latest findings from the Oxford Climate Policy Monitor, led by the Blavatnik School of Government and the Oxford Sustainable Law Programme, show that progress in Asia, Africa and Latin America is more than offsetting…",
+      "ts": 1794528001000,
+      "publishedAt": "2026-11-13T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Room-temperature continuous-wave lasing-like emission from solution-processed bulk monolayer MoS<sub>2</sub> thin films",
+      "url": "https://www.nature.com/articles/s41467-026-79012-8",
+      "summary": "",
+      "ts": 1794528000000,
+      "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Signatures of a Kondo insulator in a multilayer moiré Superlattice",
+      "url": "https://www.nature.com/articles/s41467-026-78687-3",
+      "summary": "",
+      "ts": 1794528000000,
+      "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "The posterior paraventricular nucleus of the thalamus to nucleus accumbens medial shell circuit mediates an anti-pruritic response",
+      "url": "https://www.nature.com/articles/s41467-026-78362-7",
+      "summary": "",
+      "ts": 1794528000000,
+      "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Thermodynamic-guided tailoring of single-atom coordination environments via oxygen chemical potential for efficient C-N coupling",
+      "url": "https://www.nature.com/articles/s41467-026-79091-7",
+      "summary": "",
+      "ts": 1794528000000,
+      "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Anion manipulation for breaking through 3.0 V of aluminium–graphite batteries",
+      "url": "https://www.nature.com/articles/s41467-026-79156-7",
+      "summary": "",
+      "ts": 1794528000000,
+      "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Product for controlling agricultural pests proves harmful to iconic banana slug",
+      "url": "https://phys.org/news/2026-11-product-agricultural-pests-iconic-banana.html",
+      "summary": "Researchers at Oregon State University say a product used to control pest slugs on farms in multiple countries is harmful to an iconic West Coast slug and that more research is needed before the product is approved for u…",
+      "ts": 1794527402000,
+      "publishedAt": "2026-11-12T23:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unknowns play a major role in mortgage foreclosure decisions",
+      "url": "https://phys.org/news/2026-11-unknowns-play-major-role-mortgage.html",
+      "summary": "When it comes to making decisions regarding mortgage foreclosures, a bank doesn't know what it doesn't know.",
+      "ts": 1794526807000,
+      "publishedAt": "2026-11-12T23:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parrots' vibrant feathers are surprisingly susceptible to bacterial attack",
+      "url": "https://phys.org/news/2026-11-parrots-vibrant-feathers-susceptible-bacterial.html",
+      "summary": "Flashy birds, from peacocks to parrots, have inspired a long tradition of using animal colors to study evolution. Colorful plumage often functions as a signal—for example, to attract a mate. Alternatively, drab colors ca…",
+      "ts": 1794526805000,
+      "publishedAt": "2026-11-12T23:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Multiplexed detector system precisely counts more than 9,000 photons",
+      "url": "https://phys.org/news/2026-11-multiplexed-detector-precisely-photons.html",
+      "summary": "Researchers have developed a new approach that can precisely count from zero to more than 9,000 individual photons. The advance opens new possibilities for studying quantum light at large scales and making precise optica…",
+      "ts": 1794526202000,
+      "publishedAt": "2026-11-12T23:30:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Plant sensing mechanism guards against pests",
@@ -593,214 +801,6 @@
       "summary": "The divisions over baboons run deep in Simon's Town, where their defenders and haters have clashed on social media and sometimes in real life for years.",
       "ts": 1794474383000,
       "publishedAt": "2026-11-12T09:06:23.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How potentials and electric fields together control reactions on catalyst surfaces",
-      "url": "https://phys.org/news/2026-11-potentials-electric-fields-reactions-catalyst.html",
-      "summary": "Researchers at the Interface Science Department (ISC) have shown that electrochemical reactions at solid-solution interfaces can be impacted by two closely related, yet, distinct factors. The applied potential can drive …",
-      "ts": 1794473883000,
-      "publishedAt": "2026-11-12T08:58:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "From Romania to Kazakhstan, summer droughts linked to less winter ice in two rapidly warming seas",
-      "url": "https://phys.org/news/2026-11-romania-kazakhstan-summer-droughts-linked.html",
-      "summary": "This summer, with its scarce rainfall and repeated heat waves, witnessed one of the most severe droughts in Europe since 1540. The resulting wildfires across western Europe received considerable media attention, but east…",
-      "ts": 1794459601000,
-      "publishedAt": "2026-11-12T05:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How war has connected the world for 500 years",
-      "url": "https://phys.org/news/2026-11-war-world-years.html",
-      "summary": "With wars raging in Ukraine and across the Middle East, commentators increasingly ask whether we're sliding toward a third world war. But what makes a war \"global\"?",
-      "ts": 1794454801000,
-      "publishedAt": "2026-11-12T03:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Indonesia fires burned through nearly 2.9 million hectares: Monitor",
-      "url": "https://phys.org/news/2026-11-indonesia-million-hectares.html",
-      "summary": "Fires in Indonesia driven partly by a strong El Niño have burned through 2.88 million hectares (7.1 million acres) so far in 2026, a monitor analyzing satellite imagery told AFP on Wednesday.",
-      "ts": 1794452408000,
-      "publishedAt": "2026-11-12T03:00:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Only half of England's young workers outside higher education secure permanent contracts, down from 81%",
-      "url": "https://phys.org/news/2026-11-england-young-workers-higher-permanent.html",
-      "summary": "The study of young people in England found that among those who did not progress to higher education, only 16% secured apprenticeships and just 23% had secured stable work by ages 19–20. Of those in work, only half had a…",
-      "ts": 1794450001000,
-      "publishedAt": "2026-11-12T02:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Retired ocean liner to become largest artificial reef in the world",
-      "url": "https://phys.org/news/2026-11-ocean-liner-largest-artificial-reef.html",
-      "summary": "Bigger than the RMS Titanic and faster than the RMS Queen Mary, the SS United States was a nautical wonder during the mid-20th century—the nation's premier luxury ocean liner that once ferried presidents and Hollywood el…",
-      "ts": 1794445201000,
-      "publishedAt": "2026-11-12T01:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Microplastics found in wild mammals' blood more than 40 miles from human infrastructure",
-      "url": "https://phys.org/news/2026-11-microplastics-wild-mammals-blood-miles.html",
-      "summary": "Animals, like humans, are taking up increasing amounts of tiny plastic particles. Such microplastics are demonstrably hazardous to many species under experimental conditions, and it is suspected that they may also pose a…",
-      "ts": 1794444001000,
-      "publishedAt": "2026-11-12T00:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New study maps the genetic landscape of bovine TB across Wales",
-      "url": "https://phys.org/news/2026-11-genetic-landscape-bovine-tb-wales.html",
-      "summary": "Bovine tuberculosis is evolving in different ways across different regions in Wales, according to the most detailed analysis of the bacterium conducted to date. One of the most significant animal health challenges facing…",
-      "ts": 1794442807000,
-      "publishedAt": "2026-11-12T00:20:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Even parasites have parasites: Fungus infects powdery mildew",
-      "url": "https://phys.org/news/2026-11-parasites-fungus-infects-powdery-mildew.html",
-      "summary": "In the fungal kingdom, no one is safe from parasites—not even other parasites. A new study from North Carolina State University finds that Ampelomyces, an intracellular fungus that infects the plant disease powdery milde…",
-      "ts": 1794442805000,
-      "publishedAt": "2026-11-12T00:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Independent technique validates landmark M87* image",
-      "url": "https://phys.org/news/2026-11-independent-technique-validates-landmark-m87.html",
-      "summary": "The 2019 Event Horizon Telescope (EHT) image was the work of hundreds of scientists and captured the first direct view of a black hole's shadow—becoming one of the most recognized scientific images of the modern era. A t…",
-      "ts": 1794441604000,
-      "publishedAt": "2026-11-12T00:00:04.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Scaling medical imaging report generation with multimodal reinforcement learning",
-      "url": "https://www.nature.com/articles/s41467-026-78767-4",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A single NLS directs AGO1 import shaping small RNA loading and silencing outputs in Arabidopsis",
-      "url": "https://www.nature.com/articles/s41467-026-79175-4",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Autapse-inspired neuromorphic hardware with synapse–neuron integration for bidirectional feedback control",
-      "url": "https://www.nature.com/articles/s41467-026-79401-z",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Thin-film lithium niobate waveguide-integrated p-i-n Tungsten selenide photodiodes with 10Gbit/s data reception",
-      "url": "https://www.nature.com/articles/s41467-026-79595-2",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Structural basis of ligand-mediated transition to higher-order rubisco assemblies",
-      "url": "https://www.nature.com/articles/s41467-026-79451-3",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Latitude modulates climate-driven maize yield gains across the central U.S. “warming hole”",
-      "url": "https://www.nature.com/articles/s41467-026-79428-2",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Evolution of the molybdenum and vanadium cycles through time and their impact on ancient nitrogen fixation",
-      "url": "https://www.nature.com/articles/s41467-026-79171-8",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Constructing exclusive Pt@WO<sub><i>x</i></sub> interfacial sites enables selective C–O bond activation",
-      "url": "https://www.nature.com/articles/s41467-026-79789-8",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A prefrontal microcircuit computes trial-wise discount of reinforcement during threat learning in male mice",
-      "url": "https://www.nature.com/articles/s41467-026-79254-6",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Phylogeographic and functional assembly of population-level bacterial immunity",
-      "url": "https://www.nature.com/articles/s41467-026-79636-w",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "SIP-enabled multi-omics reveals soil microbiome responses to drought and rehydration",
-      "url": "https://www.nature.com/articles/s41467-026-79474-w",
-      "summary": "",
-      "ts": 1794441600000,
-      "publishedAt": "2026-11-12T00:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Clean water, hidden risks: New technology reveals neurotoxicity missed by conventional water quality monitoring",
-      "url": "https://phys.org/news/2026-11-hidden-technology-reveals-neurotoxicity-conventional.html",
-      "summary": "A photograph of an orchestra can tell you whether the musicians are on stage and their instruments are intact. But it cannot tell you whether they are playing in harmony. Even when every musician is present, a subtle los…",
-      "ts": 1794440401000,
-      "publishedAt": "2026-11-11T23:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Fluorescent probes reveal fluid-like barriers inside nuclear pores of living human cells",
-      "url": "https://phys.org/news/2026-11-fluorescent-probes-reveal-fluid-barriers.html",
-      "summary": "Our genetic material is hidden inside the nucleus of our cells, well protected by a double membrane. All molecules wishing to pass through must thread their way through one of several thousand nuclear pores. The scaffold…",
-      "ts": 1794439201000,
-      "publishedAt": "2026-11-11T23:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Superconducting vortices provide experimental evidence that clogging is a phase transition",
-      "url": "https://phys.org/news/2026-11-superconducting-vortices-experimental-evidence-clogging.html",
-      "summary": "Clogging is a phenomenon in which moving particles get stuck, slowing or blocking the flow, but how this transition occurs has remained experimentally unproven. Researchers from Science Tokyo studied superconducting vort…",
-      "ts": 1794438005000,
-      "publishedAt": "2026-11-11T23:00:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "What lurks 'Below' Newfoundland waters? A marine biologist explains the science behind the show",
-      "url": "https://phys.org/news/2026-11-lurks-newfoundland-marine-biologist-science.html",
-      "summary": "When I learned that Netflix planned to film the miniseries Below, about a sea monster terrorizing a Newfoundland outport, I thought to myself: \"THIS I've gotta see!\"",
-      "ts": 1794438002000,
-      "publishedAt": "2026-11-11T23:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Looping DNA may help flowers grow nectar-producing organs",
-      "url": "https://phys.org/news/2026-11-looping-dna-nectar.html",
-      "summary": "Nectaries are specialized floral tissues that secrete nectar to attract pollinators. Although the protein CRABS CLAW (CRC) is established as essential for nectary formation, the exact molecular mechanisms governing how i…",
-      "ts": 1794436805000,
-      "publishedAt": "2026-11-11T22:40:05.000Z"
     }
   ],
   "sources": [
