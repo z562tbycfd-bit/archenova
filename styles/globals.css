@@ -75607,3 +75607,1473 @@ main#home-top.an-home-2026.archenova-twin-home
 
 
 
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME — SINGLE OUTER FRAME
+   2026
+
+   Targets:
+   - ARCHENOVA CIVILIZATIONAL VISION
+   - ARCHENOVA INQUIRY
+   - CIVILIZATION OS
+
+   One outer frame per HOME section.
+
+   Preserve:
+   - Existing obsidian backgrounds
+   - Transparency and backdrop blur
+   - Internal cards and panels
+   - Tab navigation and interactions
+   - Responsive layouts
+========================================================== */
+
+/* ==========================================================
+   01 — UNIFIED OUTER FRAME GEOMETRY
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home
+> :is(
+  section#archenova-space,
+  section#archenova-inquiry,
+  section#archenova-civilization-os
+).an-home-2026__section {
+  border:
+    1px solid rgba(255, 255, 255, 0.055)
+    !important;
+
+  border-radius: 30px !important;
+
+  box-shadow: none !important;
+}
+
+/* ==========================================================
+   02 — REMOVE SECONDARY HOME GLASS FRAME
+========================================================== */
+
+main#home-top.an-home-2026.archenova-twin-home
+> :is(
+  section#archenova-space,
+  section#archenova-inquiry,
+  section#archenova-civilization-os
+).an-home-2026__section
+> .an-home-2026__glass {
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* ==========================================================
+   03 — REMOVE ONLY INNER FRAME DECORATION
+
+   Do not alter internal research cards,
+   tabs, panels, or content.
+========================================================== */
+
+main#home-top
+> section#archenova-space
+.an-home-2026__glass
+> .an-space-frame,
+
+main#home-top
+> section#archenova-inquiry
+.an-home-2026__glass
+> .an-inquiry-frame,
+
+main#home-top
+> section#archenova-civilization-os
+.an-home-2026__glass
+> .an-os-frame {
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* ==========================================================
+   04 — EMBEDDED OPERATIONS PORTAL
+
+   No additional outer frame.
+========================================================== */
+
+main#home-top
+> section#archenova-civilization-os
+.an-cos-home--embedded {
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* ==========================================================
+   05 — MOBILE GEOMETRY
+========================================================== */
+
+@media (max-width: 768px) {
+  main#home-top.an-home-2026.archenova-twin-home
+  > :is(
+    section#archenova-space,
+    section#archenova-inquiry,
+    section#archenova-civilization-os
+  ).an-home-2026__section {
+    border-radius: 24px !important;
+  }
+}
+
+/* ==========================================================
+   END — SINGLE OUTER FRAME
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA INQUIRY
+   INDEPENDENT CONTENT PRESENTATION — 2026
+
+   No nested chapter glass.
+   No secondary visual frame.
+   Preserve embedded component styling.
+========================================================== */
+
+/* Inquiry frame */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+
+  overflow: visible !important;
+}
+
+/* Independent content area */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__content {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  margin: 0;
+  padding: 0;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  overflow: visible !important;
+}
+
+/* Selected content panel */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__panel {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  margin: 0;
+  padding: 0;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  overflow: visible !important;
+}
+
+/* Direct embedded component root */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__panel > :first-child {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+  main#home-top
+  #archenova-inquiry
+  .an-inquiry-frame__content,
+  main#home-top
+  #archenova-inquiry
+  .an-inquiry-frame__panel {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / TODAY'S INQUIRY
+   HOME INTEGRATION — NATURAL DOCUMENT FLOW
+
+   - No secondary glass frame
+   - No fixed-height observatory
+   - No nested vertical scroll
+   - Preserve scientific visual identity
+   - Preserve original research components
+========================================================== */
+
+main#home-top
+#archenova-inquiry
+.ti-home {
+  display: block;
+
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: visible;
+}
+
+/* Remove only the secondary outer surface */
+
+main#home-top
+#archenova-inquiry
+.ti-home__glass {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+
+  transform: none !important;
+}
+
+/* Preserve decorative overlay without clipping */
+
+main#home-top
+#archenova-inquiry
+.ti-home__glass::after {
+  border-radius: 0;
+}
+
+/* Return document to normal flow */
+
+main#home-top
+#archenova-inquiry
+.ti-home__scroll {
+  position: relative !important;
+
+  inset: auto !important;
+
+  width: 100%;
+  height: auto !important;
+
+  min-width: 0;
+  min-height: 0 !important;
+
+  max-height: none !important;
+
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+
+  overscroll-behavior: auto !important;
+
+  scrollbar-width: none !important;
+  scrollbar-gutter: auto !important;
+}
+
+/* Preserve all scientific content */
+
+main#home-top
+#archenova-inquiry
+.ti-home__document {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+
+  height: auto;
+  min-height: 0;
+
+  overflow: visible;
+}
+
+/* Masks are unnecessary without internal scroll */
+
+main#home-top
+#archenova-inquiry
+.ti-home__mask,
+main#home-top
+#archenova-inquiry
+.ti-home__scroll-indicator {
+  display: none !important;
+}
+
+/* Prevent the outer panel from constraining content */
+
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__panel,
+main#home-top
+#archenova-inquiry
+.an-inquiry-frame__content {
+  min-width: 0;
+  max-width: 100%;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATIONAL SYSTEMS
+   STABLE GLASS SURFACE — 2026
+
+   PURPOSE
+   - One outer glass surface
+   - No nested backdrop-filter
+   - No interaction-dependent opacity
+   - Preserve internal cards and tabs
+========================================================== */
+
+/* Outer HOME section */
+
+main#home-top
+#archenova-civilization-os {
+  opacity: 1 !important;
+
+  background-color: rgba(7, 8, 10, 0.72);
+
+  border: 1px solid rgba(255, 255, 255, 0.055);
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  transition-property: none !important;
+}
+
+/* Remove secondary glass from wrapper */
+
+main#home-top
+#archenova-civilization-os
+> .an-home-2026__glass {
+  opacity: 1 !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  transition-property: none !important;
+}
+
+/* Inner frame must not own another glass layer */
+
+main#home-top
+#archenova-civilization-os
+.an-os-frame {
+  opacity: 1 !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  transition-property: none !important;
+}
+
+/* Stabilize the outer surface during interaction */
+
+main#home-top
+#archenova-civilization-os:hover,
+main#home-top
+#archenova-civilization-os:focus-within,
+main#home-top
+#archenova-civilization-os:active {
+  opacity: 1 !important;
+
+  background-color: rgba(7, 8, 10, 0.72);
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Prevent wrapper interaction states from
+   introducing another dark layer */
+
+main#home-top
+#archenova-civilization-os
+> .an-home-2026__glass:hover,
+main#home-top
+#archenova-civilization-os
+> .an-home-2026__glass:focus-within {
+  opacity: 1 !important;
+
+  background: transparent !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATIONAL SYSTEMS
+   DEEP OBSIDIAN BLACK — 2026
+========================================================== */
+
+main#home-top
+#archenova-civilization-os,
+main#home-top
+#archenova-civilization-os:hover,
+main#home-top
+#archenova-civilization-os:focus-within,
+main#home-top
+#archenova-civilization-os:active {
+  background-color: rgba(7, 8, 10, 0.88) !important;
+
+  opacity: 1 !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  transition-property: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATIONAL SYSTEMS
+   UNIFIED TYPOGRAPHY & CENTER ALIGNMENT
+   CIVILIZATION OS + KNOWLEDGE INTEGRITY
+
+   - Shared typography scale
+   - Centered headings, paragraphs and labels
+   - Centered card content
+   - Preserved accordion interaction
+   - Preserved glass surface and scroll behavior
+========================================================== */
+
+/* ==========================================================
+   01 — SHARED DESIGN TOKENS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+:is(.an-cos-home, .an-ki) {
+  --an-unified-title: clamp(38px, 4.2vw, 48px);
+  --an-unified-statement: 16px;
+  --an-unified-body: 13px;
+  --an-unified-card-title: 14px;
+  --an-unified-card-body: 12px;
+  --an-unified-label: 10px;
+  --an-unified-number: 10px;
+
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+
+  text-align: center;
+}
+
+/* ==========================================================
+   02 — MAIN TITLES
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__title,
+  .an-ki__title
+) {
+  width: 100%;
+  max-width: 100%;
+
+  margin-inline: auto;
+
+  font-size: var(--an-unified-title) !important;
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+
+  text-align: center !important;
+  text-wrap: balance;
+}
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__title,
+  .an-ki__title
+) span {
+  text-align: center !important;
+}
+
+/* ==========================================================
+   03 — MAIN STATEMENTS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__statement,
+  .an-ki__statement
+) {
+  max-width: 680px;
+
+  margin-inline: auto;
+
+  font-size: var(--an-unified-statement) !important;
+  font-weight: 400;
+  line-height: 1.65;
+
+  text-align: center !important;
+  text-wrap: balance;
+}
+
+/* ==========================================================
+   04 — MAIN DESCRIPTIONS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__description,
+  .an-ki__description,
+  .an-cos-home__principle
+) {
+  max-width: 720px;
+
+  margin-inline: auto;
+
+  font-size: var(--an-unified-body) !important;
+  font-weight: 400;
+  line-height: 1.85;
+
+  text-align: center !important;
+  text-wrap: pretty;
+}
+
+/* ==========================================================
+   05 — COMPONENT HEADERS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__header,
+  .an-ki__header
+) {
+  width: 100%;
+  max-width: 100%;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__header,
+  .an-ki__header
+) > * {
+  text-align: center;
+}
+
+/* ==========================================================
+   06 — SECTION HEADINGS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__section-heading,
+  .an-ki__section-heading
+) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 10px 18px;
+
+  width: 100%;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__section-heading,
+  .an-ki__section-heading
+) > span {
+  font-size: var(--an-unified-label) !important;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.14em;
+
+  text-align: center !important;
+}
+
+/* ==========================================================
+   07 — CIVILIZATION OS SYSTEM CARDS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__system {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__system-number {
+  font-size: var(--an-unified-number) !important;
+  line-height: 1.4;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__system-copy {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__system-copy strong {
+  font-size: var(--an-unified-card-title) !important;
+  font-weight: 600;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__system-copy small {
+  font-size: var(--an-unified-card-body) !important;
+  font-weight: 400;
+  line-height: 1.7;
+
+  text-align: center !important;
+}
+
+/* ==========================================================
+   08 — HISTORICAL FOUNDATION
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation {
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation-label {
+  display: block;
+
+  font-size: var(--an-unified-label) !important;
+  line-height: 1.6;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation > strong {
+  display: block;
+
+  font-size: var(--an-unified-card-title) !important;
+  line-height: 1.6;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation > p {
+  max-width: 680px;
+
+  margin-inline: auto;
+
+  font-size: var(--an-unified-body) !important;
+  line-height: 1.85;
+
+  text-align: center !important;
+}
+
+/* ==========================================================
+   09 — FIRST RESEARCH OBJECTIVE
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__execution {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 24px;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__execution > div {
+  width: 100%;
+  min-width: 0;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__execution-label {
+  font-size: var(--an-unified-label) !important;
+  line-height: 1.6;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__execution h3 {
+  max-width: 680px;
+
+  margin-inline: auto;
+
+  font-size: var(--an-unified-card-title) !important;
+  font-weight: 600;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__execution p {
+  max-width: 680px;
+
+  margin-inline: auto;
+
+  font-size: var(--an-unified-body) !important;
+  line-height: 1.85;
+
+  text-align: center !important;
+}
+
+/* ==========================================================
+   10 — CIVILIZATION OS ENTER LINK
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__enter {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  max-width: 100%;
+
+  margin-inline: auto;
+
+  font-size: var(--an-unified-label) !important;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+/* ==========================================================
+   11 — KNOWLEDGE INTEGRITY PRINCIPLE
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-ki__eyebrow {
+  font-size: var(--an-unified-label) !important;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__principle {
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__principle > span {
+  display: block;
+
+  font-size: var(--an-unified-label) !important;
+  line-height: 1.6;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__principle > strong {
+  display: block;
+
+  max-width: 720px;
+  margin-inline: auto;
+
+  font-size: var(--an-unified-body) !important;
+  line-height: 1.8;
+
+  text-align: center !important;
+  overflow-wrap: anywhere;
+}
+
+/* ==========================================================
+   12 — KNOWLEDGE INTEGRITY DOMAIN CARDS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain {
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-trigger {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+
+  gap: 10px;
+
+  width: 100%;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__number {
+  font-size: var(--an-unified-number) !important;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-heading {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  min-width: 0;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-heading strong {
+  font-size: var(--an-unified-card-title) !important;
+  font-weight: 600;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-heading small {
+  font-size: var(--an-unified-card-body) !important;
+  font-weight: 400;
+  line-height: 1.7;
+
+  text-align: center !important;
+}
+
+/* Accordion expand / collapse symbol */
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-trigger > span:last-child {
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+}
+
+/* ==========================================================
+   13 — KNOWLEDGE INTEGRITY EXPANDED PANELS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-panel {
+  text-align: center !important;
+}
+
+/* Respect the accordion's hidden state */
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-panel[hidden] {
+  display: none !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-panel h4 {
+  font-size: var(--an-unified-label) !important;
+  font-weight: 650;
+  line-height: 1.6;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-panel p,
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-panel li {
+  font-size: var(--an-unified-body) !important;
+  font-weight: 400;
+  line-height: 1.85;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-panel ul {
+  list-style: none;
+
+  margin-inline: auto;
+  padding-inline: 0;
+
+  max-width: 680px;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__domain-panel li {
+  margin-bottom: 10px;
+}
+
+/* ==========================================================
+   14 — SIX VERIFICATION GATES
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-ki__gate {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__gate > span {
+  font-size: var(--an-unified-number) !important;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__gate > strong {
+  font-size: var(--an-unified-card-title) !important;
+  font-weight: 600;
+  line-height: 1.5;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__gate > p {
+  max-width: 560px;
+  margin-inline: auto;
+
+  font-size: var(--an-unified-card-body) !important;
+  line-height: 1.75;
+
+  text-align: center !important;
+}
+
+/* ==========================================================
+   15 — EVIDENCE BOUNDARY
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-ki__boundary {
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__boundary > span {
+  font-size: var(--an-unified-label) !important;
+  line-height: 1.6;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+.an-ki__boundary > p {
+  max-width: 680px;
+  margin-inline: auto;
+
+  font-size: var(--an-unified-body) !important;
+  line-height: 1.85;
+
+  text-align: center !important;
+}
+
+/* ==========================================================
+   16 — FOOTERS
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__footer,
+  .an-ki__footer
+) {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  text-align: center !important;
+}
+
+main#home-top
+#archenova-civilization-os
+:is(
+  .an-cos-home__footer,
+  .an-ki__footer
+) > span {
+  font-size: var(--an-unified-label) !important;
+  line-height: 1.8;
+
+  letter-spacing: 0.1em;
+  text-align: center !important;
+}
+
+/* ==========================================================
+   17 — MOBILE TYPOGRAPHY
+========================================================== */
+
+@media (max-width: 700px) {
+
+  main#home-top
+  #archenova-civilization-os
+  :is(.an-cos-home, .an-ki) {
+    --an-unified-title: 38px;
+    --an-unified-statement: 14px;
+    --an-unified-body: 12px;
+    --an-unified-card-title: 13px;
+    --an-unified-card-body: 11px;
+    --an-unified-label: 9px;
+    --an-unified-number: 9px;
+  }
+
+  main#home-top
+  #archenova-civilization-os
+  :is(
+    .an-cos-home__header,
+    .an-ki__header
+  ) {
+    text-align: center !important;
+  }
+
+  main#home-top
+  #archenova-civilization-os
+  :is(
+    .an-cos-home__system,
+    .an-ki__domain,
+    .an-ki__gate
+  ) {
+    text-align: center !important;
+  }
+}
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION OS
+   HISTORICAL FOUNDATION — CENTER ALIGNMENT
+========================================================== */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation {
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 100%;
+  min-width: 0;
+
+  text-align: center !important;
+}
+
+/* Foundation label */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation-label {
+  display: block !important;
+
+  width: 100%;
+
+  margin-inline: auto !important;
+
+  text-align: center !important;
+}
+
+/* Historical foundation title */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation > strong {
+  display: block !important;
+
+  width: 100%;
+
+  margin-inline: auto !important;
+
+  text-align: center !important;
+}
+
+/* Historical research description */
+
+main#home-top
+#archenova-civilization-os
+.an-cos-home__foundation > p {
+  display: block !important;
+
+  width: 100%;
+  max-width: 680px;
+
+  margin-inline: auto !important;
+
+  text-align: center !important;
+
+  text-align-last: center !important;
+
+  line-height: 1.85;
+}
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / CIVILIZATIONAL SYSTEMS
+   OVERVIEW + CONTINUITY PRINCIPLE
+   DEFINITIVE CENTER ALIGNMENT
+========================================================== */
+
+/* Shared principle container */
+
+main#home-top
+#archenova-civilization-os
+.an-os-overview__principle {
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 100%;
+  min-width: 0;
+
+  text-align: center !important;
+}
+
+/* FOUNDATIONAL / CONTINUITY PRINCIPLE label */
+
+main#home-top
+#archenova-civilization-os
+.an-os-overview__principle > span {
+  display: block !important;
+
+  width: 100%;
+  max-width: 100%;
+
+  margin-inline: auto !important;
+
+  text-align: center !important;
+  text-align-last: center !important;
+}
+
+/* The actual principle description is STRONG, not P */
+
+main#home-top
+#archenova-civilization-os
+.an-os-overview__principle > strong {
+  display: block !important;
+
+  width: 100% !important;
+  max-width: 680px !important;
+
+  min-width: 0;
+
+  margin-inline: auto !important;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.85;
+
+  text-align: center !important;
+  text-align-last: center !important;
+
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  main#home-top
+  #archenova-civilization-os
+  .an-os-overview__principle > strong {
+    max-width: 100% !important;
+
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -161,18 +161,16 @@ export default function ArcheNovaKnowledgeIntegrity() {
     >
       {/* INTRODUCTION */}
 
+  
       <header className="an-ki__header">
-        <span className="an-ki__eyebrow">
-          ARCHENOVA / SCIENTIFIC INTEGRITY
-        </span>
 
-        <h3
+        <h2
           id={`${instanceId}-title`}
           className="an-ki__title"
         >
           Knowledge
           <span>Integrity.</span>
-        </h3>
+        </h2>
 
         <p className="an-ki__statement">
           Reality retains veto over every representation.
@@ -321,9 +319,6 @@ export default function ArcheNovaKnowledgeIntegrity() {
           CLAIM → EVIDENCE → TEST → REVIEW → CORRECTION
         </span>
 
-        <span>
-          ARCHENOVA  KNOWLEDGE INTEGRITY
-        </span>
       </footer>
     </section>
   );

@@ -9,59 +9,53 @@ import {
 } from "react";
 
 /* ==========================================================
-   ARCHENOVA / CIVILIZATION OPERATING SYSTEM
+   ARCHENOVA / CIVILIZATIONAL SYSTEMS
 
-   INTEGRATED HOME FRAME
-   2026
+   INTEGRATED HOME FRAME — 2026
 
-   STRUCTURE
+   PURPOSE
+
+   To investigate how scientific knowledge becomes
+   verifiable engineering capability, how capabilities
+   form interdependent infrastructure, and how
+   institutions preserve accountability, correction,
+   recoverability, and long-term continuity.
+
+   FOUR DOMAINS
 
    01 — OVERVIEW
-        Civilization operating architecture
+        Civilizational systems architecture
 
    02 — OPERATIONS
-        Seven civilization systems
-        Historical research foundation
-        Reproducible engineering objectives
+        Seven interconnected civilization systems
+        Historical research and engineering objectives
 
    03 — INTEGRITY
-        Evidence provenance
-        Reproducibility
-        Uncertainty
-        Independent correction
+        Evidence, reproducibility, uncertainty,
+        independent verification and correction
 
    04 — CONTINUITY
-        Failure containment
-        Recovery
-        Replacement
-        Long-term adaptation
+        Resilience, recovery, replaceability,
+        adaptability and future options
 
-   DESIGN PRINCIPLES
+   IMPLEMENTATION PRINCIPLES
 
-   - Preserve existing glass-frame aesthetics.
    - Preserve existing CSS class names.
-   - Separate Overview from Operations.
-   - Preserve all original CivilizationOSPortal content.
-   - Support ArcheNovaKnowledgeIntegrity.
-   - Keep internal tabs independent from HomeSectionPager.
-   - Maintain accessible keyboard navigation.
-   - No nested HOME section navigation.
+   - Preserve existing HOME glass geometry.
+   - No additional outer glass frame.
+   - Preserve injected Operations and Integrity.
+   - No nested HOME navigation.
+   - Accessible keyboard-operated tabs.
    - No external storage dependency.
+   - No unsupported operational claims.
+   - Distinguish architecture from verified deployment.
 
-   STYLING
-
-   All CSS is owned by app/globals.css.
-   No styled-jsx.
-   No inline styles.
-   No additional outer glass frame.
+   CSS OWNER
+   app/globals.css
 
 ========================================================== */
 
-/* ==========================================================
-   TYPES
-========================================================== */
-
-type OSTab =
+type SystemsTab =
   | "overview"
   | "operations"
   | "integrity"
@@ -74,46 +68,35 @@ type ArcheNovaCivilizationOSFrameProps = {
   continuity?: ReactNode;
 };
 
-/* ==========================================================
-   TAB DEFINITIONS
-========================================================== */
-
 const TABS: readonly {
-  id: OSTab;
+  id: SystemsTab;
   label: string;
   description: string;
 }[] = [
   {
     id: "overview",
     label: "OVERVIEW",
-    description:
-      "Civilizational operating architecture",
+    description: "Integrated civilizational architecture",
   },
   {
     id: "operations",
     label: "OPERATIONS",
-    description:
-      "Seven civilization systems and research",
+    description: "Seven interdependent systems",
   },
   {
     id: "integrity",
     label: "INTEGRITY",
-    description:
-      "Evidence and independent verification",
+    description: "Evidence and independent correction",
   },
   {
     id: "continuity",
     label: "CONTINUITY",
-    description:
-      "Recovery and long-term adaptability",
+    description: "Resilience and long-term adaptation",
   },
 ];
 
 /* ==========================================================
-   OVERVIEW ARCHITECTURE
-
-   Conceptual framework.
-   Not an assertion of deployed infrastructure.
+   FIVE FOUNDATIONAL LAYERS
 ========================================================== */
 
 const ARCHITECTURE_LAYERS = [
@@ -121,68 +104,99 @@ const ARCHITECTURE_LAYERS = [
     number: "01",
     title: "Physical Reality",
     description:
-      "Resource availability, material constraints, energy flows, and environmental conditions.",
+      "Energy, matter, environmental conditions, spatial constraints, and the physical limits within which any civilization must operate.",
   },
   {
     number: "02",
     title: "Scientific Knowledge",
     description:
-      "Observations, measurements, reproducible models, uncertainty, and independent verification.",
+      "Observation, measurement, falsifiable explanation, reproducible experimentation, uncertainty characterization, and independent scrutiny.",
   },
   {
     number: "03",
     title: "Engineering Capability",
     description:
-      "Testable systems, infrastructure dependencies, operational constraints, and recovery mechanisms.",
+      "The transformation of validated knowledge into testable artifacts, dependable infrastructure, measurable performance, and recoverable technical systems.",
   },
   {
     number: "04",
     title: "Institutional Coordination",
     description:
-      "Accountable authority, resource allocation, cooperation, and independent correction.",
+      "Accountable authority, legitimate decision-making, resource allocation, cooperation, independent oversight, and mechanisms for correcting institutional failure.",
   },
   {
     number: "05",
     title: "Civilizational Continuity",
     description:
-      "The capacity to adapt, recover, replace failing systems, and preserve future options.",
+      "The preservation of essential functions through disruption, replacement, adaptation, intergenerational knowledge transfer, and the protection of future choices.",
   },
 ] as const;
 
 /* ==========================================================
-   OVERVIEW PANEL
+   SYSTEM DESIGN PRINCIPLES
 ========================================================== */
 
-function CivilizationOSOverview() {
+const DESIGN_PRINCIPLES = [
+  {
+    number: "01",
+    title: "Reality Before Representation",
+    description:
+      "Models, measurements, simulations, and institutional reports remain revisable representations. Physical evidence must retain the authority to invalidate them.",
+  },
+  {
+    number: "02",
+    title: "Capability Before Scale",
+    description:
+      "A proposed system must demonstrate its essential functions under defined conditions before claims of reliability, scalability, or public value can be justified.",
+  },
+  {
+    number: "03",
+    title: "Correctability Before Dependency",
+    description:
+      "The expansion of critical dependencies must remain bounded by the ability to independently inspect, interrupt, repair, recover, replace, or discontinue the system.",
+  },
+] as const;
+
+/* ==========================================================
+   OVERVIEW
+
+   Research architecture, not a claim that a
+   civilization-wide operating platform is deployed.
+========================================================== */
+
+function CivilizationalSystemsOverview() {
   return (
     <div className="an-os-overview">
       <header className="an-os-overview__intro">
         <span className="an-os-overview__eyebrow">
-          CIVILIZATIONAL SYSTEM ARCHITECTURE
+          INTEGRATED CIVILIZATIONAL ARCHITECTURE
         </span>
 
         <h3 className="an-os-overview__title">
-          Civilization as an
-          <span>Interdependent System.</span>
+          From Knowledge to
+          <span>Enduring Capability.</span>
         </h3>
 
         <p className="an-os-overview__lead">
-          Civilization is not a collection of isolated
-          technologies or institutions. It is an
-          interdependent system whose long-term viability
-          depends on the relationship between physical
-          resources, scientific knowledge, engineered
-          infrastructure, institutional coordination,
-          and the capacity for correction.
+          Civilization emerges from the interaction of
+          physical resources, scientific understanding,
+          engineered systems, human institutions, and
+          collective capacity to adapt. Its durability
+          depends not on the strength of any single
+          component, but on the relationships,
+          dependencies, and failure pathways connecting
+          them.
         </p>
 
         <p className="an-os-overview__description">
-          ArcheNova Civilization OS proposes a research
-          and engineering environment for investigating
-          these relationships, identifying critical
-          dependencies, and converting reproducible
-          knowledge into accountable and durable
-          civilizational capability.
+          ArcheNova Civilizational Systems establishes
+          a proposed research and engineering framework
+          for examining those relationships, converting
+          reproducible knowledge into verifiable
+          capability, and evaluating whether essential
+          functions can remain accountable, recoverable,
+          replaceable, and sustainable across changing
+          conditions.
         </p>
       </header>
 
@@ -192,15 +206,15 @@ function CivilizationOSOverview() {
         <span>FOUNDATIONAL PRINCIPLE</span>
 
         <strong>
-          Reality constrains knowledge.
-          Knowledge informs engineering.
-          Engineering enables capability.
-          Governance bounds its use.
-          Continuity preserves the capacity to adapt.
+          Reality constrains knowledge. Evidence
+          disciplines design. Engineering establishes
+          capability. Institutions govern its use.
+          Independent correction and recovery preserve
+          the possibility of continuity.
         </strong>
       </div>
 
-      {/* ARCHITECTURE LAYERS */}
+      {/* FIVE LAYERS */}
 
       <div className="an-os-overview__section-heading">
         <span>FIVE INTERDEPENDENT LAYERS</span>
@@ -210,8 +224,8 @@ function CivilizationOSOverview() {
       <div className="an-os-overview__layers">
         {ARCHITECTURE_LAYERS.map((layer) => (
           <article
-            className="an-os-overview__layer"
             key={layer.number}
+            className="an-os-overview__layer"
           >
             <span className="an-os-overview__number">
               {layer.number}
@@ -233,25 +247,59 @@ function CivilizationOSOverview() {
         </span>
 
         <p>
-          Historical Evidence → Scientific Model →
-          Reproducible Experiment → Engineering Artifact →
-          Independent Verification → Accountable Deployment
+          Concept → Evidence → Experiment → Artifact
+          → Independent Verification → Deployment
           → Measured Result → Correction
+        </p>
+
+        <p>
+          Each transition requires evidence appropriate
+          to its claim. A conceptual model is not an
+          experimental result; a functioning prototype
+          is not proven infrastructure; and deployment
+          alone does not establish lasting public value.
         </p>
       </div>
 
-      {/* EVIDENCE BOUNDARY */}
+      {/* DESIGN PRINCIPLES */}
+
+      <div className="an-os-overview__section-heading">
+        <span>SYSTEM DESIGN PRINCIPLES</span>
+        <span>01 — 03</span>
+      </div>
+
+      <div className="an-os-overview__layers">
+        {DESIGN_PRINCIPLES.map((principle) => (
+          <article
+            key={principle.number}
+            className="an-os-overview__layer"
+          >
+            <span className="an-os-overview__number">
+              {principle.number}
+            </span>
+
+            <div className="an-os-overview__layer-copy">
+              <h4>{principle.title}</h4>
+              <p>{principle.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      {/* IMPLEMENTATION BOUNDARY */}
 
       <div className="an-os-overview__boundary">
-        <span>IMPLEMENTATION BOUNDARY</span>
+        <span>IMPLEMENTATION AND EVIDENCE BOUNDARY</span>
 
         <p>
-          This architecture defines a proposed framework
-          for civilizational research and engineering.
-          Its conceptual structure does not, by itself,
-          establish that operational infrastructure,
-          independent verification, or institutional
-          deployment has been achieved.
+          This framework describes a civilizational
+          systems research architecture. It does not
+          imply that the proposed systems have been
+          deployed, independently validated, or adopted
+          by governing institutions. Operational
+          capability must be established through
+          documented experiments, reproducible artifacts,
+          measured results, and independent assessment.
         </p>
       </div>
     </div>
@@ -261,23 +309,23 @@ function CivilizationOSOverview() {
 /* ==========================================================
    RESERVED DOMAIN
 
-   Used only when no content is supplied.
-
-   Explicitly distinguishes proposed architecture
-   from demonstrated operational capability.
+   Displayed only when no corresponding component
+   is provided by the HOME integration.
 ========================================================== */
 
-function ReservedOSPanel({
+function ReservedSystemsPanel({
   title,
   description,
+  status = "RESEARCH ARCHITECTURE · NOT OPERATIONALLY VERIFIED",
 }: {
   title: string;
   description: string;
+  status?: string;
 }) {
   return (
     <div className="an-os-frame__reserved">
       <span className="an-os-frame__reserved-label">
-        ARCHITECTURAL DOMAIN
+        CIVILIZATIONAL SYSTEMS DOMAIN
       </span>
 
       <h3>{title}</h3>
@@ -285,14 +333,154 @@ function ReservedOSPanel({
       <p>{description}</p>
 
       <span className="an-os-frame__reserved-status">
-        DESIGN SCOPE · NOT YET VERIFIED AS OPERATIONAL
+        {status}
       </span>
     </div>
   );
 }
 
 /* ==========================================================
-   COMPONENT
+   DEFAULT CONTINUITY ARCHITECTURE
+========================================================== */
+
+const CONTINUITY_DOMAINS = [
+  {
+    number: "01",
+    title: "Failure Containment",
+    description:
+      "Identify critical dependencies, define acceptable failure boundaries, and prevent localized disruptions from propagating into system-wide loss.",
+  },
+  {
+    number: "02",
+    title: "Recoverability",
+    description:
+      "Specify restoration pathways, recovery objectives, minimum viable functions, and measurable conditions for returning to an acceptable operating state.",
+  },
+  {
+    number: "03",
+    title: "Replaceability",
+    description:
+      "Preserve the ability to substitute components, institutions, technologies, or providers without making civilization dependent on a single irreplaceable authority.",
+  },
+  {
+    number: "04",
+    title: "Adaptive Governance",
+    description:
+      "Maintain accountable decision-making, independent oversight, institutional learning, and revision mechanisms as physical and social conditions change.",
+  },
+  {
+    number: "05",
+    title: "Intergenerational Continuity",
+    description:
+      "Preserve transferable knowledge, essential records, critical skills, and the capacity of future generations to evaluate and revise inherited systems.",
+  },
+] as const;
+
+function CivilizationalContinuityOverview() {
+  return (
+    <div className="an-os-overview">
+      <header className="an-os-overview__intro">
+        <span className="an-os-overview__eyebrow">
+          RESILIENCE · RECOVERY · ADAPTATION
+        </span>
+
+        <h3 className="an-os-overview__title">
+          Continuity Through
+          <span>Correctable Systems.</span>
+        </h3>
+
+        <p className="an-os-overview__lead">
+          Civilizational continuity does not require
+          preserving every existing technology,
+          institution, or infrastructure component.
+          It requires preserving essential functions
+          and the ability to recover, replace, and
+          adapt when inherited arrangements fail.
+        </p>
+
+        <p className="an-os-overview__description">
+          This proposed architecture examines the
+          conditions under which essential capabilities
+          can remain accessible across technical
+          disruption, institutional change,
+          environmental uncertainty, and
+          intergenerational transition.
+        </p>
+      </header>
+
+      <div className="an-os-overview__principle">
+        <span>CONTINUITY PRINCIPLE</span>
+
+        <strong>
+          Endurance is not the absence of failure.
+          It is the demonstrated ability to contain
+          failure, restore essential functions,
+          replace inadequate structures, and preserve
+          future options.
+        </strong>
+      </div>
+
+      <div className="an-os-overview__section-heading">
+        <span>FIVE CONTINUITY DOMAINS</span>
+        <span>01 — 05</span>
+      </div>
+
+      <div className="an-os-overview__layers">
+        {CONTINUITY_DOMAINS.map((domain) => (
+          <article
+            key={domain.number}
+            className="an-os-overview__layer"
+          >
+            <span className="an-os-overview__number">
+              {domain.number}
+            </span>
+
+            <div className="an-os-overview__layer-copy">
+              <h4>{domain.title}</h4>
+              <p>{domain.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <div className="an-os-overview__pathway">
+        <span className="an-os-overview__pathway-label">
+          CONTINUITY VALIDATION PATHWAY
+        </span>
+
+        <p>
+          Dependency Mapping → Failure Scenario →
+          Containment Test → Recovery Test →
+          Replacement Test → Independent Review →
+          Corrective Redesign
+        </p>
+
+        <p>
+          Resilience claims require defined failure
+          conditions, observable recovery performance,
+          and evidence that essential functions remain
+          available or can be restored within justified
+          constraints.
+        </p>
+      </div>
+
+      <div className="an-os-overview__boundary">
+        <span>VALIDATION STATUS</span>
+
+        <p>
+          These domains define proposed continuity
+          requirements. They are not evidence that
+          ArcheNova currently operates a validated
+          disaster-recovery, infrastructure-replacement,
+          or civilizational governance system.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+/* ==========================================================
+   MAIN COMPONENT
 ========================================================== */
 
 export default function ArcheNovaCivilizationOSFrame({
@@ -302,66 +490,65 @@ export default function ArcheNovaCivilizationOSFrame({
   continuity,
 }: ArcheNovaCivilizationOSFrameProps) {
   const [activeTab, setActiveTab] =
-    useState<OSTab>("overview");
+    useState<SystemsTab>("overview");
 
   const instanceId = useId().replace(/:/g, "");
 
   const tabRefs = useRef<
-    Partial<Record<OSTab, HTMLButtonElement | null>>
+    Partial<Record<SystemsTab, HTMLButtonElement | null>>
   >({});
 
   /* ========================================================
      CONTENT MAPPING
 
      OVERVIEW:
-       Built-in conceptual architecture by default.
+       Integrated architecture.
 
      OPERATIONS:
-       CivilizationOSPortal should be supplied here.
+       Existing CivilizationOSPortal content.
 
      INTEGRITY:
-       ArcheNovaKnowledgeIntegrity should be supplied here.
+       Existing ArcheNovaKnowledgeIntegrity content.
 
      CONTINUITY:
-       Custom content or reserved architecture.
+       Built-in continuity architecture or custom content.
   ======================================================== */
 
-  const content: Record<OSTab, ReactNode> = {
-    overview: overview ?? (
-      <CivilizationOSOverview />
-    ),
+  const content: Record<SystemsTab, ReactNode> = {
+    overview:
+      overview ?? <CivilizationalSystemsOverview />,
 
-    operations: operations ?? (
-      <ReservedOSPanel
-        title="Civilizational Operations"
-        description="A proposed integration domain for the seven civilization systems, historical research, operational dependencies, resource constraints, and independently verifiable engineering artifacts. No live operational status is asserted."
-      />
-    ),
+    operations:
+      operations ?? (
+        <ReservedSystemsPanel
+          title="Civilizational Operations"
+          description="This domain is intended to connect seven civilization systems, historical research, operational dependencies, resource constraints, and independently verifiable engineering objectives. Supply the existing CivilizationOSPortal component to display its full content."
+        />
+      ),
 
-    integrity: integrity ?? (
-      <ReservedOSPanel
-        title="Knowledge Integrity"
-        description="A proposed verification domain for evidence provenance, scientific reproducibility, uncertainty, independent review, and correction."
-      />
-    ),
+    integrity:
+      integrity ?? (
+        <ReservedSystemsPanel
+          title="Knowledge Integrity"
+          description="This domain is intended to evaluate evidence provenance, reproducibility, uncertainty, scientific limitations, independent verification, and correction. Supply ArcheNovaKnowledgeIntegrity to display the complete verification architecture."
+        />
+      ),
 
-    continuity: continuity ?? (
-      <ReservedOSPanel
-        title="Civilization Continuity"
-        description="A proposed architecture for failure containment, recovery pathways, replacement mechanisms, and long-term institutional adaptability."
-      />
-    ),
+    continuity:
+      continuity ?? (
+        <CivilizationalContinuityOverview />
+      ),
   };
 
   /* ========================================================
-     KEYBOARD NAVIGATION
+     ACCESSIBLE KEYBOARD NAVIGATION
 
-     ArrowRight → Next tab
-     ArrowLeft  → Previous tab
-     Home       → First tab
-     End        → Last tab
+     ArrowRight — Next
+     ArrowLeft  — Previous
+     Home       — First
+     End        — Last
 
-     Selection follows keyboard focus.
+     Selection follows focus.
   ======================================================== */
 
   const handleKeyDown = (
@@ -370,26 +557,34 @@ export default function ArcheNovaCivilizationOSFrame({
   ) => {
     let nextIndex = index;
 
-    if (event.key === "ArrowRight") {
-      nextIndex =
-        (index + 1) % TABS.length;
-    } else if (event.key === "ArrowLeft") {
-      nextIndex =
-        (index - 1 + TABS.length) % TABS.length;
-    } else if (event.key === "Home") {
-      nextIndex = 0;
-    } else if (event.key === "End") {
-      nextIndex = TABS.length - 1;
-    } else {
-      return;
+    switch (event.key) {
+      case "ArrowRight":
+        nextIndex = (index + 1) % TABS.length;
+        break;
+
+      case "ArrowLeft":
+        nextIndex =
+          (index - 1 + TABS.length) % TABS.length;
+        break;
+
+      case "Home":
+        nextIndex = 0;
+        break;
+
+      case "End":
+        nextIndex = TABS.length - 1;
+        break;
+
+      default:
+        return;
     }
 
     event.preventDefault();
+    event.stopPropagation();
 
     const nextTab = TABS[nextIndex];
 
     setActiveTab(nextTab.id);
-
     tabRefs.current[nextTab.id]?.focus();
   };
 
@@ -399,37 +594,40 @@ export default function ArcheNovaCivilizationOSFrame({
 
   return (
     <div className="an-os-frame">
-      {/* MAIN HEADER */}
+      {/* HEADER */}
 
       <header className="an-os-frame__header">
+
         <h2 className="an-os-frame__title">
-          Civilization
-          <span>OS</span>
+          Civilizational
+          <span>Systems</span>
         </h2>
 
         <p className="an-os-frame__statement">
-          Engineering the capacity to observe, govern,
-          correct, recover, and endure.
+          Connecting scientific knowledge,
+          engineering capability, institutional
+          accountability, and long-term continuity.
         </p>
 
         <p className="an-os-frame__description">
-          An integrated operating architecture connecting
-          civilizational systems, evidence integrity,
-          operational accountability, and long-term
-          continuity.
+          An integrated research and design framework
+          for understanding civilization as a network
+          of interdependent systems — transforming
+          evidence into verifiable capability while
+          preserving independent correction,
+          recoverability, and the freedom to adapt.
         </p>
       </header>
 
-      {/* TAB NAVIGATION */}
+      {/* DOMAIN NAVIGATION */}
 
       <div
         className="an-os-frame__tabs"
         role="tablist"
-        aria-label="Civilization OS domains"
+        aria-label="Civilizational Systems domains"
       >
         {TABS.map((tab, index) => {
-          const selected =
-            activeTab === tab.id;
+          const selected = activeTab === tab.id;
 
           return (
             <button
@@ -449,9 +647,7 @@ export default function ArcheNovaCivilizationOSFrame({
               ]
                 .filter(Boolean)
                 .join(" ")}
-              onClick={() =>
-                setActiveTab(tab.id)
-              }
+              onClick={() => setActiveTab(tab.id)}
               onKeyDown={(event) =>
                 handleKeyDown(event, index)
               }
@@ -466,12 +662,11 @@ export default function ArcheNovaCivilizationOSFrame({
         })}
       </div>
 
-      {/* TAB CONTENT */}
+      {/* DOMAIN CONTENT */}
 
       <div className="an-os-frame__content">
         {TABS.map((tab) => {
-          const selected =
-            activeTab === tab.id;
+          const selected = activeTab === tab.id;
 
           return (
             <section
@@ -496,11 +691,11 @@ export default function ArcheNovaCivilizationOSFrame({
         })}
       </div>
 
-      {/* FRAME FOOTER */}
+      {/* FOOTER */}
 
       <footer className="an-os-frame__footer">
         <span className="an-os-frame__footer-label">
-          ARCHENOVA CIVILIZATION OS
+          ARCHENOVA CIVILIZATIONAL SYSTEMS
         </span>
       </footer>
     </div>

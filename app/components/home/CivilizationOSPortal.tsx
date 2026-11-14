@@ -182,10 +182,6 @@ function CivilizationOSContent() {
             HISTORICAL EVIDENCE → PHYSICAL MODEL →
             EXPERIMENT → VERIFICATION → CORRECTION
           </span>
-
-          <span>
-            ARCHENOVA / CIVILIZATION OS
-          </span>
         </footer>
       </div>
     </>
