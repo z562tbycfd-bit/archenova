@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-11-14T09:54:04.390Z",
+  "updated": "2026-11-14T16:25:38.424Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "World's largest freshwater lake is recovering after decades of decline",
+      "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
+      "summary": "Lake Baikal in Siberia holds around 20% of the world's surface freshwater, making it the most voluminous freshwater lake (Lake Superior on the United States–Canada border is the largest by surface area). This makes the l…",
+      "ts": 1794670801000,
+      "publishedAt": "2026-11-14T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Archaeologists shed new light on wealth and status among Europe's early herders",
+      "url": "https://phys.org/news/2026-11-archaeologists-wealth-status-europe-early.html",
+      "summary": "How unequal were prehistoric societies? And how can archaeologists measure wealth in cultures that left behind no written records, no tax registers and no census data?",
+      "ts": 1794664801000,
+      "publishedAt": "2026-11-14T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A common food emulsifier could solve one of rocketry's oldest fuel problems",
+      "url": "https://phys.org/news/2026-11-common-food-emulsifier-rocketry-oldest.html",
+      "summary": "In propulsion system design, engineers have long faced a trade-off between solid and liquid rocket fuels. Each has advantages and disadvantages, and in an effort to try to min/max the efficacy of different types of fuel,…",
+      "ts": 1794661206000,
+      "publishedAt": "2026-11-14T13:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Alaska laments decline of its prized salmon populations",
+      "url": "https://phys.org/news/2026-11-alaska-laments-decline-prized-salmon.html",
+      "summary": "In his Alaskan community, fisherman Bob Candopoulos has long welcomed tourists to his business that's showcased by a sign featuring a king salmon.",
+      "ts": 1794657612000,
+      "publishedAt": "2026-11-14T12:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "California steels for storms that could trigger massive waves, flooding",
+      "url": "https://phys.org/news/2026-11-california-steels-storms-trigger-massive.html",
+      "summary": "California was bracing Friday for a storm series packing heavy rain and surf that could once again flood coastal communities and potentially send monster waves pounding shores.",
+      "ts": 1794656406000,
+      "publishedAt": "2026-11-14T11:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX's Starship set for return to Earth after booster catch aborted",
+      "url": "https://phys.org/news/2026-11-spacex-starship-earth-booster-aborted.html",
+      "summary": "SpaceX's Starship spacecraft was \"healthy\" as it orbited the Earth and on track to return Saturday to its Texas launch site, where Elon Musk's company was planning to \"catch\" the vehicle for the first time.",
+      "ts": 1794655134000,
+      "publishedAt": "2026-11-14T11:18:54.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "SpaceX's Starship soars into orbit after booster explosion prevents an unprecedented double catch",
@@ -25,6 +73,70 @@
       "summary": "Power electronic devices help control the flow of electricity and convert it into forms needed by different machines, such as electric vehicles, renewable energy systems and industrial equipment. Some electrical energy i…",
       "ts": 1794619201000,
       "publishedAt": "2026-11-14T01:20:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Chirality-locked low-dimensional bound states in the continuum lasers",
+      "url": "https://www.nature.com/articles/s41467-026-79359-y",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Boosting reinforcement learning for critical node detection with multi-topology training strategies",
+      "url": "https://www.nature.com/articles/s41467-026-78707-2",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Field-angle-resolved heat transport in UTe<sub>2</sub>: determination of nodal positions in the superconducting order parameter",
+      "url": "https://www.nature.com/articles/s41467-026-78019-5",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Multi-ancestry genetic analysis reveals 29 novel rheumatoid arthritis loci, effector genes and drug repurposing opportunities",
+      "url": "https://www.nature.com/articles/s41467-026-79357-0",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Emergent mesoscale nanoparticle patterns from a non-equilibrium liquid lens",
+      "url": "https://www.nature.com/articles/s41467-026-79569-4",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "DPI-score: a deep learning-based metric for assessing protein-protein interfaces in cryoEM derived assemblies",
+      "url": "https://www.nature.com/articles/s41467-026-79090-8",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Tuning methanol-CO selectivity in CO<sub>2</sub> hydrogenation by Ga coordination engineering in ZnGa<sub>2</sub>O<sub>4</sub>",
+      "url": "https://www.nature.com/articles/s41467-026-79788-9",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A subspecialty diagnostic system powered by self-supervised learning for cervical histopathology",
+      "url": "https://www.nature.com/articles/s41467-026-79121-4",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -687,118 +799,6 @@
       "title": "Plasma simulations with adaptive mesh and algorithm refinement",
       "url": "https://arxiv.org/abs/2611.14820",
       "summary": "arXiv:2611.14820v1 Announce Type: new Abstract: Adaptive Mesh and Algorithm Refinement (AMAR) combines adaptive Cartesian meshes with automatic selection of kinetic or fluid solvers. It was introduced for rarefied gas dy…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Locating Debunkers for Rumor Mitigation in Directed Networks",
-      "url": "https://arxiv.org/abs/2611.14825",
-      "summary": "arXiv:2611.14825v1 Announce Type: new Abstract: Rumors can spread widely through social networks, making the selection of a limited number of debunkers to disseminate corrective information important. Existing centrality…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-directivity pulsed beams for effective power and information transfer",
-      "url": "https://arxiv.org/abs/2611.14860",
-      "summary": "arXiv:2611.14860v1 Announce Type: new Abstract: A vector spherical wave expansion (VSWE) is used to engineer an elemental multipole source whose radiated field is a superdirective, extremely unidirectional (SDEU) needle …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-driven Reconstruction of the Phase Dynamics for the El Ni\\~{n}o-Southern Oscillation Reveals Seasonality and Statistical Synchronization with the Annual Cycle",
-      "url": "https://arxiv.org/abs/2611.14868",
-      "summary": "arXiv:2611.14868v1 Announce Type: new Abstract: In this study, we treat the El Ni\\~{n}o-Southern Oscillation (ENSO) as a rhythmic system periodically forced by the annual cycle. We examine ENSO event seasonality and sync…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Detrital Remanent Magnetization Analysis at the Particle Scale: Implications for Prebiotic Origins of Homochirality",
-      "url": "https://arxiv.org/abs/2611.14905",
-      "summary": "arXiv:2611.14905v1 Announce Type: new Abstract: Detrital remanent magnetization (DRM), the alignment of ferromagnetic grains with the geomagnetic field during sedimentation, is the primary mechanism of paleomagnetic rema…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of Gas Pressure and Molecular Structure in the Spatial-Mode Conversion of Terahertz Radiation from a Plasma Filament",
-      "url": "https://arxiv.org/abs/2611.14939",
-      "summary": "arXiv:2611.14939v1 Announce Type: new Abstract: In this work, the generation of terahertz (THz) radiation under single color filamentation of a femtosecond laser pulse in an optical cell with compressed gases (argon, nit…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spontaneous mechanical patterning in active elastic tissues with stress feedback",
-      "url": "https://arxiv.org/abs/2611.14943",
-      "summary": "arXiv:2611.14943v1 Announce Type: new Abstract: The active mechanics of biological tissues is often governed by embedded active contractile fibers responding to mechanical feedback. We introduce a minimal model of a soli…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Distilling an atomistic foundation model is all you need for large-scale molecular dynamics of semiconductor interfaces",
-      "url": "https://arxiv.org/abs/2611.14948",
-      "summary": "arXiv:2611.14948v1 Announce Type: new Abstract: State-of-the-art atomistic foundation models provide broadly transferable energy and force predictions, but their direct deployment in large-scale molecular dynamics remain…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Feedback-induced mechanical bistability and perpendicular-domain formation in active elastic tissues",
-      "url": "https://arxiv.org/abs/2611.14964",
-      "summary": "arXiv:2611.14964v1 Announce Type: new Abstract: Contractile fibers in muscle tissues are highly aligned over the scale of many cells. Muscle layers surrounding organs with an inner lumen are often arranged in orthogonal …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A High-Fidelity Cardiac Digital Twin for Assessing Rate-Dependent Responses: A Comparative Multi-scale Study of TT2 and Tomek Models in Stratified 3D Ventricles",
-      "url": "https://arxiv.org/abs/2611.14995",
-      "summary": "arXiv:2611.14995v1 Announce Type: new Abstract: Cardiac digital twins (CDTs) provide a computational platform for personalized cardiac modeling, but their predictive behavior depends strongly on the selected ionic model …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Field-Deployable 2U Ultra-Stable Laser with Sub-Hertz Linewidth Based on Optoelectronic Oscillator Locking",
-      "url": "https://arxiv.org/abs/2611.15005",
-      "summary": "arXiv:2611.15005v1 Announce Type: new Abstract: Compact, high-performance ultra-stable lasers that can operate outside the laboratory remain a long-standing goal. Here we report, to our knowledge, the most compact field-…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A unified finite-site framework for scaffold-client biocondensation",
-      "url": "https://arxiv.org/abs/2611.15007",
-      "summary": "arXiv:2611.15007v1 Announce Type: new Abstract: Client recruitment into biomolecular condensates does not determine how stronger binding changes the bulk free-energy advantage of demixing. Here, we use a unified finite-s…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Melting Ice Activates Mechanical Forcing from Entrapped Air",
-      "url": "https://arxiv.org/abs/2611.15028",
-      "summary": "arXiv:2611.15028v1 Announce Type: new Abstract: Natural ice commonly contains entrapped air, yet its dynamical role during melting remains unresolved. Using numerical simulations and theoretical analysis, we show that me…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Diffusive T-Matrix Unifying the Electric and Magnetic Polarizability Tensors in Conducting Layered Media",
-      "url": "https://arxiv.org/abs/2611.15090",
-      "summary": "arXiv:2611.15090v1 Announce Type: new Abstract: Electromagnetic induction is used to detect and classify buried and submerged objects, such as unexploded ordnance in soil and on the seabed. A small object is commonly des…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-driven non-contiguous photon-energy groups for fast multigroup radiation transport in line-dominated plasmas",
-      "url": "https://arxiv.org/abs/2611.15095",
-      "summary": "arXiv:2611.15095v1 Announce Type: new Abstract: Opacity of mid- and high-$Z$ plasmas is dominated by thousands of overlapping spectral lines. Examples are laser-produced plasmas for extreme-ultraviolet (EUV) lithography,…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z"
     }
