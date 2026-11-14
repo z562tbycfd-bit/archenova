@@ -77132,6 +77132,126 @@ main#home-top
 
 
 
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION DAILY EXPERIENCE
+   MOBILE CATEGORY PILL — COMPLETE BORDER FIX
+
+   TARGET
+   .ce-daily-meta
+   .ce-daily-meta > span
+
+   PRESERVE
+   - Black glass aesthetic
+   - Centered layout
+   - Existing typography
+   - Inquiry interactions
+========================================================== */
+
+@media (max-width: 700px) {
+
+  /* Category group */
+
+  .ce-daily .ce-daily-hero .ce-daily-meta {
+    display: flex !important;
+    flex-direction: row !important;
+
+    flex-wrap: wrap !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 12px !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    margin-inline: auto !important;
+
+    padding: 8px 4px !important;
+
+    overflow: visible !important;
+
+    text-align: center !important;
+  }
+
+  /* Individual category pills */
+
+  .ce-daily .ce-daily-hero .ce-daily-meta > span {
+    position: relative !important;
+
+    display: inline-flex !important;
+
+    flex: 0 1 auto !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+
+    width: auto !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    min-height: 38px !important;
+
+    margin: 0 !important;
+
+    padding: 9px 16px !important;
+
+    border: 1px solid rgba(
+      255, 255, 255, 0.22
+    ) !important;
+
+    border-radius: 999px !important;
+
+    background: rgba(
+      12, 13, 16, 0.32
+    ) !important;
+
+    background-image: none !important;
+
+    box-shadow: none !important;
+
+    outline: none !important;
+
+    color: rgba(
+      235, 235, 239, 0.76
+    );
+
+    text-align: center !important;
+
+    white-space: normal !important;
+
+    overflow: visible !important;
+
+    clip-path: none !important;
+
+    mask: none !important;
+    -webkit-mask: none !important;
+
+    transform: none !important;
+
+    transition: none !important;
+  }
+
+  /* Disable decorative layers that may
+     interfere with the border */
+
+  .ce-daily .ce-daily-hero .ce-daily-meta > span::before,
+  .ce-daily .ce-daily-hero .ce-daily-meta > span::after {
+    content: none !important;
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
 
 
 
