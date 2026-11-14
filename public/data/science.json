@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-11-14T16:25:38.424Z",
+  "updated": "2026-11-14T21:09:10.660Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
+      "url": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
+      "summary": "Since 2022, astronomers have been puzzling over a new kind of cosmic object called long-period radio transients. These are objects that emit bright flashes of radio waves into space every few minutes to every few hours. …",
+      "ts": 1794690001000,
+      "publishedAt": "2026-11-14T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does your culture shape how you look at art? What an eye‑tracking study in Sudan revealed",
+      "url": "https://phys.org/news/2026-11-culture-art-eyetracking-sudan-revealed.html",
+      "summary": "Today, Old Dongola is an abandoned settlement on the banks of the Nile in northern Sudan. Hundreds of years ago, however, this place looked very different.",
+      "ts": 1794682801000,
+      "publishedAt": "2026-11-14T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for a new distance record",
+      "url": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
+      "summary": "NASA's Voyager 1 is about to become humanity's first object to reach one light-day from Earth as it pushes ever deeper into interstellar space.",
+      "ts": 1794681430000,
+      "publishedAt": "2026-11-14T18:37:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+      "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
+      "summary": "Thanks to the gravitational lensing caused by a massive galaxy cluster and high-resolution images from the James Webb Space Telescope (JWST), astronomers discovered an exploding star when the universe was 4.9 billion yea…",
+      "ts": 1794680401000,
+      "publishedAt": "2026-11-14T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some of the oldest rocks ever discovered shed light on Earth's early history",
+      "url": "https://phys.org/news/2026-11-oldest-earth-early-history.html",
+      "summary": "Earth is approximately 4.5 billion years old, according to estimates. However, rocks dating back to the planet's earliest days are extremely rare. Hence the excitement over the discovery in northern China of some of the …",
+      "ts": 1794675633000,
+      "publishedAt": "2026-11-14T17:00:33.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "World's largest freshwater lake is recovering after decades of decline",
@@ -46,7 +86,7 @@
       "source": "Phys.org",
       "title": "SpaceX's Starship set for return to Earth after booster catch aborted",
       "url": "https://phys.org/news/2026-11-spacex-starship-earth-booster-aborted.html",
-      "summary": "SpaceX's Starship spacecraft was \"healthy\" as it orbited the Earth and on track to return Saturday to its Texas launch site, where Elon Musk's company was planning to \"catch\" the vehicle for the first time.",
+      "summary": "SpaceX said its Starship spacecraft was \"healthy\" as it orbited the Earth and on track to return Saturday to its Texas launch site, where Elon Musk's company was planning to \"catch\" the vehicle for the first time.",
       "ts": 1794655134000,
       "publishedAt": "2026-11-14T11:18:54.000Z"
     },
@@ -94,6 +134,22 @@
       "source": "Nature Communications",
       "title": "Field-angle-resolved heat transport in UTe<sub>2</sub>: determination of nodal positions in the superconducting order parameter",
       "url": "https://www.nature.com/articles/s41467-026-78019-5",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Geophysical conditions favoring precursory slip before major earthquakes",
+      "url": "https://www.nature.com/articles/s41467-026-79533-2",
+      "summary": "",
+      "ts": 1794614400000,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "TRIM47 drives cardiac ischemia/reperfusion injury by impairing mitochondrial function and fatty acid metabolism in male mice",
+      "url": "https://www.nature.com/articles/s41467-026-79182-5",
       "summary": "",
       "ts": 1794614400000,
       "publishedAt": "2026-11-14T00:00:00.000Z"
@@ -743,62 +799,6 @@
       "title": "Comparison of the flamelet progress variable and thickened flame models for LES of turbulent combustion",
       "url": "https://arxiv.org/abs/2611.14726",
       "summary": "arXiv:2611.14726v1 Announce Type: new Abstract: Large-eddy simulation (LES) of turbulent combustion requires closure models for unresolved flame structures and chemical processes. Two widely used but fundamentally differ…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fragility of Aeolian Ripples",
-      "url": "https://arxiv.org/abs/2611.14739",
-      "summary": "arXiv:2611.14739v1 Announce Type: new Abstract: Sand surfaces exposed to the wind are covered by aeolian sand waves of diverse wavelengths, from centimetres for small ripples to decameters for dunes. Sand dunes can be sa…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of Sapphire-Based Solid-State Neutron Detectors for Fusion Environments",
-      "url": "https://arxiv.org/abs/2611.14745",
-      "summary": "arXiv:2611.14745v1 Announce Type: new Abstract: Single-crystal diamond is the reference solid-state technology for fast neutron detection in fusion devices. Despite this, its complex manufacturing increases their costs a…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Harmonic structure and parametric prediction of instantaneous power in oscillating foils",
-      "url": "https://arxiv.org/abs/2611.14746",
-      "summary": "arXiv:2611.14746v1 Announce Type: new Abstract: A closed-form model is developed to predict the instantaneous lift, pitching moment, and power of an oscillating-foil energy harvester directly from its kinematic input. Su…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental Investigation of Hypersonic Shock-Wave/Boundary-Layer Interaction Dynamics Using Plasma-Generated Disturbances",
-      "url": "https://arxiv.org/abs/2611.14753",
-      "summary": "arXiv:2611.14753v1 Announce Type: new Abstract: The unsteady dynamics of a transitional 3D shock-wave/boundary-layer interaction (SWBLI) are investigated using pulsed plasma disturbances on a cone-slice-ramp geometry in …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Correlation-Consistent Gaussian Basis Sets for Periodic Solids. I. Hydrogen and p-block Elements from Boron to Chlorine",
-      "url": "https://arxiv.org/abs/2611.14768",
-      "summary": "arXiv:2611.14768v1 Announce Type: new Abstract: We present the cc-pVXZ-s series (X = D, T, and Q) of correlation-consistent Gaussian basis sets for solids, covering hydrogen and the p-block elements from boron to chlorin…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Turbulent velocity statistics in convective boundary layers",
-      "url": "https://arxiv.org/abs/2611.14805",
-      "summary": "arXiv:2611.14805v1 Announce Type: new Abstract: Large-eddy simulations (LES) of the convective atmospheric boundary layer (CBL) are used to investigate velocity variance statistics in turbulent sheared convection. The th…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma simulations with adaptive mesh and algorithm refinement",
-      "url": "https://arxiv.org/abs/2611.14820",
-      "summary": "arXiv:2611.14820v1 Announce Type: new Abstract: Adaptive Mesh and Algorithm Refinement (AMAR) combines adaptive Cartesian meshes with automatic selection of kinetic or fluid solvers. It was introduced for rarefied gas dy…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z"
     }
