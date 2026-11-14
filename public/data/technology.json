@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-11-13T21:15:02.766Z",
+  "updated": "2026-11-14T02:00:44.523Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Enforcement of stringent Medicaid work requirements delayed for six months",
+      "url": "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/?utm_campaign=rss",
+      "summary": "Enforcement of the Trump administration's stringent new Medicaid work requirements have been delayed for six months, until July 1, 2027.",
+      "ts": 1794608516000,
+      "publishedAt": "2026-11-13T22:21:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "DCIS Cell Atlas Reveals Clues to Invasive Breast Cancer Progression",
+      "url": "https://www.genengnews.com/topics/cancer/dcis-cell-atlas-reveals-clues-to-invasive-breast-cancer-progression/",
+      "summary": "Researchers created a detailed map of the tumor microenvironment surrounding estrogen receptor-positive ductal carcinoma in situ, which may help better predict progression to invasive breast cancer and inform on future t…",
+      "ts": 1794607449000,
+      "publishedAt": "2026-11-13T22:04:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Democrats coalesce around ‘Medicare for More,’ ‘Medikids’ proposals",
+      "url": "https://www.statnews.com/2026/11/13/democrats-eye-medicare-for-more-vs-medicare-for-all/?utm_campaign=rss",
+      "summary": "Democrats are coalescing around a plan to offer Medicare to more Americans, if not all of them.",
+      "ts": 1794606365000,
+      "publishedAt": "2026-11-13T21:46:05.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "New addiction society guidance on medetomidine’s brutal withdrawal",
@@ -280,6 +307,15 @@
       "ts": 1794562200000,
       "publishedAt": "2026-11-13T09:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "ts": 1794556800000,
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -772,42 +808,6 @@
       "title": "A theory of plasticity: capacity for change as inverse configurational constraint",
       "url": "https://arxiv.org/abs/2609.25312",
       "summary": "arXiv:2609.25312v4 Announce Type: replace Abstract: Plasticity is invoked across the sciences to explain how systems can change, yet it is inferred from the very change it is meant to explain. A system may have many alte…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Uncertainty-aware integration of deuterium metabolic imaging with genome-scale metabolic modeling reveals diet-associated feasible-space remodeling in mouse skeletal muscle",
-      "url": "https://arxiv.org/abs/2610.15175",
-      "summary": "arXiv:2610.15175v2 Announce Type: replace Abstract: Deuterium metabolic imaging (DMI) measures glucose-derived labeling in vivo, but noisy time courses complicate network-level interpretation. We developed an uncertainty…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spontaneous Spirals in Spatial Systems",
-      "url": "https://arxiv.org/abs/2610.38710",
-      "summary": "arXiv:2610.38710v2 Announce Type: replace Abstract: Several chemical and biological systems produce spontaneous spirals in their dynamical behavior, such as the Belousov-Zhabotinsky reaction in chemistry and the slime mo…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Automatic Generation of Novel Highly-Functional Molecular Sequences",
-      "url": "https://arxiv.org/abs/2611.03603",
-      "summary": "arXiv:2611.03603v2 Announce Type: replace Abstract: While multiple methods now exist to generate functional sequence variants from existing annotated examples, it is unclear how well such methods can be used to generate …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Symmetry-Induced Conservation Laws, Three-Channel Attribution, and Solid-Phase Recycling in Prebiotic Enantiomeric Excess Amplification",
-      "url": "https://arxiv.org/abs/2611.10725",
-      "summary": "arXiv:2611.10725v2 Announce Type: replace Abstract: Enantiomeric excess is the primary observable used to quantify chiral amplification across prebiotic chemistry, asymmetric autocatalysis, and multiphase crystallization…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "categoryId": "bio"
