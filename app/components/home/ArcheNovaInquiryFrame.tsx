@@ -226,7 +226,8 @@ export default function ArcheNovaInquiryFrame({
       {/* SHARED FOOTER */}
 
       <footer className="an-inquiry-frame__footer">
-        <span>INQUIRY</span>
+
+        <span>SCIENTIFIC RESPONSIBILITY</span>
 
       </footer>
     </div>

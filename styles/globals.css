@@ -77077,3 +77077,73 @@ main#home-top
 
 
 
+/* ==========================================================
+   ARCHENOVA / TODAY'S INQUIRY
+   MOBILE CATEGORY PILL FIX
+========================================================== */
+
+@media (max-width: 700px) {
+
+  /* Allow category containers to use available width */
+
+  main#home-top
+  #archenova-inquiry
+  :is(
+    [class*="category"],
+    [class*="categories"],
+    [class*="tag"],
+    [class*="badge"],
+    [class*="chip"]
+  ) {
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  /* Restore complete pill borders and text spacing */
+
+  main#home-top
+  #archenova-inquiry
+  :is(
+    [class*="category"],
+    [class*="tag"],
+    [class*="badge"],
+    [class*="chip"]
+  ):is(
+    span,
+    a,
+    button
+  ) {
+    box-sizing: border-box;
+
+    width: auto;
+    max-width: 100%;
+
+    min-height: 34px;
+
+    padding: 8px 14px;
+
+    white-space: normal;
+    overflow-wrap: anywhere;
+
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
