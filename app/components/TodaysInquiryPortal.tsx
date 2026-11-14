@@ -292,10 +292,6 @@ export default function TodaysInquiryPortal() {
                   REALITY RETAINS VETO
                 </strong>
 
-                <small>
-                  OBSERVATION · EVIDENCE · REVISION
-                </small>
-
               </div>
 
               <div className="ti-home__terminus-line" />
