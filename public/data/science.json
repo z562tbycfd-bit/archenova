@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-11-14T02:00:41.365Z",
+  "updated": "2026-11-14T09:54:04.390Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "SpaceX's Starship soars into orbit after booster explosion prevents an unprecedented double catch",
+      "url": "https://phys.org/news/2026-11-spacex-starship-soars-orbit-booster.html",
+      "summary": "SpaceX's attempt to recover its entire Starship back at the launch pad was thwarted when the booster fell into the Gulf of Mexico and exploded Friday, but the spacecraft still soared into orbit in its boldest test yet.",
+      "ts": 1794638050000,
+      "publishedAt": "2026-11-14T06:34:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The role of social relationships in scaling agricultural innovations: A dimension that remains underreported in research",
+      "url": "https://phys.org/news/2026-11-role-social-relationships-scaling-agricultural.html",
+      "summary": "A study published in Frontiers in Sustainable Food Systems reveals that, although partnerships and institutional collaboration feature prominently in climate-oriented agricultural research, their relationship with the sc…",
+      "ts": 1794624001000,
+      "publishedAt": "2026-11-14T02:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Heavier-than-expected electron behavior may explain slower electrical flow in alpha-gallium oxide",
@@ -428,6 +444,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Local Characterization of Global Tensor Network Eigenstates",
+      "url": "http://link.aps.org/doi/10.1103/5m7t-q2f6",
+      "summary": "Author(s): José Garre Rubio, András Molnár, Norbert Schuch, and Frank Verstraete We study the conditions under which matrix product states (MPSs) or matrix product operators are exact eigenvectors of an extensive local o…",
+      "ts": 1794564000000,
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Qubit Noise Sensing via Induced Photon Loss in a Superconducting Cavity",
       "url": "http://link.aps.org/doi/10.1103/jjcg-z4xb",
       "summary": "Author(s): Nitzan Kahn, Dror Garti, Uri Goldblatt, Lalit M. Joshi, Fabien Lafont, and Serge Rosenblum Characterizing noise in superconducting qubits is essential for improving coherence and gate performance. Conventional…",
@@ -495,6 +519,46 @@
       "title": "Temporal Complexity Hierarchies in Solvable Quantum Many-Body Dynamics",
       "url": "http://link.aps.org/doi/10.1103/3v7h-7dx9",
       "summary": "Author(s): He-Ran Wang, Ilya Vilkoviskiy, and Dmitry A. Abanin Researchers establish a framework based on geometric group theory to classify the temporal computational complexity and quantum memory structures of solvable…",
+      "ts": 1794564000000,
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Acoustic vector-sensor reception for orbital-angular-momentum sound communication",
+      "url": "http://link.aps.org/doi/10.1103/cg52-2fkn",
+      "summary": "Author(s): Ziyuan Zhu, Keyu Hu, Yuhao Shi, Xinxi Jiang, Yongfeng Zhang, Yulong Wang, Ming Bao, Zhifei Chen, and Minghui Lu Acoustic orbital angular momentum (OAM) provides a spatial degree of freedom for sound communicat…",
+      "ts": 1794564000000,
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Supercurrent-controlled magnon transport via suppression of the superconducting gap",
+      "url": "http://link.aps.org/doi/10.1103/jlhg-yy14",
+      "summary": "Author(s): Tetsuma Mandokoro, Yoichi Shiota, Hisakazu Matsuki, Ryusuke Hisatomi, Shutaro Karube, Akito Daido, Youichi Yanase, and Teruo Ono Understanding interactions between different low-energy excitations is a central…",
+      "ts": 1794564000000,
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Compositionally tuned phase transformations enhance pyroelectric energy harvesting from low-grade heat",
+      "url": "http://link.aps.org/doi/10.1103/dmb9-7bd4",
+      "summary": "Author(s): Ruiheng Geng, Ka Hung Chan, Xinyue Huang, Nobumichi Tamura, Faqiang Zhang, Wanjia Han, Yang Zhang, Chenbo Zhang, and Xian Chen Phase-transforming pyroelectric materials have emerged as promising candidates for…",
+      "ts": 1794564000000,
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Three-dimensional tomography of exchange phase in voltage space in a $\\mathrm{Si}/\\mathrm{Si}\\text{−}\\mathrm{Ge}$ quantum dot device",
+      "url": "http://link.aps.org/doi/10.1103/7572-brsj",
+      "summary": "Author(s): Dylan Albrecht, Sarah Thompson, N. Tobias Jacobson, and Ryan Jock The exchange interaction is a foundational building block for the operation of spin-based quantum processors. Extracting the exchange interacti…",
+      "ts": 1794564000000,
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Autonomous multi-ion optical clock with on-chip integrated photonic light delivery",
+      "url": "http://link.aps.org/doi/10.1103/6tt6-vpf2",
+      "summary": "Author(s): Tharon D. Morrison, Joonhyuk Kwon, Matthew A. Delaney, Michael Gehl, David R. Leibrandt, Daniel Stick, and Hayden J. McGuinness Photonic integrated circuits are a transformative technology, allowing optical cl…",
       "ts": 1794564000000,
       "publishedAt": "2026-11-13T10:00:00.000Z"
     },
@@ -735,70 +799,6 @@
       "title": "Data-driven non-contiguous photon-energy groups for fast multigroup radiation transport in line-dominated plasmas",
       "url": "https://arxiv.org/abs/2611.15095",
       "summary": "arXiv:2611.15095v1 Announce Type: new Abstract: Opacity of mid- and high-$Z$ plasmas is dominated by thousands of overlapping spectral lines. Examples are laser-produced plasmas for extreme-ultraviolet (EUV) lithography,…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moment-matching closure models for Taylor dispersion",
-      "url": "https://arxiv.org/abs/2611.15127",
-      "summary": "arXiv:2611.15127v1 Announce Type: new Abstract: Shear dispersion is important in contaminant transport, chemical separation and microfluidic applications. The classical Taylor model describes the long-time spreading of t…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transient CFD simulation of a linear start-up of a variable speed reversible pump-turbine",
-      "url": "https://arxiv.org/abs/2611.15202",
-      "summary": "arXiv:2611.15202v1 Announce Type: new Abstract: The integration of intermittent energy sources has led to a growing demand for fast response and partial-load operation of hydraulic turbines, making variable speed units i…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analytic T-Matrix Formalism for Helmholtz Resonators",
-      "url": "https://arxiv.org/abs/2611.15208",
-      "summary": "arXiv:2611.15208v1 Announce Type: new Abstract: We develop an analytic T-matrix formalism for two-dimensional circular acoustic Helmholtz resonators with thin rigid walls. The central idea is to use an aperture projectio…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improvements in Tropical Cyclone Representation in JRA-3Q over ERA5",
-      "url": "https://arxiv.org/abs/2611.15222",
-      "summary": "arXiv:2611.15222v1 Announce Type: new Abstract: Reanalysis products are widely used for long-term tropical cyclone (TC) studies, yet the fidelity of their TC representation is not fully established. We evaluate TC repres…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hybrid Machine Learning for Physically Consistent Prediction of Mutual Diffusion Coefficients in Binary Liquid Mixtures",
-      "url": "https://arxiv.org/abs/2611.15235",
-      "summary": "arXiv:2611.15235v1 Announce Type: new Abstract: Experimental data on mutual diffusion coefficients in liquid mixtures are scarce, and existing prediction methods are unreliable for non-ideal mixtures. Building on HADES, …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Boundary-layer detachment and infinite-Reynolds limit of two-dimensional wall-bounded flows",
-      "url": "https://arxiv.org/abs/2611.15239",
-      "summary": "arXiv:2611.15239v1 Announce Type: new Abstract: Understanding boundary-layer detachment and its consequences for the infinite-Reynolds-number limit remains a major challenge in fluid mechanics. Here, direct numerical sim…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-dimensional kinetic modeling of laser-plasma instabilities by a Vlasov-Maxwell system",
-      "url": "https://arxiv.org/abs/2611.15248",
-      "summary": "arXiv:2611.15248v1 Announce Type: new Abstract: We present PLAW-EM2d (Two-Dimensional PLAsmaWave ElectroMagnetic Simulation), a two-dimensional Vlasov-Maxwell code for kinetic studies of laser-plasma interactions. The co…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Crystal Nucleation Driven by Microjets from Hydrodynamically Interacting Thermocavitation Bubbles",
-      "url": "https://arxiv.org/abs/2611.15259",
-      "summary": "arXiv:2611.15259v1 Announce Type: new Abstract: Primary nucleation predominantly dictates the physicochemical, optical and mechanical properties of crystals emerging from solution. Here, we reveal a previously unrecogniz…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z"
     }

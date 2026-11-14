@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-14T02:00:44.523Z",
+  "updated": "2026-11-14T09:54:08.354Z",
   "items": [
+    {
+      "source": "IAEA News",
+      "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-375-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1794645010000,
+      "publishedAt": "2026-11-14T08:30:10.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Enforcement of stringent Medicaid work requirements delayed for six months",
@@ -199,6 +208,15 @@
       "ts": 1794574842000,
       "publishedAt": "2026-11-13T13:00:42.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Here, you can eat until you’re full’: Oleshky evacuees savour first proper meals in years",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168803",
+      "summary": "In a quiet hospital corridor in Kyiv, staff and volunteers push carts carrying steaming pots of chicken soup, bread and buckwheat porridge to patients recently evacuated from Russian-occupied Oleshky, in Ukraine’s southe…",
+      "ts": 1794571200000,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -790,24 +808,6 @@
       "title": "The Platonic brain bridge hypothesis: brain networks as architectural priors for multimodal large language models",
       "url": "https://arxiv.org/abs/2609.10947",
       "summary": "arXiv:2609.10947v4 Announce Type: replace Abstract: Multimodal large language models predict brain activity, but alignment has remained a measurement, not a design tool. We propose the Platonic brain bridge hypothesis: o…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Planning as Dynamics Relaxation: Hippocampal Recurrent Network Realizes Optimal Goal-Directed Navigation",
-      "url": "https://arxiv.org/abs/2609.13219",
-      "summary": "arXiv:2609.13219v2 Announce Type: replace Abstract: Neural correlates of the cognitive map are well documented, yet how a neural circuit turns a stored map into an obstacle-avoiding route remains unclear. Here we show th…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A theory of plasticity: capacity for change as inverse configurational constraint",
-      "url": "https://arxiv.org/abs/2609.25312",
-      "summary": "arXiv:2609.25312v4 Announce Type: replace Abstract: Plasticity is invoked across the sciences to explain how systems can change, yet it is inferred from the very change it is meant to explain. A system may have many alte…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "categoryId": "bio"
