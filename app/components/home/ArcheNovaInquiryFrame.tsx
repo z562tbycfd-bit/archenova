@@ -226,19 +226,8 @@ export default function ArcheNovaInquiryFrame({
       {/* SHARED FOOTER */}
 
       <footer className="an-inquiry-frame__footer">
-        <span>DISCOVERY</span>
-
-        <span aria-hidden="true"> · </span>
-
         <span>INQUIRY</span>
 
-        <span aria-hidden="true"> · </span>
-
-        <span>SCIENTIFIC RESPONSIBILITY</span>
-
-        <span aria-hidden="true"> · </span>
-
-        <span>CIVILIZATIONAL CONTINUITY</span>
       </footer>
     </div>
   );
