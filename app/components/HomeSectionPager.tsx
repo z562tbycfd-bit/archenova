@@ -86,14 +86,14 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
   },
   {
     id: "archenova-space",
-    mark: "✧",
+    mark: "✪",
     title: "CIVILIZATION VISION",
     subtitle:
       "Synthesis · Relations · World",
   },
   {
     id: "archenova-inquiry",
-    mark: "✪",
+    mark: "✦",
     title: "ARCHENOVA INQUIRY",
     subtitle:
       "Today's Inquiry · Permanent Inquiry",
