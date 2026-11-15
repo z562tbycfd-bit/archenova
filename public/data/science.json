@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-15T01:33:15.184Z",
+  "updated": "2026-11-15T08:55:23.032Z",
   "items": [
     {
       "source": "Phys.org",
@@ -9,6 +9,46 @@
       "summary": "On April 10, 2019, the Event Horizon Telescope (EHT) Collaboration revealed the first picture of a black hole. The object is at the center of a galaxy known as M87, about 55 million light-years away.",
       "ts": 1794706201000,
       "publishedAt": "2026-11-15T01:30:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+      "url": "https://www.nature.com/articles/s41467-026-79620-4",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Cytotoxic drugs and bispecific T cell engagers synergize to rewire host immunity and elicit polyclonal antitumor T cell responses",
+      "url": "https://www.nature.com/articles/s41467-026-79192-3",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Assembly of a renal countercurrent system in a beetle",
+      "url": "https://www.nature.com/articles/s41467-026-79593-4",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Chromatin priming of skeletal stem and progenitor cells governs cell fate during bone repair",
+      "url": "https://www.nature.com/articles/s41467-026-79160-x",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Rhizospheric pH mediated thermo-signalling coordinates root growth under heat stress",
+      "url": "https://www.nature.com/articles/s41467-026-79399-4",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -759,46 +799,6 @@
       "title": "Hands-on fabrication of 2D material field-effect transistors for the classroom using off-the-shelf ionic gel",
       "url": "https://arxiv.org/abs/2611.14565",
       "summary": "arXiv:2611.14565v1 Announce Type: new Abstract: We introduce a hands-on experimental method that enables students to fabricate and operate van der Waals semiconductor-based field-effect transistors (FETs) using readily a…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning to Calibrate Jet Energies",
-      "url": "https://arxiv.org/abs/2611.14567",
-      "summary": "arXiv:2611.14567v1 Announce Type: new Abstract: Hadronic jets are produced copiously at the Large Hadron Collider, and are a vital element of its physics program. Accurate reconstruction of their energies is therefore cr…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rotor-driven piecewise cross polarization of wide quadrupolar lines: bath-contact pumping of vector and tensor order in dynamically polarized solids",
-      "url": "https://arxiv.org/abs/2611.14575",
-      "summary": "arXiv:2611.14575v1 Announce Type: new Abstract: In a dynamically polarized solid with a common nuclear spin temperature, spin-1 $^{14}$N in ammonia sits at $P_N\\simeq0.14$ when the protons are at $0.90$, and a deuteron i…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical trapping of neutral atoms via magnetic-dipole transitions",
-      "url": "https://arxiv.org/abs/2611.14607",
-      "summary": "arXiv:2611.14607v1 Announce Type: new Abstract: Optical trapping of neutral atoms is almost universally described as an electric-dipole (E1) effect. We show that the magnetic field of light, acting on a magnetic-dipole (…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Establishing Standards for Assessment and Reporting of SNSPD Performance",
-      "url": "https://arxiv.org/abs/2611.14653",
-      "summary": "arXiv:2611.14653v1 Announce Type: new Abstract: Superconducting nanowire single-photon detectors (SNSPDs) can be made sensitive to single photons with near-unity detection efficiency, ultra-low dark-count rates, and sub-…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AI-assisted search for self-compressing gigawatt subcycle field waveforms",
-      "url": "https://arxiv.org/abs/2611.14672",
-      "summary": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z"
     }

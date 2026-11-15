@@ -56,6 +56,281 @@ export const generatedResearchReports =
     "ts": 1794706201000
   },
   {
+    "slug": "ai-phosphorus-mediated-reverse-hydrogen-spillover-enables-rate-matched-nitrate-sulf",
+    "title": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+    "category": "AI",
+    "source": "Nature Communications",
+    "originalUrl": "https://www.nature.com/articles/s41467-026-79620-4",
+    "summary": "",
+    "coreInsight": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1794700800000
+  },
+  {
+    "slug": "bio-cytotoxic-drugs-and-bispecific-t-cell-engagers-synergize-to-rewire-host-immunity",
+    "title": "Cytotoxic drugs and bispecific T cell engagers synergize to rewire host immunity and elicit polyclonal antitumor T cell responses",
+    "category": "Bio",
+    "source": "Nature Communications",
+    "originalUrl": "https://www.nature.com/articles/s41467-026-79192-3",
+    "summary": "",
+    "coreInsight": "Cytotoxic drugs and bispecific T cell engagers synergize to rewire host immunity and elicit polyclonal antitumor T cell responses is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Cytotoxic drugs and bispecific T cell engagers synergize to rewire host immunity and elicit polyclonal antitumor T cell responses",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this Bio signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Biological discovery",
+      "Platform translation",
+      "Validation and regulation",
+      "Healthcare or manufacturing adoption",
+      "Biological resilience infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1794700800000
+  },
+  {
+    "slug": "general-assembly-of-a-renal-countercurrent-system-in-a-beetle",
+    "title": "Assembly of a renal countercurrent system in a beetle",
+    "category": "General",
+    "source": "Nature Communications",
+    "originalUrl": "https://www.nature.com/articles/s41467-026-79593-4",
+    "summary": "",
+    "coreInsight": "Assembly of a renal countercurrent system in a beetle is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Assembly of a renal countercurrent system in a beetle",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1794700800000
+  },
+  {
+    "slug": "ai-chromatin-priming-of-skeletal-stem-and-progenitor-cells-governs-cell-fate-during",
+    "title": "Chromatin priming of skeletal stem and progenitor cells governs cell fate during bone repair",
+    "category": "AI",
+    "source": "Nature Communications",
+    "originalUrl": "https://www.nature.com/articles/s41467-026-79160-x",
+    "summary": "",
+    "coreInsight": "Chromatin priming of skeletal stem and progenitor cells governs cell fate during bone repair is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Chromatin priming of skeletal stem and progenitor cells governs cell fate during bone repair",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1794700800000
+  },
+  {
+    "slug": "general-rhizospheric-ph-mediated-thermo-signalling-coordinates-root-growth-under-heat-st",
+    "title": "Rhizospheric pH mediated thermo-signalling coordinates root growth under heat stress",
+    "category": "General",
+    "source": "Nature Communications",
+    "originalUrl": "https://www.nature.com/articles/s41467-026-79399-4",
+    "summary": "",
+    "coreInsight": "Rhizospheric pH mediated thermo-signalling coordinates root growth under heat stress is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Rhizospheric pH mediated thermo-signalling coordinates root growth under heat stress",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Synchronization Systems",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1794700800000
+  },
+  {
     "slug": "general-urban-expansion-causes-ecological-collapse-in-streams-in-the-s-o-paulo-metropoli",
     "title": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
     "category": "General",
@@ -4848,281 +5123,6 @@ export const generatedResearchReports =
     "ts": 1794546000000
   },
   {
-    "slug": "general-learning-to-calibrate-jet-energies",
-    "title": "Learning to Calibrate Jet Energies",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2611.14567",
-    "summary": "arXiv:2611.14567v1 Announce Type: new Abstract: Hadronic jets are produced copiously at the Large Hadron Collider, and are a vital element of its physics program. Accurate reconstruction of their energies is therefore cr…",
-    "coreInsight": "Learning to Calibrate Jet Energies is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "arXiv:2611.14567v1 Announce Type: new Abstract: Hadronic jets are produced copiously at the Large Hadron Collider, and are a vital element of its physics program. Accurate reconstruction of their energies is therefore cr…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1794546000000
-  },
-  {
-    "slug": "general-rotor-driven-piecewise-cross-polarization-of-wide-quadrupolar-lines-bath-contact",
-    "title": "Rotor-driven piecewise cross polarization of wide quadrupolar lines: bath-contact pumping of vector and tensor order in dynamically polarized solids",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2611.14575",
-    "summary": "arXiv:2611.14575v1 Announce Type: new Abstract: In a dynamically polarized solid with a common nuclear spin temperature, spin-1 $^{14}$N in ammonia sits at $P_N\\simeq0.14$ when the protons are at $0.90$, and a deuteron i…",
-    "coreInsight": "Rotor-driven piecewise cross polarization of wide quadrupolar lines: bath-contact pumping of vector and tensor order in dynamically polarized solids indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
-    "scientificSignal": "arXiv:2611.14575v1 Announce Type: new Abstract: In a dynamically polarized solid with a common nuclear spin temperature, spin-1 $^{14}$N in ammonia sits at $P_N\\simeq0.14$ when the protons are at $0.90$, and a deuteron i…",
-    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Measurement reliability",
-      "Regional variability",
-      "Institutional adoption",
-      "Long-term financing and governance"
-    ],
-    "watchpoints": [
-      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.4,
-      "engineering": 8.2,
-      "economic": 8.3,
-      "civilization": 9.5,
-      "overall": 8.7,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1794546000000
-  },
-  {
-    "slug": "general-optical-trapping-of-neutral-atoms-via-magnetic-dipole-transitions",
-    "title": "Optical trapping of neutral atoms via magnetic-dipole transitions",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2611.14607",
-    "summary": "arXiv:2611.14607v1 Announce Type: new Abstract: Optical trapping of neutral atoms is almost universally described as an electric-dipole (E1) effect. We show that the magnetic field of light, acting on a magnetic-dipole (…",
-    "coreInsight": "Optical trapping of neutral atoms via magnetic-dipole transitions is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "arXiv:2611.14607v1 Announce Type: new Abstract: Optical trapping of neutral atoms is almost universally described as an electric-dipole (E1) effect. We show that the magnetic field of light, acting on a magnetic-dipole (…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1794546000000
-  },
-  {
-    "slug": "quantum-establishing-standards-for-assessment-and-reporting-of-snspd-performance",
-    "title": "Establishing Standards for Assessment and Reporting of SNSPD Performance",
-    "category": "Quantum",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2611.14653",
-    "summary": "arXiv:2611.14653v1 Announce Type: new Abstract: Superconducting nanowire single-photon detectors (SNSPDs) can be made sensitive to single photons with near-unity detection efficiency, ultra-low dark-count rates, and sub-…",
-    "coreInsight": "Establishing Standards for Assessment and Reporting of SNSPD Performance is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "arXiv:2611.14653v1 Announce Type: new Abstract: Superconducting nanowire single-photon detectors (SNSPDs) can be made sensitive to single photons with near-unity detection efficiency, ultra-low dark-count rates, and sub-…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this Quantum signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Quantum phenomenon control",
-      "Device stability",
-      "Scalable quantum system",
-      "Industrial application",
-      "New computation and sensing capability"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1794546000000
-  },
-  {
-    "slug": "ai-ai-assisted-search-for-self-compressing-gigawatt-subcycle-field-waveforms",
-    "title": "AI-assisted search for self-compressing gigawatt subcycle field waveforms",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2611.14672",
-    "summary": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
-    "coreInsight": "AI-assisted search for self-compressing gigawatt subcycle field waveforms indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.3,
-      "engineering": 9.7,
-      "economic": 9.9,
-      "civilization": 10,
-      "overall": 9.7,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1794546000000
-  },
-  {
     "slug": "ai-stage-resolved-ebv-induced-b-cell-programs-across-cns-selection-and-multiple-scl",
     "title": "Stage-Resolved EBV-Induced B-Cell Programs Across CNS Selection and Multiple Sclerosis Compartments",
     "category": "AI",
@@ -5513,59 +5513,59 @@ export const generatedResearchReports =
 export const archeNovaTopSignals =
 [
   {
-    "slug": "ai-ai-assisted-search-for-self-compressing-gigawatt-subcycle-field-waveforms",
-    "title": "AI-assisted search for self-compressing gigawatt subcycle field waveforms",
+    "slug": "ai-here-you-can-eat-until-you-re-full-oleshky-evacuees-savour-first-proper-meals-in",
+    "title": "‘Here, you can eat until you’re full’: Oleshky evacuees savour first proper meals in years",
     "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2611.14672",
-    "summary": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
-    "coreInsight": "AI-assisted search for self-compressing gigawatt subcycle field waveforms indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Reality Discovery",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/11/1168803",
+    "summary": "In a quiet hospital corridor in Kyiv, staff and volunteers push carts carrying steaming pots of chicken soup, bread and buckwheat porridge to patients recently evacuated from Russian-occupied Oleshky, in Ukraine’s southe…",
+    "coreInsight": "‘Here, you can eat until you’re full’: Oleshky evacuees savour first proper meals in years indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "In a quiet hospital corridor in Kyiv, staff and volunteers push carts carrying steaming pots of chicken soup, bread and buckwheat porridge to patients recently evacuated from Russian-occupied Oleshky, in Ukraine’s southe…",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Infrastructure Formation",
     "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
     ],
     "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
       "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
       "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
     ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
     "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
     ],
     "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
     },
     "assessment": {
       "probability": "Medium",
       "impact": "Very High",
-      "timeHorizon": "10–30 Years"
+      "timeHorizon": "10–20 Years"
     },
     "archeNovaAssessment": {
       "scientific": 9.3,
-      "engineering": 9.7,
-      "economic": 9.9,
-      "civilization": 10,
-      "overall": 9.7,
-      "classification": "Civilization Energy Signal"
+      "engineering": 8.7,
+      "economic": 9.2,
+      "civilization": 9.8,
+      "overall": 9.3,
+      "classification": "Biological Resilience Signal"
     },
-    "ts": 1794546000000
+    "ts": 1794571200000
   },
   {
     "slug": "space-a-dead-star-is-flashing-radio-waves-every-8-minutes-and-its-partner-looks-a-lot-",
@@ -5733,61 +5733,6 @@ export const archeNovaTopSignals =
     "ts": 1794592800000
   },
   {
-    "slug": "ai-here-you-can-eat-until-you-re-full-oleshky-evacuees-savour-first-proper-meals-in",
-    "title": "‘Here, you can eat until you’re full’: Oleshky evacuees savour first proper meals in years",
-    "category": "AI",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/11/1168803",
-    "summary": "In a quiet hospital corridor in Kyiv, staff and volunteers push carts carrying steaming pots of chicken soup, bread and buckwheat porridge to patients recently evacuated from Russian-occupied Oleshky, in Ukraine’s southe…",
-    "coreInsight": "‘Here, you can eat until you’re full’: Oleshky evacuees savour first proper meals in years indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "In a quiet hospital corridor in Kyiv, staff and volunteers push carts carrying steaming pots of chicken soup, bread and buckwheat porridge to patients recently evacuated from Russian-occupied Oleshky, in Ukraine’s southe…",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Infrastructure Formation",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.3,
-      "engineering": 8.7,
-      "economic": 9.2,
-      "civilization": 9.8,
-      "overall": 9.3,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1794571200000
-  },
-  {
     "slug": "energy-tuning-methanol-co-selectivity-in-co-sub-2-sub-hydrogenation-by-ga-coordination-",
     "title": "Tuning methanol-CO selectivity in CO<sub>2</sub> hydrogenation by Ga coordination engineering in ZnGa<sub>2</sub>O<sub>4</sub>",
     "category": "Energy",
@@ -5841,6 +5786,61 @@ export const archeNovaTopSignals =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1794614400000
+  },
+  {
+    "slug": "ai-phosphorus-mediated-reverse-hydrogen-spillover-enables-rate-matched-nitrate-sulf",
+    "title": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+    "category": "AI",
+    "source": "Nature Communications",
+    "originalUrl": "https://www.nature.com/articles/s41467-026-79620-4",
+    "summary": "",
+    "coreInsight": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1794700800000
   },
   {
     "slug": "ai-spacex-s-starship-set-for-return-to-earth-after-booster-catch-aborted",
@@ -6067,63 +6067,6 @@ export const archeNovaTopSignals =
 export const archeNovaWatchlist =
 [
   {
-    "slug": "ai-ai-assisted-search-for-self-compressing-gigawatt-subcycle-field-waveforms",
-    "title": "AI-assisted search for self-compressing gigawatt subcycle field waveforms",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2611.14672",
-    "summary": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
-    "coreInsight": "AI-assisted search for self-compressing gigawatt subcycle field waveforms indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.3,
-      "engineering": 9.7,
-      "economic": 9.9,
-      "civilization": 10,
-      "overall": 9.7,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1794546000000,
-    "trend": "Top Signal",
-    "rank": 1
-  },
-  {
     "slug": "space-a-dead-star-is-flashing-radio-waves-every-8-minutes-and-its-partner-looks-a-lot-",
     "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
     "category": "Space",
@@ -6177,8 +6120,8 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1794690001000,
-    "trend": "Rising",
-    "rank": 2
+    "trend": "Top Signal",
+    "rank": 1
   },
   {
     "slug": "space-nasa-s-voyager-1-closes-in-on-a-light-day-in-interstellar-space-for-a-new-distan",
@@ -6234,8 +6177,8 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1794681430000,
-    "trend": "Stable",
-    "rank": 3
+    "trend": "Rising",
+    "rank": 2
   },
   {
     "slug": "space-commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member",
@@ -6292,7 +6235,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1794592800000,
     "trend": "Stable",
-    "rank": 4
+    "rank": 3
   },
   {
     "slug": "ai-here-you-can-eat-until-you-re-full-oleshky-evacuees-savour-first-proper-meals-in",
@@ -6348,6 +6291,63 @@ export const archeNovaWatchlist =
       "classification": "Biological Resilience Signal"
     },
     "ts": 1794571200000,
+    "trend": "Stable",
+    "rank": 4
+  },
+  {
+    "slug": "ai-phosphorus-mediated-reverse-hydrogen-spillover-enables-rate-matched-nitrate-sulf",
+    "title": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+    "category": "AI",
+    "source": "Nature Communications",
+    "originalUrl": "https://www.nature.com/articles/s41467-026-79620-4",
+    "summary": "",
+    "coreInsight": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1794700800000,
     "trend": "Stable",
     "rank": 5
   },
