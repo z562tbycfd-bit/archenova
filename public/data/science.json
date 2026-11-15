@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-11-15T16:08:03.468Z",
+  "updated": "2026-11-15T21:30:01.856Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Dark matter–hunting satellite Euclid reveals record number of cosmic 'magnifying glasses'",
+      "url": "https://phys.org/news/2026-11-dark-matterhunting-satellite-euclid-reveals.html",
+      "summary": "UBC researchers have helped uncover 15,000 new potential strong gravitational lenses—the largest collection of these cosmic tools that help astronomers investigate dark matter.",
+      "ts": 1794772801000,
+      "publishedAt": "2026-11-15T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The experiments improving our understanding of volcanic tsunamis",
+      "url": "https://phys.org/news/2026-11-volcanic-tsunamis.html",
+      "summary": "Tsunamis triggered by volcanic eruptions are poorly understood because of the complex dynamics governing how falling rocks and ash interact with seawater to generate waves. As a result, it is difficult to anticipate whet…",
+      "ts": 1794769202000,
+      "publishedAt": "2026-11-15T19:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tangled quantum whirlpools caught unraveling in an ultracold gas",
+      "url": "https://phys.org/news/2026-11-tangled-quantum-whirlpools-caught-unraveling.html",
+      "summary": "When a cloud of atoms is cooled close to absolute zero, its atoms can merge into a Bose–Einstein condensate (BEC): an exotic fluid in which atoms across the whole cloud share a single quantum state. Current theories pred…",
+      "ts": 1794760801000,
+      "publishedAt": "2026-11-15T16:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Climate response: Why previous warming makes all the difference",
@@ -775,30 +799,6 @@
       "title": "Polarized Anisotropic Stochastic Gravitational Wave Background Search with Ground-Based Detector Networks",
       "url": "http://link.aps.org/doi/10.1103/xdk8-9g3p",
       "summary": "Author(s): Töre Boybeyi and Vuk Mandic Gravitational waves admit a Stokes decomposition into intensity ($I$), circular polarization ($V$), and linear polarization ($Q$, $U$), analogous to cosmic microwave background (CMB…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Kerr-Newman and Genuine Kerr Black Holes in the Bertotti-Robinson Magnetic Field",
-      "url": "http://link.aps.org/doi/10.1103/skq4-mn78",
-      "summary": "Author(s): Hryhorii Ovcharenko and Jiří Podolský We present a spacetime that describes a rotating and charged black hole immersed in an external magnetic (or electric) field which is oriented along the rotational axis. T…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Theory for the Power Threshold of the $L\\text{−}H$ Transition in Tokamaks",
-      "url": "http://link.aps.org/doi/10.1103/rw25-wy15",
-      "summary": "Author(s): B. De Lucca, P. Ricci, B. Labit, D. Mancini, L. N. Stenger, and Z. Tecchiolli Flux-driven two-fluid simulations in a diverted tokamak exhibit a confinement transition when a critical heating threshold is excee…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Emergence of a Symmetry-Broken Chern Insulator near a Moiré Kondo Breakdown",
-      "url": "http://link.aps.org/doi/10.1103/szcj-44xj",
-      "summary": "Author(s): Wanghao Tian, Bowen Shen, Lizhong Li, Mingjie Zhang, Feng Liu, Chushan Li, Yaotian Liu, Fan Xu, Kenji Watanabe, Takashi Taniguchi, Peiling Li, Li Lu, Yang Xu, Shengwei Jiang, Tingxin Li, Jie Shan, and Kin Fai …",
       "ts": 1794564000000,
       "publishedAt": "2026-11-13T10:00:00.000Z"
     }
