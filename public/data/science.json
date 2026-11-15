@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-11-15T08:55:23.032Z",
+  "updated": "2026-11-15T16:08:03.468Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate response: Why previous warming makes all the difference",
+      "url": "https://phys.org/news/2026-11-climate-response-previous-difference.html",
+      "summary": "Global temperatures may continue to rise even after human CO₂ emissions stop. The temperature change that follows is known as the zero emissions commitment (ZEC), and it is often assumed to be close to zero. A study led …",
+      "ts": 1794756601000,
+      "publishedAt": "2026-11-15T15:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Giant, prehistoric rodent fossils discovered in southern Thailand",
+      "url": "https://phys.org/news/2026-11-giant-prehistoric-rodent-fossils-southern.html",
+      "summary": "An international team of paleontologists, including researchers from McGill University, has discovered \"remarkably large\" rodent fossils in the pit of a mine in southern Thailand. The finding, published in Scientific Rep…",
+      "ts": 1794754801000,
+      "publishedAt": "2026-11-15T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New observations challenge evidence for an 'outsize' black hole in the early universe",
+      "url": "https://phys.org/news/2026-11-evidence-outsize-black-hole-early.html",
+      "summary": "A recent reanalysis of the outsize black hole galaxy UHZ1 using existing X-ray data and new infrared observations challenges a previous groundbreaking claim. Three years ago, this galaxy made news for hosting an unusuall…",
+      "ts": 1794751204000,
+      "publishedAt": "2026-11-15T14:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Taiwan Indigenous farmer revives climate-resilient millet",
+      "url": "https://phys.org/news/2026-11-taiwan-indigenous-farmer-revives-climate.html",
+      "summary": "Indigenous farmer Banu Ismahasan walks through a golden field of tall stalks in southeastern Taiwan, harvesting by hand the grain heads of an ancient crop resistant to extreme weather.",
+      "ts": 1794750008000,
+      "publishedAt": "2026-11-15T13:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nations grapple with loss of 1.5C target at UN climate summit",
+      "url": "https://phys.org/news/2026-11-nations-grapple-loss-15c-climate.html",
+      "summary": "For a decade, the 1.5C goal has served as the north star of climate action, a line nations pledged to hold to avoid the worst ravages of a warming planet.",
+      "ts": 1794748805000,
+      "publishedAt": "2026-11-15T13:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX's Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+      "url": "https://phys.org/news/2026-11-spacex-starship-orbit-captured-pad.html",
+      "summary": "SpaceX's Starship made a triumphant return to Earth on Saturday, caught in midair by giant mechanical arms where its journey began 22 hours earlier.",
+      "ts": 1794748003000,
+      "publishedAt": "2026-11-15T13:06:43.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "ALMA reveals three star-forming cores at different stages inside one gas clump",
+      "url": "https://phys.org/news/2026-11-alma-reveals-star-cores-stages.html",
+      "summary": "Astronomers have revealed three dense cores at different evolutionary stages within the massive star-forming region G40.282−0.219, shedding light on the physical and chemical differences among cores within the same massi…",
+      "ts": 1794747601000,
+      "publishedAt": "2026-11-15T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Is this iconic black hole image accurate? New study delivers an independent result",
@@ -14,6 +70,14 @@
       "source": "Nature Communications",
       "title": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
       "url": "https://www.nature.com/articles/s41467-026-79620-4",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Directly visualizing the energy level structure of quantum dot molecules",
+      "url": "https://www.nature.com/articles/s41467-026-79672-6",
       "summary": "",
       "ts": 1794700800000,
       "publishedAt": "2026-11-15T00:00:00.000Z"
@@ -36,8 +100,32 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Facet-dependent anion adsorption for electrolyte-Cu interfacial stability in initially anode-free Li-metal batteries",
+      "url": "https://www.nature.com/articles/s41467-026-79429-1",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Site-specific N-glycoproteomic analysis of extracellular vesicles from seminal plasma reveals the molecular typing of azoospermia",
+      "url": "https://www.nature.com/articles/s41467-026-79570-x",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Chromatin priming of skeletal stem and progenitor cells governs cell fate during bone repair",
       "url": "https://www.nature.com/articles/s41467-026-79160-x",
+      "summary": "",
+      "ts": 1794700800000,
+      "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Mapping dynamics of subcellular RNA and protein localization and organization using optimal transport",
+      "url": "https://www.nature.com/articles/s41467-026-79450-4",
       "summary": "",
       "ts": 1794700800000,
       "publishedAt": "2026-11-15T00:00:00.000Z"
@@ -713,94 +801,6 @@
       "summary": "Author(s): Wanghao Tian, Bowen Shen, Lizhong Li, Mingjie Zhang, Feng Liu, Chushan Li, Yaotian Liu, Fan Xu, Kenji Watanabe, Takashi Taniguchi, Peiling Li, Li Lu, Yang Xu, Shengwei Jiang, Tingxin Li, Jie Shan, and Kin Fai …",
       "ts": 1794564000000,
       "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Open-Boundary-Condition-Persistent Point-Gap Bound States in the Non-Hermitian Continuum",
-      "url": "http://link.aps.org/doi/10.1103/qqpd-92fb",
-      "summary": "Author(s): Xingyu Lu, Zeliang Song, Kun Ding, and Degang Zhao Point-gap bound states in non-Hermitian systems are generally expected to lose their purely impurity-localized character under open boundary conditions (OBC) …",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Erratum: Expanding the Quantum-Limited Gravitational-Wave Detection Horizon [Phys. Rev. Lett. <b>134</b>, 051401 (2025)]",
-      "url": "http://link.aps.org/doi/10.1103/w93l-dj7b",
-      "summary": "Author(s): Liu Tao, Mohak Bhattacharya, Peter Carney, Luis Martin Gutierrez, Luke Johnson, Shane Levin, Cynthia Liang, Xuesi Ma, Michael Padilla, Tyler Rosauer, Aiden Wilkin, and Jonathan W. Richardson [Phys. Rev. Lett. …",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Realization of Repulsive Polarons in the Strongly Correlated Regime",
-      "url": "http://link.aps.org/doi/10.1103/m5qj-j8bm",
-      "summary": "Author(s): R. Henke, J. Levinsen, M. M. Parish, J. Boronat, G. E. Astrakharchik, H. Moritz, and C. R. Cabrera A stable repulsive Bose polaron is realized in a two-dimensional quantum gas by encoding impurities and their …",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Temporal Complexity Hierarchies in Solvable Quantum Many-Body Dynamics",
-      "url": "http://link.aps.org/doi/10.1103/3v7h-7dx9",
-      "summary": "Author(s): He-Ran Wang, Ilya Vilkoviskiy, and Dmitry A. Abanin Researchers establish a framework based on geometric group theory to classify the temporal computational complexity and quantum memory structures of solvable…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Acoustic vector-sensor reception for orbital-angular-momentum sound communication",
-      "url": "http://link.aps.org/doi/10.1103/cg52-2fkn",
-      "summary": "Author(s): Ziyuan Zhu, Keyu Hu, Yuhao Shi, Xinxi Jiang, Yongfeng Zhang, Yulong Wang, Ming Bao, Zhifei Chen, and Minghui Lu Acoustic orbital angular momentum (OAM) provides a spatial degree of freedom for sound communicat…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Supercurrent-controlled magnon transport via suppression of the superconducting gap",
-      "url": "http://link.aps.org/doi/10.1103/jlhg-yy14",
-      "summary": "Author(s): Tetsuma Mandokoro, Yoichi Shiota, Hisakazu Matsuki, Ryusuke Hisatomi, Shutaro Karube, Akito Daido, Youichi Yanase, and Teruo Ono Understanding interactions between different low-energy excitations is a central…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Compositionally tuned phase transformations enhance pyroelectric energy harvesting from low-grade heat",
-      "url": "http://link.aps.org/doi/10.1103/dmb9-7bd4",
-      "summary": "Author(s): Ruiheng Geng, Ka Hung Chan, Xinyue Huang, Nobumichi Tamura, Faqiang Zhang, Wanjia Han, Yang Zhang, Chenbo Zhang, and Xian Chen Phase-transforming pyroelectric materials have emerged as promising candidates for…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Three-dimensional tomography of exchange phase in voltage space in a $\\mathrm{Si}/\\mathrm{Si}\\text{−}\\mathrm{Ge}$ quantum dot device",
-      "url": "http://link.aps.org/doi/10.1103/7572-brsj",
-      "summary": "Author(s): Dylan Albrecht, Sarah Thompson, N. Tobias Jacobson, and Ryan Jock The exchange interaction is a foundational building block for the operation of spin-based quantum processors. Extracting the exchange interacti…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Autonomous multi-ion optical clock with on-chip integrated photonic light delivery",
-      "url": "http://link.aps.org/doi/10.1103/6tt6-vpf2",
-      "summary": "Author(s): Tharon D. Morrison, Joonhyuk Kwon, Matthew A. Delaney, Michael Gehl, David R. Leibrandt, Daniel Stick, and Hayden J. McGuinness Photonic integrated circuits are a transformative technology, allowing optical cl…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "An iconic puzzle comes home as production of the Rubik's Cube returns to Hungary",
-      "url": "https://phys.org/news/2026-11-iconic-puzzle-home-production-rubik.html",
-      "summary": "More than half a century ago, a Hungarian architect, sculptor and professor invented what would become one of the world's most popular and beloved puzzles whose appeal has spanned generations: the colorful, mind-bending,…",
-      "ts": 1794562813000,
-      "publishedAt": "2026-11-13T09:40:13.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hands-on fabrication of 2D material field-effect transistors for the classroom using off-the-shelf ionic gel",
-      "url": "https://arxiv.org/abs/2611.14565",
-      "summary": "arXiv:2611.14565v1 Announce Type: new Abstract: We introduce a hands-on experimental method that enables students to fabricate and operate van der Waals semiconductor-based field-effect transistors (FETs) using readily a…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
     }
   ],
   "sources": [
