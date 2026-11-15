@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-11-14T21:09:10.660Z",
+  "updated": "2026-11-15T01:33:15.184Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Is this iconic black hole image accurate? New study delivers an independent result",
+      "url": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html",
+      "summary": "On April 10, 2019, the Event Horizon Telescope (EHT) Collaboration revealed the first picture of a black hole. The object is at the center of a galaxy known as M87, about 55 million light-years away.",
+      "ts": 1794706201000,
+      "publishedAt": "2026-11-15T01:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
+      "url": "https://phys.org/news/2026-11-urban-expansion-ecological-collapse-streams.html",
+      "summary": "The advance of urbanization in the São Paulo Metropolitan Area in Brazil is causing the collapse of food webs in local streams. A study published in August in the journal Nature Cities reveals that the impact of the metr…",
+      "ts": 1794693601000,
+      "publishedAt": "2026-11-14T22:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
@@ -783,22 +799,6 @@
       "title": "AI-assisted search for self-compressing gigawatt subcycle field waveforms",
       "url": "https://arxiv.org/abs/2611.14672",
       "summary": "arXiv:2611.14672v1 Announce Type: new Abstract: We explore the physics behind pulse self-compression to high-power subcycle field waveforms and search for the optimal regimes of such compression over the parameter space …",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improving Airflow Network Models of Natural Ventilation: Geometry-Specific Pressures and Fluctuation Corrections",
-      "url": "https://arxiv.org/abs/2611.14705",
-      "summary": "arXiv:2611.14705v1 Announce Type: new Abstract: Building energy models typically predict natural ventilation rates using airflow networks, which solve a system of orifice equations with exterior pressures as boundary con…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparison of the flamelet progress variable and thickened flame models for LES of turbulent combustion",
-      "url": "https://arxiv.org/abs/2611.14726",
-      "summary": "arXiv:2611.14726v1 Announce Type: new Abstract: Large-eddy simulation (LES) of turbulent combustion requires closure models for unresolved flame structures and chemical processes. Two widely used but fundamentally differ…",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z"
     }
