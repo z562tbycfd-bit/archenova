@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-11-15T21:30:04.045Z",
+  "updated": "2026-11-16T01:37:39.793Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Apple and OpenEvidence launch experimental health chat app",
+      "url": "https://www.statnews.com/2026/11/15/apple-openevidence-launch-health-chat-app-experiment-ai/?utm_campaign=rss",
+      "summary": "Apple and OpenEvidence are launching a study based around an experimental AI-powered health chat app, hinting at possible new directions for both companies.",
+      "ts": 1794792343000,
+      "publishedAt": "2026-11-16T01:25:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, De…",
+      "ts": 1794787228000,
+      "publishedAt": "2026-11-16T00:00:28.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "ts": 1794780001000,
+      "publishedAt": "2026-11-15T22:00:01.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "ts": 1794780000000,
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Amid Nvidia Turmoil, What Happens to Its Life Sciences Collaborations?",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/stockwatch-amid-nvidia-turmoil-what-happens-to-its-life-sciences-collaborations/",
+      "summary": "While Nvidia doesn’t develop new therapies, instruments, or reagents, its AI technology powers numerous collaborations with biopharma and lab tools giants stretching back at least five years. The post StockWatch: Amid Nv…",
+      "ts": 1794779839000,
+      "publishedAt": "2026-11-15T21:57:19.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA rejects lung cancer treatment ivonescimab from Summit Therapeutics",
@@ -763,51 +808,6 @@
       "title": "Lilith: Developmental Modular LLMs with Chemical Signaling",
       "url": "https://arxiv.org/abs/2507.04575",
       "summary": "arXiv:2507.04575v2 Announce Type: replace Abstract: Current paradigms in Artificial Intelligence rely on layers of feedforward networks which model brain activity at the neuronal level. We conjecture that expanding to th…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reduced rank regression for neural communication: a tutorial for neuroscientists",
-      "url": "https://arxiv.org/abs/2512.12467",
-      "summary": "arXiv:2512.12467v2 Announce Type: replace Abstract: Reduced rank regression (RRR) is a statistical method for finding a low-dimensional linear mapping between a set of high-dimensional inputs and outputs. In recent years…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Platelet plug microstructure and flow modulate fibrin gelation dynamics: Insights from computational simulations",
-      "url": "https://arxiv.org/abs/2604.07844",
-      "summary": "arXiv:2604.07844v2 Announce Type: replace Abstract: During the formation of a thrombus, the architecture of the growing platelet aggregate is heterogeneous, with areas of dense and loosely packed platelets. The surface o…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Designing Cell-Type-Specific Regulatory DNA with Guided Discrete Diffusion",
-      "url": "https://arxiv.org/abs/2604.20488",
-      "summary": "arXiv:2604.20488v2 Announce Type: replace Abstract: AI-driven design of DNA with cell-type-specific regulatory activity is broadly relevant for cell engineering and gene therapy. DNA elements such as promoters and enhanc…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolution of cooperation in multiplex interaction networks",
-      "url": "https://arxiv.org/abs/2606.00196",
-      "summary": "arXiv:2606.00196v4 Announce Type: replace Abstract: Across biological and social systems, preferential interactions among similar individuals can promote cooperation. To account for real-world interactions unfolding acro…",
-      "ts": 1794546000000,
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Trajectory Inference of Human Aging from Cross-Sectional DNA Methylation Data",
-      "url": "https://arxiv.org/abs/2607.06583",
-      "summary": "arXiv:2607.06583v3 Announce Type: replace Abstract: DNA methylation (DNAm) serves as one of the most robust molecular biomarkers of biological aging. While conventional epigenetic clocks accurately predict chronological …",
       "ts": 1794546000000,
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "categoryId": "bio"

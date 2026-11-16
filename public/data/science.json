@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-11-15T21:30:01.856Z",
+  "updated": "2026-11-16T01:37:35.867Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why aging stars suffer a sudden luminosity dip",
+      "url": "https://phys.org/news/2026-11-aging-stars-sudden-luminosity-dip.html",
+      "summary": "From a naked-eye perspective, stars are stable and predictable. Not much goes on but shining. The sun itself is fairly plain and nondescript and will shine relatively steadily for billions of years. It's considered a low…",
+      "ts": 1794792601000,
+      "publishedAt": "2026-11-16T01:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Milk and wine used in Menorcan funerary rituals over 2,000 years ago",
+      "url": "https://phys.org/news/2026-11-wine-menorcan-funerary-rituals-years.html",
+      "summary": "In the Late Iron Age, or post-Talayotic period, over 2,000 years ago, Menorca and the other Balearic Islands experienced increasing connectivity with the wider Mediterranean. However, they also maintained distinctive loc…",
+      "ts": 1794787804000,
+      "publishedAt": "2026-11-16T00:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "School environment plays key role in shaping parents' educational hopes for their children, suggests study",
+      "url": "https://phys.org/news/2026-11-school-environment-plays-key-role.html",
+      "summary": "Where segregation is high, the school a child attends is closely linked to how many years of education parents expect their child to go on to complete.",
+      "ts": 1794787801000,
+      "publishedAt": "2026-11-16T00:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Archaeologists uncover a witness to the Neolithic revolution",
+      "url": "https://phys.org/news/2026-11-archaeologists-uncover-witness-neolithic-revolution.html",
+      "summary": "Radiocarbon dating and isotope analysis of an immaculately preserved skeleton from Mesolithic Denmark indicate that the individual lived through the introduction of agriculture and adapted his diet to the change, providi…",
+      "ts": 1794787201000,
+      "publishedAt": "2026-11-16T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When the Saudi desert was green: A 125,000-year-old lakeside reveals how early humans lived",
+      "url": "https://phys.org/news/2026-11-saudi-green-year-lakeside-reveals.html",
+      "summary": "Megafauna remains, stone tools and rare plant material recovered from the 125,000-year-old lakeside site of Uruq al-Julaybah in Mundafan, southern Saudi Arabia, provide one of the most detailed pictures yet of prehistori…",
+      "ts": 1794780001000,
+      "publishedAt": "2026-11-15T22:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Dark matter–hunting satellite Euclid reveals record number of cosmic 'magnifying glasses'",
@@ -761,46 +801,6 @@
       "summary": "Elon Musk's SpaceX was poised Friday to carry out its latest test of the world's biggest and most powerful rocket, the Starship, with plans for a groundbreaking \"catch\" of the spaceship following a day in orbit.",
       "ts": 1794564711000,
       "publishedAt": "2026-11-13T10:11:51.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "El Niño mostly to blame for Indonesian wildfires: Research",
-      "url": "https://phys.org/news/2026-11-el-nio-blame-indonesian-wildfires.html",
-      "summary": "Wildfires that consumed vast swaths of Indonesia this year were driven largely by a strong El Niño, fueled by climate change and decades of natural landscape destruction, researchers said Friday.",
-      "ts": 1794564632000,
-      "publishedAt": "2026-11-13T10:10:32.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Light-activated molecules in porous crystals show potential for quantum chemical sensing",
-      "url": "https://phys.org/news/2026-11-molecules-porous-crystals-potential-quantum.html",
-      "summary": "An international research team led by Nobuhiro Yanai from the University of Tokyo and Michael R. Wasielewski from Northwestern University has created polarized radical pairs, molecules with unpaired electrons whose spins…",
-      "ts": 1794564001000,
-      "publishedAt": "2026-11-13T10:00:01.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Local Characterization of Global Tensor Network Eigenstates",
-      "url": "http://link.aps.org/doi/10.1103/5m7t-q2f6",
-      "summary": "Author(s): José Garre Rubio, András Molnár, Norbert Schuch, and Frank Verstraete We study the conditions under which matrix product states (MPSs) or matrix product operators are exact eigenvectors of an extensive local o…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Qubit Noise Sensing via Induced Photon Loss in a Superconducting Cavity",
-      "url": "http://link.aps.org/doi/10.1103/jjcg-z4xb",
-      "summary": "Author(s): Nitzan Kahn, Dror Garti, Uri Goldblatt, Lalit M. Joshi, Fabien Lafont, and Serge Rosenblum Characterizing noise in superconducting qubits is essential for improving coherence and gate performance. Conventional…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Polarized Anisotropic Stochastic Gravitational Wave Background Search with Ground-Based Detector Networks",
-      "url": "http://link.aps.org/doi/10.1103/xdk8-9g3p",
-      "summary": "Author(s): Töre Boybeyi and Vuk Mandic Gravitational waves admit a Stokes decomposition into intensity ($I$), circular polarization ($V$), and linear polarization ($Q$, $U$), analogous to cosmic microwave background (CMB…",
-      "ts": 1794564000000,
-      "publishedAt": "2026-11-13T10:00:00.000Z"
     }
   ],
   "sources": [
