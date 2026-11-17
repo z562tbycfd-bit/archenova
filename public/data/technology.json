@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-11-16T20:03:21.549Z",
+  "updated": "2026-11-17T03:28:54.463Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Enhancer-Targeted CRISPR Turns Up Healthy Gene Copy in Autism Organoid Model",
+      "url": "https://www.genengnews.com/topics/translational-medicine/enhancer-targeted-crispr-turns-up-healthy-gene-copy-in-autism-organoid-model/",
+      "summary": "In lab-grown human neurons and organoids carrying CHD8 or SCN2A mutations, researchers reduced organoid overgrowth and moved neuronal electrical activity closer to wild-type levels. The post Enhancer-Targeted CRISPR Turn…",
+      "ts": 1794873032000,
+      "publishedAt": "2026-11-16T23:50:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: New Trump regulation promises to crush ‘fraudsters.’ All the savings come from Medicare Advantage",
+      "url": "https://www.statnews.com/2026/11/16/cms-proposes-more-agressive-audits-medicare-advantage-crush/?utm_campaign=rss",
+      "summary": "New Trump regulation promises to crush ‘fraudsters.’ All the savings come from Medicare Advantage.",
+      "ts": 1794872736000,
+      "publishedAt": "2026-11-16T23:45:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
+      "url": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+      "summary": "Written by Candice Bedford, Research Scientist at Purdue University Date: Nov. 16, 2026 During the Perseverance rover’s investigation of “Idubi” — an area of ancient Martian crust exposed in the “Lac de Charmes” region, …",
+      "ts": 1794870765000,
+      "publishedAt": "2026-11-16T23:12:45.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DG…",
+      "ts": 1794870005000,
+      "publishedAt": "2026-11-16T23:00:05.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
+      "url": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
+      "summary": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end …",
+      "ts": 1794866723000,
+      "publishedAt": "2026-11-16T22:05:23.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Toward Connected Laboratory Ecosystems",
+      "url": "https://www.genengnews.com/topics/toward-connected-laboratory-ecosystems/",
+      "summary": "In this GEN podcast, the third in a series, LabVantage’s Denise Bell discusses how laboratories can reduce operational fragmentation and build connected, scalable operations. The post Toward Connected Laboratory Ecosyste…",
+      "ts": 1794866409000,
+      "publishedAt": "2026-11-16T22:00:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Gut Microbome and Bile Acid Modification Linked with Longevity",
+      "url": "https://www.genengnews.com/topics/translational-medicine/gut-microbome-and-bile-acid-modification-linked-with-longevity/",
+      "summary": "Researchers studying how gut microbes modify bile acids have identified changes in the metabolic activity of the gut microbiome associated with exceptional longevity in humans, and found that amplifying the same activity…",
+      "ts": 1794862751000,
+      "publishedAt": "2026-11-16T20:59:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves new breast cancer drug, providing new option for some patients, boost for Roche",
+      "url": "https://www.statnews.com/2026/11/16/fda-approves-new-roche-breast-cancer-drug/?utm_campaign=rss",
+      "summary": "The FDA approved a new breast cancer drug from Roche, teeing up the launch of a medicine the company has said could become its top-selling product ever.",
+      "ts": 1794862607000,
+      "publishedAt": "2026-11-16T20:56:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Receives 16th Consecutive ‘Clean’ Financial Audit Opinion",
+      "url": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
+      "summary": "For the 16th consecutive year, NASA has received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2026 financial statements. The rating is the best possible audit opinion, certifying that NA…",
+      "ts": 1794861040000,
+      "publishedAt": "2026-11-16T20:30:40.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over dec…",
+      "ts": 1794859237000,
+      "publishedAt": "2026-11-16T20:00:37.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "SpaceNukes Opens Los Alamos Manufacture and Materials Facility to Build Its Next-Generation Space Reactor",
@@ -28,6 +118,15 @@
       "ts": 1794855246000,
       "publishedAt": "2026-11-16T18:54:06.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Sentinel-6B in Orbit Around Earth",
+      "url": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+      "summary": "Description This artist’s concept shows the Sentinel-6B satellite, which will become the reference satellite for other missions studying sea surface height.",
+      "ts": 1794855152000,
+      "publishedAt": "2026-11-16T18:52:32.000Z",
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -712,105 +811,6 @@
       "ts": 1794805200000,
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference",
-      "url": "https://arxiv.org/abs/2608.18982",
-      "summary": "arXiv:2608.18982v3 Announce Type: replace-cross Abstract: Bioassay activity prediction is often data-limited because drug-discovery datasets rely on time-consuming and expensive wet-lab experiments for data generation an…",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Task-Specific Antibody Representations via Function-Aware Masking",
-      "url": "https://arxiv.org/abs/2609.00518",
-      "summary": "arXiv:2609.00518v2 Announce Type: replace-cross Abstract: Antibody-specific language models pretrained via masked language modeling (MLM) learn representations that are critical for downstream sequence design and propert…",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Attributing Cohen's d: Training Data Attribution for Disease-Related Effects in Normative Age Biomarkers",
-      "url": "https://arxiv.org/abs/2609.07729",
-      "summary": "arXiv:2609.07729v3 Announce Type: replace-cross Abstract: Normative age models are trained to predict chronological age in a nominally healthy cohort. In patients, the gap between predicted and chronological age is read …",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Local Spike Timing Enables Gradient-based Learning in Neural Microcircuits",
-      "url": "https://arxiv.org/abs/2609.08070",
-      "summary": "arXiv:2609.08070v3 Announce Type: replace-cross Abstract: The brain uses discrete spikes for dynamic computation, yet in the fields of computational neuroscience and brain-inspired computing, how neural microcircuits (NM…",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Lightweight Semantic EEG Foundation Model for Frozen Cross-Disorder Transfer",
-      "url": "https://arxiv.org/abs/2610.05503",
-      "summary": "arXiv:2610.05503v2 Announce Type: replace-cross Abstract: Large-scale EEG foundation models have demonstrated promising transferability across neurological disorders, but often require millions of parameters and substant…",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Similar Predictive Fit but Different Latent Dynamics: Characterizing Learned Dynamical Structure in Personalized Models of Brain Disorders",
-      "url": "https://arxiv.org/abs/2610.10850",
-      "summary": "arXiv:2610.10850v2 Announce Type: replace-cross Abstract: As AI models move toward clinical decision-making and personalized treatment, understanding \\emph{what} a model learns is important beyond predictive accuracy alo…",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From First Bond to Stable Adhesion: Multivalent Bond Stabilization in Receptor-Mediated Endocytosis",
-      "url": "https://arxiv.org/abs/2611.01293",
-      "summary": "arXiv:2611.01293v2 Announce Type: replace-cross Abstract: After a particle forms its first receptor--ligand bond near a cell membrane, stable attachment often requires a threshold total bond number $m$. This paper develo…",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Who Pays for the Knowledge Models Copy? Model Collapse as Lossy Transmission and Rogers' Paradox",
-      "url": "https://arxiv.org/abs/2611.06022",
-      "summary": "arXiv:2611.06022v2 Announce Type: replace-cross Abstract: Generative models trained on the output of earlier models lose knowledge across generations, rare knowledge first. The remedies that work all bring in information…",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PINR-ESI: Physics-Informed Self-Supervised Implicit Neural Representation Framework for EEG Extended-Source Imaging",
-      "url": "https://arxiv.org/abs/2611.06700",
-      "summary": "arXiv:2611.06700v3 Announce Type: replace-cross Abstract: EEG extended-source imaging aims to localize active cortical regions and characterize their extent, yet supervised inverse networks typically depend on synthetic …",
-      "ts": 1794805200000,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Apple and OpenEvidence launch experimental health chat app",
-      "url": "https://www.statnews.com/2026/11/15/apple-openevidence-launch-health-chat-app-experiment-ai/?utm_campaign=rss",
-      "summary": "Apple and OpenEvidence are launching a study based around an experimental AI-powered health chat app, hinting at possible new directions for both companies.",
-      "ts": 1794792343000,
-      "publishedAt": "2026-11-16T01:25:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
-      "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, De…",
-      "ts": 1794787228000,
-      "publishedAt": "2026-11-16T00:00:28.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
