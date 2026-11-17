@@ -1,7 +1,250 @@
 {
   "ok": true,
-  "updated": "2026-11-17T12:51:46.854Z",
+  "updated": "2026-11-17T21:32:55.776Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Beyond Amyloid and Tau: Alzheimer’s Drug Developer Sees Early Clinical Success for Immunotherapy-Based Approach",
+      "url": "https://www.genengnews.com/topics/translational-medicine/beyond-amyloid-and-tau-alzheimers-drug-developer-sees-early-clinical-success-for-immunotherapy-based-approach/",
+      "summary": "ImmunoBrain's approach contrasts with decades of conventional thinking among researchers, which held that Alzheimer’s was a disease of toxic proteins—an outgrowth of thinking that immune activity in the brain was in itse…",
+      "ts": 1794949825000,
+      "publishedAt": "2026-11-17T21:10:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genetic Barcoding Reveals How Pre-Bone Marrow Transplant Conditioning Impacts Immune System Regeneration",
+      "url": "https://www.genengnews.com/topics/translational-medicine/genetic-barcoding-reveals-how-pre-bone-marrow-transplant-conditioning-impacts-immune-system-regeneration/",
+      "summary": "Researchers used genetic barcoding to track human blood-forming stem and progenitor cells transplanted into mice, revealing how the different cell types regenerate the blood and immune system, and how different forms of …",
+      "ts": 1794948051000,
+      "publishedAt": "2026-11-17T20:40:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "BPS Digital AVATAR Challenge",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/",
+      "summary": "The NASA Space Biology Program within the Biological and Physical Sciences (BPS) Division investigates how living systems respond across the full spectrum of biological organization to advance understanding of how living…",
+      "ts": 1794947978000,
+      "publishedAt": "2026-11-17T20:39:38.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "New Album of Baby Star Sounds Shared by NASA’s Chandra",
+      "url": "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/",
+      "summary": "A new album from NASA’s Chandra X-ray Observatory collects snapshots of baby stars across the galaxy and beyond and transforms that data into sound. Four new sonifications use data of stars that are actively forming, cap…",
+      "ts": 1794947177000,
+      "publishedAt": "2026-11-17T20:26:17.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Updated health data privacy rule sets standards for sharing records with apps",
+      "url": "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/?utm_campaign=rss",
+      "summary": "Federal health department has updated the HIPAA privacy rule with a focus on supporting patients’ access to their own medical records.",
+      "ts": 1794944654000,
+      "publishedAt": "2026-11-17T19:44:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+      "summary": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft departs the International Space Station no earlier than Wednesday, Nov. 18, for its return to …",
+      "ts": 1794942982000,
+      "publishedAt": "2026-11-17T19:16:22.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+      "url": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+      "summary": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Grigg…",
+      "ts": 1794941207000,
+      "publishedAt": "2026-11-17T18:46:47.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NICER Status Updates",
+      "url": "https://www.nasa.gov/missions/station/nicer-status-updates/",
+      "summary": "November 17, 2026 NASA’s NICER Telescope Ends Science Operations After studying the universe for six and a half years beyond its initial mission, NASA’s NICER (Neutron star Interior Composition Explorer) telescope on the…",
+      "ts": 1794939496000,
+      "publishedAt": "2026-11-17T18:18:16.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: GOP, MAHA leaders clash over FDA nominee’s record on vapes",
+      "url": "https://www.statnews.com/2026/11/17/heidi-overton-fda-commissioner-nomination-vote-vaping-controversy/?utm_campaign=rss",
+      "summary": "Heidi Overton is facing an uphill climb to become the next FDA commissioner. The latest challenge is her work on vaping.",
+      "ts": 1794939290000,
+      "publishedAt": "2026-11-17T18:14:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Hydropower hit record lows in the US Southwest this summer",
+      "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
+      "summary": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely…",
+      "ts": 1794937930000,
+      "publishedAt": "2026-11-17T17:52:10.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What to know about the new AI roadmap from CMS, and news from HLTH",
+      "url": "https://www.statnews.com/2026/11/17/cms-ai-roadmap-and-news-from-hlth-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: What you need to know about CMS' recently released AI roadmap, and highlights from HLTH.",
+      "ts": 1794937764000,
+      "publishedAt": "2026-11-17T17:49:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "ts": 1794937500000,
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "summary": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location and update the duration of the flight deployment. A NASA Dynamic Aviation A200 aircraft will conduct low…",
+      "ts": 1794935540000,
+      "publishedAt": "2026-11-17T17:12:20.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 5072-5076: The Return of the Polygons",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons/",
+      "summary": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, Nov. 13, 2026 Curiosity’s past several weeks have been very focused on dril…",
+      "ts": 1794935167000,
+      "publishedAt": "2026-11-17T17:06:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Flagship opens biotech-creation outpost in the U.K.",
+      "url": "https://www.statnews.com/2026/11/17/biotech-news-flagship-opens-biotech-creation-uk-outpost/?utm_campaign=rss",
+      "summary": "Flagship is putting up 100 million pounds to start “AI-native platform companies\" focused on human and planetary health in the U.K.:",
+      "ts": 1794935110000,
+      "publishedAt": "2026-11-17T17:05:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "How AI is pushing satellites to evolve",
+      "url": "https://spacenews.com/how-ai-is-pushing-satellites-to-evolve/",
+      "summary": "During the first day of Space Tech Expo Europe, SpaceNews’ Mike Gruss sits down with Pieter van Duijn, the chief technology officer of Loft Orbital. They discuss the growing level […] The post How AI is pushing satellite…",
+      "ts": 1794934953000,
+      "publishedAt": "2026-11-17T17:02:33.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
+      "summary": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. …",
+      "ts": 1794934829000,
+      "publishedAt": "2026-11-17T17:00:29.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Space Selfie",
+      "url": "https://www.nasa.gov/image-article/space-selfie-2/",
+      "summary": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station. Get dail…",
+      "ts": 1794934274000,
+      "publishedAt": "2026-11-17T16:51:14.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "U.S. loses measles elimination status, marking embarrassing stain on its public health record",
+      "url": "https://www.statnews.com/2026/11/17/us-loses-measles-elimination-status-public-health-victory-lost/?utm_campaign=rss",
+      "summary": "Measles is no longer considered eliminated in the U.S., a finding that was expected but that marks an embarrassing backslide in the country’s basic public health standing.",
+      "ts": 1794931641000,
+      "publishedAt": "2026-11-17T16:07:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Reviews Progress of Zambia’s Infrastructure Development for Nuclear Power",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-progress-of-zambias-infrastructure-development-for-nuclear-power",
+      "summary": "",
+      "ts": 1794930886000,
+      "publishedAt": "2026-11-17T15:54:46.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: ‘Medicare for More’ gains traction",
+      "url": "https://www.statnews.com/2026/11/17/democrats-new-health-policy-medicare-for-more-stephen-miller-embraces-maha/?utm_campaign=rss",
+      "summary": "Democrats coalesce around a new health care policy, and Trump's new chief of staff embraces MAHA.",
+      "ts": 1794929270000,
+      "publishedAt": "2026-11-17T15:27:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Research Reports",
+      "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "summary": "To access a report, click on the corresponding image below.",
+      "ts": 1794926386000,
+      "publishedAt": "2026-11-17T14:39:46.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Roche breast cancer pill, obesity drugs in children, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/17/roche-breast-cancer-pill-obesity-drugs-in-children/?utm_campaign=rss",
+      "summary": "The FDA approved a breast cancer drug from Roche, teeing up the launch of what the company has said could become its top-selling product",
+      "ts": 1794925541000,
+      "publishedAt": "2026-11-17T14:25:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Mapping the Hidden Viral Communities of the Human Gut Microbiome",
+      "url": "https://www.genengnews.com/topics/omics/mapping-the-hidden-viral-communities-of-the-human-gut-microbiome/",
+      "summary": "Researchers identified over 116,000 gut viral groups, revealing previously unknown relationships between viruses, bacteria, and metabolism, with findings offering new insights into gut health and irritable bowel syndrome…",
+      "ts": 1794925253000,
+      "publishedAt": "2026-11-17T14:20:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special a…",
+      "ts": 1794924010000,
+      "publishedAt": "2026-11-17T14:00:10.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "NIH’s infectious disease unit has a new head at last",
+      "url": "https://www.statnews.com/2026/11/17/health-news-nih-infectious-disease-unit-has-a-new-head-at-last/?utm_campaign=rss",
+      "summary": "The NIH has been without a permanent director since 2025. Now officials announce that acting director John Powers III will take the helm.",
+      "ts": 1794922021000,
+      "publishedAt": "2026-11-17T13:27:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Jensen Huang’s open-source dilemma and cognitive immortality",
+      "url": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Hu…",
+      "ts": 1794921000000,
+      "publishedAt": "2026-11-17T13:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: With $173 million, new startup takes aim at sickle cell",
@@ -21,8 +264,62 @@
       "categoryId": "bio"
     },
     {
+      "source": "United Nations News",
+      "title": "World News in Brief: Ebola cases double in DR Congo, chemical exposure starts before birth, Türk concern over EU-Rwanda transfer plan",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168827",
+      "summary": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) has more than doubled in three months, with more than 11,000 cases and 5,400 deaths now reported in 67 health zones across eight provinces, the head of the…",
+      "ts": 1794916800000,
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP31: The push to protect warming oceans reaches the negotiating table",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168824",
+      "summary": "From identifying marine life with a cup of seawater to drawing on Indigenous knowledge to prevent wildfires, scientists and communities showcased both cutting-edge and time-tested ways to protect nature at COP31 on Tuesd…",
+      "ts": 1794916800000,
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti: ‘Atrocious abuses’ continue as UN warns anti-gang operations must priortise civilian protection",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168823",
+      "summary": "The UN human rights office, OHCHR has urged greater protection for civilians in Haiti amid ongoing “atrocious abuses” committed by gangs and intensified security operations.",
+      "ts": 1794916800000,
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Hunger should not be a concern’: WFP steps in for families in Kenya who fled Ethiopia violence",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168822",
+      "summary": "The World Food Programme (WFP) is assisting thousands of families who fled recent violence in Ethiopia for the Moyale area in neighbouring Kenya, the UN agency reported on Tuesday.",
+      "ts": 1794916800000,
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Winter rains deepen Gaza crisis amid restricted access and aid cuts",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168821",
+      "summary": "Gaza is facing a deepening shelter, sanitation and food security crisis as winter rains flood makeshift shelters, destroy scarce food supplies and leave displaced families struggling to stay warm and fed.",
+      "ts": 1794916800000,
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Improving Mosquito Diets to Boost Sterile Insect Technique",
+      "url": "http://www.iaea.org/newscenter/news/improving-mosquito-diets-to-boost-sterile-insect-technique",
+      "summary": "Better nutrition for mosquitoes reared in large numbers could make the sterile insect technique (SIT), a method of mosquito control, more effective and less costly. A new five-year Coordinated Research Project (CRP) will…",
+      "ts": 1794914387000,
+      "publishedAt": "2026-11-17T11:19:47.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
-      "title": "STAT+: After death in gene therapy trial for a brain disease, progress is reported ",
+      "title": "STAT+: After death in gene therapy trial for a brain disease, progress is reported",
       "url": "https://www.statnews.com/2026/11/17/capsida-gene-therapy-trial-death-follow-up-investigation/?utm_campaign=rss",
       "summary": "An unexpected patient death rattled researchers who sought to pierce the blood-brain barrier. Now some think they have a better way of mitigating risks.",
       "ts": 1794907800000,
@@ -514,303 +811,6 @@
       "ts": 1794891600000,
       "publishedAt": "2026-11-17T05:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Predator-associated cues promote host riding, and coupling to mobile hosts improves survival in an epizoic limpet",
-      "url": "https://arxiv.org/abs/2606.23245",
-      "summary": "arXiv:2606.23245v2 Announce Type: replace Abstract: A host with multiscale movements may be difficult for a small animal to intercept or predict. Boarding turns that moving target into a source of locomotion. The snail T…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mechanistic bridges from receptors to whole-brain dynamics: promise and limits of master-equation mean-field models",
-      "url": "https://arxiv.org/abs/2608.00306",
-      "summary": "arXiv:2608.00306v5 Announce Type: replace Abstract: Drug and disease perturbations often arise at molecular, synaptic or cellular scales, yet are often observed in population and whole-brain signals. Which microscopic me…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic partial differential equation model for environmental DNA dynamics in river environments",
-      "url": "https://arxiv.org/abs/2608.03364",
-      "summary": "arXiv:2608.03364v4 Announce Type: replace Abstract: Environmental DNA (eDNA) has emerged as a novel tool for quantifying the seasonal abundance of aquatic species in water bodies; however, its mathematical modeling is st…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Ten simple rules for non-visual, reproducible and accessible bioinformatics",
-      "url": "https://arxiv.org/abs/2608.14400",
-      "summary": "arXiv:2608.14400v3 Announce Type: replace Abstract: Bioinformatics workflows rely heavily on visual representations. Quality-control plots, cell embeddings, heatmaps, genome-browser tracks, and interactive dashboards are…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Agent-guided epitope excision enables economical de novo binder design",
-      "url": "https://arxiv.org/abs/2610.33195",
-      "summary": "arXiv:2610.33195v2 Announce Type: replace Abstract: De novo protein design campaigns remain bottlenecked by the inference compute time required to generate and rank candidates, limiting wider functional exploration. Here…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pyramidal Columns Acting as Attention Heads",
-      "url": "https://arxiv.org/abs/2611.16057",
-      "summary": "arXiv:2611.16057v2 Announce Type: replace Abstract: Can the functional architecture of a Transformer attention head be given a biological construction? More specifically, could a suitable group of pyramidal columns in po…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Adventures in Multi-Omics I: Combining heterogeneous data sets via relationships matrices",
-      "url": "https://arxiv.org/abs/1912.03358",
-      "summary": "arXiv:1912.03358v3 Announce Type: replace-cross Abstract: In this article, we propose a covariance based method for combining partial data sets in the genotype to phenotype spectrum. In particular, an expectation-maximiz…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A unified framework for net effects in signed social and ecological networks",
-      "url": "https://arxiv.org/abs/2501.09190",
-      "summary": "arXiv:2501.09190v3 Announce Type: replace-cross Abstract: With improvements in data resolution and quality, researchers can now represent complex systems as signed, weighted, and directed networks. In this article, we in…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Interfacial Resistance and Preferential Internal Mixing of Phase-Separated Condensates",
-      "url": "https://arxiv.org/abs/2603.25447",
-      "summary": "arXiv:2603.25447v2 Announce Type: replace-cross Abstract: Biomolecular condensates spatially organize biochemical processes. They can selectively partition molecules and enrich them well above their concentration outside…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cell Migration Boundary Motion in Drosophila Egg Chambers: A Combined Phase Field and Chemoattractant Model",
-      "url": "https://arxiv.org/abs/2604.01357",
-      "summary": "arXiv:2604.01357v2 Announce Type: replace-cross Abstract: In the Drosophila melanogaster egg chamber, collective migration of border cells toward the oocyte is guided by spatial chemoattractant gradients, yet the distrib…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Structural Theory of Admissible Transitions in Biological Reaction Networks",
-      "url": "https://arxiv.org/abs/2608.27201",
-      "summary": "arXiv:2608.27201v2 Announce Type: replace-cross Abstract: Biological reaction networks exhibit transient changes that cannot be understood from steady states or long-term persistence alone. We extend Chemical Organizatio…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Taxonomic Classification with Tag Arrays",
-      "url": "https://arxiv.org/abs/2610.10500",
-      "summary": "arXiv:2610.10500v5 Announce Type: replace-cross Abstract: We present a tool, KATKA, for taxonomic classification with tag arrays. Compared to Ahmed et al.'s state-of-the-art tool Cliffy ({\\it Genome Research}, 2025) on t…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CellChain: Benchmarking Cross-Scale Evidence Use for Perturbation Reasoning",
-      "url": "https://arxiv.org/abs/2610.16346",
-      "summary": "arXiv:2610.16346v2 Announce Type: replace-cross Abstract: Recent advances in foundation models and large-scale cellular perturbation datasets have driven growing interest in using LLMs to predict and reason about cellula…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
-      "url": "https://arxiv.org/abs/2611.00911",
-      "summary": "arXiv:2611.00911v2 Announce Type: replace-cross Abstract: Decision-making in humans and AI involves multiple cognitive abilities. System One decision models produce fast, structured choices. Their cognitive strengths and…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spontaneous mechanical patterning in active elastic tissues with stress feedback",
-      "url": "https://arxiv.org/abs/2611.14943",
-      "summary": "arXiv:2611.14943v2 Announce Type: replace-cross Abstract: The active mechanics of biological tissues is often governed by embedded active contractile fibers responding to mechanical feedback. We introduce a minimal model…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Feedback-induced mechanical bistability and perpendicular-domain formation in active elastic tissues",
-      "url": "https://arxiv.org/abs/2611.14964",
-      "summary": "arXiv:2611.14964v2 Announce Type: replace-cross Abstract: Contractile fibers in muscle tissues are highly aligned over the scale of many cells. Muscle layers surrounding organs with an inner lumen are often arranged in o…",
-      "ts": 1794891600000,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "ts": 1794873600000,
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Enhancer-Targeted CRISPR Turns Up Healthy Gene Copy in Autism Organoid Model",
-      "url": "https://www.genengnews.com/topics/translational-medicine/enhancer-targeted-crispr-turns-up-healthy-gene-copy-in-autism-organoid-model/",
-      "summary": "In lab-grown human neurons and organoids carrying CHD8 or SCN2A mutations, researchers reduced organoid overgrowth and moved neuronal electrical activity closer to wild-type levels. The post Enhancer-Targeted CRISPR Turn…",
-      "ts": 1794873032000,
-      "publishedAt": "2026-11-16T23:50:32.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: New Trump regulation promises to crush ‘fraudsters.’ All the savings come from Medicare Advantage",
-      "url": "https://www.statnews.com/2026/11/16/cms-proposes-more-agressive-audits-medicare-advantage-crush/?utm_campaign=rss",
-      "summary": "New Trump regulation promises to crush ‘fraudsters.’ All the savings come from Medicare Advantage.",
-      "ts": 1794872736000,
-      "publishedAt": "2026-11-16T23:45:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
-      "url": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
-      "summary": "Written by Candice Bedford, Research Scientist at Purdue University Date: Nov. 16, 2026 During the Perseverance rover’s investigation of “Idubi” — an area of ancient Martian crust exposed in the “Lac de Charmes” region, …",
-      "ts": 1794870765000,
-      "publishedAt": "2026-11-16T23:12:45.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-      "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DG…",
-      "ts": 1794870005000,
-      "publishedAt": "2026-11-16T23:00:05.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
-      "url": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
-      "summary": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end …",
-      "ts": 1794866723000,
-      "publishedAt": "2026-11-16T22:05:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Toward Connected Laboratory Ecosystems",
-      "url": "https://www.genengnews.com/topics/toward-connected-laboratory-ecosystems/",
-      "summary": "In this GEN podcast, the third in a series, LabVantage’s Denise Bell discusses how laboratories can reduce operational fragmentation and build connected, scalable operations. The post Toward Connected Laboratory Ecosyste…",
-      "ts": 1794866409000,
-      "publishedAt": "2026-11-16T22:00:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Gut Microbome and Bile Acid Modification Linked with Longevity",
-      "url": "https://www.genengnews.com/topics/translational-medicine/gut-microbome-and-bile-acid-modification-linked-with-longevity/",
-      "summary": "Researchers studying how gut microbes modify bile acids have identified changes in the metabolic activity of the gut microbiome associated with exceptional longevity in humans, and found that amplifying the same activity…",
-      "ts": 1794862751000,
-      "publishedAt": "2026-11-16T20:59:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA approves new breast cancer drug, providing new option for some patients, boost for Roche",
-      "url": "https://www.statnews.com/2026/11/16/fda-approves-new-roche-breast-cancer-drug/?utm_campaign=rss",
-      "summary": "The FDA approved a new breast cancer drug from Roche, teeing up the launch of a medicine the company has said could become its top-selling product ever.",
-      "ts": 1794862607000,
-      "publishedAt": "2026-11-16T20:56:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Receives 16th Consecutive ‘Clean’ Financial Audit Opinion",
-      "url": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
-      "summary": "For the 16th consecutive year, NASA has received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2026 financial statements. The rating is the best possible audit opinion, certifying that NA…",
-      "ts": 1794861040000,
-      "publishedAt": "2026-11-16T20:30:40.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-      "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over dec…",
-      "ts": 1794859237000,
-      "publishedAt": "2026-11-16T20:00:37.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceNukes Opens Los Alamos Manufacture and Materials Facility to Build Its Next-Generation Space Reactor",
-      "url": "https://spacenews.com/spacenukes-opens-los-alamos-manufacture-and-materials-facility-to-build-its-next-generation-space-reactor/",
-      "summary": "LOS ALAMOS, N.M., Nov. 16, 2026 — Space Nuclear Power Corp. (SpaceNukes) opened its Manufacture and Materials Development Facility at 150 Central Park Square in Los Alamos on Nov. 13. […] The post SpaceNukes Opens Los Al…",
-      "ts": 1794859200000,
-      "publishedAt": "2026-11-16T20:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Federal judge issues final ruling blocking U.S. plan to limit visa length for grad students, postdocs",
-      "url": "https://www.statnews.com/2026/11/16/judge-rejects-visa-limits-international-researchers-upholds-duration-of-status-policy/?utm_campaign=rss",
-      "summary": "A proposal by the Trump administration to cap the amount of time foreign students and scholars can spend in the country has been struck down in court.",
-      "ts": 1794859154000,
-      "publishedAt": "2026-11-16T19:59:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In a win for MAHA, FDA creates new regulatory category for the supplement NAC",
-      "url": "https://www.statnews.com/2026/11/16/fda-proposes-new-category-supplement-nac/?utm_campaign=rss",
-      "summary": "The supplement NAC has been widely available for years, but exists in a legal gray area.",
-      "ts": 1794855246000,
-      "publishedAt": "2026-11-16T18:54:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Sentinel-6B in Orbit Around Earth",
-      "url": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
-      "summary": "Description This artist’s concept shows the Sentinel-6B satellite, which will become the reference satellite for other missions studying sea surface height.",
-      "ts": 1794855152000,
-      "publishedAt": "2026-11-16T18:52:32.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The open-source movement wants Jensen Huang back",
-      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating…",
-      "ts": 1794854327000,
-      "publishedAt": "2026-11-16T18:38:47.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Thunderbirds in Formation",
-      "url": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
-      "summary": "U.S. Air Force Thunderbirds fighter jets pass overhead during the agency’s MAX POWER expo and air show on Saturday, Nov. 7, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s inaugural MAX POWER was an aerospace fes…",
-      "ts": 1794854087000,
-      "publishedAt": "2026-11-16T18:34:47.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
