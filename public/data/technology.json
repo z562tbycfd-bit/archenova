@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-11-18T21:09:03.756Z",
+  "updated": "2026-11-19T02:58:01.272Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Epic Systems defends competitive practices, promises to let AI access its records",
+      "url": "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/?utm_campaign=rss",
+      "summary": "Executives from Epic, the largest electronics health records vendor, defended its competitive practices during a panel discussion at HLTH.",
+      "ts": 1795043275000,
+      "publishedAt": "2026-11-18T23:07:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Alzheimer’s Disease and Aging Linked to Changes in the Hypothalamus",
+      "url": "https://www.genengnews.com/topics/translational-medicine/alzheimers-disease-and-aging-linked-to-changes-in-the-hypothalamus/",
+      "summary": "Researchers combined measurements from brain images and single cell transcriptome maps to build a resource, HypoAD, as an atlas of the human hypothalamus in aging and AD, which they have made available to the research co…",
+      "ts": 1795042225000,
+      "publishedAt": "2026-11-18T22:50:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+      "summary": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The age…",
+      "ts": 1795040357000,
+      "publishedAt": "2026-11-18T22:19:17.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Flexell Space and ALATYR Sign MoU to Explore Solar Power Solutions for Orbital Data Centers",
+      "url": "https://spacenews.com/flexell-space-and-alatyr-sign-mou-to-explore-solar-power-solutions-for-orbital-data-centers/",
+      "summary": "– Collaboration to assess next-generation ultralight solar cells for space-based computing infrastructure – Partnership brings together Korean space energy technology and French orbital infrastructure expertise Bremen, G…",
+      "ts": 1795039320000,
+      "publishedAt": "2026-11-18T22:02:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "CRISPR Screening Reveals How Genetic Variants Drive Neurodegenerative Risk",
+      "url": "https://www.genengnews.com/topics/translational-medicine/crispr-screening-reveals-how-genetic-variants-drive-neurodegenerative-risk/",
+      "summary": "Researchers studying human induced pluripotent stem cell-derived microglia-like cells showed how genetic variants can impact cell behavior and used CRISPR gene editing to show how one gene’s effect depends on its cellula…",
+      "ts": 1795037199000,
+      "publishedAt": "2026-11-18T21:26:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Influential preventive services panel to meet for first time in more than a year",
+      "url": "https://www.statnews.com/2026/11/18/uspstf-task-force-after-rfk-jr-shakeup-to-meet/?utm_campaign=rss",
+      "summary": "A task force, meeting after a long delay, will discuss coverage of treatments for cervical cancer, perinatal depression, and alcohol use.",
+      "ts": 1795036886000,
+      "publishedAt": "2026-11-18T21:21:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Targeting Folate Receptor Reverses Colorectal Cancer’s Resistance to Immunotherapy in Mice",
+      "url": "https://www.genengnews.com/topics/cancer/targeting-folate-receptor-reverses-colorectal-cancers-resistance-to-immunotherapy-in-mice/",
+      "summary": "Targeting FOLR1 with an approved antibody-drug conjugate restored anti-tumor immunity and enhanced anti-PD-1 effectiveness in colorectal cancer, overcoming immune evasion in mouse models. The post Targeting Folate Recept…",
+      "ts": 1795036564000,
+      "publishedAt": "2026-11-18T21:16:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "London Calling: Flagship Expands in U.K. to Build AI-Native Platform Companies",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/london-calling-flagship-expands-in-u-k-to-build-ai-native-platform-companies/",
+      "summary": "Flagship expects to recruit and train an initial team of approximately 50 U.K.-based scientist-entrepreneurs and operators for the new Origination Lab, U.K., which will build on three years of experience partnering and c…",
+      "ts": 1795036258000,
+      "publishedAt": "2026-11-18T21:10:58.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "All Points Logistics Announces Partnership with Expeditors for Space Prep Logistics Center at Kennedy Space Center",
@@ -237,6 +309,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "ts": 1794996000000,
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "ESA",
       "title": "In the shadow of volcanic giants",
       "url": "https://www.esa.int/articles/about-us/directorates/science/mars-express/in-the-shadow-of-volcanic-giants",
@@ -280,6 +361,24 @@
       "ts": 1794991500000,
       "publishedAt": "2026-11-18T08:45:00.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "ts": 1794988800000,
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "ts": 1794988800000,
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
@@ -660,15 +759,6 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "OpenAI",
-      "title": "The Silent Consensus",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "ts": 1794960000000,
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
       "source": "Nature Energy",
       "title": "Targeted technology coadoption for reconciling energy savings and equity gains in the residential energy transition",
       "url": "https://www.nature.com/articles/s41560-026-02164-w",
@@ -721,96 +811,6 @@
       "ts": 1794948051000,
       "publishedAt": "2026-11-17T20:40:51.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "BPS Digital AVATAR Challenge",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/",
-      "summary": "The NASA Space Biology Program within the Biological and Physical Sciences (BPS) Division investigates how living systems respond across the full spectrum of biological organization to advance understanding of how living…",
-      "ts": 1794947978000,
-      "publishedAt": "2026-11-17T20:39:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "New Album of Baby Star Sounds Shared by NASA’s Chandra",
-      "url": "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/",
-      "summary": "A new album from NASA’s Chandra X-ray Observatory collects snapshots of baby stars across the galaxy and beyond and transforms that data into sound. Four new sonifications use data of stars that are actively forming, cap…",
-      "ts": 1794947177000,
-      "publishedAt": "2026-11-17T20:26:17.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Updated health data privacy rule sets standards for sharing records with apps",
-      "url": "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/?utm_campaign=rss",
-      "summary": "Federal health department has updated the HIPAA privacy rule with a focus on supporting patients’ access to their own medical records.",
-      "ts": 1794944654000,
-      "publishedAt": "2026-11-17T19:44:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
-      "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
-      "summary": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft departs the International Space Station no earlier than Wednesday, Nov. 18, for its return to …",
-      "ts": 1794942982000,
-      "publishedAt": "2026-11-17T19:16:22.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
-      "url": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
-      "summary": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Grigg…",
-      "ts": 1794941207000,
-      "publishedAt": "2026-11-17T18:46:47.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NICER Status Updates",
-      "url": "https://www.nasa.gov/missions/station/nicer-status-updates/",
-      "summary": "November 17, 2026 NASA’s NICER Telescope Ends Science Operations After studying the universe for six and a half years beyond its initial mission, NASA’s NICER (Neutron star Interior Composition Explorer) telescope on the…",
-      "ts": 1794939496000,
-      "publishedAt": "2026-11-17T18:18:16.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: GOP, MAHA leaders clash over FDA nominee’s record on vapes",
-      "url": "https://www.statnews.com/2026/11/17/heidi-overton-fda-commissioner-nomination-vote-vaping-controversy/?utm_campaign=rss",
-      "summary": "Heidi Overton is facing an uphill climb to become the next FDA commissioner. The latest challenge is her work on vaping.",
-      "ts": 1794939290000,
-      "publishedAt": "2026-11-17T18:14:50.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Hydropower hit record lows in the US Southwest this summer",
-      "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
-      "summary": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely…",
-      "ts": 1794937930000,
-      "publishedAt": "2026-11-17T17:52:10.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What to know about the new AI roadmap from CMS, and news from HLTH",
-      "url": "https://www.statnews.com/2026/11/17/cms-ai-roadmap-and-news-from-hlth-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: What you need to know about CMS' recently released AI roadmap, and highlights from HLTH.",
-      "ts": 1794937764000,
-      "publishedAt": "2026-11-17T17:49:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-      "ts": 1794937500000,
-      "publishedAt": "2026-11-17T17:45:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
