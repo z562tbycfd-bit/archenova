@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-11-20T11:01:19.410Z",
+  "updated": "2026-11-20T19:44:18.921Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Immune Aging Study in Mice Reveals Clues to T Cell Dysfunction and Cancer Development",
+      "url": "https://www.genengnews.com/topics/cancer/immune-aging-study-in-mice-reveals-clues-to-t-cell-dysfunction-and-cancer-development/",
+      "summary": "Age-related changes in CD8+ T cells may hold important clues to understanding cancer immunity, with new findings revealing distinct chromatin signatures of dysfunction and the emergence of a unique regulatory population.…",
+      "ts": 1795201449000,
+      "publishedAt": "2026-11-20T19:04:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare pilot will test ‘food is medicine’ and other lifestyle programs to counter chronic diseases",
+      "url": "https://www.statnews.com/2026/11/20/kennedy-food-is-medicine-maha-elevate-pilot/?utm_campaign=rss",
+      "summary": "Medicare does not cover many of the lifestyle interventions that could keep people from getting sick in the first place.",
+      "ts": 1795201444000,
+      "publishedAt": "2026-11-20T19:04:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require ju…",
+      "ts": 1795198515000,
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center ",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
+      "summary": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18. Presenting the awards were Christine Po…",
+      "ts": 1795192066000,
+      "publishedAt": "2026-11-20T16:27:46.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Mars Rover Collects Samples",
+      "url": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
+      "summary": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of i…",
+      "ts": 1795190004000,
+      "publishedAt": "2026-11-20T15:53:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1795189939000,
+      "publishedAt": "2026-11-20T15:52:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Sanofi eyeing Insmed, AI speeding drug development, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/?utm_campaign=rss",
+      "summary": "Sanofi weighs an Insmed takeover, the FDA slams J&J over misleading bladder cancer drug claims, and more pharma news:",
+      "ts": 1795184195000,
+      "publishedAt": "2026-11-20T14:16:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Early results for Alterome’s KRAS drug for pancreas, lung and colon cancer arrive",
+      "url": "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/?utm_campaign=rss",
+      "summary": "Alterome presented preliminary Phase 1 results of its drug “selectively” targeting a range of KRAS mutations — drivers of cancers in the pancreas, lung and colon:",
+      "ts": 1795183301000,
+      "publishedAt": "2026-11-20T14:01:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Researchers explore possibility of a CTE blood test",
+      "url": "https://www.statnews.com/2026/11/20/health-news-researchers-explore-possibility-of-cte-blood-test/?utm_campaign=rss",
+      "summary": "21 football players donated blood while they were alive and then gave their brains to CTE research after death. Here's what scientists found.",
+      "ts": 1795182790000,
+      "publishedAt": "2026-11-20T13:53:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: inside the quest to make our minds immortal",
+      "url": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What we learned when our Roundtables explored the quest to make minds immortal To …",
+      "ts": 1795180200000,
+      "publishedAt": "2026-11-20T13:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genome Writing Inserts Human X-Linked Disease DNA Into Mice",
+      "url": "https://www.genengnews.com/topics/genome-editing/genome-writing-inserts-human-x-linked-disease-dna-into-mice/",
+      "summary": "By swapping 78 kilobases of human DNA into mice, researchers recreated key features of X-linked dystonia-parkinsonism and showed that boosting TAF1 expression may counter some cellular effects. The post Genome Writing In…",
+      "ts": 1795176182000,
+      "publishedAt": "2026-11-20T12:03:02.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Shattered playgrounds and freezing classrooms: Inside Ukraine’s deadliest year for children",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168847",
+      "summary": "Amid the ruins of a twice-bombed Kyiv kindergarten as a day-long power cut continued, the UN Children’s Fund (UNICEF) on Friday highlighted the dangers to youngsters enduring another brutal winter in Ukraine, as child ca…",
+      "ts": 1795176000000,
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "WFP plans to assist 91 million in 2027 as hunger crisis deepens",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168846",
+      "summary": "The World Food Programme (WFP) will require $12.1 billion to assist 91 million people next year but warned that millions more will go hungry as funding shortfalls continue and another global food crisis looms.",
+      "ts": 1795176000000,
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168845",
+      "summary": "A group of countries from Europe, Africa, Latin America and the Pacific has challenged the proposed COP31 agreement, demanding explicit action on fossil fuels and stronger climate finance. With the summit due to close on…",
+      "ts": 1795176000000,
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan restrictions prevent pregnant women from seeking medical help",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168844",
+      "summary": "Aid and development agencies in Afghanistan warned on Friday of an escalating “assault” on the rights and freedoms of women and girls that is preventing growing numbers from accessing vital medical care.",
+      "ts": 1795176000000,
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Patients have little say in how brain implant trials are done. Ian Burkhart wants to change that",
@@ -51,7 +195,7 @@
       "source": "NASA",
       "title": "APOD: 2026 November 20 – V-G-R",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
-      "summary": "APOD Science APOD APOD: 2026 November… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of…",
+      "summary": "APODScienceAPODAPOD: 2026 November…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinat…",
       "ts": 1795151100000,
       "publishedAt": "2026-11-20T05:05:00.000Z",
       "categoryId": "space"
@@ -381,6 +525,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "ts": 1795132800000,
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Big drugmakers tell House committee they will halt clinical trials at some hospitals in China",
       "url": "https://www.statnews.com/pharmalot/2026/11/19/china-pharma-biotech-clinical-trials-security-risk-patents-drug-development/?utm_campaign=rss",
@@ -388,6 +541,24 @@
       "ts": 1795132800000,
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Improving compatibility in mixed-matrix membranes",
+      "url": "https://www.nature.com/articles/s41560-026-02174-8",
+      "summary": "",
+      "ts": 1795132800000,
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Environmental and material implications of global climate mitigation pathways",
+      "url": "https://www.nature.com/articles/s41560-026-02171-x",
+      "summary": "",
+      "ts": 1795132800000,
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -640,177 +811,6 @@
       "ts": 1795089600000,
       "publishedAt": "2026-11-19T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "COP31: Ambition goes missing as fossil fuel language drops from draft deal",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168839",
-      "summary": "A cat named Ambition went missing again at COP31 on Thursday. While activists delivered the message with humour, it reflected a serious concern: explicit references to moving away from fossil fuels had disappeared from t…",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "No government approval needed to form or join a group, UN rights committee says",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168837",
-      "summary": "People do not need their government’s permission to form or join an association, the UN Human Rights Committee said on Thursday, issuing new guidance as civic space shrinks around the world.",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World’s top court finds Myanmar guilty of genocide against Rohingya",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168836",
-      "summary": "The International Court of Justice, the principal judicial organ of the UN, delivered its judgment on Thursday in the case of The Gambia v. Myanmar on the application of the Genocide Convention, finding Myanmar responsib…",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
-      "url": "http://www.iaea.org/newscenter/news/iaea-and-global-partnership-of-nuclear-communities-strengthen-cooperation-on-local-engagement",
-      "summary": "",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Merck, Isomorphic Labs partner to develop oncology drug candidates",
-      "url": "https://www.statnews.com/2026/11/19/merck-isomorphic-labs-partner-to-develop-oncology-drug-candidates/?utm_campaign=rss",
-      "summary": "Merck and Isomorphic Labs said they are entering into a research collaboration to discover small molecule candidates in oncology.",
-      "ts": 1795088700000,
-      "publishedAt": "2026-11-19T11:45:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In cancer drug development, the spotlight shifts onto Erasca’s KRAS-targeted treatment",
-      "url": "https://www.statnews.com/2026/11/19/erasca-kras-targeted-treatment-new-data-pancreatic-cancer/?utm_campaign=rss",
-      "summary": "Did the biotech company Erasca find a more potent, better-tolerated pan-RAS cancer drug than Revolution Medicines?",
-      "ts": 1795087800000,
-      "publishedAt": "2026-11-19T11:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What a billion-dollar deal says about the US battery market",
-      "url": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
-      "summary": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to…",
-      "ts": 1795086000000,
-      "publishedAt": "2026-11-19T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Watch live: Hera’s first images of post-impact asteroid Dimorphos",
-      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/watch-live-hera-s-first-images-of-post-impact-asteroid-dimorphos",
-      "summary": "A little more than four years ago, humans moved an asteroid, as NASA’s DART spacecraft impacted a body called Dimorphos. Now the European Space Agency’s Hera spacecraft has arrived at that same asteroid to find out what …",
-      "ts": 1795083000000,
-      "publishedAt": "2026-11-19T10:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Before midterm losses, MAHA spent on itself instead of candidates",
-      "url": "https://www.statnews.com/2026/11/19/maha-pac-how-it-spent-money-insiders-candidates-nonprofit/?utm_campaign=rss",
-      "summary": "MAHA PAC spent more at a D.C. steakhouse than it did on the House race of a key ally.",
-      "ts": 1795080600000,
-      "publishedAt": "2026-11-19T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: STAT+: I’m a cardiologist. I’m a little puzzled about the blockbuster new study on deprescribing statins",
-      "url": "https://www.statnews.com/2026/11/19/deprescribing-statins-study-stream-trial-aha-questions/?utm_campaign=rss",
-      "summary": "STAT columnist Vishal Khetpal examines the STREAM trial and its findings about discontinuing use of statins.",
-      "ts": 1795080600000,
-      "publishedAt": "2026-11-19T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "ts": 1795075200000,
-      "publishedAt": "2026-11-19T08:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
-      "summary": "APODScienceAPODAPOD: 2026 November 19 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…",
-      "ts": 1795064700000,
-      "publishedAt": "2026-11-19T05:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "El Niño Rains Paint the Atacama",
-      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
-      "summary": "Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.",
-      "ts": 1795064400000,
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Does a label survive the loop? A screen of necessary physical conditions for a self-measuring system, with a pre-registered test on fly connectomes",
-      "url": "https://arxiv.org/abs/2611.23320",
-      "summary": "arXiv:2611.23320v1 Announce Type: new Abstract: Theories that tie experience to a system that re-reads its own state rarely say what a physical substrate must supply for such a loop to run. We state necessary conditions …",
-      "ts": 1795064400000,
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural Circuit Architectural Priors for Rat Locomotion",
-      "url": "https://arxiv.org/abs/2611.23364",
-      "summary": "arXiv:2611.23364v1 Announce Type: new Abstract: Animals generate behavior through continuous interactions between their neural circuits, bodies, and environment. Embodied simulations study these interactions by testing n…",
-      "ts": 1795064400000,
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hebbian self-organization of monosynaptic reflexes in a biologically realistic multiarticular limb",
-      "url": "https://arxiv.org/abs/2611.23441",
-      "summary": "arXiv:2611.23441v1 Announce Type: new Abstract: Spinal monosynaptic reflexes depend on patterns of connectivity between muscle spindle afferents and motoneurons that should reflect musculoskeletal dynamics. One possibili…",
-      "ts": 1795064400000,
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantitative Modeling of Action-Potential-Driven Sodium Dynamics in Neurons: From Sodium Influx to Sodium MRI",
-      "url": "https://arxiv.org/abs/2611.23549",
-      "summary": "arXiv:2611.23549v1 Announce Type: new Abstract: Neuronal action potentials are accompanied by the influx of extracellular sodium ions (Na+) into axons through voltage-gated sodium channels. Repetitive neuronal firing can…",
-      "ts": 1795064400000,
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "STORM: A Lightweight Structure-Free Model for Binding Affinity Prediction",
-      "url": "https://arxiv.org/abs/2611.23777",
-      "summary": "arXiv:2611.23777v1 Announce Type: new Abstract: Accurately predicting a small molecule's binding affinity to a protein, a critical task in drug discovery, remains challenging. Physics-based approaches like free-energy pe…",
-      "ts": 1795064400000,
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Dual-SOM Learner Model of Instructional Efficiency within Cognitive Load Theory",
-      "url": "https://arxiv.org/abs/2611.23795",
-      "summary": "arXiv:2611.23795v1 Announce Type: new Abstract: This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessi…",
-      "ts": 1795064400000,
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
