@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-11-19T20:09:40.889Z",
+  "updated": "2026-11-20T02:04:15.538Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Big drugmakers tell House committee they will halt clinical trials at some hospitals in China",
+      "url": "https://www.statnews.com/pharmalot/2026/11/19/china-pharma-biotech-clinical-trials-security-risk-patents-drug-development/?utm_campaign=rss",
+      "summary": "Big drugmakers tell U.S. House committee they will halt clinical trials at some hospitals in China.",
+      "ts": 1795132800000,
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The U.S. lost measles elimination status. The next Congress should help restore it",
+      "url": "https://www.statnews.com/2026/11/19/measles-elimination-status-congress-should-prioritize-restoration/?utm_campaign=rss",
+      "summary": "Infectious disease physician and STAT “ID Consult” columnist Krutika Kuppalli offers Congress a must-do list on measles.",
+      "ts": 1795128919000,
+      "publishedAt": "2026-11-19T22:55:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Study raises doubts about combining vaccine, monoclonal antibody to protect against malaria",
+      "url": "https://www.statnews.com/2026/11/19/malaria-monoclonal-antibody-l9ls-vaccine-r21-infant-study-mali/?utm_campaign=rss",
+      "summary": "A monoclonal antibody holds promise in preventing malaria, but researchers found it interfered with a new vaccine when used in babies.",
+      "ts": 1795126800000,
+      "publishedAt": "2026-11-19T22:20:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Former Verily Leaders Build AI Platform to Get More from Proteomics Data",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/former-verily-leaders-build-ai-platform-to-get-more-from-proteomics-data/",
+      "summary": "Tesorai’s AI platform reanalyzes massive proteomics repositories, letting researchers mine raw mass spectrometry data instead of condensed forms. In an Alzheimer’s project, it found phosphorylated tau 217 in four dataset…",
+      "ts": 1795124724000,
+      "publishedAt": "2026-11-19T21:45:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Window…",
+      "ts": 1795118415000,
+      "publishedAt": "2026-11-19T20:00:15.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Type 1 Diabetes Delayed in Mice by Stem Cell-Derived Vesicles That Calm Immune Response",
@@ -183,6 +228,42 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "ESA",
+      "title": "Rain breaks up Earth’s natural sunshades",
+      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/futureeo/earthcare/rain-breaks-up-earth-s-natural-sunshades",
+      "summary": "EarthCARE sheds light on one of the processes that leads to the breakup of vast, bright clouds that help keep our planet cool – with rain emerging as a key driver.",
+      "ts": 1795089600000,
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP31: Ambition goes missing as fossil fuel language drops from draft deal",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168839",
+      "summary": "A cat named Ambition went missing again at COP31 on Thursday. While activists delivered the message with humour, it reflected a serious concern: explicit references to moving away from fossil fuels had disappeared from t…",
+      "ts": 1795089600000,
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "No government approval needed to form or join a group, UN rights committee says",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168837",
+      "summary": "People do not need their government’s permission to form or join an association, the UN Human Rights Committee said on Thursday, issuing new guidance as civic space shrinks around the world.",
+      "ts": 1795089600000,
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World’s top court finds Myanmar guilty of genocide against Rohingya",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168836",
+      "summary": "The International Court of Justice, the principal judicial organ of the UN, delivered its judgment on Thursday in the case of The Gambia v. Myanmar on the application of the Genocide Convention, finding Myanmar responsib…",
+      "ts": 1795089600000,
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "IAEA News",
       "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
       "url": "http://www.iaea.org/newscenter/news/iaea-and-global-partnership-of-nuclear-communities-strengthen-cooperation-on-local-engagement",
@@ -217,6 +298,15 @@
       "ts": 1795086000000,
       "publishedAt": "2026-11-19T11:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Watch live: Hera’s first images of post-impact asteroid Dimorphos",
+      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/watch-live-hera-s-first-images-of-post-impact-asteroid-dimorphos",
+      "summary": "A little more than four years ago, humans moved an asteroid, as NASA’s DART spacecraft impacted a body called Dimorphos. Now the European Space Agency’s Hera spacecraft has arrived at that same asteroid to find out what …",
+      "ts": 1795083000000,
+      "publishedAt": "2026-11-19T10:10:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -588,6 +678,42 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "ts": 1795046400000,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "ts": 1795046400000,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "ts": 1795046400000,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "ts": 1795046400000,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Nature Energy",
       "title": "Exploring the distributional implications of targeted residential electrification in California",
       "url": "https://www.nature.com/articles/s41560-026-02155-x",
@@ -604,6 +730,15 @@
       "ts": 1795043275000,
       "publishedAt": "2026-11-18T23:07:55.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Seven-spacecraft observatory to study plasma universe",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/seven-spacecraft-observatory-to-study-plasma-universe",
+      "summary": "ESA Member States have selected Plasma Observatory as the agency’s next medium-class mission. Its seven coordinated spacecraft will track how the Sun’s energy moves through Earth’s magnetic shield, across different scale…",
+      "ts": 1795042800000,
+      "publishedAt": "2026-11-18T23:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -676,141 +811,6 @@
       "ts": 1795033911000,
       "publishedAt": "2026-11-18T20:31:51.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: NIH to move last group of its research chimps to a sanctuary",
-      "url": "https://www.statnews.com/pharmalot/2026/11/18/nih-to-move-last-group-of-research-chimps-to-sanctuary/?utm_campaign=rss",
-      "summary": "The last chimpanzees owned by the U.S. government and still living in a laboratory will be moved to a sanctuary next year.",
-      "ts": 1795033754000,
-      "publishedAt": "2026-11-18T20:29:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: 7 burning questions about the FDA’s post-Overton future",
-      "url": "https://www.statnews.com/2026/11/18/fda-after-heidi-overton-burning-questions-agency-future/?utm_campaign=rss",
-      "summary": "STAT tackles the most important questions about the FDA's uncertain future.",
-      "ts": 1795030437000,
-      "publishedAt": "2026-11-18T19:33:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The emerging winners and losers in the AI scribe market",
-      "url": "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of AI Prognosis: A closer look at how the AI scribe market is shaking out, news from the HLTH conference, and more",
-      "ts": 1795029959000,
-      "publishedAt": "2026-11-18T19:25:59.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "MAF EAP – Holidays – How to manage the BAH HUMBUG that tries to sneak in",
-      "url": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
-      "summary": "Holidays are often a fun break during a busy year – a long weekend here and there is an event many of us can get behind. However, when a short holiday break turns into a full holiday season, we know that this is a differ…",
-      "ts": 1795028307000,
-      "publishedAt": "2026-11-18T18:58:27.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
-      "summary": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration. Hall…",
-      "ts": 1795025552000,
-      "publishedAt": "2026-11-18T18:12:32.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Empire State Building Goes Gold for Voyager",
-      "url": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
-      "summary": "The Empire State Building is seen illuminated in gold to celebrate NASA’s Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object, Nov. 17, 2026. The c…",
-      "ts": 1795024226000,
-      "publishedAt": "2026-11-18T17:50:26.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "What Is the Moon Base?",
-      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
-      "summary": "This article is for students. NASA is returning astronauts to the Moon – and this time they will spend more time on the lunar surface. The Moon Base is humanity’s first lunar outpost. It will be a place where astronauts …",
-      "ts": 1795023363000,
-      "publishedAt": "2026-11-18T17:36:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Thank You for Doing NASA Science!",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/",
-      "summary": "It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us! You and NASA’s other volunteers have enabled an incredible banquet of discoveries—by taking data, analyzing data, writing code, writi…",
-      "ts": 1795023172000,
-      "publishedAt": "2026-11-18T17:32:52.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Advent of Automated, Gene-Engineered TIL Manufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/the-advent-of-automated-gene-engineered-til-manufacturing/",
-      "summary": "Automating engineered TIL manufacturing in a way that maintains their tumor-fighting capabilities may move this emerging therapeutic class into a commercially reproducible, economically viable therapeutic option. The pos…",
-      "ts": 1795021237000,
-      "publishedAt": "2026-11-18T17:00:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Tuning Extracellular Vesicle Production and Analytics for Compliance",
-      "url": "https://www.genengnews.com/topics/bioprocessing/tuning-extracellular-vesicle-production-and-analytics-for-compliance/",
-      "summary": "The complexity of extracellular vesicle products developed from umbilical cord blood can potentially be reduced through production processes and simplified quality control strategies, helping to boost this new product cl…",
-      "ts": 1795021231000,
-      "publishedAt": "2026-11-18T17:00:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "One Record, From Factory Floor to Patient",
-      "url": "https://www.genengnews.com/topics/bioprocessing/one-record-from-factory-floor-to-patient/",
-      "summary": "ParkourSC acquired manufacturing-AI company Quartic to track a drug’s quality across its whole lifecycle. CEO Mahesh Veerina explains how linking factory and shipping data could flag at-risk batches before problems reach…",
-      "ts": 1795021219000,
-      "publishedAt": "2026-11-18T17:00:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Growing Apart: Culture-Based Sterility Test Alternatives",
-      "url": "https://www.genengnews.com/topics/bioprocessing/growing-apart-culture-based-sterility-test-alternatives/",
-      "summary": "Growth-based sterility testing works for traditional biopharma but is too slow for the cell therapy sector. A new parallel testing pathway and rapid, molecular assay-based testing are a better option. The post Growing Ap…",
-      "ts": 1795021208000,
-      "publishedAt": "2026-11-18T17:00:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Origami and solar arrays",
-      "url": "https://spacenews.com/origami-and-solar-arrays/",
-      "summary": "In this episode of SpaceMinds, SpaceNews’ Mike Gruss talks with Thomas Sinn, the CEO of Dcubed, at Space Tech Expo Europe. They discuss the company’s new $30 million funding round, […] The post Origami and solar arrays a…",
-      "ts": 1795020965000,
-      "publishedAt": "2026-11-18T16:56:05.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Data Clinches First-of-Its-Kind Stellar Merger",
-      "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
-      "summary": "Researchers recently identified a first of its kind: A star slightly less massive than the Sun spiraled into and merged with a puffy supergiant star at the outskirts of our neighboring Andromeda galaxy. They nicknamed th…",
-      "ts": 1795017600000,
-      "publishedAt": "2026-11-18T16:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cassidy rejects Trump’s pick to lead NSF, saying he failed to ‘stand up for science’",
-      "url": "https://www.statnews.com/2026/11/18/bill-cassidy-rejects-jim-oneill-lead-national-science-foundation/?utm_campaign=rss",
-      "summary": "Bill Cassidy's rejection of Jim O'Neill comes shortly after the White House pulled FDA commissioner nominee Heidi Overton.",
-      "ts": 1795016179000,
-      "publishedAt": "2026-11-18T15:36:19.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
