@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-21T01:09:54.330Z",
+  "updated": "2026-11-21T09:20:54.522Z",
   "items": [
     {
       "source": "Phys.org",
@@ -419,6 +419,22 @@
       "publishedAt": "2026-11-20T10:00:04.000Z"
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Probing Fractional Quantum Hall States in Weakly Interacting Fermi Gases",
+      "url": "http://link.aps.org/doi/10.1103/7ncz-zr3x",
+      "summary": "Author(s): Viktor Bekassy, Mikael Fogelström, and Johannes Hofmann Quantum gases are used to simulate the physics of the lowest Landau level with neutral atoms, which in the simplest setup is achieved by rotating the gas…",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Phase Separation by Polar Active Transport",
+      "url": "http://link.aps.org/doi/10.1103/mksg-nkwr",
+      "summary": "Author(s): Sudipta Pattanayak, Alfredo Sciortino, Laurent Blanchoin, Manuel Théry, and Jean-François Joanny Two noninteracting components undergo phase separation through active, polarity-dependent transport mediated by …",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
       "source": "APS PRX",
       "title": "Superconducting Half-Dome in Bilayer Nickelates",
       "url": "http://link.aps.org/doi/10.1103/b884-4h1s",
@@ -435,18 +451,42 @@
       "publishedAt": "2026-11-20T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Probing Fractional Quantum Hall States in Weakly Interacting Fermi Gases",
-      "url": "http://link.aps.org/doi/10.1103/7ncz-zr3x",
-      "summary": "Author(s): Viktor Bekassy, Mikael Fogelström, and Johannes Hofmann Quantum gases are used to simulate the physics of the lowest Landau level with neutral atoms, which in the simplest setup is achieved by rotating the gas…",
+      "source": "APS PR Applied",
+      "title": "Photonic-computing error correction through optical encoder and decoder calibrations",
+      "url": "http://link.aps.org/doi/10.1103/71gp-fpwf",
+      "summary": "Author(s): Adam Carstensen and Babak Vosoughi Lahijani Photonic processors have emerged as an attractive platform for fast and energy-efficient matrix-vector multiplication. However, they are susceptible to error due to …",
       "ts": 1795168800000,
       "publishedAt": "2026-11-20T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Phase Separation by Polar Active Transport",
-      "url": "http://link.aps.org/doi/10.1103/mksg-nkwr",
-      "summary": "Author(s): Sudipta Pattanayak, Alfredo Sciortino, Laurent Blanchoin, Manuel Théry, and Jean-François Joanny Two noninteracting components undergo phase separation through active, polarity-dependent transport mediated by …",
+      "source": "APS PR Applied",
+      "title": "Encirclement of an exceptional point on lithium niobate toward high-efficiency electro-optic modulation",
+      "url": "http://link.aps.org/doi/10.1103/h992-whrs",
+      "summary": "Author(s): Jin Li, Xuecheng Yan, Kexun Wu, Tao Zhang, Yan Chen, Shuhan Chen, Yu Zhang, Ke Xu, and Jiawei Wang Non-Hermitian degeneracies, specifically exceptional points (EPs), have expanded the landscape of light-matter…",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Anomalous microwave response in ${\\mathrm{YBa}}_{2}{\\mathrm{Cu}}_{3}{\\mathrm{O}}_{7−δ}$ resonators beyond the two-level-system model",
+      "url": "http://link.aps.org/doi/10.1103/j3j9-hngq",
+      "summary": "Author(s): Kaiwen Zheng, Nathan J. Johnson, Nathan J. Thobaben, Sidharth Duthaluru, Haochen Shen, Denae T. Cherry, David S. Wisbey, and Kater W. Murch We report the microwave response of coplanar-waveguide resonators fab…",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Reducibility of native weighted graphs on Rydberg arrays",
+      "url": "http://link.aps.org/doi/10.1103/vbpq-f9qf",
+      "summary": "Author(s): J. Kombe and J. D. Pritchard We investigate the classical reducibility of random unit-disk graph (UDG) instances of the maximum independent set and maximum weighted independent set problems, which can be nativ…",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Parasitic interference in heterodyne interferometers: Modeling, characterization, and mitigation",
+      "url": "http://link.aps.org/doi/10.1103/trz4-jnn9",
+      "summary": "Author(s): Pengzhuo Wang, Jose Sanjuan, Moritz Mehmet, and Felipe Guzman Parasitic interference is a common limitation in laser interferometers, arising from unwanted beams that corrupt the phase measurement and degrade …",
       "ts": 1795168800000,
       "publishedAt": "2026-11-20T10:00:00.000Z"
     },
@@ -759,46 +799,6 @@
       "title": "Scattering by Small Ice Crystals in Turbulence: From Orientation Statistics to Retrieval Biases",
       "url": "https://arxiv.org/abs/2611.25750",
       "summary": "arXiv:2611.25750v1 Announce Type: new Abstract: Ice-cloud retrievals from polarimetric radar, lidar and submillimeter radiometry commonly assume random orientation, horizontal alignment or a prescribed flutter angle. We …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sign-Controlled BIC Merging and Flatband Formation in C2-symmetric Photonic Lattices",
-      "url": "https://arxiv.org/abs/2611.25805",
-      "summary": "arXiv:2611.25805v1 Announce Type: new Abstract: Bound states in the continuum (BICs) on flatbands promise long-lived, weakly dispersive photons, yet their interplay remains elusive. Here, we develop a four-mode non-Hermi…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Particle physics science communication with grass-roots Instagram: a success story",
-      "url": "https://arxiv.org/abs/2611.25806",
-      "summary": "arXiv:2611.25806v1 Announce Type: new Abstract: Communicating science to the public is an integral part of the work of a research collaboration, not an afterthought. Institutional and collaboration-level social media acc…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-scale dynamics of deep convective self-aggregation. Part I: physical-space structures and energy variance budget",
-      "url": "https://arxiv.org/abs/2611.25807",
-      "summary": "arXiv:2611.25807v1 Announce Type: new Abstract: Vertically resolved budget analyses of frozen moist static energy (FMSE) variance within a cloud-resolving model provide a rigorous perspective on the equilibrium state of …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moir\\'e-Enabled Recursive Phase Unwrapping for Differential Atom Interferometry",
-      "url": "https://arxiv.org/abs/2611.25827",
-      "summary": "arXiv:2611.25827v1 Announce Type: new Abstract: Weak equivalence principle tests comparing different elements may be more sensitive to violations than those comparing isotopes. However, differences in effective wave vect…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-scale dynamics of deep convective self-aggregation. Part II: scale-by-scale budget and mesoscale self-similarity",
-      "url": "https://arxiv.org/abs/2611.25829",
-      "summary": "arXiv:2611.25829v1 Announce Type: new Abstract: This work investigates deep convective self-aggregation in the space of scales, extending the physical-space analysis of Part I. We introduce a novel theoretical framework …",
       "ts": 1795150800000,
       "publishedAt": "2026-11-20T05:00:00.000Z"
     }
