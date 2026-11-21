@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-11-20T19:44:18.921Z",
+  "updated": "2026-11-21T01:09:57.996Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA rejects Capricor Therapeutics’ Duchenne therapy, a decision that was a long time coming",
+      "url": "https://www.statnews.com/2026/11/20/fda-rejects-capricor-duchenne-therapy/?utm_campaign=rss",
+      "summary": "The FDA said it had rejected a cell therapy intended for patients with Duchenne muscular dystrophy developed by Capricor Therapeutics.",
+      "ts": 1795218233000,
+      "publishedAt": "2026-11-20T23:43:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Spots Drifting Twilight Clouds",
+      "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+      "summary": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilig…",
+      "ts": 1795213625000,
+      "publishedAt": "2026-11-20T22:27:05.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "ICE detention of Princeton scientist rattles academia",
+      "url": "https://www.statnews.com/2026/11/20/princeton-researcher-eva-yi-xie-ice-detention-rattles-interational-scholars/?utm_campaign=rss",
+      "summary": "A graduate student who is a scientific researcher at Princeton was detained by ICE while traveling home after presenting at a neuroscience conference.",
+      "ts": 1795209567000,
+      "publishedAt": "2026-11-20T21:19:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+      "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+      "summary": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Resear…",
+      "ts": 1795207574000,
+      "publishedAt": "2026-11-20T20:46:14.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Is MAHA’s think tank in the tank? Tax filings show low reserves",
+      "url": "https://www.statnews.com/2026/11/20/maha-institute-tax-filings-rfk-jr-health-agenda-spending/?utm_campaign=rss",
+      "summary": "Tax filings show the MAHA Institute spent more than $1 million in 2025, ending its first year with just $171,000 as events and overhead drained its cash.",
+      "ts": 1795206370000,
+      "publishedAt": "2026-11-20T20:26:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "PTSD Brain DNA Methylation Patterns Linked to Age of Trauma Exposure, Sex, and Ethnicity",
+      "url": "https://www.genengnews.com/topics/omics/ptsd-brain-dna-methylation-patterns-linked-to-age-of-trauma-exposure-sex-and-ethnicity/",
+      "summary": "Studying postmortem brain tissue, researchers found variations in DNA methylation in different brain areas that may help explain the development of post-traumatic stress disorder. The post PTSD Brain DNA Methylation Patt…",
+      "ts": 1795203406000,
+      "publishedAt": "2026-11-20T19:36:46.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Immune Aging Study in Mice Reveals Clues to T Cell Dysfunction and Cancer Development",
@@ -526,6 +580,15 @@
     },
     {
       "source": "OpenAI",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "ts": 1795132800000,
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
       "title": "Can AI help scientists identify promising drug candidates?",
       "url": "https://openai.com/index/introducing-medchembench",
       "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
@@ -748,69 +811,6 @@
       "ts": 1795095393000,
       "publishedAt": "2026-11-19T13:36:33.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
-      "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Resear…",
-      "ts": 1795093800000,
-      "publishedAt": "2026-11-19T13:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Sanders’ ‘Medicare for All’ plan accrues more liberal and moderate support in Congress",
-      "url": "https://www.statnews.com/2026/11/19/health-news-sanders-medicare-for-all-plan-accrues-more-support-in-congress/?utm_campaign=rss",
-      "summary": "Sen. Bernie Sanders pushed back on assumptions that Trump would veto an expanded Medicare plan. “I am not absolutely certain that Trump would not sign it,” he said.",
-      "ts": 1795093194000,
-      "publishedAt": "2026-11-19T12:59:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A human liver has been kept alive outside the body for a record seven weeks",
-      "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
-      "summary": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending …",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Rain breaks up Earth’s natural sunshades",
-      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/futureeo/earthcare/rain-breaks-up-earth-s-natural-sunshades",
-      "summary": "EarthCARE sheds light on one of the processes that leads to the breakup of vast, bright clouds that help keep our planet cool – with rain emerging as a key driver.",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Battle to control GPS and radio signals raises civilian safety concerns",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168843",
-      "summary": "From aid convoys in conflict zones to passenger jets and cargo ships far out at sea, safe journeys depend on GPS, satellite navigation and old-fashioned radio transmissions. But these signals are increasingly being block…",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Peacekeeping: With 500 paternity and child support claims unresolved, UN scales up accountability",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168842",
-      "summary": "The UN is adding new accountability measures to better support children fathered by peacekeepers, the Under-Secretary-General for Management Strategy, Policy and Compliance, Catherine Pollard, announced Thursday.",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Losing the battle’: AI hands predators new ways to target children",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168841",
-      "summary": "Artificial intelligence (AI) is handing predators and criminal groups new ways to groom, extort and exploit children, while efforts to protect them are failing to keep pace, senior UN officials warned on Thursday.",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

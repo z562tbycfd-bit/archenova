@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-11-20T19:44:15.536Z",
+  "updated": "2026-11-21T01:09:54.330Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Broadening the role of RNA: A messenger, a mediator and now a condensate coordinator",
+      "url": "https://phys.org/news/2026-11-broadening-role-rna-messenger-condensate.html",
+      "summary": "New research about condensates—cellular compartments that act as hubs for facilitating biological reactions—continues to reveal novel insights into how cells function. Among those continuing to push the field forward are…",
+      "ts": 1795221601000,
+      "publishedAt": "2026-11-21T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Forever' chemicals? Don't be so sure, says engineer",
+      "url": "https://phys.org/news/2026-11-chemicals-dont.html",
+      "summary": "Inside the disinfection room of Baltimore's Ashburton water filtration plant, 14 University of Maryland students clad in hard hats peered up at six towering vats of bleach used to treat water that flows from the distant …",
+      "ts": 1795214402000,
+      "publishedAt": "2026-11-20T22:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A fish as old as Montana—the blue sucker discovered to live well over 100 years",
+      "url": "https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html",
+      "summary": "Using bomb radiocarbon dating on microscopic otoliths (earstones), researchers have found that a native species of fish in the Upper Missouri River in Montana is living up to 130 years—more than triple the previous estim…",
+      "ts": 1795213206000,
+      "publishedAt": "2026-11-20T22:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Caribbean corals are in crisis. Fossil reefs can help point to where corals may persist",
+      "url": "https://phys.org/news/2026-11-caribbean-corals-crisis-fossil-reefs.html",
+      "summary": "The fossilized remains of ancient coral reefs often sit just meters from living corals in the Caribbean, where reefs have declined sharply over the past 70 years. Those fossils could help show where corals might survive …",
+      "ts": 1795212001000,
+      "publishedAt": "2026-11-20T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient bison hunting site in Texas challenges long-held assumptions",
+      "url": "https://phys.org/news/2026-11-ancient-bison-site-texas-held.html",
+      "summary": "For decades, archaeologists questioned whether Native American communities in the Southern Plains hunted bison by driving herds over cliffs, a sophisticated technique widely documented farther north.",
+      "ts": 1795210802000,
+      "publishedAt": "2026-11-20T21:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover twist-tunable interlayer excitons in atomically thin anisotropic semiconductors",
+      "url": "https://phys.org/news/2026-11-scientists-tunable-interlayer-excitons-atomically.html",
+      "summary": "When light shines on a semiconductor, negatively charged electrons and positively charged holes—empty states left behind when electrons move away—pair up and bind together. This bound state is called an exciton. When two…",
+      "ts": 1795209608000,
+      "publishedAt": "2026-11-20T21:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gamified mobile payment features may drive adoption among Gen-Z users",
+      "url": "https://phys.org/news/2026-11-gamified-mobile-payment-features-gen.html",
+      "summary": "Gamified features in mobile payment applications may significantly increase adoption among consumers in emerging economies, with men and women responding in almost identical ways, according to research published in the I…",
+      "ts": 1795208405000,
+      "publishedAt": "2026-11-20T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Record-setting X-ray laser reliably generates flashes with wavelengths shorter than distances between atoms",
+      "url": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html",
+      "summary": "Researchers from DESY and European XFEL have demonstrated reliable production and transport of X-ray laser flashes with a wavelength of about 0.04 nanometers (or a photon energy of 30,000 electronvolts) at European XFEL,…",
+      "ts": 1795208401000,
+      "publishedAt": "2026-11-20T21:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "This year’s El Niño is unlike any other on record",
+      "url": "https://www.sciencenews.org/article/super-el-nino-historic-effect-hurricane",
+      "summary": "Pacific Ocean waters reached historic high temperatures in 2026, dramatically shaping hurricane seasons and global trends in precipitation.",
+      "ts": 1795208400000,
+      "publishedAt": "2026-11-20T21:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Digital imaging workshop aims to reveal secrets in medieval manuscripts",
+      "url": "https://phys.org/news/2026-11-digital-imaging-workshop-aims-reveal.html",
+      "summary": "Researchers recently used multispectral imaging technology to try to uncover hidden information from medieval manuscripts at the Rare Book and Manuscript Library at the University of Illinois Urbana-Champaign. The librar…",
+      "ts": 1795207209000,
+      "publishedAt": "2026-11-20T20:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New hemp plant produces no detectable THC, potentially reducing risk of crop destruction",
+      "url": "https://phys.org/news/2026-11-hemp-thc-potentially-crop-destruction.html",
+      "summary": "Scientists at Texas A&M AgriLife Research, a member of The Texas A&M University System, have developed a hemp plant that produces no detectable cannabinoids, including THC.",
+      "ts": 1795207201000,
+      "publishedAt": "2026-11-20T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tested on mushrooms, an AI model shows potential for detecting crop stress with far fewer computations",
+      "url": "https://phys.org/news/2026-11-mushrooms-ai-potential-crop-stress.html",
+      "summary": "A new artificial intelligence (AI) model can detect stress in agricultural crops using a nondestructive imaging technique, allowing changes in crop health to be monitored over time. Developed by a team of researchers at …",
+      "ts": 1795206011000,
+      "publishedAt": "2026-11-20T20:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can Instagram reduce prejudice? Study reveals the potential and limits of social media contact",
+      "url": "https://phys.org/news/2026-11-instagram-prejudice-reveals-potential-limits.html",
+      "summary": "A research team at the University of Potsdam has conducted a field experiment to investigate whether contact through social media can reduce prejudice. The findings suggest that following an unfamiliar Instagram profile …",
+      "ts": 1795206009000,
+      "publishedAt": "2026-11-20T20:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A million tiny crystals reveal how semiconductors form distinct cores and shells",
+      "url": "https://phys.org/news/2026-11-million-tiny-crystals-reveal-semiconductors.html",
+      "summary": "Perovskites and related materials called perovskitoids are promising semiconductor materials for solar cells, LEDs and light detectors. Their ingredients and internal crystal structures determine how they absorb and emit…",
+      "ts": 1795204811000,
+      "publishedAt": "2026-11-20T20:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hazardous glacial lakes need reservoir-style safety oversight, says researcher",
+      "url": "https://phys.org/news/2026-11-hazardous-glacial-lakes-reservoir-style.html",
+      "summary": "As the climate warms, thousands of glacial lakes are growing behind potentially unstable natural dams. Despite the potential risk of flooding to communities downstream, these lakes remain outside formal safety regulation…",
+      "ts": 1795204806000,
+      "publishedAt": "2026-11-20T20:00:06.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "People wade through floodwater because they underestimate danger—how to avoid risk",
@@ -124,9 +244,9 @@
     },
     {
       "source": "Phys.org",
-      "title": "Anthropic researcher says Claude solved math's greatest riddle",
+      "title": "Anthropic researcher says he and Claude proved the Riemann hypothesis, first posed in 1859",
       "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html",
-      "summary": "A mathematician at AI company Anthropic said Friday that he had used the firm's Claude chatbot to prove the Riemann hypothesis, a problem that has eluded mathematicians for more than 160 years.",
+      "summary": "A researcher at AI company Anthropic said Friday that he had used the firm's Claude chatbot to prove the Riemann hypothesis, a problem that has eluded mathematicians for more than 160 years.",
       "ts": 1795197001000,
       "publishedAt": "2026-11-20T17:50:01.000Z"
     },
@@ -297,6 +417,22 @@
       "summary": "Researchers in the Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS) have engineered an advancement in metasurface design and processing that now includes a built-in, intentionally designed antire…",
       "ts": 1795168804000,
       "publishedAt": "2026-11-20T10:00:04.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Superconducting Half-Dome in Bilayer Nickelates",
+      "url": "http://link.aps.org/doi/10.1103/b884-4h1s",
+      "summary": "Author(s): Yidi Liu, Bai Yang Wang, Jiarui Li, Yaoju Tarn, Lopa Bhatt, Michael Colletta, Yi-Ming Wu, Sang-Jun Lee, Cheng-Tai Kuo, Jun-Sik Lee, Berit H. Goodge, David A. Muller, Zhi-Xun Shen, Srinivas Raghu, Harold Y. Hwa…",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Controlling Energy Delivery with Bistable Nanostructures",
+      "url": "http://link.aps.org/doi/10.1103/llzj-hmxz",
+      "summary": "Author(s): Andreas Ehrmann and Carl P. Goodrich A physical mechanism for controlled energy delivery between bistable nanostructures, akin to ATP hydrolysis, is presented, laying the groundwork for the next generation of …",
+      "ts": 1795168800000,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
     },
     {
       "source": "APS Physical Review Letters",
@@ -663,142 +799,6 @@
       "title": "Multi-scale dynamics of deep convective self-aggregation. Part II: scale-by-scale budget and mesoscale self-similarity",
       "url": "https://arxiv.org/abs/2611.25829",
       "summary": "arXiv:2611.25829v1 Announce Type: new Abstract: This work investigates deep convective self-aggregation in the space of scales, extending the physical-space analysis of Part I. We introduce a novel theoretical framework …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Witnessing Molecular Conformation via Optical Cycling Centers",
-      "url": "https://arxiv.org/abs/2611.25851",
-      "summary": "arXiv:2611.25851v1 Announce Type: new Abstract: Molecular conformation plays a central role in determining molecular properties and dynamics. Here, we report the production and conformer-resolved spectroscopy of cold cal…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Partitioned iterative FD-SPH for fluid-rigid-body interaction: Stability and validation for lightweight floating bodies",
-      "url": "https://arxiv.org/abs/2611.25923",
-      "summary": "arXiv:2611.25923v1 Announce Type: new Abstract: This study assesses partitioned iterative fictitious-domain smoothed particle hydrodynamics (FD-SPH) for free-surface fluid-rigid-body interaction. Extending a strong-coupl…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Quantum Genetic Algorithm for Optimization of Benchmark Test Functions using Entangled Qutrits",
-      "url": "https://arxiv.org/abs/2611.25941",
-      "summary": "arXiv:2611.25941v1 Announce Type: new Abstract: Typically, quantum genetic algorithms are based on qubits, a two-level quantum system. This work investigates the optimization of Rastrigin, Rosen-Brock and Table Holder Fu…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The final stages of a Chapman-Jouguet detonation: support by its own products",
-      "url": "https://arxiv.org/abs/2611.26021",
-      "summary": "arXiv:2611.26021v1 Announce Type: new Abstract: A planar Chapman-Jouguet detonation that runs out of fuel must become a shock. We show that, when the chemical energy decreases in the direction of propagation, the wave do…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dephasing-free plasma acceleration with millijoule picosecond lasers",
-      "url": "https://arxiv.org/abs/2611.26032",
-      "summary": "arXiv:2611.26032v1 Announce Type: new Abstract: Laser-plasma accelerators reach gradients a thousand times above radio-frequency cavities, but need joule-class femtosecond lasers firing about once per second, and electro…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bifurcation analysis of particulate Rayleigh-Benard convection",
-      "url": "https://arxiv.org/abs/2611.26042",
-      "summary": "arXiv:2611.26042v1 Announce Type: new Abstract: Particles carried through a convecting fluid layer exchange momentum and heat with the fluid, and so change not only where convection starts but also how it saturates. We s…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Swimming formula in a linearly viscous fluid with anisotropic and odd viscosity tensors at low Reynolds number",
-      "url": "https://arxiv.org/abs/2611.26049",
-      "summary": "arXiv:2611.26049v1 Announce Type: new Abstract: We theoretically investigate the low-Reynolds-number hydrodynamics of a microswimmer in a linearly viscous fluid. The fluid is characterized by a viscosity tensor containin…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of an oxide cap on the combustion of aluminum particles using boundary-layer resolved simulations",
-      "url": "https://arxiv.org/abs/2611.26064",
-      "summary": "arXiv:2611.26064v1 Announce Type: new Abstract: A distinctive feature of burning aluminum particles is the condensation of the primary combustion product, alumina, forming an oxide cap that covers part of the aluminum pa…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photonic processors that carry their own unclonable fingerprint",
-      "url": "https://arxiv.org/abs/2611.26079",
-      "summary": "arXiv:2611.26079v1 Announce Type: new Abstract: Physically unclonable functions (PUFs) derive cryptographic keys from uncontrollable fabrication disorder, removing the need to store secrets in vulnerable non-volatile mem…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Speed Widefield Hyperspectral Imaging",
-      "url": "https://arxiv.org/abs/2611.26097",
-      "summary": "arXiv:2611.26097v1 Announce Type: new Abstract: Fourier-transform hyperspectral imaging is an emerging technology that combines widefield acquisition with flexible spectral resolution. Yet, it typically requires the acqu…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual Action of Electrolyte Additives in High-Voltage Li-Ion Cells",
-      "url": "https://arxiv.org/abs/2611.26176",
-      "summary": "arXiv:2611.26176v1 Announce Type: new Abstract: Electrolyte additives have outsized effects on cell performance, but determining their mechanism of action can be difficult. Here, we evaluate whether simple electrochemica…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DUV (257 nm) LIDT of Anti-Reflective Coatings",
-      "url": "https://arxiv.org/abs/2611.26181",
-      "summary": "arXiv:2611.26181v1 Announce Type: new Abstract: Laser-induced damage threshold in the deep ultraviolet (DUV) was used to perform tests on AR coated windows intended for industrial processes. The 257 nm wavelength was gen…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Theory of magneto-electrokinetics in unidirectional electrolyte flow: Hydrodynamic potential and Hall effect",
-      "url": "https://arxiv.org/abs/2611.26208",
-      "summary": "arXiv:2611.26208v1 Announce Type: new Abstract: We develop a theoretical framework for magneto-electrokinetic transport in dilute electrolytes under unidirectional flow and streaming current conditions. Unlike standard m…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resonant filling for long-pulse operation of EuXFEL using iterative learning based feed forward",
-      "url": "https://arxiv.org/abs/2611.26223",
-      "summary": "arXiv:2611.26223v1 Announce Type: new Abstract: A future operation scenario of the European XFEL (EuXFEL) is long-pulse (LP) mode, where the 800 superconducting radio frequency (SRF) cavities of the linac are energized w…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Triplet adiabatic potential energy surfaces for the O($^3$P) + C$_2$(X$^1\\Sigma_g^+$, a$^3\\Pi_u$) reaction and quasiclassical trajectory dynamics",
-      "url": "https://arxiv.org/abs/2611.26233",
-      "summary": "arXiv:2611.26233v1 Announce Type: new Abstract: We present three global adiabatic potential energy surfaces (PESs) for the O($^3$P) + C$_2$(X $^1\\Sigma_g^+$, a $^3\\Pi_u$) to CO(X$^1\\Sigma^+$) + C($^3$P) reaction, compute…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flux-induced condensation in a radial geometry",
-      "url": "https://arxiv.org/abs/2611.26236",
-      "summary": "arXiv:2611.26236v1 Announce Type: new Abstract: Stirring and shear usually suppress phase separation, but transport through a boundary can induce it. We study a binary mixture that is stable everywhere at rest and fills …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Compact GridPix Tracking: Test Beam Performance and Detector Response Modelling",
-      "url": "https://arxiv.org/abs/2611.26308",
-      "summary": "arXiv:2611.26308v1 Announce Type: new Abstract: We characterise a Timepix-based GridPix detector with a 21 mm drift length using 2.6 GeV electrons at ELSA. Tracks entering through the window at several angles are reconst…",
       "ts": 1795150800000,
       "publishedAt": "2026-11-20T05:00:00.000Z"
     }
