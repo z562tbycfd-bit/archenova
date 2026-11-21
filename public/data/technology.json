@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-21T17:10:53.786Z",
+  "updated": "2026-11-21T22:53:17.961Z",
   "items": [
     {
       "source": "STAT",
@@ -10,6 +10,15 @@
       "ts": 1795262400000,
       "publishedAt": "2026-11-21T12:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Homes abandoned, harvests failing: Haiti’s farmers rebuild amid violence, hunger and El Niño",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168834",
+      "summary": "Years of insecurity, violence perpetrated by murderous armed gangs and economic instability, combined with displacement, poor agricultural performance and climate shocks, have left millions of Haitians struggling to meet…",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -801,15 +810,6 @@
       "summary": "In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jean-François Morizur, the co-founder and CEO of Cailabs, at Space Tech Expo Europe. Morizur discusses the misconceptions with laser […] The post Making t…",
       "ts": 1795102698000,
       "publishedAt": "2026-11-19T15:38:18.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-      "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-      "summary": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
-      "ts": 1795102435000,
-      "publishedAt": "2026-11-19T15:33:55.000Z",
       "categoryId": "space"
     }
   ],

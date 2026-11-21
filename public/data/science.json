@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-11-21T17:10:51.108Z",
+  "updated": "2026-11-21T22:53:15.186Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The avian champions of long-distance migration keep surprising scientists",
+      "url": "https://phys.org/news/2026-11-avian-champions-distance-migration-scientists.html",
+      "summary": "\"The whole story began with an extinct bird from Hispaniola,\" said Min Zhao, a former postdoctoral associate at the Florida Museum of Natural History (now a postdoctoral researcher at Uppsala University).",
+      "ts": 1795298401000,
+      "publishedAt": "2026-11-21T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Repeated bending strengthens sugar-based hydrogel instead of wearing it down",
+      "url": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
+      "summary": "Most materials get weaker with use. But a team led by Chenfeng Ke, a professor of chemistry in Arts & Sciences at Washington University in St. Louis, has created a polymer that defies the usual laws of wear and tear.",
+      "ts": 1795291205000,
+      "publishedAt": "2026-11-21T20:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dropping degree requirements linked to higher pay for workers without degrees",
+      "url": "https://phys.org/news/2026-11-degree-requirements-linked-higher-pay.html",
+      "summary": "The requirements set by human resources (HR) greatly influence the professional opportunities available to different segments of the population. For instance, if a job requires applicants to have earned a bachelor's or m…",
+      "ts": 1795285201000,
+      "publishedAt": "2026-11-21T18:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Babies in ancient Greek colony started solid food at 3 months but nursed for nearly 4 years, chemical signatures suggest",
@@ -25,6 +49,46 @@
       "summary": "Gamma rays, the most high-energy type of electromagnetic radiation in the universe, have always had a blind spot. We've always had trouble measuring them in the \"megaelectronvolt\" (MeV) energy range, which astronomers ha…",
       "ts": 1795266010000,
       "publishedAt": "2026-11-21T13:00:10.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Astronomer Isabel Angelo hunts for odd signals in telescope data",
+      "url": "https://www.sciencenews.org/article/telescope-data-isabel-angelo-sn-10",
+      "summary": "At the SETI Institute, she uses machine learning to look for signs of cosmic phenomena astronomers have never seen before.",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "This scientist proves which problems computers can’t solve quickly",
+      "url": "https://www.sciencenews.org/article/game-computer-sn-10-dor-minzer-problem",
+      "summary": "Dor Minzer studies how fast computers can tell whether nearly all of a game’s rules can be satisfied or almost none can.",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "What helps land recover after fire? This ecologist looks to the past",
+      "url": "https://www.sciencenews.org/article/land-fire-jennifer-grenz-history-sn10",
+      "summary": "Ecologist Jennifer Grenz draws on Indigenous oral histories and ecological records to learn how landscapes recover after wildfires.",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "How do scientists learn from failure? This researcher has clues",
+      "url": "https://www.sciencenews.org/article/scientists-learn-failure-sn-10-yian-yin",
+      "summary": "Yian Yin found that scientists who revised rejected proposals using feedback found success faster than those who switched ideas.",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "How do tumors talk to nerves? This scientist is finding out",
+      "url": "https://www.sciencenews.org/article/tumors-talk-nerve-sn-10-sebnem-ece-eksi",
+      "summary": "After finding proteins linked to memory in prostate cancer cells, Sebnem Ece Eksi hopes to map nerve fibers in tumors.",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -86,6 +150,14 @@
       "source": "Nature Communications",
       "title": "Greenhouse gas responses to coastal wetland land use change vary by ecosystem and conversion pathway",
       "url": "https://www.nature.com/articles/s41467-026-79685-1",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Mapping temperature using transmission Kikuchi diffraction",
+      "url": "https://www.nature.com/articles/s41467-026-77502-3",
       "summary": "",
       "ts": 1795219200000,
       "publishedAt": "2026-11-21T00:00:00.000Z"
@@ -727,78 +799,6 @@
       "title": "From FAIR to AWARE: Data Readiness for Agentic AI in the Earth Sciences",
       "url": "https://arxiv.org/abs/2611.25209",
       "summary": "arXiv:2611.25209v1 Announce Type: new Abstract: Artificial intelligence in the Earth sciences is beginning to act: prototype agents already search archives, run simulations and draft analyses. Scientific data were curate…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A new efficient and accurate approximation for the dielectric function of the weakly coupled electron gas",
-      "url": "https://arxiv.org/abs/2611.25234",
-      "summary": "arXiv:2611.25234v1 Announce Type: new Abstract: An accurate analytic approximation is developed for the real boundary component of a regularised, causal complex auxiliary function describing the random phase approximatio…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards consensus on practical probabilistic evaluation metrics for clinical decision making in radiotherapy",
-      "url": "https://arxiv.org/abs/2611.25260",
-      "summary": "arXiv:2611.25260v1 Announce Type: new Abstract: Introduction: The main aim of this paper is to identify clinically feasible probabilistic evaluation approaches for radiotherapy and to assess whether they can support clin…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-similar rupture of a thin viscous filament in a Hele-Shaw cell",
-      "url": "https://arxiv.org/abs/2611.25298",
-      "summary": "arXiv:2611.25298v1 Announce Type: new Abstract: In this report, we shall revisit the rupture problem for thin filament in a Hele-Shaw cell. For a slightly perturbed interface with periodic boundary conditions, all modes …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design of an electrostatic violin mode damper for gravitational wave detector enhancement",
-      "url": "https://arxiv.org/abs/2611.25354",
-      "summary": "arXiv:2611.25354v1 Announce Type: new Abstract: The test mass suspension fiber resonances and their harmonics pollute the sensitivity of the detectors of the advanced Laser Interferometer Gravitational Wave Observatory (…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AI-Native Industrial Control Systems: An Agent Architecture for the Control System Lifecycle",
-      "url": "https://arxiv.org/abs/2611.25411",
-      "summary": "arXiv:2611.25411v1 Announce Type: new Abstract: Industrial control systems increasingly use AI for perception, control, and engineering, while available control functions and execution environments are typically establis…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Dimensional Structured Light Tomography with a Tilted Lens",
-      "url": "https://arxiv.org/abs/2611.25427",
-      "summary": "arXiv:2611.25427v1 Announce Type: new Abstract: In this work, we investigate high-dimensional spatial mode tomography using intensity measurements and the astigmatic transformation implemented with a tilted lens. We impr…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A fast and accurate model for gradient-based inverse design of multimode waveguides",
-      "url": "https://arxiv.org/abs/2611.25432",
-      "summary": "arXiv:2611.25432v1 Announce Type: new Abstract: Multimode photonic inverse design requires fast, accurate computational models that provide geometry gradients. Based on coupled-mode theory (CMT), we propose a differentia…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HAVAPlot: A Web-Based Scientific Visualization and Post-Processing Platform",
-      "url": "https://arxiv.org/abs/2611.25449",
-      "summary": "arXiv:2611.25449v1 Announce Type: new Abstract: This paper presents HAVAPlot, a browser-based framework for scientific visualization and post-processing of numerical simulation data. Operating entirely within the user's …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SR-Agent: An Advanced Intelligent Agent for Seismic Data Restoration",
-      "url": "https://arxiv.org/abs/2611.25466",
-      "summary": "arXiv:2611.25466v1 Announce Type: new Abstract: Field seismic data often suffer from multiple degradations, including noise contamination, incomplete geometry, low-frequency loss, and reduced spatial resolution, requirin…",
       "ts": 1795150800000,
       "publishedAt": "2026-11-20T05:00:00.000Z"
     }
