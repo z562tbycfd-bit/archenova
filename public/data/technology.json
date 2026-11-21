@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-21T09:20:59.418Z",
+  "updated": "2026-11-21T17:10:53.786Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: When should medical school start?",
+      "url": "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss",
+      "summary": "STAT readers weigh in on shortening medical school, fixing pediatric emergency care, and more.",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How Kennedy and MAHA could help stop measles",
+      "url": "https://www.statnews.com/2026/11/21/rfk-jr-maha-measles-outbreak-elimination-status-promote-mmr-vaccine/?utm_campaign=rss",
+      "summary": "Kennedy and MAHA say they aren’t anti-vaccine. They can prove it by promoting the MMR vaccine, writes Brinda Adhikari.",
+      "ts": 1795253400000,
+      "publishedAt": "2026-11-21T09:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 November 21 – Voyager’s Neptune",
@@ -166,6 +184,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168854",
+      "summary": "UN Secretary-General António Guterres is heading to Barbados to co-host a special summit on artificial intelligence (AI) safety on Monday, aimed at closing the gap between accelerating risks and many countries’ capacity …",
+      "ts": 1795176000000,
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "‘You will not be alone’: General Assembly President tells Rohingya refugees after genocide ruling",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168853",
       "summary": "A day after the UN’s highest court found that Myanmar had committed genocide against the Rohingya, the President of the General Assembly visited the refugee camps in Cox’s Bazar, Bangladesh, urging the world to turn the …",
@@ -202,7 +229,7 @@
     },
     {
       "source": "United Nations News",
-      "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+      "title": "COP31: Countries demand stronger climate deal amid deadlock in Antalya",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168845",
       "summary": "A group of countries from Europe, Africa, Latin America and the Pacific has challenged the proposed COP31 agreement, demanding explicit action on fossil fuels and stronger climate finance. With the summit due to close on…",
       "ts": 1795176000000,
@@ -783,33 +810,6 @@
       "summary": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
       "ts": 1795102435000,
       "publishedAt": "2026-11-19T15:33:55.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Lake Pelku",
-      "url": "https://www.nasa.gov/image-article/lake-pelku/",
-      "summary": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with…",
-      "ts": 1795102359000,
-      "publishedAt": "2026-11-19T15:32:39.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
-      "url": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
-      "summary": "NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for the planned duration of three minut…",
-      "ts": 1795099479000,
-      "publishedAt": "2026-11-19T14:44:39.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-      "summary": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1…",
-      "ts": 1795098675000,
-      "publishedAt": "2026-11-19T14:31:15.000Z",
       "categoryId": "space"
     }
   ],

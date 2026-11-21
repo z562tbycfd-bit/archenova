@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-11-21T09:20:54.522Z",
+  "updated": "2026-11-21T17:10:51.108Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Babies in ancient Greek colony started solid food at 3 months but nursed for nearly 4 years, chemical signatures suggest",
+      "url": "https://phys.org/news/2026-11-babies-ancient-greek-colony-solid.html",
+      "summary": "Over 2,500 years ago, Himera was a Greek colony inhabited by local Sicilians, Phoenicians and Greeks. Despite their diverse cultural backgrounds, they all shared one thing: they began weaning their babies early and conti…",
+      "ts": 1795275602000,
+      "publishedAt": "2026-11-21T15:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "An ancient failed rift is reawakening inside one of Africa's oldest landmasses",
+      "url": "https://phys.org/news/2026-11-ancient-rift-reawakening-africa-oldest.html",
+      "summary": "In April 2017, a magnitude 6.5 earthquake shook southern Africa from an unlikely place: the middle of the Kalahari Craton in eastern Botswana. Cratons are the ancient cores of continents, and this one is built from block…",
+      "ts": 1795269606000,
+      "publishedAt": "2026-11-21T14:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fermi's 14-year all-sky map bridges astronomy's elusive 'MeV gap'",
+      "url": "https://phys.org/news/2026-11-fermi-year-sky-bridges-astronomy.html",
+      "summary": "Gamma rays, the most high-energy type of electromagnetic radiation in the universe, have always had a blind spot. We've always had trouble measuring them in the \"megaelectronvolt\" (MeV) energy range, which astronomers ha…",
+      "ts": 1795266010000,
+      "publishedAt": "2026-11-21T13:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From screens in class to smart glasses, Norway rethinks new technologies",
+      "url": "https://phys.org/news/2026-11-screens-class-smart-glasses-norway.html",
+      "summary": "Three years ago, a schoolteacher in Norway was reprimanded for putting his pupils' iPads aside to return to pen and paper. Now, the whole country is rethinking its approach to new technologies.",
+      "ts": 1795256416000,
+      "publishedAt": "2026-11-21T10:20:16.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What makes rock deep beneath continents break away and sink?",
+      "url": "https://phys.org/news/2026-11-deep-beneath-continents.html",
+      "summary": "We usually picture mountain building as rock being pushed upward. But deep beneath some mountain belts and volcanic arcs, the opposite can happen: dense rock at the base of the crust can become unstable, break away and s…",
+      "ts": 1795234801000,
+      "publishedAt": "2026-11-21T04:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Device that measures strawberry skin's strength will aid breeders",
+      "url": "https://phys.org/news/2026-11-device-strawberry-skin-strength-aid.html",
+      "summary": "Resilient strawberry varieties will be more easily identifiable thanks to a tool developed by University of Queensland engineering students. The prototype measures the strength of strawberry skin, a key breeding consider…",
+      "ts": 1795232401000,
+      "publishedAt": "2026-11-21T03:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum software matches classical benchmark for a molecular interaction",
+      "url": "https://phys.org/news/2026-11-quantum-software-classical-benchmark-molecular.html",
+      "summary": "Predicting how molecules interact is central to drug discovery: it offers important information about how a new drug might work in the human body, the side effects it can cause and more. Computationally modeling these in…",
+      "ts": 1795230001000,
+      "publishedAt": "2026-11-21T03:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The call of the seamount: Two new armored tardigrades described in the Atlantic",
+      "url": "https://phys.org/news/2026-11-seamount-armored-tardigrades-atlantic.html",
+      "summary": "An international team led by researchers from Senckenberg am Meer in Wilhelmshaven has described two new species of marine tardigrades. The tiny marine organisms were discovered in the sediment of the Senghor Seamount of…",
+      "ts": 1795226401000,
+      "publishedAt": "2026-11-21T02:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Broadening the role of RNA: A messenger, a mediator and now a condensate coordinator",
@@ -9,6 +73,70 @@
       "summary": "New research about condensates—cellular compartments that act as hubs for facilitating biological reactions—continues to reveal novel insights into how cells function. Among those continuing to push the field forward are…",
       "ts": 1795221601000,
       "publishedAt": "2026-11-21T00:40:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Accelerating high-throughput catalyst screening by direct generation of equilibrium adsorption structures",
+      "url": "https://www.nature.com/articles/s41467-026-79243-9",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Greenhouse gas responses to coastal wetland land use change vary by ecosystem and conversion pathway",
+      "url": "https://www.nature.com/articles/s41467-026-79685-1",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Entropy-engineered polar heterogeneity enables near-decoupled polarization–strain behavior for high-density energy storage",
+      "url": "https://www.nature.com/articles/s41467-026-79625-z",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Shape conforming Janus hydrogel for preventing anastomotic leaks",
+      "url": "https://www.nature.com/articles/s41467-026-79644-w",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A global atlas of digital dermatology to map innovation and disparities",
+      "url": "https://www.nature.com/articles/s41467-026-78602-w",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "[c2]Daisy-chain molecular turing machines with switchable fluorescence outputs",
+      "url": "https://www.nature.com/articles/s41467-026-79590-7",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Deep ultraviolet gallium-oxide avalanche photodiodes reaching an impulse-response-derived gain-bandwidth record of 152 GHz",
+      "url": "https://www.nature.com/articles/s41467-026-79355-2",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Landscape fire sourced PM2.5, cause-specific paediatric hospitalisations, and the role of tree cover",
+      "url": "https://www.nature.com/articles/s41467-026-79586-3",
+      "summary": "",
+      "ts": 1795219200000,
+      "publishedAt": "2026-11-21T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -671,134 +799,6 @@
       "title": "SR-Agent: An Advanced Intelligent Agent for Seismic Data Restoration",
       "url": "https://arxiv.org/abs/2611.25466",
       "summary": "arXiv:2611.25466v1 Announce Type: new Abstract: Field seismic data often suffer from multiple degradations, including noise contamination, incomplete geometry, low-frequency loss, and reduced spatial resolution, requirin…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-Illumination Spectral Reflectance Reconstruction: A method for hyperspectral imaging using digital photography",
-      "url": "https://arxiv.org/abs/2611.25520",
-      "summary": "arXiv:2611.25520v1 Announce Type: new Abstract: Quantitative measurement of complex coloration patterns is essential for many biological studies and practical applications. Although color perception depends on the observ…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-fidelity six-dimensional optical data storage",
-      "url": "https://arxiv.org/abs/2611.25545",
-      "summary": "arXiv:2611.25545v1 Announce Type: new Abstract: Multi-dimensional optical data storage, wherein each voxel encodes multiple bits of information within a three-dimensional isotropic medium, presents a revolutionary approa…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct measurement of the on-shot focal-spot size of a kilojoule-class petawatt laser",
-      "url": "https://arxiv.org/abs/2611.25552",
-      "summary": "arXiv:2611.25552v1 Announce Type: new Abstract: We report a direct, on-shot determination of the focal-spot size of a kilojoule-class, four-beam petawatt laser. Encircled-energy curves were inferred from the energy trans…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Heterogeneous CPU-GPU Framework for Finite Element Micromagnetic Simulations on Tetrahedral Meshes",
-      "url": "https://arxiv.org/abs/2611.25565",
-      "summary": "arXiv:2611.25565v1 Announce Type: new Abstract: The design of magnetic storage materials relies on repeated micromagnetic simulations. Within each simulation, the demagnetization field evaluation and the sparse linear so…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How zonal states beat-driven by Alfven eigenmodes stabilize micro-turbulence in tokamak plasmas",
-      "url": "https://arxiv.org/abs/2611.25571",
-      "summary": "arXiv:2611.25571v1 Announce Type: new Abstract: The effects of zonal states (ZS) beat-driven by Alfven eigenmodes (AEs) on micro-turbulence stability are investigated; taking toroidal Alfven eigenmode (TAE) and ion tempe…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seamless Gradient Pixels for Multidimensional Optical Information Interrogation",
-      "url": "https://arxiv.org/abs/2611.25598",
-      "summary": "arXiv:2611.25598v1 Announce Type: new Abstract: Information from light interaction with its environment can be extracted from its numerous properties. Yet capturing and interpreting this information within a single and c…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exceptional unidirectional radiation modes",
-      "url": "https://arxiv.org/abs/2611.25609",
-      "summary": "arXiv:2611.25609v1 Announce Type: new Abstract: Singularities such as exceptional points (EPs) and bound states in the continuum (BICs) fundamentally reshape the spectral response of non-Hermitian open systems, unlocking…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Onset of three dimensionality in transonic shock boundary layer interaction over a natural laminar flow airfoil",
-      "url": "https://arxiv.org/abs/2611.25611",
-      "summary": "arXiv:2611.25611v1 Announce Type: new Abstract: The development of three-dimensionality in transonic shock--boundary-layer interactions (SBLI) can significantly influence the aerodynamic response of natural laminar flow …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A branch-free three-dimensional ghost-cell immersed boundary method with direction-averaged extrapolation kernels",
-      "url": "https://arxiv.org/abs/2611.25618",
-      "summary": "arXiv:2611.25618v1 Announce Type: new Abstract: Ghost-cell immersed boundary methods impose the wall boundary condition on a Cartesian grid by assigning values to the grid points just inside the body, the ghost points. A…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective-dimension estimation of a minimal turbulent channel flow via IRMAE-WD",
-      "url": "https://arxiv.org/abs/2611.25631",
-      "summary": "arXiv:2611.25631v1 Announce Type: new Abstract: The implicit rank-minimizing autoencoder with weight decay (IRMAE-WD) (Zeng et al. 2024) aims to estimate the dimension of the low-dimensional manifold underlying high-dime…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solving the puzzle of tropical cyclone track bifurcation",
-      "url": "https://arxiv.org/abs/2611.25674",
-      "summary": "arXiv:2611.25674v1 Announce Type: new Abstract: Tropical cyclones whose predicted tracks bifurcate are among the most dreaded storms in disaster planning. Understanding when and why these bifurcations occur has been a lo…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy transfers in decaying three-dimensional Hall-magnetohydrodynamics turbulence: Dependence on the Ion-Inertial Length and the Magnetic Prandtl Number",
-      "url": "https://arxiv.org/abs/2611.25686",
-      "summary": "arXiv:2611.25686v1 Announce Type: new Abstract: We present a systematic study of energy transfers in three-dimensional (3D) decaying Hall-magnetohydrodynamics (HMHD) turbulence. Our study has been designed to investigate…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Controlling the mixing efficiency in a rotating arc-wall mixer",
-      "url": "https://arxiv.org/abs/2611.25697",
-      "summary": "arXiv:2611.25697v1 Announce Type: new Abstract: In the rotating arc-wall mixer, the flow through a plane channel is stirred by three segments of its walls, which rotate back and forth periodically, two in phase and the t…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-Time Single-Pixel Imaging via Exploiting Temporal Mixing: A Unified Calibration and Composite Readout Framework",
-      "url": "https://arxiv.org/abs/2611.25700",
-      "summary": "arXiv:2611.25700v1 Announce Type: new Abstract: In high-speed optical measurements and computational imaging such as in single-pixel imaging temporal mixing arising from the mismatch between modulation and the electro-op…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing thin films and their interfaces via angle-resolved second-harmonic generation",
-      "url": "https://arxiv.org/abs/2611.25746",
-      "summary": "arXiv:2611.25746v1 Announce Type: new Abstract: Increasing demands on the performance and reliability of optical thin films stimulate the development of more sensitive characterisation methods capable of investigating th…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scattering by Small Ice Crystals in Turbulence: From Orientation Statistics to Retrieval Biases",
-      "url": "https://arxiv.org/abs/2611.25750",
-      "summary": "arXiv:2611.25750v1 Announce Type: new Abstract: Ice-cloud retrievals from polarimetric radar, lidar and submillimeter radiometry commonly assume random orientation, horizontal alignment or a prescribed flutter angle. We …",
       "ts": 1795150800000,
       "publishedAt": "2026-11-20T05:00:00.000Z"
     }
