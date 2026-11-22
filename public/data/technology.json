@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-21T22:53:17.961Z",
+  "updated": "2026-11-22T02:52:43.646Z",
   "items": [
     {
       "source": "STAT",
@@ -10,6 +10,15 @@
       "ts": 1795262400000,
       "publishedAt": "2026-11-21T12:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘We escaped with only our lives’: Fighting to give birth in war-torn Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168851",
+      "summary": "When fighting suddenly escalated around Taiz, in southwestern Yemen two months ago, midwife Anisa Fadhl had no time to pack a bag before she fled, leaving behind her home and her clinic. Both were later looted and destro…",
+      "ts": 1795262400000,
+      "publishedAt": "2026-11-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -802,15 +811,6 @@
       "ts": 1795104000000,
       "publishedAt": "2026-11-19T16:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Making the case for optical",
-      "url": "https://spacenews.com/making-the-case-for-optical/",
-      "summary": "In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jean-François Morizur, the co-founder and CEO of Cailabs, at Space Tech Expo Europe. Morizur discusses the misconceptions with laser […] The post Making t…",
-      "ts": 1795102698000,
-      "publishedAt": "2026-11-19T15:38:18.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

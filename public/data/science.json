@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-11-21T22:53:15.186Z",
+  "updated": "2026-11-22T02:52:40.274Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Single feathers may reveal whether eastern black rails stay in Texas or migrate north",
+      "url": "https://phys.org/news/2026-11-feathers-reveal-eastern-black-rails.html",
+      "summary": "High-stepping like you're in a marching band while dragging a rope through a wetland at night can make you wonder about your life choices. Several plastic bottles, each filled with two or three noisy cat toys, are attach…",
+      "ts": 1795309201000,
+      "publishedAt": "2026-11-22T01:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Episodic memory consolidation by reactivation of human concept neurons during sleep reflects contents, not sequence of events",
+      "url": "https://www.nature.com/articles/s41467-026-79544-z",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Chronically stable, frequency-selective auditory brainstem stimulation via ultra-flexible penetrating electrode arrays",
+      "url": "https://www.nature.com/articles/s41467-026-79747-4",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The avian champions of long-distance migration keep surprising scientists",
@@ -775,30 +799,6 @@
       "title": "A universal modal-noise limit for multimode photonic systems",
       "url": "https://arxiv.org/abs/2611.25156",
       "summary": "arXiv:2611.25156v1 Announce Type: new Abstract: Modal noise limits the photometric and spectroscopic stability of every multimode-to-single-mode photonic system, yet it is quantified device by device. For isotropic modal…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometric control of diffusive relaxation: spectral design, transport bounds and transverse mode isolation",
-      "url": "https://arxiv.org/abs/2611.25173",
-      "summary": "arXiv:2611.25173v1 Announce Type: new Abstract: Geometric confinement changes both thermal relaxation and heat throughput, but these effects need not be governed by the same conduction path. We establish a distinction be…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Complete Set of Solutions for the Equations of Temporal Coupled Mode Theory",
-      "url": "https://arxiv.org/abs/2611.25181",
-      "summary": "arXiv:2611.25181v1 Announce Type: new Abstract: Temporal coupled mode theory (TCMT) provides a compact description of resonant transport in optical systems in terms of a small set of physically transparent parameters, in…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From FAIR to AWARE: Data Readiness for Agentic AI in the Earth Sciences",
-      "url": "https://arxiv.org/abs/2611.25209",
-      "summary": "arXiv:2611.25209v1 Announce Type: new Abstract: Artificial intelligence in the Earth sciences is beginning to act: prototype agents already search archives, run simulations and draft analyses. Scientific data were curate…",
       "ts": 1795150800000,
       "publishedAt": "2026-11-20T05:00:00.000Z"
     }
