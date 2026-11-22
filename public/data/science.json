@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-11-22T10:51:29.959Z",
+  "updated": "2026-11-22T18:18:20.661Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Atmospheric organic nitrogen emerges as a major nutrient source for global oceans",
+      "url": "https://phys.org/news/2026-11-atmospheric-nitrogen-emerges-major-nutrient.html",
+      "summary": "A research team has quantified an important component of the global nitrogen cycle.",
+      "ts": 1795370401000,
+      "publishedAt": "2026-11-22T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "JWST finds a possible black hole that grew faster than its host galaxy in the early universe",
+      "url": "https://phys.org/news/2026-11-jwst-black-hole-grew-faster.html",
+      "summary": "How the first massive black holes formed in the universe remains an open question in astronomy. Black holes weighing about a billion solar masses within the first billion years of the universe require extraordinary origi…",
+      "ts": 1795365601000,
+      "publishedAt": "2026-11-22T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mercury gets its first visitor in years as a pair of spacecraft loop into orbit",
+      "url": "https://phys.org/news/2026-11-mercury-visitor-years-pair-spacecraft.html",
+      "summary": "A pair of spacecraft slipped into orbit around Mercury on Saturday after an eight-year cruise through the inner solar system to unravel our littlest planet's mountain of mysteries.",
+      "ts": 1795360801000,
+      "publishedAt": "2026-11-22T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "COP31 fails to agree on climate deal in chaotic finale",
+      "url": "https://phys.org/news/2026-11-cop31-climate-chaotic.html",
+      "summary": "The COP31 climate talks headed for a historic defeat Sunday after the EU and other countries refused to endorse a pact that omitted fossil fuels as the summit lurched into record overtime in Turkey.",
+      "ts": 1795360074000,
+      "publishedAt": "2026-11-22T15:07:54.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hybrid nanocrystal surface reveals new way to tune interactions with infrared light",
+      "url": "https://phys.org/news/2026-11-hybrid-nanocrystal-surface-reveals-tune.html",
+      "summary": "A one-crystal-thick sheet made from two types of nanocrystals mixed in solution can amplify or suppress infrared light beyond the sum of its parts.",
+      "ts": 1795359601000,
+      "publishedAt": "2026-11-22T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Milky Way simulation reaches record resolution with the help of three supercomputers",
+      "url": "https://phys.org/news/2026-11-milky-simulation-resolution-supercomputers.html",
+      "summary": "A team of researchers, including those from the University of Tokyo, have developed a new way to model the Milky Way at a level of detail never achieved before. They simulated the entire galaxy down to the level of indiv…",
+      "ts": 1795356001000,
+      "publishedAt": "2026-11-22T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parasite makes mice more attractive to blood-feeding bugs, which may aid its spread",
+      "url": "https://phys.org/news/2026-11-parasite-mice-blood-bugs-aid.html",
+      "summary": "Some parasites, such as Trypanosoma rangeli and Trypanosoma cruzi, can be passed between mammals and blood-feeding insects called triatomine bugs. Bugs can acquire these parasites when feeding on infected mammals, while …",
+      "ts": 1795352402000,
+      "publishedAt": "2026-11-22T13:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Single feathers may reveal whether eastern black rails stay in Texas or migrate north",
@@ -745,62 +801,6 @@
       "summary": "Author(s): Jin Li, Xuecheng Yan, Kexun Wu, Tao Zhang, Yan Chen, Shuhan Chen, Yu Zhang, Ke Xu, and Jiawei Wang Non-Hermitian degeneracies, specifically exceptional points (EPs), have expanded the landscape of light-matter…",
       "ts": 1795168800000,
       "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Anomalous microwave response in ${\\mathrm{YBa}}_{2}{\\mathrm{Cu}}_{3}{\\mathrm{O}}_{7−δ}$ resonators beyond the two-level-system model",
-      "url": "http://link.aps.org/doi/10.1103/j3j9-hngq",
-      "summary": "Author(s): Kaiwen Zheng, Nathan J. Johnson, Nathan J. Thobaben, Sidharth Duthaluru, Haochen Shen, Denae T. Cherry, David S. Wisbey, and Kater W. Murch We report the microwave response of coplanar-waveguide resonators fab…",
-      "ts": 1795168800000,
-      "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Reducibility of native weighted graphs on Rydberg arrays",
-      "url": "http://link.aps.org/doi/10.1103/vbpq-f9qf",
-      "summary": "Author(s): J. Kombe and J. D. Pritchard We investigate the classical reducibility of random unit-disk graph (UDG) instances of the maximum independent set and maximum weighted independent set problems, which can be nativ…",
-      "ts": 1795168800000,
-      "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Parasitic interference in heterodyne interferometers: Modeling, characterization, and mitigation",
-      "url": "http://link.aps.org/doi/10.1103/trz4-jnn9",
-      "summary": "Author(s): Pengzhuo Wang, Jose Sanjuan, Moritz Mehmet, and Felipe Guzman Parasitic interference is a common limitation in laser interferometers, arising from unwanted beams that corrupt the phase measurement and degrade …",
-      "ts": 1795168800000,
-      "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "UN climate talks enter crunch time with no deal in sight",
-      "url": "https://phys.org/news/2026-11-climate-crunch-sight.html",
-      "summary": "The U.N.'s COP31 climate talks enter their endgame Friday, with countries sharply divided over a draft deal lacking any mention of planet-heating fossil fuels, threatening to push the negotiations into overtime.",
-      "ts": 1795164181000,
-      "publishedAt": "2026-11-20T08:43:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Fiona the hippo dies after failed effort to remove swallowed hat",
-      "url": "https://phys.org/news/2026-11-fiona-hippo-dies-effort-swallowed.html",
-      "summary": "World-famous hippopotamus Fiona has died after several failed attempts by vets to remove a woolly hat that she accidentally swallowed, the Cincinnati Zoo announced Thursday.",
-      "ts": 1795164024000,
-      "publishedAt": "2026-11-20T08:40:24.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Nature's multilayered defenses against crop pests and viruses revealed",
-      "url": "https://phys.org/news/2026-11-nature-multilayered-defenses-crop-pests.html",
-      "summary": "Researchers from the University of Nottingham, in collaboration with Syngenta and Keele University, have discovered how a commercial barley hybrid uses three complementary natural defenses to protect itself against aphid…",
-      "ts": 1795162202000,
-      "publishedAt": "2026-11-20T08:10:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Data centers damage air quality long-distance, study reveals",
-      "url": "https://phys.org/news/2026-11-centers-air-quality-distance-reveals.html",
-      "summary": "The rapid expansion of data centers for artificial intelligence causes negative health and air quality impacts in regions far from where the brick-and-mortar facilities are located, according to a new study by MIT resear…",
-      "ts": 1795151631000,
-      "publishedAt": "2026-11-20T05:13:51.000Z"
     }
   ],
   "sources": [

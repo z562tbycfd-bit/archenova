@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-22T10:51:32.379Z",
+  "updated": "2026-11-22T18:18:23.675Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168852",
+      "summary": "For five years, Zahra cared for an elderly woman in Iran and earned enough to get by. Now back in Herat, western Afghanistan, the 28-year-old trained midwife is unemployed. She lives with her parents and siblings, apart …",
+      "ts": 1795348800000,
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "COP31 ends without climate pact as UN chief warns there is ‘no ambiguity in the science’",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168855",
+      "summary": "COP31 ended on Sunday without a climate pact after negotiators failed to overcome divisions over fossil fuels, bringing two weeks of talks and two days of overtime to a close that UN Secretary-General António Guterres de…",
+      "ts": 1795348800000,
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
@@ -10,6 +28,15 @@
       "ts": 1795323900000,
       "publishedAt": "2026-11-22T05:05:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -783,33 +810,6 @@
       "summary": "Lawmakers leading the congressional BIOTech Caucus say Washington needs to act in the sector — and fast:",
       "ts": 1795107886000,
       "publishedAt": "2026-11-19T17:04:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omn…",
-      "ts": 1795107635000,
-      "publishedAt": "2026-11-19T17:00:35.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Peptide market poised to explode with new Hims and Noom launches",
-      "url": "https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/?utm_campaign=rss",
-      "summary": "Two telehealth giants rolled out peptide programs this week after HHS made it easier for compounding pharmacies to offer drugs like BPC-157.",
-      "ts": 1795107587000,
-      "publishedAt": "2026-11-19T16:59:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: MAHA PAC’s steakhouse spend",
-      "url": "https://www.statnews.com/2026/11/19/maha-pac-midterm-election-spending-fda-questions-after-heidi-overton/?utm_campaign=rss",
-      "summary": "MAHA PAC's curious spending decisions, and a close look at what's next for the FDA.",
-      "ts": 1795105807000,
-      "publishedAt": "2026-11-19T16:30:07.000Z",
       "categoryId": "bio"
     }
   ],
