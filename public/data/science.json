@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-22T02:52:40.274Z",
+  "updated": "2026-11-22T10:51:29.959Z",
   "items": [
     {
       "source": "Phys.org",
@@ -12,8 +12,40 @@
     },
     {
       "source": "Nature Communications",
-      "title": "Episodic memory consolidation by reactivation of human concept neurons during sleep reflects contents, not sequence of events",
-      "url": "https://www.nature.com/articles/s41467-026-79544-z",
+      "title": "Electrically induced glass transition of polyelectrolyte complexes enables kinetic ionic diodes",
+      "url": "https://www.nature.com/articles/s41467-026-79559-6",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "The genetic and proteomic determinants of pediatric stature development and their link to adult height and type 2 diabetes",
+      "url": "https://www.nature.com/articles/s41467-026-79465-x",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A quantitative deep-learning-based framework reveals a continuum of chromatin sensitivities across transcription factors",
+      "url": "https://www.nature.com/articles/s41467-026-79404-w",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Benzoxaboroles target CPSF3 for degradation through a SUMO-dependent pathway in trypanosomes",
+      "url": "https://www.nature.com/articles/s41467-026-79400-0",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Foliar and floral frost damage reshape reproductive phenology with limited carry-over effects",
+      "url": "https://www.nature.com/articles/s41467-026-79723-y",
       "summary": "",
       "ts": 1795305600000,
       "publishedAt": "2026-11-22T00:00:00.000Z"
@@ -22,6 +54,30 @@
       "source": "Nature Communications",
       "title": "Chronically stable, frequency-selective auditory brainstem stimulation via ultra-flexible penetrating electrode arrays",
       "url": "https://www.nature.com/articles/s41467-026-79747-4",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Desmin filaments extend along actin filaments within the mouse skeletal muscle sarcomere",
+      "url": "https://www.nature.com/articles/s41467-026-79344-5",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Denitrogenative glycosylations of glycosyl sulfonohydrazides",
+      "url": "https://www.nature.com/articles/s41467-026-79707-y",
+      "summary": "",
+      "ts": 1795305600000,
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Episodic memory consolidation by reactivation of human concept neurons during sleep reflects contents, not sequence of events",
+      "url": "https://www.nature.com/articles/s41467-026-79544-z",
       "summary": "",
       "ts": 1795305600000,
       "publishedAt": "2026-11-22T00:00:00.000Z"
@@ -745,62 +801,6 @@
       "summary": "The rapid expansion of data centers for artificial intelligence causes negative health and air quality impacts in regions far from where the brick-and-mortar facilities are located, according to a new study by MIT resear…",
       "ts": 1795151631000,
       "publishedAt": "2026-11-20T05:13:51.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Can Language Models Build Molecules in Three Dimensions?",
-      "url": "https://arxiv.org/abs/2611.25041",
-      "summary": "arXiv:2611.25041v1 Announce Type: new Abstract: Chemical drawings convey which atoms are bonded and how stereocentres are configured, but not molecular shape. Every simulation starts from three-dimensional coordinates, a…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MAPPA: Mapping of Atoms by Progressive Pattern Assembly with Molecular Symmetry",
-      "url": "https://arxiv.org/abs/2611.25052",
-      "summary": "arXiv:2611.25052v1 Announce Type: new Abstract: Atom-to-atom mapping traces atom identities between molecular endpoints, supporting reaction anal- ysis and pathway construction. Yet the same endpoints can admit multiple …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluation of machine-learning and deep-learning SPEI drought forecasts against persistence across timescales and lead times in Bangladesh",
-      "url": "https://arxiv.org/abs/2611.25075",
-      "summary": "arXiv:2611.25075v1 Announce Type: new Abstract: Bangladesh, home to nearly 178 million people, is highly vulnerable to recurring droughts that threaten food security and rural livelihoods. Machine-learning and deep-learn…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Computational and Experimental Framework for Fourier Optics in Python",
-      "url": "https://arxiv.org/abs/2611.25116",
-      "summary": "arXiv:2611.25116v1 Announce Type: new Abstract: Simulation of the propagation of light is useful for the design and dimensioning of optical systems. In this paper, we present the basics of propagation simulation using Fo…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Colloquium: Isotopes for medicine and fundamental physics",
-      "url": "https://arxiv.org/abs/2611.25145",
-      "summary": "arXiv:2611.25145v1 Announce Type: new Abstract: Isotopes, variants of elements distinguished by their neutron number, have important applications for medicine and fundamental science. This review explores the historical …",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nodal Knotted Finite-Energy Spatiotemporally Localized Scalar Wave Solutions",
-      "url": "https://arxiv.org/abs/2611.25155",
-      "summary": "arXiv:2611.25155v1 Announce Type: new Abstract: Significant amount of information is available in wave optics about monochromatic paraxial beams characterized by nodal knots, the latter being threads of complete darkness…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A universal modal-noise limit for multimode photonic systems",
-      "url": "https://arxiv.org/abs/2611.25156",
-      "summary": "arXiv:2611.25156v1 Announce Type: new Abstract: Modal noise limits the photometric and spectroscopic stability of every multimode-to-single-mode photonic system, yet it is quantified device by device. For isotropic modal…",
-      "ts": 1795150800000,
-      "publishedAt": "2026-11-20T05:00:00.000Z"
     }
   ],
   "sources": [

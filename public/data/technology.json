@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-22T02:52:43.646Z",
+  "updated": "2026-11-22T10:51:32.379Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+      "summary": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1795323900000,
+      "publishedAt": "2026-11-22T05:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Opinion: When should medical school start?",
@@ -801,15 +810,6 @@
       "summary": "MAHA PAC's curious spending decisions, and a close look at what's next for the FDA.",
       "ts": 1795105807000,
       "publishedAt": "2026-11-19T16:30:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "National Academies report calls for faster decisions on publication retractions and corrections",
-      "url": "https://www.statnews.com/2026/11/19/national-academies-report-proposes-faster-research-retractions/?utm_campaign=rss",
-      "summary": "The National Academies urged the scientific community to respond more aggressively to claims of errors or manipulated data in published research",
-      "ts": 1795104000000,
-      "publishedAt": "2026-11-19T16:00:00.000Z",
       "categoryId": "bio"
     }
   ],
