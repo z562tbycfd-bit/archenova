@@ -78202,31 +78202,44 @@ main#home-top
 
 
 
-/* =====================================================
-   ORYVANTH — ABSOLUTE BLACK CONTAINER
-   Entire HOME glass surface becomes pure black
-===================================================== */
+/* ==========================================================
+   ORYVANTH — ABSOLUTE BLACK ENVIRONMENT
 
-/* ORYVANTHを内包する外側のガラス枠 */
-.an-home-2026__glass:has(.ory-life),
-.an-home-2026__glass:has(#oryvanth-civilization) {
-  position: relative !important;
+   Complete black unification
+   Outer glass / Background image / Inner content
 
+   Other HOME sections remain unchanged.
+========================================================== */
+
+/* 01 — ORYVANTHセクション全体 */
+main.an-home-2026
+> section#oryvanth-civilization {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+/* 02 — 外側のガラス枠全体 */
+main.an-home-2026
+> section#oryvanth-civilization
+> .an-oryvanth-home__glass {
   background: #000000 !important;
   background-color: #000000 !important;
   background-image: none !important;
 
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
-
-  isolation: isolate;
 }
 
-/* 外側ガラス枠の疑似要素による背景装飾を消去 */
-.an-home-2026__glass:has(.ory-life)::before,
-.an-home-2026__glass:has(.ory-life)::after,
-.an-home-2026__glass:has(#oryvanth-civilization)::before,
-.an-home-2026__glass:has(#oryvanth-civilization)::after {
+/* 03 — 既存の背景画像とシェードを非表示 */
+#oryvanth-civilization .ov-reports__scene {
+  display: none !important;
+}
+
+/* 04 — ガラス枠の装飾レイヤーを除去 */
+#oryvanth-civilization
+.an-oryvanth-home__glass::before,
+#oryvanth-civilization
+.an-oryvanth-home__glass::after {
   background: none !important;
   background-image: none !important;
   box-shadow: none !important;
@@ -78234,13 +78247,20 @@ main#home-top
   -webkit-backdrop-filter: none !important;
 }
 
-/* ORYVANTH内部も完全な黒に統一 */
-.ory-life,
-.ory-life__stage,
-.ory-life__detail {
+/* 05 — 内部の背景色を統一 */
+#oryvanth-civilization .ov-reports__stage,
+#oryvanth-civilization .ory-life,
+#oryvanth-civilization .ory-life__stage,
+#oryvanth-civilization .ory-life__detail {
   background-color: #000000 !important;
   background-image: none !important;
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
+
+
+
 
 
 
