@@ -389,11 +389,9 @@ export default function ArcheNovaWorldGallery() {
         >
 
           <p className="an-world-gallery__introduction">
-            <small>
             Five visions of a civilization
             <br />
             yet to be built.
-            </small>
           </p>
 
           <div className="an-world-gallery__header-bottom">
