@@ -77267,3 +77267,403 @@ main#home-top
 
 
 
+/* ==========================================================
+   ARCHENOVA — CIVILIZATION INTELLIGENCE
+   OBSIDIAN GLASS HARMONIZATION
+
+   HOME: .an-home-intel
+   WORKSPACE: .an-ri
+
+   Neutral black / silver / transparent glass
+   No blue tint, no additional outer glass emphasis
+========================================================== */
+
+:root {
+  --an-intel-surface: rgba(255, 255, 255, 0.018);
+  --an-intel-surface-hover: rgba(255, 255, 255, 0.035);
+  --an-intel-border: rgba(255, 255, 255, 0.095);
+  --an-intel-border-soft: rgba(255, 255, 255, 0.065);
+  --an-intel-text: rgba(255, 255, 255, 0.92);
+  --an-intel-muted: rgba(255, 255, 255, 0.60);
+  --an-intel-subtle: rgba(255, 255, 255, 0.43);
+}
+
+/* ==========================================================
+   01 — HOME / REMOVE SECONDARY GLASS FRAME
+========================================================== */
+
+.an-os-frame .an-home-intel {
+  width: 100%;
+  min-width: 0;
+  margin: clamp(22px, 3vw, 38px) 0 0 !important;
+  padding: clamp(16px, 2.5vw, 28px) 0 !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-top: 1px solid var(--an-intel-border-soft) !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+
+  color: var(--an-intel-text) !important;
+}
+
+/* ==========================================================
+   02 — HOME / NEUTRAL TYPOGRAPHY
+========================================================== */
+
+.an-os-frame .an-home-intel,
+.an-os-frame .an-home-intel h3,
+.an-os-frame .an-home-intel h4,
+.an-os-frame .an-home-intel strong {
+  color: var(--an-intel-text) !important;
+}
+
+.an-os-frame .an-home-intel__head,
+.an-os-frame .an-home-intel__record-meta,
+.an-os-frame .an-home-intel__foot,
+.an-os-frame .an-home-intel__metrics span,
+.an-os-frame .an-home-intel__disclaimer,
+.an-os-frame .an-home-intel__note,
+.an-os-frame .an-home-intel__question p {
+  color: var(--an-intel-muted) !important;
+}
+
+.an-os-frame .an-home-intel__head {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--an-intel-border-soft);
+}
+
+/* ==========================================================
+   03 — HOME / METRIC CARDS AND SYSTEMS
+========================================================== */
+
+.an-os-frame .an-home-intel__metrics > div,
+.an-os-frame .an-home-intel__systems > div {
+  background: var(--an-intel-surface) !important;
+  background-image: none !important;
+
+  border: 1px solid var(--an-intel-border) !important;
+  border-radius: 14px !important;
+
+  box-shadow: none !important;
+  color: var(--an-intel-text) !important;
+}
+
+.an-os-frame .an-home-intel__metrics strong,
+.an-os-frame .an-home-intel__systems strong {
+  color: var(--an-intel-text) !important;
+}
+
+.an-os-frame .an-home-intel__systems span {
+  color: var(--an-intel-muted) !important;
+}
+
+/* ==========================================================
+   04 — HOME / RESEARCH RECORDS
+========================================================== */
+
+.an-os-frame .an-home-intel__record {
+  background: var(--an-intel-surface) !important;
+  background-image: none !important;
+
+  border: 1px solid var(--an-intel-border) !important;
+  border-radius: 14px !important;
+
+  box-shadow: none !important;
+  color: var(--an-intel-text) !important;
+
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+@media (hover: hover) {
+  .an-os-frame .an-home-intel__record:hover {
+    background: var(--an-intel-surface-hover) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+  }
+}
+
+.an-os-frame .an-home-intel__question {
+  border-left-color: rgba(255, 255, 255, 0.19) !important;
+}
+
+.an-os-frame .an-home-intel__warning {
+  color: rgba(235, 220, 197, 0.76) !important;
+}
+
+.an-os-frame .an-home-intel__record a,
+.an-os-frame .an-home-intel__foot a {
+  color: rgba(255, 255, 255, 0.86) !important;
+  text-decoration-color: rgba(255, 255, 255, 0.30) !important;
+}
+
+/* ==========================================================
+   05 — HOME / FILTER CONTROLS
+========================================================== */
+
+.an-os-frame .an-home-intel__filter {
+  color: var(--an-intel-muted) !important;
+}
+
+.an-os-frame .an-home-intel__filter select {
+  background: rgba(255, 255, 255, 0.035) !important;
+  background-image: none !important;
+
+  color: var(--an-intel-text) !important;
+  border: 1px solid var(--an-intel-border) !important;
+
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+.an-os-frame .an-home-intel__filter select option {
+  background: #101010;
+  color: #f2f2f2;
+}
+
+/* ==========================================================
+   06 — DEDICATED RESEARCH PAGE / BLACK ATMOSPHERE
+========================================================== */
+
+.an-ri.an-ri {
+  background: #050505 !important;
+  background-image: none !important;
+
+  color: var(--an-intel-text) !important;
+}
+
+.an-ri .an-ri__header {
+  border-top-color: var(--an-intel-border-soft) !important;
+}
+
+.an-ri .an-ri__header h2,
+.an-ri .an-ri__record h3,
+.an-ri .an-ri__question h4 {
+  color: var(--an-intel-text) !important;
+}
+
+.an-ri .an-ri__header h2 em,
+.an-ri .an-ri__eyebrow,
+.an-ri .an-ri__header p,
+.an-ri .an-ri__boundary,
+.an-ri .an-ri__subtle {
+  color: var(--an-intel-muted) !important;
+}
+
+/* ==========================================================
+   07 — RESEARCH PAGE / CARDS
+========================================================== */
+
+.an-ri .an-ri__summary > div,
+.an-ri .an-ri__systems > div,
+.an-ri .an-ri__record {
+  background: var(--an-intel-surface) !important;
+  background-image: none !important;
+
+  border: 1px solid var(--an-intel-border) !important;
+  border-radius: 16px !important;
+
+  box-shadow: none !important;
+}
+
+.an-ri .an-ri__summary strong,
+.an-ri .an-ri__systems strong {
+  color: var(--an-intel-text) !important;
+}
+
+.an-ri .an-ri__summary span,
+.an-ri .an-ri__systems span,
+.an-ri .an-ri__systems small,
+.an-ri .an-ri__record-top,
+.an-ri .an-ri__observation,
+.an-ri .an-ri__status {
+  color: var(--an-intel-muted) !important;
+}
+
+/* ==========================================================
+   08 — RESEARCH PAGE / TAGS AND EVIDENCE
+========================================================== */
+
+.an-ri .an-ri__tags span {
+  background: rgba(255, 255, 255, 0.025) !important;
+  border-color: var(--an-intel-border) !important;
+  color: var(--an-intel-muted) !important;
+}
+
+.an-ri .an-ri__question,
+.an-ri .an-ri__details {
+  border-top-color: var(--an-intel-border-soft) !important;
+}
+
+.an-ri .an-ri__question > span,
+.an-ri .an-ri__question p,
+.an-ri .an-ri__details p,
+.an-ri .an-ri__details summary {
+  color: var(--an-intel-muted) !important;
+}
+
+.an-ri .an-ri__source {
+  color: var(--an-intel-text) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.30) !important;
+}
+
+/* ==========================================================
+   09 — RESEARCH PAGE / FILTERS AND PAGINATION
+========================================================== */
+
+.an-ri .an-ri__toolbar label,
+.an-ri .an-ri__pagination {
+  color: var(--an-intel-muted) !important;
+}
+
+.an-ri .an-ri__toolbar select,
+.an-ri .an-ri__toolbar input,
+.an-ri .an-ri__pagination button {
+  background: rgba(255, 255, 255, 0.035) !important;
+  background-image: none !important;
+
+  border: 1px solid var(--an-intel-border) !important;
+  color: var(--an-intel-text) !important;
+
+  box-shadow: none !important;
+}
+
+.an-ri .an-ri__toolbar select option {
+  background: #101010;
+  color: #f2f2f2;
+}
+
+.an-ri .an-ri__pagination button:not(:disabled):hover {
+  background: var(--an-intel-surface-hover) !important;
+  border-color: rgba(255, 255, 255, 0.20) !important;
+}
+
+.an-ri .an-ri__notice {
+  background: var(--an-intel-surface) !important;
+  border-color: var(--an-intel-border) !important;
+  color: var(--an-intel-muted) !important;
+}
+
+/* ==========================================================
+   10 — ACCESSIBILITY
+========================================================== */
+
+.an-os-frame .an-home-intel a:focus-visible,
+.an-os-frame .an-home-intel select:focus-visible,
+.an-ri a:focus-visible,
+.an-ri button:focus-visible,
+.an-ri select:focus-visible,
+.an-ri input:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.75) !important;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .an-os-frame .an-home-intel__record,
+  .an-ri .an-ri__pagination button {
+    transition: none !important;
+  }
+}
+
+
+
+
+
+
+
+/* ARCHENOVA / CIVILIZATION DEPENDENCY ENGINE â€” OBSIDIAN */
+.an-dependency{--dep-line:rgba(255,255,255,.11);color:rgba(255,255,255,.91);width:100%;min-width:0;margin:30px 0;padding:28px 0;border-top:1px solid var(--dep-line);font-family:inherit}
+.an-dependency *{box-sizing:border-box}
+.an-dependency__eyebrow,.an-dependency__section-label{display:block;font-size:10px;letter-spacing:.14em;color:rgba(255,255,255,.52);font-weight:600}
+.an-dependency__intro h3{margin:12px 0 8px;font-size:clamp(21px,2.5vw,30px);line-height:1.2;font-weight:500;letter-spacing:-.035em;color:#f2f2f2}
+.an-dependency__intro p,.an-dependency__caption,.an-dependency__actions p{color:rgba(255,255,255,.58);font-size:12px;line-height:1.7;margin:0}
+.an-dependency__controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0 16px}
+.an-dependency__controls label{display:flex;flex-direction:column;gap:9px;font-size:11px;color:rgba(255,255,255,.68)}
+.an-dependency__controls select{width:100%;min-width:0;padding:11px 12px;background:#141414;color:#eee;border:1px solid var(--dep-line);border-radius:10px;font:inherit}
+.an-dependency__controls select option{background:#141414;color:#eee}
+.an-dependency__controls input[type=range]{width:100%;accent-color:#bcbcbc;margin:12px 0}
+.an-dependency__metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0 18px}
+.an-dependency__metrics>div{display:flex;flex-direction:column;gap:10px;padding:16px;background:rgba(255,255,255,.018);border:1px solid var(--dep-line);border-radius:13px}
+.an-dependency__metrics span{font-size:11px;color:rgba(255,255,255,.55)}
+.an-dependency__metrics strong{font-size:clamp(18px,2vw,25px);font-weight:500;font-variant-numeric:tabular-nums}
+.an-dependency__layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(210px,1fr);gap:12px}
+.an-dependency__network,.an-dependency__detail,.an-dependency__ranking{min-width:0;padding:18px;border:1px solid var(--dep-line);background:rgba(255,255,255,.012);border-radius:14px}
+.an-dependency__network svg{display:block;width:100%;height:auto;max-height:490px;margin:8px auto}
+.an-dependency__network svg g:focus-visible{outline:none;filter:drop-shadow(0 0 5px #fff)}
+.an-dependency__detail h4{font-size:19px;font-weight:500;color:#f2f2f2;margin:13px 0 5px}
+.an-dependency__detail p{font-size:12px;line-height:1.65;color:rgba(255,255,255,.66);margin:0 0 22px}
+.an-dependency__detail ul{list-style:none;padding:0;margin:10px 0 20px}
+.an-dependency__detail li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06);display:flex;flex-direction:column;gap:4px}
+.an-dependency__detail li strong{font-size:12px;font-weight:500;color:#eee}
+.an-dependency__detail li span{font-size:11px;line-height:1.55;color:rgba(255,255,255,.53)}
+.an-dependency__ranking{margin-top:12px}
+.an-dependency__risk{display:grid;grid-template-columns:110px minmax(0,1fr) 52px;gap:10px;align-items:center;margin-top:12px;font-size:11px;color:rgba(255,255,255,.72)}
+.an-dependency__risk>div{height:5px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden}
+.an-dependency__risk i{display:block;height:100%;background:#b7b7b7;border-radius:9px}
+.an-dependency__risk strong{font-size:11px;text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
+.an-dependency__actions{display:flex;flex-direction:column;align-items:flex-start;gap:13px;margin-top:16px}
+.an-dependency__actions button{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.045);color:#eee;padding:11px 16px;border-radius:999px;cursor:pointer;font-size:12px}
+.an-dependency__actions button:hover{background:rgba(255,255,255,.09)}
+.an-dependency button:focus-visible,.an-dependency select:focus-visible,.an-dependency input:focus-visible{outline:2px solid #ddd;outline-offset:3px}
+@media(max-width:760px){.an-dependency__layout{grid-template-columns:1fr}.an-dependency__controls{grid-template-columns:1fr}.an-dependency__metrics{grid-template-columns:1fr 1fr}.an-dependency__metrics>div:last-child{grid-column:1/-1}.an-dependency__network,.an-dependency__detail,.an-dependency__ranking{padding:12px}.an-dependency__risk{grid-template-columns:88px minmax(0,1fr) 47px;gap:7px}}
+@media(prefers-reduced-motion:reduce){.an-dependency *{scroll-behavior:auto!important;transition:none!important}}
+
+
+
+
+/* ARCHENOVA / CIVILIZATION DEPENDENCY ENGINE â€” OBSIDIAN */
+.an-dependency{--dep-line:rgba(255,255,255,.11);color:rgba(255,255,255,.91);width:100%;min-width:0;margin:30px 0;padding:28px 0;border-top:1px solid var(--dep-line);font-family:inherit}
+.an-dependency *{box-sizing:border-box}
+.an-dependency__eyebrow,.an-dependency__section-label{display:block;font-size:10px;letter-spacing:.14em;color:rgba(255,255,255,.52);font-weight:600}
+.an-dependency__intro h3{margin:12px 0 8px;font-size:clamp(21px,2.5vw,30px);line-height:1.2;font-weight:500;letter-spacing:-.035em;color:#f2f2f2}
+.an-dependency__intro p,.an-dependency__caption,.an-dependency__actions p{color:rgba(255,255,255,.58);font-size:12px;line-height:1.7;margin:0}
+.an-dependency__controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0 16px}
+.an-dependency__controls label{display:flex;flex-direction:column;gap:9px;font-size:11px;color:rgba(255,255,255,.68)}
+.an-dependency__controls select{width:100%;min-width:0;padding:11px 12px;background:#141414;color:#eee;border:1px solid var(--dep-line);border-radius:10px;font:inherit}
+.an-dependency__controls select option{background:#141414;color:#eee}
+.an-dependency__controls input[type=range]{width:100%;accent-color:#bcbcbc;margin:12px 0}
+.an-dependency__metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0 18px}
+.an-dependency__metrics>div{display:flex;flex-direction:column;gap:10px;padding:16px;background:rgba(255,255,255,.018);border:1px solid var(--dep-line);border-radius:13px}
+.an-dependency__metrics span{font-size:11px;color:rgba(255,255,255,.55)}
+.an-dependency__metrics strong{font-size:clamp(18px,2vw,25px);font-weight:500;font-variant-numeric:tabular-nums}
+.an-dependency__layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(210px,1fr);gap:12px}
+.an-dependency__network,.an-dependency__detail,.an-dependency__ranking{min-width:0;padding:18px;border:1px solid var(--dep-line);background:rgba(255,255,255,.012);border-radius:14px}
+.an-dependency__network svg{display:block;width:100%;height:auto;max-height:490px;margin:8px auto}
+.an-dependency__network svg g:focus-visible{outline:none;filter:drop-shadow(0 0 5px #fff)}
+.an-dependency__detail h4{font-size:19px;font-weight:500;color:#f2f2f2;margin:13px 0 5px}
+.an-dependency__detail p{font-size:12px;line-height:1.65;color:rgba(255,255,255,.66);margin:0 0 22px}
+.an-dependency__detail ul{list-style:none;padding:0;margin:10px 0 20px}
+.an-dependency__detail li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06);display:flex;flex-direction:column;gap:4px}
+.an-dependency__detail li strong{font-size:12px;font-weight:500;color:#eee}
+.an-dependency__detail li span{font-size:11px;line-height:1.55;color:rgba(255,255,255,.53)}
+.an-dependency__ranking{margin-top:12px}
+.an-dependency__risk{display:grid;grid-template-columns:110px minmax(0,1fr) 52px;gap:10px;align-items:center;margin-top:12px;font-size:11px;color:rgba(255,255,255,.72)}
+.an-dependency__risk>div{height:5px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden}
+.an-dependency__risk i{display:block;height:100%;background:#b7b7b7;border-radius:9px}
+.an-dependency__risk strong{font-size:11px;text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
+.an-dependency__actions{display:flex;flex-direction:column;align-items:flex-start;gap:13px;margin-top:16px}
+.an-dependency__actions button{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.045);color:#eee;padding:11px 16px;border-radius:999px;cursor:pointer;font-size:12px}
+.an-dependency__actions button:hover{background:rgba(255,255,255,.09)}
+.an-dependency button:focus-visible,.an-dependency select:focus-visible,.an-dependency input:focus-visible{outline:2px solid #ddd;outline-offset:3px}
+@media(max-width:760px){.an-dependency__layout{grid-template-columns:1fr}.an-dependency__controls{grid-template-columns:1fr}.an-dependency__metrics{grid-template-columns:1fr 1fr}.an-dependency__metrics>div:last-child{grid-column:1/-1}.an-dependency__network,.an-dependency__detail,.an-dependency__ranking{padding:12px}.an-dependency__risk{grid-template-columns:88px minmax(0,1fr) 47px;gap:7px}}
+@media(prefers-reduced-motion:reduce){.an-dependency *{scroll-behavior:auto!important;transition:none!important}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

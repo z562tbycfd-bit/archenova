@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CivilizationOSWorkspace from "../components/civilization-os/CivilizationOSWorkspace";
+import CivilizationResearchIntelligence from "../components/civilization-os/CivilizationResearchIntelligence";
 
 export const metadata: Metadata = {
   title: "Civilization OS | ArcheNova",
@@ -7,5 +8,10 @@ export const metadata: Metadata = {
 };
 
 export default function CivilizationOSPage() {
-  return <CivilizationOSWorkspace />;
+  return (
+    <>
+      <CivilizationOSWorkspace />
+      <CivilizationResearchIntelligence />
+    </>
+  );
 }

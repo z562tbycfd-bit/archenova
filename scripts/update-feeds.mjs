@@ -4127,6 +4127,11 @@ writeGeneratedSenate(
   technologyItems
 );
 
+const { buildCivilizationIntelligence } =
+  await import("./build-civilization-intelligence.mjs");
+
+buildCivilizationIntelligence();
+
 console.log(
   "Feed update completed"
 );
