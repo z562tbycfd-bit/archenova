@@ -78202,3 +78202,68 @@ main#home-top
 
 
 
+/* ==========================================================
+   ARCHENOVA CIVILIZATION OS
+   UNIFIED ABSOLUTE BLACK FRAME
+
+   Only #archenova-civilization-os
+========================================================== */
+
+/* セクション全体 */
+main.an-home-2026
+> section#archenova-civilization-os {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+/* HOMEの外側ガラス枠 */
+main.an-home-2026
+> section#archenova-civilization-os
+> .an-home-2026__glass {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* ガラス枠の装飾レイヤー */
+#archenova-civilization-os
+> .an-home-2026__glass::before,
+#archenova-civilization-os
+> .an-home-2026__glass::after {
+  background: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* ロゴと文明機能の背景 */
+#archenova-civilization-os .ory-life,
+#archenova-civilization-os .ory-life__stage,
+#archenova-civilization-os .ory-life__detail {
+  background-color: #000000 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
