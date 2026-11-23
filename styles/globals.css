@@ -78197,8 +78197,13 @@ main#home-top
 
 
 
+/* ORYVANTH — UNIFIED BLACK BACKGROUND */
 
-
+.an-oryvanth-home .ory-life,
+.an-oryvanth-home .ory-life__stage {
+  background: #000000 !important;
+  background-image: none !important;
+}
 
 
 
