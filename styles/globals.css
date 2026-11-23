@@ -78202,3 +78202,98 @@ main#home-top
 
 
 
+
+
+
+
+
+/* ==========================================================
+   ORYVANTH / CIVILIZATION OS
+   ABSOLUTE BLACK FRAME — TARGETED OVERRIDE
+
+   Only:
+   #archenova-civilization-os
+
+   Preserve:
+   - Existing outer frame geometry
+   - Silver emblem and rotation
+   - Civilization functions
+   - Other HOME sections
+========================================================== */
+
+/* 01 — 実際の外側の角丸枠を完全な黒にする */
+main#home-top.an-home-2026.archenova-twin-home
+> section#archenova-civilization-os.an-home-2026__section {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  isolation: isolate !important;
+  overflow: hidden !important;
+}
+
+/* 02 — 内側のガラス領域も完全な黒にする */
+main#home-top.an-home-2026.archenova-twin-home
+> section#archenova-civilization-os.an-home-2026__section
+> .an-home-2026__glass {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* 03 — 内側フレームも完全な黒にする */
+main#home-top
+> section#archenova-civilization-os
+> .an-home-2026__glass
+> .an-os-frame {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* 04 — 親セクションの装飾レイヤーを除去 */
+main#home-top
+> section#archenova-civilization-os::before,
+main#home-top
+> section#archenova-civilization-os::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* 05 — 外側ガラス枠の装飾レイヤーを除去 */
+main#home-top
+> section#archenova-civilization-os
+> .an-home-2026__glass::before,
+main#home-top
+> section#archenova-civilization-os
+> .an-home-2026__glass::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* 06 — ロゴ表示領域も同一の黒に統一 */
+#archenova-civilization-os .ory-life,
+#archenova-civilization-os .ory-life__stage,
+#archenova-civilization-os .ory-life__detail {
+  background-color: #000000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
