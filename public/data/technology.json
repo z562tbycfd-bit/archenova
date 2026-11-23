@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-22T18:18:23.675Z",
+  "updated": "2026-11-23T00:01:51.665Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "65 Years of Human Spaceflight at NASA Johnson ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+      "summary": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard the…",
+      "ts": 1795374805000,
+      "publishedAt": "2026-11-22T19:13:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Insmed Jumps on Report of Takeover Interest by Sanofi, as Analysts Conclude a Deal Would Make Sense",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-insmed-jumps-on-report-of-takeover-interest-by-sanofi-as-analysts-conclude-a-deal-would-make-sense/",
+      "summary": "Bloomberg News cited unnamed sources in reporting that Sanofi (Euronext Paris: SAN and Nasdaq: SNY) was weighing whether to acquire Insmed, in a potential blockbuster deal that the news outlet and others speculated could…",
+      "ts": 1795373578000,
+      "publishedAt": "2026-11-22T18:52:58.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "United Nations News",
       "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
@@ -24,7 +42,7 @@
       "source": "NASA",
       "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
-      "summary": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "summary": "APODScienceAPODAPOD: 2026 November 22 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fas…",
       "ts": 1795323900000,
       "publishedAt": "2026-11-22T05:05:00.000Z",
       "categoryId": "space"
@@ -78,7 +96,7 @@
       "source": "NASA",
       "title": "APOD: 2026 November 21 – Voyager’s Neptune",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
-      "summary": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "summary": "APODScienceAPODAPOD: 2026 November 21 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fas…",
       "ts": 1795237500000,
       "publishedAt": "2026-11-21T05:05:00.000Z",
       "categoryId": "space"
@@ -793,24 +811,6 @@
       "ts": 1795111356000,
       "publishedAt": "2026-11-19T18:02:36.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The sweet spot for constellation size",
-      "url": "https://spacenews.com/the-sweet-spot-for-constellation-size/",
-      "summary": "In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jan Smolders, the chief commercial officer at Space Inventor. During a conversation at Space Tech Expo Europe, they discuss […] The post The sweet spot fo…",
-      "ts": 1795109117000,
-      "publishedAt": "2026-11-19T17:25:17.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lawmakers want U.S. biotech to outcompete China",
-      "url": "https://www.statnews.com/2026/11/19/biotech-news-lawmakers-want-us-biotech-to-outcompete-china/?utm_campaign=rss",
-      "summary": "Lawmakers leading the congressional BIOTech Caucus say Washington needs to act in the sector — and fast:",
-      "ts": 1795107886000,
-      "publishedAt": "2026-11-19T17:04:46.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

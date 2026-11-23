@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-11-22T18:18:20.661Z",
+  "updated": "2026-11-23T00:01:48.439Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Reliance on technology is eroding trust in one another and ability to tell what is even real, expert warns",
+      "url": "https://phys.org/news/2026-11-reliance-technology-eroding-ability-real.html",
+      "summary": "The danger of generative AI is not some distant algorithmic failure; it is the slow erosion of our ability to tell what's real, to trust our institutions and to think for ourselves at all. These are the warnings of Mateu…",
+      "ts": 1795392001000,
+      "publishedAt": "2026-11-23T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Silver briefly forms a rare crystal structure seen in radioactive polonium",
+      "url": "https://phys.org/news/2026-11-silver-briefly-rare-crystal-radioactive.html",
+      "summary": "How atoms are arranged in a material shapes many of its properties. The same carbon atoms, for example, can form diamond and graphite depending on how they are arranged, giving rise to materials with vastly different che…",
+      "ts": 1795377601000,
+      "publishedAt": "2026-11-22T20:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Atmospheric organic nitrogen emerges as a major nutrient source for global oceans",
@@ -783,22 +799,6 @@
       "title": "Controlling Energy Delivery with Bistable Nanostructures",
       "url": "http://link.aps.org/doi/10.1103/llzj-hmxz",
       "summary": "Author(s): Andreas Ehrmann and Carl P. Goodrich A physical mechanism for controlled energy delivery between bistable nanostructures, akin to ATP hydrolysis, is presented, laying the groundwork for the next generation of …",
-      "ts": 1795168800000,
-      "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Photonic-computing error correction through optical encoder and decoder calibrations",
-      "url": "http://link.aps.org/doi/10.1103/71gp-fpwf",
-      "summary": "Author(s): Adam Carstensen and Babak Vosoughi Lahijani Photonic processors have emerged as an attractive platform for fast and energy-efficient matrix-vector multiplication. However, they are susceptible to error due to …",
-      "ts": 1795168800000,
-      "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Encirclement of an exceptional point on lithium niobate toward high-efficiency electro-optic modulation",
-      "url": "http://link.aps.org/doi/10.1103/h992-whrs",
-      "summary": "Author(s): Jin Li, Xuecheng Yan, Kexun Wu, Tao Zhang, Yan Chen, Shuhan Chen, Yu Zhang, Ke Xu, and Jiawei Wang Non-Hermitian degeneracies, specifically exceptional points (EPs), have expanded the landscape of light-matter…",
       "ts": 1795168800000,
       "publishedAt": "2026-11-20T10:00:00.000Z"
     }
