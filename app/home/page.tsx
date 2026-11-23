@@ -370,7 +370,6 @@ function CivilizationSynthesisPortal() {
                   <span>
                     ARCHENOVA CIVILIZATIONAL RESEARCH
                   </span>
-                  <span>01</span>
                 </div>
 
                 <article
