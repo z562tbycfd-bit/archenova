@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-23T00:17:49.088Z",
+  "updated": "2026-11-23T01:47:34.178Z",
   "items": [
     {
       "source": "NASA",
@@ -579,6 +579,15 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
+      "url": "http://www.iaea.org/newscenter/news/iaea-and-global-partnership-of-nuclear-communities-strengthen-cooperation-on-local-engagement",
+      "summary": "",
+      "ts": 1795089600000,
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "United Nations News",
       "title": "Battle to control GPS and radio signals raises civilian safety concerns",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168843",
@@ -631,15 +640,6 @@
       "ts": 1795089600000,
       "publishedAt": "2026-11-19T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
-      "url": "http://www.iaea.org/newscenter/news/iaea-and-global-partnership-of-nuclear-communities-strengthen-cooperation-on-local-engagement",
-      "summary": "",
-      "ts": 1795089600000,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",

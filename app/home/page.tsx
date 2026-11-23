@@ -1115,14 +1115,7 @@ export default function HomePage() {
   aria-label="ArcheNova Civilization OS"
 >
   <div className="an-home-2026__glass">
-   <ArcheNovaCivilizationOSFrame
-  operations={
-    <CivilizationOSPortal embedded />
-  }
-  integrity={
-    <ArcheNovaKnowledgeIntegrity />
-  }
-/>
+   <ArcheNovaCivilizationOSFrame />
   </div>
 </section>
 
