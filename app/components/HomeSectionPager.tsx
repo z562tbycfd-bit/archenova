@@ -107,10 +107,10 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
   },
   {
     id: "archenova-civilization-os",
-    mark: "⌱",
-    title: "CIVILIZATION OS",
+    mark: "✺",
+    title: "ORYVANTH CIVILIZATION",
     subtitle:
-      "Reality-Connected. Correctable by Design.",
+      "Arctecuture Oryvanth Civilization.",
   },
 ] as const;
 

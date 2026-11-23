@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
@@ -13,33 +12,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 type CinematicState = "loading" | "playing" | "failed";
 
-const STORY = [
-  {
-    number: "01",
-    title: "UNITY",
-    subtitle: "Coherent Integration",
-    description: "Connecting diverse systems while preserving their autonomy.",
-  },
-  {
-    number: "02",
-    title: "EXISTENCE",
-    subtitle: "Conditions for Existence",
-    description: "Sustaining the physical and institutional foundations of civilization.",
-  },
-  {
-    number: "03",
-    title: "EVOLUTION · IMMORTALITY",
-    subtitle: "Correction & Continuity",
-    description: "Evolving through discovery and correction; regenerating what must endure.",
-  },
-] as const;
 
 export default function GatePage() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [cinematicState, setCinematicState] = useState<CinematicState>("loading");
   const [reducedMotion, setReducedMotion] = useState(false);
-  const [activeStory, setActiveStory] = useState(0);
-  const [storyPaused, setStoryPaused] = useState(false);
 
   const failCinematic = useCallback(() => {
     setCinematicState("failed");
@@ -72,19 +49,6 @@ export default function GatePage() {
     return () => window.clearTimeout(timeout);
   }, [cinematicState, failCinematic, reducedMotion]);
 
-  useEffect(() => {
-    if (reducedMotion || storyPaused) return;
-    const interval = window.setInterval(() => {
-      setActiveStory((current) => (current + 1) % STORY.length);
-    }, 5200);
-    return () => window.clearInterval(interval);
-  }, [reducedMotion, storyPaused]);
-
-  const selectStory = useCallback((index: number) => {
-    setActiveStory(index);
-    setStoryPaused(true);
-  }, []);
-
   return (
     <main className="an-gate">
       <div className="an-gate__cinema" aria-hidden="true">
@@ -104,14 +68,6 @@ export default function GatePage() {
         <div className="an-gate__cinema-shade" />
         <div className="an-gate__cinema-vignette" />
         <div className="an-gate__cinema-grain" />
-      </div>
-
-      <div className="an-gate__cosmos" aria-hidden="true">
-        <div className="an-gate__cosmos-halo" />
-        <div className="an-gate__orbit an-gate__orbit--one" />
-        <div className="an-gate__orbit an-gate__orbit--two" />
-        <div className="an-gate__orbit an-gate__orbit--three" />
-        <div className="an-gate__cosmos-core"><span /></div>
       </div>
 
       <section className="an-gate__viewport" aria-labelledby="an-gate-title">
@@ -138,35 +94,6 @@ export default function GatePage() {
               </p>
             </div>
 
-            <div className="an-gate__story an-optical-glass" aria-label="Four foundations of Oryvanth Civilization">
-              <div className="an-gate__story-topline">
-                <span>THE STRUCTURE OF ORYVANTH</span>
-                <span>{STORY[activeStory].number} / 03</span>
-              </div>
-              <div className="an-gate__story-body">
-                <div key={activeStory} className="an-gate__story-content">
-                  <span className="an-gate__story-kicker">{STORY[activeStory].title}</span>
-                  <h2>{STORY[activeStory].subtitle}</h2>
-                  <p>{STORY[activeStory].description}</p>
-                </div>
-              </div>
-              <div className="an-gate__story-navigation" aria-label="Choose a civilization chapter">
-                {STORY.map((chapter, index) => (
-                  <button
-                    key={chapter.number}
-                    type="button"
-                    className={`an-gate__story-step${activeStory === index ? " is-active" : ""}`}
-                    onClick={() => selectStory(index)}
-                    aria-label={`Show ${chapter.subtitle}`}
-                    aria-pressed={activeStory === index}
-                  >
-                    <span className="an-gate__story-step-number">{chapter.number}</span>
-                    <span className="an-gate__story-step-track"><span /></span>
-                  </button>
-                ))}
-              </div>
-            </div>
-
             <div className="an-gate__actions">
               <Link href="/home" className="an-gate__enter an-optical-glass">
                 <span>ARCHENOVA SPACE</span>
@@ -174,42 +101,9 @@ export default function GatePage() {
               </Link>
             </div>
           </div>
-
-          <aside className="an-gate__exhibition" aria-label="Oryvanth Civilization conceptual artwork">
-            <figure className="an-gate__artwork an-optical-glass">
-              <div className="an-gate__artwork-top">
-                <span>ARCHENOVA · ORYVANTH CIVILIZATION</span>
-              </div>
-              <div className="an-gate__artwork-window">
-                <Image
-                  src="/images/IMG_2667.jpeg"
-                  alt="Conceptual vision of Oryvanth Civilization: interconnected worlds, living environments, intelligence, energy networks and civilization-scale infrastructure across a cosmic setting."
-                  fill priority
-                  sizes="(max-width: 700px) 92vw, (max-width: 900px) 72vw, (max-width: 1180px) 42vw, 520px"
-                  className="an-gate__artwork-image"
-                />
-                <div className="an-gate__artwork-light" aria-hidden="true" />
-                <div className="an-gate__artwork-edge" aria-hidden="true" />
-              </div>
-              <figcaption className="an-gate__artwork-caption">
-                <div className="an-gate__artwork-index">
-                  <span>ORYVANTH CIVILIZATION</span>
-                  <span>CIVILIZATIONAL ARCHITECTURE</span>
-                </div>
-                <h2>One Civilization. An Evolving Whole.</h2>
-                <p>
-                  A vision of civilization built on coherent integration, sustained existence, evidence-driven evolution, and regenerative continuity—across worlds, systems, and epochs.
-                </p>
-                <div className="an-gate__artwork-principle" aria-label="Unity, Existence, Evolution, Immortality">
-                  <span>UNITY</span><i /><span>EXISTENCE</span><i /><span>EVOLUTION</span><i /><span>IMMORTALITY</span>
-                </div>
-              </figcaption>
-            </figure>
-          </aside>
         </div>
 
         <footer className="an-gate__footer">
-          <span className="an-gate__footer-right">ALL RIGHTS RESERVED</span>
           <span className="an-gate__footer-left">REALITY RETAINS VETO</span>
         </footer>
       </section>

@@ -17,14 +17,11 @@ import ContinuityHomePortal from "../components/home/ContinuityHomePortal";
 import ArcheNovaHomeFooter from "../components/home/ArcheNovaHomeFooter";
 import OryvanthCivilizationPortal from "../components/home/OryvanthCivilizationPortal";
 import CivilizationalRelationsPortal from "../components/home/CivilizationalRelationsPortal";
-import CivilizationOSPortal from "../components/home/CivilizationOSPortal";
 
 import ArcheNovaSpaceFrame from "../components/home/ArcheNovaSpaceFrame";
 import ArcheNovaInquiryFrame from "../components/home/ArcheNovaInquiryFrame";
 
-import ArcheNovaKnowledgeIntegrity from "../components/home/ArcheNovaKnowledgeIntegrity";
 import ArcheNovaCivilizationOSFrame from "../components/home/ArcheNovaCivilizationOSFrame";
-import CivilizationHomeIntelligence from "../components/home/CivilizationHomeIntelligence";
 
 /* ==========================================================
    ARCHENOVA / HOME

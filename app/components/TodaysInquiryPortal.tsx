@@ -99,14 +99,10 @@ export default function TodaysInquiryPortal() {
 
                   <span>
                     <small>
-                  SCIENTIFIC DOCUMENT
+                  CIVILIZATIONAL INQUIRY
                   </small>
                   </span>
                 </div>
-
-                <span className="ti-home__system-mode">
-                  REALITY CONTACT
-                </span>
 
               </div>
 
@@ -123,7 +119,7 @@ export default function TodaysInquiryPortal() {
 
 
               <div className="ti-home__chapter">
-                DAILY SCIENTIFIC INQUIRY
+                DAILY CIVILIZATIONAL INQUIRY
               </div>
 
 
@@ -211,21 +207,6 @@ export default function TodaysInquiryPortal() {
               aria-label="Today's scientific inquiry"
             >
 
-              <div
-                className="ti-home__section-index"
-                aria-hidden="true"
-              >
-                <span>
-                  01
-                </span>
-
-                <i />
-
-                <small>
-                  QUESTION
-                </small>
-              </div>
-
 
               <div className="ti-home__experience-content">
                 <CivilizationDailyExperience />
@@ -244,7 +225,6 @@ export default function TodaysInquiryPortal() {
             >
 
               <div className="ti-home__evidence-index">
-                02
               </div>
 
               <div className="ti-home__evidence-copy">

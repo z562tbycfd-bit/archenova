@@ -72,7 +72,6 @@ export default function ArcheNovaSpaceFrame({ synthesis, relations, world }: Pro
           <div className="an-space-frame__content">{contents[chapter.key]}</div>
         </div>
       ))}
-      <footer className="an-space-frame__footer">PRINCIPLES <span aria-hidden="true">·</span> RELATIONSHIPS <span aria-hidden="true">·</span> WORLD</footer>
     </section>
   );
 }
