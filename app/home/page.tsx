@@ -368,9 +368,9 @@ function CivilizationSynthesisPortal() {
               <div className="an-cs-latest-research">
                 <div className="an-cs-latest-research__heading">
                   <span>
-                    ARCHENOVA / CIVILIZATIONAL RESEARCH
+                    ARCHENOVA CIVILIZATIONAL RESEARCH
                   </span>
-                  <span>RESEARCH 01</span>
+                  <span>01</span>
                 </div>
 
                 <article
