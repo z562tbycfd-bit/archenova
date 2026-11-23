@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-23T18:23:34.193Z",
+  "updated": "2026-11-23T20:57:14.251Z",
   "items": [
     {
       "source": "MIT Technology Review",
@@ -190,6 +190,15 @@
       "ts": 1795426200000,
       "publishedAt": "2026-11-23T09:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside co…",
+      "ts": 1795420800000,
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "IAEA News",
@@ -543,6 +552,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "Contouring mitigates voiding at the lithium/ceramic electrolyte interface on discharging solid-state batteries",
+      "url": "https://www.nature.com/articles/s41560-026-02172-w",
+      "summary": "",
+      "ts": 1795392000000,
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "65 Years of Human Spaceflight at NASA Johnson ",
       "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
@@ -793,24 +811,6 @@
       "ts": 1795180200000,
       "publishedAt": "2026-11-20T13:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genome Writing Inserts Human X-Linked Disease DNA Into Mice",
-      "url": "https://www.genengnews.com/topics/genome-editing/genome-writing-inserts-human-x-linked-disease-dna-into-mice/",
-      "summary": "By swapping 78 kilobases of human DNA into mice, researchers recreated key features of X-linked dystonia-parkinsonism and showed that boosting TAF1 expression may counter some cellular effects. The post Genome Writing In…",
-      "ts": 1795176182000,
-      "publishedAt": "2026-11-20T12:03:02.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168854",
-      "summary": "UN Secretary-General António Guterres is heading to Barbados to co-host a special summit on artificial intelligence (AI) safety on Monday, aimed at closing the gap between accelerating risks and many countries’ capacity …",
-      "ts": 1795176000000,
-      "publishedAt": "2026-11-20T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
