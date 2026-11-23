@@ -78197,60 +78197,50 @@ main#home-top
 
 
 
-/* ORYVANTH — UNIFIED BLACK BACKGROUND */
-
-.an-oryvanth-home .ory-life,
-.an-oryvanth-home .ory-life__stage {
-  background: #000000 !important;
-  background-image: none !important;
-}
 
 
 
-/* ==================================================
-   ORYVANTH — UNIFIED ABSOLUTE BLACK
-   Outer glass / Inner stage / Function panel
-================================================== */
 
-/* ORYVANTHを内包するHOMEの外側ガラス枠 */
+
+/* =====================================================
+   ORYVANTH — ABSOLUTE BLACK CONTAINER
+   Entire HOME glass surface becomes pure black
+===================================================== */
+
+/* ORYVANTHを内包する外側のガラス枠 */
+.an-home-2026__glass:has(.ory-life),
 .an-home-2026__glass:has(#oryvanth-civilization) {
+  position: relative !important;
+
   background: #000000 !important;
   background-color: #000000 !important;
   background-image: none !important;
 
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
+
+  isolation: isolate;
 }
 
-/* 外側ガラス枠の光沢レイヤー */
+/* 外側ガラス枠の疑似要素による背景装飾を消去 */
+.an-home-2026__glass:has(.ory-life)::before,
+.an-home-2026__glass:has(.ory-life)::after,
 .an-home-2026__glass:has(#oryvanth-civilization)::before,
 .an-home-2026__glass:has(#oryvanth-civilization)::after {
-  background: transparent !important;
+  background: none !important;
   background-image: none !important;
+  box-shadow: none !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }
 
-/* ORYVANTH内部 */
-#oryvanth-civilization,
-#oryvanth-civilization .ory-life,
-#oryvanth-civilization .ory-life__stage,
-#oryvanth-civilization .ory-life__detail {
-  background: #000000 !important;
+/* ORYVANTH内部も完全な黒に統一 */
+.ory-life,
+.ory-life__stage,
+.ory-life__detail {
+  background-color: #000000 !important;
   background-image: none !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
