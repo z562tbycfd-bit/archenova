@@ -235,20 +235,7 @@ function CivilizationSynthesisPortal() {
 
           <div className="an-synthesis-home__content an-synthesis-home__premium-layout">
             <header className="an-synthesis-home__identity">
-              <div className="an-synthesis-home__eyebrow">
-                <span className="an-synthesis-home__eyebrow-line" />
-                <span>
-                  CIVILIZATIONAL SYSTEMS
-                </span>
-              </div>
-
-              <h1
-                id="an-synthesis-home-title"
-                className="an-synthesis-home__title"
-              >
-                Civilization
-                <span>Synthesis.</span>
-              </h1>
+              
 
               <p className="an-synthesis-home__statement">
                 Engineering an Independent Scientific Civilization.

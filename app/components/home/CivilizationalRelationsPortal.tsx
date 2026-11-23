@@ -74,9 +74,6 @@ export default function CivilizationalRelationsPortal() {
       <div className="an-home-2026__glass an-relations-home__glass">
         <div className="an-relations-home__layout">
           <header className="an-relations-home__header">
-            <p className="an-relations-home__eyebrow">
-              CIVILIZATIONAL RELATIONS
-            </p>
 
             <h2
               id="an-relations-home-title"

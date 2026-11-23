@@ -388,16 +388,6 @@ export default function ArcheNovaWorldGallery() {
           data-an-world-reveal
         >
 
-
-          <h2
-            id="an-world-gallery-title"
-            className="an-world-gallery__title"
-          >
-            The ArcheNova
-            <br />
-            World
-          </h2>
-
           <p className="an-world-gallery__introduction">
             <small>
             Five visions of a civilization
