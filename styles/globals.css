@@ -78297,3 +78297,283 @@ main#home-top
 
 
 
+/* ==========================================================
+   ARCHENOVA / CIVILIZATION OS
+   CIVILIZATION CONSTRUCTION TRANSITION
+
+   From Architecture to Civilization
+
+   Design:
+   - Absolute black environment
+   - Silver typography
+   - Generous spatial rhythm
+   - No additional glass frame
+   - Responsive composition
+========================================================== */
+
+/* ==========================================================
+   01 — INTRODUCTION SPACE
+========================================================== */
+
+#archenova-civilization-os .an-os-transition {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-width: 0;
+
+  padding:
+    clamp(64px, 9vw, 144px)
+    clamp(12px, 4vw, 48px)
+    0;
+
+  box-sizing: border-box;
+
+  background: #000000;
+  color: #f5f5f5;
+
+  border: 0;
+  box-shadow: none;
+
+  text-align: center;
+}
+
+/* ==========================================================
+   02 — ARCHENOVA IDENTITY
+========================================================== */
+
+#archenova-civilization-os
+.an-os-transition__identity {
+  font-size: 10px;
+  font-weight: 450;
+  letter-spacing: 0.36em;
+  line-height: 1.8;
+
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* ==========================================================
+   03 — VERTICAL CONNECTION
+========================================================== */
+
+#archenova-civilization-os
+.an-os-transition__vertical-line {
+  display: block;
+
+  width: 1px;
+  height: clamp(28px, 4vw, 52px);
+
+  margin:
+    clamp(20px, 3vw, 36px)
+    0;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.42)
+  );
+}
+
+/* ==========================================================
+   04 — SECTION EYEBROW
+========================================================== */
+
+#archenova-civilization-os
+.an-os-transition__eyebrow {
+  margin: 0;
+
+  font-size: clamp(9px, 1vw, 11px);
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  line-height: 1.9;
+
+  color: rgba(255, 255, 255, 0.48);
+
+  text-align: center;
+}
+
+/* ==========================================================
+   05 — MAIN TITLE
+========================================================== */
+
+#archenova-civilization-os
+.an-os-transition__title {
+  margin:
+    clamp(22px, 4vw, 42px)
+    0
+    0;
+
+  font-size: clamp(42px, 7vw, 100px);
+  font-weight: 400;
+  letter-spacing: -0.065em;
+  line-height: 1.06;
+
+  color: #f5f5f5;
+
+  text-align: center;
+}
+
+#archenova-civilization-os
+.an-os-transition__title span {
+  display: block;
+
+  color: rgba(255, 255, 255, 0.68);
+}
+
+/* ==========================================================
+   06 — CIVILIZATION STATEMENT
+========================================================== */
+
+#archenova-civilization-os
+.an-os-transition__description {
+  width: 100%;
+  max-width: 620px;
+
+  margin:
+    clamp(24px, 4vw, 42px)
+    auto
+    0;
+
+  font-size: clamp(14px, 1.5vw, 19px);
+  font-weight: 400;
+  line-height: 1.9;
+  letter-spacing: 0.005em;
+
+  color: rgba(255, 255, 255, 0.56);
+
+  text-align: center;
+  text-wrap: pretty;
+}
+
+/* ==========================================================
+   07 — CONSTRUCTION SEQUENCE
+========================================================== */
+
+#archenova-civilization-os
+.an-os-transition__sequence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px 14px;
+
+  margin-top: clamp(36px, 6vw, 72px);
+
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  line-height: 1.8;
+
+  color: rgba(255, 255, 255, 0.42);
+}
+
+#archenova-civilization-os
+.an-os-transition__sequence
+span[aria-hidden="true"] {
+  color: rgba(255, 255, 255, 0.22);
+}
+
+/* ==========================================================
+   08 — CONNECTION TO ORYVANTH
+========================================================== */
+
+#archenova-civilization-os
+.an-os-transition__connection {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 100%;
+  height: clamp(64px, 9vw, 116px);
+
+  margin-top: clamp(24px, 4vw, 48px);
+}
+
+#archenova-civilization-os
+.an-os-transition__connection span {
+  position: relative;
+
+  display: block;
+
+  width: 1px;
+  height: 100%;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.38),
+    rgba(255, 255, 255, 0.03)
+  );
+}
+
+/* ==========================================================
+   09 — MOBILE RESPONSIVE
+========================================================== */
+
+@media (max-width: 700px) {
+
+  #archenova-civilization-os
+  .an-os-transition {
+    padding: 56px 8px 0;
+  }
+
+  #archenova-civilization-os
+  .an-os-transition__identity {
+    font-size: 9px;
+    letter-spacing: 0.3em;
+  }
+
+  #archenova-civilization-os
+  .an-os-transition__eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.13em;
+  }
+
+  #archenova-civilization-os
+  .an-os-transition__title {
+    font-size: clamp(38px, 10vw, 62px);
+    line-height: 1.08;
+  }
+
+  #archenova-civilization-os
+  .an-os-transition__description {
+    max-width: 340px;
+
+    font-size: 13px;
+    line-height: 1.95;
+  }
+
+  #archenova-civilization-os
+  .an-os-transition__sequence {
+    gap: 8px;
+
+    font-size: 8px;
+    letter-spacing: 0.09em;
+  }
+
+  #archenova-civilization-os
+  .an-os-transition__connection {
+    height: 64px;
+    margin-top: 28px;
+  }
+}
+
+/* ==========================================================
+   END — CIVILIZATION CONSTRUCTION TRANSITION
+========================================================== */
+
+
+
+
+
+
+
+
+
+
