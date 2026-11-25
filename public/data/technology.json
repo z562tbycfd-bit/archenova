@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-11-24T17:09:17.390Z",
+  "updated": "2026-11-25T01:59:30.204Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Why Genomics Won’t Converge on One Technology",
+      "url": "https://www.genengnews.com/topics/bioprocessing/why-genomics-wont-converge-on-one-technology/",
+      "summary": "Genomics relies on both short-read and long-read sequencing, and keeping both is essential. The post Why Genomics Won’t Converge on One Technology appeared first on GEN - Genetic Engineering and Biotechnology News.",
+      "ts": 1795556200000,
+      "publishedAt": "2026-11-24T21:36:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
+      "url": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
+      "summary": "NASA announced Monday that NASA+ content has found its first theatrical home at The Greenbelt Cinema in Greenbelt, Maryland, expanding the agency’s reach across major viewing platforms and bringing space even closer to h…",
+      "ts": 1795554876000,
+      "publishedAt": "2026-11-24T21:14:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+      "url": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
+      "summary": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first t…",
+      "ts": 1795554272000,
+      "publishedAt": "2026-11-24T21:04:32.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Alzheimer’s Study Shows Gal3 Shapes Aβ Remodeling and Microglial Responses",
+      "url": "https://www.genengnews.com/topics/translational-medicine/alzheimers-study-shows-gal3-shapes-a%ce%b2-remodeling-and-microglial-responses/",
+      "summary": "Researchers identified a role for the protein galectin-3 in Alzheimer's disease, with the result of brain tissue analyses and experiments in mice indicating that galectin-3 acts as a modulator of Aβ remodeling, lysosomal…",
+      "ts": 1795553201000,
+      "publishedAt": "2026-11-24T20:46:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: RFK Jr. spills his calendar into public, but leaves much to the imagination ",
+      "url": "https://www.statnews.com/2026/11/24/rfk-jr-calendar-hhs-records-rollout/?utm_campaign=rss",
+      "summary": "A partially redacted calendar showing health secretary Robert F. Kennedy Jr.’s activities was made public on Tuesday.",
+      "ts": 1795548629000,
+      "publishedAt": "2026-11-24T19:30:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Drug Developers Should Treat AI as an Operating Model, From Target to Trial",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/drug-developers-should-treat-ai-as-an-operating-model-from-target-to-trial/",
+      "summary": "When the evidence is ambiguous, programs often advance anyway and stop once human data confirms what earlier results suggested. AI that evaluates preclinical results as a whole, and compares them with outcomes for simila…",
+      "ts": 1795548537000,
+      "publishedAt": "2026-11-24T19:28:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Amateur Astronomer? Be a Kilonova Catcher!",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
+      "summary": "Neutron stars are the ultra-dense, city-sized leftovers of dead stars. When they collide, they can release a brief flash of light called a kilonova. These immensely powerful events forge much of the universe’s gold, plat…",
+      "ts": 1795547992000,
+      "publishedAt": "2026-11-24T19:19:52.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Northrop Grumman CRS-25 Mission Overview ",
+      "url": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/",
+      "summary": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission, or Northrop Grumman CRS-25, will deliver about 11,000 pounds of science and supplies to the International Space Station. The mission will be the third flig…",
+      "ts": 1795547356000,
+      "publishedAt": "2026-11-24T19:09:16.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "With Planned $41B Insmed Acquisition, Sanofi Inks Year’s Biggest M&A Deal",
+      "url": "https://www.genengnews.com/topics/translational-medicine/with-planned-41b-insmed-acquisition-sanofi-inks-years-biggest-ma-deal/",
+      "summary": "In announcing the deal overnight, Sanofi declared that the transaction was intended to broaden its presence in respiratory diseases—a key therapeutic area of Insmed along with immunology and inflammation, neuro, and rare…",
+      "ts": 1795546709000,
+      "publishedAt": "2026-11-24T18:58:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "AGU Hyperwall Schedule",
+      "url": "https://science.nasa.gov/earth/agu-hyperwall-schedule/",
+      "summary": "American Geophysical Union (AGU) 2026 Join NASA in the Exhibit Hall (Booth #525) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. TUESDAY, NOVEMBER 17 10:30 AMHigh Resolution Hydrology Simulations…",
+      "ts": 1795546542000,
+      "publishedAt": "2026-11-24T18:55:42.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "Webb Reveals New Details in Supernova Remnant",
@@ -102,6 +192,24 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "ts": 1795525200000,
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "ts": 1795518000000,
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "Data centers are getting their own natural gas power plants",
       "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
@@ -109,15 +217,6 @@
       "ts": 1795518000000,
       "publishedAt": "2026-11-24T11:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
-      "summary": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care.",
-      "ts": 1795512600000,
-      "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
     },
     {
       "source": "STAT",
@@ -139,12 +238,30 @@
     },
     {
       "source": "STAT",
+      "title": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
+      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
+      "summary": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care.",
+      "ts": 1795512600000,
+      "publishedAt": "2026-11-24T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
       "title": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier",
       "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss",
       "summary": "In Alaska, a small network of hospitals is betting on AI tools to triage stroke patients and get them to the right care, faster.",
       "ts": 1795512600000,
       "publishedAt": "2026-11-24T09:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Euclid breaks own quasar record by 40 million years",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
+      "summary": "The European Space Agency’s Euclid space telescope has discovered the most distant quasar to date: a rare 360 million-sun-mass galactic core seen just 630 million years after the Big Bang. The discovery breaks Euclid’s o…",
+      "ts": 1795507200000,
+      "publishedAt": "2026-11-24T08:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -693,123 +810,6 @@
       "summary": "arXiv:2512.15948v4 Announce Type: replace-cross Abstract: Where do objective functions come from? How do we select what goals to pursue? Human intelligence is adept at synthesizing new objective functions on the fly. How…",
       "ts": 1795496400000,
       "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Clever Hans to Hypotheses: Interpreting EEG Foundational Transformers with LRP",
-      "url": "https://arxiv.org/abs/2605.11885",
-      "summary": "arXiv:2605.11885v2 Announce Type: replace-cross Abstract: Emerging foundation models (FMs) in electroencephalography (EEG) promise a path to scale deep learning in diagnostics and brain-computer interfaces despite data s…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EEG-FM-Audit: A Systematic Evaluation and Analysis Pipeline for EEG Foundation Models",
-      "url": "https://arxiv.org/abs/2605.26910",
-      "summary": "arXiv:2605.26910v2 Announce Type: replace-cross Abstract: EEG foundation models (EEG-FMs) show potential for learning generalized representations from heterogeneous EEG signals. However, existing studies exhibit three cr…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Do VLMs Align Better with Humans than LLMs Do during Natural Reading?",
-      "url": "https://arxiv.org/abs/2605.28818",
-      "summary": "arXiv:2605.28818v3 Announce Type: replace-cross Abstract: Large language models (LLMs) have become increasingly useful computational models of human language processing, yet it remains open whether vision--language learn…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Boosting Brain-to-Image Decoding with TRIBE v2 Data Augmentation",
-      "url": "https://arxiv.org/abs/2606.06345",
-      "summary": "arXiv:2606.06345v2 Announce Type: replace-cross Abstract: Brain decoding is limited by the availability of labeled neural data, and remains challenging in low-data regimes. To address this issue, we investigate whether a…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Contextualizing Biological Language Models across Modalities via Logit-Space Contrastive Alignment",
-      "url": "https://arxiv.org/abs/2606.18703",
-      "summary": "arXiv:2606.18703v2 Announce Type: replace-cross Abstract: Pretrained biological language models encode rich probabilistic structure through native token distributions, but multimodal adaptation typically aligns hidden re…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Towards Accurate Prediction of Mutation-Induced Changes in Protein Structure",
-      "url": "https://arxiv.org/abs/2609.24842",
-      "summary": "arXiv:2609.24842v2 Announce Type: replace-cross Abstract: Proteins can possess numerous mutations relative to their wild-type amino acid sequences with minimal impact to their structure and function. However, in other ca…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "NeuroLens: Learning Latent Embeddings of Neural Semantics from Chronic Recordings",
-      "url": "https://arxiv.org/abs/2610.02864",
-      "summary": "arXiv:2610.02864v2 Announce Type: replace-cross Abstract: Understanding how neural activity represents higher-order cognition and how these representations evolve during learning is a central pursuit in neuroscience. How…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fluctuating resource availability stabilizes coexistence beyond the oscillatory tragedy of the commons",
-      "url": "https://arxiv.org/abs/2611.06156",
-      "summary": "arXiv:2611.06156v3 Announce Type: replace-cross Abstract: Fluctuations in ambient conditions such as temperature and humidity can alter the effective availability of a shared resource at a given abundance. Standard evolu…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Katz Kernel Based Stratification of Breast Cancer Patients",
-      "url": "https://arxiv.org/abs/2611.14540",
-      "summary": "arXiv:2611.14540v2 Announce Type: replace-cross Abstract: The integration of mechanistic signaling networks into clinical research has become a cornerstone of precision oncology. By capturing the complex biochemical inte…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Trajectories Leave Decodable Traces in Neural Network Weight Space and Internal Representations",
-      "url": "https://arxiv.org/abs/2611.24782",
-      "summary": "arXiv:2611.24782v2 Announce Type: replace-cross Abstract: Neural networks trained on the same task develop related weight-space structures, yet remain distinguishable after learning. Do these differences merely reflect a…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Old Matches, New Frames: Schedule-Gated Stereo Memory from Human Vision to Machine Matching",
-      "url": "https://arxiv.org/abs/2611.24848",
-      "summary": "arXiv:2611.24848v2 Announce Type: replace-cross Abstract: Human vision and video stereo networks both reuse disparity evidence across time, yet a refresh of the input can invalidate a match formed milliseconds earlier. W…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hierarchical Hybrid-Coordinate Flow Matching for Accurate and Physically Plausible Apo-to-Holo Protein Generation",
-      "url": "https://arxiv.org/abs/2611.27162",
-      "summary": "arXiv:2611.27162v2 Announce Type: replace-cross Abstract: Predicting holo-like protein conformations from apo structures is essential in structure-based drug design. Most existing apo-to-holo models operate in Cartesian …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare estimates $9.2 billion in savings from third round of negotiated drug prices",
-      "url": "https://www.statnews.com/2026/11/23/medicare-drug-price-negotiations-announcement-third-round/?utm_campaign=rss",
-      "summary": "The Trump administration said that the federal government will save $9.2 billion on drugs purchased through Medicare next year as a result of price negotiations.",
-      "ts": 1795479588000,
-      "publishedAt": "2026-11-24T00:19:48.000Z",
       "categoryId": "bio"
     }
   ],
