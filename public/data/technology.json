@@ -1,7 +1,178 @@
 {
   "ok": true,
-  "updated": "2026-11-25T11:08:12.472Z",
+  "updated": "2026-11-25T21:17:47.631Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Cogent’s drug for rare stomach cancer",
+      "url": "https://www.statnews.com/2026/11/25/biotech-news-fda-approves-cogents-drug-for-rare-stomach-cancer/?utm_campaign=rss",
+      "summary": "Cogent Biosciences won FDA clearance for its stomach cancer treatment, in combination with a much older drug from Pfizer called Sutent.",
+      "ts": 1795639455000,
+      "publishedAt": "2026-11-25T20:44:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
+      "url": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+      "summary": "How NASA works with small businesses is evolving, and as a result, the agency is strengthening the domestic aerospace industrial base to support future exploration missions through its recently renamed Small Business Sup…",
+      "ts": 1795633616000,
+      "publishedAt": "2026-11-25T19:06:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Engineered Medical Gloves Cut Bacterial Transmission by Up to 99%",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/engineered-medical-gloves-cut-bacterial-transmission-by-up-to-99/",
+      "summary": "Researchers developed innovative medical gloves with microscopic fluid-repelling surfaces that reduce bacterial attachment and transmission by up to 99%, potentially helping prevent hospital-acquired infections. The post…",
+      "ts": 1795633247000,
+      "publishedAt": "2026-11-25T19:00:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Eyes Crop Candidates for Future Menus",
+      "url": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+      "summary": "As NASA prepares for future missions to the Moon and Mars, researchers are studying crops that could provide astronauts with fresh food, nutrition, and variety far from Earth. Such crop variety can help with menus in dee…",
+      "ts": 1795629222000,
+      "publishedAt": "2026-11-25T17:53:42.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How data centers are driving a US natural-gas boom",
+      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s te…",
+      "ts": 1795626000000,
+      "publishedAt": "2026-11-25T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "CGT Manufacturing Success in Asia Requires Standardization and Flexibility",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cgt-manufacturing-success-in-asia-requires-standardization-and-flexibility/",
+      "summary": "Asia's CGT therapy pipeline is expanding rapidly, but the region's fragmented regulatory, manufacturing, and supply-chain landscape creates a distinctive challenge: how to build processes that are standardized enough to …",
+      "ts": 1795625963000,
+      "publishedAt": "2026-11-25T16:59:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+      "url": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
+      "summary": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the ag…",
+      "ts": 1795625249000,
+      "publishedAt": "2026-11-25T16:47:29.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Coronary Artery Disease Genetics Map Links Risk Variants to Genes and Cell Types",
+      "url": "https://www.genengnews.com/topics/omics/coronary-artery-disease-genetics-map-links-risk-variants-to-genes-and-cell-types/",
+      "summary": "Researchers create a multiomic map of human coronary artery disease that links disease-associated genetic variants with candidate disease-relevant cell types and target genes. The post Coronary Artery Disease Genetics Ma…",
+      "ts": 1795623746000,
+      "publishedAt": "2026-11-25T16:22:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Eye of the Sahara",
+      "url": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+      "summary": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneo…",
+      "ts": 1795623664000,
+      "publishedAt": "2026-11-25T16:21:04.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+      "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this …",
+      "ts": 1795618614000,
+      "publishedAt": "2026-11-25T14:56:54.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: We’re reading about BioNTech founders’ oncology startup, a long-acting GSK drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/25/biontech-founders-oncology-startup-gsk-egpa-drug-exdensur/?utm_campaign=rss",
+      "summary": "The cofounders of BioNTech are in talks to raise about $1 billion for a new oncology company",
+      "ts": 1795614958000,
+      "publishedAt": "2026-11-25T13:55:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Forum in Singapore Explores Southeast Asia’s Nuclear Energy Prospects",
+      "url": "http://www.iaea.org/newscenter/news/iaea-forum-in-singapore-explores-southeast-asias-nuclear-energy-prospects",
+      "summary": "Policymakers and industry leaders discussed steps to introduce nuclear power in Southeast Asia at an IAEA forum at Singapore International Energy Week. As countries across Southeast Asia weigh nuclear power to meet growi…",
+      "ts": 1795613127000,
+      "publishedAt": "2026-11-25T13:25:27.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI swamping open records, and firefighting for permafrost",
+      "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ inter…",
+      "ts": 1795612200000,
+      "publishedAt": "2026-11-25T13:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "RFK Jr. weighs in on plan to detonate toxic material in Iowa",
+      "url": "https://www.statnews.com/2026/11/25/health-news-rfk-jr-weighs-in-on-plan-to-detonate-toxic-material-in-iowa/?utm_campaign=rss",
+      "summary": "This morning, the Army plans to detonate a cache of “dangerously degraded” toxic material in Iowa, with experts warning of dangerous health consequences:",
+      "ts": 1795611836000,
+      "publishedAt": "2026-11-25T13:03:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Governments and experts gather in Nairobi to tackle the global housing crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168873",
+      "summary": "A home is a place where people can feel safe. Yet billions worldwide do not have a proper place to live. As the global housing crisis deepens, government representatives and housing experts are gathering at the United Na…",
+      "ts": 1795608000000,
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza’s widows raise their families alone: ‘We do our duties twice over, but where are our rights?’",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168875",
+      "summary": "For women in Gaza who lost their husbands in the war, providing for a family no longer means just putting food on the table. Now it also means finding shelter, hauling water and keeping children in school – all from a te…",
+      "ts": 1795608000000,
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gisèle Pelicot’s son: ‘Not being violent is the bare minimum’",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168876",
+      "summary": "Two years after the Mazan rape trial, David Pelicot has decided to put his name to the fight against sexual violence – and to confront what he calls the silence of men.",
+      "ts": 1795608000000,
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Somalia: Famine risk decreases in Baidoa – but millions still going hungry",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168874",
+      "summary": "Millions of people in Somalia still face severe food shortages and malnutrition despite the reduced risk of famine in Baidoa, global food security experts warned on Wednesday.",
+      "ts": 1795608000000,
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168872",
+      "summary": "The UN’s top aid official, Tom Fletcher, arrived in Yemen on Wednesday warning that the war there is preventing families from accessing the food and medicine they need to survive, particularly those in Taiz City.",
+      "ts": 1795608000000,
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "MIT Technology Review",
       "title": "AI is straining America’s open records systems",
@@ -28,6 +199,15 @@
       "ts": 1795599000000,
       "publishedAt": "2026-11-25T09:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Publications: Nuclear Knowledge at Your Fingertips",
+      "url": "http://www.iaea.org/newscenter/news/iaea-publications-nuclear-knowledge-at-your-fingertips",
+      "summary": "",
+      "ts": 1795593600000,
+      "publishedAt": "2026-11-25T08:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -381,10 +561,37 @@
       "categoryId": "bio"
     },
     {
+      "source": "Cell",
+      "title": "A pincer attack to take down cancer",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01323-1?rss=yes",
+      "summary": "In this issue of Cell, Qiang et al. explore a new combination therapy that attacks pancreatic cancer from two angles. The therapy uses a KRAS inhibitor to target cancer cells, along with an AI-designed interleukin-21 mim…",
+      "ts": 1795564800000,
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Revisiting the chemical alphabet of nucleic acids",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01335-8?rss=yes",
+      "summary": "Nearly two decades after the discovery of natural phosphorothioates in bacterial DNA, Maman et al. now demonstrate their existence in archaeal RNA. By identifying the responsible writer enzymes and revealing a role in tR…",
+      "ts": 1795564800000,
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "You can’t always get where you want: Selective protein entry into the brain",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01127-X?rss=yes",
+      "summary": "Brain health depends on the blood-brain barrier blocking neurotoxins while allowing essential proteins to pass, but which proteins cross this barrier remains poorly understood. In this issue of Cell, Zhou and colleagues …",
+      "ts": 1795564800000,
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Why Genomics Won’t Converge on One Technology",
       "url": "https://www.genengnews.com/topics/bioprocessing/why-genomics-wont-converge-on-one-technology/",
-      "summary": "Genomics relies on both short-read and long-read sequencing, and keeping both is essential. The post Why Genomics Won’t Converge on One Technology appeared first on GEN - Genetic Engineering and Biotechnology News.",
+      "summary": "In this guest commentary Barrett Bready, MD, CEO of Nabsys provides insight on understanding why and when genomics relies on short-read and long-read sequencing and why keeping both are essential. The post Why Genomics W…",
       "ts": 1795556200000,
       "publishedAt": "2026-11-24T21:36:40.000Z",
       "categoryId": "bio"
@@ -604,213 +811,6 @@
       "ts": 1795521600000,
       "publishedAt": "2026-11-24T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Can conflict resolution keep pace as AI and drones reshape war?",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168866",
-      "summary": "When the UN was founded in 1945, computers, the internet and satellites were the stuff of science fiction. Today, artificial intelligence (AI) is already assisting in targeting, drones are reshaping warfare and disinform…",
-      "ts": 1795521600000,
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo: Concern for trapped Ebola workers as violence against women and girls deepens",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168865",
-      "summary": "Staff from the World Health Organization (WHO) and Ebola responders remain trapped in a hospital in Ituri province, Democratic Republic of the Congo (DRC), as heavy fighting continues in the vicinity, the UN agency said …",
-      "ts": 1795521600000,
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Colombia: Guterres urges renewed commitment to landmark peace deal",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168864",
-      "summary": "UN Secretary-General António Guterres has commended Colombia for progress achieved in the decade since a landmark accord known as the Final Peace Agreement ended more than 50 years of insurgency but stressed the need to …",
-      "ts": 1795521600000,
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Five women killed every hour by partners or family members",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168863",
-      "summary": "Some 47,000 women and girls were killed by intimate partners or family members in 2025 – five every hour – according to new UN figures published on Tuesday.",
-      "ts": 1795521600000,
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Searching for distant planets with Astra",
-      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
-      "ts": 1795518000000,
-      "publishedAt": "2026-11-24T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Data centers are getting their own natural gas power plants",
-      "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
-      "summary": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to …",
-      "ts": 1795518000000,
-      "publishedAt": "2026-11-24T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Why medical students should keep going to class",
-      "url": "https://www.statnews.com/2026/11/24/medical-school-class-attendance-why-i-keep-going/?utm_campaign=rss",
-      "summary": "“Attending lectures in person has become … the most powerful way I take care of my mental health,” medical student Brian Zhang writes.",
-      "ts": 1795512600000,
-      "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Genomic testing is too fragmented. Instead, we should test once and evaluate often",
-      "url": "https://www.statnews.com/2026/11/24/genomic-testing-sequenced-once-tested-often/?utm_campaign=rss",
-      "summary": "“It’s time to consolidate testing by sequencing genomes once and reevaluating them when needed,” a genetic counselor writes.",
-      "ts": 1795512600000,
-      "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
-      "summary": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care.",
-      "ts": 1795512600000,
-      "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier",
-      "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss",
-      "summary": "In Alaska, a small network of hospitals is betting on AI tools to triage stroke patients and get them to the right care, faster.",
-      "ts": 1795512600000,
-      "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Euclid breaks own quasar record by 40 million years",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
-      "summary": "The European Space Agency’s Euclid space telescope has discovered the most distant quasar to date: a rare 360 million-sun-mass galactic core seen just 630 million years after the Big Bang. The discovery breaks Euclid’s o…",
-      "ts": 1795507200000,
-      "publishedAt": "2026-11-24T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sanofi to buy Insmed for $41B, picking up two lung disease medicines",
-      "url": "https://www.statnews.com/2026/11/24/sanofi-insmed-acquisition-dupixent-rare-disease-inflammation/?utm_campaign=rss",
-      "summary": "Sanofi is buying U.S. biotech Insmed for $41 billion, a megadeal that will give the French pharma company two new approved medicines.",
-      "ts": 1795506884000,
-      "publishedAt": "2026-11-24T07:54:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 November 24 – Galaxies Battle in the NGC 7771 Group",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-24-galaxies-battle-in-the-ngc-7771-group/",
-      "summary": "APOD Science APOD APOD: 2026 November 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
-      "ts": 1795496700000,
-      "publishedAt": "2026-11-24T05:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Eruption Extends Iwo Jima’s Beach",
-      "url": "https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/",
-      "summary": "A volcanic eruption just off the southeast shore of the Pacific island has reshaped the coast, but it’s unclear how long the new land will survive.",
-      "ts": 1795496460000,
-      "publishedAt": "2026-11-24T05:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "When Can an AI Agent Serve as a Model of Human Psychopathology?",
-      "url": "https://arxiv.org/abs/2611.28405",
-      "summary": "arXiv:2611.28405v1 Announce Type: new Abstract: Language models and AI agents are increasingly described in psychiatric terms, such as anxious, depressed, addicted or helpless. A recent study even proposed language model…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Simulating Episodic Like Memory in Octopus: Breaking the Rules",
-      "url": "https://arxiv.org/abs/2611.28409",
-      "summary": "arXiv:2611.28409v1 Announce Type: new Abstract: Episodic memory, which involves the recollection of past events, has been observed in several species including the invertebrate cuttlefish. In a subsequent experiment, epi…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A generative framework for unified representations bridging electrophysiological and haemodynamic brain activity",
-      "url": "https://arxiv.org/abs/2611.28507",
-      "summary": "arXiv:2611.28507v1 Announce Type: new Abstract: Electrophysiological and haemodynamic recordings resolve brain activity at complementary temporal and spatial scales, yet paired acquisition remains difficult to scale. We …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "General-purpose language models are neurosymbolic reasoners able to annotate proteins from sequence",
-      "url": "https://arxiv.org/abs/2611.28529",
-      "summary": "arXiv:2611.28529v1 Announce Type: new Abstract: Determining the function of genes across the tree of life is one of the major challenges in biology. Generative AI approaches to this problem generally fall into two catego…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "FastCREST: GPU-Accelerated CREST Conformer Searches with Consistent Energies and Gradients",
-      "url": "https://arxiv.org/abs/2611.28599",
-      "summary": "arXiv:2611.28599v1 Announce Type: new Abstract: CREST conformer searches with GFN2-xTB take days for large, flexible molecules: one search of a 274-atom gallium(III)--peptide complex with CREST 3.0.2 took 321.5~h on 32 C…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From local competition to bump attractors:how excitation width sets capacity, interference and updating in recurrent models of visual working memory",
-      "url": "https://arxiv.org/abs/2611.28601",
-      "summary": "arXiv:2611.28601v1 Announce Type: new Abstract: On-centre off-surround (OCOS) networks and bump attractors, the two main recurrent models of visual working memory, differ chiefly in how far recurrent excitation spreads. …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "History-bearing thalamocortical signals reconstruct and redirect later decisions in a circuit model",
-      "url": "https://arxiv.org/abs/2611.28799",
-      "summary": "arXiv:2611.28799v1 Announce Type: new Abstract: Experience can guide an ambiguous choice or bias a choice despite strong current evidence. We asked how a thalamocortical circuit carries historical content forward and reg…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Topological Neural Collapse",
-      "url": "https://arxiv.org/abs/2611.28894",
-      "summary": "arXiv:2611.28894v1 Announce Type: new Abstract: Neural collapse (NC) predicts that, late in training, last-layer class features concentrate at their means and the means form a simplex equiangular tight frame (ETF). We as…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Linking vascular pathways to organ anatomical structures in the Human Reference Atlas",
-      "url": "https://arxiv.org/abs/2611.29215",
-      "summary": "arXiv:2611.29215v1 Announce Type: new Abstract: As part of the Human Reference Atlas (HRA) initiative, which brings together more than 25 international consortia to map the entire healthy adult body, we developed a multi…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
