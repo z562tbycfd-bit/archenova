@@ -1,7 +1,385 @@
 {
   "ok": true,
-  "updated": "2026-11-25T01:59:30.204Z",
+  "updated": "2026-11-25T11:08:12.472Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "AI is straining America’s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During mor…",
+      "ts": 1795600800000,
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach",
+      "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+      "summary": "“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. Kinch.",
+      "ts": 1795599000000,
+      "publishedAt": "2026-11-25T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment",
+      "url": "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/?utm_campaign=rss",
+      "summary": "New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. biomedical workforce.",
+      "ts": 1795599000000,
+      "publishedAt": "2026-11-25T09:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
+      "summary": "APOD Science APOD APOD: 2026 November 25 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1795583100000,
+      "publishedAt": "2026-11-25T05:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Georgia’s Pecan Belt",
+      "url": "https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt/",
+      "summary": "Since an early-1900s planting boom, orchards along the Flint River in southwest Georgia have become a center of U.S. pecan production.",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Proxy Metrics Can Hide Downstream Collapse: A Case Study on Compressed Cellular Segmentation",
+      "url": "https://arxiv.org/abs/2611.31243",
+      "summary": "arXiv:2611.31243v1 Announce Type: new Abstract: Post-training compression of vision models is commonly screened using output-level proxies such as normalized RMSE (NRMSE), cosine similarity, and flow angular error. We ev…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Ranking honeybee breeder colonies: a probabilistic method using vine copulas to consider multiple criteria",
+      "url": "https://arxiv.org/abs/2611.31322",
+      "summary": "arXiv:2611.31322v1 Announce Type: new Abstract: Ranking honeybee colonies according to multiple performance criteria is central to selection in bee breeding, but deterministic scores provide limited information about how…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Turbulent Epidemics: Scale-dependent Fluctuations as a Probe of Population Heterogeneity",
+      "url": "https://arxiv.org/abs/2611.31334",
+      "summary": "arXiv:2611.31334v1 Announce Type: new Abstract: Heterogeneous dynamics, including phenomena such as superspreading and clustering, is a hallmark of many infectious diseases. A key challenge lies in identifying observable…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A multimodal foundation model for tissue proteomics and morphology in cancer",
+      "url": "https://arxiv.org/abs/2611.31451",
+      "summary": "arXiv:2611.31451v1 Announce Type: new Abstract: Cancer diagnosis, prognosis, and treatment decisions increasingly rely on integrating tissue morphology with specific molecular readouts of the tumor and its microenvironme…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Tempering and few-shot calibration of pathology foundation models improve digital biomarker reproducibility across slide scanners",
+      "url": "https://arxiv.org/abs/2611.31536",
+      "summary": "arXiv:2611.31536v1 Announce Type: new Abstract: Pathology foundation models underpin a growing number of histology-based cancer biomarkers, but sensitivity to slide scanner-specific image signatures degrades cross-center…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Benchmarking Protein Structure Tokenizers as Generation Targets for Language Models",
+      "url": "https://arxiv.org/abs/2611.32168",
+      "summary": "arXiv:2611.32168v1 Announce Type: new Abstract: Discrete structure tokenizers are the standard way to give a language model access to protein three-dimensional structure, yet they are selected on how accurately they can …",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Description-Derived Drug-Drug Interaction Benchmark Reveals Split-Dependent Molecular Representation Rankings",
+      "url": "https://arxiv.org/abs/2611.32371",
+      "summary": "arXiv:2611.32371v1 Announce Type: new Abstract: Drug-drug interaction (DDI) prediction is clinically important and poses a distinct challenge for molecular representation learning. Unlike single-molecule property predict…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cancer multi-omics joint dimension reduction leads to reliable and interpretable survival predictions",
+      "url": "https://arxiv.org/abs/2611.32382",
+      "summary": "arXiv:2611.32382v1 Announce Type: new Abstract: Multi-omics studies are becoming more and more frequent, and are especially suited to decrypt the complexity of dysregulation happening in cancer. In this context, improvin…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Normative and neural network models of multisensory integration",
+      "url": "https://arxiv.org/abs/2611.32829",
+      "summary": "arXiv:2611.32829v1 Announce Type: new Abstract: Animals continuously detect scents, sights and sounds, which their brains combine into diverse multisensory streams. Multisensory integration accelerates learning, increase…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cell and nuclear shapes predict confined motility",
+      "url": "https://arxiv.org/abs/2611.32990",
+      "summary": "arXiv:2611.32990v1 Announce Type: new Abstract: Cancer metastasis relies on an enhanced property of cells to migrate efficiently even through constrictions smaller than their nucleus. Both cell and nuclear morphology may…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "From dispersal to patrol: the extracellular matrix shapes an annealing-like search by Drosophila embryonic macrophages",
+      "url": "https://arxiv.org/abs/2611.33097",
+      "summary": "arXiv:2611.33097v1 Announce Type: new Abstract: Hemocytes, the macrophages of Drosophila, disperse through the embryo and then patrol its tissues, moving along basement membranes that they help to build. Because the pers…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Evolutionary constraints on protein fold diversity",
+      "url": "https://arxiv.org/abs/2611.33104",
+      "summary": "arXiv:2611.33104v1 Announce Type: new Abstract: Arrangements of secondary structures in proteins yield a wide variety of possible topologies, yet the protein folds observed in nature are limited in their diversity. Is th…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Direct Conditioning of Audio Diffusion Transformers on fMRI Reveals Cortical Contributions to Sound Reconstruction",
+      "url": "https://arxiv.org/abs/2611.12603",
+      "summary": "arXiv:2611.12603v1 Announce Type: cross Abstract: Reconstructing audio from brain activity remains challenging. Existing brain-to-audio pipelines typically map neural responses to predefined stimulus representations befo…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Self-Assembling Brain: Emergent Routing and Its Open Challenges",
+      "url": "https://arxiv.org/abs/2611.31629",
+      "summary": "arXiv:2611.31629v1 Announce Type: cross Abstract: Biologically inspired alternatives to backpropagation, such as feedback alignment, relax the requirement for exact synaptic weight symmetry but still presuppose a fixed, …",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The cyborg fly: reflexes survive engineered actuators, coordination needs stand-ins",
+      "url": "https://arxiv.org/abs/2611.31644",
+      "summary": "arXiv:2611.31644v1 Announce Type: cross Abstract: Two wiring diagrams now cover the whole central nervous system of an adult fruit fly: one female, one male. Can such a diagram, run as a network of spiking neurons, drive…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Synchronized Memory-Dependent Intracellular Oscillations for a Cell-Bulk ODE-PDE Model in $\\mathbb{R}^3$",
+      "url": "https://arxiv.org/abs/2611.32077",
+      "summary": "arXiv:2611.32077v1 Announce Type: cross Abstract: We develop a hybrid asymptotic-numerical theory for a cell-bulk ODE-PDE model in $\\mathbb{R}^3$ to analyze the long-range diffusive coupling of spatially localized, dynam…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Network topology imposes spectral constraints on collective nonequilibrium responses",
+      "url": "https://arxiv.org/abs/2611.32130",
+      "summary": "arXiv:2611.32130v1 Announce Type: cross Abstract: Collective nonequilibrium dynamics in Langevin systems depend on both network topology and stochastic driving. Understanding the role of topology in responses to stochast…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Longitudinal Characterization of Personalized Hydration Dynamics Using a Facial-Video Digital Hydration Biomarker",
+      "url": "https://arxiv.org/abs/2611.32326",
+      "summary": "arXiv:2611.32326v1 Announce Type: cross Abstract: Background. Hydration is often assessed at a single time point despite continuous changes in body water. A facial-video biomarker has tracked hydration-state transitions,…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Beyond Hard Tokens: Predictive Memory for Multimodal Protein Generation",
+      "url": "https://arxiv.org/abs/2611.32347",
+      "summary": "arXiv:2611.32347v1 Announce Type: cross Abstract: Multimodal protein language models unify sequence and discrete structural tokens via iterative masked decoding, offering a promising paradigm for joint protein design. Ho…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Lattice models of chiral random motion: A short review",
+      "url": "https://arxiv.org/abs/2611.32743",
+      "summary": "arXiv:2611.32743v1 Announce Type: cross Abstract: Chirality, a systematic rotational bias, is ubiquitous in many random motion patterns, from bacteria cells, that swim in circles near surfaces and spinning colloids, to c…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Accuracy of Noise Ceiling Estimators for Brain Scores",
+      "url": "https://arxiv.org/abs/2611.32792",
+      "summary": "arXiv:2611.32792v1 Announce Type: cross Abstract: The internal activations of modern machine learning models align surprisingly well with the activities recorded in real brains. In the last five years, the alignment betw…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Positive recurrence of weakly reversible stochastic reaction networks with mass-action kinetics",
+      "url": "https://arxiv.org/abs/2611.32819",
+      "summary": "arXiv:2611.32819v1 Announce Type: cross Abstract: We study finite stochastic reaction networks with mass-action kinetics. A network is weakly reversible if every reaction lies on a directed cycle of complexes. We prove t…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "EEG-World: Context-Conditioned Dynamics of the Watching Brain",
+      "url": "https://arxiv.org/abs/2611.32825",
+      "summary": "arXiv:2611.32825v1 Announce Type: cross Abstract: Brain encoding models predict neural responses from audiovisual input, but typically overlook how ongoing brain activity shapes an individual's response. We introduce EEG…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "PHM-ensemble: Scalable and Stable Probabilistic Multiresolution Clustering via Ensemble Density Estimation",
+      "url": "https://arxiv.org/abs/2611.32945",
+      "summary": "arXiv:2611.32945v1 Announce Type: cross Abstract: Clustering is a foundational tool for exploratory data analysis across the sciences. We argue that clustering methods should be evaluated along four dimensions: fidelity …",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Bayesian Learning of Spatially Heterogeneous Causal Structure in Spatial Transcriptomics",
+      "url": "https://arxiv.org/abs/2611.33094",
+      "summary": "arXiv:2611.33094v1 Announce Type: cross Abstract: Spatial transcriptomics preserves the location of each expression profile, making it possible to study how gene regulatory networks differ within a tissue. Across regions…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Identifiability Limits of Physics-Informed Inference for Spatial Stochastic Dynamics from Static Snapshots",
+      "url": "https://arxiv.org/abs/2607.01749",
+      "summary": "arXiv:2607.01749v2 Announce Type: replace Abstract: Despite increasing scale and resolution, many biological measurements provide only a static snapshot of molecular positions rather than the dynamics that produced them.…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The physical foundation beneath protein generative modeling",
+      "url": "https://arxiv.org/abs/2609.04465",
+      "summary": "arXiv:2609.04465v2 Announce Type: replace Abstract: Physical equations in protein modeling appear to have been replaced by generative models trained directly on structure data. By learning a mapping from noise to data, s…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Visualizing the geometry of labeled high-dimensional data with spheres",
+      "url": "https://arxiv.org/abs/2107.00731",
+      "summary": "arXiv:2107.00731v2 Announce Type: replace-cross Abstract: Data visualizations can summarize high-dimensional distributions in two or three dimensions. Dimensionality reduction entails a loss of information, and what is p…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Causal pieces: analysing and improving spiking neural networks piece by piece",
+      "url": "https://arxiv.org/abs/2504.14015",
+      "summary": "arXiv:2504.14015v3 Announce Type: replace-cross Abstract: We introduce \"causal pieces\", a novel concept for analysing spiking neural networks (SNNs), inspired by \"linear pieces\" used to study expressivity and trainabilit…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Mathematical Characterization of Neural Activation Induced by Temporal Interference Stimulation",
+      "url": "https://arxiv.org/abs/2605.16761",
+      "summary": "arXiv:2605.16761v2 Announce Type: replace-cross Abstract: Temporal Interference Stimulation (TIS) is a non-invasive neuromodulation technique in which two high-frequency sinusoidal currents with slightly different freque…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Oracle-Budgeted Protein Design with Stochastic Search and Iterative Imitation",
+      "url": "https://arxiv.org/abs/2605.26690",
+      "summary": "arXiv:2605.26690v2 Announce Type: replace-cross Abstract: Optimizing protein sequences under tight oracle budgets requires methods that can explore a vast combinatorial mutational search space. These methods must also re…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Variable-Length Generative Protein Design via Generalized Poisson Flow",
+      "url": "https://arxiv.org/abs/2607.09039",
+      "summary": "arXiv:2607.09039v2 Announce Type: replace-cross Abstract: The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Cur…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
+      "url": "https://arxiv.org/abs/2608.22849",
+      "summary": "arXiv:2608.22849v3 Announce Type: replace-cross Abstract: Full-length RNAs, particularly messenger RNAs, often exceed the context lengths used to pretrain existing RNA foundation models, limiting complete-transcript mode…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Learning Options for Compositional Motor Control with Adapter Banks",
+      "url": "https://arxiv.org/abs/2609.17042",
+      "summary": "arXiv:2609.17042v2 Announce Type: replace-cross Abstract: Learning flexible motor primitives is a hallmark of skilled motor control. Recent neuroscience theory proposes that motor primitives may be implemented as low-ran…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Coexistence and extinction in stochastic Lotka--Volterra systems with Volterra--Lyapunov stable interactions",
+      "url": "https://arxiv.org/abs/2610.28174",
+      "summary": "arXiv:2610.28174v2 Announce Type: replace-cross Abstract: We consider stochastic Lotka-Volterra systems $dX=\\mathrm{Diag}(X)(\\alpha+AX)dt+\\mathrm{Diag}(X)\\Gamma\\,dB$ with nondegenerate noise and a Volterra-Lyapunov stabl…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Mathematical Theory of the Jacobian Lens",
+      "url": "https://arxiv.org/abs/2610.31955",
+      "summary": "arXiv:2610.31955v2 Announce Type: replace-cross Abstract: Recent work from Anthropic introduced a new interpretability tool, called the Jacobian lens (J-lens, Gurnee et al. 2026). This method identified linear directions…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Learning Multimodal Representations from Partially Paired, Small-Scale Data",
+      "url": "https://arxiv.org/abs/2611.30601",
+      "summary": "arXiv:2611.30601v2 Announce Type: replace-cross Abstract: Modeling multimodal data from partially paired samples is critical for advancing domains like biomedicine, where vast unimodal datasets and foundation models exis…",
+      "ts": 1795582800000,
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Why Genomics Won’t Converge on One Technology",
@@ -201,6 +579,69 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "United Nations News",
+      "title": "World News in Brief: Vaccine crisis in Yemen, aid for Ukraine, another UNRWA staffer killed",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168871",
+      "summary": "More than 364,000 people have been displaced in Yemen since the beginning of August as fighting and insecurity continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said on Tuesday.",
+      "ts": 1795521600000,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Decades of gains against AIDS could unravel as HIV funding dries up",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168869",
+      "summary": "Decades of progress against AIDS, one of the greatest public health achievements in history, could go into reverse as international HIV funding is cut and campaigns against human rights and gender equality gain ground, t…",
+      "ts": 1795521600000,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Far too much failure’: UN deputy chief’s final call to end violence against women",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168868",
+      "summary": "UN Deputy Secretary-General Amina Mohammed warned on Tuesday that another woman or girl would be killed by a partner or family member before she finished speaking, as she called for justice for survivors and consequences…",
+      "ts": 1795521600000,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Can conflict resolution keep pace as AI and drones reshape war?",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168866",
+      "summary": "When the UN was founded in 1945, computers, the internet and satellites were the stuff of science fiction. Today, artificial intelligence (AI) is already assisting in targeting, drones are reshaping warfare and disinform…",
+      "ts": 1795521600000,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo: Concern for trapped Ebola workers as violence against women and girls deepens",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168865",
+      "summary": "Staff from the World Health Organization (WHO) and Ebola responders remain trapped in a hospital in Ituri province, Democratic Republic of the Congo (DRC), as heavy fighting continues in the vicinity, the UN agency said …",
+      "ts": 1795521600000,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Colombia: Guterres urges renewed commitment to landmark peace deal",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168864",
+      "summary": "UN Secretary-General António Guterres has commended Colombia for progress achieved in the decade since a landmark accord known as the Final Peace Agreement ended more than 50 years of insurgency but stressed the need to …",
+      "ts": 1795521600000,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Five women killed every hour by partners or family members",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168863",
+      "summary": "Some 47,000 women and girls were killed by intimate partners or family members in 2025 – five every hour – according to new UN figures published on Tuesday.",
+      "ts": 1795521600000,
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "OpenAI",
       "title": "Searching for distant planets with Astra",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
@@ -367,447 +808,6 @@
       "title": "Linking vascular pathways to organ anatomical structures in the Human Reference Atlas",
       "url": "https://arxiv.org/abs/2611.29215",
       "summary": "arXiv:2611.29215v1 Announce Type: new Abstract: As part of the Human Reference Atlas (HRA) initiative, which brings together more than 25 international consortia to map the entire healthy adult body, we developed a multi…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MAS-BIT: A Multi-Agent System for End-to-End BraIn-to-Text Decoding",
-      "url": "https://arxiv.org/abs/2611.29457",
-      "summary": "arXiv:2611.29457v1 Announce Type: new Abstract: Speech brain-computer interfaces aim to restore communication by translating neural activity into text, yet end-to-end decoders have historically trailed cascaded systems i…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Introduced cases, spread of infection in a community and travel control measures",
-      "url": "https://arxiv.org/abs/2611.29584",
-      "summary": "arXiv:2611.29584v1 Announce Type: new Abstract: Travel restrictions, border screening and quarantine were widely used during the COVID-19 pandemic to prevent or delay the spatial spread of SARS-CoV-2, yet their effective…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Motoric signatures to detect original authorship versus cognitive effort in instructed motor responses of an emerging speaker with ASD",
-      "url": "https://arxiv.org/abs/2611.29594",
-      "summary": "arXiv:2611.29594v1 Announce Type: new Abstract: There is at present no objective, agnostic method to track levels of message authorship and agency in non-speakers who rely on assisted typing to communicate. Part of the p…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Topological Pharmacokinetics: A Model-Free Framework for Quantifying the Shape of Concentration-Time Curves",
-      "url": "https://arxiv.org/abs/2611.29879",
-      "summary": "arXiv:2611.29879v1 Announce Type: new Abstract: Pharmacokinetic analysis compresses concentration-time curves into scalar summaries (non-compartmental analysis, NCA) or pre-specified compartmental models, approaches that…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Active sensing as control over sensory acquisition",
-      "url": "https://arxiv.org/abs/2611.29886",
-      "summary": "arXiv:2611.29886v1 Announce Type: new Abstract: The term \"active sensing\" is used across neuroscience and engineering to describe a wide range of sensing behaviors, but there is no consensus on what makes sensing \"active…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GABIF: An Adaptive Guided Graph Denoising Framework for Antibody Conditional Inverse Folding",
-      "url": "https://arxiv.org/abs/2611.29935",
-      "summary": "arXiv:2611.29935v1 Announce Type: new Abstract: Antibodies play a central role in the human immune system, and their design is critical for vaccine development, therapeutic intervention, and improving human longevity. Ho…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Separating Genetic and Protein Evidence in Open Targets: An Auditable Re-ranking Study",
-      "url": "https://arxiv.org/abs/2611.29978",
-      "summary": "arXiv:2611.29978v1 Announce Type: new Abstract: Biomedical target-ranking platforms combine genetics, literature, experimental evidence, tractability, and clinical precedent because each is useful for target discovery. A…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Interactions with hidden traits induce diversification and conceal its origin",
-      "url": "https://arxiv.org/abs/2611.30408",
-      "summary": "arXiv:2611.30408v1 Announce Type: new Abstract: Adaptive diversification is often inferred from a small number of measurable traits, even though evolutionary dynamics arise from many interacting phenotypic dimensions. Un…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pesticide mixtures may compromise ecosystem services provided by an egg parasitoid of soybean pest stink bugs: a comprehensive ecotoxicological risk assessment",
-      "url": "https://arxiv.org/abs/2611.30465",
-      "summary": "arXiv:2611.30465v1 Announce Type: new Abstract: Tank mixtures of crop protection products are widely used in agricultural systems, yet their integrated effects on biological control agents remain poorly understood. We ev…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beyond the Blueprint: The Continuing Evolution of Turing's Theory of Morphogenesis",
-      "url": "https://arxiv.org/abs/2611.30543",
-      "summary": "arXiv:2611.30543v1 Announce Type: new Abstract: Turing's article ``The Chemical Basis of Morphogenesis'' has profoundly influenced conceptual views on the emergence of biological form across scales and species. It has al…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Comparison of 3D-DXA Measurements with QCT Software Solutions for Proximal Femur Bone Density Assessment",
-      "url": "https://arxiv.org/abs/2611.30743",
-      "summary": "arXiv:2611.30743v1 Announce Type: new Abstract: 3D-Shaper reconstructs proximal femur shape and density in 3D from a standard hip dual-energy X-ray absorptiometry (DXA) scan. In men and women aged 35-91 years, we compare…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Big Tree Viewer: A high-performance browser-based phylogenetic tree viewer with agentic AI integration",
-      "url": "https://arxiv.org/abs/2611.30920",
-      "summary": "arXiv:2611.30920v1 Announce Type: new Abstract: Phylogenetic trees represent evolutionary history visually, and the ability to display and explore them is a key function in research across biological disciplines. Very la…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "LeCellModel: Interpretable Density Estimation over the Gene Expression Manifold",
-      "url": "https://arxiv.org/abs/2611.30955",
-      "summary": "arXiv:2611.30955v1 Announce Type: new Abstract: Representation learning for single-cell RNA-seq has been evaluated by the identities representations capture -- cell types, lineages, perturbations -- rather than how faith…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Nonequilibrium fluctuations could explain the hot mitochondria paradox",
-      "url": "https://arxiv.org/abs/2611.28225",
-      "summary": "arXiv:2611.28225v1 Announce Type: cross Abstract: Several different experiments have found apparent temperature differences of up to 10 K between the interior of mitochondria and the rest of the cellular environment. The…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SBTenv: A Literature-Validated Split-Belt Treadmill Simulation Environment",
-      "url": "https://arxiv.org/abs/2611.28547",
-      "summary": "arXiv:2611.28547v1 Announce Type: cross Abstract: The split-belt treadmill is an important tool for studying human locomotor adaptation. Physics-based simulations complement such experiments by allowing hypotheses about …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "VEGA: A Scalable Software-Hardware Co-design for Genome Alignment using RVV Extension",
-      "url": "https://arxiv.org/abs/2611.28741",
-      "summary": "arXiv:2611.28741v1 Announce Type: cross Abstract: Dynamic programming (DP)-based genome sequence analysis is fundamental to computational genomics, but it remains computationally intensive as genomic data volumes continu…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "High-Resolution 3D Micro-CT Database of Transcranial Magnetic Stimulation (TMS) Coils for More Accurate Modelling, Technology Benchmarking, and Progress in Coil Design",
-      "url": "https://arxiv.org/abs/2611.29051",
-      "summary": "arXiv:2611.29051v1 Announce Type: cross Abstract: Accurate modelling of transcranial magnetic stimulation (TMS) coils requires coil-specific geometric and electrical parameters. Yet detailed manufacturer models are rarel…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Towards Edge Artificial Intelligence for Predicting Antimicrobial Resistance in Mycobacterium tuberculosis",
-      "url": "https://arxiv.org/abs/2611.29143",
-      "summary": "arXiv:2611.29143v1 Announce Type: cross Abstract: Antimicrobial resistance (AMR) in Mycobacterium tuberculosis (MTB) poses a major challenge to global tuberculosis control, as multidrug-resistant strains limit available …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Denoised but Not Improved: What EEG Denoising Does to a Downstream Task",
-      "url": "https://arxiv.org/abs/2611.29256",
-      "summary": "arXiv:2611.29256v1 Announce Type: cross Abstract: Scalp electroencephalography (EEG) is routinely denoised before it reaches a downstream model, and the denoising literature scores a method by how closely its output matc…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BQDNA: Multi-Head Binary Spherical Quantization for Genomic Sequence Modeling",
-      "url": "https://arxiv.org/abs/2611.29395",
-      "summary": "arXiv:2611.29395v1 Announce Type: cross Abstract: Decoding biological information from long, repetitive DNA remains challenging. Genomic language models (gLMs) often follow the conventional language-model pretrain-and-ad…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Motivo: A Motif-Based Algorithm-Architecture Co-Design for Fast and Energy-Efficient Graph-Based Genome Analysis",
-      "url": "https://arxiv.org/abs/2611.29410",
-      "summary": "arXiv:2611.29410v1 Announce Type: cross Abstract: Read mapping, a key step of genome sequence analysis, matches each fragment of a sequenced genome (a read) to its location in a reference genome. A genome graph is a grap…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "RumiFold: Teaching an LLM to Natively Fold Proteins and Reason About Their Function",
-      "url": "https://arxiv.org/abs/2611.29444",
-      "summary": "arXiv:2611.29444v1 Announce Type: cross Abstract: Can we teach a general-purpose language model to fold proteins? And if so, what does learning to fold enable beyond structure prediction itself? We introduce RumiFold, a …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Eight limit cycles in a three-dimensional competitive Lotka-Volterra system",
-      "url": "https://arxiv.org/abs/2611.29524",
-      "summary": "arXiv:2611.29524v1 Announce Type: cross Abstract: Gyllenberg and Yan conjectured that a three-dimensional competitive Lotka-Volterra system can have at least five limit cycles. We prove the conjecture by constructing a s…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A high-dimensional perspective of assortative mating: definition, dynamics, and limiting results",
-      "url": "https://arxiv.org/abs/2611.29703",
-      "summary": "arXiv:2611.29703v1 Announce Type: cross Abstract: Assortative mating, or the systematic (dis)similarity of traits between mate pairs, has wide-ranging consequences. Chiefly, it modulates genetic variance in offspring due…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Second-Order Dynamics in Noisy RNNs Produce Exploration and Temporal Compression in Replay",
-      "url": "https://arxiv.org/abs/2611.29888",
-      "summary": "arXiv:2611.29888v1 Announce Type: cross Abstract: Biological neural networks (like the hippocampus) can internally generate \"replay\" resembling stimulus-driven activity. Recent computational models of replay use noisy re…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "What Do Co-Folding Models Learn? Insights from Enhanced Transition Path Sampling",
-      "url": "https://arxiv.org/abs/2611.30062",
-      "summary": "arXiv:2611.30062v1 Announce Type: cross Abstract: Co-folding models are diffusion-based generative models that sample biomolecular complexes from distributions learned on a large corpus of experimental data. Although the…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Impact of Topology and Sequence Length on the Pressure-Dependent Collapsibility of Proteins",
-      "url": "https://arxiv.org/abs/2611.30336",
-      "summary": "arXiv:2611.30336v1 Announce Type: cross Abstract: Several physical and evolutionary factors, including temperature, pressure, solvent quality, and natural selection, influence how amino acid sequences adopt their native …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Multimodal Representations from Partially Paired, Small-Scale Data",
-      "url": "https://arxiv.org/abs/2611.30601",
-      "summary": "arXiv:2611.30601v1 Announce Type: cross Abstract: Modeling multimodal data from partially paired samples is critical for advancing domains like biomedicine, where vast unimodal datasets and foundation models exist but pa…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From joint attention to shared symbols: A free-energy principle account",
-      "url": "https://arxiv.org/abs/2611.30788",
-      "summary": "arXiv:2611.30788v1 Announce Type: cross Abstract: Joint attention precedes vocabulary acquisition. How can attending to the same object help two people with different sensory experiences come to use a shared word? In a f…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How Far Can Linear Go? BiPert, a Unified Framework for Single-Cell Perturbation Modelling",
-      "url": "https://arxiv.org/abs/2611.31227",
-      "summary": "arXiv:2611.31227v1 Announce Type: cross Abstract: Understanding how genetic perturbations affect cellular behaviour is essential for studying gene function and regulatory mechanisms. Large-scale CRISPR screens measure th…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Gene ologs: a categorical framework for Gene Ontology",
-      "url": "https://arxiv.org/abs/1909.11210",
-      "summary": "arXiv:1909.11210v2 Announce Type: replace Abstract: The Gene Ontology (GO) is the most widely used resource for the functional annotation of genes and gene products. It unifies biological knowledge across species through…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scaling Structure-Aware Virtual Screening to Billions of Molecules with SPRINT",
-      "url": "https://arxiv.org/abs/2411.15418",
-      "summary": "arXiv:2411.15418v3 Announce Type: replace Abstract: Virtual screening of small molecules against protein targets can accelerate drug discovery and development by predicting drug-target interactions (DTIs). However, struc…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fusion-pMT: Biological Sequence Modeling for Tri-Molecular Binding in Immunogenicity Prediction",
-      "url": "https://arxiv.org/abs/2501.01768",
-      "summary": "arXiv:2501.01768v2 Announce Type: replace Abstract: Accurately modeling the tripartite interaction among peptides, major histocompatibility complex (MHC) molecules, and T cell receptors (TCRs) is essential for understand…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Emergent self-inhibition governs the landscape of stable states in complex ecosystems",
-      "url": "https://arxiv.org/abs/2511.06697",
-      "summary": "arXiv:2511.06697v3 Announce Type: replace Abstract: Species-rich ecosystems often exhibit multiple stable states with distinct species compositions. Yet, the factors determining the likelihood of each state's occurrence …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Understanding temperature tuning in energy-based models",
-      "url": "https://arxiv.org/abs/2512.09152",
-      "summary": "arXiv:2512.09152v2 Announce Type: replace Abstract: Generative models of complex systems often require post hoc parameter adjustments to produce useful outputs. For example, energy-based models for protein design are sam…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How much perceived-stress signal is in the maternal ECG? An exclusion bound across deep-learning and heart-rate-variability representations in pregnancy",
-      "url": "https://arxiv.org/abs/2602.03886",
-      "summary": "arXiv:2602.03886v4 Announce Type: replace Abstract: Deep learning can read physiological states from the electrocardiogram (ECG), prompting attempts to detect psychological stress. We asked how much information about per…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling the Disjunction Effect within Classical Probability: A New Decision Process Model and Comparison with Quantum-like Models",
-      "url": "https://arxiv.org/abs/2603.23233",
-      "summary": "arXiv:2603.23233v2 Announce Type: replace Abstract: In a Prisoner's Dilemma experiment, participants defected less often when the opponent's move was unknown than when they were told that the opponent had defected or tha…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "VCBench: Benchmarking virtual cell models for in-the-wild perturbation response",
-      "url": "https://arxiv.org/abs/2604.27646",
-      "summary": "arXiv:2604.27646v2 Announce Type: replace Abstract: Virtual cell (VC) models aim to predict cellular responses to diverse perturbations in silico, offering great promise for drug discovery and precision medicine. However…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Organization to Viability: A Multi-Level Analysis of Gait Dynamics Under Occlusal Constraint",
-      "url": "https://arxiv.org/abs/2605.13893",
-      "summary": "arXiv:2605.13893v4 Announce Type: replace Abstract: Clinical interpretation often assumes that observable performance sufficiently reflects the organization of an adaptive system. The preceding Level 3 study showed that …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stationary covariance spectra of discrete-time non-normal random recurrent dynamics",
-      "url": "https://arxiv.org/abs/2606.31944",
-      "summary": "arXiv:2606.31944v3 Announce Type: replace Abstract: Principal component analysis is widely used to characterize structure in the dynamics of recurrent neural networks. For stationary noise-driven dynamics, the distributi…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On the interpretation of the kinetics of ligand-receptor binding",
-      "url": "https://arxiv.org/abs/2609.01228",
-      "summary": "arXiv:2609.01228v5 Announce Type: replace Abstract: When the rates of ligand binding are measured by methods such as surface plasmon resonance, it is common practice to use the observed rate constants for the onset and o…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PlainMap: a lightweight, restartable mapping pipeline for ancient and modern DNA",
-      "url": "https://arxiv.org/abs/2609.18372",
-      "summary": "arXiv:2609.18372v2 Announce Type: replace Abstract: Mapping sequencing reads to a reference genome requires preprocessing and alignment choices that can vary with library type, fragment length, sequencing platform, and r…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Trainable sparse dendritic networks reveal regime-dependent roles for shunting inhibition and morphology",
-      "url": "https://arxiv.org/abs/2611.17434",
-      "summary": "arXiv:2611.17434v2 Announce Type: replace Abstract: Neural circuits must compute reliably despite noise and changes in context. We introduce DendriNet, a framework for training scalable rate-based networks with sparse ex…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ShEPhERD-score: Fast, adaptable three-dimensional alignment of molecular features",
-      "url": "https://arxiv.org/abs/2611.25076",
-      "summary": "arXiv:2611.25076v2 Announce Type: replace Abstract: Three-dimensional (3D) molecular similarity scoring and alignment are widely employed in ligand-based virtual screening and molecular design, and are increasingly used …",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Nutrient limitation drives Turing instabilities in cross-feeding microbial communities",
-      "url": "https://arxiv.org/abs/2611.27534",
-      "summary": "arXiv:2611.27534v2 Announce Type: replace Abstract: Microbial communities are shaped by metabolic interactions, often in the form of cross-feeding in which microbes exchange metabolites via diffusion through the environm…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Depth-multiplexing spectral domain OCT for full eye length imaging with a single modulation unit",
-      "url": "https://arxiv.org/abs/2311.17824",
-      "summary": "arXiv:2311.17824v3 Announce Type: replace-cross Abstract: Clinical measurement of a patient's axial eye length is emerging as a crucial approach to track progression and monitor management of myopia. However, the preferr…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Nonequilibrium protein complexes as molecular automata",
-      "url": "https://arxiv.org/abs/2508.15603",
-      "summary": "arXiv:2508.15603v3 Announce Type: replace-cross Abstract: Biology stores information and computes at the molecular scale, yet the ways in which it does so are often distinct from human-engineered computers. Mapping biolo…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Entangled Schr\\\"odinger Bridge Matching",
-      "url": "https://arxiv.org/abs/2511.07406",
-      "summary": "arXiv:2511.07406v2 Announce Type: replace-cross Abstract: Simulating trajectories of multi-particle systems on complex energy landscapes is a central task in molecular dynamics (MD) and drug discovery, but remains challe…",
-      "ts": 1795496400000,
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Subjective functions",
-      "url": "https://arxiv.org/abs/2512.15948",
-      "summary": "arXiv:2512.15948v4 Announce Type: replace-cross Abstract: Where do objective functions come from? How do we select what goals to pursue? Human intelligence is adept at synthesizing new objective functions on the fly. How…",
       "ts": 1795496400000,
       "publishedAt": "2026-11-24T05:00:00.000Z",
       "categoryId": "bio"
