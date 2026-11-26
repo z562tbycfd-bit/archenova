@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-11-26T13:46:17.735Z",
+  "updated": "2026-11-26T22:51:47.088Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "DESTINY model tracks molecular chemistry on uneven, ice-covered grains in interstellar space",
+      "url": "https://phys.org/news/2026-11-destiny-tracks-molecular-chemistry-uneven.html",
+      "summary": "Interstellar space is the scene of active chemical processes: molecules form there in the gas, but also on the surface of tiny dust grains covered in ice. To better represent what happens on these surfaces, astrophysicis…",
+      "ts": 1795729201000,
+      "publishedAt": "2026-11-26T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "JWST studies a tiny, metal-poor galaxy with just a fraction of the sun's oxygen abundance",
+      "url": "https://phys.org/news/2026-11-jwst-tiny-metal-poor-galaxy.html",
+      "summary": "Astronomers using the James Webb Space Telescope (JWST) have studied one of the most metal-poor galaxies known. Seen as it was around 12.2 billion years ago, LAP2 is a tiny system with a stellar mass comparable to that o…",
+      "ts": 1795723201000,
+      "publishedAt": "2026-11-26T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wave-like displays in animal groups may have evolved to deceive predators",
+      "url": "https://phys.org/news/2026-11-displays-animal-groups-evolved-predators.html",
+      "summary": "Some of the most striking patterns in collective behavior emerge in the face of danger. When a predator approaches, some animal groups morph into a vision of pulsing waves. These patterns might be more than a side effect…",
+      "ts": 1795719615000,
+      "publishedAt": "2026-11-26T19:00:15.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Runaway pulsar escapes the remnant of its own supernova",
+      "url": "https://phys.org/news/2026-11-runaway-pulsar-remnant-supernova.html",
+      "summary": "A team of astronomers has spotted a rare example of a pulsar that has escaped the cloud of debris left by the supernova explosion in which it formed. Led by Rohit Dokara, formerly at the Max Planck Institute for Radio As…",
+      "ts": 1795719002000,
+      "publishedAt": "2026-11-26T18:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "5G interference can alter high-impact weather forecasts",
+      "url": "https://phys.org/news/2026-11-5g-high-impact-weather.html",
+      "summary": "Could leaks from future 5G networks interfere with satellite weather measurements and potentially alter forecasts? That's the concern of a group of researchers from the U.S. states of New Jersey and Maryland, with lead a…",
+      "ts": 1795714801000,
+      "publishedAt": "2026-11-26T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thailand tests find high lead, arsenic in river shellfish",
+      "url": "https://phys.org/news/2026-11-thailand-high-arsenic-river-shellfish.html",
+      "summary": "Thai authorities have found dangerous levels of arsenic and lead in shellfish and other species in rivers contaminated by suspected mining pollution from neighboring Myanmar, an official said Thursday.",
+      "ts": 1795712401000,
+      "publishedAt": "2026-11-26T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spain races to stop oil spill after ship capsizes off Ibiza",
+      "url": "https://phys.org/news/2026-11-spain-oil-ship-capsizes-ibiza.html",
+      "summary": "Spanish authorities raced to contain any damage to ecologically valuable Mediterranean waters on Thursday after a tanker carrying up to 7,000 tonnes (7,700 tons) of diesel capsized off Ibiza, leaving one dead.",
+      "ts": 1795711204000,
+      "publishedAt": "2026-11-26T16:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "God-faced rings may have identified Mesoamerica's long-distance merchants",
+      "url": "https://phys.org/news/2026-11-god-mesoamerica-distance-merchants.html",
+      "summary": "Over 1,000 years ago, a Mesoamerican may have been traveling through foreign lands. Upon arriving at his destination, he held up his hand, adorned with a ring showing the face of a god, but what was this ring's purpose?",
+      "ts": 1795710001000,
+      "publishedAt": "2026-11-26T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global maritime trade set for zero growth in 2026: UN",
+      "url": "https://phys.org/news/2026-11-global-maritime-growth.html",
+      "summary": "Global maritime trade—which carries more than 80% of the world's goods—is set to stagnate in 2026 due to shipping disruptions and trade uncertainties arising from the war in the Middle East, the United Nations said Thurs…",
+      "ts": 1795708801000,
+      "publishedAt": "2026-11-26T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Protein redesign boosts DNA insertion activity and reveals how molecular machinery selects targets",
+      "url": "https://phys.org/news/2026-11-protein-redesign-boosts-dna-insertion.html",
+      "summary": "Genome engineering is exciting, given its vast potential to treat and even cure diseases, but it is still a largely uncharted biomedical innovation. Scientists at St. Jude Children's Research Hospital recently uncovered …",
+      "ts": 1795707602000,
+      "publishedAt": "2026-11-26T15:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do all groups drift toward rule by the few? Not when time is on their side",
+      "url": "https://phys.org/news/2026-11-groups-drift-side.html",
+      "summary": "For more than a century, a bleak idea has hung over the ideal of democracy: Given enough time, every group ends up ruled by a few. The idea, known as the iron law of oligarchy, was first proposed by the sociologist Rober…",
+      "ts": 1795706406000,
+      "publishedAt": "2026-11-26T15:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Learning facts out of interest may take less mental effort than learning them for money",
+      "url": "https://phys.org/news/2026-11-facts-mental-effort-money.html",
+      "summary": "When completing tasks or acquiring information, humans can be driven by intrinsic and extrinsic motivations. The term intrinsic motivation entails doing something because it is interesting to us or we find it enjoyable, …",
+      "ts": 1795705205000,
+      "publishedAt": "2026-11-26T15:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two mechanisms of amino acid transport in a rare disease-associated protein revealed",
+      "url": "https://phys.org/news/2026-11-mechanisms-amino-acid-rare-disease.html",
+      "summary": "Cells must constantly exchange amino acids with their environment to make proteins and support numerous bodily processes. To do this, they have specialized transporters located in their membranes.",
+      "ts": 1795704001000,
+      "publishedAt": "2026-11-26T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover quasar formed within a mere 630 million years of the Big Bang, setting a record",
+      "url": "https://phys.org/news/2026-11-scientists-quasar-mere-million-years.html",
+      "summary": "Scientists have discovered the most distant quasar yet, the core of a galaxy with a slow-chomping black hole at its center dating back to nearly the dawn of the universe.",
+      "ts": 1795701602000,
+      "publishedAt": "2026-11-26T14:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Early Stone Age rock carvings in Scandinavia may have been signposts for hunting grounds",
@@ -687,118 +799,6 @@
       "title": "Automatic dual basis sets for self-consistent field calculations",
       "url": "https://arxiv.org/abs/2611.34694",
       "summary": "arXiv:2611.34694v1 Announce Type: new Abstract: Density functional theory (DFT) has long been the workhorse of electronic structure theory, and it is experiencing a new boom thanks to big data applications and machine le…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diagnosing internal leakage currents through magnetometry of lithium-ion cells",
-      "url": "https://arxiv.org/abs/2611.34699",
-      "summary": "arXiv:2611.34699v1 Announce Type: new Abstract: Internal leakage currents are difficult to detect and to localize through measurements at the terminals of lithium-ion cells. We measured the magnetic fields of pouch cells…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 2D fluid model in BOUT++/Hermes-3 for simulating detached divertor plasmas in tokamaks",
-      "url": "https://arxiv.org/abs/2611.34717",
-      "summary": "arXiv:2611.34717v1 Announce Type: new Abstract: Detached divertor operation is essential for controlling target heat fluxes in future high-power tokamaks. We present a two-dimensional fluid model implemented in BOUT++/He…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of a F\\\"orster Resonance in a Heated Rydberg Atom Ensemble",
-      "url": "https://arxiv.org/abs/2611.34729",
-      "summary": "arXiv:2611.34729v1 Announce Type: new Abstract: Rydberg atoms in thermal vapour are of increasing relevance for a range of emerging technologies including compact electric field sensors, where state energies are detected…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A general-purpose electron density model for molecular chemistry",
-      "url": "https://arxiv.org/abs/2611.34732",
-      "summary": "arXiv:2611.34732v1 Announce Type: new Abstract: Universal machine-learning potentials predict molecular structure and stability at the accuracy of quantum mechanics, for a fraction of the cost. Properties derived instead…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma transport by carrier electrons: Nernst advection beyond the heat-flow analogy due to kinetic stress",
-      "url": "https://arxiv.org/abs/2611.34766",
-      "summary": "arXiv:2611.34766v1 Announce Type: new Abstract: Nernst advection of magnetic fields down temperature gradients is lowered by kinetic stress from the $\\underline{\\underline{f}}_2$ electron distribution harmonic, which all…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Reconfigurable Four-State Sensor Based on Orthogonal Thermal and Chemical Stimuli",
-      "url": "https://arxiv.org/abs/2611.34834",
-      "summary": "arXiv:2611.34834v1 Announce Type: new Abstract: This article presents a novel four-state refractive index (RI) sensor based on distinct phases of palladium (Pd) and vanadium dioxide (VO$_2$), controlled by orthogonal the…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Schr\\\"odinger's Legacy: The Wave Function and Quantum Reality",
-      "url": "https://arxiv.org/abs/2611.34895",
-      "summary": "arXiv:2611.34895v1 Announce Type: new Abstract: The article discusses how Schr\\\"odinger arrived at the formulation of wave mechanics and his legacy on the philosophy of quantum mechanics, focusing in particular on the me…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Floquet Decomposition: Floquet Multipliers and Time-Periodic Modes from Period-Sampled Snapshot Data",
-      "url": "https://arxiv.org/abs/2611.34901",
-      "summary": "arXiv:2611.34901v1 Announce Type: new Abstract: Dynamic mode decomposition (DMD) fits one constant linear operator to a sequence of snapshots. When the dynamics, or the view of them, vary periodically, as in a parametric…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Voltage-Enhanced Photorefractive Hysteresis in Thin-Film Lithium Niobate Photonic-Crystal Cavities",
-      "url": "https://arxiv.org/abs/2611.34919",
-      "summary": "arXiv:2611.34919v1 Announce Type: new Abstract: We observe voltage-enhanced photorefractive hysteresis in thin-film lithium niobate nanocavities, causing the resonance to appear at different wavelengths during increasing…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A novel quantum lattice Boltzmann methodology for cosmological radiation transport",
-      "url": "https://arxiv.org/abs/2611.31340",
-      "summary": "arXiv:2611.31340v1 Announce Type: cross Abstract: Radiation transport is an essential process in many physical simulations, including cosmological codes which track stellar and diffuse radiation. Many present codes utili…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling the LISA response in the time-frequency domain",
-      "url": "https://arxiv.org/abs/2611.33215",
-      "summary": "arXiv:2611.33215v1 Announce Type: cross Abstract: Time-frequency methods are a promising approach to LISA data analysis. This paper presents a model for the LISA response directly in the time-frequency domain using the W…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Do Not Let the Prior Heal the Anomaly: Selective Anchoring for Detection from Incomplete Measurements",
-      "url": "https://arxiv.org/abs/2611.33331",
-      "summary": "arXiv:2611.33331v1 Announce Type: cross Abstract: Generative priors can recover anatomical detail from incomplete medical measurements, but may erase the very lesions that imaging aims to detect, even when the measuremen…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the binding and stability of CeO2 molecules on low-index Au surfaces",
-      "url": "https://arxiv.org/abs/2611.33338",
-      "summary": "arXiv:2611.33338v1 Announce Type: cross Abstract: Many multi-phase thin films grown by self-assembly involve co-deposition of both metallic and oxide phases that grow into the same film. Under such conditions, the oxide …",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gaussian priors from nonlinear PDEs with the semiclassical approximation",
-      "url": "https://arxiv.org/abs/2611.33400",
-      "summary": "arXiv:2611.33400v1 Announce Type: cross Abstract: Probabilistic numerical methods for partial differential equations (PDE) combines the governing physics with observations to treat solving the PDE as a Bayesian inverse p…",
       "ts": 1795669200000,
       "publishedAt": "2026-11-26T05:00:00.000Z"
     }

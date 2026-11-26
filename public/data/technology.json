@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-11-26T13:46:19.907Z",
+  "updated": "2026-11-26T22:51:50.120Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+      "url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss",
+      "summary": "Researchers engineered a protein system capable of restoring normal chromosome connections in aging mouse eggs, raising hopes of one day improving IVF outcomes",
+      "ts": 1795719600000,
+      "publishedAt": "2026-11-26T19:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The ‘bare-knuckled’ future of life in space with Tim Marshall",
+      "url": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
+      "summary": "In this episode, Mike Gruss speaks with journalist and best-selling author Tim Marshall. They discuss how the war in Ukraine represented a wakeup call for how Europe and the United […] The post The ‘bare-knuckled’ future…",
+      "ts": 1795715580000,
+      "publishedAt": "2026-11-26T17:53:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 377 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1795708800000,
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+      "summary": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbie…",
+      "ts": 1795701622000,
+      "publishedAt": "2026-11-26T14:00:22.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: Better bionic hands and AI’s natural-gas boom",
@@ -21,6 +57,33 @@
       "categoryId": "bio"
     },
     {
+      "source": "United Nations News",
+      "title": "‘Come right now’: How a crisis centre in Samarkand helps women escape violence",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168878",
+      "summary": "Irina* paced the apartment. Her husband had come home drunk again, and she knew the beatings would follow.",
+      "ts": 1795694400000,
+      "publishedAt": "2026-11-26T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Maritime trade stagnates amid geopolitical uncertainty",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168884",
+      "summary": "Seaborne trade that underpins the global economy continues to slow, while disruption from conflict and climate-related factors is hitting least-developed economies and small island nations hardest, UN economists said on …",
+      "ts": 1795694400000,
+      "publishedAt": "2026-11-26T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo: Peacekepers step up civilian protection amid fighting in Ituri",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168883",
+      "summary": "United Nations peacekeepers in the Democratic Republic of the Congo (DRC) have stepped up efforts to protect civilians in Ebola-hit Ituri province following renewed armed clashes in Djugu territory.",
+      "ts": 1795694400000,
+      "publishedAt": "2026-11-26T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The next generation of bionic hands is here—and they can feel",
       "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
@@ -28,6 +91,15 @@
       "ts": 1795687140000,
       "publishedAt": "2026-11-26T09:59:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Workshop Fosters Leadership for a Growing Nuclear Sector",
+      "url": "http://www.iaea.org/newscenter/news/iaea-workshop-fosters-leadership-for-a-growing-nuclear-sector",
+      "summary": "To help develop effective leadership for nuclear programmes, the IAEA recently brought together mid-career nuclear professionals from around the world for a workshop on managing change and building resilient nuclear orga…",
+      "ts": 1795681839000,
+      "publishedAt": "2026-11-26T08:30:39.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "IAEA News",
@@ -736,78 +808,6 @@
       "title": "Turbulent Epidemics: Scale-dependent Fluctuations as a Probe of Population Heterogeneity",
       "url": "https://arxiv.org/abs/2611.31334",
       "summary": "arXiv:2611.31334v1 Announce Type: new Abstract: Heterogeneous dynamics, including phenomena such as superspreading and clustering, is a hallmark of many infectious diseases. A key challenge lies in identifying observable…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A multimodal foundation model for tissue proteomics and morphology in cancer",
-      "url": "https://arxiv.org/abs/2611.31451",
-      "summary": "arXiv:2611.31451v1 Announce Type: new Abstract: Cancer diagnosis, prognosis, and treatment decisions increasingly rely on integrating tissue morphology with specific molecular readouts of the tumor and its microenvironme…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Tempering and few-shot calibration of pathology foundation models improve digital biomarker reproducibility across slide scanners",
-      "url": "https://arxiv.org/abs/2611.31536",
-      "summary": "arXiv:2611.31536v1 Announce Type: new Abstract: Pathology foundation models underpin a growing number of histology-based cancer biomarkers, but sensitivity to slide scanner-specific image signatures degrades cross-center…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Benchmarking Protein Structure Tokenizers as Generation Targets for Language Models",
-      "url": "https://arxiv.org/abs/2611.32168",
-      "summary": "arXiv:2611.32168v1 Announce Type: new Abstract: Discrete structure tokenizers are the standard way to give a language model access to protein three-dimensional structure, yet they are selected on how accurately they can …",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Description-Derived Drug-Drug Interaction Benchmark Reveals Split-Dependent Molecular Representation Rankings",
-      "url": "https://arxiv.org/abs/2611.32371",
-      "summary": "arXiv:2611.32371v1 Announce Type: new Abstract: Drug-drug interaction (DDI) prediction is clinically important and poses a distinct challenge for molecular representation learning. Unlike single-molecule property predict…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cancer multi-omics joint dimension reduction leads to reliable and interpretable survival predictions",
-      "url": "https://arxiv.org/abs/2611.32382",
-      "summary": "arXiv:2611.32382v1 Announce Type: new Abstract: Multi-omics studies are becoming more and more frequent, and are especially suited to decrypt the complexity of dysregulation happening in cancer. In this context, improvin…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Normative and neural network models of multisensory integration",
-      "url": "https://arxiv.org/abs/2611.32829",
-      "summary": "arXiv:2611.32829v1 Announce Type: new Abstract: Animals continuously detect scents, sights and sounds, which their brains combine into diverse multisensory streams. Multisensory integration accelerates learning, increase…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cell and nuclear shapes predict confined motility",
-      "url": "https://arxiv.org/abs/2611.32990",
-      "summary": "arXiv:2611.32990v1 Announce Type: new Abstract: Cancer metastasis relies on an enhanced property of cells to migrate efficiently even through constrictions smaller than their nucleus. Both cell and nuclear morphology may…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From dispersal to patrol: the extracellular matrix shapes an annealing-like search by Drosophila embryonic macrophages",
-      "url": "https://arxiv.org/abs/2611.33097",
-      "summary": "arXiv:2611.33097v1 Announce Type: new Abstract: Hemocytes, the macrophages of Drosophila, disperse through the embryo and then patrol its tissues, moving along basement membranes that they help to build. Because the pers…",
       "ts": 1795582800000,
       "publishedAt": "2026-11-25T05:00:00.000Z",
       "categoryId": "bio"
