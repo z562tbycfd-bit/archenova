@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-25T21:17:47.631Z",
+  "updated": "2026-11-26T03:59:45.464Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Why Medicare’s 2027 physician pay changes worry some specialists",
+      "url": "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/?utm_campaign=rss",
+      "summary": "Cuts to Medicare physician payment rates for certain same-day services could impact some specialists more than others.",
+      "ts": 1795642133000,
+      "publishedAt": "2026-11-25T21:28:53.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA approves Cogent’s drug for rare stomach cancer",
@@ -130,6 +139,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Türk warns of widening risk of atrocity crimes against Palestinians",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168879",
+      "summary": "UN human rights chief Volker Türk on Wednesday warned of a widening risk of further atrocity crimes by Israel against Palestinians, saying violence in the occupied West Bank in recent months has heightened existential fe…",
+      "ts": 1795608000000,
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Governments and experts gather in Nairobi to tackle the global housing crisis",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168873",
       "summary": "A home is a place where people can feel safe. Yet billions worldwide do not have a proper place to live. As the global housing crisis deepens, government representatives and housing experts are gathering at the United Na…",
@@ -172,6 +190,15 @@
       "ts": 1795608000000,
       "publishedAt": "2026-11-25T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "ESA",
+      "title": "Hera reveals stadium-sized asteroid crater from spacecraft impact",
+      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-reveals-stadium-sized-asteroid-crater-left-after-spacecraft-impact",
+      "summary": "Arriving at the site of humankind's first planetary defence experiment, the European Space Agency's Hera mission has found a miniature world of surprises.",
+      "ts": 1795604571000,
+      "publishedAt": "2026-11-25T11:02:51.000Z",
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -784,33 +811,6 @@
       "ts": 1795525200000,
       "publishedAt": "2026-11-24T13:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Vaccine crisis in Yemen, aid for Ukraine, another UNRWA staffer killed",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168871",
-      "summary": "More than 364,000 people have been displaced in Yemen since the beginning of August as fighting and insecurity continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said on Tuesday.",
-      "ts": 1795521600000,
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Decades of gains against AIDS could unravel as HIV funding dries up",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168869",
-      "summary": "Decades of progress against AIDS, one of the greatest public health achievements in history, could go into reverse as international HIV funding is cut and campaigns against human rights and gender equality gain ground, t…",
-      "ts": 1795521600000,
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Far too much failure’: UN deputy chief’s final call to end violence against women",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168868",
-      "summary": "UN Deputy Secretary-General Amina Mohammed warned on Tuesday that another woman or girl would be killed by a partner or family member before she finished speaking, as she called for justice for survivors and consequences…",
-      "ts": 1795521600000,
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
