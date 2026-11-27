@@ -85,7 +85,7 @@ export default function ArcheNovaCivilizationOSFrame(
           remain unchanged.
       ================================================== */}
 
-      <OryvanthConstructionSystem />
+     <OryvanthConstructionSystem mode="portal" />
 
     </div>
   );

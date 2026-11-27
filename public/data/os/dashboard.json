@@ -1,83 +1,124 @@
 {
   "runtime": {
     "status": "online",
-    "updatedAt": "2026-11-23T18:23:34.280Z",
-    "synchronizedAt": "2026-11-23T18:23:34.280Z",
+    "updatedAt": "2026-11-27T12:39:31.310Z",
+    "synchronizedAt": "2026-11-27T12:39:31.310Z",
     "sourceHealth": {
       "science": true,
       "engineering": true,
       "governance": true
     },
-    "averageConfidence": 84
+    "averageConfidence": 81
   },
   "counts": {
     "science": 100,
-    "engineering": 81,
-    "governance": 9
+    "engineering": 73,
+    "governance": 17
   },
   "feeds": {
     "science": {
       "latest": {
-        "title": "Proteins with ancient viral roots guard genetic switches left by mobile DNA",
-        "summary": "Much of our genome contains mobile pieces or \"transposable elements\": pieces of DNA that spread and accumulated over millions of years, some originating from ancient viruses. Although many are no longer mobile, their seq…",
+        "title": "Study finds lasting changes in daily mobility patterns across Latin America after COVID-19",
+        "summary": "Researchers at the University of Liverpool have used anonymized Facebook mobility data to explore how everyday movement patterns changed across Latin American countries in the wake of the COVID-19 pandemic.",
         "category": "SCIENCE",
         "source": "Phys.org",
-        "sourceUrl": "https://phys.org/news/2026-11-proteins-ancient-viral-roots-genetic.html",
-        "url": "https://phys.org/news/2026-11-proteins-ancient-viral-roots-genetic.html",
-        "publishedAt": "2026-11-23T18:20:31.000Z",
-        "updatedAt": "2026-11-23T18:23:34.281Z",
+        "sourceUrl": "https://phys.org/news/2026-11-daily-mobility-patterns-latin-america.html",
+        "url": "https://phys.org/news/2026-11-daily-mobility-patterns-latin-america.html",
+        "publishedAt": "2026-11-27T12:30:01.000Z",
+        "updatedAt": "2026-11-27T12:39:31.311Z",
         "state": "OBSERVED",
-        "signalCategory": "Adaptive Capacity",
-        "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+        "signalCategory": "Civilization Engineering",
+        "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
         "implications": [
-          "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-          "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-          "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
+          "May influence the transition from civilization engineering knowledge to applied capability.",
+          "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+          "Requires continued observation to determine whether the signal develops into durable civilizational capability."
         ],
         "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-        "confidence": 80,
+        "confidence": 88,
         "relatedTopics": [
-          "Biotechnology"
+          "AI"
         ],
         "relatedOrgans": [
           "observation",
           "understanding",
-          "reasoning",
-          "design",
-          "realization",
           "memory"
         ],
         "civilizationDomains": [
           "Science",
           "Technology",
-          "Law & Governance",
-          "Capital",
           "Education & Knowledge"
         ],
         "currentStage": "Scientific Discovery",
-        "expectedHorizon": "5–15 Years",
-        "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-        "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+        "expectedHorizon": "10–30 Years",
+        "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+        "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
         "score": {
-          "realityDiscovery": 5.5,
-          "capabilityExpansion": 5.5,
-          "infrastructureImpact": 5.5,
-          "synchronizationImpact": 5.5,
-          "adaptiveCapacity": 8.9,
-          "civilizationImpact": 6.9,
-          "overall": 6.2
+          "realityDiscovery": 6.2,
+          "capabilityExpansion": 6.2,
+          "infrastructureImpact": 6.2,
+          "synchronizationImpact": 6.2,
+          "adaptiveCapacity": 6.2,
+          "civilizationImpact": 7.3,
+          "overall": 6.4
         }
       },
       "items": [
         {
-          "title": "Proteins with ancient viral roots guard genetic switches left by mobile DNA",
-          "summary": "Much of our genome contains mobile pieces or \"transposable elements\": pieces of DNA that spread and accumulated over millions of years, some originating from ancient viruses. Although many are no longer mobile, their seq…",
+          "title": "Study finds lasting changes in daily mobility patterns across Latin America after COVID-19",
+          "summary": "Researchers at the University of Liverpool have used anonymized Facebook mobility data to explore how everyday movement patterns changed across Latin American countries in the wake of the COVID-19 pandemic.",
           "category": "SCIENCE",
           "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-proteins-ancient-viral-roots-genetic.html",
-          "url": "https://phys.org/news/2026-11-proteins-ancient-viral-roots-genetic.html",
-          "publishedAt": "2026-11-23T18:20:31.000Z",
-          "updatedAt": "2026-11-23T18:23:34.281Z",
+          "sourceUrl": "https://phys.org/news/2026-11-daily-mobility-patterns-latin-america.html",
+          "url": "https://phys.org/news/2026-11-daily-mobility-patterns-latin-america.html",
+          "publishedAt": "2026-11-27T12:30:01.000Z",
+          "updatedAt": "2026-11-27T12:39:31.311Z",
+          "state": "OBSERVED",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 88,
+          "relatedTopics": [
+            "AI"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "What are the odds of a volcano erupting through a salt lake?",
+          "summary": "An experimental study of what happens when volcanoes erupt through salt lakes is rewriting the genesis story on the formation of some iron ore and rare earth deposits. The Australian National University (ANU) research lo…",
+          "category": "SCIENCE",
+          "source": "Phys.org",
+          "sourceUrl": "https://phys.org/news/2026-11-odds-volcano-erupting-salt-lake.html",
+          "url": "https://phys.org/news/2026-11-odds-volcano-erupting-salt-lake.html",
+          "publishedAt": "2026-11-27T12:20:01.000Z",
+          "updatedAt": "2026-11-27T12:39:31.311Z",
           "state": "OBSERVED",
           "signalCategory": "Adaptive Capacity",
           "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
@@ -87,7 +128,7 @@
             "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 80,
+          "confidence": 87,
           "relatedTopics": [
             "Biotechnology"
           ],
@@ -121,26 +162,27 @@
           }
         },
         {
-          "title": "Study reveals surge-detachment sequence at Dehdal Glacier in Pamir Mountains",
-          "summary": "Researchers have reconstructed a surge–detachment sequence at Dehdal Glacier in the Pamir Mountains of Tajikistan, revealing how a period of rapid glacier acceleration culminated in two successive large-scale ice-detachm…",
+          "title": "Decoding how fish adapt to varying salt concentrations",
+          "summary": "Freshwater and seawater fishes face different challenges in maintaining the balance of salts and water in their bodies. To survive these changing conditions, they rely on specialized transport proteins in organs like the…",
           "category": "SCIENCE",
           "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-reveals-surge-detachment-sequence-dehdal.html",
-          "url": "https://phys.org/news/2026-11-reveals-surge-detachment-sequence-dehdal.html",
-          "publishedAt": "2026-11-23T18:20:01.000Z",
-          "updatedAt": "2026-11-23T18:23:34.281Z",
+          "sourceUrl": "https://phys.org/news/2026-11-decoding-fish-varying-salt.html",
+          "url": "https://phys.org/news/2026-11-decoding-fish-varying-salt.html",
+          "publishedAt": "2026-11-27T12:10:01.000Z",
+          "updatedAt": "2026-11-27T12:39:31.312Z",
           "state": "OBSERVED",
-          "signalCategory": "Civilization Engineering",
+          "signalCategory": "Infrastructure Formation",
           "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
           "implications": [
-            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "May influence the transition from infrastructure formation knowledge to applied capability.",
             "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
             "Requires continued observation to determine whether the signal develops into durable civilizational capability."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
+          "confidence": 81,
           "relatedTopics": [
-            "AI"
+            "Biotechnology",
+            "Climate and Environment"
           ],
           "relatedOrgans": [
             "observation",
@@ -157,71 +199,73 @@
           "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
           "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
           "score": {
-            "realityDiscovery": 6.2,
-            "capabilityExpansion": 6.7,
-            "infrastructureImpact": 6.7,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.3,
-            "overall": 6.6
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 7.9,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 6.4,
+            "civilizationImpact": 6.9,
+            "overall": 6.3
           }
         },
         {
-          "title": "How self-perception influences the way women view sexualized images",
-          "summary": "Women are frequently sexualized in the media, which leads to their widespread objectification in society and worsens their mental health on a large scale.",
+          "title": "Beeswax and pine link crocodile mummies made centuries apart at one Egyptian site",
+          "summary": "In a practice spanning centuries, ancient Egyptians mummified thousands of crocodiles they associated with Sobek, a god linked to the Nile, fertility and royal power. In one unique example, embalmers from the middle of t…",
           "category": "SCIENCE",
           "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-perception-women-view-sexualized-images.html",
-          "url": "https://phys.org/news/2026-11-perception-women-view-sexualized-images.html",
-          "publishedAt": "2026-11-23T18:00:12.000Z",
-          "updatedAt": "2026-11-23T18:23:34.281Z",
+          "sourceUrl": "https://phys.org/news/2026-11-beeswax-link-crocodile-mummies-centuries.html",
+          "url": "https://phys.org/news/2026-11-beeswax-link-crocodile-mummies-centuries.html",
+          "publishedAt": "2026-11-27T11:00:01.000Z",
+          "updatedAt": "2026-11-27T12:39:31.312Z",
           "state": "OBSERVED",
-          "signalCategory": "Adaptive Capacity",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
           "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
+            "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
+            "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
+            "May expand or constrain the operating freedom of civilization-scale systems."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
           "confidence": 81,
           "relatedTopics": [
-            "Health Systems"
+            "Energy Systems"
           ],
           "relatedOrgans": [
             "observation",
             "understanding",
+            "design",
             "realization",
             "memory"
           ],
           "civilizationDomains": [
             "Science",
             "Technology",
+            "Capital",
             "Law & Governance"
           ],
           "currentStage": "Scientific Discovery",
           "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+          "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+          "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
           "score": {
-            "realityDiscovery": 5.5,
-            "capabilityExpansion": 6,
-            "infrastructureImpact": 6,
-            "synchronizationImpact": 5.5,
-            "adaptiveCapacity": 8.9,
-            "civilizationImpact": 6.9,
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
             "overall": 6.4
           }
         },
         {
-          "title": "Engineering study reshapes understanding of remotely triggered earthquakes",
-          "summary": "Understanding earthquake mechanisms and mitigating earthquake hazards remain a critical global challenge. For decades, seismologists have observed that seismic waves of large earthquakes can trigger seismic activity at d…",
+          "title": "Bacterial colonies turn themselves inside out when oxygen is scarce",
+          "summary": "Bacteria can protect themselves from external threats by forming colonies. The physical principles that govern the structure of such colonies, and in particular their structural transformations, are poorly understood.",
           "category": "SCIENCE",
           "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-reshapes-remotely-triggered-earthquakes.html",
-          "url": "https://phys.org/news/2026-11-reshapes-remotely-triggered-earthquakes.html",
-          "publishedAt": "2026-11-23T18:00:08.000Z",
-          "updatedAt": "2026-11-23T18:23:34.282Z",
+          "sourceUrl": "https://phys.org/news/2026-11-bacterial-colonies-oxygen-scarce.html",
+          "url": "https://phys.org/news/2026-11-bacterial-colonies-oxygen-scarce.html",
+          "publishedAt": "2026-11-27T10:00:05.000Z",
+          "updatedAt": "2026-11-27T12:39:31.312Z",
           "state": "OBSERVED",
           "signalCategory": "Civilization Engineering",
           "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
@@ -231,9 +275,9 @@
             "Requires continued observation to determine whether the signal develops into durable civilizational capability."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
+          "confidence": 81,
           "relatedTopics": [
-            "AI"
+            "General"
           ],
           "relatedOrgans": [
             "observation",
@@ -260,14 +304,14 @@
           }
         },
         {
-          "title": "On Yelp, actions speak louder than words, study reveals",
-          "summary": "As artificial intelligence makes it easier to pump out convincing reviews for restaurants and travel accommodations, a new study from the University of Massachusetts Amherst suggests a better clue to uncovering suspect r…",
+          "title": "New atlas unites nearly 3,500 laser surveys to map forests across 56 countries",
+          "summary": "An international team of researchers led by the University of Bristol in the U.K. has unveiled the Global Canopy Atlas—the largest integrated collection of high-resolution 3D maps of forests, woodlands and savannas ever …",
           "category": "SCIENCE",
           "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-yelp-actions-louder-words-reveals.html",
-          "url": "https://phys.org/news/2026-11-yelp-actions-louder-words-reveals.html",
-          "publishedAt": "2026-11-23T17:50:05.000Z",
-          "updatedAt": "2026-11-23T18:23:34.282Z",
+          "sourceUrl": "https://phys.org/news/2026-11-atlas-laser-surveys-forests-countries.html",
+          "url": "https://phys.org/news/2026-11-atlas-laser-surveys-forests-countries.html",
+          "publishedAt": "2026-11-27T10:00:01.000Z",
+          "updatedAt": "2026-11-27T12:39:31.313Z",
           "state": "OBSERVED",
           "signalCategory": "Civilization Engineering",
           "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
@@ -277,9 +321,9 @@
             "Requires continued observation to determine whether the signal develops into durable civilizational capability."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
+          "confidence": 82,
           "relatedTopics": [
-            "Artificial Intelligence"
+            "General"
           ],
           "relatedOrgans": [
             "observation",
@@ -306,26 +350,165 @@
           }
         },
         {
-          "title": "How Antarctica helped to set Earth's hottest day on record",
-          "summary": "Rivers in the sky bringing moisture to Antarctica during the Southern Hemisphere winter help explain short-term peaks in the world's average temperature, new research has found.",
+          "title": "Context Scaling: A New Frontier of AI Scaling",
+          "summary": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant …",
           "category": "SCIENCE",
-          "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-antarctica-earth-hottest-day.html",
-          "url": "https://phys.org/news/2026-11-antarctica-earth-hottest-day.html",
-          "publishedAt": "2026-11-23T17:40:09.000Z",
-          "updatedAt": "2026-11-23T18:23:34.282Z",
-          "state": "OBSERVED",
-          "signalCategory": "Adaptive Capacity",
-          "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+          "source": "arXiv AI",
+          "sourceUrl": "https://arxiv.org/abs/2611.33160",
+          "url": "https://arxiv.org/abs/2611.33160",
+          "publishedAt": "2026-11-27T05:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.313Z",
+          "state": "DEPLOYING",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
           "implications": [
-            "May improve environmental sensing, climate adaptation, resource management, or disaster resilience.",
-            "Could affect urban systems, water, food, public health, infrastructure, and regional stability.",
-            "May strengthen civilization's ability to operate under planetary uncertainty."
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
           ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 87,
+          "uncertainty": "The capability appears to have entered deployment or operational use. The principal uncertainty concerns scale, durability, cost, institutional adoption, and long-term system effects.",
+          "confidence": 81,
           "relatedTopics": [
-            "Climate and Environment"
+            "Artificial Intelligence"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scaling / Infrastructure",
+          "expectedHorizon": "0–3 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.6,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.6,
+            "overall": 6.5
+          }
+        },
+        {
+          "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+          "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has…",
+          "category": "SCIENCE",
+          "source": "arXiv AI",
+          "sourceUrl": "https://arxiv.org/abs/2611.33161",
+          "url": "https://arxiv.org/abs/2611.33161",
+          "publishedAt": "2026-11-27T05:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.314Z",
+          "state": "PROCESSING",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+          "confidence": 81,
+          "relatedTopics": [
+            "Artificial Intelligence"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Applied Research",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.6,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.6,
+            "overall": 6.5
+          }
+        },
+        {
+          "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+          "summary": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated the…",
+          "category": "SCIENCE",
+          "source": "arXiv AI",
+          "sourceUrl": "https://arxiv.org/abs/2611.33165",
+          "url": "https://arxiv.org/abs/2611.33165",
+          "publishedAt": "2026-11-27T05:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.314Z",
+          "state": "PROCESSING",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+          "confidence": 81,
+          "relatedTopics": [
+            "Artificial Intelligence"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Applied Research",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.6,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.6,
+            "overall": 6.5
+          }
+        },
+        {
+          "title": "General-Purpose Decision Models for AI Configuration Tuning",
+          "summary": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies,…",
+          "category": "SCIENCE",
+          "source": "arXiv AI",
+          "sourceUrl": "https://arxiv.org/abs/2611.33190",
+          "url": "https://arxiv.org/abs/2611.33190",
+          "publishedAt": "2026-11-27T05:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.314Z",
+          "state": "PROCESSING",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+          "implications": [
+            "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
+            "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
+            "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
+          ],
+          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+          "confidence": 81,
+          "relatedTopics": [
+            "Artificial Intelligence",
+            "Biotechnology"
           ],
           "relatedOrgans": [
             "observation",
@@ -338,32 +521,373 @@
           "civilizationDomains": [
             "Science",
             "Technology",
-            "Law & Governance"
+            "Law & Governance",
+            "Capital",
+            "Education & Knowledge"
           ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "10–30 Years",
-          "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-          "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+          "currentStage": "Applied Research",
+          "expectedHorizon": "5–15 Years",
+          "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+          "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
           "score": {
             "realityDiscovery": 5.9,
             "capabilityExpansion": 5.5,
             "infrastructureImpact": 5.5,
             "synchronizationImpact": 5.5,
-            "adaptiveCapacity": 8,
-            "civilizationImpact": 6.8,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 7.2,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+          "summary": "arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful c…",
+          "category": "SCIENCE",
+          "source": "arXiv AI",
+          "sourceUrl": "https://arxiv.org/abs/2611.33263",
+          "url": "https://arxiv.org/abs/2611.33263",
+          "publishedAt": "2026-11-27T05:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.315Z",
+          "state": "PROCESSING",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+          "implications": [
+            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
+            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
+            "May influence healthspan, adaptive capacity, and the continuity of human capability."
+          ],
+          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+          "confidence": 81,
+          "relatedTopics": [
+            "Artificial Intelligence",
+            "Health Systems"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "realization",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Law & Governance"
+          ],
+          "currentStage": "Applied Research",
+          "expectedHorizon": "5–15 Years",
+          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+          "score": {
+            "realityDiscovery": 5.9,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 7.2,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+          "summary": "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sam…",
+          "category": "SCIENCE",
+          "source": "arXiv AI",
+          "sourceUrl": "https://arxiv.org/abs/2611.33303",
+          "url": "https://arxiv.org/abs/2611.33303",
+          "publishedAt": "2026-11-27T05:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.315Z",
+          "state": "PROCESSING",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+          "implications": [
+            "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
+            "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
+            "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
+          ],
+          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+          "confidence": 88,
+          "relatedTopics": [
+            "Artificial Intelligence",
+            "Biotechnology"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "reasoning",
+            "design",
+            "realization",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Law & Governance",
+            "Capital",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Applied Research",
+          "expectedHorizon": "5–15 Years",
+          "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+          "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+          "score": {
+            "realityDiscovery": 5.9,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 7.2,
+            "overall": 6.4
+          }
+        }
+      ]
+    },
+    "engineering": {
+      "latest": {
+        "title": "Our 2027 Innovators Under 35 competition is now open",
+        "summary": "Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition i…",
+        "category": "ENGINEERING",
+        "source": "MIT Technology Review",
+        "sourceUrl": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+        "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+        "publishedAt": "2026-11-27T10:48:47.000Z",
+        "updatedAt": "2026-11-27T12:39:31.315Z",
+        "state": "OBSERVED",
+        "signalCategory": "Civilization Engineering",
+        "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+        "implications": [
+          "May influence the transition from civilization engineering knowledge to applied capability.",
+          "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+          "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+        ],
+        "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+        "confidence": 81,
+        "relatedTopics": [
+          "General"
+        ],
+        "relatedOrgans": [
+          "observation",
+          "understanding",
+          "memory"
+        ],
+        "civilizationDomains": [
+          "Science",
+          "Technology",
+          "Education & Knowledge"
+        ],
+        "currentStage": "Scientific Discovery",
+        "expectedHorizon": "10–30 Years",
+        "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+        "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+        "score": {
+          "realityDiscovery": 6.2,
+          "capabilityExpansion": 6.2,
+          "infrastructureImpact": 6.2,
+          "synchronizationImpact": 6.2,
+          "adaptiveCapacity": 6.2,
+          "civilizationImpact": 7.3,
+          "overall": 6.4
+        }
+      },
+      "items": [
+        {
+          "title": "Our 2027 Innovators Under 35 competition is now open",
+          "summary": "Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition i…",
+          "category": "ENGINEERING",
+          "source": "MIT Technology Review",
+          "sourceUrl": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+          "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+          "publishedAt": "2026-11-27T10:48:47.000Z",
+          "updatedAt": "2026-11-27T12:39:31.315Z",
+          "state": "OBSERVED",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 81,
+          "relatedTopics": [
+            "General"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "How cutting-edge prosthetics can help probe the human mind",
+          "summary": "Over the last few weeks, I’ve been talking to Alexander (Avi) Davidson. There are a lot of remarkable things about Avi. He sustained a horrific injury as a teenager, which left him paralyzed and without a left hand. Toda…",
+          "category": "ENGINEERING",
+          "source": "MIT Technology Review",
+          "sourceUrl": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+          "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+          "publishedAt": "2026-11-27T10:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.316Z",
+          "state": "OBSERVED",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 81,
+          "relatedTopics": [
+            "AI"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "Pregnancy is the ‘perfect storm’ for eating disorders, but doctors keep missing them",
+          "summary": "Many women struggle with eating disorders before and after childbirth, but they often slip through the cracks of the U.S. health care system.",
+          "category": "ENGINEERING",
+          "source": "STAT",
+          "sourceUrl": "https://www.statnews.com/2026/11/27/pregnancy-eating-disorders-expanded-doctor-screening-needed/?utm_campaign=rss",
+          "url": "https://www.statnews.com/2026/11/27/pregnancy-eating-disorders-expanded-doctor-screening-needed/?utm_campaign=rss",
+          "publishedAt": "2026-11-27T09:30:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.316Z",
+          "state": "PROCESSING",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+          "implications": [
+            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
+            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
+            "May influence healthspan, adaptive capacity, and the continuity of human capability."
+          ],
+          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+          "confidence": 80,
+          "relatedTopics": [
+            "Health Systems",
+            "Climate and Environment"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "realization",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Law & Governance"
+          ],
+          "currentStage": "Applied Research",
+          "expectedHorizon": "5–15 Years",
+          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+          "score": {
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 6.9,
             "overall": 6.2
           }
         },
         {
-          "title": "AI-assisted method advances high-resolution structure classification of membrane proteins in vesicles",
-          "summary": "Researchers at the Institute of Biophysics of the Chinese Academy of Sciences have developed an AI-assisted method for determining the three-dimensional structures of proteins embedded in membranes. The method, called is…",
-          "category": "SCIENCE",
-          "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-ai-method-advances-high-resolution.html",
-          "url": "https://phys.org/news/2026-11-ai-method-advances-high-resolution.html",
-          "publishedAt": "2026-11-23T17:20:12.000Z",
-          "updatedAt": "2026-11-23T18:23:34.283Z",
-          "state": "PROCESSING",
+          "title": "Opinion: Montana’s ‘right to try’ law makes patients responsible for bearing costs — and risks",
+          "summary": "Montana has become the first state to have its own ‘right to try’ law, but important questions remain, researchers write.",
+          "category": "ENGINEERING",
+          "source": "STAT",
+          "sourceUrl": "https://www.statnews.com/2026/11/27/montana-sb-535-right-to-try-questions-risks-costs-insurance/?utm_campaign=rss",
+          "url": "https://www.statnews.com/2026/11/27/montana-sb-535-right-to-try-questions-risks-costs-insurance/?utm_campaign=rss",
+          "publishedAt": "2026-11-27T09:30:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.316Z",
+          "state": "OBSERVED",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+          "implications": [
+            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
+            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
+            "May influence healthspan, adaptive capacity, and the continuity of human capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 88,
+          "relatedTopics": [
+            "Health Systems",
+            "Governance and Law",
+            "Security and Risk"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "realization",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Law & Governance"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "5–15 Years",
+          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+          "score": {
+            "realityDiscovery": 5.9,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 7.2,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "APOD: 2026 November 27 – The Moon Watchers",
+          "summary": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+          "category": "ENGINEERING",
+          "source": "NASA",
+          "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+          "publishedAt": "2026-11-27T05:05:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.316Z",
+          "state": "OBSERVED",
           "signalCategory": "Reality Discovery",
           "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
           "implications": [
@@ -371,10 +895,196 @@
             "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
             "Requires continued observation to determine whether the signal develops into durable civilizational capability."
           ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 81,
+          "relatedTopics": [
+            "General"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 8.7,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.9,
+            "adaptiveCapacity": 5.5,
+            "civilizationImpact": 6.3,
+            "overall": 6.3
+          }
+        },
+        {
+          "title": "Shivelyuch Socked In",
+          "summary": "A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.",
+          "category": "ENGINEERING",
+          "source": "NASA",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+          "url": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+          "publishedAt": "2026-11-27T05:01:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.317Z",
+          "state": "OBSERVED",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 81,
+          "relatedTopics": [
+            "General"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "Molecular locking of lithium ions for improved efficiency and stability of perovskite solar cells",
+          "summary": "Analysis is currently being processed.",
+          "category": "ENGINEERING",
+          "source": "Nature Energy",
+          "sourceUrl": "https://www.nature.com/articles/s41560-026-02173-9",
+          "url": "https://www.nature.com/articles/s41560-026-02173-9",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.317Z",
+          "state": "OBSERVED",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+          "implications": [
+            "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
+            "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
+            "May expand or constrain the operating freedom of civilization-scale systems."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 73,
+          "relatedTopics": [
+            "Biotechnology"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "design",
+            "realization",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Capital",
+            "Law & Governance"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "5–15 Years",
+          "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+          "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+          "score": {
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 6.9,
+            "overall": 6.2
+          }
+        },
+        {
+          "title": "Regulation of proton transference for stable and efficient reactive capture of CO<sub>2</sub> from air",
+          "summary": "Analysis is currently being processed.",
+          "category": "ENGINEERING",
+          "source": "Nature Energy",
+          "sourceUrl": "https://www.nature.com/articles/s41560-026-02158-8",
+          "url": "https://www.nature.com/articles/s41560-026-02158-8",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.317Z",
+          "state": "OBSERVED",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 74,
+          "relatedTopics": [
+            "Governance and Law"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+          "summary": "Researchers engineered a protein system capable of restoring normal chromosome connections in aging mouse eggs, raising hopes of one day improving IVF outcomes",
+          "category": "ENGINEERING",
+          "source": "STAT",
+          "sourceUrl": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss",
+          "url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss",
+          "publishedAt": "2026-11-26T19:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.317Z",
+          "state": "PROCESSING",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
           "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
           "confidence": 88,
           "relatedTopics": [
-            "Artificial Intelligence",
             "Biotechnology"
           ],
           "relatedOrgans": [
@@ -392,52 +1102,6 @@
           "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
           "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
           "score": {
-            "realityDiscovery": 8.7,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 5.5,
-            "synchronizationImpact": 5.9,
-            "adaptiveCapacity": 5.5,
-            "civilizationImpact": 6.3,
-            "overall": 6.3
-          }
-        },
-        {
-          "title": "One random shot or none: A mathematical proof for learning a physical system from one experiment",
-          "summary": "Some experiments provide only one chance to gather data, but that one shot can be enough for scientists to learn the equations governing a physical system, Cornell researchers have found. They offer a mathematical founda…",
-          "category": "SCIENCE",
-          "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-random-shot-mathematical-proof-physical.html",
-          "url": "https://phys.org/news/2026-11-random-shot-mathematical-proof-physical.html",
-          "publishedAt": "2026-11-23T17:20:09.000Z",
-          "updatedAt": "2026-11-23T18:23:34.283Z",
-          "state": "PROCESSING",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-          "implications": [
-            "May influence the transition from civilization engineering knowledge to applied capability.",
-            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-          ],
-          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-          "confidence": 88,
-          "relatedTopics": [
-            "General"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Education & Knowledge"
-          ],
-          "currentStage": "Applied Research",
-          "expectedHorizon": "10–30 Years",
-          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-          "score": {
             "realityDiscovery": 6.2,
             "capabilityExpansion": 6.2,
             "infrastructureImpact": 6.2,
@@ -448,446 +1112,14 @@
           }
         },
         {
-          "title": "Image: Curiosity spots drifting twilight clouds",
-          "summary": "NASA's Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, w…",
-          "category": "SCIENCE",
-          "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-image-curiosity-drifting-twilight-clouds.html",
-          "url": "https://phys.org/news/2026-11-image-curiosity-drifting-twilight-clouds.html",
-          "publishedAt": "2026-11-23T17:10:02.000Z",
-          "updatedAt": "2026-11-23T18:23:34.284Z",
-          "state": "OBSERVED",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-          "implications": [
-            "May strengthen orbital sensing, communications, navigation, logistics, or off-Earth operations.",
-            "Could affect space governance, launch infrastructure, strategic coordination, and planetary observation.",
-            "May contribute to civilization becoming less dependent on a single planetary operating environment."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 81,
-          "relatedTopics": [
-            "Space Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "design",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Space",
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–20 Years",
-          "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-          "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-          "score": {
-            "realityDiscovery": 6.2,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.3,
-            "overall": 6.4
-          }
-        },
-        {
-          "title": "Rocket mission puts a new protective coating for space medicine to the test—and it holds up",
-          "summary": "In an international space experiment led by Adelaide University and conducted in partnership with the German Aerospace Center (DLR), researchers sent experimental medicines more than 300 kilometers (186 miles) above Eart…",
-          "category": "SCIENCE",
-          "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-rocket-mission-coating-space-medicine.html",
-          "url": "https://phys.org/news/2026-11-rocket-mission-coating-space-medicine.html",
-          "publishedAt": "2026-11-23T17:00:16.000Z",
-          "updatedAt": "2026-11-23T18:23:34.284Z",
-          "state": "OBSERVED",
-          "signalCategory": "Reality Discovery",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
-          "relatedTopics": [
-            "Space Systems",
-            "Health Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-          "score": {
-            "realityDiscovery": 8.3,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 5.5,
-            "synchronizationImpact": 5.5,
-            "adaptiveCapacity": 6.4,
-            "civilizationImpact": 7,
-            "overall": 6.4
-          }
-        },
-        {
-          "title": "Iron single-atom nanozymes enable sustainable catalysis for tumor therapy",
-          "summary": "A research team led by Professor Wang Hui at the Hefei Institutes of Physical Science (HFIPS) of the Chinese Academy of Sciences (CAS), in collaboration with Professor Fan Kelong's group at the Institute of Biophysics (I…",
-          "category": "SCIENCE",
-          "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-iron-atom-nanozymes-enable-sustainable.html",
-          "url": "https://phys.org/news/2026-11-iron-atom-nanozymes-enable-sustainable.html",
-          "publishedAt": "2026-11-23T16:40:24.000Z",
-          "updatedAt": "2026-11-23T18:23:34.284Z",
-          "state": "OBSERVED",
-          "signalCategory": "Reality Discovery",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
-          "relatedTopics": [
-            "Health Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-          "score": {
-            "realityDiscovery": 8.7,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 5.5,
-            "synchronizationImpact": 5.9,
-            "adaptiveCapacity": 5.5,
-            "civilizationImpact": 6.3,
-            "overall": 6.3
-          }
-        },
-        {
-          "title": "How looming deadlines may flip the brain's view of hard work",
-          "summary": "If you've ever wondered how people manage to pull an \"all-nighter\" working all-out on an essay or report, new research has found what is going on in our brains when a deadline looms. The new study, published in Nature Co…",
-          "category": "SCIENCE",
-          "source": "Phys.org",
-          "sourceUrl": "https://phys.org/news/2026-11-looming-deadlines-flip-brain-view.html",
-          "url": "https://phys.org/news/2026-11-looming-deadlines-flip-brain-view.html",
-          "publishedAt": "2026-11-23T16:40:07.000Z",
-          "updatedAt": "2026-11-23T18:23:34.285Z",
-          "state": "OBSERVED",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-          "implications": [
-            "May influence the transition from civilization engineering knowledge to applied capability.",
-            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 82,
-          "relatedTopics": [
-            "AI"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Education & Knowledge"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "10–30 Years",
-          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-          "score": {
-            "realityDiscovery": 6.6,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.6,
-            "overall": 6.5
-          }
-        }
-      ]
-    },
-    "engineering": {
-      "latest": {
-        "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-        "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be co…",
-        "category": "ENGINEERING",
-        "source": "MIT Technology Review",
-        "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-        "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-        "publishedAt": "2026-11-23T17:36:08.000Z",
-        "updatedAt": "2026-11-23T18:23:34.285Z",
-        "state": "OBSERVED",
-        "signalCategory": "Civilization Engineering",
-        "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-        "implications": [
-          "May influence the transition from civilization engineering knowledge to applied capability.",
-          "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-          "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-        ],
-        "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-        "confidence": 75,
-        "relatedTopics": [
-          "Artificial Intelligence"
-        ],
-        "relatedOrgans": [
-          "observation",
-          "understanding",
-          "memory"
-        ],
-        "civilizationDomains": [
-          "Science",
-          "Technology",
-          "Education & Knowledge"
-        ],
-        "currentStage": "Scientific Discovery",
-        "expectedHorizon": "10–30 Years",
-        "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-        "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-        "score": {
-          "realityDiscovery": 6.6,
-          "capabilityExpansion": 6.2,
-          "infrastructureImpact": 6.2,
-          "synchronizationImpact": 6.2,
-          "adaptiveCapacity": 6.2,
-          "civilizationImpact": 7.6,
-          "overall": 6.5
-        }
-      },
-      "items": [
-        {
-          "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be co…",
+          "title": "The ‘bare-knuckled’ future of life in space with Tim Marshall",
+          "summary": "In this episode, Mike Gruss speaks with journalist and best-selling author Tim Marshall. They discuss how the war in Ukraine represented a wakeup call for how Europe and the United […] The post The ‘bare-knuckled’ future…",
           "category": "ENGINEERING",
-          "source": "MIT Technology Review",
-          "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-          "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-          "publishedAt": "2026-11-23T17:36:08.000Z",
-          "updatedAt": "2026-11-23T18:23:34.285Z",
-          "state": "OBSERVED",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-          "implications": [
-            "May influence the transition from civilization engineering knowledge to applied capability.",
-            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 75,
-          "relatedTopics": [
-            "Artificial Intelligence"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Education & Knowledge"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "10–30 Years",
-          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-          "score": {
-            "realityDiscovery": 6.6,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.6,
-            "overall": 6.5
-          }
-        },
-        {
-          "title": "Studying Cancer Cells in Microgravity",
-          "summary": "This Nov. 19, 2026, image shows gastric microtumors grown within an Encapsulates biochip. The Encapsulate-1 investigation studies patient-derived tumor samples aboard the International Space Station to better understand …",
-          "category": "ENGINEERING",
-          "source": "NASA",
-          "sourceUrl": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
-          "url": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
-          "publishedAt": "2026-11-23T17:28:37.000Z",
-          "updatedAt": "2026-11-23T18:23:34.286Z",
-          "state": "OBSERVED",
-          "signalCategory": "Reality Discovery",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
-          "relatedTopics": [
-            "Advanced Computing",
-            "Space Systems",
-            "Biotechnology",
-            "Health Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-          "score": {
-            "realityDiscovery": 8.7,
-            "capabilityExpansion": 6.3,
-            "infrastructureImpact": 6,
-            "synchronizationImpact": 5.9,
-            "adaptiveCapacity": 6.4,
-            "civilizationImpact": 6.7,
-            "overall": 6.7
-          }
-        },
-        {
-          "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon ",
-          "summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor…",
-          "category": "ENGINEERING",
-          "source": "NASA",
-          "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
-          "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
-          "publishedAt": "2026-11-23T17:23:50.000Z",
-          "updatedAt": "2026-11-23T18:23:34.286Z",
-          "state": "PROCESSING",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-          "implications": [
-            "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
-            "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
-            "May expand or constrain the operating freedom of civilization-scale systems."
-          ],
-          "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-          "confidence": 81,
-          "relatedTopics": [
-            "Energy Systems",
-            "Space Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "design",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Capital",
-            "Law & Governance"
-          ],
-          "currentStage": "Applied Research",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-          "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-          "score": {
-            "realityDiscovery": 6.6,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.6,
-            "overall": 6.5
-          }
-        },
-        {
-          "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
-          "summary": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the nex…",
-          "category": "ENGINEERING",
-          "source": "NVIDIA",
-          "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
-          "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
-          "publishedAt": "2026-11-23T17:00:08.000Z",
-          "updatedAt": "2026-11-23T18:23:34.286Z",
-          "state": "OBSERVED",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-          "implications": [
-            "May influence the transition from civilization engineering knowledge to applied capability.",
-            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 81,
-          "relatedTopics": [
-            "General"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Education & Knowledge"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "10–30 Years",
-          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-          "score": {
-            "realityDiscovery": 6.2,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.3,
-            "overall": 6.4
-          }
-        },
-        {
-          "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
-          "summary": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The E…",
-          "category": "ENGINEERING",
-          "source": "NASA",
-          "sourceUrl": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
-          "url": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
-          "publishedAt": "2026-11-23T16:08:23.000Z",
-          "updatedAt": "2026-11-23T18:23:34.287Z",
+          "source": "SpaceNews",
+          "sourceUrl": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
+          "url": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
+          "publishedAt": "2026-11-26T17:53:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.318Z",
           "state": "OBSERVED",
           "signalCategory": "Reality Discovery",
           "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
@@ -899,7 +1131,8 @@
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
           "confidence": 80,
           "relatedTopics": [
-            "Space Systems"
+            "Space Systems",
+            "Security and Risk"
           ],
           "relatedOrgans": [
             "observation",
@@ -929,157 +1162,14 @@
           }
         },
         {
-          "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
-          "summary": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massiv…",
+          "title": "Update 377 – IAEA Director General Statement on Situation in Ukraine",
+          "summary": "Analysis is currently being processed.",
           "category": "ENGINEERING",
-          "source": "NASA",
-          "sourceUrl": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
-          "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
-          "publishedAt": "2026-11-23T15:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.287Z",
-          "state": "OBSERVED",
-          "signalCategory": "Reality Discovery",
-          "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-          "implications": [
-            "May strengthen orbital sensing, communications, navigation, logistics, or off-Earth operations.",
-            "Could affect space governance, launch infrastructure, strategic coordination, and planetary observation.",
-            "May contribute to civilization becoming less dependent on a single planetary operating environment."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 81,
-          "relatedTopics": [
-            "Space Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "design",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Space",
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–20 Years",
-          "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-          "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-          "score": {
-            "realityDiscovery": 8.7,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 5.5,
-            "synchronizationImpact": 5.9,
-            "adaptiveCapacity": 5.5,
-            "civilizationImpact": 6.3,
-            "overall": 6.3
-          }
-        },
-        {
-          "title": "STAT+: A big win for a potential competitor for Dupixent eczema treatment",
-          "summary": "Kymera Therapeutics has a shot at giving eczema patients Dupixent-like relief in a pill, a new 244-patient Phase 2 trial finds:",
-          "category": "ENGINEERING",
-          "source": "STAT",
-          "sourceUrl": "https://www.statnews.com/2026/11/23/biotech-news-a-big-win-for-potential-dupixent-competitor-eczema-treatment/?utm_campaign=rss",
-          "url": "https://www.statnews.com/2026/11/23/biotech-news-a-big-win-for-potential-dupixent-competitor-eczema-treatment/?utm_campaign=rss",
-          "publishedAt": "2026-11-23T14:43:21.000Z",
-          "updatedAt": "2026-11-23T18:23:34.287Z",
-          "state": "VALIDATING",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "The signal remains dependent on prototype performance, independent validation, scaling economics, regulatory conditions, and repeatability outside controlled environments.",
-          "confidence": 88,
-          "relatedTopics": [
-            "Health Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Prototype / Pilot",
-          "expectedHorizon": "3–10 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-          "score": {
-            "realityDiscovery": 6.6,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.6,
-            "overall": 6.5
-          }
-        },
-        {
-          "title": "STAT+: Pharmalittle: We’re reading about Capricor’s Duchenne drug, Lilly’s 15th acquisition of 2026, and more",
-          "summary": "The FDA again rejected a hotly debated experimental Duchenne muscular dystrophy drug from Capricor Therapeutics",
-          "category": "ENGINEERING",
-          "source": "STAT",
-          "sourceUrl": "https://www.statnews.com/pharmalot/2026/11/23/fda-rejects-capricor-duchenne-drug-lilly-acquires-loqus23-therapeutics/?utm_campaign=rss",
-          "url": "https://www.statnews.com/pharmalot/2026/11/23/fda-rejects-capricor-duchenne-drug-lilly-acquires-loqus23-therapeutics/?utm_campaign=rss",
-          "publishedAt": "2026-11-23T14:38:08.000Z",
-          "updatedAt": "2026-11-23T18:23:34.288Z",
-          "state": "OBSERVED",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
-          "relatedTopics": [
-            "AI"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-          "score": {
-            "realityDiscovery": 6.2,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.3,
-            "overall": 6.4
-          }
-        },
-        {
-          "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
-          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the A…",
-          "category": "ENGINEERING",
-          "source": "MIT Technology Review",
-          "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
-          "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
-          "publishedAt": "2026-11-23T13:10:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.288Z",
+          "source": "IAEA News",
+          "sourceUrl": "http://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine",
+          "url": "http://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine",
+          "publishedAt": "2026-11-26T16:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.318Z",
           "state": "OBSERVED",
           "signalCategory": "Adaptive Capacity",
           "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
@@ -1089,9 +1179,9 @@
             "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 87,
+          "confidence": 73,
           "relatedTopics": [
-            "Artificial Intelligence"
+            "Biotechnology"
           ],
           "relatedOrgans": [
             "observation",
@@ -1113,71 +1203,24 @@
           "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
           "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
           "score": {
-            "realityDiscovery": 5.9,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 5.5,
-            "synchronizationImpact": 5.5,
-            "adaptiveCapacity": 8,
-            "civilizationImpact": 6.8,
-            "overall": 6.2
-          }
-        },
-        {
-          "title": "At first preventive services panel meeting in more than a year, votes are cast in private",
-          "summary": "In its first meeting since 2025, an influential panel of doctors evaluating preventive medical care grappled with the ways RFK Jr. has upended science and medicine:",
-          "category": "ENGINEERING",
-          "source": "STAT",
-          "sourceUrl": "https://www.statnews.com/2026/11/23/health-news-preventive-services-panel-votes-cast-in-private/?utm_campaign=rss",
-          "url": "https://www.statnews.com/2026/11/23/health-news-preventive-services-panel-votes-cast-in-private/?utm_campaign=rss",
-          "publishedAt": "2026-11-23T13:04:19.000Z",
-          "updatedAt": "2026-11-23T18:23:34.288Z",
-          "state": "OBSERVED",
-          "signalCategory": "Adaptive Capacity",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 81,
-          "relatedTopics": [
-            "Health Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-          "score": {
-            "realityDiscovery": 5.9,
+            "realityDiscovery": 5.5,
             "capabilityExpansion": 5.5,
             "infrastructureImpact": 5.5,
             "synchronizationImpact": 5.5,
             "adaptiveCapacity": 8.9,
-            "civilizationImpact": 7.2,
-            "overall": 6.4
+            "civilizationImpact": 6.9,
+            "overall": 6.2
           }
         },
         {
-          "title": "STAT+: Invivyd reports positive results in Sisyphean Covid antibody quest",
-          "summary": "The biotech Invivyd reported that its monoclonal antibody strongly protected people from Covid. Is there a market for it?",
+          "title": "Come for the Games, Stay for the Community With GeForce NOW",
+          "summary": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbie…",
           "category": "ENGINEERING",
-          "source": "STAT",
-          "sourceUrl": "https://www.statnews.com/2026/11/23/invivyd-covid-monoclonal-antibody-declaration-trial-vyd2311/?utm_campaign=rss",
-          "url": "https://www.statnews.com/2026/11/23/invivyd-covid-monoclonal-antibody-declaration-trial-vyd2311/?utm_campaign=rss",
-          "publishedAt": "2026-11-23T12:01:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.288Z",
+          "source": "NVIDIA",
+          "sourceUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+          "publishedAt": "2026-11-26T14:00:22.000Z",
+          "updatedAt": "2026-11-27T12:39:31.318Z",
           "state": "OBSERVED",
           "signalCategory": "Civilization Engineering",
           "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
@@ -1187,9 +1230,9 @@
             "Requires continued observation to determine whether the signal develops into durable civilizational capability."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 88,
+          "confidence": 81,
           "relatedTopics": [
-            "Bio"
+            "General"
           ],
           "relatedOrgans": [
             "observation",
@@ -1205,53 +1248,6 @@
           "expectedHorizon": "10–30 Years",
           "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
           "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-          "score": {
-            "realityDiscovery": 6.2,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.3,
-            "overall": 6.4
-          }
-        },
-        {
-          "title": "STAT+: Kymera Therapeutics reports mid-stage eczema trial success for would-be Dupixent rival",
-          "summary": "Kymera Therapeutics announced on Monday that its experimental therapy effectively and safely treated eczema patients’ itchy, inflamed skin.",
-          "category": "ENGINEERING",
-          "source": "STAT",
-          "sourceUrl": "https://www.statnews.com/2026/11/23/kymera-therapeutics-eczema-trial-success-potential-dupixent-rival/?utm_campaign=rss",
-          "url": "https://www.statnews.com/2026/11/23/kymera-therapeutics-eczema-trial-success-potential-dupixent-rival/?utm_campaign=rss",
-          "publishedAt": "2026-11-23T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.289Z",
-          "state": "VALIDATING",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "The signal remains dependent on prototype performance, independent validation, scaling economics, regulatory conditions, and repeatability outside controlled environments.",
-          "confidence": 88,
-          "relatedTopics": [
-            "Health Systems"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Prototype / Pilot",
-          "expectedHorizon": "3–10 Years",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
           "score": {
             "realityDiscovery": 6.2,
             "capabilityExpansion": 6.2,
@@ -1266,164 +1262,61 @@
     },
     "governance": {
       "latest": {
-        "title": "Security Council LIVE: Winter attacks on Ukraine's power grid and Black Sea shipping threaten lives and global food supplies",
-        "summary": "As winter sets in, the Security Council is holding a high stakes meeting Monday to discuss how Russian attacks on Ukraine's energy grid are leaving civilians without heat, power and water. It will also look at how strike…",
+        "title": "Putting survivors at the centre of gender-based violence services",
+        "summary": "Reaching out for help can be an enormous step for survivors of gender-based violence (GBV), and what happens after walking through the doors of a support service can shape the path towards recovery and safety",
         "category": "GOVERNANCE",
         "source": "United Nations News",
-        "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168859",
-        "url": "https://news.un.org/feed/view/en/story/2026/11/1168859",
-        "publishedAt": "2026-11-23T12:00:00.000Z",
-        "updatedAt": "2026-11-23T18:23:34.289Z",
+        "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168885",
+        "url": "https://news.un.org/feed/view/en/story/2026/11/1168885",
+        "publishedAt": "2026-11-27T12:00:00.000Z",
+        "updatedAt": "2026-11-27T12:39:31.319Z",
         "state": "OBSERVED",
-        "signalCategory": "Infrastructure Formation",
-        "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+        "signalCategory": "Civilization Engineering",
+        "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
         "implications": [
-          "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
-          "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
-          "May expand or constrain the operating freedom of civilization-scale systems."
+          "May influence the transition from civilization engineering knowledge to applied capability.",
+          "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+          "Requires continued observation to determine whether the signal develops into durable civilizational capability."
         ],
         "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
         "confidence": 81,
         "relatedTopics": [
-          "Energy Systems",
-          "Climate and Environment",
-          "Security and Risk"
+          "General"
         ],
         "relatedOrgans": [
           "observation",
           "understanding",
-          "design",
-          "realization",
           "memory"
         ],
         "civilizationDomains": [
           "Science",
           "Technology",
-          "Capital",
-          "Law & Governance"
+          "Education & Knowledge"
         ],
         "currentStage": "Scientific Discovery",
-        "expectedHorizon": "5–15 Years",
-        "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-        "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+        "expectedHorizon": "10–30 Years",
+        "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+        "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
         "score": {
-          "realityDiscovery": 5.5,
-          "capabilityExpansion": 5.5,
-          "infrastructureImpact": 8.7,
-          "synchronizationImpact": 5.9,
-          "adaptiveCapacity": 6.4,
-          "civilizationImpact": 6.9,
-          "overall": 6.5
+          "realityDiscovery": 6.2,
+          "capabilityExpansion": 6.2,
+          "infrastructureImpact": 6.2,
+          "synchronizationImpact": 6.2,
+          "adaptiveCapacity": 6.2,
+          "civilizationImpact": 7.3,
+          "overall": 6.4
         }
       },
       "items": [
         {
-          "title": "Security Council LIVE: Winter attacks on Ukraine's power grid and Black Sea shipping threaten lives and global food supplies",
-          "summary": "As winter sets in, the Security Council is holding a high stakes meeting Monday to discuss how Russian attacks on Ukraine's energy grid are leaving civilians without heat, power and water. It will also look at how strike…",
+          "title": "Putting survivors at the centre of gender-based violence services",
+          "summary": "Reaching out for help can be an enormous step for survivors of gender-based violence (GBV), and what happens after walking through the doors of a support service can shape the path towards recovery and safety",
           "category": "GOVERNANCE",
           "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168859",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168859",
-          "publishedAt": "2026-11-23T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.289Z",
-          "state": "OBSERVED",
-          "signalCategory": "Infrastructure Formation",
-          "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-          "implications": [
-            "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
-            "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
-            "May expand or constrain the operating freedom of civilization-scale systems."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 81,
-          "relatedTopics": [
-            "Energy Systems",
-            "Climate and Environment",
-            "Security and Risk"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "design",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Capital",
-            "Law & Governance"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-          "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-          "score": {
-            "realityDiscovery": 5.5,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 8.7,
-            "synchronizationImpact": 5.9,
-            "adaptiveCapacity": 6.4,
-            "civilizationImpact": 6.9,
-            "overall": 6.5
-          }
-        },
-        {
-          "title": "Heavy fighting in Ituri traps DR Congo Ebola responders: WHO",
-          "summary": "Heavy fighting near a hospital in Ituri province in the Democratic Republic of the Congo (DRC) has disrupted the vital work of Ebola responders and forced emergency teams to take cover for more than 24 hours.",
-          "category": "GOVERNANCE",
-          "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168858",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168858",
-          "publishedAt": "2026-11-23T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.289Z",
-          "state": "OBSERVED",
-          "signalCategory": "Infrastructure Formation",
-          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-          "implications": [
-            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-            "May influence healthspan, adaptive capacity, and the continuity of human capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 81,
-          "relatedTopics": [
-            "General"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance"
-          ],
-          "currentStage": "Active System Stress",
-          "expectedHorizon": "Immediate / Ongoing",
-          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-          "score": {
-            "realityDiscovery": 5.5,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 8.7,
-            "synchronizationImpact": 5.9,
-            "adaptiveCapacity": 5.5,
-            "civilizationImpact": 6.5,
-            "overall": 6.3
-          }
-        },
-        {
-          "title": "Libya: UN mission urges probe into Benghazi port attacks",
-          "summary": "The UN Support Mission in Libya (UNSMIL) has called for an independent investigation into attacks carried out at Benghazi port and off the coast of the eastern city on Sunday.",
-          "category": "GOVERNANCE",
-          "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168857",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168857",
-          "publishedAt": "2026-11-23T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.290Z",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168885",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168885",
+          "publishedAt": "2026-11-27T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.319Z",
           "state": "OBSERVED",
           "signalCategory": "Civilization Engineering",
           "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
@@ -1462,66 +1355,14 @@
           }
         },
         {
-          "title": "Guterres laments COP31 outcome, urges climate justice from Barbados",
-          "summary": "Secretary-General António Guterres on Sunday expressed deep disappointment over the collapse of COP31 climate negotiations, using a visit to Barbados to call for stronger action on fossil fuels, climate finance and suppo…",
+          "title": "‘Come right now’: How a crisis centre in Samarkand helps women escape violence",
+          "summary": "Irina* paced the apartment. Her husband had come home drunk again, and she knew the beatings would follow.",
           "category": "GOVERNANCE",
           "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168856",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168856",
-          "publishedAt": "2026-11-22T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.290Z",
-          "state": "OBSERVED",
-          "signalCategory": "Adaptive Capacity",
-          "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-          "implications": [
-            "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-            "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-            "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 80,
-          "relatedTopics": [
-            "Biotechnology",
-            "Climate and Environment"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "reasoning",
-            "design",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance",
-            "Capital",
-            "Education & Knowledge"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-          "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-          "score": {
-            "realityDiscovery": 5.5,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 5.5,
-            "synchronizationImpact": 5.5,
-            "adaptiveCapacity": 8.9,
-            "civilizationImpact": 6.9,
-            "overall": 6.2
-          }
-        },
-        {
-          "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
-          "summary": "For five years, Zahra cared for an elderly woman in Iran and earned enough to get by. Now back in Herat, western Afghanistan, the 28-year-old trained midwife is unemployed. She lives with her parents and siblings, apart …",
-          "category": "GOVERNANCE",
-          "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168852",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168852",
-          "publishedAt": "2026-11-22T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.290Z",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168878",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168878",
+          "publishedAt": "2026-11-26T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.319Z",
           "state": "OBSERVED",
           "signalCategory": "Civilization Engineering",
           "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
@@ -1545,8 +1386,8 @@
             "Technology",
             "Education & Knowledge"
           ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "10–30 Years",
+          "currentStage": "Active System Stress",
+          "expectedHorizon": "Immediate / Ongoing",
           "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
           "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
           "score": {
@@ -1560,112 +1401,14 @@
           }
         },
         {
-          "title": "COP31 ends without climate pact as UN chief warns there is ‘no ambiguity in the science’",
-          "summary": "COP31 ended on Sunday without a climate pact after negotiators failed to overcome divisions over fossil fuels, bringing two weeks of talks and two days of overtime to a close that UN Secretary-General António Guterres de…",
+          "title": "Maritime trade stagnates amid geopolitical uncertainty",
+          "summary": "Seaborne trade that underpins the global economy continues to slow, while disruption from conflict and climate-related factors is hitting least-developed economies and small island nations hardest, UN economists said on …",
           "category": "GOVERNANCE",
           "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168855",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168855",
-          "publishedAt": "2026-11-22T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.291Z",
-          "state": "OBSERVED",
-          "signalCategory": "Adaptive Capacity",
-          "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-          "implications": [
-            "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-            "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-            "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 80,
-          "relatedTopics": [
-            "Biotechnology",
-            "Climate and Environment"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "reasoning",
-            "design",
-            "realization",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Law & Governance",
-            "Capital",
-            "Education & Knowledge"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-          "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-          "score": {
-            "realityDiscovery": 5.5,
-            "capabilityExpansion": 5.5,
-            "infrastructureImpact": 5.5,
-            "synchronizationImpact": 5.5,
-            "adaptiveCapacity": 8.9,
-            "civilizationImpact": 6.9,
-            "overall": 6.2
-          }
-        },
-        {
-          "title": "‘We escaped with only our lives’: Fighting to give birth in war-torn Yemen",
-          "summary": "When fighting suddenly escalated around Taiz, in southwestern Yemen two months ago, midwife Anisa Fadhl had no time to pack a bag before she fled, leaving behind her home and her clinic. Both were later looted and destro…",
-          "category": "GOVERNANCE",
-          "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168851",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168851",
-          "publishedAt": "2026-11-21T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.291Z",
-          "state": "OBSERVED",
-          "signalCategory": "Civilization Engineering",
-          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-          "implications": [
-            "May influence the transition from civilization engineering knowledge to applied capability.",
-            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-          ],
-          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 81,
-          "relatedTopics": [
-            "Security and Risk"
-          ],
-          "relatedOrgans": [
-            "observation",
-            "understanding",
-            "memory"
-          ],
-          "civilizationDomains": [
-            "Science",
-            "Technology",
-            "Education & Knowledge"
-          ],
-          "currentStage": "Scientific Discovery",
-          "expectedHorizon": "10–30 Years",
-          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-          "score": {
-            "realityDiscovery": 6.2,
-            "capabilityExpansion": 6.2,
-            "infrastructureImpact": 6.2,
-            "synchronizationImpact": 6.2,
-            "adaptiveCapacity": 6.2,
-            "civilizationImpact": 7.3,
-            "overall": 6.4
-          }
-        },
-        {
-          "title": "Homes abandoned, harvests failing: Haiti’s farmers rebuild amid violence, hunger and El Niño",
-          "summary": "Years of insecurity, violence perpetrated by murderous armed gangs and economic instability, combined with displacement, poor agricultural performance and climate shocks, have left millions of Haitians struggling to meet…",
-          "category": "GOVERNANCE",
-          "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168834",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168834",
-          "publishedAt": "2026-11-21T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.291Z",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168884",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168884",
+          "publishedAt": "2026-11-26T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.319Z",
           "state": "OBSERVED",
           "signalCategory": "Adaptive Capacity",
           "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
@@ -1675,7 +1418,7 @@
             "May strengthen civilization's ability to operate under planetary uncertainty."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-          "confidence": 80,
+          "confidence": 74,
           "relatedTopics": [
             "Climate and Environment",
             "Security and Risk"
@@ -1708,48 +1451,413 @@
           }
         },
         {
-          "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond",
-          "summary": "UN Secretary-General António Guterres is heading to Barbados to co-host a special summit on artificial intelligence (AI) safety on Monday, aimed at closing the gap between accelerating risks and many countries’ capacity …",
+          "title": "DR Congo: Peacekepers step up civilian protection amid fighting in Ituri",
+          "summary": "United Nations peacekeepers in the Democratic Republic of the Congo (DRC) have stepped up efforts to protect civilians in Ebola-hit Ituri province following renewed armed clashes in Djugu territory.",
           "category": "GOVERNANCE",
           "source": "United Nations News",
-          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168854",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168854",
-          "publishedAt": "2026-11-20T12:00:00.000Z",
-          "updatedAt": "2026-11-23T18:23:34.292Z",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168883",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168883",
+          "publishedAt": "2026-11-26T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.319Z",
+          "state": "OBSERVED",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 81,
+          "relatedTopics": [
+            "Governance and Law"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "Türk warns of widening risk of atrocity crimes against Palestinians",
+          "summary": "UN human rights chief Volker Türk on Wednesday warned of a widening risk of further atrocity crimes by Israel against Palestinians, saying violence in the occupied West Bank in recent months has heightened existential fe…",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168879",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168879",
+          "publishedAt": "2026-11-25T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.320Z",
           "state": "OBSERVED",
           "signalCategory": "Adaptive Capacity",
-          "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
           "implications": [
-            "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-            "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-            "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
+            "May influence the transition from adaptive capacity knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
           ],
           "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
           "confidence": 80,
           "relatedTopics": [
-            "Artificial Intelligence",
-            "Biotechnology",
             "Security and Risk"
           ],
           "relatedOrgans": [
             "observation",
             "understanding",
-            "reasoning",
-            "design",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 6.9,
+            "overall": 6.2
+          }
+        },
+        {
+          "title": "Governments and experts gather in Nairobi to tackle the global housing crisis",
+          "summary": "A home is a place where people can feel safe. Yet billions worldwide do not have a proper place to live. As the global housing crisis deepens, government representatives and housing experts are gathering at the United Na…",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168873",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168873",
+          "publishedAt": "2026-11-25T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.320Z",
+          "state": "OBSERVED",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 81,
+          "relatedTopics": [
+            "Governance and Law"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Active System Stress",
+          "expectedHorizon": "Immediate / Ongoing",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "Gaza’s widows raise their families alone: ‘We do our duties twice over, but where are our rights?’",
+          "summary": "For women in Gaza who lost their husbands in the war, providing for a family no longer means just putting food on the table. Now it also means finding shelter, hauling water and keeping children in school – all from a te…",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168875",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168875",
+          "publishedAt": "2026-11-25T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.321Z",
+          "state": "OBSERVED",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from adaptive capacity knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 80,
+          "relatedTopics": [
+            "Climate and Environment",
+            "Security and Risk"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 6.9,
+            "overall": 6.2
+          }
+        },
+        {
+          "title": "Gisèle Pelicot’s son: ‘Not being violent is the bare minimum’",
+          "summary": "Two years after the Mazan rape trial, David Pelicot has decided to put his name to the fight against sexual violence – and to confront what he calls the silence of men.",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168876",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168876",
+          "publishedAt": "2026-11-25T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.321Z",
+          "state": "VALIDATING",
+          "signalCategory": "Civilization Engineering",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from civilization engineering knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "The signal remains dependent on prototype performance, independent validation, scaling economics, regulatory conditions, and repeatability outside controlled environments.",
+          "confidence": 88,
+          "relatedTopics": [
+            "AI"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Prototype / Pilot",
+          "expectedHorizon": "3–10 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 6.2,
+            "capabilityExpansion": 6.2,
+            "infrastructureImpact": 6.2,
+            "synchronizationImpact": 6.2,
+            "adaptiveCapacity": 6.2,
+            "civilizationImpact": 7.3,
+            "overall": 6.4
+          }
+        },
+        {
+          "title": "Somalia: Famine risk decreases in Baidoa – but millions still going hungry",
+          "summary": "Millions of people in Somalia still face severe food shortages and malnutrition despite the reduced risk of famine in Baidoa, global food security experts warned on Wednesday.",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168874",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168874",
+          "publishedAt": "2026-11-25T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.322Z",
+          "state": "OBSERVED",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from adaptive capacity knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 80,
+          "relatedTopics": [
+            "Security and Risk"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Education & Knowledge"
+          ],
+          "currentStage": "Scientific Discovery",
+          "expectedHorizon": "10–30 Years",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 6.9,
+            "overall": 6.2
+          }
+        },
+        {
+          "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+          "summary": "The UN’s top aid official, Tom Fletcher, arrived in Yemen on Wednesday warning that the war there is preventing families from accessing the food and medicine they need to survive, particularly those in Taiz City.",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168872",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168872",
+          "publishedAt": "2026-11-25T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.322Z",
+          "state": "OBSERVED",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+          "implications": [
+            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
+            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
+            "May influence healthspan, adaptive capacity, and the continuity of human capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 80,
+          "relatedTopics": [
+            "Health Systems",
+            "Security and Risk"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
             "realization",
             "memory"
           ],
           "civilizationDomains": [
             "Science",
             "Technology",
-            "Law & Governance",
-            "Capital",
+            "Law & Governance"
+          ],
+          "currentStage": "Active System Stress",
+          "expectedHorizon": "Immediate / Ongoing",
+          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+          "score": {
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 5.5,
+            "synchronizationImpact": 5.5,
+            "adaptiveCapacity": 8.9,
+            "civilizationImpact": 6.9,
+            "overall": 6.2
+          }
+        },
+        {
+          "title": "World News in Brief: Vaccine crisis in Yemen, aid for Ukraine, another UNRWA staffer killed",
+          "summary": "More than 364,000 people have been displaced in Yemen since the beginning of August as fighting and insecurity continue, the UN Office for the Coordination of Humanitarian Affairs (OCHA) said on Tuesday.",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168871",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168871",
+          "publishedAt": "2026-11-24T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.322Z",
+          "state": "OBSERVED",
+          "signalCategory": "Synchronization Systems",
+          "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+          "implications": [
+            "May influence the transition from synchronization systems knowledge to applied capability.",
+            "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+            "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 81,
+          "relatedTopics": [
+            "Security and Risk"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
             "Education & Knowledge"
+          ],
+          "currentStage": "Active System Stress",
+          "expectedHorizon": "Immediate / Ongoing",
+          "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+          "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+          "score": {
+            "realityDiscovery": 5.5,
+            "capabilityExpansion": 5.5,
+            "infrastructureImpact": 6.5,
+            "synchronizationImpact": 8.8,
+            "adaptiveCapacity": 5.5,
+            "civilizationImpact": 6.3,
+            "overall": 6.3
+          }
+        },
+        {
+          "title": "Decades of gains against AIDS could unravel as HIV funding dries up",
+          "summary": "Decades of progress against AIDS, one of the greatest public health achievements in history, could go into reverse as international HIV funding is cut and campaigns against human rights and gender equality gain ground, t…",
+          "category": "GOVERNANCE",
+          "source": "United Nations News",
+          "sourceUrl": "https://news.un.org/feed/view/en/story/2026/11/1168869",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168869",
+          "publishedAt": "2026-11-24T12:00:00.000Z",
+          "updatedAt": "2026-11-27T12:39:31.322Z",
+          "state": "OBSERVED",
+          "signalCategory": "Adaptive Capacity",
+          "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+          "implications": [
+            "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
+            "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
+            "May influence healthspan, adaptive capacity, and the continuity of human capability."
+          ],
+          "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+          "confidence": 74,
+          "relatedTopics": [
+            "Health Systems"
+          ],
+          "relatedOrgans": [
+            "observation",
+            "understanding",
+            "realization",
+            "memory"
+          ],
+          "civilizationDomains": [
+            "Science",
+            "Technology",
+            "Law & Governance"
           ],
           "currentStage": "Scientific Discovery",
           "expectedHorizon": "5–15 Years",
-          "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-          "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+          "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+          "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
           "score": {
             "realityDiscovery": 5.5,
             "capabilityExpansion": 5.5,

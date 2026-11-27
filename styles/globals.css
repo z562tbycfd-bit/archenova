@@ -78577,3 +78577,2473 @@ span[aria-hidden="true"] {
 
 
 
+
+
+
+
+
+
+
+
+
+
+.ory-life {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          min-width: 0;
+          min-height: clamp(340px, 68svh, 820px);
+          padding: clamp(24px, 4vw, 60px) clamp(16px, 4vw, 50px);
+          overflow: hidden;
+          isolation: isolate;
+          background: #000;
+          color: rgba(255,255,255,.88);
+          box-sizing: border-box;
+        }
+        .ory-life__being {
+          position: relative;
+          display: block;
+          flex: 0 0 auto;
+          width: min(67%, 490px);
+          aspect-ratio: 605 / 575;
+          padding: 0;
+          margin: 0;
+          border: 0;
+          border-radius: 50%;
+          background: transparent;
+          cursor: pointer;
+          -webkit-tap-highlight-color: transparent;
+          touch-action: manipulation;
+        }
+        .ory-life__being:focus-visible,
+        .ory-life__node:focus-visible {
+          outline: 1px solid rgba(255,255,255,.75);
+          outline-offset: 5px;
+        }
+        .ory-life__emblem {
+          position: absolute;
+          inset: 0;
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          transform-origin: 50% 50%;
+          animation: ory-turn 180s linear infinite;
+          pointer-events: none;
+        }
+        .ory-life__ripple {
+          position: absolute;
+          inset: 31%;
+          border: 1px solid rgba(255,255,255,.35);
+          border-radius: 50%;
+          opacity: 0;
+          pointer-events: none;
+          animation: ory-ripple 1.4s ease-out both;
+        }
+        .ory-life__being.is-still .ory-life__emblem { animation: none; }
+        .ory-life__reveal {
+          width: min(100%, 950px);
+          margin: clamp(8px, 2vw, 22px) auto 0;
+          animation: ory-appear .65s ease-out both;
+        }
+        .ory-life__reveal[hidden] { display: none; }
+        .ory-life__intro { text-align: center; margin: 0 auto clamp(24px, 3vw, 36px); }
+        .ory-life__eyebrow {
+          display: block;
+          color: rgba(255,255,255,.4);
+          font-size: 9px;
+          font-weight: 600;
+          letter-spacing: .22em;
+        }
+        .ory-life__intro h2 {
+          margin: 15px 0 9px;
+          font-size: clamp(20px, 3vw, 32px);
+          font-weight: 300;
+          letter-spacing: -.035em;
+          line-height: 1.25;
+        }
+        .ory-life__intro p {
+          margin: 0;
+          color: rgba(255,255,255,.43);
+          font-size: clamp(11px, 1.2vw, 13px);
+          line-height: 1.7;
+        }
+        .ory-life__grid {
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 10px;
+        }
+        .ory-life__node {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          min-width: 0;
+          min-height: 70px;
+          padding: 16px;
+          text-align: left;
+          border: 1px solid rgba(255,255,255,.09);
+          border-radius: 15px;
+          background: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.012));
+          color: rgba(255,255,255,.8);
+          cursor: pointer;
+          transition: border-color .25s ease, background .25s ease, transform .25s ease;
+        }
+        .ory-life__node:hover, .ory-life__node.is-selected {
+          border-color: rgba(255,255,255,.3);
+          background: rgba(255,255,255,.075);
+        }
+        .ory-life__node:active { transform: scale(.985); }
+        .ory-life__number { font-size: 10px; color: rgba(255,255,255,.3); font-variant-numeric: tabular-nums; }
+        .ory-life__name { flex: 1; min-width: 0; font-size: 12px; font-weight: 500; letter-spacing: .015em; overflow-wrap: anywhere; }
+        .ory-life__node-mark { width: 4px; height: 4px; flex: 0 0 auto; border-radius: 50%; background: rgba(255,255,255,.36); }
+        .ory-life__node.is-selected .ory-life__node-mark { background: #fff; box-shadow: 0 0 9px rgba(255,255,255,.5); }
+        .ory-life__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 14px;
+  padding: clamp(20px, 3vw, 32px);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 18px;
+  background: rgba(255,255,255,.035);
+}
+
+.ory-life__detail > * {
+  width: 100%;
+  text-align: center;
+}
+        .ory-life__detail h3 { margin: 12px 0 7px; font-size: 22px; font-weight: 400; }
+        .ory-life__detail p { margin: 0 0 13px; font-size: 13px; color: rgba(255,255,255,.7); line-height: 1.7; }
+        .ory-life__detail small { font-size: 11px; color: rgba(255,255,255,.4); line-height: 1.7; }
+        @keyframes ory-turn { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        @keyframes ory-ripple { from { transform: scale(.25); opacity: .65; } to { transform: scale(3); opacity: 0; } }
+        @keyframes ory-appear { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+        @media (max-width: 700px) {
+          .ory-life { min-height: clamp(310px, 58svh, 620px); padding: 24px 14px 36px; }
+          .ory-life__being { width: min(82%, 420px); }
+          .ory-life__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+          .ory-life__node { min-height: 62px; padding: 12px; gap: 9px; border-radius: 12px; }
+          .ory-life__name { font-size: 11px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .ory-life__emblem, .ory-life__ripple, .ory-life__reveal { animation: none !important; }
+          .ory-life__node { transition: none; }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ==========================================================
+   ORYVANTH — CIVILIZATION PORTAL
+   Animated transition from HOME
+========================================================== */
+
+.ory-life--portal {
+  background: #000;
+}
+
+.ory-life__portal-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+
+  margin-top: clamp(24px, 4vw, 48px);
+
+  text-align: center;
+
+  transition:
+    opacity 500ms ease,
+    transform 800ms ease;
+}
+
+.ory-life__portal-name {
+  font-size: clamp(12px, 1.8vw, 20px);
+  font-weight: 400;
+  letter-spacing: .42em;
+
+  color: rgba(255,255,255,.78);
+}
+
+.ory-life__portal-instruction {
+  font-size: 10px;
+  letter-spacing: .22em;
+
+  color: rgba(255,255,255,.5);
+}
+
+/* ==========================================================
+   PORTAL — ACTIVATION
+========================================================== */
+
+.ory-life--portal .ory-life__being {
+  transition:
+    transform 1100ms cubic-bezier(.2,.7,.2,1),
+    opacity 1000ms ease;
+}
+
+.ory-life--portal.is-entering .ory-life__being {
+  transform: scale(2.6);
+  opacity: 0;
+}
+
+.ory-life--portal.is-entering
+.ory-life__portal-caption {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.ory-life__passage {
+  position: fixed;
+  inset: 0;
+
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #000;
+  pointer-events: auto;
+
+  animation: ory-passage-in 1100ms ease both;
+}
+
+.ory-life__passage-light {
+  position: absolute;
+
+  width: min(80vw, 600px);
+  aspect-ratio: 1;
+
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle,
+    rgba(255,255,255,.14),
+    rgba(255,255,255,.025) 35%,
+    transparent 70%
+  );
+
+  animation: ory-passage-light 1100ms ease-out both;
+}
+
+.ory-life__passage-label {
+  position: relative;
+
+  font-size: 10px;
+  letter-spacing: .36em;
+  text-align: center;
+
+  color: rgba(255,255,255,.7);
+}
+
+@keyframes ory-passage-in {
+  0% {
+    opacity: 0;
+  }
+
+  70%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes ory-passage-light {
+  0% {
+    transform: scale(.2);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+/* ==========================================================
+   ORYVANTH CIVILIZATION
+   Dedicated civilization environment
+========================================================== */
+
+.ory-civilization {
+  --ory-text: rgba(255,255,255,.94);
+  --ory-muted: rgba(255,255,255,.64);
+  --ory-subtle: rgba(255,255,255,.48);
+  --ory-border: rgba(255,255,255,.09);
+
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 100svh;
+
+  background: #000;
+  color: var(--ory-text);
+
+  overflow-x: clip;
+
+  animation: ory-civilization-arrival 1100ms ease both;
+}
+
+.ory-civilization,
+.ory-civilization * {
+  box-sizing: border-box;
+}
+
+@keyframes ory-civilization-arrival {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+.ory-civilization__navigation {
+  position: relative;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  width: min(100%, 1500px);
+  margin: 0 auto;
+
+  padding:
+    clamp(24px, 4vw, 48px)
+    clamp(20px, 6vw, 100px);
+}
+
+.ory-civilization__navigation a,
+.ory-civilization__return {
+  color: var(--ory-muted);
+
+  font-size: 10px;
+  letter-spacing: .16em;
+
+  text-decoration: none;
+
+  transition: color 220ms ease;
+}
+
+.ory-civilization__navigation a:hover,
+.ory-civilization__return:hover {
+  color: #fff;
+}
+
+/* ==========================================================
+   HERO — CIVILIZATIONAL SPACE
+========================================================== */
+
+.ory-civilization__hero {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 88svh;
+
+  padding: 100px 24px;
+
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.ory-civilization__cosmos {
+  position: absolute;
+  inset: 0;
+
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  pointer-events: none;
+}
+
+.ory-civilization__planet {
+  position: absolute;
+
+  width: min(76vw, 800px);
+  aspect-ratio: 1;
+
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle at 36% 22%,
+    #252525 0%,
+    #101010 30%,
+    #030303 58%,
+    #000 76%
+  );
+
+  box-shadow:
+    0 -10px 65px rgba(255,255,255,.055),
+    inset 0 2px 18px rgba(255,255,255,.06);
+
+  opacity: .75;
+}
+
+.ory-civilization__orbit {
+  position: absolute;
+
+  width: min(100vw, 1150px);
+  aspect-ratio: 1;
+
+  border: 1px solid rgba(255,255,255,.075);
+  border-radius: 50%;
+}
+
+.ory-civilization__orbit--one {
+  transform: rotate(-35deg) scaleY(.36);
+}
+
+.ory-civilization__orbit--two {
+  transform: rotate(35deg) scaleY(.55);
+}
+
+.ory-civilization__orbit--three {
+  transform: rotate(75deg) scaleY(.78);
+}
+
+.ory-civilization__hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: min(100%, 1000px);
+
+  text-align: center;
+}
+
+.ory-civilization__eyebrow {
+  display: block;
+
+  color: var(--ory-subtle);
+
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .22em;
+  line-height: 1.8;
+}
+
+.ory-civilization__hero h1 {
+  margin: 34px 0 0;
+
+  font-size: clamp(34px, 10vw, 148px);
+  font-weight: 300;
+  letter-spacing: .12em;
+  line-height: 1.1;
+
+  color: #f5f5f5;
+}
+
+.ory-civilization__subtitle {
+  margin-top: 20px;
+
+  font-size: clamp(10px, 2vw, 22px);
+  font-weight: 300;
+  letter-spacing: .48em;
+
+  color: rgba(255,255,255,.72);
+}
+
+.ory-civilization__definition {
+  max-width: 680px;
+
+  margin: 48px auto 0;
+
+  font-size: clamp(15px, 1.8vw, 22px);
+  line-height: 1.9;
+
+  color: var(--ory-muted);
+}
+
+.ory-civilization__status {
+  display: block;
+
+  margin-top: 30px;
+
+  font-size: 9px;
+  letter-spacing: .16em;
+  line-height: 1.8;
+
+  color: var(--ory-subtle);
+}
+
+.ory-civilization__explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 22px;
+
+  margin-top: 64px;
+
+  font-size: 10px;
+  letter-spacing: .2em;
+
+  color: var(--ory-muted);
+
+  text-decoration: none;
+}
+
+.ory-civilization__explore span {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* ==========================================================
+   MANIFESTO / CONSTRUCTION / CONTINUITY
+========================================================== */
+
+.ory-civilization__manifesto,
+.ory-civilization__construction-header,
+.ory-civilization__closing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: min(100%, 1100px);
+
+  margin: 0 auto;
+
+  padding:
+    clamp(100px, 14vw, 220px)
+    clamp(24px, 6vw, 80px);
+
+  text-align: center;
+}
+
+.ory-civilization__manifesto h2,
+.ory-civilization__construction-header h2,
+.ory-civilization__closing h2 {
+  margin: 30px 0;
+
+  font-size: clamp(36px, 6vw, 82px);
+  font-weight: 350;
+  letter-spacing: -.055em;
+  line-height: 1.12;
+
+  color: var(--ory-text);
+}
+
+.ory-civilization__manifesto h2 span,
+.ory-civilization__construction-header h2 span,
+.ory-civilization__closing h2 span {
+  display: block;
+
+  color: rgba(255,255,255,.58);
+}
+
+.ory-civilization__manifesto p,
+.ory-civilization__construction-header p,
+.ory-civilization__closing p {
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  color: var(--ory-muted);
+
+  font-size: clamp(14px, 1.7vw, 19px);
+  line-height: 1.95;
+}
+
+.ory-civilization__principles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 20px 28px;
+
+  margin-top: 60px;
+
+  color: var(--ory-subtle);
+
+  font-size: 10px;
+  letter-spacing: .13em;
+}
+
+/* ==========================================================
+   CIVILIZATIONAL DOMAINS
+========================================================== */
+
+.ory-civilization__domains {
+  width: min(100%, 1300px);
+
+  margin: 0 auto;
+
+  padding: 0 clamp(24px, 6vw, 80px);
+}
+
+.ory-civilization__domain {
+  display: grid;
+
+  grid-template-columns:
+    minmax(100px, 1fr)
+    minmax(0, 3fr);
+
+  gap: clamp(24px, 5vw, 90px);
+
+  padding: clamp(60px, 9vw, 140px) 0;
+
+  border-top: 1px solid var(--ory-border);
+}
+
+.ory-civilization__domain-index {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+
+  color: var(--ory-subtle);
+
+  font-size: 10px;
+  letter-spacing: .18em;
+}
+
+.ory-civilization__domain-index span:first-child {
+  font-size: clamp(28px, 4vw, 54px);
+  font-weight: 300;
+
+  color: rgba(255,255,255,.26);
+}
+
+.ory-civilization__domain-content {
+  min-width: 0;
+}
+
+.ory-civilization__domain-content h2 {
+  margin: 0 0 26px;
+
+  font-size: clamp(30px, 4.5vw, 60px);
+  font-weight: 350;
+  letter-spacing: -.045em;
+  line-height: 1.15;
+}
+
+.ory-civilization__statement {
+  margin: 0 0 22px;
+
+  color: rgba(255,255,255,.86);
+
+  font-size: clamp(17px, 2vw, 24px);
+  line-height: 1.7;
+}
+
+.ory-civilization__description {
+  max-width: 750px;
+
+  margin: 0;
+
+  color: var(--ory-muted);
+
+  font-size: 15px;
+  line-height: 1.95;
+}
+
+.ory-civilization__elements {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  margin-top: 34px;
+}
+
+.ory-civilization__elements span {
+  padding: 10px 15px;
+
+  border: 1px solid var(--ory-border);
+  border-radius: 100px;
+
+  background: rgba(255,255,255,.025);
+
+  color: var(--ory-muted);
+
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+/* ==========================================================
+   CONSTRUCTION SYSTEM
+========================================================== */
+
+.ory-civilization__construction {
+  width: min(100%, 1300px);
+
+  margin: 0 auto;
+
+  padding: 0 clamp(16px, 4vw, 60px);
+
+  border-top: 1px solid var(--ory-border);
+}
+
+.ory-civilization__construction-header {
+  padding-bottom: 30px;
+}
+
+.ory-civilization .ory-life {
+  background: #000;
+}
+
+.ory-civilization .ory-life__detail {
+  text-align: center;
+}
+
+/* ==========================================================
+   CLOSING / FOOTER
+========================================================== */
+
+.ory-civilization__closing {
+  border-top: 1px solid var(--ory-border);
+}
+
+.ory-civilization__closing
+.ory-civilization__return {
+  margin-top: 60px;
+}
+
+.ory-civilization__footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  gap: 18px;
+
+  width: min(100%, 1300px);
+
+  margin: 0 auto;
+
+  padding: 32px 24px 48px;
+
+  border-top: 1px solid var(--ory-border);
+
+  font-size: 9px;
+  letter-spacing: .14em;
+
+  color: var(--ory-subtle);
+}
+
+/* ==========================================================
+   ACCESSIBILITY
+========================================================== */
+
+.ory-civilization a:focus-visible {
+  outline: 1px solid rgba(255,255,255,.8);
+  outline-offset: 6px;
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  .ory-civilization__navigation {
+    padding: 24px 20px;
+  }
+
+  .ory-civilization__navigation a {
+    font-size: 9px;
+    letter-spacing: .1em;
+  }
+
+  .ory-civilization__hero {
+    min-height: 85svh;
+    padding: 80px 20px;
+  }
+
+  .ory-civilization__hero h1 {
+    font-size: clamp(28px, 9vw, 62px);
+    letter-spacing: .09em;
+  }
+
+  .ory-civilization__subtitle {
+    letter-spacing: .32em;
+  }
+
+  .ory-civilization__planet {
+    width: 92vw;
+  }
+
+  .ory-civilization__definition {
+    margin-top: 36px;
+
+    font-size: 14px;
+    line-height: 1.95;
+  }
+
+  .ory-civilization__manifesto,
+  .ory-civilization__construction-header,
+  .ory-civilization__closing {
+    padding: 100px 22px;
+  }
+
+  .ory-civilization__domain {
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 28px;
+
+    padding: 64px 0;
+  }
+
+  .ory-civilization__domain-index {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .ory-civilization__description {
+    font-size: 14px;
+  }
+
+  .ory-civilization__construction-header {
+    padding-bottom: 24px;
+  }
+
+  .ory-life__portal-name {
+    font-size: 12px;
+  }
+
+  .ory-life__portal-instruction {
+    font-size: 9px;
+  }
+}
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .ory-civilization,
+  .ory-life__passage,
+  .ory-life__passage-light {
+    animation: none !important;
+  }
+
+  .ory-life--portal .ory-life__being,
+  .ory-life__portal-caption {
+    transition: none !important;
+  }
+}
+
+/* ==========================================================
+   END — ORYVANTH CIVILIZATION
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ORYVANTH CIVILIZATION
+   FULLSCREEN IMMERSIVE PASSAGE
+
+   Architecture:
+   - React Portal / document.body
+   - Independent viewport environment
+   - Original silver emblem
+   - Responsive spatial animation
+   - Absolute black transition
+========================================================== */
+
+/* ==========================================================
+   01 — FULLSCREEN ENVIRONMENT
+========================================================== */
+
+body > .ory-life__passage {
+  position: fixed !important;
+
+  inset: 0 !important;
+
+  width: 100% !important;
+
+  height: 100vh !important;
+  height: 100dvh !important;
+
+  max-width: none !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 2147483647 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent;
+
+  overflow: hidden;
+  isolation: isolate;
+
+  pointer-events: auto;
+  touch-action: none;
+  overscroll-behavior: none;
+
+  box-sizing: border-box;
+
+  animation: ory-fullscreen-arrival
+    1100ms ease both;
+}
+
+/* ==========================================================
+   02 — ABSOLUTE BLACK BACKGROUND
+========================================================== */
+
+.ory-life__passage-background {
+  position: absolute;
+  inset: 0;
+
+  z-index: 0;
+
+  background: #000000;
+
+  pointer-events: none;
+}
+
+/* ==========================================================
+   03 — EXPANDING SILVER LIGHT
+========================================================== */
+
+body > .ory-life__passage
+.ory-life__passage-light {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 145vmax;
+  height: 145vmax;
+
+  max-width: none;
+
+  z-index: 1;
+
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle,
+    rgba(255,255,255,.23) 0%,
+    rgba(255,255,255,.09) 12%,
+    rgba(255,255,255,.025) 30%,
+    transparent 64%
+  );
+
+  pointer-events: none;
+
+  animation: ory-fullscreen-light
+    1100ms ease-out both;
+}
+
+/* ==========================================================
+   04 — SPATIAL WAVES
+========================================================== */
+
+.ory-life__passage-waves {
+  position: absolute;
+  inset: 0;
+
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  pointer-events: none;
+}
+
+.ory-life__passage-waves span {
+  position: absolute;
+
+  width: 28vmin;
+  aspect-ratio: 1;
+
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 50%;
+
+  opacity: 0;
+
+  animation: ory-fullscreen-wave
+    1000ms cubic-bezier(.12,.6,.2,1) both;
+}
+
+.ory-life__passage-waves span:nth-child(2) {
+  animation-delay: 80ms;
+}
+
+.ory-life__passage-waves span:nth-child(3) {
+  animation-delay: 160ms;
+}
+
+/* ==========================================================
+   05 — ORIGINAL ORYVANTH EMBLEM
+========================================================== */
+
+.ory-life__passage-emblem {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  z-index: 3;
+
+  width: min(52vmin, 520px);
+  aspect-ratio: 605 / 575;
+
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  pointer-events: none;
+
+  transform-origin: center;
+
+  animation: ory-fullscreen-emblem
+    1100ms cubic-bezier(.18,.65,.2,1) both;
+}
+
+/* ==========================================================
+   06 — CIVILIZATION IDENTITY
+========================================================== */
+
+.ory-life__passage-identity {
+  position: relative;
+
+  z-index: 4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: clamp(14px, 2vw, 28px);
+
+  width: 100%;
+
+  padding: 24px;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  pointer-events: none;
+
+  animation: ory-fullscreen-identity
+    1100ms ease both;
+}
+
+body > .ory-life__passage
+.ory-life__passage-label {
+  position: relative;
+
+  color: rgba(255,255,255,.55);
+
+  font-size: clamp(9px, 1vw, 12px);
+  font-weight: 400;
+
+  letter-spacing: .36em;
+  line-height: 1.8;
+}
+
+.ory-life__passage-name {
+  display: block;
+
+  color: #f5f5f5;
+
+  font-size: clamp(28px, 8vmin, 100px);
+  font-weight: 300;
+
+  letter-spacing: .16em;
+  line-height: 1.2;
+}
+
+.ory-life__passage-subtitle {
+  display: block;
+
+  color: rgba(255,255,255,.65);
+
+  font-size: clamp(9px, 1.6vmin, 18px);
+  font-weight: 300;
+
+  letter-spacing: .42em;
+  line-height: 1.8;
+}
+
+/* ==========================================================
+   07 — FINAL BLACK VEIL
+========================================================== */
+
+.ory-life__passage-veil {
+  position: absolute;
+  inset: 0;
+
+  z-index: 5;
+
+  background: #000000;
+
+  pointer-events: none;
+
+  animation: ory-fullscreen-veil
+    1100ms ease both;
+}
+
+/* ==========================================================
+   08 — ANIMATION SYSTEM
+========================================================== */
+
+@keyframes ory-fullscreen-arrival {
+  0% {
+    opacity: 0;
+  }
+
+  18%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes ory-fullscreen-light {
+  0% {
+    transform: translate(-50%, -50%) scale(.05);
+    opacity: 0;
+  }
+
+  35% {
+    opacity: .85;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes ory-fullscreen-wave {
+  0% {
+    transform: scale(.3);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: .6;
+  }
+
+  100% {
+    transform: scale(9);
+    opacity: 0;
+  }
+}
+
+@keyframes ory-fullscreen-emblem {
+  0% {
+    transform:
+      translate(-50%, -50%)
+      rotate(0deg)
+      scale(.65);
+
+    opacity: .95;
+  }
+
+  40% {
+    opacity: .8;
+  }
+
+  75%,
+  100% {
+    transform:
+      translate(-50%, -50%)
+      rotate(32deg)
+      scale(3.8);
+
+    opacity: 0;
+  }
+}
+
+@keyframes ory-fullscreen-identity {
+  0%,
+  20% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  48%,
+  76% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes ory-fullscreen-veil {
+  0%,
+  76% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ==========================================================
+   09 — MOBILE / TABLET
+========================================================== */
+
+@media (max-width: 700px) {
+  .ory-life__passage-emblem {
+    width: 62vmin;
+  }
+
+  .ory-life__passage-identity {
+    gap: 16px;
+
+    padding:
+      max(20px, env(safe-area-inset-top))
+      max(20px, env(safe-area-inset-right))
+      max(20px, env(safe-area-inset-bottom))
+      max(20px, env(safe-area-inset-left));
+  }
+
+  .ory-life__passage-name {
+    font-size: clamp(26px, 9vw, 48px);
+    letter-spacing: .12em;
+  }
+
+  .ory-life__passage-subtitle {
+    font-size: 10px;
+    letter-spacing: .32em;
+  }
+}
+
+/* ==========================================================
+   10 — MOBILE LANDSCAPE
+========================================================== */
+
+@media (orientation: landscape)
+and (max-height: 500px) {
+  .ory-life__passage-identity {
+    gap: 10px;
+  }
+
+  .ory-life__passage-name {
+    font-size: clamp(26px, 10vh, 52px);
+  }
+
+  .ory-life__passage-emblem {
+    width: 56vmin;
+  }
+}
+
+/* ==========================================================
+   11 — ACCESSIBILITY
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  body > .ory-life__passage,
+  .ory-life__passage-light,
+  .ory-life__passage-waves span,
+  .ory-life__passage-emblem,
+  .ory-life__passage-identity,
+  .ory-life__passage-veil {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ==========================================================
+   END — FULLSCREEN IMMERSIVE PASSAGE
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ORYVANTH CIVILIZATION
+   FULL VIEWPORT CIVILIZATIONAL ENVIRONMENT
+
+   - Full viewport width
+   - Independent black environment
+   - Responsive spatial composition
+   - Natural vertical exploration
+   - Existing civilization functions preserved
+========================================================== */
+
+/* ==========================================================
+   01 — ROOT ENVIRONMENT
+========================================================== */
+
+html:has(#oryvanth-top),
+body:has(#oryvanth-top) {
+  background: #000000 !important;
+}
+
+body:has(#oryvanth-top) {
+  overflow-x: clip;
+}
+
+/* ==========================================================
+   02 — FULL WIDTH CIVILIZATION PAGE
+========================================================== */
+
+main#oryvanth-top.ory-civilization {
+  position: relative;
+
+  display: block;
+
+  width: 100vw !important;
+  width: 100dvw !important;
+
+  min-width: 0 !important;
+  max-width: none !important;
+
+  height: auto !important;
+
+  min-height: 100vh;
+  min-height: 100svh;
+
+  max-height: none !important;
+
+  margin-block: 0 !important;
+
+  margin-inline:
+    calc(50% - 50vw) !important;
+
+  margin-inline:
+    calc(50% - 50dvw) !important;
+
+  padding: 0 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background: #000000 !important;
+  background-image: none !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  overflow-x: clip;
+  overflow-y: visible;
+
+  box-sizing: border-box;
+}
+
+/* ==========================================================
+   03 — FULL WIDTH NAVIGATION
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__navigation {
+  position: relative;
+
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+
+  padding:
+    clamp(24px, 3vw, 48px)
+    clamp(24px, 6vw, 120px);
+
+  box-sizing: border-box;
+}
+
+/* ==========================================================
+   04 — IMMERSIVE CIVILIZATION HERO
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__hero {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: none;
+
+  min-height: 90vh;
+  min-height: 90svh;
+
+  margin: 0;
+
+  padding:
+    clamp(64px, 8vw, 140px)
+    clamp(24px, 6vw, 120px);
+
+  border: 0;
+  border-radius: 0;
+
+  background: #000000;
+
+  isolation: isolate;
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+#oryvanth-top
+.ory-civilization__hero-content {
+  width: 100%;
+  max-width: 1600px;
+
+  margin: 0 auto;
+}
+
+#oryvanth-top
+.ory-civilization__hero h1 {
+  font-size: clamp(40px, 11vw, 200px);
+
+  font-weight: 300;
+  letter-spacing: .12em;
+  line-height: 1.08;
+
+  text-align: center;
+}
+
+#oryvanth-top
+.ory-civilization__subtitle {
+  font-size: clamp(12px, 2vw, 28px);
+
+  letter-spacing: .48em;
+}
+
+#oryvanth-top
+.ory-civilization__definition {
+  width: 100%;
+  max-width: 900px;
+
+  margin-inline: auto;
+
+  font-size: clamp(15px, 1.6vw, 24px);
+
+  line-height: 1.95;
+  text-align: center;
+}
+
+/* ==========================================================
+   05 — PLANETARY SCALE
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__cosmos {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+#oryvanth-top
+.ory-civilization__planet {
+  width: min(76vw, 100svh, 1100px);
+
+  aspect-ratio: 1;
+}
+
+#oryvanth-top
+.ory-civilization__orbit {
+  width: min(120vw, 145svh, 1800px);
+
+  aspect-ratio: 1;
+}
+
+/* ==========================================================
+   06 — CIVILIZATIONAL SPATIAL SECTIONS
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__manifesto,
+
+#oryvanth-top
+.ory-civilization__closing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: none;
+
+  min-height: 80svh;
+
+  margin: 0;
+
+  padding:
+    clamp(100px, 12vw, 240px)
+    clamp(24px, 10vw, 200px);
+
+  background: #000000;
+
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+#oryvanth-top
+.ory-civilization__manifesto h2,
+
+#oryvanth-top
+.ory-civilization__closing h2 {
+  width: 100%;
+  max-width: 1500px;
+
+  font-size: clamp(38px, 7vw, 110px);
+
+  line-height: 1.12;
+}
+
+#oryvanth-top
+.ory-civilization__manifesto p,
+
+#oryvanth-top
+.ory-civilization__closing p {
+  width: 100%;
+  max-width: 950px;
+
+  font-size: clamp(15px, 1.7vw, 23px);
+
+  line-height: 1.95;
+}
+
+/* ==========================================================
+   07 — CIVILIZATION DOMAINS
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__domains {
+  display: block;
+
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+#oryvanth-top
+.ory-civilization__domain {
+  display: grid;
+
+  grid-template-columns:
+    minmax(120px, 1fr)
+    minmax(0, 3fr);
+
+  align-content: center;
+  align-items: start;
+
+  gap: clamp(32px, 7vw, 140px);
+
+  width: 100%;
+  max-width: none;
+
+  min-height: 65svh;
+
+  margin: 0;
+
+  padding:
+    clamp(80px, 10vw, 180px)
+    clamp(24px, 10vw, 200px);
+
+  border-top:
+    1px solid rgba(255,255,255,.08);
+
+  border-radius: 0;
+
+  background: #000000;
+
+  box-sizing: border-box;
+}
+
+#oryvanth-top
+.ory-civilization__domain-index {
+  gap: 24px;
+}
+
+#oryvanth-top
+.ory-civilization__domain-index span:first-child {
+  font-size: clamp(32px, 6vw, 90px);
+}
+
+#oryvanth-top
+.ory-civilization__domain-content {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+}
+
+#oryvanth-top
+.ory-civilization__domain-content h2 {
+  font-size: clamp(34px, 5vw, 78px);
+
+  line-height: 1.12;
+}
+
+#oryvanth-top
+.ory-civilization__statement {
+  max-width: 1100px;
+
+  font-size: clamp(18px, 2vw, 28px);
+
+  line-height: 1.75;
+}
+
+#oryvanth-top
+.ory-civilization__description {
+  max-width: 950px;
+
+  font-size: clamp(14px, 1.3vw, 19px);
+
+  line-height: 1.95;
+}
+
+#oryvanth-top
+.ory-civilization__elements {
+  gap: 14px;
+
+  margin-top: 40px;
+}
+
+/* ==========================================================
+   08 — CIVILIZATION CONSTRUCTION SYSTEM
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__construction {
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+  padding: 0;
+
+  border-top:
+    1px solid rgba(255,255,255,.08);
+
+  background: #000000;
+}
+
+#oryvanth-top
+.ory-civilization__construction-header {
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+
+  padding:
+    clamp(100px, 12vw, 220px)
+    clamp(24px, 8vw, 160px)
+    clamp(24px, 4vw, 60px);
+}
+
+#oryvanth-top
+.ory-civilization__construction-header h2 {
+  font-size: clamp(36px, 6vw, 100px);
+}
+
+#oryvanth-top
+.ory-civilization__construction-header p {
+  max-width: 900px;
+}
+
+#oryvanth-top
+.ory-life {
+  width: 100%;
+  max-width: none;
+
+  min-height: 75svh;
+
+  margin: 0;
+
+  padding:
+    clamp(40px, 6vw, 100px)
+    clamp(20px, 8vw, 160px);
+
+  border: 0;
+  border-radius: 0;
+
+  background: #000000;
+}
+
+#oryvanth-top
+.ory-life__reveal {
+  width: 100%;
+  max-width: 1600px;
+
+  margin-inline: auto;
+}
+
+#oryvanth-top
+.ory-life__grid {
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: clamp(10px, 1.5vw, 24px);
+}
+
+#oryvanth-top
+.ory-life__node {
+  min-height: clamp(76px, 8vw, 120px);
+
+  padding: clamp(16px, 2vw, 28px);
+}
+
+#oryvanth-top
+.ory-life__name {
+  font-size: clamp(12px, 1.2vw, 17px);
+}
+
+#oryvanth-top
+.ory-life__detail {
+  width: 100%;
+  max-width: none;
+
+  box-sizing: border-box;
+}
+
+/* ==========================================================
+   09 — FULL WIDTH FOOTER
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__footer {
+  width: 100%;
+  max-width: none;
+
+  margin: 0;
+
+  padding:
+    40px
+    clamp(24px, 6vw, 120px);
+
+  box-sizing: border-box;
+}
+
+/* ==========================================================
+   10 — TABLET
+========================================================== */
+
+@media (max-width: 1024px) {
+
+  #oryvanth-top
+  .ory-civilization__domain {
+    grid-template-columns:
+      minmax(90px, 1fr)
+      minmax(0, 3fr);
+
+    gap: 36px;
+
+    padding-inline: 7vw;
+  }
+
+  #oryvanth-top
+  .ory-life__grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ==========================================================
+   11 — SMARTPHONE
+========================================================== */
+
+@media (max-width: 700px) {
+
+  main#oryvanth-top.ory-civilization {
+    min-height: 100svh;
+  }
+
+  #oryvanth-top
+  .ory-civilization__navigation {
+    padding:
+      24px
+      max(20px, env(safe-area-inset-right))
+      24px
+      max(20px, env(safe-area-inset-left));
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero {
+    min-height: 88svh;
+
+    padding: 64px 24px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero h1 {
+    font-size: clamp(28px, 10vw, 70px);
+
+    letter-spacing: .09em;
+  }
+
+  #oryvanth-top
+  .ory-civilization__subtitle {
+    font-size: clamp(10px, 3vw, 16px);
+
+    letter-spacing: .34em;
+  }
+
+  #oryvanth-top
+  .ory-civilization__definition {
+    font-size: 14px;
+
+    line-height: 1.95;
+  }
+
+  #oryvanth-top
+  .ory-civilization__planet {
+    width: 94vw;
+  }
+
+  #oryvanth-top
+  .ory-civilization__orbit {
+    width: 140vw;
+  }
+
+  #oryvanth-top
+  .ory-civilization__manifesto,
+
+  #oryvanth-top
+  .ory-civilization__closing {
+    min-height: 75svh;
+
+    padding: 90px 24px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__manifesto h2,
+
+  #oryvanth-top
+  .ory-civilization__closing h2 {
+    font-size: clamp(32px, 9vw, 54px);
+  }
+
+  #oryvanth-top
+  .ory-civilization__manifesto p,
+
+  #oryvanth-top
+  .ory-civilization__closing p {
+    font-size: 14px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__domain {
+    grid-template-columns:
+      minmax(0, 1fr);
+
+    min-height: auto;
+
+    gap: 30px;
+
+    padding: 80px 24px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__domain-index {
+    flex-direction: row;
+    align-items: center;
+
+    gap: 18px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__domain-content h2 {
+    font-size: clamp(30px, 8vw, 48px);
+  }
+
+  #oryvanth-top
+  .ory-civilization__statement {
+    font-size: 17px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__description {
+    font-size: 14px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__construction-header {
+    padding: 100px 24px 30px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__construction-header h2 {
+    font-size: clamp(32px, 8vw, 52px);
+  }
+
+  #oryvanth-top
+  .ory-life {
+    min-height: 60svh;
+
+    padding: 30px 20px 60px;
+  }
+
+  #oryvanth-top
+  .ory-life__grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+  }
+
+  #oryvanth-top
+  .ory-life__node {
+    min-height: 70px;
+
+    padding: 12px;
+  }
+
+  #oryvanth-top
+  .ory-life__name {
+    font-size: 12px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__footer {
+    padding: 32px 24px 48px;
+  }
+}
+
+/* ==========================================================
+   12 — MOBILE LANDSCAPE
+========================================================== */
+
+@media (orientation: landscape)
+and (max-height: 500px) {
+
+  #oryvanth-top
+  .ory-civilization__hero {
+    min-height: 100svh;
+
+    padding: 60px 32px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero h1 {
+    font-size: clamp(32px, 10vh, 80px);
+  }
+
+  #oryvanth-top
+  .ory-civilization__planet {
+    width: min(70vw, 110svh);
+  }
+
+  #oryvanth-top
+  .ory-civilization__domain {
+    min-height: auto;
+  }
+}
+
+/* ==========================================================
+   END — FULL VIEWPORT CIVILIZATIONAL ENVIRONMENT
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ORYVANTH CIVILIZATION
+   EMBLEM-CENTERED CIVILIZATIONAL IDENTITY
+
+   - Original silver emblem
+   - Absolute black environment
+   - Full viewport composition
+   - Quiet and restrained visual presence
+   - Responsive spatial balance
+========================================================== */
+
+/* ==========================================================
+   01 — HERO ENVIRONMENT
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__hero {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: none;
+
+  min-height: 88svh;
+
+  height: auto;
+
+  margin: 0;
+
+  padding:
+    clamp(40px, 6vw, 100px)
+    clamp(24px, 6vw, 120px)
+    clamp(60px, 8vw, 140px);
+
+  background: #000000;
+
+  border: 0;
+  border-radius: 0;
+
+  box-sizing: border-box;
+}
+
+/* ==========================================================
+   02 — CIVILIZATIONAL COMPOSITION
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 1400px;
+
+  min-width: 0;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+/* ==========================================================
+   03 — ORIGINAL CIVILIZATION EMBLEM
+========================================================== */
+
+#oryvanth-top
+.ory-civilization-emblem {
+  position: relative;
+
+  display: block;
+
+  flex: 0 0 auto;
+
+  width: clamp(150px, 24vmin, 280px);
+
+  aspect-ratio: 605 / 575;
+
+  margin:
+    0 auto
+    clamp(36px, 5vw, 72px);
+
+  padding: 0;
+
+  background: transparent;
+
+  border: 0;
+
+  pointer-events: none;
+  user-select: none;
+}
+
+#oryvanth-top
+.ory-civilization-emblem__symbol {
+  position: absolute;
+
+  inset: 0;
+
+  display: block;
+
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transform-origin: 50% 50%;
+
+  animation:
+    ory-civilization-emblem-turn
+    180s linear infinite;
+
+  pointer-events: none;
+}
+
+@keyframes ory-civilization-emblem-turn {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ==========================================================
+   04 — CIVILIZATION TYPOGRAPHY
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__hero
+.ory-civilization__eyebrow {
+  font-size: clamp(9px, 1vw, 11px);
+
+  font-weight: 400;
+
+  letter-spacing: .28em;
+  line-height: 1.8;
+
+  color: rgba(255,255,255,.52);
+}
+
+#oryvanth-top
+.ory-civilization__hero h1 {
+  margin: clamp(20px, 3vw, 36px) 0 0;
+
+  font-size: clamp(38px, 7.5vw, 116px);
+
+  font-weight: 300;
+
+  letter-spacing: .14em;
+  line-height: 1.12;
+
+  color: #f5f5f5;
+
+  text-align: center;
+}
+
+#oryvanth-top
+.ory-civilization__subtitle {
+  margin-top: clamp(14px, 2vw, 26px);
+
+  font-size: clamp(10px, 1.6vw, 20px);
+
+  font-weight: 300;
+
+  letter-spacing: .48em;
+
+  color: rgba(255,255,255,.65);
+}
+
+/* ==========================================================
+   05 — CIVILIZATION DEFINITION
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__definition {
+  width: 100%;
+
+  max-width: 720px;
+
+  margin:
+    clamp(32px, 5vw, 60px)
+    auto 0;
+
+  font-size: clamp(14px, 1.4vw, 19px);
+
+  font-weight: 400;
+
+  line-height: 1.95;
+
+  letter-spacing: .005em;
+
+  color: rgba(255,255,255,.62);
+
+  text-align: center;
+
+  text-wrap: pretty;
+}
+
+#oryvanth-top
+.ory-civilization__hero
+.ory-civilization__status {
+  margin-top: 28px;
+
+  font-size: 9px;
+
+  letter-spacing: .15em;
+  line-height: 1.8;
+
+  color: rgba(255,255,255,.44);
+}
+
+/* ==========================================================
+   06 — EXPLORATION
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+
+  margin-top: clamp(48px, 7vw, 90px);
+
+  font-size: 10px;
+
+  letter-spacing: .22em;
+
+  color: rgba(255,255,255,.56);
+
+  text-decoration: none;
+
+  transition: color 250ms ease;
+}
+
+#oryvanth-top
+.ory-civilization__explore:hover {
+  color: #ffffff;
+}
+
+#oryvanth-top
+.ory-civilization__explore span {
+  font-size: 22px;
+
+  font-weight: 300;
+
+  color: rgba(255,255,255,.48);
+}
+
+/* ==========================================================
+   07 — TABLET
+========================================================== */
+
+@media (max-width: 1024px) {
+
+  #oryvanth-top
+  .ory-civilization-emblem {
+    width: clamp(150px, 26vmin, 240px);
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero h1 {
+    font-size: clamp(38px, 8vw, 86px);
+  }
+}
+
+/* ==========================================================
+   08 — SMARTPHONE
+========================================================== */
+
+@media (max-width: 700px) {
+
+  #oryvanth-top
+  .ory-civilization__hero {
+    min-height: 85svh;
+
+    padding: 48px 24px 80px;
+  }
+
+  #oryvanth-top
+  .ory-civilization-emblem {
+    width: clamp(125px, 40vw, 190px);
+
+    margin-bottom: 42px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero
+  .ory-civilization__eyebrow {
+    font-size: 9px;
+
+    letter-spacing: .18em;
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero h1 {
+    font-size: clamp(28px, 9vw, 60px);
+
+    letter-spacing: .09em;
+
+    margin-top: 24px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__subtitle {
+    font-size: 11px;
+
+    letter-spacing: .34em;
+
+    margin-top: 16px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__definition {
+    max-width: 420px;
+
+    margin-top: 36px;
+
+    font-size: 14px;
+
+    line-height: 1.95;
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero
+  .ory-civilization__status {
+    font-size: 8px;
+
+    letter-spacing: .1em;
+  }
+
+  #oryvanth-top
+  .ory-civilization__explore {
+    margin-top: 48px;
+
+    gap: 16px;
+
+    font-size: 9px;
+  }
+}
+
+/* ==========================================================
+   09 — MOBILE LANDSCAPE
+========================================================== */
+
+@media (orientation: landscape)
+and (max-height: 500px) {
+
+  #oryvanth-top
+  .ory-civilization__hero {
+    min-height: 100svh;
+
+    padding: 40px 32px 60px;
+  }
+
+  #oryvanth-top
+  .ory-civilization-emblem {
+    width: clamp(100px, 32svh, 160px);
+
+    margin-bottom: 24px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__hero h1 {
+    font-size: clamp(30px, 8vw, 64px);
+  }
+
+  #oryvanth-top
+  .ory-civilization__definition {
+    margin-top: 24px;
+  }
+
+  #oryvanth-top
+  .ory-civilization__explore {
+    margin-top: 32px;
+  }
+}
+
+/* ==========================================================
+   10 — ACCESSIBILITY
+========================================================== */
+
+#oryvanth-top
+.ory-civilization-emblem__symbol.is-still {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  #oryvanth-top
+  .ory-civilization-emblem__symbol {
+    animation: none !important;
+  }
+
+  #oryvanth-top
+  .ory-civilization__explore {
+    transition: none !important;
+  }
+}
+
+/* ==========================================================
+   END — EMBLEM-CENTERED CIVILIZATIONAL IDENTITY
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
