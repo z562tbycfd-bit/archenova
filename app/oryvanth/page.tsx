@@ -253,7 +253,6 @@ export default function OryvanthCivilizationPage() {
           >
             EXPLORE CIVILIZATION
 
-            <span aria-hidden="true">↓</span>
           </a>
 
         </div>
