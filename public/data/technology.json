@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-11-26T22:51:50.120Z",
+  "updated": "2026-11-27T04:51:11.697Z",
   "items": [
     {
       "source": "STAT",
@@ -46,6 +46,24 @@
       "ts": 1795698600000,
       "publishedAt": "2026-11-26T13:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Ozone hole one of the largest in decades",
+      "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-5p/ozone-hole-one-of-the-largest-in-decades",
+      "summary": "In contrast to the 2025 seasonal ozone hole above Antarctica, which was the fifth smallest since 1992, this year’s ozone hole ranks as one of the largest in 48 years.",
+      "ts": 1795698000000,
+      "publishedAt": "2026-11-26T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Watch live: Gaia releases its largest-ever goldmine of cosmic data",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/gaia/watch-live-gaia-releases-its-largest-ever-goldmine-of-cosmic-data",
+      "summary": "Join the European Space Agency and Gaia mission representatives on Wednesday 2 December for the unveiling of Gaia Data Release 4, the mission’s first principal data release.",
+      "ts": 1795696742000,
+      "publishedAt": "2026-11-26T12:39:02.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -790,24 +808,6 @@
       "title": "Proxy Metrics Can Hide Downstream Collapse: A Case Study on Compressed Cellular Segmentation",
       "url": "https://arxiv.org/abs/2611.31243",
       "summary": "arXiv:2611.31243v1 Announce Type: new Abstract: Post-training compression of vision models is commonly screened using output-level proxies such as normalized RMSE (NRMSE), cosine similarity, and flow angular error. We ev…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Ranking honeybee breeder colonies: a probabilistic method using vine copulas to consider multiple criteria",
-      "url": "https://arxiv.org/abs/2611.31322",
-      "summary": "arXiv:2611.31322v1 Announce Type: new Abstract: Ranking honeybee colonies according to multiple performance criteria is central to selection in bee breeding, but deterministic scores provide limited information about how…",
-      "ts": 1795582800000,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Turbulent Epidemics: Scale-dependent Fluctuations as a Probe of Population Heterogeneity",
-      "url": "https://arxiv.org/abs/2611.31334",
-      "summary": "arXiv:2611.31334v1 Announce Type: new Abstract: Heterogeneous dynamics, including phenomena such as superspreading and clustering, is a hallmark of many infectious diseases. A key challenge lies in identifying observable…",
       "ts": 1795582800000,
       "publishedAt": "2026-11-25T05:00:00.000Z",
       "categoryId": "bio"

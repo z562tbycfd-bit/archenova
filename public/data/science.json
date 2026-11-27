@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-11-26T22:51:47.088Z",
+  "updated": "2026-11-27T04:51:08.023Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Digital access to early music",
+      "url": "https://phys.org/news/2026-11-digital-access-early-music.html",
+      "summary": "What may look to modern readers like a form of secret code in fact opens the door to a fascinating world of historical music: German lute tablature. Developed specifically for the Renaissance lute, this rich notational t…",
+      "ts": 1795741201000,
+      "publishedAt": "2026-11-27T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why molecular cage catalysts show enormous differences in performance",
+      "url": "https://phys.org/news/2026-11-molecular-cage-catalysts-enormous-differences.html",
+      "summary": "Chemistry researchers have developed a new way to identify and understand highly effective artificial enzyme-like catalysts using powerful \"molecular cages\" that mimic the behavior of nature's enzymes. These tiny, hollow…",
+      "ts": 1795735202000,
+      "publishedAt": "2026-11-26T23:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "DESTINY model tracks molecular chemistry on uneven, ice-covered grains in interstellar space",
@@ -783,22 +799,6 @@
       "title": "Source Detection in Complex Networks: Observability, Identifiability, and Inference Frameworks",
       "url": "https://arxiv.org/abs/2611.34652",
       "summary": "arXiv:2611.34652v1 Announce Type: new Abstract: Tracing diffusion to its origin is a central inverse problem in complex networks, with applications ranging from epidemic investigation and information spreading to cyber i…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrostatic effects on settling cloud droplets: from pair collisions to size distribution evolution",
-      "url": "https://arxiv.org/abs/2611.34676",
-      "summary": "arXiv:2611.34676v1 Announce Type: new Abstract: We investigate how droplet charge and a uniform vertical electric field influence collisions between cloud droplets settling in still air and how these collisions shape the…",
-      "ts": 1795669200000,
-      "publishedAt": "2026-11-26T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automatic dual basis sets for self-consistent field calculations",
-      "url": "https://arxiv.org/abs/2611.34694",
-      "summary": "arXiv:2611.34694v1 Announce Type: new Abstract: Density functional theory (DFT) has long been the workhorse of electronic structure theory, and it is experiencing a new boom thanks to big data applications and machine le…",
       "ts": 1795669200000,
       "publishedAt": "2026-11-26T05:00:00.000Z"
     }
