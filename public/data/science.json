@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-11-27T12:39:22.796Z",
+  "updated": "2026-11-27T14:46:40.313Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Constantly following war-related news can cause worry and anxiety",
+      "url": "https://phys.org/news/2026-11-constantly-war-news-anxiety.html",
+      "summary": "\"If a student is very confident about their ability to cope even in difficult situations, following war-related news will not cause them much anxiety. Confidence in one's ability to cope can therefore help protect agains…",
+      "ts": 1795790406000,
+      "publishedAt": "2026-11-27T14:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How ancient builders helped the Lighthouse of Alexandria withstand 18 earthquakes",
+      "url": "https://phys.org/news/2026-11-ancient-builders-lighthouse-alexandria-earthquakes.html",
+      "summary": "More than 2,000 years after it was built, the legendary Lighthouse of Alexandria is being brought back to life through scientific research and the use of virtual universes. For the first time, a scientifically complete 3…",
+      "ts": 1795790402000,
+      "publishedAt": "2026-11-27T14:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The structure of large corporations changes the rules of innovation",
+      "url": "https://phys.org/news/2026-11-large-corporations.html",
+      "summary": "Why do two large multinationals operating in the same industry choose completely different organizational structures? And why are some subsidiaries in direct contact with the parent company, while others are separated fr…",
+      "ts": 1795789806000,
+      "publishedAt": "2026-11-27T14:30:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The first flash of a dying star can reveal its hidden surroundings",
+      "url": "https://phys.org/news/2026-11-dying-star-reveal-hidden.html",
+      "summary": "When a massive star dies, the universe does not always announce it with the familiar, slowly expanding glow of a supernova. Its very first signal can be a dazzling, short-lived flash of invisible light—a cosmic camera fl…",
+      "ts": 1795789201000,
+      "publishedAt": "2026-11-27T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Roller-coaster flight reveals hidden electricity in clouds",
+      "url": "https://phys.org/news/2026-11-roller-coaster-flight-reveals-hidden.html",
+      "summary": "Measuring the electric charge in widespread, dull gray clouds could help scientists better understand droplets within them, a new study suggests.",
+      "ts": 1795788008000,
+      "publishedAt": "2026-11-27T14:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Remote sensing maps rubber yields on Hainan Island",
+      "url": "https://phys.org/news/2026-11-remote-rubber-yields-hainan-island.html",
+      "summary": "A new study has developed a method to estimate rubber yields across Hainan Island, one of China's main natural rubber–producing regions. Using high-resolution remote sensing data, meteorological data and a limited set of…",
+      "ts": 1795788002000,
+      "publishedAt": "2026-11-27T14:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A small galaxy's giant dark matter core challenges the standard cosmological model",
+      "url": "https://phys.org/news/2026-11-small-galaxy-giant-dark-core.html",
+      "summary": "New findings show that a nearby dwarf galaxy, UGCA 320, may challenge some predictions of the widely accepted cosmological model of the universe. By combining observations from the MUSE instrument with radio measurements…",
+      "ts": 1795786810000,
+      "publishedAt": "2026-11-27T13:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Measuring surprise in online attention",
+      "url": "https://phys.org/news/2026-11-online-attention.html",
+      "summary": "The difference between attention and surprise matters when public-interest forecasts guide media planning or decisions about the capacity needed to handle traffic. The paper, presented at the IEEE Technology and Engineer…",
+      "ts": 1795786806000,
+      "publishedAt": "2026-11-27T13:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Winner takes it all? Study highlights rise of zero-sum politics",
+      "url": "https://phys.org/news/2026-11-winner-highlights-sum-politics.html",
+      "summary": "A growing tendency to view politics as a battle in which one group can only succeed at another's expense could be slowing economic growth and eroding support for Western democracies, according to new research by King's C…",
+      "ts": 1795785605000,
+      "publishedAt": "2026-11-27T13:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cosmology technique inspires better characterization of ocean swirls and waves",
+      "url": "https://phys.org/news/2026-11-cosmology-technique-characterization-ocean-swirls.html",
+      "summary": "A new study from Caltech uses a mathematical framework borrowed from cosmology to analyze ocean data and characterize individual flow features in the churning chaos. With the technique, the researchers are able to measur…",
+      "ts": 1795785601000,
+      "publishedAt": "2026-11-27T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New soil test could help farmers avoid costly crop damage",
+      "url": "https://phys.org/news/2026-11-soil-farmers-crop.html",
+      "summary": "Herbicides are essential for controlling weeds, but chemicals remaining in the soil after application can damage crops planted in subsequent seasons, particularly during dry conditions.",
+      "ts": 1795784411000,
+      "publishedAt": "2026-11-27T13:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drones offer a new view of wildlife health. But what are they missing?",
+      "url": "https://phys.org/news/2026-11-drones-view-wildlife-health.html",
+      "summary": "Drones are transforming how scientists study wildlife, allowing researchers to photograph and measure animals in their natural environments, monitor larger populations and collect observations with less disturbance. Whil…",
+      "ts": 1795784401000,
+      "publishedAt": "2026-11-27T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bushfire disaster ignites citizen science tourism",
+      "url": "https://phys.org/news/2026-11-bushfire-disaster-ignites-citizen-science.html",
+      "summary": "The devastating Black Summer wildfires on Kangaroo Island accelerated interest in citizen science tourism—a movement gaining momentum as climate-related disasters place unprecedented pressure on native species and landsc…",
+      "ts": 1795783801000,
+      "publishedAt": "2026-11-27T12:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nonlinear optical lattice boosts spatial coherence by concentrating light in a single mode",
+      "url": "https://phys.org/news/2026-11-nonlinear-optical-lattice-boosts-spatial.html",
+      "summary": "Light waves can have varying degrees of coherence, which means that the consistency of the relationship between their phases across space or time can differ. Reliable methods to enhance the coherence of light could pave …",
+      "ts": 1795783210000,
+      "publishedAt": "2026-11-27T12:40:10.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Study finds lasting changes in daily mobility patterns across Latin America after COVID-19",
@@ -687,118 +799,6 @@
       "title": "Quantum Machine Learning for Signature Forgery Detection",
       "url": "https://arxiv.org/abs/2611.33163",
       "summary": "arXiv:2611.33163v1 Announce Type: cross Abstract: Offline handwritten signatures remain a primary behavioural biometric in legal and financial documents. Detecting skilled forgeries from a static raster image is hard bec…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Psychophysics of Duration Perception in Multimodal Large Language Models",
-      "url": "https://arxiv.org/abs/2611.33176",
-      "summary": "arXiv:2611.33176v1 Announce Type: cross Abstract: Studies of time perception in language models focus mainly on text-based settings. Yet multimodal models are increasingly used for tasks that require perceiving the passa…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Neighbor Crowding Predicts Feature Stability in Sparse Autoencoders",
-      "url": "https://arxiv.org/abs/2611.33182",
-      "summary": "arXiv:2611.33182v1 Announce Type: cross Abstract: Sparse Autoencoders (SAEs) offer an approach to identify language model representations by breaking apart polysemantic features into more sparse, interpretable ones. Yet,…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "REI: Learning Ideation from Repository Evolution",
-      "url": "https://arxiv.org/abs/2611.33183",
-      "summary": "arXiv:2611.33183v1 Announce Type: cross Abstract: As AI systems become increasingly capable of executing and evaluating experiments, ideation is emerging as a bottleneck in automated scientific and engineering iteration.…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Semantic Density Does Not Predict Agent-Memory Collapse",
-      "url": "https://arxiv.org/abs/2611.33184",
-      "summary": "arXiv:2611.33184v1 Announce Type: cross Abstract: Persistent textual memory can improve LLM agents, but repeated updates can erode task performance. We ask whether memory-store statistics warn before held-out accuracy de…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Dynamics of Collective Diversity in Human-AI Co-Creation for Creative Tasks",
-      "url": "https://arxiv.org/abs/2611.33192",
-      "summary": "arXiv:2611.33192v1 Announce Type: cross Abstract: Generative AI systems are increasingly deployed at scale to support human users in creative tasks across a variety of domains. However, as more users adopt the same AI ag…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Formalization, Transparency, and Collusion in Open-Source Game Theory",
-      "url": "https://arxiv.org/abs/2611.33193",
-      "summary": "arXiv:2611.33193v1 Announce Type: cross Abstract: Cooperation among AI agents will undermine alignment protocols when it takes the form of collusion. Under these protocols, agents often have some information about one an…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Verified experience improves materials prediction with large language models",
-      "url": "https://arxiv.org/abs/2611.33195",
-      "summary": "arXiv:2611.33195v1 Announce Type: cross Abstract: Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized singl…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Extraneous Cognitive Load in Large Language Models",
-      "url": "https://arxiv.org/abs/2611.33197",
-      "summary": "arXiv:2611.33197v1 Announce Type: cross Abstract: Cognitive Load Theory (CLT) shows that human problem-solving is affected by both intrinsic load, arising from task difficulty, and extraneous load, arising from how task …",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "UniMoE-CP: Unified Conditional Waveform Prediction Across Measured Optical Wireless Links",
-      "url": "https://arxiv.org/abs/2611.33198",
-      "summary": "arXiv:2611.33198v1 Announce Type: cross Abstract: Shared prediction across measured optical wireless links requires a common model to accommodate link-dependent waveform dynamics. This paper studies unified learning for …",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The AI Disclosure Paradox: Operational Disclosure and the Rise of Corporate AI Narratives",
-      "url": "https://arxiv.org/abs/2611.33201",
-      "summary": "arXiv:2611.33201v1 Announce Type: cross Abstract: AI-related corporate disclosure can expand while becoming less concentrated on current use. Across U.S. SEC filings from 2017 to 2025, AI-related passage intensity increa…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "How Many Samples Is RL Worth? Best-of-N versus RL Post-Training for Text-to-Image Models",
-      "url": "https://arxiv.org/abs/2611.33232",
-      "summary": "arXiv:2611.33232v1 Announce Type: cross Abstract: Reinforcement learning (RL) on a reward that can be checked automatically has become a common last step in the training of text-to-image models. A simpler way to get more…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Diagnostically Meaningful, Privacy-aware Synthetic Chest CT via Class-Conditional Latent Sampling in Diffusion Autoencoders",
-      "url": "https://arxiv.org/abs/2611.33234",
-      "summary": "arXiv:2611.33234v1 Announce Type: cross Abstract: Large, well-annotated datasets are essential for developing medical artificial intelligence models, yet data sharing is often restricted by privacy regulations. Synthetic…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "KiRA: Kronecker Input-Gated Rank Adaptation for Parameter-Efficient Fine-Tuning of Pretrained Models",
-      "url": "https://arxiv.org/abs/2611.33236",
-      "summary": "arXiv:2611.33236v1 Announce Type: cross Abstract: Full fine-tuning of large pretrained models is expensive, and parameter-efficient fine-tuning (PEFT) is the standard alternative. Most PEFT methods use low-rank updates, …",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Sequential Testing on Complex and High Dimensional Data Streams Leveraging Unsupervised Model Errors",
-      "url": "https://arxiv.org/abs/2611.33238",
-      "summary": "arXiv:2611.33238v1 Announce Type: cross Abstract: We propose two general, distribution-free test statistics for binary Sequential Hypothesis Testing (SHT) and Sequential Change Point Detection (SCPD) respectively, in str…",
       "ts": 1795755600000,
       "publishedAt": "2026-11-27T05:00:00.000Z"
     }

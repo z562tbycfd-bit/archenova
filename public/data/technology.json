@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-11-27T12:39:31.231Z",
+  "updated": "2026-11-27T14:46:43.808Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+      "url": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Re…",
+      "ts": 1795784400000,
+      "publishedAt": "2026-11-27T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "16 Days of Activism: UNHCR warns over deep funding cuts to vital protection work",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168888",
+      "summary": "Serious funding cuts are severely weakening protection for refugee and stateless women and girls and others at risk of gender-based violence (GBV), like Mariam, who survived a decade of captivity and rape at the hands of…",
+      "ts": 1795780800000,
+      "publishedAt": "2026-11-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "United Nations News",
       "title": "Putting survivors at the centre of gender-based violence services",
@@ -792,24 +810,6 @@
       "summary": "A type of muscular dystrophy that was long ignored has its first drug — and it could earn BridgeBio a billion dollars a year.",
       "ts": 1795469022000,
       "publishedAt": "2026-11-23T21:23:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "ts": 1795468800000,
-      "publishedAt": "2026-11-23T21:20:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "BCR-MERFISH Reveals Diversity and Spatial Organization of Antibody-Producing Cells",
-      "url": "https://www.genengnews.com/topics/omics/bcr-merfish-reveals-diversity-and-spatial-organization-of-antibody-producing-cells/",
-      "summary": "BCR-MERFISH is a new imaging technology that maps antibody-producing immune cells and their diversity within tissues, offering new insights into immune responses, inflammation, and diseases such as Crohn’s disease. The p…",
-      "ts": 1795468379000,
-      "publishedAt": "2026-11-23T21:12:59.000Z",
       "categoryId": "bio"
     }
   ],
