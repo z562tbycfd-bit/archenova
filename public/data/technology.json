@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-11-27T14:46:43.808Z",
+  "updated": "2026-11-27T23:16:23.657Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+      "url": "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss",
+      "summary": "The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns.",
+      "ts": 1795795254000,
+      "publishedAt": "2026-11-27T16:00:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The stories we’re grateful for this year",
+      "url": "https://www.statnews.com/2026/11/27/favorite-stat-stories-health-news-morning-rounds/?utm_campaign=rss",
+      "summary": "STAT staffers have put together a list of the stories we’re thankful for this year — check out our favorites.",
+      "ts": 1795794545000,
+      "publishedAt": "2026-11-27T15:49:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates",
+      "url": "https://spacenews.com/governments-invest-71-8b-in-space-defense-as-militarization-of-space-accelerates/",
+      "summary": "Paris, France | November 2026 — Novaspace’s Space Defense & Security, 2nd Edition finds that governments invested approximately $71.8 billion in space defense and security activities globally in 2025, reflecting […] The …",
+      "ts": 1795793722000,
+      "publishedAt": "2026-11-27T15:35:22.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+      "summary": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026…",
+      "ts": 1795791660000,
+      "publishedAt": "2026-11-27T15:01:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "First IAEA Fact-Finding Mission to Cabo Verde Maps Next Steps",
+      "url": "http://www.iaea.org/newscenter/news/first-iaea-fact-finding-mission-to-cabo-verde-maps-next-steps",
+      "summary": "",
+      "ts": 1795791325000,
+      "publishedAt": "2026-11-27T14:55:25.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Here are some health AI conversation starters for the holidays",
+      "url": "https://www.statnews.com/2026/11/27/health-ai-conversation-starters-for-holidays-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis: Health stories that can be conversation starters at family gatherings during for the holidays.",
+      "ts": 1795791262000,
+      "publishedAt": "2026-11-27T14:54:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+      "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+      "summary": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigati…",
+      "ts": 1795789320000,
+      "publishedAt": "2026-11-27T14:22:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA SMR School in the Republic of Korea Highlights Pathways to Deployment",
+      "url": "http://www.iaea.org/newscenter/news/iaea-smr-school-in-the-republic-of-korea-highlights-pathways-to-deployment",
+      "summary": "From plant design and licensing to manufacturing and construction, participants in the most recent edition of the IAEA’s Small Modular Reactor (SMR) School gained firsthand insights into the capabilities needed to bring …",
+      "ts": 1795788153000,
+      "publishedAt": "2026-11-27T14:02:33.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
@@ -738,78 +810,6 @@
       "summary": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care.",
       "ts": 1795512600000,
       "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier",
-      "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss",
-      "summary": "In Alaska, a small network of hospitals is betting on AI tools to triage stroke patients and get them to the right care, faster.",
-      "ts": 1795512600000,
-      "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Euclid breaks own quasar record by 40 million years",
-      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
-      "summary": "The European Space Agency’s Euclid space telescope has discovered the most distant quasar to date: a rare 360 million-sun-mass galactic core seen just 630 million years after the Big Bang. The discovery breaks Euclid’s o…",
-      "ts": 1795507200000,
-      "publishedAt": "2026-11-24T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare estimates $9.2 billion in savings from third round of negotiated drug prices",
-      "url": "https://www.statnews.com/2026/11/23/medicare-drug-price-negotiations-announcement-third-round/?utm_campaign=rss",
-      "summary": "The Trump administration said that the federal government will save $9.2 billion on drugs purchased through Medicare next year as a result of price negotiations.",
-      "ts": 1795479588000,
-      "publishedAt": "2026-11-24T00:19:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Intentful uses dots to make more time for growth",
-      "url": "https://openai.com/business/customer-stories/intentful-dots",
-      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
-      "ts": 1795478400000,
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How iFood scales coding agents across 15,000 repositories",
-      "url": "https://openai.com/business/customer-stories/ifood",
-      "summary": "",
-      "ts": 1795478400000,
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Clay helps sales teams win with Codex and ChatGPT",
-      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
-      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-      "ts": 1795478400000,
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Poxvirus Machinery Mapped with Electron Microscopy Shows “Paired Engines”",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/poxvirus-machinery-mapped-with-electron-microscopy-shows-paired-engines/",
-      "summary": "Cryo-electron tomography captured key molecular machinery directly inside the poxvirus core, revealing paired RNA polymerases poised for activation and a putative portal for exporting viral messages. The post Poxvirus Ma…",
-      "ts": 1795477824000,
-      "publishedAt": "2026-11-23T23:50:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Limb-girdle muscular dystrophy gets its first FDA-approved drug, from BridgeBio",
-      "url": "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/?utm_campaign=rss",
-      "summary": "A type of muscular dystrophy that was long ignored has its first drug — and it could earn BridgeBio a billion dollars a year.",
-      "ts": 1795469022000,
-      "publishedAt": "2026-11-23T21:23:42.000Z",
       "categoryId": "bio"
     }
   ],
