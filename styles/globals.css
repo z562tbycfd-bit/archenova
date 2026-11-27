@@ -81032,6 +81032,26 @@ and (max-height: 500px) {
 
 
 
+/* ==========================================================
+   ORYVANTH CIVILIZATION
+   EDITORIAL PARAGRAPH RHYTHM
+========================================================== */
+
+#oryvanth-top
+.ory-civilization__manifesto p + p,
+
+#oryvanth-top
+.ory-civilization__construction-header p + p,
+
+#oryvanth-top
+.ory-civilization__closing p + p {
+  margin-top: 1.5em;
+}
+
+
+
+
+
 
 
 
