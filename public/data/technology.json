@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-11-27T23:16:23.657Z",
+  "updated": "2026-11-28T06:52:04.389Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/",
+      "summary": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1795842300000,
+      "publishedAt": "2026-11-28T05:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
@@ -799,15 +808,6 @@
       "title": "Opinion: Genomic testing is too fragmented. Instead, we should test once and evaluate often",
       "url": "https://www.statnews.com/2026/11/24/genomic-testing-sequenced-once-tested-often/?utm_campaign=rss",
       "summary": "“It’s time to consolidate testing by sequencing genomes once and reevaluating them when needed,” a genetic counselor writes.",
-      "ts": 1795512600000,
-      "publishedAt": "2026-11-24T09:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
-      "summary": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care.",
       "ts": 1795512600000,
       "publishedAt": "2026-11-24T09:30:00.000Z",
       "categoryId": "bio"

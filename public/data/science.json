@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-11-27T23:16:21.461Z",
+  "updated": "2026-11-28T06:52:01.070Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers explore the use of AI and smart sensors to improve food safety quickly, affordably",
+      "url": "https://phys.org/news/2026-11-explore-ai-smart-sensors-food.html",
+      "summary": "The smartJAN project, developed by the eVIDA research group at the University of Deusto in collaboration with Kernet and Fundación Miranda, has completed the development of a functional prototype capable of detecting the…",
+      "ts": 1795839602000,
+      "publishedAt": "2026-11-28T04:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Event Horizon Telescope views the dynamics and geometry of a black hole jet in extreme detail",
+      "url": "https://phys.org/news/2026-11-event-horizon-telescope-views-dynamics.html",
+      "summary": "The Event Horizon Telescope (EHT), a massive international collaboration of scientists and radio observatories, is like the gift that keeps on giving. In 2019, the EHT Collaboration gave us the first image of a black hol…",
+      "ts": 1795833601000,
+      "publishedAt": "2026-11-28T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Should space data centers run on solar panels, nuclear reactors or both?",
+      "url": "https://phys.org/news/2026-11-space-centers-solar-panels-nuclear.html",
+      "summary": "The last few days we've been covering a series of papers by Dr. Slava Turyshev of NASA's Jet Propulsion Laboratory about the constraints surrounding the use of orbital data centers in space. One that has come up repeated…",
+      "ts": 1795830001000,
+      "publishedAt": "2026-11-28T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New technologies help Natural History Museum uncover 92 species in its transformed gardens",
+      "url": "https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html",
+      "summary": "The Natural History Museum's transformed gardens in South Kensington are revealing new insights into London's urban wildlife. Among the 92 species recorded at the site for the first time between its reopening in July 202…",
+      "ts": 1795825207000,
+      "publishedAt": "2026-11-28T00:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "RNA discovery reveals how gut bacterium adapts to life in intestinal mucus",
+      "url": "https://phys.org/news/2026-11-rna-discovery-reveals-gut-bacterium.html",
+      "summary": "The mucus layer in the human gut is a tough place for bacteria: nutrients are scarce, and conditions are harsh. How do bacteria adapt to such extreme environments? Researchers at the Helmholtz Institute for RNA-based Inf…",
+      "ts": 1795824001000,
+      "publishedAt": "2026-11-28T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Engineering electrolyte ion solvation structures for next-generation batteries",
+      "url": "https://www.nature.com/articles/s41467-026-79910-x",
+      "summary": "",
+      "ts": 1795824000000,
+      "publishedAt": "2026-11-28T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI simulates electron hops over far longer times than conventional quantum calculations",
+      "url": "https://phys.org/news/2026-11-ai-simulates-electron-longer-conventional.html",
+      "summary": "To predict how a material will behave, we need to know which atoms are located where. This allows us, for example, to explain whether a material is suitable as a catalyst for certain chemical reactions. But often, that i…",
+      "ts": 1795822805000,
+      "publishedAt": "2026-11-27T23:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Targeted conversion of carbon dioxide into chemical feedstocks: CO₂ helps shape its own catalyst",
+      "url": "https://phys.org/news/2026-11-conversion-carbon-dioxide-chemical-feedstocks.html",
+      "summary": "Electrochemists at the University of Duisburg-Essen have discovered through computer simulations that carbon dioxide (CO₂) helps shape the surface of its own catalyst when the catalyst is restructured using voltage pulse…",
+      "ts": 1795822801000,
+      "publishedAt": "2026-11-27T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rocks under the lens: A simple microscope opens new possibilities for quantitative rock analysis",
+      "url": "https://phys.org/news/2026-11-lens-simple-microscope-possibilities-quantitative.html",
+      "summary": "Rocks hold a wealth of information about Earth's history. The size, shape and orientation of the mineral grains that make them up can reveal how rocks formed, deformed and changed deep beneath the surface. However, colle…",
+      "ts": 1795821610000,
+      "publishedAt": "2026-11-27T23:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lab experiments suggest bat RSV can enter human cells, but existing antibodies block it",
+      "url": "https://phys.org/news/2026-11-lab-rsv-human-cells-antibodies.html",
+      "summary": "Respiratory syncytial virus (RSV) causes severe respiratory disease and is responsible for numerous deaths each year. A research team led by DZIF scientist Dr. Wendy K. Jo and DZIF scientist Dr. Jan Felix Drexler at Char…",
+      "ts": 1795821601000,
+      "publishedAt": "2026-11-27T23:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Battery-free implant harvests ultrasound energy and glows to reveal its condition",
@@ -719,86 +799,6 @@
       "title": "RadOncGym: An Agent-Based Framework for Radiotherapy Dose-Mimicking Optimization",
       "url": "https://arxiv.org/abs/2611.33821",
       "summary": "arXiv:2611.33821v1 Announce Type: new Abstract: AI dose-prediction models generate patient-specific 3D dose distributions from patient anatomy, providing an important intermediate representation for automated radiotherap…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MetaDecomp: Adaptive Task Decomposition via Meta-Learned Procedural Memory",
-      "url": "https://arxiv.org/abs/2611.33822",
-      "summary": "arXiv:2611.33822v1 Announce Type: new Abstract: Reusing past experience in long-horizon tasks requires more than storing successful procedures: Language agents must distinguish which procedures apply and what work remain…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Can Its Own Misses Teach an MLLM to Find Small Brain Metastases?",
-      "url": "https://arxiv.org/abs/2611.33836",
-      "summary": "arXiv:2611.33836v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are becoming general readers of medical images, yet they remain weak at locating small abnormalities. Brain metastases expose this …",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "FORK: Co-Evolving Safe Disclosure and Decision Skills Against Attackers Who Read Every Refusal",
-      "url": "https://arxiv.org/abs/2611.33879",
-      "summary": "arXiv:2611.33879v1 Announce Type: new Abstract: When a guardrail rejects an LLM agent's action, its message reaches any attacker observing the trajectory: a fixed refusal leaves benign users unable to recover, whereas an…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "EATS: Scaling Tool-Use Experience for Medical Reasoning Agents",
-      "url": "https://arxiv.org/abs/2611.33897",
-      "summary": "arXiv:2611.33897v1 Announce Type: new Abstract: Medical reasoning agents combine large language model (LLM) reasoning with clinical workflows and specialized neural tools. However, general-purpose LLMs receive limited tr…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "EGSE: Evidence-Grounded Skill Evolution for Medical Reasoning Agents",
-      "url": "https://arxiv.org/abs/2611.33909",
-      "summary": "arXiv:2611.33909v1 Announce Type: new Abstract: Medical reasoning agents combine foundation models with specialized tools to interpret medical images, yet reusing their historical experience remains challenging. A correc…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench",
-      "url": "https://arxiv.org/abs/2611.33943",
-      "summary": "arXiv:2611.33943v1 Announce Type: new Abstract: Agent skills are directories of instructions, reference materials, and scripts loaded on demand by coding agents. According to SkillsBench, although human-curated skills ca…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Should Service Requirements Be Scalarized or Constrained When Minimizing Costs? A Case Study on HVAC Control",
-      "url": "https://arxiv.org/abs/2611.33946",
-      "summary": "arXiv:2611.33946v1 Announce Type: new Abstract: Automated decision systems, from learned policies to model-based optimizers, often minimize costs such as energy or resource use while meeting a service requirement, for ex…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "PatternMiner: Automated Mathematical Discovery Through LLM-Guided Training and Interpretation of Small Models",
-      "url": "https://arxiv.org/abs/2611.33966",
-      "summary": "arXiv:2611.33966v1 Announce Type: new Abstract: There are several approaches to AI-driven mathematical discovery. One of these involves the use of large language models (LLMs) to resolve well-specified conjectures via te…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Honest but Wrong: Formalizing Retraction in the Ethics of Speech Acts",
-      "url": "https://arxiv.org/abs/2611.34011",
-      "summary": "arXiv:2611.34011v1 Announce Type: new Abstract: A speaker who asserts honestly may later discover that its assertion was false. Such erroneous truths are not lies, yet they raise the question of whether, and on which mor…",
-      "ts": 1795755600000,
-      "publishedAt": "2026-11-27T05:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Few-Shot Adaptation of Vision-Language Models via Agentic Model Editing",
-      "url": "https://arxiv.org/abs/2611.34036",
-      "summary": "arXiv:2611.34036v1 Announce Type: new Abstract: Few-shot adaptation transfers pretrained Vision-Language Models (VLMs) to new domains using a small set of labeled images. Most methods fit prompts, representations, or cla…",
       "ts": 1795755600000,
       "publishedAt": "2026-11-27T05:00:00.000Z"
     }
